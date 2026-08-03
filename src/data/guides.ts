@@ -690,4 +690,72 @@ export const guides: Guide[] = [
 		image: '/images/radiology-tech-salary-chart.svg',
 		imageAlt: 'Bar chart showing radiologic technologist annual wage by percentile: 10th percentile $52,360, median $77,660, 90th percentile $106,990, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'crna-salary',
+		category: 'Salary Guide',
+		title: 'CRNA Salary: BLS Wage Data for Nurse Anesthetists (2026)',
+		description: 'The median CRNA salary is $223,210 a year, the highest of any nursing role BLS tracks. Here is what drives the pay, and why entry now requires a doctorate.',
+		published: '2026-08-04',
+		updated: '2026-08-04',
+		socCode: '29-1151',
+		coreSummary: 'The median annual wage for Certified Registered Nurse Anesthetists (CRNAs) was $223,210 in May 2024, according to the Bureau of Labor Statistics, well above the $129,210 median for nurse practitioners and $128,790 for nurse midwives, the two other advanced practice nursing roles BLS tracks on the same page. Employment is projected to grow 9% from 2024 to 2034, adding roughly 4,600 jobs, and as of 2025 every accredited entry program now awards a doctoral degree rather than the master\'s degree BLS still lists as the typical entry-level education.',
+		sections: [
+			{
+				heading: 'What CRNAs earn, and why this page needs some unpacking',
+				body: [
+					"BLS tracks Certified Registered Nurse Anesthetists (CRNAs) under SOC code 29-1151, and reports a median annual wage of $223,210 for May 2024, the highest of any occupation on this site so far. That figure sits on a BLS page titled \"Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners,\" which covers all three advanced practice registered nurse (APRN) roles together. The page does break out a separate median wage for each: nurse practitioners at $129,210 and nurse midwives at $128,790, both well below the CRNA figure, which reflects the more extensive additional training and the surgical/procedural setting CRNAs typically work in.",
+					"That combined-page structure matters for what this page can and cannot report precisely. BLS publishes 10th and 90th percentile pay figures for the three roles as a single group (the bottom 10% earned less than $98,520 and the top 10% earned more than $217,270), not broken out for CRNAs alone, and it does not publish an industry-specific wage table (hospital vs. outpatient vs. office-based) specific to nurse anesthetists either. Rather than present that combined-group range as if it described CRNA pay specifically, this page leaves those two data points out. The median wage and the employment and job-growth figures below, by contrast, are broken out by BLS at the individual-occupation level and can be attributed to CRNAs specifically.",
+					"For context on how CRNA pay compares with other clinical roles that require graduate-level training beyond a bachelor's degree, see this site's guides to [pharmacist salary](/pharmacist-salary/) and [physical therapist salary](/physical-therapist-salary/), both licensed clinical professions with their own BLS-reported wage data.",
+				],
+			},
+			{
+				heading: 'What the job involves, and the path to get there',
+				body: [
+					'Per BLS, nurse anesthetists administer anesthesia and provide care before, during, and after surgical, therapeutic, diagnostic, and obstetrical procedures, monitoring a patient\'s vital signs and adjusting anesthesia as needed throughout. The role also involves pain management and some emergency services. Entry requires a registered nursing license, a bachelor\'s degree, and, per BLS, "1 year of experience working as [a] registered nurse in a critical care setting" before admission to an accredited nurse anesthetist program is even possible.',
+					'BLS\'s quick-facts summary for this page still lists "master\'s degree" as the typical entry-level education, and that number is what this site reports as the BLS-published figure. Independently of BLS, the field\'s accrediting body, the Council on Accreditation of Nurse Anesthesia Educational Programs (COA), confirms that as of 2025 every accredited nurse anesthesia program in the country awards a doctoral degree (either a Doctor of Nursing Practice or Doctor of Nurse Anesthesia Practice) rather than a master\'s, with a minimum 36-month full-time program length. That shift happened gradually: COA required all newly matriculating students to be enrolled in a doctoral track starting in 2022, so the transition is now complete for anyone entering the field today, even though BLS\'s summary table has not yet caught up to reflect it.',
+					'After finishing an accredited doctoral program, candidates sit for a national certification exam administered by the National Board of Certification and Recertification for Nurse Anesthetists (NBCRNA, an independent credentialing body, not a BLS-named source) before they can practice as a CRNA and, in most states, use that title to bill for services.',
+					'One question this page deliberately does not answer with a single national figure is whether a CRNA can administer anesthesia without a supervising physician present. That depends on state law, and in some states on the specific hospital or facility\'s own policy layered on top of state law, and it has changed more than once over the past two decades as both federal Medicare rules and individual state legislatures have revisited the question. Reporting a specific count of "independent practice states" here risks going stale within a single legislative session, and different secondary sources currently report noticeably different counts for that reason. Anyone evaluating this for a specific state should confirm the current rule directly with that state\'s board of nursing rather than relying on any one article, including this one.',
+				],
+			},
+			{
+				heading: 'Job outlook, and where CRNA sits within its own occupational family',
+				body: [
+					'BLS projects 9% employment growth for nurse anesthetists specifically from 2024 to 2034, adding roughly 4,600 jobs (from 53,800 to about 58,500). That is a much faster than average pace by BLS\'s own definition for this projection cycle, which classifies 7% growth or higher as "much faster than the average" against an all-occupation average of about 3%. It is worth noting, though, that CRNA growth is the slowest of the three related roles on this BLS page: nurse practitioners are projected to grow 40% (adding roughly 128,400 jobs) and nurse midwives 11% (adding about 900 jobs) over the same decade, even though CRNA pay is the highest of the three. Higher pay and faster growth do not automatically move together within the same occupational family.',
+					'BLS attributes overall APRN employment growth to rising demand for healthcare services tied to an aging population and the growing prevalence of chronic disease, plus a broader shift toward team-based care models in hospitals, physician offices, and ambulatory settings, along with state-level changes expanding what services APRNs are legally permitted to perform. BLS does not publish demand drivers specific to nurse anesthetists alone beyond that general APRN-wide explanation, so this page reports it as such rather than implying it is CRNA-specific reasoning.',
+				],
+			},
+			{
+				heading: 'Reading pay figures for this occupation elsewhere',
+				body: [
+					'Readers comparing this $223,210 median against numbers on other sites should check what each figure actually measures. BLS wage data comes from its Occupational Employment and Wage Statistics survey, which collects reports directly from employer payroll records across a large national sample. Job-search and salary-aggregator sites often rely instead on self-reported figures from a smaller, self-selected pool of users, a collection method that tends to skew toward whoever chooses to submit a number, and that can run noticeably higher or lower than the employer-reported BLS median depending on the site and time period.',
+					'The $223,210 figure is also a single national number, not a state or metro-area figure. BLS does publish more granular state and metropolitan-area wage tables for individual occupations through its separate Occupational Employment and Wage Statistics program, outside the Occupational Outlook Handbook page this article draws from, and pay for this role varies by region for the same general reasons pay varies for most occupations: local cost of living, hospital system density, and regional supply of doctorally trained anesthesia providers relative to surgical volume.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How much do CRNAs make?',
+				answer: 'The Bureau of Labor Statistics reports a median annual wage of $223,210 for nurse anesthetists in May 2024, the highest median of any of the three advanced practice nursing roles (nurse anesthetists, nurse practitioners, nurse midwives) BLS tracks on the same data page.',
+			},
+			{
+				question: 'Do CRNAs need a doctorate degree?',
+				answer: 'BLS\'s own summary table still lists a master\'s degree as the typical entry-level education for this occupation. Independently of BLS, the field\'s accrediting body (COA) confirms that as of 2025 every accredited nurse anesthesia program awards a doctoral degree (DNP or DNAP) rather than a master\'s, a shift that has been phasing in since 2022.',
+			},
+			{
+				question: 'Is CRNA a growing career?',
+				answer: 'BLS projects 9% employment growth for nurse anesthetists from 2024 to 2034, classified as much faster than average, adding roughly 4,600 jobs. That is slower than the 40% growth BLS projects for nurse practitioners over the same period, even though CRNA pay is higher.',
+			},
+			{
+				question: 'How does CRNA pay compare to nurse practitioner or nurse midwife pay?',
+				answer: 'BLS reports a May 2024 median annual wage of $223,210 for nurse anesthetists, compared with $129,210 for nurse practitioners and $128,790 for nurse midwives, the two other roles covered on the same BLS occupational page.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm' },
+			{ label: 'Council on Accreditation of Nurse Anesthesia Educational Programs (COA): doctoral entry-to-practice requirement', url: 'https://www.coacrna.org/about-coa/requirements-to-practice-as-a-nurse-anesthetist-in-the-united-states/' },
+			{ label: 'National Board of Certification and Recertification for Nurse Anesthetists (NBCRNA)', url: 'https://www.nbcrna.com/about-us/history' },
+		],
+		image: '/images/crna-salary-chart.svg',
+		imageAlt: 'Bar chart comparing May 2024 median annual wage across three related APRN roles: Nurse Anesthetists (CRNA) $223,210, Nurse Practitioners $129,210, Nurse Midwives $128,790, based on BLS data.',
+	},
 ];

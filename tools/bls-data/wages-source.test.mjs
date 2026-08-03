@@ -29,6 +29,7 @@ const REQUIRED_SOC_CODES = [
 	'31-9097', // Phlebotomists
 	'53-2031', // Flight Attendants
 	'29-2034', // Radiologic Technologists and Technicians
+	'29-1151', // Nurse Anesthetists
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -152,4 +153,23 @@ test('spot check: Radiologic Technologists and Technicians (29-2034) matches BLS
 	assert.equal(occ.employment, 228000);
 	assert.equal(occ.jobOutlookPct, 4);
 	assert.equal(occ.employmentChange, 9800);
+});
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-04. Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+test('spot check: Nurse Anesthetists (29-1151) matches BLS OOH page', () => {
+	const occ = occupations['29-1151'];
+	assert.equal(occ.medianAnnual, 223210);
+	// This OOH page merges Nurse Anesthetists, Nurse Midwives, and Nurse
+	// Practitioners. Its only 10th/90th percentile figures ($98,520 /
+	// $217,270) are the combined-group range, not specific to nurse
+	// anesthetists alone -- left empty rather than mislabeled as this
+	// occupation's own split (same reasoning as the medianHourly omission
+	// on Radiologic Technologists above).
+	assert.deepEqual(occ.percentiles, {});
+	assert.equal(occ.employment, 53800);
+	// Per-occupation projections table breaks these two figures out by SOC
+	// code (29-1151 specifically), unlike the percentile range above.
+	assert.equal(occ.jobOutlookPct, 9);
+	assert.equal(occ.employmentChange, 4600);
 });

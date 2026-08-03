@@ -228,6 +228,23 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Flight Attendants",
       "sourceUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm",
       "publishedDate": "2025-08-28"
+    },
+    "29-1151": {
+      "title": "Nurse Anesthetists",
+      "medianAnnual": 223210,
+      "percentiles": {},
+      "employment": 53800,
+      "employmentYear": "2024",
+      "jobOutlookPct": 9,
+      "jobOutlookLabel": "Much faster than average",
+      "employmentChange": 4600,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Master's degree",
+      "industryWages": [],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="240" fill="white" />
+	<text x="195" y="30" font-size="16" font-weight="700" fill="#14273f">Median Annual Wage by Related APRN Role (May 2024)</text>
+	<text x="195" y="90" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Nurse Anesthetists (CRNA)</text>
+	<rect x="195" y="73" width="335" height="34" fill="#dcdad2" />
+	<rect x="195" y="73" width="335" height="34" fill="#0f8b7f" />
+	<text x="540" y="95" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$223,210</text>
+	<text x="195" y="150" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Nurse Practitioners</text>
+	<rect x="195" y="133" width="335" height="34" fill="#dcdad2" />
+	<rect x="195" y="133" width="193.9" height="34" fill="#0f8b7f" />
+	<text x="398.9" y="155" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$129,210</text>
+	<text x="195" y="210" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Nurse Midwives</text>
+	<rect x="195" y="193" width="335" height="34" fill="#dcdad2" />
+	<rect x="195" y="193" width="193.3" height="34" fill="#0f8b7f" />
+	<text x="398.3" y="215" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$128,790</text>
+	<text x="195" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national). SOC 29-1151, 29-1171, 29-1161.</text>
+</svg>
