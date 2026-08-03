@@ -28,6 +28,7 @@ const REQUIRED_SOC_CODES = [
 	'29-2032', // Diagnostic Medical Sonographers
 	'31-9097', // Phlebotomists
 	'53-2031', // Flight Attendants
+	'29-2034', // Radiologic Technologists and Technicians
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -134,4 +135,21 @@ test('spot check: Flight Attendants (53-2031) matches BLS OOH page', () => {
 	assert.equal(occ.medianAnnual, 67130);
 	assert.equal(occ.percentiles.p10, 34030);
 	assert.equal(occ.percentiles.p90, 138040);
+});
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-04. Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+test('spot check: Radiologic Technologists and Technicians (29-2034) matches BLS OOH page', () => {
+	const occ = occupations['29-2034'];
+	assert.equal(occ.medianAnnual, 77660);
+	// No medianHourly: the OOH page's only hourly figure ($37.97) is the
+	// combined "Radiologic and MRI Technologists" Quick Facts number
+	// ($78,980/yr / 2,080hrs), not specific to 29-2034 alone -- omitted
+	// rather than published as a fact this page doesn't actually state.
+	assert.equal(occ.medianHourly, undefined);
+	assert.equal(occ.percentiles.p10, 52360);
+	assert.equal(occ.percentiles.p90, 106990);
+	assert.equal(occ.employment, 228000);
+	assert.equal(occ.jobOutlookPct, 4);
+	assert.equal(occ.employmentChange, 9800);
 });

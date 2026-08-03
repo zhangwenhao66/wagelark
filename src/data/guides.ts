@@ -616,4 +616,78 @@ export const guides: Guide[] = [
 		image: '/images/flight-attendant-salary-chart.svg',
 		imageAlt: 'Bar chart showing flight attendant annual wage by percentile: 10th percentile $34,030, median $67,130, 90th percentile $138,040, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'radiology-tech-salary',
+		category: 'Salary Guide',
+		title: 'Radiology Tech Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median radiology tech salary at $77,660 a year. See the full wage range by percentile, by industry, and how the role differs from MRI techs.',
+		published: '2026-08-04',
+		updated: '2026-08-04',
+		socCode: '29-2034',
+		coreSummary: 'The median annual wage for radiologic technologists and technicians was $77,660 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $52,360 while the top 10% earned more than $106,990, and the highest-paying employer category was the federal government, at a median of $93,970.',
+		sections: [
+			{
+				heading: 'What "radiology tech" actually means, and what the role pays',
+				body: [
+					'The Bureau of Labor Statistics tracks this job under the title "Radiologic Technologists and Technicians," SOC code 29-2034, which is the role most people mean when they search "radiology tech": the person who positions patients and operates x-ray and CT equipment. It is a distinct occupation from Magnetic Resonance Imaging (MRI) technologists, who work with different equipment and are tracked separately by BLS (median annual wage $88,180 in May 2024), and from radiologists, who are physicians who interpret the images rather than technicians who capture them. Job postings sometimes use these titles loosely, so the wage figure that applies depends on which specific role is being described.',
+					'For radiologic technologists and technicians specifically, BLS reported a median annual wage of $77,660 in May 2024. The bottom 10% of earners made less than $52,360 a year, while the top 10% made more than $106,990, a spread of roughly $54,600. That range reflects a mix of experience, credential level (a base radiography certification versus additional specialty certifications in CT or mammography), employer type, and region, rather than any single factor. This page\'s Quick Facts box lists a combined hourly figure of $37.97 for the broader "Radiologic and MRI Technologists" grouping (which blends this occupation with the higher-paying MRI technologist role), not a figure specific to radiologic technologists and technicians alone, so it is left out of the numbers above to avoid overstating typical hourly pay for this occupation.',
+					'BLS figures are national medians drawn from its Occupational Employment and Wage Statistics survey, which collects data directly from employers rather than relying on self-reported salary submissions the way some job-search sites do. That distinction matters when comparing this page to other sources: a site built on self-reported figures can skew toward workers motivated to report unusually high or low pay, while employer-reported OEWS data reflects actual payroll records across a much larger, more representative sample. BLS does not publish a state-by-state breakdown on this specific page; readers who need per-state or per-metro figures would need the BLS OEWS state wage tables directly, which break the same occupation down by geography.',
+				],
+			},
+			{
+				heading: 'Why the employer you work for changes the number',
+				body: [
+					'BLS breaks out May 2024 wages by industry, and the differences are large enough to matter when comparing job offers. Federal government employment (excluding the postal service) paid the highest median at $93,970, followed by outpatient care centers at $81,000 and hospitals at $78,560. Medical and diagnostic laboratories paid a median of $76,770, and offices of physicians, often smaller practices with less imaging volume, paid the least of the five categories BLS reports, at $66,060.',
+					'The roughly $28,000 gap between the top and bottom industry categories is wider than the typical spread for allied health roles, and it runs somewhat counter to the assumption that hospital settings pay the most. BLS does not explain why federal employment ranks highest for this specific role; it publishes the wage-by-industry figures without an accompanying explanation. One plausible, unverified factor is that federal employers such as the VA and military treatment facilities generally use standardized General Schedule pay scales rather than the market-rate-by-metro pricing common in private hospitals and physician offices, but that is this article\'s inference, not a claim BLS itself makes.',
+					'These five categories are the industries BLS separately tracks wages for in this occupation on the Occupational Outlook Handbook page; they do not cover every possible employer type, and this page reports wages by industry without also breaking out how many radiologic technologists work in each one. Readers who want a headcount-by-industry breakdown, rather than a wage-by-industry breakdown, would need the BLS OEWS industry tables directly, which is a separate data product from the Handbook page cited here.',
+				],
+			},
+			{
+				heading: 'Licensing and how techs enter the field',
+				body: [
+					'Entry-level education for this role is an associate\'s degree, per BLS, typically from an accredited radiography program that combines classroom instruction with supervised clinical hours. BLS states that most states require radiologic technologists to be licensed or certified, with requirements varying by state, and that the standard path is completing an accredited program and then either passing a state exam or earning certification from a credentialing organization. BLS does not name a specific credentialing body on this page; the American Registry of Radiologic Technologists (ARRT), which administers the field\'s primary Radiography (R) credential, is a separately confirmed, real credentialing organization, not a BLS-sourced detail.',
+					'This credential-gated structure is part of why pay does not simply track years of experience: a tech who adds a specialty certification in computed tomography (CT) or mammography on top of a base radiography credential typically qualifies for higher-paying assignments, since additional certifications expand which equipment and procedures the tech is authorized to operate, though BLS itself does not quantify this effect. For readers comparing adjacent diagnostic-imaging careers, [ultrasound technologists](/how-to-become-an-ultrasound-tech) follow a similarly structured associate-degree-plus-certification path, though sonography uses different equipment and is credentialed through a separate, independently confirmed organization, the American Registry for Diagnostic Medical Sonography (ARDMS).',
+					'Accredited radiography programs generally run about two years at the associate-degree level, combining classroom coursework in anatomy, patient positioning, radiation physics, and safety with supervised clinical hours in an imaging department. That two-year timeframe reflects the standard length of an associate degree generally, not a figure stated on the BLS page or documented in a specific program-duration source; the Joint Review Committee on Education in Radiologic Technology (JRCERT), the field\'s program-accreditation body, publishes accreditation award terms (how long a program\'s accreditation itself stays valid), which is a different thing from how long the program takes a student to complete. This is a formally licensed or certified occupation in most states, not a role someone can be trained into purely on the job, which is why BLS lists "none" for additional on-the-job training beyond the associate degree and clinical training already built into an accredited program.',
+				],
+			},
+			{
+				heading: 'Job outlook and how this compares to other allied health pay',
+				body: [
+					'BLS projects 4% employment growth for radiologic technologists and technicians from 2024 to 2034, faster than the roughly 3% average projected across all occupations, adding an estimated 9,800 jobs over the decade. The broader category that includes MRI technologists is projected to grow faster still, at 5%, with about 15,400 combined openings expected each year on average, reflecting continued demand for diagnostic imaging tied to an aging population and rising rates of chronic disease.',
+					'For context on where this occupation sits within allied health pay generally, another growing licensed field, [physical therapy](/physical-therapist-salary), carries a median annual wage of $101,020, roughly $23,000 above radiologic technology. The gap largely tracks entry education: physical therapy requires a doctoral degree (DPT), while radiologic technology requires only an associate\'s degree and a shorter, less expensive path to a first paycheck. Neither figure predicts what a specific person will earn; both describe national medians for occupations with real variation by state, employer, and specialty certification.',
+					'BLS attributes projected growth in this occupation mainly to demographic trends: an aging population that needs more diagnostic imaging for conditions like falls, fractures, and chronic disease, combined with continued reliance on x-ray and CT imaging as a first-line diagnostic tool across emergency medicine, orthopedics, and primary care. That is a demand-side projection about the healthcare system as a whole, not a forecast about any individual technologist\'s job security, employer, or pay trajectory, and readers evaluating a specific offer should weigh it alongside local job market conditions rather than as a standalone guarantee.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average radiology tech salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for radiologic technologists and technicians was $77,660 in May 2024. "Median" means half of workers in the role earned more and half earned less. BLS does not publish a separate median hourly wage for this specific occupation on this page; the $37.97 hourly figure shown in the page\'s Quick Facts box covers a broader, combined "Radiologic and MRI Technologists" grouping, not radiologic technologists alone.',
+			},
+			{
+				question: 'What is the highest-paying setting for a radiology tech?',
+				answer: 'Among the industry categories BLS tracks for May 2024, federal government employment (excluding the postal service) paid the highest median at $93,970, ahead of outpatient care centers ($81,000), hospitals ($78,560), medical and diagnostic laboratories ($76,770), and offices of physicians ($66,060).',
+			},
+			{
+				question: 'How much do the lowest- and highest-paid radiology techs make?',
+				answer: 'BLS reports that the bottom 10% of radiologic technologists and technicians earned less than $52,360 a year in May 2024, while the top 10% earned more than $106,990. Additional specialty certifications, such as CT or mammography on top of a base radiography credential, are one plausible factor separating higher earners within the field, though BLS itself does not quantify this.',
+			},
+			{
+				question: 'Do radiology techs need to be certified?',
+				answer: 'BLS states that most states require radiologic technologists to be licensed or certified, though requirements vary by state, via completing an accredited program and then passing a state exam or earning certification from a credentialing organization. The American Registry of Radiologic Technologists (ARRT) is the field\'s primary credentialing body in practice, confirmed independently of the BLS page (see Sources).',
+			},
+			{
+				question: 'Is radiologic technology a growing field?',
+				answer: 'BLS projects 4% employment growth for radiologic technologists and technicians from 2024 to 2034, faster than the roughly 3% average projected across all occupations, adding an estimated 9,800 jobs over the decade.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
+			{ label: 'American Registry of Radiologic Technologists (ARRT): Radiography credential', url: 'https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography' },
+			{ label: 'American Registry for Diagnostic Medical Sonography (ARDMS), operated by Inteleos', url: 'https://www.ardms.org/' },
+			{ label: 'Joint Review Committee on Education in Radiologic Technology (JRCERT): program accreditation standards', url: 'https://www.jrcert.org/accreditation-for-students/' },
+		],
+		image: '/images/radiology-tech-salary-chart.svg',
+		imageAlt: 'Bar chart showing radiologic technologist annual wage by percentile: 10th percentile $52,360, median $77,660, 90th percentile $106,990, based on BLS May 2024 data.',
+	},
 ];

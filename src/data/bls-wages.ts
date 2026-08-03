@@ -345,6 +345,48 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/phlebotomists.htm",
 		publishedDate: "2025-08-28"
 	},
+	"29-2034": {
+		socCode: "29-2034",
+		title: "Radiologic Technologists and Technicians",
+		medianAnnual: 77660,
+		percentiles: {
+			p10: 52360,
+			p90: 106990
+		},
+		employment: 228000,
+		employmentYear: "2024",
+		jobOutlookPct: 4,
+		jobOutlookLabel: "Faster than average",
+		employmentChange: 9800,
+		projectionPeriod: "2024-34",
+		entryEducation: "Associate's degree",
+		industryWages: [
+			{
+				industry: "Federal government (excl. postal service)",
+				annualWage: 93970
+			},
+			{
+				industry: "Outpatient care centers",
+				annualWage: 81000
+			},
+			{
+				industry: "Hospitals (state, local, private)",
+				annualWage: 78560
+			},
+			{
+				industry: "Medical and diagnostic laboratories",
+				annualWage: 76770
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 66060
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Radiologic and MRI Technologists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm",
+		publishedDate: "2025-08-28"
+	},
 	"53-2031": {
 		socCode: "53-2031",
 		title: "Flight Attendants",

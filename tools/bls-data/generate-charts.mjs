@@ -22,6 +22,7 @@ const CHARTS = {
 	'pharmacist-salary-chart': '29-1051',
 	'physical-therapist-salary-chart': '29-1123',
 	'flight-attendant-salary-chart': '53-2031',
+	'radiology-tech-salary-chart': '29-2034',
 };
 
 const NAVY = '#14273f';
