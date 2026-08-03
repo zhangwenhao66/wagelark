@@ -86,3 +86,88 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "dental-hygienist-salary",
+  "last_audited": "2026-08-04",
+  "published_date": "2026-08-03",
+  "note": "本站第二次审计，选取数组第一位（发布顺序最早）且从未审计过的文章",
+  "diagnosed_checkpoints": [
+    "median/10th/90th百分位薪资数字（$94,260/$66,470/$120,060）是否与BLS当前公开数据逐字一致",
+    "行业细分薪资（offices of dentists/physicians/government）三个数字是否准确",
+    "7%就业增长/15,500新增岗位口径是否可溯源到BLS原文",
+    "免责声明是否存在，是否混入收入承诺式表述",
+    "是否为分类内孤儿页（本站另有4篇同分类文章）"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "WebFetch https://www.bls.gov/ooh/healthcare/dental-hygienists.htm 逐条核对：median annual $94,260（$45.32/小时）、10th percentile $66,470、90th percentile $120,060、行业细分offices of dentists $94,570/offices of physicians $84,720/government $77,940、7%就业增长(2024-2034)、约15,500个新增岗位，全部与正文/FAQ/schema逐字一致，无编造或误传。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS OEWS/OOH项目并标注数据年份(May 2024)，非泛泛而谈；额外解释了'时薪转年薪假设2080工时'这一容易被误解的细节，属于真实的专业增量信息。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "published=updated=2026-08-03，发布仅1天，数据为BLS最新公开的May 2024批次，未过时。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "get_serp_results实测'dental hygienist salary'：竞品含BLS官方页、Indeed、Coursera、ADHA、DentalPost、USNews、CareerExplorer等，多数只给薪资区间或按州罗列，未解释'时薪岗位换算年薪'的方法论细节，也未清楚拆解三个行业设置的权衡（私人诊所时薪高但福利/排班稳定性权衡）。本文的这两处解释构成真实增量，非同质化。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "live页面实测：title/meta description/canonical/单一h1均正常；schema含Article/FAQPage/BreadcrumbList/Dataset/Person，结构化数据完整；图片alt文本描述性强（含具体百分位数字）。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "粗估达标",
+      "detail": "coreSummary+FAQ+具体数字构成良好的可引用性和统计数据完整性，与本站pharmacist-salary此前审计的约89/99水平一致（同模板、同数据管线），未发现薄弱维度需要补强。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现问题",
+      "detail": "grep确认正文0处破折号，无需处理。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "唯一外部来源（BLS OOH页面）WebFetch实测200可访问，内容与引用一致。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "Salary Guide分类下现有dental-hygienist-salary/actuary-salary/pharmacist-salary/physical-therapist-salary/how-much-do-flight-attendants-make/radiology-tech-salary/crna-salary共7篇（已超过6篇轮转窗口阈值），[slug].astro的轮转窗口逻辑会按位置差动态选6篇，非固定slice，本文非孤儿页。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "不适用",
+      "detail": "本次审计未对文章做任何编辑，无需检查一致性漂移。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面实测免责声明存在；grep正文未发现'you will earn'/'guaranteed'/培训机构推荐等YMYL红线表述。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "配图为站内脚本自动生成的SVG柱状图（tools/bls-data/generate-charts.mjs同源数据），非第三方图片，无版权问题，public/images/dental-hygienist-salary-chart.svg存在。"
+    }
+  ],
+  "actions_taken": [
+    "本次未对文章做任何编辑——十二维度审计均未发现问题",
+    "未触及build/commit/deploy/IndexNow/内容发布日志.md——无内容变更，无需重新部署"
+  ],
+  "seo_score": "未重新打分具体分值，技术SEO抽查（title/meta/h1/schema/canonical/alt）无问题",
+  "geo_score": "粗估约89/99（与同模板pharmacist-salary一致水平），未修改",
+  "escalation": null
+}
+```
