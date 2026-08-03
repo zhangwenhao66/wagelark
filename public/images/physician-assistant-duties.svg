@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="Arial, sans-serif">
+	<rect width="640" height="340" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">Core Duties of a Physician Assistant</text>
+
+	<!-- center node -->
+	<rect x="230" y="150" width="180" height="50" rx="6" fill="#14273f"/>
+	<text x="320" y="180" text-anchor="middle" font-size="14" font-weight="700" fill="white">Physician Assistant</text>
+
+	<!-- five spokes -->
+	<g font-size="12.5" fill="#14212e">
+		<line x1="230" y1="165" x2="90" y2="70" stroke="#dcdad2" stroke-width="2"/>
+		<rect x="10" y="45" width="160" height="46" rx="5" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="90" y="64" text-anchor="middle" font-weight="700" fill="#0b675e">Exam &amp; history</text>
+		<text x="90" y="80" text-anchor="middle" fill="#14212e">Patient exams, medical history</text>
+
+		<line x1="260" y1="150" x2="220" y2="70" stroke="#dcdad2" stroke-width="2"/>
+		<rect x="140" y="45" width="160" height="46" rx="5" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="220" y="64" text-anchor="middle" font-weight="700" fill="#0b675e">Order &amp; read tests</text>
+		<text x="220" y="80" text-anchor="middle" fill="#14212e">Labs, imaging, diagnostics</text>
+
+		<line x1="380" y1="150" x2="420" y2="70" stroke="#dcdad2" stroke-width="2"/>
+		<rect x="340" y="45" width="160" height="46" rx="5" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="420" y="64" text-anchor="middle" font-weight="700" fill="#0b675e">Diagnose</text>
+		<text x="420" y="80" text-anchor="middle" fill="#14212e">Identify illness/injury</text>
+
+		<line x1="410" y1="165" x2="550" y2="70" stroke="#dcdad2" stroke-width="2"/>
+		<rect x="470" y="45" width="160" height="46" rx="5" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="550" y="64" text-anchor="middle" font-weight="700" fill="#0b675e">Prescribe</text>
+		<text x="550" y="80" text-anchor="middle" fill="#14212e">Medication management</text>
+
+		<line x1="320" y1="200" x2="320" y2="270" stroke="#dcdad2" stroke-width="2"/>
+		<rect x="200" y="270" width="240" height="46" rx="5" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="289" text-anchor="middle" font-weight="700" fill="#0b675e">Minor procedures</text>
+		<text x="320" y="305" text-anchor="middle" fill="#14212e">Wound closure, injections</text>
+	</g>
+
+	<text x="320" y="335" text-anchor="middle" font-size="12" fill="#14212e" opacity="0.55">All duties performed under a supervising physician's oversight. Source: BLS Occupational Outlook Handbook.</text>
+</svg>

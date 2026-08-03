@@ -1,0 +1,253 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Article from '../../vendor/site-toolkit/packages/schema/src/Article.astro';
+import BreadcrumbList from '../../vendor/site-toolkit/packages/schema/src/BreadcrumbList.astro';
+import FAQPage from '../../vendor/site-toolkit/packages/schema/src/FAQPage.astro';
+import Dataset from '../../vendor/site-toolkit/packages/schema/src/Dataset.astro';
+import { pickRelatedGuides } from '../../vendor/site-toolkit/packages/related-guides/src/index.ts';
+import { guides, wageDataFor, type Guide } from '../data/guides';
+import { AUTHOR_NAME, SITE_ORIGIN } from '../consts';
+
+export function getStaticPaths() {
+	return guides.map((guide) => ({
+		params: { slug: guide.slug },
+		props: { guide },
+	}));
+}
+
+interface Props {
+	guide: Guide;
+}
+
+const { guide } = Astro.props;
+// Rotating-window related-guides selection -- see vendor/site-toolkit/packages/related-guides
+// for why this isn't a fixed .slice(0, 6) (that bug starved most of a category of any inbound link).
+const related = pickRelatedGuides(guides, guide);
+const wage = wageDataFor(guide);
+
+const categoryToPath: Record<string, string> = {
+	'Salary Guide': '/salary-guides/',
+	'Career Guide': '/career-guides/',
+	'How to Become': '/how-to-become/',
+};
+const catPath = categoryToPath[guide.category] ?? '/';
+
+const pageUrl = `${SITE_ORIGIN}/${guide.slug}/`;
+const heroImage = `${SITE_ORIGIN}${guide.image ?? '/favicon.svg'}`;
+const toISO = (d: string) => `${d}T00:00:00+00:00`;
+const breadcrumbItems = [
+	{ name: 'Home', item: `${SITE_ORIGIN}/` },
+	{ name: guide.category, item: `${SITE_ORIGIN}${catPath}` },
+	{ name: guide.title, item: pageUrl },
+];
+
+const usd = (n: number) => `$${n.toLocaleString('en-US')}`;
+
+function md(text: string): string {
+	return text
+		.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+		.replace(/\*(.*?)\*/g, '<em>$1</em>')
+		.replace(/\[([^\]]+)\]\(((?:[^()]|\([^()]*\))*)\)/g, '<a href="$2">$1</a>');
+}
+
+// Percentile bars scaled against the widest value present, for the inline wage chart.
+const percentileRows = wage
+	? [
+			['10th percentile', wage.percentiles.p10],
+			['25th percentile', wage.percentiles.p25],
+			['Median', wage.medianAnnual],
+			['75th percentile', wage.percentiles.p75],
+			['90th percentile', wage.percentiles.p90],
+		].filter((row): row is [string, number] => typeof row[1] === 'number')
+	: [];
+const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v]) => v)) : 0;
+---
+
+<Layout title={guide.title} description={guide.description} ogImage={guide.image ?? '/favicon.svg'} ogType="article">
+	{guide.faq && guide.faq.length > 0 && <FAQPage items={guide.faq} slot="head" />}
+	<Article
+		slot="head"
+		headline={guide.title}
+		description={guide.description}
+		datePublished={toISO(guide.published ?? guide.updated)}
+		dateModified={toISO(guide.updated)}
+		authorName={AUTHOR_NAME}
+		authorUrl={`${SITE_ORIGIN}/about/`}
+		image={heroImage}
+		url={pageUrl}
+	/>
+	<BreadcrumbList slot="head" items={breadcrumbItems} />
+	{wage && (
+		<Dataset
+			slot="head"
+			name={`${wage.title} wages, ${wage.dataYear} (U.S. national)`}
+			description={`National wage percentiles and employment data for ${wage.title} from the U.S. Bureau of Labor Statistics.`}
+			url={wage.sourceUrl}
+			license="https://www.bls.gov/bls/linksite.htm"
+			temporalCoverage={wage.dataYear}
+			spatialCoverage="United States"
+		/>
+	)}
+
+	<div class="mx-auto max-w-[720px]">
+		<nav class="mb-5 flex flex-wrap items-center gap-1.5 text-sm text-[var(--ink)]/50">
+			<a href="/" class="no-underline hover:text-[var(--teal-dark)] hover:underline">Home</a>
+			<span>/</span>
+			<a href={catPath} class="no-underline hover:text-[var(--teal-dark)] hover:underline">{guide.category}</a>
+		</nav>
+		<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-[var(--teal-dark)]">{guide.category}</p>
+		<h1 class="mt-3 text-3xl leading-[1.15] font-bold text-[var(--navy)] md:text-4xl">{guide.title}</h1>
+		<p class="mt-4 text-lg leading-relaxed text-[var(--ink)]/70">{guide.description}</p>
+		<p class="mt-4 mb-0 text-xs text-[var(--ink)]/45">Last updated {guide.updated}{wage && ` · Wage data: ${wage.dataYear} (BLS)`}</p>
+
+		{guide.image && (
+			<figure class="m-0 mt-8">
+				<img src={guide.image} alt={guide.imageAlt ?? guide.title} class="w-full border border-[var(--rule)] bg-white object-contain" loading="eager" />
+				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(guide.imageCredit)} />}
+			</figure>
+		)}
+
+		<div class="callout mt-9 pl-5">
+			<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Core summary</p>
+			<p class="mt-2 mb-0 text-[1.05rem] leading-relaxed text-[var(--ink)]">{guide.coreSummary}</p>
+		</div>
+
+		{wage && percentileRows.length > 0 && (
+			<div class="mt-9 border border-[var(--rule)] bg-white p-5">
+				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">
+					{wage.title} — Annual Wage by Percentile ({wage.dataYear}, U.S. national)
+				</p>
+				<div class="mt-4 flex flex-col gap-2.5">
+					{percentileRows.map(([label, value]) => (
+						<div class="flex items-center gap-3">
+							<span class="w-32 shrink-0 text-xs text-[var(--ink)]/60">{label}</span>
+							<div class="h-4 flex-1 bg-[var(--panel)]">
+								<div class="h-4 bg-[var(--teal)]" style={`width:${Math.max(4, (value / maxWage) * 100)}%`}></div>
+							</div>
+							<span class="font-mono-figures w-24 shrink-0 text-right text-sm font-semibold text-[var(--navy)]">{usd(value)}</span>
+						</div>
+					))}
+				</div>
+				<p class="mt-4 mb-0 text-xs text-[var(--ink)]/45">
+					Source: <a href={wage.sourceUrl} target="_blank" rel="noopener noreferrer" class="text-[var(--teal-dark)] no-underline hover:underline">{wage.sourceLabel}</a>, {wage.dataYear}.
+				</p>
+			</div>
+		)}
+
+		{wage && wage.industryWages.length > 0 && (
+			<div class="mt-6 border border-[var(--rule)] bg-white p-5">
+				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Median Annual Wage by Industry ({wage.dataYear})</p>
+				<div class="mt-3 flex flex-col">
+					{wage.industryWages.map((iw) => (
+						<div class="flex items-center justify-between border-b border-[var(--rule)] py-2 text-sm last:border-b-0">
+							<span class="text-[var(--ink)]/75">{iw.industry}</span>
+							<span class="font-mono-figures font-semibold text-[var(--navy)]">{usd(iw.annualWage)}</span>
+						</div>
+					))}
+				</div>
+			</div>
+		)}
+
+		{wage && (
+			<div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+				<div class="border border-[var(--rule)] bg-white p-3">
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Jobs ({wage.employmentYear})</p>
+					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">{wage.employment.toLocaleString('en-US')}</p>
+				</div>
+				<div class="border border-[var(--rule)] bg-white p-3">
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Outlook ({wage.projectionPeriod})</p>
+					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">{wage.jobOutlookPct}%</p>
+				</div>
+				<div class="border border-[var(--rule)] bg-white p-3">
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">New jobs projected</p>
+					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">+{wage.employmentChange.toLocaleString('en-US')}</p>
+				</div>
+				<div class="border border-[var(--rule)] bg-white p-3">
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Typical entry education</p>
+					<p class="m-0 mt-1 text-sm font-bold leading-snug text-[var(--navy)]">{wage.entryEducation}</p>
+				</div>
+			</div>
+		)}
+
+		<article class="mt-9">
+			{guide.sections.map((section) => (
+				<section class="mb-8 border-b border-[var(--rule)] pb-8 last:mb-0 last:border-b-0 last:pb-0">
+					<h2 class="mb-3.5 text-xl font-bold text-[var(--navy)]">{section.heading}</h2>
+					{section.body.map((paragraph) => <p class="mb-3.5 text-[0.9375rem] leading-[1.85] text-[var(--ink)]/75 last:mb-0" set:html={md(paragraph)} />)}
+					{section.image && (
+						<figure class="m-0 mt-5">
+							<img src={section.image.src} alt={section.image.alt} class="mx-auto h-auto max-h-[70vh] w-auto max-w-full" loading="lazy" />
+							{section.image.credit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(section.image.credit)} />}
+						</figure>
+					)}
+				</section>
+			))}
+		</article>
+
+		{guide.faq && guide.faq.length > 0 && (
+			<div class="mt-9">
+				<h2 class="mb-4 text-xl font-bold text-[var(--navy)]">Frequently asked questions</h2>
+				<div class="flex flex-col">
+					{guide.faq.map((item) => (
+						<div class="border-b border-[var(--rule)] py-4 first:pt-0 last:border-b-0">
+							<p class="m-0 font-semibold text-[var(--ink)]">{item.question}</p>
+							<p class="mt-2 mb-0 text-sm leading-relaxed text-[var(--ink)]/65" set:html={md(item.answer)} />
+						</div>
+					))}
+				</div>
+			</div>
+		)}
+
+		{guide.sources && guide.sources.length > 0 && (
+			<div class="mt-9 border-t border-[var(--ink)] pt-4">
+				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Sources</p>
+				<ul class="mt-2 mb-0 list-none pl-0 text-sm text-[var(--ink)]/65">
+					{guide.sources.map((s) => (
+						<li class="py-1"><a href={s.url} target="_blank" rel="noopener noreferrer" class="text-[var(--ink)]/70 no-underline hover:text-[var(--ink)] hover:underline">{s.label}</a></li>
+					))}
+				</ul>
+			</div>
+		)}
+
+		<div class="mt-6 border-l-2 border-[var(--amber)] bg-[var(--panel)] py-3 pl-4 text-xs leading-relaxed text-[var(--ink)]/60">
+			This page reports government wage statistics for informational purposes. It is not personalized career, financial, or legal advice, and does not endorse or recommend any specific employer, school, or training program.
+		</div>
+
+		{related.length > 0 && (
+			<div class="mt-10">
+				<h3 class="mb-3.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">More in {guide.category}</h3>
+				<div class="flex flex-col">
+					{related.map((g) => (
+						<a href={`/${g.slug}/`} class="item border-b border-[var(--rule)] py-3 no-underline first:pt-0 last:border-b-0">
+							<p class="m-0 text-[0.9375rem] font-semibold leading-snug text-[var(--ink)] hover:underline">{g.title}</p>
+						</a>
+					))}
+				</div>
+			</div>
+		)}
+
+		<div class="mt-10 border-t border-[var(--rule)] pt-6 text-sm text-[var(--ink)]/55">
+			<p class="m-0">Written and edited by <a href="/about/" class="text-[var(--ink)]/70 no-underline hover:text-[var(--ink)] hover:underline">{AUTHOR_NAME}</a></p>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.callout {
+		position: relative;
+	}
+	.callout::before {
+		content: '';
+		position: absolute;
+		left: 0; top: 0.2em; bottom: 0.2em;
+		width: 4px;
+		background: var(--teal);
+	}
+	.item {
+		display: block;
+		transition: padding-left 0.15s ease;
+	}
+	.item:hover {
+		padding-left: 0.5rem;
+	}
+</style>

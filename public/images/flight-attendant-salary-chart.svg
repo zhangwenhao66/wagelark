@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="240" fill="white" />
+	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Flight Attendants — Annual Wage by Percentile</text>
+	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
+	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="56" width="93.67864387134163" height="34" fill="#0f8b7f" />
+	<text x="253.67864387134165" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$34,030</text>
+	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
+	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="116" width="184.7971602434077" height="34" fill="#0f8b7f" />
+	<text x="344.7971602434077" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$67,130</text>
+	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
+	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
+	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$138,040</text>
+	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national)</text>
+</svg>

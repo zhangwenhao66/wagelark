@@ -1,0 +1,75 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { AUTHOR_NAME } from '../consts';
+---
+
+<Layout
+	title="About"
+	description="Who writes WageLark, where the wage data comes from, and what this site does and doesn't try to do."
+>
+	<div class="mx-auto max-w-[720px]">
+		<h1 class="text-3xl font-bold text-[var(--navy)] md:text-4xl">About WageLark</h1>
+
+		<div class="prose-content mt-7 max-w-[640px] text-[0.9375rem] leading-[1.85] text-[var(--ink)]/70">
+			<p>
+				WageLark answers one question, occupation by occupation: what does this job actually pay,
+				what does it take to get into it, and what does the work involve. No rankings, no "top 10
+				highest-paying jobs" clickbait — just the government's own wage and employment numbers,
+				laid out clearly and cited back to the source.
+			</p>
+
+			<h2>Where the numbers come from</h2>
+			<p>
+				Every wage figure on this site comes from the U.S. Bureau of Labor Statistics (BLS) —
+				specifically the Occupational Employment and Wage Statistics (OEWS) program and the
+				Occupational Outlook Handbook (OOH), both public domain federal government data. BLS
+				surveys employers directly rather than relying on self-reported salary data, which is why
+				we use it as the primary source instead of crowdsourced salary sites.
+			</p>
+			<p>
+				Every page states the exact data year (BLS typically publishes new annual figures each
+				May) and links directly to the source page, so you can verify any number yourself. When we
+				cite a secondary source — for licensing or certification requirements, for example — it's
+				labeled separately from BLS wage data.
+			</p>
+
+			<h2>What this site doesn't do</h2>
+			<p>
+				WageLark reports data. It does not tell you which career to choose, whether a specific
+				training program or bootcamp is worth the cost, or whether a career change makes sense for
+				your situation — those are personal decisions that depend on circumstances a wage table
+				can't capture. Where we describe education or certification paths, we're describing the
+				generally required path per BLS and the relevant licensing/certification bodies, not
+				recommending a specific school or program.
+			</p>
+
+			<p class="mb-4 text-[var(--ink)]">
+				This site is written and edited by {AUTHOR_NAME}.
+			</p>
+			<p class="m-0 text-[var(--ink)]">
+				Questions, corrections, or press inquiries:
+				<a href="mailto:contact@wagelark.com" class="text-[var(--teal-dark)] underline">contact@wagelark.com</a>
+			</p>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.prose-content :global(h2) {
+		margin-top: 1.75rem;
+		margin-bottom: 0.75rem;
+		font-size: 1.1rem;
+		font-weight: 700;
+		color: var(--navy);
+	}
+	.prose-content :global(h2:first-child) {
+		margin-top: 0;
+	}
+	.prose-content :global(p) {
+		margin-bottom: 1rem;
+	}
+	.prose-content :global(a) {
+		color: var(--teal-dark);
+		text-decoration: underline;
+	}
+</style>

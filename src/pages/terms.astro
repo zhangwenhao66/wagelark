@@ -1,0 +1,97 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<Layout
+	title="Terms of Use"
+	description="The terms governing your use of WageLark."
+>
+	<div class="mx-auto max-w-[720px]">
+		<h1 class="text-3xl font-bold text-[var(--navy)] md:text-4xl">Terms of Use</h1>
+		<p class="mt-2 text-xs uppercase tracking-wide text-[var(--ink)]/40">Last updated: August 3, 2026</p>
+
+		<div class="prose-content mt-7 max-w-[640px] text-[0.9375rem] leading-[1.85] text-[var(--ink)]/70">
+			<p>
+				These Terms of Use govern your access to and use of {SITE_TITLE} (wagelark.com, the
+				"Site"). By using the Site, you agree to these terms.
+			</p>
+
+			<h2>Content and no professional advice</h2>
+			<p>
+				WageLark publishes wage, employment, and career-path information sourced primarily from
+				the U.S. Bureau of Labor Statistics. Content is provided for general informational purposes
+				only. It is not personalized career counseling, financial advice, legal advice, or
+				immigration advice, and should not be treated as a substitute for consulting a qualified
+				professional about your specific situation. We do not endorse or recommend any specific
+				employer, school, training program, or certification provider.
+			</p>
+
+			<h2>Data accuracy</h2>
+			<p>
+				We label every wage figure with its source and data year and link back to the original
+				government page. Government data is periodically revised and republished (BLS typically
+				updates occupational wage data annually); a figure on this Site reflects the most recent
+				data available to us as of the "Last updated" date on that page, and may not match the
+				current live BLS figures if BLS has since published a newer release. Always check the
+				linked source for the most current official figures before relying on a number for an
+				important decision.
+			</p>
+
+			<h2>Intellectual property</h2>
+			<p>
+				Unless otherwise noted, the text and original graphics on this Site are owned by WageLark.
+				You're welcome to link to our articles or quote brief excerpts with attribution. Republishing
+				full articles elsewhere without permission isn't allowed. Underlying BLS government data is
+				public domain and not owned by WageLark.
+			</p>
+
+			<h2>Third-party links and ads</h2>
+			<p>
+				The Site may display ads served by advertising partners and may link to third-party sites,
+				including government sources. We aren't responsible for the content, accuracy, or practices
+				of external sites we link to or that serve ads on this Site. See our
+				<a href="/privacy/">Privacy Policy</a> for how advertising cookies work.
+			</p>
+
+			<h2>No warranty</h2>
+			<p>
+				The Site is provided "as is" without warranties of any kind. We try to keep articles
+				accurate and up to date but make no guarantee that content is complete, current, or free of
+				errors.
+			</p>
+
+			<h2>Changes</h2>
+			<p>
+				We may update these terms as the Site evolves. Continued use of the Site after changes take
+				effect means you accept the updated terms.
+			</p>
+
+			<h2>Contact</h2>
+			<p>
+				Questions about these terms can be sent to Owen Zhang via the contact information on the
+				<a href="/about/">About</a> page.
+			</p>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.prose-content :global(h2) {
+		margin-top: 1.75rem;
+		margin-bottom: 0.75rem;
+		font-size: 1.1rem;
+		font-weight: 700;
+		color: var(--navy);
+	}
+	.prose-content :global(h2:first-child) {
+		margin-top: 0;
+	}
+	.prose-content :global(p) {
+		margin-bottom: 1rem;
+	}
+	.prose-content :global(a) {
+		color: var(--teal-dark);
+		text-decoration: underline;
+	}
+</style>

@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/roboto-mono';
+
+/*
+ * WageLark design: a "statistics office" register, not a career-blog register.
+ * Numbers are the product, so wage figures render in tabular monospace and
+ * get a ledger-style rule under them; everything else is a clean, restrained
+ * grotesk sans. Navy anchors trust/institutional tone, teal is the one
+ * accent color (used for data highlights and links only).
+ */
+:root {
+	--ink: #14212e;
+	--paper: #f7f6f2;
+	--rule: #dcdad2;
+	--navy: #14273f;
+	--navy-deep: #0c1826;
+	--teal: #0f8b7f;
+	--teal-dark: #0b675e;
+	--amber: #b8842a;
+	--panel: #eeece3;
+}
+
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+	font-family: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', 'Noto Sans SC', sans-serif;
+	overflow-x: clip;
+}
+
+.font-mono-figures {
+	font-family: 'Roboto Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
+	font-variant-numeric: tabular-nums;
+}
+
+/* Full-bleed band that keeps its inner content aligned with the page column. */
+.stratum {
+	margin-inline: calc(50% - 50vw);
+}
+.stratum > .stratum-inner {
+	margin-inline: auto;
+	max-width: 64rem;
+	padding-inline: 1rem;
+}
