@@ -7,6 +7,7 @@ import Dataset from '../../vendor/site-toolkit/packages/schema/src/Dataset.astro
 import { pickRelatedGuides } from '../../vendor/site-toolkit/packages/related-guides/src/index.ts';
 import { guides, wageDataFor, type Guide } from '../data/guides';
 import { AUTHOR_NAME, SITE_ORIGIN } from '../consts';
+import SalaryPercentileTool from '../components/SalaryPercentileTool.astro';
 
 export function getStaticPaths() {
 	return guides.map((guide) => ({
@@ -133,6 +134,8 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 				</p>
 			</div>
 		)}
+
+		{wage && <SalaryPercentileTool wage={wage} />}
 
 		{wage && wage.industryWages.length > 0 && (
 			<div class="mt-6 border border-[var(--rule)] bg-white p-5">
