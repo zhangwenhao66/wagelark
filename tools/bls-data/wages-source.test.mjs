@@ -125,11 +125,18 @@ test('spot check: Paralegals and Legal Assistants (23-2011) matches BLS OOH page
 	assert.equal(occ.employmentChange, 600);
 });
 
+// Re-verified against the live bls.gov OOH page on 2026-08-04 (still May 2024
+// data, page last modified 2025-08-28 -- unchanged since the 2026-08-03 transcription).
 test('spot check: Physician Assistants (29-1071) matches BLS OOH page', () => {
 	const occ = occupations['29-1071'];
 	assert.equal(occ.medianAnnual, 133260);
+	assert.equal(occ.medianHourly, 64.07);
 	assert.equal(occ.percentiles.p10, 95240);
 	assert.equal(occ.percentiles.p90, 182200);
+	assert.equal(occ.employment, 162700);
+	assert.equal(occ.jobOutlookPct, 20);
+	assert.equal(occ.employmentChange, 33200);
+	assert.equal(occ.industryWages.length, 5);
 });
 
 test('spot check: Flight Attendants (53-2031) matches BLS OOH page', () => {

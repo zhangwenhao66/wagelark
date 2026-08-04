@@ -219,6 +219,10 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 			{
 				industry: "Offices of physicians",
 				annualWage: 129640
+			},
+			{
+				industry: "Educational services (state, local, private)",
+				annualWage: 127900
 			}
 		],
 		dataYear: "May 2024",

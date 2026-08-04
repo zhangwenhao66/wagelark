@@ -108,7 +108,8 @@
         { "industry": "Government (excl. state/local education, hospitals)", "annualWage": 151470 },
         { "industry": "Outpatient care centers", "annualWage": 147650 },
         { "industry": "Hospitals (state, local, private)", "annualWage": 136630 },
-        { "industry": "Offices of physicians", "annualWage": 129640 }
+        { "industry": "Offices of physicians", "annualWage": 129640 },
+        { "industry": "Educational services (state, local, private)", "annualWage": 127900 }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Physician Assistants",
