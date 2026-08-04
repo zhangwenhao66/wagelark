@@ -758,4 +758,73 @@ export const guides: Guide[] = [
 		image: '/images/crna-salary-chart.svg',
 		imageAlt: 'Bar chart comparing May 2024 median annual wage across three related APRN roles: Nurse Anesthetists (CRNA) $223,210, Nurse Practitioners $129,210, Nurse Midwives $128,790, based on BLS data.',
 	},
+	{
+		slug: 'nurse-practitioner-salary',
+		category: 'Salary Guide',
+		title: 'Nurse Practitioner Salary: BLS Wage Data and Job Outlook (2026)',
+		description: 'BLS puts the median nurse practitioner salary at $129,210 a year, with 40% projected job growth through 2034, the fastest of any advanced practice nursing role it tracks.',
+		published: '2026-08-04',
+		updated: '2026-08-04',
+		socCode: '29-1171',
+		coreSummary: 'The median annual wage for nurse practitioners was $129,210 in May 2024, according to the U.S. Bureau of Labor Statistics. Employment is projected to grow 40% from 2024 to 2034, adding roughly 128,400 jobs, the fastest projected growth of any of the three advanced practice nursing roles BLS tracks on the same data page, and well above the roughly 3% average projected across all occupations.',
+		sections: [
+			{
+				heading: 'What nurse practitioners earn nationally',
+				body: [
+					'BLS tracks nurse practitioners under SOC code 29-1171 and reported a median annual wage of $129,210 for May 2024. That figure sits on the same BLS Occupational Outlook Handbook page as [Certified Registered Nurse Anesthetists (CRNAs)](/crna-salary/) and nurse midwives, titled "Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners." The page does break out a separate median wage for each of the three roles: CRNAs at $223,210 and nurse midwives at $128,790, so the nurse practitioner figure above is specific to this occupation, not a blended average across all three.',
+					'Where the shared page stops being occupation-specific is percentiles and industry breakdowns. BLS publishes 10th and 90th percentile pay for the three roles only as a combined group (the bottom 10% earned less than $98,520 and the top 10% earned more than $217,270), not broken out for nurse practitioners alone, and it does not publish a nurse-practitioner-specific industry wage table either. Presenting that combined-group range as if it described nurse practitioner pay specifically would overstate what the page actually supports, so this page leaves those two figures out rather than mislabel them.',
+					'BLS wage data comes from its Occupational Employment and Wage Statistics survey, which collects figures directly from employer payroll records across a large national sample, not from self-reported submissions the way many salary-aggregator sites operate. That distinction is worth keeping in mind when this $129,210 median is compared against numbers elsewhere, including the specialty-specific figures discussed further down this page. The $129,210 figure is also a single national number, not a state or metro-area one; BLS publishes more granular state and metropolitan-area wage tables for this occupation through its separate Occupational Employment and Wage Statistics program, outside the Occupational Outlook Handbook page cited here, and actual pay varies by region for the usual reasons: local cost of living, the mix of employer types in an area, and how tight the local labor market for advanced practice nurses happens to be.',
+				],
+			},
+			{
+				heading: 'What the job involves, and how someone becomes one',
+				body: [
+					'Per BLS, nurse practitioners coordinate patient care and may provide primary and specialty care, which can include ordering, performing, and interpreting diagnostic tests; diagnosing and treating acute and chronic conditions; and, depending on the state, prescribing medications. Entry requires an active registered nursing license plus a graduate degree from an accredited nurse practitioner program, followed by national certification in a chosen population focus, such as family, adult-gerontology, psychiatric-mental health, or pediatric care.',
+					'BLS lists "master\'s degree" as the typical entry-level education for this role, and unlike nurse anesthetists, that has not changed: the National Organization of Nurse Practitioner Faculties (NONPF) set a target in 2018, reaffirmed in 2023, to shift all entry-level NP education to the Doctor of Nursing Practice (DNP) level by 2025, but no state licensing board has adopted that as a licensure requirement, and the great majority of nurse practitioner programs nationally remain master\'s-level as of 2026. A separate, earlier push toward doctoral-level nursing education dates back to a 2004 position statement from the American Association of Colleges of Nursing (AACN), which targeted 2015 and also went unenforced. A DNP is available today and some employers may prefer it, but for actually becoming licensed as a nurse practitioner, it remains additional rather than required.',
+					'After finishing a graduate program, candidates sit for a national certification exam. Two independent, non-BLS-named certifying bodies operate in this space: the American Academy of Nurse Practitioners Certification Board (AANPCB) and the American Nurses Credentialing Center (ANCC), and which one a candidate uses generally depends on the population focus of their graduate program. Certification, together with state licensure as an advanced practice registered nurse, is what allows someone to practice and use the "nurse practitioner" title.',
+				],
+			},
+			{
+				heading: 'Job outlook, and how much scope of practice varies by state',
+				body: [
+					'BLS projects 40% employment growth for nurse practitioners specifically from 2024 to 2034, adding roughly 128,400 jobs (from 320,400 to about 448,800). That is the fastest growth of the three related roles on this BLS page, well ahead of the 9% projected for CRNAs and 11% for nurse midwives, and far above the roughly 3% average BLS projects across all occupations for the same period. BLS attributes overall demand for advanced practice registered nurses to an aging population, rising rates of chronic disease, and a broader shift toward team-based primary and specialty care, without breaking that explanation out separately by role.',
+					'One thing this national wage and growth data cannot capture is how much a nurse practitioner\'s day-to-day scope of practice depends on the state they work in. The American Association of Nurse Practitioners (AANP), an independent membership organization rather than a BLS-affiliated source, classifies roughly 30 states plus Washington, D.C. as granting nurse practitioners "full practice authority," meaning they can evaluate, diagnose, and prescribe under the exclusive authority of the state board of nursing without a mandated physician agreement, up from 22 states in 2020. The remaining states fall under "reduced" or "restricted" practice categories that require some form of physician collaboration or supervision. This changes through state legislation fairly often, so a specific state\'s current classification is worth confirming directly through AANP\'s state practice environment map rather than any single article, including this one.',
+					'BLS does not attribute nurse practitioner demand growth to the practice-authority trend directly, but the two are widely discussed together in health policy circles: as more states expand what nurse practitioners are legally permitted to do without a supervising physician, rural and underserved areas facing physician shortages have leaned more heavily on nurse practitioners to fill primary-care gaps. That is a structural, system-level explanation for the projection, not a guarantee about any individual practitioner\'s job security, pay trajectory, or employer, and it should be weighed alongside local job-market conditions rather than treated as a standalone forecast for one person\'s career.',
+				],
+			},
+			{
+				heading: 'Why specialty and setting move pay more than the national median suggests',
+				body: [
+					'The $129,210 BLS median is a single national figure across every nurse practitioner population focus and setting combined. Several nursing-industry and job-board sites report meaningfully higher pay for specific specialties, psychiatric-mental health nurse practitioners and acute-care nurse practitioners are commonly cited as being among the higher-paid tracks, for instance, but those figures come from self-reported salary surveys and aggregator estimates rather than from BLS\'s employer-reported OEWS survey, and different sites report different dollar amounts for the same specialty. This page reports that specialty is a real factor in pay without adopting any single site\'s specific numbers as fact, since BLS itself does not publish a specialty-level wage breakdown for this occupation.',
+					'For comparison with an adjacent advanced-practice clinical role that also diagnoses and treats patients under a graduate-level credential, see this site\'s guide to [what a physician assistant does](/what-does-a-physician-assistant-do/), a role with its own separate BLS wage data and a different, physician-collaborative supervision model in most states. Neither this page nor that one predicts what a specific person will earn; both describe national medians for occupations with real variation by state, employer, specialty, and years of experience.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How much do nurse practitioners make?',
+				answer: 'The U.S. Bureau of Labor Statistics reports a median annual wage of $129,210 for nurse practitioners in May 2024. BLS does not publish a 10th/90th percentile range specific to nurse practitioners alone on this page; the percentile figures it does publish cover a combined group of nurse anesthetists, nurse midwives, and nurse practitioners together.',
+			},
+			{
+				question: 'Do nurse practitioners need a doctorate?',
+				answer: 'No. BLS lists a master\'s degree as the typical entry-level education, and as of 2026 no state licensing board requires a Doctor of Nursing Practice (DNP) for NP licensure, even though the National Organization of Nurse Practitioner Faculties set an unenforced 2018 target (reaffirmed 2023) to move all entry-level NP education to the doctoral level by 2025. Most nurse practitioner programs remain master\'s-level.',
+			},
+			{
+				question: 'Is nurse practitioner a growing career?',
+				answer: 'BLS projects 40% employment growth for nurse practitioners from 2024 to 2034, adding roughly 128,400 jobs. That is the fastest projected growth of the three advanced practice nursing roles (nurse anesthetists, nurse midwives, nurse practitioners) BLS tracks on the same data page, and well above the roughly 3% average projected across all occupations.',
+			},
+			{
+				question: 'Can nurse practitioners practice without a supervising physician?',
+				answer: 'It depends entirely on the state. The American Association of Nurse Practitioners classifies roughly 30 states plus Washington, D.C. as granting "full practice authority," while the rest require some form of physician collaboration or supervision. State rules change through legislation fairly regularly, so a specific state\'s current status is best confirmed through AANP\'s state practice environment map rather than a fixed count in any one article.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm' },
+			{ label: 'American Association of Nurse Practitioners (AANP): State Practice Environment', url: 'https://www.aanp.org/advocacy/state/state-practice-environment' },
+			{ label: 'American Academy of Nurse Practitioners Certification Board (AANPCB)', url: 'https://www.aanpcert.org/' },
+			{ label: 'National Organization of Nurse Practitioner Faculties (NONPF): DNP-by-2025 position statement', url: 'https://www.nonpf.org/' },
+		],
+		image: '/images/nurse-practitioner-salary-chart.svg',
+		imageAlt: 'Bar chart comparing projected employment growth 2024-34: all occupations average 3%, Nurse Anesthetists (CRNA) 9%, Nurse Midwives 11%, Nurse Practitioners 40%, based on BLS data.',
+	},
 ];

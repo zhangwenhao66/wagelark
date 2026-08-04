@@ -245,6 +245,23 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
       "publishedDate": "2025-08-28"
+    },
+    "29-1171": {
+      "title": "Nurse Practitioners",
+      "medianAnnual": 129210,
+      "percentiles": {},
+      "employment": 320400,
+      "employmentYear": "2024",
+      "jobOutlookPct": 40,
+      "jobOutlookLabel": "Much faster than average",
+      "employmentChange": 128400,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Master's degree",
+      "industryWages": [],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

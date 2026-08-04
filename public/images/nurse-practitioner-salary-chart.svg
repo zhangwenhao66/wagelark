@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 304" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="304" fill="white" />
+	<text x="250" y="30" font-size="16" font-weight="700" fill="#14273f">Projected Employment Growth, 2024-34 (BLS)</text>
+	<text x="238" y="78.0" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">All occupations (average)</text>
+	<rect x="250" y="56" width="330" height="34" fill="#dcdad2" />
+	<rect x="250" y="56" width="24.8" height="34" fill="#0f8b7f" />
+	<text x="284.8" y="78.0" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">3%</text>
+	<text x="238" y="138.0" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Nurse Anesthetists (CRNA)</text>
+	<rect x="250" y="116" width="330" height="34" fill="#dcdad2" />
+	<rect x="250" y="116" width="74.2" height="34" fill="#0f8b7f" />
+	<text x="334.2" y="138.0" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">9%</text>
+	<text x="238" y="198.0" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Nurse Midwives</text>
+	<rect x="250" y="176" width="330" height="34" fill="#dcdad2" />
+	<rect x="250" y="176" width="90.8" height="34" fill="#0f8b7f" />
+	<text x="350.8" y="198.0" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">11%</text>
+	<text x="238" y="258.0" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Nurse Practitioners</text>
+	<rect x="250" y="236" width="330" height="34" fill="#dcdad2" />
+	<rect x="250" y="236" width="330.0" height="34" fill="#0f8b7f" />
+	<text x="590.0" y="258.0" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">40%</text>
+	<text x="250" y="296" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook. NP figure is SOC 29-1171 specifically.</text>
+</svg>

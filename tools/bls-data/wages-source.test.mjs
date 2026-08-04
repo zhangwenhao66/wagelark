@@ -30,6 +30,7 @@ const REQUIRED_SOC_CODES = [
 	'53-2031', // Flight Attendants
 	'29-2034', // Radiologic Technologists and Technicians
 	'29-1151', // Nurse Anesthetists
+	'29-1171', // Nurse Practitioners
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -172,4 +173,22 @@ test('spot check: Nurse Anesthetists (29-1151) matches BLS OOH page', () => {
 	// code (29-1151 specifically), unlike the percentile range above.
 	assert.equal(occ.jobOutlookPct, 9);
 	assert.equal(occ.employmentChange, 4600);
+});
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-04. Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+test('spot check: Nurse Practitioners (29-1171) matches BLS OOH page', () => {
+	const occ = occupations['29-1171'];
+	assert.equal(occ.medianAnnual, 129210);
+	// Same merged-page situation as 29-1151 above: the page's only 10th/90th
+	// percentile and industry-wage figures are for the combined three-role
+	// group, not nurse practitioners alone -- left empty rather than
+	// mislabeled as this occupation's own split.
+	assert.deepEqual(occ.percentiles, {});
+	assert.deepEqual(occ.industryWages, []);
+	assert.equal(occ.employment, 320400);
+	// Per-occupation projections table breaks these two figures out by SOC
+	// code (29-1171 specifically), unlike the percentile range above.
+	assert.equal(occ.jobOutlookPct, 40);
+	assert.equal(occ.employmentChange, 128400);
 });
