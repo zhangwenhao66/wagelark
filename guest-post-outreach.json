@@ -1,0 +1,77 @@
+[
+  {
+    "date": "2026-08-04",
+    "site": "wagelark",
+    "niche_focus": "career/salary reference (BLS-sourced salary guides, career-combination pages, \"what does X do\", entry paths, minimum wage)",
+    "channels_researched": [
+      {
+        "name": "CareerEnlightenment.com (Joshua Waldman's career/job-search blog)",
+        "url": "https://careerenlightenment.com/about/write-for-us",
+        "status": "not pursued — paid-placement model, misclassified as viable in original research",
+        "notes": "2026-08-04积压处理时用curl抓取完整页面文本核实，发现页面原文写明'We do charge for this service so please only contact us if you have some marketing budget'，以及'Based on your submission, we may ask that you pay for posting with us'（定价与站点Domain Rank挂钩）——跟同批调研里因'付费发布'被否决的Debut Careers是同一类模式，此前研究只看了摘要误判成viable，本次予以纠正。另外投稿渠道是页面底部的网页表单（Name/Email/Google Doc链接），全文没有可投稿邮箱，无法用gmail_send.py投递。付费placement决策超出本次自动发送流程授权范围（需Owen在聊天里明确同意付费+许可提交表单），本轮跳过未发送、未提交表单。"
+      },
+      {
+        "name": "Good Professions",
+        "url": "https://goodprofessions.com/write-for-us/",
+        "status": "pitch sent 2026-08-04 (Message ID 19fcb798e67ea0de)",
+        "notes": "真实投稿页，editor@goodprofessions.com。首页核实为持续更新的编辑内容(2024-2026多篇真实文章)，非纯guest-post交易站。分类含Career Tips/Employment，跟'how-to-become'类无学位进入路径内容主题匹配度高。要求原创、未发表过、深入研究、简明写作。2026-08-04积压处理：过humanizer+独立复核agent判定'可以发送'（无AI味/6项BLS数字对guides.ts核实一致/渠道确认真实开放免费/无14天内重复联系记录）后经gmail_send.py --from wagelark发出，全文见guest-post-pitch-drafts.md。"
+      },
+      {
+        "name": "CareerBands",
+        "url": "https://careerbands.com/contribute-and-submit-a-guest-post/",
+        "status": "pitch sent 2026-08-04 (Message ID 19fcb79ada898999)",
+        "notes": "真实投稿页，info@careerbands.com。首页核实为真实运营10年的简历/面试辅导机构博客，含2026年新文章。要求1200-2500字、不付稿费、发布后版权归站方所有、需先邮件提交主题+5-8行说明。主题(Career development/Job Searching)跟'不同雇主类型下同一职位薪资差异'角度契合。2026-08-04积压处理：过humanizer+独立复核agent判定'可以发送'后经gmail_send.py --from wagelark发出，全文见guest-post-pitch-drafts.md。"
+      },
+      {
+        "name": "Selecting Career",
+        "url": "https://selectingcareer.com/write-for-us/",
+        "status": "real but poor fit — quality concern, not pursued",
+        "notes": "投稿页真实存在(editor@selectingcareer.com)，但首页核查发现多项质量红旗：内容重复出现在多个分类下、标签措辞怪异('Exercises Exterior'等疑似占位符)、所有作者统一署名'editor'、文章预览显得截断粗糙，疑似guest-post交易/薄内容站而非真编辑刊物。为避免损害本站信任度，本轮未起草pitch，跳过。"
+      },
+      {
+        "name": "Debut Careers (UK student/graduate careers site)",
+        "url": "https://debut.careers/write-for-us/",
+        "status": "real but poor fit — paid placement model, not pursued",
+        "notes": "投稿页真实，但页面明确写'Content publication is carried out on a chargeable basis'（即付费发布），本质是付费内容营销而非常规guest post交换链接，且受众是英国大学生求职群体，跟本站美国BLS数据/职业介绍定位契合度一般。未起草pitch。"
+      },
+      {
+        "name": "Job-Hunt.org contributor program",
+        "url": "https://www.job-hunt.org/contribute-to-job-hunt/",
+        "status": "real but poor fit for one-off run — not pursued",
+        "notes": "真实、活跃的'Job-Hunt Expert'长期专栏作者计划，但要求同一主题承诺至少6篇文章、跨6-9个月，且要提供过去12-24个月在该主题上已发表文章的链接作为专业资质证明——不适合作为本轮一次性guest post调研的对象。若Owen希望投入长期专栏关系可再评估，本轮未起草pitch。"
+      },
+      {
+        "name": "Resumonk Blog guest post page",
+        "url": "https://www.resumonk.com/blog/guest-post/",
+        "status": "dead-link-or-parked",
+        "notes": "页面返回404 Not Found，此前搜索结果中出现的投稿页已失效或迁移，未找到替代的当前投稿入口。"
+      }
+    ],
+    "actions_taken": "无表单直接提交——本轮找到的3个viable渠道全部要求先邮件提案(pitch)而非简单目录表单，因此均起草了pitch邮件草稿但未发送，供Owen审阅后决定是否发出：(1) CareerEnlightenment——关于BLS'小时工资折算年薪'假设(2080小时/年)如何让常兼职的牙科保健员等职业实际年收入低于宣传中位数的角度；(2) Good Professions——关于不需要本科学位即可进入的Allied Health职业(超声技师/放射技师/抽血员)及其BLS准入学历+薪资+增长率数据；(3) CareerBands——关于同一职位在不同雇主类型下薪资差异(物理治疗师/药剂师行业细分工资对比)。三篇草稿均只使用src/data/guides.ts里已发布文章的真实BLS数字，未编造任何薪资或机构信息，未做任何收入承诺或推荐具体培训机构（遵守YMYL边界）。",
+    "result_summary": "共调研6个渠道，3个viable（CareerEnlightenment、Good Professions、CareerBands，均已起草待审pitch邮件）、2个real-but-poor-fit未追（Selecting Career因质量红旗、Debut Careers因付费模式、Job-Hunt.org因需6-9个月长期专栏承诺不适合单次调研）、1个dead-link（Resumonk 404）。待Owen处理事项：审阅并决定是否发送3份pitch邮件草稿（发件邮箱建议用contact@wagelark.com）；Job-Hunt.org的长期专栏机会是否值得投入需Owen决策。本轮无表单可直接提交（均非'仅需站名/URL/简介/邮箱'的简单目录式表单），无账号注册/付费/敏感信息提交。"
+  },
+  {
+    "date": "2026-08-04",
+    "site": "wagelark",
+    "run_type": "第0步：处理积压的旧草稿（2026-08-04新政策首次执行）",
+    "notes": "处理2026-08-04当天早些时候研究批次里3条'viable, pitch drafted, not sent'的记录（Job-Hunt.org按任务指示明确排除，未处理）。流程：核实渠道未过期 → 补全pitch正文(仅用src/data/guides.ts里已发布的真实BLS数字，均标注年份出处) → 过Skill(humanizer)去AI味 → 存入新建的guest-post-pitch-drafts.md → 各自spawn一个全新独立复核agent(不含本次运行任何上下文，仅给邮件正文+复核清单) → 复核'可以发送'即用gmail_send.py send --from wagelark实际发出。",
+    "outcomes": [
+      {
+        "name": "CareerEnlightenment.com",
+        "action": "跳过，未发送，未提交表单",
+        "reason": "重新核实时用curl抓取完整页面文本（此前研究只看了搜索摘要），发现页面原文'We do charge for this service so please only contact us if you have some marketing budget'——实为付费发布模式，此前误判为viable，本次已在channels_researched对应条目里更正status。另外投稿渠道是网页表单非邮箱，无法用gmail_send.py投递。付费决策+表单提交均超出本次自动发送流程授权范围，需Owen另行决定。"
+      },
+      {
+        "name": "Good Professions",
+        "action": "已发送",
+        "reason": "渠道核实仍开放免费(editor@goodprofessions.com)，独立复核agent判定'CAN SEND'：14天内无重复联系记录、两项BLS数字(ultrasound tech $89,340/13%增长、phlebotomist $43,660/6%增长)对guides.ts核实完全一致、无AI味、无YMYL问题。gmail_send.py --from wagelark发出，Message ID 19fcb798e67ea0de。"
+      },
+      {
+        "name": "CareerBands",
+        "action": "已发送",
+        "reason": "渠道核实仍开放免费(info@careerbands.com)，独立复核agent判定'CAN SEND'：14天内无重复联系记录、六项BLS数字(PT三项+pharmacist两项，均对guides.ts核实完全一致)、无AI味、无YMYL问题。gmail_send.py --from wagelark发出，Message ID 19fcb79ada898999。"
+      }
+    ],
+    "result_summary": "积压3条处理完毕：2条发送成功（Good Professions、CareerBands），1条跳过并如实记录原因（CareerEnlightenment，发现是此前研究阶段的误判——实为付费placement模式+仅网页表单投稿，非渠道过期）。Job-Hunt.org按任务指示排除未处理，仍留在原记录待Owen决策。三篇pitch全文见 guest-post-pitch-drafts.md。"
+  }
+]
