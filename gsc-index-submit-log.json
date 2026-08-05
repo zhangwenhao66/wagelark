@@ -1,0 +1,33 @@
+[
+  {
+    "date": "2026-08-04",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行（本站首次出现在本任务日志）。今日新发布2篇（radiology-tech-salary/crna-salary），取当天第2篇crna-salary（URL is not on Google）提交成功。第二轮取队列代理值最高的pharmacist-salary（Discovered - currently not indexed）提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/crna-salary/",
+      "https://wagelark.com/pharmacist-salary/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota (10th and 19th requests this run)"
+  },
+  {
+    "date": "2026-08-05",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。本站今日无新发布，按build-index-queue.py代理排序取队列。第一轮依次检查dental-hygienist-salary/radiology-tech-salary/nurse-practitioner-salary/physical-therapist-salary均已'URL is on Google'（自然收录，未消耗配额），改提交physician-assistant-salary（URL is not on Google）成功。第二轮依次检查what-does-a-paralegal-do/how-to-become-an-ultrasound-tech/actuary-salary/how-to-become-a-phlebotomist/what-does-an-actuary-do均已收录，改提交what-does-a-physician-assistant-do（URL is not on Google）成功。",
+    "submitted_urls": [
+      "https://wagelark.com/physician-assistant-salary/",
+      "https://wagelark.com/what-does-a-physician-assistant-do/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/dental-hygienist-salary/",
+      "https://wagelark.com/radiology-tech-salary/",
+      "https://wagelark.com/nurse-practitioner-salary/",
+      "https://wagelark.com/physical-therapist-salary/",
+      "https://wagelark.com/what-does-a-paralegal-do/",
+      "https://wagelark.com/how-to-become-an-ultrasound-tech/",
+      "https://wagelark.com/actuary-salary/",
+      "https://wagelark.com/how-to-become-a-phlebotomist/",
+      "https://wagelark.com/what-does-an-actuary-do/"
+    ],
+    "quota_used": "2 requests this run (round 1 and round 2)"
+  }
+]
