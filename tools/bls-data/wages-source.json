@@ -247,6 +247,23 @@
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
       "publishedDate": "2025-08-28"
     },
+    "29-2055": {
+      "title": "Surgical Technologists",
+      "medianAnnual": 62830,
+      "percentiles": {},
+      "employment": 115600,
+      "employmentYear": "2024",
+      "jobOutlookPct": 4.5,
+      "jobOutlookLabel": "Faster than average",
+      "employmentChange": 5200,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Postsecondary nondegree award",
+      "industryWages": [],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Surgical Assistants and Technologists",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/surgical-technologists.htm",
+      "publishedDate": "2025-08-28"
+    },
     "29-1171": {
       "title": "Nurse Practitioners",
       "medianAnnual": 129210,

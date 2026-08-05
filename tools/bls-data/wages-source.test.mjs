@@ -31,6 +31,7 @@ const REQUIRED_SOC_CODES = [
 	'29-2034', // Radiologic Technologists and Technicians
 	'29-1151', // Nurse Anesthetists
 	'29-1171', // Nurse Practitioners
+	'29-2055', // Surgical Technologists
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -198,4 +199,32 @@ test('spot check: Nurse Practitioners (29-1171) matches BLS OOH page', () => {
 	// code (29-1171 specifically), unlike the percentile range above.
 	assert.equal(occ.jobOutlookPct, 40);
 	assert.equal(occ.employmentChange, 128400);
+});
+
+// Hand-transcribed from the live bls.gov OOH page (Surgical Assistants and
+// Technologists, combined narrative) and the live BLS Employment Projections
+// National Employment Matrix Table 1.2 (which breaks the combined occupation
+// back out to individual SOC codes) on 2026-08-05. Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+test('spot check: Surgical Technologists (29-2055) matches BLS OOH page + Employment Projections Table 1.2', () => {
+	const occ = occupations['29-2055'];
+	assert.equal(occ.medianAnnual, 62830);
+	// The OOH page merges Surgical Assistants and Surgical Technologists.
+	// Its only 10th/90th percentile figures, if any, would be for the
+	// combined group -- this page publishes none at all, so percentiles are
+	// left empty rather than fabricated (same reasoning as the Nurse
+	// Anesthetists / Nurse Practitioners entries above).
+	assert.deepEqual(occ.percentiles, {});
+	assert.deepEqual(occ.industryWages, []);
+	// Employment Projections Table 1.2 breaks employment, growth rate, and
+	// job change out by SOC code even though the OOH narrative combines
+	// the two roles: 115.6k -> 120.8k (2024-34), a 4.5% change.
+	assert.equal(occ.employment, 115600);
+	assert.equal(occ.jobOutlookPct, 4.5);
+	assert.equal(occ.employmentChange, 5200);
+	// No medianHourly: the OOH page's only hourly figure ($30.04) is the
+	// combined "Surgical Assistants and Technologists" Quick Facts number,
+	// not specific to surgical technologists alone -- omitted rather than
+	// published as a fact this page doesn't actually state for this SOC.
+	assert.equal(occ.medianHourly, undefined);
 });

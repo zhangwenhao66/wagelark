@@ -910,4 +910,78 @@ export const guides: Guide[] = [
 		image: '/images/physician-assistant-salary-chart.svg',
 		imageAlt: 'Bar chart showing physician assistant annual wage by percentile: 10th percentile $95,240, median $133,260, 90th percentile $182,200, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'surgical-tech-salary',
+		category: 'Salary Guide',
+		title: 'Surgical Tech Salary: BLS Wage Data and Job Outlook (2026)',
+		description: 'BLS puts the median surgical tech salary at $62,830, below what self-reported sites show. See the real BLS number and what CST certification requires.',
+		published: '2026-08-05',
+		updated: '2026-08-05',
+		socCode: '29-2055',
+		coreSummary: 'The median annual wage for surgical technologists was $62,830 in May 2024, according to the U.S. Bureau of Labor Statistics, compared with $60,290 for the closely related surgical assistant role. BLS projects 4.5% employment growth for surgical technologists from 2024 to 2034, adding about 5,200 jobs on top of a 115,600-person workforce, and entry typically requires a certificate or associate\'s degree rather than a four-year degree.',
+		sections: [
+			{
+				heading: 'What BLS actually reports for surgical tech pay',
+				body: [
+					'Surgical technologists prepare the operating room, set up the sterile back table, pass instruments and supplies to the surgical team, and maintain the sterile field throughout a procedure. BLS tracks this role under SOC code 29-2055, and its own description on the Occupational Outlook Handbook is brief: "surgical assistants and technologists help with surgical operations." That one-line summary covers a role that is procedural and safety-driven, centered on keeping the right instrument ready and the environment sterile, rather than performing surgical steps directly.',
+					'BLS publishes this occupation\'s Occupational Outlook Handbook page under the combined title "Surgical Assistants and Technologists," reporting a combined median annual wage of $62,480 and 141,000 combined jobs for May 2024. The narrative page does break out pay by specific role, though: the median annual wage for surgical technologists was $62,830, while the median for surgical assistants was $60,290, both May 2024. The separate BLS Employment Projections National Employment Matrix (Table 1.2), a different BLS data product from the Handbook narrative, confirms the same $62,830 figure tied specifically to SOC 29-2055 and reports a 2024 workforce of 115,600 surgical technologists, versus 25,300 surgical assistants under SOC 29-9093.',
+					'This particular Handbook page does not publish a 10th/90th percentile wage split for either role, unlike some other occupations this site covers. Readers who want that variance would need the BLS Occupational Employment and Wage Statistics (OEWS) tables directly, a separate, more granular data product. It is also worth flagging a real gap between this number and what self-reported salary sites show: search results for "surgical tech salary" surface figures like $107,000 for New York City on ZipRecruiter, roughly 70% above the BLS national median. That gap is not a data error on either side; it reflects self-reported figures skewed toward a specific high-cost metro versus BLS\'s employer-reported, nationally representative survey. Neither number is "wrong" for its own scope, but they answer different questions.',
+				],
+			},
+			{
+				heading: 'Surgical technologist and surgical assistant are not the same job',
+				body: [
+					'Despite the similar pay and BLS\'s combined Handbook page, the two roles have a meaningfully different scope of practice. Surgical technologists focus on instrumentation and the sterile field: setting up the operating room, passing instruments, handling specimens, and supporting the team without performing surgical steps themselves. Surgical assistants (sometimes called surgical first assistants) take on a more hands-on role directly supporting the surgeon, which can include retracting tissue, controlling bleeding, suturing, and, depending on state regulation and the assistant\'s credentials, performing portions of a procedure under the surgeon\'s direct supervision. This distinction is a general industry description confirmed by academic medical sources such as Mayo Clinic College of Medicine and Science, not a claim BLS itself makes on its Handbook page.',
+					'That wider scope makes it somewhat notable that the national median pay for surgical assistants ($60,290) is actually lower than for surgical technologists ($62,830), despite the more expansive duties. BLS does not explain this gap; it publishes the two medians without commentary. One plausible, unverified factor is that the surgical assistant workforce is much smaller (25,300 vs. 115,600) and includes a wider range of entry pathways, since some assistants enter through nursing or physician-assistant training rather than a dedicated surgical-assistant program, which could pull the reported median in either direction depending on the underlying credential mix; that is this article\'s inference, not a BLS-stated explanation.',
+					'BLS\'s own numbers show that surgical technologist is both the larger job market (about 4.5 times more workers) and the role most surgical-technology training programs are built to enter directly, while surgical assistant credentials are typically layered on after establishing a technologist or nursing background.',
+				],
+			},
+			{
+				heading: 'Certification and how people enter the field',
+				body: [
+					'BLS lists the typical entry-level education for this occupation as a postsecondary nondegree award, meaning a certificate program rather than a full associate degree, with no additional work experience or on-the-job training required beyond that program. In practice, surgical technology programs are accredited either by the Commission on Accreditation of Allied Health Education Programs (CAAHEP) or the Accrediting Bureau of Health Education Schools (ABHES), and graduating from one of those accredited programs (or completing equivalent military surgical-technology training) is the standard eligibility path into the field\'s primary credential.',
+					'That credential is the Certified Surgical Technologist (CST), administered by the National Board of Surgical Technology and Surgical Assisting (NBSTSA) and described by NBSTSA as the most nationally recognized surgical technology credential in the U.S. Maintaining it requires earning 30 continuing education credits (including 4 defined as live) within a two-year renewal cycle, or 60 credits across four years, or retaking the exam. BLS states that employers may require or prefer certification and that some states regulate these workers directly — requirements vary by state, and this page does not claim a single national licensing standard.',
+					'Within the broader "postsecondary nondegree award" entry tier this site covers, surgical technologist pay sits well above [phlebotomists](/how-to-become-a-phlebotomist), whose median annual wage is $43,660. Both roles share the same typical entry credential level, but the operating-room setting and CST certification requirement appear to carry a real pay premium within that tier, even though BLS itself does not attribute the gap to any single cause.',
+				],
+			},
+			{
+				heading: 'Job outlook and where this fits among allied health pay',
+				body: [
+					'The BLS Employment Projections National Employment Matrix projects 4.5% employment growth for surgical technologists specifically from 2024 to 2034, adding about 5,200 jobs on top of a 2024 base of 115,600, with roughly 7,000 average annual openings once retirements and occupational transfers are included. That is faster than the roughly 3% growth projected across all occupations combined, though BLS does not publish a stated explanation for the growth on this occupation\'s Handbook page the way it sometimes does for other roles; rising surgical volume tied to an aging population is a plausible, unverified factor rather than a claim BLS makes directly.',
+					'Compared with [radiologic technologists](/radiology-tech-salary), another associate-degree-or-certificate-level allied health role that supports physicians rather than practicing independently, surgical technologists earn a lower national median ($62,830 vs. $77,660) but face a similar growth rate (4.5% vs. 4%). The gap in pay likely tracks entry credential depth more than growth outlook: radiologic technology typically requires a full associate\'s degree, while surgical technology\'s typical entry point, a postsecondary certificate, is usually a shorter and less expensive path to a first paycheck.',
+					'None of these figures predict what a specific person will earn. They describe national medians and projections for occupations with real variation by state, employer setting, and individual certification, and readers comparing a specific job offer against these numbers should weigh local market conditions alongside the national baseline rather than treating either as a guarantee.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average surgical tech salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for surgical technologists (SOC 29-2055) was $62,830 in May 2024. This is BLS\'s employer-reported, nationally representative figure; some self-reported salary sites show much higher numbers because they weight toward specific high-cost metro areas rather than the national median.',
+			},
+			{
+				question: 'Is a surgical technologist the same as a surgical assistant?',
+				answer: 'No. Surgical technologists focus on instrumentation and maintaining the sterile field, while surgical assistants take on a more hands-on role directly supporting the surgeon, such as retracting tissue or suturing, depending on state regulation and credentials. BLS reports these as separate SOC codes (29-2055 and 29-9093) with close but distinct median pay: $62,830 versus $60,290 in May 2024.',
+			},
+			{
+				question: 'What is the highest- and lowest-paid range for surgical techs?',
+				answer: 'BLS does not publish a 10th/90th percentile wage breakdown for this specific occupation on its Occupational Outlook Handbook page. Readers who need that range would need to consult the BLS Occupational Employment and Wage Statistics (OEWS) tables directly, which report percentile data as a separate, more granular data product.',
+			},
+			{
+				question: 'Do you need certification to be a surgical technologist?',
+				answer: 'BLS states that employers may require or prefer certification and that some states regulate these workers, though requirements vary by state. In practice, the Certified Surgical Technologist (CST) credential from the National Board of Surgical Technology and Surgical Assisting (NBSTSA) is the field\'s most nationally recognized certification, and it typically requires graduating from a CAAHEP- or ABHES-accredited program.',
+			},
+			{
+				question: 'Is surgical technology a growing field?',
+				answer: 'BLS Employment Projections data shows 4.5% employment growth for surgical technologists specifically from 2024 to 2034, adding about 5,200 jobs on top of a 2024 workforce of 115,600, with roughly 7,000 average annual openings once retirements and career changes are included.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Surgical Assistants and Technologists (accessed 2026-08-05, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/surgical-technologists.htm' },
+			{ label: 'BLS Employment Projections: Occupational projections and worker characteristics, Table 1.2 (2024-34 release)', url: 'https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm' },
+			{ label: 'National Board of Surgical Technology and Surgical Assisting (NBSTSA): CST Certification', url: 'https://www.nbstsa.org/cst-certification' },
+			{ label: 'Mayo Clinic College of Medicine and Science: Surgical First Assistant Career Overview', url: 'https://college.mayo.edu/academics/explore-health-care-careers/careers-a-z/surgical-first-assistant/' },
+		],
+		image: '/images/surgical-tech-salary-chart.svg',
+		imageAlt: 'Bar chart comparing median annual wage of surgical technologists ($62,830) and surgical assistants ($60,290), based on BLS May 2024 data.',
+	},
 ];
