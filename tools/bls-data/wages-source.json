@@ -264,6 +264,30 @@
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/surgical-technologists.htm",
       "publishedDate": "2025-08-28"
     },
+    "29-2052": {
+      "title": "Pharmacy Technicians",
+      "medianAnnual": 43460,
+      "medianHourly": 20.90,
+      "percentiles": { "p10": 35100, "p90": 59450 },
+      "employment": 490400,
+      "employmentYear": "2024",
+      "jobOutlookPct": 6,
+      "jobOutlookLabel": "Faster than average",
+      "employmentChange": 31500,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "High school diploma or equivalent",
+      "industryWages": [
+        { "industry": "Ambulatory healthcare services", "annualWage": 49920 },
+        { "industry": "Hospitals (state, local, private)", "annualWage": 49310 },
+        { "industry": "General merchandise retailers", "annualWage": 46180 },
+        { "industry": "Grocery and specialty food retailers", "annualWage": 38810 },
+        { "industry": "Pharmacies and drug retailers", "annualWage": 37900 }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Pharmacy Technicians",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm",
+      "publishedDate": "2026-04-24"
+    },
     "29-1171": {
       "title": "Nurse Practitioners",
       "medianAnnual": 129210,

@@ -32,6 +32,7 @@ const REQUIRED_SOC_CODES = [
 	'29-1151', // Nurse Anesthetists
 	'29-1171', // Nurse Practitioners
 	'29-2055', // Surgical Technologists
+	'29-2052', // Pharmacy Technicians
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -227,4 +228,24 @@ test('spot check: Surgical Technologists (29-2055) matches BLS OOH page + Employ
 	// not specific to surgical technologists alone -- omitted rather than
 	// published as a fact this page doesn't actually state for this SOC.
 	assert.equal(occ.medianHourly, undefined);
+});
+
+// Hand-transcribed from the live bls.gov OOH page (Pharmacy Technicians has
+// its own standalone page, unlike several merged-occupation pages above) on
+// 2026-08-05. Independent of wages-source.json's own numbers -- do not
+// derive these from the source file.
+test('spot check: Pharmacy Technicians (29-2052) matches BLS OOH page', () => {
+	const occ = occupations['29-2052'];
+	assert.equal(occ.medianAnnual, 43460);
+	// Independent review on 2026-08-05 caught that the Pay tab's narrative
+	// text omits an hourly figure, but the page's Quick Facts box does state
+	// one ($20.90/hr) -- corrected here after being wrongly published as
+	// "no separate hourly rate" in the article on first draft.
+	assert.equal(occ.medianHourly, 20.90);
+	assert.equal(occ.percentiles.p10, 35100);
+	assert.equal(occ.percentiles.p90, 59450);
+	assert.equal(occ.employment, 490400);
+	assert.equal(occ.jobOutlookPct, 6);
+	assert.equal(occ.employmentChange, 31500);
+	assert.equal(occ.industryWages.length, 5);
 });

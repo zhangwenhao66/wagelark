@@ -24,6 +24,7 @@ const CHARTS = {
 	'flight-attendant-salary-chart': '53-2031',
 	'radiology-tech-salary-chart': '29-2034',
 	'physician-assistant-salary-chart': '29-1071',
+	'pharmacy-technician-salary-chart': '29-2052',
 };
 
 const NAVY = '#14273f';

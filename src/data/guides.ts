@@ -984,4 +984,67 @@ export const guides: Guide[] = [
 		image: '/images/surgical-tech-salary-chart.svg',
 		imageAlt: 'Bar chart comparing median annual wage of surgical technologists ($62,830) and surgical assistants ($60,290), based on BLS May 2024 data.',
 	},
+	{
+		slug: 'pharmacy-technician-salary',
+		category: 'Salary Guide',
+		title: 'Pharmacy Technician Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS reports a $43,460 median pharmacy technician salary. See the full wage range by percentile and by industry, from retail pharmacies to hospitals.',
+		published: '2026-08-05',
+		updated: '2026-08-05',
+		socCode: '29-2052',
+		coreSummary: 'The median annual wage for pharmacy technicians was $43,460 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $35,100 and the top 10% earned more than $59,450, a comparatively narrow spread for an occupation that typically requires only a high school diploma to enter. Pay depends heavily on setting: ambulatory healthcare services paid the highest industry median at $49,920, about $12,000 above the $37,900 median at pharmacies and drug retailers.',
+		sections: [
+			{
+				heading: 'What pharmacy technicians actually earn, by percentile',
+				body: [
+					'BLS tracks pharmacy technician pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The most recent published data, from May 2024, puts the median annual wage at $43,460, or $20.90 an hour. Reporting pay both ways matters here more than for some occupations on this site, since pharmacy technicians are commonly scheduled by the hour rather than paid a fixed annual salary, and hours can vary by employer and by whether the role is full time or part time.',
+					'The percentile spread is narrower in dollar terms than most other occupations covered here: the bottom 10% of pharmacy technicians earned less than $35,100 in May 2024, while the top 10% earned more than $59,450, a gap of about $24,350. That is still a meaningful spread relative to the median itself, more than half of it, but it is a smaller absolute range than occupations like pharmacists or actuaries, where pay climbs sharply with additional licensing or credentials. Pharmacy technicians share a much more uniform entry requirement: a high school diploma or equivalent, with most training happening on the job in under a year, or through a postsecondary certificate program at a vocational school or community college.',
+				],
+			},
+			{
+				heading: 'Pay by industry setting',
+				body: [
+					'BLS breaks out May 2024 pharmacy technician wages across five industry categories, and the gap between the highest- and lowest-paying settings is larger than the national percentile spread above. Ambulatory healthcare services, a category that includes outpatient clinics and infusion centers, paid the highest median at $49,920. Hospitals paid close behind at $49,310.',
+					'General merchandise retailers, meaning big-box stores that operate an in-house pharmacy counter, paid a median of $46,180. Grocery and specialty food retailers paid $38,810, and pharmacies and drug retailers, the traditional chain and independent retail pharmacy setting most people associate with the job title, paid the least of the five tracked categories, at $37,900. The roughly $12,020 gap between the highest- and lowest-paying settings means the specific type of employer matters more to a pharmacy technician\'s take-home pay than it does in several other occupations this site tracks.',
+				],
+			},
+			{
+				heading: 'Job outlook: growth is real, but most annual openings come from turnover',
+				body: [
+					'BLS projects employment of pharmacy technicians to grow 6% from 2024 to 2034, from 490,400 to 521,800 positions, which the agency classifies as faster than the average for all occupations. That works out to a net increase of 31,500 jobs over the decade. Separately, BLS projects about 49,000 average annual openings for the occupation once the decade is averaged out, a substantially larger number than the net growth figure, because most of those openings come from replacing technicians who transfer to other occupations or leave the labor force, not from newly created positions. Readers comparing job-market numbers across sources should keep that distinction in mind: net employment growth and total annual openings measure different things.',
+					'BLS attributes the demand behind both numbers to two forces: a growing and aging population that uses more prescription medication, plus rising rates of chronic conditions such as diabetes and hypertension that require ongoing prescriptions. On top of that structural demand, BLS notes that pharmacists are increasingly shifting toward direct patient-care activities, which is pushing more of the collecting, transferring, and verifying work in a pharmacy down to technicians, a role-mix shift that adds to demand for the occupation beyond population growth alone.',
+				],
+			},
+			{
+				heading: 'What it takes to get in, and how the pay compares to a pharmacist',
+				body: [
+					'Entry-level education for pharmacy technicians is a high school diploma or equivalent, one of the lowest bars among the occupations tracked on this site. Most states regulate pharmacy technicians in some way, and requirements can include a formal education or training program, an exam, fees, continuing education, a criminal background check, or a minimum age, though the exact mix varies significantly by state. Certification is not required everywhere, but BLS notes that some states and employers do require it, and that having it can make finding a job easier even where it is not mandatory. CareerOneStop, the resource BLS itself points readers to for details, is the place to check what a specific state actually requires rather than assuming national rules apply everywhere.',
+					'That low barrier to entry is also what separates a pharmacy technician\'s pay from a pharmacist\'s. Pharmacists require a Doctor of Pharmacy (PharmD), a professional doctorate that typically takes four years after at least two years of prerequisite coursework, plus passing a national licensure exam. This site\'s [pharmacist salary guide](/pharmacist-salary/) reports a May 2024 median of $137,480, more than three times the pharmacy technician median in this article, reflecting that multi-year credentialing gap rather than a difference in day-to-day workload. For a comparison at a similarly accessible entry point, this site\'s [guide to becoming a phlebotomist](/how-to-become-a-phlebotomist/) covers another allied health role that, unlike pharmacy technicians, typically requires completing a postsecondary certificate program rather than qualifying with a high school diploma alone.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median pharmacy technician salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for pharmacy technicians was $43,460 in May 2024, equivalent to $20.90 an hour. Because pharmacy technicians are often scheduled hourly rather than paid a fixed salary, actual annual earnings can differ from this figure depending on how many hours a technician actually works in a given year.',
+			},
+			{
+				question: 'Do pharmacy technicians need to be certified?',
+				answer: 'It depends on the state. BLS reports that most states regulate pharmacy technicians in some way, and requirements can include a formal training program, an exam, a background check, or continuing education, though the specific mix varies by state. Certification is not universally required, but some states and employers do require it, and BLS notes it can make finding a job easier even where it isn\'t mandatory.',
+			},
+			{
+				question: 'Which industry pays pharmacy technicians the most?',
+				answer: 'Among the industry categories BLS tracks for May 2024, ambulatory healthcare services paid the highest median at $49,920, followed closely by hospitals at $49,310. Pharmacies and drug retailers, the traditional retail chain setting, paid the least of the five tracked categories, at $37,900.',
+			},
+			{
+				question: 'Is pharmacy technician a growing occupation?',
+				answer: 'BLS projects 6% employment growth for pharmacy technicians from 2024 to 2034, faster than the average for all occupations, adding a net 31,500 jobs. BLS separately projects about 49,000 average annual job openings once the decade is averaged out, though most of those openings come from replacing technicians who leave the occupation rather than from new positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Pharmacy Technicians (accessed 2026-08-05, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm' },
+		],
+		image: '/images/pharmacy-technician-salary-chart.svg',
+		imageAlt: 'Bar chart showing pharmacy technician annual wage by percentile: 10th percentile $35,100, median $43,460, 90th percentile $59,450, based on BLS May 2024 data.',
+	},
 ];
