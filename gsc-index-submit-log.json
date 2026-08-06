@@ -29,5 +29,18 @@
       "https://wagelark.com/what-does-an-actuary-do/"
     ],
     "quota_used": "2 requests this run (round 1 and round 2)"
+  },
+  {
+    "date": "2026-08-06",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。本站今日无新发布，按build-index-queue.py代理排序取队列。第一轮依次检查dental-hygienist-salary/radiology-tech-salary均已'URL is on Google'（自然收录，未消耗配额），改提交pharmacy-technician-salary（URL is not on Google）成功。第二轮因Chrome扩展断连未能到达本站，队列后续候选本次未检查。",
+    "submitted_urls": [
+      "https://wagelark.com/pharmacy-technician-salary/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/dental-hygienist-salary/",
+      "https://wagelark.com/radiology-tech-salary/"
+    ],
+    "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
   }
 ]
