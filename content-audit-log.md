@@ -262,3 +262,92 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "physical-therapist-salary",
+  "last_audited": "2026-08-06",
+  "published_date": "2026-08-03",
+  "note": "guides.ts数组第4位、与pharmacist-salary/dental-hygienist-salary/actuary-salary同为2026-08-03首批发布，从未被本任务审计过，按站内既有数组位置优先惯例选取",
+  "article_specific_checklist": [
+    "median/p10/p90（$101,020/$74,420/$132,500）及四类行业细分中位数是否与BLS当前公开数据逐字一致",
+    "11%就业增长/29,300新增岗位口径是否可溯源到BLS原文",
+    "DPT三年学制+需学士学位+national licensing exam这条从业资格论断是否准确",
+    "正文'private outpatient physical therapy offices...where a large share of PTs are employed'这句未标注具体数字的定性论断，是否有真实数据支撑而非模糊归因"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "Browser pane实地渲染bls.gov/ooh/healthcare/physical-therapists.htm（curl直连被Akamai拦截，与本站历次审计经验一致）逐条核对Pay/Job Outlook/How to Become三个tab：median $101,020/$48.57时薪、p10<$74,420、p90>$132,500、四类行业中位数、11%增长(2024-34)/+29,300岗位，全部与正文/FAQ/schema逐字一致。'DPT programs typically last 3 years'及'typically require a bachelor's degree'均逐字匹配BLS原文。'a large share of PTs are employed'这句额外核实：Work Environment tab明确给出'Offices of physical, occupational and speech therapists, and audiologists 34%（最大类别）'，证实为真实可验证的最大雇主类别而非模糊归因，唯一可选优化是正文没写出具体34%数字（GEO权威原文引语维度弱化，非事实错误）。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS并标注数据年份(May 2024)，sources字段有URL+访问日期。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "发布仅3天，BLS OOH该页Last modified仍为2025-08-28，数据是当前BLS公开最新批次，未过时。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题（沿用既有站级决策）",
+      "detail": "WebSearch头部结果含Indeed/USC DPT项目页/ZipRecruiter/Glassdoor等，均有州/城市细分数据，本文无。与pharmacist-salary 2026-08-03审计发现的同类差距一致——BLS州级数据只以XLSX/查询工具形式发布，已有'州组合页'规划架构解决，不在单篇文章硬塞无法逐条核验的数字，不视为本文独有待办。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "seo-audit通过：title 61字符（guides.ts原始值，含后缀72字符属全站Layout统一行为）/description 145字符/单一H1+规范H2结构/canonical自引用正确/图片alt含具体数字/robots.txt对AI爬虫均Allow。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题",
+      "detail": "约84/99（阈值80，达标）。权威原文引语10/16为最弱项（正文均转述BLS数据无逐字引语）、统计数据完整性13/14、权威信号6/8（单一来源BLS）、跨域连接3/4（无正文手动锚文本内链，仅侧栏自动轮转）。未低于及格线，未触发修复。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "不适用",
+      "detail": "published=2026-08-03已在humanizer全站强制化之后，grep确认正文0处破折号。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "唯一外部来源BLS OOH页面，Browser pane实测可正常访问。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "live页面'More in Salary Guide'侧栏展示6篇同类文章链接，非孤儿页，使用site-toolkit轮转窗口算法。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "curl实测live页面FAQPage/Article/BreadcrumbList/Dataset四种JSON-LD均正确渲染，字段与正文数字逐一吻合。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "免责声明页脚存在，未发现收入承诺式表述或培训机构推荐。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "配图为站内脚本从wages-source.json自动生成的SVG柱状图，非第三方图片，无版权问题。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "ads.txt正确指向pub-5245502795720653；正文为百科式薪资统计记述；无标题党/诱导误点布局；privacy/about页面均200可访问。"
+    }
+  ],
+  "actions_taken": [
+    "十三维度深挖零确认问题——全部数字经BLS原始页面逐字核对无误，包括容易触发'模糊归因'疑虑的'a large share of PTs'论断也用BLS Work Environment tab的34%雇主占比数据独立证实为真，未产生任何需要独立复核agent的候选发现",
+    "未对文章正文/元数据做任何编辑，未触发build/commit/push/部署/IndexNow流程"
+  ],
+  "seo_score": "seo-audit通过，未发现需修复项",
+  "geo_score": "约84/99（阈值80，达标）",
+  "escalation": null
+}
+```
