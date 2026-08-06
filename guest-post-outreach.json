@@ -73,5 +73,50 @@
       }
     ],
     "result_summary": "积压3条处理完毕：2条发送成功（Good Professions、CareerBands），1条跳过并如实记录原因（CareerEnlightenment，发现是此前研究阶段的误判——实为付费placement模式+仅网页表单投稿，非渠道过期）。Job-Hunt.org按任务指示排除未处理，仍留在原记录待Owen决策。三篇pitch全文见 guest-post-pitch-drafts.md。"
+  },
+  {
+    "date": "2026-08-06",
+    "site": "wagelark",
+    "niche_focus": "career/salary reference (BLS-sourced salary guides, career-combination pages, \"what does X do\", entry paths, minimum wage)",
+    "channels_researched": [
+      {
+        "name": "Spark Hire Human Resources Blog",
+        "url": "https://sparkhire.submittable.com/submit/19681/spark-hire-human-resources-blog-guest-posts",
+        "status": "pitch sent 2026-08-06 (Message ID 19fd72459ff13f57)",
+        "notes": "真实招聘软件公司(Spark Hire)的HR博客，Submittable投稿门户但页面明确写'如果想先聊聊主题，联系Crystal（cdetemple@sparkhire.com）'——按此走邮件提案而非试图代填Submittable完整投稿表单。目标受众HR/招聘经理/猎头公司，分类含Best Hiring Practices/Hiring and Recruiting Budget，跟'招聘时用学历门槛错误预判薪资水平'角度契合。页面明确禁止AI撰写内容和付费写作服务代笔内容，无付费投稿语言、无CAPTCHA。独立复核agent判定'可以发送'（14天查重全账号Gmail+本站JSON均无记录/五项BLS数字对guides.ts核实完全一致/无收入承诺无培训机构推荐/语气判定为定制化提案非通用模板/无AI味/渠道规则匹配）后经gmail_send.py --from wagelark发出。全文见outreach-drafts.md。"
+      },
+      {
+        "name": "School of Health Care (schoolofhealthcare.net)",
+        "url": "https://schoolofhealthcare.net/write-for-us/",
+        "status": "real but poor fit — quality red flag, not pursued",
+        "notes": "投稿页真实存在(邮箱经Cloudflare混淆为write.schoolofhealthcare@gmail.com)，但用curl完整核对页面文本后发现，跟同批调研的Training Tale(trainingtale.org)的'Write For Us'页面文案逐字完全相同（连措辞、段落结构、拼写都一致，仅站名和联系方式不同），是典型的多域名联合运营的guest-post文案模板(同一网络下的在线课程销售站群)，跟此前研究已识别过的Selecting Career质量红旗属同一类问题。另外两站都以销售职业培训课程/证书为主业，站在本站'不推荐具体培训机构'的YMYL红线上是潜在利益冲突（即便不明推，出现在培训课程销售站的客座内容里也可能被解读为变相背书）。未起草pitch。"
+      },
+      {
+        "name": "Training Tale (trainingtale.org)",
+        "url": "https://trainingtale.org/write-for-us/",
+        "status": "real but poor fit — quality red flag, not pursued",
+        "notes": "同上，与School of Health Care共用逐字相同的'Write For Us'模板文案，同属在线培训课程销售站群，跟本站YMYL'不推荐具体培训机构'红线存在潜在利益冲突。未起草pitch。"
+      },
+      {
+        "name": "Off The Clock Resumes (offtheclockresumes.com)",
+        "url": "https://offtheclockresumes.com/pages/bloggers",
+        "status": "real but paid-placement model, not pursued",
+        "notes": "真实的求职教练/简历服务商(Steph)运营的博客，投稿指南本身合理(Networking/Interviewing/Career Planning & Advancement/In The Workplace，800-1500字)，但用curl完整核对页面文本后发现'Link Insertion: $50 | You may include one (1) affiliate link or promotional link... These are do-follow links. Invoiced once the article is accepted.'——想要的正是可索引外链，但该外链本身明码标价$50，属付费买链接模式，跟本项目一贯政策(不买外链)冲突，且与CareerEnlightenment/Debut Careers已确立的'见到付费placement语言直接跳过'先例属同一处理口径。未起草pitch，未联系。"
+      },
+      {
+        "name": "Career Reload (careerreload.com)",
+        "url": "https://www.careerreload.com/write-for-us/",
+        "status": "dead-link-or-redirected",
+        "notes": "curl核实/write-for-us/页面已301重定向到通用的/contact/联系表单页，不再有独立的客座投稿说明/邮箱，原'Write for Us'投稿入口已失效，改成了通用联系表单（表单本身无法用gmail_send.py投递，且失去了原有的投稿细则）。未起草pitch。"
+      },
+      {
+        "name": "Workology (workology.com)",
+        "url": "https://workology.com/contributing",
+        "status": "real but poor fit — eligibility mismatch + bot-gated, not pursued",
+        "notes": "知名活跃HR博客，但公开搜索摘要显示投稿资格要求'仅接受现任或前任HR从业者'（Only current or former HR practitioners are accepted），本站是BLS薪资数据参考站的运营者而非HR从业者，若冒充HR从业者身份投稿属于虚假陈述，不予采用；另外页面本身被Cloudflare机器人验证墙拦截(curl返回403，Browser pane两次尝试仍卡在'Performing security verification'无法进一步核实完整页面细节)，双重原因下未起草pitch、未联系。"
+      }
+    ],
+    "actions_taken": "本轮新研究6个渠道，1个viable并已发送(Spark Hire，邮件提案经独立复核agent判定'可以发送'后实际发出)；2个因质量红旗跳过(School of Health Care、Training Tale，两站文案逐字相同疑似联合站群+均为培训课程销售站，与School Selecting Career此前已识别的红旗属同一模式)；1个因付费买链接模式跳过(Off The Clock Resumes，$50/条do-follow链接明码标价)；1个投稿入口已失效跳过(Career Reload，/write-for-us/页面已重定向到通用联系表单)；1个因资格不符+机器人验证墙跳过(Workology，要求HR从业者身份+Cloudflare拦截)。均使用curl/Browser pane抓取完整页面文本核实，不仅凭搜索摘要判断。",
+    "result_summary": "本轮共研究6个新渠道，1个viable并已发送(Spark Hire)，5个real-but-poor-fit未追(2个质量红旗、1个付费买链接、1个链接失效、1个资格不符+机器人墙)。无表单可直接提交(均非'仅需站名/URL/简介/邮箱'的简单目录式表单)。无新增Owen待办事项——本轮所有'不追'决定均属已确立政策范围内的常规判断(付费/质量红旗/资格不符)，非需要Owen拍板的长期投入或身份决策。Job-Hunt.org长期专栏机会仍留在2026-08-04记录+独立站/待Owen处理事项.md，本轮未重复处理。"
   }
 ]
