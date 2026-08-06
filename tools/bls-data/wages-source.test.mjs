@@ -33,6 +33,7 @@ const REQUIRED_SOC_CODES = [
 	'29-1171', // Nurse Practitioners
 	'29-2055', // Surgical Technologists
 	'29-2052', // Pharmacy Technicians
+	'31-9091', // Dental Assistants
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -248,4 +249,20 @@ test('spot check: Pharmacy Technicians (29-2052) matches BLS OOH page', () => {
 	assert.equal(occ.jobOutlookPct, 6);
 	assert.equal(occ.employmentChange, 31500);
 	assert.equal(occ.industryWages.length, 5);
+});
+
+// Hand-transcribed from the live bls.gov OOH page (Dental Assistants has its
+// own standalone page) on 2026-08-06 via Browser pane (curl 403s on bls.gov).
+// Independent of wages-source.json's own numbers -- do not derive these from
+// the source file.
+test('spot check: Dental Assistants (31-9091) matches BLS OOH page', () => {
+	const occ = occupations['31-9091'];
+	assert.equal(occ.medianAnnual, 47300);
+	assert.equal(occ.medianHourly, 22.74);
+	assert.equal(occ.percentiles.p10, 36190);
+	assert.equal(occ.percentiles.p90, 61780);
+	assert.equal(occ.employment, 381900);
+	assert.equal(occ.jobOutlookPct, 6);
+	assert.equal(occ.employmentChange, 24400);
+	assert.equal(occ.industryWages.length, 3);
 });

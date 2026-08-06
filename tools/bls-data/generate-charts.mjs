@@ -25,6 +25,7 @@ const CHARTS = {
 	'radiology-tech-salary-chart': '29-2034',
 	'physician-assistant-salary-chart': '29-1071',
 	'pharmacy-technician-salary-chart': '29-2052',
+	'dental-assistant-salary-chart': '31-9091',
 };
 
 const NAVY = '#14273f';

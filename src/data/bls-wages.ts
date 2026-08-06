@@ -517,5 +517,40 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
 		publishedDate: "2025-08-28"
+	},
+	"31-9091": {
+		socCode: "31-9091",
+		title: "Dental Assistants",
+		medianAnnual: 47300,
+		medianHourly: 22.74,
+		percentiles: {
+			p10: 36190,
+			p90: 61780
+		},
+		employment: 381900,
+		employmentYear: "2024",
+		jobOutlookPct: 6,
+		jobOutlookLabel: "Faster than average",
+		employmentChange: 24400,
+		projectionPeriod: "2024-34",
+		entryEducation: "Postsecondary nondegree award",
+		industryWages: [
+			{
+				industry: "Government (excl. state/local education, hospitals)",
+				annualWage: 53660
+			},
+			{
+				industry: "Offices of dentists",
+				annualWage: 47250
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 46170
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Dental Assistants",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/dental-assistants.htm",
+		publishedDate: "2025-08-28"
 	}
 };
