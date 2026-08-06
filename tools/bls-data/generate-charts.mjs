@@ -26,6 +26,7 @@ const CHARTS = {
 	'physician-assistant-salary-chart': '29-1071',
 	'pharmacy-technician-salary-chart': '29-2052',
 	'dental-assistant-salary-chart': '31-9091',
+	'medical-assistant-salary-chart': '31-9092',
 };
 
 const NAVY = '#14273f';

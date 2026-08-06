@@ -1114,4 +1114,71 @@ export const guides: Guide[] = [
 		image: '/images/dental-assistant-salary-chart.svg',
 		imageAlt: 'Bar chart showing dental assistant annual wage by percentile: 10th percentile $36,190, median $47,300, 90th percentile $61,780, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'medical-assistant-salary',
+		category: 'Salary Guide',
+		title: 'Medical Assistant Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median medical assistant salary at $44,200 a year. See the wage range by percentile, by industry, and how it compares to a physician assistant.',
+		published: '2026-08-06',
+		updated: '2026-08-06',
+		socCode: '31-9092',
+		coreSummary: 'The median annual wage for medical assistants was $44,200 in May 2024, according to the U.S. Bureau of Labor Statistics, or $21.25 an hour. The bottom 10% earned less than $35,020, and the top 10% earned more than $57,830. Outpatient care centers paid the highest industry median at $47,560, while offices of other health practitioners paid the least, at $37,510. BLS projects 12% employment growth through 2034, much faster than average, with about 112,300 openings projected each year.',
+		sections: [
+			{
+				heading: 'What medical assistants actually earn, by percentile',
+				body: [
+					'BLS tracks medical assistant pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The most recent published data, from May 2024, put median annual pay at $44,200, or $21.25 an hour, for a role that is nearly always paid hourly rather than salaried.',
+					'The bottom 10% of medical assistants earned less than $35,020 in May 2024, while the top 10% earned more than $57,830, a spread of about $22,810. That is a somewhat narrower dollar range than this site\'s dental assistant salary guide reports for a comparably credentialed role ($36,190 to $61,780, a roughly $25,590 spread), though the two spreads are close enough, within a few thousand dollars of each other, that neither occupation stands out as having a meaningfully wider pay ceiling than the other.',
+				],
+			},
+			{
+				heading: 'Pay by industry and practice setting',
+				body: [
+					'BLS breaks out May 2024 medical assistant wages across four industry categories. Outpatient care centers paid the highest median at $47,560. Hospitals (state, local, and private) paid $45,930. Offices of physicians, the setting where BLS notes the largest share of medical assistants work, paid $43,880, close to the occupation-wide median. Offices of other health practitioners, such as chiropractors or optometrists, paid the least of the four tracked categories, at $37,510.',
+					'The roughly $10,050 gap between the highest- and lowest-paying tracked industries means the specific setting a medical assistant works in moves the needle more than it does for some other allied health roles on this site. Outpatient care centers, which include facilities like urgent care clinics and ambulatory surgical centers, paid noticeably more than the smaller physician or specialist offices where a large share of the occupation is actually employed.',
+				],
+			},
+			{
+				heading: 'Job outlook: one of the fastest-growing healthcare support roles',
+				body: [
+					'BLS projects employment of medical assistants to grow 12% from 2024 to 2034, from 811,000 to roughly 912,200 positions, which the agency classifies as much faster than the average for all occupations. That is a net increase of 101,200 jobs over the decade, a larger absolute gain than any other occupation currently covered on this site. Separately, BLS projects about 112,300 average annual openings once the decade is averaged out, since most openings come from replacing assistants who transfer to other occupations or exit the labor force rather than from newly created positions alone.',
+					'BLS attributes the growth to the expanding role of outpatient care as more medical services move out of hospitals and into physicians\' offices, outpatient care centers, and other ambulatory settings, along with continued demand from an aging population that requires more routine medical care. Because medical assistants handle both administrative and clinical tasks in these growing outpatient settings, BLS expects demand for the role to track that broader shift in where care is delivered.',
+				],
+			},
+			{
+				heading: 'Medical assistant vs. physician assistant: same name pattern, very different role',
+				body: [
+					'The similar-sounding job title is one of the most common points of confusion in healthcare hiring, and the pay gap between the two makes the distinction worth spelling out. A medical assistant typically needs a postsecondary certificate, and some enter the field with just a high school diploma plus on-the-job training, no state license is required in most states, and BLS reports a May 2024 median of $44,200. This site\'s [physician assistant salary guide](/physician-assistant-salary/) covers a role that shares a shortened name but almost nothing else: PAs must complete a master\'s-level program of roughly two to three years after a bachelor\'s degree, pass a national certifying exam, and hold a state license to diagnose patients and prescribe medication, and BLS reports their May 2024 median at $133,260, about three times the medical assistant figure.',
+					'For a closer comparison at a similar entry point, this site\'s [dental assistant salary guide](/dental-assistant-salary/) covers another role BLS classifies under the same "postsecondary nondegree award" entry-education category, with a May 2024 median of $47,300, about $3,100 above the medical assistant median. Both roles typically take under a year to enter through a certificate program or employer training, and neither requires a state license to practice in most states, though some states require certification for specific expanded duties in each field.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median medical assistant salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for medical assistants was $44,200 in May 2024, equivalent to $21.25 an hour. The bottom 10% earned less than $35,020, and the top 10% earned more than $57,830.',
+			},
+			{
+				question: 'Do medical assistants need a degree?',
+				answer: 'No degree is typically required. BLS lists the typical entry-level education as a postsecondary nondegree award, such as a certificate program, and notes that some medical assistants enter the occupation with only a high school diploma and learn through on-the-job training. Most states do not require a license to work as a medical assistant, though certain expanded duties may require state-specific certification.',
+			},
+			{
+				question: 'Which industry pays medical assistants the most?',
+				answer: 'Among the industry categories BLS tracks for May 2024, outpatient care centers paid the highest median at $47,560, followed by hospitals (state, local, and private) at $45,930 and offices of physicians at $43,880. Offices of other health practitioners paid the least of the four tracked categories, at $37,510.',
+			},
+			{
+				question: 'Is a medical assistant the same as a physician assistant?',
+				answer: 'No, despite the similar name, the two are very different roles. A medical assistant typically needs a postsecondary certificate and earns a May 2024 median of $44,200. A physician assistant must complete a master\'s-level program, pass a national exam, and hold a state license to diagnose and prescribe, and earns a May 2024 median of $133,260, about three times as much.',
+			},
+			{
+				question: 'Is medical assisting a growing occupation?',
+				answer: 'Yes. BLS projects 12% employment growth for medical assistants from 2024 to 2034, much faster than the average for all occupations, adding a net 101,200 jobs. BLS separately projects about 112,300 average annual job openings once the decade is averaged out, with most coming from workers transferring out of the occupation or leaving the labor force rather than from newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Medical Assistants (accessed 2026-08-06 via Wayback Machine snapshot of 2026-06-29, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/medical-assistants.htm' },
+		],
+		image: '/images/medical-assistant-salary-chart.svg',
+		imageAlt: 'Bar chart showing medical assistant annual wage by percentile: 10th percentile $35,020, median $44,200, 90th percentile $57,830, based on BLS May 2024 data.',
+	},
 ];

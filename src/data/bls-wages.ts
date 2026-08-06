@@ -552,5 +552,44 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Dental Assistants",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/dental-assistants.htm",
 		publishedDate: "2025-08-28"
+	},
+	"31-9092": {
+		socCode: "31-9092",
+		title: "Medical Assistants",
+		medianAnnual: 44200,
+		medianHourly: 21.25,
+		percentiles: {
+			p10: 35020,
+			p90: 57830
+		},
+		employment: 811000,
+		employmentYear: "2024",
+		jobOutlookPct: 12,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 101200,
+		projectionPeriod: "2024-34",
+		entryEducation: "Postsecondary nondegree award",
+		industryWages: [
+			{
+				industry: "Outpatient care centers",
+				annualWage: 47560
+			},
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 45930
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 43880
+			},
+			{
+				industry: "Offices of other health practitioners",
+				annualWage: 37510
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Medical Assistants",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/medical-assistants.htm",
+		publishedDate: "2025-08-28"
 	}
 };

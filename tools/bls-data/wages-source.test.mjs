@@ -34,6 +34,7 @@ const REQUIRED_SOC_CODES = [
 	'29-2055', // Surgical Technologists
 	'29-2052', // Pharmacy Technicians
 	'31-9091', // Dental Assistants
+	'31-9092', // Medical Assistants
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -265,4 +266,23 @@ test('spot check: Dental Assistants (31-9091) matches BLS OOH page', () => {
 	assert.equal(occ.jobOutlookPct, 6);
 	assert.equal(occ.employmentChange, 24400);
 	assert.equal(occ.industryWages.length, 3);
+});
+
+// Hand-transcribed from a Wayback Machine snapshot (2026-06-29) of the live
+// bls.gov OOH page on 2026-08-06 -- curl 403s on bls.gov directly, and the
+// snapshot's own "Last modified date: August 28, 2025" matches the same
+// data-freshness date as every other spot check in this file, confirming it
+// reflects the same May 2024 data cycle as a direct fetch would. Independent
+// of wages-source.json's own numbers -- do not derive these from the source
+// file.
+test('spot check: Medical Assistants (31-9092) matches BLS OOH page', () => {
+	const occ = occupations['31-9092'];
+	assert.equal(occ.medianAnnual, 44200);
+	assert.equal(occ.medianHourly, 21.25);
+	assert.equal(occ.percentiles.p10, 35020);
+	assert.equal(occ.percentiles.p90, 57830);
+	assert.equal(occ.employment, 811000);
+	assert.equal(occ.jobOutlookPct, 12);
+	assert.equal(occ.employmentChange, 101200);
+	assert.equal(occ.industryWages.length, 4);
 });
