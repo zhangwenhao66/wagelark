@@ -350,6 +350,29 @@
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/medical-assistants.htm",
       "publishedDate": "2025-08-28"
     },
+    "31-1131": {
+      "title": "Nursing Assistants",
+      "medianAnnual": 39530,
+      "percentiles": { "p10": 31390, "p90": 50140 },
+      "employment": 1441500,
+      "employmentYear": "2024",
+      "jobOutlookPct": 2,
+      "jobOutlookLabel": "Slower than average",
+      "employmentChange": 32600,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "State-approved training program",
+      "industryWages": [
+        { "industry": "Government (excl. state/local education, hospitals)", "annualWage": 45760 },
+        { "industry": "Hospitals; state, local, and private", "annualWage": 40170 },
+        { "industry": "Nursing care facilities (skilled nursing facilities)", "annualWage": 39170 },
+        { "industry": "Continuing care retirement communities & assisted living", "annualWage": 38500 },
+        { "industry": "Home healthcare services", "annualWage": 36910 }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/nursing-assistants.htm",
+      "publishedDate": "2025-08-28"
+    },
     "53-2021": {
       "title": "Air Traffic Controllers",
       "medianAnnual": 144580,

@@ -1249,4 +1249,73 @@ export const guides: Guide[] = [
 		image: '/images/air-traffic-controller-salary-chart.svg',
 		imageAlt: 'Bar chart showing air traffic controller annual wage by percentile: 10th percentile $76,090, median $144,580, 90th percentile $210,410, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'how-to-become-a-cna',
+		category: 'How to Become',
+		title: 'How to Become a CNA: Certification, Training, and Pay',
+		description: 'The federal minimum for CNA training is 75 hours, not a degree. Here is the real certification path, the state exam and registry, plus BLS pay data.',
+		published: '2026-08-10',
+		updated: '2026-08-10',
+		socCode: '31-1131',
+		coreSummary: 'Federal regulation sets a 75-hour minimum for nurse aide training programs, including at least 16 hours of supervised practical training, well short of the multi-month or multi-year programs required for most other healthcare roles. The Bureau of Labor Statistics reports a median annual wage of $39,530 for nursing assistants in May 2024, with the bottom 10% earning less than $31,390 and the top 10% earning more than $50,140.',
+		sections: [
+			{
+				heading: 'The federal floor: 75 hours, not a degree',
+				body: [
+					'Nurse aide training in the United States has a federal floor set by 42 CFR § 483.152: a state-approved program must run at least 75 clock hours, including a minimum of 16 hours of supervised practical training in which the trainee performs hands-on tasks on a person under the direct supervision of a registered nurse or a licensed practical nurse. That 75-hour figure is a national minimum, not a target. According to PHI, a national policy organization that tracks state nurse aide training rules, more than half the states set a higher bar than the federal floor, with some states requiring as much as 180 hours of instruction and clinical practice before a candidate is eligible to test.',
+					'The Bureau of Labor Statistics lists these programs as available through high schools, community colleges, vocational and technical schools, hospitals, and nursing homes themselves, meaning a candidate rarely has to enroll in a standalone college program the way a diagnostic medical sonographer or dental hygienist would. There is no associate or bachelor\'s degree requirement anywhere in the federal rule. That short, low-cost training window is the main structural difference between becoming a CNA and becoming most of the other entry-level healthcare roles covered on this site.',
+				],
+			},
+			{
+				heading: 'The exam, the registry, and what counts as working legally',
+				body: [
+					'Finishing the training hours is not the last step. Federal rule 42 CFR § 483.35(d) caps how long someone can actually work as a nurse aide in a Medicare- or Medicaid-certified nursing home while still completing training and the competency evaluation: 4 months, after which the individual must have demonstrated competency to keep working in that role. The competency evaluation itself has two parts, a written or oral knowledge test and a hands-on skills demonstration.',
+					'Once a candidate passes, federal rule 42 CFR § 483.154(e)(2) requires the state to add the record to its nurse aide registry, the one set up under § 483.156, within 30 days. Being listed on that state registry, not just holding a training certificate, is what BLS describes as the actual requirement to work in a nursing home. Titles vary by state even though the underlying federal training and testing rules are the same nationally: BLS notes that some states use the title "Certified Nursing Assistant," or CNA, while others use different state-specific titles for the same credential. Some states also offer a further credential, Certified Medication Assistant, which lets a CNA who completes additional training dispense medications, a task outside the base nurse aide scope.',
+				],
+			},
+			{
+				heading: 'What the job pays once certified',
+				body: [
+					'BLS reports a median annual wage of $39,530 for nursing assistants in May 2024 ($31,390 at the 10th percentile and $50,140 at the 90th). Pay varies meaningfully by setting: government employers outside state/local education and hospitals paid the highest median tracked, at $45,760, ahead of hospitals ($40,170), nursing care facilities, meaning skilled nursing facilities ($39,170), continuing care retirement communities and assisted living facilities ($38,500), and home healthcare services, the lowest of the industries BLS tracks for this role at $36,910.',
+					'BLS projects only 2% employment growth for nursing assistants and orderlies combined from 2024 to 2034, slower than the average for all occupations, yet still projects about 211,800 openings each year on average across the decade. BLS attributes the gap directly: most of those openings are expected to come from the need to replace workers who transfer to different occupations or exit the labor force, such as to retire, rather than from newly created positions.',
+				],
+			},
+			{
+				heading: 'CNA pay next to other quick-entry healthcare roles',
+				body: [
+					'Within the same BLS occupational family, nursing assistants and orderlies are two different jobs with two different entry bars and two different median wages. Orderlies, who transport patients and clean treatment areas rather than provide direct patient care, typically need only a high school diploma or equivalent plus a short period of on-the-job training, and do not need a state license or registry listing. BLS puts their median annual wage at $37,700, about $1,830 below the $39,530 nursing assistants earn for taking on the state-approved training, competency exam, and registry requirement that orderlies do not.',
+					'Against roles that require more formal postsecondary training, the CNA path still trails on pay but not by as much as the training-length gap might suggest. [Medical assistants](/medical-assistant-salary/), who typically complete a postsecondary certificate or degree program, have a BLS median annual wage of $44,200, about $4,670 (roughly 12%) above nursing assistants. [Phlebotomists](/how-to-become-a-phlebotomist/), whose entry path runs through either a sub-year certificate program or, in some states, direct on-the-job training, have a BLS median of $43,660, about $4,130 (roughly 10%) above nursing assistants. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one of these paths is the better choice for a given person.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a CNA?',
+				answer: 'Federal rule (42 CFR § 483.152) sets a 75-hour minimum for state-approved nurse aide training programs, including at least 16 hours of supervised practical training. More than half the states require more than the federal minimum, up to 180 hours in the most demanding states, according to PHI, a national policy organization that tracks state training rules.',
+			},
+			{
+				question: 'What happens after CNA training is finished?',
+				answer: 'A candidate must pass a state competency evaluation, which includes a knowledge test and a hands-on skills demonstration. Federal rule (42 CFR § 483.35(d)) caps how long someone can work as a nurse aide in a Medicare- or Medicaid-certified nursing home while still completing training and testing at 4 months. Once a candidate passes, federal rule requires the state to add them to its nurse aide registry within 30 days.',
+			},
+			{
+				question: 'How much do CNAs make?',
+				answer: 'BLS reports a median annual wage of $39,530 for nursing assistants in May 2024, with the bottom 10% earning less than $31,390 and the top 10% earning more than $50,140. Government employers outside state/local education and hospitals paid the highest industry median tracked, at $45,760.',
+			},
+			{
+				question: 'What is the difference between a CNA and an orderly?',
+				answer: 'Both fall under the same BLS occupational family, but the entry requirements and pay differ. Nursing assistants (the CNA credential) typically need a state-approved training program, a competency exam, and a spot on the state nurse aide registry; BLS puts their median annual wage at $39,530. Orderlies typically need only a high school diploma plus short on-the-job training, with no license or registry requirement, and BLS puts their median at $37,700.',
+			},
+			{
+				question: 'Is becoming a CNA a good way into healthcare?',
+				answer: 'BLS projects 2% employment growth for nursing assistants and orderlies combined from 2024 to 2034, slower than average, but still about 211,800 openings a year on average, mostly from workers leaving the occupation rather than from new positions. Whether that makes it the right entry point depends on individual circumstances; BLS data describes the aggregate labor market, not a recommendation for any specific person.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies (accessed 2026-08-10 via Wayback Machine snapshot of 2026-07-31, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/nursing-assistants.htm' },
+			{ label: '42 CFR Part 483, Subpart D — Nurse Aide Training and Competency Evaluation (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D' },
+			{ label: '42 CFR § 483.35(d) — Requirements for facility hiring and use of nurse aides (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-B/section-483.35' },
+		],
+		image: '/images/cna-certification-path.svg',
+		imageAlt: 'Timeline diagram showing the path to CNA certification: 75-hour minimum state-approved training program, competency exam, then placement on the state nurse aide registry within 30 days.',
+	},
 ];

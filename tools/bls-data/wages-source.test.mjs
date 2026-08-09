@@ -36,6 +36,7 @@ const REQUIRED_SOC_CODES = [
 	'31-9091', // Dental Assistants
 	'31-9092', // Medical Assistants
 	'53-2021', // Air Traffic Controllers
+	'31-1131', // Nursing Assistants
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -305,4 +306,23 @@ test('spot check: Air Traffic Controllers (53-2021) matches BLS OOH page', () =>
 	assert.equal(occ.jobOutlookPct, 1);
 	assert.equal(occ.employmentChange, 300);
 	assert.equal(occ.industryWages.length, 2);
+});
+
+// Numbers below transcribed by hand on 2026-08-10 from a Wayback Machine
+// snapshot (2026-07-31 crawl) of bls.gov/ooh/healthcare/nursing-assistants.htm
+// (direct fetch returns Akamai 403, same pattern as prior spot checks).
+// Independent of wages-source.json's own numbers -- do not derive these from
+// the source file. The OOH page covers "Nursing Assistants and Orderlies" as
+// one profile but breaks out separate SOC-level figures in its Pay and
+// Employment Projections tables for the two sub-occupations; these are the
+// Nursing Assistants (31-1131) breakout, not the blended profile figure.
+test('spot check: Nursing Assistants (31-1131) matches BLS OOH page', () => {
+	const occ = occupations['31-1131'];
+	assert.equal(occ.medianAnnual, 39530);
+	assert.equal(occ.percentiles.p10, 31390);
+	assert.equal(occ.percentiles.p90, 50140);
+	assert.equal(occ.employment, 1441500);
+	assert.equal(occ.jobOutlookPct, 2);
+	assert.equal(occ.employmentChange, 32600);
+	assert.equal(occ.industryWages.length, 5);
 });
