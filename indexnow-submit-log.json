@@ -2,15 +2,15 @@
   "https://wagelark.com/dental-hygienist-salary/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch 1/10 (Salary Guide); Bing 202 / Yandex 202",
-    "last_checked_date": "2026-08-06",
+    "note": "launch batch 1/10 (Salary Guide); Bing 202 / Yandex 202; Discovered but not crawled (Discovered on 03 Aug 2026)",
+    "last_checked_date": "2026-08-09",
     "verified_method": "bwt_url_inspection"
   },
   "https://wagelark.com/actuary-salary/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch 2/10 (Salary Guide); Bing 202 / Yandex 202",
-    "last_checked_date": "2026-08-06",
+    "note": "launch batch 2/10 (Salary Guide); Bing 202 / Yandex 202; Discovered but not crawled (Discovered on 03 Aug 2026)",
+    "last_checked_date": "2026-08-09",
     "verified_method": "bwt_url_inspection"
   },
   "https://wagelark.com/pharmacist-salary/": {
@@ -54,15 +54,15 @@
   "https://wagelark.com/how-to-become-a-phlebotomist/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch 9/10 (How to Become); Bing 202 / Yandex 202",
-    "last_checked_date": "2026-08-06",
+    "note": "launch batch 9/10 (How to Become); Bing 202 / Yandex 202; Discovered but not crawled (Discovered on 03 Aug 2026)",
+    "last_checked_date": "2026-08-09",
     "verified_method": "bwt_url_inspection"
   },
   "https://wagelark.com/how-much-do-flight-attendants-make/": {
     "submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "note": "launch batch 10/10 (Salary Guide, colloquial-query type); Bing 202 / Yandex 202",
-    "last_checked_date": "2026-08-06",
+    "note": "launch batch 10/10 (Salary Guide, colloquial-query type); Bing 202 / Yandex 202; Discovered but not crawled (Discovered on 03 Aug 2026)",
+    "last_checked_date": "2026-08-09",
     "verified_method": "bwt_url_inspection"
   },
   "https://wagelark.com/radiology-tech-salary/": {
@@ -76,8 +76,9 @@
     "submitted_date": "2026-08-03",
     "last_submitted_date": "2026-08-03",
     "verified_status": "pending",
-    "last_checked_date": "2026-08-06",
-    "verified_method": "bwt_url_inspection"
+    "last_checked_date": "2026-08-09",
+    "verified_method": "bwt_url_inspection",
+    "note": "Discovered but not crawled (Discovered on 04 Aug 2026)"
   },
   "https://wagelark.com/nurse-practitioner-salary/": {
     "submitted_date": "2026-08-04",
@@ -110,6 +111,11 @@
     "verified_status": "pending"
   },
   "https://wagelark.com/air-traffic-controller-salary/": {
+    "submitted_date": "2026-08-09",
+    "last_submitted_date": "2026-08-09",
+    "verified_status": "pending"
+  },
+  "https://wagelark.com/how-to-become-a-cna/": {
     "submitted_date": "2026-08-09",
     "last_submitted_date": "2026-08-09",
     "verified_status": "pending"
