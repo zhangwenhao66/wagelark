@@ -120,3 +120,33 @@ wagelark.com
 
 **发送记录**：2026-08-06 由 `gmail_send.py send --from wagelark` 发出，收件人 cdetemple@sparkhire.com，Message ID `19fd72459ff13f57`。
 
+---
+
+## 2026-08-09 — Broken link pitch: UCF Actuarial Science Club resources page
+
+- Target page: https://sciences.ucf.edu/statistics/actuary-club/links/ (University of Central Florida, Department of Statistics and Data Science — Actuarial Science Club's student-maintained links page)
+- Dead link found: "Risk Is Opportunity" (labeled on the page as "SOA site for College students"), pointing to `http://riskisopportunity.net/`. Confirmed dead via two independent methods: `curl` connection failure and `dig riskisopportunity.net A`/`NS` both return empty (no DNS records at all, not merely unreachable). This was a Society of Actuaries-adjacent career-awareness site ("A Career In Risk," "Actuarial Organizations," "Life As An Actuary"), last indexed content dated around 2018.
+- Contact used: ucf.asc@gmail.com (the club's own "Connect With Us" email, listed on the main club page, not an individual officer's UCF student address)
+- Replacement offered: https://wagelark.com/what-does-an-actuary-do/ — topically matches what the dead link covered (actuary career overview/specialties), plus current BLS pay data. Every figure in the pitch was checked against `src/data/guides.ts` line-by-line: median $125,770/year (May 2024 BLS), 10th percentile $75,240, 90th percentile $206,430, five specialty tracks (health, life, property/casualty, pension, enterprise risk), Associate-to-Fellow exam path. No income claims, no training-provider recommendations — YMYL check passed.
+- Dedup: `gmail_send.py list --query "to:ucf.asc@gmail.com"` across the full account returned empty; grep across seo-geo-trinity and 流量站矩阵 outreach logs found no prior contact with this address or this URL.
+- Humanizer + avoid-ai-writing: both run on the draft. No changes required — draft was already free of em dashes, AI-vocabulary words, hedging stacks, and template phrasing.
+
+**Draft email (独立复核判定"可以发送"，已发送 2026-08-09，`gmail_send.py send --from wagelark`，Message ID `19fe53254ae50124`):**
+
+Subject: Broken link on your resources page (riskisopportunity.net)
+
+Hi,
+
+I was looking through the Actuarial Science Club's resources page (sciences.ucf.edu/statistics/actuary-club/links/) and noticed the "Risk Is Opportunity" link no longer resolves. The domain (riskisopportunity.net) doesn't appear to be registered anymore.
+
+I run wagelark.com, a reference site built on BLS occupational wage data. There's a page on what an actuary actually does day to day, including the five specialty tracks (health, life, property/casualty, pension, enterprise risk) and the exam-based path through Associate to Fellow status, plus the current BLS pay numbers: median $125,770 a year as of May 2024, with the 10th percentile at $75,240 and the 90th at $206,430. It might work as a replacement for that dead link:
+
+https://wagelark.com/what-does-an-actuary-do/
+
+No obligation either way, just flagging it since a broken link on a resources page is easy to miss.
+
+Owen Zhang
+contact@wagelark.com
+
+**状态：已发送，见上方 Message ID。**
+

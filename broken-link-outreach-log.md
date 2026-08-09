@@ -57,3 +57,59 @@
 
 1. **护理是本站在断链渠道上的最大缺口**：资源页生态里护理职业页的密度远高于其他医疗职业。如果之后决定补护理薪资内容（`registered-nurse-salary` / `how-to-become-a-nurse`），本轮记录的 4 条护理向断链可以直接回头复用（届时需重新核实是否仍失效）
 2. 下次换方向：找**具体职业**的爱好者/从业者社区资源页（如放射技师、静脉采血员的行业论坛"useful links"），而不是大学图书馆的综合职业指南——后者收的多是 BLS OOH、O*NET、CareerOneStop 这类政府站，几乎不会失效
+
+---
+
+## 2026-08-09（第二次运行，按上次遗留方向调整）
+
+### 方向调整
+
+按上次遗留建议，本轮改找**具体职业的从业者/学生社区资源页**，而非大学图书馆综合职业指南。覆盖的职业方向：放射技师(radiologic technologist)、静脉采血员(phlebotomist)、外科技师(surgical technologist)、律师助理(paralegal)、超声技师(diagnostic medical sonographer)、放射技师州协会、CRNA、牙科卫生士、精算师(actuary)、空乘工会。
+
+### 检查过的资源页
+
+| 资源页 | 类型 | 外链数(排除内部/社媒) | 真实失效 |
+|---|---|---|---|
+| https://www.phlebotomy.com/phlebotomy-links.html （Center for Phlebotomy Education, Phlebotomy Links） | 行业教育机构的链接页 | 24 | **3**（均无主题对应，见下） |
+| https://sciences.ucf.edu/statistics/actuary-club/links/ （UCF Actuarial Science Club, Resources） | 大学学生社团资源页 | 19 | **1**（有对应） |
+| http://5y.twu.org/resources/ （TWU FSI Flight Attendants, Resources） | 工会地方分会资源页 | 3（全部为工会内部链接） | 0 |
+| https://member.msrt-ma.org/about/resources/useful-links/ （Massachusetts Society of Radiologic Technologists, Useful Links） | 州级行业协会 | 无法核查 | — 站点被 Wordfence 拦截返回 503，未能读取页面内容 |
+
+### 发现的真实失效链接（逐条判定）
+
+**phlebotomy.com/phlebotomy-links.html（3条真实失效，均无主题对应）：**
+- `empoweredmanager.phlebotomy.com` — DNS 无 A/NS 记录（`dig` 确认，非仅连接超时）。经 WebSearch 核实原内容是 Center for Phlebotomy Education 自己的管理者培训博客（"The Empowered Healthcare Manager"），主题是医疗团队管理技巧，非薪资/职业数据
+- `www.safeincommon.org` — DNS 无 A/NS 记录。核实原内容是 Safe in Common（针剌伤害预防非营利组织）的机构介绍，主题是职业安全倡导，非薪资数据
+- `www.thejobfool.com` — DNS 无 A/NS 记录。核实原内容是一个通用招聘信息聚合站（TheJobFool.com，2006年成立），非薪资参考内容
+- 另有 `www.ahc.lockton-ins.com` 返回连接失败，但 `dig` 显示该域名有真实 A 记录（指向 Oracle Cloud WAF），判定为本沙箱访问受阻的假阳性，非真实失效，未计入
+
+**UCF Actuarial Science Club（1条真实失效，有真实主题对应）：**
+- `riskisopportunity.net`（页面标注"SOA site for College students"）— DNS 无 A/NS 记录（`dig` 确认）。核实原内容是精算师职业认知宣传站（"A Career In Risk"/"Actuarial Organizations"/"Life As An Actuary"，最后更新约2018年）。WageLark 已发布 `actuary-salary` 和 `what-does-an-actuary-do` 两篇文章，`what-does-an-actuary-do` 覆盖职业介绍/五大专精方向/考证路径，与失效链接主题真实对应
+- 同一页面另检查了 `riskisopportunity.net` 之外的全部12条外部链接（coachingactuaries.com/actuarial-lookup.com/actuarialjokes.com/anea-asna.ca/theinfiniteactuary.com 等均正常200；actuaries.org/asppa.org/bls.gov/contingencies.org/actuary.org 均403或000但`dig`确认域名有效，判定为WAF/沙箱限制假阳性，非真实失效；jobinterviewquestions.org 302跳转至livecareer.com属正常重定向非失效；vpthemes.com/firmness是WordPress主题版权链接非真实资源链接，不纳入判定）
+
+**TWU FSI Flight Attendants resources 页面：** 仅3条链接且全部指向工会内部页面（twu556.org/twuvx.org/docusign表单），无外部资源链接可核查，跳过
+
+**MSRT Useful Links 页面：** 两次尝试（不同 User-Agent）均被 Wordfence 拦截返回503，无法读取页面内容，未能核查
+
+### 排除的误报
+
+`403`、`0`/连接失败、`429`、`400`、`502` 一律不直接计为失效——本轮新增做法：对 curl 返回 000/403 的域名额外用 `dig` 交叉验证 A/NS 记录，凡是 `dig` 能查到有效记录的（如 ahc.lockton-ins.com、actuaries.org、asppa.org、bls.gov、contingencies.org），一律判定为沙箱访问受阻的假阳性，不计入失效；只有 `dig` A/NS 记录均为空的才计为真实失效（这是比上轮更严格的判定标准，上轮仅用 curl 单一信号）。
+
+### 处理结果
+
+**形成 1 份待发送草稿**，已追加进 `outreach-drafts.md`，标注 PENDING INDEPENDENT REVIEW：
+
+- 收件人：ucf.asc@gmail.com（UCF Actuarial Science Club 官方联系邮箱）
+- 主题：Broken link on your resources page (riskisopportunity.net)
+- 失效链接：http://riskisopportunity.net/（页面：https://sciences.ucf.edu/statistics/actuary-club/links/）
+- 替换内容：https://wagelark.com/what-does-an-actuary-do/
+- 查重：全账号 Gmail 历史 + 本站/其余三站外链日志均无与该邮箱或该 URL 的既往联系记录
+- 已过 humanizer + avoid-ai-writing 双重检查，无需改动
+
+phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训博客/职业安全非营利组织/通用招聘站）未形成 pitch，按硬性原则"不能硬凑"如实放弃。
+
+### 遗留待办
+
+1. MSRT Useful Links 页面被 Wordfence 拦截，下次可尝试其他放射技师州协会（如 Georgia SRT、Michigan SRT）的类似页面
+2. 本轮验证了"上次遗留方向"确实比大学图书馆综合指南更容易挖到真实失效链接（4个资源页里3个查出真实失效，密度高于上轮10个图书馆页面里6个查出失效但0个主题对应），但样本仍小，可继续沿这个方向找其余职业（外科技师、律师助理、超声技师、CRNA、牙科卫生士、药剂师）的从业者社区资源页
+3. `dig` 交叉验证 curl 000/403 结果这个方法本轮证明有效（避免把 ahc.lockton-ins.com/actuaries.org 等假阳性误判为失效），建议后续断链核查都加上这一步

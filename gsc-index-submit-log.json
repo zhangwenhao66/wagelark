@@ -54,5 +54,42 @@
       "https://wagelark.com/physical-therapist-salary/"
     ],
     "quota_used": "0 requests (round 2, all checked candidates already indexed)"
+  },
+  {
+    "date": "2026-08-07",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行（跨天连续游标轮换，两轮）。按收入代理排序队列逐个URL Inspection检查：已收录（URL is on Google）的候选跳过不消耗配额，共2个；找到未收录候选后提交REQUEST INDEXING，两轮各提交1个，共2个。",
+    "submitted_urls": [
+      "https://wagelark.com/dental-assistant-salary/",
+      "https://wagelark.com/surgical-tech-salary/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/dental-hygienist-salary/",
+      "https://wagelark.com/radiology-tech-salary/"
+    ],
+    "quota_used": "2 requests (2轮各1次)"
+  },
+  {
+    "date": "2026-08-08",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。已收录候选跳过2个，找到未收录候选medical-assistant-salary提交REQUEST INDEXING并收到确认。因怀疑账号级配额已在处理LingoGrove时耗尽，本站仅处理1个候选后即结束本次运行，未继续检查剩余候选（nurse-practitioner-salary等）。",
+    "submitted_urls": [
+      "https://wagelark.com/medical-assistant-salary/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/dental-hygienist-salary/",
+      "https://wagelark.com/radiology-tech-salary/"
+    ],
+    "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-09",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。处理今日新发布 air-traffic-controller-salary（第19篇），URL Inspection确认'URL is not on Google'，REQUEST INDEXING后确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://wagelark.com/air-traffic-controller-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 request"
   }
 ]
