@@ -1181,4 +1181,72 @@ export const guides: Guide[] = [
 		image: '/images/medical-assistant-salary-chart.svg',
 		imageAlt: 'Bar chart showing medical assistant annual wage by percentile: 10th percentile $35,020, median $44,200, 90th percentile $57,830, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'air-traffic-controller-salary',
+		category: 'Salary Guide',
+		title: 'Air Traffic Controller Salary: BLS Pay by Percentile (2026)',
+		description: 'BLS puts the median air traffic controller salary at $144,580 a year. See the full wage range by percentile, by employer, and the FAA age rules that shape it.',
+		published: '2026-08-09',
+		updated: '2026-08-09',
+		socCode: '53-2021',
+		coreSummary: 'The median annual wage for air traffic controllers was $144,580 in May 2024, according to the U.S. Bureau of Labor Statistics, nearly three times the $49,500 median across all U.S. occupations that year. The bottom 10% earned less than $76,090, and the top 10% earned more than $210,410. Federal government employers, who employ the large majority of controllers, paid a median of $154,000, well above the $82,510 median for controllers working in air traffic support activities.',
+		sections: [
+			{
+				heading: 'What air traffic controllers actually earn, by percentile',
+				body: [
+					'BLS tracks air traffic controller pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The most recent published data, from May 2024, put median annual pay at $144,580, or $69.51 an hour. That is nearly three times the $49,500 median BLS reports across all U.S. occupations for the same year, making air traffic control one of the highest-paying occupations tracked on this site.',
+					'The bottom 10% of air traffic controllers earned less than $76,090 in May 2024, while the top 10% earned more than $210,410. Even the bottom of that range sits above the median for most occupations on this site, including registered-nurse-adjacent and technologist roles that themselves require years of postsecondary training. The gap between the 10th percentile and the median, about $68,490, is close in dollar terms to the gap between the median and the 90th percentile, about $65,830, which is a comparatively even split. On this site\'s flight attendant salary guide, by contrast, the top half of the range stretches more than twice as far in dollar terms as the bottom half, a difference traceable to how each occupation\'s pay actually gets set.',
+				],
+			},
+			{
+				heading: 'Why the government pays so much more than everyone else',
+				body: [
+					'BLS breaks out May 2024 wages for air traffic controllers across two industry categories, fewer than it tracks for most occupations on this site, because the role is unusually concentrated in a single type of employer. Federal government employers, who run essentially all of the country\'s en route centers, terminal radar approach control facilities, and major airport towers, paid a median of $154,000. Controllers working in support activities for air transportation, a category that includes contract towers at smaller airports operated by FAA-approved private companies rather than the FAA itself, earned a median of $82,510, roughly half as much.',
+					'BLS does not explain the gap between the two categories on this page; it publishes the two medians without commentary. One plausible, unverified factor is that most air traffic controllers are federal employees paid under the FAA\'s own air traffic controller pay plan, a system separate from the General Schedule used by most federal civilian jobs, in which pay is tied to a facility\'s traffic complexity and to certification milestones a controller clears as they train up to full performance level, rather than to years of service alone. Contract-tower controllers, employed by private firms under FAA oversight rather than by the FAA directly, are not covered by that federal pay plan, which could account for some of the gap, but that is this article\'s inference, not a claim BLS itself makes.',
+				],
+			},
+			{
+				heading: 'Job outlook: growth is essentially flat',
+				body: [
+					'BLS projects employment of air traffic controllers to grow just 1% from 2024 to 2034, from 24,100 to 24,400 positions, a category BLS classifies as slower than the average for all occupations. That is a net increase of only 300 jobs over the entire decade. Despite that limited growth, BLS separately projects about 2,200 average annual openings for the occupation, because most openings come from replacing controllers who leave the role rather than from newly created positions.',
+					'The flat growth figure reflects how tightly the FAA controls hiring relative to a mostly fixed set of towers, centers, and approach facilities, rather than declining demand for air travel. Almost all of the projected openings trace back to controllers reaching the FAA\'s mandatory retirement age, a structural feature unique to this occupation among the roles covered on this site.',
+				],
+			},
+			{
+				heading: 'Getting in: a narrower window than most careers, and how the pay compares',
+				body: [
+					'BLS lists an associate\'s degree as the typical entry-level education, but describes several paths in: an associate\'s or bachelor\'s degree completed through an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program, several years of progressively responsible work experience, or a combination of the two. Candidates must also be U.S. citizens and pass a medical evaluation, background check, and FAA preemployment testing, then complete training at the FAA Academy in Oklahoma City before being assigned to a facility as a developmental controller.',
+					'The entry window itself is unusually narrow. Under federal law (5 U.S.C. § 8335), operational controllers must generally separate from service by the end of the month in which they turn 56, and FAA hiring policy generally requires candidates to be appointed before their 31st birthday, with that cutoff extended to 35 for applicants with qualifying prior military or FAA-contract air traffic control experience. No other occupation covered on this site has both an age-based entry cutoff and a mandatory retirement age. This site\'s dental hygienist salary guide covers another associate\'s-degree occupation for comparison: dental hygienists earn a May 2024 median of $94,260, well below the controller median, with no equivalent age restriction on either end of a career. This site\'s flight attendant salary guide covers the other FAA-regulated occupation in this dataset; flight attendants need only a high school diploma to start, versus a controller\'s associate\'s degree and FAA Academy training, yet the top 10% of flight attendants still earn more than $138,040, above the $76,090 floor for the bottom 10% of controllers, since flight attendant pay keeps climbing with seniority for as long as the person keeps flying, with no age-based ceiling on the career itself.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median air traffic controller salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for air traffic controllers was $144,580 in May 2024, equivalent to $69.51 an hour. That is nearly three times the $49,500 median BLS reports across all U.S. occupations for the same year.',
+			},
+			{
+				question: 'Do air traffic controllers need a college degree?',
+				answer: 'BLS lists an associate\'s degree as the typical entry-level education. Candidates generally complete an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program at the associate\'s or bachelor\'s level, or qualify through several years of progressively responsible work experience, then pass FAA preemployment testing and complete training at the FAA Academy.',
+			},
+			{
+				question: 'Why do federal air traffic controllers earn so much more than others in the field?',
+				answer: 'BLS reports a May 2024 median of $154,000 for controllers employed by the federal government, versus $82,510 for those working in air transportation support activities such as FAA-approved contract towers. BLS does not explain the gap on this page. One plausible, unverified factor is that federal controllers are paid under the FAA\'s own air traffic controller pay plan, tied to facility complexity and certification milestones, which contract-tower employees working for private firms are not covered by, but that is this article\'s inference, not a claim BLS itself makes.',
+			},
+			{
+				question: 'Is there an age limit to become an air traffic controller?',
+				answer: 'Yes. FAA hiring policy generally requires candidates to be appointed before their 31st birthday, extended to 35 for applicants with qualifying prior military or FAA-contract air traffic control experience. Federal law (5 U.S.C. § 8335) separately requires operational controllers to generally retire by the end of the month they turn 56.',
+			},
+			{
+				question: 'Is air traffic control a growing occupation?',
+				answer: 'No, not by much. BLS projects only 1% employment growth for air traffic controllers from 2024 to 2034, slower than the average for all occupations, adding a net 300 jobs. BLS separately projects about 2,200 average annual openings once the decade is averaged out, with almost all of them coming from controllers reaching mandatory retirement rather than from newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Air Traffic Controllers (accessed 2026-08-09 via Wayback Machine snapshot of 2026-06-13, data from May 2024)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm' },
+			{ label: '5 U.S.C. § 8335, Mandatory separation', url: 'https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title5-section8335' },
+		],
+		image: '/images/air-traffic-controller-salary-chart.svg',
+		imageAlt: 'Bar chart showing air traffic controller annual wage by percentile: 10th percentile $76,090, median $144,580, 90th percentile $210,410, based on BLS May 2024 data.',
+	},
 ];

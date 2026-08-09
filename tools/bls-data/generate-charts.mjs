@@ -27,6 +27,7 @@ const CHARTS = {
 	'pharmacy-technician-salary-chart': '29-2052',
 	'dental-assistant-salary-chart': '31-9091',
 	'medical-assistant-salary-chart': '31-9092',
+	'air-traffic-controller-salary-chart': '53-2021',
 };
 
 const NAVY = '#14273f';

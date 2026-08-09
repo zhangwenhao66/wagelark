@@ -349,6 +349,27 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Medical Assistants",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/medical-assistants.htm",
       "publishedDate": "2025-08-28"
+    },
+    "53-2021": {
+      "title": "Air Traffic Controllers",
+      "medianAnnual": 144580,
+      "medianHourly": 69.51,
+      "percentiles": { "p10": 76090, "p90": 210410 },
+      "employment": 24100,
+      "employmentYear": "2024",
+      "jobOutlookPct": 1,
+      "jobOutlookLabel": "Slower than average",
+      "employmentChange": 300,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Associate's degree",
+      "industryWages": [
+        { "industry": "Federal government", "annualWage": 154000 },
+        { "industry": "Support activities for air transportation", "annualWage": 82510 }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Air Traffic Controllers",
+      "sourceUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }
