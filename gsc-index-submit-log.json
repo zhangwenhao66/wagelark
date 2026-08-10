@@ -91,5 +91,16 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-10",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行。今日两篇新发布均查询后确认未收录，均REQUEST INDEXING并确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://wagelark.com/how-to-become-a-cna/",
+      "https://wagelark.com/respiratory-therapist-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "2 requests"
   }
 ]
