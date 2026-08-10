@@ -664,5 +664,40 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Air Traffic Controllers",
 		sourceUrl: "https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm",
 		publishedDate: "2025-08-28"
+	},
+	"29-1126": {
+		socCode: "29-1126",
+		title: "Respiratory Therapists",
+		medianAnnual: 80450,
+		medianHourly: 38.68,
+		percentiles: {
+			p10: 61900,
+			p90: 108820
+		},
+		employment: 139600,
+		employmentYear: "2024",
+		jobOutlookPct: 12,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 16800,
+		projectionPeriod: "2024-34",
+		entryEducation: "Associate's degree",
+		industryWages: [
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 80660
+			},
+			{
+				industry: "Nursing care facilities (skilled nursing facilities)",
+				annualWage: 75910
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 75240
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Respiratory Therapists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/respiratory-therapists.htm",
+		publishedDate: "2025-08-28"
 	}
 };

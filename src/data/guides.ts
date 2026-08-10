@@ -1318,4 +1318,76 @@ export const guides: Guide[] = [
 		image: '/images/cna-certification-path.svg',
 		imageAlt: 'Timeline diagram showing the path to CNA certification: 75-hour minimum state-approved training program, competency exam, then placement on the state nurse aide registry within 30 days.',
 	},
+	{
+		slug: 'respiratory-therapist-salary',
+		category: 'Salary Guide',
+		title: 'Respiratory Therapist Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median respiratory therapist salary at $80,450 a year, with 12% growth projected through 2034. Here is the full wage range by percentile and by employer.',
+		published: '2026-08-10',
+		updated: '2026-08-10',
+		socCode: '29-1126',
+		coreSummary: 'The median annual wage for respiratory therapists was $80,450 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $61,900 while the top 10% earned more than $108,820. BLS projects 12% employment growth from 2024 to 2034, well above the roughly 3% average across all occupations, adding an estimated 16,800 jobs.',
+		sections: [
+			{
+				heading: 'What respiratory therapists earn, and what the growth rate actually means',
+				body: [
+					'The Bureau of Labor Statistics tracks this role under SOC code 29-1126, on a page dedicated to respiratory therapists alone rather than a page shared with a related occupation, so every figure below is specific to this job title. For May 2024, BLS reported a median annual wage of $80,450, or $38.68 an hour. The bottom 10% of earners made less than $61,900 a year, while the top 10% made more than $108,820, a spread of roughly $47,000 that reflects differences in experience, credential level, employer type, and region rather than any single factor.',
+					'BLS figures come from its Occupational Employment and Wage Statistics survey, which collects data directly from employer payroll records rather than relying on workers to self-report their own pay the way some job-search sites do. That distinction matters here specifically: BLS does not publish a state-by-state wage breakdown on this page, so readers comparing this figure against a self-reported regional number from another site should expect some divergence in methodology, not necessarily an error in either source.',
+					'BLS also publishes, on the same page, how this occupation\'s projected growth stacks up against two broader groupings it tracks: respiratory therapists at 12%, the broader "healthcare diagnosing or treating practitioners" category at 8%, and the total for all occupations in the economy at roughly 3%. That 12% figure, covered in more detail further down this page, is one of the faster growth rates BLS projects for any allied health occupation, though it is not the fastest on this site (nurse practitioners, a role requiring graduate-level training, is projected at 40%).',
+				],
+			},
+			{
+				heading: 'Why the setting you work in changes the number',
+				body: [
+					'BLS breaks out May 2024 wages by industry for this occupation, though for respiratory therapists specifically it reports only three categories, fewer than the four or five categories it publishes for some other occupations on this site. Hospitals (state, local, and private) paid the highest median at $80,660, just above the national median for the occupation overall. Nursing care facilities (skilled nursing facilities) paid a median of $75,910, and offices of physicians paid the least of the three, at $75,240.',
+					'The gap between the highest- and lowest-paying settings BLS tracks here, about $5,400, is narrower than the industry spread reported for some other allied health roles on this site, where the difference between top- and bottom-paying settings can run into the tens of thousands of dollars. BLS does not explain why hospital settings pay the most for this specific role; it publishes the wage-by-industry figures without an accompanying explanation. One plausible, unverified factor is that hospitals are more likely to require overnight, weekend, and holiday coverage given that patients with acute breathing problems do not arrive on a schedule, and shift differentials tied to that coverage could account for some of the gap, but that is this article\'s inference, not a claim BLS itself makes.',
+					'These three categories are the only industries BLS separately reports wages for on this occupation\'s Handbook page; they do not represent every setting where respiratory therapists work, only the ones BLS has enough survey data to break out individually. Readers who want a more granular, metro-level, or additional-industry breakdown would need the BLS Occupational Employment and Wage Statistics tables directly, a separate data product from the Handbook page cited here.',
+				],
+			},
+			{
+				heading: 'Licensing and how people enter the field',
+				body: [
+					"Per BLS, respiratory therapists typically need an associate's degree in respiratory therapy from an accredited program, and some employers prefer candidates with a bachelor's degree. Accredited programs, offered by colleges, vocational-technical institutes, and the Armed Forces, combine coursework in human anatomy and physiology with clinical hours that give students supervised, hands-on experience treating patients. BLS notes that high school students interested in the field should take biology, algebra, chemistry, and physics, since some programs list those as prerequisites.",
+					"BLS states that respiratory therapists must be licensed in all states except Alaska, where national certification is recommended instead of state licensure, and that requirements vary by state. Independently of BLS, the field's credentialing body, the National Board for Respiratory Care (NBRC), confirms it administers two main credential levels: Certified Respiratory Therapist (CRT), the entry-level credential most candidates sit for first, and Registered Respiratory Therapist (RRT), an additional exam some employers require before hiring or within a set window after starting the job. NBRC's own materials state that all 49 states that regulate the practice of respiratory care use the CRT or RRT credential as the basis for state licensure, a detail BLS itself does not spell out on this page.",
+					"For readers comparing this against other associate-degree-entry diagnostic and therapeutic roles, [becoming an ultrasound tech](/how-to-become-an-ultrasound-tech/) follows a similarly structured path, an accredited associate-degree program plus a certification exam, though sonography is credentialed through a separate organization (ARDMS) rather than NBRC, and the two fields work with different equipment and patient populations entirely.",
+				],
+			},
+			{
+				heading: 'Job outlook, and how this compares to other roles with the same entry requirement',
+				body: [
+					'BLS projects 12% employment growth for respiratory therapists from 2024 to 2034, adding an estimated 16,800 jobs and about 8,800 openings a year on average. Many of those annual openings, per BLS, are expected to come from workers transferring to other occupations or leaving the labor force, such as to retire, rather than from newly created positions alone. BLS attributes the underlying growth mainly to an aging population, which it expects to increase the prevalence of respiratory conditions such as pneumonia, chronic obstructive pulmonary disease (COPD), and other disorders that restrict lung function, in turn raising demand for respiratory therapy services.',
+					"That 12% figure is worth putting next to other roles on this site that share the same typical entry-level education, an associate's degree, since the growth rates for that group vary widely despite the similar training bar. [Dental hygienists](/dental-hygienist-salary/), who carry a higher median wage of $94,260, are projected to grow 7%. [Radiologic technologists](/radiology-tech-salary/), with a median of $77,660 close to this occupation's figure, are projected to grow just 4%, the slowest of the three. Respiratory therapists sit well above both, though the reasons a demand-side BLS projection differs across occupations with the same entry credential are not something BLS itself explains on any of these pages.",
+					"BLS's growth projection describes the healthcare system's aggregate demand for this occupation nationally; it is not a forecast about any specific hospital, region, or individual's job security, employer, or pay trajectory. Someone evaluating a specific offer or program should weigh this figure alongside local job market conditions and program-specific placement data rather than as a standalone guarantee.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average respiratory therapist salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for respiratory therapists was $80,450 in May 2024, equivalent to $38.68 an hour. "Median" means half of workers in the role earned more and half earned less.',
+			},
+			{
+				question: 'What is the highest-paying setting for a respiratory therapist?',
+				answer: 'Among the three industry categories BLS tracks for May 2024, hospitals (state, local, and private) paid the highest median at $80,660, ahead of nursing care facilities ($75,910) and offices of physicians ($75,240).',
+			},
+			{
+				question: 'How much do the lowest- and highest-paid respiratory therapists make?',
+				answer: 'BLS reports that the bottom 10% of respiratory therapists earned less than $61,900 a year in May 2024, while the top 10% earned more than $108,820. BLS does not break down what separates the highest earners within the occupation on this page.',
+			},
+			{
+				question: 'Do respiratory therapists need to be certified?',
+				answer: "BLS states that respiratory therapists must be licensed in all states except Alaska, where national certification is recommended instead. Independently of BLS, the National Board for Respiratory Care (NBRC) confirms it administers the field's two main credentials, Certified Respiratory Therapist (CRT) and Registered Respiratory Therapist (RRT), which all 49 states that regulate the profession use as the basis for licensure.",
+			},
+			{
+				question: 'Is respiratory therapy a growing field?',
+				answer: 'BLS projects 12% employment growth for respiratory therapists from 2024 to 2034, well above the roughly 3% average across all occupations, adding an estimated 16,800 jobs and about 8,800 openings a year on average, mostly from workers leaving the occupation rather than newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Respiratory Therapists (accessed 2026-08-10 via Wayback Machine snapshot of 2026-07-18, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/respiratory-therapists.htm' },
+			{ label: 'National Board for Respiratory Care (NBRC): CRT and RRT examinations', url: 'https://www.nbrc.org/examinations/' },
+		],
+		image: '/images/respiratory-therapist-salary-chart.svg',
+		imageAlt: 'Bar chart showing respiratory therapist annual wage by percentile: 10th percentile $61,900, median $80,450, 90th percentile $108,820, based on BLS May 2024 data.',
+	},
 ];

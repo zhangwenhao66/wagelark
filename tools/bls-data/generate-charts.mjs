@@ -28,6 +28,7 @@ const CHARTS = {
 	'dental-assistant-salary-chart': '31-9091',
 	'medical-assistant-salary-chart': '31-9092',
 	'air-traffic-controller-salary-chart': '53-2021',
+	'respiratory-therapist-salary-chart': '29-1126',
 };
 
 const NAVY = '#14273f';

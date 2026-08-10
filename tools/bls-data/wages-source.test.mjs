@@ -37,6 +37,7 @@ const REQUIRED_SOC_CODES = [
 	'31-9092', // Medical Assistants
 	'53-2021', // Air Traffic Controllers
 	'31-1131', // Nursing Assistants
+	'29-1126', // Respiratory Therapists
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -325,4 +326,23 @@ test('spot check: Nursing Assistants (31-1131) matches BLS OOH page', () => {
 	assert.equal(occ.jobOutlookPct, 2);
 	assert.equal(occ.employmentChange, 32600);
 	assert.equal(occ.industryWages.length, 5);
+});
+
+// Numbers below transcribed by hand on 2026-08-10 from a Wayback Machine
+// snapshot (2026-07-18 crawl) of bls.gov/ooh/healthcare/respiratory-therapists.htm
+// (direct fetch returns Akamai 403, same pattern as prior spot checks).
+// Independent of wages-source.json's own numbers -- do not derive these from
+// the source file. This is an independent OOH page (not a merged profile
+// with another occupation), so all fields including percentiles and
+// industryWages are specific to Respiratory Therapists (29-1126).
+test('spot check: Respiratory Therapists (29-1126) matches BLS OOH page', () => {
+	const occ = occupations['29-1126'];
+	assert.equal(occ.medianAnnual, 80450);
+	assert.equal(occ.medianHourly, 38.68);
+	assert.equal(occ.percentiles.p10, 61900);
+	assert.equal(occ.percentiles.p90, 108820);
+	assert.equal(occ.employment, 139600);
+	assert.equal(occ.jobOutlookPct, 12);
+	assert.equal(occ.employmentChange, 16800);
+	assert.equal(occ.industryWages.length, 3);
 });

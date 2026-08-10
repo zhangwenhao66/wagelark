@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="240" fill="white" />
+	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Respiratory Therapists — Annual Wage by Percentile</text>
+	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
+	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="56" width="216.15511854438523" height="34" fill="#0f8b7f" />
+	<text x="376.15511854438523" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$61,900</text>
+	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
+	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="116" width="280.9318140047785" height="34" fill="#0f8b7f" />
+	<text x="440.9318140047785" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$80,450</text>
+	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
+	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
+	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$108,820</text>
+	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national)</text>
+</svg>
