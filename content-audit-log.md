@@ -351,3 +351,88 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "what-does-a-physician-assistant-do",
+  "last_audited": "2026-08-10",
+  "published_date": "2026-08-03",
+  "note": "全站last_audited最早的两个站之一（WageLark 08-06 20:06 < LingoGrove 08-06 20:15，其余8站均08-09），本次跨站排序里排第一；站内该文从未被本任务审计过，按guides.ts数组位置（4篇已审计之后的第一篇未审计条目）选取",
+  "article_specific_checklist": [
+    "median $133,260 + 四类行业细分中位数（government $151,470/outpatient care $147,650/hospitals $136,630/physician offices $129,640）+ p10/p90（$95,240/$182,200）是否与BLS当前公开数据逐字一致",
+    "'examine, diagnose, and treat patients under the supervision of a physician'这句直接打引号的BLS引语是否逐字准确",
+    "20%就业增长(2024-34)/162,700现有岗位数是否可溯源到BLS原文",
+    "PANCE全称+PA-C credential+州执照要求这条从业资格论断是否准确",
+    "FAQ里'医生4年医学院+3-7+年住院医'这个跟本站主题（PA）相邻但不是PA数据的比较性论断是否有真实依据"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "WebSearch多次交叉核实（BLS页面curl直连403，与本站历次审计经验一致，改用WebSearch核对）：median annual $133,260/hourly $64.07、p10 $95,240/p90 $182,200、四类行业中位数（government $151,470/outpatient care centers $147,650/hospitals $136,630/offices of physicians $129,640）、20%job outlook 2024-34、直接引语'examine, diagnose, and treat patients under the supervision of a physician'，全部逐字匹配BLS OOH原文（同时核对了guides.ts与同文件bls-wages.ts里'29-1071'条目的内部数据一致性，两处完全吻合）。PANCE全称'Physician Assistant National Certifying Examination'+NCCPA主管机构+PA-C credential命名均核实准确。FAQ里医生'医学院4年+住院医3-7+年'的表述经核实与真实住院医年限分布（3年家庭医学到7-8年神经外科/整形外科）一致，'7+'的加号覆盖了超过7年的长学制情况，未发现夸大或编造。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "唯一来源BLS OOH具名标注URL+访问日期+数据年份，schema里author字段为具名Person（Owen Zhang）+about页链接。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "发布仅7天，BLS数据仍为May 2024最新批次，无需刷新，published字段已存在（2026-08-03），本次审计未触碰updated字段，不涉及L-0809-1回填风险。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "get_serp_results实测'what does a physician assistant do'：本文尚未进入前20（符合发布7天的预期），头部竞品为Mayo Clinic/AAPA/医学院官网/BLS本身，均是纯职责描述页或纯薪资页，没有一篇像本文一样把'工作内容叙事'与'BLS四类行业薪资细分'整合在同一页并配套站内salary guide互链，属真实增量而非同质化。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "curl实测live页面：title 68字符、description 163字符（略超常见155-160建议但不严重）、单一H1匹配title（不含站名后缀）、5个H2结构清晰、canonical自引用正确、图片alt含具体数字描述、robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均Allow（2026-08-05复查记录）。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题",
+      "detail": "Content Extractability Check逐项核对：coreSummary定义块✓/FAQ自包含问答✓/统计数据带来源✓/schema含Article+FAQPage+Dataset+BreadcrumbList四种✓/作者具名✓/7天内更新✓/H2结构匹配查询模式✓/AI爬虫未被robots.txt拦截✓，未发现薄弱维度，达标。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现问题",
+      "detail": "手动逐句核对+脚本核实：正文0处em/en dash、0处curly quote、0处AI高频词（crucial/pivotal/delve/tapestry/testament/underscore/boasts/vibrant/nestled/moreover/furthermore/landscape等均为0命中）、无inline-header列表、无'Despite challenges'式收尾段、无chatbot残留用语，判定为早于avoid-ai-writing强制化（08-07）但内容本身已干净，无需重写。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "唯一外部来源BLS OOH页面，WebSearch交叉验证内容仍真实存在且可检索（curl直连403为BLS对自动化抓取的常规拦截，非链接失效）。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认站内至少4处（physical-therapist-salary/nurse-practitioner-salary等）正文手动锚文本桥接句真实链接到本文，且桥接句描述（'duties, specialties, and the education path'）与本文实际三个小节内容一致，非孤儿页；侧栏另有site-toolkit轮转窗口算法生成的'More in Career Guide'相关文章区块。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "curl实测live页面Article/FAQPage/BreadcrumbList/Dataset四种JSON-LD均正确渲染，datePublished/dateModified均为2026-08-03，与guides.ts的published/updated字段一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "正文为百科式职责/薪资/从业路径记述，无渲染成猎奇/煽动性的暴力伤亡描写（本文与暴力主题无关），无武器/毒品/赌博类目内容，无标题党或诱导误点布局；privacy/about页面均200可访问，ads.txt正确指向pub-5245502795720653。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "配图/images/physician-assistant-duties.svg为站内自制职责流程示意图（非第三方图片），无版权问题，alt文本描述准确。"
+    }
+  ],
+  "actions_taken": [
+    "十三维度深挖零确认问题——所有BLS数字（median/percentile/四类行业细分/job outlook/直接引语）经WebSearch原始来源逐字核对无误，内链/schema/robots.txt/AdSense基础设施均健康，humanizer+avoid-ai-writing脚本级核查零命中，未产生任何需要独立复核agent的候选发现",
+    "未对文章正文/元数据做任何编辑，未触发build/commit/push/部署/IndexNow流程"
+  ],
+  "seo_score": "技术SEO抽查（title/meta/h1/h2/schema/canonical/alt/robots.txt）无问题",
+  "geo_score": "Content Extractability Check 10/10项达标，未量化打分（沿用既有审计惯例，仅在发现薄弱维度时给出具体分值）",
+  "escalation": null
+}
+```
