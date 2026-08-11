@@ -87,6 +87,7 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 			license="https://www.bls.gov/bls/linksite.htm"
 			temporalCoverage={wage.dataYear}
 			spatialCoverage="United States"
+			creator={{ '@type': 'Organization', name: 'U.S. Bureau of Labor Statistics', url: 'https://www.bls.gov/' }}
 		/>
 	)}
 
