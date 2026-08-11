@@ -684,6 +684,40 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Electricians",
       "sourceUrl": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
       "publishedDate": "2025-08-28"
+    },
+    "33-2011": {
+      "title": "Firefighters",
+      "medianAnnual": 59530,
+      "medianHourly": 28.62,
+      "percentiles": {
+        "p10": 34490,
+        "p90": 101330
+      },
+      "employment": 344900,
+      "employmentYear": "2024",
+      "jobOutlookPct": 3,
+      "jobOutlookLabel": "As fast as average",
+      "employmentChange": 11800,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Postsecondary nondegree award",
+      "industryWages": [
+        {
+          "industry": "Federal government, excluding postal service",
+          "annualWage": 62690
+        },
+        {
+          "industry": "State government, excluding education and hospitals",
+          "annualWage": 61850
+        },
+        {
+          "industry": "Local government, excluding education and hospitals",
+          "annualWage": 60360
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Firefighters",
+      "sourceUrl": "https://www.bls.gov/ooh/protective-service/firefighters.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

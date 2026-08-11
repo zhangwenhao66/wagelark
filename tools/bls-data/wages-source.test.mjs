@@ -369,3 +369,23 @@ test('spot check: Electricians (47-2111) matches BLS OOH page', () => {
 	assert.equal(occ.employmentChange, 77400);
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Independently transcribed by hand from the live BLS OOH Firefighters page
+// (https://www.bls.gov/ooh/protective-service/firefighters.htm) on 2026-08-11
+// via r.jina.ai proxy read (direct bls.gov fetch returns 403 for this agent's
+// network path -- same footer confirms "Last modified date: August 28, 2025",
+// matching the same data-freshness date as every other spot check in this
+// file). Independent of wages-source.json's own numbers -- do not derive
+// these from the source file. This is an independent OOH page, so all fields
+// including percentiles and industryWages are specific to Firefighters (33-2011).
+test('spot check: Firefighters (33-2011) matches BLS OOH page', () => {
+	const occ = occupations['33-2011'];
+	assert.equal(occ.medianAnnual, 59530);
+	assert.equal(occ.medianHourly, 28.62);
+	assert.equal(occ.percentiles.p10, 34490);
+	assert.equal(occ.percentiles.p90, 101330);
+	assert.equal(occ.employment, 344900);
+	assert.equal(occ.jobOutlookPct, 3);
+	assert.equal(occ.employmentChange, 11800);
+	assert.equal(occ.industryWages.length, 3);
+});

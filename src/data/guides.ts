@@ -1466,4 +1466,76 @@ export const guides: Guide[] = [
 		image: '/images/electrician-salary-chart.svg',
 		imageAlt: 'Bar chart showing electrician annual wage by percentile: 10th percentile $39,430, median $62,350, 90th percentile $106,030, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'firefighter-salary',
+		category: 'Salary Guide',
+		title: 'Firefighter Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median firefighter salary at $59,530 a year, with 3% growth projected through 2034. Here is the full wage range by percentile and by employer type.',
+		published: '2026-08-11',
+		updated: '2026-08-11',
+		socCode: '33-2011',
+		coreSummary: 'The median annual wage for firefighters was $59,530 in May 2024, according to the U.S. Bureau of Labor Statistics, or $28.62 an hour. The bottom 10% earned less than $34,490 while the top 10% earned more than $101,330. BLS projects 3% employment growth from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 11,800 jobs and about 27,100 openings a year on average.',
+		sections: [
+			{
+				heading: 'What firefighters earn, and how that compares to the broader labor market',
+				body: [
+					'The Bureau of Labor Statistics tracks this role under SOC code 33-2011. For May 2024, BLS reported a median annual wage of $59,530, or $28.62 an hour, for the roughly 344,900 people employed as firefighters nationwide. On the same page, BLS lists the median across all occupations in the economy as $49,500, putting firefighters above that broader benchmark. The bottom 10% of firefighters earned less than $34,490 a year, while the top 10% earned more than $101,330, a spread of roughly $67,000 that BLS attributes to differences in department size, rank, region, and years of service rather than any single factor.',
+					'These figures cover paid, career firefighters only. BLS is explicit that its employment and wage numbers "exclude volunteer firefighters, who share the same duties as paid firefighters," and notes separately that volunteers "account for the largest share of firefighters nationwide, especially in communities of fewer than 25,000." That means the $59,530 median describes the career workforce BLS surveys for pay, not the full population of people who do firefighting work in the United States.',
+					'BLS also groups firefighters under a broader "firefighting and prevention workers" category, which also includes fire inspectors and investigators and had a slightly higher median of $59,870 for May 2024. The firefighter-specific figure used throughout this page, $59,530, is the narrower number for the occupation itself.',
+				],
+			},
+			{
+				heading: 'Pay by government level, and where career firefighters actually work',
+				body: [
+					'BLS breaks out May 2024 median wages for firefighters by the three employer categories it tracks: federal government, excluding postal service, at $62,690; state government, excluding education and hospitals, at $61,850; and local government, excluding education and hospitals, at $60,360. The spread between the highest- and lowest-paying tier is about $2,300, a much narrower gap than some other public-facing occupations this site has covered, where the difference between the best- and worst-paying industry can run into the tens of thousands of dollars.',
+					'Despite paying the least of the three tiers, local government is where the large majority of career firefighters actually work: BLS puts local government at 88% of firefighter employment, versus 3% for state government and 2% for federal government (excluding postal service). BLS does not publish a combined percentage that accounts for the remaining employers, and it does not explain why federal and state positions pay modestly more than local ones on this page; it presents the industry breakdown descriptively rather than attributing the gap to a specific cause such as unionization, cost-of-living adjustments, or department budgets.',
+					"Firefighters typically work long, irregular shifts. BLS describes shift patterns such as 24 hours on duty followed by 48 or 72 hours off, and notes that wildland firefighters combating forest fires may work extended stretches and stay at temporary fire camps for days or weeks when a fire breaks out. Wildland firefighting work can also be seasonal, meaning hours and pay may vary by time of year for firefighters in that specialty in ways the annual median wage figure does not capture.",
+				],
+			},
+			{
+				heading: 'How people become firefighters, and how that compares to other entry paths on this site',
+				body: [
+					'BLS states that firefighters typically need a high school diploma and training in emergency medical services to enter the occupation, with no college degree required to start. Most receive their initial training at a fire academy run by a local fire department or the state, covering firefighting and fire-prevention techniques, local building codes, and emergency medical procedures, followed by a probationary period on the job. Despite that high-school-diploma hiring bar, BLS classifies the occupation\'s "typical entry-level education" as a postsecondary nondegree award; the firefighters page itself does not spell out why, but BLS elsewhere uses that same category label for occupations built around a standalone certification earned after high school, such as EMTs, which lines up with the postsecondary EMT certification training most departments require alongside the fire academy itself.',
+					"Beyond initial hiring, BLS notes that licensing and certification requirements, such as EMT or paramedic status, vary by state or locality, and that some jurisdictions also require a commercial driver's license or a driver's license with a firefighter endorsement to operate a firetruck. Continuing education is required to maintain these credentials. Wildland firefighters specifically may go through apprenticeship programs lasting up to four years that combine instruction with supervised on-the-job training. For advancement, BLS describes a promotion track from firefighter to engineer, then lieutenant, captain, battalion chief, assistant chief, deputy chief, and chief, and notes that many departments require a bachelor's degree, often in fire science or public administration, for promotion beyond battalion chief.",
+					"Firefighters out-earn some, but not all, of the other entry paths this site has covered that skip a bachelor's degree. [Electricians](/electrician-salary/) sit a bit higher at the median, at $62,350 versus $59,530 for firefighters, and BLS lists the same nominal hiring bar of a high school diploma for both, though electricians train through a 4- to 5-year, mostly on-the-job apprenticeship rather than a fire academy plus EMT certification. [CNAs](/how-to-become-a-cna/), by contrast, need a much shorter training bar, a state-approved program with a federal floor of 75 hours under 42 CFR § 483.152, and BLS puts the nursing assistant median at $39,530, well below both firefighters and electricians. BLS does not quantify how much of these gaps owes to training length, licensing requirements, physical risk, or other factors it does not isolate on any of these pages.",
+				],
+			},
+			{
+				heading: 'Job outlook, and why growth trails some other trades on this site',
+				body: [
+					'BLS projects 3% employment growth for firefighters from 2024 to 2034, which it classifies as "about as fast as average," matching the roughly 3% growth rate it projects across all occupations combined. That is a slower projected rate than some other occupations this site has covered; electricians, for comparison, carry a 9% "much faster than average" projection over the same period. BLS attributes the more modest firefighter outlook partly to a long-term decline in structure fires and fire fatalities tied to improved building materials and building codes, while noting that wildland firefighters will still be needed to combat active fires and manage fire risk, and that firefighters generally will continue responding to medical emergencies, which BLS says make up most calls firefighters answer, not just fires.',
+					'BLS estimates about 27,100 openings for firefighters each year on average over the decade, adding up to a projected employment change of 11,800 jobs by 2034. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than to newly created positions alone.',
+					"This projection describes national demand for the occupation as a whole; it is not a forecast for any specific fire department, city, or individual's hiring odds or job security. A slower national growth rate also does not by itself indicate anything about pay trends, since BLS publishes wage and employment-growth figures as separate, independently derived statistics on this page.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average firefighter salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for firefighters was $59,530 in May 2024, equivalent to $28.62 an hour. "Median" means half of workers in the occupation earned more and half earned less. This figure covers paid, career firefighters; BLS excludes volunteer firefighters from its employment and wage counts.',
+			},
+			{
+				question: 'What is the highest-paying employer type for firefighters?',
+				answer: 'Among the three government employer categories BLS tracks for May 2024, federal government (excluding postal service) paid the highest median at $62,690, ahead of state government ($61,850) and local government ($60,360). Local government employs the large majority of career firefighters, about 88% per BLS, despite paying the least of the three tiers.',
+			},
+			{
+				question: 'How much do the lowest- and highest-paid firefighters make?',
+				answer: 'BLS reports that the bottom 10% of firefighters earned less than $34,490 a year in May 2024, while the top 10% earned more than $101,330. BLS attributes this range to factors such as department, rank, region, and years of service rather than any single cause.',
+			},
+			{
+				question: 'What education do you need to become a firefighter?',
+				answer: 'BLS states that firefighters typically need a high school diploma and training in emergency medical services, with initial instruction usually completed at a fire academy. No college degree is required to start, though BLS classifies the typical entry-level education as a postsecondary nondegree award, a label that lines up with the postsecondary EMT certification training most departments also require.',
+			},
+			{
+				question: 'Is firefighting a growing occupation?',
+				answer: 'BLS projects 3% employment growth for firefighters from 2024 to 2034, which it classifies as about as fast as the average for all occupations. That works out to an estimated 11,800 additional jobs and about 27,100 openings a year on average, with most openings driven by workers leaving the occupation rather than newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Firefighters (accessed 2026-08-11 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/protective-service/firefighters.htm' },
+			{ label: 'CareerOneStop: Find Certifications (U.S. Department of Labor)', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx' },
+		],
+		image: '/images/firefighter-salary-chart.svg',
+		imageAlt: 'Bar chart showing firefighter annual wage by percentile: 10th percentile $34,490, median $59,530, 90th percentile $101,330, based on BLS May 2024 data.',
+	},
 ];
