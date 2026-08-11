@@ -680,6 +680,10 @@ export const guides: Guide[] = [
 				question: 'Is radiologic technology a growing field?',
 				answer: 'BLS projects 4% employment growth for radiologic technologists and technicians from 2024 to 2034, faster than the roughly 3% average projected across all occupations, adding an estimated 9,800 jobs over the decade.',
 			},
+			{
+				question: 'What year is the BLS OEWS data on this page from?',
+				answer: "This guide cites the U.S. Bureau of Labor Statistics Occupational Outlook Handbook page for radiologic and MRI technologists, which draws on Occupational Employment and Wage Statistics (OEWS) data from May 2024, the most recent year BLS had published as of this guide's last update. BLS's OEWS program also tracks total nationwide employment for the occupation, but this page reports the median wage, percentile spread, and projected job growth figures above rather than a separate current employment headcount.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
@@ -1025,8 +1029,8 @@ export const guides: Guide[] = [
 		],
 		faq: [
 			{
-				question: 'What is the median pharmacy technician salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for pharmacy technicians was $43,460 in May 2024, equivalent to $20.90 an hour. Because pharmacy technicians are often scheduled hourly rather than paid a fixed salary, actual annual earnings can differ from this figure depending on how many hours a technician actually works in a given year.',
+				question: 'What does BLS report for the pharmacy technician salary?',
+				answer: 'BLS reports a median annual pharmacy technician salary of $43,460 in May 2024, equivalent to $20.90 an hour, based on the U.S. Bureau of Labor Statistics Occupational Employment and Wage Statistics survey. Because pharmacy technicians are often scheduled hourly rather than paid a fixed salary, actual annual earnings can differ from this figure depending on how many hours a technician actually works in a given year.',
 			},
 			{
 				question: 'Do pharmacy technicians need to be certified?',
