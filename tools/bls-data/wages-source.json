@@ -5,7 +5,10 @@
       "title": "Dental Hygienists",
       "medianAnnual": 94260,
       "medianHourly": 45.32,
-      "percentiles": { "p10": 66470, "p90": 120060 },
+      "percentiles": {
+        "p10": 66470,
+        "p90": 120060
+      },
       "employment": 221600,
       "employmentYear": "2024",
       "jobOutlookPct": 7,
@@ -14,9 +17,18 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Associate's degree",
       "industryWages": [
-        { "industry": "Offices of dentists", "annualWage": 94570 },
-        { "industry": "Offices of physicians", "annualWage": 84720 },
-        { "industry": "Government (excl. state/local education, hospitals)", "annualWage": 77940 }
+        {
+          "industry": "Offices of dentists",
+          "annualWage": 94570
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 84720
+        },
+        {
+          "industry": "Government (excl. state/local education, hospitals)",
+          "annualWage": 77940
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Dental Hygienists",
@@ -27,7 +39,10 @@
       "title": "Actuaries",
       "medianAnnual": 125770,
       "medianHourly": 60.47,
-      "percentiles": { "p10": 75240, "p90": 206430 },
+      "percentiles": {
+        "p10": 75240,
+        "p90": 206430
+      },
       "employment": 33600,
       "employmentYear": "2024",
       "jobOutlookPct": 22,
@@ -36,10 +51,22 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Bachelor's degree",
       "industryWages": [
-        { "industry": "Management of companies and enterprises", "annualWage": 133030 },
-        { "industry": "Finance and insurance", "annualWage": 126830 },
-        { "industry": "Government (excl. state/local education)", "annualWage": 118910 },
-        { "industry": "Professional, scientific, and technical services", "annualWage": 111640 }
+        {
+          "industry": "Management of companies and enterprises",
+          "annualWage": 133030
+        },
+        {
+          "industry": "Finance and insurance",
+          "annualWage": 126830
+        },
+        {
+          "industry": "Government (excl. state/local education)",
+          "annualWage": 118910
+        },
+        {
+          "industry": "Professional, scientific, and technical services",
+          "annualWage": 111640
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Actuaries",
@@ -49,8 +76,11 @@
     "29-1051": {
       "title": "Pharmacists",
       "medianAnnual": 137480,
-      "medianHourly": 66.10,
-      "percentiles": { "p10": 86930, "p90": 172040 },
+      "medianHourly": 66.1,
+      "percentiles": {
+        "p10": 86930,
+        "p90": 172040
+      },
       "employment": 335100,
       "employmentYear": "2024",
       "jobOutlookPct": 5,
@@ -59,10 +89,22 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Doctoral or professional degree (PharmD)",
       "industryWages": [
-        { "industry": "Ambulatory healthcare services", "annualWage": 152980 },
-        { "industry": "Hospitals (state, local, private)", "annualWage": 149240 },
-        { "industry": "General merchandise retailers", "annualWage": 145210 },
-        { "industry": "Pharmacies and drug retailers", "annualWage": 131640 }
+        {
+          "industry": "Ambulatory healthcare services",
+          "annualWage": 152980
+        },
+        {
+          "industry": "Hospitals (state, local, private)",
+          "annualWage": 149240
+        },
+        {
+          "industry": "General merchandise retailers",
+          "annualWage": 145210
+        },
+        {
+          "industry": "Pharmacies and drug retailers",
+          "annualWage": 131640
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Pharmacists",
@@ -73,7 +115,10 @@
       "title": "Physical Therapists",
       "medianAnnual": 101020,
       "medianHourly": 48.57,
-      "percentiles": { "p10": 74420, "p90": 132500 },
+      "percentiles": {
+        "p10": 74420,
+        "p90": 132500
+      },
       "employment": 267200,
       "employmentYear": "2024",
       "jobOutlookPct": 11,
@@ -82,10 +127,22 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Doctoral or professional degree (DPT)",
       "industryWages": [
-        { "industry": "Home healthcare services", "annualWage": 108110 },
-        { "industry": "Nursing and residential care facilities", "annualWage": 105330 },
-        { "industry": "Hospitals (state, local, private)", "annualWage": 105140 },
-        { "industry": "Offices of physical, occupational and speech therapists", "annualWage": 94860 }
+        {
+          "industry": "Home healthcare services",
+          "annualWage": 108110
+        },
+        {
+          "industry": "Nursing and residential care facilities",
+          "annualWage": 105330
+        },
+        {
+          "industry": "Hospitals (state, local, private)",
+          "annualWage": 105140
+        },
+        {
+          "industry": "Offices of physical, occupational and speech therapists",
+          "annualWage": 94860
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Physical Therapists",
@@ -96,7 +153,10 @@
       "title": "Physician Assistants",
       "medianAnnual": 133260,
       "medianHourly": 64.07,
-      "percentiles": { "p10": 95240, "p90": 182200 },
+      "percentiles": {
+        "p10": 95240,
+        "p90": 182200
+      },
       "employment": 162700,
       "employmentYear": "2024",
       "jobOutlookPct": 20,
@@ -105,11 +165,26 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Master's degree",
       "industryWages": [
-        { "industry": "Government (excl. state/local education, hospitals)", "annualWage": 151470 },
-        { "industry": "Outpatient care centers", "annualWage": 147650 },
-        { "industry": "Hospitals (state, local, private)", "annualWage": 136630 },
-        { "industry": "Offices of physicians", "annualWage": 129640 },
-        { "industry": "Educational services (state, local, private)", "annualWage": 127900 }
+        {
+          "industry": "Government (excl. state/local education, hospitals)",
+          "annualWage": 151470
+        },
+        {
+          "industry": "Outpatient care centers",
+          "annualWage": 147650
+        },
+        {
+          "industry": "Hospitals (state, local, private)",
+          "annualWage": 136630
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 129640
+        },
+        {
+          "industry": "Educational services (state, local, private)",
+          "annualWage": 127900
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Physician Assistants",
@@ -120,7 +195,10 @@
       "title": "Paralegals and Legal Assistants",
       "medianAnnual": 61010,
       "medianHourly": 29.33,
-      "percentiles": { "p10": 39710, "p90": 98990 },
+      "percentiles": {
+        "p10": 39710,
+        "p90": 98990
+      },
       "employment": 376200,
       "employmentYear": "2024",
       "jobOutlookPct": 0,
@@ -129,11 +207,26 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Associate's degree",
       "industryWages": [
-        { "industry": "Federal government (excl. postal service)", "annualWage": 77940 },
-        { "industry": "Finance and insurance", "annualWage": 76960 },
-        { "industry": "Local government (excl. education, hospitals)", "annualWage": 60990 },
-        { "industry": "Legal services", "annualWage": 59800 },
-        { "industry": "State government (excl. education, hospitals)", "annualWage": 56280 }
+        {
+          "industry": "Federal government (excl. postal service)",
+          "annualWage": 77940
+        },
+        {
+          "industry": "Finance and insurance",
+          "annualWage": 76960
+        },
+        {
+          "industry": "Local government (excl. education, hospitals)",
+          "annualWage": 60990
+        },
+        {
+          "industry": "Legal services",
+          "annualWage": 59800
+        },
+        {
+          "industry": "State government (excl. education, hospitals)",
+          "annualWage": 56280
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Paralegals and Legal Assistants",
@@ -153,10 +246,22 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Associate's degree",
       "industryWages": [
-        { "industry": "Outpatient care centers", "annualWage": 123610 },
-        { "industry": "Hospitals (state, local, private)", "annualWage": 90070 },
-        { "industry": "Offices of physicians", "annualWage": 89450 },
-        { "industry": "Medical and diagnostic laboratories", "annualWage": 83200 }
+        {
+          "industry": "Outpatient care centers",
+          "annualWage": 123610
+        },
+        {
+          "industry": "Hospitals (state, local, private)",
+          "annualWage": 90070
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 89450
+        },
+        {
+          "industry": "Medical and diagnostic laboratories",
+          "annualWage": 83200
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers",
@@ -176,11 +281,26 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Postsecondary nondegree award",
       "industryWages": [
-        { "industry": "Outpatient care centers", "annualWage": 48450 },
-        { "industry": "Medical and diagnostic laboratories", "annualWage": 45700 },
-        { "industry": "Hospitals (state, local, private)", "annualWage": 41490 },
-        { "industry": "Offices of physicians", "annualWage": 40480 },
-        { "industry": "Other ambulatory healthcare services", "annualWage": 39180 }
+        {
+          "industry": "Outpatient care centers",
+          "annualWage": 48450
+        },
+        {
+          "industry": "Medical and diagnostic laboratories",
+          "annualWage": 45700
+        },
+        {
+          "industry": "Hospitals (state, local, private)",
+          "annualWage": 41490
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 40480
+        },
+        {
+          "industry": "Other ambulatory healthcare services",
+          "annualWage": 39180
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Phlebotomists",
@@ -190,7 +310,10 @@
     "29-2034": {
       "title": "Radiologic Technologists and Technicians",
       "medianAnnual": 77660,
-      "percentiles": { "p10": 52360, "p90": 106990 },
+      "percentiles": {
+        "p10": 52360,
+        "p90": 106990
+      },
       "employment": 228000,
       "employmentYear": "2024",
       "jobOutlookPct": 4,
@@ -199,11 +322,26 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Associate's degree",
       "industryWages": [
-        { "industry": "Federal government (excl. postal service)", "annualWage": 93970 },
-        { "industry": "Outpatient care centers", "annualWage": 81000 },
-        { "industry": "Hospitals (state, local, private)", "annualWage": 78560 },
-        { "industry": "Medical and diagnostic laboratories", "annualWage": 76770 },
-        { "industry": "Offices of physicians", "annualWage": 66060 }
+        {
+          "industry": "Federal government (excl. postal service)",
+          "annualWage": 93970
+        },
+        {
+          "industry": "Outpatient care centers",
+          "annualWage": 81000
+        },
+        {
+          "industry": "Hospitals (state, local, private)",
+          "annualWage": 78560
+        },
+        {
+          "industry": "Medical and diagnostic laboratories",
+          "annualWage": 76770
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 66060
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Radiologic and MRI Technologists",
@@ -213,7 +351,10 @@
     "53-2031": {
       "title": "Flight Attendants",
       "medianAnnual": 67130,
-      "percentiles": { "p10": 34030, "p90": 138040 },
+      "percentiles": {
+        "p10": 34030,
+        "p90": 138040
+      },
       "employment": 130800,
       "employmentYear": "2024",
       "jobOutlookPct": 9,
@@ -222,8 +363,14 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "High school diploma or equivalent",
       "industryWages": [
-        { "industry": "Nonscheduled air transportation", "annualWage": 77060 },
-        { "industry": "Scheduled air transportation", "annualWage": 67620 }
+        {
+          "industry": "Nonscheduled air transportation",
+          "annualWage": 77060
+        },
+        {
+          "industry": "Scheduled air transportation",
+          "annualWage": 67620
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Flight Attendants",
@@ -267,8 +414,11 @@
     "29-2052": {
       "title": "Pharmacy Technicians",
       "medianAnnual": 43460,
-      "medianHourly": 20.90,
-      "percentiles": { "p10": 35100, "p90": 59450 },
+      "medianHourly": 20.9,
+      "percentiles": {
+        "p10": 35100,
+        "p90": 59450
+      },
       "employment": 490400,
       "employmentYear": "2024",
       "jobOutlookPct": 6,
@@ -277,11 +427,26 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "High school diploma or equivalent",
       "industryWages": [
-        { "industry": "Ambulatory healthcare services", "annualWage": 49920 },
-        { "industry": "Hospitals (state, local, private)", "annualWage": 49310 },
-        { "industry": "General merchandise retailers", "annualWage": 46180 },
-        { "industry": "Grocery and specialty food retailers", "annualWage": 38810 },
-        { "industry": "Pharmacies and drug retailers", "annualWage": 37900 }
+        {
+          "industry": "Ambulatory healthcare services",
+          "annualWage": 49920
+        },
+        {
+          "industry": "Hospitals (state, local, private)",
+          "annualWage": 49310
+        },
+        {
+          "industry": "General merchandise retailers",
+          "annualWage": 46180
+        },
+        {
+          "industry": "Grocery and specialty food retailers",
+          "annualWage": 38810
+        },
+        {
+          "industry": "Pharmacies and drug retailers",
+          "annualWage": 37900
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Pharmacy Technicians",
@@ -309,7 +474,10 @@
       "title": "Dental Assistants",
       "medianAnnual": 47300,
       "medianHourly": 22.74,
-      "percentiles": { "p10": 36190, "p90": 61780 },
+      "percentiles": {
+        "p10": 36190,
+        "p90": 61780
+      },
       "employment": 381900,
       "employmentYear": "2024",
       "jobOutlookPct": 6,
@@ -318,9 +486,18 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Postsecondary nondegree award",
       "industryWages": [
-        { "industry": "Government (excl. state/local education, hospitals)", "annualWage": 53660 },
-        { "industry": "Offices of dentists", "annualWage": 47250 },
-        { "industry": "Offices of physicians", "annualWage": 46170 }
+        {
+          "industry": "Government (excl. state/local education, hospitals)",
+          "annualWage": 53660
+        },
+        {
+          "industry": "Offices of dentists",
+          "annualWage": 47250
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 46170
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Dental Assistants",
@@ -331,7 +508,10 @@
       "title": "Medical Assistants",
       "medianAnnual": 44200,
       "medianHourly": 21.25,
-      "percentiles": { "p10": 35020, "p90": 57830 },
+      "percentiles": {
+        "p10": 35020,
+        "p90": 57830
+      },
       "employment": 811000,
       "employmentYear": "2024",
       "jobOutlookPct": 12,
@@ -340,10 +520,22 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Postsecondary nondegree award",
       "industryWages": [
-        { "industry": "Outpatient care centers", "annualWage": 47560 },
-        { "industry": "Hospitals; state, local, and private", "annualWage": 45930 },
-        { "industry": "Offices of physicians", "annualWage": 43880 },
-        { "industry": "Offices of other health practitioners", "annualWage": 37510 }
+        {
+          "industry": "Outpatient care centers",
+          "annualWage": 47560
+        },
+        {
+          "industry": "Hospitals; state, local, and private",
+          "annualWage": 45930
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 43880
+        },
+        {
+          "industry": "Offices of other health practitioners",
+          "annualWage": 37510
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Medical Assistants",
@@ -353,7 +545,10 @@
     "31-1131": {
       "title": "Nursing Assistants",
       "medianAnnual": 39530,
-      "percentiles": { "p10": 31390, "p90": 50140 },
+      "percentiles": {
+        "p10": 31390,
+        "p90": 50140
+      },
       "employment": 1441500,
       "employmentYear": "2024",
       "jobOutlookPct": 2,
@@ -362,11 +557,26 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "State-approved training program",
       "industryWages": [
-        { "industry": "Government (excl. state/local education, hospitals)", "annualWage": 45760 },
-        { "industry": "Hospitals; state, local, and private", "annualWage": 40170 },
-        { "industry": "Nursing care facilities (skilled nursing facilities)", "annualWage": 39170 },
-        { "industry": "Continuing care retirement communities & assisted living", "annualWage": 38500 },
-        { "industry": "Home healthcare services", "annualWage": 36910 }
+        {
+          "industry": "Government (excl. state/local education, hospitals)",
+          "annualWage": 45760
+        },
+        {
+          "industry": "Hospitals; state, local, and private",
+          "annualWage": 40170
+        },
+        {
+          "industry": "Nursing care facilities (skilled nursing facilities)",
+          "annualWage": 39170
+        },
+        {
+          "industry": "Continuing care retirement communities & assisted living",
+          "annualWage": 38500
+        },
+        {
+          "industry": "Home healthcare services",
+          "annualWage": 36910
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies",
@@ -377,7 +587,10 @@
       "title": "Air Traffic Controllers",
       "medianAnnual": 144580,
       "medianHourly": 69.51,
-      "percentiles": { "p10": 76090, "p90": 210410 },
+      "percentiles": {
+        "p10": 76090,
+        "p90": 210410
+      },
       "employment": 24100,
       "employmentYear": "2024",
       "jobOutlookPct": 1,
@@ -386,8 +599,14 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Associate's degree",
       "industryWages": [
-        { "industry": "Federal government", "annualWage": 154000 },
-        { "industry": "Support activities for air transportation", "annualWage": 82510 }
+        {
+          "industry": "Federal government",
+          "annualWage": 154000
+        },
+        {
+          "industry": "Support activities for air transportation",
+          "annualWage": 82510
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Air Traffic Controllers",
@@ -398,7 +617,10 @@
       "title": "Respiratory Therapists",
       "medianAnnual": 80450,
       "medianHourly": 38.68,
-      "percentiles": { "p10": 61900, "p90": 108820 },
+      "percentiles": {
+        "p10": 61900,
+        "p90": 108820
+      },
       "employment": 139600,
       "employmentYear": "2024",
       "jobOutlookPct": 12,
@@ -407,13 +629,60 @@
       "projectionPeriod": "2024-34",
       "entryEducation": "Associate's degree",
       "industryWages": [
-        { "industry": "Hospitals; state, local, and private", "annualWage": 80660 },
-        { "industry": "Nursing care facilities (skilled nursing facilities)", "annualWage": 75910 },
-        { "industry": "Offices of physicians", "annualWage": 75240 }
+        {
+          "industry": "Hospitals; state, local, and private",
+          "annualWage": 80660
+        },
+        {
+          "industry": "Nursing care facilities (skilled nursing facilities)",
+          "annualWage": 75910
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 75240
+        }
       ],
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Respiratory Therapists",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/respiratory-therapists.htm",
+      "publishedDate": "2025-08-28"
+    },
+    "47-2111": {
+      "title": "Electricians",
+      "medianAnnual": 62350,
+      "medianHourly": 29.98,
+      "percentiles": {
+        "p10": 39430,
+        "p90": 106030
+      },
+      "employment": 818700,
+      "employmentYear": "2024",
+      "jobOutlookPct": 9,
+      "jobOutlookLabel": "Much faster than average",
+      "employmentChange": 77400,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "High school diploma or equivalent",
+      "industryWages": [
+        {
+          "industry": "Government, excluding state and local education and hospitals",
+          "annualWage": 77080
+        },
+        {
+          "industry": "Manufacturing",
+          "annualWage": 71820
+        },
+        {
+          "industry": "Electrical contractors and other wiring installation contractors",
+          "annualWage": 61290
+        },
+        {
+          "industry": "Employment services",
+          "annualWage": 57490
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Electricians",
+      "sourceUrl": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
       "publishedDate": "2025-08-28"
     }
   }

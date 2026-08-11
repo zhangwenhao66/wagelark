@@ -38,6 +38,7 @@ const REQUIRED_SOC_CODES = [
 	'53-2021', // Air Traffic Controllers
 	'31-1131', // Nursing Assistants
 	'29-1126', // Respiratory Therapists
+	'47-2111', // Electricians
 ];
 
 test('day-1 launch occupations are all present', () => {
@@ -345,4 +346,26 @@ test('spot check: Respiratory Therapists (29-1126) matches BLS OOH page', () => 
 	assert.equal(occ.jobOutlookPct, 12);
 	assert.equal(occ.employmentChange, 16800);
 	assert.equal(occ.industryWages.length, 3);
+});
+
+// Numbers below transcribed by hand on 2026-08-11 from a live fetch of
+// bls.gov/ooh/construction-and-extraction/electricians.htm via the r.jina.ai
+// reader proxy (direct curl returns Akamai 403, same pattern as prior spot
+// checks; the reader's raw-HTML mode also surfaced the page's own "Last
+// modified date: August 28, 2025" footer, matching the same data-freshness
+// date as every other spot check in this file). Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+// This is an independent OOH page (not a merged profile with another
+// occupation), so all fields including percentiles and industryWages are
+// specific to Electricians (47-2111).
+test('spot check: Electricians (47-2111) matches BLS OOH page', () => {
+	const occ = occupations['47-2111'];
+	assert.equal(occ.medianAnnual, 62350);
+	assert.equal(occ.medianHourly, 29.98);
+	assert.equal(occ.percentiles.p10, 39430);
+	assert.equal(occ.percentiles.p90, 106030);
+	assert.equal(occ.employment, 818700);
+	assert.equal(occ.jobOutlookPct, 9);
+	assert.equal(occ.employmentChange, 77400);
+	assert.equal(occ.industryWages.length, 4);
 });

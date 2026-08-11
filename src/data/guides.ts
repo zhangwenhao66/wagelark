@@ -1390,4 +1390,76 @@ export const guides: Guide[] = [
 		image: '/images/respiratory-therapist-salary-chart.svg',
 		imageAlt: 'Bar chart showing respiratory therapist annual wage by percentile: 10th percentile $61,900, median $80,450, 90th percentile $108,820, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'electrician-salary',
+		category: 'Salary Guide',
+		title: 'Electrician Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median electrician salary at $62,350 a year, with 9% growth projected through 2034. Here is the full wage range by percentile and by employer.',
+		published: '2026-08-11',
+		updated: '2026-08-11',
+		socCode: '47-2111',
+		coreSummary: 'The median annual wage for electricians was $62,350 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $39,430 while the top 10% earned more than $106,030. BLS projects 9% employment growth from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 77,400 jobs.',
+		sections: [
+			{
+				heading: 'What electricians earn, and what the growth rate means',
+				body: [
+					'The Bureau of Labor Statistics tracks this role under SOC code 47-2111. For May 2024, BLS reported a median annual wage of $62,350, or $29.98 an hour, for the roughly 818,700 people employed as electricians nationwide. The bottom 10% of earners made less than $39,430 a year, while the top 10% made more than $106,030, a spread of more than $66,000 that reflects differences in experience, license level, employer type, and region rather than any single factor. BLS describes the job itself as physically demanding work, noting that electricians need enough strength to move components that can weigh up to 50 pounds and must be able to identify wires by color, on top of the troubleshooting skills the role requires day to day.',
+					"BLS also places electricians against two broader groupings on the same page. The median for construction trades workers as a whole was $56,490, and the median across all occupations in the economy was $49,500. Electricians sit above both comparison figures, though BLS does not break out how much of that gap owes to the trade's licensing requirements versus other factors like union coverage or regional demand.",
+					'On growth, BLS projects 9% employment growth for electricians from 2024 to 2034, compared with 6% for construction trades workers as a whole and roughly 3% for all occupations combined. BLS classifies that as "much faster than average," one of the stronger outlooks among the skilled trades this site has covered so far.',
+				],
+			},
+			{
+				heading: 'Industry breakdown, and where apprentices fit in',
+				body: [
+					'BLS breaks out May 2024 wages by industry for electricians into four categories. Government employers, excluding state and local education and hospitals, paid the highest median at $77,080. Manufacturing followed at $71,820. Electrical contractors and other wiring installation contractors, the industry BLS says employs 65% of electricians (the largest single share by far), paid a median of $61,290, close to the occupation-wide figure. Employment services, which covers staffing agencies, paid the lowest of the four tracked categories at $57,490.',
+					"About 8% of electricians are self-employed, per BLS, most often in residential construction, where BLS notes they may be able to set their own schedule. BLS also states that apprentices earn less than fully trained electricians and that their pay rises as they take on more responsibility during the multi-year apprenticeship, though the Handbook page does not publish a separate apprentice wage figure distinct from the fully qualified median above.",
+					"BLS does not explain why government and manufacturing settings pay more than contracting work specifically; it publishes the industry breakdown without an accompanying explanation. Readers should treat the ranking as descriptive rather than as a guarantee that switching industries alone would produce the same pay outcome for any individual electrician, since local demand, union coverage, and years of experience all vary by region and were not isolated in this survey.",
+				],
+			},
+			{
+				heading: "How people become electricians, and how that path compares to other trades on this site",
+				body: [
+					'Per BLS, the typical entry-level education for electricians is a high school diploma or equivalent, with no postsecondary degree required to start training. Most electricians learn the trade through a 4- or 5-year apprenticeship, and BLS specifies that apprentices typically receive about 2,000 hours of paid on-the-job training per year of the program, alongside technical instruction covering electrical theory, blueprint reading, and code requirements. Some workers start out by attending a technical school first, which BLS notes can earn credit toward the apprenticeship, and workers with prior electrical experience in the military or construction may qualify for a shortened program based on testing.',
+					'BLS states that after completing an apprenticeship, electricians are considered journey workers who may perform duties on their own, subject to state or local licensing requirements. Most states require passing a test and obtaining a license, and the specific requirements, such as hours of supervised experience, exam content, and renewal cycles, vary by state. BLS directs readers to CareerOneStop for state-by-state licensing board information rather than listing every state\'s rules on its own page, and this article does not attempt to summarize them either, since a reader in one state cannot rely on another state\'s requirements. BLS also notes that licensed electricians may need continuing education to maintain that license, and that journey workers who meet additional requirements can advance to master electrician or move into supervisory or project-management roles.',
+					"For readers comparing entry paths that skip a bachelor's degree, electricians sit at the higher-paying end of the occupations covered on this site so far. [Becoming a CNA](/how-to-become-a-cna/) requires a 75-hour minimum training program rather than a multi-year apprenticeship, and BLS puts the median nursing assistant wage at $39,530, well below the electrician median. [Medical assistants](/medical-assistant-salary/), whose typical entry credential BLS lists as a postsecondary nondegree award rather than an apprenticeship, have a median of $44,200. Electricians, despite requiring no postsecondary credential at all beyond a high school diploma, out-earn both at the median, though BLS does not track how apprenticeship length, licensing requirements, or industry mix account for that gap.",
+				],
+			},
+			{
+				heading: 'Job outlook, and what BLS says is driving demand',
+				body: [
+					'BLS projects 9% employment growth for electricians from 2024 to 2034, adding an estimated 77,400 jobs and about 81,000 openings a year on average. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions alone.',
+					'BLS attributes underlying growth partly to the expansion of alternative power generation, such as solar and wind installations, which require electricians to connect new systems to homes and the broader power grid. It also notes, without assigning a specific probability, that growth tied to these alternative sources may depend on government provisions such as tax credits and net metering policies that affect consumer demand, meaning the 9% figure carries some sensitivity to policy that BLS itself cannot forecast with precision.',
+					"This growth projection describes national demand for the occupation as a whole; it is not a forecast for any specific employer, region, or individual's job security or earnings trajectory. Someone weighing a particular apprenticeship program should look at that program's own placement data and local job market conditions alongside the national figures here.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average electrician salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for electricians was $62,350 in May 2024, equivalent to $29.98 an hour. "Median" means half of workers in the occupation earned more and half earned less.',
+			},
+			{
+				question: 'What is the highest-paying industry for electricians?',
+				answer: 'Among the four industry categories BLS tracks for May 2024, government employers (excluding state and local education and hospitals) paid the highest median at $77,080, ahead of manufacturing ($71,820), electrical contractors and wiring installation contractors ($61,290), and employment services ($57,490).',
+			},
+			{
+				question: 'How much do the lowest- and highest-paid electricians make?',
+				answer: 'BLS reports that the bottom 10% of electricians earned less than $39,430 a year in May 2024, while the top 10% earned more than $106,030. BLS does not break down what separates the highest earners within the occupation on this page.',
+			},
+			{
+				question: 'Do electricians need a license?',
+				answer: "BLS states that most states require electricians to be licensed, though the specific requirements vary by state. BLS directs readers to CareerOneStop for state-by-state licensing board information rather than publishing every state's rules directly.",
+			},
+			{
+				question: 'Is electrician a growing occupation?',
+				answer: 'BLS projects 9% employment growth for electricians from 2024 to 2034, well above the roughly 3% average across all occupations, adding an estimated 77,400 jobs and about 81,000 openings a year on average, mostly from workers leaving the occupation rather than newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Electricians (accessed 2026-08-11 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/construction-and-extraction/electricians.htm' },
+			{ label: 'CareerOneStop: Find Licenses (U.S. Department of Labor)', url: 'https://www.careeronestop.org/Toolkit/Training/find-licenses.aspx' },
+		],
+		image: '/images/electrician-salary-chart.svg',
+		imageAlt: 'Bar chart showing electrician annual wage by percentile: 10th percentile $39,430, median $62,350, 90th percentile $106,030, based on BLS May 2024 data.',
+	},
 ];

@@ -699,5 +699,44 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Respiratory Therapists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/respiratory-therapists.htm",
 		publishedDate: "2025-08-28"
+	},
+	"47-2111": {
+		socCode: "47-2111",
+		title: "Electricians",
+		medianAnnual: 62350,
+		medianHourly: 29.98,
+		percentiles: {
+			p10: 39430,
+			p90: 106030
+		},
+		employment: 818700,
+		employmentYear: "2024",
+		jobOutlookPct: 9,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 77400,
+		projectionPeriod: "2024-34",
+		entryEducation: "High school diploma or equivalent",
+		industryWages: [
+			{
+				industry: "Government, excluding state and local education and hospitals",
+				annualWage: 77080
+			},
+			{
+				industry: "Manufacturing",
+				annualWage: 71820
+			},
+			{
+				industry: "Electrical contractors and other wiring installation contractors",
+				annualWage: 61290
+			},
+			{
+				industry: "Employment services",
+				annualWage: 57490
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Electricians",
+		sourceUrl: "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
+		publishedDate: "2025-08-28"
 	}
 };

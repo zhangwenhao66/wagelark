@@ -29,6 +29,7 @@ const CHARTS = {
 	'medical-assistant-salary-chart': '31-9092',
 	'air-traffic-controller-salary-chart': '53-2021',
 	'respiratory-therapist-salary-chart': '29-1126',
+	'electrician-salary-chart': '47-2111',
 };
 
 const NAVY = '#14273f';
