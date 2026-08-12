@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="240" fill="white" />
+	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Heavy and Tractor-trailer Truck Drivers — Annual Wage by Percentile</text>
+	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
+	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="56" width="186.33502538071068" height="34" fill="#0f8b7f" />
+	<text x="346.3350253807107" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$38,640</text>
+	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
+	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="116" width="276.99492385786806" height="34" fill="#0f8b7f" />
+	<text x="436.99492385786806" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$57,440</text>
+	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
+	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
+	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$78,800</text>
+	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national)</text>
+</svg>

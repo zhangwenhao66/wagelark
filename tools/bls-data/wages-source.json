@@ -756,6 +756,44 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Plumbers, Pipefitters, and Steamfitters",
       "sourceUrl": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
       "publishedDate": "2025-08-28"
+    },
+    "53-3032": {
+      "title": "Heavy and Tractor-trailer Truck Drivers",
+      "medianAnnual": 57440,
+      "medianHourly": 27.62,
+      "percentiles": {
+        "p10": 38640,
+        "p90": 78800
+      },
+      "employment": 2235100,
+      "employmentYear": "2024",
+      "jobOutlookPct": 4,
+      "jobOutlookLabel": "As fast as average",
+      "employmentChange": 89300,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Postsecondary nondegree award",
+      "industryWages": [
+        {
+          "industry": "Truck transportation",
+          "annualWage": 59570
+        },
+        {
+          "industry": "Wholesale trade",
+          "annualWage": 57260
+        },
+        {
+          "industry": "Manufacturing",
+          "annualWage": 54860
+        },
+        {
+          "industry": "Construction",
+          "annualWage": 54170
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers",
+      "sourceUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

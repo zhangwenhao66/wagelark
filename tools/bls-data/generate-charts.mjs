@@ -31,6 +31,7 @@ const CHARTS = {
 	'respiratory-therapist-salary-chart': '29-1126',
 	'electrician-salary-chart': '47-2111',
 	'firefighter-salary-chart': '33-2011',
+	'truck-driver-salary-chart': '53-3032',
 };
 
 const NAVY = '#14273f';

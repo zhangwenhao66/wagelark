@@ -1615,4 +1615,76 @@ export const guides: Guide[] = [
 		image: '/images/plumbing-apprenticeship-path.svg',
 		imageAlt: 'Timeline diagram showing the path through a plumbing apprenticeship: high school diploma, 4-5 year apprenticeship with paid on-the-job training, state licensing exam, then journey-level status with optional advancement to master plumber.',
 	},
+	{
+		slug: 'truck-driver-salary',
+		category: 'Salary Guide',
+		title: 'Truck Driver Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median truck driver salary at $57,440 a year, with 4% growth projected through 2034. Here is the full wage range by percentile and by industry.',
+		published: '2026-08-12',
+		updated: '2026-08-12',
+		socCode: '53-3032',
+		coreSummary: 'The median annual wage for heavy and tractor-trailer truck drivers was $57,440 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $38,640 while the top 10% earned more than $78,800. BLS projects 4% employment growth from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 89,300 jobs.',
+		sections: [
+			{
+				heading: 'What truck drivers earn, and how wide the pay spread runs',
+				body: [
+					'BLS tracks this role under SOC code 53-3032, which covers drivers who operate a tractor-trailer combination or a truck with a total weight of at least 26,000 pounds, most often on long-haul routes that can span several states. For May 2024, BLS reported a median annual wage of $57,440, or $27.62 an hour, across the roughly 2,235,100 people employed as heavy and tractor-trailer truck drivers nationwide. The bottom 10% earned less than $38,640 a year, while the top 10% earned more than $78,800, a spread of about $40,000. BLS attributes that range broadly to factors such as employer type, route length, cargo type, and years of experience, without assigning a specific weight to any one factor.',
+					"BLS also places truck drivers against two broader groupings on the same page. The median across all motor vehicle operators was $48,660, and the median across all occupations in the economy was $49,500. Truck drivers sit above both figures at the median, though BLS does not explain how much of that gap owes to the physical demands of long-haul work versus the commercial license requirement or other factors.",
+					'On growth, BLS projects 4% employment growth for truck drivers from 2024 to 2034, compared with 5% for motor vehicle operators as a group and roughly 3% for all occupations combined. BLS classifies the outlook as "about as fast as average," a middle-of-the-pack projection compared with the stronger growth BLS reports for some of the skilled trades this site has covered.',
+				],
+			},
+			{
+				heading: 'Industry pay differences, and how drivers are actually paid',
+				body: [
+					'BLS breaks out May 2024 wages by industry for truck drivers into four categories. Truck transportation, the industry BLS says employs 40% of drivers (the largest single share by far), paid the highest median at $59,570. Wholesale trade followed at $57,260, then manufacturing at $54,860 and construction at $54,170. BLS does not explain the ranking beyond publishing the figures, so readers should treat it as descriptive rather than a guarantee that switching industries alone would raise a given driver\'s pay, since route type, employer size, and region were not isolated in this survey.',
+					"Unlike most occupations on this site, BLS describes truck driver pay as structured around miles driven rather than a flat hourly or salaried rate. Drivers are typically paid by the mile, plus bonuses, and the per-mile rate varies by employer and can depend on the type of cargo hauled and the driver's experience, according to BLS. Some long-distance drivers, particularly owner-operators who buy or lease their own trucks and run an independent business, are instead paid a share of the revenue from a shipment. BLS does not publish a separate wage line for owner-operators, so the percentile figures above describe the broader employed workforce rather than self-employed drivers running their own operation.",
+					'On who employs these drivers, BLS lists truck transportation at 40%, wholesale trade at 12%, manufacturing at 7%, self-employed workers at 7%, and construction at 6%, with the remainder spread across smaller categories the Handbook page does not break out individually.',
+				],
+			},
+			{
+				heading: 'Getting a CDL, and how the entry path compares to other trades on this site',
+				body: [
+					"BLS Quick Facts list the typical entry-level education for truck drivers as a postsecondary nondegree award, though the Handbook's narrative description says most companies simply require a high school diploma or equivalent, plus completion of a professional truck driving school. BLS says these training programs run 3 to 6 months at either a private driving school or a community college, and cover both vehicle handling and the federal laws governing interstate trucking; graduates receive a certificate of completion rather than a degree.",
+					'All long-haul drivers must hold a commercial driver\'s license (CDL). Qualifications vary by state but generally include a knowledge test and a driving test, per BLS, and a state can refuse to issue a CDL to someone whose license was suspended by another state. Drivers who haul hazardous materials need an additional H endorsement, which BLS says requires passing a further knowledge test and a background check. After finishing driving school and getting hired, BLS says new drivers typically spend several weeks in on-the-job training, riding with an experienced mentor-driver before driving solo.',
+					"For readers comparing entry paths that skip a bachelor's degree, truck drivers sit below some of the other trades this site has covered. [Electricians](/electrician-salary/) require a 4- or 5-year apprenticeship and post a higher median of $62,350, while [firefighters](/firefighter-salary/) share the same postsecondary-nondegree-award classification from BLS and post a similar median of $59,530, just above truck drivers. BLS does not track how apprenticeship length, licensing requirements, or industry mix account for the differences between these three occupations.",
+				],
+			},
+			{
+				heading: 'Job outlook, and the federal rules that govern the job',
+				body: [
+					'BLS projects 4% employment growth for truck drivers from 2024 to 2034, adding an estimated 89,300 jobs and about 237,600 openings a year on average. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions alone. BLS ties underlying demand to growth in household and business spending, since trucks move most of the freight in the United States.',
+					'BLS also flags that heavy and tractor-trailer truck drivers have one of the highest rates of injuries and illnesses of all occupations, along with one of the highest rates of occupational fatalities, tied to the risk of traffic accidents. Federal Motor Carrier Safety Administration rules, which BLS cites directly, limit drivers to 14 hours on duty per day, of which up to 11 can be actual driving, and require at least 10 hours off duty between shifts. Drivers are also capped at 60 hours of driving within 7 days or 70 hours within 8 days, after which federal rules require a 34-hour break before another multi-day run can begin.',
+					"These are national figures, and BLS does not break them down by specific carrier, freight lane, or region. A driver comparing training programs would need to weigh the placement record and freight demand of that specific school or carrier separately, since the 4% outlook describes the occupation nationwide rather than any one route or employer.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average truck driver salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for heavy and tractor-trailer truck drivers was $57,440 in May 2024, equivalent to $27.62 an hour. "Median" means half of workers in the occupation earned more and half earned less.',
+			},
+			{
+				question: 'What is the highest-paying industry for truck drivers?',
+				answer: 'Among the four industry categories BLS tracks for May 2024, truck transportation paid the highest median at $59,570, ahead of wholesale trade ($57,260), manufacturing ($54,860), and construction ($54,170).',
+			},
+			{
+				question: 'How much do the lowest- and highest-paid truck drivers make?',
+				answer: 'BLS reports that the bottom 10% of heavy and tractor-trailer truck drivers earned less than $38,640 a year in May 2024, while the top 10% earned more than $78,800. BLS attributes the spread broadly to factors such as employer type, route length, and experience, without isolating any single cause.',
+			},
+			{
+				question: 'Do truck drivers need a CDL?',
+				answer: 'Yes. BLS states that all long-haul heavy and tractor-trailer truck drivers must hold a commercial driver\'s license (CDL), which generally requires passing a knowledge test and a driving test, with specific requirements varying by state. Drivers hauling hazardous materials need an additional H endorsement.',
+			},
+			{
+				question: 'Is truck driving a growing occupation?',
+				answer: 'BLS projects 4% employment growth for truck drivers from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 89,300 jobs and about 237,600 openings a year on average, mostly from workers leaving the occupation rather than newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers (accessed 2026-08-12 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm' },
+			{ label: 'Federal Motor Carrier Safety Administration (U.S. Department of Transportation)', url: 'https://www.fmcsa.dot.gov/' },
+		],
+		image: '/images/truck-driver-salary-chart.svg',
+		imageAlt: 'Bar chart showing heavy and tractor-trailer truck driver annual wage by percentile: 10th percentile $38,640, median $57,440, 90th percentile $78,800, based on BLS May 2024 data.',
+	},
 ];

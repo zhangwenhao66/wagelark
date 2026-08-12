@@ -413,3 +413,26 @@ test('spot check: Plumbers, Pipefitters, and Steamfitters (47-2152) matches BLS 
 	assert.equal(occ.employmentChange, 22700);
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Independently transcribed by hand from the live BLS OOH Heavy and
+// Tractor-trailer Truck Drivers page
+// (https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm)
+// on 2026-08-12 via r.jina.ai proxy read (direct bls.gov fetch returns 403
+// for this agent's network path -- same footer confirms "Last modified
+// date: August 28, 2025", matching the same data-freshness date as every
+// other spot check in this file). Independent of wages-source.json's own
+// numbers -- do not derive these from the source file. This is an
+// independent OOH page, so all fields including percentiles and
+// industryWages are specific to Heavy and Tractor-trailer Truck Drivers
+// (53-3032).
+test('spot check: Heavy and Tractor-trailer Truck Drivers (53-3032) matches BLS OOH page', () => {
+	const occ = occupations['53-3032'];
+	assert.equal(occ.medianAnnual, 57440);
+	assert.equal(occ.medianHourly, 27.62);
+	assert.equal(occ.percentiles.p10, 38640);
+	assert.equal(occ.percentiles.p90, 78800);
+	assert.equal(occ.employment, 2235100);
+	assert.equal(occ.jobOutlookPct, 4);
+	assert.equal(occ.employmentChange, 89300);
+	assert.equal(occ.industryWages.length, 4);
+});
