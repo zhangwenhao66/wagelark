@@ -718,6 +718,44 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Firefighters",
       "sourceUrl": "https://www.bls.gov/ooh/protective-service/firefighters.htm",
       "publishedDate": "2025-08-28"
+    },
+    "47-2152": {
+      "title": "Plumbers, Pipefitters, and Steamfitters",
+      "medianAnnual": 62970,
+      "medianHourly": 30.27,
+      "percentiles": {
+        "p10": 40670,
+        "p90": 105150
+      },
+      "employment": 504500,
+      "employmentYear": "2024",
+      "jobOutlookPct": 4,
+      "jobOutlookLabel": "As fast as average",
+      "employmentChange": 22700,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "High school diploma or equivalent",
+      "industryWages": [
+        {
+          "industry": "Government, excluding state and local education and hospitals",
+          "annualWage": 69160
+        },
+        {
+          "industry": "Heavy and civil engineering construction",
+          "annualWage": 62770
+        },
+        {
+          "industry": "Plumbing, heating, and air-conditioning contractors",
+          "annualWage": 62670
+        },
+        {
+          "industry": "Manufacturing",
+          "annualWage": 61620
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Plumbers, Pipefitters, and Steamfitters",
+      "sourceUrl": "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

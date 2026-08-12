@@ -1538,4 +1538,79 @@ export const guides: Guide[] = [
 		image: '/images/firefighter-salary-chart.svg',
 		imageAlt: 'Bar chart showing firefighter annual wage by percentile: 10th percentile $34,490, median $59,530, 90th percentile $101,330, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'plumbing-apprenticeship',
+		category: 'How to Become',
+		title: 'Plumbing Apprenticeship: Length, Pay, and How to Become a Plumber',
+		description: 'A plumbing apprenticeship runs 4 to 5 years with roughly 2,000 paid hours a year. Here is BLS pay data for apprentices through journey-level to master plumber.',
+		published: '2026-08-12',
+		updated: '2026-08-12',
+		socCode: '47-2152',
+		coreSummary: 'A plumbing apprenticeship typically runs 4 to 5 years, combining about 2,000 hours of paid on-the-job training per year with technical instruction in codes, blueprint reading, and math. The U.S. Bureau of Labor Statistics reports a median annual wage of $62,970 for plumbers, pipefitters, and steamfitters in May 2024, with the bottom 10% earning less than $40,670 and the top 10% earning more than $105,150.',
+		sections: [
+			{
+				heading: 'What a plumbing apprenticeship actually involves',
+				body: [
+					'Per the Bureau of Labor Statistics, most plumbers, pipefitters, and steamfitters learn the trade through a 4- or 5-year apprenticeship, though some attend a vocational-technical school first. Apprentices typically receive about 2,000 hours of paid on-the-job training each year of the program, alongside technical instruction covering safety, local plumbing codes and regulations, and blueprint reading. BLS also notes that apprentices study mathematics, applied physics, and chemistry as part of that classroom component. Apprenticeship programs are sponsored by unions, trade associations, and businesses rather than run as a single national program, which is why the specific application process and waitlist can vary a great deal by local union hall or contractor. Most apprentices enter a program directly, though BLS notes some start out as helpers or complete a pre-apprenticeship training program in plumbing or another trade first.',
+					'BLS tracks plumbers, pipefitters, and steamfitters together under one SOC code, 47-2152, and one shared Occupational Outlook Handbook page, rather than publishing three separate profiles, so every pay and employment figure on this page covers the combined group, not plumbers alone. The three job titles share the same core skills, connecting pipes and testing pressure so a system is airtight and watertight, but differ in setting and material. Plumbers install and repair water, gas, and other piping systems in homes, businesses, and factories, including fixtures such as bathtubs and toilets and appliances such as water heaters. Pipefitters and steamfitters, sometimes called fitters, install and maintain pipes that carry chemicals, acids, and gases, mostly in manufacturing, commercial, and industrial settings, with steamfitters specializing in systems built for high-pressure liquids or gases.',
+					],
+				image: {
+					src: '/images/plumbing-apprenticeship-path.svg',
+					alt: 'Timeline diagram showing the path through a plumbing apprenticeship: high school diploma, 4-5 year apprenticeship with paid on-the-job training, state licensing exam, then journey-level status with optional advancement to master plumber.',
+				},
+			},
+			{
+				heading: 'What the apprenticeship pays, before and after journey level',
+				body: [
+					'BLS states directly that apprentices earn less than fully trained plumbers, pipefitters, and steamfitters, and that their pay rises as they take on more responsibility during the program, but the Occupational Outlook Handbook page does not publish a separate apprentice wage figure distinct from the fully qualified median. The number BLS does publish is the occupation-wide median for May 2024, $62,970 a year, or $30.27 an hour. The lowest 10% earned less than $40,670, and the highest 10% earned more than $105,150, a spread of more than $64,000 that reflects where a given worker falls across the apprentice-to-master progression, license status, industry, and region, not any single factor.',
+					'BLS places this occupation against two broader groupings on the same page. Construction trades workers as a whole had a median of $56,490, and the median across all occupations in the economy was $49,500. Plumbers, pipefitters, and steamfitters sit above both comparison figures.',
+					'BLS breaks out May 2024 wages by industry into four categories. Government employers, excluding state and local education and hospitals, paid the highest median at $69,160. Heavy and civil engineering construction followed at $62,770, close to the occupation-wide figure, and plumbing, heating, and air-conditioning contractors, the industry that employs the largest share of workers in this occupation, paid a median of $62,670. Manufacturing paid the lowest of the four tracked categories, at $61,620.',
+					],
+				},
+			{
+				heading: 'How to go from apprentice to licensed plumber',
+				body: [
+					"BLS lists the typical entry-level education for this occupation as a high school diploma or equivalent, with no prior work experience required and on-the-job training delivered through an apprenticeship. After completing an apprenticeship and passing the required licensing exam, workers become journey-level plumbers, pipefitters, or steamfitters, qualified to perform tasks independently rather than under direct supervision. Most states, and some localities, require plumbers to be licensed. Although the specifics vary by jurisdiction, BLS notes that states and localities often require 2 to 5 years of experience plus a passing score on an exam testing trade knowledge before allowing a plumber to work independently. BLS directs readers to their state's licensing board for the exact requirements rather than listing every state's rules on its own page, and this article does the same rather than guessing at any one state's process, since a reader in one state cannot rely on another state's rules.",
+					'BLS breaks out where these workers are employed. Plumbing, heating, and air-conditioning contractors employ the largest share, 66%. Self-employed workers make up 8%, and BLS notes self-employed plumbers may be able to set their own schedules. Heavy and civil engineering construction accounts for 4%, government employers, excluding state and local education and hospitals, for 3%, and manufacturing for another 3%. After reaching journey level, plumbers with several years of experience can pass a further exam to earn master status, and BLS notes some states require master plumber status specifically to obtain a plumbing contractor\'s license.',
+					"For readers comparing this apprenticeship route against other paths that skip a bachelor's degree, [electricians](/electrician-salary/) follow a similarly structured 4- or 5-year apprenticeship starting from the same high school diploma entry bar, and BLS puts their median annual wage at $62,350, within about $600 of the plumbing figure above. [Becoming a CNA](/how-to-become-a-cna/) sits at the other end of the training-length spectrum, a federal minimum of 75 hours rather than a multi-year apprenticeship, and BLS puts the median nursing assistant wage at $39,530, well below either trade. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one of these paths is the better choice for a given person.",
+				],
+			},
+			{
+				heading: "Job outlook, and what the growth number does and doesn't mean",
+				body: [
+					'BLS projects 4% employment growth for plumbers, pipefitters, and steamfitters from 2024 to 2034, which it classifies as about as fast as the average for all occupations. That works out to an estimated 22,700 additional jobs and about 44,000 openings a year on average over the decade. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions alone.',
+					'BLS attributes underlying demand to new construction as well as the ongoing need to maintain and repair plumbing systems in existing homes and other buildings. It also specifically calls out sprinklerfitters, one of the specialties within this combined occupation, as an area where employment is expected to increase because building codes in all states now require fire suppression systems.',
+					"That 4% figure trails both the 6% BLS projects for construction trades workers as a whole and the 9% it projects for electricians, a similarly structured apprenticeship trade covered elsewhere on this site, though electricians and plumbers land within a few hundred dollars of each other on median pay. BLS does not explain, on this page, why one licensed apprenticeship trade is projected to grow faster than another; the projection describes national demand for the occupation as a whole. It is not a forecast for any specific employer, local union, apprenticeship program, or individual's job security or earnings trajectory, and someone weighing a specific program should look at that program's own placement data and local job market conditions alongside the national figures here.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long is a plumbing apprenticeship?',
+				answer: 'Per the Bureau of Labor Statistics, most plumbers, pipefitters, and steamfitters complete a 4- or 5-year apprenticeship, with apprentices receiving about 2,000 hours of paid on-the-job training per year alongside technical instruction in safety, local plumbing codes, and blueprint reading.',
+			},
+			{
+				question: 'How much do plumbing apprentices get paid?',
+				answer: 'BLS states that apprentices earn less than fully trained plumbers, pipefitters, and steamfitters and that pay rises as they take on more responsibility, but it does not publish a separate apprentice wage figure. The occupation-wide median for fully qualified workers was $62,970 a year in May 2024, equivalent to $30.27 an hour.',
+			},
+			{
+				question: 'What is the difference between a plumber, a pipefitter, and a steamfitter?',
+				answer: 'BLS tracks all three under one occupation. Plumbers install and repair water, gas, and other piping systems and fixtures in homes, businesses, and factories. Pipefitters and steamfitters install and maintain pipes carrying chemicals, acids, and gases, mostly in manufacturing and industrial settings, with steamfitters specializing in high-pressure liquid or gas systems.',
+			},
+			{
+				question: 'How do you become a licensed plumber?',
+				answer: 'After completing an apprenticeship, a candidate must pass a state licensing exam to reach journey level, which qualifies them to work independently. Most states and some localities require this license, and BLS notes requirements often include 2 to 5 years of experience plus a trade-knowledge exam that varies by state. Workers with several years of journey-level experience can pass a further exam to earn master status.',
+			},
+			{
+				question: 'Is plumbing a growing field?',
+				answer: 'BLS projects 4% employment growth for plumbers, pipefitters, and steamfitters from 2024 to 2034, about as fast as the average for all occupations, adding an estimated 22,700 jobs and about 44,000 openings a year on average, mostly from workers leaving the occupation rather than newly created positions. BLS separately notes rising demand for sprinklerfitters tied to fire-suppression building codes.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Plumbers, Pipefitters, and Steamfitters (accessed 2026-08-12 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm' },
+			{ label: 'Apprenticeship.gov (U.S. Department of Labor)', url: 'https://www.apprenticeship.gov/' },
+		],
+		image: '/images/plumbing-apprenticeship-path.svg',
+		imageAlt: 'Timeline diagram showing the path through a plumbing apprenticeship: high school diploma, 4-5 year apprenticeship with paid on-the-job training, state licensing exam, then journey-level status with optional advancement to master plumber.',
+	},
 ];
