@@ -5,3 +5,4 @@ export const SITE_ORIGIN = 'https://wagelark.com';
 export const AUTHOR_NAME = 'Owen Zhang';
 export const ADSENSE_PUBLISHER_ID = 'pub-5245502795720653';
 export const GA4_ID = 'G-W1GRGXC2R7';
+export const CLARITY_ID = 'y14y2dyqzv';
