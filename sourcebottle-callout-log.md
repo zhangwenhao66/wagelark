@@ -21,3 +21,15 @@
 - **Deadline**：2026-08-25 17:00
 - **发布状态**：✅ 已提交，跳转 `thankyou.asp`，Pending approval。提交回执 product id = `8d98a35334dc720e541a6cd45187c0af`。
 - **上线复核**：⏳ 待下次任务运行时补查。
+
+### 2026-08-12 — WageLark（wagelark.com）
+
+- **问题标题**：Aviation industry professionals: what's the real bottleneck in the air traffic controller hiring pipeline?
+- **角度**：绑定`air-traffic-controller-salary`一文，征集航空业从业者/现任或前任空中交通管制员/FAA相关招聘方或培训方——对ATC招聘培训链条上真正的瓶颈在哪的判断（FAA学院淘汰率、体检/安全审查流程、特定设施类型的人手短缺、其他原因），以及近期的招聘推力有没有真正见效。与此前问过的采血员认证路径角度（YMYL相邻但聚焦个人职业选择）不同，这次聚焦行业结构性招聘瓶颈，不涉及个人职业建议。
+- **绑定文章**：WageLark `air-traffic-controller-salary`（Air Traffic Controller Salary: BLS Pay by Percentile）。
+- **分类标签**：Topics = Business & Finance + General；Countries = United States（FAA是美国机构，仅限美国）。
+- **表单设置**：Job title = Content Creator；Organisation = WageLark；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@wagelark.com`。
+- **Deadline**：2026-09-02 17:00
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `f8649422205658a9b9e8d2de4e03979b`。
+- **上线复核**：⏳ 待补做（当天提交，通常需要1-2天过审）。
+- **备注**：本次是08-04登录失效连续三次导致周二排期落空后的补做。

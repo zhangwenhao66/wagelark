@@ -112,5 +112,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 request"
+  },
+  {
+    "date": "2026-08-12",
+    "action": "submitted",
+    "reason": "游标起点站（承接8/11收尾时next_start_site=WageLark）。今日新发布plumbing-apprenticeship（第24篇，How to Become页型）URL Inspection显示未收录（URL is unknown to Google）。REQUEST INDEXING点击后5秒等待截图仍显示未提交前状态，为保险起见再次点击REQUEST INDEXING，随后确认'Indexing requested'——不能完全排除两次点击都各自消耗了一次配额（本任务后续在其余9站改为固定等待20秒以上再判定，未再复现此问题）。",
+    "submitted_urls": [
+      "https://wagelark.com/plumbing-apprenticeship/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1-2 requests（存在重复点击疑虑，详见reason）"
   }
 ]
