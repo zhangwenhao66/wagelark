@@ -567,7 +567,7 @@ export const guides: Guide[] = [
 		title: 'How Much Do Flight Attendants Make? BLS Data by Percentile',
 		description: 'The median flight attendant salary is $67,130 a year per BLS, but the range is enormous, from $34,030 to $138,040. Here is why, and what drives it.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-08-12',
 		socCode: '53-2031',
 		coreSummary: 'The median annual wage for flight attendants was $67,130 in May 2024, according to the Bureau of Labor Statistics. The range is unusually wide for the required entry education: the bottom 10% earned less than $34,030 while the top 10% earned more than $138,040, a roughly $104,000 gap driven mainly by seniority-based pay scales and route/aircraft assignments under airline union contracts.',
 		sections: [
@@ -576,6 +576,7 @@ export const guides: Guide[] = [
 				body: [
 					'Flight attendant is one of the few well-paying occupations that typically requires only a high school diploma or equivalent to enter, per BLS. That makes the size of its pay range notable: the bottom 10% of flight attendants earned less than $34,030 in May 2024, while the top 10% earned more than $138,040, over a $100,000 spread within a single occupation that has a low formal education barrier to entry.',
 					'The explanation is seniority. Nearly all major U.S. airlines pay flight attendants under union contracts with seniority-based pay scales, where hourly rates increase substantially with years of service, and senior flight attendants get priority for the most desirable (and often highest-paying, due to international or long-haul premiums) routes and aircraft. A first-year flight attendant at a regional carrier and a 20-year flight attendant at a major international carrier are, in effect, in very different pay tiers despite sharing a job title.',
+					"BLS itself only publishes the 10th and 90th percentile split for this occupation, not a 25th or 75th percentile figure. U.S. News's flight attendant salary page, which draws on the same BLS survey (its reported 2024 median of $67,130 matches the BLS figure exactly), puts the 25th percentile at $52,280 and the 75th at $98,160. That narrower middle-half range is a useful check on the extremes: most flight attendants land well inside the full 10th-to-90th spread, and the largest jumps in pay tend to arrive later in a career, once seniority pushes someone past the 75th percentile mark.",
 				],
 			},
 			{
@@ -595,7 +596,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How much do flight attendants make?',
-				answer: 'The Bureau of Labor Statistics reports a median annual flight attendant salary of $67,130 in May 2024, with a very wide range: the bottom 10% earned under $34,030 and the top 10% earned over $138,040.',
+				answer: 'The Bureau of Labor Statistics reports a median annual flight attendant salary of $67,130 in May 2024, with a very wide range: the bottom 10% earned under $34,030 and the top 10% earned over $138,040. BLS does not break out a 25th or 75th percentile for this occupation, but U.S. News, citing the same BLS survey, puts the middle half of flight attendants between about $52,280 and $98,160.',
 			},
 			{
 				question: 'Why do some flight attendants make so much more than others?',
@@ -612,6 +613,7 @@ export const guides: Guide[] = [
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
+			{ label: 'U.S. News Best Jobs: Flight Attendant Salary (25th/75th percentile figures citing the same BLS OEWS survey; not independently verified against BLS raw tables due to bls.gov bot-protection blocking direct XLSX access; accessed 2026-08-12)', url: 'https://careers.usnews.com/best-jobs/flight-attendant/salary' },
 		],
 		image: '/images/flight-attendant-salary-chart.svg',
 		imageAlt: 'Bar chart showing flight attendant annual wage by percentile: 10th percentile $34,030, median $67,130, 90th percentile $138,040, based on BLS May 2024 data.',
