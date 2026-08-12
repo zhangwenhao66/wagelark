@@ -436,3 +436,98 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "how-much-do-flight-attendants-make",
+  "last_audited": "2026-08-12",
+  "published_date": "2026-08-03",
+  "note": "全站last_audited最早/次早站点之一（wagelark 08-10 20:06为全站最旧之一），本次跨站排序里排入本轮；站内该文2026-08-03发布、Salary Guide分类、从未被本任务审计过，按'从未审计过里发布最早的一批之一'选取",
+  "article_specific_checklist": [
+    "median $67,130 + p10/p90（$34,030/$138,040）+ 两个行业细分中位数（Nonscheduled $77,060/Scheduled $67,620）是否与BLS当前公开数据逐字一致，且这些数字是否真的能在sources字段引用的那个BLS OOH URL里找到（不是引用了别处的数字却挂错来源）",
+    "'wheels-up to wheels-down'只按飞行时段计薪、地面时间不计薪的表述，是否准确且没有忽略2022-2025年多家航空公司工会合同已引入boarding pay这一重大变化",
+    "9%就业增长(2024-34)/12,100新增岗位/130,800现有岗位口径是否可溯源到BLS原文",
+    "entryEducation'High school diploma or equivalent'是否准确，是否有被忽略的work experience/on-the-job training前提条件",
+    "竞品颗粒度对比：本文只有10th/90th两个百分位，头部竞品（US News/SoFi）是否有更细颗粒度（25th/75th或分年资）数据构成真实差异化缺口"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题（含一次L-0804-4型误判的自我纠正）",
+      "detail": "Browser pane实地渲染bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm（curl直连Akamai 403，一贯如此）。get_page_text/innerText对该页面只返回约1900字符（Summary标签的Quick Facts摘要框内容：median $67,130/entryEducation高中文凭/work experience<5年/moderate-term OJT/130,800 jobs/9%/12,100），若仅凭这个结果就断定'该页不含percentile breakdown和行业细分数字、sources字段引用不完整'，会是新一次的全称否定误判（同L-0804-4）——改用javascript_tool取document.documentElement.innerHTML（约120K字符，含全部tab内容）后确认Pay标签原文逐字写着'The lowest 10 percent earned less than $34,030, and the highest 10 percent earned more than $138,040'，以及行业表格Nonscheduled air transportation $77,060/Scheduled air transportation $67,620，与正文/FAQ/schema/sources引用完全一致，非误引。Job Outlook标签原文'Federal regulations require a minimum number of attendants per flight'与正文'regulatory minimum staffing requirements tied to aircraft passenger capacity'表述相符（非直接引语，是准确的转述）。'wheels-up to wheels-down'及2022-2025年工会合同引入boarding pay的表述经WebSearch交叉核实（Delta/American APFA/Southwest TWU 2024年合同、United AFA-CWA 2025年合同均确认新增boarding pay，约为flight pay的50%），与文章'has shifted somewhat in recent years following industry-wide labor negotiations'的措辞准确且没有夸大（未声称已全行业统一改为全额计薪）。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS并标注数据年份，sources字段URL+访问日期+数据年份齐全；本文额外提供了'为什么entry education门槛低但薪资区间极宽'的因果解释（资历制+工会合同+机型/航线分配）以及'公开中位数没完全反映的东西'（计薪时段结构）两处真实的专业增量分析，深度略高于同批姊妹文章。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "BLS OOH该页面last modified仍为2025-08-28、数据仍为May 2024，与pharmacist-salary/actuary-salary审计确认的'OOH次年8月刷新'节奏一致（下次预计2026年8月前后，即将到期但尚未刷新），未过时。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "确认发现问题，独立复核确认为真、已修复",
+      "detail": "get_serp_results实测'how much do flight attendants make'：本文未进入前20（符合发布9天的预期）。头部竞品US News（careers.usnews.com/best-jobs/flight-attendant/salary，Browser pane直接核实live内容）明确给出25th percentile $52,280/75th percentile $98,160，其median $67,130与BLS完全一致，强烈佐证其数字确系取自同一份BLS OEWS调查（而非独立方法论）。独立复核agent确认这是真实的内容颗粒度缺口，建议优先尝试从bls.gov一手XLSX核实精确数字。本次亲自尝试：curl直连bls.gov/oes/special-requests/oesm24nat.zip返回403，Browser pane navigate同一URL同样被拒绝——与本站历次审计对bls.gov的access经验一致（Akamai对非HTML/直接文件请求的机器人防护）。在无法拿到一手BLS原始表格数字的情况下，采用独立复核agent认可的备选方案：不冒充'BLS数据'，如实注明数字来自US News（并说明其引用同一BLS调查、median完全吻合作为佐证），且明确注明未能独立核对BLS一手XLSX。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题（修复前后均已核实）",
+      "detail": "curl实测：title 69字符（含站点后缀）、meta description 147字符、单一H1、3个H2结构清晰（'Why the range is so wide...'/'How airline type changes the number'/'Job outlook'）、canonical自引用正确、JSON-LD含Article/FAQPage/BreadcrumbList/Dataset/WebPage/Organization/Person六种类型、alt文本含具体百分位数字、robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均Allow、'More in Salary Guide'侧栏正常展示6篇同类文章（本分类现有17篇，超过轮转窗口阈值，非孤儿页）。修复后本地build产物dist/how-much-do-flight-attendants-make/index.html重新核实：4个JSON-LD块全部parse成功（FAQPage含新增答案文本），无结构性问题。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题，修复后分数提升",
+      "detail": "按11维度人工核算：修复前约85/99（权威原文引语11/16、统计数据完整性13/14、可引用性12/13、结构规范性11/12、表达流畅度9/10、语义密度7/8、权威信号7/8、专业术语5/6、鲁棒性4/5、跨域连接3/4、易懂表达3/3）。修复后新增的25th/75th百分位数据+具体来源引用直接补强'统计数据完整性'和'可引用性'两项，估算提升至约87/99，仍远高于80分及格线。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "适用，检查通过（含修复新增文本）",
+      "detail": "published=2026-08-03早于avoid-ai-writing强制化(08-07)，属早期文章，需要全量重过。grep确认全文（含修复前后）0处em/en dash、0处curly quote、0处高频AI词（crucial/pivotal/delve/tapestry/testament/underscore/vibrant等）。Skill(humanizer)对全文33类模式逐条人工核对（含33种风格模式检查）：PASS，无rule-of-three滥用、无promotional language、无vague attribution、无-ing式伪深度分析。修复新增的两段文本（Section 1新段落+FAQ扩写）单独复核：PASS，无新引入AI味。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题（新增来源同步核实）",
+      "detail": "原有唯一来源BLS OOH页面，Browser pane实测200可访问、内容与引用逐字一致。修复新增的第二条来源（US News flight attendant salary页面）同样经Browser pane直接live核实可访问，页面文本与sources字段描述一致。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "Salary Guide分类现有17篇文章（远超6篇轮转窗口阈值），live页面'More in Salary Guide'侧栏正常展示6篇同类文章链接，非孤儿页。全站仍无正文手写锚文本内链（站级已知模式，非本文独有，未作为本文targeted fix处理）。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已同步更新",
+      "detail": "本次编辑了updated字段（2026-08-03→2026-08-12，published字段已存在无需回填，符合改updated前置检查）。build产物dist/.../index.html核实dateModified已同步更新为2026-08-12T00:00:00+00:00，FAQPage schema的对应answer文本已包含新增的25th/75th百分位内容，无不一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面免责声明存在；正文/FAQ通读（含新增文本）未发现收入承诺式表述（未使用'you will earn'等）、无培训机构推荐、无个性化职业建议。新增文本使用'puts the middle half of flight attendants between about...'这类中性统计表述，非承诺式语言。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "配图为站内脚本(tools/bls-data/generate-charts.mjs)自动生成的SVG柱状图，非第三方图片，无版权问题，curl实测public/images/flight-attendant-salary-chart.svg返回200。本次未修改图表（新增的25th/75th数据以文字形式加入正文/FAQ，未改动图表管线，避免大范围改动）。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "public/ads.txt实测'google.com, pub-5245502795720653, DIRECT, f08c47fec0942fa0'正确；隐私政策页(/privacy/)、关于页(/about/)均curl实测200；标题'How Much Do Flight Attendants Make? BLS Data by Percentile'非标题党、无诱导误点；正文全篇为百科式薪资数据记述，无收入承诺式表述。"
+    }
+  ],
+  "actions_taken": [
+    "独立复核agent（general-purpose，后台异步，spawn后约7分钟返回，期间用文件大小/mtime增长做进度监控，未卡死无需触发看门狗）确认'竞品颗粒度缺口'真实存在，建议优先尝试拿bls.gov一手数据；本次亲自复测bls.gov OEWS national XLSX（curl + Browser pane navigate 两种方式）均被403拒绝，与本站历次审计经验一致，无法拿到一手数字",
+    "采用独立复核agent认可的诚实归因方案：在Section 1新增一段，在FAQ第一条追加一句，补充25th/75th百分位数据（$52,280/$98,160），明确归因为U.S. News（而非冒充BLS一手数据），并注明其median与BLS完全吻合作为可信度佐证、以及未能独立核对BLS原始XLSX这一限制；sources数组新增第二条来源",
+    "修复前后均过Skill(humanizer)+Skill(avoid-ai-writing)人工核查（PASS，新增文本无AI味）、Skill(seo-audit)（PASS，schema结构未受影响）、Skill(ai-seo)（约85→87/99，估算提升）",
+    "改updated字段前确认published字段已存在（2026-08-03），无需git log回填，直接改updated为2026-08-12，顺序合规",
+    "npm run build（32页全部生成成功）+ npm test（37项全绿）验证通过",
+    "commit+push（guides.ts单独提交，未带入并发的sourcebottle-callout-log.md改动）；触发wagelark Cloudflare deploy hook；轮询线上URL确认200且正文含'52,280'新增内容；node tools/submit-indexnow.mjs提交索引",
+    "内容发布日志.md追加本次审计更新记录"
+  ],
+  "seo_score": "技术SEO抽查（title/meta/h1/h2/canonical/alt/robots.txt/内链）无问题，schema在build产物中4块全部parse成功",
+  "geo_score": "修复前约85/99，修复后估算约87/99（11维度加权，统计数据完整性+可引用性两项提升），均高于80分及格线",
+  "escalation": null
+}
+```
