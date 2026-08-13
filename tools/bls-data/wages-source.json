@@ -794,6 +794,40 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers",
       "sourceUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm",
       "publishedDate": "2025-08-28"
+    },
+    "51-4121": {
+      "title": "Welders, Cutters, Solderers, and Brazers",
+      "medianAnnual": 51000,
+      "medianHourly": 24.52,
+      "percentiles": {
+        "p10": 38130,
+        "p90": 75850
+      },
+      "employment": 457300,
+      "employmentYear": "2024",
+      "jobOutlookPct": 2,
+      "jobOutlookLabel": "Slower than average",
+      "employmentChange": 9900,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "High school diploma or equivalent",
+      "industryWages": [
+        {
+          "industry": "Specialty trade contractors",
+          "annualWage": 57310
+        },
+        {
+          "industry": "Repair and maintenance",
+          "annualWage": 53300
+        },
+        {
+          "industry": "Manufacturing",
+          "annualWage": 49740
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers",
+      "sourceUrl": "https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

@@ -1687,4 +1687,78 @@ export const guides: Guide[] = [
 		image: '/images/truck-driver-salary-chart.svg',
 		imageAlt: 'Bar chart showing heavy and tractor-trailer truck driver annual wage by percentile: 10th percentile $38,640, median $57,440, 90th percentile $78,800, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'welder-salary',
+		category: 'Salary Guide',
+		title: 'Welder Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median welder salary at $51,000 a year, with 2% growth projected through 2034. Here is the full wage range by percentile and by industry.',
+		published: '2026-08-13',
+		updated: '2026-08-13',
+		socCode: '51-4121',
+		coreSummary: 'The median annual wage for welders, cutters, solderers, and brazers was $51,000 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $38,130 while the top 10% earned more than $75,850. BLS projects 2% employment growth from 2024 to 2034, slower than the roughly 3% average across all occupations, though about 45,600 openings are still projected each year.',
+		sections: [
+			{
+				heading: 'What welders earn, and how wide the pay spread runs',
+				body: [
+					"SOC code 51-4121 is BLS's catch-all for welders, cutters, solderers, and brazers, defined as workers who use hand-held or remotely controlled equipment to join, repair, or cut metal parts and products. Roughly 457,300 people held these jobs in 2024, and BLS put the median annual wage at $51,000 that May, or $24.52 an hour. Pay ran from less than $38,130 at the 10th percentile to more than $75,850 at the 90th, a gap of roughly $37,700. That single wage figure covers all four job titles under the SOC code; BLS does not break out percentiles separately by specialty.",
+					'BLS distinguishes the four roles inside that single SOC code by technique rather than by pay. Welders join metals using processes such as arc welding, where machinery produces an electrical current that generates heat to bond pieces together, with the specific process chosen based on factors like the metals involved. Cutters use heat from an electric arc, plasma, or burning gases to cut and trim metal to a specific size, including dismantling large structures such as ships or railroad cars. Solderers and brazers both heat molten filler metal to join two or more objects, but BLS notes soldering uses a lower temperature and is common on small, precisely positioned pieces such as computer chips, while brazing joins dissimilar metals and can add a protective coating against wear and corrosion. BLS does not publish separate wage data for any of these four specialties individually.',
+					'BLS also places the occupation against two broader comparison points on the same page: a $48,660 median across "metal workers and plastic workers" as a group, and a $49,500 median across all occupations in the economy. Welders and related workers sit above both. BLS publishes the three figures side by side without breaking down what accounts for the difference, whether that\'s skill level, certification, or the physical demands of the work.',
+					'On growth, BLS projects 2% employment growth for welders, cutters, solderers, and brazers from 2024 to 2034, which it classifies as slower than average against the roughly 3% figure for all occupations combined. That said, the occupation still outpaces the broader metal workers and plastic workers group, which BLS projects will shrink 4% over the same period on the same comparison chart.',
+				],
+			},
+			{
+				heading: 'Industry pay, and where the jobs actually are',
+				body: [
+					'BLS breaks out May 2024 wages by industry into three categories for this occupation. Specialty trade contractors paid the highest median at $57,310, followed by repair and maintenance at $53,300, then manufacturing at $49,740, the lowest of the three even though manufacturing is by far the largest employer.',
+					"On who actually employs welders, BLS lists manufacturing at 61% of all jobs, specialty trade contractors at 8%, self-employed workers at 6%, and repair and maintenance at 4%, with the remainder spread across smaller industries the Handbook page does not break out individually. That means most welders work in the lowest-paying of the three tracked industries by median wage. BLS does not explain the gap on this page, so a reader can't tell from the Handbook alone whether it reflects company size, union coverage, or some other factor not captured in a single median figure.",
+					'BLS also notes that welders may work outdoors in all types of weather or indoors in a confined area designed to contain sparks and glare, and that many manufacturing firms run two or three shifts a day, so evening and weekend work is common. Wages vary with the worker\'s experience, skill level, industry, and the size of the company, per BLS, though the Handbook page does not quantify how much any single factor moves pay.',
+				],
+			},
+			{
+				heading: 'How to become a welder, and how the entry path compares to other trades on this site',
+				body: [
+					'Per BLS, welders typically need a high school diploma or equivalent combined with technical and on-the-job training to enter the occupation, with no postsecondary degree required. That training is available through high school technical education classes, vocational-technical institutes, community colleges, private welding schools, or the U.S. Armed Forces. BLS also lists coursework in blueprint reading, shop mathematics, and mechanical drawing as useful preparation, along with a general understanding of electricity.',
+					'Workers can also enter through an employer-based apprenticeship. BLS notes some apprenticeships accept entry-level workers with no prior experience, while others are aimed at people who have already completed a vocational-technical welding program. Employers who hire inexperienced workers directly still typically provide several months of additional on-the-job training, even for those who arrive with formal technical education, according to BLS.',
+					"On credentials, BLS states that welders must be licensed in some states and localities, though requirements vary, and it directs readers to their state or local licensing agency for specifics rather than listing every jurisdiction's rules. Separately, BLS says professional organizations offer courses leading to general certification, some employers require certification for particular jobs, and employers may cover the training and testing cost themselves; CareerOneStop publishes more detail on which certifications are available. OSHA also requires welders to complete training on electrical safety specifically, per BLS, with other OSHA training available but not generally required.",
+					"Compared with other no-bachelor's-degree trades on this site, welding's entry path is less standardized. [Electricians](/electrician-salary/) typically complete a structured 4- or 5-year apprenticeship and post a higher median of $62,350, about $11,350 above the welder figure. [Plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) follow a similarly formal apprenticeship model and post an even higher median of $62,970. Welding, by contrast, has several viable entry routes that BLS describes side by side (vocational school, employer apprenticeship, military training, or direct hire with on-the-job training), and BLS does not attribute the pay gap between welding and these other two trades to any one of these training-structure differences.",
+				],
+			},
+			{
+				heading: 'Job outlook, and how welding compares to similar occupations',
+				body: [
+					'BLS projects 2% employment growth for welders, cutters, solderers, and brazers from 2024 to 2034, adding an estimated 9,900 jobs. Despite that limited growth, BLS still projects about 45,600 openings a year on average over the decade, attributing most of them to the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than to newly created positions.',
+					'BLS ties underlying demand to the nation\'s aging infrastructure, noting welders will be needed to help rebuild bridges, highways, and buildings, as well as in manufacturing plants that produce metal products and machinery. It also flags automation in manufacturing as a factor that may limit overall demand for these workers going forward.',
+					'BLS lists eight occupations with similar job duties on the same page, with 2024 median pay ranging from $43,570 for assemblers and fabricators up to $73,340 for boilermakers. Machinists and tool and die makers ($57,700), sheet metal workers ($60,850), and industrial machinery mechanics ($63,510) all post higher medians than welding, while jewelers and precious stone and metal workers ($49,140) and metal and plastic machine workers ($46,800) post lower ones. BLS does not explain what accounts for the spread across this list beyond publishing the figures side by side.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average welder salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for welders, cutters, solderers, and brazers was $51,000 in May 2024, equivalent to $24.52 an hour. "Median" means half of workers in the occupation earned more and half earned less.',
+			},
+			{
+				question: 'What is the highest-paying industry for welders?',
+				answer: 'Among the three industry categories BLS tracks for May 2024, specialty trade contractors paid the highest median at $57,310, ahead of repair and maintenance ($53,300) and manufacturing ($49,740), even though manufacturing employs the largest share of welders at 61%.',
+			},
+			{
+				question: 'How much do the lowest- and highest-paid welders make?',
+				answer: 'BLS reports that the bottom 10% of welders, cutters, solderers, and brazers earned less than $38,130 a year in May 2024, while the top 10% earned more than $75,850, a spread of roughly $37,700.',
+			},
+			{
+				question: 'Do welders need a license or certification?',
+				answer: 'BLS states that welders must be licensed in some states and localities, with requirements varying by jurisdiction. Certification is separate: professional organizations offer general certification courses, and some employers require it for specific jobs. CareerOneStop lists available certifications in more detail.',
+			},
+			{
+				question: 'Is welding a growing occupation?',
+				answer: 'BLS projects 2% employment growth for welders, cutters, solderers, and brazers from 2024 to 2034, slower than the roughly 3% average across all occupations, adding an estimated 9,900 jobs. Despite the limited growth, BLS still projects about 45,600 openings a year on average, mostly from workers leaving the occupation rather than newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (accessed 2026-08-13 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
+			{ label: 'CareerOneStop (U.S. Department of Labor)', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx?newsearch=true' },
+		],
+		image: '/images/welder-salary-chart.svg',
+		imageAlt: 'Bar chart showing welder, cutter, solderer, and brazer annual wage by percentile: 10th percentile $38,130, median $51,000, 90th percentile $75,850, based on BLS May 2024 data.',
+	},
 ];

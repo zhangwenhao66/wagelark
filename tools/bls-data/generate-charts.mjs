@@ -32,6 +32,7 @@ const CHARTS = {
 	'electrician-salary-chart': '47-2111',
 	'firefighter-salary-chart': '33-2011',
 	'truck-driver-salary-chart': '53-3032',
+	'welder-salary-chart': '51-4121',
 };
 
 const NAVY = '#14273f';

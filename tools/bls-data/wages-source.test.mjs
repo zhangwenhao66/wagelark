@@ -436,3 +436,23 @@ test('spot check: Heavy and Tractor-trailer Truck Drivers (53-3032) matches BLS 
 	assert.equal(occ.employmentChange, 89300);
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Independently transcribed by hand from the live BLS OOH Welders, Cutters,
+// Solderers, and Brazers page
+// (https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm)
+// on 2026-08-13 via r.jina.ai proxy read (direct bls.gov fetch returns 403
+// for this agent's network path -- same footer confirms "Last modified
+// date: August 28, 2025", matching the same data-freshness date as every
+// other spot check in this file). Independent of wages-source.json's own
+// numbers -- do not derive these from the source file.
+test('spot check: Welders, Cutters, Solderers, and Brazers (51-4121) matches BLS OOH page', () => {
+	const occ = occupations['51-4121'];
+	assert.equal(occ.medianAnnual, 51000);
+	assert.equal(occ.medianHourly, 24.52);
+	assert.equal(occ.percentiles.p10, 38130);
+	assert.equal(occ.percentiles.p90, 75850);
+	assert.equal(occ.employment, 457300);
+	assert.equal(occ.jobOutlookPct, 2);
+	assert.equal(occ.employmentChange, 9900);
+	assert.equal(occ.industryWages.length, 3);
+});
