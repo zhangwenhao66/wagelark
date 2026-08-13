@@ -122,5 +122,14 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1-2 requests（存在重复点击疑虑，详见reason）"
+  },
+  {
+    "date": "2026-08-13",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，游标本轮起点WageLark（跨天连续游标）。今日新发布welder-salary，URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功（一次点击即显示Indexing requested）。",
+    "submitted_urls": [
+      "https://wagelark.com/welder-salary/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota (1st request this run)"
   }
 ]
