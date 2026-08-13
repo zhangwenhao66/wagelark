@@ -1761,4 +1761,80 @@ export const guides: Guide[] = [
 		image: '/images/welder-salary-chart.svg',
 		imageAlt: 'Bar chart showing welder, cutter, solderer, and brazer annual wage by percentile: 10th percentile $38,130, median $51,000, 90th percentile $75,850, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'how-to-become-a-paralegal',
+		category: 'How to Become',
+		title: 'How to Become a Paralegal: Education, Certification, and Pay',
+		description: "BLS data on the education path most paralegals take, what NALA and NFPA certification exams require, and median pay of $61,010 a year broken out by industry.",
+		published: '2026-08-13',
+		updated: '2026-08-13',
+		socCode: '23-2011',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, most paralegals and legal assistants enter the field through an associate's degree or certificate in paralegal studies. BLS reports a median annual wage of $61,010 in May 2024, with the bottom 10% earning less than $39,710 and the top 10% earning more than $98,990. No U.S. state currently licenses the paralegal occupation, though voluntary certification is available through NALA and NFPA.",
+		sections: [
+			{
+				heading: 'How most paralegals get in the door',
+				body: [
+					"Per BLS, paralegals and legal assistants typically need an associate's degree or a certificate in paralegal studies to enter the occupation. The most common route is a dedicated associate's degree program at a community college or similar institution, which BLS says usually includes courses in legal research, legal writing, and an introduction to law and the legal system, along with coursework in a specific practice area such as criminal, family, or contract law.",
+					"BLS describes two other entry paths on the same page. Some employers prefer or require a bachelor's degree, and candidates who already hold one in an unrelated field, commonly social science or business, can add a shorter paralegal studies certificate rather than pursue a second full degree. A third, less common path skips formal paralegal education altogether: BLS notes some employers hire candidates with no legal experience or education, often just a high school diploma, and train them on the job, particularly for specialized practice areas.",
+					"BLS says paralegal studies programs are typically accredited by professional organizations rather than one single national body. One recognized standard is approval by the American Bar Association: NFPA's advanced certification exam, covered below, explicitly accepts degrees from an institutionally accredited and/or ABA-approved paralegal program as one path to eligibility. ABA approval is voluntary for a school and is not required to enter the occupation.",
+				],
+				image: {
+					src: '/images/paralegal-career-path.svg',
+					alt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. No U.S. state currently licenses the occupation.",
+				},
+			},
+			{
+				heading: 'Certification is voluntary, not a state license',
+				body: [
+					"Unlike some other occupations covered on this site, where a state license is required to work independently, no U.S. state currently licenses the paralegal profession, according to NFPA, the National Federation of Paralegal Associations. NFPA notes several states are working on regulatory frameworks, but as things stand, using the title \"paralegal\" does not require a government-issued license anywhere in the country.",
+					"That does not mean credentials are absent from the field, only that they are voluntary and issued by professional associations rather than a government body. The National Association of Legal Assistants (NALA) offers the Certified Paralegal (CP) credential through one of three eligibility routes: completing an ABA-approved or otherwise institutionally accredited paralegal studies program (associate's, bachelor's, or post-baccalaureate certificate, or a program of at least 60 semester hours including 15 hours of substantive legal coursework), holding a bachelor's degree in any field plus at least one year of paralegal experience, or holding a high school diploma plus at least five years of paralegal experience and 20 hours of continuing legal education completed in the two years before applying. Candidates who qualify must pass a three-hour, multiple-choice Knowledge Exam before they are eligible to sit for a separate two-hour, written Skills Exam; passing both is required to earn the CP designation.",
+					"NFPA runs a separate pair of exams. The Paralegal CORE Competency Exam (PCCE) is an entry-level credential that leads to the CRP designation, aimed at candidates whose education, rather than years of on-the-job experience, demonstrates readiness. The Paralegal Advanced Competency Exam (PACE) is aimed at paralegals with a comprehensive education plus substantial practical experience, generally two to six years depending on degree level, and leads to the RP designation. BLS confirms the general pattern without naming a specific organization: certification typically requires passing an exam, and maintaining it typically requires a set number of continuing-education hours, which for both NALA's and NFPA's credentials takes the form of continuing legal education (CLE).",
+				],
+			},
+			{
+				heading: 'What the job pays, once you get there',
+				body: [
+					"BLS reports a median annual wage of $61,010 for paralegals and legal assistants in May 2024, or $29.33 an hour. The bottom 10% earned less than $39,710, and the top 10% earned more than $98,990, a spread of roughly $59,000. Pay also varies substantially by industry, with federal government roles paying the highest median tracked and state government the lowest; for the full industry-by-industry breakdown and a closer look at what the day-to-day work involves, see [what does a paralegal do](/what-does-a-paralegal-do/).",
+					"Against the shortest entry path this site has covered, [becoming a CNA](/how-to-become-a-cna/) requires a federal minimum of just 75 hours of training rather than a multi-year degree, and BLS puts the median nursing assistant wage at $39,530, about $21,480 below the paralegal figure above. Whether the extra years of schooling are worth that gap depends on a reader's own finances and goals, a call this site's national wage figures are not built to make.",
+				],
+			},
+			{
+				heading: "What flat growth doesn't tell you: 39,300 openings a year, and why",
+				body: [
+					'BLS projects essentially flat employment for paralegals and legal assistants from 2024 to 2034, describing the outlook as "little or no change." Flat growth is not the same as few job openings, though: BLS still projects about 39,300 openings a year on average over the decade, attributing most of them to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions.',
+					"BLS attributes part of the limited growth specifically to technology, stating that advances including artificial intelligence are expected to make paralegals and legal assistants more efficient at tasks such as conducting research and preparing documents, which may reduce demand for these workers going forward. That is a more specific, technology-driven explanation than BLS gives for most occupations on this site.",
+					"On its \"Similar Occupations\" table, BLS lists lawyers at a 2024 median of $151,160, which requires a doctoral or professional degree, and secretaries and administrative assistants at $47,460, which requires only a high school diploma. The paralegal role sits between those two entry-education tiers on both pay and required schooling, a middle position that lines up with the mix of entry paths described above.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How do you become a paralegal?',
+				answer: "Per BLS, most paralegals and legal assistants enter the field with an associate's degree or a certificate in paralegal studies. Alternate paths include a bachelor's degree in any field plus a shorter paralegal certificate, or, less commonly, a high school diploma with employer-provided on-the-job training.",
+			},
+			{
+				question: 'Do paralegals need to be licensed or certified?',
+				answer: "No U.S. state currently licenses the paralegal occupation, according to NFPA. Certification is voluntary and comes from professional associations: NALA's Certified Paralegal (CP) credential and NFPA's PCCE and PACE exams are the two most recognized, and both require passing an exam plus ongoing continuing legal education to maintain.",
+			},
+			{
+				question: "What's the difference between NALA's CP credential and NFPA's PACE or PCCE exams?",
+				answer: "Both are voluntary, not government licenses. NALA's Certified Paralegal (CP) credential requires passing a Knowledge Exam followed by a Skills Exam. NFPA offers two separate exams: the entry-level PCCE, aimed at candidates whose education demonstrates readiness rather than years on the job, leading to the CRP designation, and the more advanced PACE, which requires several years of paralegal experience on top of a degree and leads to the RP designation.",
+			},
+			{
+				question: 'Does flat job growth mean paralegal openings are scarce?',
+				answer: 'No. Even with a 2024-to-2034 employment forecast BLS itself describes as "little or no change," it still projects roughly 39,300 openings a year on average, mostly from workers leaving the occupation rather than newly created positions. BLS separately notes that advances including AI may further limit growth by making paralegals more efficient at research and document tasks, a more specific explanation than it gives for most occupations.',
+			},
+			{
+				question: "What is the difference between a paralegal certificate and a paralegal degree?",
+				answer: "An associate's degree in paralegal studies is a standalone two-year credential and the most common entry path, per BLS. A paralegal certificate is shorter and typically aimed at candidates who already hold a bachelor's degree in an unrelated field and want to add paralegal-specific coursework, such as legal research and writing, without pursuing a second full degree.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (accessed 2026-08-13 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm' },
+			{ label: 'NALA (National Association of Legal Assistants): Eligibility Requirements for Certification, Category 1 and Category 3', url: 'https://nala.org/eligibility-requirements-for-certification/' },
+			{ label: 'NFPA (National Federation of Paralegal Associations): Paralegal Certification and PACE/PCCE Eligibility', url: 'https://www.paralegals.org/page/paralegal-certification' },
+		],
+		image: '/images/paralegal-career-path.svg',
+		imageAlt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. No U.S. state currently licenses the occupation.",
+	},
 ];
