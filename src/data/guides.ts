@@ -1837,4 +1837,83 @@ export const guides: Guide[] = [
 		image: '/images/paralegal-career-path.svg',
 		imageAlt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. No U.S. state currently licenses the occupation.",
 	},
+	{
+		slug: 'how-to-become-an-electrician',
+		category: 'How to Become',
+		title: 'How to Become an Electrician: Apprenticeship, Licensing, and Pay',
+		description: 'Two apprenticeship routes lead to a license: union through IBEW/NECA, or non-union through IEC/ABC. Both run about 8,000 paid training hours. Here is the process.',
+		published: '2026-08-16',
+		updated: '2026-08-16',
+		socCode: '47-2111',
+		coreSummary: 'Most electricians enter the trade through a registered apprenticeship rather than a college degree, following either a union path through a local IBEW/NECA Joint Apprenticeship and Training Committee or a non-union path through an Independent Electrical Contractors (IEC) or Associated Builders and Contractors (ABC) chapter. BLS describes the typical apprenticeship as 4 to 5 years; IEC publishes its own program as a 4-year structure totaling roughly 8,000 hours of paid on-the-job training and 576 hours of classroom instruction. Most states then require passing a licensing exam. BLS puts the median electrician wage at $62,350 a year as of May 2024.',
+		sections: [
+			{
+				heading: 'Two apprenticeship routes into the trade',
+				body: [
+					'Per BLS, the entry-level education for electricians is a high school diploma or equivalent, with the trade itself learned through a paid apprenticeship rather than a postsecondary degree. Applicants generally choose between two structurally different routes to get there: a union path or a non-union path, and the choice mostly determines who runs the training and where a person ends up working, not how many hours the program eventually requires.',
+					'The union route runs through the International Brotherhood of Electrical Workers (IBEW) and the National Electrical Contractors Association (NECA), which jointly operate roughly 300 local Joint Apprenticeship and Training Committees (JATCs) under a shared training arm called the Electrical Training Alliance, formerly known as the National Joint Apprenticeship and Training Committee. Getting in usually requires passing the Electrical Training Alliance Aptitude Test, a proctored exam covering algebra and functions plus reading comprehension across 69 questions in about 97 minutes, scored on a 1-to-9 stanine scale. Most locals require at least a 4 to move on to a separate, also-scored interview, and the two scores together decide who is offered a spot.',
+					'The non-union route runs through Independent Electrical Contractors (IEC), a nonprofit trade association for merit-shop contractors with more than 50 local chapters, and through similar programs run by Associated Builders and Contractors (ABC) chapters. Entry requirements are set locally rather than through one national exam, and typically include a high school diploma and proof of basic algebra coursework; some chapters use their own placement screening, but not the centralized aptitude test IBEW/NECA locals share. Both the union and non-union tracks register with the U.S. Department of Labor\'s Office of Apprenticeship under the same electrician occupation code, 47-2111.00, so from a federal standpoint they carry the same underlying credential even though the application process differs.',
+				],
+				image: {
+					src: '/images/electrician-apprenticeship-path.svg',
+					alt: 'Diagram showing two paths to becoming a licensed electrician: a union path through IBEW/NECA JATC apprenticeships (aptitude test plus interview) or a non-union path through IEC/ABC chapters (locally set entry requirements). Both converge on a roughly 4- to 5-year apprenticeship (IEC publishes its own program as totaling about 8,000 hours over 4 years), then a state licensing exam, leading to a licensed journey worker earning a median of $62,350 a year per BLS, with optional advancement to master electrician.',
+				},
+			},
+			{
+				heading: "What IEC's roughly 8,000 hours actually cover",
+				body: [
+					"IEC publishes its apprenticeship structure as 144 hours of classroom instruction per year, 576 hours total, alongside 2,000 hours of documented, paid on-the-job training per year, 8,000 hours total, spread across a four-year program; the figure is repeated consistently across more than half a dozen independent local IEC chapter sites. BLS describes JATC programs in similar terms, noting about 2,000 hours of paid on-the-job training per year alongside technical instruction covering electrical theory, blueprint reading, and code requirements, without publishing IBEW/NECA's own classroom-hour total on the same page.",
+					'BLS notes that workers who already have electrical experience from the military or from construction work, or who complete a technical school program first, may qualify for a shortened apprenticeship after testing into the program at an advanced level. Neither BLS nor the trade associations describe this as a fast track available to everyone; it depends on documented prior experience being accepted by the specific program.',
+					"On pay during the apprenticeship, BLS states only that apprentices earn less than fully trained electricians and that pay rises as they take on more responsibility over the course of the program; the Occupational Outlook Handbook does not publish a specific apprentice wage schedule separate from the fully qualified median covered below, and this article does not estimate one where BLS itself does not.",
+				],
+			},
+			{
+				heading: 'Getting licensed after the apprenticeship',
+				body: [
+					'Completing an apprenticeship makes someone a journey worker, per BLS, who may perform electrical work independently, subject to state or local licensing requirements. Most states require passing a licensing exam before a journey worker can operate on their own, and the exams generally test knowledge of the National Electrical Code alongside state and local building codes.',
+					'PSI Services LLC administers the electrical licensing exam for a number of state boards, including Texas, North Carolina, Washington, Virginia, and Nebraska, though each state sets its own exam format rather than sharing one national test. Virginia, for example, requires a 70-question, 210-minute journeyman exam and a 70% score (49 correct answers) to pass, per the state\'s Department of Professional and Occupational Regulation; that specific format is Virginia\'s own published requirement and should not be assumed to carry over to other states. Texas, by contrast, split its journeyman exam into two separately timed sections in March 2025, an NEC-knowledge portion and a calculations portion, each requiring its own 70% score.',
+					"BLS directs readers to CareerOneStop for state-by-state licensing board information rather than listing every state's requirements on its own page, and this article follows the same approach rather than guessing at rules for a specific state. In states that recognize a master electrician tier, reaching it typically requires several more years of experience as a licensed journey worker plus a separate exam, a pattern that mirrors what BLS describes for [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) on this site.",
+				],
+			},
+			{
+				heading: 'What the work pays once you are licensed',
+				body: [
+					"BLS reported a median annual wage of $62,350 for electricians in May 2024, or $29.98 an hour, with the bottom 10% of earners making less than $39,430 and the top 10% making more than $106,030. Government employers, excluding state and local education and hospitals, paid the highest median at $77,080, while electrical contractors, the industry employing 65% of electricians, paid closer to the occupation-wide median at $61,290. BLS projects 9% employment growth from 2024 to 2034, which it classifies as much faster than average, for a full percentile and industry breakdown, see [electrician salary](/electrician-salary/).",
+					"Against other no-bachelor's-degree apprenticeship trades this site has covered, electricians land close to the top. [Plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) post a similar median of $62,970 after a comparably structured 4- to 5-year apprenticeship, while [welders](/welder-salary/) have a lower median and multiple non-apprenticeship entry routes BLS describes side by side. [Becoming a CNA](/how-to-become-a-cna/) sits at the opposite end of the training-length spectrum, a federal minimum of 75 hours rather than a multi-year apprenticeship, with a median of $39,530, well below any of the trades above.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become an electrician?',
+				answer: 'BLS describes the typical electrician apprenticeship as running 4 to 5 years. IEC, the trade association behind one of the non-union routes, publishes its own program as a 4-year structure: 2,000 hours of paid on-the-job training and 144 hours of classroom instruction per year, 8,000 and 576 hours total. Workers with prior military or construction electrical experience may qualify for a shortened program after testing.',
+			},
+			{
+				question: 'Do you need a college degree to become an electrician?',
+				answer: 'No. BLS lists a high school diploma or equivalent as the typical entry-level education for electricians, with the trade learned through a paid apprenticeship rather than a postsecondary degree.',
+			},
+			{
+				question: "What's the difference between an IBEW/NECA apprenticeship and an IEC or ABC apprenticeship?",
+				answer: 'IBEW/NECA is the union path, run through roughly 300 local Joint Apprenticeship and Training Committees under the Electrical Training Alliance, and requires passing a standardized 69-question aptitude test plus an interview. IEC and ABC run non-union, merit-shop apprenticeships through local chapters, with entry requirements set locally rather than through one national test. Both register with the U.S. Department of Labor under the same electrician occupation code.',
+			},
+			{
+				question: 'Do electricians need a state license?',
+				answer: "Per BLS, most states require electricians to be licensed before they can work independently, typically after completing an apprenticeship and passing an exam covering the National Electrical Code and local rules. Requirements vary by state, and BLS directs readers to CareerOneStop for state-specific licensing board information rather than publishing every state's rules itself.",
+			},
+			{
+				question: 'How much do electrician apprentices get paid?',
+				answer: 'BLS states that apprentices earn less than fully trained electricians and that pay rises as they take on more responsibility over the course of the apprenticeship, but it does not publish a separate apprentice wage schedule. The fully qualified median, once someone becomes a licensed journey worker, was $62,350 a year as of May 2024.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Electricians (data from May 2024)', url: 'https://www.bls.gov/ooh/construction-and-extraction/electricians.htm' },
+			{ label: 'IEC (Independent Electrical Contractors): Electrical Apprenticeships', url: 'https://ieci.org/apprenticeship/' },
+			{ label: 'IBEW Local 81: Aptitude Test (Electrical Training Alliance test structure and scoring)', url: 'https://ibew81.org/content/aptitude-test' },
+			{ label: 'Apprenticeship.gov: Occupation Finder, Electricians (47-2111.00)', url: 'https://www.apprenticeship.gov/apprenticeship-occupations/listings?occupationCode=47-2111.00' },
+			{ label: 'Virginia Department of Professional and Occupational Regulation: Tradesmen Program (state-specific exam format example)', url: 'https://www.dpor.virginia.gov/Boards/Tradesmen' },
+			{ label: 'Texas Department of Licensing and Regulation: Electricians Program (two-part exam format example)', url: 'https://www.tdlr.texas.gov/electricians/elecexam.htm' },
+		],
+		image: '/images/electrician-apprenticeship-path.svg',
+		imageAlt: 'Diagram showing two paths to becoming a licensed electrician: a union path through IBEW/NECA JATC apprenticeships (aptitude test plus interview) or a non-union path through IEC/ABC chapters (locally set entry requirements). Both converge on a roughly 4- to 5-year apprenticeship (IEC publishes its own program as totaling about 8,000 hours over 4 years), then a state licensing exam, leading to a licensed journey worker earning a median of $62,350 a year per BLS, with optional advancement to master electrician.',
+	},
 ];
