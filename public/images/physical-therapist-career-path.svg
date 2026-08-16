@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Arial, sans-serif">
+	<rect width="640" height="360" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">Path to Becoming a Physical Therapist</text>
+
+	<g font-size="12.5" fill="#14212e">
+		<rect x="30" y="46" width="580" height="50" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="66" text-anchor="middle" font-weight="700" fill="#0b675e">Bachelor's degree + prerequisite coursework</text>
+		<text x="320" y="83" text-anchor="middle" font-size="11.5">Anatomy, chemistry, physics; no specific major required (BLS)</text>
+		<line x1="320" y1="96" x2="320" y2="118" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="118" width="580" height="56" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="138" text-anchor="middle" font-weight="700" fill="#0b675e">CAPTE-accredited Doctor of Physical Therapy (DPT) program</text>
+		<text x="320" y="155" text-anchor="middle" font-size="11.5">Typically 3 years: biomechanics, neuroscience, pharmacology</text>
+		<text x="320" y="169" text-anchor="middle" font-size="11">plus supervised clinical rotations (BLS)</text>
+		<line x1="320" y1="174" x2="320" y2="196" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="196" width="580" height="50" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="216" text-anchor="middle" font-weight="700" fill="#0b675e">NPTE licensing exam (FSBPT)</text>
+		<text x="320" y="233" text-anchor="middle" font-size="11.5">225 questions, 5 hours, Prometric centers — scaled score 600/800 to pass</text>
+		<line x1="320" y1="246" x2="320" y2="268" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="268" width="580" height="46" rx="6" fill="#14273f"/>
+		<text x="320" y="288" text-anchor="middle" font-weight="700" fill="white">Licensed physical therapist</text>
+		<text x="320" y="305" text-anchor="middle" font-size="11.5" fill="#dcdad2">Median $101,020/yr (BLS, May 2024)</text>
+	</g>
+
+	<text x="320" y="332" text-anchor="middle" font-size="11.5" fill="#14212e" font-weight="700">Optional after licensure: 1-year clinical residency, fellowship, or ABPTS board certification</text>
+	<text x="320" y="350" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Sources: BLS Occupational Outlook Handbook; APTA; FSBPT.</text>
+</svg>

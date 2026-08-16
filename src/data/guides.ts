@@ -1916,4 +1916,74 @@ export const guides: Guide[] = [
 		image: '/images/electrician-apprenticeship-path.svg',
 		imageAlt: 'Diagram showing two paths to becoming a licensed electrician: a union path through IBEW/NECA JATC apprenticeships (aptitude test plus interview) or a non-union path through IEC/ABC chapters (locally set entry requirements). Both converge on a roughly 4- to 5-year apprenticeship (IEC publishes its own program as totaling about 8,000 hours over 4 years), then a state licensing exam, leading to a licensed journey worker earning a median of $62,350 a year per BLS, with optional advancement to master electrician.',
 	},
+	{
+		slug: 'how-to-become-a-physical-therapist',
+		category: 'How to Become',
+		title: 'How to Become a Physical Therapist: DPT, NPTE, and Licensing',
+		description: 'A CAPTE-accredited DPT degree and a passing NPTE score are required in every state. The admission path, the 225-question exam, and what licensed PTs earn.',
+		published: '2026-08-16',
+		updated: '2026-08-16',
+		socCode: '29-1123',
+		coreSummary: 'Physical therapists need a Doctor of Physical Therapy (DPT) degree from a program accredited by the Commission on Accreditation in Physical Therapy Education (CAPTE), typically three years of coursework and supervised clinical work after a bachelor\'s degree, and a passing score on the National Physical Therapy Examination (NPTE) in every state. The NPTE, administered by the Federation of State Boards of Physical Therapy (FSBPT), is a 225-question exam given over five hours at Prometric testing centers four times a year; a scaled score of 600 out of a possible 800 is required to pass. BLS reports a median annual wage of $101,020 for physical therapists in May 2024.',
+		sections: [
+			{
+				heading: 'The DPT is the only path in',
+				body: [
+					"Per the Bureau of Labor Statistics, the typical entry-level education for a physical therapist is a doctoral or professional degree, specifically a Doctor of Physical Therapy (DPT). There is no bachelor's-level or master's-level track left in the United States; anyone entering the occupation today needs the doctorate. BLS does not require a specific undergraduate major to apply to a DPT program, though it notes applicants typically hold a bachelor's degree in a field such as recreation and fitness or a healthcare-related area, along with prerequisite coursework in subjects including anatomy, chemistry, and physics.",
+					'The doctoral program itself must be accredited by the Commission on Accreditation in Physical Therapy Education (CAPTE) to qualify a graduate for licensure, according to the American Physical Therapy Association (APTA); APTA does not rank or endorse individual programs, only CAPTE evaluates and accredits them. BLS describes DPT programs as typically running three years and including coursework in biomechanics, neuroscience, and pharmacology, alongside supervised clinical work in settings such as acute care and orthopedic care. Combined with a four-year bachelor\'s degree, the typical timeline from starting college to finishing the DPT runs around seven years, before a graduate is even eligible to sit for the licensing exam.',
+				],
+			},
+			{
+				heading: 'Passing the NPTE',
+				body: [
+					'Every state requires physical therapists to hold a license, and passing the National Physical Therapy Examination (NPTE) is the exam component of that requirement everywhere. The NPTE is developed and administered by the Federation of State Boards of Physical Therapy (FSBPT), the umbrella body for state licensing boards, not by APTA or by any individual school. Per FSBPT\'s own Candidate Handbook, the physical therapist version of the exam runs five sections of 45 multiple-choice questions each, 225 questions total, with five hours of testing time (five hours and thirty minutes of total appointment time including a scheduled break). It is computer-based, given at Prometric testing centers, and offered on fixed dates four times a year: January, April, July, and October.',
+					'FSBPT converts each candidate\'s raw score, the number of questions answered correctly, into a scaled score ranging from 200 to 800 so that scores are comparable across different exam forms of varying difficulty. Every state licensing board uses the same passing standard: a scaled score of 600 or higher passes, and the exam is reported as pass/fail rather than as a percentile ranking against other candidates. Beyond the NPTE itself, state requirements vary: per BLS, some states also require a jurisprudence or law exam and a criminal background check before issuing a license, and continuing education is typically required to keep the license active. BLS directs candidates to CareerOneStop for state-specific licensing board requirements rather than publishing a state-by-state list itself, and this article follows the same approach rather than guessing at any one state\'s rules.',
+				],
+			},
+			{
+				heading: 'After licensure: residency, fellowship, and board certification',
+				body: [
+					'Passing the NPTE and obtaining a state license is what makes someone a practicing physical therapist; everything past that point is optional. Per BLS, some physical therapists apply to a clinical residency program after graduation, typically lasting about a year, for additional training in a specialty area of care, and a smaller number go on to a fellowship in an advanced clinical area after completing a residency.',
+					'Separately, physical therapists with sufficient clinical practice hours in a specialty can pursue board certification through the American Board of Physical Therapy Specialties (ABPTS), which APTA describes as the body governing specialist certification and recertification for the profession. Per APTA\'s specialization program, ABPTS certifies across ten specialty areas, including orthopedics, sports, geriatrics, neurology, and pediatrics, and requires both documented clinical practice in the specialty and a passing score on a written exam. None of this, residency, fellowship, or board certification, is required to work as a licensed physical therapist; it is additional credentialing some practitioners pursue after they are already practicing.',
+				],
+			},
+			{
+				heading: 'What licensed PTs earn, and how the DPT compares to other advanced-credential health roles',
+				body: [
+					'BLS reported a median annual wage of $101,020 for physical therapists in May 2024, with the bottom 10% earning less than $74,420 and the top 10% earning more than $132,500; industry pay also varies, with home healthcare services paying the highest tracked median at $108,110. For the full percentile and industry breakdown, see [physical therapist salary](/physical-therapist-salary/).',
+					'The DPT puts physical therapy in the same doctoral-entry tier BLS uses for [pharmacists](/pharmacist-salary/), whose Doctor of Pharmacy (PharmD) is likewise a professional doctorate. BLS puts the pharmacist median at $137,480, about $36,460 (roughly 36%) above the physical therapist median, despite a broadly similar total years of postsecondary training. By contrast, [physician assistants](/physician-assistant-salary/) and [nurse practitioners](/nurse-practitioner-salary/) typically enter with a master\'s degree, one credential level below a DPT or PharmD, yet BLS reports higher medians for both roles: $133,260 for physician assistants and $129,210 for nurse practitioners, each above the physical therapist figure. None of this is a claim that a shorter credential path pays better, or that any one of these roles suits a given person more than another; it is simply what BLS reports for each occupation\'s aggregate labor market. At the opposite end of the training-length spectrum, [becoming a CNA](/how-to-become-a-cna/) requires a federal minimum of 75 hours of training rather than a doctoral degree, with a BLS median of $39,530, under 40% of the physical therapist figure.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a physical therapist?',
+				answer: "A typical four-year bachelor's degree with prerequisite coursework, followed by a CAPTE-accredited Doctor of Physical Therapy (DPT) program that BLS describes as running about three years, adds up to roughly seven years before a graduate is eligible to sit for the licensing exam. Some physical therapists add an optional one-year clinical residency after that.",
+			},
+			{
+				question: 'Do you need a specific undergraduate major to become a physical therapist?',
+				answer: 'BLS does not require a specific major. Applicants typically complete a bachelor\'s degree, often in a field like recreation and fitness or a healthcare-related area, plus prerequisite coursework such as anatomy, chemistry, and physics before applying to a DPT program.',
+			},
+			{
+				question: 'What is the NPTE and how is it scored?',
+				answer: 'The National Physical Therapy Examination is a 225-question, five-hour, computer-based exam administered by the Federation of State Boards of Physical Therapy (FSBPT) at Prometric centers, offered four times a year. Raw scores are converted to a scaled score from 200 to 800, and a scaled score of 600 or higher is required to pass in every state.',
+			},
+			{
+				question: 'Do physical therapists need board certification to practice?',
+				answer: 'No. A DPT degree, a passing NPTE score, and a state license are what is required to practice. Board certification through the American Board of Physical Therapy Specialties (ABPTS), in specialty areas such as orthopedics, sports, and geriatrics, is optional credentialing some physical therapists pursue after they are already licensed and working.',
+			},
+			{
+				question: 'How much do physical therapists make?',
+				answer: 'BLS reports a median annual wage of $101,020 for physical therapists in May 2024, with the bottom 10% earning less than $74,420 and the top 10% earning more than $132,500. See [physical therapist salary](/physical-therapist-salary/) for the full percentile and industry breakdown.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Physical Therapists — How to Become One (data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/physical-therapists.htm' },
+			{ label: 'APTA: Becoming a Physical Therapist', url: 'https://www.apta.org/your-career/careers-in-physical-therapy/becoming-a-pt' },
+			{ label: 'FSBPT: Understanding the NPTE (Candidate Handbook)', url: 'https://www.fsbpt.org/Free-Resources/NPTE-Candidate-Handbook/Understanding-the-NPTE' },
+			{ label: 'APTA Specialist Certification (governed by ABPTS): About', url: 'https://specialization.apta.org/about-abpts' },
+		],
+		image: '/images/physical-therapist-career-path.svg',
+		imageAlt: 'Timeline diagram showing the path to becoming a physical therapist: bachelor\'s degree with prerequisite coursework, then a CAPTE-accredited Doctor of Physical Therapy (DPT) program of about three years, then passing the NPTE licensing exam, leading to a licensed physical therapist earning a median of $101,020 a year per BLS, with optional residency, fellowship, or board certification.',
+	},
 ];
