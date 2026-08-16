@@ -145,5 +145,17 @@
       "https://wagelark.com/how-to-become-an-ultrasound-tech/"
     ],
     "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-16",
+    "action": "submitted",
+    "reason": "同日第三次提交（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑，本站是本轮游标最后一站）。GSC'Crawled - currently not indexed'分类候选medical-assistant-salary/已收录（报告延迟）。改查最新发布文章how-to-become-an-electrician（内容发布日志最新一条，累计28篇）经URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://wagelark.com/how-to-become-an-electrician/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/medical-assistant-salary/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
