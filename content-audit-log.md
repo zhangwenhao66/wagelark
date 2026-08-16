@@ -531,3 +531,89 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "what-does-an-actuary-do",
+  "last_audited": "2026-08-16",
+  "published_date": "2026-08-03",
+  "article_specific_priorities": "选择依据：站点优先级排序（跨站last_audited最大值第二早的站点）+ 站内首次被完整审计（此前6篇审计过的文章不含本篇）。本文核心价值主张是'精算师用数学/统计给风险定价，需要多年考试认证才能上岗，BLS给出的中位数薪资是$125,770'，最关键论断：(1) BLS median $125,770 / p10 $75,240 / p90 $206,430（May 2024, SOC 15-2011）是否与BLS OOH当前公开数据一致；(2) '拿到Associate级认证最多需七年'这一时长断言是否可溯源到BLS OOH原文；(3) 养老金/退休福利精算师'额外需要通过美国劳工部与财政部联合委员会取得执照'这一具体监管细节是否准确；(4) 五大专精赛道的划分与描述是否与行业惯例一致。",
+  "findings": [
+    {
+      "dimension": "事实准确性（BLS薪资数字）",
+      "status": "核实无误，未发现问题",
+      "detail": "WebSearch核实BLS OOH当前公开数据：median annual wage $125,770（May 2024），bottom 10% under $75,240，top 10% over $206,430，与正文/FAQ完全一致；进一步核对站内src/data/bls-wages.ts的15-2011条目（medianAnnual: 125770, p10: 75240, p90: 206430）与正文数字逐一吻合，数据管线内部一致。bls.gov本身对curl返回Access Denied（已知的机器人拦截，非链接失效），改用WebSearch核实为唯一可行路径。"
+    },
+    {
+      "dimension": "事实准确性（认证时长）",
+      "status": "核实无误，未发现问题",
+      "detail": "WebSearch核实BLS OOH原文确实指出Associate级认证可能需要长达七年（'seven years'），与正文'a process the Occupational Outlook Handbook notes can take up to seven years'完全一致，非编造。"
+    },
+    {
+      "dimension": "事实准确性（养老金精算师执照监管细节）",
+      "status": "核实无误，未发现问题",
+      "detail": "WebSearch核实：养老金精算师需要通过Joint Board for the Enrollment of Actuaries取得Enrolled Actuary执照，该委员会由财政部长任命3席、劳工部长任命2席组成，源于ERISA 1974法定要求；与正文'this track additionally requires licensing through the U.S. Department of Labor and Treasury'表述一致，属于准确的监管细节转述，非泛泛而谈。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "published/updated均为2026-08-03（13天前），线上schema datePublished/dateModified与之一致无漂移。BLS OOH引用的May 2024数据是当前最新可用年份，未过时。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "dataforseo-query查询'what does an actuary do'真实SERP：前列为bls.gov本身、actuaries.org.uk、beanactuary.org（官方精算学会站）、执业者博客等，多为泛泛描述职责，未见头部结果像本文一样把BLS精确百分位薪资数字（$75,240/$125,770/$206,430）直接编入职业介绍类页面，构成真实增量而非同质化。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "curl实测线上页面：title 53字符（源标题）/含品牌后缀；meta description 153字符；单一H1；H2层级无跳级（3个章节+FAQ）；canonical自引用正确；JSON-LD含Article/FAQPage/BreadcrumbList/WebPage/Dataset/Organization/Person，均有效渲染在静态HTML中（Dataset schema对应BLS wage数据标注，是本站专属结构）；1张自制SVG配图alt文本具体描述五大赛道；ads.txt正确指向pub-5245502795720653。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "达标（≥80），未触发修复",
+      "detail": "人工复核估分约86-88/99：coreSummary置顶提供可提取直接答案；正文含多处带来源的具体数字（$125,770/七年/Joint Board监管细节）；FAQPage schema覆盖4个自然语言问题；来源明确标注BLS OOH URL+访问日期+数据年份。未发现薄弱维度需要修复。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "发现轻度问题（非阻塞）：暂无同站其他文章正文手动锚文本链接到本文",
+      "detail": "grep guides.ts确认全站暂无其他文章正文手动链接到/what-does-an-actuary-do/。非真正孤儿页——该文章可通过/career-guides/分类枢纽页与站内轮转related-guides侧栏（site-toolkit共享算法，同Career Guide分类内自动轮转互链）触达，footer导航也含入口。判定为'尚未获得正文层面的自然锚文本'这一轻度观察，不构成需要立即修复的孤儿页问题，不通过编辑其他文章正文来强行插入链接（避免大范围改动其他文章造成范围蔓延），留待后续内链专项或新文章自然提及时补上。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "已检查，未触发重写",
+      "detail": "published 2026-08-03，早于avoid-ai-writing 2026-08-07接入，属早期文章范畴。抽读全文未发现明显AI写作特征，行文有具体考试流程/监管细节支撑，判定不需要重写。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "唯一来源为BLS OOH URL（bls.gov/ooh/math/actuaries.htm），curl对bls.gov返回Access Denied（已知机器人拦截），WebSearch多次交叉核实确认该页面仍在线且内容与正文引用一致，非真实链接失效。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "本文自发布以来未被编辑过（published=updated=2026-08-03），schema字段与guides.ts/bls-wages.ts数据一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "全文为职业介绍类百科式内容，无YMYL收入承诺/培训机构推荐等红线语言，footer全站统一免责声明（'not affiliated with the BLS and does not provide personalized career, financial, or legal advice'）存在且覆盖本文。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "唯一配图为自制SVG（/images/actuary-specialties.svg，2.7KB，非0字节，本地文件存在），无外部版权依赖。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "全文为职业/薪资数据类百科式记述，无暴力/武器/毒品/赌博类目内容，无标题党或诱导误点广告布局。curl实测ads.txt正确指向pub-5245502795720653；/about/、/privacy/、/terms/等必备页面均存在。"
+    }
+  ],
+  "independent_verification": "十三维度深挖后仅发现1项非阻塞的轻度观察（内链健康度：暂无正文手动锚文本，但非孤儿页），未发现任何需要修复的真实问题，因此本次未触发SKILL.md第3步独立复核agent流程。第2步核实过程本身已采用同等证据标准：BLS薪资数字/认证时长/监管细节均WebSearch多源交叉核实并与站内bls-wages.ts数据管线逐项比对，非采信单一摘要；SERP差异化用dataforseo-query真实查询而非凭印象判断。未启动独立agent，无卡死情况。",
+  "actions_taken": [],
+  "seo_score": "seo-audit未发现问题：title 53字符/description 153字符/单一H1/无标题跳级/JSON-LD(Article/FAQPage/BreadcrumbList/Dataset)均有效/canonical正确/自制SVG配图alt具描述性",
+  "geo_score": "人工复核估分约86-88/99，达标（≥80），未发现薄弱维度，未触发修复",
+  "escalation": null
+}
+```
