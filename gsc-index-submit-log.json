@@ -131,5 +131,19 @@
       "https://wagelark.com/welder-salary/"
     ],
     "quota_used": "1 of shared account-wide daily quota (1st request this run)"
+  },
+  {
+    "date": "2026-08-16",
+    "action": "submitted",
+    "reason": "游标起点站（承接2026-08-13收尾时next_start_site=WageLark，中间08-14/08-15任务运行出现空档未记录提交）。本轮完整走完一圈全部10站后配额仍有余量，第二圈回到WageLark额外提交一次。第一次：how-to-become-a-paralegal（08-13已发布未提交），URL Inspection确认'URL is not on Google'（Discovered - currently not indexed），REQUEST INDEXING后确认'Indexing requested'。第二次（第二圈）：从Page indexing报告的'Discovered - currently not indexed'分类中找到how-much-do-flight-attendants-make，同样确认未收录后提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/how-to-become-a-paralegal/",
+      "https://wagelark.com/how-much-do-flight-attendants-make/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/what-does-a-paralegal-do/",
+      "https://wagelark.com/how-to-become-an-ultrasound-tech/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
