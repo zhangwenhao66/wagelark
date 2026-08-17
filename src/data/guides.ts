@@ -398,9 +398,9 @@ export const guides: Guide[] = [
 		slug: 'what-does-a-paralegal-do',
 		category: 'Career Guide',
 		title: 'What Does a Paralegal Do? Duties, Setting, and Pay',
-		description: 'Paralegals research law, draft documents, and organize case files to support lawyers, without being licensed to practice law themselves. BLS pay and outlook data included.',
+		description: 'Paralegals research law, draft documents, and organize case files to support lawyers without being licensed to practice law. Includes BLS pay and outlook data.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-08-17',
 		socCode: '23-2011',
 		coreSummary: 'Paralegals and legal assistants support lawyers by researching law, drafting documents and correspondence, organizing and maintaining case files, and preparing materials for trials and hearings, without being licensed to practice law themselves. BLS reports a median annual salary of $61,010 in May 2024, with pay varying substantially by employer type; federal government roles paid the most among tracked industries.',
 		sections: [
@@ -415,14 +415,14 @@ export const guides: Guide[] = [
 				heading: 'Where the pay actually is',
 				body: [
 					'BLS industry data for May 2024 shows a wider-than-expected gap by employer type. Federal government roles paid the highest median at $77,940, followed by finance and insurance at $76,960, both well above the $61,010 national median. Local government paid $60,990, close to the median. Legal services (meaning law firms themselves, the setting most people picture) paid $59,800, and state government paid the least of the tracked categories at $56,280.',
-					'The pattern suggests that paralegals working inside a company\'s in-house legal or compliance function (finance and insurance) or for a federal agency often out-earn paralegals working at a traditional law firm, likely reflecting both the specific complexity of federal regulatory and financial-sector work and broader public-versus-private pay structures within government tiers.',
+					'The pattern suggests that paralegals working inside a company\'s in-house legal or compliance function (finance and insurance) or for a federal agency often out-earn paralegals working at a traditional law firm. BLS does not break down why the gap exists by industry, so the figures above are the most specific picture available.',
 				],
 			},
 			{
 				heading: 'Education path and job outlook',
 				body: [
-					'Most paralegal positions require an associate degree in paralegal studies, or a bachelor\'s degree in another field combined with a paralegal certificate program. Separately, BLS notes some employers will hire candidates with no formal paralegal education or experience (typically just a high school diploma) and train them on the job, particularly for specialized practice areas; this on-the-job route is a distinct path from the bachelor\'s-degree-plus-certificate route, not an extension of it, and a paralegal certificate is increasingly treated as close to a baseline expectation regardless of which path a candidate starts from.',
-					'BLS projects essentially flat employment for paralegals from 2024 to 2034: 0% growth, described as "little or no change," adding only about 600 net jobs over the decade. That is a noticeably weaker outlook than most other occupations covered on this site, and is worth weighing seriously against the relatively low barrier to entry: demand growth in this field is not expected to be a strong tailwind over the next decade the way it is in several healthcare roles.',
+					'Most paralegal positions require an associate degree in paralegal studies, or a bachelor\'s degree in another field combined with a paralegal certificate program. Separately, BLS notes that employers will also train candidates on the job with little formal paralegal preparation, whether that means a bachelor\'s-degree hire without legal-specific coursework or a candidate with only a high school diploma, particularly for specialized practice areas; a paralegal certificate is increasingly treated as close to a baseline expectation regardless of which path a candidate starts from.',
+					'BLS projects essentially flat employment for paralegals from 2024 to 2034: 0% growth, described as "little or no change," adding only about 600 net jobs over the decade. Flat growth is not the same as few job openings, though: BLS separately projects about 39,300 paralegal openings a year on average over the decade, with most coming from the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than from newly created positions. Even accounting for that, this is a noticeably weaker net-growth outlook than most other occupations covered on this site, worth weighing against the relatively low barrier to entry: demand growth in this field is not expected to be a strong tailwind over the next decade the way it is in several healthcare roles.',
 				],
 			},
 		],
@@ -437,7 +437,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is paralegal a growing career?',
-				answer: 'BLS projects essentially flat employment growth for paralegals from 2024 to 2034 (0%, described as "little or no change"), adding only about 600 net jobs nationally over the decade, a notably weaker outlook than many other occupations.',
+				answer: 'BLS projects essentially flat employment growth for paralegals from 2024 to 2034 (0%, described as "little or no change"), adding only about 600 net jobs nationally over the decade, a notably weaker net-growth outlook than many other occupations. BLS separately projects about 39,300 paralegal openings a year on average, though most of those come from replacing workers who leave the occupation rather than from newly created positions.',
 			},
 			{
 				question: 'What education do you need to become a paralegal?',
