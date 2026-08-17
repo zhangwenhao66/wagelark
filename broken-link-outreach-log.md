@@ -113,3 +113,34 @@ phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训�
 1. MSRT Useful Links 页面被 Wordfence 拦截，下次可尝试其他放射技师州协会（如 Georgia SRT、Michigan SRT）的类似页面
 2. 本轮验证了"上次遗留方向"确实比大学图书馆综合指南更容易挖到真实失效链接（4个资源页里3个查出真实失效，密度高于上轮10个图书馆页面里6个查出失效但0个主题对应），但样本仍小，可继续沿这个方向找其余职业（外科技师、律师助理、超声技师、CRNA、牙科卫生士、药剂师）的从业者社区资源页
 3. `dig` 交叉验证 curl 000/403 结果这个方法本轮证明有效（避免把 ahc.lockton-ins.com/actuaries.org 等假阳性误判为失效），建议后续断链核查都加上这一步
+
+## 2026-08-16（第三次运行）
+
+### 1.5 竞品外链缺口分析
+
+竞品：careerexplorer.com（10,903个引荐域名）、salary.com（31,732个引荐域名），各抽样约100条外链。筛选出2个"资源列表/编辑引用"类可赢候选：NALA（National Association of Legal Assistants）Careers页面（链接salary.com的paralegal薪资数据）、alliedhealthprograms.org加州超声技师页面（链接careerexplorer.com加州薪资范围）。两条链接本身均未失效，按"引用竞品数据的文章"类别处理，不用断链话术。
+
+### 断链方向（延续上轮"从业者社区资源页"建议）
+
+沿上轮"MSRT被拦截后找其他州放射技师协会"的遗留方向，找到 CSRT（California Society of Radiologic Technologists）的 Affiliate Links 页面（44条外部链接，收录全美各州放射技师协会）。curl+dig交叉验证发现4条真实失效（DNS无A/NS记录）：lsrt.org（路易斯安那）、msrtonline.org（马里兰）、tsrtorg.tripod.com（德州，Tripod免费空间已关停，页面上tsrt.org新域名条目仍存活）、wvsrt.org（西弗吉尼亚）。排除4个假阳性（csrt.net/ksrtinc.org/arrt.org/nmsrt.org，dig确认域名均有效）。
+
+### 处理结果
+
+**形成3份草稿**，均过humanizer+avoid-ai-writing检查：
+- 草稿A：CSRT断链 → info@csrt.org
+- 草稿B：NALA资源补充（竞品缺口） → nalanet@nala.org
+- 草稿C：alliedhealthprograms.org资源补充（竞品缺口） → ten27services@gmail.com
+
+**流程异常记录**：负责本站的子agent在spawn三个独立复核agent后自身线程提前结束（未等复核完成就以"completed"状态返回，未执行任何发送），三份草稿一度滞留在outreach-drafts.md为PENDING INDEPENDENT REVIEW。三个独立复核agent随后各自独立完成，全部返回"可以发送"（逐项核实dedup/联系方式真实性/目标页面内容/guides.ts数据一致性/语气/去AI味，详见各自复核报告）。上层编排会话按全局CLAUDE.md"独立agent卡死"看门狗协议接手，确认三份复核结果均为"可以发送"后代为执行发送：
+
+- 草稿A → info@csrt.org，`gmail_send.py send --from wagelark`，Message ID `1a009424327df8bc`
+- 草稿B → nalanet@nala.org，`gmail_send.py send --from wagelark`，Message ID `1a009424741c3978`
+- 草稿C → ten27services@gmail.com，`gmail_send.py send --from wagelark`，Message ID `1a009424ac7d118e`
+
+三封均已发出，无留待处理草稿。
+
+### 遗留待办
+
+1. 竞品缺口分析这条线本轮只筛出2个候选，样本还小，下轮可以扩大抽样条数或换其他职业类竞品（如teacher.org、nursingprocess.org类）交叉验证候选密度
+2. CSRT断链命中后，"从业者州级协会Affiliate/Useful Links页面"这个模式已连续两轮验证有效（UCF精算/CSRT放射技师），下轮可以继续沿其他职业的州级/全国级从业协会资源页找
+3. 本轮流程异常（子agent未等复核完成即返回）建议后续同类编排任务加强对子agent自身是否真正执行到"发送"这一步的确认，不能只看子agent汇报文字
