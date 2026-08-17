@@ -2056,4 +2056,79 @@ export const guides: Guide[] = [
 		image: '/images/rn-education-path.svg',
 		imageAlt: 'Diagram showing three education paths to becoming a registered nurse (associate degree, bachelor of science in nursing, or hospital diploma program), converging on the NCLEX-RN licensing exam and a licensed registered nurse earning a median of $93,600 a year per BLS.',
 	},
+	{
+		slug: 'how-long-does-it-take-to-become-a-lawyer',
+		category: 'How to Become',
+		title: 'How Long Does It Take to Become a Lawyer? Degree, LSAT, Bar Exam',
+		description: 'BLS puts the typical path at 7 years: 4 years of undergraduate study plus 3 years of law school, then a state bar exam. Median pay is $151,160 a year.',
+		published: '2026-08-17',
+		updated: '2026-08-17',
+		socCode: '23-1011',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a lawyer usually takes 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school for a Juris Doctor (J.D.). That degree alone does not permit anyone to practice; every state also requires passing a bar exam and being admitted to the bar. BLS reports a median annual lawyer salary of $151,160 in May 2024, with the bottom 10% earning less than $72,780 and the top 10% earning more than $239,200.',
+		sections: [
+			{
+				heading: 'The 7-year timeline BLS actually gives',
+				body: [
+					"Per BLS, becoming a lawyer usually takes 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school. Most law schools do not require a specific bachelor's major for admission, though BLS notes that applicants commonly come in having studied law and legal studies, history, or social science.",
+					"That 7-year figure covers the degree itself, not the ability to practice. Most states require the J.D. to come from a law school accredited by the American Bar Association (ABA); a J.D. from an ABA-accredited school has been treated as sufficient by every U.S. jurisdiction. California is the most notable exception: per the State Bar of California, applicants can also qualify for the California bar exam through four years of study at a state-registered but not ABA-accredited fixed-facility law school (a minimum of 270 classroom hours a year), or through a registered correspondence or distance-learning law school (a minimum of 864 study hours a year). Students at those unaccredited schools must additionally pass the First-Year Law Students' Examination, informally called the \"baby bar,\" after their first year. Per the State Bar of California, passing it within three consecutive administrations credits all law study completed up to that point; passing on a later attempt credits only one year of study toward the degree requirement.",
+				],
+				image: {
+					src: '/images/lawyer-education-path.svg',
+					alt: "Diagram showing the path to becoming a lawyer: a 4-year bachelor's degree, a 3-year Juris Doctor at an accredited law school, and a state bar exam, leading to a licensed lawyer earning a median of $151,160 a year per BLS.",
+				},
+			},
+			{
+				heading: 'Before law school: an admissions test that is starting to loosen',
+				body: [
+					'Most law schools still require the LSAT, administered by the Law School Admission Council (LSAC) and scored on a 120-to-180 scale, or, at a growing number of schools, the GRE, as part of the admissions file alongside transcripts and letters of recommendation. That has been the near-universal norm for decades under ABA accreditation rules.',
+					'It is starting to change at the margins. In late 2024, the ABA Council of the Section of Legal Education and Admissions to the Bar agreed to let individual law schools apply for a variance from the standardized-test requirement, permitting up to 100% of an entering class to be admitted without an LSAT or GRE score, for a period of up to five years. Schools that use the variance must report outcome data back to the ABA, including first-year grades, attrition, and eventual bar passage rates. Fourteen law schools had been granted this variance as of 2025. That remains a small minority of the roughly 200 ABA-accredited law schools nationwide; the LSAT or GRE is still the norm for most applicants.',
+				],
+			},
+			{
+				heading: 'The J.D. does not let anyone practice on its own',
+				body: [
+					'BLS states plainly that all states require lawyers to be licensed, and that requirements vary by state. Candidates must graduate from an accredited law school and then pass a bar exam before they can practice, a step separate from and after finishing the degree itself. Bar exams are coordinated at the national level by the National Conference of Bar Examiners (NCBE), which develops the (legacy) Uniform Bar Examination (UBE): the Multistate Essay Examination, two Multistate Performance Test tasks, and the Multistate Bar Examination, combined into a single scaled score.',
+					"Not every state uses the same exam. Per NCBE's own current jurisdiction list, checked directly on 2026-08-17, 35 of the 51 U.S. jurisdictions it tracks (34 states plus the District of Columbia) have adopted the legacy UBE; the rest, including California, Florida, and several others, administer their own state-specific bar exam instead. A UBE score is portable: it can be transferred to seek admission in any other UBE jurisdiction without retaking the exam, though some UBE jurisdictions still require passing a separate, shorter local-law component first. NCBE is also phasing in a redesigned NextGen UBE, with the legacy exam scheduled to stop being administered after February 2028, so the specific exam format a given state uses is likely to keep shifting over the next few years.",
+					'Passing the bar and being "admitted to the bar" is not the final step either. Per BLS, states may require lawyers to participate in continuing legal education (CLE) to maintain their license, on top of the one-time licensing exam.',
+				],
+			},
+			{
+				heading: 'What the extra years buy, against other long-training paths on this site',
+				body: [
+					'BLS reports a median annual wage of $151,160 for lawyers in May 2024, or $72.67 an hour. The bottom 10% earned less than $72,780, and the top 10% earned more than $239,200, the ceiling BLS publishes for this figure rather than an exact top value; that data excludes self-employed lawyers and law-firm owners or partners. By industry, BLS lists federal government roles at the highest median it tracks, $174,680, ahead of legal services (the largest employer segment) at $143,470, local government excluding education and hospitals at $125,180, and state government excluding education and hospitals at $111,280, the lowest of the four. BLS projects 4% employment growth for lawyers from 2024 to 2034, which it classifies as about as fast as average, adding roughly 31,500 openings a year, most from the need to replace workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
+					"Against other occupations on this site that require a doctoral or professional degree, the lawyer figure sits at the top of the group: [pharmacists](/pharmacist-salary/), who need a Doctor of Pharmacy (PharmD), post a lower BLS median of $137,480, and [physical therapists](/how-to-become-a-physical-therapist/), who need a three-year Doctor of Physical Therapy after a bachelor's degree plus a licensing exam, post $101,020. [Paralegals](/how-to-become-a-paralegal/), whose BLS page lists lawyers as a comparison point precisely because paralegals support them without being licensed to practice law, post a considerably lower median of $61,010 on an associate's-degree or certificate entry path. None of these comparisons account for a reader's own state, practice area, or years of experience, and BLS's national medians are not built to say which path is the better financial bet for any one person.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How many years does it take to become a lawyer?',
+				answer: "Per BLS, the typical path is 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school for a J.D. Finishing the degree is not the last step, though; every state also requires passing a bar exam before someone can practice law.",
+			},
+			{
+				question: 'Do you need the LSAT to get into law school?',
+				answer: 'Most law schools still require the LSAT, administered by LSAC and scored 120 to 180, or the GRE at a growing number of schools. A 2024 ABA policy change lets individual law schools apply for a variance to admit up to 100% of an entering class without a standardized test score; 14 schools had that variance as of 2025, out of roughly 200 ABA-accredited schools nationwide, so it remains the exception rather than the norm.',
+			},
+			{
+				question: 'Does finishing law school let you practice right away?',
+				answer: 'No. BLS states that all states require lawyers to be licensed, and requirements vary by state. Candidates must graduate from an accredited law school and pass a state bar exam, coordinated in most states through NCBE\'s Uniform Bar Examination, before they can practice. Per BLS, states may also require ongoing continuing legal education to maintain the license afterward.',
+			},
+			{
+				question: 'What is the highest-paying industry for lawyers?',
+				answer: 'Per BLS May 2024 data, federal government roles post the highest median lawyer pay tracked, at $174,680, ahead of legal services (the largest employer segment for the occupation) at $143,470, local government at $125,180, and state government at $111,280.',
+			},
+			{
+				question: 'Is being a lawyer a growing career?',
+				answer: 'BLS projects 4% employment growth for lawyers from 2024 to 2034, which it classifies as about as fast as average across all occupations, adding an estimated 35,900 jobs and roughly 31,500 openings a year on average. Most of those openings come from the need to replace lawyers who transfer to other work or leave the labor force, such as to retire, rather than from newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Lawyers (accessed 2026-08-17 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/lawyers.htm' },
+			{ label: 'NCBE (National Conference of Bar Examiners): UBE Jurisdictions (checked 2026-08-17)', url: 'https://www.ncbex.org/exams/ube' },
+			{ label: 'LSAC (Law School Admission Council): LSAT Scoring', url: 'https://www.lsac.org/lsat/lsat-scoring' },
+			{ label: 'State Bar of California: Legal Education at a Fixed-Facility Law School', url: 'https://www.calbar.ca.gov/admissions/requirements/education/legal-education/fixed-facility' },
+		],
+		image: '/images/lawyer-education-path.svg',
+		imageAlt: "Diagram showing the path to becoming a lawyer: a 4-year bachelor's degree, a 3-year Juris Doctor at an accredited law school, and a state bar exam, leading to a licensed lawyer earning a median of $151,160 a year per BLS.",
+	},
 ];

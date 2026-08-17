@@ -35,6 +35,45 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"23-1011": {
+		socCode: "23-1011",
+		title: "Lawyers",
+		medianAnnual: 151160,
+		medianHourly: 72.67,
+		percentiles: {
+			p10: 72780,
+			p90: 239200
+		},
+		employment: 864800,
+		employmentYear: "2024",
+		jobOutlookPct: 4,
+		jobOutlookLabel: "As fast as average",
+		employmentChange: 35900,
+		projectionPeriod: "2024-34",
+		entryEducation: "Doctoral or professional degree",
+		industryWages: [
+			{
+				industry: "Federal government",
+				annualWage: 174680
+			},
+			{
+				industry: "Legal services",
+				annualWage: 143470
+			},
+			{
+				industry: "Local government (excl. education, hospitals)",
+				annualWage: 125180
+			},
+			{
+				industry: "State government (excl. education, hospitals)",
+				annualWage: 111280
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Lawyers",
+		sourceUrl: "https://www.bls.gov/ooh/legal/lawyers.htm",
+		publishedDate: "2025-08-28"
+	},
 	"29-1292": {
 		socCode: "29-1292",
 		title: "Dental Hygienists",

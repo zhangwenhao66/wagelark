@@ -475,3 +475,25 @@ test('spot check: Registered Nurses (29-1141) matches BLS OOH page', () => {
 	assert.equal(occ.employmentChange, 166100);
 	assert.equal(occ.industryWages.length, 5);
 });
+
+// Independently transcribed by hand from the live BLS OOH Lawyers page
+// (https://www.bls.gov/ooh/legal/lawyers.htm) on 2026-08-17 via r.jina.ai
+// proxy read (direct bls.gov fetch returns 403 for this agent's network
+// path -- same footer confirms "Last modified date: August 28, 2025",
+// matching the same data-freshness date as every other spot check in this
+// file). p90 of 239200 is BLS's own top-coded floor value ("the highest 10
+// percent earned more than $239,200"), not an exact percentile -- carried
+// through as-is per the source page's own number. Independent of
+// wages-source.json's own numbers -- do not derive these from the source
+// file.
+test('spot check: Lawyers (23-1011) matches BLS OOH page', () => {
+	const occ = occupations['23-1011'];
+	assert.equal(occ.medianAnnual, 151160);
+	assert.equal(occ.medianHourly, 72.67);
+	assert.equal(occ.percentiles.p10, 72780);
+	assert.equal(occ.percentiles.p90, 239200);
+	assert.equal(occ.employment, 864800);
+	assert.equal(occ.jobOutlookPct, 4);
+	assert.equal(occ.employmentChange, 35900);
+	assert.equal(occ.industryWages.length, 4);
+});
