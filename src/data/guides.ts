@@ -1986,4 +1986,74 @@ export const guides: Guide[] = [
 		image: '/images/physical-therapist-career-path.svg',
 		imageAlt: 'Timeline diagram showing the path to becoming a physical therapist: bachelor\'s degree with prerequisite coursework, then a CAPTE-accredited Doctor of Physical Therapy (DPT) program of about three years, then passing the NPTE licensing exam, leading to a licensed physical therapist earning a median of $101,020 a year per BLS, with optional residency, fellowship, or board certification.',
 	},
+	{
+		slug: 'how-long-is-nursing-school',
+		category: 'How to Become',
+		title: 'How Long Is Nursing School? RN Paths, NCLEX-RN, and Pay',
+		description: 'BLS lists an associate degree in nursing at about 4 years, not 2, the same as a BSN. Here is why, plus the NCLEX-RN licensing exam and what RNs earn.',
+		published: '2026-08-17',
+		updated: '2026-08-17',
+		socCode: '29-1141',
+		coreSummary: 'Registered nurses usually take one of three education paths, a bachelor\'s degree (BSN), an associate\'s degree (ADN or ASN), or a hospital diploma program, and the Bureau of Labor Statistics lists both the BSN and the ADN/ASN as typically taking about 4 years to complete, not the 2 years commonly assumed for an associate\'s degree. Every path still ends the same way: graduates must pass the NCLEX-RN licensing exam and hold a state license before they can practice. BLS reports a median annual wage of $93,600 for registered nurses in May 2024.',
+		sections: [
+			{
+				heading: 'The "2-year" associate degree is usually a 4-year timeline',
+				body: [
+					'Per the Bureau of Labor Statistics Occupational Outlook Handbook, registered nurses usually take one of three education paths: a bachelor of science in nursing (BSN), an associate\'s degree in nursing (ADN) or associate of science in nursing (ASN), or a diploma from a hospital-based program. All three include supervised clinical experience alongside classroom coursework in subjects such as anatomy, physiology, microbiology, and social and behavioral sciences.',
+					'The part that surprises a lot of people planning this out: BLS describes the ADN and ASN, credentials most people think of as a 2-year degree, as typically taking about 4 years to complete, the same figure BLS gives for a BSN. The reason is prerequisites. Community college nursing programs generally require a set of science courses, such as anatomy and microbiology, completed before a student is even eligible to start the core nursing curriculum, and BLS folds that prerequisite time into its 4-year estimate rather than counting only the nursing-specific coursework. A diploma program, offered by hospitals or medical centers rather than colleges, typically runs 2 to 3 years, but BLS notes there are far fewer diploma programs left than there are BSN, ADN, or ASN programs.',
+				],
+			},
+			{
+				heading: 'Same license at the end, different hiring odds along the way',
+				body: [
+					'BLS is explicit that graduates of any of the three paths, bachelor\'s, associate\'s, or diploma, qualify for entry-level positions as a staff nurse once licensed. The credential level does not gate the base RN license itself. What it does affect is who is willing to hire a given candidate: BLS notes that employers, particularly hospitals, may require a bachelor\'s degree specifically, even though an ADN or diploma graduate holds the identical state license.',
+					'For someone who starts with an ADN, ASN, or diploma and later wants the BSN a hospital is asking for, BLS points to RN-to-BSN bridge programs built for exactly that situation, letting a working RN add the bachelor\'s credential without repeating the associate-level coursework. Separately, BLS lists accelerated programs for career changers who already hold a bachelor\'s degree in an unrelated field, and combined bachelor\'s-and-master\'s tracks for students who know from the start they want to go past entry-level RN.',
+				],
+			},
+			{
+				heading: 'Passing the NCLEX-RN, and what state licensing actually adds',
+				body: [
+					'Finishing an education program is not the last step. Every state requires registered nurses to hold a nursing license, and per BLS, becoming licensed requires graduating from an approved nursing program and passing "a qualifying exam," the NCLEX-RN. The exam itself is developed and administered by the National Council of State Boards of Nursing (NCSBN), the body that represents state nursing boards, not by any individual school or program. Per NCSBN\'s own published exam details, the NCLEX-RN is a computer-adaptive test that runs a minimum of 85 and a maximum of 150 scored and experimental items combined, with a total appointment time, including the introductory screen and any breaks, capped at 5 hours.',
+					'Passing the NCLEX-RN is not the entire licensing requirement on its own. BLS notes that other requirements, such as a criminal background check, vary by state, and directs candidates to each state\'s board of nursing, or to CareerOneStop\'s licensing lookup tool, for the specific rules where they plan to work. Separately, BLS notes that many registered nursing positions require CPR, basic life support (BLS certification, not the agency), or advanced cardiac life support certification as a condition of employment, on top of the state license itself, and that further voluntary certification through professional associations, in areas such as ambulatory care, gerontology, or pediatrics, is available and sometimes required by individual employers even though it is not part of state licensure.',
+				],
+			},
+			{
+				heading: 'What the license is worth, and where it can lead',
+				body: [
+					'BLS reports a median annual wage of $93,600 for registered nurses in May 2024 ($66,030 at the 10th percentile and $135,320 at the 90th). Pay varies by setting: government employers outside state/local education and hospitals paid the highest median BLS tracked, at $106,480, ahead of hospitals ($97,260), ambulatory healthcare services ($83,780), nursing and residential care facilities ($81,820), and educational services ($74,360), the lowest of the industries BLS breaks out for this role. BLS projects 5% employment growth for registered nurses from 2024 to 2034, faster than the average for all occupations, and separately projects about 189,100 openings a year on average, with most of those openings coming from the need to replace nurses who transfer to other occupations or leave the labor force, such as to retire, rather than from newly created positions.',
+					'Against a much shorter training path, [becoming a CNA](/how-to-become-a-cna/) requires a federal minimum of just 75 hours of training rather than a multi-year degree, and BLS puts the CNA median at $39,530, about 42% of the RN figure. Against a similarly long associate-level path, [dental hygienists](/dental-hygienist-salary/), an occupation BLS itself lists among registered nurses\' similar occupations, had a slightly higher May 2024 median of $94,260 despite BLS listing an associate\'s degree, not a bachelor\'s, as dental hygienists\' typical entry-level education. None of these figures account for a given reader\'s own location, hours, or specialty, and a higher aggregate median for one occupation is not evidence that its path is the right one for any specific person weighing the options. For registered nurses who go on to graduate-level advanced practice training, BLS reports considerably higher medians: $129,210 for [nurse practitioners](/nurse-practitioner-salary/) and $223,210 for [certified registered nurse anesthetists](/crna-salary/), both of which require a master\'s degree at minimum, with CRNA programs now requiring a doctorate, on top of prior RN experience, well beyond what the base nursing license alone requires.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a registered nurse?',
+				answer: 'It depends on the path. BLS describes both a bachelor of science in nursing (BSN) and an associate\'s degree in nursing (ADN or ASN) as typically taking about 4 years to complete, largely because of required science prerequisites completed before the core nursing coursework begins. A hospital-based diploma program, a much less common option today, typically runs 2 to 3 years. Every path still requires passing the NCLEX-RN licensing exam afterward before someone can practice.',
+			},
+			{
+				question: 'Is an associate degree in nursing really only 2 years?',
+				answer: 'Not according to BLS. The Bureau of Labor Statistics Occupational Outlook Handbook lists the ADN and ASN as typically taking about 4 years to complete, the same figure it gives for a BSN, because most programs require prerequisite science coursework, such as anatomy and microbiology, before a student can start the core nursing curriculum. The "2-year degree" framing usually refers only to the nursing-specific coursework, not the full timeline BLS reports.',
+			},
+			{
+				question: 'What is the NCLEX-RN and how many questions does it have?',
+				answer: 'The NCLEX-RN is the licensing exam every state requires registered nurses to pass, developed and administered by the National Council of State Boards of Nursing (NCSBN). Per NCSBN, it is a computer-adaptive test with a minimum of 85 and a maximum of 150 items, and a total appointment time, including the introductory screen and any breaks, capped at 5 hours.',
+			},
+			{
+				question: 'Does it matter whether an RN has a BSN or an associate degree?',
+				answer: 'For the state license itself, no; BLS states that graduates of a BSN, ADN, ASN, or diploma program all qualify for entry-level staff nurse positions once licensed. For hiring, it can matter: BLS notes that employers, particularly hospitals, may require a bachelor\'s degree specifically. RNs who start with an associate degree or diploma can add a BSN later through an RN-to-BSN bridge program without repeating their earlier coursework.',
+			},
+			{
+				question: 'How much do registered nurses make?',
+				answer: 'BLS reports a median annual wage of $93,600 for registered nurses in May 2024, with the bottom 10% earning less than $66,030 and the top 10% earning more than $135,320. The highest-paying industry BLS tracks for this role is government employment outside state/local education and hospitals, at a median of $106,480.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Registered Nurses, How to Become One (data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/registered-nurses.htm' },
+			{ label: 'NCSBN: How long is the NCLEX?', url: 'https://ncsbn.zendesk.com/hc/en-us/articles/15247056118935-How-long-is-the-NCLEX' },
+			{ label: 'NCSBN: What is the current format and item types for the NCLEX?', url: 'https://ncsbn.zendesk.com/hc/en-us/articles/14689546992023-What-is-the-current-format-and-item-types-for-the-NCLEX' },
+			{ label: 'NCSBN: What is Computer Adaptive Testing (CAT)?', url: 'https://ncsbn.zendesk.com/hc/en-us/articles/16488590296599-What-is-Computer-Adaptive-Testing-CAT' },
+		],
+		image: '/images/rn-education-path.svg',
+		imageAlt: 'Diagram showing three education paths to becoming a registered nurse (associate degree, bachelor of science in nursing, or hospital diploma program), converging on the NCLEX-RN licensing exam and a licensed registered nurse earning a median of $93,600 a year per BLS.',
+	},
 ];

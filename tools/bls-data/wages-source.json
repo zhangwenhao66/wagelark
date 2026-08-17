@@ -828,6 +828,48 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers",
       "sourceUrl": "https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm",
       "publishedDate": "2025-08-28"
+    },
+    "29-1141": {
+      "title": "Registered Nurses",
+      "medianAnnual": 93600,
+      "medianHourly": 45.00,
+      "percentiles": {
+        "p10": 66030,
+        "p90": 135320
+      },
+      "employment": 3391000,
+      "employmentYear": "2024",
+      "jobOutlookPct": 5,
+      "jobOutlookLabel": "Faster than average",
+      "employmentChange": 166100,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        {
+          "industry": "Government (excl. state/local education, hospitals)",
+          "annualWage": 106480
+        },
+        {
+          "industry": "Hospitals; state, local, and private",
+          "annualWage": 97260
+        },
+        {
+          "industry": "Ambulatory healthcare services",
+          "annualWage": 83780
+        },
+        {
+          "industry": "Nursing and residential care facilities",
+          "annualWage": 81820
+        },
+        {
+          "industry": "Educational services; state, local, and private",
+          "annualWage": 74360
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Registered Nurses",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

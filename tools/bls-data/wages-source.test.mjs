@@ -456,3 +456,22 @@ test('spot check: Welders, Cutters, Solderers, and Brazers (51-4121) matches BLS
 	assert.equal(occ.employmentChange, 9900);
 	assert.equal(occ.industryWages.length, 3);
 });
+
+// Independently transcribed by hand from the live BLS OOH Registered Nurses
+// page (https://www.bls.gov/ooh/healthcare/registered-nurses.htm) on
+// 2026-08-17 via r.jina.ai proxy read (direct bls.gov fetch returns 403 for
+// this agent's network path -- same footer confirms "Last modified date:
+// August 28, 2025", matching the same data-freshness date as every other
+// spot check in this file). Independent of wages-source.json's own numbers
+// -- do not derive these from the source file.
+test('spot check: Registered Nurses (29-1141) matches BLS OOH page', () => {
+	const occ = occupations['29-1141'];
+	assert.equal(occ.medianAnnual, 93600);
+	assert.equal(occ.medianHourly, 45.00);
+	assert.equal(occ.percentiles.p10, 66030);
+	assert.equal(occ.percentiles.p90, 135320);
+	assert.equal(occ.employment, 3391000);
+	assert.equal(occ.jobOutlookPct, 5);
+	assert.equal(occ.employmentChange, 166100);
+	assert.equal(occ.industryWages.length, 5);
+});

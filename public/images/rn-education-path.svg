@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Arial, sans-serif">
+	<rect width="640" height="420" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">Three Paths to an RN License</text>
+
+	<g font-size="12.5" fill="#14212e">
+		<rect x="30" y="46" width="580" height="42" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="65" text-anchor="middle" font-weight="700" fill="#0b675e">High school diploma + science prerequisites</text>
+		<text x="320" y="80" text-anchor="middle" font-size="11">Anatomy, physiology, microbiology typically required before program entry</text>
+		<line x1="320" y1="88" x2="320" y2="106" stroke="#dcdad2" stroke-width="2"/>
+		<line x1="100" y1="106" x2="540" y2="106" stroke="#dcdad2" stroke-width="2"/>
+		<line x1="100" y1="106" x2="100" y2="122" stroke="#dcdad2" stroke-width="2"/>
+		<line x1="320" y1="106" x2="320" y2="122" stroke="#dcdad2" stroke-width="2"/>
+		<line x1="540" y1="106" x2="540" y2="122" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="26" y="122" width="148" height="92" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="100" y="142" text-anchor="middle" font-weight="700" fill="#0b675e" font-size="12">ADN / ASN</text>
+		<text x="100" y="158" text-anchor="middle" font-size="10.5">Associate degree</text>
+		<text x="100" y="172" text-anchor="middle" font-size="10.5">BLS: 4 yrs incl.</text>
+		<text x="100" y="184" text-anchor="middle" font-size="10.5">prereqs, per OOH</text>
+		<text x="100" y="200" text-anchor="middle" font-size="10.5">Most community</text>
+		<text x="100" y="212" text-anchor="middle" font-size="10.5">colleges</text>
+
+		<rect x="246" y="122" width="148" height="92" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="142" text-anchor="middle" font-weight="700" fill="#0b675e" font-size="12">BSN</text>
+		<text x="320" y="158" text-anchor="middle" font-size="10.5">Bachelor of Science</text>
+		<text x="320" y="172" text-anchor="middle" font-size="10.5">4 years</text>
+		<text x="320" y="188" text-anchor="middle" font-size="10.5">Adds leadership,</text>
+		<text x="320" y="200" text-anchor="middle" font-size="10.5">research coursework</text>
+		<text x="320" y="212" text-anchor="middle" font-size="10.5">Often preferred by hospitals</text>
+
+		<rect x="466" y="122" width="148" height="92" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="540" y="142" text-anchor="middle" font-weight="700" fill="#0b675e" font-size="12">Diploma program</text>
+		<text x="540" y="158" text-anchor="middle" font-size="10.5">Hospital-based</text>
+		<text x="540" y="172" text-anchor="middle" font-size="10.5">2-3 years</text>
+		<text x="540" y="188" text-anchor="middle" font-size="10.5">Far fewer programs</text>
+		<text x="540" y="200" text-anchor="middle" font-size="10.5">than ADN or BSN</text>
+		<text x="540" y="212" text-anchor="middle" font-size="10.5">(BLS OOH)</text>
+
+		<line x1="100" y1="214" x2="100" y2="230" stroke="#dcdad2" stroke-width="2"/>
+		<line x1="320" y1="214" x2="320" y2="230" stroke="#dcdad2" stroke-width="2"/>
+		<line x1="540" y1="214" x2="540" y2="230" stroke="#dcdad2" stroke-width="2"/>
+		<line x1="100" y1="230" x2="540" y2="230" stroke="#dcdad2" stroke-width="2"/>
+		<line x1="320" y1="230" x2="320" y2="246" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="246" width="580" height="52" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="266" text-anchor="middle" font-weight="700" fill="#0b675e">NCLEX-RN licensing exam</text>
+		<text x="320" y="283" text-anchor="middle" font-size="11.5">85-150 questions, up to 5 hours; computer-adaptive (NCSBN)</text>
+		<text x="320" y="296" text-anchor="middle" font-size="10.5">Each of the three paths above qualifies a graduate to sit for the same exam</text>
+		<line x1="320" y1="298" x2="320" y2="320" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="320" width="580" height="46" rx="6" fill="#14273f"/>
+		<text x="320" y="340" text-anchor="middle" font-weight="700" fill="white">Licensed Registered Nurse</text>
+		<text x="320" y="357" text-anchor="middle" font-size="11.5" fill="#dcdad2">Median $93,600/yr; state license required regardless of which path was taken (BLS, May 2024)</text>
+	</g>
+
+	<text x="320" y="384" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Program lengths and state licensing rules vary. Source: BLS Occupational Outlook Handbook, Registered Nurses.</text>
+</svg>
