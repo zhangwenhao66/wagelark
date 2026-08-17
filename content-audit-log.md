@@ -617,3 +617,96 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "what-does-a-paralegal-do",
+  "last_audited": "2026-08-17",
+  "published_date": "2026-08-03",
+  "article_specific_priorities": "选择依据：与how-to-become-an-ultrasound-tech/how-to-become-a-phlebotomist同为2026-08-03建站首发批次最早日期三方并列，git log确认三者出自同一commit(8ceaabae)同一时间戳，改用文件内数组顺序作二级排序，选中位置最靠前者。本文核心价值主张是'paralegal在律师监督下做研究/起草/整理案卷，不能独立执业，BLS给出median $61,010'，最关键4条具体论断：(1) median $61,010/p10 $39,710/p90 $98,990(May 2024, SOC 23-2011)是否与BLS当前公开数据逐字一致；(2) 五档行业中位数薪资(联邦政府$77,940/金融保险$76,960/地方政府$60,990/律所$59,800/州政府$56,280)是否准确；(3) 0%就业增长/600净新增岗位口径是否可溯源BLS原文；(4) 加引号的BLS直接引语'maintaining and organizing files, conducting legal research, and drafting documents'是否逐字准确。",
+  "findings": [
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS并标注数据年份(May 2024)，正文/FAQ反复出现'according to the U.S. Bureau of Labor Statistics'/'BLS reports'，非泛泛而谈；sources字段有明确URL+访问日期+数据年份标注；含一句加引号的BLS原文直接引语并逐字核实准确。"
+    },
+    {
+      "dimension": "事实准确性",
+      "status": "核实无误，未发现问题（但发现1处未经查证的因果归因，见下方独立复核）",
+      "detail": "用Browser pane对bls.gov/ooh/legal/paralegals-and-legal-assistants.htm逐个标签页(Summary/How to Become/Pay/Job Outlook)取innerText核对：median annual $61,010/$29.33每小时、p10低于$39,710、p90高于$98,990、employment 376,200(2024)、job outlook 0%/employmentChange 600，与正文/FAQ/schema逐字一致；五档行业中位数薪资(联邦政府$77,940/金融保险$76,960/地方政府$60,990/律所$59,800/州政府$56,280)在Pay标签页原文逐字核对无误；'What They Do'标签页原文'maintaining and organizing files, conducting legal research, and drafting documents'与正文加引号引语逐字吻合。src/data/bls-wages.ts的23-2011条目与正文数字完全一致，数据管线内部无漂移。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "BLS页面'Last modified date: August 28, 2025'，距本次审计约11个半月，本文引用的May 2024数据仍是BLS OOH当前发布的最新版本，未过时，无需更新。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "dataforseo-query真实查询'what does a paralegal do'的SERP：apu.apus.edu/reddit/paralegalonline.bu.edu/nala.org/bls.gov本身/uprovidence.edu/indeed.com/rev.com/youtube等，多为纯职责描述或纯BLS原始数据，未见头部结果像本文一样把BLS精确五档行业薪资中位数直接编入职责介绍类页面，构成真实增量。GSC实测本文28天15次曝光、0点击、站内排名均值36.8，与全站冷启动整体模式一致(sitewide 28天0点击/平均排名16.0)，非本文独有问题，不作为targeted fix。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "发现1项低优先级问题，已修复",
+      "detail": "curl+静态HTML解析实测：title 61字符(含品牌后缀)正常；description 171字符，超出150-160推荐区间，SERP展示可能被截断；单一H1；5个H2层级清晰无跳级；canonical自引用正确；JSON-LD含FAQPage/Article/BreadcrumbList/Dataset四块均有效解析；1张自制SVG配图alt文本描述性强；robots.txt/sitemap-index.xml均正常收录本文URL，无索引阻塞。已将description收紧至159字符。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "达标(≥80)，修复后小幅提升",
+      "detail": "按11维度人工核算，修复前约82/99(权威原文引语13/16、统计数据完整性11/14——缺p10/p90叙述+缺annual openings上下文、可引用性11/13、结构规范性11/12、表达流畅度9/10、语义密度6/8、权威信号6/8、专业术语5/6、鲁棒性4/5——含1处未证实因果论断、跨域连接3/4、易懂表达3/3)。修复后(移除未证实因果论断+补充39,300 openings上下文)估算约84/99：鲁棒性提升至5/5(不再有未证实机制声称)，统计数据完整性提升至12/14(补充openings但仍不含百分位，属分类内正常变体非缺陷)。仍高于80及格线。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "适用，检查通过（含修复新增/改写文本）",
+      "detail": "published=2026-08-03早于avoid-ai-writing强制化(08-07)，属早期文章，过Skill(humanizer)+Skill(avoid-ai-writing)全文人工核对：grep确认全文(含修复前后)0处em/en dash、0处curly quote、0处高频AI词(crucial/pivotal/delve/tapestry/testament/underscore/vibrant/robust/landscape/leverage/seamless等)。人工逐段核对33类模式：未发现rule-of-three滥用、promotional language、vague attribution、-ing式伪深度分析、copula avoidance等。修复涉及的4处改写文本(移除因果归因句/改写OJT排他性措辞/新增openings clause×2/收紧description)单独复核：PASS，无新引入AI味，且'BLS does not break down why the gap exists by industry'这类如实承认数据局限的表述本身就是humanizer框架鼓励的诚实写法。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources仅1条外部引用(BLS OOH页面)，Browser pane实测200可访问，逐标签页内容与本文引用逐字一致，非链接失效。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep guides.ts确认本文非孤儿页：how-to-become-a-paralegal正文第1797行已有手写锚文本'[what does a paralegal do](/what-does-a-paralegal-do/)'链回本文。Career Guide分类现有3篇文章(what-does-a-paralegal-do/what-does-a-physician-assistant-do/what-does-an-actuary-do)，均≤6篇轮转窗口阈值，live页面侧栏正常展示同类文章链接。本文正文/FAQ无手写锚文本链出(0处markdown链接)，是全站已知模式(此前审计已多次确认为站级模式非本文独有)，未作为本文targeted fix处理。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已同步更新",
+      "detail": "本次编辑了updated字段(2026-08-03→2026-08-17)，published字段已存在(2026-08-03)无需git回填，符合改updated前置检查顺序。build产物dist/what-does-a-paralegal-do/index.html核实dateModified已同步更新为2026-08-17T00:00:00+00:00、datePublished保持2026-08-03T00:00:00+00:00；FAQPage schema第3条answer已包含新增的39,300 openings文本，与正文修改同步，无不一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题（已额外核实AI对该职业冲击的现状，判定现有表述已足够保守，无需改写）",
+      "detail": "live页面免责声明存在(footer统一版本)；正文/FAQ通读未发现收入承诺式表述、培训机构推荐、个性化职业建议。额外WebSearch核实2026年AI对paralegal行业冲击的现状(约69%的billable hours暴露于AI自动化、约30%职能预计2028年前被自动化，但net demand仍稳定/失业率约1.9%)，判定本文现有的'0%净增长、弱于其他职业'框架本身已经是保守、不过度乐观的表述，与观察到的AI自动化趋势不矛盾，无需额外改写；姊妹文how-to-become-a-paralegal已有专门章节明确引用BLS对AI自动化的归因表述，本文作为更简明的总览页不强行重复。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "配图为自制SVG(/images/paralegal-duties.svg，1938字节，非0字节)，file命令确认为有效SVG文件，无外部版权依赖，live页面实测正常渲染。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "curl实测ads.txt正确指向'google.com, pub-5245502795720653, DIRECT, f08c47fec0942fa0'；/about/、/privacy/、/terms/等必备页面均curl实测200；全文为职业职责/薪资数据类百科式记述，无收入承诺式表述(未使用'you will earn'等)、无培训机构推荐、无标题党或诱导误点。"
+    }
+  ],
+  "independent_verification": "十三维度深挖后发现5项候选问题，全部交给一个全新独立agent复核（只给发现+支撑证据，不透露诊断过程），未卡死，约3分20秒完成：①'Where the pay actually is'一节未经查证的因果归因机制——CONFIRMED（命中教训库L-0806-14已知模式，本站medical-assistant-salary 2026-08-06首次发现同款问题）；②正文/FAQ关于on-the-job training对象的表述矛盾——CONFIRMED但重新定位真正错误方：核实BLS原文后发现FAQ表述准确，正文的排他性措辞才是问题所在（命中教训库L-0805-5但方向与此前两次相反，新增说明性教训）；③缺失39,300 openings/年上下文——CONFIRMED（BLS Job Outlook原文核实存在，姊妹文how-to-become-a-paralegal已单独成节处理，证明站内已认定其值得呈现）；④缺失p10/p90百分位叙述——NOT CONFIRMED（核对同分类另外2篇Career Guide文章后发现并非统一标准，属分类内正常变体）；⑤meta description超长——CONFIRMED，低优先级。仅处理①②③⑤，④未处理。",
+  "actions_taken": [
+    "移除'Where the pay actually is'一节末尾未经查证的具体因果机制解释('likely reflecting...complexity of federal regulatory and financial-sector work...')，改写为只陈述薪资模式本身，并补一句'BLS does not break down why the gap exists by industry'如实说明数据局限",
+    "改写'Education path and job outlook'一节的排他性措辞，去掉'this on-the-job route is a distinct path from the bachelor's-degree-plus-certificate route, not an extension of it'，改为承认两类候选人(持学士学位但无法律相关课程者/仅高中学历者)都可能被安排在职培训，与FAQ第4条(未改动)不再矛盾",
+    "正文Job Outlook段落+FAQ第3条均补充BLS的'约39,300 paralegal openings/年'数据及其主要来自岗位替换而非新增职位的说明",
+    "description从171字符收紧至159字符，避免SERP截断",
+    "改updated字段前确认published字段已存在(2026-08-03)，无需git回填，直接改updated为2026-08-17",
+    "修复前后均过Skill(humanizer)+Skill(avoid-ai-writing)人工核查(PASS，改动文本无AI味)、Skill(seo-audit)(PASS)、Skill(ai-seo)按11维度人工核算(约82→约84/99，估算提升)",
+    "npm run build(38页全部生成成功)+npm test(40项全绿)验证通过",
+    "git add仅暂存src/data/guides.ts(工作区另有6个并发任务文件未纳入)；commit 93ff050；push成功；Cloudflare Pages自动部署(本仓库无deploy hook)；轮询线上URL约45秒后返回200且正文含'39,300 paralegal openings'新增内容，确认真实生效",
+    "node tools/submit-indexnow.mjs /what-does-a-paralegal-do/ 提交，Bing 200 / Yandex 200，indexnow-submit-log.json由脚本自动更新",
+    "内容通用教训库.md回写：L-0806-14追加复发行(第3次)，L-0805-5追加复发行(第3次，方向首次反转，新增说明性教训'不能默认FAQ是需要修改的一方')",
+    "内容发布日志.md追加本次审计更新记录，明确标注为content-quality-audit审计更新非新发布"
+  ],
+  "seo_score": "修复前title 61字符/description 171字符(超标)/单一H1/5个H2/JSON-LD四块均有效/canonical正确；修复后description收紧至159字符，其余不变",
+  "geo_score": "修复前约82/99，修复后估算约84/99(11维度加权，鲁棒性+统计数据完整性两项提升)，均高于80及格线",
+  "escalation": null
+}
+```
