@@ -2131,4 +2131,77 @@ export const guides: Guide[] = [
 		image: '/images/lawyer-education-path.svg',
 		imageAlt: "Diagram showing the path to becoming a lawyer: a 4-year bachelor's degree, a 3-year Juris Doctor at an accredited law school, and a state bar exam, leading to a licensed lawyer earning a median of $151,160 a year per BLS.",
 	},
+	{
+		slug: 'hvac-certification',
+		category: 'How to Become',
+		title: 'HVAC Certification: EPA 608 Requirements, Training, and Pay',
+		description: 'Federal law requires HVAC technicians to pass an EPA Section 608 exam before touching refrigerant. Here is what it covers, plus BLS training and pay data.',
+		published: '2026-08-18',
+		updated: '2026-08-18',
+		socCode: '49-9021',
+		coreSummary: "Federal law requires nearly all HVAC technicians to pass an EPA Section 608 exam before working with refrigerant, on top of whatever postsecondary training or apprenticeship gets them there. The exam has four types (Core plus Type I, II, III, or Universal), and the credential does not expire once earned. The U.S. Bureau of Labor Statistics reports a median annual wage of $59,810 for heating, air conditioning, and refrigeration mechanics and installers in May 2024, with the bottom 10% earning less than $39,130 and the top 10% earning more than $91,020.",
+		sections: [
+			{
+				heading: 'EPA Section 608: the certification federal law actually requires',
+				body: [
+					"Every HVAC technician needs one federal credential before touching refrigerant: EPA Section 608 Technician Certification. Under 40 CFR Part 82, Subpart F, the U.S. Environmental Protection Agency requires anyone who attaches or detaches hoses and gauges to measure refrigerant pressure, or who adds or removes refrigerant from an appliance, to hold that certification before doing the work. The EPA defines four types of certification: Type I for servicing small appliances, Type II for high- and very-high-pressure appliances (most residential and light-commercial air conditioning falls here), Type III for low-pressure appliances, and Universal, which covers all three and requires passing every underlying test.",
+					"Each certification type requires passing a Core exam plus the type-specific test, both administered by an EPA-approved certifying organization; the tests are typically bundled into the postsecondary HVACR programs described below. One detail trips people up: the EPA specifies that Core exams taken open-book cannot be used toward a Universal certification. A candidate aiming for Universal has to sit the Core section as a proctored exam. Once earned, Section 608 Technician Certification does not expire, unlike many state trade licenses that require periodic renewal. The EPA also carves out an exemption for apprentices, who can perform the same refrigerant-handling tasks without holding the certification themselves as long as a certified technician closely and continually supervises them.",
+				],
+				image: {
+					src: '/images/hvac-certification-path.svg',
+					alt: 'Diagram showing the path to HVAC certification: a postsecondary program or apprenticeship, the EPA Section 608 exam (Core plus Type I, II, III, or Universal), an optional state or local license, and optional NATE or manufacturer certification, leading to an HVAC technician earning a median of $59,810 a year per BLS.',
+				},
+			},
+			{
+				heading: 'The training that comes before the exam',
+				body: [
+					"Per BLS, HVAC technicians typically need a postsecondary nondegree award, though some enter with less education. Most get there through technical or trade schools and community colleges offering programs in heating, air conditioning, and refrigeration; BLS describes these programs as running 6 months to 2 years and leading to either a certificate or an associate's degree. Some employers will consider a candidate whose highest credential is a high school diploma, and BLS specifically recommends vocational education, math, and physics coursework for high schoolers weighing this path.",
+					'A smaller share of technicians train through an apprenticeship instead, which BLS describes as usually running several years and combining paid on-the-job training with technical instruction each year, covering topics such as safety practices, blueprint reading, and heating and cooling systems. Either route, newly hired technicians start on basic tasks like insulating refrigerant lines or cleaning furnaces before moving on to harder work such as cutting and soldering pipes or checking electrical circuits, per BLS.',
+					"Beyond the federally required EPA exam, some states and localities layer on their own licensing requirements; BLS directs readers to CareerOneStop's licensing tool rather than listing every jurisdiction's rules on one page, and this article does the same rather than guessing at a specific state's process. Manufacturer and industry certifications, such as those from North American Technician Excellence (NATE) or HVAC Excellence, are optional under federal and most state law, though BLS notes some employers prefer or require specific ones. A driver's license is also typically needed, since most technicians travel between jobsites.",
+				],
+			},
+			{
+				heading: 'What HVAC technicians earn once certified',
+				body: [
+					'BLS reported a median annual wage of $59,810 for heating, air conditioning, and refrigeration mechanics and installers in May 2024, or $28.75 an hour. The bottom 10% earned less than $39,130, and the top 10% earned more than $91,020, a roughly $52,000 spread that reflects differences in experience, certification level, region, and employer, not any single factor BLS isolates. For comparison, BLS puts the broader installation, maintenance, and repair occupational group at a median of $58,230, and the median across all occupations in the economy at $49,500; HVAC technicians sit modestly above both.',
+					'BLS breaks out May 2024 wages by industry into four tracked categories. Wholesale trade paid the highest median at $65,760, followed by educational services (state, local, and private) at $60,960 and retail trade at $60,730. Plumbing, heating, and air-conditioning contractors, the industry that employs 70% of technicians in this occupation, paid the lowest of the four tracked categories, $58,750, close to but below the occupation-wide median.',
+				],
+			},
+			{
+				heading: "Job outlook, and how it compares to other trades",
+				body: [
+					'BLS projects 8% employment growth for heating, air conditioning, and refrigeration mechanics and installers from 2024 to 2034, which it classifies as much faster than average, adding an estimated 34,500 jobs and about 40,100 openings a year on average over the decade. As with most occupations BLS tracks, many of those annual openings are expected to come from workers who transfer to other occupations or leave the labor force, such as to retire, rather than from newly created positions alone. BLS attributes underlying demand to commercial and residential building construction plus a growing number of sophisticated climate-control systems that need installing and servicing, along with rising emphasis on energy efficiency driving retrofits and replacements.',
+					"Against other no-bachelor's-degree trades this site has covered, HVAC's 8% growth rate trails the 9% BLS projects for [electricians](/how-to-become-an-electrician/), but comfortably outpaces the 4% BLS projects for [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/). On pay, HVAC's $59,810 median trails both of those trades, whose medians run in the low $62,000s after a comparably structured multi-year apprenticeship. [Becoming a CNA](/how-to-become-a-cna/) sits at the far end of the training-length spectrum, a federal minimum of 75 hours rather than a postsecondary program or apprenticeship, with a median of $39,530, well below any of the trades above. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one path pays better for a specific person once local demand, certification level, and years of experience are factored in.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Do I need EPA certification to work on HVAC systems?',
+				answer: "Yes, if the work involves refrigerant. Federal law (40 CFR Part 82, Subpart F) requires anyone who measures refrigerant pressure or adds or removes refrigerant from an appliance to hold EPA Section 608 Technician Certification. Apprentices are exempt as long as a certified technician closely and continually supervises them.",
+			},
+			{
+				question: "What's the difference between EPA 608 Type I, II, III, and Universal?",
+				answer: 'Type I covers small appliances. Type II covers high- and very-high-pressure appliances, which includes most residential and light-commercial air conditioning. Type III covers low-pressure appliances. Universal certification means passing the Core exam plus all three type-specific tests; the Core section must be taken proctored, not open-book, to count toward Universal.',
+			},
+			{
+				question: 'How long does it take to become HVAC certified?',
+				answer: 'BLS describes two main routes: a postsecondary program at a trade school or community college, running 6 months to 2 years and leading to a certificate or associate\'s degree, or an apprenticeship that usually runs several years and combines paid on-the-job training with technical instruction. The EPA Section 608 exam itself is typically bundled into these programs rather than requiring separate additional time.',
+			},
+			{
+				question: 'Does EPA HVAC certification expire?',
+				answer: 'No. Per the EPA, Section 608 Technician Certification credentials do not expire once earned, unlike many state trade licenses that require periodic renewal.',
+			},
+			{
+				question: 'How much do HVAC technicians make?',
+				answer: 'BLS reports a median annual wage of $59,810 for heating, air conditioning, and refrigeration mechanics and installers in May 2024, with the bottom 10% earning less than $39,130 and the top 10% earning more than $91,020. Wholesale trade paid the highest industry median tracked, at $65,760.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Heating, Air Conditioning, and Refrigeration Mechanics and Installers (accessed 2026-08-18 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm' },
+			{ label: 'U.S. EPA: Section 608 Technician Certification Requirements (accessed 2026-08-18 via r.jina.ai reader proxy)', url: 'https://www.epa.gov/section608/section-608-technician-certification-requirements' },
+		],
+		image: '/images/hvac-certification-path.svg',
+		imageAlt: 'Diagram showing the path to HVAC certification: a postsecondary program or apprenticeship, the EPA Section 608 exam (Core plus Type I, II, III, or Universal), an optional state or local license, and optional NATE or manufacturer certification, leading to an HVAC technician earning a median of $59,810 a year per BLS.',
+	},
 ];

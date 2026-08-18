@@ -497,3 +497,26 @@ test('spot check: Lawyers (23-1011) matches BLS OOH page', () => {
 	assert.equal(occ.employmentChange, 35900);
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Independently transcribed by hand from the live BLS OOH Heating, Air
+// Conditioning, and Refrigeration Mechanics and Installers page
+// (https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm)
+// on 2026-08-18 via r.jina.ai proxy read (direct bls.gov fetch returns 403
+// for this agent's network path -- same footer confirms "Last modified
+// date: August 28, 2025", matching the same data-freshness date as every
+// other spot check in this file). Both p10 ("earned less than $39,130")
+// and p90 ("earned more than $91,020") are BLS's own bottom/top-coded
+// boundary values, not exact percentiles -- carried through as-is per the
+// source page's own wording. Independent of wages-source.json's own
+// numbers -- do not derive these from the source file.
+test('spot check: Heating, Air Conditioning, and Refrigeration Mechanics and Installers (49-9021) matches BLS OOH page', () => {
+	const occ = occupations['49-9021'];
+	assert.equal(occ.medianAnnual, 59810);
+	assert.equal(occ.medianHourly, 28.75);
+	assert.equal(occ.percentiles.p10, 39130);
+	assert.equal(occ.percentiles.p90, 91020);
+	assert.equal(occ.employment, 425200);
+	assert.equal(occ.jobOutlookPct, 8);
+	assert.equal(occ.employmentChange, 34500);
+	assert.equal(occ.industryWages.length, 4);
+});

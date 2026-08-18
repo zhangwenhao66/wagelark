@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Arial, sans-serif">
+	<rect width="640" height="380" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">Path to HVAC Certification</text>
+
+	<g font-size="12.5" fill="#14212e">
+		<rect x="30" y="48" width="580" height="52" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="68" text-anchor="middle" font-weight="700" fill="#0b675e">Postsecondary program or apprenticeship</text>
+		<text x="320" y="85" text-anchor="middle" font-size="11.5">6 months to 2 years at a trade school or community college, or a multi-year paid apprenticeship</text>
+		<line x1="320" y1="100" x2="320" y2="122" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="122" width="580" height="58" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="142" text-anchor="middle" font-weight="700" fill="#0b675e">EPA Section 608 exam (required by federal law)</text>
+		<text x="320" y="159" text-anchor="middle" font-size="11.5">Core section plus Type I, II, or III; Universal covers all three and needs a proctored Core test</text>
+		<text x="320" y="173" text-anchor="middle" font-size="11">Credential does not expire once earned</text>
+		<line x1="320" y1="180" x2="320" y2="202" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="202" width="580" height="52" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="222" text-anchor="middle" font-weight="700" fill="#0b675e">State or local license, if required</text>
+		<text x="320" y="239" text-anchor="middle" font-size="11.5">Requirements set by state and locality; check with your state licensing board</text>
+		<line x1="320" y1="254" x2="320" y2="276" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="276" width="580" height="52" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="296" text-anchor="middle" font-weight="700" fill="#0b675e">Optional: NATE or manufacturer certification</text>
+		<text x="320" y="313" text-anchor="middle" font-size="11.5">Not required by federal law; some employers prefer or require specific credentials</text>
+		<line x1="320" y1="328" x2="320" y2="330" stroke="#dcdad2" stroke-width="2"/>
+	</g>
+
+	<rect x="30" y="330" width="580" height="34" rx="6" fill="#14273f"/>
+	<text x="320" y="352" text-anchor="middle" font-size="12.5" font-weight="700" fill="white">HVAC technician: median $59,810/yr (BLS, May 2024)</text>
+
+	<text x="320" y="374" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Requirements vary by state. Sources: BLS Occupational Outlook Handbook; EPA Section 608.</text>
+</svg>

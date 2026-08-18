@@ -968,5 +968,44 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Registered Nurses",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
 		publishedDate: "2025-08-28"
+	},
+	"49-9021": {
+		socCode: "49-9021",
+		title: "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+		medianAnnual: 59810,
+		medianHourly: 28.75,
+		percentiles: {
+			p10: 39130,
+			p90: 91020
+		},
+		employment: 425200,
+		employmentYear: "2024",
+		jobOutlookPct: 8,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 34500,
+		projectionPeriod: "2024-34",
+		entryEducation: "Postsecondary nondegree award",
+		industryWages: [
+			{
+				industry: "Wholesale trade",
+				annualWage: 65760
+			},
+			{
+				industry: "Educational services; state, local, and private",
+				annualWage: 60960
+			},
+			{
+				industry: "Retail trade",
+				annualWage: 60730
+			},
+			{
+				industry: "Plumbing, heating, and air-conditioning contractors",
+				annualWage: 58750
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+		sourceUrl: "https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm",
+		publishedDate: "2025-08-28"
 	}
 };
