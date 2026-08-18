@@ -33,3 +33,14 @@
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `f8649422205658a9b9e8d2de4e03979b`。
 - **上线复核**：⏳ 待补做（当天提交，通常需要1-2天过审）。
 - **备注**：本次是08-04登录失效连续三次导致周二排期落空后的补做。
+
+### 2026-08-18（周二，正常排期）— WageLark（wagelark.com）
+
+- **问题标题**：Dental practice managers and healthcare HR: has a candidate's inflated online salary expectation caused a real hiring problem?
+- **角度**：绑定`dental-hygienist-salary`一文的BLS OEWS数据——2024年全国中位数$94,260/年，但最低10%和最高10%之间相差近5.4万美元（取决于执业场所、工作天数、地区），且BLS按全职全年折算时薪为年薪，很多牙科保健师实际每周只工作3-4天。征集牙科诊所经理/办公室经理/医疗行业HR或招聘方举出真实案例——候选人的薪资预期（基于网上找到的某个数字）跟真实offer对不上，因此造成了真实问题（候选人拒绝offer、入职后很快离职、需要重新谈判）。差距具体是什么，最后怎么解决的。与此前问过的采血员认证路径角度（08-04）、空管招聘瓶颈角度（08-12）均不重叠，这次聚焦薪资预期与真实offer的落差本身。
+- **绑定文章**：WageLark `dental-hygienist-salary`（Dental Hygienist Salary: What BLS Data Actually Shows (2026)）。
+- **分类标签**：Topics = Health & Wellbeing + Professional Services；Countries = United States（BLS数据是美国特有统计口径，仅限美国）。
+- **表单设置**：Job title = Content Creator；Organisation = WageLark；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@wagelark.com`。
+- **Deadline**：2026-09-16 17:00（鼠标真实点击日历控件选中）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `07fe174f59efe81bd11f946ed3566d85`。
+- **上线复核**：⏳ 待下次任务运行时补查。
