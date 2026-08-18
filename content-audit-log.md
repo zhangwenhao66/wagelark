@@ -710,3 +710,93 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "how-to-become-a-phlebotomist",
+  "last_audited": "2026-08-18",
+  "published_date": "2026-08-03",
+  "note": "本站mtime排序（17:42，与warcrumbs并列全矩阵最早）本次一并处理。站内选文用全量slug对比content-audit-log.md历史记录，how-to-become-a-phlebotomist(published 2026-08-03)是全站33篇中25篇从未审计过的文章里published日期最早的一篇。",
+  "article_specific_checklist": [
+    "BLS median $43,660（2024年5月）与6%增长率(2024-2034)准确性",
+    "行业细分薪资排序（outpatient最高$48,450→labs$45,700→hospitals$41,490→physician offices$40,480→ambulatory$39,180）",
+    "'两条真实入行路径'（formal certificate程序 vs HS diploma+OJT）表述准确性——本站YMYL-adjacent专属风险点：不能暗示培训机构推荐或收入承诺",
+    "跨文章一致性：其他文章提到phlebotomist入行门槛时是否与本文自身表述矛盾"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（median/增长率）",
+      "status": "未发现问题",
+      "detail": "WebSearch多信源（stepful.com/medicalaid.org/BLS OOH页标题结果）交叉确认median $43,660、6%增长率(2024-2034，faster than average)均准确，与本文一致。"
+    },
+    {
+      "dimension": "事实准确性（行业细分薪资）",
+      "status": "间接核实，未发现矛盾证据",
+      "detail": "bls.gov直连curl返回403(该站已知bot拦截模式，与flight-attendant等既有条目判例一致)。WebSearch第三方聚合站(phlebotomistsalary.com等)给出的具体数字口径不同(mean vs median、2025年数据)，但方向一致(outpatient最高→labs→hospitals→physician offices)，无直接矛盾证据，未发现需要修复的问题。"
+    },
+    {
+      "dimension": "内链健康度 / 跨文章一致性（核心发现）",
+      "status": "确认1处问题，已修复",
+      "detail": "grep全站确认surgical-tech-salary/pharmacy-technician-salary/nursing-assistant-salary共3处对本文有真实inbound锚文本链接，非孤儿页。但检查这些桥接句时发现pharmacy-technician-salary一文声称phlebotomist'unlike pharmacy technicians, typically requires completing a postsecondary certificate program rather than qualifying with a high school diploma alone'，与本文自身'两条真实路径'的核心论点矛盾（本文明确写明HS diploma+OJT是真实存在的路径，非certificate的附属/例外情况）。独立agent复核CONFIRMED，已改写pharmacy-technician-salary该句为准确表述，详见wagelark`内容发布日志.md`当日记录。"
+    },
+    {
+      "dimension": "YMYL-adjacent合规风险（本站专属）",
+      "status": "未发现问题",
+      "detail": "全文/FAQ通读未发现收入承诺式表述、培训机构推荐；FAQ第4条明确写'BLS data describes the aggregate labor market, not a recommendation for any specific person'的免责措辞，与本站既有模式一致。"
+    },
+    {
+      "dimension": "EEAT / 竞品差异化",
+      "status": "未发现问题",
+      "detail": "sources含BLS OOH官方页面，正文'两条真实路径+州法差异+职业跳板价值'的组合呈现构成真实增量，非泛泛而谈。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "BLS 2024年5月数据为该站最新可用数据，published距今15天，无需触发刷新。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现问题，无需重写",
+      "detail": "published=2026-08-03，早于08-07全站avoid-ai-writing强制化节点，触发重新扫描。人工通读：无em/en dash、无rule-of-three排比、无套路化收尾/模糊归因，判断已过关。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources仅1条BLS OOH页面链接，curl返回403，与本站既有bls.gov判例一致（已知bot拦截，非真实腐烂），未替换。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "线上JSON-LD实测Article/BreadcrumbList/Dataset/FAQPage/Organization/Person/WebPage均可解析，datePublished/dateModified均为2026-08-03T00:00:00+00:00，与guides.ts的published/updated字段一致（本文自身未修改，未触发updated变更）。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "本地/images/phlebotomist-path.svg存在（1,771字节，非0字节），自制SVG无外部版权依赖。"
+    },
+    {
+      "dimension": "合规/AdSense政策风险",
+      "status": "未发现问题",
+      "detail": "curl实测ads.txt正确指向pub-5245502795720653；/about/、/privacy/均200；全文为百科式职业介绍，无诱导性标题党或暗示性布局。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "curl实测：title 68字符/description约130字符均在建议区间内，单一h1，schema丰富，canonical/ads.txt均正常。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "定性评估达标，未产出量化分数",
+      "detail": "仓库内无量化评分脚本（与既有判例一致）。coreSummary前置✓、FAQ独立自包含且配FAQPage schema✓、具名BLS官方信源✓，判定达标（≥80分档）。"
+    }
+  ],
+  "actions_taken": [
+    "pharmacy-technician-salary.md正文桥接句改写为准确表述phlebotomist的HS-diploma+OJT路径（本文自身内容未改动，updated字段也未变，因为问题在别的文章里）",
+    "pharmacy-technician-salary的updated字段2026-08-05→2026-08-18（published字段已存在，无需回填），改动详情/build/部署/IndexNow均记入wagelark`内容发布日志.md`当日条目"
+  ],
+  "independent_verification": "1条发现spawn了全新独立复核agent（只给两段原文摘录+问题，不透露诊断过程），约10秒完成，CONFIRMED，无卡死。",
+  "seo_score": "本文（how-to-become-a-phlebotomist）未变动，技术项全部通过；pharmacy-technician-salary的seo技术项未受影响（仅改了1句正文+updated字段）",
+  "geo_score": "定性评估达标（≥80分档），仓库内无量化评分脚本",
+  "escalation": null
+}
+```
