@@ -520,3 +520,28 @@ test('spot check: Heating, Air Conditioning, and Refrigeration Mechanics and Ins
 	assert.equal(occ.employmentChange, 34500);
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Independently transcribed by hand from the live BLS OOH Dentists page
+// (https://www.bls.gov/ooh/healthcare/dentists.htm) on 2026-08-18 via
+// r.jina.ai proxy read (direct bls.gov fetch returns 403 for this agent's
+// network path -- same footer confirms "Last modified date: August 28,
+// 2025", matching the same data-freshness date as every other spot check in
+// this file). Figures are for the "Dentists" umbrella occupation (SOC
+// 29-1020, $179,210 median), not the "Dentists, general" sub-detail
+// ($172,790) -- the umbrella figure is what BLS surfaces as Quick Facts.
+// p10 ("earned less than $84,740") and p90 ("earned more than $239,200")
+// are BLS's own bottom/top-coded boundary values, not exact percentiles --
+// carried through as-is per the source page's own wording. Independent of
+// wages-source.json's own numbers -- do not derive these from the source
+// file.
+test('spot check: Dentists (29-1020) matches BLS OOH page', () => {
+	const occ = occupations['29-1020'];
+	assert.equal(occ.medianAnnual, 179210);
+	assert.equal(occ.medianHourly, 86.16);
+	assert.equal(occ.percentiles.p10, 84740);
+	assert.equal(occ.percentiles.p90, 239200);
+	assert.equal(occ.employment, 149300);
+	assert.equal(occ.jobOutlookPct, 4);
+	assert.equal(occ.employmentChange, 5900);
+	assert.equal(occ.industryWages.length, 4);
+});

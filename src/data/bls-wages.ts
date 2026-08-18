@@ -35,6 +35,45 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"29-1020": {
+		socCode: "29-1020",
+		title: "Dentists",
+		medianAnnual: 179210,
+		medianHourly: 86.16,
+		percentiles: {
+			p10: 84740,
+			p90: 239200
+		},
+		employment: 149300,
+		employmentYear: "2024",
+		jobOutlookPct: 4,
+		jobOutlookLabel: "As fast as average",
+		employmentChange: 5900,
+		projectionPeriod: "2024-34",
+		entryEducation: "Doctoral or professional degree",
+		industryWages: [
+			{
+				industry: "Government (excl. state/local education, hospitals)",
+				annualWage: 213210
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 180120
+			},
+			{
+				industry: "Outpatient care centers",
+				annualWage: 179460
+			},
+			{
+				industry: "Offices of dentists",
+				annualWage: 178300
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Dentists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/dentists.htm",
+		publishedDate: "2025-08-28"
+	},
 	"23-1011": {
 		socCode: "23-1011",
 		title: "Lawyers",

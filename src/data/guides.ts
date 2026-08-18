@@ -2204,4 +2204,82 @@ export const guides: Guide[] = [
 		image: '/images/hvac-certification-path.svg',
 		imageAlt: 'Diagram showing the path to HVAC certification: a postsecondary program or apprenticeship, the EPA Section 608 exam (Core plus Type I, II, III, or Universal), an optional state or local license, and optional NATE or manufacturer certification, leading to an HVAC technician earning a median of $59,810 a year per BLS.',
 	},
+	{
+		slug: 'how-long-does-it-take-to-become-a-dentist',
+		category: 'How to Become',
+		title: 'How Long Does It Take to Become a Dentist? DAT, Degree, Exams',
+		description: 'BLS puts the typical path at 8 years: 4 years of undergraduate study plus 4 years of dental school, then licensing exams. Median pay is $179,210 a year.',
+		published: '2026-08-18',
+		updated: '2026-08-18',
+		socCode: '29-1020',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a dentist usually takes 8 years of full-time study after high school: 4 years of undergraduate study followed by 4 years of dental school for a DDS or DMD degree. That degree alone does not permit anyone to practice; nearly every state also requires passing the INBDE and a separate state or regional clinical exam. BLS reports a median annual dentist salary of $179,210 in May 2024, with the bottom 10% earning less than $84,740 and the top 10% earning more than $239,200.',
+		sections: [
+			{
+				heading: 'The 8-year timeline BLS actually gives',
+				body: [
+					"Per BLS, becoming a dentist usually takes 8 years of full-time study after high school: 4 years of undergraduate study followed by 4 years of dental school. Most dental programs require applicants to hold at least a bachelor's degree and to have completed certain science coursework, such as biology or chemistry, though BLS notes no specific undergraduate major is required. Programs award either a Doctor of Dental Surgery (DDS) or a Doctor of Medicine in Dentistry/Doctor of Dental Medicine (DMD). Per the American Dental Association, the two are the same degree under different names, tracing back to how individual universities chose to translate the degree into Latin when dental schools were first founded; both follow the same CODA curriculum standards.",
+					"That 8-year figure covers general dentistry only. Dentists who want to practice a specialty, such as orthodontics or periodontics, need additional postdoctoral training after dental school; per BLS, this is usually a 2- to 4-year residency that often ends in a postdoctoral certificate or master's degree. Oral and maxillofacial surgery runs longer still, typically 4 to 6 years, and BLS notes candidates in that specialty may also earn a joint Doctor of Medicine (M.D.) degree along the way. Dental schools themselves must be accredited by the Commission on Dental Accreditation (CODA), a specialized accrediting agency recognized by the U.S. Department of Education; per the American Dental Association, graduating from a CODA-accredited program is what state boards generally require before a candidate can sit for licensing exams.",
+				],
+				image: {
+					src: '/images/dentist-education-path.svg',
+					alt: "Diagram showing the path to becoming a dentist: a 4-year bachelor's degree, 4 years earning a DDS or DMD at a CODA-accredited dental school, the INBDE plus a state or regional clinical exam, leading to a licensed dentist earning a median of $179,210 a year per BLS.",
+				},
+			},
+			{
+				heading: 'Before dental school: an admissions test that just changed its scale',
+				body: [
+					'Nearly every U.S. dental school requires the Dental Admission Test (DAT), a computer-based exam administered by the American Dental Association that covers Biology, General Chemistry, Organic Chemistry, Perceptual Ability, Reading Comprehension, and Quantitative Reasoning. Admissions committees weigh DAT scores alongside GPA, letters of recommendation, and interviews rather than using the score as a standalone cutoff.',
+					'The scoring scale itself changed recently. Per the ADA, starting March 1, 2025, DAT score reporting moved from a 1-to-30 scale to a new 200-to-600 scale in 10-point increments, with 400 representing roughly average performance among test-takers that year. Candidates can sit for the DAT up to three times without needing special authorization for further retakes, and score validity typically runs 2 to 3 years depending on the dental school.',
+				],
+			},
+			{
+				heading: 'The DDS or DMD does not let anyone practice on its own',
+				body: [
+					'BLS states plainly that dentists must be licensed in the state in which they work, and that requirements vary by state. Most states require a DDS or DMD from an accredited dental program, a passing score on a written exam, and a passing score on a state or regional clinical examination, three separate hurdles rather than one.',
+					"The written component is the Integrated National Board Dental Examination (INBDE), administered by the Joint Commission on National Dental Examinations. It is a two-day digital exam totaling about 12 hours and 30 minutes of administration time, including breaks; per the Joint Commission, it is accepted in all U.S. states and territories as fulfilling all or part of the written exam requirement for licensure. Eligibility is built around graduating from a CODA-accredited program, though the Joint Commission's own candidate guide also documents a separate route for graduates of non-CODA-accredited programs, who qualify through a credential evaluation instead.",
+					"For the separate clinical component, most states rely on a regional testing agency rather than running their own exam. Per the American Board of Dental Examiners, checked directly on 2026-08-18, its ADEX clinical exam is accepted for initial licensure by 48 states plus Washington, D.C. and Puerto Rico. Delaware is the one state that instead runs its own state-administered practical exam. New York does not use a standalone clinical exam at all: per New York Education Law and the state's Office of the Professions, the state eliminated the clinical-exam pathway in 2007 and instead requires a 1-year postgraduate residency program with a built-in competency evaluation before initial licensure.",
+				],
+			},
+			{
+				heading: 'Dentist pay, and where it lands among the other advanced-degree fields on this site',
+				body: [
+					'BLS reports a median annual wage of $179,210 for dentists in May 2024, or $86.16 an hour, a figure covering general dentists together with the smaller population of dental specialists. The bottom 10% earned less than $84,740, and the top 10% earned more than $239,200, the ceiling BLS publishes for this figure rather than an exact top value. By industry, BLS lists government roles, excluding state and local education and hospitals, at the highest median it tracks, $213,210, ahead of offices of physicians at $180,120, outpatient care centers at $179,460, and offices of dentists, the industry employing the largest share of the occupation, at $178,300, the lowest of the four. BLS projects 4% employment growth for dentists from 2024 to 2034, about as fast as average, adding roughly 4,500 openings a year, mostly from workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
+					"Dentists post the highest BLS median among the fields this site has covered so far that BLS itself classifies as requiring a doctoral or professional degree, ahead of [lawyers](/how-long-does-it-take-to-become-a-lawyer/) at $151,160, [pharmacists](/pharmacist-salary/) at $137,480, and [physical therapists](/how-to-become-a-physical-therapist/) at $101,020. One exception worth naming: this site's [CRNA salary guide](/crna-salary/) reports a higher median, $223,210, for nurse anesthetists. BLS's own entry-education table for that occupation still says master's degree, but the field's accrediting body has required a doctoral degree for every newly enrolled student since 2022, so the comparison depends on whether a reader goes by BLS's label or by current practice. Time in school varies too: dentists and physical therapists both run roughly 7 to 8 years past high school combining undergraduate and professional study, lawyers commonly run around 7, and pharmacists can finish in as few as 6 years, since PharmD programs can admit candidates after just two years of prerequisite coursework rather than a full bachelor's degree. A national median folds together every state, specialty, and experience level BLS tracks; it says nothing about what a specific reader would earn, or which of these fields is the sounder financial choice for them individually.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How many years does it take to become a dentist?',
+				answer: "BLS puts the typical timeline at 8 years past high school: a 4-year bachelor's degree, then 4 years of dental school to earn a DDS or DMD. That degree does not put someone in practice on its own; nearly every state also requires passing the INBDE and satisfying a state clinical requirement first.",
+			},
+			{
+				question: 'Do you need the DAT to get into dental school?',
+				answer: 'Nearly every U.S. dental school requires the DAT, administered by the American Dental Association. Per the ADA, the scoring scale changed on March 1, 2025, moving from a 1-to-30 scale to a 200-to-600 scale in 10-point increments, with 400 representing roughly average performance.',
+			},
+			{
+				question: 'Does finishing dental school let you practice right away?',
+				answer: "It does not. Per BLS, every state requires dentists to be licensed, with requirements that vary by state. Candidates need a CODA-accredited dental degree (or a credential-evaluation route for non-CODA-accredited programs), a passing INBDE score, and a state clinical requirement. Most states satisfy that last piece with the ADEX clinical exam; Delaware runs its own practical exam instead, and New York replaced the clinical-exam requirement entirely in 2007 with a 1-year postgraduate residency.",
+			},
+			{
+				question: 'What is the highest-paying industry for dentists?',
+				answer: 'Per BLS May 2024 data, government roles (excluding state and local education and hospitals) post the highest median dentist pay tracked, at $213,210, ahead of offices of physicians at $180,120, outpatient care centers at $179,460, and offices of dentists, the largest employer segment for the occupation, at $178,300.',
+			},
+			{
+				question: 'Is being a dentist a growing career?',
+				answer: 'Yes, at a modest pace. BLS classifies the projected 4% growth for dentists between 2024 and 2034 as about as fast as average, translating to an estimated 5,900 additional jobs and roughly 4,500 openings a year. BLS attributes most of those yearly openings to dentists leaving the occupation, whether by retiring or moving into other work, rather than to newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Dentists (accessed 2026-08-18 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/dentists.htm' },
+			{ label: 'American Dental Association: Understanding the New DAT Score Reporting Scale', url: 'https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/education/dat_scorereportingscale.pdf' },
+			{ label: 'ADEA (American Dental Education Association): ADA DAT FAQ', url: 'https://www.adea.org/godental/Apply/admissions-process/ada-dat-faq' },
+			{ label: 'ADA MouthHealthy: DDS and DMD', url: 'https://www.mouthhealthy.org/all-topics-a-z/dds-and-dmd' },
+			{ label: 'Joint Commission on National Dental Examinations: INBDE', url: 'https://jcnde.ada.org/inbde' },
+			{ label: 'American Board of Dental Examiners: ADEX Acceptance Map (checked 2026-08-18)', url: 'https://adextesting.org/adex-acceptance-map/' },
+			{ label: 'New York State Office of the Professions: Dentistry License Requirements', url: 'https://www.op.nysed.gov/professions/dentists/license-requirements' },
+		],
+		image: '/images/dentist-education-path.svg',
+		imageAlt: "Diagram showing the path to becoming a dentist: a 4-year bachelor's degree, 4 years earning a DDS or DMD at a CODA-accredited dental school, the INBDE plus a state or regional clinical exam, leading to a licensed dentist earning a median of $179,210 a year per BLS.",
+	},
 ];
