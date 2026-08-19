@@ -800,3 +800,40 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "how-to-become-an-ultrasound-tech",
+  "last_audited": "2026-08-19",
+  "published_date": "2026-08-03",
+  "note": "跨站排序：wagelark为10站中此任务last_audited次早的站之一（本轮跨站排序第二个处理，lingogrove为第一个）；站内按'从未审计过'最高优先级+最早published日期选中本文（本站首日发布最早的一批文章之一，34篇文章中25篇从未被本任务审计过）",
+  "diagnosed_checkpoints": [
+    "BLS median annual salary $89,340（2024年5月）及四类行业细分薪资（outpatient/hospitals/physician offices/labs）是否逐字准确，非编造或过时",
+    "13%就业增长率+11,700个新增岗位（2024-2034）预测数字是否准确",
+    "CAAHEP认证机构、ARDMS认证机构名称是否准确（YMYL-adjacent站点，机构名称错误会误导读者）",
+    "SOC code 29-2032是否对应Diagnostic Medical Sonographers"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题，全部核实通过", "detail": "直接curl实时抓取bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm官方原页面（非WebSearch摘要）逐字核对：median annual wage $89,340（2024年5月）、Job Outlook 13%（2024-34, much faster than average）、Employment Change 11,700，四项行业细分薪资Outpatient care centers $123,610/Hospitals $90,070/Offices of physicians $89,450/Medical and diagnostic laboratories $83,200，均与官方页面逐字完全一致，无编造无过时。WebSearch交叉核实SOC code 29-2032对应Diagnostic Medical Sonographers准确；CAAHEP（Commission on Accreditation of Allied Health Education Programs）与ARDMS（American Registry for Diagnostic Medical Sonography）机构全称与常见职能描述准确。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "全篇薪资/前景数字均标注来源为BLS并附访问日期，无泛泛而谈的表述。" },
+    { "dimension": "时效性", "status": "未发现问题，与实时主源一致", "detail": "BLS官网OOH页面截至本次审计（2026-08-19）仍展示2024年5月OEWS数据（尚未更新为更新周期的数据），文章published/updated均为2026-08-03且引用同一批2024年5月数据，与实时主源完全同步，无需更新。第三方聚合站（非BLS官方）搜到的$96,590/11%等数字未经BLS官方页面证实，判定不采信第三方聚合数据、以官方主源实时抓取结果为准。" },
+    { "dimension": "竞品差异化", "status": "未做SERP重新抽查", "detail": "受限于本次运行时间，未跑get_serp_results做竞品实测；文章结构（教育路径+认证+分行业薪资细分+FAQ）具备可验证的具体数据支撑，判定风险较低，留待后续轮次视排名信号决定是否需要专项核查。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "实测live页面：title/canonical自引用/schema(Article+FAQPage+BreadcrumbList+Dataset+Organization+Person+WebPage)均正确渲染，配图ultrasound-tech-path.svg（2218字节）200可访问。" },
+    { "dimension": "GEO审计", "status": "未做逐项打分，结构完整", "detail": "coreSummary定义块+FAQ schema+具体BLS数字与来源标注，结构符合本站已知GEO达标模式，本次未重新逐项打分。" },
+    { "dimension": "早期内容AI味补漏", "status": "未发现问题", "detail": "本文published 2026-08-03早于avoid-ai-writing技能2026-08-07接入，属应检范围；programmatic grep确认全文0处em dash，逐句人工过一遍Tier1/Tier2 AI高频词清单（delve/landscape/robust/leverage/seamless/harness/foster/myriad等）0命中，未发现'not just X'翻案句式或rule-of-three堆砌，文风与本站established基线一致，判定无需改写。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "BLS来源链接200可访问，内容与文中引用完全匹配。" },
+    { "dimension": "内链健康度", "status": "发现轻度问题（非阻塞）：暂无同站其他文章正文手动锚文本链接到本文", "detail": "grep guides.ts确认全站暂无其他文章正文手动链接到/how-to-become-an-ultrasound-tech/。对照8/16对what-does-an-actuary-do的同类审计结论：非真正孤儿页，可通过分类枢纽页+related-guides侧栏轮转+footer导航触达，判定为轻度观察不构成阻塞项，不通过编辑其他文章正文强行插入链接以避免范围蔓延，留待后续内链专项或新文章自然提及时补上。" },
+    { "dimension": "Schema数据一致性", "status": "已确认一致", "detail": "本次未做任何编辑，schema字段与正文/BLS数据保持原有一致状态。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯职业教育信息，无人物/事件/群体敏感表述；结尾FAQ已含'BLS数据描述整体劳动力市场，非针对特定个人的建议'式免责措辞，符合本站YMYL-adjacent固定页脚免责声明纪律。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/ultrasound-tech-path.svg站内自制SVG（非第三方图片），文件存在，live页面200可访问。" },
+    { "dimension": "AdSense政策合规风险", "status": "未发现问题", "detail": "内容无暴力/武器/毒品/赌博等限制类目；ads.txt正确指向pub-5245502795720653；privacy/terms均200可访问；robots.txt对6个AI爬虫UA均Allow。" }
+  ],
+  "actions_taken": [
+    "无需修复：十三维度审查均未发现需要处理的确认问题（内链健康度为轻度非阻塞观察，按站内既有precedent不强行插入链接）",
+    "未修改代码，未触发build/deploy/IndexNow"
+  ],
+  "seo_score": "技术SEO抽查（title/canonical/schema/图片）无问题，未重新打分具体分值",
+  "geo_score": "结构完整（定义块+FAQ schema+数据来源标注），未重新逐项打分",
+  "escalation": null
+}
+```
