@@ -177,5 +177,17 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-19",
+    "action": "submitted",
+    "reason": "今日为既有页pharmacist-salary内容增强（并入how-long-does-it-take-to-become-a-pharmacist，非新页面），URL Inspection确认该URL已'URL is on Google'（已收录），无需提交。改用build-index-queue.py优先级队列候选how-long-does-it-take-to-become-a-dentist，URL Inspection确认'URL is not on Google'（Discovered - currently not indexed），REQUEST INDEXING提交成功确认'Indexing requested'。",
+    "submitted_urls": [
+      "https://wagelark.com/how-long-does-it-take-to-become-a-dentist/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/pharmacist-salary/"
+    ],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
