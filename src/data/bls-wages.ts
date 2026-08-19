@@ -35,6 +35,25 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"35-3011": {
+		socCode: "35-3011",
+		title: "Bartenders",
+		medianAnnual: 33530,
+		medianHourly: 16.12,
+		percentiles: {},
+		employment: 756700,
+		employmentYear: "2024",
+		jobOutlookPct: 6,
+		jobOutlookLabel: "Faster than average",
+		employmentChange: 44800,
+		projectionPeriod: "2024-34",
+		entryEducation: "No formal educational credential",
+		industryWages: [],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Bartenders",
+		sourceUrl: "https://www.bls.gov/ooh/food-preparation-and-serving/bartenders.htm",
+		publishedDate: "2025-08-28"
+	},
 	"29-1020": {
 		socCode: "29-1020",
 		title: "Dentists",

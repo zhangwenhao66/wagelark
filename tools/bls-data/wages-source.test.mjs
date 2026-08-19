@@ -580,3 +580,25 @@ test('spot check: Librarians and Media Collections Specialists (25-4022) matches
 	assert.equal(occ.employmentChange, 2400);
 	assert.equal(occ.industryWages.length, 5);
 });
+
+// Hand-transcribed from the live bls.gov OOH page (Bartenders) on
+// 2026-08-19. Independent of wages-source.json's own numbers.
+test('spot check: Bartenders (35-3011) matches BLS OOH page', () => {
+	const occ = occupations['35-3011'];
+	assert.equal(occ.medianAnnual, 33530);
+	assert.equal(occ.medianHourly, 16.12);
+	// The OOH page's Pay tab publishes only hourly 10th/90th percentiles
+	// ($9.58 / $34.58) for this occupation, not annual ones -- BLS itself
+	// flags that bartender pay includes tips and part-time work is common,
+	// so annualizing hourly*2080 would overstate a derived figure as if it
+	// were BLS's own. Left empty rather than fabricated (same reasoning as
+	// the Surgical Technologists and Nurse Practitioners entries above).
+	assert.deepEqual(occ.percentiles, {});
+	// Same reasoning applies to the industry breakdown: BLS publishes only
+	// median hourly wages by industry for bartenders, not annual ones.
+	assert.deepEqual(occ.industryWages, []);
+	assert.equal(occ.employment, 756700);
+	assert.equal(occ.jobOutlookPct, 6);
+	assert.equal(occ.employmentChange, 44800);
+	assert.equal(occ.entryEducation, 'No formal educational credential');
+});

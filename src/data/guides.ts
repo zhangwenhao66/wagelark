@@ -2371,4 +2371,82 @@ export const guides: Guide[] = [
 		image: '/images/librarian-education-path.svg',
 		imageAlt: "Diagram showing the path to becoming a librarian: a 4-year bachelor's degree, a 1-to-2-year master's in library science (MLS or MLIS), state licensing where the job requires it, leading to a librarian earning a median of $64,320 a year per BLS.",
 	},
+	{
+		slug: 'how-to-become-a-bartender',
+		category: 'How to Become',
+		title: 'How to Become a Bartender: Training, Licensing, and Pay',
+		description: "BLS says bartenders typically need no formal education, just a few weeks of on-the-job training and a state responsible-server course. Median pay is $33,530 a year.",
+		published: '2026-08-19',
+		updated: '2026-08-19',
+		socCode: '35-3011',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, bartenders typically need no formal education credential, just a few weeks of on-the-job training in recipes, bar setup, and customer service, plus experience in a related occupation such as serving food. Most states also require a responsible-server course before someone can pour alcohol for pay, though the specific program and its name vary by state. BLS reports a median annual wage of $33,530 in May 2024, or $16.12 an hour including tips, with 6% employment growth projected through 2034.',
+		sections: [
+			{
+				heading: 'What BLS says it actually takes to start',
+				body: [
+					"Per BLS, bartenders typically need no formal education credential to enter the occupation, though some employers prefer or require a high school diploma. There is no related-work-experience requirement either, but BLS notes that many employers prefer candidates who already have food-service experience, in roles such as waiter, waitress, or bartender helper. Some aspiring bartenders instead attend a bartending school or take a course at a community college first; these programs typically cover mixing cocktails, serving customers, and setting up a bar, and BLS notes some schools help graduates find jobs, though attending one is optional rather than a BLS-stated requirement.",
+					'On-the-job training is the part BLS describes as the norm: a few weeks under an experienced bartender learning cocktail recipes, bar-setup procedures, and customer service, including how to handle unruly customers. Where bartenders also serve food, BLS says training can extend to teamwork and food-handling procedures. Some employers instead use self-study materials, such as videos and instructional booklets, to teach the same skills. Most states require anyone serving alcoholic beverages to be at least 18 years old, and BLS notes bartenders must know the state and local laws governing alcohol sales in whichever jurisdiction they work.',
+				],
+				image: {
+					src: '/images/bartender-path.svg',
+					alt: 'Diagram showing the path to becoming a bartender: no formal education required, an optional entry role or bartending course, a few weeks of on-the-job training, then a working bartender earning a median of $33,530 a year per BLS, once any state-required server training is complete.',
+				},
+			},
+			{
+				heading: 'The step that varies by state: responsible-server training',
+				body: [
+					'BLS states that many states and localities require bartenders to complete a responsible-server course, typically covering the laws around selling alcohol, responsible serving practices, and conflict management, and that professional certification, while optional, may demonstrate basic competency to an employer; BLS points readers to CareerOneStop, a U.S. Department of Labor resource, for information on available certifications. What BLS does not spell out is how much this varies by state, so this section checks that pattern against a second, independent source rather than assuming BLS\'s general description applies uniformly everywhere.',
+					"Some states run their own named program: Texas ties its TABC seller/server certification to a \"Safe Harbor\" liability defense for the employer under state alcohol law, so a business that wants that protection must certify every alcohol-handling employee within 30 days of hire, which in practice means nearly every Texas bartender ends up TABC-certified even though the certification itself is not a direct criminal mandate on the individual server; California requires Responsible Beverage Service (RBS) training and a passing exam directly of the server, typically within 60 days of the first day of work, with the credential valid for three years; Washington requires a Mandatory Alcohol Server Training (MAST) permit, typically within 60 days of hire; and Illinois requires certification under its Beverage Alcohol Sellers and Servers Education and Training (BASSET) program, typically within 120 days of hire. Other states have no statewide mandate at all, though a city or county within that state may still require training on its own. Because the rule, the program name, and the compliance window differ by state, and in some cases by city, a bartender needs to confirm the specific requirement with their own state's alcohol control agency rather than assume a single national standard, the same caveat BLS gives for state licensing throughout its occupational profiles.",
+				],
+			},
+			{
+				heading: 'Pay: what the numbers cover, and what they leave out',
+				body: [
+					'BLS reports a median hourly wage of $16.12 for bartenders in May 2024, equivalent to $33,530 a year, below the $23.80 median hourly wage across all occupations in the economy. These figures include tips: tipped employees earn at least the federal minimum wage, paid as some combination of direct wages and tips depending on the state, and the U.S. Department of Labor\'s Wage and Hour Division maintains a state-by-state list of minimum wages for tipped employees. The 10th percentile earned less than $9.58 an hour, and the 90th percentile earned more than $34.58, a spread of more than 3.5 times between the bottom and top of the range.',
+					"BLS does not publish an annual figure for those percentile boundaries or for its industry breakdown on this occupation, only hourly ones, which this page reports as BLS gives them rather than converting to an assumed full-time annual number. That gap reflects a real feature of the job: BLS separately notes that bartenders often work late evenings, weekends, and holidays, and that part-time work is common with schedules that vary, so a straight hourly-times-2080 conversion would imply a full-time year that many bartenders do not actually work. By industry, BLS reports the highest hourly median in traveler accommodation ($17.18), followed by full-service restaurants ($16.87), drinking places that serve alcoholic beverages ($15.00), amusement, gambling, and recreation industries ($14.77), and civic and social organizations ($13.18).",
+				],
+			},
+			{
+				heading: 'Outlook, and how the training bar compares to other no-degree paths on this site',
+				body: [
+					'BLS projects 6% employment growth for bartenders from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 44,800 jobs to the 756,700 already employed in 2024. About 129,600 openings are projected each year on average, and BLS attributes most of that to population and income growth increasing demand for food, drinks, and entertainment, particularly at full-service restaurants and breweries, plus continued need to replace workers who transfer to other occupations or leave the labor force.',
+					"Bartending sits at the short end of the training-length spectrum among no-degree occupations covered on this site. BLS lists no formal education requirement and a few weeks of on-the-job training for bartenders, compared with [becoming a CNA](/how-to-become-a-cna/), which requires a federal minimum of 75 hours of state-approved training, and the structured, multi-year apprenticeship model behind a [plumbing apprenticeship](/plumbing-apprenticeship/), which typically runs 4 to 5 years. [Welding](/welder-salary/) lands in between: BLS describes several viable entry routes rather than one standard path, from a few months of employer on-the-job training to a longer vocational program. That shorter training time comes with a lower median: BLS puts the bartender median at $33,530 a year, below the $39,530 BLS reports for nursing assistants and further below the $51,000 median for welders, cutters, solderers, and brazers. BLS data describes national training requirements and pay levels for each occupation; it is not a claim that any one path is the better choice for a given reader.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a bartender?',
+				answer: 'Per BLS, there is no formal education requirement, and on-the-job training typically runs a few weeks. Add time for a state-required responsible-server course where one applies, which in states like Texas and California must be completed within 30 to 60 days of starting the job, and someone can realistically become a working bartender within a couple of months of entering the field.',
+			},
+			{
+				question: 'Do you need a license or certification to be a bartender?',
+				answer: 'It depends on the state. Many states and localities require a responsible-server course before someone can serve alcohol for pay, such as California\'s RBS training, Washington\'s MAST permit, or Illinois\'s BASSET certification, all completed directly by the server. Texas works a bit differently: its TABC certification is tied to a Safe Harbor liability defense for the employer rather than a direct mandate on the server, but because employers rely on that protection, nearly every Texas bartender ends up certified within 30 days of hire anyway. The specific program and compliance window vary by state, and some states have no statewide mandate at all. Professional bartending certification beyond that is optional, per BLS, though it may help demonstrate competency to an employer.',
+			},
+			{
+				question: 'How old do you have to be to bartend?',
+				answer: 'Per BLS, most states require workers who serve alcoholic beverages to be at least 18 years old, though the exact minimum age and any additional restrictions depend on the specific state.',
+			},
+			{
+				question: 'How much do bartenders make?',
+				answer: 'BLS reports a median hourly wage of $16.12 for bartenders in May 2024, equivalent to $33,530 a year, including tips. The bottom 10% earned less than $9.58 an hour, and the top 10% earned more than $34.58. Pay is highest, per BLS industry data, in traveler accommodation ($17.18/hour) and lowest among the tracked industries in civic and social organizations ($13.18/hour).',
+			},
+			{
+				question: 'Is bartending a growing career?',
+				answer: 'Yes, per BLS. It projects 6% employment growth for bartenders from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 44,800 jobs and about 129,600 openings a year on average, driven mostly by population and income growth increasing demand for food, drinks, and entertainment.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Bartenders (accessed 2026-08-19 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/food-preparation-and-serving/bartenders.htm' },
+			{ label: 'Texas Alcoholic Beverage Commission: TABC Certification (independent corroboration of state-by-state responsible-server training variation)', url: 'https://www.tabc.texas.gov/services/tabc-certification/' },
+			{ label: 'California Department of Alcoholic Beverage Control: Responsible Beverage Service (RBS) Training Program', url: 'https://www.abc.ca.gov/licensing/responsible-beverage-service' },
+			{ label: 'Washington State Liquor and Cannabis Board: Get an Alcohol Server Permit (MAST) (independent corroboration of the Washington claim)', url: 'https://lcb.wa.gov/mastrvp/mandatory_alcohol_server_training' },
+			{ label: 'Illinois Liquor Control Commission: BASSET Program (independent corroboration of the Illinois claim)', url: 'https://ilcc.illinois.gov/divisions/education/programs/basset.html' },
+			{ label: 'U.S. Department of Labor, Wage and Hour Division: Minimum Wages for Tipped Employees', url: 'https://www.dol.gov/agencies/whd/state/minimum-wage/tipped' },
+			{ label: 'CareerOneStop (U.S. Department of Labor): Certification Finder', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx' },
+			{ label: 'O*NET OnLine: 35-3011.00 Bartenders', url: 'https://www.onetonline.org/link/summary/35-3011.00' },
+		],
+		image: '/images/bartender-path.svg',
+		imageAlt: 'Diagram showing the path to becoming a bartender: no formal education required, an optional entry role or bartending course, a few weeks of on-the-job training, then a working bartender earning a median of $33,530 a year per BLS, once any state-required server training is complete.',
+	},
 ];
