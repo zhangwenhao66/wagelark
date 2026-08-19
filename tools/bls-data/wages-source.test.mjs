@@ -545,3 +545,38 @@ test('spot check: Dentists (29-1020) matches BLS OOH page', () => {
 	assert.equal(occ.employmentChange, 5900);
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Independently transcribed by hand from the live BLS OOH Librarians and
+// Library Media Specialists page
+// (https://www.bls.gov/ooh/education-training-and-library/librarians.htm),
+// re-verified twice on 2026-08-19: once via direct curl fetch (200 OK) and
+// again independently via r.jina.ai proxy during pre-publish audit. Direct
+// fetch to bls.gov is UA-sensitive for this agent's network path -- a UA
+// string with a declared contact URL (e.g. "Mozilla/5.0 (compatible;
+// WageLarkResearch/1.0; +https://wagelark.com/contact)") consistently
+// returned 200 across repeated attempts, while a plain browser UA, no UA,
+// and a bare "curl/8.0" UA all returned 403 (Akamai block) in the same
+// window -- so a future re-check that gets 403 should try a UA with a
+// contact string before assuming the page moved or BLS tightened blocking.
+// Footer confirms "Last modified date: August 28, 2025", matching the same
+// data-freshness date as every other spot check in this file. The page's
+// own Employment Projections table labels the occupation "Librarians and
+// media collections specialists" under SOC 25-4022 (the 2018 SOC merge of
+// legacy 25-4021 Librarians + 25-9011 Audio-Visual and Multimedia
+// Collections Specialists), independently cross-checked against O*NET
+// OnLine's 25-4022.00 profile. p10 ("earned less than $38,920") and p90
+// ("earned more than $100,880") are BLS's own bottom/top-coded boundary
+// values, not exact percentiles -- carried through as-is per the source
+// page's own wording. Independent of wages-source.json's own numbers -- do
+// not derive these from the source file.
+test('spot check: Librarians and Media Collections Specialists (25-4022) matches BLS OOH page', () => {
+	const occ = occupations['25-4022'];
+	assert.equal(occ.medianAnnual, 64320);
+	assert.equal(occ.medianHourly, 30.92);
+	assert.equal(occ.percentiles.p10, 38920);
+	assert.equal(occ.percentiles.p90, 100880);
+	assert.equal(occ.employment, 142100);
+	assert.equal(occ.jobOutlookPct, 2);
+	assert.equal(occ.employmentChange, 2400);
+	assert.equal(occ.industryWages.length, 5);
+});

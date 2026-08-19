@@ -2294,4 +2294,81 @@ export const guides: Guide[] = [
 		image: '/images/dentist-education-path.svg',
 		imageAlt: "Diagram showing the path to becoming a dentist: a 4-year bachelor's degree, 4 years earning a DDS or DMD at a CODA-accredited dental school, the INBDE plus a state or regional clinical exam, leading to a licensed dentist earning a median of $179,210 a year per BLS.",
 	},
+	{
+		slug: 'how-to-become-a-librarian',
+		category: 'How to Become',
+		title: 'How to Become a Librarian: Degree, Certification, and Pay',
+		description: "BLS says most librarians need a master's degree in library science, usually from an ALA-accredited program after a bachelor's. Median pay is $64,320 a year.",
+		published: '2026-08-19',
+		updated: '2026-08-19',
+		socCode: '25-4022',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, most librarians need a master's degree in library science (an MLS or MLIS), which comes after a bachelor's degree in any field and typically takes 1 to 2 years; the American Library Association notes that most librarian positions call for a program it has accredited. School librarians additionally need state teaching certification, and requirements vary by state. BLS reports a median annual wage of $64,320 in May 2024, with the bottom 10% earning less than $38,920 and the top 10% earning more than $100,880.",
+		sections: [
+			{
+				heading: 'The graduate degree BLS says you need',
+				body: [
+					"Per BLS, librarians typically need a master's degree in library science, generally shortened to MLS; some schools use other names for the same credential, such as Master of Information Studies or Master of Library and Information Studies (MLIS). A bachelor's degree in any major is the entry requirement for these graduate programs, which BLS says usually take 1 to 2 years to complete. Coursework typically covers research methods and strategies, online reference systems, and internet search techniques.",
+					"BLS's occupational profile does not name a specific accrediting body for these graduate programs. The American Library Association, in its own guidance for prospective librarians, states that \"a master's degree in library science (MLS), preferably from an American Library Association (ALA) accredited program, is necessary for most librarian positions in most public, academic, and special libraries,\" and it maintains a directory of the programs it has accredited. School librarians are the exception BLS calls out directly: they may not need an MLS, but typically need a bachelor's or master's degree in a related field along with a teaching certificate, and requirements vary by state.",
+				],
+				image: {
+					src: '/images/librarian-education-path.svg',
+					alt: "Diagram showing the path to becoming a librarian: a 4-year bachelor's degree, a 1-to-2-year master's in library science (MLS or MLIS), state licensing where the job requires it, leading to a librarian earning a median of $64,320 a year per BLS.",
+				},
+			},
+			{
+				heading: 'Licensing depends on where the job is',
+				body: [
+					"Requirements split by setting. For public, academic, and special libraries, BLS says some states also require certification for librarians in public libraries specifically, and directs candidates to check with their state's licensing board rather than assuming a single national rule.",
+					'School librarians, sometimes called school library media specialists, face the most consistent added step: most states require a teaching certificate on top of the library-science coursework, and BLS notes some states require passing a standardized test, which it names as the \"PRAXIS II Library Media Specialist test.\" That naming has since moved on at the test publisher: ETS, which administers the Praxis series, currently lists the relevant assessment as the Praxis School Librarian test, test code 5312, built around the ALA/AASL/CAEP National School Librarian Standards. A state education department may still refer to an older test name or code in its own regulations, so checking directly with the specific state board is the reliable way to confirm which version currently applies.',
+				],
+			},
+			{
+				heading: 'What librarians actually do, and where',
+				body: [
+					"Per BLS, librarians and library media specialists help people find information and conduct research for personal and professional use, with day-to-day duties that include organizing library materials and databases, helping patrons evaluate research and reference materials, reviewing new books and materials for purchase, planning programs such as children's story time, teaching classes on information resources, and supervising library technicians, assistants, and volunteers. In small libraries, one person often handles most of these tasks; in large libraries, staff tend to specialize in one area, such as user services, technical services, or administration.",
+					'BLS groups the work into several types. Public librarians serve their communities broadly, from readers\' advisory to program planning. School librarians work in K-12 settings, teaching students to use library resources and helping teachers find classroom materials. Academic librarians support students, faculty, and staff at colleges and universities, sometimes specializing by subject area. Special librarians work outside school and public systems, inside businesses, law firms, hospitals, and museums, and BLS notes they may need an additional degree in the subject they specialize in; examples include corporate, law, and medical librarians. Most librarians work full time, though part-time work is common, and BLS says the largest employers are local government (32% of jobs) and local elementary and secondary schools (31%).',
+				],
+			},
+			{
+				heading: "Pay, industry mix, and outlook, against other master's-level jobs on this site",
+				body: [
+					'BLS reports a median annual wage of $64,320 for librarians and media collections specialists in May 2024, or $30.92 an hour, above the $49,500 median for all workers that same year. The bottom 10% earned less than $38,920, and the top 10% earned more than $100,880, the boundary figures BLS publishes rather than exact percentile values. By industry, local elementary and secondary schools paid the highest tracked median at $69,880, followed by state colleges and universities at $68,570, private colleges and universities at $66,260, and local government outside of education and hospitals at $60,510.',
+					'BLS projects 2% employment growth for librarians and media collections specialists from 2024 to 2034, which it classifies as slower than average, adding an estimated 2,400 jobs. Despite that limited growth, BLS still projects about 13,500 openings a year on average, since most come from replacing workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
+					"Against other occupations on this site that also require a master's degree to enter, librarians post a noticeably lower median: [physician assistants](/physician-assistant-salary/) report $133,260, [nurse practitioners](/nurse-practitioner-salary/) report $129,210, and [certified registered nurse anesthetists](/crna-salary/) report $223,210, more than triple the librarian figure. BLS does not break down why the gap exists; the comparison describes what BLS's entry-education categories group together, not a claim that any one master's degree is the better investment for a given reader.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a librarian?',
+				answer: "Per BLS, the typical path is about 6 years of full-time study after high school: a 4-year bachelor's degree in any major, followed by a master's degree in library science (MLS or MLIS) that usually takes 1 to 2 years. School librarians may follow a different timeline if their state requires a teaching certificate on top of that coursework.",
+			},
+			{
+				question: 'Do you need a master\'s degree to become a librarian?',
+				answer: "Usually, yes. BLS says librarians typically need a master's degree in library science, and the American Library Association states that most librarian positions require a program it has accredited. The exception is school librarians, who BLS says may not need an MLS but typically need a bachelor's or master's degree in a related field plus a state teaching certificate instead.",
+			},
+			{
+				question: 'What test do school librarians have to pass?',
+				answer: 'It depends on the state. BLS references the "PRAXIS II Library Media Specialist test" as an example some states require. The test publisher, ETS, currently administers this assessment under the name Praxis School Librarian, test code 5312. A specific state\'s licensing rule may still cite an older name or code, so checking with that state\'s education department directly is the reliable way to confirm.',
+			},
+			{
+				question: 'How much do librarians make?',
+				answer: 'BLS reports a median annual wage of $64,320 for librarians and media collections specialists in May 2024 ($30.92 an hour), with the bottom 10% earning less than $38,920 and the top 10% earning more than $100,880. Pay is highest, per BLS industry data, in local elementary and secondary schools ($69,880) and lowest among the tracked industries in web search portals, libraries, archives, and other information services ($59,810).',
+			},
+			{
+				question: 'Is librarian a growing career?',
+				answer: 'Not by much, per BLS. It projects 2% employment growth from 2024 to 2034, slower than the average across all occupations, adding an estimated 2,400 jobs. BLS still projects about 13,500 openings a year on average over that period, mostly from the need to replace librarians who transfer to other work or leave the labor force, such as to retire.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Librarians and Library Media Specialists (accessed 2026-08-19 via direct fetch -- a UA string with a declared contact URL returned 200 consistently, a plain browser UA returned 403 in the same window, data from May 2024)', url: 'https://www.bls.gov/ooh/education-training-and-library/librarians.htm' },
+			{ label: 'American Library Association: Become a Librarian', url: 'https://www.ala.org/educationcareers/libcareers/become' },
+			{ label: 'American Association of Law Libraries: Education requirements for law librarians (independent corroboration of the ALA-accreditation norm)', url: 'https://www.aallnet.org/careers/about-the-profession/education/' },
+			{ label: 'ETS Praxis: School Librarian (5312)', url: 'https://praxis.ets.org/test/school-librarian-5312.html' },
+			{ label: 'East Tennessee State University: School Librarianship Praxis Requirement (independent corroboration of the 5312 test name and code)', url: 'https://www.etsu.edu/coe/cuai/graduate/mediatech/slmpraxisreq.php' },
+			{ label: 'O*NET OnLine: 25-4022.00 Librarians and Media Collections Specialists', url: 'https://www.onetonline.org/link/summary/25-4022.00' },
+		],
+		image: '/images/librarian-education-path.svg',
+		imageAlt: "Diagram showing the path to becoming a librarian: a 4-year bachelor's degree, a 1-to-2-year master's in library science (MLS or MLIS), state licensing where the job requires it, leading to a librarian earning a median of $64,320 a year per BLS.",
+	},
 ];

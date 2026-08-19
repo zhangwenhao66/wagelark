@@ -984,6 +984,48 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
       "sourceUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm",
       "publishedDate": "2025-08-28"
+    },
+    "25-4022": {
+      "title": "Librarians and Media Collections Specialists",
+      "medianAnnual": 64320,
+      "medianHourly": 30.92,
+      "percentiles": {
+        "p10": 38920,
+        "p90": 100880
+      },
+      "employment": 142100,
+      "employmentYear": "2024",
+      "jobOutlookPct": 2,
+      "jobOutlookLabel": "Slower than average",
+      "employmentChange": 2400,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Master's degree",
+      "industryWages": [
+        {
+          "industry": "Elementary and secondary schools; local",
+          "annualWage": 69880
+        },
+        {
+          "industry": "Colleges, universities, and professional schools; state",
+          "annualWage": 68570
+        },
+        {
+          "industry": "Colleges, universities, and professional schools; private",
+          "annualWage": 66260
+        },
+        {
+          "industry": "Local government (excl. education, hospitals)",
+          "annualWage": 60510
+        },
+        {
+          "industry": "Web search portals, libraries, archives, and other information services",
+          "annualWage": 59810
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Librarians and Library Media Specialists",
+      "sourceUrl": "https://www.bls.gov/ooh/education-training-and-library/librarians.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }
