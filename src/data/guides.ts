@@ -177,9 +177,9 @@ export const guides: Guide[] = [
 		title: 'Pharmacist Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS reports a $137,480 median pharmacist salary. See the full wage range by percentile and by industry, from retail pharmacy to hospitals.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-08-19',
 		socCode: '29-1051',
-		coreSummary: 'The median annual wage for pharmacists was $137,480 in May 2024, according to the Bureau of Labor Statistics. The bottom 10% earned less than $86,930 and the top 10% earned more than $172,040. Pay varies meaningfully by setting: ambulatory healthcare services paid the highest industry median at $152,980, well above the $131,640 median at pharmacies and drug retailers, the setting where most pharmacists actually work.',
+		coreSummary: 'The median annual wage for pharmacists was $137,480 in May 2024, according to the Bureau of Labor Statistics. The bottom 10% earned less than $86,930 and the top 10% earned more than $172,040. Pay varies meaningfully by setting: ambulatory healthcare services paid the highest industry median at $152,980, well above the $131,640 median at pharmacies and drug retailers, the setting where most pharmacists actually work. Reaching that pay typically requires six to eight years of school: at least two years of prerequisite coursework followed by a four-year Doctor of Pharmacy program.',
 		sections: [
 			{
 				heading: 'The national numbers',
@@ -196,6 +196,13 @@ export const guides: Guide[] = [
 				],
 			},
 			{
+				heading: 'How long it takes to become a licensed pharmacist',
+				body: [
+					'BLS lists at least two years of prerequisite undergraduate coursework (subjects such as anatomy and physiology, physics, and statistics) as the typical entry point for a Pharm.D. program, though many applicants complete a full four-year bachelor\'s degree before applying, since some schools prefer or require one. The Pharm.D. program itself usually runs four years, so most students spend six to eight years in school total before graduating. The American Association of Colleges of Pharmacy confirms this same structure and notes that a smaller number of programs admit students directly out of high school into six-year combined tracks that fold the prerequisite years and the professional years into one continuous sequence.',
+					'Graduating does not mean practicing yet. Every state requires a license, which means passing the NAPLEX plus a state-specific law exam (commonly the MPJE) and logging a state-set number of supervised intern hours, work most students complete during school rather than after. BLS notes this licensing step typically adds a few more months, not years, to the timeline. Pharmacists aiming for a clinical or hospital specialty often add a one- to two-year residency after the Pharm.D., though it is not required to practice in most general pharmacy roles.',
+				],
+			},
+			{
 				heading: 'Job outlook',
 				body: [
 					'BLS projects 5% employment growth for pharmacists from 2024 to 2034, classified as faster than average, adding about 15,400 jobs over the decade. That is a more moderate growth rate than several other healthcare occupations on this site, in part because retail pharmacy chains have been consolidating locations in some regions even as demand for clinical pharmacist roles in hospitals and specialty care has grown.',
@@ -206,6 +213,10 @@ export const guides: Guide[] = [
 			{
 				question: 'What is the median pharmacist salary?',
 				answer: 'The Bureau of Labor Statistics reports a median annual pharmacist salary of $137,480 in May 2024 ($66.10 per hour).',
+			},
+			{
+				question: 'How long does it take to become a pharmacist?',
+				answer: 'Most pharmacists spend six to eight years in school: at least two years of prerequisite coursework, or a full four-year bachelor\'s degree at schools that require one, followed by a four-year Doctor of Pharmacy program, per BLS and the American Association of Colleges of Pharmacy. A smaller number of schools offer six-year programs that admit students straight out of high school. After graduating, candidates still need to pass licensing exams and log state-required intern hours, which typically adds a few months, and those heading into clinical specialties often add a one- to two-year residency.',
 			},
 			{
 				question: 'Do hospital pharmacists make more than retail pharmacists?',
@@ -221,7 +232,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Pharmacists (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/pharmacists.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Pharmacists (accessed 2026-08-19, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/pharmacists.htm' },
+			{ label: 'AACP: Pharm.D. Program Structures (accessed 2026-08-19)', url: 'https://www.aacp.org/resource/pharmd-program-structures' },
 		],
 		image: '/images/pharmacist-salary-chart.svg',
 		imageAlt: 'Bar chart showing pharmacist annual wage by percentile: 10th percentile $86,930, median $137,480, 90th percentile $172,040, based on BLS May 2024 data.',
