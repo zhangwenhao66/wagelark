@@ -18,7 +18,8 @@
     "verified_status": "pending",
     "note": "discovered 03 Aug 2026, 账龄恰好14天, 逼近阈值, 下次运行大概率转stale",
     "last_checked_date": "2026-08-17",
-    "verified_method": "bwt_url_inspection"
+    "verified_method": "bwt_url_inspection",
+    "last_submitted_date": "2026-08-19"
   },
   "https://wagelark.com/physical-therapist-salary/": {
     "submitted_date": "2026-08-03",
