@@ -1082,6 +1082,44 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Psychologists",
       "sourceUrl": "https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm",
       "publishedDate": "2025-08-28"
+    },
+    "21-1020": {
+      "title": "Social Workers",
+      "medianAnnual": 61330,
+      "medianHourly": 29.49,
+      "percentiles": {
+        "p10": 41580,
+        "p90": 99500
+      },
+      "employment": 810900,
+      "employmentYear": "2024",
+      "jobOutlookPct": 6,
+      "jobOutlookLabel": "Faster than average",
+      "employmentChange": 44700,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Bachelor's or master's degree",
+      "industryWages": [
+        {
+          "industry": "Educational services; state, local, and private",
+          "annualWage": 67620
+        },
+        {
+          "industry": "Local government (excl. education, hospitals)",
+          "annualWage": 65920
+        },
+        {
+          "industry": "State government (excl. education, hospitals)",
+          "annualWage": 59630
+        },
+        {
+          "industry": "Individual and family services",
+          "annualWage": 51430
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Social Workers",
+      "sourceUrl": "https://www.bls.gov/ooh/community-and-social-service/social-workers.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

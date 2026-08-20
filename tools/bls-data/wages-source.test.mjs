@@ -618,3 +618,19 @@ test('spot check: Psychologists (19-3030) matches BLS OOH page', () => {
 	assert.equal(occ.entryEducation, "Master's or doctoral degree");
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Hand-transcribed from the live bls.gov OOH page (Social Workers, the
+// broad-occupation page covering 21-1021/21-1022/21-1023/21-1029) on
+// 2026-08-20. Independent of wages-source.json's own numbers.
+test('spot check: Social Workers (21-1020) matches BLS OOH page', () => {
+	const occ = occupations['21-1020'];
+	assert.equal(occ.medianAnnual, 61330);
+	assert.equal(occ.medianHourly, 29.49);
+	assert.equal(occ.percentiles.p10, 41580);
+	assert.equal(occ.percentiles.p90, 99500);
+	assert.equal(occ.employment, 810900);
+	assert.equal(occ.jobOutlookPct, 6);
+	assert.equal(occ.employmentChange, 44700);
+	assert.equal(occ.entryEducation, "Bachelor's or master's degree");
+	assert.equal(occ.industryWages.length, 4);
+});

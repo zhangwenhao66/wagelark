@@ -2525,4 +2525,81 @@ export const guides: Guide[] = [
 		image: '/images/psychologist-education-path.svg',
 		imageAlt: "Diagram showing the path to becoming a psychologist: a 4-year bachelor's degree, a master's or doctoral graduate degree depending on the track, supervised experience, and the EPPP licensing exam, leading to a working psychologist earning a median of $94,310 a year per BLS.",
 	},
+	{
+		slug: 'how-to-become-a-social-worker',
+		category: 'How to Become',
+		title: 'How to Become a Social Worker: Degree, Licensing, and Pay',
+		description: "BLS says social workers typically need a bachelor's degree for entry roles or a master's for clinical work, plus licensing. Median pay is $61,330 a year.",
+		published: '2026-08-20',
+		updated: '2026-08-20',
+		socCode: '21-1020',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, social workers typically need a bachelor's degree in social work (BSW) for entry-level, nonclinical roles, or a master's degree (MSW) for clinical practice; a bachelor's in social work is not required to enter an MSW program. Per the Association of Social Work Boards (ASWB), which administers the field's licensing exams, candidates sit for one of four exam tiers, Bachelors, Masters, Advanced Generalist, or Clinical, matched to their degree and intended scope of practice. California's Board of Behavioral Sciences lists, as requirements for its LCSW credential, an MSW from a CSWE-accredited program, a minimum of 104 weeks and 3,000 hours of supervised experience, and a passing score on the ASWB Clinical Exam, independently confirming what BLS describes in general terms. BLS reports a median annual wage of $61,330 in May 2024, with the bottom 10% earning less than $41,580 and the top 10% earning more than $99,500.",
+		sections: [
+			{
+				heading: 'Bachelor\'s or master\'s: the degree split BLS describes',
+				body: [
+					"Per BLS, most social workers need either a bachelor's or a master's degree in social work. A Bachelor of Social Work (BSW) is the most common requirement for entry-level, nonclinical positions, and BSW programs cover diverse populations, human behavior, social welfare policy, and ethics, with every program requiring supervised fieldwork or an internship.",
+					"Clinical social workers typically need a Master of Social Work (MSW) instead, which BLS says generally takes about 2 years and includes a supervised practicum or internship, building clinical assessment and diagnostic skills for a chosen specialty. A bachelor's degree in social work is not a prerequisite for entering an MSW program; BLS notes a bachelor's in almost any field is acceptable, though common majors include public policy, psychology, and social science, with coursework in sociology, economics, and political science recommended. Some programs let graduates who already hold a BSW finish their MSW in under 2 years. The Council on Social Work Education (CSWE) is the field's own accrediting body for both BSW and MSW programs, maintaining a directory of programs it has accredited, a distinction BLS's occupational profile references only as \"an accredited program\" without naming CSWE directly.",
+				],
+				image: {
+					src: '/images/social-worker-path.svg',
+					alt: "Diagram showing the path to becoming a social worker: a 4-year bachelor's degree, an optional CSWE-accredited master's degree for clinical practice, supervised experience, and an ASWB licensing exam, leading to a working social worker earning a median of $61,330 a year per BLS.",
+				},
+			},
+			{
+				heading: 'What licensing actually requires: supervised hours and an exam',
+				body: [
+					"Per BLS, all states require clinical social workers to be licensed, and some states also require nonclinical social workers to hold a license or credential. Becoming a licensed clinical social worker requires an MSW from an accredited program, supervised clinical experience after graduation, and passing a clinical exam; because licensing requirements vary by state, BLS directs candidates to their state's licensure board. ASWB, the organization that develops and administers the exams named in state law, describes licensing itself as a near-universal fact of professional life in the field, though on its own site it frames the specifics more cautiously than a single national rule: in most jurisdictions the title \"social worker\" is legally protected, and requirements, while substantially similar across states and provinces, are set individually by each jurisdiction's own social work board.",
+					'ASWB administers four exam categories tied to degree and license level: Bachelors and Masters exams (each $230 as of the current fee schedule) for BSW- and MSW-level licensure, and Advanced Generalist and Clinical exams (each $260) for non-clinical and clinical advanced practice. Each exam covers the same three content domains regardless of tier, with 122 total questions, 110 of them scored. The California Board of Behavioral Sciences (BBS), the state agency that actually issues the license, lays out a matching set of requirements for its own Licensed Clinical Social Worker (LCSW) credential, independently of ASWB: an MSW from a CSWE-accredited program, a minimum of 104 weeks (2 years) and 3,000 hours of post-degree supervised experience, a passing score on the ASWB Clinical Exam, and a separate state law and ethics exam BBS runs on its own. That independent state-agency confirmation matches BLS\'s general description of what a clinical license requires; Texas\'s own licensing board, the Texas State Board of Social Worker Examiners, likewise directs its applicants to ASWB for the required exam, corroborating the same pattern in a second state. Requirements still vary: each state sets its own supervised-hour minimums and may add its own state-specific exam, so confirming with the specific board where someone intends to practice remains the reliable step BLS and ASWB both point to.',
+				],
+			},
+			{
+				heading: 'What social workers actually do, and where the jobs are',
+				body: [
+					'Social workers held about 810,900 jobs in 2024, per BLS, split across four detailed occupations: child, family, and school social workers accounted for 399,900 of those jobs, the largest group by a wide margin, followed by healthcare social workers at 193,200, mental health and substance abuse social workers at 136,800, and "social workers, all other" at 81,000. Child, family, and school social workers help protect vulnerable children and support families, working in settings that include child welfare agencies, schools, and courts; some investigate reports of abuse or neglect, others help arrange adoption or foster care. Healthcare social workers help patients and their families understand and cope with illnesses or disabilities, often coordinating discharge planning and connecting patients to community resources from within hospitals and other medical settings. Mental health and substance abuse social workers assess and treat individuals with mental illness or substance use disorders, providing therapy and case management, sometimes alongside psychologists and counselors. The "all other" category groups specialties BLS tracks separately from those three, including social workers in policy, research, and administrative roles.',
+					'Per BLS, the largest employers of social workers were individual and family services (17% of jobs), followed by local government excluding education and hospitals (14%), state government excluding education and hospitals (12%), educational services (9%), and community food and housing, emergency, and other relief services, including vocational rehabilitation services (3%). Most social workers work in an office setting but also spend time visiting clients and meeting with colleagues and community specialists; some, particularly in child welfare, carry large caseloads that BLS notes can make the work stressful.',
+				],
+			},
+			{
+				heading: "Pay, by specialty and industry, against similar-pay and similar-degree paths on this site",
+				body: [
+					'BLS reports a median annual wage of $61,330 for social workers overall in May 2024, or $29.49 an hour, above the $49,500 median for all workers that year. The bottom 10% earned less than $41,580, and the top 10% earned more than $99,500, the boundary figures BLS publishes rather than exact percentile values. That overall median blends specialties with different typical entry paths: "social workers, all other" post the highest tracked median at $69,480, followed by healthcare social workers at $68,090 and mental health and substance abuse social workers at $60,060, while child, family, and school social workers, the largest group by employment at 399,900 jobs, post the lowest specialty median of the four at $58,570.',
+					'By industry, BLS reports the highest median pay for social workers in educational services at $67,620, ahead of local government at $65,920, state government at $59,630, and individual and family services at $51,430, the lowest of the tracked industries despite employing the largest single share of social workers, 17%. BLS projects 6% employment growth for social workers from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 44,700 jobs to the 810,900 already employed, with about 74,000 openings projected each year on average, mostly from the need to replace social workers who transfer to other occupations or leave the labor force.',
+					"Against other occupations this site tracks, the social worker median sits close to [paralegals](/how-to-become-a-paralegal/) at $61,010, an occupation with no state licensing requirement at all, and below [librarians](/how-to-become-a-librarian/) at $64,320 and [psychologists](/how-to-become-a-psychologist/) at $94,310, both of which typically require a master's degree or higher. The near-identical pay next to paralegals, despite social work's heavier licensing burden in most states, illustrates that BLS's median wage reflects what employers actually pay for a role, not a return on the credentialing or supervised-hours investment a particular license requires.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a social worker?',
+				answer: "It depends on the track. Per BLS, entry-level, nonclinical roles typically need a 4-year Bachelor of Social Work (BSW). Clinical practice typically needs a Master of Social Work (MSW), generally another 2 years after a bachelor's degree in any field, plus supervised clinical experience after graduation before independent licensure; California, for example, requires a minimum of 104 weeks (2 years) and 3,000 hours of that supervised experience, per its Board of Behavioral Sciences.",
+			},
+			{
+				question: 'Do you need a master\'s degree to become a social worker?',
+				answer: "Not always. Per BLS, a Bachelor of Social Work (BSW) is the most common requirement for entry-level, nonclinical positions. A Master of Social Work (MSW) is typically required for clinical social work, which involves diagnosing and treating mental, emotional, and behavioral issues. A BSW is not a prerequisite for entering an MSW program; BLS says a bachelor's in almost any field is acceptable.",
+			},
+			{
+				question: 'What exam do you need to pass to become a licensed social worker?',
+				answer: "Per the Association of Social Work Boards (ASWB), which develops and administers the exams, candidates take one of four categories, Bachelors, Masters, Advanced Generalist, or Clinical, matched to their degree and the license they're pursuing. Clinical practice requires the Clinical exam. California's LCSW credential is one documented example: its Board of Behavioral Sciences requires the ASWB Clinical Exam plus a separate state law and ethics exam of its own. Other states set their own requirements, so confirming with the specific licensing board where someone intends to practice is the reliable way to check.",
+			},
+			{
+				question: 'How much do social workers make?',
+				answer: "BLS reports a median annual wage of $61,330 for social workers in May 2024 ($29.49 an hour), with the bottom 10% earning less than $41,580 and the top 10% earning more than $99,500. Pay varies by specialty: \"social workers, all other\" and healthcare social workers post the highest tracked medians, $69,480 and $68,090, while child, family, and school social workers, the field's largest group by employment, post the lowest at $58,570.",
+			},
+			{
+				question: 'Is social work a growing career?',
+				answer: "Yes. BLS projects the field will add about 44,700 jobs between 2024 and 2034, a 6% increase that outpaces the roughly 3% average projected across all occupations, bringing total employment to roughly 855,600. Most of the 74,000 openings BLS expects each year, though, will come from replacing social workers who leave the field or retire rather than from newly created positions.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Social Workers (accessed 2026-08-20 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/community-and-social-service/social-workers.htm' },
+			{ label: 'ASWB (Association of Social Work Boards): Social Work Licensing Exam', url: 'https://www.aswb.org/exam/' },
+			{ label: 'ASWB: Becoming a Licensed Social Worker', url: 'https://www.aswb.org/students/' },
+			{ label: 'California Board of Behavioral Sciences: Licensed Clinical Social Worker requirements (independent corroboration of the ASWB Clinical Exam and supervised-experience minimum, for one specific jurisdiction)', url: 'https://www.bbs.ca.gov/applicants/lcsw.html' },
+			{ label: 'CSWE (Council on Social Work Education): Accreditation', url: 'https://www.cswe.org/accreditation/' },
+			{ label: 'Texas Behavioral Health Executive Council: ASWB Licensure Examinations (independent corroboration of the ASWB exam requirement, for a second jurisdiction)', url: 'https://bhec.texas.gov/texas-state-board-of-social-worker-examiners/aswb-licensure-examinations/' },
+		],
+		image: '/images/social-worker-path.svg',
+		imageAlt: "Diagram showing the path to becoming a social worker: a 4-year bachelor's degree, an optional CSWE-accredited master's degree for clinical practice, supervised experience, and an ASWB licensing exam, leading to a working social worker earning a median of $61,330 a year per BLS.",
+	},
 ];
