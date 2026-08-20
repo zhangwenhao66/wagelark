@@ -135,5 +135,53 @@
     ],
     "backlog_note": "撰写本条时发现 outreach-drafts.md 里同日还有另一个任务（trafficsite-broken-link-building）留下的3份 PENDING INDEPENDENT REVIEW 草稿（CSRT放射技师州协会断链、NALA职业页、alliedhealthprograms.org超声技师页），不在本任务（guest-post-outreach）范围内，未处理，仅记录发现供后续追踪。目标完全不重叠（不同收件人/不同域名）。",
     "result_summary": "本轮新研究1个渠道并发送成功（Seminole State College）。GSC数据仍无可用排名信号（全站28天0点击），按任务指示改用主题相关性研究。未发现需 Owen 亲自处理的事项。"
+  },
+  {
+    "date": "2026-08-20",
+    "site": "wagelark",
+    "niche_focus": "career/salary reference (BLS-sourced salary guides, career-combination pages, \"what does X do\", entry paths, minimum wage)",
+    "run_type": "trafficsite-guest-post-outreach weekly cycle",
+    "step_b_backlink_verification": [
+      {
+        "target": "Good Professions (goodprofessions.com), pitch sent 2026-08-04",
+        "verified_status": "still_pending",
+        "notes": "WebSearch site: and topic queries found nothing on goodprofessions.com. Checked post-sitemap.xml directly: most recent post 2026-08-11 is an unrelated topic (student resume/LinkedIn); no post matching the pitched allied-health-no-degree angle exists at all. Site is actively publishing (recent posts confirmed) on other topics, so this is not a dead-site false negative, just no evidence of acceptance either way 16 days post-pitch. dataforseo_query.py backlinks wagelark.com returned 0 total backlinks (domain too new for DataForSEO's index, uninformative either way). Recommend re-checking in 1-2 weeks before classifying as declined."
+      },
+      {
+        "target": "CareerBands (careerbands.com), pitch sent 2026-08-04",
+        "verified_status": "still_pending",
+        "notes": "Same method as Good Professions: WebSearch found nothing; post-sitemap.xml most recent posts (2026-08-09) are unrelated topics (consumer services career path, capital goods careers); no post matching the pitched employer-type-wage-differences angle exists. Site actively publishing on other topics. No backlink evidence either way from dataforseo_query.py (0 total backlinks site-wide). Recommend re-checking in 1-2 weeks."
+      }
+    ],
+    "backlog_check": "Read outreach-drafts.md in full. No pending guest-post-outreach-specific backlog record with status 'viable — pitch drafted, not sent' found (the 3 broken-link drafts appended 2026-08-16 belong to the separate trafficsite-broken-link-building task, not this task, and were already logged as out-of-scope in the 2026-08-16 entry above).",
+    "gsc_check": "python3 gsc_query.py wagelark: 28-day total 0 clicks / 4,166 impressions, avg position 16.4 — still no click signal site-wide. Position 5-40 band pages not yet used in a prior pitch: nurse-practitioner-salary (pos 11.1, 462 impr, highest-volume unused page), welder-salary (pos 10.3), plumbing-apprenticeship (pos 13.9), respiratory-therapist-salary (pos 19.1), pharmacy-technician-salary (pos 30.2), air-traffic-controller-salary (pos 22.2), how-much-do-flight-attendants-make (pos 18.9). Did not end up driving this round's topic choice (see channels_researched) — used site relevance instead, since the strongest new pitch opportunity found was for a page (how-to-become-a-lineman) too new to have GSC data yet.",
+    "channels_researched": [
+      {
+        "name": "CareerAddict (careeraddict.com)",
+        "url": "https://www.careeraddict.com/publish",
+        "status": "viable — pitch drafted, NOT sent (pending independent review per task scope) — pitch sent",
+        "notes": "Established, actively publishing career-advice media site (confirmed via WebSearch: 2026 posts on in-demand jobs, highest-paying jobs, salary calculators). Real editorial process — in-house design team commissions illustrations, requires proof of qualifications/identity before commissioning a full piece — not a content mill. Primary submission path appears to be a form (per WebSearch summary of the /publish page); curl to the page returned HTTP 403 (Cloudflare) with two user agents so the page text could not be directly verified. editor@careeraddict.com is publicly listed as the submission-guide contact and was used as the pitch channel per this project's precedent (email a topic pitch when a working address exists, even if a form also exists), flagged as a lower-confidence point on submission mechanics. Angle: how-to-become-a-lineman (published today, 2026-08-20) shows linemen as the highest-paid no-degree trade this site tracks ($92,560 median vs. $62,970 plumbers, $62,350 electricians, $51,000 welders, all May 2024 BLS), a genuinely new angle not reused from the 8/4 or 8/16 pitches. Dedup via gmail_send.py returned empty. Draft in outreach-drafts.md, humanizer + avoid-ai-writing both applied during drafting. [Top-level orchestrator independent review 2026-08-20: confirmed editor@careeraddict.com is the official pitch contact (site's own /publish and /submission-guide pages), all BLS figures verified verbatim against how-to-become-a-lineman entry in guides.ts, dedup clean. Sent via gmail_send.py --from wagelark. Message ID 1a01f3aebe028d75.]"
+      },
+      {
+        "name": "todaycut.com (\"Jobs, Career, Education, Recruitment Guest Post Site\")",
+        "url": "https://todaycut.com/write-for-us/",
+        "status": "real but quality red flag — not pursued",
+        "notes": "Site's own schema.org description self-labels as a 'Guest Post Site' rather than an editorial publication; homepage post topics are a generic grab-bag (online MBA worth it, static guest posting investment, job description templates) inconsistent with genuine focused editorial coverage. Pattern matches the previously-identified 'thin content mill' red flag (same category as Selecting Career, School of Health Care / Training Tale from earlier rounds). Confirmed free (no paid-placement language found), but skipped on quality grounds, not cost. Not pursued."
+      },
+      {
+        "name": "Admin Avenues (adminavenues.com)",
+        "url": "https://adminavenues.com/write-for-us/",
+        "status": "real but poor fit — audience mismatch, not pursued",
+        "notes": "Real, active site but is an Australian admin-professionals job board/community (WorkScout job-board theme, 'Where Australia's Admin Community Connects'), not a career-advice editorial blog and not a US-audience match for a BLS-wage-data reference site. Not pursued."
+      },
+      {
+        "name": "Community-college / university program resource pages (nurse practitioner, respiratory therapy) — broken-link scan",
+        "url": "e.g. https://hrs.osu.edu/academics/undergraduate-programs/respiratory-therapy/helpful-resources",
+        "status": "no viable broken-link opportunity found this round",
+        "notes": "Searched several .edu nurse-practitioner and respiratory-therapy program resource/links pages looking for a Seminole-State-style dead link. Checked OSU's Respiratory Therapy 'Helpful Resources' page (long list of professional-org links) for dead links via curl status checks on 8 of the older/odder-looking entries; none returned a confirmed dead status (some 403s from WAFs, rest 200). Page is also a weaker topical match than the paralegal case (clinical/professional-org links, not wage-data links). No pitch drafted."
+      }
+    ],
+    "actions_taken": "Verified 2 oldest unconfirmed 'pitch sent' entries (Good Professions, CareerBands, both 2026-08-04) against live publication — both still_pending, no evidence of a published post or backlink either way. Checked outreach-drafts.md for a guest-post-outreach-specific backlog — none found (found but correctly left alone 3 broken-link drafts belonging to a different task). Ran GSC, noted unused position-5-40 pages for future rounds. Researched new channels: found and drafted 1 viable pitch (CareerAddict), rejected 2 for quality/fit reasons (todaycut.com content-mill pattern, Admin Avenues audience mismatch), and found no broken-link opportunity on the .edu resource pages checked this round.",
+    "result_summary": "Step B: both verified pitches still_pending (no publication evidence either way at 16 days; recommend re-check in 1-2 weeks). No current backlog. 1 new viable pitch researched and drafted (CareerAddict, lineman no-degree-trade wage-comparison angle) but not sent — left for independent review/send in a separate step, per this run's scope. No Owen escalation needed this round."
   }
 ]

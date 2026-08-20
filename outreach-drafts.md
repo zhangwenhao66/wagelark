@@ -344,3 +344,32 @@ contact@wagelark.com
 全新独立复核agent（run_in_background，无本次会话任何上下文，仅给邮件正文+收件人+六项复核清单）用时约111秒、15次工具调用，逐项核实：(a) 14天查重：`gmail_send.py list --query "to:jessica@workology.com"`与`to:workology.com`均返回`[]`，本账号从未联系过该收件人/域名；(b) 四个数据点逐一对照`src/data/guides.ts`源文件核实：electrician-salary（约1400-1430行）median $62,350、高中文凭+无需大专学历+4-5年学徒制；firefighter-salary（约1472-1502行）median $59,530、高中文凭+无需大学学位+消防学院培训；how-to-become-a-cna（约1259-1293行）median $39,530、联邦75小时下限（42 CFR § 483.152）；medical-assistant-salary（约1124-1157行）median $44,200、通常需大专证书——数字与入行要求表述均逐字核实一致；(c) YMYL检查通过：全篇聚合/描述性表述，无个性化建议语言，明确声明"stay away from personalized pay or career advice"，所有数字均归因BLS；(d) 独立WebSearch复核activity/fit：episode 450确认于2026-08-13发布（发信前3天）、确实录制于WorldatWork Total Rewards Conference（San Antonio），嘉宾Dami Akinduro（Equinix Head of Global Benefits, Wellbeing & Recognition）身份核实无误；主播Jessica Miller-Merrell核实为独立HR顾问/分析师（SPHR/SHRM-SCP，Workology创始人），非薪酬软件供应商，与独立BLS薪资数据站无利益冲突；jessica@workology.com核实为其创始人本人邮箱，非虚构；(e) 判定为真实定制pitch，非模板套用；(f) humanizer扫描：无破折号、无AI高频词（delve/leverage/robust/testament to等）、无聊天机器人套话，四职业对比是实质数据非排比堆砌。六项检查全部通过，零问题。
 
 **发送记录**：2026-08-16 由 `gmail_send.py send --from wagelark` 发出，收件人 jessica@workology.com，From头确认为`WageLark <contact@wagelark.com>`（wagelark别名确认正常工作，非本次运行前8/4那次的静默回退主账号情况），Message ID `1a0097e61055d549`。
+
+## 2026-08-20 — Guest-post pitch: CareerAddict (careeraddict.com)
+
+- Channel: CareerAddict, established career-advice media site (in-demand-jobs/salary content, in-house design team, editorial review process for accepted pitches, may require proof of qualifications/identity before a full draft is commissioned). Primary submission path per publicly available guidance is a form at careeraddict.com/publish, but editor@careeraddict.com is publicly listed as the contact for submission-guide questions; used as the pitch channel per this project's established precedent of emailing a topic pitch first when a working editor address exists, consistent with prior CareerEnlightenment/Debut Careers handling (skip only when no email exists at all, not merely because a form also exists).
+- Activity verification: WebSearch confirmed active 2026 publishing on salary/in-demand-jobs topics ("20 Most In-Demand Jobs to Consider for 2026", "20 Highest-Paying IT & Tech Jobs for 2026", "15+ Best Salary Calculators and Comparison Tools" dated 2026-03-10), so this is a real, currently active editorial site, not a directory or content mill.
+- curl to careeraddict.com/publish returned HTTP 403 (Cloudflare bot check) with two different user agents, so page text could not be verified directly; submission details above are sourced from WebSearch result summaries of that page, not a direct read. Flagged as lower-confidence on the exact submission mechanics for that reason.
+- Content/data source: `src/data/guides.ts` `how-to-become-a-lineman` entry (published 2026-08-20, today), lines ~2606-2680. Numbers used: lineman median $92,560/yr (May 2024 BLS), vs. plumbing-apprenticeship median $62,970, electrician-salary median $62,350, welder-salary median $51,000 (all May 2024 BLS, cross-checked against those guides' own entries in the same file). Apprenticeship detail (roughly 7,000 on-the-job hours, two named regional sponsors, CDL requirement) taken verbatim from the same guide entry's sourced text.
+- Angle is new this round: no-degree trades pay comparison with lineman as the top earner, not reused from the 8/4 (allied-health/employer-type) or 8/16 (electrician/firefighter vs. CNA/medical-assistant) pitches — different occupations and a different comparison axis (within-trades ranking, not trades-vs-healthcare).
+- Dedup: `gmail_send.py list --query "to:editor@careeraddict.com"` returned `[]`.
+- YMYL check: no personalized career/income advice, no training-program recommendation, all figures attributed to BLS with the May 2024 reference period.
+
+**Draft email (NOT SENT — pending review/send by a separate step):**
+
+Subject: Pitch idea: the no-degree trade that out-earns electricians
+
+Hi,
+
+I run wagelark.com, a reference site built on BLS occupational wage data. I noticed CareerAddict covers in-demand jobs and high-paying roles that don't require a degree, and I have a data point from a page I just finished that might fit that beat.
+
+BLS lists electrical power-line installers and repairers (linemen) as needing only a high school diploma, the same entry bar as electricians, plumbers, and welders. But the pay gap between linemen and those other no-degree trades is large: median $92,560 a year for linemen versus $62,970 for plumbers and pipefitters, $62,350 for electricians, and $51,000 for welders, all May 2024 BLS figures. Two regional apprenticeship sponsors I checked, Southwest Line Constructors and IBEW Local 1186 in Hawaii, both put the on-the-job training at roughly 7,000 hours, plus classroom hours that vary by sponsor. A commercial driver's license is typically required too.
+
+I'd want to write this as the highest-paying trade that doesn't require a degree, using BLS's percentile breakdown and the apprenticeship requirements from those two sponsors, and note where the site's other no-degree trade pages (electrician, plumbing, welder) sit for comparison. No income promises or personalized career advice, just what BLS actually reports.
+
+Let me know if that's a fit for CareerAddict.
+
+Owen Zhang
+contact@wagelark.com
+
+**Status: drafted this run, not independently reviewed or sent.** Per task scope for this run (research/verify/draft only — a separate step reviews and sends), this pitch was not sent. Before sending: spawn an independent review agent per standard process (14-day dedup already checked clean; still needs AI-tone re-check + numbers cross-check by a fresh reviewer per established protocol), and note the lower-confidence flag on submission mechanics above (form-primary site, email used based on precedent) in case Owen wants to check the actual /publish page manually before sending.
