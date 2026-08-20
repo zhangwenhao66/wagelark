@@ -1044,6 +1044,44 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Librarians and Library Media Specialists",
       "sourceUrl": "https://www.bls.gov/ooh/education-training-and-library/librarians.htm",
       "publishedDate": "2025-08-28"
+    },
+    "19-3030": {
+      "title": "Psychologists",
+      "medianAnnual": 94310,
+      "medianHourly": 45.34,
+      "percentiles": {
+        "p10": 54860,
+        "p90": 157330
+      },
+      "employment": 204300,
+      "employmentYear": "2024",
+      "jobOutlookPct": 6,
+      "jobOutlookLabel": "Faster than average",
+      "employmentChange": 11800,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Master's or doctoral degree",
+      "industryWages": [
+        {
+          "industry": "Government (excl. state/local education, hospitals)",
+          "annualWage": 126990
+        },
+        {
+          "industry": "Ambulatory healthcare services",
+          "annualWage": 96960
+        },
+        {
+          "industry": "Hospitals; state, local, and private",
+          "annualWage": 96060
+        },
+        {
+          "industry": "Elementary and secondary schools; local",
+          "annualWage": 85920
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Psychologists",
+      "sourceUrl": "https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

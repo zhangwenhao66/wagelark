@@ -2449,4 +2449,80 @@ export const guides: Guide[] = [
 		image: '/images/bartender-path.svg',
 		imageAlt: 'Diagram showing the path to becoming a bartender: no formal education required, an optional entry role or bartending course, a few weeks of on-the-job training, then a working bartender earning a median of $33,530 a year per BLS, once any state-required server training is complete.',
 	},
+	{
+		slug: 'how-to-become-a-psychologist',
+		category: 'How to Become',
+		title: 'How to Become a Psychologist: Degree, Licensing, and Pay',
+		description: "BLS says psychologists typically need a master's or doctoral degree, plus state licensing that includes passing an exam. Median pay is $94,310 a year in May 2024.",
+		published: '2026-08-20',
+		updated: '2026-08-20',
+		socCode: '19-3030',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, psychologists typically need an advanced degree, either a master's or a doctoral degree in psychology, and licensure is required in every state for those who practice independently. Clinical and counseling psychologists, the field's largest single group, typically need a Ph.D. or Psy.D.; industrial-organizational and school psychologists can typically enter with a master's degree. Per the Association of State and Provincial Psychology Boards (ASPPB), which develops and administers the field's licensing exam, all 66 of the U.S. and Canadian jurisdictions it represents require passing the Examination for Professional Practice in Psychology (EPPP) before licensure; Florida's own licensing board independently confirms the EPPP requirement for that state. BLS reports a median annual wage of $94,310 in May 2024, with the bottom 10% earning less than $54,860 and the top 10% earning more than $157,330.",
+		sections: [
+			{
+				heading: 'The degree BLS says you need depends on the track',
+				body: [
+					"Per BLS, psychologists typically need an advanced degree, either a master's or a doctoral degree, in psychology to enter the occupation. Applicants to graduate-level psychology programs typically come in with a bachelor's degree in a field such as psychology, education, or social science.",
+					"Which graduate degree depends on the specialty. Clinical and counseling psychologists, the largest of the four detailed occupations BLS tracks, typically need a Doctor of Philosophy (Ph.D.) or a Doctor of Psychology (Psy.D.). Per BLS, Ph.D. programs usually emphasize research that culminates in a dissertation, while Psy.D. programs focus on applying psychological principles to working with clients or patients, and both typically require students to complete an internship. Industrial-organizational psychologists typically need only a master's degree, with coursework in statistics, research design, and the relationships between people and workplaces. School psychologists also typically need at least a master's degree in school psychology, though some pursue an education specialist (Ed.S.) or a doctoral degree instead; their programs mix education and psychology coursework and, per BLS, usually require an internship too.",
+				],
+				image: {
+					src: '/images/psychologist-education-path.svg',
+					alt: "Diagram showing the path to becoming a psychologist: a 4-year bachelor's degree, a master's or doctoral graduate degree depending on the track, supervised experience, and the EPPP licensing exam, leading to a working psychologist earning a median of $94,310 a year per BLS.",
+				},
+			},
+			{
+				heading: 'Supervised experience, the EPPP, and what license you actually need',
+				body: [
+					"Per BLS, most psychologists need supervised experience to qualify for licensure, which may include an internship during the graduate program or postdoctoral training afterward; the required number of hours varies by state. Licensure itself is close to universal: BLS states that all states and the District of Columbia require psychologists who practice independently to be licensed, and that clinical and counseling psychologists specifically are licensed in every state. School psychologists instead typically need a credential from their state's board of education, such as a license or certification, alongside or in place of a standard psychology license. Licensing laws vary by state and by type of position, and BLS directs candidates to their state's licensing board, or to CareerOneStop, a U.S. Department of Labor resource, for the specific requirements.",
+					"BLS notes that psychologists must generally pass an exam to be licensed, without naming the exam. Per the Association of State and Provincial Psychology Boards (ASPPB), the organization that develops it, the relevant exam is the Examination for Professional Practice in Psychology (EPPP): all 66 of the U.S. and Canadian jurisdictions ASPPB represents require a passing score on the EPPP (Part 1, Knowledge) before licensure, with a recommended passing score of 500, and some jurisdictions additionally require passing the EPPP (Part 2, Skills). That scope claim comes from ASPPB itself, the exam's own developer; independently, Florida's licensing board confirms on its own site that it requires the EPPP, consistent with ASPPB's account. Which jurisdictions require Part 2, and what other state-specific requirements apply, such as a jurisprudence exam covering state psychology law and ethics, is something ASPPB directs candidates to confirm with the specific licensing board where they intend to practice. All states also require psychologists to complete continuing education to maintain their license, per BLS.",
+				],
+			},
+			{
+				heading: 'What psychologists actually do, and where the jobs are',
+				body: [
+					'Psychologists held about 204,300 jobs in 2024, per BLS, split unevenly across the four detailed occupations: clinical and counseling psychologists accounted for 76,300 of those jobs, school psychologists for 67,200, "psychologists, all other" for 55,300, and industrial-organizational psychologists for just 5,600, the smallest of the four despite posting the second-highest median pay of the four (see below). Clinical and counseling psychologists assess, diagnose, and treat mental, emotional, and behavioral disorders, typically interviewing clients, administering diagnostic tests, and providing psychotherapy to individuals, families, or groups; some states permit them to prescribe medication. Industrial-organizational psychologists apply psychological research to workplace issues such as productivity, employee testing and selection, and organizational dynamics. School psychologists address educational, behavioral, or developmental problems affecting students\' learning, designing and evaluating performance plans and consulting with teachers, administrators, and families. The "all other" category covers specialties BLS groups separately, including forensic psychologists, who work with judges and attorneys on the psychological aspects of legal cases, and neuropsychologists, who study how brain, spine, or nerve dysfunction affects behavior and cognition.',
+					'Per BLS, the largest employers of psychologists were local elementary and secondary schools (24% of jobs) and ambulatory healthcare services (24%), followed by self-employed workers (23%), government excluding state and local education and hospitals (8%), and hospitals (5%). BLS lists self-employed workers as one of the largest single categories among the occupation\'s employers, which is consistent with a separate line elsewhere on the same BLS page noting that counseling psychologists often have their own practices.',
+				],
+			},
+			{
+				heading: 'Pay, by specialty and industry, against other advanced-degree paths on this site',
+				body: [
+					'BLS reports a median annual wage of $94,310 for psychologists overall in May 2024, or $45.34 an hour, well above the $49,500 median for all workers that year. The bottom 10% earned less than $54,860, and the top 10% earned more than $157,330, the boundary figures BLS publishes rather than exact percentile values. That overall median blends four detailed occupations with different typical degree requirements and different pay: "psychologists, all other" post the highest tracked median at $117,580, followed by industrial-organizational psychologists at $109,840, clinical and counseling psychologists (the largest single group by headcount) at $95,830, and school psychologists at $86,930, the lowest of the four.',
+					'By industry, BLS reports the highest median pay for psychologists in government roles excluding state and local education and hospitals, at $126,990, ahead of ambulatory healthcare services at $96,960, hospitals at $96,060, and local elementary and secondary schools at $85,920, the lowest of the tracked industries despite tying ambulatory healthcare services for the largest employer share, 24% each. BLS projects 6% employment growth for psychologists from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 11,800 jobs to the 204,300 already employed, with about 12,900 openings projected each year on average, mostly from the need to replace psychologists who transfer to other work or leave the labor force.',
+					"Against other advanced-degree occupations this site tracks, the psychologist median trails [physician assistants](/physician-assistant-salary/) at $133,260, [pharmacists](/pharmacist-salary/) at $137,480, and [lawyers](/how-long-does-it-take-to-become-a-lawyer/) at $151,160, occupations whose entry requirements range from a master's degree (PA) to two different professional doctorates (PharmD, J.D.). BLS does not break down why these gaps exist across a mix of master's and doctoral entry paths; the comparison describes what BLS's entry-education categories group together, not a claim that any one degree path is the better investment for a given reader.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a psychologist?',
+				answer: "BLS doesn't give a single total-year figure for psychologists the way it does for some other occupations on this site. The timeline depends on the track: industrial-organizational and school psychologists typically need a master's degree, following a 4-year bachelor's degree, while clinical and counseling psychologists, the field's largest group by employment, typically need a Ph.D. or Psy.D. that includes a required internship and generally takes longer than a master's to complete. Every track then requires supervised experience and passing a licensing exam before someone can practice independently, adding more time on top of the degree itself.",
+			},
+			{
+				question: 'Do you need a doctorate to become a psychologist?',
+				answer: "Not always. Per BLS, industrial-organizational psychologists and school psychologists can typically enter the field with a master's degree. Clinical and counseling psychologists, BLS's largest single group by employment, typically need a doctoral degree, either a Ph.D. or a Psy.D. Some school psychologists also pursue an education specialist (Ed.S.) or doctoral degree instead of a master's.",
+			},
+			{
+				question: 'What exam do you need to pass to become a licensed psychologist?',
+				answer: "Per the Association of State and Provincial Psychology Boards (ASPPB), which develops the exam, all 66 of the U.S. and Canadian jurisdictions it represents require passing the Examination for Professional Practice in Psychology (EPPP), Part 1 (Knowledge), before licensure, with a recommended passing score of 500. Some jurisdictions also require the EPPP Part 2 (Skills). Florida's licensing board independently confirms the EPPP requirement on its own site, consistent with ASPPB's account. Requirements beyond the EPPP, such as a state jurisprudence exam, vary by state, so confirming with the specific licensing board where someone intends to practice is the reliable way to check.",
+			},
+			{
+				question: 'How much do psychologists make?',
+				answer: "BLS reports a median annual wage of $94,310 for psychologists in May 2024 ($45.34 an hour), with the bottom 10% earning less than $54,860 and the top 10% earning more than $157,330. Pay varies by specialty: industrial-organizational psychologists and the \"all other\" category, which includes forensic and neuropsychologists, post the highest tracked medians, while school psychologists, the field's second-largest group by employment, post the lowest at $86,930.",
+			},
+			{
+				question: 'Is psychology a growing career?',
+				answer: 'Yes, per BLS. It projects 6% employment growth for psychologists from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 11,800 jobs to the 204,300 already employed. BLS projects about 12,900 openings a year on average, mostly from the need to replace psychologists who transfer to other work or leave the labor force, such as to retire.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Psychologists (accessed 2026-08-20 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm' },
+			{ label: 'ASPPB (Association of State and Provincial Psychology Boards): Examination for Professional Practice in Psychology (EPPP)', url: 'https://asppb.net/exams/asppb-examination-for-professional-psychology-eppp/' },
+			{ label: 'Florida Board of Psychology: Psychologist Licensure by Examination (independent corroboration of the EPPP requirement for one specific jurisdiction)', url: 'https://floridaspsychology.gov/licensing/psychologist-licensure-by-examination/' },
+			{ label: 'CareerOneStop (U.S. Department of Labor): Certification Finder', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx' },
+			{ label: 'O*NET OnLine: 19-3033.00 Clinical and Counseling Psychologists (independent corroboration of the SOC family)', url: 'https://www.onetonline.org/link/summary/19-3033.00' },
+		],
+		image: '/images/psychologist-education-path.svg',
+		imageAlt: "Diagram showing the path to becoming a psychologist: a 4-year bachelor's degree, a master's or doctoral graduate degree depending on the track, supervised experience, and the EPPP licensing exam, leading to a working psychologist earning a median of $94,310 a year per BLS.",
+	},
 ];

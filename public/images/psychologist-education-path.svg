@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, sans-serif">
+	<rect width="640" height="460" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">Path to Becoming a Psychologist</text>
+
+	<g font-size="12.5" fill="#14212e">
+		<rect x="30" y="46" width="580" height="46" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="66" text-anchor="middle" font-weight="700" fill="#0b675e">Bachelor's degree (4 years)</text>
+		<text x="320" y="83" text-anchor="middle" font-size="11.5">Psychology, education, or social science; entry requirement for graduate programs (BLS)</text>
+		<line x1="320" y1="92" x2="320" y2="114" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="114" width="580" height="62" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="134" text-anchor="middle" font-weight="700" fill="#0b675e">Graduate degree: master's OR doctoral, depending on track</text>
+		<text x="320" y="151" text-anchor="middle" font-size="11.5">Master's for industrial-organizational and school psychologists (BLS)</text>
+		<text x="320" y="167" text-anchor="middle" font-size="11">Ph.D. or Psy.D. for clinical and counseling psychologists, plus an internship (BLS)</text>
+		<line x1="320" y1="176" x2="320" y2="198" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="198" width="580" height="52" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="218" text-anchor="middle" font-weight="700" fill="#0b675e">Supervised experience</text>
+		<text x="320" y="235" text-anchor="middle" font-size="11.5">Internship or postdoctoral training; required hours vary by state (BLS)</text>
+		<line x1="320" y1="250" x2="320" y2="272" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="272" width="580" height="62" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="292" text-anchor="middle" font-weight="700" fill="#0b675e">State licensure, including the EPPP exam</text>
+		<text x="320" y="309" text-anchor="middle" font-size="11.5">EPPP Part 1 (Knowledge) required in all 66 U.S. and Canadian jurisdictions (ASPPB)</text>
+		<text x="320" y="325" text-anchor="middle" font-size="11">Some jurisdictions also require EPPP Part 2 (Skills) and a state law exam</text>
+		<line x1="320" y1="334" x2="320" y2="356" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="356" width="580" height="46" rx="6" fill="#14273f"/>
+		<text x="320" y="376" text-anchor="middle" font-weight="700" fill="white">Working psychologist</text>
+		<text x="320" y="393" text-anchor="middle" font-size="11.5" fill="#dcdad2">Median $94,310/yr (BLS, May 2024)</text>
+	</g>
+
+	<text x="320" y="420" text-anchor="middle" font-size="11.5" fill="#14212e" font-weight="700">BLS does not publish one total-year figure; the timeline depends on the master's vs. doctoral track</text>
+	<text x="320" y="438" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Sources: BLS Occupational Outlook Handbook; Association of State and Provincial Psychology Boards (ASPPB).</text>
+</svg>

@@ -602,3 +602,19 @@ test('spot check: Bartenders (35-3011) matches BLS OOH page', () => {
 	assert.equal(occ.employmentChange, 44800);
 	assert.equal(occ.entryEducation, 'No formal educational credential');
 });
+
+// Hand-transcribed from the live bls.gov OOH page (Psychologists, the
+// broad-occupation page covering 19-3032/19-3033/19-3034/19-3039) on
+// 2026-08-20. Independent of wages-source.json's own numbers.
+test('spot check: Psychologists (19-3030) matches BLS OOH page', () => {
+	const occ = occupations['19-3030'];
+	assert.equal(occ.medianAnnual, 94310);
+	assert.equal(occ.medianHourly, 45.34);
+	assert.equal(occ.percentiles.p10, 54860);
+	assert.equal(occ.percentiles.p90, 157330);
+	assert.equal(occ.employment, 204300);
+	assert.equal(occ.jobOutlookPct, 6);
+	assert.equal(occ.employmentChange, 11800);
+	assert.equal(occ.entryEducation, "Master's or doctoral degree");
+	assert.equal(occ.industryWages.length, 4);
+});
