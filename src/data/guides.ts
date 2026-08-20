@@ -2602,4 +2602,79 @@ export const guides: Guide[] = [
 		image: '/images/social-worker-path.svg',
 		imageAlt: "Diagram showing the path to becoming a social worker: a 4-year bachelor's degree, an optional CSWE-accredited master's degree for clinical practice, supervised experience, and an ASWB licensing exam, leading to a working social worker earning a median of $61,330 a year per BLS.",
 	},
+	{
+		slug: 'how-to-become-a-lineman',
+		category: 'How to Become',
+		title: 'How to Become a Lineman: Apprenticeship, CDL, and Pay',
+		description: 'BLS says linemen need only a high school diploma, then apprenticeship training and usually a CDL. Median pay is $92,560 a year, well above other no-degree trades.',
+		published: '2026-08-20',
+		updated: '2026-08-20',
+		socCode: '49-9051',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, electrical power-line installers and repairers (SOC 49-9051) typically need only a high school diploma or equivalent to enter the occupation, building skills through long-term on-the-job training; apprenticeships are common. Two independently reviewed regional apprenticeship sponsors, Southwest Line Constructors and IBEW Local 1186's Hawaii training fund, both describe apprenticeship terms of roughly 7,000 hours of on-the-job training, spanning about three to four years depending on the sponsor, plus related classroom instruction; Southwest Line Constructors also requires a Class A commercial driver's license (CDL) to apply. BLS reports a median annual wage of $92,560 in May 2024, with the bottom 10% earning less than $50,020 and the top 10% earning more than $126,610.",
+		sections: [
+			{
+				heading: "What BLS says about entry, and what two apprenticeship sponsors actually require",
+				body: [
+					"Per BLS, electrical power-line installers and repairers typically need a high school diploma or equivalent to enter the occupation. Workers become proficient through technical instruction and on-the-job training, and BLS notes apprenticeships are common, but its Occupational Outlook Handbook page for this occupation does not publish a specific apprenticeship length or hour requirement the way it does for some other trades. Confirming what an apprenticeship actually looks like requires going to the organizations that run them.",
+					"Apprenticeships in this trade are sponsored by individual unions, utilities, and contractor associations rather than run as a single national program, so the specific numbers vary by sponsor. Two regional programs reviewed directly for this page, Southwest Line Constructors, which serves apprentices in Arizona, New Mexico, Kansas, Oklahoma, and parts of Texas, and the IBEW Local 1186 training fund in Hawaii, both describe a term of about 7,000 hours of on-the-job training. Southwest Line Constructors states this term \"may require more than three and one half years to complete in view of possible employment lapses,\" plus three years of related classroom instruction away from the job. The Hawaii program describes essentially the same 7,000-hour on-the-job total as running \"approximately 3 years,\" supplemented by 480 hours of related classroom instruction. The two sponsors land on similar on-the-job hour totals but different stated timelines and classroom-hour figures, a real difference in how each program structures and counts the work rather than an error in either one.",
+					"Southwest Line Constructors' published apprenticeship requirements include being at least 18 years old, holding a Class A commercial driver's license, passing an aptitude test, passing a medical exam, and paying an application fee. The Hawaii program's listed requirements include a valid driver's license and passing a CDL physical, without specifying a CDL class in the page reviewed for this article. Both point to the same practical reality BLS hints at with \"apprenticeships are common\": entry into this trade runs through a sponsor's apprenticeship program, not a single standardized credential, so the specific requirements to confirm are whichever sponsor's program someone intends to apply to.",
+				],
+				image: {
+					src: '/images/lineman-apprenticeship-path.svg',
+					alt: 'Diagram showing the path to becoming a lineman: a high school diploma, meeting apprenticeship requirements including a commercial driver\'s license, roughly 7,000 hours of paid on-the-job apprenticeship training, and journeyman status, with a median pay of $92,560 a year per BLS.',
+				},
+			},
+			{
+				heading: 'The work itself: what BLS lists as the core hazards and required qualities',
+				body: [
+					"BLS's own Work Environment summary for this occupation is blunt about the risks: electrical power-line installers and repairers \"encounter serious hazards on the job, including working with high-voltage electricity, often at great heights,\" and the work \"also can be physically demanding.\" Most work full time, and some work more than 40 hours a week; BLS also notes that in emergencies or after storms and other natural disasters, workers may have to travel to affected areas and work long hours for several days in a row.",
+					"BLS lists a specific set of qualities important for the job: the ability to work at heights from ladders or bucket lifts while climbing utility poles, color vision to distinguish color-coded wires and cables, interpersonal skills because crew members rely on each other for safety, physical stamina to climb poles carrying heavy tools, physical strength to lift heavy cables and equipment, problem-solving skills to diagnose faults in electrical systems, and technical skills to operate diagnostic equipment on circuits. None of this is a substitute for an employer's own physical or medical requirements, which BLS's occupational profile does not itemize beyond these general categories.",
+				],
+			},
+			{
+				heading: 'What linemen actually earn, by percentile and industry',
+				body: [
+					"BLS reports a median annual wage of $92,560 for electrical power-line installers and repairers in May 2024, or $44.50 an hour, well above the $49,500 median across all occupations that year. The bottom 10% earned less than $50,020, and the top 10% earned more than $126,610, a spread of more than $76,000, or more than 2.5 times, between the boundary figures BLS publishes.",
+					"By industry, BLS breaks out May 2024 wages into five categories. Federal government employers paid the highest median at $104,540, followed by utilities at $102,050, local government excluding education and hospitals at $87,550, specialty trade contractors at $76,290, and utility system construction, the lowest of the five tracked categories, at $74,550. BLS does not explain what drives that industry ordering, though a federal or utility employer directly operating the grid, rather than a contractor building or maintaining it under contract, is one plausible distinction worth checking against a specific job offer rather than assuming.",
+				],
+			},
+			{
+				heading: 'Job outlook, and how this pay compares with other no-degree trades on this site',
+				body: [
+					"BLS projects employment of electrical power-line installers and repairers to grow 7% from 2024 to 2034, a rate it classifies as much faster than the average for all occupations, adding an estimated 8,400 jobs to the 127,400 already employed in 2024. About 10,700 openings are projected each year on average over the decade, though BLS attributes many of those to the need to replace workers who transfer to other occupations or exit the labor force, such as to retire, rather than to newly created positions alone.",
+					"Against other no-degree, apprenticeship-based trades this site tracks, all of which BLS also lists as requiring only a high school diploma or equivalent to enter, the lineman median sits well above [electricians](/electrician-salary/) at $62,350, [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) at $62,970, and [welders, cutters, solderers, and brazers](/welder-salary/) at $51,000, a gap of more than $29,000 in every comparison and above $41,000 against welders specifically. BLS does not state why line work pays more within this cluster of similarly credentialed occupations, and the page's Similar Occupations table lists power plant operators, distributors, and dispatchers, another high school diploma occupation, at a comparably high $103,600 median, while electricians on the same table sit far closer to welders and plumbers than to either line work or power plant operations. That comparison table is consistent with the two occupations that carry the clearest physical exposure to high-voltage electricity commanding the highest pay in the group, but BLS's data describes what employers pay rather than why, and this page reports the pattern rather than asserting a specific cause.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a lineman?',
+				answer: "Only a high school diploma or equivalent is required to enter the occupation, per BLS. The apprenticeship itself, where most people build the skills to work independently, runs on a sponsor-by-sponsor basis; two regional programs reviewed for this page, Southwest Line Constructors and IBEW Local 1186's Hawaii training fund, both describe roughly 7,000 hours of on-the-job training, with one citing about three and a half years and the other about three years, plus additional classroom instruction hours that also differ by sponsor.",
+			},
+			{
+				question: 'Do you need a CDL to become a lineman?',
+				answer: "Usually, though the exact requirement is set by the apprenticeship sponsor rather than by BLS or one national rule. Southwest Line Constructors requires a Class A commercial driver's license to apply. The IBEW Local 1186 training fund in Hawaii requires a valid driver's license and a passed CDL physical, without specifying a CDL class in the page reviewed for this article. Confirming the specific requirement with the sponsor someone intends to apply to is the reliable step.",
+			},
+			{
+				question: 'How much do linemen make?',
+				answer: 'BLS reports a median annual wage of $92,560 for electrical power-line installers and repairers in May 2024 ($44.50 an hour), with the bottom 10% earning less than $50,020 and the top 10% earning more than $126,610. By industry, federal government employers and utilities paid the highest median wages, $104,540 and $102,050 respectively, while utility system construction paid the least of the five, at $74,550.',
+			},
+			{
+				question: 'Is lineman a growing career?',
+				answer: 'Yes. BLS projects 7% employment growth for electrical power-line installers and repairers from 2024 to 2034, which it classifies as much faster than the average for all occupations, adding about 8,400 jobs to the 127,400 already employed. About 10,700 openings are projected each year on average, though BLS attributes many of those to workers transferring out of the occupation or retiring rather than to newly created positions.',
+			},
+			{
+				question: "What's the difference between a lineman and an electrician?",
+				answer: "BLS tracks them as separate occupations with separate SOC codes, 49-9051 for electrical power-line installers and repairers and 47-2111 for electricians, and lists electricians as a similar occupation on the lineman's BLS page. Both typically require only a high school diploma to enter, but linemen work on outdoor, high-voltage power-distribution lines, often at height, while electricians more often install and repair wiring and lower-voltage systems inside buildings. BLS's median pay for the two differs by about $30,000 a year, $92,560 for linemen versus $62,350 for electricians in May 2024, a gap the data does not explain beyond the setting and voltage differences it describes.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers (accessed 2026-08-20 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm' },
+			{ label: "Southwest Line Constructors: Lineman apprenticeship requirements (one of two independently reviewed regional apprenticeship sponsors)", url: 'https://www.swlcat.org/apprenticeship2.html' },
+			{ label: "IBEW Local 1186 (Hawaii) Electricians Training Fund: Lineman Apprenticeship (independent corroboration of the ~7,000-hour on-the-job training term, for a second regional sponsor)", url: 'https://www.hetf1186.org/lineman-apprenticeship' },
+			{ label: 'O*NET OnLine: Electrical Power-Line Installers and Repairers (49-9051.00), SOC title cross-check', url: 'https://www.onetonline.org/link/summary/49-9051.00' },
+		],
+		image: '/images/lineman-apprenticeship-path.svg',
+		imageAlt: 'Diagram showing the path to becoming a lineman: a high school diploma, meeting apprenticeship requirements including a commercial driver\'s license, roughly 7,000 hours of paid on-the-job apprenticeship training, and journeyman status, with a median pay of $92,560 a year per BLS.',
+	},
 ];

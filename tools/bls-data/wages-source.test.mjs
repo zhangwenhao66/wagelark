@@ -634,3 +634,19 @@ test('spot check: Social Workers (21-1020) matches BLS OOH page', () => {
 	assert.equal(occ.entryEducation, "Bachelor's or master's degree");
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Hand-transcribed from the live bls.gov OOH page (Electrical Power-Line
+// Installers and Repairers) on 2026-08-20. Independent of wages-source.json's
+// own numbers.
+test('spot check: Electrical Power-Line Installers and Repairers (49-9051) matches BLS OOH page', () => {
+	const occ = occupations['49-9051'];
+	assert.equal(occ.medianAnnual, 92560);
+	assert.equal(occ.medianHourly, 44.50);
+	assert.equal(occ.percentiles.p10, 50020);
+	assert.equal(occ.percentiles.p90, 126610);
+	assert.equal(occ.employment, 127400);
+	assert.equal(occ.jobOutlookPct, 7);
+	assert.equal(occ.employmentChange, 8400);
+	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
+	assert.equal(occ.industryWages.length, 5);
+});

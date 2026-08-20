@@ -1186,5 +1186,48 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Social Workers",
 		sourceUrl: "https://www.bls.gov/ooh/community-and-social-service/social-workers.htm",
 		publishedDate: "2025-08-28"
+	},
+	"49-9051": {
+		socCode: "49-9051",
+		title: "Electrical Power-Line Installers and Repairers",
+		medianAnnual: 92560,
+		medianHourly: 44.5,
+		percentiles: {
+			p10: 50020,
+			p90: 126610
+		},
+		employment: 127400,
+		employmentYear: "2024",
+		jobOutlookPct: 7,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 8400,
+		projectionPeriod: "2024-34",
+		entryEducation: "High school diploma or equivalent",
+		industryWages: [
+			{
+				industry: "Federal government, excluding postal service",
+				annualWage: 104540
+			},
+			{
+				industry: "Utilities",
+				annualWage: 102050
+			},
+			{
+				industry: "Local government, excluding education and hospitals",
+				annualWage: 87550
+			},
+			{
+				industry: "Specialty trade contractors",
+				annualWage: 76290
+			},
+			{
+				industry: "Utility system construction",
+				annualWage: 74550
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers",
+		sourceUrl: "https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm",
+		publishedDate: "2025-08-28"
 	}
 };
