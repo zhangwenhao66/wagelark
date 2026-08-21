@@ -650,3 +650,18 @@ test('spot check: Electrical Power-Line Installers and Repairers (49-9051) match
 	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
 	assert.equal(occ.industryWages.length, 5);
 });
+
+// Hand-transcribed from the live bls.gov OOH page (Accountants and Auditors)
+// on 2026-08-21. Independent of wages-source.json's own numbers.
+test('spot check: Accountants and Auditors (13-2011) matches BLS OOH page', () => {
+	const occ = occupations['13-2011'];
+	assert.equal(occ.medianAnnual, 81680);
+	assert.equal(occ.medianHourly, 39.27);
+	assert.equal(occ.percentiles.p10, 52780);
+	assert.equal(occ.percentiles.p90, 141420);
+	assert.equal(occ.employment, 1579800);
+	assert.equal(occ.jobOutlookPct, 5);
+	assert.equal(occ.employmentChange, 72800);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 4);
+});

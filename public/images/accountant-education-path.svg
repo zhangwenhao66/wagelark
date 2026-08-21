@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" font-family="Arial, sans-serif">
+	<rect width="640" height="500" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">Path to Becoming an Accountant</text>
+
+	<g font-size="12.5" fill="#14212e">
+		<rect x="30" y="46" width="580" height="46" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="66" text-anchor="middle" font-weight="700" fill="#0b675e">Bachelor's degree in accounting or a related field (4 years)</text>
+		<text x="320" y="83" text-anchor="middle" font-size="11.5">Typical entry-level education for accountants and auditors (BLS)</text>
+		<line x1="320" y1="92" x2="320" y2="114" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="114" width="580" height="88" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="134" text-anchor="middle" font-weight="700" fill="#0b675e">CPA education requirement: 150 total semester hours</text>
+		<text x="320" y="151" text-anchor="middle" font-size="11.5">Most states: 30 hours beyond a bachelor's, incl. 27 in accounting (NASBA model; TX TSBPA)</text>
+		<text x="320" y="167" text-anchor="middle" font-size="11">New pathway drops the extra 30 hours: AICPA/NASBA model law, May 2025</text>
+		<text x="320" y="183" text-anchor="middle" font-size="11">Texas is first to adopt (SB 262), effective Aug. 1, 2026 (TSBPA)</text>
+		<line x1="320" y1="202" x2="320" y2="224" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="224" width="580" height="62" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="244" text-anchor="middle" font-weight="700" fill="#0b675e">Supervised experience under a licensed CPA</text>
+		<text x="320" y="261" text-anchor="middle" font-size="11.5">1 year / 2,000 hours (150-hour path) or 2 years (new pathway) in Texas; varies by state (TSBPA)</text>
+		<line x1="320" y1="286" x2="320" y2="308" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="308" width="580" height="62" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="328" text-anchor="middle" font-weight="700" fill="#0b675e">Pass the Uniform CPA Examination</text>
+		<text x="320" y="345" text-anchor="middle" font-size="11.5">Developed by the AICPA; administered through NASBA's candidate system</text>
+		<line x1="320" y1="370" x2="320" y2="392" stroke="#dcdad2" stroke-width="2"/>
+
+		<rect x="30" y="392" width="580" height="46" rx="6" fill="#14273f"/>
+		<text x="320" y="412" text-anchor="middle" font-weight="700" fill="white">Working accountant or auditor</text>
+		<text x="320" y="429" text-anchor="middle" font-size="11.5" fill="#dcdad2">Median $81,680/yr (BLS, May 2024)</text>
+	</g>
+
+	<text x="320" y="460" text-anchor="middle" font-size="11.5" fill="#14212e" font-weight="700">CPA licensure isn't required for every accounting role. BLS says certification "may improve job prospects."</text>
+	<text x="320" y="480" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Sources: BLS Occupational Outlook Handbook; AICPA; NASBA; Texas State Board of Public Accountancy (TSBPA).</text>
+</svg>

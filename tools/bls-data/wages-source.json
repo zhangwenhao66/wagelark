@@ -1162,6 +1162,44 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers",
       "sourceUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm",
       "publishedDate": "2025-08-28"
+    },
+    "13-2011": {
+      "title": "Accountants and Auditors",
+      "medianAnnual": 81680,
+      "medianHourly": 39.27,
+      "percentiles": {
+        "p10": 52780,
+        "p90": 141420
+      },
+      "employment": 1579800,
+      "employmentYear": "2024",
+      "jobOutlookPct": 5,
+      "jobOutlookLabel": "Faster than average",
+      "employmentChange": 72800,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        {
+          "industry": "Finance and insurance",
+          "annualWage": 87980
+        },
+        {
+          "industry": "Management of companies and enterprises",
+          "annualWage": 86010
+        },
+        {
+          "industry": "Government (excl. state/local education, hospitals)",
+          "annualWage": 81120
+        },
+        {
+          "industry": "Accounting, tax preparation, bookkeeping, and payroll services",
+          "annualWage": 80510
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Accountants and Auditors",
+      "sourceUrl": "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

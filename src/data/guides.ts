@@ -2677,4 +2677,81 @@ export const guides: Guide[] = [
 		image: '/images/lineman-apprenticeship-path.svg',
 		imageAlt: 'Diagram showing the path to becoming a lineman: a high school diploma, meeting apprenticeship requirements including a commercial driver\'s license, roughly 7,000 hours of paid on-the-job apprenticeship training, and journeyman status, with a median pay of $92,560 a year per BLS.',
 	},
+	{
+		slug: 'how-to-become-an-accountant',
+		category: 'How to Become',
+		title: 'How to Become an Accountant: Degree, CPA Path, and Pay',
+		description: "BLS says accountants need a bachelor's degree. CPA licensure adds 150 credit hours, but a new bachelor's-only pathway launches in Texas in 2026.",
+		published: '2026-08-21',
+		updated: '2026-08-21',
+		socCode: '13-2011',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, accountants and auditors (SOC 13-2011) typically need a bachelor's degree in accounting or a related field to enter the occupation; certification such as becoming a licensed Certified Public Accountant (CPA) may improve job prospects but is not described by BLS as universally required. The traditional CPA path, per the model rules the National Association of State Boards of Accountancy (NASBA) and the American Institute of CPAs (AICPA) publish and the Texas State Board of Public Accountancy (TSBPA) independently confirms for its own state, requires 150 total semester hours of college credit, 30 more than a typical bachelor's degree, plus roughly a year of supervised experience under a licensed CPA and passing the Uniform CPA Examination. AICPA and NASBA approved model legislation in May 2025 for an additional pathway that drops the extra 30 credit hours in favor of two years of supervised experience; Texas's Governor signed this into state law as Senate Bill 262 the same month, TSBPA adopted implementing rules that September, and per TSBPA the new pathway opens to candidates on August 1, 2026, making Texas the first large state to offer it. BLS reports a median annual wage of $81,680 in May 2024, with the bottom 10% earning less than $52,780 and the top 10% earning more than $141,420.",
+		sections: [
+			{
+				heading: 'What accountants do, and the degree BLS says you need to start',
+				body: [
+					"Per BLS, a bachelor's degree in accounting or a related field is typically required to become an accountant or auditor, with certification in a specific field, such as becoming a licensed CPA, listed as something that may improve job prospects rather than a blanket requirement. BLS groups the work into a consistent set of duties: examining financial statements for accuracy and legal compliance, computing taxes owed and preparing tax returns, inspecting account books and accounting systems for fraud risk, and organizing, analyzing, and maintaining financial records.",
+					"BLS also describes several distinct tracks within the occupation. Public accountants, many of whom are CPAs, handle a broad range of accounting, auditing, tax, and consulting work for corporations, governments, individuals, and nonprofits, and some specialize in forensic accounting, investigating financial crimes such as fraud or embezzlement and sometimes testifying as expert witnesses. Management accountants work inside a single organization, helping plan the cost of doing business and analyzing financial information for internal decision-makers. Government accountants examine the records of government agencies or audit private entities subject to government regulation or taxation. External auditors work for an outside firm reviewing another organization's funds, revenue sources, and internal controls, including cybersecurity and supply-chain risk, distinguishing them from internal auditors who do similar work as employees of the organization being reviewed. Only public accountants who work with publicly traded companies face a hard CPA requirement in BLS's description: the SEC requires a CPA's signature on the annual and quarterly reports those companies file.",
+				],
+				image: {
+					src: '/images/accountant-education-path.svg',
+					alt: "Diagram showing the path to becoming an accountant: a 4-year bachelor's degree, the traditional 150-semester-hour CPA education requirement or a new bachelor's-only pathway taking effect in Texas in August 2026, supervised experience under a licensed CPA, and the Uniform CPA Examination, leading to a working accountant earning a median of $81,680 a year per BLS.",
+				},
+			},
+			{
+				heading: "The CPA path: the 150-hour rule, and a new pathway that skips it",
+				body: [
+					"BLS's occupational profile does not spell out CPA licensing mechanics beyond naming the credential, so confirming the actual requirements means going to the organizations that set and enforce them. NASBA and AICPA jointly maintain the Uniform Accountancy Act, the model law most states base their CPA rules on, which calls for 150 total semester hours of college credit before licensure, 30 more than the roughly 120 hours a typical bachelor's degree provides. The Texas State Board of Public Accountancy (TSBPA), the state agency that actually issues the license, independently confirms this pattern for one specific jurisdiction: Texas requires a bachelor's degree plus 150 semester hours total, including at least 27 semester hours of upper-level accounting coursework for certification, a three-semester-hour ethics course approved by the board, one year (2,000 hours) of full-time, non-routine accounting work under the direct supervision of a licensed CPA, and passing both the Uniform CPA Examination and a separate exam on the Rules of Professional Conduct. Most states, including Texas, let candidates sit for the CPA exam before finishing all 150 hours, but the license itself isn't issued until every requirement, including the supervised experience, is complete.",
+					"That 150-hour rule is no longer the only route, at least in one state so far. AICPA and NASBA's boards of directors jointly approved model legislation in May 2025 adding an alternative CPA pathway: a bachelor's degree with an accounting concentration, two years of supervised experience instead of one, and passing the same Uniform CPA Examination, without the extra 30 credit hours. Individual states still have to enact this themselves rather than adopting it automatically, since state legislatures and boards of accountancy, not AICPA or NASBA, control who can actually be licensed in that state. Texas was the first large state to act: Governor Greg Abbott signed Senate Bill 262 into law in May 2025, TSBPA adopted implementing rules that September, and per TSBPA the new pathway opens to candidates on August 1, 2026. Both paths lead to the same CPA license and the same exam; the difference is 30 extra credit hours plus one fewer year of supervised work, which candidates outside a state that has adopted the new pathway won't yet be able to choose.",
+				],
+			},
+			{
+				heading: 'Where the jobs are, and when the overtime hits',
+				body: [
+					'Accountants and auditors held about 1,579,800 jobs in 2024, per BLS. The largest share, 23% of jobs, worked in accounting, tax preparation, bookkeeping, and payroll services, the industry built specifically around this work; government agencies excluding state and local education and hospitals and finance and insurance each accounted for 8%, management of companies and enterprises for 6%, and self-employed workers for 5% of the total.',
+					'BLS is specific about the work pattern that makes this occupation different from a typical 9-to-5 role: most accountants and auditors work full time, and overtime hours are typical at certain periods of the year, such as for quarterly audits or during tax season. That seasonal overtime pattern, tied to fixed external deadlines like corporate quarter-ends and the April tax filing deadline, is a structural feature of the industry rather than something that varies mainly by employer, the way it might in many other office occupations.',
+				],
+			},
+			{
+				heading: "Pay, by industry, against other bachelor's-entry paths on this site",
+				body: [
+					'BLS reports a median annual wage of $81,680 for accountants and auditors in May 2024, or $39.27 an hour, well above the $49,500 median across all occupations that year. The bottom 10% earned less than $52,780, and the top 10% earned more than $141,420, the boundary figures BLS publishes rather than exact percentile values.',
+					"By industry, BLS breaks out May 2024 wages into four categories: finance and insurance paid the highest median at $87,980, followed by management of companies and enterprises at $86,010, government excluding state and local education and hospitals at $81,120, and accounting, tax preparation, bookkeeping, and payroll services, the industry employing the largest single share of accountants (23%), at $80,510, the lowest of the four tracked industries. BLS projects 5% employment growth for accountants and auditors from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 72,800 jobs to the 1,579,800 already employed, with about 124,200 openings projected each year on average, mostly from the need to replace workers who transfer to other occupations or leave the labor force.",
+					"Against other bachelor's-entry occupations this site tracks, the accountant median sits well below [actuaries](/actuary-salary/) at $125,770, an occupation that also runs on a bachelor's degree plus a multi-exam professional credential rather than an advanced degree, and above [paralegals](/how-to-become-a-paralegal/) at $61,010, an occupation BLS lists with no state licensing requirement at all. BLS's data describes what each occupation pays, not why the gap between a CPA-track accountant and an actuary runs to more than $44,000 a year despite both requiring a bachelor's degree and a demanding professional exam; this page reports the pattern rather than asserting a specific cause.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become an accountant?',
+				answer: "Entering the occupation itself typically takes the 4 years of a bachelor's degree in accounting or a related field, per BLS. Becoming a licensed CPA takes longer: under the traditional 150-hour rule most states still use, candidates need 30 credit hours beyond a bachelor's degree plus about a year of supervised experience under a licensed CPA. A new alternative, approved by AICPA and NASBA in May 2025 and set to open in Texas on August 1, 2026 under Senate Bill 262, instead requires only a bachelor's degree with an accounting concentration plus two years of supervised experience, skipping the extra 30 hours.",
+			},
+			{
+				question: 'Do you need to be a CPA to work as an accountant?',
+				answer: "Not for every role. BLS describes CPA certification as something that \"may improve job prospects\" rather than a universal requirement, and lists management accountants, government accountants, and internal auditors as tracks within the occupation that don't all require it. The clearest hard requirement is for public accountants who work with publicly traded companies: the SEC requires a CPA's signature on the annual and quarterly reports those companies file.",
+			},
+			{
+				question: "What's the new alternative pathway to CPA licensure?",
+				answer: "In May 2025, AICPA and NASBA's boards of directors approved model legislation adding a pathway that requires a bachelor's degree with an accounting concentration and two years of supervised experience, instead of the traditional 150 total credit hours (30 beyond a typical bachelor's degree) and one year of experience. Each state has to adopt this itself, and Texas was the first large state to do so: its governor signed Senate Bill 262 in May 2025, the Texas State Board of Public Accountancy adopted implementing rules that September, and the new pathway opens to candidates on August 1, 2026.",
+			},
+			{
+				question: 'How much do accountants make?',
+				answer: 'BLS reports a median annual wage of $81,680 for accountants and auditors in May 2024 ($39.27 an hour), with the bottom 10% earning less than $52,780 and the top 10% earning more than $141,420. By industry, finance and insurance paid the highest median, $87,980, while accounting, tax preparation, bookkeeping, and payroll services, the industry employing the largest single share of accountants, paid the least of the four tracked industries, $80,510.',
+			},
+			{
+				question: 'Is accounting a growing career?',
+				answer: 'Yes, per BLS. It projects 5% employment growth for accountants and auditors from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 72,800 jobs to the 1,579,800 already employed. BLS projects about 124,200 openings a year on average, mostly from the need to replace accountants who transfer to other occupations or leave the labor force, such as to retire.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Accountants and Auditors (accessed 2026-08-21 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm' },
+			{ label: 'Texas State Board of Public Accountancy (TSBPA): Education Requirements (independent corroboration of the CPA education and experience rules for one specific jurisdiction)', url: 'https://www.tsbpa.texas.gov/applicants/education/' },
+			{ label: 'TSBPA: New Pathway for CPA Exam and Certification (Senate Bill 262 implementing rules, effective August 1, 2026)', url: 'https://www.tsbpa.texas.gov/news/new-pathway-for-cpa-exam-and-certification/' },
+			{ label: 'AICPA & CIMA: AICPA and NASBA Approve Model Legislation for New CPA Licensure Path', url: 'https://www.aicpa-cima.com/news/article/aicpa-and-nasba-approve-model-legislation-for-new-cpa-licensure-path' },
+			{ label: "NASBA: AICPA and NASBA Approve Model Legislation for New CPA Licensure Path (independent corroboration of the same May 2025 approval, from the exam's other co-sponsor)", url: 'https://nasba.org/blog/2025/05/13/aicpa-and-nasba-approve-model-legislation-for-new-cpa-licensure-path/' },
+			{ label: 'O*NET OnLine: 13-2011.00 Accountants and Auditors, SOC title cross-check', url: 'https://www.onetonline.org/link/summary/13-2011.00' },
+		],
+		image: '/images/accountant-education-path.svg',
+		imageAlt: "Diagram showing the path to becoming an accountant: a 4-year bachelor's degree, the traditional 150-semester-hour CPA education requirement or a new bachelor's-only pathway taking effect in Texas in August 2026, supervised experience under a licensed CPA, and the Uniform CPA Examination, leading to a working accountant earning a median of $81,680 a year per BLS.",
+	},
 ];
