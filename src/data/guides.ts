@@ -1414,7 +1414,7 @@ export const guides: Guide[] = [
 		title: 'Electrician Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median electrician salary at $62,350 a year, with 9% growth projected through 2034. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-11',
-		updated: '2026-08-11',
+		updated: '2026-08-21',
 		socCode: '47-2111',
 		coreSummary: 'The median annual wage for electricians was $62,350 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $39,430 while the top 10% earned more than $106,030. BLS projects 9% employment growth from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 77,400 jobs.',
 		sections: [
@@ -1467,6 +1467,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Do electricians need a license?',
 				answer: "BLS states that most states require electricians to be licensed, though the specific requirements vary by state. BLS directs readers to CareerOneStop for state-by-state licensing board information rather than publishing every state's rules directly.",
+			},
+			{
+				question: 'How long does it take to become an electrician?',
+				answer: 'BLS says most electricians train through a 4- or 5-year apprenticeship that combines paid on-the-job work, roughly 2,000 hours per year, with technical classroom instruction covering electrical theory, blueprint reading, and code requirements. Some workers attend a technical school first and can earn credit toward the apprenticeship, and those with prior electrical experience in the military or construction may qualify for a shortened program based on testing.',
 			},
 			{
 				question: 'Is electrician a growing occupation?',
