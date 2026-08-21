@@ -536,6 +536,45 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
 		publishedDate: "2025-08-28"
 	},
+	"35-1011": {
+		socCode: "35-1011",
+		title: "Chefs and Head Cooks",
+		medianAnnual: 60990,
+		medianHourly: 29.32,
+		percentiles: {
+			p10: 36000,
+			p90: 96030
+		},
+		employment: 197300,
+		employmentYear: "2024",
+		jobOutlookPct: 7,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 14000,
+		projectionPeriod: "2024-34",
+		entryEducation: "High school diploma or equivalent",
+		industryWages: [
+			{
+				industry: "Traveler accommodation",
+				annualWage: 73110
+			},
+			{
+				industry: "Amusement, gambling, and recreation industries",
+				annualWage: 69430
+			},
+			{
+				industry: "Food services and drinking places",
+				annualWage: 59450
+			},
+			{
+				industry: "Healthcare and social assistance",
+				annualWage: 57350
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Chefs and Head Cooks",
+		sourceUrl: "https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm",
+		publishedDate: "2025-08-28"
+	},
 	"29-2055": {
 		socCode: "29-2055",
 		title: "Surgical Technologists",

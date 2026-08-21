@@ -33,6 +33,7 @@ const CHARTS = {
 	'firefighter-salary-chart': '33-2011',
 	'truck-driver-salary-chart': '53-3032',
 	'welder-salary-chart': '51-4121',
+	'chef-salary-chart': '35-1011',
 };
 
 const NAVY = '#14273f';
@@ -75,7 +76,7 @@ function buildChart(occ) {
 
 	return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${width} ${chartBottom}" font-family="Arial, sans-serif">
 	<rect x="0" y="0" width="${width}" height="${chartBottom}" fill="white" />
-	<text x="${padLeft}" y="30" font-size="16" font-weight="700" fill="${NAVY}">${occ.title} — Annual Wage by Percentile</text>${bars}
+	<text x="${padLeft}" y="30" font-size="16" font-weight="700" fill="${NAVY}">${occ.title}: Annual Wage by Percentile</text>${bars}
 	<text x="${padLeft}" y="${chartBottom - 8}" font-size="12" fill="${INK}" opacity="0.55">Source: U.S. Bureau of Labor Statistics, ${occ.dataYear} (national)</text>
 </svg>
 `;

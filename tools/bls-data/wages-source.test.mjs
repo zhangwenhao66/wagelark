@@ -665,3 +665,18 @@ test('spot check: Accountants and Auditors (13-2011) matches BLS OOH page', () =
 	assert.equal(occ.entryEducation, "Bachelor's degree");
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Hand-transcribed from the live bls.gov OOH page (Chefs and Head Cooks)
+// on 2026-08-21. Independent of wages-source.json's own numbers.
+test('spot check: Chefs and Head Cooks (35-1011) matches BLS OOH page', () => {
+	const occ = occupations['35-1011'];
+	assert.equal(occ.medianAnnual, 60990);
+	assert.equal(occ.medianHourly, 29.32);
+	assert.equal(occ.percentiles.p10, 36000);
+	assert.equal(occ.percentiles.p90, 96030);
+	assert.equal(occ.employment, 197300);
+	assert.equal(occ.jobOutlookPct, 7);
+	assert.equal(occ.employmentChange, 14000);
+	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
+	assert.equal(occ.industryWages.length, 4);
+});

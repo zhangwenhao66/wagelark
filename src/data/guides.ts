@@ -2754,4 +2754,75 @@ export const guides: Guide[] = [
 		image: '/images/accountant-education-path.svg',
 		imageAlt: "Diagram showing the path to becoming an accountant: a 4-year bachelor's degree, the traditional 150-semester-hour CPA education requirement or a new bachelor's-only pathway taking effect in Texas in August 2026, supervised experience under a licensed CPA, and the Uniform CPA Examination, leading to a working accountant earning a median of $81,680 a year per BLS.",
 	},
+	{
+		slug: 'chef-salary',
+		category: 'Salary Guide',
+		title: 'Chef and Head Cook Salary: BLS Wage Data by Percentile (2026)',
+		description: "BLS reports a $60,990 median chef salary. No degree is required, but the typical entry path runs on five years of related work experience instead.",
+		published: '2026-08-21',
+		updated: '2026-08-21',
+		socCode: '35-1011',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, chefs and head cooks (SOC 35-1011) earned a median annual wage of $60,990 in May 2024, or $29.32 an hour, above the $49,500 median for all occupations combined. BLS lists a high school diploma or its equivalent as the typical entry-level education, but unlike most occupations at that education tier, it also lists five years or more of work experience in a related occupation as typical, with no additional formal on-the-job training required once that experience is in place. BLS projects 7% employment growth from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 14,000 jobs to the 197,300 chefs and head cooks already working in 2024.",
+		sections: [
+			{
+				heading: 'The median chef salary, and the range around it',
+				body: [
+					'BLS tracks this occupation under the combined title "Chefs and Head Cooks," SOC code 35-1011, describing the work as overseeing the daily food preparation at restaurants and other places where food is served. The median annual wage was $60,990 in May 2024 ($29.32 an hour), above the $49,500 median across all occupations in the U.S. economy that year. The bottom 10% of chefs and head cooks earned less than $36,000, and the top 10% earned more than $96,030, a spread of well over two and a half times between the lower and upper bound BLS reports.',
+					"That $60,990 median sits above the $44,140 BLS reports for supervisors of food preparation and serving workers, a related but more junior role, and it is worth separating from figures that circulate on general salary-aggregator sites, which BLS does not publish or verify. This page reports only the U.S. Bureau of Labor Statistics figures, sourced directly from BLS's own Occupational Employment and Wage Statistics survey of employer payroll data rather than self-reported submissions.",
+				],
+				image: {
+					src: '/images/chef-salary-chart.svg',
+					alt: 'Bar chart showing chef and head cook annual wage by percentile: 10th percentile $36,000, median $60,990, 90th percentile $96,030, based on BLS May 2024 data.',
+				},
+			},
+			{
+				heading: 'The entry path: little formal education, years of experience instead',
+				body: [
+					"BLS lists a high school diploma or equivalent as the typical entry-level education for chefs and head cooks, the same tier as several other occupations this site covers. What sets this occupation apart is the second line in BLS's Quick Facts box: work experience in a related occupation of five years or more, also listed as typical. BLS lists no additional on-the-job training beyond that, meaning the five years of prior experience is effectively doing the training. That combination, a low formal-education bar paired with a long experience requirement, is unusual; most high-school-diploma occupations BLS tracks list either no experience requirement or a much shorter one.",
+					"BLS describes two routes into that experience. Some chefs and head cooks attend a culinary program at a community college, technical school, culinary arts school, or four-year college before entering the field; others learn entirely through apprenticeship programs or by working their way up through food-service jobs. BLS does not describe either route as required, only as common paths people take toward the five years of related experience the occupation typically expects. That is a different model from [bartending](/how-to-become-a-bartender/), a similarly education-light food-service occupation on this site where BLS lists no related-experience requirement at all, just a few weeks of on-the-job training after hire.",
+				],
+			},
+			{
+				heading: 'Where chef pay sits on the food-service ladder',
+				body: [
+					"BLS's Occupational Outlook Handbook page for chefs and head cooks lists two adjacent food-service occupations for direct comparison, both drawn from the same May 2024 wage survey. Food preparation workers, who BLS describes as performing tasks other than cooking, such as slicing meat and brewing coffee, require no formal educational credential and earned a median of $34,220, about $26,770 below the chef and head cook median. Food service managers, who oversee the daily operation of a restaurant or similar establishment, need only the same high school diploma BLS lists for chefs, yet earned a higher median of $65,310, about $4,320 above chefs and head cooks.",
+					"That places chefs and head cooks in the middle of a three-step ladder inside the same broad food-service field: a no-credential prep role below, a supervisory management role above, and the chef and head cook role itself sitting on five years of related experience rather than either a lower or a higher formal-education requirement. Measured against a different vocational field entirely, chefs and head cooks also out-earn [welders, cutters, solderers, and brazers](/welder-salary/), who BLS lists at the same high-school-diploma entry tier but a median of $51,000, roughly $9,990 below chefs. BLS's data describes the pay at each tier; it does not explain why five years of food-service experience commands a premium over a shorter vocational-training route in a different industry, and this page does not assert a cause beyond what BLS itself reports.",
+				],
+			},
+			{
+				heading: 'Industry breakdown and job outlook',
+				body: [
+					"BLS breaks out May 2024 median pay for chefs and head cooks across four industry categories. Traveler accommodation, hotels and similar lodging that run their own kitchens, paid the highest median at $73,110. Amusement, gambling, and recreation industries followed at $69,430. Food services and drinking places, the industry employing the largest share of chefs and head cooks in traditional restaurants, paid $59,450, close to but below the national median. Healthcare and social assistance, covering institutional kitchens in hospitals and care facilities, paid the lowest of the four tracked industries at $57,350.",
+					'BLS projects 7% employment growth for chefs and head cooks from 2024 to 2034, classified as much faster than the roughly 3% average projected across all occupations, adding an estimated 14,000 jobs to the 197,300 already employed in 2024. About 24,400 openings are projected each year on average over the decade, which BLS attributes mainly to the need to replace workers who transfer to other occupations or leave the labor force, rather than to net new job creation alone. BLS does not publish a stated explanation for the growth rate itself on this occupation\'s Handbook page the way it sometimes does for other roles.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average chef salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for chefs and head cooks was $60,990 in May 2024 ($29.32 an hour). The bottom 10% earned less than $36,000, and the top 10% earned more than $96,030.',
+			},
+			{
+				question: 'Do you need a culinary degree to become a chef?',
+				answer: "No. BLS lists a high school diploma or equivalent as the typical entry-level education for chefs and head cooks, with no on-the-job training listed beyond it. What BLS does list as typical is five years or more of work experience in a related occupation. Some chefs get there through a culinary program at a community college, technical school, culinary arts school, or four-year college; others work their way up through food-service jobs or an apprenticeship. Neither path is described as a formal requirement, only as common routes toward the experience the occupation typically expects.",
+			},
+			{
+				question: 'What is the pay range for chefs and head cooks?',
+				answer: 'BLS reports a median annual wage of $60,990 for May 2024, with the lowest-paid 10% earning less than $36,000 and the highest-paid 10% earning more than $96,030, a range of well over two and a half times between the bottom and top BLS reports.',
+			},
+			{
+				question: 'Which industry pays chefs the most?',
+				answer: 'Among the four industries BLS tracks for this occupation, traveler accommodation (hotels and similar lodging) paid the highest May 2024 median at $73,110, followed by amusement, gambling, and recreation industries at $69,430. Food services and drinking places, where most chefs work, paid $59,450, and healthcare and social assistance paid the lowest of the four at $57,350.',
+			},
+			{
+				question: 'Is chef a growing career?',
+				answer: 'Yes, per BLS. It projects 7% employment growth for chefs and head cooks from 2024 to 2034, much faster than the roughly 3% average projected across all occupations, adding an estimated 14,000 jobs to the 197,300 already employed in 2024, with about 24,400 openings projected each year on average.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Chefs and Head Cooks (accessed 2026-08-21 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm' },
+		],
+		image: '/images/chef-salary-chart.svg',
+		imageAlt: 'Bar chart showing chef and head cook annual wage by percentile: 10th percentile $36,000, median $60,990, 90th percentile $96,030, based on BLS May 2024 data.',
+	},
 ];
