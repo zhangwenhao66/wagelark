@@ -373,3 +373,64 @@ Owen Zhang
 contact@wagelark.com
 
 **Status: drafted this run, not independently reviewed or sent.** Per task scope for this run (research/verify/draft only — a separate step reviews and sends), this pitch was not sent. Before sending: spawn an independent review agent per standard process (14-day dedup already checked clean; still needs AI-tone re-check + numbers cross-check by a fresh reviewer per established protocol), and note the lower-confidence flag on submission mechanics above (form-primary site, email used based on precedent) in case Owen wants to check the actual /publish page manually before sending.
+
+## 2026-08-21 — Broken link pitch: HCC Library HVAC Careers guide
+
+- Target page: https://library.hccs.edu/guides/hvac/careers (Houston Community College Library, "HVAC Careers" subject guide, under "Websites for Career Information")
+- Dead link found: "HCC's Career Coach" (hccs.emsicareercoach.com), described on the page as "Find descriptions and employment outlook here." Confirmed dead via three independent DNS resolvers (system default, 8.8.8.8, 1.1.1.1) on August 21, 2026: all three return zero A records for the subdomain, not just a slow or blocked server.
+- Other dead links found on the same page but not pitched (no topical match): `0-www.fofweb.com.librus.hccs.edu` proxy link (Ferguson's Career Guidance Center database, subscription-gated), `jobstar.org/tools/resume/index.php` (resume tool), `litlink.ket.org` (KET literacy site), three `librus.hccs.edu` catalog-search URLs (internal library catalog, not external resource). None relate to HVAC pay/career data specifically.
+- False positives ruled out via DNS cross-check: `code-electrical.com` (from a different HCC-adjacent guide checked this run) and `electrical.nebraska.gov` both resolve fine on at least one of the three resolvers despite the scan tool flagging them, so neither is a real dead link; excluded from consideration.
+- Contact used: library.support@hccs.edu, the page's own "Report a problem" link, listed for exactly this purpose.
+- Content match: WageLark has `hvac-certification` (published 2026-08-18), covering the EPA Section 608 refrigerant-handling exam every HVAC tech needs plus current BLS pay data. The dead link's own description, "descriptions and employment outlook," is what this page provides for the HVAC occupation specifically, so the topic match is direct rather than a stretch.
+- Numbers checked against `src/data/guides.ts` `hvac-certification` entry: median $59,810/yr, 10th percentile $39,130, 90th percentile $91,020 (all May 2024 BLS).
+- Dedup: `gmail_send.py list --query "to:library.support@hccs.edu"` returned `[]`. Grepped `outreach-drafts.md` and `broken-link-outreach-log.md` across all four seo-geo-trinity sites and the 10-site traffic matrix for "hccs.edu" and "austincc.edu" (both today's targets), no prior contact found either domain.
+- Passed humanizer + avoid-ai-writing (no em dashes, no AI-vocabulary words, no filler).
+
+**Draft email:**
+
+Subject: Dead link on your HVAC careers guide
+
+Hi,
+
+I was looking at the HVAC careers guide on the HCC library site (library.hccs.edu/guides/hvac/careers) and noticed the "HCC's Career Coach" link no longer works. I checked hccs.emsicareercoach.com against three separate DNS resolvers on August 21, 2026, and none of them return any records for that subdomain, so it looks like the Career Coach tool itself was retired rather than just moved.
+
+I run wagelark.com, a reference site built on BLS occupational wage data. There's a page on HVAC technicians that covers the EPA Section 608 certification every tech needs before touching refrigerant, along with current BLS pay figures: a median of $59,810 a year as of May 2024, with the 10th percentile at $39,130 and the 90th at $91,020. It might work as a replacement for the description-and-outlook role that link used to serve:
+
+https://wagelark.com/hvac-certification/
+
+No obligation either way, just wanted to flag the dead link since it's easy to miss on a resource list.
+
+Owen Zhang
+contact@wagelark.com
+
+**Status: 已发送。** 独立复核agent（全新spawn，无本次会话上下文）逐项核实：跨站14天查重（`gmail_send.py list --query "to:library.support@hccs.edu"`返回空+grep全矩阵14站outreach-drafts.md/log仅命中本文件本身）、死链真实性（独立curl确认HCC页面存在该链接+独立3个DNS解析器均返回空记录）、主题对应（死链自身描述"Find descriptions and employment outlook here"与WageLark hvac-certification页面直接对应，非硬凑）、数字核对（median $59,810/10th $39,130/90th $91,020均与guides.ts及线上页面逐字一致）、语气（零破折号、零AI高频词、第一段纯断链通知不提WageLark）、站点真实性（wagelark.com及目标页面均200正常）。**VERDICT: SEND**。已由 `gmail_send.py send --from wagelark` 发出，收件人 library.support@hccs.edu，Message ID `1a024dfa33b7c750`。
+
+---
+
+## 2026-08-21 — Broken link pitch: Austin Community College Accounting Careers guide
+
+- Target page: https://researchguides.austincc.edu/accounting/careers (Austin Community College library research guide, Accounting subject, "Careers" section)
+- Dead links found (both on aicpa.org, same page): "AICPA Career Center" (aicpa.org/career/jobboards.html, described as "Provides a career overview as well as a job finder, access to a Young CPA network, and educational opportunities") and the plain "AICPA (American Institute of CPAs)" org link (aicpa.org/content/aicpa). Confirmed dead via curl on August 21, 2026: both return HTTP 404, after redirecting to aicpa-cima.com (AICPA merged with the UK's CIMA and consolidated onto that domain), meaning the merger never got matching redirects set up for these specific old paths. Domain itself (aicpa.org) is live and has valid DNS; this is a real path-level 404, not a DNS/domain failure.
+- Content match: WageLark has `how-to-become-an-accountant` (published 2026-08-21, today), covering the bachelor's degree requirement, the traditional 150-credit-hour CPA path versus the new two-years-experience pathway Texas adopted in 2026, and current BLS pay data. This is a softer match than the HCC pitch above: the dead AICPA links included a job board and Young CPA network, which WageLark's page doesn't have, so the pitch is framed as a possible addition rather than a like-for-like replacement.
+- Numbers checked against `src/data/guides.ts` `how-to-become-an-accountant` entry: median $81,680/yr, 10th percentile $52,780, 90th percentile $141,420 (all May 2024 BLS).
+- Dedup: `gmail_send.py list --query "to:ls-instruction@austincc.edu"` returned `[]`. Same cross-site grep as the HCC pitch above covered this domain too, no prior contact.
+- Passed humanizer + avoid-ai-writing (no em dashes, no AI-vocabulary words, no filler).
+
+**Draft email:**
+
+Subject: Two dead AICPA links on your accounting careers guide
+
+Hi,
+
+I was going through the accounting careers guide on the Austin Community College library site (researchguides.austincc.edu/accounting/careers) and found two links to aicpa.org that no longer resolve: the AICPA Career Center entry and the general AICPA link further down the page. Both now redirect to aicpa-cima.com (AICPA merged with CIMA a while back) and return a 404 there, so it looks like the old URLs never got redirected to the new site's equivalent pages.
+
+I run wagelark.com, a reference site built on BLS occupational wage data. There's a guide on becoming an accountant that covers the bachelor's degree requirement, the traditional 150-credit-hour CPA path versus the new pathway that drops to two years of supervised experience instead, and current BLS pay data: a median of $81,680 a year as of May 2024, with the 10th percentile at $52,780 and the 90th at $141,420. Not a direct swap for the AICPA links, since it doesn't have a job board, but it might be a useful addition alongside whatever you replace them with:
+
+https://wagelark.com/how-to-become-an-accountant/
+
+No obligation either way, just wanted to flag the two dead links since they're easy to miss on a long resource list.
+
+Owen Zhang
+contact@wagelark.com
+
+**Status: 已发送。** 独立复核agent（全新spawn，无本次会话上下文）逐项核实：跨站14天查重（`gmail_send.py list --query "to:ls-instruction@austincc.edu"`返回空+grep全矩阵13站均仅命中本文件）、死链真实性（独立curl确认页面存在两条aicpa.org链接+`-L`跟随重定向确认均经aicpa-cima.com最终404）、主题对应诚实度评估（专门审视"较软匹配"这一点：AICPA Career Center含求职板块+青年CPA社群，WageLark页面没有，但邮件第二段已如实声明"not a direct swap...just a useful addition"，判定为诚实的补充说明而非硬凑）、数字核对（median $81,680/10th $52,780/90th $141,420均与guides.ts及线上页面含schema.org标记逐字一致）、语气（零破折号、零AI高频词、第一段纯断链通知不提WageLark）、站点真实性（均200正常）。**VERDICT: SEND**。已由 `gmail_send.py send --from wagelark` 发出，收件人 ls-instruction@austincc.edu，Message ID `1a024dfb43b56a68`。

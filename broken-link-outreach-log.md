@@ -144,3 +144,52 @@ phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训�
 1. 竞品缺口分析这条线本轮只筛出2个候选，样本还小，下轮可以扩大抽样条数或换其他职业类竞品（如teacher.org、nursingprocess.org类）交叉验证候选密度
 2. CSRT断链命中后，"从业者州级协会Affiliate/Useful Links页面"这个模式已连续两轮验证有效（UCF精算/CSRT放射技师），下轮可以继续沿其他职业的州级/全国级从业协会资源页找
 3. 本轮流程异常（子agent未等复核完成即返回）建议后续同类编排任务加强对子agent自身是否真正执行到"发送"这一步的确认，不能只看子agent汇报文字
+
+## 2026-08-21（第四次运行）
+
+### 第一部分：核实10天前旧pitch
+
+按规则挑10-11之前发出且未验证的最早一条：2026-08-09 UCF Actuarial Science Club断链pitch（收件人ucf.asc@gmail.com，失效链接riskisopportunity.net，替换建议wagelark.com/what-does-an-actuary-do/）。
+
+- curl访问 https://sciences.ucf.edu/statistics/actuary-club/links/：页面仍是原样，`riskisopportunity.net` 死链依旧挂在页面上，未替换为任何wagelark链接（无`wagelark`字样）。
+- 额外跑 `dataforseo_query.py backlinks wagelark.com`：外链明细中未找到 sciences.ucf.edu 对应行。
+- 判定：`not_replaced`。
+- `gmail_send.py list --query "from:ucf.asc@gmail.com"` 返回空，对方从未回复（拒绝也算回复，此处确认零回复）。发出日期2026-08-09，距今12天，落在"10-14天未回复可跟进一次"窗口（2026-08-07至2026-08-11之间发出）内，且目标资源页（UCF统计与数据科学系学生社团维护的资源页）仍具备真实权威度（大学官方院系页面）。
+- 已发送简短跟进邮件（2句+提及原邮件，非全文重发），收件人ucf.asc@gmail.com，Message ID `1a024c6ad9dc416a`。标记 `followed_up_once`。跟进邮件同样过了humanizer/avoid-ai-writing自查（无独立复核agent，因规则5本身未要求对1-2句跟进邮件走完整复核流程，仅要求过前两道语言检查）。
+
+**verified_not_replaced_followed_up_once**（原记录：2026-08-09 UCF pitch，见 outreach-drafts.md）
+
+### 第二部分：新断链机会
+
+**1.5 竞品外链缺口分析**：`dataforseo_query.py backlinks careerexplorer.com` 和 `backlinks salary.com` 各抽样50条。多数是一次性PR/博客引用或商业客户案例（sokanu.com遗留链接、field engineer招聘站、CE营销代理等），不符合"资源列表/编辑引用"可赢类别。少数候选（career.umn.edu、www.cmaa.org、nptiflorida.edu、onlineprograms.sacredheart.edu等）因无法定位到抽样数据里给出的具体源页面URL（backlinks数据只给目标URL和引荐域名，不给引荐页面路径），本轮未能验证转化为pitch，留作下轮改进方向：需要额外一步反查引荐域名的具体页面。
+
+**断链方向**：WebSearch围绕本站新覆盖的职业（电工、HVAC、焊工、消防员、图书馆员、社工、心理学家、会计师、卡车司机、水管工、调酒师）找资源/链接列表页，收集32个候选URL（含1.5未落地的部分职业方向），跑 `broken_link_scan.py` 批量扫描。
+
+扫描发现大量DEAD标记，逐条用dig多解析器（本机+8.8.8.8+1.1.1.1）交叉验证后，**多数是假阳性**（本机DNS环境异常，非真实失效）：`code-electrical.com`、`sswlhc.org`、`ssa.gov`、`mentalhealth.org`、`electrical.nebraska.gov`、`idealist.org`、`www.alea.gov`（CDL手册PDF）均确认域名/页面实际存活，排除。`www.agesocialwork.org` 确认已过期并被域名停放服务（bodis.com）接管，但主题（老年学社工专业协会）与WageLark社工页面（通用职业介绍，非老年学细分）不对应，未采用。UNLV社工资源页的执照考试练习题链接（socialworktestpass.com、my.ewebtest.com）虽真实失效，但主题是考试练习题而非薪资数据，判定不够贴题，未采用。
+
+真实确认失效+主题对应+目标页有权威度的机会，共2条：
+
+**机会A：HCC（Houston Community College）图书馆HVAC职业资源页**
+- 目标页：https://library.hccs.edu/guides/hvac/careers
+- 死链："HCC's Career Coach"（hccs.emsicareercoach.com），页面描述"Find descriptions and employment outlook here"。3个DNS解析器（本机/8.8.8.8/1.1.1.1）均返回空记录，确认真实失效。
+- 替换：wagelark.com/hvac-certification/（EPA 608认证+BLS薪资数据，与死链描述直接对应，非硬凑）
+- 联系邮箱：library.support@hccs.edu（页面自带"Report a problem"链接）
+
+**机会B：Austin Community College图书馆会计职业资源页**
+- 目标页：https://researchguides.austincc.edu/accounting/careers
+- 死链2条（同域名）："AICPA Career Center"（aicpa.org/career/jobboards.html）+"AICPA"机构主页链接（aicpa.org/content/aicpa）。curl -L均经aicpa-cima.com（AICPA与CIMA合并后域名）最终404，确认真实失效。
+- 替换：wagelark.com/how-to-become-an-accountant/（较软匹配，AICPA链接含求职板块+青年CPA社群，WageLark页面没有，邮件如实声明"not a direct swap...just a useful addition"）
+- 联系邮箱：ls-instruction@austincc.edu（页面自带"Report a problem"链接）
+
+两份均过humanizer+avoid-ai-writing检查，存入outreach-drafts.md后各自spawn独立复核agent（无本次会话上下文），均返回**VERDICT: SEND**（六项核查逐条独立复核：跨站14天查重全矩阵grep均为空、死链独立curl+dig复验、主题对应诚实度评估、guides.ts数字逐字核对、语气检查零破折号零AI高频词、站点真实性200确认）。
+
+- 机会A → library.support@hccs.edu，Message ID `1a024dfa33b7c750`
+- 机会B → ls-instruction@austincc.edu，Message ID `1a024dfb43b56a68`
+
+两封均已发出，无留待处理草稿。
+
+### 遗留待办
+
+1. 1.5竞品缺口分析这次卡在"backlinks数据只给目标URL不给引荐页面路径"——下轮需要先用WebSearch/curl反查引荐域名具体页面再判断是否资源列表类型，不能只看域名列表
+2. 本轮dig三解析器交叉验证法（本机+8.8.8.8+1.1.1.1）新增了"本机解析器单独失败但8.8.8.8/1.1.1.1能查到"的假阳性模式（ssa.gov、mentalhealth.org、electrical.nebraska.gov），比过去只查本机+一个外部解析器更严格，建议后续断链核查都升级为三解析器交叉验证
+3. "域名过期后被停放服务接管"（agesocialwork.org → bodis.com）是介于"真dead"和"真alive"之间的第三种状态，本轮按"真实失效"记但因主题不对应未采用，下次遇到主题对应的停放域名案例时可以直接按失效处理（参照历史jobnexus.com先例）
