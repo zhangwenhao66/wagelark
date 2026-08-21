@@ -837,3 +837,44 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "radiology-tech-salary",
+  "last_audited": "2026-08-21",
+  "published_date": "2026-08-04",
+  "note": "跨站排序：wagelark本轮last_audited最旧（08-19 17:29，四站并列08-19中最早的mtime）；站内按'从未审计过'最高优先级+guides.ts数组顺序选中本文（29/39篇从未被本任务审计过，本文是第一篇从未审计的文章，位于pharmacist-salary/dental-hygienist-salary/actuary-salary/physical-therapist-salary四篇已审计文章之后）",
+  "diagnosed_checkpoints": [
+    "BLS median annual salary $77,660（2024年5月）及五类行业细分薪资（federal government/outpatient/hospitals/labs/physician offices）是否逐字准确",
+    "4%就业增长率+9,800个新增岗位（2024-2034）预测数字，以及combined类目5%/15,400 openings数字是否准确",
+    "$37.97小时薪资是'Radiologic and MRI Technologists'合并类目而非本occupation专属这一区分表述是否站得住（文章自己特别强调了这点，容易被误判为编造）",
+    "ARRT/ARDMS/JRCERT三个认证机构名称、职能描述及官网链接是否准确可访问（YMYL-adjacent站点，机构信息错误会误导读者）",
+    "MRI技师中位薪资$88,180、物理治疗师中位薪资$101,020两处跨职业对比数字是否准确"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题，全部核实通过", "detail": "直接curl实时抓取bls.gov/ooh/healthcare/radiologic-technologists.htm官方原页面（非WebSearch摘要）逐字核对：median $77,660、bottom 10% $52,360、top 10% $106,990、federal government $93,970、outpatient care centers $81,000、hospitals $78,560、labs $76,770、physician offices $66,060、MRI技师$88,180、combined类目Quick Facts $78,980/年+$37.97/小时、4%增长(228,000→237,800)+9,800新增岗位、combined类目5%增长+15,400 openings/年，均与官方页面逐字完全一致，无一处编造或过时。另curl核对bls.gov/ooh/healthcare/physical-therapists.htm确认物理治疗师中位薪资$101,020准确。$37.97小时薪资的'合并类目非本occupation专属'区分表述经核实是文章的准确澄清，不是编造。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "全篇数字均标注BLS来源，对无法从BLS页面直接得出的推论（如联邦雇主薪资最高的原因）明确标注'this article's inference, not a claim BLS itself makes'，未见泛泛而谈。" },
+    { "dimension": "时效性", "status": "未发现问题，与实时主源一致", "detail": "BLS官网截至本次审计（2026-08-21）仍展示2024年5月OEWS数据，文章published/updated原为2026-08-04且引用同一批数据，无需更新事实内容；updated字段本次仅因外链修复而非时效性问题被推进。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "WebSearch核实头部SERP竞品为ZipRecruiter/Indeed/TrustedHealth等自报薪资聚合站，本文明确区分BLS雇主报告数据与自报数据的样本代表性差异、逐职业对比框架（MRI技师/物理治疗师/外科技师/呼吸治疗师）、认证路径细节，非维基百科式同质化内容，判定具备真实增量价值。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "title 57字符/description 153字符均在建议区间内；4个H2分节+6项FAQ+4条具名信源；2条已确认的站内正文手动锚文本入链（来自surgical-tech-salary、respiratory-therapist-salary），非孤儿页；正文2条出链锚文本自然多样（'ultrasound technologists'/'physical therapy'）。" },
+    { "dimension": "GEO审计", "status": "定性评估达标（≥80分档），未产出量化分数", "detail": "coreSummary前置定义块✓、FAQ独立自包含且配FAQPage schema✓、4条具名权威信源附URL✓、不确定性显式标注（'BLS does not quantify this'等）✓、跨文章可比数据点✓；唯一结构性弱项是全站通用的'无具名作者署名'（非本文独有，属既有站级缺口，不在本次修复范围）。" },
+    { "dimension": "早期内容AI味补漏", "status": "未发现问题", "detail": "本文published 2026-08-04早于avoid-ai-writing技能2026-08-07接入，属应检范围；programmatic grep确认全文0处em/en dash、0处弯引号；人工逐句核对未见AI高频词（delve/landscape/testament/underscore/vibrant等）、无copula avoidance（大量直接用is/are）、无rule-of-three堆砌、无'not just X'翻案句式、无泛泛而谈的结尾升华，判定无需改写。" },
+    { "dimension": "外部引用链接腐烂", "status": "发现1处确认问题，已修复", "detail": "ARRT（200）、JRCERT（200）访问正常；ARDMS官网ardms.org已改版为301跳转inteleos.org/about/councils/ardms/，该跳转目标返回404（curl -sL -D -复核确认）。独立复核agent（18秒完成，未卡死）二次验证：ardms.org确认404，替换链接inteleos.org/about/community/ardms/确认200且页面内容（title 'Councils - ARDMS - Inteleos'）确实是ARDMS机构介绍页，CONFIRMED。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "grep guides.ts确认已有2篇站内文章（surgical-tech-salary、respiratory-therapist-salary）正文手动锚文本链接到本文，非孤儿页；本文自身也有2条出链，双向内链结构健康。" },
+    { "dimension": "Schema数据一致性", "status": "已修复后保持一致", "detail": "仅source URL字段变更，其余可见内容/schema字段无改动，无不一致风险。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯职业教育/薪资数据信息，无人物/事件/群体敏感表述。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/radiology-tech-salary-chart.svg站内自制SVG柱状图（非第三方图片），dist构建产物中存在，live页面200可访问。" },
+    { "dimension": "AdSense政策合规风险", "status": "未发现问题", "detail": "内容为百科式职业薪资介绍，无暴力/武器/毒品/赌博等限制类目描写，无标题党或诱导布局；ads.txt正确指向pub-5245502795720653；/privacy/、/about/均200可访问。" }
+  ],
+  "actions_taken": [
+    "修复第4条外部信源链接：ARDMS引用URL从已失效的https://www.ardms.org/（301跳转至inteleos.org后404）改为https://www.inteleos.org/about/community/ardms/（实测200，内容确认为ARDMS机构介绍页）",
+    "updated字段2026-08-04→2026-08-21（published字段已存在'2026-08-04'，直接推进updated，未触发第4步的git历史回填流程）",
+    "npm run build验证通过，dist产物grep确认0处ardms.org残留、1处inteleos.org新链接",
+    "commit+push+触发Cloudflare deploy hook，轮询确认线上URL 200后跑node tools/submit-indexnow.mjs提交索引，并在内容发布日志.md追加本次审计更新记录"
+  ],
+  "independent_verification": "1条发现（ARDMS外链失效）spawn了全新独立复核agent，只给URL+claim不透露诊断过程，约18秒完成，CONFIRMED（含独立curl复核+跳转链追踪+替换链接内容核对），无卡死。",
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "定性评估达标（≥80分档），仓库内无量化评分脚本，与既有判例一致",
+  "escalation": null
+}
+```

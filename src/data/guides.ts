@@ -636,7 +636,7 @@ export const guides: Guide[] = [
 		title: 'Radiology Tech Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median radiology tech salary at $77,660 a year. See the full wage range by percentile, by industry, and how the role differs from MRI techs.',
 		published: '2026-08-04',
-		updated: '2026-08-04',
+		updated: '2026-08-21',
 		socCode: '29-2034',
 		coreSummary: 'The median annual wage for radiologic technologists and technicians was $77,660 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $52,360 while the top 10% earned more than $106,990, and the highest-paying employer category was the federal government, at a median of $93,970.',
 		sections: [
@@ -702,7 +702,7 @@ export const guides: Guide[] = [
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
 			{ label: 'American Registry of Radiologic Technologists (ARRT): Radiography credential', url: 'https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography' },
-			{ label: 'American Registry for Diagnostic Medical Sonography (ARDMS), operated by Inteleos', url: 'https://www.ardms.org/' },
+			{ label: 'American Registry for Diagnostic Medical Sonography (ARDMS), operated by Inteleos', url: 'https://www.inteleos.org/about/community/ardms/' },
 			{ label: 'Joint Review Committee on Education in Radiologic Technology (JRCERT): program accreditation standards', url: 'https://www.jrcert.org/accreditation-for-students/' },
 		],
 		image: '/images/radiology-tech-salary-chart.svg',
