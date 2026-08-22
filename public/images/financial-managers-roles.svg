@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Arial, sans-serif">
+	<rect width="640" height="300" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">Six Job Titles, One BLS Occupation: Financial Managers (11-3031)</text>
+
+	<g font-size="13" fill="#14212e">
+		<rect x="10" y="55" width="200" height="100" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="110" y="78" text-anchor="middle" font-weight="700" fill="#0b675e">Controller</text>
+		<text x="110" y="100" text-anchor="middle" font-size="11.5">Financial reports,</text>
+		<text x="110" y="115" text-anchor="middle" font-size="11.5">forecasts, and</text>
+		<text x="110" y="130" text-anchor="middle" font-size="11.5">accounting oversight</text>
+
+		<rect x="220" y="55" width="200" height="100" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="78" text-anchor="middle" font-weight="700" fill="#0b675e">Treasurer</text>
+		<text x="320" y="100" text-anchor="middle" font-size="11.5">Investments, capital</text>
+		<text x="320" y="115" text-anchor="middle" font-size="11.5">raising, and merger</text>
+		<text x="320" y="130" text-anchor="middle" font-size="11.5">and acquisition plans</text>
+
+		<rect x="430" y="55" width="200" height="100" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="530" y="78" text-anchor="middle" font-weight="700" fill="#0b675e">Credit Manager</text>
+		<text x="530" y="100" text-anchor="middle" font-size="11.5">Credit standards,</text>
+		<text x="530" y="115" text-anchor="middle" font-size="11.5">limits, and past-due</text>
+		<text x="530" y="130" text-anchor="middle" font-size="11.5">account collections</text>
+
+		<rect x="10" y="165" width="200" height="100" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="110" y="188" text-anchor="middle" font-weight="700" fill="#0b675e">Cash Manager</text>
+		<text x="110" y="210" text-anchor="middle" font-size="11.5">Projects cash</text>
+		<text x="110" y="225" text-anchor="middle" font-size="11.5">shortages and</text>
+		<text x="110" y="240" text-anchor="middle" font-size="11.5">surpluses</text>
+
+		<rect x="220" y="165" width="200" height="100" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="320" y="188" text-anchor="middle" font-weight="700" fill="#0b675e">Risk Manager</text>
+		<text x="320" y="210" text-anchor="middle" font-size="11.5">Limits exposure to</text>
+		<text x="320" y="225" text-anchor="middle" font-size="11.5">currency and</text>
+		<text x="320" y="240" text-anchor="middle" font-size="11.5">commodity risk</text>
+
+		<rect x="430" y="165" width="200" height="100" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="530" y="188" text-anchor="middle" font-weight="700" fill="#0b675e">Insurance Manager</text>
+		<text x="530" y="210" text-anchor="middle" font-size="11.5">Limits loss exposure</text>
+		<text x="530" y="225" text-anchor="middle" font-size="11.5">through insurance</text>
+		<text x="530" y="240" text-anchor="middle" font-size="11.5">coverage</text>
+	</g>
+
+	<text x="320" y="285" text-anchor="middle" font-size="12" fill="#14212e" opacity="0.55">BLS tracks all six titles under one SOC code and publishes one combined median wage for the group. Source: BLS Occupational Outlook Handbook.</text>
+</svg>

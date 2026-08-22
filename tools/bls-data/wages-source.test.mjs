@@ -714,3 +714,24 @@ test('spot check: Software Developers (15-1252) matches BLS OOH page + Employmen
 	assert.equal(occ.employmentChange, 267700);
 	assert.equal(occ.entryEducation, "Bachelor's degree");
 });
+
+// Hand-transcribed from the live BLS OOH page (Financial Managers) on
+// 2026-08-22. This SOC code (11-3031) covers controllers, treasurers,
+// credit managers, cash managers, risk managers, and insurance managers
+// as one group. BLS publishes a single combined median and employment
+// figure for the whole group -- it does not break out a controller-specific
+// wage the way it splits Software Developers from QA Testers. O*NET's more
+// detailed 11-3031.02 "Treasurers and Controllers" code now redirects to
+// the parent 11-3031.00, confirming BLS/O*NET no longer track it separately.
+test('spot check: Financial Managers (11-3031) matches BLS OOH page', () => {
+	const occ = occupations['11-3031'];
+	assert.equal(occ.medianAnnual, 161700);
+	assert.equal(occ.medianHourly, 77.74);
+	assert.equal(occ.percentiles.p10, 86490);
+	assert.equal(occ.percentiles.p90, 239200);
+	assert.equal(occ.employment, 868600);
+	assert.equal(occ.jobOutlookPct, 15);
+	assert.equal(occ.employmentChange, 128800);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 5);
+});

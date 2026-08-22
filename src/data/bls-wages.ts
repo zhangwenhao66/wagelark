@@ -35,6 +35,49 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"11-3031": {
+		socCode: "11-3031",
+		title: "Financial Managers",
+		medianAnnual: 161700,
+		medianHourly: 77.74,
+		percentiles: {
+			p10: 86490,
+			p90: 239200
+		},
+		employment: 868600,
+		employmentYear: "2024",
+		jobOutlookPct: 15,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 128800,
+		projectionPeriod: "2024-34",
+		entryEducation: "Bachelor's degree",
+		industryWages: [
+			{
+				industry: "Professional, scientific, and technical services",
+				annualWage: 171580
+			},
+			{
+				industry: "Management of companies and enterprises",
+				annualWage: 169340
+			},
+			{
+				industry: "Finance and insurance",
+				annualWage: 164940
+			},
+			{
+				industry: "Manufacturing",
+				annualWage: 160660
+			},
+			{
+				industry: "Government (excl. state/local education, hospitals)",
+				annualWage: 134790
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Financial Managers (covers controllers, treasurers, credit/cash/risk/insurance managers as one SOC group; BLS does not break out a controller-specific wage)",
+		sourceUrl: "https://www.bls.gov/ooh/management/financial-managers.htm",
+		publishedDate: "2025-08-28"
+	},
 	"35-3011": {
 		socCode: "35-3011",
 		title: "Bartenders",

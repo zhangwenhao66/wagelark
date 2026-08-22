@@ -2904,4 +2904,76 @@ export const guides: Guide[] = [
 		image: '/images/software-developer-education-path.svg',
 		imageAlt: "Diagram showing the path to becoming a software developer: a 4-year bachelor's degree in computer and information technology or a related field, internship or portfolio work during school, no state license or standardized exam, and ongoing skill upkeep, leading to a working software developer earning a median of $133,080 a year per BLS.",
 	},
+	{
+		slug: 'what-does-a-controller-do',
+		category: 'Career Guide',
+		title: 'What Does a Controller Do? Duties, Path, and BLS Pay Data',
+		description: "Controllers direct financial reporting and oversee accounting teams. BLS tracks the role under Financial Managers, a group with a $161,700 median wage.",
+		published: '2026-08-22',
+		updated: '2026-08-22',
+		socCode: '11-3031',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, controllers direct the preparation of an organization's financial reports, oversee its accounting, audit, and budget departments, and prepare the filings required by government regulatory agencies. BLS does not track controllers as their own occupation; it groups them with treasurers, credit managers, cash managers, risk managers, and insurance managers under a single SOC code, Financial Managers (11-3031), and publishes one combined median wage and job-growth figure for the whole group rather than a controller-specific number. That combined group reported a median annual wage of $161,700 in May 2024, and BLS projects 15% employment growth for it from 2024 to 2034, much faster than the average for all occupations.",
+		sections: [
+			{
+				heading: 'What controllers actually do, per BLS',
+				body: [
+					"BLS describes controllers as one of six specific job types it lists under the broader Financial Managers occupation. Per BLS, controllers \"direct the preparation of financial reports that summarize and forecast an organization's financial position,\" including income statements, balance sheets, and analyses of future earnings or expenses. Controllers are also in charge of preparing the reports required by government agencies that regulate businesses, and they typically oversee the accounting, audit, and budget departments within their organization. That combination, financial reporting plus managing the staff who produce it, is what separates a controller from a bookkeeper or a single accountant: the controller is the one accountable for the accuracy and timeliness of the numbers a company reports externally.",
+					"BLS lists the other five financial manager titles for contrast. Treasurers and finance officers direct an organization's budgets, oversee investments and plans to raise capital such as issuing stocks or bonds, and develop financial plans for mergers and acquisitions, a forward-looking, capital-strategy role rather than the backward-looking reporting focus of a controller. Credit managers set credit-rating standards, determine credit limits, and monitor collections of past-due accounts. Cash managers monitor and control the flow of money into and out of an organization, projecting shortages or surpluses. Risk managers use strategies to limit or offset an organization's exposure to financial loss, including risks from currency or commodity price changes. Insurance managers decide how to limit an organization's losses by protecting against risks such as disability payments or lawsuit costs. All six titles report into the same broader Financial Managers occupation in BLS's data, and O*NET, the U.S. Department of Labor's occupational database, now redirects its more detailed \"Treasurers and Controllers\" code (11-3031.02) to the parent Financial Managers code (11-3031.00), independent confirmation that neither BLS's wage survey nor O*NET's own taxonomy tracks controllers as a separate line item from the rest of the group.",
+				],
+				image: {
+					src: '/images/financial-managers-roles.svg',
+					alt: 'Diagram showing the six job titles BLS tracks under the Financial Managers occupation: Controller, Treasurer, Credit Manager, Cash Manager, Risk Manager, and Insurance Manager, all sharing one combined median wage.',
+				},
+			},
+			{
+				heading: "The entry path: a bachelor's degree, then five years in a related role",
+				body: [
+					"Per BLS, financial managers, the group that includes controllers, typically need a bachelor's degree and 5 years or more of experience in another business or financial occupation before moving into the role. BLS names five specific feeder occupations in its How to Become One section: loan officer, accountant, auditor, securities sales agent, and financial analyst. The degree itself is typically in business, economics, or a related field, coursework BLS says helps build the analytical skills the job requires. On-the-job training for the financial manager role itself is not typically required, per BLS's Quick Facts, because the required experience is expected to have already built those skills in the feeder occupation.",
+					"Professional certification is not required to work as a controller, per BLS, though it can indicate competence to employers. BLS points to CareerOneStop, a U.S. Department of Labor resource, for details on specific certifications available to financial managers with government-focused work; separately, some controllers hold a Certified Public Accountant (CPA) license, which BLS notes is issued by state boards of accountancy after a candidate passes an exam. From there, BLS lists a specific advancement path: experienced financial managers, controllers included, may advance to become chief financial officers (CFOs), the executives BLS describes as responsible for the accuracy of an organization's overall financial reporting, a level above the department-specific reporting a controller oversees.",
+				],
+			},
+			{
+				heading: "Pay: what BLS reports for the group, and why it isn't controller-specific",
+				body: [
+					"BLS reports a median annual wage of $161,700 for financial managers in May 2024, or $77.74 an hour, well above the $49,500 median across all occupations that year. The bottom 10% earned less than $86,490, and the top 10% earned more than $239,200, a top-to-bottom spread of nearly 2.8 times between the two boundary figures BLS publishes. Because this is one combined figure for controllers, treasurers, credit managers, cash managers, risk managers, and insurance managers together, it does not isolate what controllers specifically earn; a controller's actual pay could sit anywhere in that range depending on the employer, industry, and how large a reporting operation they oversee.",
+					"By industry, BLS breaks out May 2024 wages into five categories for the group: professional, scientific, and technical services paid the highest median, $171,580, followed by management of companies and enterprises at $169,340, finance and insurance at $164,940, manufacturing at $160,660, and government excluding state and local education and hospitals, the lowest of the five tracked industries, at $134,790. Separately, BLS reports where the largest share of financial managers actually work: finance and insurance employed 31% of the group in 2024, the largest single share, followed by professional, scientific, and technical services at 14% and management of companies and enterprises at 10%, meaning the highest-paying industry by median wage is not the one that employs the most people in the role.",
+				],
+			},
+			{
+				heading: 'Job outlook, and how this group compares to the roles that typically lead into it',
+				body: [
+					"BLS projects employment of financial managers to grow 15% from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 128,800 jobs to the 868,600 already employed in 2024. About 74,600 openings are projected each year on average over the decade; BLS attributes many of those to the need to replace workers who transfer to other occupations or exit the labor force, such as to retire, rather than to newly created positions alone. BLS attributes the growth itself partly to an increased emphasis on risk management within the financial industry, which it expects to continue, and specifically calls out cash management and risk management as specialties likely to be in high demand over the decade.",
+					"Against the feeder occupations BLS itself names for this role, the financial manager median sits well above [accountants](/how-to-become-an-accountant/) at $81,680, nearly double that figure, and above [actuaries](/actuary-salary/) at $125,770, a gap of $35,930. That ordering lines up with BLS's own description of the career path: accountant and financial analyst are named as roles someone typically works in before becoming a financial manager, not as competing end points, so the pay gap partly reflects that a financial manager's 5-plus years of prior experience is layered on top of, not instead of, the bachelor's degree those feeder roles also require. BLS's data describes what each occupation pays; it does not break out how much of that gap is attributable to the added years of experience alone versus the added management responsibility, and this page reports the pattern rather than asserting a specific cause.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does a controller do?',
+				answer: "Per BLS, controllers direct the preparation of financial reports that summarize and forecast an organization's financial position, including income statements, balance sheets, and analyses of future earnings or expenses. They also prepare the reports required by government regulatory agencies and typically oversee their organization's accounting, audit, and budget departments.",
+			},
+			{
+				question: 'How much do controllers make?',
+				answer: "BLS does not publish a controller-specific wage. It reports one combined figure for the broader Financial Managers occupation, which includes controllers, treasurers, credit managers, cash managers, risk managers, and insurance managers: a median annual wage of $161,700 in May 2024 ($77.74 an hour), with the bottom 10% earning less than $86,490 and the top 10% earning more than $239,200.",
+			},
+			{
+				question: "What's the difference between a controller and a treasurer?",
+				answer: "Both are financial manager titles BLS tracks under the same SOC code, but the focus differs. Per BLS, controllers direct financial reporting, oversee the accounting, audit, and budget departments, and prepare filings for regulators, a largely backward-looking record-keeping role. Treasurers direct an organization's budgets, oversee investments, and raise capital through means such as issuing stocks or bonds, and develop financial plans for mergers and acquisitions, a forward-looking capital-strategy role.",
+			},
+			{
+				question: 'How do you become a controller?',
+				answer: "Per BLS, the path runs through a bachelor's degree, typically in business, economics, or a related field, followed by 5 years or more of experience in another business or financial occupation such as loan officer, accountant, auditor, securities sales agent, or financial analyst. BLS does not list a specific license or certification as required to work as a controller, though some controllers hold a CPA license issued by a state board of accountancy. From there, BLS notes experienced financial managers, controllers included, may advance to chief financial officer (CFO).",
+			},
+			{
+				question: 'Is financial management a growing career?',
+				answer: 'Yes, per BLS. It projects 15% employment growth for financial managers, the group that includes controllers, from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 128,800 jobs to the 868,600 already employed in 2024. About 74,600 openings are projected each year on average, mostly from the need to replace workers who transfer to other occupations or leave the labor force.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Financial Managers (accessed 2026-08-22 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/management/financial-managers.htm' },
+			{ label: 'O*NET OnLine: 11-3031.00 Financial Managers (the more detailed 11-3031.02 "Treasurers and Controllers" code now redirects here, independent confirmation controllers are not tracked as a separate BLS/O*NET occupation)', url: 'https://www.onetonline.org/link/summary/11-3031.00' },
+		],
+		image: '/images/financial-managers-roles.svg',
+		imageAlt: 'Diagram showing the six job titles BLS tracks under the Financial Managers occupation: Controller, Treasurer, Credit Manager, Cash Manager, Risk Manager, and Insurance Manager, all sharing one combined median wage.',
+	},
 ];
