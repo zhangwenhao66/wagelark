@@ -680,3 +680,37 @@ test('spot check: Chefs and Head Cooks (35-1011) matches BLS OOH page', () => {
 	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
 	assert.equal(occ.industryWages.length, 4);
 });
+
+// Hand-transcribed from the live BLS OOH page (Software Developers, Quality
+// Assurance Analysts, and Testers -- combined narrative) for the pay figures,
+// and independently cross-checked against the live BLS Employment Projections
+// National Employment Matrix Table 1.2 (occupation.xlsx, downloaded from
+// bls.gov/emp/tables/occupational-projections-and-characteristics.htm) and
+// the BLS Economics Daily article "Artificial intelligence, information
+// technology, and employment, 2024-34" on 2026-08-22.
+test('spot check: Software Developers (15-1252) matches BLS OOH page + Employment Projections Table 1.2', () => {
+	const occ = occupations['15-1252'];
+	// The OOH page's Quick Facts median ($131,450) and hourly figure ($63.20)
+	// are for the combined "Software Developers, Quality Assurance Analysts,
+	// and Testers" group. Its Pay section breaks the annual median out by
+	// occupation -- $133,080 for software developers specifically -- but
+	// publishes no separate hourly figure for developers alone, so
+	// medianHourly is omitted rather than derived (same reasoning as the
+	// Radiologic Technologists entry above).
+	assert.equal(occ.medianAnnual, 133080);
+	assert.equal(occ.medianHourly, undefined);
+	assert.equal(occ.percentiles.p10, 79850);
+	assert.equal(occ.percentiles.p90, 211450);
+	assert.equal(occ.industryWages.length, 5);
+	// Employment, employment change, and percent change are not broken out
+	// by occupation on the OOH page itself (Quick Facts gives only the
+	// combined 1,895,500 figure). The National Employment Matrix Table 1.2
+	// breaks it out by SOC code: 1,693.8k -> 1,961.4k (2024-34), a 15.8%
+	// change of +267.7k jobs -- this independently matches the 15.8%/+267,700
+	// figures published in the BLS Economics Daily article, so both official
+	// BLS sources agree.
+	assert.equal(occ.employment, 1693800);
+	assert.equal(occ.jobOutlookPct, 15.8);
+	assert.equal(occ.employmentChange, 267700);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+});

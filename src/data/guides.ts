@@ -2829,4 +2829,79 @@ export const guides: Guide[] = [
 		image: '/images/chef-salary-chart.svg',
 		imageAlt: 'Bar chart showing chef and head cook annual wage by percentile: 10th percentile $36,000, median $60,990, 90th percentile $96,030, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'how-to-become-a-software-engineer',
+		category: 'How to Become',
+		title: 'How to Become a Software Engineer: Degree, Path, and Pay',
+		description: 'BLS calls the job "software developer" and typically requires a bachelor\'s degree, no license. Median pay is $133,080 a year, per May 2024 data.',
+		published: '2026-08-22',
+		updated: '2026-08-22',
+		socCode: '15-1252',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, software developers (SOC 15-1252), the occupation code covering most jobs titled "software engineer," typically need a bachelor\'s degree in computer and information technology or a related field, and some employers prefer a master\'s degree. BLS names no state license or standardized certification exam for the role. BLS reports a median annual wage of $133,080 in May 2024, with the bottom 10% earning less than $79,850 and the top 10% earning more than $211,450.',
+		sections: [
+			{
+				heading: 'What BLS calls the job, and the degree it says you need',
+				body: [
+					'BLS tracks this work under the title "software developers," SOC code 15-1252, inside a Handbook page that bundles the narrative with a second, related occupation, software quality assurance analysts and testers, SOC 15-1253. The two are distinct codes with separate pay and growth figures, covered separately below. O*NET, the Department of Labor database that maps job titles to SOC codes, lists the sample reported job titles for 15-1252.00 as including Software Engineer, Software Architect, Application Developer, DevOps Engineer, and Systems Engineer alongside Software Developer itself, so a posting titled "software engineer" and one titled "software developer" are typically the same BLS occupation, not two different ones.',
+					"Per BLS, software developers typically need a bachelor's degree in computer and information technology or a related field, such as engineering or mathematics, and some employers prefer a master's degree specifically for developer roles. Students often gain experience through an internship, such as at a software company, while still in school. Beyond that degree, BLS names no required license, no standardized entry exam, and no certification, a different entry model from several licensed or exam-gated fields this site covers, such as [accountants](/how-to-become-an-accountant/), where a CPA license involves a state board and a separate professional exam, or [actuaries](/actuary-salary/), where advancement runs on a multi-year, multi-exam credentialing system.",
+					"BLS names six qualities it considers important for this line of work: analytical skills, to evaluate what users need and design software that meets it; communication skills, to explain both problems and solutions to teammates and to nontechnical users such as customers; creativity, to design and improve software in ways that solve new problems; detail orientation, since developers often track many parts of an application at once while watching for user-error risks; interpersonal skills, to work well with the other people involved in designing, programming, and testing a piece of software; and problem-solving skills, since developers see a project through from start to finish rather than handing off a narrow piece of it. On advancement, BLS states that software developers can move into project management or into computer and information systems management, roles where they oversee the software development process rather than write code directly, a path BLS describes without naming any additional credential required to make that move.",
+				],
+				image: {
+					src: '/images/software-developer-education-path.svg',
+					alt: "Diagram showing the path to becoming a software developer: a 4-year bachelor's degree in computer and information technology or a related field, internship or portfolio work during school, no state license or standardized exam, and ongoing skill upkeep, leading to a working software developer earning a median of $133,080 a year per BLS.",
+				},
+			},
+			{
+				heading: 'The median pay, and which BLS number actually applies',
+				body: [
+					'This occupation\'s Handbook page has two different headline pay figures, and only one belongs to software developers specifically. The page\'s Quick Facts box lists "$131,450 per year, $63.20 per hour" as the 2024 median pay, but that figure covers the combined group of software developers and software quality assurance analysts and testers together. The Pay section further down breaks the median out by occupation: $133,080 for software developers in May 2024, and separately $102,610 for software quality assurance analysts and testers, the paired occupation this page does not otherwise track.',
+					"BLS also breaks the percentile range out by occupation rather than only for the combined group. For software developers, the bottom 10% earned less than $79,850 and the top 10% earned more than $211,450 in May 2024, a spread of more than $131,000 between the two ends BLS publishes. For comparison, software quality assurance analysts and testers ran from under $60,690 to over $166,960 in the same survey, a lower band across the board. BLS does not publish an hourly wage specific to software developers alone; the $63.20 figure in the Quick Facts box is the combined-group number, so this page reports only the annual figures BLS actually breaks out by occupation.",
+				],
+			},
+			{
+				heading: 'Where the highest-paying industries are',
+				body: [
+					'BLS breaks out May 2024 median pay for software developers across five industry categories. Software publishers, companies that develop and sell software as their core product, paid the highest median at $149,990. Manufacturing followed at $134,910, then management of companies and enterprises at $133,650, and finance and insurance at $132,880. Computer systems design and related services, the industry BLS names first among where software developers typically work and generally the largest single employer of the occupation, paid the lowest of the five tracked industries at $129,890.',
+					"That pattern, the largest employing industry sitting at the bottom of its own pay ladder rather than the top, shows up elsewhere on this site too: chefs and head cooks follow the same shape, with food services and drinking places, their largest employer, paying less than smaller segments like traveler accommodation. BLS's industry breakdown describes where the pay is higher or lower; it does not explain why the biggest employer in a field is rarely also the highest payer, and this page does not assert a cause beyond what BLS itself reports.",
+				],
+			},
+			{
+				heading: 'Job outlook, and how it splits from the paired QA role',
+				body: [
+					"BLS's Occupational Outlook Handbook narrative quotes a single combined growth rate, 15% from 2024 to 2034, for software developers and software quality assurance analysts and testers together, with about 129,200 combined openings projected each year. The BLS Employment Projections program's National Employment Matrix, the underlying data table the Handbook narrative draws from, breaks that combined figure out by SOC code: software developers specifically are projected to grow 15.8%, from about 1,693,800 workers in 2024 to about 1,961,400 by 2034, an increase of roughly 267,700 jobs. Software quality assurance analysts and testers, the smaller paired occupation, are projected to grow more slowly, 10%, adding about 20,200 jobs to a much smaller 2024 base of roughly 201,700. A BLS Economics Daily article on AI and technology employment independently reports the same 15.8% and roughly 267,700-job figures for software developers, citing continued demand for software applications, cybersecurity, and AI-related tools as drivers.",
+					"Measured against other bachelor's-entry occupations this site tracks, the software developer median of $133,080 sits above [actuaries](/actuary-salary/) at $125,770, an occupation that also runs on a bachelor's degree plus a multi-year professional exam system rather than an advanced degree, and further above [accountants](/how-to-become-an-accountant/) at $81,680, where a bachelor's degree is the entry point but a separate CPA license, involving a state board and 150 total semester hours in most states, can follow. Software developers sit at the top of that specific comparison while being the only one of the three BLS describes with no state license or standardized professional exam named anywhere in its occupational profile. BLS's data describes what each occupation pays and what it typically requires; it does not explain why the field with the fewest formal gatekeeping requirements among these three also pays the most, and this page reports the pattern rather than asserting a cause.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a software developer?',
+				answer: "Per BLS, the typical entry path runs on a 4-year bachelor's degree in computer and information technology or a related field, the same timeline as most bachelor's-entry occupations. Unlike several other fields this site covers, BLS names no additional licensing step, standardized exam, or certification period after the degree, so there is no extra multi-year credentialing stage built into the typical path the way there is for, say, a CPA license or an actuarial exam series.",
+			},
+			{
+				question: 'Do you need a coding bootcamp or certification to become a software developer?',
+				answer: "BLS's occupational profile for this role names only a bachelor's degree, with a master's degree preferred by some employers for developer roles specifically. It does not list a bootcamp, certification, or any other credential as a requirement. This page reports what BLS states as the typical path; it does not evaluate whether a bootcamp or certification helps in practice; that is outside the scope of the data this site tracks.",
+			},
+			{
+				question: 'Is a software engineer the same thing as a software developer?',
+				answer: 'Per O\'Net, the Department of Labor database that maps job titles to BLS occupation codes, "Software Engineer" is one of the sample reported job titles filed under SOC 15-1252.00, the same code BLS uses for "software developers," alongside titles like Software Architect and DevOps Engineer. The two titles describe the same underlying occupation in BLS and O*NET\'s own classification, not two separate ones.',
+			},
+			{
+				question: 'How much do software developers make?',
+				answer: 'BLS reports a median annual wage of $133,080 for software developers in May 2024, with the bottom 10% earning less than $79,850 and the top 10% earning more than $211,450. By industry, software publishers paid the highest median, $149,990, while computer systems design and related services, the industry employing the largest share of software developers, paid the lowest of the five industries BLS tracks, $129,890.',
+			},
+			{
+				question: 'Is software development a growing career?',
+				answer: "Yes, per the BLS Employment Projections program's National Employment Matrix, which breaks the Handbook's combined 15% growth figure out by occupation. Software developers specifically are projected to grow 15.8% from 2024 to 2034, adding an estimated 267,700 jobs to the roughly 1,693,800 already working in 2024, both figures BLS itself classifies as much faster than the roughly 3% average projected across all occupations.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers (accessed 2026-08-22 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm' },
+			{ label: 'BLS Employment Projections: National Employment Matrix, Table 1.2, Occupational Projections 2024-2034 (occupation.xlsx, breaks the combined Handbook growth figure out by SOC code)', url: 'https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm' },
+			{ label: 'BLS The Economics Daily: Artificial intelligence, information technology, and employment, 2024-34 (independent corroboration of the 15.8% growth and 267,700-job figures for software developers)', url: 'https://www.bls.gov/opub/ted/2026/artificial-intelligence-information-technology-and-employment-2024-34.htm' },
+			{ label: 'O*NET OnLine: 15-1252.00 Software Developers, sample reported job titles including Software Engineer (title cross-check)', url: 'https://www.onetonline.org/link/summary/15-1252.00' },
+		],
+		image: '/images/software-developer-education-path.svg',
+		imageAlt: "Diagram showing the path to becoming a software developer: a 4-year bachelor's degree in computer and information technology or a related field, internship or portfolio work during school, no state license or standardized exam, and ongoing skill upkeep, leading to a working software developer earning a median of $133,080 a year per BLS.",
+	},
 ];

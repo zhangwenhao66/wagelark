@@ -1238,6 +1238,47 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Accountants and Auditors",
       "sourceUrl": "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm",
       "publishedDate": "2025-08-28"
+    },
+    "15-1252": {
+      "title": "Software Developers",
+      "medianAnnual": 133080,
+      "percentiles": {
+        "p10": 79850,
+        "p90": 211450
+      },
+      "employment": 1693800,
+      "employmentYear": "2024",
+      "jobOutlookPct": 15.8,
+      "jobOutlookLabel": "Much faster than average",
+      "employmentChange": 267700,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        {
+          "industry": "Software publishers",
+          "annualWage": 149990
+        },
+        {
+          "industry": "Manufacturing",
+          "annualWage": 134910
+        },
+        {
+          "industry": "Management of companies and enterprises",
+          "annualWage": 133650
+        },
+        {
+          "industry": "Finance and insurance",
+          "annualWage": 132880
+        },
+        {
+          "industry": "Computer systems design and related services",
+          "annualWage": 129890
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers",
+      "sourceUrl": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }
