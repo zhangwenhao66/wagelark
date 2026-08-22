@@ -735,3 +735,24 @@ test('spot check: Financial Managers (11-3031) matches BLS OOH page', () => {
 	assert.equal(occ.entryEducation, "Bachelor's degree");
 	assert.equal(occ.industryWages.length, 5);
 });
+
+// Hand-transcribed from the live BLS OOH page (Court Reporters and
+// Simultaneous Captioners, canonical URL bls.gov/ooh/legal/court-reporters.htm)
+// on 2026-08-22. This is a rare flat/no-growth occupation (0% job outlook,
+// 0 employment change 2024-34) -- BLS attributes the ~1,700 annual openings
+// entirely to replacement need, not growth. The 10th/90th percentiles are
+// published as "less than $39,100" / "more than $127,020" (standard OOH
+// phrasing for the percentile boundary, not an approximation).
+test('spot check: Court Reporters and Simultaneous Captioners (27-3092) matches BLS OOH page', () => {
+	const occ = occupations['27-3092'];
+	assert.equal(occ.medianAnnual, 67310);
+	assert.equal(occ.medianHourly, 32.36);
+	assert.equal(occ.percentiles.p10, 39100);
+	assert.equal(occ.percentiles.p90, 127020);
+	assert.equal(occ.employment, 17700);
+	assert.equal(occ.jobOutlookPct, 0);
+	assert.equal(occ.employmentChange, 0);
+	assert.equal(occ.entryEducation, 'Postsecondary nondegree award');
+	assert.equal(occ.industryWages.length, 3);
+	assert.equal(occ.industryWages[0].annualWage, 75150);
+});

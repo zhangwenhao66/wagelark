@@ -1321,6 +1321,40 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers",
       "sourceUrl": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
       "publishedDate": "2025-08-28"
+    },
+    "27-3092": {
+      "title": "Court Reporters and Simultaneous Captioners",
+      "medianAnnual": 67310,
+      "medianHourly": 32.36,
+      "percentiles": {
+        "p10": 39100,
+        "p90": 127020
+      },
+      "employment": 17700,
+      "employmentYear": "2024",
+      "jobOutlookPct": 0,
+      "jobOutlookLabel": "Little or no change",
+      "employmentChange": 0,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Postsecondary nondegree award",
+      "industryWages": [
+        {
+          "industry": "Local government, excluding education and hospitals",
+          "annualWage": 75150
+        },
+        {
+          "industry": "State government, excluding education and hospitals",
+          "annualWage": 74660
+        },
+        {
+          "industry": "Business support services",
+          "annualWage": 51290
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Court Reporters and Simultaneous Captioners",
+      "sourceUrl": "https://www.bls.gov/ooh/legal/court-reporters.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

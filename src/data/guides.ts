@@ -2976,4 +2976,79 @@ export const guides: Guide[] = [
 		image: '/images/financial-managers-roles.svg',
 		imageAlt: 'Diagram showing the six job titles BLS tracks under the Financial Managers occupation: Controller, Treasurer, Credit Manager, Cash Manager, Risk Manager, and Insurance Manager, all sharing one combined median wage.',
 	},
+	{
+		slug: 'how-to-become-a-court-reporter',
+		category: 'How to Become',
+		title: 'How to Become a Court Reporter: Certification, Path, and Pay',
+		description: 'BLS says most court reporters train 2-3 years for a certificate or associate degree. State licensing rules vary, and BLS projects flat 0% job growth through 2034.',
+		published: '2026-08-22',
+		updated: '2026-08-22',
+		socCode: '27-3092',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, court reporters and simultaneous captioners (SOC 27-3092) typically complete a postsecondary certificate or associate's degree at a community college or technical institute, a program that usually takes 2 to 3 years. Many states require a license or certification from a professional association to work in a legal setting, though BLS notes these requirements vary by state and by reporting method. BLS reports a median annual wage of $67,310 in May 2024 ($32.36 an hour), with the bottom 10% earning less than $39,100 and the top 10% earning more than $127,020. Unlike most occupations this site tracks, BLS projects 0% employment growth for court reporters and simultaneous captioners from 2024 to 2034, attributing the roughly 1,700 annual openings entirely to the need to replace workers who leave the occupation.",
+		sections: [
+			{
+				heading: 'What the job involves, and the training path BLS lists',
+				body: [
+					'BLS tracks this occupation under the combined title "Court Reporters and Simultaneous Captioners," SOC code 27-3092, describing court reporters as workers who create word-for-word transcriptions at trials, depositions, administrative hearings, and other legal proceedings, using stenotype machines, digital recording devices, or steno masks. Simultaneous captioners do similar work in a different setting: they caption live or prerecorded broadcasts, or provide real-time transcription of presentations such as press conferences and business meetings, for viewers or attendees who are deaf or hard of hearing.',
+					"The typical entry-level education BLS lists is a postsecondary nondegree award, most often earned through a certificate or associate's degree program at a community college or technical institute. BLS states that completing a court reporting program typically takes 2 or 3 years, with coursework in English grammar and phonetics, legal procedures, and legal terminology, plus supervised practice preparing transcripts to build speed and accuracy. BLS lists no minimum work experience in a related occupation as typical for entry, and describes the on-the-job training that follows as short-term, though it notes the exact length varies by the type of reporting or captioning a worker does.",
+					'BLS lists four qualities as important for this work, each tied directly to the accuracy the job demands. Concentration: court reporters and simultaneous captioners must be able to focus for long periods so they remain attentive to the dialogue they are recording. Detail orientation: BLS notes these workers must produce error-free work, since the transcripts they create serve as legal records. Listening skills: they must give full attention to speakers and capture every word said, including names and technical terminology that get reviewed for spelling after the fact. Writing skills: BLS specifies a good command of grammar, vocabulary, and punctuation, since the finished transcript stands as the official record of what occurred.',
+				],
+				image: {
+					src: '/images/court-reporter-education-path.svg',
+					alt: "Diagram showing the path to becoming a court reporter or simultaneous captioner: a 2-3 year postsecondary certificate or associate's degree, choosing a reporting method such as stenotype, voice-writing, or digital recording, a state license or professional certification exam, and on-the-job training, leading to a median pay of $67,310 a year per BLS.",
+				},
+			},
+			{
+				heading: 'Licensing varies by state, and the reporting method you pick changes the training',
+				body: [
+					"BLS is explicit that licensing is not standardized across the country: many states require court reporters and simultaneous captioners working in legal settings to hold a state license or a certification from a professional association, but the specific requirements vary by state and by method of reporting or captioning. Certification typically requires passing a written test plus a skills test, in which applicants must type, record, or transcribe a minimum number of words per minute at a set accuracy level. Professional associations often add continuing education credits as a condition of renewing that certification once it's issued.",
+					'The method a court reporter trains in also shapes the path. O*NET lists several sample job titles under this same SOC code, including Court Stenographer, Realtime Court Reporter, Digital Court Reporter, and Stenographer, reflecting that some programs teach traditional stenotype-machine shorthand, others teach voice-writing into a steno mask paired with speech-recognition software, and others focus on operating digital or electronic recording equipment. Employers and state licensing boards, not BLS, decide which method or methods a given credential covers.',
+					"That licensing landscape puts court reporting at the opposite end of the spectrum from [paralegals](/how-to-become-a-paralegal/), an occupation this site tracks that starts from a similar postsecondary certificate or associate's degree, but where BLS states no U.S. state currently licenses the occupation at all. Court reporters, by contrast, typically do need a state credential to work in the legal settings BLS describes as their primary work environment.",
+				],
+			},
+			{
+				heading: 'Pay, by percentile and by industry',
+				body: [
+					'BLS reports a median annual wage of $67,310 for court reporters and simultaneous captioners in May 2024, or $32.36 an hour, above the $49,500 median across all occupations that year. The bottom 10% earned less than $39,100, and the top 10% earned more than $127,020, the boundary figures BLS publishes rather than exact percentile values, a spread of well over three times between the lower and upper bound.',
+					'By industry, BLS breaks out May 2024 median pay into three categories: local government, excluding education and hospitals, paid the highest median at $75,150, followed closely by state government, excluding education and hospitals, at $74,660, while business support services, the industry covering firms that supply reporting or captioning services to courts and other clients on contract, paid a lower median of $51,290. BLS separately notes that freelance court reporters and simultaneous captioners typically charge an hourly rate and may also sell additional transcript copies at a set price per page, a pay structure that doesn\'t map directly onto the industry-median figures it tracks for salaried positions.',
+					"Against another postsecondary-certificate occupation this site tracks, the court reporter median sits well below [ultrasound techs](/how-to-become-an-ultrasound-tech/) at $89,340, even though both typically train 2 to 3 years at a similar credential tier. BLS's data describes what each occupation pays; it does not explain the roughly $22,000 gap between two occupations built on a comparable length and level of postsecondary training.",
+				],
+			},
+			{
+				heading: 'Job outlook: BLS projects no growth, but stable openings from replacement need',
+				body: [
+					'BLS projects 0% employment growth for court reporters and simultaneous captioners from 2024 to 2034, a rate it labels "little or no change," compared with a roughly 3% average across all occupations and the double-digit growth rates BLS projects for several other occupations this site tracks. Employment is projected to hold at 17,700 jobs, per BLS, with the increase over the decade rounding to zero.',
+					"Flat growth doesn't mean no openings, though. BLS projects about 1,700 openings a year on average over the decade, attributing most of them to the need to replace workers who transfer to a different occupation or exit the labor force, such as to retire, rather than to any net increase in positions. BLS lists several specific forces behind the flat headline number: technology may make transcription work more efficient, but BLS states court reporters will continue to be needed to review and edit digitally produced documentation; state and local government budgets, which fund many court reporter positions, are contingent on available funds; and federal regulations requiring closed captioning for television, the internet, and other technologies, along with a growing share of older people who experience hearing loss, are cited by BLS as forces that should support demand specifically for simultaneous captioners. BLS names movie theaters and sports stadiums adding closed captioning for attendees who are deaf or hard of hearing as another driver on the captioning side of the occupation specifically, separate from the courtroom-budget dynamics that shape demand for court reporters.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a court reporter?',
+				answer: 'Per BLS, completing a postsecondary certificate or associate\'s degree program in court reporting typically takes 2 to 3 years at a community college or technical institute. After that, most states require passing a licensing or certification exam, a written test plus a skills test measuring typing, recording, or transcription speed and accuracy, before a graduate can work in a legal setting. BLS lists no additional related work experience as typical for entry, though on-the-job training follows and its length varies by the type of reporting or captioning.',
+			},
+			{
+				question: 'Do you need a license to be a court reporter?',
+				answer: "Often, yes. BLS states that many states require court reporters and simultaneous captioners who work in legal settings to hold a state license or a certification from a professional association, though the exact requirements vary by state and by reporting method. That's a different rule than [paralegals](/how-to-become-a-paralegal/) face, a similar postsecondary-certificate occupation BLS tracks where no U.S. state currently licenses the role at all.",
+			},
+			{
+				question: 'How much do court reporters make?',
+				answer: 'BLS reports a median annual wage of $67,310 for court reporters and simultaneous captioners in May 2024 ($32.36 an hour), with the bottom 10% earning less than $39,100 and the top 10% earning more than $127,020. By industry, local government paid the highest median, $75,150, followed by state government at $74,660, while business support services, the contract-reporting-firm industry, paid a lower median of $51,290.',
+			},
+			{
+				question: 'Is court reporting a growing career?',
+				answer: 'Not by BLS\'s growth measure. BLS projects 0% employment growth for court reporters and simultaneous captioners from 2024 to 2034, which it labels "little or no change." That doesn\'t mean no hiring: BLS projects about 1,700 openings a year on average over the decade, almost entirely from the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than from net new positions.',
+			},
+			{
+				question: "What's the difference between a court reporter and a simultaneous captioner?",
+				answer: 'BLS tracks both under the same occupation and SOC code, 27-3092, because they share a core skill: capturing spoken words into an accurate, verbatim written record in real time. The settings differ. Court reporters, per BLS, work mainly in courts or legislatures, creating transcripts of trials, depositions, and hearings. Simultaneous captioners caption television broadcasts or provide real-time transcription at presentations such as press conferences and business meetings, work BLS says can be done from home or a central office, for viewers or attendees who are deaf or hard of hearing.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Court Reporters and Simultaneous Captioners (accessed 2026-08-22 via direct fetch with a UA string carrying a declared contact URL, returned 200 via the canonical short URL after the long-form URL returned 403, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/court-reporters.htm' },
+			{ label: 'O*NET OnLine: 27-3092.00 Court Reporters and Simultaneous Captioners, sample job titles cross-check', url: 'https://www.onetonline.org/link/summary/27-3092.00' },
+		],
+		image: '/images/court-reporter-education-path.svg',
+		imageAlt: "Diagram showing the path to becoming a court reporter or simultaneous captioner: a 2-3 year postsecondary certificate or associate's degree, choosing a reporting method such as stenotype, voice-writing, or digital recording, a state license or professional certification exam, and on-the-job training, leading to a median pay of $67,310 a year per BLS.",
+	},
 ];
