@@ -878,3 +878,42 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "crna-salary",
+  "last_audited": "2026-08-22",
+  "published_date": "2026-08-04",
+  "note": "站内按'从未审计过优先+guides.ts数组顺序'选中本文，本站首篇从未被本任务审计过的文章",
+  "diagnosed_checkpoints": [
+    "CRNA中位年薪$223,210（2024年5月）是否逐字准确，非编造或过时",
+    "与同页另两个APRN角色对比数字（nurse practitioner $129,210、nurse midwife $128,790）及combined 10th/90th百分位数字（$98,520/$217,270）是否准确",
+    "9%就业增长率+4,600个新增岗位（2024-2034）预测数字，以及与NP（40%/128,400）、助产士（11%/900）的对比数字是否准确",
+    "'COA自2022年起要求所有新入学学生进入博士轨道，2025年起全部认证项目授予博士学位'这一表述是否站得住——文章特别强调BLS官方仍列master's degree为typical entry education、与COA现状矛盾，容易被误判为编造",
+    "'1 year of experience working as [a] registered nurse in a critical care setting'这条打引号的BLS原文引语是否逐字准确"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题，全部核实通过", "detail": "直接curl实时抓取bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm官方原页面（非WebSearch摘要，用带联系方式的UA绕过Akamai默认UA拦截）逐字核对：median annual wage CRNA $223,210/NP $129,210/助产士$128,790、combined 10th/90th percentile $98,520/$217,270、三职业SOC码29-1151/29-1161/29-1171各自employment 53,800→58,500（+4,600，9%）/8,600→9,500（+900，11%）/320,400→448,800（+128,400，40%）、Quick Facts Typical Entry-Level Education 'Master's degree'，均与官方页面数字逐字完全一致，无一处编造或过时。'1 year of experience working as registered nurse in a critical care setting'引语逐字核对BLS原文完全一致（文章加[a]属常规语法补全，未改变原意）。另直接curl coacrna.org官方页面核实：Doctoral degree level、minimum 36 months、需bachelor's degree入学，均属实；'2022年起要求新生进入博士轨道'这一具体年份未在COA该页面直接出现，改用WebSearch交叉核实多个独立信源（AMN Healthcare行业文章、AllNursingSchools）均确认'2022年1月1日或之后入学学生须进入COA认证的博士项目'这一具体日期准确，判定非编造。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "全篇数字均标注BLS来源并说明combined-page结构限制（明确区分哪些数字是CRNA专属、哪些是三职业合并数字，主动排除了合并的百分位/行业细分数字而非误用），对无法回答的问题（各州是否要求医师监督）明确说明'this page deliberately does not answer with a single national figure'并给出理由，属真实的方法论透明度而非泛泛而谈。" },
+    { "dimension": "时效性", "status": "未发现问题，与实时主源一致", "detail": "BLS官网截至本次审计（2026-08-22）仍展示2024年5月OEWS数据（下一轮更新通常在次年4月前后），文章published/updated均为2026-08-04且引用同一批数据，无需更新事实内容；published字段已存在，本次未触碰updated字段。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "WebSearch核实头部SERP竞品（Barton Associates、Nurse.org、PayScale、CRNAsalary.com、TheCRNAClub等）多为直接罗列数字或聚合站自报薪资，部分聚合摘要甚至把BLS的'median'误标成'mean'（本次WebSearch结果自身就出现这个错误，反而印证了本文'警惕聚合站数字来源'这一论点的实际价值）；本文的方法论透明度（区分combined-page限制、区分BLS官方entry education与COA现状的实际分歧）在同类页面中少见，判定具备真实增量价值，非同质化内容。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "实测live页面：title 56字符/description 155字符均在合理区间；heading结构完整（1个H1+6个H2+1个H3，无跳级）；Article/FAQPage/BreadcrumbList schema均正确渲染，datePublished/dateModified均为2026-08-04T00:00:00+00:00；FAQPage含4个Question条目与正文faq数组一致；配图crna-salary-chart.svg（1600字节）200可访问，alt文本中三个数字均与BLS核实数字一致。" },
+    { "dimension": "GEO审计", "status": "定性评估达标（≥80分档），未产出量化分数", "detail": "coreSummary前置定义块✓（首段即给出核心数字+对比+关键结论）；4个FAQ独立自包含且配FAQPage schema✓；3条具名权威信源（BLS/COA/NBCRNA）附URL✓；大量具体统计数字+方法论说明（Princeton GEO研究强调的'引用来源+统计数字+权威语气'三项高权重信号均具备）；不确定性显式标注（'independent practice states'数字'risks going stale...different secondary sources currently report noticeably different counts'）✓；robots.txt对6个AI爬虫UA均Allow✓。唯一非本文独有的弱项：小标题偏叙事性（如'What CRNAs earn, and why this page needs some unpacking'）而非严格query-matching句式，属全站统一风格选择，不在本次修复范围。" },
+    { "dimension": "早期内容AI味补漏", "status": "未发现问题", "detail": "本文published 2026-08-04早于avoid-ai-writing技能2026-08-07接入，属应检范围；完整过一遍humanizer+avoid-ai-writing两个技能：0处em/en dash、0处弯引号、0处emoji/加粗滥用、无copula avoidance（全篇大量直接用is/are/reports/requires）、无rule-of-three堆砌、无'not just X'翻案句式、无AI高频词（delve/landscape/testament/underscore/vibrant/robust/leverage/seamless/harness等）命中、无信号性收尾升华。仅发现1处极轻微'It is worth noting, though, that CRNA growth is the slowest'（confidence calibration phrase），全文约1,400词中出现1次，密度远低于技能自身'一篇2,000词内3次以上才算堆砌'的判定阈值，且属技术/参考文体的正常语气而非AI腔调堆砌信号，判定不构成需要改写的问题。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "3条sources[]链接逐条curl：BLS页面用默认UA返回403（Akamai对通用UA的反爬拦截，非真实死链），改用带联系方式的UA后200，响应头server: AkamaiGHost印证是bot防护而非页面失效；COA（coacrna.org）200；NBCRNA（nbcrna.com）200。三条均确认存活。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "grep guides.ts确认全站已有5处其他文章正文手动锚文本链接到/crna-salary/（nurse-practitioner-salary、physician-assistant-salary、how-to-become-a-registered-nurse相关对比段、how-long-does-it-take-to-become-a-dentist、librarian相关薪资对比段），远非孤儿页；本文自身也有2条出链（pharmacist-salary、physical-therapist-salary），均grep确认真实存在，双向内链结构健康。" },
+    { "dimension": "Schema数据一致性", "status": "已确认一致", "detail": "src/data/bls-wages.ts中SOC 29-1151条目（medianAnnual 223210、employment 53800、jobOutlookPct 9、employmentChange 4600、entryEducation 'Master's degree'）与正文数字逐项核对完全一致；percentiles/industryWages刻意留空，与正文'BLS未按CRNA单独发布这两类数字，仅发布三职业合并数字'的说明一致，非遗漏而是有意为之。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "纯职业教育/薪资数据信息，无个性化职业建议；对'能否无医师监督执业'这类因州而异的问题明确建议读者向该州护理委员会核实而非本文给结论，符合YMYL-adjacent站点的免责纪律。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/crna-salary-chart.svg站内自制SVG柱状图（非第三方图片），文件存在（1600字节），live页面200可访问，图内三个数字与BLS核实数字完全一致。" },
+    { "dimension": "AdSense政策合规风险", "status": "未发现问题", "detail": "内容为百科式职业薪资介绍，无暴力/武器/毒品/赌博等限制类目描写；ads.txt正确指向pub-5245502795720653；/privacy/、/about/均200可访问；robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均显式Allow。" }
+  ],
+  "actions_taken": [
+    "未发现需要处理的确认问题，十三维度审查全部通过",
+    "未触发第3步独立复核agent（无待复核的具体发现），未修改代码，未触发build/deploy/IndexNow"
+  ],
+  "independent_verification": "本轮十三维度审查未发现任何需要独立复核的具体问题（最接近的边界项——'worth noting'措辞密度、BLS默认UA返回403——均在本次审计过程中已用直接证据自行排除，不构成需要移交独立agent复核的'确认问题'），故未spawn独立复核agent，符合任务说明'如果这篇文章完全没问题...不需要为了有产出硬找问题'的指引。",
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "定性评估达标（≥80分档），仓库内无量化评分脚本，与既有判例一致",
+  "escalation": null
+}
+```
