@@ -3051,4 +3051,76 @@ export const guides: Guide[] = [
 		image: '/images/court-reporter-education-path.svg',
 		imageAlt: "Diagram showing the path to becoming a court reporter or simultaneous captioner: a 2-3 year postsecondary certificate or associate's degree, choosing a reporting method such as stenotype, voice-writing, or digital recording, a state license or professional certification exam, and on-the-job training, leading to a median pay of $67,310 a year per BLS.",
 	},
+	{
+		slug: 'what-does-a-millwright-do',
+		category: 'Career Guide',
+		title: 'What Does a Millwright Do? Duties, Path, and BLS Pay Data',
+		description: 'Millwrights install, dismantle, and move industrial machinery. BLS puts their median pay at $65,170 and projects flat, 0% job growth through 2034.',
+		published: '2026-08-23',
+		updated: '2026-08-23',
+		socCode: '49-9044',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, millwrights install, dismantle, repair, reassemble, and move industrial machinery in factories, power plants, and construction sites. BLS tracks the role inside a combined occupation, Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights, but unlike some combined-title occupations this site covers, it does publish a millwright-specific median wage: $65,170 a year in May 2024, above the $63,760 median for industrial machinery mechanics and the $60,500 median for machinery maintenance workers in the same group. Most millwrights enter through a 3- to 4-year apprenticeship rather than a college degree. BLS projects flat, 0% employment growth for millwrights specifically from 2024 to 2034, a rate that falls into the \"little or no change\" band on BLS's own growth-rate classification scale, even though the broader group they're tracked alongside is projected to grow 13%.",
+		sections: [
+			{
+				heading: 'What millwrights actually do, per BLS',
+				body: [
+					'BLS groups millwrights with industrial machinery mechanics and machinery maintenance workers under one occupation, Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (the millwright-specific SOC code is 49-9044), but it describes each of the three titles separately in its What They Do section. Per BLS, "millwrights install, maintain, and disassemble industrial machines." Putting together a single machine can take a few days or several weeks. Millwrights carry out repairs by replacing worn or defective parts, and they\'re also the ones called in when a manufacturing plant needs to clear floor space for new equipment: BLS says millwrights disassemble the entire machine, then "carefully disassemble, categorize, and package each part."',
+					'BLS draws a clear line between millwrights and the other two titles in the group. Industrial machinery mechanics, per BLS, use technical manuals and computerized diagnostic tools to figure out why a machine already running has failed, for example tracing a vibration to worn belts or weak motor bearings, then take it apart to repair or replace the failed component. Machinery maintenance workers handle lighter, routine work: cleaning, lubricating, and running basic diagnostic tests, leaving major repairs to the mechanics. Millwrights differ from both in scope. They\'re the ones who install a new machine in the first place, and when a machine needs to be relocated or taken apart entirely, they use tools that scale to the job, from cranes, forklifts, hoists, and winches on large projects down to hand tools such as hammers and levels, plus precision-measuring devices like micrometers and lasers for smaller work.',
+				],
+				image: {
+					src: '/images/millwright-duties.svg',
+					alt: 'Diagram showing four things millwrights do per BLS: install new machines, disassemble and sort parts, repair worn components, and move equipment with forklifts, hoists, and cranes.',
+				},
+			},
+			{
+				heading: 'The entry path: an apprenticeship, not a degree',
+				body: [
+					'BLS states that industrial machinery mechanics, machinery maintenance workers, and millwrights typically need only a high school diploma or equivalent to enter the occupation, but the training path splits from there. Machinery maintenance workers usually receive a few months to a year of on-the-job training. Industrial machinery mechanics typically get more than a year of on-the-job training. BLS notes that some mechanics and millwrights alike complete a 2-year associate\'s degree program in industrial maintenance first, covering courses such as welding, math, hydraulics, and pneumatics, though it isn\'t a requirement for either. The standard path for millwrights specifically, per BLS, is that they "learn their trade through a 3- or 4-year apprenticeship." Each year of that program requires at least 144 hours of related technical instruction plus up to 2,000 hours of paid on-the-job training, split between classroom subjects such as welding, blueprint reading, math, and machinery troubleshooting, and supervised work setting up, cleaning, lubricating, repairing, and starting machinery. BLS lists the basic qualifications for entering an apprenticeship as a minimum age of 18, a high school diploma or equivalent, and being physically able to do the work, with employers, local unions, contractor associations, and state labor departments typically sponsoring the programs. Once a millwright completes the apprenticeship, BLS says they are considered fully qualified and can perform tasks with less supervision.',
+					"That apprenticeship structure puts millwrights in the middle of the no-degree trades this site tracks. It runs a year shorter than the [plumbing apprenticeship](/plumbing-apprenticeship/), which this site's BLS-sourced data puts at 4 to 5 years with roughly 2,000 paid hours a year, and shorter than the 4- or 5-year apprenticeship BLS describes for [electricians](/electrician-salary/), which likewise runs about 2,000 paid hours per year. It's also more structured than the path into [welding](/welder-salary/), where BLS describes several viable entry routes side by side (vocational school, employer apprenticeship, military training, or direct hire with on-the-job training) rather than one standard apprenticeship length.",
+				],
+			},
+			{
+				heading: 'Pay: a millwright-specific figure inside a combined BLS page',
+				body: [
+					'BLS reports a median annual wage of $63,510 for the combined group, Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights, in May 2024. Inside that combined figure, BLS breaks median pay out by the three individual titles: millwrights earned a median of $65,170, above industrial machinery mechanics at $63,760 and machinery maintenance workers at $60,500. What BLS does not break out by title is the 10th and 90th percentile range or the industry-by-industry wage table. For the combined group as a whole, the bottom 10% earned less than $44,430 and the top 10% earned more than $91,620, a spread of roughly 2 times between the two boundary figures, but that range describes all three titles together, not millwrights specifically. The same caveat applies to the industry breakdown: manufacturing paid the highest median for the combined group at $64,360, followed by construction at $62,920, wholesale trade at $61,940, and the repair-and-maintenance services industry at $60,490, again without a millwright-only figure inside each industry.',
+					'Against other no-degree apprenticeship trades this site tracks, the millwright median lands above [electricians](/electrician-salary/) at $62,350 and [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) at $62,970, and well above [welders, cutters, solderers, and brazers](/welder-salary/) at $51,000, a gap of more than $14,000. BLS\'s data describes what each occupation pays; it does not explain why the shorter millwright apprenticeship pairs with pay above two trades that require a longer one, and this page reports the pattern rather than asserting a specific cause.',
+				],
+			},
+			{
+				heading: 'Job outlook: flat for millwrights, even as the wider group grows',
+				body: [
+					'BLS projects overall employment for the combined group, industrial machinery mechanics, machinery maintenance workers, and millwrights, to grow 13% from 2024 to 2034, much faster than the roughly 3% average across all occupations, with about 54,200 openings projected each year on average across the whole group. Millwrights specifically do not share in that growth. BLS\'s own projections table shows millwright employment holding flat at 41,300 jobs in both 2024 and 2034, a 0% change that falls into the "little or no change" band on BLS\'s growth-rate classification scale (an increase of less than 1% to a decrease of less than 1%), out of 41,300 millwrights within the larger 538,300-person combined workforce. Industrial machinery mechanics, the largest of the three titles at 439,600 workers, account for nearly all of the group\'s projected growth, up 16% to 510,300; machinery maintenance workers are projected to shrink 3%, to 55,900.',
+					'BLS attributes the flat millwright number to the specific industries that employ them. Millwrights\' employment, per BLS, "is affected by the slower growth of the industries in which they are employed, such as paper mills." BLS also points to slower expected job growth in nonresidential construction, since the facilities built there are less likely to require a millwright, as a second drag on the number. That combined-group total of 54,200 annual openings is not broken out by title either, so this page does not attribute a specific annual-openings figure to millwrights alone. For context on what drives growth elsewhere in the group, BLS credits continued adoption of automated manufacturing machinery and expanded use of automated conveyors, both of which need regular upkeep, with creating jobs for industrial machinery mechanics specifically.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does a millwright do?',
+				answer: 'Per BLS, millwrights install, maintain, and disassemble industrial machines in factories, power plants, and construction sites. Putting together a single machine can take a few days or several weeks. Millwrights also handle repairs by replacing worn or defective parts, and when a plant needs to clear floor space for new equipment, they disassemble the entire machine and carefully categorize and package each part.',
+			},
+			{
+				question: 'How much do millwrights make?',
+				answer: "BLS reports a median annual wage of $65,170 for millwrights in May 2024, a figure it breaks out specifically for the title within the combined Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights group. That's above the $63,760 median for industrial machinery mechanics and the $60,500 median for machinery maintenance workers in the same group. BLS does not publish 10th and 90th percentile wages or an industry-by-industry breakdown specific to millwrights; those figures, $44,430 to $91,620 by percentile and $60,490 to $64,360 by industry, cover all three titles combined.",
+			},
+			{
+				question: 'How long does it take to become a millwright?',
+				answer: 'Per BLS, most millwrights learn the trade through a 3- or 4-year apprenticeship. Each year requires at least 144 hours of related technical instruction plus up to 2,000 hours of paid on-the-job training. Entry qualifications are a minimum age of 18, a high school diploma or equivalent, and being physically able to do the work; employers, local unions, contractor associations, and state labor departments typically sponsor the programs.',
+			},
+			{
+				question: 'Is millwright a growing career?',
+				answer: 'Not by BLS\'s growth measure. While the broader group millwrights are tracked within, industrial machinery mechanics, machinery maintenance workers, and millwrights, is projected to grow 13% from 2024 to 2034, BLS\'s own projections table shows millwright employment specifically holding flat at 41,300 jobs across that same decade, a 0% change that falls into the "little or no change" band on BLS\'s growth-rate classification scale. BLS attributes the flat number to slower growth in the industries that employ millwrights, such as paper mills, and to slower expected job growth in nonresidential construction.',
+			},
+			{
+				question: "What's the difference between a millwright and an industrial machinery mechanic?",
+				answer: 'Both are tracked under the same combined BLS occupation, but the work differs. Per BLS, millwrights install new machines, and disassemble, move, and reassemble them, often using cranes, forklifts, and precision-measuring tools on large projects. Industrial machinery mechanics instead diagnose and repair machines that are already running, using technical manuals and computerized diagnostic tools to trace a problem, such as a vibration, back to a specific cause before taking the machine apart to fix it. Millwrights typically train through a 3- to 4-year apprenticeship, while industrial machinery mechanics typically receive more than a year of on-the-job training, sometimes alongside a 2-year associate\'s degree.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (accessed 2026-08-23 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: About This Handbook, Glossary (defines the growth-rate classification scale; "little or no change" covers an increase of less than 1% to a decrease of less than 1%, the band the millwright-specific 0% figure falls into)', url: 'https://www.bls.gov/ooh/about/glossary.htm' },
+		],
+		image: '/images/millwright-duties.svg',
+		imageAlt: 'Diagram showing four things millwrights do per BLS: install new machines, disassemble and sort parts, repair worn components, and move equipment with forklifts, hoists, and cranes.',
+	},
 ];

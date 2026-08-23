@@ -1427,5 +1427,23 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Court Reporters and Simultaneous Captioners",
 		sourceUrl: "https://www.bls.gov/ooh/legal/court-reporters.htm",
 		publishedDate: "2025-08-28"
+	},
+	"49-9044": {
+		socCode: "49-9044",
+		title: "Millwrights",
+		medianAnnual: 65170,
+		percentiles: {},
+		employment: 41300,
+		employmentYear: "2024",
+		jobOutlookPct: 0,
+		jobOutlookLabel: "Little or no change",
+		employmentChange: 0,
+		projectionPeriod: "2024-34",
+		entryEducation: "High school diploma or equivalent",
+		industryWages: [],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (SOC 49-9044 covers millwrights specifically; BLS breaks out a millwright-specific median annual wage ($65,170) and employment figure (41,300, flat 0% growth 2024-34) in its Pay and Job Outlook tables, but publishes 10th/90th percentiles and industry-level wages only for the combined three-title group, not broken out for millwrights alone -- percentiles and industryWages are left empty here rather than populated with the combined-group figures, so the auto-rendered chart/table on this page never mislabels group-level data as millwright-specific; the combined-group percentile and industry figures are still reported, with that caveat, in the article prose)",
+		sourceUrl: "https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm",
+		publishedDate: "2025-08-28"
 	}
 };

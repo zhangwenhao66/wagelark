@@ -756,3 +756,34 @@ test('spot check: Court Reporters and Simultaneous Captioners (27-3092) matches 
 	assert.equal(occ.industryWages.length, 3);
 	assert.equal(occ.industryWages[0].annualWage, 75150);
 });
+
+// Hand-transcribed from the live BLS OOH page (Industrial Machinery
+// Mechanics, Machinery Maintenance Workers, and Millwrights) on 2026-08-23.
+// This SOC group is the mirror image of the Financial Managers/controller
+// case: unlike controllers, BLS DOES break out a millwright-specific median
+// annual wage ($65,170, distinct from industrial machinery mechanics at
+// $63,760 and machinery maintenance workers at $60,500) and a millwright-
+// specific employment/outlook figure in the Pay and Job Outlook tabs' detail
+// tables. It does NOT break out millwright-specific 10th/90th percentiles or
+// industry wages -- those are published only for the combined three-title
+// group (p10 $44,430 / p90 $91,620; Manufacturing $64,360 highest industry).
+// percentiles/industryWages are deliberately left empty here (rather than
+// populated with the combined-group numbers) so [slug].astro's auto-rendered
+// "Millwrights -- Annual Wage by Percentile" chart and industry table never
+// mislabel three-title combined-group data as millwright-specific; those
+// combined-group figures are still reported, with that caveat, in the
+// article's prose. Millwrights are also a rare flat/no-growth line: BLS's
+// own projections table shows 41,300 -> 41,300 (2024-34), a 0% change, while
+// the combined group's headline growth (13%, driven by industrial machinery
+// mechanics at +16%) does not apply to millwrights specifically.
+test('spot check: Millwrights (49-9044) matches BLS OOH page', () => {
+	const occ = occupations['49-9044'];
+	assert.equal(occ.medianAnnual, 65170);
+	assert.equal(occ.medianHourly, undefined);
+	assert.deepEqual(occ.percentiles, {});
+	assert.equal(occ.employment, 41300);
+	assert.equal(occ.jobOutlookPct, 0);
+	assert.equal(occ.employmentChange, 0);
+	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
+	assert.deepEqual(occ.industryWages, []);
+});
