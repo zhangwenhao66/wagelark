@@ -59,6 +59,13 @@ export interface BlsWageEntry {
 	sourceLabel: string;
 	sourceUrl: string;
 	publishedDate: string;
+	// True when employment/jobOutlookPct/employmentChange/entryEducation are
+	// published by BLS only for a combined occupation group, not broken out
+	// for this specific title, even though medianAnnual/industryWages above
+	// ARE title-specific. Set this rather than leaving those fields blank,
+	// since BLS gives no title-specific alternative at all for this occupation.
+	// [slug].astro renders an inline caveat under the stat cards when true.
+	employmentIsGroupLevel?: boolean;
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = `;

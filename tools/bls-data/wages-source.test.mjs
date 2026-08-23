@@ -787,3 +787,33 @@ test('spot check: Millwrights (49-9044) matches BLS OOH page', () => {
 	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
 	assert.deepEqual(occ.industryWages, []);
 });
+
+// Paramedics (29-2043) is the inverse split from Millwrights: BLS's Pay tab
+// breaks out a paramedic-specific medianAnnual and a paramedic-specific
+// industryWages table (both transcribed from bls.gov/ooh/healthcare/
+// emts-and-paramedics.htm on 2026-08-23), but employment/jobOutlookPct/
+// employmentChange/entryEducation are published only for the combined
+// EMTs-and-Paramedics group (29-2040), not split by title -- those
+// combined-group numbers are used here with that caveat in the article
+// prose. Percentiles are left empty because BLS does not publish 10th/90th
+// wages anywhere on this page, at any granularity (not an EMT-vs-paramedic
+// split issue like Millwrights -- the data simply does not exist).
+test('spot check: Paramedics (29-2043) matches BLS OOH page', () => {
+	const occ = occupations['29-2043'];
+	assert.equal(occ.medianAnnual, 58410);
+	assert.equal(occ.medianHourly, undefined);
+	assert.deepEqual(occ.percentiles, {});
+	assert.equal(occ.employment, 282900);
+	assert.equal(occ.jobOutlookPct, 5);
+	assert.equal(occ.employmentChange, 14300);
+	assert.equal(occ.entryEducation, 'Postsecondary nondegree award');
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Local government, excluding education and hospitals');
+	assert.equal(occ.industryWages[0].annualWage, 59840);
+	assert.equal(occ.industryWages[3].industry, 'Ambulance services');
+	assert.equal(occ.industryWages[3].annualWage, 57720);
+	// employmentIsGroupLevel flags that employment/jobOutlookPct/employmentChange/
+	// entryEducation above are the combined-group numbers, not paramedic-specific --
+	// [slug].astro renders an inline caveat under the stat cards when this is true.
+	assert.equal(occ.employmentIsGroupLevel, true);
+});

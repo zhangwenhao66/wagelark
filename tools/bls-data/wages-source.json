@@ -1372,6 +1372,45 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (SOC 49-9044 covers millwrights specifically; BLS breaks out a millwright-specific median annual wage ($65,170) and employment figure (41,300, flat 0% growth 2024-34) in its Pay and Job Outlook tables, but publishes 10th/90th percentiles and industry-level wages only for the combined three-title group, not broken out for millwrights alone -- percentiles and industryWages are left empty here rather than populated with the combined-group figures, so the auto-rendered chart/table on this page never mislabels group-level data as millwright-specific; the combined-group percentile and industry figures are still reported, with that caveat, in the article prose)",
       "sourceUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm",
       "publishedDate": "2025-08-28"
+    },
+    "29-2043": {
+      "title": "Paramedics",
+      "medianAnnual": 58410,
+      "percentiles": {},
+      "employment": 282900,
+      "employmentYear": "2024",
+      "jobOutlookPct": 5,
+      "jobOutlookLabel": "Faster than average",
+      "employmentChange": 14300,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Postsecondary nondegree award",
+      "employmentIsGroupLevel": true,
+      "industryWages": [
+        {
+          "industry": "Local government, excluding education and hospitals",
+          "annualWage": 59840
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 59370
+        },
+        {
+          "industry": "General medical and surgical hospitals; private",
+          "annualWage": 58780
+        },
+        {
+          "industry": "Ambulance services",
+          "annualWage": 57720
+        },
+        {
+          "industry": "General medical and surgical hospitals; local",
+          "annualWage": 52990
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: EMTs and Paramedics (SOC 29-2043 covers paramedics specifically, a distinct 6-digit code from EMTs' 29-2042 within the combined 29-2040 group; BLS's Pay tab breaks out a paramedic-specific median annual wage ($58,410) and a paramedic-specific top-5-industry wage table, both used here, but the Quick Facts employment count (282,900), job outlook (5%, 14,300 openings, 2024-34), and typical entry-level education (postsecondary nondegree award) are published only for the combined EMTs-and-Paramedics occupation group, not split out for paramedics alone -- those combined-group figures are still the best available and are used here with that caveat noted in the article prose. BLS does not publish 10th/90th percentile wages anywhere on this page, for EMTs, paramedics, or the combined group, so percentiles is left empty rather than populated with a different granularity)",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

@@ -82,7 +82,7 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 		<Dataset
 			slot="head"
 			name={`${wage.title} wages, ${wage.dataYear} (U.S. national)`}
-			description={`National ${Object.keys(wage.percentiles).length > 0 ? 'wage percentiles and employment' : 'median wage and employment'} data for ${wage.title} from the U.S. Bureau of Labor Statistics.`}
+			description={`National ${Object.keys(wage.percentiles).length > 0 ? 'wage percentiles and employment' : 'median wage and employment'} data for ${wage.title} from the U.S. Bureau of Labor Statistics.${wage.employmentIsGroupLevel ? ' Employment and job outlook figures cover the combined BLS occupation group, not this title specifically.' : ''}`}
 			url={wage.sourceUrl}
 			license="https://www.bls.gov/bls/linksite.htm"
 			temporalCoverage={wage.dataYear}
@@ -171,6 +171,11 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 					<p class="m-0 mt-1 text-sm font-bold leading-snug text-[var(--navy)]">{wage.entryEducation}</p>
 				</div>
 			</div>
+		)}
+		{wage && wage.employmentIsGroupLevel && (
+			<p class="mt-2 mb-0 text-xs text-[var(--ink)]/45">
+				Jobs, outlook, and typical entry education above cover the combined BLS occupation group, not {wage.title} specifically; BLS does not publish these four figures broken out by title on this page.
+			</p>
 		)}
 
 		<article class="mt-9">

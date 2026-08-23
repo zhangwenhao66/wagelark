@@ -3123,4 +3123,79 @@ export const guides: Guide[] = [
 		image: '/images/millwright-duties.svg',
 		imageAlt: 'Diagram showing four things millwrights do per BLS: install new machines, disassemble and sort parts, repair worn components, and move equipment with forklifts, hoists, and cranes.',
 	},
+	{
+		slug: 'how-to-become-a-paramedic',
+		category: 'How to Become',
+		title: 'How to Become a Paramedic: Certification, Licensing, and Pay',
+		description: 'BLS breaks the path into three certification tiers: EMT-Basic, EMT-Intermediate, then a paramedic program. Median pay is $58,410 a year, well above the EMT median.',
+		published: '2026-08-23',
+		updated: '2026-08-23',
+		socCode: '29-2043',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a paramedic runs through three certification tiers rather than a single credential: EMT-Basic, EMT-Intermediate, then a paramedic postsecondary program that requires EMT-Intermediate certification just to enter. BLS tracks paramedics under SOC code 29-2043, a distinct code from EMTs (29-2042) within the combined "EMTs and Paramedics" occupation group, and reports a paramedic-specific median annual wage of $58,410 for May 2024, well above the $41,340 median for EMTs on the same BLS page. State licensing requirements vary, and BLS projects 5% employment growth for the combined EMT and paramedic group from 2024 to 2034, with most of the roughly 19,000 annual openings coming from the need to replace workers who leave the occupation.',
+		sections: [
+			{
+				heading: 'Three certification tiers, each built on the one before it',
+				body: [
+					'BLS covers EMTs and paramedics together in its Occupational Outlook Handbook, under the combined title "EMTs and Paramedics," but its How to Become One tab lays out a tiered structure rather than one flat entry path. EMT-Basic is the first level: programs typically take less than a year and cover assessing a patient\'s condition, handling emergencies, and using field equipment. EMT-Intermediate comes next, adding instruction in advanced skills such as complex airway devices, intravenous fluids, and some medications, in a program BLS says can run up to 2 years. A paramedic program is the third tier, and BLS is explicit that applicants need EMT-Intermediate certification just to enroll.',
+					'Paramedic programs themselves cover anatomy and physiology, EKG interpretation, and maintaining airflow, along with supervised field experience alongside working crews. Most run through community colleges and lead to a nondegree award or an associate\'s degree, though BLS notes some 4-year universities offer bachelor\'s-degree paramedic programs. Beyond the coursework, BLS states that paramedics typically need work experience as an EMT before entering a paramedic education program in the first place, and that working as a volunteer EMT or paramedic can help build that experience.',
+					'All states require EMTs and paramedics to be licensed, though BLS says the specific requirements vary by state: most require candidates to pass a certification exam, while others require passing an equivalent state exam instead. States can add their own conditions on top of that, such as a minimum age or a background check, and BLS points to CareerOneStop as a source for state-by-state licensing board requirements. Employers typically also require a driver\'s license, and BLS notes some prefer candidates to hold ambulance driver certification as well.',
+				],
+				image: {
+					src: '/images/paramedic-education-path.svg',
+					alt: 'Diagram showing the path to becoming a paramedic: EMT-Basic certification, EMT-Intermediate certification, a paramedic postsecondary program requiring EMT-Intermediate status to enter, then a state licensing exam, leading to a median pay of $58,410 a year per BLS.',
+				},
+			},
+			{
+				heading: 'EMT and paramedic are tracked as separate BLS occupations, not just job titles',
+				body: [
+					'BLS narrates EMTs and paramedics on one Occupational Outlook Handbook page, but the two carry distinct 6-digit SOC codes underneath: EMTs sit under 29-2042 and paramedics under 29-2043, both inside the broader 29-2040 group. That distinction matters for the pay data, because BLS\'s Pay tab breaks out separate median wages and separate industry tables for each title rather than publishing one blended figure, the same kind of title-specific split this site has found on a handful of other combined-occupation BLS pages.',
+					'Per BLS, the qualities that matter for both EMTs and paramedics center on the pace and stakes of the work: communication skills, to listen to patients and dispatchers and give clear instructions; compassion, to support patients in life-threatening or highly stressful situations; interpersonal skills, to coordinate with a team and a wide range of people on scene; physical strength, for bending, lifting, and kneeling over a shift; and problem-solving skills, to evaluate symptoms and determine appropriate treatment on the spot.',
+					'BLS does not publish 10th and 90th percentile wages anywhere on this page, for EMTs, for paramedics, or for the combined group. That is a gap from most other occupations this site tracks, where BLS at least reports a percentile range even when it doesn\'t break wages out by job title.',
+				],
+			},
+			{
+				heading: 'Pay: a paramedic-specific median, and how it compares',
+				body: [
+					'BLS reports a median annual wage of $58,410 for paramedics in May 2024, above the $41,340 median for EMTs and the $46,350 median for the combined EMT-and-paramedic group on the same page, and also above the $49,500 median across all occupations that year. By industry, BLS\'s top-5 table for paramedics specifically shows local government (excluding education and hospitals) paying the highest median, $59,840, followed by offices of physicians at $59,370, private general medical and surgical hospitals at $58,780, ambulance services at $57,720, and local-government general medical and surgical hospitals at $52,990. Ambulance services, the setting most people probably picture first for this occupation, is not the top-paying industry BLS tracks for paramedics; local government and physician offices both pay more at the median.',
+					'BLS\'s industry table for EMTs, by contrast, shows outpatient care centers paying a median of $67,990, higher than any single industry BLS lists for paramedics. BLS does not explain that gap beyond publishing the figures, and it does not change the overall picture: EMTs\' median annual wage across all industries is still well below paramedics\', so one high-paying EMT industry segment does not mean EMTs typically out-earn paramedics.',
+					'Against other BLS occupations this site has covered that share the same "postsecondary nondegree award" entry-level classification, paramedic pay sits close to [firefighters](/firefighter-salary/), whose $59,530 median is about $1,120 above the paramedic figure, and well above [CNAs](/how-to-become-a-cna/), whose $39,530 median is roughly 48% lower despite CNA training running a federal floor of just 75 hours rather than a multi-tier certification path. BLS does not weigh how much of these gaps traces to training length, scope of practice, or the settings each occupation typically works in.',
+				],
+			},
+			{
+				heading: 'Job outlook, and an advancement path BLS names specifically',
+				body: [
+					'BLS projects 5% employment growth for the combined EMT-and-paramedic occupation from 2024 to 2034, a rate it classifies as faster than the roughly 3% average across all occupations, with about 19,000 openings projected each year on average over the decade. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to a different occupation or exit the labor force, such as to retire, rather than to newly created positions alone. That 5% figure and the 19,000-opening estimate cover EMTs and paramedics together; BLS does not publish a paramedic-specific growth rate or opening count on this page.',
+					'BLS names one specific advancement route out of the occupation: with additional education, paramedics can move into other healthcare roles, and it points to paramedic-to-RN programs as an accelerated pathway into becoming a registered nurse. This site\'s [registered nurse pay guide](/how-long-is-nursing-school/) reports a median annual wage of $93,600 for RNs in May 2024, $35,190 above the paramedic median, though BLS does not quantify how much of that gap a paramedic entering through a bridge program would actually see, since bridge-program graduates still need to pass the NCLEX-RN and complete whatever program length their specific bridge track requires.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a paramedic?',
+				answer: 'Per BLS, the path runs through three tiers: EMT-Basic certification (typically under a year), EMT-Intermediate certification (up to 2 years), then a paramedic program, which requires EMT-Intermediate status to enter and can lead to a nondegree award, an associate\'s degree, or in some cases a bachelor\'s degree. BLS also states that paramedics typically need work experience as an EMT before entering a paramedic education program, on top of the coursework itself.',
+			},
+			{
+				question: 'How much do paramedics make?',
+				answer: 'BLS reports a median annual wage of $58,410 for paramedics in May 2024, compared with $41,340 for EMTs and $46,350 for the combined EMT-and-paramedic group. By industry, local government (excluding education and hospitals) pays the highest median for paramedics specifically, $59,840, followed by offices of physicians at $59,370. BLS does not publish 10th or 90th percentile wages for this occupation at any level of detail.',
+			},
+			{
+				question: "What's the difference between an EMT and a paramedic?",
+				answer: 'BLS tracks them as separate occupations, EMTs under SOC code 29-2042 and paramedics under 29-2043, though both fall under the same "EMTs and Paramedics" umbrella page. Paramedics complete additional certification beyond EMT-Intermediate, including a dedicated postsecondary program covering EKG interpretation and airway management, and BLS reports a meaningfully higher median wage for paramedics: $58,410 versus $41,340 for EMTs in May 2024.',
+			},
+			{
+				question: 'Do paramedics need a license?',
+				answer: 'Yes. BLS states that all states require EMTs and paramedics to be licensed, though the exact process varies: most states require passing a certification exam, while others require an equivalent state exam. States can layer on additional requirements, such as a minimum age or a background check, and CareerOneStop is the source BLS points to for state-specific licensing board details.',
+			},
+			{
+				question: 'Is paramedic a growing career?',
+				answer: 'By BLS\'s growth measure, yes, though the figure covers EMTs and paramedics together rather than paramedics alone. BLS projects 5% employment growth for the combined group from 2024 to 2034, faster than the roughly 3% average across all occupations, with about 19,000 openings projected each year, most of them from the need to replace workers who leave the occupation rather than from newly created positions.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: EMTs and Paramedics (accessed 2026-08-23 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm' },
+			{ label: 'O*NET OnLine: 29-2043.00 Paramedics (independent confirmation paramedics carry a distinct SOC code from EMTs, 29-2042, within the combined 29-2040 group)', url: 'https://www.onetonline.org/link/summary/29-2043.00' },
+		],
+		image: '/images/paramedic-education-path.svg',
+		imageAlt: 'Diagram showing the path to becoming a paramedic: EMT-Basic certification, EMT-Intermediate certification, a paramedic postsecondary program requiring EMT-Intermediate status to enter, then a state licensing exam, leading to a median pay of $58,410 a year per BLS.',
+	},
 ];
