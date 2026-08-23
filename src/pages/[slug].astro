@@ -82,7 +82,7 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 		<Dataset
 			slot="head"
 			name={`${wage.title} wages, ${wage.dataYear} (U.S. national)`}
-			description={`National wage percentiles and employment data for ${wage.title} from the U.S. Bureau of Labor Statistics.`}
+			description={`National ${Object.keys(wage.percentiles).length > 0 ? 'wage percentiles and employment' : 'median wage and employment'} data for ${wage.title} from the U.S. Bureau of Labor Statistics.`}
 			url={wage.sourceUrl}
 			license="https://www.bls.gov/bls/linksite.htm"
 			temporalCoverage={wage.dataYear}
