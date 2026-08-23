@@ -917,3 +917,44 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "nurse-practitioner-salary",
+  "last_audited": "2026-08-23",
+  "published_date": "2026-08-04",
+  "note": "站内按'从未审计过优先+guides.ts数组顺序'选中本文，本站第13篇被本任务审计的文章（crna-salary之后第一篇从未被本任务审计过的文章）",
+  "diagnosed_checkpoints": [
+    "NP中位年薪$129,210（2024年5月）、employment 320,400→448,800、40%增长率/128,400新增岗位是否逐字准确，非编造或过时",
+    "文章刻意不给NP专属10th/90th百分位数字（只给三职业合并数字$98,520/$217,270并说明为何不单列）这一方法论表述是否站得住，与实际数据结构(percentiles: {})是否一致",
+    "NONPF 'DNP by 2025'目标未被任何州采纳、2026年仍以master's为主流入职学历，这一表述是否为当前事实",
+    "AANP 'roughly 30 states plus DC'具备full practice authority、'up from 22 states in 2020'，这一具体州数是否准确、是否已过时",
+    "Dataset JSON-LD schema对本文数据完整性的描述是否与percentiles字段实际内容一致"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "直接curl抓取BLS OOH官方页面bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm（带联系方式UA，200）逐字核对：NP median $129,210、combined 10th/90th percentile $98,520/$217,270、三职业各自employment/growth/change（NP 320,400→448,800/40%/128,400；CRNA 53,800→58,500/9%/4,600；助产士8,600→9,500/11%/900；三者合计382,700→516,700/35%/134,000）、entry education 'Master's degree'，均与文章数字逐字完全一致。全站overall growth 'roughly 3%'核实为BLS当前公开数字3.1%（2024-2034，170.0M→175.2M）。NONPF DNP-by-2025目标核实：WebSearch多个独立信源确认2025年deadline已过、无任何州要求DNP执照、多数NP项目仍为master's级别，与文章表述一致，非编造。" },
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "全篇具名标注BLS/AANP/AANPCB/NONPF来源，明确区分BLS官方数字与AANP（非BLS关联组织）数字的不同权威边界，对无法回答的问题（NP专属百分位、各州执业权限现状）主动说明为何不给出，属真实方法论透明度。" },
+    { "dimension": "时效性", "status": "未发现问题，与实时主源一致", "detail": "BLS官网截至本次审计（2026-08-23）仍显示'Last modified date: August 28, 2025'、数据仍为May 2024，与文章published/updated（均2026-08-04）引用的同一批数据一致，暂无需更新事实内容；下一轮OOH年度刷新预计约2026年8月前后，临近但尚未发生。published字段已存在，本次仅在确认无需回退的前提下保留updated不变。" },
+    { "dimension": "竞品差异化", "status": "确认发现问题（与pharmacist-salary/crna-salary相同的已知架构缺口），维持既有判例不做不安全修复", "detail": "WebSearch核实当前'nurse practitioner salary'头部结果（salary.com、nurse.org、beckershospitalreview等）普遍提供50州细分+cost-of-living调整数字，本文仅有全国中位数。与此前pharmacist-salary审计（2026-08-03）判例一致：BLS州级数据仅以XLSX/查询工具形式发布，当前工具集无法逐条核验提取，贸然插入风险高于收益；本站已规划'州组合页'架构解决此缺口，非本文范围内的安全修复项。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题", "detail": "live curl实测：title 63字符/description 170字符（站内description字符数分布138-170，本文与站内已有6篇并列站内最长但未超出既有分布上限，非新异常）；canonical自引用正确；1个H1+6个H2；Article/FAQPage/BreadcrumbList/Dataset四种schema均正确渲染，datePublished/dateModified均2026-08-04T00:00:00+00:00；FAQPage含4个Question与正文faq数组一致；配图nurse-practitioner-salary-chart.svg（1994字节）200可访问，alt文本4个百分比数字（3%/9%/11%/40%）与正文/图表内数字逐一核对一致。" },
+    { "dimension": "GEO审计", "status": "达标（约87/99，高于80及格线）", "detail": "按站内既有11维度99分制核算：权威原文引语13、统计数据完整性13、可引用性12、结构规范性11、表达流畅度8、语义密度7、权威信号7、专业术语6、鲁棒性4（因AANP州数问题扣分，修复后未重新量化）、跨域连接3、易懂表达3，合计约87/99。较弱项与pharmacist-salary判例一致：无逐字BLS原句引用（仅转述+标注）。" },
+    { "dimension": "早期内容AI味补漏", "status": "未发现问题（含本次新增文本的复查）", "detail": "本文published 2026-08-04早于avoid-ai-writing技能2026-08-07接入，属应检范围。过Skill(avoid-ai-writing)detect模式+programmatic grep核对全文（含本次修复新增的两段文本）：0处em/en dash、0处弯引号、0处AI高频词（delve/landscape/testament/robust/leverage/seamless/harness/myriad等）命中、无copula avoidance（全篇直接用is/reports/requires/projects）、无rule-of-three堆砌、无'not just X'翻案句式、无vague attribution（凡引用均具名标注BLS/AANP/NONPF）。修复后新增文本'Reporting a specific current count here risks going stale...different secondary sources currently report noticeably different totals'延续与crna-salary（已过审）相同的措辞模式，非新引入AI味。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题（1处bot拦截误判已排除）", "detail": "4条sources[]链接逐条实测：BLS OOH页200（带联系方式UA）；AANP州执业环境页200（但为JS渲染交互地图，无法通过curl提取实际州列表/计数，属已知工具盲区，仅确认页面本身存活，不代表能核实其内容具体数字）；AANPCB（aanpcert.org）200；NONPF（nonpf.org）默认UA与带联系方式UA均返回403，响应头显示cf-mitigated: challenge（Cloudflare bot挑战），非真实死链，判定为反爬拦截误判排除。" },
+    { "dimension": "内链健康度", "status": "未发现问题，非孤儿页", "detail": "grep guides.ts确认全站已有4处其他文章正文手动锚文本链接到/nurse-practitioner-salary/（physician-assistant-salary、how-to-become-a-physical-therapist、how-long-is-nursing-school、how-to-become-a-librarian，各自锚文本上下文不同非机械重复）；本文自身2条出链（crna-salary、what-does-a-physician-assistant-do）均grep确认真实存在；所属Salary Guide分类20篇文章，超过6篇触发轮转窗口，pickRelatedGuides()算法（含coverage验证工具）已排除固定slice(0,N)风险。" },
+    { "dimension": "Schema数据一致性", "status": "确认发现问题，独立复核agent确认为真，已修复", "detail": "src/pages/[slug].astro第85行Dataset JSON-LD的description字段此前无条件写死'National wage percentiles and employment data for ${wage.title}'，但src/data/bls-wages.ts中SOC 29-1171（本文）的percentiles字段实际为空对象{}（BLS该占用页仅发布三职业合并百分位数字，未按NP单独列出），与文章正文'this page leaves those two figures out rather than mislabel them'的谨慎表述直接矛盾——结构化数据向爬虫/AI系统声称的数据完整性超出了页面实际提供的数据。核对src/data/bls-wages.ts确认全站37个职业条目中6个（35-3011/29-2032/31-9097/29-1151/29-2055/29-1171）percentiles为空，此问题理论上影响这6篇文章的Dataset schema，但本次审计仅对本文（29-1171）做出确认与修复。" },
+    { "dimension": "合规/敏感度漂移", "status": "确认发现问题，独立复核agent确认为真，已修复", "detail": "AANP 'full practice authority'州数表述'roughly 30 states plus Washington, D.C.'经独立复核agent用当日WebSearch重新核实，与2026年8月多个独立信源（含一条与本文调研完全无关、因查NP执业权限政策争议话题而独立命中的信源）收敛的'AANP自己官方地图约27州+DC'现状不一致，且该差距（30 vs 27，约10%）不是简单的'发布后自然过时'，而是文章发布时归因就已偏高（把其他tracker更激进的数字安在了AANP自己头上）。已有的hedge语言（'confirm via AANP's map'）只覆盖'未来会变'，不覆盖'当下就偏高'这层问题。已确认属实。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "public/images/nurse-practitioner-salary-chart.svg站内自制SVG柱状图（非第三方图片，无版权问题），文件存在，live页面200可访问渲染正常，图内4个百分比数字（3%/9%/11%/40%）与bls-wages.ts/正文数字来源一致。" },
+    { "dimension": "AdSense政策合规风险", "status": "未发现问题", "detail": "纯BLS官方薪资/职业教育信息，无限制类目内容；页脚免责声明存在且完整（'not personalized career, financial, or legal advice...does not endorse or recommend any specific employer, school, or training program'）；ads.txt正确指向pub-5245502795720653；/privacy/、/about/均200可访问；robots.txt对GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended均显式Allow。" }
+  ],
+  "actions_taken": [
+    "修复1（Schema数据一致性）：src/pages/[slug].astro第85行Dataset description改为按wage.percentiles是否非空条件渲染'wage percentiles and employment'或'median wage and employment'，一次性修复本文及全站其余5个percentiles为空的职业条目的同类overclaim，未触及有真实percentiles数据的条目（build后核对pharmacist-salary的Dataset description未受影响，仍为原文案）",
+    "修复2（合规/敏感度漂移-事实准确性交叉）：src/data/guides.ts正文段落与FAQ答案均将'roughly 30 states plus Washington, D.C.'改为'a majority of states'，并补充'Reporting a specific current count here risks going stale...different secondary sources currently report noticeably different totals...some trackers count states with newly passed laws before AANP's own map has caught up'——采用本站crna-salary文章（2026-08-04发布、2026-08-22审计通过）已验证过的'不给具体州数、只解释为何不给'表述模式，非本次新发明的写法",
+    "两处修复均为针对性最小改动（各2行代码/文案），未触及文章其余内容；build验证51个页面全部生成无报错；build产物dist/nurse-practitioner-salary/index.html核对Dataset description已生效为'National median wage and employment data...'，'majority of states'文案已生效3处、'roughly 30 states'0处残留",
+    "git commit d03d8c5并push到main，CF Pages自动部署完成（无deploy hook，靠push触发），线上curl核对'majority of states'文案已生效，随后跑IndexNow提交"
+  ],
+  "independent_verification": "本轮十三维度审查发现2条具体问题，均已spawn独立、全新的Agent做复核（未给它们本次审计的其余上下文，仅给对应发现+支撑证据）：(1) Dataset schema percentiles overclaim——独立agent自行重新读取三处源码文件核实后回复CONFIRMED；(2) AANP州数表述——独立agent自行重新跑WebSearch（未复用本次审计已有的搜索结果）后回复CONFIRMED，并指出'文章把更激进的第三方数字安在了AANP自己头上'这一归因层面的问题比单纯'过时'更严重。两个独立agent均在合理时间内正常返回完成通知，无卡死迹象，未触发看门狗超时兜底流程。",
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "约87/99（按站内既有11维度框架核算），高于80及格线；修复涉及的'鲁棒性'维度扣分项已随文案修复解决，未重新量化打分",
+  "escalation": null
+}
+```
