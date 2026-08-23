@@ -219,5 +219,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-23",
+    "action": "submitted",
+    "reason": "今日仅有trafficsite-content-quality-audit审计更新nurse-practitioner-salary，wagelark-content-publishing当日尚未产出新文章（12:35档运行时刻尚未到达）。Pages报告2个Discovered-currently not indexed候选(firefighter-salary/truck-driver-salary)中选中firefighter-salary，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://wagelark.com/firefighter-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
