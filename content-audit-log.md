@@ -958,3 +958,38 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "physician-assistant-salary",
+  "last_audited": "2026-08-24",
+  "published_date": "2026-08-04",
+  "note": "站内'从未审计过优先'排序选中——全站33篇从未被本任务审计过的文章里published日期最早的一篇（2026-08-04），且按10站跨站排序（各站content-audit-log.md最后一次git commit时间升序）WageLark当前排名最靠前，本次运行只处理了WageLark，其余9站未轮到，留待下次运行",
+  "diagnosed_checkpoints": [
+    "PA中位年薪$133,260、10th/90th百分位$95,240/$182,200、$64.07时薪（2024年5月）是否仍是BLS当前发布的最新数据，还是已有更新的May 2025数据未跟进",
+    "五档行业中位数（政府$151,470/门诊中心$147,650/医院$136,630/诊所$129,640/教育服务$127,900）排序与数字是否准确，'政府和门诊中心付得比私人诊所多'这一反直觉论断是否为BLS原始数据支持",
+    "与NP($129,210)/药剂师($137,480)/CRNA($223,210)三个职业的中位数对比是否与这几篇文章各自的数据源（bls-wages.ts）一致，避免跨文章数字不一致",
+    "20%就业增长率/33,200新增岗位/162,700基数，以及与NP(40%)/药剂师(5%)/CRNA(9%)的增速对比是否准确",
+    "本文published日期(2026-08-04)早于avoid-ai-writing技能强制化(2026-08-07)，需补做一次AI味排查"
+  ],
+  "findings": [
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "WebSearch核实BLS OOH物理助理页当前仍显示May 2024数据（中位数$133,260、10th $95,240、90th $182,200），未发现更新的May 2025数据发布，文章数据仍是BLS当前最新版本。curl直接请求bls.gov/ooh/healthcare/physician-assistants.htm返回200。行业五档数字逐一核对src/data/bls-wages.ts的\"29-1071\"记录，与正文/FAQ完全一致（无内部矛盾）。" },
+    { "dimension": "跨文章数据一致性（本文专属核查重点）", "status": "未发现问题", "detail": "核对bls-wages.ts里\"29-1171\"(Nurse Practitioners, $129,210)、\"29-1051\"(Pharmacists, $137,480)、\"29-1151\"(Nurse Anesthetists, $223,210)三条记录及其jobOutlookPct(40/5/9)，与本文引用的对比数字逐一精确匹配，非编造或过时引用；WebSearch确认这几个数字来自BLS OEWS按SOC代码拆分的细分表，而非WebSearch摘要优先返回的'Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners'合并页（$132,050），后者是三个职业合并的另一种BLS口径，本文用更精细的细分口径不构成错误。" },
+    { "dimension": "时效性", "status": "未发现问题", "detail": "同上，BLS尚未发布更新版本，无需改published/updated字段，未触发'改updated前须先查published字段'的前置检查。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "grep guides.ts确认本文出链4处（what-does-a-physician-assistant-do、nurse-practitioner-salary、pharmacist-salary、crna-salary）均为真实存在的slug；入链4处来自medical-assistant-salary、how-to-become-a-physical-therapist、how-to-become-a-librarian、how-to-become-a-psychologist的正文手动锚文本，非孤儿页。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "sources数组唯一外链bls.gov/ooh/healthcare/physician-assistants.htm，curl -I返回HTTP 200。" },
+    { "dimension": "配图可用性", "status": "未发现问题", "detail": "public/images/physician-assistant-salary-chart.svg文件存在，alt文本具体描述图表内容（含三个百分位数字），非泛泛而谈。" },
+    { "dimension": "SEO技术审计", "status": "未发现问题（一项轻微/非本文专属，未处理）", "detail": "Skill(seo-audit)+curl实测线上页面：title/meta description/canonical/H1/schema(Article+FAQPage+BreadcrumbList+Dataset+Organization+WebPage)均正常；heading层级合理(1个H1+6个H2)；内链16个站内链接，锚文本描述性强。title标签73字符，略超推荐的50-60字符区间，但这是全站'标题 | WageLark'模板的统一写法（其余已审计文章同样如此），非本文独有问题，不单独修复。" },
+    { "dimension": "GEO审计（99分制11维度）", "status": "未发现问题，达标", "detail": "人工按站内标准逐维度评估（未使用独立工具量化）：权威原文引语~14/16（BLS方法论说明具体扎实，非泛泛引用）、统计数据完整性14/14（百分位/行业/增速数字齐全且均标注年份）、可引用性~12/13（FAQ五问均为40-60词自包含答案块）、结构规范性~11/12（schema+标题层级完整）、表达流畅度~9/10、语义密度~7/8、权威信号~7/8（明确对比BLS雇主记录法vs第三方自报法的方法论差异，属真实权威信号）、专业术语~5/6（SOC code/OEWS/PharmD等术语使用准确）、鲁棒性~4/5（多处'this article's inference, not a claim BLS itself makes'类型的适当限定表述，不过度断言）、跨域连接4/4（4条有效内链）、易懂表达~2/3，合计约90/99，高于80及格线，未重新触发修复流程。" },
+    { "dimension": "早期内容AI味补漏", "status": "未发现问题", "detail": "本文published 2026-08-04，早于avoid-ai-writing技能强制化(2026-08-07)，按规则需补查。提取全文正文+FAQ约1370词过Skill(avoid-ai-writing) detect模式：未发现em dash、Tier1/2/3违禁词表命中、模板短语、'It's not X it's Y'结构、copula avoidance(serves as/features/boasts)、空泛第三方权威('Experts believe')等P0/P1级问题；文中多处'this is this article's inference, not a claim BLS itself makes'/'readers should treat this comparison as descriptive rather than a mechanism BLS has confirmed'属恰当的认知谦逊表述而非空洞对冲。句长偏一致（多为25-45词的复杂句），判断为站内该类BLS数据文章的既定风格（其余已审计的同类文章同样如此），非AI生成特征，不需重写。" },
+    { "dimension": "竞品差异化", "status": "未发现问题", "detail": "dataforseo-query实测SERP（'physician assistant salary'，74,000/月），头部结果为bls.gov/nccpa.net/indeed.com/careers.usnews.com/thepalife.com等聚合站，WageLark本文暂未进入前10。内容层面判断有真实增量：(1)明确点出BLS雇主记录方法论vs第三方自报聚合站的差异，这是同类聚合页少见的角度；(2)跨四个相邻职业(NP/药剂师/CRNA)的中位数对比，非单一职业孤立呈现；(3)行业间中位数差异给出限定为'本文推断、非BLS结论'的合理解释。非维基百科式同质化内容。" },
+    { "dimension": "Schema数据一致性", "status": "未发现问题", "detail": "本文自建站以来未被编辑过（published=updated=2026-08-04），schema由数据文件构建时自动生成，无手动编辑导致的不同步风险。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "BLS薪资数据类内容，无人物/事件/群体敏感表述，无近期争议信号需要重新审视。" },
+    { "dimension": "AdSense政策合规", "status": "未发现问题", "detail": "内容为百科式薪资数据陈述，无暴力/武器/毒品/赌博类内容，无标题党或诱导点击布局。curl实测ads.txt仍正确指向pub-5245502795720653，返回200。" }
+  ],
+  "actions_taken": ["无，13个维度均未发现需要修复的问题，未做任何编辑，未部署，未提交IndexNow，未追加内容发布日志.md（无实际改动内容）"],
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "约90/99（按站内既有11维度框架人工核算），高于80及格线，未触发重新打分",
+  "escalation": null
+}
+```
