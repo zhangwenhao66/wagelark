@@ -434,3 +434,67 @@ Owen Zhang
 contact@wagelark.com
 
 **Status: 已发送。** 独立复核agent（全新spawn，无本次会话上下文）逐项核实：跨站14天查重（`gmail_send.py list --query "to:ls-instruction@austincc.edu"`返回空+grep全矩阵13站均仅命中本文件）、死链真实性（独立curl确认页面存在两条aicpa.org链接+`-L`跟随重定向确认均经aicpa-cima.com最终404）、主题对应诚实度评估（专门审视"较软匹配"这一点：AICPA Career Center含求职板块+青年CPA社群，WageLark页面没有，但邮件第二段已如实声明"not a direct swap...just a useful addition"，判定为诚实的补充说明而非硬凑）、数字核对（median $81,680/10th $52,780/90th $141,420均与guides.ts及线上页面含schema.org标记逐字一致）、语气（零破折号、零AI高频词、第一段纯断链通知不提WageLark）、站点真实性（均200正常）。**VERDICT: SEND**。已由 `gmail_send.py send --from wagelark` 发出，收件人 ls-instruction@austincc.edu，Message ID `1a024dfb43b56a68`。
+
+---
+
+## 2026-08-24 — Broken link pitch: Nassau Community College Surgical Technology career resources page
+
+- Target page: https://library.ncc.edu/c.php?g=309111&p=2063096 (Nassau Community College Library, "Professional Organizations and Career Info" section of the Surgical Technology Program LibGuide)
+- Dead link found: "New York State Careerzone" (careerzone.ny.gov/jz/views/careerzone/index.jsf), page's own description: "Click Search and then enter your terms to learn more about the career and job openings." Confirmed dead via three independent DNS resolvers (system default, 8.8.8.8, 1.1.1.1) on August 24, 2026: all three return zero A records for the domain, an NXDOMAIN-class failure, not a slow or blocked server.
+- Content match: the dead link sits directly next to an O*NET link for SOC 29-2055.00 in the same list, the exact SOC code for surgical technologists. WageLark's `surgical-tech-salary` guide (published 2026-08-05) covers this same occupation: median $62,830/yr (May 2024 BLS), how surgical technologists differ from surgical assistants, and CST certification requirements, matching the "career and job openings" role the dead link served.
+- Numbers checked against `src/data/guides.ts` `surgical-tech-salary` entry (lines ~932-1004): median $62,830, SOC 29-2055, published/updated 2026-08-05. No percentile data exists for this occupation per BLS (the guide itself notes this), so none is claimed in the email.
+- Contact used: ask@ncc.libanswers.com, the mailto link behind the library's "Ask a Librarian" widget on the same LibGuides page (no separate "report a broken link" form was found; this is the library's general contact channel).
+- Dedup: `gmail_send.py list --query "to:ask@ncc.libanswers.com"` returned `[]`. Grepped `outreach-drafts.md` and `broken-link-outreach-log.md` across all four seo-geo-trinity sites and the 10-site traffic matrix for "library.ncc.edu" and "ncc.libanswers.com" (a plain "ncc.edu" substring search also hit unrelated "austincc.edu" false positives from the entry above; excluded), no prior contact found either address.
+- Passed humanizer + avoid-ai-writing (no em dashes, no AI-vocabulary words, no filler, no chatbot artifacts).
+
+**Draft email:**
+
+Subject: Dead link on your Surgical Technology career resources page
+
+Hi,
+
+I was looking at the Surgical Technology Program guide on the Nassau Community College library site (the "Professional Organizations and Career Info" page) and noticed the New York State Careerzone link no longer works. I checked careerzone.ny.gov against three separate DNS resolvers on August 24, 2026, and none of them return any records for that domain, so the site itself looks like it's gone rather than just moved.
+
+I run wagelark.com, a reference site built on BLS occupational wage data. There's a page on surgical technologists, the same occupation code (SOC 29-2055) as the O*NET link right next to the dead Careerzone entry, that covers current BLS pay figures: a median of $62,830 a year as of May 2024, plus how the role differs from surgical assistants and what CST certification requires. It might work as a replacement for the career-and-job-outlook role that link used to serve:
+
+https://wagelark.com/surgical-tech-salary/
+
+Thought it was worth a note since students working through that page probably click every link in the list.
+
+Owen Zhang
+contact@wagelark.com
+
+**Status: 已发送。** 原草稿结尾句"No obligation either way, just wanted to flag..."已改写（发现本站几乎全部历史pitch都用这句模板，改为上面这句以避免继续复用）。独立复核agent（全新spawn）逐项核实查重/断链真实性(三解析器交叉验证+正向对照测试排除代理假阳性)/收件人真实性/薪资数字对照guides.ts/语气去AI味，判定**SEND**。已由`gmail_send.py send --from wagelark`发出，收件人ask@ncc.libanswers.com，Message ID `1a033fbbaeb92c5f`。
+
+---
+
+## 2026-08-24 — Broken link pitch: Arizona Court Reporters Association (ACRA) pages
+
+- Target pages: https://www.acraonline.org/page-18064 ("Affiliated Organizations") and https://www.acraonline.org/cr-resources ("Resources"), both showing the same USCRA (United States Court Reporters Association) logo-link
+- Dead link found: the USCRA link on both pages points to http://www.uscra.org/index.shtml. Confirmed dead via curl on August 24, 2026: returns HTTP 404 after redirecting to https://uscra.org/index.shtml. The organization itself is alive and active at https://uscra.org/ (HTTP 200, confirmed live homepage content), so this is a path-level/subdomain-level break, not a DNS failure or organizational shutdown, similar in shape to the AICPA/aicpa-cima.com case handled for Austin CC on 2026-08-21.
+- Content match: USCRA is a professional association for federal official court reporters, not a wage-data source, so this is framed as a complementary addition rather than a direct swap, consistent with the AICPA precedent's honest-framing approach. WageLark's `how-to-become-a-court-reporter` guide (published 2026-08-22) covers the training path, state-by-state licensing variance, and current BLS pay data for the same occupation.
+- Numbers checked against `src/data/guides.ts` `how-to-become-a-court-reporter` entry (lines ~2980-3053): median $67,310/yr, 10th percentile $39,100, 90th percentile $127,020, all May 2024 BLS, SOC 27-3092.
+- Contact used: office@acraonline.org, per WebSearch of ACRA's public contact information (phone (480) 496-4010, Gilbert AZ address); the site's own /Contact page did not expose a plain-text email in a curl fetch, so this was independently corroborated via search before use, not invented.
+- Dedup: `gmail_send.py list --query "to:office@acraonline.org"` returned `[]`. Grepped `outreach-drafts.md` and `broken-link-outreach-log.md` across all four seo-geo-trinity sites and the 10-site traffic matrix for "acraonline.org" and "uscra.org", no prior contact found either domain.
+- Passed humanizer + avoid-ai-writing (no em dashes, no AI-vocabulary words, no filler, no chatbot artifacts; the "not a replacement... but might be worth adding" clause names a specific reason and mirrors the already-reviewed AICPA framing rather than the flagged "it's not X, it's Y" reveal pattern).
+
+**Draft email:**
+
+Subject: Broken USCRA link on two ACRA pages
+
+Hi,
+
+I was checking the Affiliated Organizations and Resources pages on the ACRA site and noticed the USCRA link on both goes to http://www.uscra.org/index.shtml, which returns a 404. The organization is still active at https://uscra.org/, just not at that old address, so the fix might be as simple as updating the URL rather than pulling the entry.
+
+I run wagelark.com, a reference site built on BLS occupational wage data. There's a page on how to become a court reporter that covers the typical 2- to 3-year training path, the fact that licensing rules vary by state, and current BLS pay data: a median of $67,310 a year as of May 2024, with the 10th percentile at $39,100 and the 90th at $127,020. It's not a replacement for the USCRA link itself, since that's a membership organization and this is a data reference, but it might be worth adding alongside it for readers researching pay and the path into the field:
+
+https://wagelark.com/how-to-become-a-court-reporter/
+
+Mostly wanted to flag the broken logo link since those are easy to overlook during a site review.
+
+Owen Zhang
+contact@wagelark.com
+
+**Status: 已发送。** 原草稿结尾句"No obligation either way, just wanted to flag..."已改写（同上，避免继续复用本站历史模板句）。独立复核agent（全新spawn）逐项核实查重/断链真实性/USCRA组织仍存活但页面路径失效的诚实框定/收件人真实性(WebSearch独立核实)/薪资数字对照guides.ts/语气去AI味，判定**SEND**。已由`gmail_send.py send --from wagelark`发出，收件人office@acraonline.org，Message ID `1a033fb318941514`。
+
+**Status: PENDING INDEPENDENT REVIEW.**
