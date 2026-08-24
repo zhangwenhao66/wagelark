@@ -193,3 +193,33 @@ phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训�
 1. 1.5竞品缺口分析这次卡在"backlinks数据只给目标URL不给引荐页面路径"——下轮需要先用WebSearch/curl反查引荐域名具体页面再判断是否资源列表类型，不能只看域名列表
 2. 本轮dig三解析器交叉验证法（本机+8.8.8.8+1.1.1.1）新增了"本机解析器单独失败但8.8.8.8/1.1.1.1能查到"的假阳性模式（ssa.gov、mentalhealth.org、electrical.nebraska.gov），比过去只查本机+一个外部解析器更严格，建议后续断链核查都升级为三解析器交叉验证
 3. "域名过期后被停放服务接管"（agesocialwork.org → bodis.com）是介于"真dead"和"真alive"之间的第三种状态，本轮按"真实失效"记但因主题不对应未采用，下次遇到主题对应的停放域名案例时可以直接按失效处理（参照历史jobnexus.com先例）
+
+---
+
+## 2026-08-24（第五次运行，第二部分）
+
+### 第一部分
+
+已由上层会话统一核实：本站唯一符合10天条件的旧pitch（UCF精算）已在8/21验证+跟进过，8/16那批（csrt.org/nala.org/ten27services）距今仅8天不满10天，无需验证，跳过。
+
+### 第二部分：新断链置换机会
+
+延续"从业者协会/图书馆career info指南"方向，本轮WebSearch+竞品缺口分析收集候选，`broken_link_scan.py`批量扫描（子agent首次尝试等待复核完成即以完成状态返回，两份草稿留在scratchpad未发送，本次由上层会话续跑完成剩余流程）。
+
+**发现2条真实机会**：
+
+1. **ACRA（American Court Reporters Association）站内Affiliated Organizations/Resources两个页面**——`uscra.org/index.shtml`旧链404，`curl`确认根域名`uscra.org`本身200存活（组织未消失，只是页面路径过期）。邮件如实声明"这不是USCRA链接的替代品，只是同页面的补充建议"，非硬凑替代。替换内容：`how-to-become-a-court-reporter`（median $67,310/yr, May 2024 BLS数据，与站内guides.ts数据核对一致）。收件人`office@acraonline.org`（WebSearch独立核实为ACRA真实公开联系方式）。
+2. **Nassau Community College图书馆Surgical Technology Program career info指南**——`careerzone.ny.gov`（纽约州职业信息站）三解析器交叉验证均无A记录，确认真实永久失效（非临时故障，独立复核agent还额外做了正向对照测试排除代理层假阳性）。替换内容：`surgical-tech-salary`（SOC 29-2055, median $62,830/yr, May 2024 BLS，与站内guides.ts数据核对一致）。收件人`ask@ncc.libanswers.com`（页面自带Ask a Librarian邮箱）。
+
+**⚠️本轮流程教训（新发现，值得记录）**：两份草稿的收尾句最初都沿用了本站历史上几乎所有pitch都在用的固定模板"No obligation either way, just wanted to flag..."（`outreach-drafts.md`里至少9次重复出现这句式变体）。这是本站一个持续存在的、此前历次独立复核都没拦下的系统性模板化风险（不同于DialWick 8/21那次"两封邮件同一批次内逐字重复"的一次性事故，这是"同一个模板在几十封邮件的历史里反复被复用"）。本轮两份草稿的收尾句均已改写为不同措辞，不再使用这个固定模板；建议下轮及以后的WageLark pitch都避免使用"No obligation either way"这个开头，改用更多样化的收尾表达。
+
+**独立复核**：两份草稿各自spawn独立复核agent，均判定**"SEND"**（查重/断链真实性/收件人真实性/薪资数据对照guides.ts/语气去AI味逐项独立核实）。
+
+**已发送**：
+- ACRA → `office@acraonline.org`，`gmail_send.py send --from wagelark`，Message ID `1a033fb318941514`
+- NCC → `ask@ncc.libanswers.com`，`gmail_send.py send --from wagelark`，Message ID `1a033fbbaeb92c5f`
+
+### 遗留待办
+
+1. **本站收尾句模板化问题需要在下次任何pitch撰写时主动规避**，不是本轮特例——已连续多轮使用同一模板未被发现，属于结构性遗留问题。
+2. 1.5竞品缺口分析（careerexplorer/salary.com）"backlinks数据只给目标URL不给引荐页面路径"的方法论局限延续存在，下轮继续按上轮建议反查具体页面。
