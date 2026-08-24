@@ -3198,4 +3198,78 @@ export const guides: Guide[] = [
 		image: '/images/paramedic-education-path.svg',
 		imageAlt: 'Diagram showing the path to becoming a paramedic: EMT-Basic certification, EMT-Intermediate certification, a paramedic postsecondary program requiring EMT-Intermediate status to enter, then a state licensing exam, leading to a median pay of $58,410 a year per BLS.',
 	},
+	{
+		slug: 'what-does-a-dental-hygienist-do',
+		category: 'Career Guide',
+		title: 'What Does a Dental Hygienist Do? Duties, Setting, and Pay',
+		description: "Dental hygienists clean teeth, take x-rays, and screen for gum disease, usually under a dentist's oversight. Here's what BLS says the job involves, plus pay data.",
+		published: '2026-08-24',
+		updated: '2026-08-24',
+		socCode: '29-1292',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, dental hygienists examine patients for signs of oral disease, remove tartar and plaque, apply preventive treatments such as fluoride and sealants, take dental x-rays, and educate patients on oral hygiene, typically working alongside a supervising dentist. The role requires an associate\'s degree from an accredited dental hygiene program, usually a 3-year course of study, plus state licensure. BLS reports a median annual salary of $94,260 in May 2024, and nearly all hygienists, 94% of the occupation, work in dentists\' offices.',
+		sections: [
+			{
+				heading: 'What the job actually involves',
+				body: [
+					'Per BLS, "dental hygienists examine patients for signs of oral diseases, such as gingivitis, and provide preventive care, including oral hygiene." In its longer duties list, BLS breaks that down into a specific set of tasks: removing tartar, stains, and plaque from teeth; applying sealants and fluoride to help protect teeth; taking and developing dental x-rays; assessing a patient\'s oral health and reporting findings to the dentist; documenting patient care and treatment plans; and teaching patients proper brushing and flossing technique.',
+					'BLS also describes the tools involved. Hygienists use hand, power, and ultrasonic instruments, and in some cases lasers, to do the cleaning itself. An air-polishing device, which sprays a mix of air, water, and baking soda, removes stains, while a power tool that works like an automatic toothbrush polishes teeth afterward. X-ray machines are used separately to check for tooth or jaw problems that aren\'t visible during a routine exam.',
+					'How much of that a hygienist can do without a dentist standing over their shoulder, and how far their duties extend, is not the same everywhere. BLS states plainly that "the tasks hygienists may perform, and the extent to which they must be supervised by a dentist, vary by state and by the setting in which the dental hygienist works," and that a few states allow hygienists with additional training, sometimes called dental therapists, to provide limited restorative services such as extracting primary teeth or placing temporary crowns. There is no single national answer to how independently a hygienist practices; it depends on the state\'s dental practice act.',
+				],
+			},
+			{
+				heading: 'Where the job happens, and on what schedule',
+				body: [
+					'BLS reports that dental hygienists held about 221,600 jobs in 2024, and the setting is heavily concentrated: 94% worked in offices of dentists, with offices of physicians and government employers (excluding state and local education and hospitals) each accounting for roughly 1% of the remainder. Pay tracks that same split closely. BLS\'s May 2024 industry wage data puts the median at $94,570 in offices of dentists, $84,720 in offices of physicians, and $77,940 in government settings, figures this site\'s [dental hygienist salary guide](/dental-hygienist-salary/) covers in more detail alongside the full 10th-to-90th-percentile wage range.',
+					'BLS also flags that many hygienists work part time, since dentists often hire a hygienist for only a few days a week rather than a full schedule, and it\'s common for one hygienist to split their time across more than one dental office. That matters for reading the pay figures above: BLS\'s OEWS wage survey, the same annual survey behind the median figures on this page, assumes a full-time, year-round schedule of 2,080 hours when it converts an hourly wage into an annual one, so a hygienist working three or four days a week should expect real annual earnings below the published median even if their hourly rate matches it.',
+				],
+				image: {
+					src: '/images/dental-hygienist-duties.svg',
+					alt: 'Diagram showing four things dental hygienists do per BLS: assess oral health and report to the dentist, clean teeth and apply preventive treatments, take dental x-rays, and educate patients on oral hygiene.',
+				},
+			},
+			{
+				heading: 'Job outlook: mostly replacement demand, not new positions',
+				body: [
+					'BLS projects employment of dental hygienists to grow 7% from 2024 to 2034, a rate it classifies as much faster than the average for all occupations, adding roughly 15,500 jobs to the current base of 221,600 over the decade. Separately, BLS projects about 15,300 openings for the occupation each year, on average, once the decade is averaged out, a larger number than the net growth figure because most of those yearly openings come from replacing hygienists who transfer to a different occupation or leave the labor force, such as to retire, rather than from newly created positions.',
+					'A licensed, degree-gated field growing faster than average tends to keep demand for qualified hygienists high, since the supply of new hygienists is capped by how many people accredited programs can graduate and license each year rather than by how quickly an employer can hire and train someone. That said, BLS\'s growth projection describes the national labor market in aggregate; it is not a prediction about hiring conditions in any specific city, practice, or year, and a faster-than-average national growth rate does not guarantee an opening exists in a given hygienist\'s area at a given time.',
+				],
+			},
+			{
+				heading: 'The path: an associate\'s degree, then a state license',
+				body: [
+					'BLS states that dental hygienists typically need an associate\'s degree in dental hygiene, with programs usually taking 3 years to complete and combining classroom instruction with laboratory and clinical work. Coursework covers subjects such as anatomy, medical ethics, and periodontics, the study of gum disease. A bachelor\'s degree is also an option, and BLS notes it, along with a master\'s, is usually expected for hygienists who go into research, teaching, or clinical practice in public or school health programs, though master\'s programs in the field remain relatively uncommon. High school students considering the field are pointed toward biology, chemistry, and math coursework, since most dental hygiene programs also require applicants to complete college-level prerequisites before admission, with the specifics varying by school.',
+					'Every state requires dental hygienists to be licensed, though the exact requirements vary by state. In most states, that means graduating from an accredited program and passing written and clinical licensing exams, with continuing education required afterward to keep the license active. BLS points readers with state-specific questions to their state\'s Board of Dental Examiners, or to CareerOneStop for a general overview of state licensing board requirements. Many employers separately require CPR certification on top of the state dental license.',
+					'BLS reports a May 2024 median [dental assistant](/dental-assistant-salary/) wage of $47,300, essentially half the $94,260 hygienist median, and dental assistants can typically enter the occupation through a certificate program of about a year or through employer training alone, without the fixed multi-year, licensing-exam-gated path hygienists go through. BLS\'s data describes what each occupation pays; it does not break out how much of that roughly two-to-one gap traces to the added years of schooling and the licensing exam specifically versus other factors, such as scope of duties or supervision requirements, and this page reports the pattern rather than asserting a specific cause.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does a dental hygienist do on a typical day?',
+				answer: 'Per BLS, dental hygienists remove tartar, stains, and plaque from teeth; apply preventive treatments such as sealants and fluoride; take and develop dental x-rays; assess a patient\'s oral health and report findings to the supervising dentist; document care and treatment plans; and teach patients proper brushing and flossing technique.',
+			},
+			{
+				question: 'How long does it take to become a dental hygienist?',
+				answer: 'BLS states that dental hygienists typically need an associate\'s degree in dental hygiene, with programs usually taking 3 years to complete. Every state also requires passing written and clinical licensing exams after graduation before a hygienist can practice.',
+			},
+			{
+				question: 'Do dental hygienists need a license?',
+				answer: 'Yes. BLS states every state requires dental hygienists to be licensed, though the specific requirements vary by state. Most states require graduating from an accredited program and passing written and clinical exams, plus completing continuing education to keep the license active. BLS points readers to their state\'s Board of Dental Examiners or to CareerOneStop for state-specific details.',
+			},
+			{
+				question: 'How much do dental hygienists make?',
+				answer: 'BLS reports a median annual dental hygienist salary of $94,260 in May 2024 ($45.32 an hour). Pay varies by setting: offices of dentists paid the highest tracked median at $94,570, followed by offices of physicians at $84,720 and government employers at $77,940.',
+			},
+			{
+				question: 'Can a dental hygienist work without a dentist present?',
+				answer: 'It depends on the state. BLS states that the tasks a hygienist may perform, and how closely a dentist must supervise them, vary by state and by practice setting, and that a few states allow hygienists with extra training, sometimes called dental therapists, to provide limited restorative services. There is no single national scope-of-practice rule; it is set state by state.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Dental Hygienists (accessed 2026-08-24 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/dental-hygienists.htm' },
+			{ label: 'BLS OEWS Frequently Asked Questions (confirms the 2,080-hour full-time, year-round assumption behind the annual wage conversion used across this page)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+		],
+		image: '/images/dental-hygienist-duties.svg',
+		imageAlt: 'Diagram showing four things dental hygienists do per BLS: assess oral health and report to the dentist, clean teeth and apply preventive treatments, take dental x-rays, and educate patients on oral hygiene.',
+	},
 ];
