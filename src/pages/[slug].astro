@@ -163,8 +163,8 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">{wage.jobOutlookPct}%</p>
 				</div>
 				<div class="border border-[var(--rule)] bg-white p-3">
-					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">New jobs projected</p>
-					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">+{wage.employmentChange.toLocaleString('en-US')}</p>
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Employment change</p>
+					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">{wage.employmentChange >= 0 ? '+' : ''}{wage.employmentChange.toLocaleString('en-US')}</p>
 				</div>
 				<div class="border border-[var(--rule)] bg-white p-3">
 					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Typical entry education</p>

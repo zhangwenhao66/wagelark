@@ -1411,6 +1411,48 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: EMTs and Paramedics (SOC 29-2043 covers paramedics specifically, a distinct 6-digit code from EMTs' 29-2042 within the combined 29-2040 group; BLS's Pay tab breaks out a paramedic-specific median annual wage ($58,410) and a paramedic-specific top-5-industry wage table, both used here, but the Quick Facts employment count (282,900), job outlook (5%, 14,300 openings, 2024-34), and typical entry-level education (postsecondary nondegree award) are published only for the combined EMTs-and-Paramedics occupation group, not split out for paramedics alone -- those combined-group figures are still the best available and are used here with that caveat noted in the article prose. BLS does not publish 10th/90th percentile wages anywhere on this page, for EMTs, paramedics, or the combined group, so percentiles is left empty rather than populated with a different granularity)",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
       "publishedDate": "2025-08-28"
+    },
+    "13-2053": {
+      "title": "Insurance Underwriters",
+      "medianAnnual": 79880,
+      "medianHourly": 38.40,
+      "percentiles": {
+        "p10": 51640,
+        "p90": 138020
+      },
+      "employment": 127000,
+      "employmentYear": "2024",
+      "jobOutlookPct": -3,
+      "jobOutlookLabel": "Decline",
+      "employmentChange": -3300,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        {
+          "industry": "Credit intermediation and related activities",
+          "annualWage": 90000
+        },
+        {
+          "industry": "Other insurance related activities",
+          "annualWage": 81870
+        },
+        {
+          "industry": "Direct health and medical insurance carriers",
+          "annualWage": 81240
+        },
+        {
+          "industry": "Direct insurance (except life, health, and medical) carriers",
+          "annualWage": 79350
+        },
+        {
+          "industry": "Insurance agencies and brokerages",
+          "annualWage": 79200
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Insurance Underwriters",
+      "sourceUrl": "https://www.bls.gov/ooh/business-and-financial/insurance-underwriters.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }

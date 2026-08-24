@@ -817,3 +817,27 @@ test('spot check: Paramedics (29-2043) matches BLS OOH page', () => {
 	// [slug].astro renders an inline caveat under the stat cards when this is true.
 	assert.equal(occ.employmentIsGroupLevel, true);
 });
+
+// Insurance Underwriters (13-2053) is this dataset's first occupation with a
+// declining outlook (transcribed from bls.gov/ooh/business-and-financial/
+// insurance-underwriters.htm on 2026-08-24: automated underwriting software
+// is reducing headcount need). jobOutlookPct and employmentChange are both
+// negative, which exercises the sign-handling fix in [slug].astro's
+// "Employment change" stat card (previously hardcoded a "+" prefix that would
+// have rendered "+-3,300" for this occupation).
+test('spot check: Insurance Underwriters (13-2053) matches BLS OOH page', () => {
+	const occ = occupations['13-2053'];
+	assert.equal(occ.medianAnnual, 79880);
+	assert.equal(occ.medianHourly, 38.4);
+	assert.deepEqual(occ.percentiles, { p10: 51640, p90: 138020 });
+	assert.equal(occ.employment, 127000);
+	assert.equal(occ.jobOutlookPct, -3);
+	assert.equal(occ.employmentChange, -3300);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Credit intermediation and related activities');
+	assert.equal(occ.industryWages[0].annualWage, 90000);
+	assert.equal(occ.industryWages[4].industry, 'Insurance agencies and brokerages');
+	assert.equal(occ.industryWages[4].annualWage, 79200);
+	assert.equal(occ.employmentIsGroupLevel, undefined);
+});

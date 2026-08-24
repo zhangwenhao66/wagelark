@@ -3272,4 +3272,77 @@ export const guides: Guide[] = [
 		image: '/images/dental-hygienist-duties.svg',
 		imageAlt: 'Diagram showing four things dental hygienists do per BLS: assess oral health and report to the dentist, clean teeth and apply preventive treatments, take dental x-rays, and educate patients on oral hygiene.',
 	},
+	{
+		slug: 'what-does-an-insurance-underwriter-do',
+		category: 'Career Guide',
+		title: 'What Does an Insurance Underwriter Do? Duties, Pay, and Outlook',
+		description: 'Insurance underwriters evaluate applications and decide whether to approve coverage. BLS also projects the role to shrink, not grow. Here is what the job involves.',
+		published: '2026-08-24',
+		updated: '2026-08-24',
+		socCode: '13-2053',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, insurance underwriters evaluate insurance applications, weigh the risk of insuring an applicant with the help of automated underwriting software, and decide whether to approve coverage and at what premium. BLS reports a median annual salary of $79,880 in May 2024 for a role that typically requires a bachelor's degree and no state license. It's also one of the few occupations covered on this site where BLS projects employment to shrink rather than grow, down 3% from 2024 to 2034 as automated underwriting software takes on more of the decision-making underwriters used to do by hand.",
+		sections: [
+			{
+				heading: 'What the job actually involves',
+				body: [
+					'Per BLS, "insurance underwriters evaluate insurance applications and decide whether to approve them." For approved applications, underwriters also determine the coverage amount and the premium the applicant will pay. BLS breaks the role down into a fuller list of tasks: analyzing the information stated on an application, determining the risk of insuring that particular applicant, screening applicants against set criteria, using automated software to help gauge risk, reviewing what that software recommends, contacting field representatives or medical personnel for additional information when needed, deciding whether to offer coverage, and setting the premium and coverage amount once a policy is approved.',
+					'Software already does a lot of the first pass. Underwriters enter an applicant\'s details into a program that returns a recommendation on coverage and pricing, and for common, simple policies such as auto insurance, BLS says underwriters typically rely on that automated recommendation directly. For more complex or unusual coverage, such as workers\' compensation, BLS says underwriters lean more on their own analytical judgment; a previous bankruptcy on an application, for instance, might matter a great deal or barely at all depending on how long ago it happened and how the applicant\'s finances have changed since. Either way, BLS describes the underlying tension underwriters have to manage: approve too much risk and the insurer pays out too many claims, but reject too many applications and it doesn\'t collect enough in premiums to stay profitable.',
+					'Most underwriters specialize in one of three broad fields, per BLS: health, life, or property and casualty insurance. The criteria differ by specialty even though the underlying job duties are similar. A life insurance underwriter weighs an applicant\'s age and financial history; a property and casualty underwriter evaluating an auto policy weighs the applicant\'s driving record instead. Within property and casualty specifically, BLS notes underwriters may further specialize by commercial versus personal insurance, or by the type of policy, such as homes, autos, or pets.',
+				],
+				image: {
+					src: '/images/insurance-underwriter-duties.svg',
+					alt: 'Diagram showing four things insurance underwriters do per BLS: analyze application information, assess risk using software, decide whether to approve coverage, and set premiums and coverage amounts.',
+				},
+			},
+			{
+				heading: 'Where underwriters work, and what they get paid',
+				body: [
+					'BLS reports insurance underwriters held about 127,000 jobs in 2024, almost all of it concentrated in insurance-adjacent industries. Direct insurers other than life, health, and medical carriers employed 52% of underwriters, insurance agencies and brokerages employed 25%, other insurance-related activities employed 5%, direct health and medical insurance carriers employed 4%, and credit intermediation employed 1%. Those five categories BLS breaks out by name account for 87% of the total; BLS doesn\'t itemize the remaining employers individually. Most underwriters work full time, in an office, and BLS doesn\'t flag any notable part-time pattern for the occupation the way it does for some other roles on this site.',
+					'BLS reports a median annual wage of $79,880 in May 2024, or $38.40 an hour. The spread around that median is wide: the lowest-paid 10% of underwriters earned under $51,640, while the highest-paid 10% earned over $138,020, roughly a 2.7-to-1 gap between the bottom and top of the range. Pay by industry doesn\'t track employer size the way it does in some other occupations on this site. Credit intermediation, the industry employing the fewest underwriters at just 1%, paid the highest median at $90,000, while direct insurance carriers, the industry employing more than half of all underwriters, paid closer to the middle of the range at $79,350. Other insurance-related activities ($81,870) and direct health and medical insurance carriers ($81,240) both paid above the occupation-wide median as well, with insurance agencies and brokerages at $79,200 rounding out the tracked industries.',
+				],
+			},
+			{
+				heading: 'Job outlook: one of the rare BLS pages projecting a decline',
+				body: [
+					'Most occupations covered on this site show BLS projecting flat-to-positive job growth. Insurance underwriting is an exception. BLS projects employment of insurance underwriters to decline 3% from 2024 to 2034, a loss of about 3,300 positions off the current base of 127,000. BLS attributes the decline directly to automation: "automated underwriting software allows workers to process applications quickly, reducing the need for underwriters," and it expects that software to keep improving and see wider adoption across the insurance industry over the coming decade, which would reduce underwriter headcount further.',
+					'Despite the shrinking headcount, BLS still projects about 8,200 openings for insurance underwriters each year, on average, over the decade. BLS is explicit about where those openings come from: every one of them is expected to result from replacing underwriters who transfer to a different occupation or leave the labor force entirely, such as to retire, rather than from newly created positions. That\'s a different growth story than an occupation like [actuary](/actuary-salary/) on this site, where BLS projects 22% growth, much faster than average, alongside its own set of replacement-driven openings.',
+				],
+			},
+			{
+				heading: 'The path in: a degree, but usually no license',
+				body: [
+					"BLS states most firms prefer to hire underwriters with a bachelor's degree, commonly in business, with coursework in finance, economics, and mathematics considered helpful. Candidates with only an associate's degree or a high school diploma sometimes qualify if they have relevant insurance work experience, though BLS frames that as an exception rather than the typical path. New hires typically work under a senior underwriter's supervision for up to 12 months, starting on basic applications and moving to more complex ones as they gain experience.",
+					"Unlike some licensed occupations on this site, BLS does not describe a state licensing requirement for insurance underwriters. Certification isn't mandatory either, but BLS says employers may expect it, since coursework tied to certification helps underwriters keep up with new insurance products and changes in state and federal regulation. BLS points readers toward CareerOneStop for the range of available certification and specialty-designation options, noting that requirements vary and some credentials require a set number of years of experience before a candidate can pursue them. Advancement follows a similar pattern: experienced underwriters can move up to senior underwriter or underwriter manager, and BLS says certification may be needed to make that move.",
+					"BLS's own similar-occupations table puts underwriters next to [actuaries](/what-does-an-actuary-do/), whose $125,770 median pay in May 2024 runs well above the $79,880 underwriter median. The gap tracks a difference in how each field gates entry. Actuaries go through a multi-year professional exam sequence administered by the Society of Actuaries or Casualty Actuarial Society before reaching full certification, a process BLS says can take up to seven years, while underwriters typically clear a bachelor's degree and an employer-run training period with no equivalent exam ladder. BLS's pay data doesn't break out exactly how much of that roughly $46,000 gap owes to the exam-based credentialing itself versus other factors, such as differences in specialization or industry, and this page reports the pay difference rather than asserting a specific cause.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does an insurance underwriter do on a typical day?',
+				answer: 'Per BLS, underwriters analyze the information on insurance applications, run applicant details through underwriting software to help gauge risk, review what that software recommends, and decide whether to approve the application. For approved applications, they also set the premium and coverage amount.',
+			},
+			{
+				question: 'How much do insurance underwriters make?',
+				answer: 'BLS reports a median annual insurance underwriter salary of $79,880 in May 2024 ($38.40 an hour). Pay varies widely: the bottom 10% earned under $51,640 and the top 10% earned over $138,020. By industry, credit intermediation paid the highest tracked median at $90,000, despite employing only 1% of underwriters.',
+			},
+			{
+				question: 'Is insurance underwriting a growing field?',
+				answer: "No. BLS projects employment of insurance underwriters to decline 3% from 2024 to 2034, a loss of about 3,300 positions, which it attributes to automated underwriting software reducing the need for human underwriters. BLS still projects about 8,200 openings a year on average, but all of them are expected to come from replacing underwriters who leave the occupation, not from newly created roles.",
+			},
+			{
+				question: 'Do you need a license to become an insurance underwriter?',
+				answer: "BLS does not describe a state licensing requirement for insurance underwriters, unlike some other occupations covered on this site. Most firms prefer a bachelor's degree, and certification, while not mandatory, is often expected by employers and can factor into advancement to senior underwriter or underwriter manager roles.",
+			},
+			{
+				question: 'What is the difference between an insurance underwriter and an actuary?',
+				answer: "Both evaluate insurance risk, but their roles differ. Underwriters apply that risk assessment to individual applications, deciding whether to approve coverage and at what price. Actuaries build the statistical models and pricing assumptions underwriters work from, typically after a multi-year professional exam sequence BLS says can take up to seven years to complete. BLS reports a May 2024 median pay of $125,770 for actuaries versus $79,880 for underwriters.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Insurance Underwriters (accessed 2026-08-24 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/business-and-financial/insurance-underwriters.htm' },
+		],
+		image: '/images/insurance-underwriter-duties.svg',
+		imageAlt: 'Diagram showing four things insurance underwriters do per BLS: analyze application information, assess risk using software, decide whether to approve coverage, and set premiums and coverage amounts.',
+	},
 ];
