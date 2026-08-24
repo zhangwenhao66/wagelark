@@ -1535,5 +1535,48 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Insurance Underwriters",
 		sourceUrl: "https://www.bls.gov/ooh/business-and-financial/insurance-underwriters.htm",
 		publishedDate: "2025-08-28"
+	},
+	"43-3031": {
+		socCode: "43-3031",
+		title: "Bookkeeping, Accounting, and Auditing Clerks",
+		medianAnnual: 49210,
+		medianHourly: 23.66,
+		percentiles: {
+			p10: 34600,
+			p90: 72660
+		},
+		employment: 1613400,
+		employmentYear: "2024",
+		jobOutlookPct: -6,
+		jobOutlookLabel: "Decline",
+		employmentChange: -94300,
+		projectionPeriod: "2024-34",
+		entryEducation: "Some college, no degree",
+		industryWages: [
+			{
+				industry: "Construction",
+				annualWage: 51670
+			},
+			{
+				industry: "Professional, scientific, and technical services",
+				annualWage: 50180
+			},
+			{
+				industry: "Healthcare and social assistance",
+				annualWage: 48810
+			},
+			{
+				industry: "Wholesale trade",
+				annualWage: 48810
+			},
+			{
+				industry: "Retail trade",
+				annualWage: 45030
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks",
+		sourceUrl: "https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm",
+		publishedDate: "2025-08-28"
 	}
 };

@@ -3345,4 +3345,71 @@ export const guides: Guide[] = [
 		image: '/images/insurance-underwriter-duties.svg',
 		imageAlt: 'Diagram showing four things insurance underwriters do per BLS: analyze application information, assess risk using software, decide whether to approve coverage, and set premiums and coverage amounts.',
 	},
+	{
+		slug: 'what-does-a-bookkeeper-do',
+		category: 'Career Guide',
+		title: 'What Does a Bookkeeper Do? Duties, Path, and BLS Pay Data',
+		description: 'Bookkeepers post transactions and reconcile accounts, but software has automated much of the work. BLS projects a 6% employment decline and $49,210 median pay.',
+		published: '2026-08-24',
+		updated: '2026-08-24',
+		socCode: '43-3031',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, bookkeeping, accounting, and auditing clerks compute, classify, and record data to help organizations keep complete and accurate financial records, using bookkeeping software to post transactions, reconcile accounts, and produce reports such as balance sheets and income statements. BLS reports a median annual wage of $49,210 in May 2024, and the role typically requires only some college coursework rather than a degree. It is also one of just two occupations covered on this site where BLS projects employment to shrink rather than grow: bookkeeper employment is projected to decline 6% from 2024 to 2034, a loss BLS attributes directly to accounting software automating tasks the role used to require by hand.',
+		sections: [
+			{
+				heading: 'What bookkeepers actually do, per BLS',
+				body: [
+					'Per BLS, bookkeeping, accounting, and auditing clerks "compute, classify, and record data to help organizations keep complete and accurate financial records." BLS lists a specific set of tasks under that description: using bookkeeping software, spreadsheets, and databases; entering financial transactions into the appropriate software; receiving and recording cash, checks, and vouchers; entering costs and income into the books; producing reports such as balance sheets, income statements, and totals by account; checking figures, postings, and reports for accuracy; and reconciling records, noting and reporting any differences they find.',
+					'BLS covers three related titles under this one occupation, and it distinguishes them by scope rather than by employer. Bookkeeping clerks handle the full financial record for small and medium-size businesses. Accounting clerks tend to work for larger organizations and specialize in one area, such as accounts payable, accounts receivable, or payroll. Auditing clerks check the figures other financial workers have already produced, verifying calculations and correcting entries. All three fall under the same SOC code, 43-3031, and BLS does not break out separate wage figures for the three titles the way it does for some other combined-title occupations this site tracks.',
+				],
+				image: {
+					src: '/images/bookkeeper-duties.svg',
+					alt: 'Diagram showing four things bookkeepers do per BLS: post transactions into software, reconcile accounts against bank and account totals, produce reports such as balance sheets, and verify figures for accuracy.',
+				},
+			},
+			{
+				heading: 'Software is shrinking the field, and BLS says so directly',
+				body: [
+					'BLS projects bookkeeper employment to decline 6% from 2024 to 2034, a loss of about 94,300 positions from a 2024 base of 1,613,400. That is a steeper drop than any other decline this site has found on a BLS occupational page so far. BLS states the cause plainly rather than leaving it to inference: "Software innovations have automated many of the tasks performed by bookkeeping, accounting, and auditing clerks. As a result, the same amount of work can be done with fewer employees."',
+					"Despite the shrinking headcount, BLS still projects about 170,000 openings a year on average over the decade, a number that runs well above the roughly 94,300 total jobs projected to disappear. BLS attributes nearly all of that gap to replacement demand: with more than 1.6 million people currently working in the occupation, most annual openings come from workers who transfer to a different occupation or leave the labor force entirely, such as to retire, not from newly created positions. A shrinking occupation and a large number of yearly openings aren't a contradiction in BLS's data; they describe two different things, the size of the workforce and the churn within it.",
+					"Bookkeepers aren't alone in this pattern among the occupations this site covers. [Insurance underwriters](/what-does-an-insurance-underwriter-do/) are the only other occupation here with a projected employment decline, down 3% over the same decade, and BLS attributes that drop to the same underlying force: automated underwriting software reducing the need for people to do the work by hand. The bookkeeper decline is twice as steep, which tracks with how much more of the underlying work, routine data entry and reconciliation, is the kind of task accounting software already handles well.",
+				],
+			},
+			{
+				heading: 'Pay: no degree required, and a wide gap from the roles above it',
+				body: [
+					'BLS reports a median annual wage of $49,210 for bookkeeping, accounting, and auditing clerks in May 2024, or $23.66 an hour, below the $49,500 median across all occupations that year. The bottom 10% earned less than $34,600, and the top 10% earned more than $72,660, a range of roughly $38,000 between the two boundary figures BLS publishes. Unlike several other occupations this site tracks, entry does not require a bachelor\'s degree. BLS classifies the entry-level education as "some college, no degree," and describes employers as generally preferring candidates with a high school diploma who have also completed college coursework in a related subject, such as accounting, with most of the actual skill built through on-the-job training rather than a degree program.',
+					"By industry, BLS's May 2024 wage table shows construction paying the highest median for the occupation at $51,670, followed by professional, scientific, and technical services at $50,180, then healthcare and social assistance tied with wholesale trade at $48,810, and retail trade at $45,030, the lowest of the five industries BLS tracks. That ranking does not line up with where most bookkeepers actually work: professional, scientific, and technical services employs the largest share of the occupation at 13%, even though it pays the second-highest of the five tracked industries, while construction employs a smaller 8% share despite paying the most. BLS does not explain the mismatch between where bookkeepers are concentrated and where the job pays best; this page reports the pattern rather than asserting a specific cause.",
+					"Against other BLS-tracked occupations this site covers in the same broad field, the bookkeeper median sits well below [accountants and auditors](/how-to-become-an-accountant/) at $81,680, an occupation that typically requires a bachelor's degree, and further still below the $161,700 median BLS reports for [financial managers](/what-does-a-controller-do/), the group that covers controllers and typically requires a bachelor's degree plus years of related experience. Each step up that ladder pairs a longer, more credentialed entry path with a meaningfully higher median wage, though BLS's data describes the pay gap without attributing a specific share of it to credentials alone versus other factors, such as scope of responsibility or industry.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does a bookkeeper do on a typical day?',
+				answer: 'Per BLS, bookkeepers use bookkeeping software, spreadsheets, and databases to enter financial transactions, record cash, checks, and vouchers, and post costs and income into the books. They also produce reports such as balance sheets and income statements, check figures and postings for accuracy, and reconcile records, noting and reporting any differences they find.',
+			},
+			{
+				question: 'How much do bookkeepers make?',
+				answer: 'BLS reports a median annual wage of $49,210 for bookkeeping, accounting, and auditing clerks in May 2024 ($23.66 an hour). Pay ranges from under $34,600 for the bottom 10% to over $72,660 for the top 10%. By industry, construction pays the highest tracked median at $51,670, while retail trade pays the lowest at $45,030.',
+			},
+			{
+				question: 'Is bookkeeping a growing career?',
+				answer: 'No. BLS projects bookkeeper employment to decline 6% from 2024 to 2034, a loss of about 94,300 positions, which it attributes to accounting software automating tasks the role used to require by hand. BLS still projects about 170,000 openings a year on average, almost all from replacing workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
+			},
+			{
+				question: 'Do you need a degree to become a bookkeeper?',
+				answer: 'No. BLS classifies the entry-level education for the occupation as some college, no degree. Employers generally prefer candidates with a high school diploma who have completed college coursework in a related subject, such as accounting, with most of the job-specific skill built through on-the-job training rather than a formal degree program.',
+			},
+			{
+				question: "What's the difference between a bookkeeper and an accountant?",
+				answer: "BLS tracks them as separate occupations with different entry requirements and pay. Bookkeepers typically need some college coursework but no degree, and BLS reports a $49,210 median wage. Accountants typically need a bachelor's degree and BLS reports an $81,680 median, a gap of more than $32,000. BLS describes bookkeepers as recording and organizing financial data, while accountants additionally examine financial statements for compliance, compute taxes, and inspect accounting systems for fraud risk.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks (accessed 2026-08-24 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm' },
+			{ label: 'O*NET OnLine: 43-3031.00 Bookkeeping, Accounting, and Auditing Clerks (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/details/43-3031.00' },
+		],
+		image: '/images/bookkeeper-duties.svg',
+		imageAlt: 'Diagram showing four things bookkeepers do per BLS: post transactions into software, reconcile accounts against bank and account totals, produce reports such as balance sheets, and verify figures for accuracy.',
+	},
 ];

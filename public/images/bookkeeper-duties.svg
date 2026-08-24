@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" font-family="Arial, sans-serif">
+	<rect width="640" height="220" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">What a Bookkeeper Does, Per BLS</text>
+
+	<g font-size="13" fill="#14212e">
+		<rect x="10" y="55" width="145" height="90" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="82" y="85" text-anchor="middle" font-weight="700" fill="#0b675e">Post</text>
+		<text x="82" y="105" text-anchor="middle" font-size="11.5">Enter transactions into</text>
+		<text x="82" y="120" text-anchor="middle" font-size="11.5">bookkeeping software</text>
+
+		<rect x="165" y="55" width="145" height="90" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="237" y="85" text-anchor="middle" font-weight="700" fill="#0b675e">Reconcile</text>
+		<text x="237" y="105" text-anchor="middle" font-size="11.5">Compare records against</text>
+		<text x="237" y="120" text-anchor="middle" font-size="11.5">bank and account totals</text>
+
+		<rect x="320" y="55" width="145" height="90" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="392" y="85" text-anchor="middle" font-weight="700" fill="#0b675e">Report</text>
+		<text x="392" y="105" text-anchor="middle" font-size="11.5">Produce balance sheets</text>
+		<text x="392" y="120" text-anchor="middle" font-size="11.5">and income statements</text>
+
+		<rect x="475" y="55" width="155" height="90" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="552" y="85" text-anchor="middle" font-weight="700" fill="#0b675e">Verify</text>
+		<text x="552" y="105" text-anchor="middle" font-size="11.5">Check figures and</text>
+		<text x="552" y="120" text-anchor="middle" font-size="11.5">note any discrepancies</text>
+	</g>
+
+	<text x="320" y="190" text-anchor="middle" font-size="12" fill="#14212e" opacity="0.55">Software has automated much of this work. Source: BLS Occupational Outlook Handbook.</text>
+</svg>

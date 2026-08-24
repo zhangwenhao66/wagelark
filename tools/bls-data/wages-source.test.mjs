@@ -841,3 +841,20 @@ test('spot check: Insurance Underwriters (13-2053) matches BLS OOH page', () => 
 	assert.equal(occ.industryWages[4].annualWage, 79200);
 	assert.equal(occ.employmentIsGroupLevel, undefined);
 });
+
+test('spot check: Bookkeeping, Accounting, and Auditing Clerks (43-3031) matches BLS OOH page', () => {
+	const occ = occupations['43-3031'];
+	assert.equal(occ.medianAnnual, 49210);
+	assert.equal(occ.medianHourly, 23.66);
+	assert.deepEqual(occ.percentiles, { p10: 34600, p90: 72660 });
+	assert.equal(occ.employment, 1613400);
+	assert.equal(occ.jobOutlookPct, -6);
+	assert.equal(occ.employmentChange, -94300);
+	assert.equal(occ.entryEducation, 'Some college, no degree');
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Construction');
+	assert.equal(occ.industryWages[0].annualWage, 51670);
+	assert.equal(occ.industryWages[4].industry, 'Retail trade');
+	assert.equal(occ.industryWages[4].annualWage, 45030);
+	assert.equal(occ.employmentIsGroupLevel, undefined);
+});
