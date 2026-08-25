@@ -993,3 +993,118 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "surgical-tech-salary",
+  "last_audited": "2026-08-25",
+  "published_date": "2026-08-05",
+  "note": "站内选文按'从未审计过'最高优先级+最早published日期选中：全站49篇中35篇从未被本任务审计过，其中pharmacy-technician-salary与surgical-tech-salary并列published最早(2026-08-05)，用git log --reverse -G'slug:'比对guides.ts条目真正新增的commit时间戳(pharmacy-technician-salary 22:04:24 vs surgical-tech-salary 12:07:48当日更早)，选中surgical-tech-salary。",
+  "diagnosed_checkpoints": [
+    "median薪资数字（surgical technologists $62,830 / surgical assistants $60,290 / 合并类目$62,480，May 2024）与两个SOC code(29-2055/29-9093)是否逐字准确",
+    "4.5%就业增长率/5,200新增岗位/115,600在职人数/约7,000年均空缺——这几个数字precision看似与BLS OOH叙事页嵌入表格里显示的整数'4'不一致，需要查清楚是文章编造了小数精度还是BLS另一数据产品(Table 1.2)本就有更精确口径",
+    "CST认证维护要求（30学分含4个live学分/两年周期，或60学分/四年周期，或重考）是否是NBSTSA当前真实有效的选项，还是包含了已过时/停用的续证路径",
+    "ZipRecruiter纽约市$107,000/约高出BLS全国中位数70%这一具体可核查数字是否真实存在，不是编造的对比锚点",
+    "surgical technologist与surgical assistant两个relate岗位的职责区分表述（Mayo Clinic来源）是否准确"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性（核心薪资/就业数字）",
+      "status": "未发现问题，全部核实通过",
+      "detail": "curl直连bls.gov/ooh/healthcare/surgical-technologists.htm（本次未被403拦截）逐字核对：surgical technologists median $62,830、surgical assistants median $60,290、合并类目Quick Facts $62,480/年/$30.04小时/141,000人，SOC 29-2055(115,600人)与29-9093(25,300人)，均与正文/coreSummary/FAQ/schema逐字一致。"
+    },
+    {
+      "dimension": "事实准确性（4.5%增长率精度疑点，本次唯一深挖项）",
+      "status": "核实后确认文章准确，非编造",
+      "detail": "BLS OOH叙事页内嵌的'Employment projections data'表格对surgical technologists只显示整数'4'（Percent列，非小数）。但文章明确标注引用来源是另一个独立数据产品——BLS Employment Projections National Employment Matrix Table 1.2（sources[]第2条已列出该URL），直接curl该表格（occupational-projections-and-characteristics.htm）核实：SOC 29-2055一行原始列值为115.6/120.8/0.1/0.1/5.2/4.5/0.1/7.0/62,830（对应表头Employment2024/2034/占比2024/2034/变动人数/变动百分比/自雇占比/年均空缺/中位年薪），4.5和7.0（=7,000）与文章逐字一致。两个BLS数据产品对同一职业分别发布整数与一位小数精度是BLS自身的正常现象，非文章编造更高精度，判定不构成问题。"
+    },
+    {
+      "dimension": "事实准确性（CST认证维护要求，本次唯一确认修复项）",
+      "status": "确认发现问题，独立复核agent确认CONFIRMED，已修复",
+      "detail": "文章原文声称CST维护可选'30学分/两年周期，或60学分/四年周期，或重考'。直接curl nbstsa.org/renewals-recertification官方页面，续证选项表格仅列CST一行：2年周期/30学分/4个live学分，无任何4年/60学分选项；WebSearch交叉核实多个第三方信源（gettrustapp.com、cstexam.com等）明确指出'4年60学分周期已停用，目前全员统一2年30学分周期，网上仍流传的60学分/4年说法是过时信息'。独立复核agent（约51秒完成，未卡死）重新独立fetch官方页面+WebSearch二次验证，结论NOT CONFIRMED as a currently valid pathway（即确认文章这一条描述过时/不准确）。"
+    },
+    {
+      "dimension": "事实准确性（coreSummary与正文教育层级表述内部一致性，独立复核后判定非问题）",
+      "status": "疑似发现但独立复核认定不构成问题",
+      "detail": "coreSummary写'entry typically requires a certificate or associate's degree'，正文'Certification'节写'a certificate program rather than a full associate degree'，措辞乍看有张力。spawn独立复核agent（未见前序诊断过程，仅给两段原文，约6秒完成）判定NOT CONFIRMED：coreSummary是面向读者的粗略概括（对比四年制学位这个大类），正文是对BLS官方分类的精确复述，二者是'概括vs精确'的正常搭配而非矛盾，不需要修改。"
+    },
+    {
+      "dimension": "事实准确性（ZipRecruiter纽约数字/竞品差异化）",
+      "status": "未发现问题，核实为真实数字",
+      "detail": "WebSearch直接核实ZipRecruiter当前（2026年8月）纽约市surgical tech页面显示年薪均值约$107,084、时薪$51.48，与文章'roughly $107,000...roughly 70% above the BLS national median'吻合（107,084/62,830=+70.4%，四舍五入'roughly 70%'准确）。判定非编造对比锚点，是真实、可核实的自报薪资网站数字，且文章明确标注了samples偏向高成本大都市这一方法论差异，未误导读者。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS OOH+BLS Employment Projections Table 1.2+NBSTSA+Mayo Clinic College of Medicine四个具名信源，对无法从来源直接得出的推论（如surgical assistant中位薪资反而更低的原因）明确标注'this article's inference, not a BLS-stated explanation'，非泛泛而谈。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "未发现问题",
+      "detail": "BLS官网截至本次审计（2026-08-25）仍展示May 2024 OEWS数据，文章published/updated原引用同一批数据，无需刷新事实内容；updated字段本次因CST认证信息修复而推进。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "文章明确区分BLS雇主报告数据与ZipRecruiter/Indeed等自报数据的方法论差异，自陈'This particular Handbook page does not publish a 10th/90th percentile wage split'的诚实局限说明，并与站内姊妹文章（phlebotomist/radiologic technologist）做真实数据对比，构成真实增量而非同质化内容。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "live页面实测：title/meta description/canonical自引用/单一h1均正常；schema含Article/FAQPage/BreadcrumbList/Dataset/Organization/Person/WebPage均正确渲染；图片200可访问。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "定性评估达标，未产出量化分数",
+      "detail": "coreSummary前置定义块✓、FAQ独立自包含且配FAQPage schema✓、4条具名权威信源附URL✓、不确定性显式标注（'that is this article's inference, not a BLS-stated explanation'等）✓、跨文章可比数据点（phlebotomist/radiologic technologist）✓，结构完整度与站内已有判例一致，判定≥80分档。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "确认发现1处em dash，已修复（含1处站级共享模板em dash一并修复）",
+      "detail": "本文published 2026-08-05，早于avoid-ai-writing技能2026-08-07接入，属应检范围。grep guides.ts该条目原文发现1处Unicode em dash（'workers directly — requirements vary by state'），已随CST修复一并改写为句号分句。另外在核对本文line渲染的dist产物时发现src/pages/[slug].astro第120行wage图表标题模板本身硬编码了em dash分隔符（`{wage.title} — Annual Wage by Percentile...`），这是全站共享组件、影响所有带wage数据的文章页面，非本文专属问题，已一并改为冒号分隔符（属于模板/markup层面的一行改动，非某篇文章内容重写，判定在'针对性修复'范围内）。修复后本文humanizer+avoid-ai-writing人工复核零命中其他AI写作特征。grep全站dist产物发现另有7个页面（about/privacy/career-guides/salary-guides/how-to-become等hub页面meta描述 + how-to-become-a-cna/how-to-become-a-physical-therapist的sources[]标签）仍残留em dash，超出本次单篇审计范围，已用spawn_task登记为独立后续任务（task_d9140824），未在本次顺手修复。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources共4条：BLS OOH surgical-technologists.htm（200）、BLS Employment Projections Table 1.2页面（200）、NBSTSA cst-certification页面（本次未重新curl，续证页面renewals-recertification已实测200且内容与本文引用一致）、Mayo Clinic surgical-first-assistant页面（200，内容核对与文章描述一致）。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "轻度观察，非阻塞",
+      "detail": "本文出站2条手动锚文本链接到/how-to-become-a-phlebotomist/和/radiology-tech-salary/（均确认目标slug真实存在）。grep全站guides.ts确认暂无其他文章正文手动锚文本入链到本文——本文是链接来源而非目标。Salary Guide分类现有20篇（远超6篇轮转窗口阈值），依赖[slug].astro的related-guides轮转+分类枢纽页+footer导航触达，参照站内既有precedent（ultrasound-tech/radiology-tech同类审计结论）判定为轻度观察不构成阻塞项，未强行编辑其他文章插入反向链接。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已修复后保持一致",
+      "detail": "仅正文一段文字+updated字段变更，schema的datePublished/dateModified/Dataset字段均由guides.ts的published/updated自动生成，随updated字段同步推进，无不一致风险。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面实测免责声明页脚存在；正文/FAQ通读未发现收入承诺式表述、培训机构推荐、个性化职业建议；手术相关描述为百科式职责记述，非猎奇/煽动性呈现。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "public/images/surgical-tech-salary-chart.svg站内自制SVG（tools/bls-data同源数据生成），非第三方图片，live页面200可访问。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "内容为手术室职业介绍，无暴力/武器/毒品/赌博等限制类目渲染；ads.txt正确指向pub-5245502795720653；robots.txt对6个AI爬虫UA均Allow；/privacy/等必备页面200可访问。"
+    }
+  ],
+  "actions_taken": [
+    "修复CST认证维护要求描述：删除已过时的'60学分/四年周期'选项，改为准确描述当前唯一有效路径（30学分/两年周期含4个live学分，或重考），并简要说明旧的4年周期已被合并进2年周期（src/data/guides.ts surgical-tech-salary条目）",
+    "顺带修复同一段落里1处Unicode em dash（改写为独立句子）",
+    "顺带修复src/pages/[slug].astro第120行全站共享wage图表标题模板里的1处em dash（改为冒号），影响所有带wage数据的文章页面渲染",
+    "updated字段2026-08-05→2026-08-25（published字段已存在，无需git历史回填）",
+    "npm run build验证57页全部构建成功，dist产物grep确认0处'60 credits'残留、0处em dash（本页及模板层面）",
+    "spawn_task登记全站其余7处em dash（hub页面meta描述+2篇其他文章的sources标签）为独立后续任务（task_d9140824），未在本次超范围修复"
+  ],
+  "independent_verification": "2条发现各spawn了全新独立复核agent（互不知晓对方结论，也未见我的诊断推理过程）：(1)CST认证'60学分/4年周期'——约51秒完成，直接curl官方页面+WebSearch交叉验证，结论CONFIRMED为过时信息；(2)coreSummary与正文教育层级表述张力——约6秒完成，仅给两段原文判断，结论NOT CONFIRMED不构成矛盾。两个agent均在预期时间内正常完成，无需触发后台agent看门狗停止流程。",
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "定性评估达标（≥80分档），仓库内无量化评分脚本，与既有判例一致",
+  "escalation": null
+}
+```

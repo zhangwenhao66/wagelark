@@ -934,7 +934,7 @@ export const guides: Guide[] = [
 		title: 'Surgical Tech Salary: BLS Wage Data and Job Outlook (2026)',
 		description: 'BLS puts the median surgical tech salary at $62,830, below what self-reported sites show. See the real BLS number and what CST certification requires.',
 		published: '2026-08-05',
-		updated: '2026-08-05',
+		updated: '2026-08-25',
 		socCode: '29-2055',
 		coreSummary: 'The median annual wage for surgical technologists was $62,830 in May 2024, according to the U.S. Bureau of Labor Statistics, compared with $60,290 for the closely related surgical assistant role. BLS projects 4.5% employment growth for surgical technologists from 2024 to 2034, adding about 5,200 jobs on top of a 115,600-person workforce, and entry typically requires a certificate or associate\'s degree rather than a four-year degree.',
 		sections: [
@@ -958,7 +958,7 @@ export const guides: Guide[] = [
 				heading: 'Certification and how people enter the field',
 				body: [
 					'BLS lists the typical entry-level education for this occupation as a postsecondary nondegree award, meaning a certificate program rather than a full associate degree, with no additional work experience or on-the-job training required beyond that program. In practice, surgical technology programs are accredited either by the Commission on Accreditation of Allied Health Education Programs (CAAHEP) or the Accrediting Bureau of Health Education Schools (ABHES), and graduating from one of those accredited programs (or completing equivalent military surgical-technology training) is the standard eligibility path into the field\'s primary credential.',
-					'That credential is the Certified Surgical Technologist (CST), administered by the National Board of Surgical Technology and Surgical Assisting (NBSTSA) and described by NBSTSA as the most nationally recognized surgical technology credential in the U.S. Maintaining it requires earning 30 continuing education credits (including 4 defined as live) within a two-year renewal cycle, or 60 credits across four years, or retaking the exam. BLS states that employers may require or prefer certification and that some states regulate these workers directly — requirements vary by state, and this page does not claim a single national licensing standard.',
+					'That credential is the Certified Surgical Technologist (CST), administered by the National Board of Surgical Technology and Surgical Assisting (NBSTSA) and described by NBSTSA as the most nationally recognized surgical technology credential in the U.S. Maintaining it requires earning 30 continuing education credits (including 4 defined as live) within a two-year renewal cycle, or retaking the exam. NBSTSA\'s current renewal system runs on that single two-year cycle; an older four-year, 60-credit option some other sites still mention has since been consolidated into it. BLS states that employers may require or prefer certification and that some states regulate these workers directly. Requirements vary by state, and this page does not claim a single national licensing standard.',
 					'Within the broader "postsecondary nondegree award" entry tier this site covers, surgical technologist pay sits well above [phlebotomists](/how-to-become-a-phlebotomist), whose median annual wage is $43,660. Both roles share the same typical entry credential level, but the operating-room setting and CST certification requirement appear to carry a real pay premium within that tier, even though BLS itself does not attribute the gap to any single cause.',
 				],
 			},
