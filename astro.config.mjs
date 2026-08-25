@@ -9,6 +9,7 @@ import { sitemapConfig } from './vendor/site-toolkit/packages/sitemap-config/src
 
 // https://astro.build/config
 export default defineConfig({
+
 	site: 'https://wagelark.com',
 	integrations: [mdx(), sitemap(sitemapConfig())],
 	build: {

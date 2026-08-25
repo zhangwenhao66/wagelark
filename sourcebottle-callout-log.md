@@ -44,3 +44,14 @@
 - **Deadline**：2026-09-16 17:00（鼠标真实点击日历控件选中）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `07fe174f59efe81bd11f946ed3566d85`。
 - **上线复核**：⏳ 待下次任务运行时补查。
+
+### 2026-08-25（周二，正常排期）— WageLark（wagelark.com）
+
+- **问题标题**：Licensed trades pros and apprenticeship coordinators: has moving states derailed someone's plumbing, electrical, or HVAC apprenticeship hours or license?
+- **角度**：绑定`plumbing-apprenticeship`一文讲的真实学徒制结构——4至5年学徒期、每年约2000小时带薪在岗培训、由工会/行业协会/雇主各自赞助而非全国统一项目，导致跨州/跨工会分会的申请流程和认定标准差异很大。征集持证技工/学徒制协调员举出真实案例——某学徒的已记录工时、上岗证或资格认证在跨州或换工会分会时未被承认，导致考证/转正被真实推迟。与此前问过的采血员认证路径角度（08-04）、空管招聘瓶颈角度（08-12）、薪资预期与真实offer落差角度（08-18）均不重叠，这次聚焦学徒工时/执照跨州流转本身的制度性摩擦。
+- **绑定文章**：WageLark `plumbing-apprenticeship`（Plumbing Apprenticeship: Length, Pay, and How to Become a Plumber）。
+- **分类标签**：Topics = Business & Finance + Professional Services；Countries = United States（学徒制/执照体系是美国州级制度，仅限美国）。
+- **表单设置**：Job title = Content Creator；Organisation = WageLark；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@wagelark.com`。
+- **Deadline**：2026-09-25 17:00（鼠标真实点击日历控件选中）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `0bd705ab1d90742c0eb79665a78961a5`。
+- **上线复核**：⏳ 待下次任务运行时补查。
