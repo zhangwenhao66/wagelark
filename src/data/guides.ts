@@ -3561,4 +3561,77 @@ export const guides: Guide[] = [
 		image: '/images/welder-duties.svg',
 		imageAlt: 'Diagram showing four things welders do per BLS: read blueprints and specifications, measure and inspect materials, weld or cut according to spec while monitoring heat, and maintain their equipment.',
 	},
+	{
+		slug: 'how-to-become-a-flight-attendant',
+		category: 'How to Become',
+		title: 'How to Become a Flight Attendant: Training & FAA Certification',
+		description: "BLS says flight attendants need a high school diploma, service experience, and FAA-required training. Median pay is $67,130 a year, per BLS data.",
+		published: '2026-08-25',
+		updated: '2026-08-25',
+		socCode: '53-2031',
+		coreSummary: "Per the Bureau of Labor Statistics, flight attendants typically need a high school diploma or the equivalent, one to two years of prior customer-service experience, and several weeks to a few months of employer-provided training before they can work. That training exists to meet a federal requirement: the FAA's Certificate of Demonstrated Proficiency, mandatory under 14 CFR parts 121 and 135 for anyone working aircraft with 20 or more passenger seats. BLS reports a median annual wage of $67,130 in May 2024, with 9% employment growth projected through 2034.",
+		sections: [
+			{
+				heading: 'Eligibility: what airlines screen for before training even starts',
+				body: [
+					"Per BLS, a high school diploma or the equivalent is the typical entry-level education for flight attendants, though some airlines prefer applicants with college coursework or a degree. BLS also lists one to two years of work experience in a service occupation as typical groundwork, usually from restaurants, hotels, resorts, or sales roles that involve close, sustained contact with the public.",
+					"Beyond education and experience, BLS describes a distinct set of airline screening requirements: applicants typically must meet a minimum age, usually 18 or 21 depending on the airline; be eligible to work in the United States; hold a valid passport; and pass a background check, a drug test, and a medical evaluation. BLS also notes that vision correctable to at least 20/40 is typical, that airlines often set their own height requirements, and that flights on international routes may call for fluency in a foreign language. These screening items are the airline's own hiring bar, separate from the FAA certification that comes later, once training starts.",
+				],
+				image: {
+					src: '/images/flight-attendant-path.svg',
+					alt: 'Diagram showing the path to becoming a flight attendant: meet eligibility requirements, get hired by an airline, complete several weeks to a few months of initial training, earn the FAA Certificate of Demonstrated Proficiency, then work as a flight attendant earning a median of $67,130 a year per BLS.',
+				},
+			},
+			{
+				heading: 'Training: what happens once an airline hires you',
+				body: [
+					'Per BLS, initial training after hire typically lasts several weeks to a few months and takes place at the airline\'s own flight training center. Trainees learn emergency procedures such as evacuating an aircraft, operating emergency equipment, and administering first aid, alongside instruction on flight regulations, company operations, and day-to-day job duties. Training ends with practice flights, and BLS is explicit that completing the program is required to keep the job, not merely to start it.',
+					"The federal certification requirement gets fulfilled during this training, not before it. A flight attendant cannot walk in already FAA-certified; the certificate is issued only after an airline's training program and its own exam are completed.",
+				],
+			},
+			{
+				heading: "The FAA requirement behind the training, verified independently of BLS",
+				body: [
+					'BLS states that flight attendants "must be certified by the Federal Aviation Administration (FAA)," but does not spell out the legal basis or the exact aircraft threshold. Checking the FAA\'s own published guidance fills that in: under 14 CFR parts 121 and 135, no one may serve as a flight attendant aboard an aircraft with 20 or more passenger seats without holding a Certificate of Demonstrated Proficiency issued by the FAA. Congress created this requirement in 2003 under the Vision 100-Century of Aviation Reauthorization Act, and it took effect for flight attendants on December 11, 2004.',
+					"In practice, the airline's director of operations submits proof that a flight attendant completed an FAA-approved training program through the agency's Flight Attendant Certification System, and the FAA mails a wallet-sized certificate within 10 to 14 days. Per BLS, certification is specific to aircraft type, so a flight attendant who switches to a different plane needs additional training for that type, and every certified flight attendant completes recurrent training each year to keep the certificate current.",
+				],
+			},
+			{
+				heading: 'Pay and advancement once the certification is in hand',
+				body: [
+					"BLS reports a median annual wage of $67,130 for flight attendants in May 2024, but that single figure hides an unusually wide range driven mainly by airline seniority systems. [This site's flight attendant salary guide](/how-much-do-flight-attendants-make/) breaks out the full 10th-to-90th percentile spread and the pay gap between charter and scheduled airlines in detail.",
+					'BLS describes advancement as seniority-based rather than tied to additional certification: on international flights, senior flight attendants frequently oversee the work of newer colleagues, and some are promoted into management roles handling recruiting, instructing, or scheduling. BLS projects 9% employment growth for the occupation from 2024 to 2034, much faster than the roughly 3% average across all occupations, with about 19,800 openings projected each year, most from the need to replace workers who transfer out or leave the labor force.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a flight attendant?',
+				answer: "There's no fixed timeline BLS publishes, but the sequence is: meet an airline's eligibility screening (education, experience, background check), get hired, then complete several weeks to a few months of employer-provided initial training before earning the FAA Certificate of Demonstrated Proficiency required to work.",
+			},
+			{
+				question: 'Do you need a college degree to be a flight attendant?',
+				answer: 'No. Per BLS, a high school diploma or the equivalent is the typical entry-level education, though some airlines prefer applicants with college coursework or a degree, and international routes may require foreign-language fluency.',
+			},
+			{
+				question: 'What is the minimum age to become a flight attendant?',
+				answer: 'Per BLS, airlines typically set a minimum age of 18 or 21, though the exact requirement varies by airline.',
+			},
+			{
+				question: 'Is FAA certification required to be a flight attendant?',
+				answer: "Yes, for most commercial flights. Under 14 CFR parts 121 and 135, anyone working as a flight attendant on an aircraft with 20 or more passenger seats must hold an FAA Certificate of Demonstrated Proficiency, a requirement that took effect December 11, 2004 under the Vision 100-Century of Aviation Reauthorization Act. The certificate is issued only after completing an airline's own FAA-approved training program.",
+			},
+			{
+				question: 'How much do flight attendants make?',
+				answer: "BLS reports a median annual wage of $67,130 in May 2024, with pay ranging from under $34,030 at the 10th percentile to over $138,040 at the 90th, driven largely by seniority. See [flight attendant salary](/how-much-do-flight-attendants-make/) for the full percentile and industry breakdown.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants, How to Become One (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
+			{ label: 'Federal Aviation Administration: Flight Attendant Certificate of Demonstrated Proficiency (independent corroboration of the certification requirement, its legal basis, and effective date)', url: 'https://www.faa.gov/Flight_Attendant_Certificate_Demonstrated_Proficiency_Information' },
+			{ label: 'O*NET OnLine: 53-2031.00 Flight Attendants (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/53-2031.00' },
+		],
+		image: '/images/flight-attendant-path.svg',
+		imageAlt: 'Diagram showing the path to becoming a flight attendant: meet eligibility requirements, get hired by an airline, complete several weeks to a few months of initial training, earn the FAA Certificate of Demonstrated Proficiency, then work as a flight attendant earning a median of $67,130 a year per BLS.',
+	},
 ];
