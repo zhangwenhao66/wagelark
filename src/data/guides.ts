@@ -3488,4 +3488,77 @@ export const guides: Guide[] = [
 		image: '/images/ceo-duties.svg',
 		imageAlt: 'Diagram showing four things CEOs do per BLS: set organizational strategy and policy, direct financial and budgetary activities, report to and consult with the board, and appoint department heads and other managers.',
 	},
+	{
+		slug: 'what-does-a-welder-do',
+		category: 'Career Guide',
+		title: 'What Does a Welder Do? Duties, Safety, and BLS Pay Data',
+		description: "Welders read blueprints, then join or cut metal by hand under intense heat and light. BLS's median pay for the role is $51,000, with real burn and injury risk.",
+		published: '2026-08-25',
+		updated: '2026-08-25',
+		socCode: '51-4121',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, welders, cutters, solderers, and brazers use hand-held or remotely controlled equipment to join, repair, or cut metal parts, reading blueprints, measuring dimensions, and monitoring heat as they work. BLS tracks the four roles under one SOC code, 51-4121, and reports a median annual wage of $51,000 in May 2024. The work carries real physical risk: BLS specifically flags fumes, very hot materials, and intense arc light among the job's hazards, and most workers need only a high school diploma plus technical and on-the-job training to enter.",
+		sections: [
+			{
+				heading: 'What welders actually do, per BLS',
+				body: [
+					'Per BLS, welders, cutters, solderers, and brazers "typically do the following": read and interpret blueprints, sketches, and specifications; calculate and measure the dimensions of parts to be welded; inspect structures or materials to be welded; weld materials according to blueprint specifications; monitor the welding process and adjust heat as necessary; and maintain equipment and machinery. BLS describes the core of the work as using hand-held or remotely controlled equipment to join or cut metal parts, and notes workers in this occupation also fill holes, indentations, or seams in metal products.',
+					"Some workers specialize in a single technique; others perform several. BLS also notes that welders usually choose which process to use based on a number of factors, such as the types of metals being joined, which means the same worker's daily tasks can shift from job to job even within one specialty.",
+				],
+				image: {
+					src: '/images/welder-duties.svg',
+					alt: 'Diagram showing four things welders do per BLS: read blueprints and specifications, measure and inspect materials, weld or cut according to spec while monitoring heat, and maintain their equipment.',
+				},
+			},
+			{
+				heading: 'Four roles, one SOC code: how the techniques differ',
+				body: [
+					'BLS groups four distinct job titles under the same 51-4121 classification, and distinguishes them by technique rather than by pay. Welders join metals using processes such as arc welding, in which machinery produces an electrical current that generates heat to bond pieces together. Cutters use heat from an electric arc, a stream of ionized gas called plasma, or burning gases to cut and trim metal objects to specific dimensions, a role that also covers dismantling large structures such as ships, railroad cars, and buildings.',
+					"Solderers and brazers both heat molten filler metal to join two or more metal objects, but the two differ by temperature and application. Soldering uses a lower melting temperature and is common on small, precisely positioned pieces, such as computer chips. Brazing connects dissimilar metals through a filler material, which BLS says creates strong joints in products built from multiple metal types, and brazers may also apply protective coatings to parts to reduce wear and guard against corrosion. BLS does not publish separate wage data for any of the four titles individually; the $51,000 median below covers all four combined.",
+				],
+			},
+			{
+				heading: 'Where and how they work: heat, heights, and hazards',
+				body: [
+					'BLS describes welders and cutters as wearing protective clothing and welding helmets for safety, a detail it flags directly on the occupational summary rather than burying in a footnote. Work may happen outdoors in all types of weather or indoors, sometimes in a confined area designed to contain sparks and glare, and some jobs require working on a scaffold or platform high off the ground. BLS also notes workers may need to lift heavy objects and work in awkward positions, including overhead, while bending, stooping, or standing.',
+					'Under a section BLS titles "Injuries and Illnesses," the agency states plainly that welders, cutters, solderers, and brazers risk injury on the job, citing exposure to fumes, very hot materials, and the intense light created by the arc as specific hazards. BLS says workers avoid injuries by following safety procedures and using personal protective equipment, including welding helmets, hearing protection, and heat-resistant gloves. Separately, [this site\'s welder salary guide](/welder-salary/) reports that OSHA requires welders to complete training on electrical safety specifically, on top of whatever general safety procedures an individual employer follows.',
+					'Most welders, cutters, solderers, and brazers work full time, and some work more than 40 hours a week, per BLS. Many manufacturing firms run two or three shifts a day, each 8 to 12 hours, to keep production going around the clock, which means evening and weekend work is common in this occupation even outside of overtime.',
+				],
+			},
+			{
+				heading: 'Pay and outlook at a glance',
+				body: [
+					"BLS reports a median annual wage of $51,000 for welders, cutters, solderers, and brazers in May 2024 ($24.52 an hour), with the bottom 10% earning less than $38,130 and the top 10% earning more than $75,850. Manufacturing employs the largest share of the occupation at 61%, though it pays the lowest of the three industry medians BLS tracks, behind specialty trade contractors and repair and maintenance. BLS projects 2% employment growth from 2024 to 2034, slower than the roughly 3% average across all occupations, though about 45,600 openings are still projected each year, mostly from workers leaving the occupation rather than newly created positions. For [the full percentile breakdown](/welder-salary/), covering the industry pay table and an entry-path comparison against other no-degree trades such as [electricians](/electrician-salary/) and [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/), see this site's welder pay page.",
+					'Per BLS, welders typically need only a high school diploma or equivalent, combined with technical and on-the-job training, to enter the occupation, with no postsecondary degree required. That distinguishes the entry path from several other skilled trades this site tracks, which more often run through a multi-year formal apprenticeship before a worker reaches full pay.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does a welder do on a typical day?',
+				answer: 'Per BLS, welders read blueprints and specifications, measure and inspect the materials to be joined, weld according to spec while monitoring and adjusting heat, and maintain their equipment. The specific technique used, such as arc welding, is usually chosen based on factors like the types of metals involved.',
+			},
+			{
+				question: "What's the difference between a welder, cutter, solderer, and brazer?",
+				answer: 'BLS groups all four under one SOC code but distinguishes them by technique. Welders bond metal using processes such as arc welding. Cutters use heat from an electric arc, plasma, or burning gases to cut and trim metal, including dismantling large structures. Solderers and brazers both heat molten filler metal to join objects; soldering uses a lower temperature for small, precise work, while brazing joins dissimilar metals and can add protective coatings.',
+			},
+			{
+				question: 'Is welding a dangerous job?',
+				answer: 'BLS states directly that welders, cutters, solderers, and brazers risk injury on the job, citing fumes, very hot materials, and intense arc light as specific hazards. Workers reduce that risk by following safety procedures and using personal protective equipment such as welding helmets, hearing protection, and heat-resistant gloves. Some jobs also involve working on a scaffold or platform, lifting heavy objects, or working in awkward positions.',
+			},
+			{
+				question: 'How much do welders make?',
+				answer: "BLS reports a median annual wage of $51,000 for welders, cutters, solderers, and brazers in May 2024 ($24.52 an hour), with pay ranging from under $38,130 at the 10th percentile to over $75,850 at the 90th. This site's welder salary guide breaks out the full percentile and industry pay data.",
+			},
+			{
+				question: 'Do welders work regular hours?',
+				answer: "Most work full time, and some work more than 40 hours a week, per BLS. Many manufacturing firms run two or three 8- to 12-hour shifts a day to keep production continuous, so evening and weekend work is common even outside of scheduled overtime.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200 on retry after an initial TLS handshake failure, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
+			{ label: 'O*NET OnLine: 51-4121.00 Welders, Cutters, Solderers, and Brazers (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/51-4121.00' },
+		],
+		image: '/images/welder-duties.svg',
+		imageAlt: 'Diagram showing four things welders do per BLS: read blueprints and specifications, measure and inspect materials, weld or cut according to spec while monitoring heat, and maintain their equipment.',
+	},
 ];
