@@ -1330,8 +1330,8 @@ export const guides: Guide[] = [
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies (accessed 2026-08-10 via Wayback Machine snapshot of 2026-07-31, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/nursing-assistants.htm' },
-			{ label: '42 CFR Part 483, Subpart D — Nurse Aide Training and Competency Evaluation (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D' },
-			{ label: '42 CFR § 483.35(d) — Requirements for facility hiring and use of nurse aides (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-B/section-483.35' },
+			{ label: '42 CFR Part 483, Subpart D: Nurse Aide Training and Competency Evaluation (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D' },
+			{ label: '42 CFR § 483.35(d): Requirements for facility hiring and use of nurse aides (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-B/section-483.35' },
 		],
 		image: '/images/cna-certification-path.svg',
 		imageAlt: 'Timeline diagram showing the path to CNA certification: 75-hour minimum state-approved training program, competency exam, then placement on the state nurse aide registry within 30 days.',
@@ -1994,7 +1994,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Physical Therapists — How to Become One (data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/physical-therapists.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Physical Therapists, How to Become One (data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/physical-therapists.htm' },
 			{ label: 'APTA: Becoming a Physical Therapist', url: 'https://www.apta.org/your-career/careers-in-physical-therapy/becoming-a-pt' },
 			{ label: 'FSBPT: Understanding the NPTE (Candidate Handbook)', url: 'https://www.fsbpt.org/Free-Resources/NPTE-Candidate-Handbook/Understanding-the-NPTE' },
 			{ label: 'APTA Specialist Certification (governed by ABPTS): About', url: 'https://specialization.apta.org/about-abpts' },
