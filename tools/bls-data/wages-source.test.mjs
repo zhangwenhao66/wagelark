@@ -858,3 +858,20 @@ test('spot check: Bookkeeping, Accounting, and Auditing Clerks (43-3031) matches
 	assert.equal(occ.industryWages[4].annualWage, 45030);
 	assert.equal(occ.employmentIsGroupLevel, undefined);
 });
+
+test('spot check: Chief Executives (11-1011) matches BLS OOH page', () => {
+	const occ = occupations['11-1011'];
+	assert.equal(occ.medianAnnual, 206420);
+	assert.equal(occ.medianHourly, 99.24);
+	assert.deepEqual(occ.percentiles, { p10: 73710, p90: 239200 });
+	assert.equal(occ.employment, 309400);
+	assert.equal(occ.jobOutlookPct, 4);
+	assert.equal(occ.employmentChange, 13300);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Management of companies and enterprises');
+	assert.equal(occ.industryWages[0].annualWage, 239200);
+	assert.equal(occ.industryWages[3].industry, 'Government (excl. state/local education, hospitals)');
+	assert.equal(occ.industryWages[3].annualWage, 137310);
+	assert.equal(occ.employmentIsGroupLevel, undefined);
+});

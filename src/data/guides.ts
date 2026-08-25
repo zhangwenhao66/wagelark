@@ -3412,4 +3412,80 @@ export const guides: Guide[] = [
 		image: '/images/bookkeeper-duties.svg',
 		imageAlt: 'Diagram showing four things bookkeepers do per BLS: post transactions into software, reconcile accounts against bank and account totals, produce reports such as balance sheets, and verify figures for accuracy.',
 	},
+	{
+		slug: 'what-does-a-ceo-do',
+		category: 'Career Guide',
+		title: 'What Does a CEO Do? Duties, Pay, and Job Outlook (BLS Data)',
+		description: 'Chief executives set strategy and report to the board. BLS puts median CEO pay at $206,420, second-highest on this site, with 4% projected job growth.',
+		published: '2026-08-25',
+		updated: '2026-08-25',
+		socCode: '11-1011',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, chief executive officers provide overall direction for companies and organizations, formulating and implementing policy, directing the work of other top executives, and typically reporting to a board of directors. BLS tracks chief executives under SOC code 11-1011 and reports a median annual wage of $206,420 in May 2024, the second-highest median of any occupation on this site, behind only nurse anesthetists. BLS projects the occupation to grow 4% from 2024 to 2034, about as fast as the average for all occupations, adding roughly 13,300 positions to a 2024 base of 309,400.",
+		sections: [
+			{
+				heading: 'What CEOs actually do, per BLS',
+				body: [
+					'Per BLS, top executives, the broader category that includes chief executives, "typically do the following": establish and carry out organizational goals, policies, and procedures; direct and oversee an organization\'s financial and budgetary activities; manage the general activities related to producing goods or providing services; consult with other executives, staff, and board members about operations; negotiate or approve contracts and agreements; appoint department heads and managers; analyze financial statements, sales reports, and other performance indicators; and identify places to cut costs or improve performance. BLS specifically describes chief executive officers, also known by titles such as executive director, managing director, or president, as providing "overall direction for companies and organizations," managing operations, and typically reporting to a board of directors.',
+					"BLS's coverage of chief executives is broader than the corporate sense of \"CEO.\" The same occupation code covers mayors, city managers, county administrators, and governors, all of whom BLS classifies as chief executives of governments, along with school superintendents and college or university presidents, who serve as chief executives of school districts and postsecondary institutions. Mayors and governors reach the role through election rather than promotion, a meaningfully different path from a corporate chief executive's typical route. BLS distinguishes chief executives from other C-suite titles, such as chief operating officers, chief financial officers, or chief human resources officers, who manage one specific part of an organization rather than the whole of it.",
+					"How much of this work a chief executive personally handles depends heavily on the size of the organization. In a small business, an owner or manager acting as chief executive is often also responsible for hiring, training, quality control, and day-to-day supervision directly. In a large corporation, the chief executive typically focuses on formulating policy and setting strategy, while general and operations managers, a separate BLS occupation that shares the same \"Top Executives\" page, direct day-to-day operations instead.",
+				],
+				image: {
+					src: '/images/ceo-duties.svg',
+					alt: 'Diagram showing four things CEOs do per BLS: set organizational strategy and policy, direct financial and budgetary activities, report to and consult with the board, and appoint department heads and other managers.',
+				},
+			},
+			{
+				heading: 'Pay: $206,420 median, second-highest on this site',
+				body: [
+					"BLS reports a median annual wage of $206,420 for chief executives in May 2024, or $99.24 an hour under BLS's convention of assuming a full-time, 2,080-hour work year. The lowest-paid 10% of chief executives earned less than $73,710, while the highest-paid 10% earned more than $239,200. That $239,200 figure is a data ceiling, not a coincidence: BLS's wage survey top-codes annual estimates at that same amount across occupations, so it also appears as the reported 90th percentile for [financial managers](/what-does-a-controller-do/) on this site. The true top of the CEO pay range runs higher than $239,200; BLS's public wage tables simply stop reporting a more precise figure past that point.",
+					'By industry, BLS reports the highest median pay for chief executives at organizations classified under management of companies and enterprises, at the same $239,200 top-coded ceiling, followed by professional, scientific, and technical services at $208,870, healthcare and social assistance at $194,360, and government, excluding state and local education and hospitals, at $137,310. Chief executives rank second among the occupations this site has covered so far, behind only [CRNAs](/crna-salary/) at $223,210 and well above the $161,700 median BLS reports for financial managers, the group that includes controllers.',
+					"BLS also notes that salary is not the full compensation picture for corporate chief executives. In addition to base pay, total compensation often includes stock options and other performance bonuses, along with benefits such as expense allowances, use of company-owned aircraft and cars, and membership to exclusive clubs. BLS specifically flags that nonprofit and government executives usually receive fewer of these additional benefits than their corporate counterparts.",
+				],
+			},
+			{
+				heading: 'Job outlook: headcount is projected to grow, not just replace departures',
+				body: [
+					'BLS projects employment of chief executives to grow 4% from 2024 to 2034, close to the roughly 3% average projected across all occupations, and a departure from the pattern on two other occupations this site tracks. [Bookkeepers](/what-does-a-bookkeeper-do/) and [insurance underwriters](/what-does-an-insurance-underwriter-do/) are both projected to shrink over the same decade; chief executive headcount is projected to grow instead, from about 309,400 in 2024 to about 322,700 in 2034, an increase of roughly 13,300 positions.',
+					"BLS also publishes an annual-openings estimate of about 331,000 for the combined \"Top Executives\" category, but that figure covers chief executives and general and operations managers together rather than chief executives alone. General and operations managers make up the much larger share of that combined group, holding about 3.7 million jobs in 2024 against roughly 309,400 for chief executives specifically, so most of the combined 331,000 annual openings likely land in the larger occupation. BLS does not publish a chief-executive-specific annual-openings number the way it does for employment, pay, and the growth rate, so this page reports the combined figure with that caveat rather than attributing all of it to chief executives.",
+					'Among employers of chief executives specifically, BLS reports the largest share, 26%, as self-employed workers, ahead of professional, scientific, and technical services at 13%, government excluding state and local education and hospitals at 9%, healthcare and social assistance at 6%, and management of companies and enterprises at 5%. Those five categories BLS names individually account for 59% of chief executives; BLS does not itemize the remaining 41% by industry. The large self-employed share reflects how broadly BLS defines the occupation: it counts the owner-operator of a small business alongside the chief executive of a large public corporation.',
+				],
+			},
+			{
+				heading: 'How people reach the role, per BLS',
+				body: [
+					"BLS lists a bachelor's degree as the typical entry-level education for the page's combined Top Executives category, which covers chief executives together with general and operations managers; unlike pay and employment, BLS does not break the entry-education figure out separately for chief executives alone. Within that combined guidance, BLS notes the degree is most often in a field related to the organization's line of work, such as business or engineering, that chief executives of large corporations often instead hold a master's degree in business administration, and that public-sector executives may have a degree in business administration, public administration, law, or the liberal arts. College presidents and school superintendents typically need a master's degree, and a doctorate is often preferred for those roles.",
+					"On top of formal education, BLS says chief executives typically need extensive managerial experience, and specifically notes that experience is expected to be in the organization's area of specialty, rather than general management experience from an unrelated field. Many chief executives are promoted from within their own organization, moving up from lower-level management or supervisory roles, though some employers hire from outside instead. BLS also gives a specific licensing example: some employers require their chief executive officer to hold a Certified Public Accountant credential, though this depends on the individual employer rather than being a universal requirement BLS applies to the whole occupation.",
+					"The paths BLS groups under this one occupation code vary widely by sector. A corporate chief executive typically advances through internal promotion or an external hire process. A mayor or governor reaches the equivalent chief-executive role through winning an election instead. BLS's data combines all of these paths into one set of pay, employment, and outlook figures, so the wage and growth numbers above describe the occupation as a whole rather than any single one of these routes into it.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does a CEO do on a typical day?',
+				answer: 'Per BLS, chief executives establish organizational goals and policies, direct financial and budgetary activities, consult with other executives and board members, negotiate or approve contracts, appoint department heads and managers, and review financial statements and performance indicators to identify where to cut costs or improve results. How much of this a CEO handles personally depends on the size of the organization.',
+			},
+			{
+				question: 'How much do CEOs make?',
+				answer: "BLS reports a median annual wage of $206,420 for chief executives in May 2024 ($99.24 an hour). The bottom 10% earned less than $73,710, and the top 10% earned more than $239,200, which is a top-coded ceiling in BLS's data rather than the true maximum. By industry, management of companies and enterprises and professional, scientific, and technical services report the highest medians.",
+			},
+			{
+				question: 'Is CEO a growing career?',
+				answer: 'Yes. BLS projects chief executive employment to grow 4% from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 13,300 positions to a 2024 base of 309,400. That is a different trend from two other occupations this site tracks, bookkeepers and insurance underwriters, both of which BLS projects to shrink over the same period.',
+			},
+			{
+				question: 'Do you need an MBA to become a CEO?',
+				answer: "Not according to BLS's baseline requirement. BLS lists a bachelor's degree as the typical entry-level education for its combined Top Executives category (chief executives and general and operations managers together; BLS does not break this figure out for chief executives alone), and notes that chief executives of large corporations often additionally hold a master's degree in business administration. BLS also says chief executives typically need extensive managerial experience in the organization's specific area of specialty, on top of whatever degree they hold.",
+			},
+			{
+				question: "What's the difference between a CEO and a COO or CFO?",
+				answer: 'BLS classifies all three as top executives, but chief executive officers provide overall direction for the entire organization and typically report to a board of directors, while chief operating officers, chief financial officers, and similar titles manage one specific part of the organization, such as day-to-day operations or finance, rather than the whole of it.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Top Executives (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/management/top-executives.htm' },
+			{ label: 'O*NET OnLine: 11-1011.00 Chief Executives (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/11-1011.00' },
+		],
+		image: '/images/ceo-duties.svg',
+		imageAlt: 'Diagram showing four things CEOs do per BLS: set organizational strategy and policy, direct financial and budgetary activities, report to and consult with the board, and appoint department heads and other managers.',
+	},
 ];

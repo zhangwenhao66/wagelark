@@ -1495,6 +1495,44 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks",
       "sourceUrl": "https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm",
       "publishedDate": "2025-08-28"
+    },
+    "11-1011": {
+      "title": "Chief Executives",
+      "medianAnnual": 206420,
+      "medianHourly": 99.24,
+      "percentiles": {
+        "p10": 73710,
+        "p90": 239200
+      },
+      "employment": 309400,
+      "employmentYear": "2024",
+      "jobOutlookPct": 4,
+      "jobOutlookLabel": "As fast as average",
+      "employmentChange": 13300,
+      "projectionPeriod": "2024-34",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        {
+          "industry": "Management of companies and enterprises",
+          "annualWage": 239200
+        },
+        {
+          "industry": "Professional, scientific, and technical services",
+          "annualWage": 208870
+        },
+        {
+          "industry": "Healthcare and social assistance",
+          "annualWage": 194360
+        },
+        {
+          "industry": "Government (excl. state/local education, hospitals)",
+          "annualWage": 137310
+        }
+      ],
+      "dataYear": "May 2024",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Top Executives (covers Chief Executives and General and Operations Managers as one OOH page; this profile uses the Chief Executives-specific pay, employment, and job outlook figures the BLS Pay and Job Outlook tables break out separately from the blended Top Executives total)",
+      "sourceUrl": "https://www.bls.gov/ooh/management/top-executives.htm",
+      "publishedDate": "2025-08-28"
     }
   }
 }
