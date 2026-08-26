@@ -223,3 +223,21 @@ phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训�
 
 1. **本站收尾句模板化问题需要在下次任何pitch撰写时主动规避**，不是本轮特例——已连续多轮使用同一模板未被发现，属于结构性遗留问题。
 2. 1.5竞品缺口分析（careerexplorer/salary.com）"backlinks数据只给目标URL不给引荐页面路径"的方法论局限延续存在，下轮继续按上轮建议反查具体页面。
+
+---
+
+## 2026-08-26（第六次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中WageLark（11-30位曝光523，矩阵第2名）
+
+### 第一部分：核实08-16批次（10天门槛，本轮首次轮到）
+
+08-24已确认08-16批次（csrt.org/nala.org/ten27services）当时仅8天未到期。本轮距08-16已10天，按规则挑最早一条核实：**草稿A → info@csrt.org（CSRT Affiliate Links页断链，Message ID `1a009424327df8bc`）**
+
+- curl直接访问`csrt.org/affiliate-links/`被Cloudflare "One moment, please..." JS挑战页拦截，无法直接取得页面源码核实（沙箱环境限制，非站点本身异常）。
+- 改用`dataforseo_query.py backlinks wagelark.com --limit 100`（全量拉取，当前共4条外链）：完整列表里没有`csrt.org`/`nala.org`/`ten27services`任何一条。
+- 判定：**verified_live_page_only的反面情形——页面本身无法核实但外链数据明确未见**，按规则取更保守判定 **`not_replaced`**（外链数据是硬证据，缺席即未换链；若后续Cloudflare挑战解除应重新curl复核页面本身以排除"外链数据延迟收录"的可能）。
+
+**本轮无`verified_live_backlink_confirmed`/`verified_live_backlink_nofollow`。WageLark断链置换战术累计核实：08-21 UCF（followed_up_once）+本轮CSRT，共2条，均`not_replaced`，转化率仍为0。nala.org/ten27services两条同批次未轮到，留给下轮。**
+
+### 第二部分：新断链机会
+
+本轮时间预算优先给DayAlmanac/alpha两站分担的新机会调研，WageLark暂未开新一轮资源页扫描，无新增草稿。下轮继续沿"从业者协会/图书馆career info指南"方向（历史命中率最高）。
