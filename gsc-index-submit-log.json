@@ -239,5 +239,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-26",
+    "action": "submitted",
+    "reason": "今日新发布what-does-a-nurse-practitioner-do（第52篇），URL Inspection确认未收录，REQUEST INDEXING提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/what-does-a-nurse-practitioner-do/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": 1
   }
 ]
