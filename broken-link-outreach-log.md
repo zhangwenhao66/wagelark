@@ -240,4 +240,16 @@ phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训�
 
 ### 第二部分：新断链机会
 
-本轮时间预算优先给DayAlmanac/alpha两站分担的新机会调研，WageLark暂未开新一轮资源页扫描，无新增草稿。下轮继续沿"从业者协会/图书馆career info指南"方向（历史命中率最高）。
+**WageLark — fana.org（Florida Association of Nurse Anesthesiology《National and State Associations》各州协会链接表，三条州级CRNA协会链接确认失效）**：继续沿"从业者协会/图书馆career info指南"这条历史命中率最高的方向，本轮扩展到respiratory therapist/OTA/dental hygienist/pharmacy technician/paramedic-EMS/CRNA等此前未试过的职业，多数扫描结果是WAF误判假阳性或死链主题不对应（NVCC的OTA项目页/Mitchell CC的EMS页均如实记录未采用，见下）。FANA各州协会链接表命中3条真实失效：Arkansas（arcrnas.com）+Rhode Island（ricrna.com）三解析器交叉验证均无A/NS记录，Alaska（alaskacrna.com）域名可解析但落地WP Engine"站点未配置"页（原WordPress站已下线域名未重新指向）。替换建议对应wagelark站`crna-salary`文章（median $223,210/yr, May 2024 BLS, SOC 29-1151，全站薪资最高职业+博士学位入行门槛新规，与guides.ts原文逐字核对一致）。邮件如实声明"非州协会链接的替代品，只是可能值得补充的内容"（沿用CSRT/AICPA/USCRA先例的诚实软匹配框定）。收件人`mdixon@kmgnet.com`（FANA外包给KMG做协会管理，站内Cloudflare邮箱混淆解码得到，非编造）。
+
+**未采用的真实死链（主题不对应，不硬凑）**：NVCC职业治疗助理(OTA)项目"Career Resources" LibGuide确认vaota.org(404)+rehabworld.com(DNS失效)真实失效，但该页明确专属OTA(准学士/SOC 31-2011)，wagelark唯一相关文章`occupational-therapist-salary`(今日新发)讲的是OT(硕博士入行/SOC 29-1122/中位数$98,340)——学历路径和薪资中位数均有实质差异，套用会误导OTA学生对自身学历路径的认知，判定违反"不编造/不误导"红线而非可诚实披露的软匹配，未采用。Mitchell CC的EMS LibGuide确认iredellems.com(县级EMS招聘页)404，但死链是特定地方雇主的招聘页非职业信息资源，替换成全国BLS薪资参考跨度太大，未采用。另排查Napa Valley/Stony Brook呼吸治疗、American Career College OTA、多家药房技师、Mesa CC EMT、Alvernia/Jefferson OT研究指南、UCC/PCC/Columbia Southern EMS协会页、Genesee County药剂师协会页，均无死链或死链主题不对应，如实记录不硬凑。
+
+**流程异常记录（新发现的既往失败模式再次复现）**：负责本站的子agent撰写草稿、过humanizer+avoid-ai-writing检查、spawn独立复核agent后，自身线程未等复核完成就以"completed"状态返回汇报，草稿滞留outreach-drafts.md为"PENDING INDEPENDENT REVIEW"（与08-16批次CSRT/NALA那次"子agent提前结束"是同一模式的第二次复现，说明这是本站编排层的结构性风险点，不是一次性事故）。上层编排会话按全局CLAUDE.md"独立agent卡死"看门狗协议接手，未继续等待其自行spawn的复核子agent（当时仍在运行中，为免重复劳动与潜在冲突未等待），改由上层会话自己逐项独立核实（三解析器DNS交叉验证、guides.ts数字逐字核对、`gmail_send.py list`三次查重、跨矩阵grep查重、语气自查），核实通过后代为执行发送。
+
+**已发送**：fana.org → `mdixon@kmgnet.com`，`gmail_send.py send --from wagelark`，Message ID `1a03e422e3c8e238`。
+
+### 遗留待办
+
+1. **本站编排层"子agent未等复核完成即返回"已连续两次复现（08-16、08-26）**，建议以后本站的断链任务改为顺序执行独立复核（同步等待其结果）而非fire-and-forget spawn，或在子agent的任务说明里更明确地强调"必须等复核agent返回结果才能视为任务完成"。
+2. 1.5竞品缺口分析（careerexplorer/salary.com）"backlinks数据只给目标URL不给引荐页面路径"的方法论局限延续存在，下轮继续按上轮建议反查具体页面。
+3. nala.org/ten27services两条08-16批次剩余记录仍未核实，留给下轮。
