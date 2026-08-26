@@ -84,6 +84,13 @@ export const guides: Guide[] = [
 				],
 			},
 			{
+				heading: 'When the gap between an online figure and an offer becomes a real hiring problem',
+				body: [
+					'Vyacheslav Ripa, who manages hiring for a dental practice, described a hygienist candidate who expected around $5,000 a month based on a figure she had seen online. The practice\'s offer landed between $3,000 and $3,500, a number that matched her actual experience level, their schedule, and the local market rather than a national or aggregator figure. Negotiating a middle ground did not close the gap enough for either side, and the offer fell through.',
+					'The BLS percentiles above describe a national spread, not what any single practice can pay for a specific schedule and experience level in a specific area. A candidate anchored to a number from a job board or salary aggregator, rather than a figure adjusted for their actual years of experience and the local market, can end up expecting pay a practice has no realistic way to match, even when the practice\'s offer is fair by BLS standards.',
+				],
+			},
+			{
 				heading: 'What the job outlook says about future pay',
 				body: [
 					'BLS projects employment of dental hygienists to grow 7% from 2024 to 2034, which the agency classifies as much faster than the average for all occupations, translating to roughly 15,500 additional jobs over the decade. Faster-than-average growth in a licensed, credential-gated field tends to support wage growth over time, since employers compete for a labor pool that cannot be expanded quickly: becoming a hygienist requires completing an accredited program and passing licensing exams, not just being hired and trained on the job.',
