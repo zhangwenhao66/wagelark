@@ -1108,3 +1108,93 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "pharmacy-technician-salary",
+  "last_audited": "2026-08-26",
+  "published_date": "2026-08-05",
+  "note": "站点选取规则：本站content-audit-log内最早/未审计slug（前15篇按发布顺序均已审过，本篇为guides.ts数组中下一条从未审计的条目）。跨站选取规则：读全部10个流量站content-audit-log，按最近一次审计commit时间升序排，wagelark（2026-08-25 13:29:44首次运行）与calcbadger（同日13:30:51）并列最早，wagelark提交时间更早1分钟，故本次优先处理wagelark。",
+  "diagnosed_checkpoints": [
+    "median/percentile薪资数字（$43,460 / $35,100 / $59,450）及时薪$20.90是否与BLS当前公开数据逐字一致",
+    "5个行业细分中位数（ambulatory $49,920/hospitals $49,310/general merchandise $46,180/grocery $38,810/pharmacies and drug retailers $37,900）是否可溯源",
+    "6%就业增长（490,400→521,800）+31,500净增+约49,000年均空缺岗位的口径是否可溯源到BLS而非编造因果",
+    "SOC 29-2052对应的BLS OOH页面是否为'Pharmacy Technicians'独立页面而非与其他职称合并的组合页（L-0823-9关注点）",
+    "正文里与pharmacist-salary（$137,480中位数）和how-to-become-a-phlebotomist（'仅需高中文凭'路径）两处跨文章引用是否与对应文章当前实际内容一致"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "curl直连BLS OOH https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm（该页面为Pharmacy Technicians独立页面，非组合职衔，不适用L-0823-9场景）逐字核对：$43,460中位数、$20.90时薪、10th percentile $35,100/90th percentile $59,450、5个行业中位数(ambulatory $49,920/hospitals $49,310/general merchandise $46,180/grocery and specialty food $38,810/pharmacies and drug retailers $37,900)、6%增长490,400→521,800、净增31,500、约49,000年均空缺，全部与文章正文/FAQ/coreSummary逐字一致，页面SOC码29-2052出现3次核对一致。WebSearch交叉验证同一组数字（含独立第三方站点转述）结论一致。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "确认发现但不构成需修复的问题",
+      "detail": "WebSearch发现BLS已发布May 2025 OEWS新数据（median hourly $22.00/mean $22.41/mean annual $46,620），但直连BLS OOH该页面实测last modified date为2026-04-24、数据仍完整保留May 2024口径，与本文引用来源逐字一致——跟pharmacist-salary此前审计认定的'BLS OOH年度刷新节奏尚未同步OEWS新数据'是同一模式，非本文编辑失误。BLS若在后续OOH刷新中换成May 2025数据，届时需要跟进复查，暂不构成本次问题。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名反复引用'the U.S. Bureau of Labor Statistics'/'BLS'，数据年份显式标注(May 2024)，sources字段URL+accessed日期+数据年份三项齐全。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "确认发现问题，判定为已知架构性缺口，本次不修复",
+      "detail": "WebSearch实测头部竞品(ziprecruiter/wagebystate/pharmacytechpay等)普遍提供50州逐州工资数据(如Hawaii $79,000/Mississippi $31,450/California $54,150等)，本文仅有全国中位数+5个行业细分，无州级数据——与pharmacist-salary此前审计发现的差异化缺口结构完全相同(该次审计已判定：BLS州级职业工资数据仅以XLSX/JS查询工具形式发布，当前工具集无法逐条核实提取50州数字，'薪资数字绝不能靠猜测'硬规则下不安全修复，正确架构位置是本站已规划的州组合页而非硬塞进全国性参考页)。本文遵循同一判例，不重复修复。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "live页面实测(curl绕缓存)：title 68字符含品牌后缀、meta description约141字符、单一h1、6个h2层级清晰(见where-your-salary-stands→4个正文小节→FAQ)无跳级、canonical自引用正确、schema含Article/FAQPage(4问答)/BreadcrumbList/Dataset/Organization/Person/WebPage均正确渲染、robots meta未见noindex、配图chart.svg 200可访问。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "定性评估达标（≥80分档）",
+      "detail": "按项目99分制11维度逐项核算（参照近期同类同结构文章pharmacist-salary的评分先例，该文89/99）：权威原文引语约13/16（同样缺逐字引用BLS原句，仅转述+标注，跟同站其他文章一致的通病）、统计数据完整性13/14、可引用性12/13（coreSummary前置定义块+FAQ均自包含）、结构规范性11/12、表达流畅度9/10、语义密度7/8、权威信号7/8（BLS具名引用充分）、专业术语6/6(OEWS/SOC码使用得当)、鲁棒性4/5、跨域连接4/4（正文实际有手动锚文本双向链接到pharmacist-salary和how-to-become-a-phlebotomist，且被dental-assistant-salary手动锚文本反向链接，优于部分姊妹文章'仅依赖轮转无手动内链'的情况）、易懂表达3/3，合计约89/99，高于80分及格线，未执行修复。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现问题",
+      "detail": "本文published 2026-08-05，早于avoid-ai-writing技能2026-08-07接入日期，属应检范围。对guides.ts该条目原文机械核查：0处Unicode em dash、0处ASCII双连字符(' -- ')替代腔调；人工通读未发现促销性语言/模糊归因/虚假三段式排比/填充短语等AI写作特征，判定无需重写。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources仅1条：BLS OOH pharmacy-technicians.htm，curl直连200且内容与引用一致（已在事实核实步骤一并验证）。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "本文正文含2条手动锚文本出站链接(/pharmacist-salary/、/how-to-become-a-phlebotomist/，均确认目标slug真实存在且当前内容与本文引用描述一致)；同时被dental-assistant-salary条目正文手动锚文本反向链接('this site's pharmacy technician salary guide')。既是内链来源也是内链目标，非孤儿页。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "本次未做任何编辑，无需检查一致性变化；live页面JSON-LD datePublished(2026-08-05)/dateModified(2026-08-18)与guides.ts published/updated字段完全一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面实测免责声明页脚存在('for informational purposes...not personalized career, financial, or legal advice')；正文/FAQ通读未发现收入承诺式表述、培训机构推荐、个性化职业建议；无暴力/武器/毒品/赌博相关内容。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "/images/pharmacy-technician-salary-chart.svg为站内自制SVG（与surgical-tech-salary同源tools/bls-data生成模式），非第三方图片，live页面200可访问，alt文本与图表数据一致。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "内容为药房技术员职业介绍，无限制类目内容；curl直连ads.txt确认正确指向pub-5245502795720653；/privacy/与/terms/均200可访问。"
+    }
+  ],
+  "actions_taken": [
+    "无——13个维度逐一核查后未发现任何构成'需要修复'的问题，'竞品差异化'与'时效性'两条确认发现的缺口均属已有同类判例覆盖的已知架构性限制（州级数据无法安全核实提取/BLS自身年度刷新节奏未到），不做修复"
+  ],
+  "independent_verification": "本次13个维度均未产出需要独立复核确认的具体问题（'竞品差异化'与'时效性'两条属于沿用pharmacist-salary既有判例的已知限制，非本文新发现，未触发独立复核流程；其余11个维度均为'未发现问题'）。因此本次未spawn独立复核agent，不适用后台agent看门狗流程。",
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "定性评估约89/99，达标（≥80分档），未执行修复故无变化",
+  "escalation": null
+}
+```
