@@ -2015,7 +2015,7 @@ export const guides: Guide[] = [
 		title: 'How Long Is Nursing School? RN Paths, NCLEX-RN, and Pay',
 		description: 'BLS lists an associate degree in nursing at about 4 years, not 2, the same as a BSN. Here is why, plus the NCLEX-RN licensing exam and what RNs earn.',
 		published: '2026-08-17',
-		updated: '2026-08-17',
+		updated: '2026-08-26',
 		socCode: '29-1141',
 		coreSummary: 'Registered nurses usually take one of three education paths, a bachelor\'s degree (BSN), an associate\'s degree (ADN or ASN), or a hospital diploma program, and the Bureau of Labor Statistics lists both the BSN and the ADN/ASN as typically taking about 4 years to complete, not the 2 years commonly assumed for an associate\'s degree. Every path still ends the same way: graduates must pass the NCLEX-RN licensing exam and hold a state license before they can practice. BLS reports a median annual wage of $93,600 for registered nurses in May 2024.',
 		sections: [
@@ -2024,6 +2024,7 @@ export const guides: Guide[] = [
 				body: [
 					'Per the Bureau of Labor Statistics Occupational Outlook Handbook, registered nurses usually take one of three education paths: a bachelor of science in nursing (BSN), an associate\'s degree in nursing (ADN) or associate of science in nursing (ASN), or a diploma from a hospital-based program. All three include supervised clinical experience alongside classroom coursework in subjects such as anatomy, physiology, microbiology, and social and behavioral sciences.',
 					'The part that surprises a lot of people planning this out: BLS describes the ADN and ASN, credentials most people think of as a 2-year degree, as typically taking about 4 years to complete, the same figure BLS gives for a BSN. The reason is prerequisites. Community college nursing programs generally require a set of science courses, such as anatomy and microbiology, completed before a student is even eligible to start the core nursing curriculum, and BLS folds that prerequisite time into its 4-year estimate rather than counting only the nursing-specific coursework. A diploma program, offered by hospitals or medical centers rather than colleges, typically runs 2 to 3 years, but BLS notes there are far fewer diploma programs left than there are BSN, ADN, or ASN programs.',
+					"Getting into a program in the first place is a separate hurdle from the timeline itself, and BLS's Occupational Outlook Handbook doesn't cover admissions criteria. Per NurseJournal, an established nursing-education resource, requirements vary by program type and how competitive a given school is: associate degree (ADN) programs typically set a GPA floor between 2.0 and 2.75, though more competitive ones look for 2.5 to 3.5, while bachelor's (BSN) programs generally set a 3.0 minimum, with more selective schools expecting 3.25 or higher. Programs commonly weigh grades in prerequisite science courses, such as anatomy and microbiology, separately from overall GPA, so a strong overall record paired with weak science grades doesn't carry the same weight as consistent performance across both. Some programs also require a standardized entrance exam, the TEAS or HESI, though a number of accredited programs have dropped that requirement in favor of weighing GPA, essays, and interviews instead.",
 				],
 			},
 			{
@@ -2058,6 +2059,10 @@ export const guides: Guide[] = [
 				answer: 'Not according to BLS. The Bureau of Labor Statistics Occupational Outlook Handbook lists the ADN and ASN as typically taking about 4 years to complete, the same figure it gives for a BSN, because most programs require prerequisite science coursework, such as anatomy and microbiology, before a student can start the core nursing curriculum. The "2-year degree" framing usually refers only to the nursing-specific coursework, not the full timeline BLS reports.',
 			},
 			{
+				question: 'What GPA and prerequisites do you need to get into nursing school?',
+				answer: "It varies by program type and competitiveness, and BLS doesn't cover admissions criteria since that's set by individual schools, not by BLS. Per NurseJournal, associate degree (ADN) programs typically set a GPA floor between 2.0 and 2.75, while bachelor's (BSN) programs generally set a 3.0 minimum, with selective schools expecting 3.25 or higher. Prerequisite science courses, such as anatomy and microbiology, are often weighed separately from overall GPA. Some programs also require a TEAS or HESI entrance exam score, though a number of accredited programs have dropped that requirement.",
+			},
+			{
 				question: 'What is the NCLEX-RN and how many questions does it have?',
 				answer: 'The NCLEX-RN is the licensing exam every state requires registered nurses to pass, developed and administered by the National Council of State Boards of Nursing (NCSBN). Per NCSBN, it is a computer-adaptive test with a minimum of 85 and a maximum of 150 items, and a total appointment time, including the introductory screen and any breaks, capped at 5 hours.',
 			},
@@ -2075,6 +2080,7 @@ export const guides: Guide[] = [
 			{ label: 'NCSBN: How long is the NCLEX?', url: 'https://ncsbn.zendesk.com/hc/en-us/articles/15247056118935-How-long-is-the-NCLEX' },
 			{ label: 'NCSBN: What is the current format and item types for the NCLEX?', url: 'https://ncsbn.zendesk.com/hc/en-us/articles/14689546992023-What-is-the-current-format-and-item-types-for-the-NCLEX' },
 			{ label: 'NCSBN: What is Computer Adaptive Testing (CAT)?', url: 'https://ncsbn.zendesk.com/hc/en-us/articles/16488590296599-What-is-Computer-Adaptive-Testing-CAT' },
+			{ label: 'NurseJournal: Nursing School Prerequisites (GPA and coursework expectations by program type, accessed 2026-08-26)', url: 'https://nursejournal.org/resources/prerequisites-for-nursing-school/' },
 		],
 		image: '/images/rn-education-path.svg',
 		imageAlt: 'Diagram showing three education paths to becoming a registered nurse (associate degree, bachelor of science in nursing, or hospital diploma program), converging on the NCLEX-RN licensing exam and a licensed registered nurse earning a median of $93,600 a year per BLS.',
