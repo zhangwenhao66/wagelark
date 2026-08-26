@@ -42,6 +42,49 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"29-1122": {
+		socCode: "29-1122",
+		title: "Occupational Therapists",
+		medianAnnual: 98340,
+		medianHourly: 47.28,
+		percentiles: {
+			p10: 67090,
+			p90: 129830
+		},
+		employment: 160000,
+		employmentYear: "2024",
+		jobOutlookPct: 14,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 22100,
+		projectionPeriod: "2024-34",
+		entryEducation: "Master's degree",
+		industryWages: [
+			{
+				industry: "Nursing care facilities (skilled nursing facilities)",
+				annualWage: 103210
+			},
+			{
+				industry: "Home healthcare services",
+				annualWage: 103010
+			},
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 100770
+			},
+			{
+				industry: "Offices of physical, occupational and speech therapists, and audiologists",
+				annualWage: 96380
+			},
+			{
+				industry: "Educational services; state, local, and private",
+				annualWage: 83890
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Occupational Therapists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/occupational-therapists.htm",
+		publishedDate: "2025-08-28"
+	},
 	"11-3031": {
 		socCode: "11-3031",
 		title: "Financial Managers",

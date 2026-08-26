@@ -34,6 +34,7 @@ const CHARTS = {
 	'truck-driver-salary-chart': '53-3032',
 	'welder-salary-chart': '51-4121',
 	'chef-salary-chart': '35-1011',
+	'occupational-therapist-salary-chart': '29-1122',
 };
 
 const NAVY = '#14273f';

@@ -875,3 +875,19 @@ test('spot check: Chief Executives (11-1011) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages[3].annualWage, 137310);
 	assert.equal(occ.employmentIsGroupLevel, undefined);
 });
+
+test('spot check: Occupational Therapists (29-1122) matches BLS OOH page', () => {
+	const occ = occupations['29-1122'];
+	assert.equal(occ.medianAnnual, 98340);
+	assert.equal(occ.medianHourly, 47.28);
+	assert.deepEqual(occ.percentiles, { p10: 67090, p90: 129830 });
+	assert.equal(occ.employment, 160000);
+	assert.equal(occ.jobOutlookPct, 14);
+	assert.equal(occ.employmentChange, 22100);
+	assert.equal(occ.entryEducation, "Master's degree");
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Nursing care facilities (skilled nursing facilities)');
+	assert.equal(occ.industryWages[0].annualWage, 103210);
+	assert.equal(occ.industryWages[4].industry, 'Educational services; state, local, and private');
+	assert.equal(occ.industryWages[4].annualWage, 83890);
+});

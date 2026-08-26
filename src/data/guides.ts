@@ -3715,4 +3715,74 @@ export const guides: Guide[] = [
 		image: '/images/nurse-practitioner-duties.svg',
 		imageAlt: "Diagram showing four core nurse practitioner duties: assessing patients (history, exam, tests), diagnosing health problems, treating with medication and care plans, and counseling patients while consulting with physicians.",
 	},
+	{
+		slug: 'occupational-therapist-salary',
+		category: 'Salary Guide',
+		title: 'Occupational Therapist Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median occupational therapist salary at $98,340 a year, with 14% growth projected through 2034. Here is the full wage range by percentile and by setting.',
+		published: '2026-08-26',
+		updated: '2026-08-26',
+		socCode: '29-1122',
+		coreSummary: 'The median annual wage for occupational therapists was $98,340 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $67,090 while the top 10% earned more than $129,830, a spread of roughly $62,700. BLS projects 14% employment growth from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 22,100 jobs.',
+		sections: [
+			{
+				heading: 'What occupational therapists earn, and the degree BLS says it takes to get there',
+				body: [
+					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-1122, on a page dedicated to occupational therapists alone. For May 2024, BLS reported a median annual wage of $98,340, or $47.28 an hour. The bottom 10% of earners made less than $67,090 a year, while the top 10% made more than $129,830, a spread of roughly $62,700 that BLS does not attribute to any single factor on this page, though setting (covered below) accounts for a meaningful share of it.',
+					"BLS lists a master's degree in occupational therapy as the typical entry-level education for this occupation, a graduate credential rather than a bachelor's or associate's degree. That places it in the same broad tier as several other rehabilitation and diagnostic professions this site tracks, though the exact credential level still varies by field: [physical therapists](/physical-therapist-salary/) need a Doctor of Physical Therapy, one step above a master's, while occupational therapy has not made that same shift to doctoral-entry education as its typical path.",
+					'BLS counted about 160,000 occupational therapist jobs in 2024, drawing on its Occupational Employment and Wage Statistics survey, which collects wage data directly from employer payroll records rather than worker self-reports.',
+				],
+			},
+			{
+				heading: 'Why the highest-paying settings are not where most OTs actually work',
+				body: [
+					'BLS breaks out May 2024 wages by industry, and the ranking runs counter to where the occupation is most concentrated. Nursing care facilities (skilled nursing facilities) paid the highest median at $103,210, followed closely by home healthcare services at $103,010 and hospitals at $100,770. Offices of physical, occupational, and speech therapists, and audiologists, the outpatient-clinic setting many people probably picture first, paid $96,380. Educational services, meaning school-based OT work, paid the least of the five tracked categories, at $83,890.',
+					"That wage ranking does not match where BLS says the jobs actually are. Hospitals employ the largest share of OTs at 28%, followed by outpatient therapy offices at 27%, together accounting for more than half the occupation. Educational services, the lowest-paying category, still employs 13% of OTs, more than either home healthcare services (8%) or nursing care facilities (7%) individually, even though those two higher-paying settings employ smaller shares of the workforce. BLS does not explain the gap on this page; one plausible, unverified factor is that school-based OT roles are usually paid on public-sector salary schedules tied to the academic calendar rather than billed clinically by visit or hour, which could suppress pay relative to healthcare settings, but that is this article's inference, not a claim BLS itself makes.",
+				],
+			},
+			{
+				heading: "Getting licensed, and how the path compares to physical therapy",
+				body: [
+					"Per BLS, admission to a graduate program in occupational therapy requires a bachelor's degree, though not necessarily in a specific subject; most master's programs still expect coursework in biology, psychology, and other sciences, and some also want applicants to have volunteered or worked in an OT setting first. Master's programs typically run two to three years, combining coursework such as kinesiology, neuroscience, and anatomy with a required number of supervised fieldwork hours where students treat real clients under a licensed therapist's oversight.",
+					'All states require occupational therapists to be licensed, and at minimum that means passing a qualifying exam after completing an accredited program with fieldwork. Passing that exam is also what allows a therapist to legally use the title "Occupational Therapist Registered" (OTR). BLS notes state license and certification renewal typically requires a set number of continuing-education hours on an ongoing basis, not just the initial exam.',
+					"Against the [DPT-credentialed field](/physical-therapist-salary/), which requires an additional year or two of doctoral-level schooling beyond a master's, the pay gap is narrower than the extra training might suggest: BLS puts the physical therapist median at $101,020, about $2,680 above the $98,340 occupational therapist figure. BLS data describes what each occupation's workforce actually earns nationally; it does not explain why an extra degree year correlates with a comparatively small median-wage difference between the two fields.",
+				],
+			},
+			{
+				heading: 'Job outlook, and a physical risk BLS states plainly',
+				body: [
+					'BLS projects 14% employment growth for occupational therapists from 2024 to 2034, classified as much faster than the roughly 3% average across all occupations, adding an estimated 22,100 jobs. About 10,200 openings are projected each year on average over the decade, and BLS attributes many of those annual openings to workers transferring to other occupations or leaving the labor force, such as to retire, rather than to newly created positions alone. For comparison, BLS projects 11% growth for physical therapists over the same period, meaning occupational therapy is currently projected to grow faster despite its shorter typical training path; BLS does not explain what accounts for the gap between the two closely related fields\' projected growth rates.',
+					'Separately from the pay and growth figures, BLS states directly that "occupational therapists have one of the highest rates of injuries and illnesses of all occupations," citing the physical demands of lifting and moving clients or heavy equipment as the main cause, and that therapists reduce that risk mainly through proper body mechanics and lifting technique. Most occupational therapists work full time, though part-time work is common, and BLS notes therapists may work nights or weekends as needed to accommodate client schedules.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median occupational therapist salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for occupational therapists was $98,340 in May 2024, equivalent to $47.28 an hour. "Median" means half of workers in the role earned more and half earned less.',
+			},
+			{
+				question: 'What setting pays occupational therapists the most?',
+				answer: 'Among the five industry categories BLS tracks for May 2024, nursing care facilities paid the highest median at $103,210, followed by home healthcare services ($103,010) and hospitals ($100,770). Educational services paid the least, at $83,890, even though it employs 13% of the occupation, more than either home healthcare services (8%) or nursing care facilities (7%) individually.',
+			},
+			{
+				question: 'Do occupational therapists need a master\'s degree?',
+				answer: "Yes. BLS lists a master's degree in occupational therapy as the typical entry-level education, which requires a bachelor's degree for admission plus supervised fieldwork hours. All states also require occupational therapists to be licensed, which means passing a qualifying exam to use the \"Occupational Therapist Registered\" (OTR) title.",
+			},
+			{
+				question: 'Is occupational therapy a growing field?',
+				answer: 'BLS projects 14% employment growth for occupational therapists from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 22,100 jobs and about 10,200 openings a year on average.',
+			},
+			{
+				question: 'Is occupational therapy a physically demanding job?',
+				answer: 'BLS states occupational therapists have one of the highest rates of injuries and illnesses of all occupations, mainly because the job can require lifting or moving clients or heavy equipment. BLS says therapists reduce that risk primarily by using proper body mechanics and lifting technique.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Occupational Therapists (accessed 2026-08-26 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/occupational-therapists.htm' },
+			{ label: 'O*NET OnLine: 29-1122.00 Occupational Therapists (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/29-1122.00' },
+		],
+		image: '/images/occupational-therapist-salary-chart.svg',
+		imageAlt: 'Bar chart showing occupational therapist annual wage by percentile: 10th percentile $67,090, median $98,340, 90th percentile $129,830, based on BLS May 2024 data.',
+	},
 ];
