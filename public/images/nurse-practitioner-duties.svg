@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" font-family="Arial, sans-serif">
+	<rect width="640" height="220" fill="white"/>
+	<text x="320" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#14273f">What a Nurse Practitioner Does, Per BLS</text>
+
+	<g font-size="13" fill="#14212e">
+		<rect x="10" y="55" width="145" height="90" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="82" y="80" text-anchor="middle" font-weight="700" fill="#0b675e">Assess</text>
+		<text x="82" y="100" text-anchor="middle" font-size="11.5">Take history, perform</text>
+		<text x="82" y="115" text-anchor="middle" font-size="11.5">exam, order tests</text>
+
+		<rect x="165" y="55" width="145" height="90" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="237" y="80" text-anchor="middle" font-weight="700" fill="#0b675e">Diagnose</text>
+		<text x="237" y="100" text-anchor="middle" font-size="11.5">Analyze results, identify</text>
+		<text x="237" y="115" text-anchor="middle" font-size="11.5">health problems</text>
+
+		<rect x="320" y="55" width="145" height="90" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="392" y="80" text-anchor="middle" font-weight="700" fill="#0b675e">Treat</text>
+		<text x="392" y="100" text-anchor="middle" font-size="11.5">Prescribe medicine,</text>
+		<text x="392" y="115" text-anchor="middle" font-size="11.5">manage care plan</text>
+
+		<rect x="475" y="55" width="155" height="90" rx="6" fill="#eeece3" stroke="#0f8b7f"/>
+		<text x="552" y="80" text-anchor="middle" font-weight="700" fill="#0b675e">Counsel</text>
+		<text x="552" y="100" text-anchor="middle" font-size="11.5">Teach patients, consult</text>
+		<text x="552" y="115" text-anchor="middle" font-size="11.5">with physicians</text>
+	</g>
+
+	<text x="320" y="190" text-anchor="middle" font-size="12" fill="#14212e" opacity="0.55">Scope of practice varies by state. Source: BLS Occupational Outlook Handbook.</text>
+</svg>

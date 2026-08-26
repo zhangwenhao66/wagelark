@@ -3634,4 +3634,72 @@ export const guides: Guide[] = [
 		image: '/images/flight-attendant-path.svg',
 		imageAlt: 'Diagram showing the path to becoming a flight attendant: meet eligibility requirements, get hired by an airline, complete several weeks to a few months of initial training, earn the FAA Certificate of Demonstrated Proficiency, then work as a flight attendant earning a median of $67,130 a year per BLS.',
 	},
+	{
+		slug: 'what-does-a-nurse-practitioner-do',
+		category: 'Career Guide',
+		title: 'What Does a Nurse Practitioner Do? Duties, Setting, and Pay',
+		description: 'Nurse practitioners assess, diagnose, and treat patients, and in most states can prescribe independently. Here is what the BLS says the job actually covers.',
+		published: '2026-08-26',
+		updated: '2026-08-26',
+		socCode: '29-1171',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, nurse practitioners (SOC 29-1171) are advanced practice registered nurses who take patient histories, perform physical exams, order and interpret diagnostic tests, diagnose health problems, and prescribe medication, typically focused on a specific patient population such as adult-gerontology, pediatric, or psychiatric-mental health care. BLS groups nurse practitioners with nurse anesthetists and nurse midwives on a single occupational profile page and reports a nurse-practitioner-specific median annual wage of $129,210 in May 2024, with 40% employment growth projected through 2034.",
+		sections: [
+			{
+				heading: 'The core of the job',
+				body: [
+					"BLS tracks nurse practitioners on a combined occupational profile page shared with nurse anesthetists and nurse midwives, grouping all three together as advanced practice registered nurses (APRNs). Per BLS, APRNs typically take and record patients' medical histories and symptoms, perform physical exams, create or contribute to patient care plans, order and perform diagnostic tests, operate and monitor medical equipment, diagnose health problems, analyze test results and adjust treatment plans as needed, give patients medicines and treatments, evaluate how a patient responds to that treatment, consult with physicians and other healthcare professionals as needed, counsel and teach patients and their families, and, for some, conduct research.",
+					"Within that shared duty list, BLS describes nurse practitioners specifically as serving \"as primary and specialty care providers, delivering advanced nursing services to patients and their families.\" NPs assess patients, decide how to improve or manage a patient's health, and work with patients on integrating health-promotion strategies into daily life. Per BLS, nurse practitioners typically focus on a specific patient population, such as adult and geriatric health, pediatric health, or psychiatric and mental health, a specialization that shapes which patients and conditions an individual NP actually sees day to day.",
+					"BLS also draws a specific line between this role and registered nursing: nurse practitioners share some duties with RNs, including gathering information about a patient's condition and taking action to manage it, but are trained for tasks RNs are not, including ordering and evaluating test results, referring patients to specialists, and diagnosing and treating health problems.",
+					"How much of this an individual nurse practitioner can do without a supervising or collaborating physician depends entirely on the state where they practice. BLS notes broadly that scope of practice for this occupational group varies from state to state; this site's [nurse practitioner salary guide](/nurse-practitioner-salary/) covers the state-by-state practice-authority rules in more depth and where to check a specific state's current status.",
+				],
+				image: {
+					src: '/images/nurse-practitioner-duties.svg',
+					alt: "Diagram showing four core nurse practitioner duties: assessing patients (history, exam, tests), diagnosing health problems, treating with medication and care plans, and counseling patients while consulting with physicians.",
+				},
+			},
+			{
+				heading: 'Where nurse practitioners work, and what the schedule looks like',
+				body: [
+					"BLS reports employer data for the combined group of nurse anesthetists, nurse midwives, and nurse practitioners rather than for nurse practitioners alone: offices of physicians employed the largest share at 46%, followed by hospitals at 25%, outpatient care centers at 9%, offices of other health practitioners at 5%, and educational services at 3%. Nurse practitioners made up the largest slice of the underlying 382,700 combined jobs in 2024, at 320,400, so the employer mix likely tracks fairly closely with where NPs specifically work, even though BLS does not publish an NP-only version of this table.",
+					"Per BLS, some APRNs provide care in patients' homes, and some may travel long distances to reach patients in areas with a shortage of healthcare workers. This site's [nurse practitioner salary guide](/nurse-practitioner-salary/) discusses how that pattern connects to rural and underserved-area demand for NPs in more depth.",
+					"Most APRNs work full time, per BLS. Those in physicians' offices typically work standard business hours, while those in hospitals and other healthcare facilities may work shifts, including nights, weekends, and holidays, to cover round-the-clock patient care; some, especially those in critical care settings, are also expected to be on call.",
+				],
+			},
+			{
+				heading: "The physical and emotional demands, in BLS's own description",
+				body: [
+					"BLS describes this work as both physically and emotionally demanding. Some APRNs spend much of the day on their feet, and lifting and moving patients puts them at risk of back injury. BLS names the emotional weight of the role directly, too: APRNs make critical decisions that affect a patient's health, and that responsibility is itself a source of job stress. Because of the settings they work in, APRNs may also come into close contact with infectious disease and must follow strict guidelines against risks such as accidental needle sticks or a patient outburst.",
+					"Physician assistants do similar clinical work (assessing, diagnosing, treating) but under a supervising physician in nearly every state, rather than independently in a majority of them the way many nurse practitioners can. This site's guide to [what a physician assistant does](/what-does-a-physician-assistant-do/) covers that role's own duties and setting.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does a nurse practitioner do on a typical day?',
+				answer: "Per BLS, nurse practitioners take patient histories, perform physical exams, order and interpret diagnostic tests, diagnose health problems, and prescribe medication or other treatment, usually focused on a specific patient population such as adult-gerontology, pediatric, or psychiatric-mental health care. They also counsel patients and families and consult with physicians and other healthcare professionals as needed.",
+			},
+			{
+				question: "What's the difference between a nurse practitioner and a registered nurse?",
+				answer: "BLS describes nurse practitioners as sharing some duties with registered nurses, such as gathering information about a patient's condition and taking action to manage it, but nurse practitioners are additionally trained to order and evaluate test results, refer patients to specialists, and diagnose and treat health problems, tasks outside a registered nurse's scope.",
+			},
+			{
+				question: 'Can nurse practitioners practice without a supervising physician?',
+				answer: "It depends entirely on the state. BLS notes broadly that scope of practice for this occupational group varies from state to state; see this site's [nurse practitioner salary guide](/nurse-practitioner-salary/) for how state practice-authority categories work and where to check a specific state's current rules.",
+			},
+			{
+				question: 'Do nurse practitioners specialize?',
+				answer: 'Yes. Per BLS, nurse practitioners typically focus on a specific patient population, such as adult and geriatric health, pediatric health, or psychiatric and mental health, which shapes the conditions and patients an individual NP sees.',
+			},
+			{
+				question: 'How much do nurse practitioners make?',
+				answer: "BLS reports a median annual wage of $129,210 for nurse practitioners in May 2024. See [nurse practitioner salary](/nurse-practitioner-salary/) for the full wage and job-outlook breakdown.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners (accessed 2026-08-26 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm' },
+			{ label: 'O*NET OnLine: 29-1171.00 Nurse Practitioners (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/29-1171.00' },
+		],
+		image: '/images/nurse-practitioner-duties.svg',
+		imageAlt: "Diagram showing four core nurse practitioner duties: assessing patients (history, exam, tests), diagnosing health problems, treating with medication and care plans, and counseling patients while consulting with physicians.",
+	},
 ];
