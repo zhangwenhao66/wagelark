@@ -468,7 +468,10 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		title: "Diagnostic Medical Sonographers",
 		medianAnnual: 89340,
 		medianHourly: 42.95,
-		percentiles: {},
+		percentiles: {
+			p10: 64760,
+			p90: 123170
+		},
 		employment: 90000,
 		employmentYear: "2024",
 		jobOutlookPct: 13,

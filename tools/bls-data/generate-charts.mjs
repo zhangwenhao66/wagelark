@@ -35,6 +35,7 @@ const CHARTS = {
 	'welder-salary-chart': '51-4121',
 	'chef-salary-chart': '35-1011',
 	'occupational-therapist-salary-chart': '29-1122',
+	'ultrasound-tech-salary-chart': '29-2032',
 };
 
 const NAVY = '#14273f';

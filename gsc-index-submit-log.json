@@ -249,5 +249,22 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": 1
+  },
+  {
+    "date": "2026-08-27",
+    "action": "submitted",
+    "reason": "今日存量丰富welder-salary（补充AWS认证章节，非新发布），URL Inspection确认该页已收录不作为提交对象。改查build-index-queue.py队列候选：how-to-become-a-social-worker/how-to-become-a-physical-therapist/what-does-a-paralegal-do/how-to-become-an-ultrasound-tech/how-long-does-it-take-to-become-a-lawyer均已'URL is on Google'（已收录，不耗配额），what-does-a-welder-do未收录，REQUEST INDEXING提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/what-does-a-welder-do/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/welder-salary/",
+      "https://wagelark.com/how-to-become-a-social-worker/",
+      "https://wagelark.com/how-to-become-a-physical-therapist/",
+      "https://wagelark.com/what-does-a-paralegal-do/",
+      "https://wagelark.com/how-to-become-an-ultrasound-tech/",
+      "https://wagelark.com/how-long-does-it-take-to-become-a-lawyer/"
+    ],
+    "quota_used": 1
   }
 ]

@@ -3793,4 +3793,73 @@ export const guides: Guide[] = [
 		image: '/images/occupational-therapist-salary-chart.svg',
 		imageAlt: 'Bar chart showing occupational therapist annual wage by percentile: 10th percentile $67,090, median $98,340, 90th percentile $129,830, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'ultrasound-tech-salary',
+		category: 'Salary Guide',
+		title: 'Ultrasound Tech Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median ultrasound tech salary at $89,340 a year, with 13% growth projected through 2034. Here is the full wage range by percentile and by employer.',
+		published: '2026-08-27',
+		updated: '2026-08-27',
+		socCode: '29-2032',
+		coreSummary: 'The median annual wage for diagnostic medical sonographers, commonly called ultrasound techs, was $89,340 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $64,760 while the top 10% earned more than $123,170, a spread of roughly $58,410. BLS projects 13% employment growth from 2024 to 2034, much faster than average, adding an estimated 11,700 jobs.',
+		sections: [
+			{
+				heading: 'What ultrasound techs earn, and the credential BLS says it takes to get there',
+				body: [
+					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-2032, officially titled "Diagnostic Medical Sonographers," on a page that also notes the job is commonly called an ultrasound technician or ultrasound tech. For May 2024, BLS reported a median annual wage of $89,340, or $42.95 an hour. The bottom 10% of earners made less than $64,760 a year, while the top 10% made more than $123,170, a spread of roughly $58,410 that BLS does not attribute to any single factor on this page, though the employer type someone works for (covered below) accounts for a meaningful share of it.',
+					"BLS lists an associate's degree as the typical entry-level education for this occupation, or in some cases a postsecondary certificate for candidates who already hold a related healthcare credential. That is a shorter, less expensive training path than several other diagnostic and rehabilitation roles this site tracks: [occupational therapists](/occupational-therapist-salary/) need a master's degree and [physical therapists](/physical-therapist-salary/) need a Doctor of Physical Therapy, both graduate credentials that take considerably longer to complete than sonography's typical two-year program.",
+					"Those figures come from BLS's Occupational Employment and Wage Statistics survey, which pulls wage data directly from employer payroll records instead of relying on what workers report themselves. The same survey put total sonographer employment at about 90,000 jobs in 2024.",
+				],
+			},
+			{
+				heading: 'Why the highest-paying setting employs almost none of the workforce',
+				body: [
+					'By industry, BLS\'s May 2024 wage data shows outpatient care centers paying the highest median by a wide margin, at $123,610, roughly $34,270 above the occupation-wide median. Hospitals paid $90,070, offices of physicians paid $89,450, and medical and diagnostic laboratories paid the least of the four tracked categories, at $83,200.',
+					"That top-paying figure is not representative of where most sonographers actually work. BLS's separate employment breakdown shows hospitals employ 57% of diagnostic medical sonographers, and offices of physicians employ another 21%, together accounting for 78% of the occupation. Outpatient care centers, the setting with the highest median wage, employ only 4%. In practical terms, the $123,610 figure that ranks first in the industry wage table describes a small slice of the field rather than a typical outcome, while the pay most sonographers actually see, in hospitals or physician offices, sits within a few hundred dollars of the occupation-wide median in either direction. BLS does not explain why outpatient centers pay so much more relative to their small share of employment; it reports the wage-by-industry and employment-by-industry figures separately, without connecting the two.",
+				],
+			},
+			{
+				heading: 'Certification, and how the entry path compares to radiologic technology',
+				body: [
+					"Licensing and certification requirements are covered in full in this site's [guide to becoming an ultrasound tech](/how-to-become-an-ultrasound-tech/), which walks through the accredited-program route, state license rules, and the ARDMS credential most employers expect. The short version: some states require a license, and even in states that don't, most employers still expect ARDMS certification before hiring.",
+					"Sonography sits alongside [radiologic technology](/radiology-tech-salary/) as one of two associate's-degree-level diagnostic imaging paths BLS tracks, but they are distinct occupations under different SOC codes, and the pay is not the same: BLS puts the radiologic technologist median at $77,660, about $11,680 below the $89,340 sonographer figure, despite both requiring a comparable two-year training timeline. The equipment differs too. Sonography uses high-frequency sound waves rather than ionizing radiation, which is one reason the two fields are credentialed through separate organizations, ARDMS for sonography and the American Registry of Radiologic Technologists (ARRT) for radiography, rather than a single shared body.",
+				],
+			},
+			{
+				heading: 'Job outlook and the physical side of the work',
+				body: [
+					'Employment of sonographers is projected to grow 13% from 2024 to 2034, per BLS, well above the roughly 3% average BLS projects across all occupations combined. That works out to about 11,700 new jobs over the decade, plus roughly 5,800 openings a year on average once retirements and career changes are factored in, since BLS counts those replacement openings alongside newly created ones in its annual figure.',
+					'BLS also describes the physical side of the job directly: sonographers "may need to stand for long periods and to lift or turn patients who are ill or disabled," and most of the work happens at diagnostic imaging equipment in dimly lit rooms. Most sonographers work full time, and because many work in medical facilities that stay open around the clock, shifts can include evenings, weekends, or overnights. BLS notes sonographers work as part of a team alongside physicians, registered nurses, and other healthcare workers rather than independently.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median ultrasound tech salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for diagnostic medical sonographers, commonly called ultrasound techs, was $89,340 in May 2024, equivalent to $42.95 an hour. "Median" means half of workers in the role earned more and half earned less.',
+			},
+			{
+				question: 'What setting pays ultrasound techs the most?',
+				answer: "Among the four industry categories BLS tracks for May 2024, outpatient care centers paid the highest median by far, at $123,610, well ahead of hospitals ($90,070), offices of physicians ($89,450), and medical and diagnostic laboratories ($83,200). But outpatient care centers employ only 4% of the occupation, per BLS; hospitals and physician offices, which pay closer to the occupation-wide median, together employ 78% of sonographers.",
+			},
+			{
+				question: 'Do ultrasound techs need to be certified?',
+				answer: "It depends on the state, per BLS. Where state law doesn't mandate it, hiring managers still tend to look for it: the ARDMS credential is the one most sonography job postings ask for by name.",
+			},
+			{
+				question: 'Is ultrasound tech pay higher than radiology tech pay?',
+				answer: "Yes. BLS puts the median diagnostic medical sonographer wage at $89,340 versus $77,660 for radiologic technologists and technicians, a gap of about $11,680, even though both occupations typically require only an associate's degree. The two are separate, independently credentialed occupations: sonography uses sound waves and is certified through ARDMS, while radiography uses ionizing radiation and is certified through ARRT.",
+			},
+			{
+				question: 'Is ultrasound tech a growing field?',
+				answer: 'BLS projects 13% employment growth for diagnostic medical sonographers from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 11,700 jobs and about 5,800 openings a year on average.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (comparison figure for radiologic technologists and technicians, SOC 29-2034, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
+		],
+		image: '/images/ultrasound-tech-salary-chart.svg',
+		imageAlt: 'Bar chart showing diagnostic medical sonographer (ultrasound tech) annual wage by percentile: 10th percentile $64,760, median $89,340, 90th percentile $123,170, based on BLS May 2024 data.',
+	},
 ];
