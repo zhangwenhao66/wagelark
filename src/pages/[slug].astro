@@ -62,6 +62,7 @@ const percentileRows = wage
 		].filter((row): row is [string, number] => typeof row[1] === 'number')
 	: [];
 const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v]) => v)) : 0;
+import { imgDims } from '../data/imageDims';
 ---
 
 <Layout title={guide.title} description={guide.description} ogImage={guide.image ?? '/favicon.svg'} ogType="article">
@@ -75,6 +76,8 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 		authorName={AUTHOR_NAME}
 		authorUrl={`${SITE_ORIGIN}/about/`}
 		image={heroImage}
+		imageWidth={imgDims(heroImage)?.w}
+		imageHeight={imgDims(heroImage)?.h}
 		url={pageUrl}
 	/>
 	<BreadcrumbList slot="head" items={breadcrumbItems} />
@@ -104,7 +107,10 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 
 		{guide.image && (
 			<figure class="m-0 mt-8">
-				<img src={guide.image} alt={guide.imageAlt ?? guide.title} class="w-full border border-[var(--rule)] bg-white object-contain" loading="eager" />
+				<img src={guide.image} alt={guide.imageAlt ?? guide.title} class="w-full border border-[var(--rule)] bg-white object-contain" loading="eager"
+						width={imgDims(guide.image)?.w}
+						height={imgDims(guide.image)?.h}
+					/>
 				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(guide.imageCredit)} />}
 			</figure>
 		)}
@@ -185,7 +191,10 @@ const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v
 					{section.body.map((paragraph) => <p class="mb-3.5 text-[0.9375rem] leading-[1.85] text-[var(--ink)]/75 last:mb-0" set:html={md(paragraph)} />)}
 					{section.image && (
 						<figure class="m-0 mt-5">
-							<img src={section.image.src} alt={section.image.alt} class="mx-auto h-auto max-h-[70vh] w-auto max-w-full" loading="lazy" />
+							<img src={section.image.src} alt={section.image.alt} class="mx-auto h-auto max-h-[70vh] w-auto max-w-full" loading="lazy"
+						width={imgDims(section.image.src)?.w}
+						height={imgDims(section.image.src)?.h}
+					/>
 							{section.image.credit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(section.image.credit)} />}
 						</figure>
 					)}
