@@ -1198,3 +1198,99 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "dental-assistant-salary",
+  "last_audited": "2026-08-27",
+  "published_date": "2026-08-06",
+  "note": "guides.ts数组第17位（第1076行），56篇文章中数组顺序上第一篇从未被本任务审计过的文章，按'未审计优先'规则选中",
+  "diagnosed_checkpoints": [
+    "median/p10/p90（$47,300/$36,190/$61,780）及3项行业细分中位数是否与BLS当前公开数据逐字一致",
+    "6%就业增长/24,400新增岗位/52,900年均岗位口径是否可溯源到BLS原文，'大多数岗位来自替代而非新增'这条解释是否准确",
+    "coronal polishing等扩展职责需要执照/注册/认证这条论断，以及CareerOneStop信源引用是否准确",
+    "与dental-hygienist-salary($94,260)、pharmacy-technician-salary($43,460)两篇姊妹文章的交叉数字引用是否与各自guides.ts条目一致",
+    "本文published=2026-08-06，早于avoid-ai-writing技能2026-08-07接入1天，需要补跑早期内容AI味复检"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题",
+      "detail": "curl直连https://www.bls.gov/ooh/healthcare/dental-assistants.htm（返回200，未复现同日wagelark-content-publishing场次记录的全域403限流）逐条核对：median annual $47,300/$22.74时薪、10th percentile $36,190、90th percentile $61,780、3项行业中位数(government $53,660/offices of dentists $47,250/offices of physicians $46,170)、employment 381,900→406,300(+24,400,6%,2024-34)、年均52,900个岗位（且'多数来自替代离职者而非新增职位'的解释与BLS原文一致）、coronal polishing扩展职责需licensure/registration/certification、CareerOneStop信源引用，全部与正文/FAQ/schema逐字一致，无编造。交叉核对dental-hygienist-salary($94,260)与pharmacy-technician-salary($43,460)两篇姊妹文章的引用数字，均与各自guides.ts条目完全一致。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS OEWS/OOH并标注数据年份(May 2024)；'时薪转年薪假设2080工时'等专业细节属真实增量信息，非泛泛而谈。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "确认发现但独立判定不构成需要修复的问题",
+      "detail": "curl直连BLS新闻稿news.release/ocwage.t01.htm确认已发布May 2025 OEWS数据(dental assistants employment 387,790/mean hourly $24.13/mean annual $50,200/median hourly $23.11)，但该表仅含均值与时薪中位数，不含年薪中位数与百分位，无法做routine数字替换；本文实际信源(OOH页面)last modified仍为2025-08-28，尚未刷新，与站内pharmacist-salary/actuary-salary两次审计已确立的'OOH次年8月刷新'节奏一致（当前刚好处在预期刷新窗口边缘）。判定：NOT CONFIRMED，建议下次OOH刷新后复查。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现新问题（沿用既有站级决策）",
+      "detail": "dataforseo_query.py serp实测'dental assistant salary'真实排名：danb.org/indeed.com/dentalpost.net/州定向培训学校页/allalliedhealthschools.com等，未见salary.com/careerexplorer进入前10。头部竞品多提供州/城市细分，本文仅全国数据，与pharmacist-salary 2026-08-03审计发现的同类缺口一致——BLS州级数据仅以XLSX/查询工具形式发布，当前工具集无法逐条核验提取，站内已有'州组合页'架构规划解决此缺口，不视为本文独有待办。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "curl实测：title 70字符含品牌后缀、meta description 157字符、canonical自引用正确、单一h1、6个h2结构清晰（4正文小节+1工具小节+1FAQ）；schema含Article/FAQPage/BreadcrumbList/Dataset等类型完整；robots.txt正确allow全部AI爬虫；sitemap-0.xml包含本文URL。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题，达标",
+      "detail": "按项目99分制11维度定性核算，因本文有3处真实站内正文手写锚文本内链入链（medical-assistant-salary/what-does-a-dental-hygienist-do/veterinary-technician-salary，跨域连接维度强于此前多数同模板文章的0处），预估与pharmacist-salary/actuary-salary同类模板的约89/99基线持平或略高，高于80分及格线；早期内容AI味问题修复后表达流畅度维度提升。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "确认发现问题，已修复",
+      "detail": "本文published=2026-08-06，早于avoid-ai-writing 2026-08-07接入1天，触发本维度全量复检。grep发现'rather than'对比框架在约850词正文+FAQ内命中6次（约每140字一次），命中`独立站/内容通用教训库.md`条目L-0820-2（已知复发5次的跨站AI写作节奏问题：同一对比语法模板反复出现，逐词检测工具查不出但整体读起来机械）。spawn独立agent复核（未卡死，约40秒完成）：CONFIRMED，超出该条目已确立的3-4次阈值，建议改写2-3处；同时核实'reflecting how concentrated the role is in a single type of employer'这处-ing结尾表述，独立agent判定NOT CONFIRMED（有具体数据支撑的合理编辑性表述，非空洞AI尾缀）。已修复：改写4处'rather than'为不同句式（拆句/'not X'结构），保留2处自然表述，降至2次。em dash计数为0，`Skill(avoid-ai-writing)`复扫零命中其余Tier1/Tier2词表。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources仅1条外部引用（BLS OOH dental-assistants页面），curl实测200可访问，内容与引用逐字一致。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "本文非孤儿页：被medical-assistant-salary/what-does-a-dental-hygienist-do/veterinary-technician-salary三篇文章正文手动锚文本链接（grep guides.ts确认），自身也有2处出链(dental-hygienist-salary/pharmacy-technician-salary)；live页面'More in Salary Guide'侧栏轮转正常展示同类文章。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已同步",
+      "detail": "本次编辑改动了正文文案与updated字段，schema的dateModified随之更新为2026-08-27，与guides.ts updated字段一致（数据源统一，非独立维护）。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面实测免责声明页脚存在；正文/FAQ通读未发现收入承诺式表述、培训机构推荐（CareerOneStop为政府关联资源非私营机构广告）、个性化职业建议；无限制类目内容。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "/images/dental-assistant-salary-chart.svg为站内tools/bls-data脚本自动生成的SVG，非第三方图片，curl实测200可访问，图表数字与正文数字同源一致。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "内容为牙医助理职业介绍，无限制类目内容；curl直连ads.txt确认正确指向pub-5245502795720653；/privacy/与/about/均200可访问；标题非标题党。"
+    }
+  ],
+  "actions_taken": [
+    "改写正文4处'rather than'对比结构（保留2处），修复L-0820-2早期内容AI味问题：①首段拆句改写②行业段'not in'替换③④job outlook正文与FAQ对应句均拆句改写",
+    "published字段本已存在（2026-08-06），确认存在后将updated字段从2026-08-06改为2026-08-27",
+    "python3 seo_drift.py baseline/compare：修改前存档，部署后对比仅报WARNING级'schema内容变化'（dateModified更新+正文改写导致的预期内变化），无CRITICAL发现",
+    "npm test（wages-source.test.mjs）47/47全绿；npm run build 63页全部生成无报错",
+    "commit a5e70e4 push成功，Cloudflare Pages Git自动部署（本仓库无deploy hook），绕缓存轮询4次后确认200且正文含改写后文案",
+    "node tools/submit-indexnow.mjs /dental-assistant-salary/ 提交，Bing 200 / Yandex 200",
+    "内容发布日志.md已追加本次审计记录；内容通用教训库.md L-0820-2条目已追加本次'复发'行"
+  ],
+  "independent_verification": "spawn全新独立agent（general-purpose，后台异步，约40秒完成，未卡死，无需启动看门狗降级流程）复核'早期内容AI味补漏'维度下的两处疑似发现：'rather than'重复6次判定CONFIRMED，'-ing结尾表述'判定NOT CONFIRMED。仅对CONFIRMED的一条采取修复行动。",
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "定性评估约89/99（含3处真实内链的加分），达标（≥80分档），本次因AI味修复表达流畅度维度略有提升",
+  "escalation": null
+}
+```
