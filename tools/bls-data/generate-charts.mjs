@@ -36,6 +36,7 @@ const CHARTS = {
 	'chef-salary-chart': '35-1011',
 	'occupational-therapist-salary-chart': '29-1122',
 	'ultrasound-tech-salary-chart': '29-2032',
+	'veterinary-technician-salary-chart': '29-2056',
 };
 
 const NAVY = '#14273f';

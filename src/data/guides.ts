@@ -3862,4 +3862,74 @@ export const guides: Guide[] = [
 		image: '/images/ultrasound-tech-salary-chart.svg',
 		imageAlt: 'Bar chart showing diagnostic medical sonographer (ultrasound tech) annual wage by percentile: 10th percentile $64,760, median $89,340, 90th percentile $123,170, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'veterinary-technician-salary',
+		category: 'Salary Guide',
+		title: 'Veterinary Technician Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median veterinary technician salary at $45,980 a year, close to medical assistant pay despite the added degree. Full wage range and industry breakdown.',
+		published: '2026-08-27',
+		updated: '2026-08-27',
+		socCode: '29-2056',
+		coreSummary: 'The median annual wage for veterinary technologists and technicians was $45,980 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $32,120 while the top 10% earned more than $60,880. BLS projects 9% employment growth from 2024 to 2034, much faster than average, adding an estimated 12,200 jobs and about 14,300 openings a year on average.',
+		sections: [
+			{
+				heading: 'What veterinary technicians earn, and the two credential levels BLS bundles together',
+				body: [
+					'BLS tracks this role under SOC code 29-2056, "Veterinary Technologists and Technicians," a title that covers two distinct credential tracks with one combined median wage. Technicians typically complete a 2-year associate\'s degree in veterinary technology; technologists complete a 4-year bachelor\'s degree in the same field. Both must pass a credentialing exam and become registered, licensed, or certified, with the specific requirement set by the state where they work. BLS reports Associate\'s degree as the "typical" entry-level education for the combined occupation, which understates what technologists specifically complete, since the Handbook does not publish a separate median wage for the bachelor\'s-level technologist track alone.',
+					'The median annual wage for veterinary technologists and technicians was $45,980 in May 2024 ($22.11 an hour). The bottom 10% earned less than $32,120 a year, while the top 10% earned more than $60,880, a spread of roughly $28,760. That range is narrower than the spreads this site has found for several other allied health roles with an associate\'s degree as the entry point, which suggests less pay differentiation by specialty certification or region within this specific occupation.',
+					'One comparison worth naming directly: [radiologic technologists and technicians](/radiology-tech-salary/) also typically enter with an associate\'s degree and also sit for a licensing exam, yet BLS reports a $77,660 median for that role, about $31,680 more than veterinary technicians earn despite a comparable entry credential. BLS does not explain the gap on either page. It most plausibly traces to which industries buy the two services, hospital and outpatient healthcare systems versus small private veterinary practices, rather than to the training itself, though that reasoning is this article\'s own, not something BLS states.',
+				],
+			},
+			{
+				heading: 'Why the credential barely shows up in the paycheck',
+				body: [
+					'Veterinary technicians and technicians must complete a postsecondary program, pass a credentialing exam, and hold a state registration, license, or certification depending on where they work, per BLS. Despite that formal gate, the $45,980 median sits close to two allied roles that require no degree at all: [medical assistants](/medical-assistant-salary/), whose typical entry-level education is a postsecondary nondegree award, have a median of $44,200, just $1,780 below veterinary technicians; [dental assistants](/dental-assistant-salary/), also entering with a nondegree award, have a median of $47,300, about $1,320 above. On this specific comparison, the extra one-to-two years of formal veterinary technology coursework and a licensing exam do not correspond to noticeably higher typical pay than assistant-level roles that require neither.',
+					'BLS does not publish a causal explanation for why credential level and pay diverge here. One plausible, unverified factor is that veterinary care is overwhelmingly funded by pet owners paying out of pocket rather than by insurance reimbursement or larger institutional budgets the way medical and dental assistant positions more often are, which caps what small private practices can pay regardless of staff credentials. That is this article\'s own inference, not something BLS states.',
+					'BLS separately breaks out May 2024 median wages by industry for this occupation, and the industry difference is larger than the credential-comparison gap above: educational services (state, local, and private) paid a median of $51,250, the highest of the four categories BLS tracks, followed by veterinary services itself at $45,740, other personal services at $43,280, and social advocacy organizations at $41,640, a spread of about $9,610 between the top and bottom industry.',
+				],
+			},
+			{
+				heading: 'Where the jobs are concentrated',
+				body: [
+					'The industry pay ranking above is nearly the reverse of where the jobs are concentrated. BLS reports that veterinary services employed 89% of the 134,200 veterinary technologists and technicians working in 2024, even though that industry pays the third-highest of the four categories BLS tracks, not the highest. Educational services, the highest-paying category at $51,250, employed only about 4% of the workforce; social advocacy organizations and other personal services each employed roughly 1%. In practical terms, the vast majority of people in this occupation work in the lower-paying private-practice setting, and the higher-paying academic and research jobs BLS tracks separately represent a small slice of total employment, not a typical outcome.',
+					'BLS also states that veterinary technologists and technicians "have one of the highest rates of injuries and illnesses of all occupations," a direct quote from the Handbook\'s Work Environment section, tied to handling scared or aggressive animals during exams, restraint, and euthanasia procedures. BLS does not attach a specific injury-rate number to that statement on this page; it is a comparative claim about the occupation\'s standing relative to others, not a quantified figure this site can independently verify against a separate BLS injury dataset for this specific title.',
+				],
+			},
+			{
+				heading: 'Job outlook, and how it compares across the pet-care field',
+				body: [
+					'BLS projects 9% employment growth for veterinary technologists and technicians from 2024 to 2034, classified as much faster than the roughly 3% average projected across all occupations, taking the occupation from 134,200 to 146,400 jobs and adding an estimated 12,200 positions. BLS also projects about 14,300 openings a year on average over the decade, a figure driven mostly by the need to replace workers who leave the occupation entirely or exit the labor force, rather than by net new job creation alone.',
+					'BLS attributes the growth mainly to rising numbers of pet-owning households and continued increases in spending on pet care, along with expanding treatment options that require more diagnostic and nursing support per animal. That is a demand-side projection about the pet-care industry as a whole, not a forecast about pay: nothing in the BLS growth projection implies the credential-versus-pay gap described above will close, since faster hiring and higher wages do not necessarily move together within the same occupation.',
+					'Readers comparing veterinary care pay against other associate\'s-degree or nondegree allied health roles can also see this site\'s guides to [radiology tech salary](/radiology-tech-salary/) and [medical assistant salary](/medical-assistant-salary/) for two directly comparable BLS-tracked occupations.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average veterinary technician salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for veterinary technologists and technicians was $45,980 in May 2024 ($22.11 an hour). "Median" means half of workers in the role earned more and half earned less.',
+			},
+			{
+				question: 'Is there a pay difference between veterinary technicians and veterinary technologists?',
+				answer: "BLS tracks both under one combined occupation and does not publish a separate median wage for the bachelor's-degree technologist track versus the associate's-degree technician track. The Handbook lists Associate's degree as the typical entry-level education for the combined group, since technicians make up the larger share of the occupation, but does not quantify how the two credential levels differ in pay.",
+			},
+			{
+				question: 'What is the highest-paying setting for a veterinary technician?',
+				answer: 'Among the four industry categories BLS tracks for May 2024, educational services (state, local, and private) paid the highest median at $51,250, ahead of veterinary services ($45,740, the setting that employs 89% of the workforce), other personal services ($43,280), and social advocacy organizations ($41,640).',
+			},
+			{
+				question: 'Do veterinary technicians need to be licensed?',
+				answer: "Typically, per BLS, veterinary technologists and technicians must pass a credentialing exam and become registered, licensed, or certified, with the specific requirement depending on the state where they work. Information on specific state requirements is available through CareerOneStop, a source BLS itself links to rather than a BLS-published dataset.",
+			},
+			{
+				question: 'Is veterinary technician a growing career?',
+				answer: 'BLS projects 9% employment growth for veterinary technologists and technicians from 2024 to 2034, classified as much faster than average, adding roughly 12,200 jobs and about 14,300 openings a year on average, driven mainly by rising pet ownership and pet-care spending.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Veterinary Technologists and Technicians (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm' },
+		],
+		image: '/images/veterinary-technician-salary-chart.svg',
+		imageAlt: 'Bar chart showing veterinary technologist and technician annual wage by percentile: 10th percentile $32,120, median $45,980, 90th percentile $60,880, based on BLS May 2024 data.',
+	},
 ];

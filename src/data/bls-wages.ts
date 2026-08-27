@@ -42,6 +42,45 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"29-2056": {
+		socCode: "29-2056",
+		title: "Veterinary Technologists and Technicians",
+		medianAnnual: 45980,
+		medianHourly: 22.11,
+		percentiles: {
+			p10: 32120,
+			p90: 60880
+		},
+		employment: 134200,
+		employmentYear: "2024",
+		jobOutlookPct: 9,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 12200,
+		projectionPeriod: "2024-34",
+		entryEducation: "Associate's degree",
+		industryWages: [
+			{
+				industry: "Educational services (state, local, private)",
+				annualWage: 51250
+			},
+			{
+				industry: "Veterinary services",
+				annualWage: 45740
+			},
+			{
+				industry: "Other personal services",
+				annualWage: 43280
+			},
+			{
+				industry: "Social advocacy organizations",
+				annualWage: 41640
+			}
+		],
+		dataYear: "May 2024",
+		sourceLabel: "BLS Occupational Outlook Handbook: Veterinary Technologists and Technicians",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm",
+		publishedDate: "2025-08-28"
+	},
 	"29-1122": {
 		socCode: "29-1122",
 		title: "Occupational Therapists",

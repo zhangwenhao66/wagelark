@@ -910,3 +910,22 @@ test('spot check: Diagnostic Medical Sonographers (29-2032) matches BLS OOH page
 	assert.equal(occ.industryWages[3].industry, 'Medical and diagnostic laboratories');
 	assert.equal(occ.industryWages[3].annualWage, 83200);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-27 (last modified
+// August 28, 2025). Independent of wages-source.json's own numbers -- do
+// not derive these from the source file.
+test('spot check: Veterinary Technologists and Technicians (29-2056) matches BLS OOH page', () => {
+	const occ = occupations['29-2056'];
+	assert.equal(occ.medianAnnual, 45980);
+	assert.equal(occ.medianHourly, 22.11);
+	assert.deepEqual(occ.percentiles, { p10: 32120, p90: 60880 });
+	assert.equal(occ.employment, 134200);
+	assert.equal(occ.jobOutlookPct, 9);
+	assert.equal(occ.employmentChange, 12200);
+	assert.equal(occ.entryEducation, "Associate's degree");
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Educational services (state, local, private)');
+	assert.equal(occ.industryWages[0].annualWage, 51250);
+	assert.equal(occ.industryWages[3].industry, 'Social advocacy organizations');
+	assert.equal(occ.industryWages[3].annualWage, 41640);
+});
