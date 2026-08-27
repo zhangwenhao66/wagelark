@@ -1078,14 +1078,14 @@ export const guides: Guide[] = [
 		title: 'Dental Assistant Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median dental assistant salary at $47,300 a year. See the full wage range by percentile, by industry, and how it compares to a dental hygienist.',
 		published: '2026-08-06',
-		updated: '2026-08-06',
+		updated: '2026-08-27',
 		socCode: '31-9091',
 		coreSummary: 'The median annual wage for dental assistants was $47,300 in May 2024, according to the U.S. Bureau of Labor Statistics, close to the $49,500 median for all U.S. occupations that year. The bottom 10% earned less than $36,190, and the top 10% earned more than $61,780. Government employers paid the highest industry median at $53,660, while the large majority of dental assistants, who work in dentists\' offices, earned close to the occupation-wide median at $47,250.',
 		sections: [
 			{
 				heading: 'What dental assistants actually earn, by percentile',
 				body: [
-					'BLS tracks dental assistant pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The most recent published data, from May 2024, put median annual pay at $47,300, or $22.74 an hour. For context, BLS reports the median across all U.S. occupations that year at $49,500, so dental assistants earn close to, though slightly below, the broader labor-market median rather than sitting notably above or below it.',
+					'BLS tracks dental assistant pay through its Occupational Employment and Wage Statistics (OEWS) program. The program surveys employers directly instead of relying on workers to self-report their pay. The most recent published data, from May 2024, put median annual pay at $47,300, or $22.74 an hour. For context, BLS reports the median across all U.S. occupations that year at $49,500, so dental assistants earn close to, though slightly below, the broader labor-market median rather than sitting notably above or below it.',
 					'The bottom 10% of dental assistants earned less than $36,190 in May 2024, while the top 10% earned more than $61,780, a spread of roughly $25,590. That is a narrower dollar gap than several other occupations tracked on this site, including dental hygienists, whose 10th-to-90th-percentile spread runs from $66,470 to $120,060, more than double the assistant spread in dollar terms. Part of that difference traces to credentialing: dental assistants generally enter through one widely available path, either a certificate program of about a year or on-the-job training, so pay does not stretch as far based on additional formal education the way it can in fields with a licensed, degree-gated ceiling.',
 				],
 			},
@@ -1093,13 +1093,13 @@ export const guides: Guide[] = [
 				heading: 'Pay by industry and practice setting',
 				body: [
 					'BLS breaks out May 2024 dental assistant wages across three industry categories, fewer than it tracks for some other occupations on this site, reflecting how concentrated the role is in a single type of employer. Government employers, excluding state and local education and hospitals, paid the highest median at $53,660. Offices of dentists, the setting where BLS notes almost all dental assistants work, paid $47,250, essentially matching the occupation-wide median. Offices of physicians paid the least of the three tracked categories, at $46,170.',
-					'The gap between the highest- and lowest-paying tracked industries, about $7,490, is notably narrower than the roughly $12,020 industry gap this site\'s pharmacy technician salary guide reports for that occupation. Since the large majority of dental assistants work in dentists\' offices rather than government or physician settings, the industry breakdown matters less to a typical dental assistant\'s actual pay than it does for occupations spread more evenly across employer types.',
+					'The gap between the highest- and lowest-paying tracked industries, about $7,490, is notably narrower than the roughly $12,020 industry gap this site\'s pharmacy technician salary guide reports for that occupation. Since the large majority of dental assistants work in dentists\' offices, not in government or physician settings, the industry breakdown matters less to a typical dental assistant\'s actual pay than it does for occupations spread more evenly across employer types.',
 				],
 			},
 			{
 				heading: 'Job outlook: growth is real, but most openings come from turnover',
 				body: [
-					'BLS projects employment of dental assistants to grow 6% from 2024 to 2034, from 381,900 to 406,300 positions, which the agency classifies as faster than the average for all occupations. That is a net increase of 24,400 jobs over the decade. Separately, BLS projects about 52,900 average annual openings for the occupation once the decade is averaged out, a substantially larger number than the net growth figure, because most of those openings come from replacing assistants who transfer to other occupations or leave the labor force rather than from newly created positions.',
+					'BLS projects employment of dental assistants to grow 6% from 2024 to 2034, from 381,900 to 406,300 positions, which the agency classifies as faster than the average for all occupations. That is a net increase of 24,400 jobs over the decade. Separately, BLS projects about 52,900 average annual openings for the occupation once the decade is averaged out, a substantially larger number than the net growth figure. Most of those openings come from replacing assistants who transfer to other occupations or leave the labor force; relatively few come from newly created positions.',
 					'BLS attributes demand for the occupation to a few converging factors: ongoing research linking oral health to general health is increasing demand for preventive dental services, and dentists continue hiring assistants to handle routine tasks so practices can run more efficiently as they grow. An aging population, combined with more people keeping their natural teeth into later life than in previous generations, is also expected to keep demand for dental care, and the assistants who support it, elevated over the projection period.',
 				],
 			},
@@ -1130,7 +1130,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is dental assisting a growing occupation?',
-				answer: 'BLS projects 6% employment growth for dental assistants from 2024 to 2034, faster than the average for all occupations, adding a net 24,400 jobs. BLS separately projects about 52,900 average annual job openings once the decade is averaged out, though most of those openings come from replacing assistants who leave the occupation rather than from new positions.',
+				answer: 'BLS projects 6% employment growth for dental assistants from 2024 to 2034, faster than the average for all occupations, adding a net 24,400 jobs. BLS separately projects about 52,900 average annual job openings once the decade is averaged out. Most of those openings come from replacing assistants who leave the occupation, not from newly created positions.',
 			},
 		],
 		sources: [
