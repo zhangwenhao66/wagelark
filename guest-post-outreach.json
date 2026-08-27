@@ -183,5 +183,76 @@
     ],
     "actions_taken": "Verified 2 oldest unconfirmed 'pitch sent' entries (Good Professions, CareerBands, both 2026-08-04) against live publication — both still_pending, no evidence of a published post or backlink either way. Checked outreach-drafts.md for a guest-post-outreach-specific backlog — none found (found but correctly left alone 3 broken-link drafts belonging to a different task). Ran GSC, noted unused position-5-40 pages for future rounds. Researched new channels: found and drafted 1 viable pitch (CareerAddict), rejected 2 for quality/fit reasons (todaycut.com content-mill pattern, Admin Avenues audience mismatch), and found no broken-link opportunity on the .edu resource pages checked this round.",
     "result_summary": "Step B: both verified pitches still_pending (no publication evidence either way at 16 days; recommend re-check in 1-2 weeks). No current backlog. 1 new viable pitch researched and drafted (CareerAddict, lineman no-degree-trade wage-comparison angle) but not sent — left for independent review/send in a separate step, per this run's scope. No Owen escalation needed this round."
+  },
+  {
+    "date": "2026-08-27",
+    "site": "wagelark",
+    "niche_focus": "career/salary reference (BLS-sourced salary guides, career-combination pages, \"what does X do\", entry paths, minimum wage)",
+    "run_type": "trafficsite-guest-post-outreach weekly cycle",
+    "step_a_verification": [
+      {
+        "target": "Spark Hire Human Resources Blog (sparkhire.com), pitch sent 2026-08-06, Message ID 19fd72459ff13f57",
+        "verified_status": "still_pending",
+        "notes": "21 days silent, zero reply (gmail_send.py list --query 'from:sparkhire.com' empty). Verified no publication via curl on the site's own sitemap: hr.sparkhire.com (the subdomain named in the pitch) now 301-redirects to the marketing homepage — the blog has been restructured onto www.sparkhire.com/learn/ under new categories (candidate-experience, distributed-hiring, hiring-managers, hr-tech); the 'Best Hiring Practices' / 'Hiring and Recruiting Budget' categories referenced in the original pitch no longer exist. No pay/wage/compensation/credential post found anywhere in the current sitemap, no wagelark.com mention. dataforseo_query.py backlinks wagelark.com shows no sparkhire.com referring domain (only 4 unrelated low-quality domains: gunghapcafe.com, webmaster-philippines.com). Sent one follow-up nudge referencing the original pitch topic (PA/NP/pharmacist/CRNA credential-vs-pay comparison), dedup-checked clean, humanizer + avoid-ai-writing both passed with no changes needed. Sent via gmail_send.py send --from wagelark, Message ID 1a043441cb06ed44. followed_up_once: true."
+      },
+      {
+        "target": "Seminole State College Paralegal Studies Program Links page, broken-link pitch sent 2026-08-16, Message ID 1a009427d55ed3d5",
+        "verified_status": "still_pending",
+        "notes": "Ambiguity note: this entry originated as a trafficsite-broken-link-building pitch (per the 2026-08-16 guest-post-outreach.json entry's own caveat), but verified here since it lives in this same JSON file and no other task was tracking it. 11 days silent, zero reply (gmail_send.py list --query 'from:seminolestate.edu' empty). Verified via curl on the live page (seminolestate.edu/legal-assistant/links): the dead legalassistanttoday.com link is still present unchanged, no wagelark.com link added yet. Sent one follow-up nudge, dedup-checked clean, humanizer + avoid-ai-writing both passed with no changes needed. Sent via gmail_send.py send --from wagelark, Message ID 1a0434433de6af62. followed_up_once: true."
+      }
+    ],
+    "gsc_check": "python3 gsc_query.py wagelark: 28-day total 1 click / 7,288 impressions, avg position 17.1. Position 5-40 band pages not yet used as an outreach angle: nurse-practitioner-salary (692 impr, pos 11.2, highest-volume unused), electrician-salary (619 impr, pos 10.1), how-much-do-flight-attendants-make (581 impr, pos 11.9), welder-salary (373 impr, pos 9.6), plumbing-apprenticeship (244 impr, pos 21.2), respiratory-therapist-salary (157 impr, pos 18.8), pharmacy-technician-salary (105 impr, pos 30.6), air-traffic-controller-salary (103 impr, pos 20.7).",
+    "channels_researched": [
+      {
+        "name": "Nurse practitioner career blogs (general sweep)",
+        "url": "n/a — multiple WebSearch queries",
+        "status": "no genuine guest-post channel found",
+        "notes": "Only curated best-of listicles (nphub.com, littonresourcegroup.com) and journal manuscript submission (Journal for Nurse Practitioners, not a guest-post channel) surfaced. No open 'write for us' page found."
+      },
+      {
+        "name": "Ampkart / FreePress Directory / Business Leader Post / Electrically4u (electrician guest-post pages)",
+        "url": "e.g. https://www.ampkart.com/write-for-us/",
+        "status": "real but quality red flag — thin content mill, not pursued",
+        "notes": "All four match the previously-identified thin-content-mill / generic-SEO-marketing-niche pattern (same category as todaycut.com, Selecting Career from earlier rounds) — multi-topic guest-post acceptance with no distinct editorial identity."
+      },
+      {
+        "name": "Cape Fear Community College Welding Technology LibGuide",
+        "url": "https://libguides.cfcc.edu/c.php?g=321662&p=2151233",
+        "status": "dead link found but weak topical fit — not pursued",
+        "notes": "One confirmed dead link, forengineers.org (curl connection failure; WebSearch confirmed it's the old domain of the Welding Research Council). Original link context was welding research (fitness-for-service, weld crack prevention), not career/wage content — replacing it with a WageLark wage-data page would be a forced topical match. No other dead links found on the page."
+      },
+      {
+        "name": "Massasoit Community College Respiratory Care program page",
+        "url": "https://massasoit.edu/program/respiratory-care/",
+        "status": "no dead links found",
+        "notes": "Checked all 5 older http:// outbound links (aarc.org, msrcol.org, mass.gov, nbrc.org, coarc.com); all resolve (two returned 403 but dig confirmed both have live A records, i.e. WAF blocks not dead domains)."
+      },
+      {
+        "name": "Plumbing apprenticeship .edu program pages (general sweep)",
+        "url": "n/a — AACC, Kirkwood, Carroll CC, Hawkeye, Howard CC, Columbus State, MCC, CWI",
+        "status": "no viable broken-link opportunity found",
+        "notes": "None of the searched community college plumbing-apprenticeship pages have a dedicated external-links/resources list suitable for a broken-link check (they are program-description pages, not curated link lists like the UCF/CSRT/Seminole State precedents)."
+      },
+      {
+        "name": "The CFA Connection (corporate/private flight attendant career resource page)",
+        "url": "https://thecfaconnection.com/how-to-become-a-cfa",
+        "status": "dead link found but weak topical fit — not pursued",
+        "notes": "One confirmed dead link (a 2015 blogspot post, curl connection failure). Page's overall focus is corporate/private-jet flight attendant training and networking, not commercial-airline wage data — audience and topic mismatch judged too weak for WageLark's how-much-do-flight-attendants-make page (BLS commercial-airline wage data)."
+      },
+      {
+        "name": "SalaryFor.com",
+        "url": "https://salaryfor.com/",
+        "status": "no guest-post channel exists — not pursued",
+        "notes": "Self-reported salary/AdSense tool site (paycheck calculator, 401k calculator, etc.) directly adjacent to WageLark's niche. Checked homepage, About Us, and Contact Us pages — no 'write for us' or contribute page found anywhere."
+      },
+      {
+        "name": "Beyond Discovery Coaching",
+        "url": "https://www.beyonddiscoverycoaching.com/writewithus",
+        "status": "real but poor fit — paid for companies + format mismatch, not pursued",
+        "notes": "Real, active career-coaching blog with a genuine guest-post page. Two disqualifiers: (1) free only for individual freelancers, $25 USD for companies/organizations — WageLark would submit as a company/site, making this a paid-placement channel under this project's established no-buy-links policy; (2) guidelines explicitly want personal-narrative 'story to tell' content, not data/BLS-sourced pieces, an audience/format mismatch independent of the fee."
+      }
+    ],
+    "actions_taken": "Step A: verified 2 oldest un-verified 'pitch sent' entries (Spark Hire 21 days silent, Seminole State College 11 days silent), both still_pending with no publication/backlink evidence either way, sent one follow-up nudge each (both dedup-clean, both passed humanizer + avoid-ai-writing unchanged). Step B: pulled GSC data, identified unused position 5-40 pages for topic selection. Step D: researched 8 distinct channels/pages across 4 unused GSC topics (nurse practitioner, electrician, flight attendant, welder/plumbing trades) plus a general career-blog sweep; all rejected (thin content mill, paid placement, weak topical fit, or no channel exists) or dead-ended (no dead links found). No viable new guest-post or broken-link target found this round.",
+    "result_summary": "Step A: 2 follow-up nudges sent (Spark Hire Message ID 1a043441cb06ed44, Seminole State College Message ID 1a0434433de6af62), both targets remain still_pending, no further follow-up permitted to either. Step D: no viable new target found after checking 8 channels — logged as a fine and expected outcome per task instructions. No pitch drafted or sent for a new channel this round. No Owen escalation needed — all rejections fall within already-established policy (paid placement, content-mill pattern, weak topical fit, no channel exists), not judgment calls requiring Owen's input."
   }
 ]

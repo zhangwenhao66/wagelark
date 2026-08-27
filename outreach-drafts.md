@@ -539,4 +539,56 @@ A table with fifty state links makes three dead ones easy to miss, so I wanted t
 Owen Zhang
 contact@wagelark.com
 
+---
+
+## 2026-08-27 — trafficsite-guest-post-outreach weekly cycle
+
+### Follow-up nudge A: Spark Hire HR Blog (original pitch 2026-08-06, Message ID 19fd72459ff13f57)
+
+21 days silent, zero reply (`gmail_send.py list --query "from:sparkhire.com"` empty). Verified no publication: `hr.sparkhire.com` (the subdomain named in the original pitch) now 301-redirects to the marketing homepage — the blog has been restructured onto `www.sparkhire.com/learn/` under new category names (candidate-experience, distributed-hiring, hiring-managers, hr-tech), and the "Best Hiring Practices" / "Hiring and Recruiting Budget" categories referenced in the pitch no longer exist in the site's current sitemap. Checked full sitemap for any pay/wage/compensation/credential post — none found; no wagelark.com mention anywhere in the sitemap. `dataforseo_query.py backlinks wagelark.com` shows no sparkhire.com referring domain. Classified `still_pending` (company is real/active, but the specific blog structure it was pitched to has since changed). Sent one follow-up nudge, non-templated, referencing the original topic:
+
+Subject: Following up: BLS guest post idea
+
+Hi Crystal,
+
+Checking back on the guest post idea I sent a few weeks ago, comparing pay across roles that require the same credential level (PAs vs. NPs, pharmacists vs. CRNAs) using BLS data. No worries if the timing or angle isn't right for Best Hiring Practices or Hiring and Recruiting Budget right now. If a different comp-benchmarking angle would fit better, happy to adjust and send something more targeted.
+
+Owen Zhang
+contact@wagelark.com
+wagelark.com
+
+Dedup confirmed clean before sending (`gmail_send.py list --query "to:cdetemple@sparkhire.com"` showed only the original 8/6 email, no reply). Passed humanizer + avoid-ai-writing (no changes needed, already clean). Sent via `gmail_send.py send --from wagelark`, Message ID `1a043441cb06ed44`. `followed_up_once: true` — no further follow-up permitted.
+
+### Follow-up nudge B: Seminole State College Paralegal Studies Links page (original pitch 2026-08-16, Message ID 1a009427d55ed3d5)
+
+11 days silent, zero reply (`gmail_send.py list --query "from:seminolestate.edu"` empty). Verified via curl on the live page (`seminolestate.edu/legal-assistant/links`): the dead `legalassistanttoday.com` link is still present, unchanged, no wagelark.com link added. Classified `still_pending`. Sent one follow-up nudge:
+
+Subject: Following up: broken Legal Assistant Today link
+
+Hi Julianna,
+
+Following up on the note I sent a couple of weeks ago about the Legal Assistant Today link on your Paralegal Studies Program Links page. It still doesn't resolve (legalassistanttoday.com). No pressure either way, but the wagelark.com paralegal wage page is still there as an option if it's useful whenever you get around to updating that list.
+
+Owen Zhang
+contact@wagelark.com
+
+Dedup confirmed clean (`gmail_send.py list --query "to:grootj@seminolestate.edu"` showed only the original 8/16 email). Passed humanizer + avoid-ai-writing (no changes needed). Sent via `gmail_send.py send --from wagelark`, Message ID `1a0434433de6af62`. `followed_up_once: true` — no further follow-up permitted.
+
+### Step D research: no viable new target found this round
+
+GSC (28-day, 2026-07-27 to 2026-08-24): 1 click / 7,288 impressions, avg position 17.1. Position 5-40 band pages not yet used as an outreach angle: nurse-practitioner-salary (692 impr, pos 11.2 — highest volume unused), electrician-salary (619 impr, pos 10.1), how-much-do-flight-attendants-make (581 impr, pos 11.9), welder-salary (373 impr, pos 9.6), plumbing-apprenticeship (244 impr, pos 21.2), respiratory-therapist-salary (157 impr, pos 18.8), pharmacy-technician-salary (105 impr, pos 30.6), air-traffic-controller-salary (103 impr, pos 20.7).
+
+Channels researched, all rejected or dead-ended:
+
+1. **Nurse practitioner career blogs** — WebSearch for "write for us" NP/nursing career blogs surfaced only curated best-of listicles (nphub.com, littonresourcegroup.com) and journal manuscript submission (Journal for Nurse Practitioners, not a guest-post channel), no genuine open guest-post page found.
+2. **Electrician trade "write for us" pages** — Ampkart, FreePress Directory, Business Leader Post, Electrically4u all matched the previously-identified thin-content-mill / SEO-marketing-niche pattern (generic multi-topic guest-post acceptance, no real editorial identity), same category as todaycut.com/Selecting Career from earlier rounds. Not pursued.
+3. **Welding LibGuide broken-link scan** — checked Cape Fear Community College's Welding Technology LibGuide (`libguides.cfcc.edu`) outbound link list. Found one genuinely dead link, forengineers.org (curl connection failure + confirmed via WebSearch it's the Welding Research Council's old domain), but the link's original context was welding *research* content (fitness-for-service, weld crack prevention), not career/wage information — replacing a technical-research link with a wage-data page would be a forced topical match, so not pursued. No other dead links found on the page.
+4. **Respiratory therapy program resource page** — Massasoit Community College's Respiratory Care program page; checked all 5 older `http://` outbound links (aarc.org, msrcol.org, mass.gov, nbrc.org, coarc.com); all resolve (two 403s confirmed via `dig` to be WAF blocks, not dead domains). No opportunity.
+5. **Plumbing apprenticeship .edu pages** — searched multiple community college program pages (AACC, Kirkwood, Carroll CC, Hawkeye, Howard CC, Columbus State, MCC, CWI); none surfaced a dedicated external-links/resources page suitable for a broken-link check (these are program-description pages, not curated link lists like the successful UCF/CSRT/Seminole State precedents).
+6. **Flight attendant career resources — CFA Connection** (thecfaconnection.com/how-to-become-a-cfa) — found one genuinely dead link (a 2015 blogspot post, confirmed via curl connection failure), but the page's overall focus is corporate/private-jet flight attendant training and networking, not commercial-airline wage data — topical fit judged too weak (private-aviation niche audience, page isn't about pay), and the dead link itself wasn't wage-related. Not pursued.
+7. **SalaryFor.com** — a self-reported salary/AdSense tool site (paycheck calculator, 401k calculator, etc.) directly adjacent to WageLark's niche; no "write for us"/contribute page found anywhere on the site (checked homepage, About Us, Contact Us). Not pursued — no channel exists.
+8. **Beyond Discovery Coaching** (beyonddiscoverycoaching.com/writewithus) — real, active career-coaching blog with a genuine guest-post page, but two disqualifiers: (a) free only for "individual freelancers," **$25 USD for companies/organizations** — WageLark would be submitting as a company, so this is a paid-placement channel under this project's established no-buy-links policy; (b) guidelines explicitly want personal-narrative "story to tell" content, not data/BLS-sourced pieces — audience/format mismatch even setting the fee aside. Not pursued.
+
+No viable guest-post or broken-link target found this round after checking 8 distinct channels/pages across 4 of the unused GSC topics (nurse practitioner, electrician, flight attendant, welder/plumbing trades) plus a general career-blog sweep. No pitch drafted, nothing sent this round beyond the two Step A follow-up nudges above. No Owen escalation needed — all rejections fall within already-established policy (paid placement, content-mill pattern, weak topical fit, no channel exists), not judgment calls requiring Owen's input.
+
 **Status: 已发送。** 负责本站的子agent在spawn独立复核agent后自身线程提前结束（未等复核完成就以"completed"状态返回，未执行发送），草稿滞留PENDING INDEPENDENT REVIEW。上层编排会话按全局CLAUDE.md"独立agent卡死"看门狗协议接手，未等待其自行spawn的复核子agent（当时仍在运行），改由上层会话自己逐项独立核实：三条死链三解析器交叉验证（alaskacrna.com解析但落WP Engine未配置页、arcrnas.com/ricrna.com均无A/NS记录，均属实）、guides.ts的crna-salary条目数字逐字核对（$223,210中位数/9%增长/DNP-DNAP博士学位要求，均属实非编造）、`gmail_send.py list`分别查`to:mdixon@kmgnet.com`/`to:kmgnet.com`/`to:fana.org`均为空、grep全矩阵outreach-drafts.md/broken-link-outreach-log.md未发现此前联系过该组织或这三个域名、文本无破折号无AI高频词无"No obligation either way"模板句。核实通过后代为执行发送，收件人mdixon@kmgnet.com，`gmail_send.py send --from wagelark`，Message ID `1a03e422e3c8e238`。
