@@ -266,5 +266,16 @@
       "https://wagelark.com/how-long-does-it-take-to-become-a-lawyer/"
     ],
     "quota_used": 1
+  },
+  {
+    "date": "2026-08-28",
+    "action": "submitted",
+    "reason": "今日随机休息未发布新文章（R=0）。改用build-index-queue.py队列取代理值最高候选ultrasound-tech-salary，URL Inspection确认未收录，REQUEST INDEXING提交成功。第二轮遍历时提交队列次高候选veterinary-technician-salary，同样确认未收录后提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/ultrasound-tech-salary/",
+      "https://wagelark.com/veterinary-technician-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
