@@ -1295,5 +1295,104 @@
 }
 ```
 
+```json
+{
+  "url_slug": "medical-assistant-salary",
+  "last_audited": "2026-08-28",
+  "published_date": "2026-08-06",
+  "note": "读content-audit-log.md确认17条已记录审计，56篇文章里39篇从未审计过，按'未审计优先'规则取数组顺序第一篇medical-assistant-salary（第1143行）",
+  "diagnosed_checkpoints": [
+    "median/10th/90th百分位薪资数字（$44,200/$35,020/$57,830）是否与BLS当前公开数据一致，数据年份是否已过时",
+    "4项行业细分薪资数字",
+    "就业增长率/净增岗位数/年均开缺数字口径",
+    "与physician-assistant-salary/dental-assistant-salary的交叉比较数字（含'全站最大净增'这类站内排名式表述）",
+    "'多数州无需执照'这条执照类断言是否有独立信源支持（唯一sources[]的BLS OOH页面不讨论执照）"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性/时效性",
+      "status": "确认发现问题，已修复",
+      "detail": "curl直连（带声明联系方式UA）bls.gov/ooh/healthcare/medical-assistants.htm返回200（未被限流），发现BLS该职业页面已从May 2024刷新为May 2025数据（2025-35就业预测周期）：median $44,200→$45,690、hourly $21.25→$21.97、10th $35,020→$36,050、90th $57,830→$59,310、4项行业中位数(outpatient care centers $47,560→$48,560/hospitals $45,930→$46,910/offices of physicians $43,880→$45,520/offices of other health practitioners $37,510→$38,400)、employment 811,000→833,900、增长率12%→13%、净增101,200→107,600、年均开缺112,300→109,700。全部旧数字与当前BLS公开数据不一致。"
+    },
+    {
+      "dimension": "事实准确性（站内排名式最高级断言）",
+      "status": "确认发现问题，已修复",
+      "detail": "正文'a larger absolute gain than any other occupation currently covered on this site'（净增jobs数为全站之最）经独立agent枚举guides.ts全部56篇文章引用的SOC码、在wages-source.json核对employmentChange字段后判定为假：Software Developers(267,600)/Registered Nurses(166,100)/Financial Managers(128,800)/Nurse Practitioners(128,400，被两篇文章引用)均高于本文数字（不论新旧），本文实际排全站第6位。该断言从publish即存在，从未被真正核实过。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS并标注数据年份，sources字段有明确URL+访问方式+数据年份标注。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现新问题（沿用站级既有结论）",
+      "detail": "本文medical assistant vs. physician assistant/dental assistant交叉比较构成真实增量价值，与本站其余salary guide同模板页面已确立的'BLS州级数据仅提供XLSX/JS查询工具、当前工具集无法逐条核验'结论一致，未做不安全的州级数字补充。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "title 71字符含品牌后缀、meta description 156字符（区间内）、canonical自引用、单一h1、schema含Article/FAQPage/BreadcrumbList/Dataset/WebPage/Organization/ImageObject、sitemap-0.xml含本文URL、lastmod正确更新。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "粗估达标",
+      "detail": "与同模板pharmacist-salary/dental-hygienist-salary/actuary-salary历次审计约89/99水平一致，未发现新的薄弱维度，未重新逐项打分。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "确认发现问题，已修复",
+      "detail": "published=2026-08-06，早于avoid-ai-writing 2026-08-07接入1天，触发本维度。'rather than'命中4次，命中L-0820-2已知复发模式（第8次复发）。Skill(humanizer)/Skill(avoid-ai-writing) detect模式复扫全文，除'rather than'密度外未发现其他P0/P1级AI写作特征（无em dash、无AI高频词、无chatbot artifact、无copula avoidance问题）。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources仅1条外部引用（BLS OOH页面），curl直连200可访问，内容与本文引用（更新后）一致。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "Salary Guide分类24篇文章，live页面'More in Salary Guide'侧栏正常轮转展示同类文章链接，非孤儿页。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题（修复后）",
+      "detail": "wages-source.json更新后node build-wage-data.mjs重新生成bls-wages.ts，[slug].astro的Dataset schema/统计卡片/图表均从同一数据源渲染，built HTML grep确认新数字全部正确渲染、旧数字完全消失，无字段级不一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面实测免责声明存在，正文/FAQ通读未发现收入承诺式表述、培训机构推荐或个性化职业建议。'多数州无需执照，部分州对扩展职责单独要求认证'这条断言经独立agent WebSearch核实（WA州DOH/AAMA/research.com等独立信源）判定CONFIRMED，含WA州要求州注册这一次要caveat但整体判断成立，未改动。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "确认发现问题，已修复",
+      "detail": "generate-charts.mjs重新生成全部46张图表（仅medical-assistant-salary-chart.svg实际因数据变化而改变），新图表数字（36,050/45,690/59,310）与正文数字逐字一致，em dash计数0。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "ads.txt实测'google.com, pub-5245502795720653, DIRECT, f08c47fec0942fa0'账号ID正确；正文无收入承诺/误导性框架；robots.txt正确allow全部AI爬虫。"
+    }
+  ],
+  "actions_taken": [
+    "wages-source.json更新31-9092全部字段为May 2025数据；node build-wage-data.mjs重新生成bls-wages.ts；wages-source.test.mjs同步更新该条目独立硬编码spot-check断言（注释同步说明改为直连curl，本次未被403）",
+    "generate-charts.mjs重新生成图表（仅medical-assistant-salary-chart.svg实际变化）",
+    "guides.ts更新description/coreSummary/4个section/5条FAQ/sources访问日期/imageAlt的全部数字；dental-assistant-salary交叉比较句差额同步调整（$3,100→$1,610）并注明两站数据来自不同刷新周期",
+    "删除未经验证的'全站最大净增'超级claim句，改为只陈述净增数字，未替换为新的未验证排名表述",
+    "'rather than'改写2处降至2次（复用dental-assistant-salary审计已验证过的改写句式）",
+    "npm test（wages-source.test.mjs）62/62全绿；npm run build 64页全部生成无报错",
+    "python3 seo_drift.py baseline/compare：修改前存档，部署后对比仅报2条WARNING（schema内容变化+meta description数字变化），均为预期内编辑，无CRITICAL",
+    "commit 8048b97 push成功，Cloudflare Pages Git自动部署（本仓库无deploy hook），绕缓存轮询2次（间隔20秒）后确认200且新数字全部渲染",
+    "node tools/submit-indexnow.mjs /medical-assistant-salary/ 提交，Bing 200 / Yandex 200",
+    "内容发布日志.md已追加本次审计记录；内容通用教训库.md L-0820-2条目已追加'复发'行，并新增L-0828-2条目记录'站内排名式最高级断言'这一新的可泛化教训"
+  ],
+  "independent_verification": "spawn 3个全新独立agent（均后台异步，30-77秒完成，均未卡死，无需启动看门狗降级流程）：①BLS数据刷新——CONFIRMED，独立curl重新核对新数字逐字一致；②'全站最大净增'超级claim——CONFIRMED，独立解析guides.ts+wages-source.json列出5篇反例；③执照类断言——CONFIRMED（WA州次要caveat，整体判断成立）。仅对①②两条CONFIRMED的发现采取修复行动。",
+  "seo_score": "技术项全部通过，无变化",
+  "geo_score": "粗估约89/99（与同模板页面一致水平），未重新逐项打分",
+  "escalation": null
+}
+```
+
 ## 2026-08-28 CTR抢救审计（top15页面标题优化，Owen批准的一次性专项）
 依据：8/28 全矩阵体检——本站 7 个页面排名 8-12 但四周点击近零，且 5 页共用同一标题骨架"X Salary: BLS Wage Data by Percentile (2026)"（无数字钩子+轻度模板指纹）。本次把各页 BLS 中位数（取自页面自身已核实数据，非新增数字）放进 title 并差异化句式：flight-attendants/radiology-tech/electrician/welder/pharmacist/nurse-practitioner/actuary 共 7 页，正文与 description 未动。观察点：2-4 周后 site-search-opportunity-refresh 复查这批页的 CTR 与排名（若排名下滑>5位需回滚该页标题）。⚠️ 标题含 (2026)：2027 年年度刷新时需同步更新。
