@@ -3,9 +3,12 @@ import { SITE_TITLE } from '../consts';
 const year = new Date().getFullYear();
 ---
 
-<footer class="bg-[var(--navy-deep)]">
-	<div class="mx-auto max-w-5xl px-4 py-9 text-sm text-white/70">
-		<p class="m-0 max-w-2xl text-[0.8rem] leading-relaxed text-white/50">
+<footer class="border-t-[3px] border-double border-[var(--navy)] bg-[var(--navy-deep)]">
+	<div class="mx-auto max-w-4xl px-4 py-9 text-sm text-white/70">
+		<p class="font-mono-figures m-0 mb-5 text-[0.62rem] tracking-[0.16em] uppercase text-white/70">
+			{SITE_TITLE} · Salary &amp; occupation data · Source: U.S. Bureau of Labor Statistics
+		</p>
+		<p class="m-0 max-w-2xl text-[0.8rem] leading-relaxed text-white/60">
 			Wage and employment figures on {SITE_TITLE} come from the U.S. Bureau of Labor Statistics (BLS)
 			Occupational Employment and Wage Statistics program and Occupational Outlook Handbook, both public
 			domain U.S. government data. Every figure is labeled with its data year and links to the source page.

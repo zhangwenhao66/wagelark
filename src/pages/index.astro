@@ -1,89 +1,149 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { guides, wageDataFor, type GuideCategory } from '../data/guides';
+import { guides, wageDataFor, type Guide } from '../data/guides';
 
-const sorted = [...guides].sort((a, b) => b.updated.localeCompare(a.updated));
-const latest = sorted[0];
+// 2020s BLS/SOC major-group names (2018 SOC structure) for the groups that
+// actually appear in our data. Real taxonomy -- do not invent entries.
+const SOC_MAJOR_GROUPS: Record<string, string> = {
+	'11': 'Management Occupations',
+	'13': 'Business and Financial Operations Occupations',
+	'15': 'Computer and Mathematical Occupations',
+	'17': 'Architecture and Engineering Occupations',
+	'19': 'Life, Physical, and Social Science Occupations',
+	'21': 'Community and Social Service Occupations',
+	'23': 'Legal Occupations',
+	'25': 'Educational Instruction and Library Occupations',
+	'27': 'Arts, Design, Entertainment, Sports, and Media Occupations',
+	'29': 'Healthcare Practitioners and Technical Occupations',
+	'31': 'Healthcare Support Occupations',
+	'33': 'Protective Service Occupations',
+	'35': 'Food Preparation and Serving Related Occupations',
+	'37': 'Building and Grounds Cleaning and Maintenance Occupations',
+	'39': 'Personal Care and Service Occupations',
+	'41': 'Sales and Related Occupations',
+	'43': 'Office and Administrative Support Occupations',
+	'45': 'Farming, Fishing, and Forestry Occupations',
+	'47': 'Construction and Extraction Occupations',
+	'49': 'Installation, Maintenance, and Repair Occupations',
+	'51': 'Production Occupations',
+	'53': 'Transportation and Material Moving Occupations',
+};
 
-const PILLARS: { category: GuideCategory; path: string; deck: string }[] = [
-	{
-		category: 'Salary Guide',
-		path: '/salary-guides/',
-		deck: 'What the job actually pays, by percentile, straight from BLS wage surveys.',
-	},
-	{
-		category: 'Career Guide',
-		path: '/career-guides/',
-		deck: 'What the work involves day to day, and where the pay comes from.',
-	},
-	{
-		category: 'How to Become',
-		path: '/how-to-become/',
-		deck: 'The real education and certification path, not the shortcut version.',
-	},
-];
+interface Row {
+	guide: Guide;
+	/** Real figure only: BLS median from the guide's wage entry, else the first
+	 * dollar figure already present in the description. Never invented. */
+	figure?: string;
+	figureNote?: string;
+}
 
-const byPillar = PILLARS.map((p) => ({
-	...p,
-	items: sorted.filter((g) => g.category === p.category).slice(0, 3),
-}));
+function rowFor(guide: Guide): Row {
+	const wage = wageDataFor(guide);
+	if (wage) {
+		return {
+			guide,
+			figure: `$${wage.medianAnnual.toLocaleString('en-US')}`,
+			figureNote: '/yr median',
+		};
+	}
+	const m = guide.description.match(/\$\d[\d,]*(?:\.\d+)?/);
+	return m ? { guide, figure: m[0] } : { guide };
+}
+
+const byMajor = new Map<string, Row[]>();
+for (const g of guides) {
+	const major = g.socCode?.slice(0, 2) ?? 'other';
+	if (!byMajor.has(major)) byMajor.set(major, []);
+	byMajor.get(major)!.push(rowFor(g));
+}
+const groupSections = [...byMajor.entries()]
+	.sort(([a], [b]) => a.localeCompare(b))
+	.map(([code, rows]) => ({
+		code,
+		name: SOC_MAJOR_GROUPS[code] ?? 'Other Occupations',
+		rows: rows.sort((a, b) => a.guide.title.localeCompare(b.guide.title)),
+	}));
+
+const latest = [...guides].sort((a, b) => b.updated.localeCompare(a.updated))[0];
+const bulletinNo = latest.updated.slice(0, 7).replace('-', '.');
+const occupationCount = new Set(guides.map((g) => g.socCode).values()).size;
+const counts = {
+	'Salary Guide': guides.filter((g) => g.category === 'Salary Guide').length,
+	'Career Guide': guides.filter((g) => g.category === 'Career Guide').length,
+	'How to Become': guides.filter((g) => g.category === 'How to Become').length,
+};
 ---
 
 <Layout>
-	<section class="pt-4 pb-14 md:pt-8">
-		<h1 class="max-w-3xl text-4xl leading-[1.12] font-bold tracking-tight text-[var(--navy)] md:text-5xl">
+	<!-- Bulletin head -->
+	<section class="rule-double pt-5">
+		<p class="font-mono-figures m-0 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 text-[0.68rem] tracking-[0.14em] uppercase text-[var(--ink-soft)]">
+			<span>Occupational wage bulletin</span>
+			<span>No. {bulletinNo}</span>
+		</p>
+		<h1 class="mt-4 mb-0 text-3xl leading-[1.1] font-bold tracking-tight text-[var(--navy)] md:text-4xl">
 			What jobs actually pay, sourced from the U.S. government.
 		</h1>
-		<p class="mt-5 max-w-xl text-[1.02rem] leading-relaxed text-[var(--ink)]/60">
+		<p class="mt-4 mb-0 max-w-2xl text-[0.98rem] leading-relaxed text-[var(--ink-soft)]">
 			Every wage figure on this site comes from BLS occupational wage surveys, not self-reported
 			salary sites, labeled with its data year and linked back to the source.
 		</p>
-		{latest && (
-			<a href={`/${latest.slug}/`} class="latest mt-8 inline-block max-w-xl border-l-2 border-[var(--teal)] pl-4 no-underline">
-				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-[var(--teal-dark)]">Latest</p>
-				<p class="latest-title m-0 mt-1 text-[1.2rem] leading-snug font-bold text-[var(--navy)]">{latest.title}</p>
-			</a>
-		)}
+		<p class="font-mono-figures mt-5 mb-0 border-t border-[var(--rule)] pt-3 text-[0.68rem] leading-relaxed tracking-[0.08em] uppercase text-[var(--ink-mute)]">
+			{guides.length} reports · {occupationCount} occupations · Source: U.S. Bureau of Labor Statistics (OEWS / OOH) · Updated {latest.updated}
+		</p>
+		<p class="mt-2 mb-0 border-b border-[var(--rule)] pb-3 text-[0.85rem] text-[var(--ink-soft)]">
+			Sections:
+			<a href="/salary-guides/" class="font-medium text-[var(--teal-dark)] no-underline hover:underline">Salary Guides ({counts['Salary Guide']})</a>
+			<span aria-hidden="true"> · </span>
+			<a href="/career-guides/" class="font-medium text-[var(--teal-dark)] no-underline hover:underline">Career Guides ({counts['Career Guide']})</a>
+			<span aria-hidden="true"> · </span>
+			<a href="/how-to-become/" class="font-medium text-[var(--teal-dark)] no-underline hover:underline">How to Become ({counts['How to Become']})</a>
+		</p>
 	</section>
 
-	{byPillar.map((p) => (
-		<section class="mb-14 last:mb-0">
-			<div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-b border-[var(--rule)] pb-3">
-				<h2 class="m-0 text-[1.5rem] font-bold tracking-tight text-[var(--navy)]">{p.category === 'Salary Guide' ? 'Salary Guides' : p.category === 'Career Guide' ? 'Career Guides' : 'How to Become'}</h2>
-				<a href={p.path} class="text-sm font-medium text-[var(--teal-dark)] no-underline hover:underline">
-					See all
-				</a>
+	<!-- Grouped report body: one section per SOC major group -->
+	{groupSections.map((group) => (
+		<section class="mt-10">
+			<div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-b-2 border-[var(--navy)] pb-2">
+				<span class="font-mono-figures text-[0.72rem] font-semibold tracking-[0.08em] text-[var(--teal-dark)]">{group.code}-0000</span>
+				<h2 class="m-0 text-[1.15rem] leading-snug font-bold tracking-tight text-[var(--navy)]">{group.name}</h2>
+				<span class="font-mono-figures ml-auto text-[0.68rem] uppercase tracking-[0.1em] text-[var(--ink-mute)]">
+					{group.rows.length} {group.rows.length === 1 ? 'report' : 'reports'}
+				</span>
 			</div>
-			<p class="mt-2 mb-0 max-w-xl text-[0.95rem] leading-relaxed text-[var(--ink)]/60">{p.deck}</p>
-
-			{p.items.length > 0 ? (
-				<div class="mt-6 grid gap-x-8 gap-y-6 sm:grid-cols-3">
-					{p.items.map((g) => {
-						const wage = wageDataFor(g);
-						return (
-							<a href={`/${g.slug}/`} class="entry block border border-[var(--rule)] bg-white p-4 no-underline">
-								{wage && (
-									<p class="font-mono-figures m-0 text-lg font-bold text-[var(--teal-dark)]">${wage.medianAnnual.toLocaleString('en-US')}<span class="text-xs font-normal text-[var(--ink)]/40">/yr median</span></p>
-								)}
-								<p class="entry-title m-0 mt-1.5 text-[1.0rem] leading-snug font-bold text-[var(--navy)]">{g.title}</p>
-								<p class="m-0 mt-1.5 text-sm leading-relaxed text-[var(--ink)]/60">{g.description}</p>
-							</a>
-						);
-					})}
-				</div>
-			) : (
-				<p class="mt-6 mb-0 text-sm text-[var(--ink)]/45">
-					Nothing published here yet. <a href={p.path} class="text-[var(--teal-dark)] underline underline-offset-2">See what this section covers</a>.
-				</p>
-			)}
+			<div class="group-ticks mt-2" aria-hidden="true">
+				{group.rows.map(() => <span></span>)}
+			</div>
+			<div class="mt-1 flex flex-col">
+				{group.rows.map(({ guide, figure, figureNote }) => (
+					<a href={`/${guide.slug}/`} class="row flex flex-wrap items-baseline justify-between gap-x-6 gap-y-0.5 border-b border-[var(--rule)] py-3 no-underline last:border-b-0">
+						<span class="min-w-0 flex-1 basis-56">
+							<span class="row-title block text-[0.96rem] leading-snug font-semibold text-[var(--navy)]">{guide.title}</span>
+							<span class="mt-0.5 block text-[0.72rem] uppercase tracking-[0.08em] text-[var(--ink-mute)]">{guide.category}</span>
+						</span>
+						{figure && (
+							<span class="font-mono-figures shrink-0 text-[1.15rem] font-bold whitespace-nowrap text-[var(--teal-dark)]">
+								{figure}{figureNote && <span class="text-[0.68rem] font-normal text-[var(--ink-mute)]"> {figureNote}</span>}
+							</span>
+						)}
+					</a>
+				))}
+			</div>
 		</section>
 	))}
+
+	<p class="rule-double mt-12 mb-0 pt-3 text-[0.78rem] leading-relaxed text-[var(--ink-mute)]">
+		Figures shown are BLS median annual wages for the occupation each report covers, national,
+		latest published survey year; see each report for percentiles, industry breakdowns, and data year.
+	</p>
 </Layout>
 
 <style>
-	.latest:hover .latest-title,
-	.entry:hover .entry-title {
+	.row:hover .row-title {
 		text-decoration: underline;
 		text-underline-offset: 3px;
+	}
+	.row:hover {
+		background: #ffffff;
 	}
 </style>

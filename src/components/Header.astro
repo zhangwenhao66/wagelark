@@ -1,9 +1,16 @@
 ---
 import { SITE_TITLE } from '../consts';
+const seriesYear = new Date().getFullYear();
 ---
 
 <header class="border-b border-[var(--rule)] bg-[var(--paper)]">
-	<nav class="mx-auto flex h-16 max-w-5xl items-center justify-between gap-2 px-4">
+	<div class="border-b border-[var(--rule)]">
+		<div class="font-mono-figures mx-auto flex max-w-4xl items-center justify-between gap-3 px-4 py-1.5 text-[0.62rem] tracking-[0.14em] uppercase text-[var(--ink-soft)]">
+			<span class="truncate">U.S. salary &amp; occupation data · BLS sourced</span>
+			<span class="shrink-0">Ser. {seriesYear}</span>
+		</div>
+	</div>
+	<nav class="mx-auto flex h-16 max-w-4xl items-center justify-between gap-2 px-4">
 		<a href="/" class="flex shrink-0 items-center gap-2 no-underline" aria-label={`${SITE_TITLE} home`}>
 			<svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
 				<rect x="3" y="14" width="4" height="7" rx="0.75" fill="var(--teal)" opacity="0.55"/>

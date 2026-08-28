@@ -44,6 +44,14 @@ const breadcrumbItems = [
 
 const usd = (n: number) => `$${n.toLocaleString('en-US')}`;
 
+// "Key figures" treatment: wrap every numeric token in the (unchanged)
+// coreSummary text with a span that renders it in enlarged tabular mono.
+// Markup-only emphasis -- the visible text stays byte-identical.
+const escapeHtml = (s: string) =>
+	s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const highlightFigures = (s: string) =>
+	escapeHtml(s).replace(/\$?\d(?:[\d,]*\d)?(?:\.\d+)?%?/g, (m) => `<span class="kf">${m}</span>`);
+
 function md(text: string): string {
 	return text
 		.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
@@ -95,15 +103,20 @@ import { imgDims } from '../data/imageDims';
 	)}
 
 	<div class="mx-auto max-w-[720px]">
-		<nav class="mb-5 flex flex-wrap items-center gap-1.5 text-sm text-[var(--ink)]/50">
+		<nav class="mb-5 flex flex-wrap items-center gap-1.5 text-sm text-[var(--ink-mute)]">
 			<a href="/" class="no-underline hover:text-[var(--teal-dark)] hover:underline">Home</a>
 			<span>/</span>
 			<a href={catPath} class="no-underline hover:text-[var(--teal-dark)] hover:underline">{guide.category}</a>
 		</nav>
-		<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-[var(--teal-dark)]">{guide.category}</p>
-		<h1 class="mt-3 text-3xl leading-[1.15] font-bold text-[var(--navy)] md:text-4xl">{guide.title}</h1>
-		<p class="mt-4 text-lg leading-relaxed text-[var(--ink)]/70">{guide.description}</p>
-		<p class="mt-4 mb-0 text-xs text-[var(--ink)]/45">Last updated {guide.updated}{wage && ` · Wage data: ${wage.dataYear} (BLS)`}</p>
+		<div class="rule-double pt-4">
+			<p class="font-mono-figures m-0 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 text-[0.66rem] tracking-[0.13em] uppercase text-[var(--ink-soft)]">
+				<span class="text-[var(--teal-dark)] font-semibold">{guide.category}</span>
+				{guide.socCode && <span>SOC {guide.socCode}</span>}
+			</p>
+			<h1 class="mt-3 text-3xl leading-[1.15] font-bold text-[var(--navy)] md:text-4xl">{guide.title}</h1>
+			<p class="mt-4 text-lg leading-relaxed text-[var(--ink-soft)]">{guide.description}</p>
+			<p class="font-mono-figures mt-4 mb-0 border-t border-[var(--rule)] pt-2.5 text-[0.68rem] uppercase tracking-[0.08em] text-[var(--ink-mute)]">Last updated {guide.updated}{wage && ` · Wage data: ${wage.dataYear} (BLS)`}</p>
+		</div>
 
 		{guide.image && (
 			<figure class="m-0 mt-8">
@@ -111,24 +124,24 @@ import { imgDims } from '../data/imageDims';
 						width={imgDims(guide.image)?.w}
 						height={imgDims(guide.image)?.h}
 					/>
-				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(guide.imageCredit)} />}
+				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink-mute)]" set:html={md(guide.imageCredit)} />}
 			</figure>
 		)}
 
-		<div class="callout mt-9 pl-5">
-			<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Core summary</p>
-			<p class="mt-2 mb-0 text-[1.05rem] leading-relaxed text-[var(--ink)]">{guide.coreSummary}</p>
+		<div class="rule-double mt-9 border-b border-[var(--rule)] bg-white px-5 pt-4 pb-5">
+			<p class="font-mono-figures m-0 text-[0.68rem] font-semibold uppercase tracking-[0.13em] text-[var(--ink-soft)]">Key figures</p>
+			<p class="mt-2.5 mb-0 text-[1.05rem] leading-[1.9] text-[var(--ink)]" set:html={highlightFigures(guide.coreSummary)} />
 		</div>
 
 		{wage && percentileRows.length > 0 && (
-			<div class="mt-9 border border-[var(--rule)] bg-white p-5">
-				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">
+			<div class="mt-9 border border-[var(--rule)] bg-white">
+				<p class="m-0 bg-[var(--navy)] px-5 py-2.5 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-white">
 					{wage.title}: Annual Wage by Percentile ({wage.dataYear}, U.S. national)
 				</p>
-				<div class="mt-4 flex flex-col gap-2.5">
+				<div class="mt-4 flex flex-col gap-2.5 px-5">
 					{percentileRows.map(([label, value]) => (
 						<div class="flex items-center gap-3">
-							<span class="w-32 shrink-0 text-xs text-[var(--ink)]/60">{label}</span>
+							<span class="w-32 shrink-0 text-xs text-[var(--ink-soft)]">{label}</span>
 							<div class="h-4 flex-1 bg-[var(--panel)]">
 								<div class="h-4 bg-[var(--teal)]" style={`width:${Math.max(4, (value / maxWage) * 100)}%`}></div>
 							</div>
@@ -136,7 +149,7 @@ import { imgDims } from '../data/imageDims';
 						</div>
 					))}
 				</div>
-				<p class="mt-4 mb-0 text-xs text-[var(--ink)]/45">
+				<p class="mt-4 mb-0 px-5 pb-5 text-xs text-[var(--ink-mute)]">
 					Source: <a href={wage.sourceUrl} target="_blank" rel="noopener noreferrer" class="text-[var(--teal-dark)] no-underline hover:underline">{wage.sourceLabel}</a>, {wage.dataYear}.
 				</p>
 			</div>
@@ -145,41 +158,48 @@ import { imgDims } from '../data/imageDims';
 		{wage && <SalaryPercentileTool wage={wage} />}
 
 		{wage && wage.industryWages.length > 0 && (
-			<div class="mt-6 border border-[var(--rule)] bg-white p-5">
-				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Median Annual Wage by Industry ({wage.dataYear})</p>
-				<div class="mt-3 flex flex-col">
-					{wage.industryWages.map((iw) => (
-						<div class="flex items-center justify-between border-b border-[var(--rule)] py-2 text-sm last:border-b-0">
-							<span class="text-[var(--ink)]/75">{iw.industry}</span>
-							<span class="font-mono-figures font-semibold text-[var(--navy)]">{usd(iw.annualWage)}</span>
-						</div>
-					))}
-				</div>
+			<div class="mt-6 overflow-x-auto border border-[var(--rule)] bg-white">
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th scope="col">Industry ({wage.dataYear})</th>
+							<th scope="col" class="num">Median annual wage</th>
+						</tr>
+					</thead>
+					<tbody>
+						{wage.industryWages.map((iw) => (
+							<tr>
+								<td>{iw.industry}</td>
+								<td class="num">{usd(iw.annualWage)}</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
 			</div>
 		)}
 
 		{wage && (
 			<div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-				<div class="border border-[var(--rule)] bg-white p-3">
-					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Jobs ({wage.employmentYear})</p>
+				<div class="border border-[var(--rule)] border-t-2 border-t-[var(--navy)] bg-white p-3">
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink-mute)]">Jobs ({wage.employmentYear})</p>
 					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">{wage.employment.toLocaleString('en-US')}</p>
 				</div>
-				<div class="border border-[var(--rule)] bg-white p-3">
-					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Outlook ({wage.projectionPeriod})</p>
+				<div class="border border-[var(--rule)] border-t-2 border-t-[var(--navy)] bg-white p-3">
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink-mute)]">Outlook ({wage.projectionPeriod})</p>
 					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">{wage.jobOutlookPct}%</p>
 				</div>
-				<div class="border border-[var(--rule)] bg-white p-3">
-					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Employment change</p>
+				<div class="border border-[var(--rule)] border-t-2 border-t-[var(--navy)] bg-white p-3">
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink-mute)]">Employment change</p>
 					<p class="font-mono-figures m-0 mt-1 text-lg font-bold text-[var(--navy)]">{wage.employmentChange >= 0 ? '+' : ''}{wage.employmentChange.toLocaleString('en-US')}</p>
 				</div>
-				<div class="border border-[var(--rule)] bg-white p-3">
-					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink)]/45">Typical entry education</p>
+				<div class="border border-[var(--rule)] border-t-2 border-t-[var(--navy)] bg-white p-3">
+					<p class="m-0 text-[0.65rem] uppercase tracking-wide text-[var(--ink-mute)]">Typical entry education</p>
 					<p class="m-0 mt-1 text-sm font-bold leading-snug text-[var(--navy)]">{wage.entryEducation}</p>
 				</div>
 			</div>
 		)}
 		{wage && wage.employmentIsGroupLevel && (
-			<p class="mt-2 mb-0 text-xs text-[var(--ink)]/45">
+			<p class="mt-2 mb-0 text-xs text-[var(--ink-mute)]">
 				Jobs, outlook, and typical entry education above cover the combined BLS occupation group, not {wage.title} specifically; BLS does not publish these four figures broken out by title on this page.
 			</p>
 		)}
@@ -195,7 +215,7 @@ import { imgDims } from '../data/imageDims';
 						width={imgDims(section.image.src)?.w}
 						height={imgDims(section.image.src)?.h}
 					/>
-							{section.image.credit && <figcaption class="mt-2 text-xs text-[var(--ink)]/45" set:html={md(section.image.credit)} />}
+							{section.image.credit && <figcaption class="mt-2 text-xs text-[var(--ink-mute)]" set:html={md(section.image.credit)} />}
 						</figure>
 					)}
 				</section>
@@ -204,12 +224,12 @@ import { imgDims } from '../data/imageDims';
 
 		{guide.faq && guide.faq.length > 0 && (
 			<div class="mt-9">
-				<h2 class="mb-4 text-xl font-bold text-[var(--navy)]">Frequently asked questions</h2>
+				<h2 class="mb-4 border-b-2 border-[var(--navy)] pb-2 text-xl font-bold text-[var(--navy)]">Frequently asked questions</h2>
 				<div class="flex flex-col">
 					{guide.faq.map((item) => (
 						<div class="border-b border-[var(--rule)] py-4 first:pt-0 last:border-b-0">
-							<p class="m-0 font-semibold text-[var(--ink)]">{item.question}</p>
-							<p class="mt-2 mb-0 text-sm leading-relaxed text-[var(--ink)]/65" set:html={md(item.answer)} />
+							<p class="m-0 font-semibold text-[var(--navy)]">{item.question}</p>
+							<p class="mt-2 mb-0 text-sm leading-relaxed text-[var(--ink-soft)]" set:html={md(item.answer)} />
 						</div>
 					))}
 				</div>
@@ -217,50 +237,51 @@ import { imgDims } from '../data/imageDims';
 		)}
 
 		{guide.sources && guide.sources.length > 0 && (
-			<div class="mt-9 border-t border-[var(--ink)] pt-4">
-				<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">Sources</p>
-				<ul class="mt-2 mb-0 list-none pl-0 text-sm text-[var(--ink)]/65">
+			<div class="rule-double mt-9 pt-4">
+				<p class="font-mono-figures m-0 text-[0.68rem] font-semibold uppercase tracking-[0.13em] text-[var(--ink-soft)]">Sources</p>
+				<ul class="mt-2 mb-0 list-none pl-0 text-sm text-[var(--ink-soft)]">
 					{guide.sources.map((s) => (
-						<li class="py-1"><a href={s.url} target="_blank" rel="noopener noreferrer" class="text-[var(--ink)]/70 no-underline hover:text-[var(--ink)] hover:underline">{s.label}</a></li>
+						<li class="py-1"><a href={s.url} target="_blank" rel="noopener noreferrer" class="text-[var(--ink-soft)] no-underline hover:text-[var(--ink)] hover:underline">{s.label}</a></li>
 					))}
 				</ul>
 			</div>
 		)}
 
-		<div class="mt-6 border-l-2 border-[var(--amber)] bg-[var(--panel)] py-3 pl-4 text-xs leading-relaxed text-[var(--ink)]/60">
+		<div class="mt-6 border-l-2 border-[var(--amber)] bg-[var(--panel)] py-3 pr-3 pl-4 text-xs leading-relaxed text-[var(--ink-soft)]">
 			This page reports government wage statistics for informational purposes. It is not personalized career, financial, or legal advice, and does not endorse or recommend any specific employer, school, or training program.
 		</div>
 
 		{related.length > 0 && (
 			<div class="mt-10">
-				<h3 class="mb-3.5 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--ink)]/45">More in {guide.category}</h3>
+				<h3 class="mb-3.5 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 border-b-2 border-[var(--navy)] pb-2 text-xs font-semibold uppercase tracking-[0.1em] text-[var(--ink-soft)]">
+					<span>Related occupation data</span>
+					<span class="font-mono-figures font-normal text-[var(--ink-mute)]">More in {guide.category}</span>
+				</h3>
 				<div class="flex flex-col">
-					{related.map((g) => (
-						<a href={`/${g.slug}/`} class="item border-b border-[var(--rule)] py-3 no-underline first:pt-0 last:border-b-0">
-							<p class="m-0 text-[0.9375rem] font-semibold leading-snug text-[var(--ink)] hover:underline">{g.title}</p>
-						</a>
-					))}
+					{related.map((g) => {
+						const rw = wageDataFor(g);
+						return (
+							<a href={`/${g.slug}/`} class="item flex flex-wrap items-baseline justify-between gap-x-6 gap-y-0.5 border-b border-[var(--rule)] py-3 no-underline first:pt-0 last:border-b-0">
+								<p class="m-0 min-w-0 flex-1 basis-56 text-[0.9375rem] font-semibold leading-snug text-[var(--navy)] hover:underline">{g.title}</p>
+								{rw && (
+									<span class="font-mono-figures shrink-0 text-[0.95rem] font-bold whitespace-nowrap text-[var(--teal-dark)]">
+										${rw.medianAnnual.toLocaleString('en-US')}<span class="text-[0.65rem] font-normal text-[var(--ink-mute)]"> /yr median</span>
+									</span>
+								)}
+							</a>
+						);
+					})}
 				</div>
 			</div>
 		)}
 
-		<div class="mt-10 border-t border-[var(--rule)] pt-6 text-sm text-[var(--ink)]/55">
-			<p class="m-0">Written and edited by <a href="/about/" class="text-[var(--ink)]/70 no-underline hover:text-[var(--ink)] hover:underline">{AUTHOR_NAME}</a></p>
+		<div class="mt-10 border-t border-[var(--rule)] pt-6 text-sm text-[var(--ink-mute)]">
+			<p class="m-0">Written and edited by <a href="/about/" class="text-[var(--ink-soft)] no-underline hover:text-[var(--ink)] hover:underline">{AUTHOR_NAME}</a></p>
 		</div>
 	</div>
 </Layout>
 
 <style>
-	.callout {
-		position: relative;
-	}
-	.callout::before {
-		content: '';
-		position: absolute;
-		left: 0; top: 0.2em; bottom: 0.2em;
-		width: 4px;
-		background: var(--teal);
-	}
 	.item {
 		display: block;
 		transition: padding-left 0.15s ease;

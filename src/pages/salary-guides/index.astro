@@ -9,15 +9,20 @@ const categoryGuides = guides.filter((g) => g.category === 'Salary Guide');
 	title="Salary Guides"
 	description="What jobs actually pay, by percentile, sourced from U.S. Bureau of Labor Statistics wage surveys, not self-reported salary sites."
 >
-	<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-[var(--teal-dark)]">Section</p>
-	<h1 class="mt-2 text-3xl font-bold text-[var(--navy)] md:text-4xl">Salary Guides</h1>
-	<p class="mt-3 max-w-2xl text-lg text-[var(--ink)]/60">
+	<div class="rule-double pt-4">
+		<p class="font-mono-figures m-0 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 text-[0.68rem] tracking-[0.14em] uppercase text-[var(--ink-soft)]">
+			<span class="text-[var(--teal-dark)] font-semibold">Section</span>
+			<span>{categoryGuides.length} {categoryGuides.length === 1 ? 'report' : 'reports'}</span>
+		</p>
+		<h1 class="mt-3 mb-0 text-3xl font-bold text-[var(--navy)] md:text-4xl">Salary Guides</h1>
+		<p class="mt-3 mb-0 max-w-2xl border-b border-[var(--rule)] pb-4 text-lg text-[var(--ink-soft)]">
 		Every figure here comes from BLS employer wage surveys, broken out by percentile so you can see
 		the full range, not just an average.
-	</p>
+		</p>
+	</div>
 
 	{categoryGuides.length === 0 ? (
-		<p class="mt-10 text-sm text-[var(--ink)]/40">Guides in this section are coming soon.</p>
+		<p class="mt-10 text-sm text-[var(--ink-mute)]">Guides in this section are coming soon.</p>
 	) : (
 		<div class="mt-10 flex flex-col">
 			{categoryGuides.map((g) => {
@@ -26,7 +31,7 @@ const categoryGuides = guides.filter((g) => g.category === 'Salary Guide');
 					<a href={`/${g.slug}/`} class="item flex items-baseline justify-between gap-4 border-b border-[var(--rule)] py-5 no-underline first:pt-0">
 						<div>
 							<p class="m-0 text-lg font-bold leading-snug text-[var(--navy)] hover:underline">{g.title}</p>
-							<p class="m-0 mt-1.5 text-sm text-[var(--ink)]/55">{g.description}</p>
+							<p class="m-0 mt-1.5 text-sm text-[var(--ink-soft)]">{g.description}</p>
 						</div>
 						{wage && (
 							<p class="font-mono-figures m-0 shrink-0 text-lg font-bold whitespace-nowrap text-[var(--teal-dark)]">${wage.medianAnnual.toLocaleString('en-US')}</p>

@@ -19,6 +19,10 @@
 	--teal-dark: #0b675e;
 	--amber: #b8842a;
 	--panel: #eeece3;
+	/* Solid secondary-text tokens (replace opacity-blended grays that dipped
+	 * below 4.5:1 on --paper). --ink-soft ~8.4:1, --ink-mute ~5.3:1 on paper. */
+	--ink-soft: #3f4a55;
+	--ink-mute: #5b6570;
 }
 
 body {
@@ -26,6 +30,7 @@ body {
 	color: var(--ink);
 	font-family: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', 'Noto Sans SC', sans-serif;
 	overflow-x: clip;
+	border-top: 3px solid var(--teal);
 }
 
 .font-mono-figures {
@@ -41,4 +46,78 @@ body {
 	margin-inline: auto;
 	max-width: 64rem;
 	padding-inline: 1rem;
+}
+
+/*
+ * "Statistical bulletin" layout language (2026-08 reskin).
+ * The page reads like a government wage bulletin: fine double rules,
+ * grouped report sections, and large tabular-mono figure excerpts.
+ */
+
+/* Fine double rule, the bulletin's signature horizontal. */
+.rule-double {
+	border-top: 3px double var(--navy);
+}
+
+/* Key-figure emphasis inside running text: numbers set in tabular mono,
+ * slightly larger than surrounding prose. Markup-only -- the text itself
+ * is untouched. */
+.kf {
+	font-family: 'Roboto Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
+	font-variant-numeric: tabular-nums;
+	font-weight: 700;
+	font-size: 1.18em;
+	color: var(--teal-dark);
+}
+
+/* Bulletin data table: deep-navy header band, white header text,
+ * right-aligned tabular numerals in .num columns. */
+.data-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.9rem;
+}
+.data-table thead th {
+	background: var(--navy);
+	color: #ffffff;
+	text-align: left;
+	font-weight: 600;
+	font-size: 0.7rem;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	padding: 0.55rem 0.75rem;
+}
+.data-table tbody td {
+	border-bottom: 1px solid var(--rule);
+	padding: 0.6rem 0.75rem;
+	color: var(--ink-soft);
+}
+.data-table tbody tr:last-child td {
+	border-bottom: none;
+}
+.data-table th.num,
+.data-table td.num {
+	text-align: right;
+	font-family: 'Roboto Mono Variable', ui-monospace, 'SF Mono', Menlo, monospace;
+	font-variant-numeric: tabular-nums;
+}
+.data-table td.num {
+	font-weight: 600;
+	color: var(--navy);
+}
+
+/* Equal-width tick strip under group headings. Purely decorative "data
+ * texture": one tick per entry in the group (a real count), all ticks the
+ * same width so no invented proportions are implied. */
+.group-ticks {
+	display: flex;
+	gap: 3px;
+}
+.group-ticks span {
+	width: 13px;
+	height: 4px;
+	background: var(--teal);
+}
+.group-ticks span:nth-child(2n) {
+	opacity: 0.55;
 }

@@ -9,20 +9,25 @@ const categoryGuides = guides.filter((g) => g.category === 'How to Become');
 	title="How to Become"
 	description="The real education, certification, and licensing path into a career, sourced from BLS and the relevant credentialing bodies."
 >
-	<p class="m-0 text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-[var(--teal-dark)]">Section</p>
-	<h1 class="mt-2 text-3xl font-bold text-[var(--navy)] md:text-4xl">How to Become</h1>
-	<p class="mt-3 max-w-2xl text-lg text-[var(--ink)]/60">
+	<div class="rule-double pt-4">
+		<p class="font-mono-figures m-0 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 text-[0.68rem] tracking-[0.14em] uppercase text-[var(--ink-soft)]">
+			<span class="text-[var(--teal-dark)] font-semibold">Section</span>
+			<span>{categoryGuides.length} {categoryGuides.length === 1 ? 'report' : 'reports'}</span>
+		</p>
+		<h1 class="mt-3 mb-0 text-3xl font-bold text-[var(--navy)] md:text-4xl">How to Become</h1>
+		<p class="mt-3 mb-0 max-w-2xl border-b border-[var(--rule)] pb-4 text-lg text-[var(--ink-soft)]">
 		The actual path in: degree or certificate, licensing exams, and how long it typically takes.
-	</p>
+		</p>
+	</div>
 
 	{categoryGuides.length === 0 ? (
-		<p class="mt-10 text-sm text-[var(--ink)]/40">Guides in this section are coming soon.</p>
+		<p class="mt-10 text-sm text-[var(--ink-mute)]">Guides in this section are coming soon.</p>
 	) : (
 		<div class="mt-10 flex flex-col">
 			{categoryGuides.map((g) => (
 				<a href={`/${g.slug}/`} class="item border-b border-[var(--rule)] py-5 no-underline first:pt-0">
 					<p class="m-0 text-lg font-bold leading-snug text-[var(--navy)] hover:underline">{g.title}</p>
-					<p class="m-0 mt-1.5 text-sm text-[var(--ink)]/55">{g.description}</p>
+					<p class="m-0 mt-1.5 text-sm text-[var(--ink-soft)]">{g.description}</p>
 				</a>
 			))}
 		</div>
