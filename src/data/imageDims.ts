@@ -91,6 +91,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/funeral-director-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/hvac-certification-path.svg": {
   "h": 380,
   "w": 640

@@ -272,22 +272,25 @@ test('spot check: Dental Assistants (31-9091) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages.length, 3);
 });
 
-// Hand-transcribed from a Wayback Machine snapshot (2026-06-29) of the live
-// bls.gov OOH page on 2026-08-06 -- curl 403s on bls.gov directly, and the
-// snapshot's own "Last modified date: August 28, 2025" matches the same
-// data-freshness date as every other spot check in this file, confirming it
-// reflects the same May 2024 data cycle as a direct fetch would. Independent
-// of wages-source.json's own numbers -- do not derive these from the source
+// Re-verified 2026-08-28 (trafficsite-content-quality-audit) via a direct
+// curl fetch of the live bls.gov OOH page with a descriptive User-Agent
+// (`curl -A "Mozilla/5.0 (Research; contact: 0009888@gmail.com)" ...`) --
+// this returned HTTP 200, not the 403 the 2026-08-06 write-up hit, so this
+// is a direct fetch, not a Wayback snapshot. BLS had refreshed this specific
+// occupation page from May 2024 to May 2025 data (2025-2035 projections) by
+// this date; a second, fully independent sub-agent re-fetched the same URL
+// separately and confirmed every figure below verbatim. Independent of
+// wages-source.json's own numbers -- do not derive these from the source
 // file.
 test('spot check: Medical Assistants (31-9092) matches BLS OOH page', () => {
 	const occ = occupations['31-9092'];
-	assert.equal(occ.medianAnnual, 44200);
-	assert.equal(occ.medianHourly, 21.25);
-	assert.equal(occ.percentiles.p10, 35020);
-	assert.equal(occ.percentiles.p90, 57830);
-	assert.equal(occ.employment, 811000);
-	assert.equal(occ.jobOutlookPct, 12);
-	assert.equal(occ.employmentChange, 101200);
+	assert.equal(occ.medianAnnual, 45690);
+	assert.equal(occ.medianHourly, 21.97);
+	assert.equal(occ.percentiles.p10, 36050);
+	assert.equal(occ.percentiles.p90, 59310);
+	assert.equal(occ.employment, 833900);
+	assert.equal(occ.jobOutlookPct, 13);
+	assert.equal(occ.employmentChange, 107600);
 	assert.equal(occ.industryWages.length, 4);
 });
 

@@ -763,41 +763,41 @@
     },
     "31-9092": {
       "title": "Medical Assistants",
-      "medianAnnual": 44200,
-      "medianHourly": 21.25,
+      "medianAnnual": 45690,
+      "medianHourly": 21.97,
       "percentiles": {
-        "p10": 35020,
-        "p90": 57830
+        "p10": 36050,
+        "p90": 59310
       },
-      "employment": 811000,
-      "employmentYear": "2024",
-      "jobOutlookPct": 12,
+      "employment": 833900,
+      "employmentYear": "2025",
+      "jobOutlookPct": 13,
       "jobOutlookLabel": "Much faster than average",
-      "employmentChange": 101200,
-      "projectionPeriod": "2024-34",
+      "employmentChange": 107600,
+      "projectionPeriod": "2025-35",
       "entryEducation": "Postsecondary nondegree award",
       "industryWages": [
         {
           "industry": "Outpatient care centers",
-          "annualWage": 47560
+          "annualWage": 48560
         },
         {
           "industry": "Hospitals; state, local, and private",
-          "annualWage": 45930
+          "annualWage": 46910
         },
         {
           "industry": "Offices of physicians",
-          "annualWage": 43880
+          "annualWage": 45520
         },
         {
           "industry": "Offices of other health practitioners",
-          "annualWage": 37510
+          "annualWage": 38400
         }
       ],
-      "dataYear": "May 2024",
+      "dataYear": "May 2025",
       "sourceLabel": "BLS Occupational Outlook Handbook: Medical Assistants",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/medical-assistants.htm",
-      "publishedDate": "2025-08-28"
+      "publishedDate": "2026-08-28"
     },
     "31-1131": {
       "title": "Nursing Assistants",
