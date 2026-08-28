@@ -1,35 +1,53 @@
 {
   "quora": [
     {
+      "date": "2026-08-04",
+      "site": null,
       "target_page": "radiology-tech-salary",
       "question_url": "https://www.quora.com/What-is-the-average-yearly-salary-of-a-radiology-tech",
+      "question_title": null,
       "answer_url": "https://www.quora.com/What-is-the-average-yearly-salary-of-a-radiology-tech/answer/Owen-Zhang-161",
-      "date": "2026-08-04"
+      "status": null,
+      "notes": null
     },
     {
+      "date": "2026-08-09",
+      "site": null,
       "target_page": "air-traffic-controller-salary",
       "question_url": "https://www.quora.com/What-is-the-starting-salary-of-an-air-traffic-controller-Are-the-salaries-the-same-for-an-air-traffic-controller-for-a-small-airport-versus-a-large-one",
+      "question_title": null,
       "answer_url": "https://www.quora.com/What-is-the-starting-salary-of-an-air-traffic-controller-Are-the-salaries-the-same-for-an-air-traffic-controller-for-a-small-airport-versus-a-large-one/answer/Owen-Zhang-161",
-      "date": "2026-08-09"
+      "status": null,
+      "notes": null
     },
     {
+      "date": "2026-08-16",
+      "site": null,
       "target_page": "how-to-become-an-electrician",
       "question_url": "https://www.quora.com/What-is-the-process-of-becoming-an-electrical-apprentice-How-long-does-it-typically-take-to-get-hired-after-applying-for-an-electrician-apprenticeship",
+      "question_title": null,
       "answer_url": "https://www.quora.com/What-is-the-process-of-becoming-an-electrical-apprentice-How-long-does-it-typically-take-to-get-hired-after-applying-for-an-electrician-apprenticeship/answer/Owen-Zhang-161",
-      "date": "2026-08-16"
+      "status": null,
+      "notes": null
     },
     {
+      "date": "2026-08-18",
+      "site": null,
       "target_page": "pharmacy-technician-salary",
       "question_url": "https://www.quora.com/How-much-money-do-pharmacy-technicians-make-compared-to-pharmacists",
+      "question_title": null,
       "answer_url": "https://www.quora.com/How-much-money-do-pharmacy-technicians-make-compared-to-pharmacists/answer/Owen-Zhang-161",
-      "date": "2026-08-18",
+      "status": null,
       "notes": "发布时该问题0答案（2条折叠垃圾答案不计）。以站内pharmacy-technician-salary文章骨架撰写（BLS 2024年5月数据：药房技术员中位年薪$43,460/时薪$20.90，10-90分位$35,100-$59,450，跨度约$24,350；按行业细分门诊医疗服务最高$49,920，零售药房最低$37,900）。额外用WebSearch核实站内原文没有的对照数据：药剂师中位年薪$137,480(超技术员3倍)，10-90分位$86,930-$172,040(跨度超$85,000，超技术员跨度3倍以上)，用于回答问题本身'与药剂师相比'的核心对照点。过humanizer+avoid-ai-writing双重检查。用Add Link功能插入真实超链接，发布前/后均用javascript_tool核实DOM为真实<a href>。"
     },
     {
       "date": "2026-08-21",
+      "site": "wagelark.com",
       "target_page": "https://wagelark.com/how-to-become-a-psychologist/",
-      "question_url": "https://www.quora.com/What-do-you-think-of-an-industrial-organizational-practitioner-Do-you-think-a-PhD-is-now-required-to-work-in-the-corporate-world-or-a-masters-degree-in-the-I-O-program-is-enough/answer/Owen-Zhang-161",
+      "question_url": "https://www.quora.com/What-do-you-think-of-an-industrial-organizational-practitioner-Do-you-think-a-PhD-is-now-required-to-work-in-the-corporate-world-or-a-masters-degree-in-the-I-O-program-is-enough",
       "question_title": "What do you think of an industrial-organizational practitioner? Do you think a PhD is now required to work in the corporate world or a master's degree in the I-O program is enough?",
+      "answer_url": "https://www.quora.com/What-do-you-think-of-an-industrial-organizational-practitioner-Do-you-think-a-PhD-is-now-required-to-work-in-the-corporate-world-or-a-masters-degree-in-the-I-O-program-is-enough/answer/Owen-Zhang-161",
+      "status": null,
       "notes": "发布时该问题有5个真实答案，全部是从业者个人印象/经验之谈，没有一条引用权威政府数据源，判定为真实内容空白值得补充，按SKILL.md放宽标准使用，回答中明确点名回应两位既有答主(Ed Weinstein/T.L. Brink)的说法与BLS官方口径一致。以站内文章骨架撰写(Per BLS，工业组织心理学家是心理学职业里少数typically只需硕士学位即可入行的细分方向，跟typically需要Ph.D.或Psy.D.的临床/咨询心理学家不同；BLS明确列出该方向对应课程为统计学、研究设计、以及人与工作场所关系)，未编造或引用任何I-O细分方向的具体薪资数字(站内文章的$94,310中位数是19-3030大类整体口径，非I-O细分口径，本次回答未混用以免误导，符合本站YMYL-adjacent纪律：只给BLS数据不做超出数据本身的断言)。已过humanizer+avoid-ai-writing双重检查(无破折号、无AI高频词、无vague endorsement，初稿'Worth adding'已改写为直接陈述)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向how-to-become-a-psychologist页面,全程只填URL字段。已直接发布成功(非Space类问题)，发布前用javascript_tool核实编辑器DOM中该span确实是class=\"span link\"(非link_pending)，发布后再次核实渲染页面DOM中确实是<a href>真实超链接指向https://wagelark.com/how-to-become-a-psychologist/,锚文本为here。"
     }
   ],
