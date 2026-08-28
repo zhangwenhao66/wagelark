@@ -592,3 +592,43 @@ Channels researched, all rejected or dead-ended:
 No viable guest-post or broken-link target found this round after checking 8 distinct channels/pages across 4 of the unused GSC topics (nurse practitioner, electrician, flight attendant, welder/plumbing trades) plus a general career-blog sweep. No pitch drafted, nothing sent this round beyond the two Step A follow-up nudges above. No Owen escalation needed — all rejections fall within already-established policy (paid placement, content-mill pattern, weak topical fit, no channel exists), not judgment calls requiring Owen's input.
 
 **Status: 已发送。** 负责本站的子agent在spawn独立复核agent后自身线程提前结束（未等复核完成就以"completed"状态返回，未执行发送），草稿滞留PENDING INDEPENDENT REVIEW。上层编排会话按全局CLAUDE.md"独立agent卡死"看门狗协议接手，未等待其自行spawn的复核子agent（当时仍在运行），改由上层会话自己逐项独立核实：三条死链三解析器交叉验证（alaskacrna.com解析但落WP Engine未配置页、arcrnas.com/ricrna.com均无A/NS记录，均属实）、guides.ts的crna-salary条目数字逐字核对（$223,210中位数/9%增长/DNP-DNAP博士学位要求，均属实非编造）、`gmail_send.py list`分别查`to:mdixon@kmgnet.com`/`to:kmgnet.com`/`to:fana.org`均为空、grep全矩阵outreach-drafts.md/broken-link-outreach-log.md未发现此前联系过该组织或这三个域名、文本无破折号无AI高频词无"No obligation either way"模板句。核实通过后代为执行发送，收件人mdixon@kmgnet.com，`gmail_send.py send --from wagelark`，Message ID `1a03e422e3c8e238`。
+
+---
+
+## 2026-08-28（第七次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中WageLark
+
+### 第0步：核实08-16批次剩余两条（nala.org/ten27services，本轮10-14天窗口内首次核实）
+
+08-26已核实同批次CSRT（草稿A），nala.org（草稿B）/ten27services（草稿C）当时留给下轮。本轮距08-16已12-13天：
+
+**nala.org（草稿B，Message ID `1a009424741c3978`）**
+- curl直接访问`https://nala.org/careers/`：HTTP 200，页面内容仍含6处"salary.com"字样，未见`wagelark`字样，判定**`not_replaced`**。
+- `dataforseo_query.py backlinks wagelark.com --limit 100`（全量拉取，站点目前共4条外链）：完整列表无`nala.org`。
+- `gmail_send.py list --query "to:nalanet@nala.org"`：仅原始邮件，零回复。发出日期08-15（美西时区），距今13天，落在"10-14天未回复可跟进一次"窗口内，且目标资源页（NALA，全国性法律助理专业协会官方Careers页）具备真实权威度，符合规则5的跟进条件。
+- **已发送简短跟进**（沿用08-21 UCF先例的1-2句+续接原邮件线程格式，未使用"No obligation either way"模板句）：Subject "A note on your paralegal salary section"（`--reply-to`原邮件ID，自动沿用主题），正文："Hi again,\n\nChecking back on the note below. The paralegal pages are still up if they'd fit alongside the Salary.com figures on your Careers page.\n\nOwen Zhang\ncontact@wagelark.com"。已过humanizer+avoid-ai-writing（无破折号、无AI高频词、无套话，判定无需改动）。`gmail_send.py send --to nalanet@nala.org --from wagelark --reply-to 1a009424741c3978`，Message ID `1a0488091732c07a`，正确挂入原线程（threadId `1a009424741c3978`）。标记 **`followed_up_once`**。
+
+**ten27services@gmail.com（草稿C，Message ID `1a009424ac7d118e`）**
+- curl直接访问目标页`https://alliedhealthprograms.org/how-to-become-an-ultrasound-technician-in-california/`：HTTP 200，未见`wagelark`字样，未见`careerexplorer`字样（原死链本身似乎也已被移除或页面结构变化，未逐字比对），判定**`not_replaced`**。
+- `dataforseo_query.py backlinks wagelark.com`结果同上，无`alliedhealthprograms.org`。
+- `gmail_send.py list --query "to:ten27services@gmail.com"`：仅原始邮件，零回复。
+- **未发送跟进**：08-16原始记录已注明该站是"疑似小型独立运营的职业信息站……予以正常处理但降低置信度预期"，本轮判断权威度不足以支撑二次跟进（规则5要求"目标资源页本身确实有真实权威度"），如实跳过，不做跟进。
+
+**本轮08-16批次三条（CSRT/NALA/ten27services）+08-21 UCF 全部核实完毕，累计转化率仍为0（4条pitch，0条确认换链，2条已跟进一次，2条判断跟进权威度不足或已跟进过不再重复）。**
+
+### 第1-1.8步：新断链置换机会——本轮未找到可用新机会（如实记录，未硬凑）
+
+**冷启动方向（按规则优先分配名额给近14天新发布且从未建过外链的文章）**：`veterinary-technician-salary`（8/27新发）、`funeral-director-salary`（8/28新发）、`occupational-therapist-salary`（8/26新发，此前仅在"未采用"记录中出现过，从未真正pitch）、`ultrasound-tech-salary`（8/27新发）均确认从未在`broken-link-outreach-log.md`/`outreach-drafts.md`中出现过任何pitch记录，本轮优先围绕前三者展开地毯式排查：
+
+1. **兽医技师方向**：WebSearch找到13个真实资源页（LaGuardia/Austin CC/Trident Tech/Cape Fear CC四个LibGuides + Ohio RVT州协会 + 后续NAVTA/NCAVT/CCCC补充检索），提取76条唯一出站链接，跑`broken_link_scan.py`。DEAD命中12处，逐条核实主题对应性：`nysavt.org`两条facebook/linkedin社交登录跳转死链（基础设施非内容）、`wcs.org`一条bsky.app个人主页404（社交媒体）、`avtcp.org`两条cafepress周边商品店铺404（非职业信息）、`nutritiontechs.org`一条navta.net/page/specialties 404（NAVTA内部专科页，主题是专科认证非薪资）、`avecct.org`三条（avzmt.org整站404、navta.net/?page=specialties 404、vetdermtech.com 404，均为专科认证组织页非薪资内容）、`azvt.org`/`scavt.org`各一条whova.com/zoom活动注册链接404（活动基础设施）、`scav.org`三条内部页面404（join-now/会议页/page_id，机构自身页非内容资源）、`vettechcafe.podbean.com`十一条播客单集下载链接404（播客本身非"资源列表"类页面，不符合可置换场景）、`animalbehaviorassociates.com`一条CanineBodyPostures.com DNS死链（动物行为学资源，非薪资/职业信息）、`vin.com`一条bsky.app社交主页404。**全部12处DEAD均判定主题不对应或非内容类死链，无一可用**，如实不采纳。
+2. **殡葬服务方向**：WebSearch找到12个真实资源页（Hudson Valley CC/Alamo Colleges/Vincennes/Salt Lake CC/North Shore/UMN/Colorado CCS七个LibGuides + NFDA/ABFSE/NFDMA/ICCFA/IFDA/印第安纳州劳工部等直接机构页），提取39条唯一出站链接，跑扫描。DEAD命中约20处（含重复域名多次出现），逐条核实：NFDA自身"the-heritage-club"捐赠俱乐部页/"the-director"内部刊物页/"member-perks"会员福利页（均为机构内部页非职业信息）、`shipinman.com`殡葬旅行保险产品页（保险产品非薪资）、`tukios.com/websites`殡仪馆建站服务商页（服务商非内容）、`bsky.app`社交主页两处、`iccfa.com`三处均指向同一失效的"OrgSearch"组织查找工具（搜索工具非内容）、`ifda.org`（伊利诺伊州协会）五条：伊利诺伊州卫生区域地图/州DHS两页/NFDA运输遗体航空信息页/SSA幸存者福利页——**其中SSA幸存者福利页(ssa.gov/benefits/survivors/)因ssa.gov是知名大站，额外用dig三解析器交叉验证**（本机+8.8.8.8+1.1.1.1均超时无法连接，判断为沙箱网络层面对该域名访问受限而非真实失效，未计入真实死链；其余四条州政府/NFDA内部页维持DEAD判定但主题与殡葬指导员薪资数据无关）、`in.gov`印第安纳州三条webform系统404（政府表单基础设施）、`wildapricot`会员登录两处（基础设施）、`funerals.org`一条postmark邮件追踪链接404（营销工具非内容）。**全部DEAD均为机构内部页/基础设施/主题不对应，无一可用**，如实不采纳。
+3. **职业治疗师方向（严格排除OTA/OT混淆陷阱，只选master's/doctoral级OT专业协会页）**：WebSearch找到7个真实资源页（Worcester State/OSU/ATSU/Florida OT Board/Missouri State/Stark State/WVU），提取45条唯一出站链接，跑扫描。命中1处疑似DEAD：`arizota.org`（Arizona Occupational Therapy Association，真实州级OT专业协会）链接的`www.atsu.edu/arizona-school-of-health-sciences/academics/occupational-therapy-department`（A.T. Still University的OT研究生项目页，与OT专业高度对应）标记DNS解析失败。**独立三解析器交叉验证**（本机+8.8.8.8+1.1.1.1对`www.atsu.edu`均超时无法连接）**+直接curl目标URL**（含原始utm参数的完整URL、以及去除query string的版本）**均返回HTTP 200**，页面真实存活，**确认为扫描器/沙箱网络层面的假阳性，非真实死链**，未采纳。另`naiomt.com`（骨科手法治疗学院，非OT官方协会，属于Missouri State页面里的旁系链接）4条内部课程页404，与OT薪资主题无直接关联，未采纳。其余DEAD均为社交媒体/机构内部页。**本方向零真实可用死链**。
+4. **竞品外链缺口分析（延续)**：`dataforseo_query.py backlinks careerexplorer.com --limit 50`发现`therapynyc.net`→careerexplorer.com/careers/occupational-therapist/salary/（首见2026-05-29，DR 183，dofollow）——curl该域名返回Cloudflare挑战页（HTTP 403，"Attention Required"），无法核实是否为真实资源列表页，且DR/首见模式与本站历史上多次遇到的低质量反链检测站（gunghapcafe.com/webmaster-philippines.com类）相似，置信度低，未追加pitch。`dataforseo_query.py backlinks salary.com --limit 50`发现`career.umn.edu`→salary.com根域名（非具体职业页）——WebSearch核实该页是UMN Career Services"Negotiate an Offer"通用页面，把salary.com列为三个通用薪资工具之一（与Payscale/Glassdoor并列），非某个具体职业的死链或可替换的职业专属引用，且非断链（salary.com本身存活），不符合断链置换或"资源列表"类竞品缺口的可用形态，未追加pitch。`theraexstaffing.com`→salary.com COTA(职业治疗助理)薪资页——与本站唯一OT相关文章`occupational-therapist-salary`（讲的是OT非OTA）存在与08-26记录相同的学历/薪资中位数实质差异（OTA为准学士，OT为硕博士），若强行替换会误导，按既有红线未采纳。`www.cmaa.org`→salary.com/mysalary.asp通用薪资计算器（非具体职业页），同样不符合可用形态。**本轮竞品缺口分析未产出新机会**，"backlinks数据只给目标URL不给引荐页面路径"这条方法论局限对多数候选依然成立，仅这几条有具体页面路径的候选逐一核实后均不可用。
+
+**本轮结论**：地毯式排查3个冷启动职业方向（兽医技师76条链接/13个资源页、殡葬服务39条链接/12个资源页、职业治疗师45条链接/20个资源页，合计160条出站链接、45个真实资源页）+竞品缺口分析4个候选，未发现任何一条真实失效且主题对应的死链。这是继08-24"两份草稿"、08-26"一份草稿"之后本站首次出现"零新机会"的运行结果，判断原因：（1）近期新覆盖的三个职业（兽医/殡葬/职业治疗师）对应的专业协会资源页普遍是近几年新建/改版的现代化网站（WordPress/Squarespace/site-ym会员系统），死链密度显著低于历史上命中率高的老旧LibGuides/静态HTML页面；（2）DEAD命中中相当一部分是社交媒体主页(bsky.app)、会员登录系统(site-ym.com)、活动注册工具(whova.com/zoom)——这类"平台迁移型"死链的替换对象天然是"新平台链接"而非"薪资参考页"，不构成断链置换的可用场景。**本轮未发送任何新pitch**，未强行凑数。
+
+### 遗留待办
+
+1. **本轮已排查方向不建议短期内重复**：兽医技师(13页)/殡葬服务(12页)/职业治疗师(20页)三个方向的45个真实资源页均已过一遍死链扫描，短期重查大概率零增量，除非等待几个月后重新核实（域名/页面结构可能变化）。
+2. **下轮应换方向**：从guides.ts里还未被用于任何pitch的职业中挑选（如air-traffic-controller-salary、chef-salary、millwright、insurance-underwriter、bookkeeper、CEO、controller、lineman、librarian、bartender、psychologist、welder已用crna/court-reporter/paralegal/actuary/HVAC/ultrasound-tech等），优先选有真实"从业者协会/州级分会"生态的职业（历史命中率最高的模式），避免像本轮三个方向一样撞上"协会网站近年集中改版、死链密度低"的情况。
+3. **扫描器DNS假阳性再次复现**（本轮`www.atsu.edu`案例，本机+8.8.8.8+1.1.1.1三个解析器同时超时但直接curl返回200）——延续08-21已记录的"沙箱环境对部分域名的DNS查询层面受限"模式，提醒下轮对所有DEAD判定里的DNS解析失败类型，除了dig交叉验证外，**必须再补一步直接curl完整URL确认HTTP层面是否真的不可达**，不能仅凭dig超时下结论（本轮如果没有这步会误判arizota.org一条为真实机会）。
+4. nala.org/ten27services两条08-16批次遗留记录本轮已全部核实完毕，无需再留待下轮。

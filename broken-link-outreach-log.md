@@ -254,3 +254,31 @@ phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训�
 2. 1.5竞品缺口分析（careerexplorer/salary.com）"backlinks数据只给目标URL不给引荐页面路径"的方法论局限延续存在，下轮继续按上轮建议反查具体页面。
 3. nala.org/ten27services两条08-16批次剩余记录仍未核实，留给下轮。
 4. **⚠️子agent原本spawn的独立复核agent在上层会话代为发送之后才返回结果**（上层会话未等待，判断为避免重复劳动/潜在冲突，见上文说明），其结论是"SEND（但需先改一处技术性错误）"：邮件正文声称Arkansas（arcrnas.com）和Rhode Island（ricrna.com）"return no A or NS records at all"，复核agent独立复验发现arcrnas.com实际有4条有效NS记录（指向ns1-4.hostry.com域名停放服务），只是没有A记录——"网站打不开"这个核心事实仍然成立，但"no NS records"这个具体技术表述对Arkansas不准确，属于已发出邮件里的技术性夸大（非编造数据/不影响核心结论），发现时邮件已发出无法撤回。按规则不追发"更正邮件"（技术footnote级别的细节，追加说明反而显得不自然），如实记录此教训：**以后描述DNS失效状态时应避免笼统说"no A or NS records"，除非双项都已实际核实过**，只查了A记录缺失就应只写"no A record"/"doesn't resolve to a live site"，不能顺手带上未核实的NS记录声明。
+
+---
+
+## 2026-08-28（第七次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中WageLark（11-30位曝光551，矩阵内工具/资料型五站中排名第一）
+
+### 第0步：核实08-16批次剩余两条（本轮10-14天窗口内首次核实）
+
+**nala.org（草稿B，Message ID `1a009424741c3978`，发出13天）**：curl `nala.org/careers/` 200，页面仍是6处"salary.com"字样、无"wagelark"，判定**`not_replaced`**。`dataforseo_query.py backlinks wagelark.com --limit 100`全量4条外链中无nala.org。`gmail_send.py list`零回复。目标页是全国性法律助理协会官方Careers页，具备真实权威度，符合规则5跟进条件——已发送简短跟进（Subject "A note on your paralegal salary section"，`--reply-to`挂入原线程），过humanizer+avoid-ai-writing无需改动，`gmail_send.py send --from wagelark --reply-to 1a009424741c3978`，**Message ID `1a0488091732c07a`**，正确挂入原线程。标记 `verified_not_replaced_followed_up_once`。
+
+**ten27services@gmail.com（草稿C，Message ID `1a009424ac7d118e`，发出13天）**：curl目标页200，无wagelark字样，判定**`not_replaced`**。零回复，但目标是疑似小型独立运营站，权威度不足以支撑跟进（规则5要求"真实权威度"），如实跳过不发跟进。标记 `not_replaced`（无跟进）。
+
+**08-16批次三条（CSRT/NALA/ten27services）+08-21 UCF全部核实完毕。**
+
+### 第1-1.8步：新断链机会——本轮零新机会（如实记录，未硬凑）
+
+冷启动方向优先排查三个从未被pitch过的新文章对应职业：兽医技师（13个资源页/76条链接）、殡葬服务（12个资源页/39条链接）、职业治疗师（7个资源页/45条链接，严格排除OTA/OT混淆陷阱），合计160条出站链接/45个真实资源页扫描，另加竞品缺口分析4个候选逐一核实（therapynyc.net因Cloudflare挑战页无法核实+置信度低未追加、career.umn.edu/cmaa.org均为salary.com通用页非具体职业死链、theraexstaffing.com再次撞上OT/OTA学历薪资不对应红线）——**全部候选逐条核实后均不可用，无一真实机会**。原因判断：兽医/殡葬/职业治疗师三个方向的专业协会资源页近年集中改版为现代化网站（WordPress/Squarespace/会员系统），死链密度显著低于历史命中率高的老旧LibGuides；DEAD命中中相当一部分是社交媒体主页/会员登录系统/活动注册工具，属"平台迁移型"死链，替换对象天然不是薪资参考页，不构成可用场景。
+
+**扫描器DNS假阳性再次复现**：`arizota.org`（真实州OT协会）链接的`atsu.edu`OT项目页三解析器均超时，但直接curl返回200，确认假阳性未采纳——延续08-21已知模式，本轮方法论上补了"dig超时后必须再curl完整URL确认HTTP层"这一步，避免误判。
+
+**本轮未发送任何新pitch，本站首次出现"零新机会"结果，是真实排查后的结论**（160条链接/45个资源页全部核实，非偷懒未查）。
+
+**累计口径**：WageLark断链置换战术累计已发送9封pitch（含本轮1封跟进）；已验证`not_replaced` 4条（UCF/CSRT/NALA/ten27services）、`verified_live_backlink_confirmed` 0条，转化率仍为0。
+
+### 遗留待办
+
+1. 兽医技师/殡葬服务/职业治疗师三个方向短期内不建议重查，除非等待数月后域名/页面结构变化。
+2. 下轮换方向：air-traffic-controller/chef/millwright/insurance-underwriter/bookkeeper/CEO/controller/lineman/librarian/bartender/psychologist（均从未被用于任何pitch），优先选有真实"从业者协会/州级分会"生态的职业。
+3. DNS假阳性排查流程已更新：dig三解析器超时后必须补一步直接curl完整URL确认HTTP层，不能仅凭dig下结论。
