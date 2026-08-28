@@ -1616,6 +1616,32 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Top Executives (covers Chief Executives and General and Operations Managers as one OOH page; this profile uses the Chief Executives-specific pay, employment, and job outlook figures the BLS Pay and Job Outlook tables break out separately from the blended Top Executives total)",
       "sourceUrl": "https://www.bls.gov/ooh/management/top-executives.htm",
       "publishedDate": "2025-08-28"
+    },
+    "39-4031": {
+      "title": "Morticians, Undertakers, and Funeral Arrangers",
+      "medianAnnual": 55010,
+      "medianHourly": 26.45,
+      "percentiles": {
+        "p10": 33350,
+        "p90": 88620
+      },
+      "employment": 26700,
+      "employmentYear": "2025",
+      "jobOutlookPct": 3,
+      "jobOutlookLabel": "As fast as average",
+      "employmentChange": 800,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "Associate's degree",
+      "industryWages": [
+        {
+          "industry": "Death care services",
+          "annualWage": 54530
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Funeral Service Workers (Morticians, Undertakers, and Funeral Arrangers profile)",
+      "sourceUrl": "https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm",
+      "publishedDate": "2026-08-27"
     }
   }
 }

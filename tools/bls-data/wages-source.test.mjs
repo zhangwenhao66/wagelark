@@ -929,3 +929,20 @@ test('spot check: Veterinary Technologists and Technicians (29-2056) matches BLS
 	assert.equal(occ.industryWages[3].industry, 'Social advocacy organizations');
 	assert.equal(occ.industryWages[3].annualWage, 41640);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-28 (last modified
+// August 27, 2026). Independent of wages-source.json's own numbers -- do
+// not derive these from the source file.
+test('spot check: Morticians, Undertakers, and Funeral Arrangers (39-4031) matches BLS OOH page', () => {
+	const occ = occupations['39-4031'];
+	assert.equal(occ.medianAnnual, 55010);
+	assert.equal(occ.medianHourly, 26.45);
+	assert.deepEqual(occ.percentiles, { p10: 33350, p90: 88620 });
+	assert.equal(occ.employment, 26700);
+	assert.equal(occ.jobOutlookPct, 3);
+	assert.equal(occ.employmentChange, 800);
+	assert.equal(occ.entryEducation, "Associate's degree");
+	assert.equal(occ.industryWages.length, 1);
+	assert.equal(occ.industryWages[0].industry, 'Death care services');
+	assert.equal(occ.industryWages[0].annualWage, 54530);
+});

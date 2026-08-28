@@ -3932,4 +3932,76 @@ export const guides: Guide[] = [
 		image: '/images/veterinary-technician-salary-chart.svg',
 		imageAlt: 'Bar chart showing veterinary technologist and technician annual wage by percentile: 10th percentile $32,120, median $45,980, 90th percentile $60,880, based on BLS May 2024 data.',
 	},
+	{
+		slug: 'funeral-director-salary',
+		category: 'Salary Guide',
+		title: 'Funeral Director Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS puts the median funeral director salary (morticians, undertakers, and funeral arrangers) at $55,010 a year. Full wage range, licensing path, and industry data.',
+		published: '2026-08-28',
+		updated: '2026-08-28',
+		socCode: '39-4031',
+		coreSummary: 'The median annual wage for morticians, undertakers, and funeral arrangers, the title the U.S. Bureau of Labor Statistics uses for what is commonly called a funeral director, was $55,010 in May 2025. The bottom 10% earned less than $33,350 while the top 10% earned more than $88,620. BLS projects 3% employment growth from 2025 to 2035, about as fast as the average for all occupations, adding roughly 800 jobs to a workforce of 26,700.',
+		sections: [
+			{
+				heading: 'What funeral directors earn, and the title BLS actually tracks',
+				body: [
+					'BLS does not publish a wage table under the job title "funeral director." Its Occupational Outlook Handbook groups this work under SOC code 39-4031, "Morticians, Undertakers, and Funeral Arrangers," and states directly on that page that these workers are "also known as funeral directors or, historically, undertakers." Anyone searching for funeral director pay is looking at this specific occupation code, not the separate, higher-paid "Funeral Home Managers" title covered below.',
+					'The median annual wage for morticians, undertakers, and funeral arrangers was $55,010 in May 2025, or $26.45 an hour. The bottom 10% earned less than $33,350 a year, and the top 10% earned more than $88,620, a spread of roughly $55,270 between the two ends. BLS attributes pay differences within the occupation to years of licensed experience, ownership stake in a funeral home, and regional cost of living, but it does not publish a breakdown that separates those three factors from one another.',
+					'BLS separately tracks a related but distinct title, "Funeral Home Managers" (SOC 11-9171), with a higher median of $78,790 in May 2025. That role runs the business side of a funeral home, staffing, budgets, marketing; arranging an individual service is a funeral director\'s job, not a manager\'s. BLS notes that funeral home managers typically have multiple years of experience working as a funeral director or mortician first. The two titles are frequently confused online because both appear on the same BLS profile page and both work in the same buildings.',
+				],
+			},
+			{
+				heading: 'The path in: an associate\'s degree, a state licensing exam, and a supervised internship',
+				body: [
+					'BLS lists an associate\'s degree as the typical entry-level education, earned through an accredited funeral service or mortuary science program, usually a two-year course of study at a community college that covers ethics, grief counseling, funeral service, business law, embalming, and restorative techniques. Some employers prefer a bachelor\'s degree, and BLS notes psychology and business as common secondary fields of study for those who pursue one.',
+					'Licensing is where this occupation departs from many other associate\'s-degree roles. Per BLS, most states and Washington, D.C. require funeral directors to hold a state license, and the typical requirements are: being at least 21 years old, completing an accredited funeral service or mortuary science program, passing a state and/or national board exam, and serving an internship lasting one to three years under a licensed funeral director or manager. Colorado is the one exception BLS names, where certification is voluntary, not mandatory. Because licensing is set state by state, working across state lines generally means holding more than one license, and most states also require continuing education credits to keep a license current.',
+					'Some states additionally require a separate certification specifically to perform cremations, a requirement BLS notes exists apart from the standard funeral director license and is administered by individual state boards or professional organizations, not by BLS itself.',
+				],
+			},
+			{
+				heading: 'Where the jobs are concentrated',
+				body: [
+					'BLS reports 26,700 morticians, undertakers, and funeral arrangers working in 2025. Death care services was overwhelmingly the largest employer, accounting for 93% of the workforce, with self-employed workers making up another 5% and the remainder in categories BLS does not break out individually. That concentration is unusually tight compared with other allied occupations on this site, where employment is typically split across three or more industries.',
+					'Within death care services specifically, BLS reports a median wage of $54,530, essentially matching the occupation-wide median of $55,010. Unlike some occupations this site has covered, where the highest-paying industry and the industry that employs the most workers are two different settings, funeral directors show little industry-based pay variation to report, mainly because BLS does not break out a second industry category with enough workers to publish a separate wage figure.',
+					'The related funeral home manager title shows a different employment pattern: 58% self-employed and 40% in death care services, according to BLS, suggesting that ownership or partial ownership of a funeral home is more common at the manager level than at the funeral director level.',
+				],
+			},
+			{
+				heading: 'Job outlook, and how the pay compares to other associate\'s-degree occupations',
+				body: [
+					'BLS projects 3% employment growth for morticians, undertakers, and funeral arrangers from 2025 to 2035, in line with the 3% average projected across all occupations, taking the occupation from 26,700 to 27,500 workers, a gain of roughly 800 jobs. BLS attributes most of the roughly 5,600 annual openings projected for funeral service workers overall to the need to replace people who leave the occupation or exit the labor force, rather than to net new job creation, and it names one demand-side headwind directly: a continuing shift toward cremation, which BLS says "costs less and requires fewer workers than do traditional funeral arrangements."',
+					'Set against other roles that also list an associate\'s degree as the typical entry point, funeral director pay lands in the middle. [Paralegals and legal assistants](/how-to-become-a-paralegal/) have a higher median, $61,010, about $6,000 above funeral directors, despite BLS reporting that no U.S. state currently licenses the paralegal occupation at all. Funeral directors, by contrast, clear a state licensing exam and a one-to-three-year supervised internship that most paralegals never have to complete. BLS does not explain why the more heavily regulated role pays less.',
+					'The comparison runs the other way against roles with a lower education bar. [Dental assistants](/dental-assistant-salary/), whose typical entry point is a postsecondary nondegree award, not a two-year degree, have a median of $47,300, about $7,710 below funeral directors. On this specific pairing, the additional associate\'s degree, licensing exam, and multiyear internship funeral directors complete does correspond to meaningfully higher typical pay, the opposite pattern from the paralegal comparison above.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the average funeral director salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for morticians, undertakers, and funeral arrangers, the title BLS uses for funeral directors, was $55,010 in May 2025 ($26.45 an hour). The bottom 10% earned less than $33,350, and the top 10% earned more than $88,620.',
+			},
+			{
+				question: 'Is a funeral home manager the same job as a funeral director?',
+				answer: 'No. BLS tracks them as two separate occupations. Funeral home managers (SOC 11-9171) run the business side of a funeral home and had a higher May 2025 median of $78,790, while funeral directors, tracked as "morticians, undertakers, and funeral arrangers" (SOC 39-4031), arrange individual services and had a median of $55,010. BLS notes that funeral home managers typically work as a funeral director first.',
+			},
+			{
+				question: 'Do funeral directors need to be licensed?',
+				answer: 'In most states, yes. Per BLS, most states and Washington, D.C. require a funeral director license, which typically requires being at least 21 years old, completing an accredited funeral service or mortuary science program, passing a state and/or national board exam, and serving a one-to-three-year supervised internship. Colorado is the one state BLS names where certification is voluntary. Requirements vary by state, and working across state lines generally requires holding multiple licenses.',
+			},
+			{
+				question: 'What education does a funeral director need?',
+				answer: "BLS lists an associate's degree in funeral service or mortuary science as the typical entry-level education, covering coursework in ethics, grief counseling, business law, embalming, and restorative techniques. Some employers prefer a bachelor's degree.",
+			},
+			{
+				question: 'Is funeral director a growing career?',
+				answer: 'BLS projects 3% employment growth for morticians, undertakers, and funeral arrangers from 2025 to 2035, about as fast as the average for all occupations, adding roughly 800 jobs. BLS attributes most annual openings to workers leaving the occupation rather than to new positions, and names a continuing shift toward cremation as a factor limiting faster growth.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Funeral Service Workers, Morticians, Undertakers, and Funeral Arrangers profile, SOC 39-4031 (accessed 2026-08-28 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Funeral Service Workers, Funeral Home Managers profile, SOC 11-9171, used for the comparison figure above (same page and access details as the primary source)', url: 'https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm' },
+		],
+		image: '/images/funeral-director-salary-chart.svg',
+		imageAlt: 'Bar chart showing mortician, undertaker, and funeral arranger (funeral director) annual wage by percentile: 10th percentile $33,350, median $55,010, 90th percentile $88,620, based on BLS May 2025 data.',
+	},
 ];
