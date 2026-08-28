@@ -1294,3 +1294,6 @@
   "escalation": null
 }
 ```
+
+## 2026-08-28 CTR抢救审计（top15页面标题优化，Owen批准的一次性专项）
+依据：8/28 全矩阵体检——本站 7 个页面排名 8-12 但四周点击近零，且 5 页共用同一标题骨架"X Salary: BLS Wage Data by Percentile (2026)"（无数字钩子+轻度模板指纹）。本次把各页 BLS 中位数（取自页面自身已核实数据，非新增数字）放进 title 并差异化句式：flight-attendants/radiology-tech/electrician/welder/pharmacist/nurse-practitioner/actuary 共 7 页，正文与 description 未动。观察点：2-4 周后 site-search-opportunity-refresh 复查这批页的 CTR 与排名（若排名下滑>5位需回滚该页标题）。⚠️ 标题含 (2026)：2027 年年度刷新时需同步更新。
