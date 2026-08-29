@@ -632,3 +632,34 @@ No viable guest-post or broken-link target found this round after checking 8 dis
 2. **下轮应换方向**：从guides.ts里还未被用于任何pitch的职业中挑选（如air-traffic-controller-salary、chef-salary、millwright、insurance-underwriter、bookkeeper、CEO、controller、lineman、librarian、bartender、psychologist、welder已用crna/court-reporter/paralegal/actuary/HVAC/ultrasound-tech等），优先选有真实"从业者协会/州级分会"生态的职业（历史命中率最高的模式），避免像本轮三个方向一样撞上"协会网站近年集中改版、死链密度低"的情况。
 3. **扫描器DNS假阳性再次复现**（本轮`www.atsu.edu`案例，本机+8.8.8.8+1.1.1.1三个解析器同时超时但直接curl返回200）——延续08-21已记录的"沙箱环境对部分域名的DNS查询层面受限"模式，提醒下轮对所有DEAD判定里的DNS解析失败类型，除了dig交叉验证外，**必须再补一步直接curl完整URL确认HTTP层面是否真的不可达**，不能仅凭dig超时下结论（本轮如果没有这步会误判arizota.org一条为真实机会）。
 4. nala.org/ten27services两条08-16批次遗留记录本轮已全部核实完毕，无需再留待下轮。
+
+---
+
+## 2026-08-29 — linkable-asset pitch (trafficsite-linkable-asset-building)
+
+New asset published this run: "Highest-Paying Jobs Without a Bachelor's Degree, Ranked by BLS Pay (2026)" (https://wagelark.com/highest-paying-jobs-without-a-degree/). WageLark had zero published linkable assets before this run, so per the task's capacity rule, new-asset production was in scope this time.
+
+### Candidate — The Blue Collar Recruiter (thebluecollarrecruiter.com)
+
+**Target:** thebluecollarrecruiter.com, a real skilled-trades staffing agency's blog (title tag: "Blue Collar Staffing Agency | Skilled Trades Recruiters"). Post "15 Highest-Paying Skilled Trades in 2027 (Real BLS Pay Data)" (thebluecollarrecruiter.com/15-highest-paying-skilled-trades-in-2026-no-degree-required/), live and confirms BLS-sourced content in its own title.
+
+**Contact:** info@thebluecollarrecruiter.com, confirmed on both the site's /contact/ and /about/ pages — general company contact, not a scoped legal/privacy/ads inbox.
+
+**Subject:** BLS wage data on jobs without a degree (companion to your trades post)
+
+**Body:**
+
+Hi,
+
+Your "15 Highest-Paying Skilled Trades" post pulls real BLS numbers, which is rarer than it should be in this space. Thought you might want a companion resource for it.
+
+I run WageLark, a BLS wage reference site. I just published a ranking of the 29 highest-paying occupations (out of 47 we track) that don't require a bachelor's degree, sourced the same way, straight from BLS OEWS data. It goes wider than trades alone: air traffic controllers top the list at a $144,580 median, followed by several healthcare technician roles (MRI techs, dental hygienists, sonographers) before the trades show up. Full dataset (all 29, one row each, sourced) is downloadable as a CSV if useful:
+
+https://wagelark.com/highest-paying-jobs-without-a-degree/
+
+No pressure either way. Good post.
+
+Owen
+WageLark
+
+**Checks done:** Passed Skill(humanizer) and Skill(avoid-ai-writing) unmodified — no em/en dashes, no AI-vocabulary hits, no filler, no hedging. Dedup: `grep -ril "bluecollarrecruiter"` across 独立站/ → no prior contact (one unrelated SERP-research-log hit for a different keyword, not this domain). Live-verified the target post exists and cites BLS data in its own title. WageLark's own new page not yet deployed at draft time — deployment and a cache-busted live check happen before this email is actually sent (see log).
