@@ -38,6 +38,7 @@ const CHARTS = {
 	'ultrasound-tech-salary-chart': '29-2032',
 	'veterinary-technician-salary-chart': '29-2056',
 	'funeral-director-salary-chart': '39-4031',
+	'mri-tech-salary-chart': '29-2035',
 };
 
 const NAVY = '#14273f';

@@ -650,7 +650,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'What "radiology tech" actually means, and what the role pays',
 				body: [
-					'The Bureau of Labor Statistics tracks this job under the title "Radiologic Technologists and Technicians," SOC code 29-2034, which is the role most people mean when they search "radiology tech": the person who positions patients and operates x-ray and CT equipment. It is a distinct occupation from Magnetic Resonance Imaging (MRI) technologists, who work with different equipment and are tracked separately by BLS (median annual wage $88,180 in May 2024), and from radiologists, who are physicians who interpret the images rather than technicians who capture them. Job postings sometimes use these titles loosely, so the wage figure that applies depends on which specific role is being described.',
+					'The Bureau of Labor Statistics tracks this job under the title "Radiologic Technologists and Technicians," SOC code 29-2034, which is the role most people mean when they search "radiology tech": the person who positions patients and operates x-ray and CT equipment. It is a distinct occupation from [Magnetic Resonance Imaging (MRI) technologists](/mri-tech-salary/), who work with different equipment and are tracked separately by BLS under SOC code 29-2035 (median annual wage $95,480 in May 2025, the more recent figure this site\'s MRI technologist salary guide covers in full), and from radiologists, who are physicians who interpret the images rather than technicians who capture them. Job postings sometimes use these titles loosely, so the wage figure that applies depends on which specific role is being described.',
 					'For radiologic technologists and technicians specifically, BLS reported a median annual wage of $77,660 in May 2024. The bottom 10% of earners made less than $52,360 a year, while the top 10% made more than $106,990, a spread of roughly $54,600. That range reflects a mix of experience, credential level (a base radiography certification versus additional specialty certifications in CT or mammography), employer type, and region, rather than any single factor. This page\'s Quick Facts box lists a combined hourly figure of $37.97 for the broader "Radiologic and MRI Technologists" grouping (which blends this occupation with the higher-paying MRI technologist role), not a figure specific to radiologic technologists and technicians alone, so it is left out of the numbers above to avoid overstating typical hourly pay for this occupation.',
 					'BLS figures are national medians drawn from its Occupational Employment and Wage Statistics survey, which collects data directly from employers rather than relying on self-reported salary submissions the way some job-search sites do. That distinction matters when comparing this page to other sources: a site built on self-reported figures can skew toward workers motivated to report unusually high or low pay, while employer-reported OEWS data reflects actual payroll records across a much larger, more representative sample. BLS does not publish a state-by-state breakdown on this specific page; readers who need per-state or per-metro figures would need the BLS OEWS state wage tables directly, which break the same occupation down by geography.',
 				],
@@ -4003,5 +4003,73 @@ export const guides: Guide[] = [
 		],
 		image: '/images/funeral-director-salary-chart.svg',
 		imageAlt: 'Bar chart showing mortician, undertaker, and funeral arranger (funeral director) annual wage by percentile: 10th percentile $33,350, median $55,010, 90th percentile $88,620, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'mri-tech-salary',
+		category: 'Salary Guide',
+		title: 'MRI Technologist Salary: BLS Wage Data by Percentile (2026)',
+		description: 'BLS reports a $95,480 median MRI technologist salary, well above radiologic technologists. See the wage range by percentile and by industry setting.',
+		published: '2026-08-29',
+		updated: '2026-08-29',
+		socCode: '29-2035',
+		coreSummary: 'The median annual wage for MRI technologists was $95,480 in May 2025, according to the U.S. Bureau of Labor Statistics, about $15,370 above the $80,110 median for radiologic technologists and technicians, the closely related occupation BLS profiles on the same page. The bottom 10% of MRI technologists earned less than $68,890 and the top 10% earned more than $127,670. Pay varies sharply by setting: outpatient care centers paid the highest industry median at $140,390, even though BLS reports only about 3% of MRI technologists actually work in that setting, versus 61% in hospitals.',
+		sections: [
+			{
+				heading: 'What MRI technologists actually earn, by percentile',
+				body: [
+					"BLS tracks MRI technologist pay through its Occupational Employment and Wage Statistics (OEWS) program under SOC code 29-2035, a distinct six-digit code from radiologic technologists and technicians (29-2034), even though BLS profiles both roles together on one Occupational Outlook Handbook page titled \"Radiologic and MRI Technologists.\" The most recent published wage data, from May 2025, puts the MRI technologist median annual wage at $95,480. BLS does not publish a role-specific hourly figure for MRI technologists on this page; dividing the annual median by a standard 2,080-hour work year works out to roughly $45.90 an hour, a calculated figure rather than one BLS reports directly.",
+					"The percentile spread is wide in dollar terms: the bottom 10% of MRI technologists earned less than $68,890 in May 2025, while the top 10% earned more than $127,670, a gap of nearly $58,800. That range sits well above the equivalent spread for radiologic technologists, whose bottom 10% earned less than $55,980 and top 10% earned more than $118,660 on the same page. Both occupations typically require only an associate's degree to enter, so the roughly $15,370 gap between the two medians traces to the additional post-primary certification most MRI technologists complete, not to a difference in base entry credentials.",
+				],
+			},
+			{
+				heading: 'Pay by industry setting, and a mismatch worth noticing',
+				body: [
+					'BLS breaks out May 2025 MRI technologist wages across four industry categories. Outpatient care centers paid the highest median by a wide margin, at $140,390, roughly $44,470 above the next-highest setting. Hospitals paid a median of $95,920, close to the national median for the occupation, followed by offices of physicians at $93,880 and medical and diagnostic laboratories at $93,540.',
+					"That $140,390 figure is easy to misread as where most MRI technologists work. BLS's separate work-environment data for this occupation shows the opposite: about 61% of MRI technologists work in hospitals, 17% in medical and diagnostic laboratories, 14% in offices of physicians, and only about 3% in outpatient care centers, the very setting with the highest median pay. Reading the industry wage table without the employment-share data would suggest outpatient centers are a large part of the field; in practice they are a small, higher-paying niche, not the typical work setting.",
+				],
+			},
+			{
+				heading: 'Job outlook: MRI technologists are projected to grow faster than radiologic technologists',
+				body: [
+					"BLS's Quick Facts box for this page only shows one combined figure for \"radiologic and MRI technologists\" (278,100 jobs in 2025, projected to reach 293,300 by 2035, 5% growth, adding 15,100 positions). But the Job Outlook tab includes a separate Employment Projections Data table that breaks that combined total out by the two specific SOC codes. For MRI technologists (29-2035) alone, BLS projects growth from 43,900 jobs in 2025 to 47,300 by 2035, an 8% increase, adding 3,400 positions. Radiologic technologists and technicians (29-2034), the larger of the two occupations by headcount, are projected to grow from 234,200 to 246,000 jobs, a 5% increase adding 11,800 positions.",
+					"That 8% MRI-specific growth rate is faster than the 5% projected for radiologic technologists on the same page, and faster than the 5% combined-group figure that a reader relying only on the Quick Facts box would see. BLS attributes growth in this occupation pairing to an aging population that needs more diagnostic imaging, along with continued demand for imaging in cancer detection and treatment planning; the agency's SOC-specific table doesn't break out how much of that demand is driving MRI growth specifically versus radiologic imaging generally, but the higher projected growth rate for the MRI role lines up with the wage premium in the section above.",
+				],
+			},
+			{
+				heading: 'How people become MRI technologists, and how the entry path compares to radiologic technology',
+				body: [
+					"Entry-level education for MRI technologists is an associate's degree, the same typical requirement BLS lists for radiologic technologists. BLS does not name a specific credentialing body on this page; the American Registry of Radiologic Technologists (ARRT), which administers the field's MR credential, is a separately confirmed, real credentialing organization, not a BLS-sourced detail. ARRT publishes two distinct routes into that credential. The primary pathway runs through an ARRT-approved MRI educational program that requires at least an associate's degree and documented competence across a set of imaging procedures. The post-primary pathway is the route many working radiologic technologists actually take: it requires already holding an ARRT certification in a supporting discipline, specifically radiography, nuclear medicine technology, radiation therapy, or sonography, plus at least 16 hours of structured MRI-specific education, 125 documented MRI procedure repetitions, and passing the MR certification exam.",
+					"That post-primary route is one reason the two occupations on this BLS page are so closely linked in practice: a meaningful share of MRI technologists start out as [radiologic technologists](/radiology-tech-salary/), earning the lower of the two medians on this page, and add the MR credential later once they have enough clinical hours to qualify for the post-primary pathway. For a comparison at a similar associate's-degree entry point in a different diagnostic imaging modality, this site's [ultrasound technologist salary guide](/ultrasound-tech-salary/) covers sonography, credentialed through a separate body (ARDMS) rather than ARRT, using sound waves instead of magnetic fields.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does BLS report for the MRI technologist salary?',
+				answer: "BLS reports a median annual MRI technologist salary of $95,480 in May 2025, based on the U.S. Bureau of Labor Statistics Occupational Employment and Wage Statistics survey under SOC code 29-2035. That figure doesn't include a BLS-published hourly equivalent; dividing by a standard 2,080-hour year works out to roughly $45.90 an hour, a calculated figure rather than one BLS reports directly.",
+			},
+			{
+				question: 'Is an MRI technologist salary higher than a radiologic technologist salary?',
+				answer: "Yes. BLS puts the May 2025 median MRI technologist wage at $95,480, versus $80,110 for radiologic technologists and technicians, a gap of about $15,370, even though BLS profiles both occupations on the same Occupational Outlook Handbook page and both typically require only an associate's degree to enter.",
+			},
+			{
+				question: 'Which industry pays MRI technologists the most?',
+				answer: "Among the four industry categories BLS tracks for May 2025, outpatient care centers paid the highest median at $140,390, well above hospitals ($95,920), offices of physicians ($93,880), and medical and diagnostic laboratories ($93,540). BLS's separate work-environment data shows only about 3% of MRI technologists actually work in outpatient care centers, versus 61% in hospitals, so that top-paying setting is a small niche, not the typical one.",
+			},
+			{
+				question: 'Is MRI technologist a growing occupation?',
+				answer: "Yes, and its projected growth outpaces the related radiologic technologist role. BLS's Job Outlook tab breaks the two occupations out separately: MRI technologists are projected to grow from 43,900 jobs in 2025 to 47,300 by 2035, an 8% increase adding 3,400 positions, versus 5% growth for radiologic technologists and technicians over the same period. Both figures sit above the 3% average growth rate BLS projects across all occupations.",
+			},
+			{
+				question: 'How do you become an MRI technologist?',
+				answer: "BLS lists an associate's degree as the typical entry-level education. Separately from BLS, the American Registry of Radiologic Technologists (ARRT) administers the field's MR credential through two routes: a primary pathway via an ARRT-approved MRI educational program, or a post-primary pathway that requires already holding an ARRT certification in radiography, nuclear medicine technology, radiation therapy, or sonography, plus 16 hours of structured MRI education, 125 documented MRI procedure repetitions, and a passing exam score.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists, SOC 29-2035 (accessed 2026-08-29 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
+			{ label: 'American Registry of Radiologic Technologists (ARRT): Postprimary Eligibility Pathway Requirements, used for the MR credential pathway details above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.arrt.org/pages/earn-arrt-credentials/initial-requirements/postprimary-requirement' },
+		],
+		image: '/images/mri-tech-salary-chart.svg',
+		imageAlt: 'Bar chart showing MRI technologist annual wage by percentile: 10th percentile $68,890, median $95,480, 90th percentile $127,670, based on BLS May 2025 data.',
 	},
 ];

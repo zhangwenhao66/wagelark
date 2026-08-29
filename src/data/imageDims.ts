@@ -123,6 +123,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 220,
   "w": 640
  },
+ "/images/mri-tech-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/nurse-practitioner-duties.svg": {
   "h": 220,
   "w": 640

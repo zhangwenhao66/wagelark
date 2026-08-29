@@ -949,3 +949,25 @@ test('spot check: Morticians, Undertakers, and Funeral Arrangers (39-4031) match
 	assert.equal(occ.industryWages[0].industry, 'Death care services');
 	assert.equal(occ.industryWages[0].annualWage, 54530);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-29 (last modified
+// August 27, 2026, carrying newly-refreshed May 2025 data). Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+test('spot check: Magnetic Resonance Imaging Technologists (29-2035) matches BLS OOH page', () => {
+	const occ = occupations['29-2035'];
+	assert.equal(occ.medianAnnual, 95480);
+	assert.equal(occ.medianHourly, 45.90);
+	assert.deepEqual(occ.percentiles, { p10: 68890, p90: 127670 });
+	// SOC-specific figures from the Job Outlook tab's Employment Projections
+	// Data table, not the combined-group Quick Facts box (278,100/5%/15,100).
+	assert.equal(occ.employment, 43900);
+	assert.equal(occ.jobOutlookPct, 8);
+	assert.equal(occ.employmentChange, 3400);
+	assert.equal(occ.entryEducation, "Associate's degree");
+	assert.equal(occ.employmentIsGroupLevel, undefined);
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Outpatient care centers');
+	assert.equal(occ.industryWages[0].annualWage, 140390);
+	assert.equal(occ.industryWages[3].industry, 'Medical and diagnostic laboratories');
+	assert.equal(occ.industryWages[3].annualWage, 93540);
+});

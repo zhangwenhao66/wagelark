@@ -1578,6 +1578,45 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
 		publishedDate: "2025-08-28"
 	},
+	"29-2035": {
+		socCode: "29-2035",
+		title: "Magnetic Resonance Imaging Technologists",
+		medianAnnual: 95480,
+		medianHourly: 45.9,
+		percentiles: {
+			p10: 68890,
+			p90: 127670
+		},
+		employment: 43900,
+		employmentYear: "2025",
+		jobOutlookPct: 8,
+		jobOutlookLabel: "Faster than average",
+		employmentChange: 3400,
+		projectionPeriod: "2025-35",
+		entryEducation: "Associate's degree",
+		industryWages: [
+			{
+				industry: "Outpatient care centers",
+				annualWage: 140390
+			},
+			{
+				industry: "Hospitals (state, local, private)",
+				annualWage: 95920
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 93880
+			},
+			{
+				industry: "Medical and diagnostic laboratories",
+				annualWage: 93540
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (SOC 29-2035 covers MRI technologists specifically, a distinct 6-digit code from radiologic technologists' 29-2034 within the combined 29-2030 group; BLS's Pay tab breaks out an MRI-technologist-specific median annual wage ($95,480), 10th/90th percentile wages, and a specific top-4-industry wage table, all used here. The Quick Facts box only shows the combined group's employment/outlook, but the Job Outlook tab's separate Employment Projections Data table breaks 29-2035 out individually: 43,900 jobs in 2025, projected to reach 47,300 by 2035, an 8% growth rate (faster than the 5% for the combined group and for 29-2034 alone) adding 3,400 jobs -- that SOC-specific table, not the combined Quick Facts figure, is what's used here. medianHourly is calculated as medianAnnual / 2080 hours, not a BLS-published figure, following this site's existing convention for occupations where BLS's Quick Facts hourly wage is only given at the combined-group level)",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm",
+		publishedDate: "2026-08-27"
+	},
 	"13-2053": {
 		socCode: "13-2053",
 		title: "Insurance Underwriters",
