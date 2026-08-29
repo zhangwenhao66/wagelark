@@ -43,7 +43,7 @@ WebSearch `"wagelark.com" -site:wagelark.com` 未执行——本站已运营多�
 
 WebSearch找到真实、当前活跃的目标：**The Blue Collar Recruiter**（thebluecollarrecruiter.com，真实技工类猎头公司博客），其"15 Highest-Paying Skilled Trades"文章标题本身就标注"Real BLS Pay Data"，主题高度对应。联系邮箱 info@thebluecollarrecruiter.com（站内/contact/和/about/页均公开，通用公司联系邮箱非专用渠道）。
 
-邮件先过 `Skill(humanizer)` + `Skill(avoid-ai-writing)`（无破折号/AI高频词/套话，判定无需改动），存入 `outreach-drafts.md`（追加），跨站查重（`grep -ril "bluecollarrecruiter" 独立站/`）确认此前无联系记录。
+邮件先过 `Skill(humanizer)` + `Skill(avoid-ai-writing)`（无破折号/AI高频词/套话，判定无需改动），存入 `outreach-drafts.md`（追加），跨站查重（`grep -ril "bluecollarrecruiter" 独立站/`）确认此前无联系记录。独立、全新上下文的复核agent逐条核实排行表格数字（ATC第1名$144,580、MRI技师第2/牙科保健员第3/超声技师第5，均确实高于electricians第13/plumbers第11/HVAC第16）与线上页面一致，确认thebluecollarrecruiter.com是2020年起运营的真实猎头公司，判定"CAN SEND"。已于2026-08-29通过`gmail_send.py send --from wagelark`实际发出，Message ID `1a04c1b6821f261a`。
 
 ### 第3.5步（发现平台投放）
 
