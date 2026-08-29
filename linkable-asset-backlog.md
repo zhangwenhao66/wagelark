@@ -10,7 +10,9 @@
 
 ---
 
-## 1. "免学位高薪职业"排行研究 `[待制作]`
+## 1. "免学位高薪职业"排行研究 `[已发布]`
+
+2026-08-29 已发布为 [Highest-Paying Jobs Without a Bachelor's Degree, Ranked by BLS Pay (2026)](https://wagelark.com/highest-paying-jobs-without-a-degree/)，见 `linkable-asset-log.md`。实际覆盖 47 个职业（非原计划27个，词库已扩），29个（62%）为免学位；头条数字：Air Traffic Controllers中位年薪$144,580，高于其余46个职业中的41个。含Cite this引用块+CSV下载（`public/data/highest-paying-jobs-without-a-degree.csv`）+排行条形图（`public/images/highest-paying-jobs-without-a-degree-chart.svg`）。归类为Career Guide（未新增Data Studies分类，避免改动GuideCategory类型+导航页面的连带工程量）。
 
 - **类别**：原创数据研究
 - **具体做什么**：用 `bls-wages.ts` 里已有的 `entryEducation` 字段（High school diploma / Postsecondary nondegree award / Associate's degree / Bachelor's / Master's / Doctoral 六档）对 27 个职业做交叉分析，按"入行学历门槛"分组后各组内按 `medianAnnual`（及 `percentiles.p90`）排序，产出一篇"不需要四年制学位、薪资中位数最高的 N 个职业"的数据文章，附排行表格（职业、入行学历、中位年薪、p90、职业增长率 `jobOutlookPct`）。全部数据已在仓库现成字段里，不需要新采集。
