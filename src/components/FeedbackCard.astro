@@ -1,0 +1,112 @@
+---
+// Reader response card -- display-layer only. No external requests; reports a
+// single GA4 event through the gtag already loaded in Layout.astro (silently
+// no-ops if gtag is absent). Styled as a bulletin response slip to match the
+// statistical-bulletin design language.
+---
+
+<div class="wl-fb rule-double mt-10 pt-4">
+	<p class="wl-fb-label font-mono-figures">Response card</p>
+	<p class="wl-fb-q">Did these figures answer your question?</p>
+	<div class="wl-fb-actions">
+		<button type="button" class="wl-fb-btn" data-wl-verdict="helpful">Yes, they did</button>
+		<button type="button" class="wl-fb-btn" data-wl-verdict="not_helpful">Not quite</button>
+	</div>
+	<p class="wl-fb-note" data-wl-note aria-live="polite"></p>
+</div>
+
+<script>
+	const root = document.querySelector('.wl-fb');
+	if (root) {
+		const note = root.querySelector('[data-wl-note]');
+		const buttons = Array.from(root.querySelectorAll('button[data-wl-verdict]'));
+		buttons.forEach((btn) => {
+			btn.addEventListener('click', () => {
+				const verdict = btn.getAttribute('data-wl-verdict');
+				const w = window as typeof window & { gtag?: (...args: unknown[]) => void };
+				if (w.gtag) w.gtag('event', 'page_feedback', { verdict });
+				buttons.forEach((b) => {
+					(b as HTMLButtonElement).disabled = true;
+				});
+				btn.classList.add('wl-fb-chosen');
+				if (!note) return;
+				if (verdict === 'not_helpful') {
+					const mailto =
+						'mailto:contact@wagelark.com?subject=' +
+						encodeURIComponent('Page feedback: ' + location.pathname);
+					note.innerHTML =
+						'Noted, thank you. Tell us what’s missing: <a href="' +
+						mailto +
+						'">contact@wagelark.com</a>';
+				} else {
+					note.textContent = 'Thank you. Response recorded.';
+				}
+			});
+		});
+	}
+</script>
+
+<style>
+	.wl-fb-label {
+		margin: 0;
+		font-size: 0.68rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.13em;
+		color: var(--ink-soft);
+	}
+	.wl-fb-q {
+		margin: 0.625rem 0 0;
+		font-size: 1rem;
+		font-weight: 700;
+		color: var(--navy);
+	}
+	.wl-fb-actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.625rem;
+		margin-top: 0.875rem;
+	}
+	.wl-fb-btn {
+		font: inherit;
+		font-size: 0.8125rem;
+		font-weight: 600;
+		color: var(--navy);
+		background: #fff;
+		border: 1px solid var(--navy);
+		padding: 0.45rem 1.1rem;
+		cursor: pointer;
+	}
+	.wl-fb-btn:hover:not(:disabled) {
+		background: var(--navy);
+		color: #fff;
+	}
+	.wl-fb-btn:focus-visible {
+		outline: 2px solid var(--teal-dark);
+		outline-offset: 2px;
+	}
+	.wl-fb-btn:disabled {
+		cursor: default;
+		border-color: var(--rule);
+		color: var(--ink-mute);
+	}
+	.wl-fb-btn:disabled.wl-fb-chosen {
+		border-color: var(--teal-dark);
+		background: var(--teal-dark);
+		color: #fff;
+	}
+	.wl-fb-note {
+		margin: 0.75rem 0 0;
+		min-height: 2.6em;
+		font-size: 0.875rem;
+		line-height: 1.3;
+		color: var(--ink-soft);
+	}
+	.wl-fb-note :global(a) {
+		color: var(--teal-dark);
+		text-decoration: none;
+	}
+	.wl-fb-note :global(a:hover) {
+		text-decoration: underline;
+	}
+</style>

@@ -8,6 +8,7 @@ import { pickRelatedGuides } from '../../vendor/site-toolkit/packages/related-gu
 import { guides, wageDataFor, type Guide } from '../data/guides';
 import { AUTHOR_NAME, SITE_ORIGIN } from '../consts';
 import SalaryPercentileTool from '../components/SalaryPercentileTool.astro';
+import FeedbackCard from '../components/FeedbackCard.astro';
 
 export function getStaticPaths() {
 	return guides.map((guide) => ({
@@ -274,6 +275,8 @@ import { imgDims } from '../data/imageDims';
 				</div>
 			</div>
 		)}
+
+		<FeedbackCard />
 
 		<div class="mt-10 border-t border-[var(--rule)] pt-6 text-sm text-[var(--ink-mute)]">
 			<p class="m-0">Written and edited by <a href="/about/" class="text-[var(--ink-soft)] no-underline hover:text-[var(--ink)] hover:underline">{AUTHOR_NAME}</a></p>
