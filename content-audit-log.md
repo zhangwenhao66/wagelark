@@ -1396,3 +1396,102 @@
 
 ## 2026-08-28 CTR抢救审计（top15页面标题优化，Owen批准的一次性专项）
 依据：8/28 全矩阵体检——本站 7 个页面排名 8-12 但四周点击近零，且 5 页共用同一标题骨架"X Salary: BLS Wage Data by Percentile (2026)"（无数字钩子+轻度模板指纹）。本次把各页 BLS 中位数（取自页面自身已核实数据，非新增数字）放进 title 并差异化句式：flight-attendants/radiology-tech/electrician/welder/pharmacist/nurse-practitioner/actuary 共 7 页，正文与 description 未动。观察点：2-4 周后 site-search-opportunity-refresh 复查这批页的 CTR 与排名（若排名下滑>5位需回滚该页标题）。⚠️ 标题含 (2026)：2027 年年度刷新时需同步更新。
+
+```json
+{
+  "url_slug": "air-traffic-controller-salary",
+  "last_audited": "2026-08-30",
+  "published_date": "2026-08-09",
+  "note": "guides.ts数组位置第19（18篇已审计条目之后第一篇从未审计过的文章），按既定'从未审计优先，按数组位置'规则选取",
+  "diagnosed_checkpoints": [
+    "median/percentile薪资数字（$144,580/$76,090/$210,410）是否与BLS当前公开数据逐字一致",
+    "两项行业细分工资（federal government $154,000/support activities for air transportation $82,510）是否准确",
+    "1%就业增长/300净增/2,200年均开缺口径是否可溯源到BLS原文",
+    "entry age cutoff（31岁，军属/FAA合同经验放宽至35岁）+mandatory retirement age 56这条FAA政策断言是否仍是2026年现行政策",
+    "与dental-hygienist-salary/how-much-do-flight-attendants-make两处跨文章比较数字是否仍与对方文章当前数据一致"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性/时效性",
+      "status": "确认发现问题，已修复",
+      "detail": "curl直连（带声明联系方式UA）bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm返回200，页面已从May 2024刷新为May 2025数据：median $144,580→$148,080（$69.51→$71.19/小时）、p10 $76,090→$78,420、p90 $210,410→$215,610、federal government $154,000→$156,250、support activities for air transportation $82,510→$83,890、employment(基准年) 24,100(2024)→24,000(2025)、job outlook 1%(2024-34)→2%(2025-35)、净增300→400、年均开缺2,200→2,100、全站中位数对照$49,500→$50,980。独立复核agent二次curl核实9项里8项逐字一致，仅90th percentile因该agent误读相邻图表数值未能独立复核，改由本次会话此前的直接curl结果（highest 10 percent earned more than $215,610）独立确认。5 U.S.C. §8335外部链接因本机对uscode.house.gov的TLS握手超时无法直接curl核实，WebSearch交叉核实该URL结构（req=granuleid:USC-prelim-title5-section8335）与5 U.S.C. §8335条文内容真实存在，判定为沙箱网络限制而非真实链接腐烂，未改动该引用。FAA年龄门槛（31岁/放宽35岁/强制56岁退休）经WebSearch独立信源（多个ATC招聘/法律解读站点）核实2026年现行政策未变；BLS新版页面文本本身已简化为'apply before the FAA's age cutoff'不再写具体数字，但文章原始引用来源是FAA hiring policy非BLS本身，不受BLS页面文本简化影响，未改动。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS并标注数据年份，sources字段含BLS OOH+5 U.S.C. §8335两条来源（较同批姊妹文章的单一来源更丰富）；正文含'为什么联邦雇主薪资显著高于承包塔台'的因果解释（含明确'BLS未解释此差距，此为本文推断'的免责措辞）以及与dental-hygienist-salary/flight-attendants两处真实手写跨文章比较，属于真实的专业增量分析。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "确认发现问题，独立复核确认为真实但决定本次不做不安全的修复",
+      "detail": "dataforseo serp实测'air traffic controller salary'：本文未进入前12（符合发布3周的预期），头部竞品含bls.gov本身/reddit/indeed/allcriminaljusticeschools/careers.usnews.com/joinhandshake/123atc.com。WebSearch核实Glassdoor（25th $72,078/75th $134,143）、CareerExplorer（25th $73,919/75th $137,483）、ZipRecruiter（25th $73,000/75th $135,000）均提供25th/75th百分位及部分提供州级细分，颗粒度超过本文（仅10th/90th+全国两行业）。但三者均为私营招聘平台自报数据，非BLS官方口径，延续本站pharmacist-salary(2026-08-03)/actuary-salary(2026-08-05)两次审计已确立的CONFIRMED-BUT-NO-SAFE-FIX判例（未能像how-much-do-flight-attendants-make审计那样找到median与BLS逐字吻合、可作为'确系同源数据'佐证的第三方来源），未强行拼入无法逐条核验的数字。仍待州组合页架构规划解决。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题（滞后于数据刷新的meta description已随本次修复同步更新）",
+      "detail": "curl实测live页面：title 68字符含品牌后缀正常、单一H1匹配title、6个H2结构清晰、canonical自引用正确（https://wagelark.com/air-traffic-controller-salary/）；schema含Article/FAQPage/BreadcrumbList/Dataset/Organization/WebPage/ImageObject七种类型，均服务端渲染非JS注入；robots.txt对全部AI爬虫（GPTBot/ChatGPT-User/ClaudeBot/Claude-Web/PerplexityBot/Google-Extended）Allow。meta description修复前含旧数字$144,580，随数据刷新一并更新为$148,080。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题，达标（估计高于同批姊妹文章）",
+      "detail": "按站内11维度99分制估算：本文相比pharmacist-salary/actuary-salary/physical-therapist-salary等同模板姊妹文章多出两项差异化优势——sources字段有2条来源（BLS+法律条文）而非1条，且正文对dental-hygienist-salary和flight-attendants各有一处真实手写跨域锚文本连接（多数姊妹文章'跨域连接'维度较弱正是因为缺少这类正文内手写内链，仅靠侧栏轮转），预估约90/99，高于80分及格线，未做进一步GEO专项修复。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "不适用",
+      "detail": "published=2026-08-09，晚于avoid-ai-writing技能2026-08-07接入日期，无需回填检查。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题（一条因沙箱网络限制无法直接验证，已用替代方式核实）",
+      "detail": "BLS OOH来源curl直连200可访问。5 U.S.C. §8335来源本机TLS握手对uscode.house.gov超时（非403，是连接层超时，判断为本次会话所在网络环境对该域名的限制），改用WebSearch确认该URL结构（含精确的granuleid查询参数）与条文内容真实存在、可被搜索引擎正常索引，非死链。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题，双向健康",
+      "detail": "grep确认：本文正文对/dental-hygienist-salary/和/how-much-do-flight-attendants-make/各有一处真实手写锚文本链接（非仅侧栏轮转）；反向核实发现2026-08-29新发布的highest-paying-jobs-without-a-degree文章正文对本文有一处真实手写锚文本链接（'BLS lists an associate's degree as the typical entry path for [air traffic controllers](/air-traffic-controller-salary/)...'），本文非孤儿页，且是本站少数被专门外部文章手写引用（而非仅靠轮转算法）的页面之一。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "已随数据刷新同步更新",
+      "detail": "curl实测live页面Article/FAQPage/BreadcrumbList/Dataset等JSON-LD字段与guides.ts更新后的新数字（148,080/78,420/215,610等）逐一吻合，dateModified随updated字段同步为2026-08-30。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面实测免责声明存在；正文/FAQ通读未发现收入承诺式表述、培训机构推荐或个性化职业建议；FAA年龄限制/强制退休等表述为客观转述联邦法律条文，非煽动性或歧视性内容。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题，已随数据刷新重新生成",
+      "detail": "配图为站内脚本(tools/bls-data/generate-charts.mjs)从同一份wages-source.json自动生成的SVG柱状图，非第三方图片，无版权问题；本次数据刷新后已用node generate-charts.mjs重新生成，图表数字与正文数字来自同一数据源天然一致。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "ads.txt实测正确指向pub-5245502795720653；privacy/about页面均curl实测200；标题非标题党，正文为百科式政府薪资数据记述，无收入承诺/培训机构推荐/个性化职业建议等YMYL红线表述。"
+    },
+    {
+      "dimension": "跨文章数据漂移（本次新增维度，非原13维度但审计中发现）",
+      "status": "确认发现问题，独立复核确认，已修复",
+      "detail": "独立复核agent grep guides.ts全文确认：2026-08-29新发布的highest-paying-jobs-without-a-degree（榜单类文章）独立硬编码本文旧median $144,580达7处（coreSummary、排名表格第1行、正文散文'from air traffic controllers at $144,580 down to bartenders...'、两条FAQ答案、description、imageAlt），若只更新本文（源头文章）会导致站内两篇文章对同一BLS职业展示两个不同的'权威'薪资数字，损害可信度。已在同一次修复中一并更新全部7处，并重算依赖旧数字的差值句（'$144,580 down to $33,530, a nearly $111,000 gap'→'$148,080 down to $33,530, a nearly $115,000 gap'）。该榜单文章依赖的no-degree排名图表SVG（highest-paying-jobs-without-a-degree-chart.svg）已用node generate-no-degree-ranking-chart.mjs从同一更新后的wages-source.json重新生成，与新数字保持一致（该职业entryEducation为Associate's degree，落在NO_DEGREE_TIERS集合内，图表逻辑自动纳入更新）。"
+    }
+  ],
+  "actions_taken": [
+    "更新tools/bls-data/wages-source.json的53-2021条目全部字段为May 2025数据",
+    "node build-wage-data.mjs重新生成src/data/bls-wages.ts",
+    "更新tools/bls-data/wages-source.test.mjs该条目的独立硬编码spot-check断言及注释",
+    "node generate-charts.mjs重新生成air-traffic-controller-salary-chart.svg；node generate-no-degree-ranking-chart.mjs重新生成highest-paying-jobs-without-a-degree-chart.svg",
+    "更新guides.ts本文description/coreSummary/2个section正文/3条FAQ/sources访问日期/imageAlt的全部数字，重算2处依赖旧数字的差值句",
+    "更新guides.ts的highest-paying-jobs-without-a-degree条目共7处（description/coreSummary/排名表格/正文散文/2条FAQ/imageAlt），重算1处差值句",
+    "撰写过程中发现并发会话（veterinarian-salary新文章）同时改动同一批共享文件，改用git archive+脚本重放编辑+git hash-object/update-index的blob级暂存提交（未碰工作树）；中途因干净副本构建时机early于并发会话commit落地，第一次commit意外把对方已提交内容清零，已用git reset --soft撤销并基于正确HEAD重新构建重新提交，未推送过错误版本",
+    "commit 5c6662a，push成功（含一次LibreSSL网络重试）；不适用Cloudflare deploy hook流程（本仓库无hook，Git自动部署）",
+    "seo_drift.py compare：2条WARNING（schema内容变化+meta description数字变化），均为预期编辑，无CRITICAL",
+    "node tools/submit-indexnow.mjs /air-traffic-controller-salary/ /highest-paying-jobs-without-a-degree/，Bing/Yandex均200",
+    "独立站/内容通用教训库.md新增条目：跨文章数据漂移（更新数据源头文章后必须检查全站汇总/榜单类文章是否复制引用了同一数字）"
+  ],
+  "seo_score": "技术SEO抽查（title/meta/h1/h2/schema/canonical/robots.txt/ads.txt）无问题，meta description随数据刷新同步更新",
+  "geo_score": "估计约90/99（含2处正文手写跨域锚文本连接，优于同批姊妹文章的约84-89/99），高于80分及格线，未修改结构",
+  "escalation": null
+}
+```
