@@ -287,5 +287,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-30",
+    "action": "submitted",
+    "reason": "今日两条记录：air-traffic-controller-salary为content-quality-audit审计更新（非新发布），本轮站点名额已用于veterinarian-salary未再核查该URL；veterinarian-salary为新发布文章，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+    "submitted_urls": [
+      "https://wagelark.com/veterinarian-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
