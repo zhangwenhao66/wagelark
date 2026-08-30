@@ -95,6 +95,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/highest-paying-jobs-without-a-degree-chart.svg": {
+  "h": 444,
+  "w": 700
+ },
  "/images/hvac-certification-path.svg": {
   "h": 380,
   "w": 640
