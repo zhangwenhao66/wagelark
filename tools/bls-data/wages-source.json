@@ -842,33 +842,33 @@
     },
     "53-2021": {
       "title": "Air Traffic Controllers",
-      "medianAnnual": 144580,
-      "medianHourly": 69.51,
+      "medianAnnual": 148080,
+      "medianHourly": 71.19,
       "percentiles": {
-        "p10": 76090,
-        "p90": 210410
+        "p10": 78420,
+        "p90": 215610
       },
-      "employment": 24100,
-      "employmentYear": "2024",
-      "jobOutlookPct": 1,
+      "employment": 24000,
+      "employmentYear": "2025",
+      "jobOutlookPct": 2,
       "jobOutlookLabel": "Slower than average",
-      "employmentChange": 300,
-      "projectionPeriod": "2024-34",
+      "employmentChange": 400,
+      "projectionPeriod": "2025-35",
       "entryEducation": "Associate's degree",
       "industryWages": [
         {
           "industry": "Federal government",
-          "annualWage": 154000
+          "annualWage": 156250
         },
         {
           "industry": "Support activities for air transportation",
-          "annualWage": 82510
+          "annualWage": 83890
         }
       ],
-      "dataYear": "May 2024",
+      "dataYear": "May 2025",
       "sourceLabel": "BLS Occupational Outlook Handbook: Air Traffic Controllers",
       "sourceUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm",
-      "publishedDate": "2025-08-28"
+      "publishedDate": "2026-08-30"
     },
     "29-1126": {
       "title": "Respiratory Therapists",

@@ -294,22 +294,27 @@ test('spot check: Medical Assistants (31-9092) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages.length, 4);
 });
 
-// Hand-transcribed from a Wayback Machine snapshot (2026-06-13) of the live
-// bls.gov OOH page on 2026-08-09 -- curl 403s on bls.gov directly, and the
-// snapshot's own "Last modified date: August 28, 2025" matches the same
-// data-freshness date as every other spot check in this file, confirming it
-// reflects the same May 2024 data cycle as a direct fetch would. Independent
-// of wages-source.json's own numbers -- do not derive these from the source
-// file.
+// Re-verified 2026-08-30 (trafficsite-content-quality-audit) via a direct
+// curl fetch of the live bls.gov OOH page with a descriptive User-Agent
+// (`curl -A "Mozilla/5.0 (compatible; WageLarkContentAudit/1.0; ...)" ...`)
+// -- this returned HTTP 200, not the 403 the 2026-08-09 write-up hit, so
+// this is a direct fetch, not a Wayback snapshot. BLS had refreshed this
+// occupation page from May 2024 to May 2025 data (2025-2035 projections) by
+// this date; a second, fully independent sub-agent re-fetched the same URL
+// separately and confirmed every figure below (except p90, independently
+// confirmed instead from this session's own direct fetch, since the
+// sub-agent's extraction of that one figure landed on an adjacent
+// occupation's chart value by mistake). Independent of wages-source.json's
+// own numbers -- do not derive these from the source file.
 test('spot check: Air Traffic Controllers (53-2021) matches BLS OOH page', () => {
 	const occ = occupations['53-2021'];
-	assert.equal(occ.medianAnnual, 144580);
-	assert.equal(occ.medianHourly, 69.51);
-	assert.equal(occ.percentiles.p10, 76090);
-	assert.equal(occ.percentiles.p90, 210410);
-	assert.equal(occ.employment, 24100);
-	assert.equal(occ.jobOutlookPct, 1);
-	assert.equal(occ.employmentChange, 300);
+	assert.equal(occ.medianAnnual, 148080);
+	assert.equal(occ.medianHourly, 71.19);
+	assert.equal(occ.percentiles.p10, 78420);
+	assert.equal(occ.percentiles.p90, 215610);
+	assert.equal(occ.employment, 24000);
+	assert.equal(occ.jobOutlookPct, 2);
+	assert.equal(occ.employmentChange, 400);
 	assert.equal(occ.industryWages.length, 2);
 });
 
