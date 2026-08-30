@@ -971,3 +971,22 @@ test('spot check: Magnetic Resonance Imaging Technologists (29-2035) matches BLS
 	assert.equal(occ.industryWages[3].industry, 'Medical and diagnostic laboratories');
 	assert.equal(occ.industryWages[3].annualWage, 93540);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-30 (last modified
+// August 27, 2026, carrying May 2025 data). Independent of wages-source.json's
+// own numbers -- do not derive these from the source file.
+test('spot check: Veterinarians (29-1131) matches BLS OOH page', () => {
+	const occ = occupations['29-1131'];
+	assert.equal(occ.medianAnnual, 130100);
+	assert.equal(occ.medianHourly, 62.55);
+	assert.deepEqual(occ.percentiles, { p10: 73920, p90: 215700 });
+	assert.equal(occ.employment, 91100);
+	assert.equal(occ.jobOutlookPct, 9);
+	assert.equal(occ.employmentChange, 8600);
+	assert.equal(occ.entryEducation, 'Doctoral or professional degree');
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Social advocacy organizations');
+	assert.equal(occ.industryWages[0].annualWage, 131760);
+	assert.equal(occ.industryWages[3].industry, 'Government (excluding state/local education)');
+	assert.equal(occ.industryWages[3].annualWage, 115210);
+});

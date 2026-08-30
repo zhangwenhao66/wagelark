@@ -39,6 +39,7 @@ const CHARTS = {
 	'veterinary-technician-salary-chart': '29-2056',
 	'funeral-director-salary-chart': '39-4031',
 	'mri-tech-salary-chart': '29-2035',
+	'veterinarian-salary-chart': '29-1131',
 };
 
 const NAVY = '#14273f';

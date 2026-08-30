@@ -3878,6 +3878,7 @@ export const guides: Guide[] = [
 					'BLS tracks this role under SOC code 29-2056, "Veterinary Technologists and Technicians," a title that covers two distinct credential tracks with one combined median wage. Technicians typically complete a 2-year associate\'s degree in veterinary technology; technologists complete a 4-year bachelor\'s degree in the same field. Both must pass a credentialing exam and become registered, licensed, or certified, with the specific requirement set by the state where they work. BLS reports Associate\'s degree as the "typical" entry-level education for the combined occupation, which understates what technologists specifically complete, since the Handbook does not publish a separate median wage for the bachelor\'s-level technologist track alone.',
 					'The median annual wage for veterinary technologists and technicians was $45,980 in May 2024 ($22.11 an hour). The bottom 10% earned less than $32,120 a year, while the top 10% earned more than $60,880, a spread of roughly $28,760. That range is narrower than the spreads this site has found for several other allied health roles with an associate\'s degree as the entry point, which suggests less pay differentiation by specialty certification or region within this specific occupation.',
 					'One comparison worth naming directly: [radiologic technologists and technicians](/radiology-tech-salary/) also typically enter with an associate\'s degree and also sit for a licensing exam, yet BLS reports a $77,660 median for that role, about $31,680 more than veterinary technicians earn despite a comparable entry credential. BLS does not explain the gap on either page. It most plausibly traces to which industries buy the two services, hospital and outpatient healthcare systems versus small private veterinary practices, rather than to the training itself, though that reasoning is this article\'s own, not something BLS states.',
+					"Within veterinary medicine itself, the credential gap runs much wider than the associate's-versus-bachelor's split covered above: [veterinarians](/veterinarian-salary/) need a four-year doctoral degree (a DVM) after a bachelor's plus a national licensing exam, and BLS puts their median at $130,100, a difference of $84,120 from the veterinary technician figure on this page.",
 				],
 			},
 			{
@@ -4071,6 +4072,76 @@ export const guides: Guide[] = [
 		],
 		image: '/images/mri-tech-salary-chart.svg',
 		imageAlt: 'Bar chart showing MRI technologist annual wage by percentile: 10th percentile $68,890, median $95,480, 90th percentile $127,670, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'veterinarian-salary',
+		category: 'Salary Guide',
+		title: 'Veterinarian Salary: $130,100 Median & Full Range (2026 BLS)',
+		description: 'BLS puts the median veterinarian salary at $130,100 a year, with 9% growth projected through 2035. Here is the full wage range by percentile and by industry setting.',
+		published: '2026-08-30',
+		updated: '2026-08-30',
+		socCode: '29-1131',
+		coreSummary: 'The median annual wage for veterinarians was $130,100 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $73,920 while the top 10% earned more than $215,700, a spread of roughly $141,780. BLS projects 9% employment growth from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 8,600 jobs to a workforce of 91,100.',
+		sections: [
+			{
+				heading: 'What veterinarians earn, and the doctoral degree BLS says it takes to get there',
+				body: [
+					"The Bureau of Labor Statistics tracks this occupation under SOC code 29-1131, on a page dedicated to veterinarians alone. For May 2025, BLS reported a median annual wage of $130,100, or $62.55 an hour. The bottom 10% of earners made less than $73,920 a year, while the top 10% made more than $215,700, a spread of roughly $141,780, one of the widest percentile ranges this site has found among the occupations it tracks. BLS does not attribute that spread to any single factor on this page, though the industry breakdown below accounts for some of it.",
+					"BLS lists a doctoral or professional degree as the typical entry-level education for this occupation, specifically a Doctor of Veterinary Medicine (DVM) or, at a small number of schools, a Doctor of Veterinary Medicine degree titled VMD. That places veterinarians in the same broad credential tier as [pharmacists](/pharmacist-salary/), whose typical entry path is also a four-year professional doctoral degree (a PharmD) after an undergraduate foundation; BLS reports a $137,480 median for pharmacists, about $7,380 above the veterinarian figure, a narrower gap than the very different animal-versus-human-medicine scope of the two fields might suggest.",
+					'These figures come from BLS\'s Occupational Employment and Wage Statistics survey, which draws wage data from employer payroll and self-employment records rather than worker self-reports. The same survey counted about 91,100 veterinarian jobs in 2025.',
+				],
+			},
+			{
+				heading: 'Why the highest-paying setting is close to where most veterinarians actually work',
+				body: [
+					"BLS breaks out May 2025 wages by industry for veterinarians, and the four categories it tracks sit closer together than the percentile spread above might suggest. Social advocacy organizations paid the highest median, at $131,760, but veterinary services, the industry that covers ordinary clinical practice, paid $129,990, just $1,770 below the top category. Educational services (state, local, and private) paid $121,890, and government work, excluding state and local education, paid the least of the four, at $115,210.",
+					"BLS does not publish what share of veterinarians work in each of these four industries on this page, so this site cannot state a precise employment split the way it can for some other occupations it tracks. What the wage figures alone show is a narrower gap between the top and bottom industry, about $16,550, or roughly 13% of the lowest figure, than this site found for [veterinary technicians](/veterinary-technician-salary/), a closely related occupation where the top-paying industry (educational services, at $51,250) paid about 21% more than the lowest (social advocacy organizations, at $41,640), and where BLS separately confirmed that 89% of the workforce sits in the industry paying third-highest of four, not the top one. For veterinarians, ordinary clinical practice pays within a couple thousand dollars of the best-paying category BLS tracks, a different pattern from the technician side of the same field.",
+				],
+			},
+			{
+				heading: 'Becoming a veterinarian, and how the entry path compares to becoming a veterinary technician',
+				body: [
+					'Per BLS, prospective veterinarians need a DVM (or VMD) degree from a college of veterinary medicine accredited by the American Veterinary Medical Association\'s Council on Education, a program that typically takes four years and combines classroom instruction, laboratory work, and clinical training, with the final year spent on clinical rotations. All states require completing an accredited program and passing a qualifying exam; most states also require a separate state-level exam covering state veterinary laws and regulations, and BLS notes that few states accept a license issued by another state without additional steps.',
+					'Independently of BLS, the field\'s national licensing exam, the North American Veterinary Licensing Examination (NAVLE), is administered by the International Council for Veterinary Assessment (ICVA, formerly named the National Board of Veterinary Medical Examiners), a computer-based test offered twice a year that fulfills a core licensure requirement in every U.S. state and Canadian province. Candidates generally must be enrolled in, or have graduated from, an AVMA-accredited program to sit for it.',
+					"That doctoral-degree, board-exam path stands in sharp contrast to entry into [veterinary technician and technologist work](/veterinary-technician-salary/) in the same field, which BLS lists as typically requiring only an associate's degree, roughly two years of postsecondary study versus four years of professional school after a bachelor's degree for veterinarians. The pay gap between the two roles, $130,100 for veterinarians versus $45,980 for veterinary technicians and technologists, a difference of $84,120, tracks that credential gap more closely than the setting comparison above tracks the industry-wage gap within either occupation alone.",
+				],
+			},
+			{
+				heading: 'Job outlook, and a physical risk BLS states directly',
+				body: [
+					'BLS projects 9% employment growth for veterinarians from 2025 to 2035, classified as much faster than the roughly 3% average across all occupations, taking the occupation from 91,100 to an estimated 99,700 jobs and adding about 8,600 positions. BLS attributes that growth to rising consumer spending on pet care, expanding treatment options, and a pet population that is both growing and aging, without assigning a specific weight to any one of those three factors. About 3,100 openings are projected each year on average over the decade, and BLS attributes many of those annual openings to workers transferring to other occupations or leaving the labor force entirely, such as to retire, rather than to newly created positions alone.',
+					'Separately from the pay and growth figures, BLS states that most veterinarians work full time, often exceeding 40 hours a week, and describes a direct physical risk of the job: veterinarians can be "bitten, kicked, and scratched" while handling frightened or injured animals during exams and procedures. BLS does not attach a specific injury-rate figure to that statement on this page, unlike the comparative "one of the highest rates of injuries and illnesses" language this site has found on the [veterinary technician](/veterinary-technician-salary/) BLS page; it is a description of the hazard itself rather than a quantified claim this site can independently verify against a separate BLS injury dataset.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median veterinarian salary?',
+				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for veterinarians was $130,100 in May 2025, equivalent to $62.55 an hour. "Median" means half of workers in the role earned more and half earned less.',
+			},
+			{
+				question: 'Which industry pays veterinarians the most?',
+				answer: 'Among the four industry categories BLS tracks for May 2025, social advocacy organizations paid the highest median at $131,760, just $1,770 above veterinary services ($129,990), the industry covering ordinary clinical practice. Educational services paid $121,890, and government work (excluding state and local education) paid the least, at $115,210.',
+			},
+			{
+				question: 'Do veterinarians need a doctoral degree?',
+				answer: "Yes. BLS lists a doctoral or professional degree as the typical entry-level education, specifically a Doctor of Veterinary Medicine (DVM or VMD) from a program accredited by the AVMA's Council on Education, which typically takes four years. All states also require passing a qualifying exam, most commonly the North American Veterinary Licensing Examination (NAVLE), administered by the International Council for Veterinary Assessment.",
+			},
+			{
+				question: 'Is a veterinarian salary higher than a veterinary technician salary?',
+				answer: 'Yes, by a wide margin. BLS reports a $130,100 median for veterinarians versus $45,980 for veterinary technologists and technicians, a difference of $84,120. The gap tracks the difference in required training: a four-year doctoral degree after a bachelor\'s for veterinarians versus a typical two-year associate\'s degree for technicians.',
+			},
+			{
+				question: 'Is veterinary medicine a growing field?',
+				answer: 'BLS projects 9% employment growth for veterinarians from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 8,600 jobs and about 3,100 openings a year on average. BLS attributes the growth to rising pet-care spending, expanding treatment options, and a growing, aging pet population.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Veterinarians (accessed 2026-08-30 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/veterinarians.htm' },
+			{ label: 'International Council for Veterinary Assessment (ICVA): North American Veterinary Licensing Examination (NAVLE) overview, used for the licensing-exam details above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.icva.net/navle/' },
+		],
+		image: '/images/veterinarian-salary-chart.svg',
+		imageAlt: 'Bar chart showing veterinarian annual wage by percentile: 10th percentile $73,920, median $130,100, 90th percentile $215,700, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'highest-paying-jobs-without-a-degree',

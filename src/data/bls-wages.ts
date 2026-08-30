@@ -1768,5 +1768,44 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Funeral Service Workers (Morticians, Undertakers, and Funeral Arrangers profile)",
 		sourceUrl: "https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm",
 		publishedDate: "2026-08-27"
+	},
+	"29-1131": {
+		socCode: "29-1131",
+		title: "Veterinarians",
+		medianAnnual: 130100,
+		medianHourly: 62.55,
+		percentiles: {
+			p10: 73920,
+			p90: 215700
+		},
+		employment: 91100,
+		employmentYear: "2025",
+		jobOutlookPct: 9,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 8600,
+		projectionPeriod: "2025-35",
+		entryEducation: "Doctoral or professional degree",
+		industryWages: [
+			{
+				industry: "Social advocacy organizations",
+				annualWage: 131760
+			},
+			{
+				industry: "Veterinary services",
+				annualWage: 129990
+			},
+			{
+				industry: "Educational services (state, local, private)",
+				annualWage: 121890
+			},
+			{
+				industry: "Government (excluding state/local education)",
+				annualWage: 115210
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Veterinarians",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/veterinarians.htm",
+		publishedDate: "2026-08-27"
 	}
 };
