@@ -44,6 +44,15 @@
       "answer_url": "https://www.quora.com/What-do-you-think-of-an-industrial-organizational-practitioner-Do-you-think-a-PhD-is-now-required-to-work-in-the-corporate-world-or-a-masters-degree-in-the-I-O-program-is-enough/answer/Owen-Zhang-161",
       "status": null,
       "notes": "发布时该问题有5个真实答案，全部是从业者个人印象/经验之谈，没有一条引用权威政府数据源，判定为真实内容空白值得补充，按SKILL.md放宽标准使用，回答中明确点名回应两位既有答主(Ed Weinstein/T.L. Brink)的说法与BLS官方口径一致。以站内文章骨架撰写(Per BLS，工业组织心理学家是心理学职业里少数typically只需硕士学位即可入行的细分方向，跟typically需要Ph.D.或Psy.D.的临床/咨询心理学家不同；BLS明确列出该方向对应课程为统计学、研究设计、以及人与工作场所关系)，未编造或引用任何I-O细分方向的具体薪资数字(站内文章的$94,310中位数是19-3030大类整体口径，非I-O细分口径，本次回答未混用以免误导，符合本站YMYL-adjacent纪律：只给BLS数据不做超出数据本身的断言)。已过humanizer+avoid-ai-writing双重检查(无破折号、无AI高频词、无vague endorsement，初稿'Worth adding'已改写为直接陈述)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向how-to-become-a-psychologist页面,全程只填URL字段。已直接发布成功(非Space类问题)，发布前用javascript_tool核实编辑器DOM中该span确实是class=\"span link\"(非link_pending)，发布后再次核实渲染页面DOM中确实是<a href>真实超链接指向https://wagelark.com/how-to-become-a-psychologist/,锚文本为here。 | question_title: What do you think of an industrial-organizational practitioner? Do you think a PhD is now required to work in the corporate world or a master's degree in the I-O program is enough?"
+    },
+    {
+      "date": "2026-08-30",
+      "site": "wagelark.com",
+      "target_page": "https://wagelark.com/highest-paying-jobs-without-a-degree/",
+      "question_url": "https://www.quora.com/What-are-the-highest-paying-jobs-without-a-college-degree-in-2019",
+      "answer_url": "https://www.quora.com/What-are-the-highest-paying-jobs-without-a-college-degree-in-2019/answer/Owen-Zhang-161",
+      "status": null,
+      "notes": "本次为外链产能集中规则(2026-08-25新增)首次执行：用gsc_query.py现算8个非压制站近28天11-30位曝光，WageLark(533)排第一，与DayAlmanac(286)/UmberLore(259)一并获得本轮全部产能，其余5站本轮不轮到。目标页选取遵循冷启动规则：该页2026-08-30发布/更新，从未建过外链。发布时该问题0答案(2条折叠垃圾答案不计，标题含'in 2019'但内容评论开放且持续被follow，判定为长青问题非过期)。以站内highest-paying-jobs-without-a-degree文章骨架撰写(BLS 2025年5月数据：空管员中位年薪$148,080居首但需FAA认可项目/体检背调/FAA学院培训/年龄上限31-35/强制退休56岁，MRI技师$95,480/牙科保健师$94,260/超声技师$89,340/呼吸治疗师$80,450/放射技师$77,660五项医疗影像类，电工/管道工均被BLS归为'高中学历'但学徒制实为4-5年约2000小时/年；结论段指出真正共性是执照/名额/考试瓶颈而非'免学位'本身，反例为簿记员因无此瓶颈且BLS预测未来十年萎缩6%)。已过humanizer+avoid-ai-writing双重检查(无破折号、无AI高频词、无vague endorsement、句长有变化)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向highest-paying-jobs-without-a-degree页面,全程只填URL字段。已直接发布成功(非Space类问题)，发布前用javascript_tool核实编辑器DOM中确实生成了<a href>真实超链接(非纯文本)，发布后再次核实渲染页面DOM中确实是<a href=\"https://wagelark.com/highest-paying-jobs-without-a-degree/\">真实超链接,锚文本为here。 | question_title: What are the highest paying jobs without a college degree in 2019?"
     }
   ],
   "reddit": []
