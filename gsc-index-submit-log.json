@@ -297,5 +297,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-08-31",
+    "action": "submitted",
+    "reason": "今日新发布radiation-therapist-salary（Radiation Therapists, SOC 29-1124）：URL Inspection确认URL is not on Google，REQUEST INDEXING提交成功确认Indexing requested。今日另有审计更新how-to-become-a-cna未再核查（非新发布，优先级低于新发布）。",
+    "submitted_urls": [
+      "https://wagelark.com/radiation-therapist-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
