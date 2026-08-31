@@ -995,3 +995,24 @@ test('spot check: Veterinarians (29-1131) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages[3].industry, 'Government (excluding state/local education)');
 	assert.equal(occ.industryWages[3].annualWage, 115210);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-31 (last modified
+// August 27, 2026, carrying May 2025 data). Independent of wages-source.json's
+// own numbers -- do not derive these from the source file. The OOH page for
+// this occupation gives no 10th/90th percentile breakout, so percentiles is
+// deliberately {} (same pattern as the other entries noted above).
+test('spot check: Radiation Therapists (29-1124) matches BLS OOH page', () => {
+	const occ = occupations['29-1124'];
+	assert.equal(occ.medianAnnual, 105310);
+	assert.equal(occ.medianHourly, 50.63);
+	assert.deepEqual(occ.percentiles, {});
+	assert.equal(occ.employment, 17400);
+	assert.equal(occ.jobOutlookPct, 3);
+	assert.equal(occ.employmentChange, 500);
+	assert.equal(occ.entryEducation, "Associate's degree");
+	assert.equal(occ.industryWages.length, 3);
+	assert.equal(occ.industryWages[0].industry, 'Outpatient care centers');
+	assert.equal(occ.industryWages[0].annualWage, 127680);
+	assert.equal(occ.industryWages[2].industry, 'Hospitals; state, local, and private');
+	assert.equal(occ.industryWages[2].annualWage, 104260);
+});

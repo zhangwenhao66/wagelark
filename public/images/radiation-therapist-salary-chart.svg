@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="240" fill="white" />
+	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Radiation Therapists: Median Annual Wage by Industry</text>
+
+	<text x="138" y="80" text-anchor="end" font-size="15" fill="#14212e">Outpatient care centers</text>
+	<rect x="150" y="62" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="62" width="380" height="34" fill="#0f8b7f" />
+	<text x="540" y="85" font-size="15" font-weight="700" fill="#14273f">$127,680</text>
+
+	<text x="138" y="132" text-anchor="end" font-size="15" fill="#14212e">Offices of physicians</text>
+	<rect x="150" y="114" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="114" width="329" height="34" fill="#0f8b7f" />
+	<text x="489" y="137" font-size="15" font-weight="700" fill="#14273f">$110,610</text>
+
+	<text x="138" y="184" text-anchor="end" font-size="15" fill="#14212e">Hospitals (state, local, private)</text>
+	<rect x="150" y="166" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="166" width="311" height="34" fill="#0f8b7f" />
+	<text x="471" y="189" font-size="15" font-weight="700" fill="#14273f">$104,260</text>
+
+	<text x="150" y="224" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national, by industry)</text>
+</svg>

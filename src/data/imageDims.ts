@@ -191,6 +191,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 460,
   "w": 640
  },
+ "/images/radiation-therapist-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/radiology-tech-salary-chart.svg": {
   "h": 240,
   "w": 640
@@ -224,6 +228,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 660
  },
  "/images/ultrasound-tech-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
+ "/images/veterinarian-salary-chart.svg": {
   "h": 240,
   "w": 640
  },

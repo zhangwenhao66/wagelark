@@ -4144,6 +4144,74 @@ export const guides: Guide[] = [
 		imageAlt: 'Bar chart showing veterinarian annual wage by percentile: 10th percentile $73,920, median $130,100, 90th percentile $215,700, based on BLS May 2025 data.',
 	},
 	{
+		slug: 'radiation-therapist-salary',
+		category: 'Salary Guide',
+		title: 'Radiation Therapist Salary: $105,310 Median (2026 BLS)',
+		description: 'BLS puts the median radiation therapist salary at $105,310 a year, with 3% growth projected through 2035. Here is the wage range by industry setting.',
+		published: '2026-08-31',
+		updated: '2026-08-31',
+		socCode: '29-1124',
+		coreSummary: "The median annual wage for radiation therapists was $105,310 in May 2025, according to the U.S. Bureau of Labor Statistics, or $50.63 an hour. That is roughly double the $50,980 median BLS reports across all occupations for the same period. Unlike many occupations this site tracks, BLS's page for radiation therapists does not publish a 10th/90th percentile wage range. BLS projects 3% employment growth from 2025 to 2035, about average for all occupations, adding an estimated 500 jobs to a workforce of 17,400, with about 700 openings projected each year, mostly from workers transferring to other occupations or leaving the labor force.",
+		sections: [
+			{
+				heading: 'What radiation therapists earn, and a figure BLS does not publish for this occupation',
+				body: [
+					"A radiation therapist earned a median of $105,310 a year in May 2025, or $50.63 an hour, per the Bureau of Labor Statistics, which profiles this occupation on its own page under SOC code 29-1124. That figure is worth measuring against something broader: BLS's own glossary on the same page puts the median annual wage across every occupation it tracks at $50,980 for the same period, so radiation therapists earn just over double that economy-wide number.",
+					"Where this page differs from most other BLS occupation profiles this site has covered is what it does not include: a 10th-to-90th percentile wage range. Pages for [veterinarians](/veterinarian-salary/) and [MRI technologists](/mri-tech-salary/), for example, both give that spread directly. The radiation therapist page gives only the single median figure, plus the industry breakdown below; BLS does not explain the omission on the page itself.",
+				],
+			},
+			{
+				heading: 'Pay by industry setting, and what BLS does not say about where therapists work',
+				body: [
+					'BLS breaks out May 2025 wages across three industry categories for radiation therapists. Outpatient care centers paid the highest median, at $127,680. Offices of physicians paid $110,610, and hospitals, the setting BLS lists first in its own Work Environment description, paid the least of the three, at $104,260, a difference of $23,420 between the highest- and lowest-paying settings.',
+					"BLS's Work Environment section for this occupation names the same three settings, hospitals, offices of physicians, and outpatient centers, as the places radiation therapists work, but unlike its pages for [veterinarians](/veterinarian-salary/) or [MRI technologists](/mri-tech-salary/), it does not give a percentage breakdown of how the workforce is actually split across them. That means the industry wage table above shows what each setting pays, but not how many radiation therapists work in the highest-paying one versus the others; this site cannot state a workforce-weighted average without that missing figure.",
+				],
+			},
+			{
+				heading: 'How radiation therapist pay compares to two occupations on the same BLS page',
+				body: [
+					"BLS lists radiation therapists alongside eight related occupations in a Similar Occupations comparison table on the same page. Two are especially close in scope, since both work in radiation oncology or nuclear medicine rather than general diagnostic imaging. Medical dosimetrists, who calculate and plan radiation treatment doses, had the highest median of any occupation in that table at $147,470, about $42,160 above the radiation therapist figure, but BLS lists a bachelor's degree as the typical entry-level education for that role, one credential tier above the associate's degree BLS lists for radiation therapists. Nuclear medicine technologists, who also use radioactive materials in patient care but for diagnostic imaging rather than treatment, had a median of $101,370, within $3,940 of the radiation therapist figure, at the same associate's-degree entry level.",
+					'Two other occupations in that same comparison table sit well below the radiation therapist median at the identical associate\'s-degree entry level: cardiovascular technologists and technicians at $74,310, and respiratory therapists at $82,280. BLS does not explain on this page why occupations requiring the same typical degree land at such different pay levels; the gap likely reflects differences in the specialized, cancer-treatment-specific training radiation therapy programs require beyond the general associate\'s-degree credential.',
+				],
+			},
+			{
+				heading: 'Job outlook, and how people enter the field',
+				body: [
+					'BLS projects 3% employment growth for radiation therapists from 2025 to 2035, classified as about as fast as the average for all occupations, adding an estimated 500 jobs to a 2025 workforce of 17,400. About 700 openings are projected each year on average over the decade; BLS attributes many of those to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions.',
+					"BLS states that radiation therapists typically need an associate's or bachelor's degree in radiation therapy, and that most states require licensure or certification, often including a national certification exam, without naming the certifying body. Independently of BLS, that certification is administered by the American Registry of Radiologic Technologists (ARRT), the same organization this site has confirmed administers the [MRI technologist](/mri-tech-salary/) credential. ARRT's primary pathway into its radiation therapy certification requires an associate's degree or higher, completion of an ARRT-approved radiation therapy education program, and passing separate education, ethics, and examination requirements.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median radiation therapist salary?',
+				answer: "BLS put the figure at $105,310 a year for May 2025, which works out to $50.63 hourly. Its broader number, blending every job title into one figure for that same 2025 span, was $50,980, so this role pays roughly twice a typical U.S. wage.",
+			},
+			{
+				question: 'Does BLS give a percentile wage range for radiation therapists?',
+				answer: "No, and that sets this page apart from a couple of comparable entries in this site's collection, such as its pages for veterinarians and MRI technologists, both of which carry a 10th-to-90th spread. This occupation gets just one national wage figure from BLS, alongside a separate breakout by employing industry.",
+			},
+			{
+				question: 'Which industry pays radiation therapists the most?',
+				answer: "Care delivered in an outpatient setting topped BLS's three-way industry split for May 2025 at $127,680, ahead of physician-office work at $110,610 and hospital work at $104,260. Those three settings, ambulatory clinics, physician practices, and hospitals, are the same employer types BLS names in its narrower discussion of where the occupation actually works, though it stops short of stating what portion of the workforce falls into each one.",
+			},
+			{
+				question: 'How does radiation therapist pay compare to similar BLS-tracked occupations?',
+				answer: "BLS's own comparison table for the role ranks dosimetrists, the specialists who chart out each patient's treatment dose, highest at $147,470, though that role calls for four years of college rather than two; the field's nuclear-medicine specialists come closer at $101,370, needing only the two-year credential this occupation also uses to start out. Techs working with heart and lung equipment, at $74,310, and lung- and breathing-care specialists at $82,280, both trained through that same two-year path, land considerably lower.",
+			},
+			{
+				question: 'How do you become a radiation therapist?',
+				answer: "Per BLS, entering the field typically calls for a two- or four-year degree centered on this specialty, plus whatever a given state requires for a license to practice, usually clearing a national exam. This site separately confirmed the credentialing group behind that exam, ARRT, and its primary route calls for a qualifying two-year-or-higher degree, completing ARRT-approved coursework in the field, and clearing its own ethics and exam components.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Radiation Therapists (accessed 2026-08-31 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/radiation-therapists.htm' },
+			{ label: 'American Registry of Radiologic Technologists (ARRT): Primary Eligibility Pathway Requirements, used for the certification pathway details above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.arrt.org/pages/earn-arrt-credentials/initial-requirements/primary-requirements' },
+		],
+		image: '/images/radiation-therapist-salary-chart.svg',
+		imageAlt: 'Bar chart showing radiation therapist median annual wage by industry: outpatient care centers $127,680, offices of physicians $110,610, hospitals $104,260, based on BLS May 2025 data.',
+	},
+	{
 		slug: 'highest-paying-jobs-without-a-degree',
 		category: 'Career Guide',
 		title: "Highest-Paying Jobs Without a Bachelor's Degree, Ranked by BLS Pay (2026)",

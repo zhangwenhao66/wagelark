@@ -1807,5 +1807,37 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Veterinarians",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/veterinarians.htm",
 		publishedDate: "2026-08-27"
+	},
+	"29-1124": {
+		socCode: "29-1124",
+		title: "Radiation Therapists",
+		medianAnnual: 105310,
+		medianHourly: 50.63,
+		percentiles: {},
+		employment: 17400,
+		employmentYear: "2025",
+		jobOutlookPct: 3,
+		jobOutlookLabel: "As fast as average",
+		employmentChange: 500,
+		projectionPeriod: "2025-35",
+		entryEducation: "Associate's degree",
+		industryWages: [
+			{
+				industry: "Outpatient care centers",
+				annualWage: 127680
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 110610
+			},
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 104260
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Radiation Therapists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/radiation-therapists.htm",
+		publishedDate: "2026-08-27"
 	}
 };
