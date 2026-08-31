@@ -1495,3 +1495,117 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "how-to-become-a-cna",
+  "last_audited": "2026-08-31",
+  "published_date": "2026-08-10",
+  "note": "读content-audit-log.md确认19条已记录审计，guides.ts共60篇文章中41篇从未审计过；按'未审计优先，同为未审计时取published日期最早'规则，how-to-become-a-cna与respiratory-therapist-salary同为2026-08-10发布、并列最早，按guides.ts数组顺序取排在前面的how-to-become-a-cna",
+  "diagnosed_checkpoints": [
+    "median/10th/90th百分位薪资数字（$39,530/$31,390/$50,140）及数据年份（May 2024）是否仍与BLS当前公开数据一致",
+    "5项行业细分薪资排序是否准确",
+    "3处引用的CFR法规条文（§483.152 75小时门槛/§483.35(d) 4个月上限/§483.154(e)(2) 30天注册时限）是否逐字准确、非编造",
+    "PHI'过半数州要求超过联邦最低小时数、最高达180小时'这一断言是否有独立信源支持",
+    "与站内medical-assistant-salary/how-to-become-a-phlebotomist两篇姊妹文章的交叉比较数字是否与对方页面当前数据一致"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性/时效性",
+      "status": "确认发现问题，已修复",
+      "detail": "curl直连（带声明联系方式UA）bls.gov/ooh/healthcare/nursing-assistants.htm返回200，独立agent复核确认BLS该职业页面已从May 2024刷新为May 2025数据：median annual $39,530→$42,260、10th percentile $31,390→$33,940、90th percentile $50,140→$51,980、5项行业中位数整体上调且排序变化（nursing care facilities skilled nursing反超hospitals，government/CCRC-assisted living/home healthcare排名不变，数值分别45,760→47,050/43,000/42,310/39,490/38,040）、就业增长率2%→3%（定性表述从'slower than average'变为'about as fast as average'，2024-34→2025-35周期）、年均开缺211,800→203,300、orderlies中位数$37,700→$38,290（同一BLS页面数据）。全部旧数字与当前BLS公开数据不一致。"
+    },
+    {
+      "dimension": "事实准确性（跨文章比较句过期，L-0830-2非榜单变体）",
+      "status": "确认发现问题，已修复",
+      "detail": "正文'CNA pay next to other quick-entry healthcare roles'一节引用'medical assistants...BLS median annual wage of $44,200'，独立agent对比读取medical-assistant-salary页面原文（该页2026-08-28审计已刷新为May 2025数据）确认其当前median为$45,690，本文引用数字过期$1,490。判定为独立站/内容通用教训库.md L-0830-2的非榜单变体（普通跨文章比较句而非汇总/排行文章），已按规则在该条目追加复发记录。phlebotomists比较句引用的$43,660经核对与该姊妹页面当前数字一致（该页尚未刷新到BLS最新的May 2025数据$45,230，但本次审计范围不含该页，保留现状不产生新的站内不一致）。"
+    },
+    {
+      "dimension": "法规引用准确性（CFR citations）",
+      "status": "未发现问题",
+      "detail": "curl直连eCFR原文逐条核对3处引用：§483.152'no less than 75 clock hours of training...at least 16 hours of supervised practical training'与正文表述一致；§483.35(d)'A facility must not use any individual working in the facility as a nurse aide for more than 4 months...unless...competent'与正文'4个月上限'表述一致；§483.154(e)(2)'A record of successful completion of the competency evaluation must be included in the nurse aide registry...within 30 days'与正文'30天注册时限'表述一致。3处法规引用均为准确转述，非编造或夸大。"
+    },
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS并标注数据年份，另有PHI（国家级政策研究组织）作为培训时长断言的独立信源，sources字段有明确URL+访问方式+数据年份标注，非泛泛而谈。"
+    },
+    {
+      "dimension": "第三方信源断言核实（PHI培训时长断言）",
+      "status": "未发现问题",
+      "detail": "WebSearch独立核实PHI（phinational.org）关于'30个州+DC超过联邦75小时最低标准，最高达180小时'的报告，多个二手信源（如nursinghome411.org）交叉印证方向一致，未发现编造或夸大。该断言未列入sources[]（仅在正文提及），审计范围内判定为准确但引用完整度可进一步提升，本次未作为强制修复项处理。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现问题",
+      "detail": "WebSearch实测'how to become a CNA'SERP：竞品（Indeed/AllNursingSchools/Nurse.org/Forbes Advisor/RegisteredNursing.org）多聚焦项目周数/学费区间/逐州排名，较少像本文一样精确到具体CFR法规条文号（§483.152/§483.35(d)/§483.154(e)(2)）与四个quick-entry健康职业的量化横向对比，构成真实差异化而非同质化内容。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "live页面实测：title 62字符含品牌后缀、meta description约152字符（区间内）、canonical自引用、单一h1、schema含Article/FAQPage/BreadcrumbList/Dataset/WebPage/Organization/ImageObject。check_seo_field_stats.py：title长度z-score=-1.60（偏短而非超标，不构成问题），description z-score=-0.92（正常范围）。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题，达标",
+      "detail": "按11维度粗估约86/99：权威原文引语12/16（较弱，无逐字引用BLS/CFR原句，仅转述+精确citation）、统计数据完整性13/14、可引用性12/13、结构规范性11/12、表达流畅度9/10、语义密度7/8、权威信号7/8（BLS+CFR+PHI三方政府/权威信源）、专业术语5/6、鲁棒性4/5、跨域连接3/4（2处正文手写锚文本链接姊妹文章）、易懂表达3/3，高于80分及格线，数据刷新未改变结构，评分维持不变。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "不适用",
+      "detail": "published=2026-08-10，晚于avoid-ai-writing/humanizer 2026-08-07强制化生效日期，无需回填。本次编辑后重新grep确认0处em/en dash、0处AI高频词汇。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources 3条外部引用（BLS OOH页面+2处eCFR条文）curl直连全部200可访问，内容与本文引用（更新后）一致。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "How to Become分类21篇文章，[slug].astro轮转窗口逻辑正常覆盖，live页面'More in How to Become'侧栏实测展示6篇同类文章链接，非孤儿页。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "确认发现问题，已修复",
+      "detail": "修复前live页面Dataset schema的name/temporalCoverage均显示'May 2024'，与guides.ts prose更新后的'May 2025'不一致；根因是Dataset schema从bls-wages.ts（经wages-source.json生成）读取dataYear字段，而guides.ts的prose是独立手写文本，两处数据源不同步。修复：更新wages-source.json的31-1131条目后运行node build-wage-data.mjs重新生成bls-wages.ts，构建后built HTML grep确认Dataset schema的temporalCoverage/name均已变为'May 2025'，与prose数字一致。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面实测免责声明存在；正文/FAQ通读未发现收入承诺式表述、培训机构推荐或个性化职业建议，BLS数据描述为'aggregate labor market'而非个人建议的措辞保留。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "确认发现问题，已修复",
+      "detail": "public/images/cna-certification-path.svg为手写时间线图表（非脚本批量生成），非第三方图片无版权问题，但图中'Certified nurse aide (CNA): median $39,530/yr'文字硬编码了旧数字，与正文更新后的$42,260不一致；已手动更新SVG文字为$42,260，构建后grep确认新数字正确渲染。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "ads.txt实测'google.com, pub-5245502795720653, DIRECT, f08c47fec0942fa0'账号ID正确；正文无收入承诺/误导性框架；robots.txt正确allow全部AI爬虫。"
+    },
+    {
+      "dimension": "机械检查(check_prose_patterns.py)",
+      "status": "确认发现问题，已修复",
+      "detail": "首次运行发现L-0819-9命中：5条FAQ answer与正文各有一处≥20连续字符逐字重合（原因是FAQ本就大量转述正文同一事实，且薪资数字/CFR条文措辞高度受限）。独立复核agent确认底层问题真实（并指出我最初审计报告对FAQ#1/#3的具体重合字符串引用有误，已在复核中更正），5次迭代改写全部FAQ answer（同步刷新新数字）后，最终check_prose_patterns.py四项机械检查全部通过，退出码0。"
+    }
+  ],
+  "independent_verification": "spawn 3个全新独立agent（均后台异步完成，17-81秒，均未卡死，无需启动看门狗降级流程）：①BLS数据刷新——CONFIRMED，独立curl重新核对全部新数字逐字一致（median/percentiles/行业细分/增长率/openings/orderlies）；②medical-assistant-salary交叉引用过期——CONFIRMED，独立读取两处guides.ts原文核对，判定为L-0830-2非榜单变体；③FAQ与正文≥20字符逐字重合——CONFIRMED（agent指出我最初报告中FAQ#1/#3引用的具体重合字符串有误，重新核实后确认底层问题真实存在，5条FAQ均有真实重合）。三条均采取修复行动。",
+  "actions_taken": [
+    "tools/bls-data/wages-source.json的31-1131条目全字段更新为May 2025数据（medianAnnual/percentiles/employment/employmentYear/jobOutlookPct/jobOutlookLabel/employmentChange/projectionPeriod/industryWages重排序/dataYear/publishedDate）",
+    "node tools/bls-data/build-wage-data.mjs重新生成src/data/bls-wages.ts",
+    "tools/bls-data/wages-source.test.mjs的31-1131 spot-check改为2026-08-31直连curl结果（原2026-08-10记录标注为Akamai 403改用Wayback快照，本次直连未被拦截，注释同步说明）",
+    "guides.ts更新：updated字段2026-08-10→2026-08-31（published字段保持不变）；coreSummary/4个section全部数字刷新；CNA pay对比section重算orderlies差值（$1,830→$3,970）与medical assistants/phlebotomists差值百分比（12%→8%/10%→3%）；全部5条FAQ answer改写以消除与正文的逐字重合，同时更新数字；sources[0]访问方式与日期更新为'2026-08-31直连curl 200'",
+    "public/images/cna-certification-path.svg时间线图表内嵌薪资数字$39,530→$42,260",
+    "npm test 65/65全绿；npm run build 68页无报错；check_prose_patterns.py四项机械检查退出码0",
+    "python3 seo_drift.py baseline/compare：修改前存档，部署后对比仅报1条WARNING（Dataset schema的temporalCoverage/name变化，为预期内编辑），无CRITICAL",
+    "commit c1c46da（内容/数据/图表主改动）+3589df3（indexnow日志，blob级暂存单独提交避免覆盖同时段radiation-therapist-salary发布任务的未提交改动）+12f012d（内容发布日志.md，同样blob级暂存），全部push成功，Cloudflare Pages自动部署（本仓库无deploy hook条目），绕缓存轮询3次（间隔20秒）后确认200且新数字命中真实新内容",
+    "node tools/submit-indexnow.mjs /how-to-become-a-cna/ 提交，Bing 200 / Yandex 200",
+    "内容发布日志.md已追加本次审计记录（标注为content-quality-audit审计更新非新发布）；内容通用教训库.md L-0830-2条目已追加复发记录，说明该教训不能只检查榜单类文章，普通跨文章比较句同样适用"
+  ],
+  "seo_score": "技术项全部通过，title/description z-score均在正常范围，无变化",
+  "geo_score": "约86/99（按11维度逐项核算），高于80分及格线，数据刷新未改变结构，评分维持不变",
+  "escalation": null
+}
+```
