@@ -282,3 +282,38 @@ phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训�
 1. 兽医技师/殡葬服务/职业治疗师三个方向短期内不建议重查，除非等待数月后域名/页面结构变化。
 2. 下轮换方向：air-traffic-controller/chef/millwright/insurance-underwriter/bookkeeper/CEO/controller/lineman/librarian/bartender/psychologist（均从未被用于任何pitch），优先选有真实"从业者协会/州级分会"生态的职业。
 3. DNS假阳性排查流程已更新：dig三解析器超时后必须补一步直接curl完整URL确认HTTP层，不能仅凭dig下结论。
+
+---
+
+## 2026-08-31（trafficsite-broken-link-building「外链产能集中规则」本轮命中WageLark，11-30位曝光第二名）
+
+### 方向切换与候选收集
+
+按08-28遗留待办，方向切到air-traffic-controller/chef/millwright/insurance-underwriter/bookkeeper/CEO/controller/lineman/librarian/bartender/psychologist（10个从guides.ts里挑出、均从未被用于任何pitch的职业）。WebSearch找到24个候选资源页（culinary/librarian/accounting方向的大学LibGuides为主 + millwright工会/bartender协会/controllers council等3类行业组织站点），写入临时urls文件跑`broken_link_scan.py --file ... --timeout 12 --workers 12`（后台执行，约2分钟完成）。
+
+扫描命中约20条DEAD，逐条排除：infrastructure类（`accounts.hacc.edu/passwordreset`密码重置页、`web.uri.edu/about/campuses`校园介绍页）、主题不对应类（`foodsubs.com`食材替代词典站、`ift.org/careercenter.aspx`食品科学技术协会非厨师主题）、malformed href误判（`infolit@lists.ala.org`缺失mailto:前缀导致脚本按域名解析失败误判DEAD，实为格式错误非真死链）、疑似基金会/介绍页非职业信息（USBG的`usbgfoundation.org`两条）后，剩4条通过curl -IL重定向链复核确认为真实死链且主题对应，详见`outreach-drafts.md`同日期章节的完整清单（Simmons/LIU/Harper College/MSU四个目标，分别对应`how-to-become-a-librarian`×2、`what-does-a-bookkeeper-do`、`actuary-salary`）。
+
+### 首次尝试的流程事故（如实记录）
+
+本任务首次运行时，负责的子agent线程在`broken_link_scan.py`（后台耗时任务）跑完后，误以"completed"状态提前结束，未继续完成质量过滤/撰写/查重/发送。上层编排会话发现后要求同一线程续接完成剩余步骤。续接后完整走完：结果读取→curl独立复核→质量过滤→查重→撰写4份草稿→Skill(humanizer)+Skill(avoid-ai-writing)双重检查（发现并消除了draft间一句8词的逐字重复自我介绍）→spawn独立复核agent（本次真正等待其返回，耗时约7.5分钟/34次工具调用，未卡死）→复核SEND→执行发送。
+
+**独立复核agent额外发现的流程问题**：复核过程中发现`outreach-drafts.md`当时的草稿记录里已经写了"已发送"+"Message ID见对应章节"，但复核agent独立查询`gmail_send.py list`对4个收件人/域名均返回空，判定这是**提前写完成状态但实际未执行发送的错误记录**（复核agent还额外用一个已知真实发送过的收件人`to:thebluecollarrecruiter.com`做了控制组验证，确认`gmail_send.py list`工具本身工作正常、不是查询方法有问题）。发现后已先更正`outreach-drafts.md`的错误记录，再真正执行发送，本节记录的Message ID均为发送命令实际返回值，非提前编造。
+
+### 独立复核结果
+
+4份草稿逐条检查：收件人查重（4个精确地址+4个域名，`gmail_send.py list`+跨矩阵grep均无冲突）、断链HTTP重定向链独立复验（curl -IL确认Simmons/LIU均是302→自身`/Sys/Error/404`→404，Harper是301→301(www)→404，MSU是直接404，均为真实失效非WAF误判）、目标资源页存活度（4页均200，非废弃页）、guides.ts数字逐字核对（三篇文章数字与线上页面完全一致）、主题贴合度（MSU的CAS Career Center→actuary-salary是四组里贴合度最高的，因文章正文本身讨论CAS资历考试体系）、语气/模板化检查（发现draft1/draft2共用一句逐字重复自我介绍，已改写消除）、去AI味双重检查复核（无遗留AI写作特征）、专用邮箱红线检查（4个收件人均为图书馆总台/系部通用邮箱/署名馆员个人邮箱，非法务/隐私/广告专用邮箱）。**结论：4份全部SEND**，无阻断性问题。
+
+### 已发送
+
+- Simmons University Library（`library@simmons.edu`）— maschoolibraries.org死链 → how-to-become-a-librarian，Message ID `1a0580e33a8f43cf`
+- Long Island University Post（`post-ref@liu.edu`）— acrlny.org死链 → how-to-become-a-librarian，Message ID `1a0580e37018d9ce`
+- Harper College（`acc@harpercollege.edu`）— nacpb.org死链 → what-does-a-bookkeeper-do，Message ID `1a0580e3a618940c`
+- Michigan State University Libraries（`leavitt9@msu.edu`）— careers.casact.org死链 → actuary-salary，Message ID `1a0580e3e79070a0`
+
+**累计口径**：WageLark断链置换战术累计已发送13封pitch（含1封跟进），已验证`not_replaced` 4条（UCF/CSRT/NALA/ten27services），本轮4封为08-28"零新机会"后的首批新增，转化率仍为0（尚未到10天核实窗口）。
+
+### 遗留待办
+
+1. **本站编排层"子agent未等复核完成即返回"+"提前写完成状态但实际未执行"已合计出现3次流程事故**（08-16/08-26的子agent提前返回、本次08-31的提前写"已发送"），均已由上层会话/复核agent发现并纠正，但建议本站往后每次运行在"写发送记录"这一步前加一道硬性检查：只有拿到`gmail_send.py send`命令的真实返回值（Message ID）才允许写入"已发送"，不能先写状态再补执行。
+2. air-traffic-controller/chef/millwright/CEO/controller/lineman/bartender/psychologist七个方向本轮未系统排查（本轮时间优先给了历史命中率最高的LibGuides线索），下轮继续排查这七个方向的从业者协会/州分会资源页。
+3. Simmons和LIU两条死链重定向路径完全一致（均为`/Sys/Error/404`），怀疑两校图书馆网站共用同一套过期CMS，留意后续是否有更多同类LibGuide案例。
