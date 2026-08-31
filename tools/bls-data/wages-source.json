@@ -1,6 +1,44 @@
 {
   "_readme": "Source of truth for BLS wage figures used on WageLark. Every entry is hand-verified against the live BLS Occupational Outlook Handbook page listed in sourceUrl (fetched and cross-checked on 2026-08-03). Do not edit numbers here from memory -- re-fetch the sourceUrl and update dataYear/publishedDate when refreshing. Run `node tools/bls-data/build-wage-data.mjs` after any edit, then `npm test` before using the generated output.",
   "occupations": {
+    "29-1041": {
+      "title": "Optometrists",
+      "medianAnnual": 136570,
+      "medianHourly": 65.66,
+      "percentiles": {
+        "p10": 74870,
+        "p90": 202180
+      },
+      "employment": 45100,
+      "employmentYear": "2025",
+      "jobOutlookPct": 10,
+      "jobOutlookLabel": "Much faster than average",
+      "employmentChange": 4300,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "Doctoral or professional degree",
+      "industryWages": [
+        {
+          "industry": "Outpatient care centers",
+          "annualWage": 207030
+        },
+        {
+          "industry": "Retail trade",
+          "annualWage": 159250
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 145630
+        },
+        {
+          "industry": "Offices of optometrists",
+          "annualWage": 129250
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Optometrists",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/optometrists.htm",
+      "publishedDate": "2026-08-31"
+    },
     "29-2056": {
       "title": "Veterinary Technologists and Technicians",
       "medianAnnual": 45980,

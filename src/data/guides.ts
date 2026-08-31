@@ -4274,4 +4274,75 @@ export const guides: Guide[] = [
 		image: '/images/highest-paying-jobs-without-a-degree-chart.svg',
 		imageAlt: "Bar chart ranking the top 10 highest-paying occupations that don't require a bachelor's degree by BLS median annual wage, led by air traffic controllers at $148,080.",
 	},
+	{
+		slug: 'optometrist-salary',
+		category: 'Salary Guide',
+		title: 'Optometrist Salary: $136,570 Median & Full Range (2026 BLS)',
+		description: 'BLS puts the median optometrist salary at $136,570 a year, with 10% employment growth projected through 2035. Full wage range by percentile and industry.',
+		published: '2026-08-31',
+		updated: '2026-08-31',
+		socCode: '29-1041',
+		coreSummary: 'The median annual wage for optometrists was $136,570 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $74,870 while the top 10% earned more than $202,180, a spread of roughly $127,310. BLS projects 10% employment growth from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 4,300 jobs to a workforce of 45,100.',
+		sections: [
+			{
+				heading: 'What optometrists earn, and the doctoral degree BLS says it takes to get there',
+				body: [
+					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-1041, on a page dedicated to optometrists alone. For May 2025, BLS reported a median annual wage of $136,570, or $65.66 an hour. The bottom 10% of earners made less than $74,870 a year, while the top 10% made more than $202,180, a spread of roughly $127,310. BLS does not attribute that spread to any single factor on this page, though the industry breakdown below and the setting where most optometrists actually practice account for some of it.',
+					"BLS lists a doctoral or professional degree as the typical entry-level education for this occupation, specifically a Doctor of Optometry (O.D.) degree that takes four years of graduate-level study, with applicants typically holding a bachelor's degree before entering. That places optometrists in the same broad credential tier as [pharmacists](/pharmacist-salary/), whose PharmD is also a four-year professional doctorate; BLS reports a $137,480 median for pharmacists, just $910 above the optometrist figure, and [veterinarians](/veterinarian-salary/), whose DVM sits at $130,100, about $6,470 below optometrists despite a similarly structured four-year doctoral path.",
+					"These figures come from BLS's Occupational Employment and Wage Statistics survey, which draws wage data from employer payroll and self-employment records rather than worker self-reports or job-board postings, the kind of data behind several of the aggregator sites (Indeed, ZipRecruiter, Glassdoor) that also surface for this search term. The same OEWS survey counted about 45,100 optometrist jobs in 2025.",
+				],
+			},
+			{
+				heading: 'Where the pay is highest, and where most optometrists actually work',
+				body: [
+					'BLS breaks out May 2025 wages by industry for optometrists, and the pattern runs opposite to what a job seeker might expect. Outpatient care centers paid the highest median, $207,030, but BLS\'s own employment data shows only 4% of optometrists actually work there. Retail trade, the setting most people probably picture first, given how many optometry practices sit inside chain eyewear stores, paid $159,250 and employs 13% of the field. Offices of physicians paid $145,630 (14% of the workforce). Offices of optometrists, the single largest employer at 61% of all optometrist jobs, paid the least of the four tracked categories: $129,250, some $77,780 below the top-paying setting.',
+					"That is close to the opposite of what this site found for [veterinary pay](/veterinarian-salary/), where veterinary services, the industry employing 83% of the field, ranked second of four tracked categories and sat just $1,770 below the top. For optometrists, the single most common workplace is also the lowest-paying industry BLS tracks, a genuinely different shape than most of the doctoral-degree occupations this site has covered so far. BLS does not explain the gap beyond publishing the figures; independent factors like private-practice ownership structure, insurance reimbursement rates, and local market saturation of optometry offices likely play a role, but BLS's OEWS data does not isolate any of them.",
+				],
+			},
+			{
+				heading: 'Becoming an optometrist, and a three-way mix-up BLS itself flags',
+				body: [
+					"Per BLS, prospective optometrists need a Doctor of Optometry (O.D.) degree from an accredited program, a four-year course of classroom instruction and supervised clinical training that typically follows a bachelor's degree, though applicants need only three years of completed undergraduate coursework to apply. BLS describes an entrance exam covering four subject areas: natural sciences, reading comprehension, physics, and quantitative reasoning, without naming it on the page. Independently of BLS, that description matches the Optometry Admission Test (OAT), sponsored by the Association of Schools and Colleges of Optometry (ASCO) and required by every U.S. optometry program, whose four sections (Survey of the Natural Sciences, Reading Comprehension, Physics, and Quantitative Reasoning) line up with BLS's own description.",
+					'All states require optometrists to be licensed, which BLS describes as passing "all sections of a qualifying exam" plus, in some states, an additional exam on clinical skills or state optometry law. Independently of BLS, that qualifying exam is administered by the National Board of Examiners in Optometry (NBEO), split into an Applied Basic Science part, a Patient Assessment and Management part, and a further practical exam that many states also require; per the Association of Regulatory Boards of Optometry (ARBO), passing NBEO\'s entry-level licensure exams is a requirement in every U.S. jurisdiction, a multi-part structure with more required components than the single national exam ([NAVLE](/veterinarian-salary/)) this site found for veterinarians.',
+					'BLS also flags a mix-up worth naming directly, since it shows up in this site\'s own "Similar Occupations" research: opticians, listed separately at a $47,260 median (high school diploma typical entry, per BLS\'s table on this same page), fit and sell eyeglasses and, in some states, fill contact lens prescriptions, but they do not examine eyes or write those prescriptions themselves. That job belongs to optometrists or to ophthalmologists, physicians who additionally perform eye surgery and are covered under the much broader "Physicians and Surgeons" BLS category, listed on the same table at a $275,930 median, a figure that blends dozens of medical and surgical specialties rather than describing ophthalmology specifically.',
+				],
+			},
+			{
+				heading: 'Job outlook, next to the other doctoral-degree fields this site tracks',
+				body: [
+					'BLS projects 10% employment growth for optometrists from 2025 to 2035, classified as much faster than the roughly 3% average across all occupations, adding an estimated 4,300 jobs to the 45,100 already employed and about 2,000 openings a year on average. BLS attributes most of those annual openings to workers transferring to other occupations or leaving the labor force, such as to retire, rather than to newly created positions alone.',
+					"Among the doctoral-degree occupations this site has covered, only [physical therapists](/physical-therapist-salary/), at 11% projected growth, outpace optometrists. Optometrists' 10% comfortably beats [the veterinarian figure](/veterinarian-salary/) at 9%, [psychologists](/how-to-become-a-psychologist/) at 6%, and both [pharmacist growth](/pharmacist-salary/) and [lawyers](/how-long-does-it-take-to-become-a-lawyer/), each projected at a more modest 4-5%. BLS does not explain why optometry's outlook runs ahead of most other doctoral fields it tracks; an aging U.S. population that needs more vision correction and eye-disease management is the more general demographic factor BLS cites for eye-care occupations broadly, not a claim specific to this one page.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median optometrist salary?',
+				answer: 'BLS reports optometrists earned a median of $136,570 a year in May 2025, working out to $65.66 hourly. "Median" means half the workers in the role earned more and half earned less.',
+			},
+			{
+				question: 'Which industry pays optometrists the most?',
+				answer: 'BLS tracks four pay levels by industry for May 2025. The richest is an outpatient-care setting at $207,030, though only 4% of the field works there. Meanwhile, retail trade comes in at $159,250 (13% of optometrists), and physician offices pay $145,630 (14%). The remaining 61%, in private optometry offices, earn the least: $129,250.',
+			},
+			{
+				question: 'What is the difference between an optometrist, an ophthalmologist, and an optician?',
+				answer: "BLS distinguishes all three. Optometrists (O.D. degree, four years post-bachelor's) examine eyes, diagnose vision problems, and prescribe corrective lenses, along with medications where state law allows it. Ophthalmologists are medical doctors qualified to operate on the eye; BLS folds them into its broad Physicians & Surgeons line ($275,930 median across many specialties) instead of breaking them out separately. Opticians ($47,260 median, usually a high school diploma) handle the dispensing side: fitting frames and lenses to a prescription an optometrist or ophthalmologist already wrote, but they don't test vision or issue prescriptions on their own.",
+			},
+			{
+				question: 'Do optometrists need a doctoral degree?',
+				answer: "Yes. BLS classifies this as a professional-doctorate field: a four-year O.D. program taken at an accredited school, typically after four years of undergraduate study. Separately from BLS's own page, applicants also sit for an entrance exam known as the OAT, run by ASCO, and regulators at ARBO confirm NBEO's exams are a nationwide requirement for practicing.",
+			},
+			{
+				question: 'Is optometry a growing field?',
+				answer: 'BLS expects the optometrist workforce to grow 10% over the 2025-2035 decade, well outpacing the economy-wide growth rate of about 3%, and add roughly 4,300 jobs with around 2,000 annual openings. Among comparable graduate-degree fields on this site, only physical therapy, projected at 11%, grows faster.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Optometrists (accessed 2026-08-31 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/optometrists.htm' },
+			{ label: 'Association of Schools and Colleges of Optometry (ASCO): Optometry Admission Test (OAT) overview, used for the entrance-exam name above (independently confirmed, not a BLS-sourced detail)', url: 'https://optometriceducation.org/future-students/resources/frequently-asked-questions-about-the-optometry-admission-test-oat/' },
+			{ label: 'Association of Regulatory Boards of Optometry (ARBO): FAQ confirming NBEO licensure exams are required in every U.S. jurisdiction, used for the licensing-exam details above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.arbo.org/faq' },
+		],
+		image: '/images/optometrist-salary-chart.svg',
+		imageAlt: 'Bar chart showing optometrist annual wage by percentile: 10th percentile $74,870, median $136,570, 90th percentile $202,180, based on BLS May 2025 data.',
+	},
 ];

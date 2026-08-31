@@ -1017,3 +1017,22 @@ test('spot check: Radiation Therapists (29-1124) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages[2].industry, 'Hospitals; state, local, and private');
 	assert.equal(occ.industryWages[2].annualWage, 104260);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-08-31 (last modified
+// August 27, 2026, carrying May 2025 data). Independent of wages-source.json's
+// own numbers -- do not derive these from the source file.
+test("spot check: Optometrists (29-1041) matches BLS OOH page", () => {
+	const occ = occupations['29-1041'];
+	assert.equal(occ.medianAnnual, 136570);
+	assert.equal(occ.medianHourly, 65.66);
+	assert.deepEqual(occ.percentiles, { p10: 74870, p90: 202180 });
+	assert.equal(occ.employment, 45100);
+	assert.equal(occ.jobOutlookPct, 10);
+	assert.equal(occ.employmentChange, 4300);
+	assert.equal(occ.entryEducation, 'Doctoral or professional degree');
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Outpatient care centers');
+	assert.equal(occ.industryWages[0].annualWage, 207030);
+	assert.equal(occ.industryWages[3].industry, 'Offices of optometrists');
+	assert.equal(occ.industryWages[3].annualWage, 129250);
+});

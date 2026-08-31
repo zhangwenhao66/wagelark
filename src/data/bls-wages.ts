@@ -42,6 +42,45 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"29-1041": {
+		socCode: "29-1041",
+		title: "Optometrists",
+		medianAnnual: 136570,
+		medianHourly: 65.66,
+		percentiles: {
+			p10: 74870,
+			p90: 202180
+		},
+		employment: 45100,
+		employmentYear: "2025",
+		jobOutlookPct: 10,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 4300,
+		projectionPeriod: "2025-35",
+		entryEducation: "Doctoral or professional degree",
+		industryWages: [
+			{
+				industry: "Outpatient care centers",
+				annualWage: 207030
+			},
+			{
+				industry: "Retail trade",
+				annualWage: 159250
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 145630
+			},
+			{
+				industry: "Offices of optometrists",
+				annualWage: 129250
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Optometrists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/optometrists.htm",
+		publishedDate: "2026-08-31"
+	},
 	"29-2056": {
 		socCode: "29-2056",
 		title: "Veterinary Technologists and Technicians",
