@@ -1280,9 +1280,9 @@ export const guides: Guide[] = [
 		title: 'How to Become a CNA: Certification, Training, and Pay',
 		description: 'The federal minimum for CNA training is 75 hours, not a degree. Here is the real certification path, the state exam and registry, plus BLS pay data.',
 		published: '2026-08-10',
-		updated: '2026-08-10',
+		updated: '2026-08-31',
 		socCode: '31-1131',
-		coreSummary: 'Federal regulation sets a 75-hour minimum for nurse aide training programs, including at least 16 hours of supervised practical training, well short of the multi-month or multi-year programs required for most other healthcare roles. The Bureau of Labor Statistics reports a median annual wage of $39,530 for nursing assistants in May 2024, with the bottom 10% earning less than $31,390 and the top 10% earning more than $50,140.',
+		coreSummary: 'Federal regulation sets a 75-hour minimum for nurse aide training programs, including at least 16 hours of supervised practical training, well short of the multi-month or multi-year programs required for most other healthcare roles. The Bureau of Labor Statistics reports a median annual wage of $42,260 for nursing assistants in May 2025, with the bottom 10% earning less than $33,940 and the top 10% earning more than $51,980.',
 		sections: [
 			{
 				heading: 'The federal floor: 75 hours, not a degree',
@@ -1301,42 +1301,42 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the job pays once certified',
 				body: [
-					'BLS reports a median annual wage of $39,530 for nursing assistants in May 2024 ($31,390 at the 10th percentile and $50,140 at the 90th). Pay varies meaningfully by setting: government employers outside state/local education and hospitals paid the highest median tracked, at $45,760, ahead of hospitals ($40,170), nursing care facilities, meaning skilled nursing facilities ($39,170), continuing care retirement communities and assisted living facilities ($38,500), and home healthcare services, the lowest of the industries BLS tracks for this role at $36,910.',
-					'BLS projects only 2% employment growth for nursing assistants and orderlies combined from 2024 to 2034, slower than the average for all occupations, yet still projects about 211,800 openings each year on average across the decade. BLS attributes the gap directly: most of those openings are expected to come from the need to replace workers who transfer to different occupations or exit the labor force, such as to retire, rather than from newly created positions.',
+					'BLS reports a median annual wage of $42,260 for nursing assistants in May 2025 ($33,940 at the 10th percentile and $51,980 at the 90th). Pay varies meaningfully by setting: government employers outside state/local education and hospitals paid the highest median tracked, at $47,050, ahead of nursing care facilities, meaning skilled nursing facilities ($43,000), hospitals ($42,310), continuing care retirement communities and assisted living facilities ($39,490), and home healthcare services, the lowest of the industries BLS tracks for this role at $38,040.',
+					'BLS projects 3% employment growth for nursing assistants and orderlies combined from 2025 to 2035, about as fast as the average for all occupations, and about 203,300 openings each year on average across the decade. Most of those openings are expected to come from the need to replace workers who transfer to different occupations or exit the labor force, such as to retire, rather than from newly created positions.',
 				],
 			},
 			{
 				heading: 'CNA pay next to other quick-entry healthcare roles',
 				body: [
-					'Within the same BLS occupational family, nursing assistants and orderlies are two different jobs with two different entry bars and two different median wages. Orderlies, who transport patients and clean treatment areas rather than provide direct patient care, typically need only a high school diploma or equivalent plus a short period of on-the-job training, and do not need a state license or registry listing. BLS puts their median annual wage at $37,700, about $1,830 below the $39,530 nursing assistants earn for taking on the state-approved training, competency exam, and registry requirement that orderlies do not.',
-					'Against roles that require more formal postsecondary training, the CNA path still trails on pay but not by as much as the training-length gap might suggest. [Medical assistants](/medical-assistant-salary/), who typically complete a postsecondary certificate or degree program, have a BLS median annual wage of $44,200, about $4,670 (roughly 12%) above nursing assistants. [Phlebotomists](/how-to-become-a-phlebotomist/), whose entry path runs through either a sub-year certificate program or, in some states, direct on-the-job training, have a BLS median of $43,660, about $4,130 (roughly 10%) above nursing assistants. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one of these paths is the better choice for a given person.',
+					'Within the same BLS occupational family, nursing assistants and orderlies are two different jobs with two different entry bars and two different median wages. Orderlies, who transport patients and clean treatment areas rather than provide direct patient care, typically need only a high school diploma or equivalent plus a short period of on-the-job training, and do not need a state license or registry listing. BLS puts their median annual wage at $38,290, about $3,970 below the $42,260 nursing assistants earn for taking on the state-approved training, competency exam, and registry requirement that orderlies do not.',
+					'Against roles that require more formal postsecondary training, the CNA path still trails on pay but not by as much as the training-length gap might suggest. [Medical assistants](/medical-assistant-salary/), who typically complete a postsecondary certificate or degree program, have a BLS median annual wage of $45,690, about $3,430 (roughly 8%) above nursing assistants. [Phlebotomists](/how-to-become-a-phlebotomist/), whose entry path runs through either a sub-year certificate program or, in some states, direct on-the-job training, have a BLS median of $43,660, about $1,400 (roughly 3%) above nursing assistants. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one of these paths is the better choice for a given person.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'How long does it take to become a CNA?',
-				answer: 'Federal rule (42 CFR § 483.152) sets a 75-hour minimum for state-approved nurse aide training programs, including at least 16 hours of supervised practical training. More than half the states require more than the federal minimum, up to 180 hours in the most demanding states, according to PHI, a national policy organization that tracks state training rules.',
+				answer: 'Federal rule (42 CFR § 483.152) sets a 75-hour floor for a state-approved CNA course, and part of that time, a 16-hour block, has to be hands-on clinical practice under a nurse\'s direct supervision. Over half of all states go beyond that federal floor, up to 180 hours in the toughest states, per PHI\'s state-by-state tracking of how much training each state requires.',
 			},
 			{
 				question: 'What happens after CNA training is finished?',
-				answer: 'A candidate must pass a state competency evaluation, which includes a knowledge test and a hands-on skills demonstration. Federal rule (42 CFR § 483.35(d)) caps how long someone can work as a nurse aide in a Medicare- or Medicaid-certified nursing home while still completing training and testing at 4 months. Once a candidate passes, federal rule requires the state to add them to its nurse aide registry within 30 days.',
+				answer: 'A candidate must clear a state-administered proficiency check with two parts: a spoken or written knowledge check, plus a supervised demonstration of hands-on skills. A related federal rule (42 CFR § 483.35(d)) sets a 4-month ceiling on how long a nursing home can keep someone on staff as a nurse aide without that person having finished the required coursework and exam. After a passing result, the state has 30 days to add that person to its official CNA registry.',
 			},
 			{
 				question: 'How much do CNAs make?',
-				answer: 'BLS reports a median annual wage of $39,530 for nursing assistants in May 2024, with the bottom 10% earning less than $31,390 and the top 10% earning more than $50,140. Government employers outside state/local education and hospitals paid the highest industry median tracked, at $45,760.',
+				answer: 'BLS\'s May 2025 release puts the CNA median wage at $42,260, with the lowest-paid tenth of the workforce earning under $33,940 and the highest-paid tenth clearing $51,980. Median pay topped out in government jobs that fall outside school-system and hospital employers, at $47,050.',
 			},
 			{
 				question: 'What is the difference between a CNA and an orderly?',
-				answer: 'Both fall under the same BLS occupational family, but the entry requirements and pay differ. Nursing assistants (the CNA credential) typically need a state-approved training program, a competency exam, and a spot on the state nurse aide registry; BLS puts their median annual wage at $39,530. Orderlies typically need only a high school diploma plus short on-the-job training, with no license or registry requirement, and BLS puts their median at $37,700.',
+				answer: 'CNAs and orderlies sit in one broad BLS job category but split apart on requirements and pay. Holders of the CNA credential go through state-approved coursework, sit for a proficiency exam, then get listed on the registry, and earn a $42,260 median. Orderlies just need a diploma from high school and get trained hands-on after they are hired, need no license and no listing anywhere, and land at a lower $38,290 median.',
 			},
 			{
 				question: 'Is becoming a CNA a good way into healthcare?',
-				answer: 'BLS projects 2% employment growth for nursing assistants and orderlies combined from 2024 to 2034, slower than average, but still about 211,800 openings a year on average, mostly from workers leaving the occupation rather than from new positions. Whether that makes it the right entry point depends on individual circumstances; BLS data describes the aggregate labor market, not a recommendation for any specific person.',
+				answer: 'The occupation is not fast-growing, roughly 3% between 2025 and 2035, in line with the economy-wide average, but BLS still counts roughly 203,300 openings a year because so many current workers cycle out into other jobs or leave the workforce. Whether that turnover-driven demand makes CNA work the right entry point depends on individual circumstances; this is national labor-market data, not personal career guidance for any one reader.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies (accessed 2026-08-10 via Wayback Machine snapshot of 2026-07-31, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/nursing-assistants.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies (accessed 2026-08-31 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/nursing-assistants.htm' },
 			{ label: '42 CFR Part 483, Subpart D: Nurse Aide Training and Competency Evaluation (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D' },
 			{ label: '42 CFR § 483.35(d): Requirements for facility hiring and use of nurse aides (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-B/section-483.35' },
 		],

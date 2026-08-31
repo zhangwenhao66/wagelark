@@ -318,9 +318,10 @@ test('spot check: Air Traffic Controllers (53-2021) matches BLS OOH page', () =>
 	assert.equal(occ.industryWages.length, 2);
 });
 
-// Numbers below transcribed by hand on 2026-08-10 from a Wayback Machine
-// snapshot (2026-07-31 crawl) of bls.gov/ooh/healthcare/nursing-assistants.htm
-// (direct fetch returns Akamai 403, same pattern as prior spot checks).
+// Numbers below transcribed by hand on 2026-08-31 from a direct curl fetch
+// (HTTP 200, not the Akamai 403 seen on 2026-08-10) of
+// bls.gov/ooh/healthcare/nursing-assistants.htm, reflecting the May 2025 OEWS
+// refresh BLS published after the 2026-08-10 spot check above was written.
 // Independent of wages-source.json's own numbers -- do not derive these from
 // the source file. The OOH page covers "Nursing Assistants and Orderlies" as
 // one profile but breaks out separate SOC-level figures in its Pay and
@@ -328,12 +329,12 @@ test('spot check: Air Traffic Controllers (53-2021) matches BLS OOH page', () =>
 // Nursing Assistants (31-1131) breakout, not the blended profile figure.
 test('spot check: Nursing Assistants (31-1131) matches BLS OOH page', () => {
 	const occ = occupations['31-1131'];
-	assert.equal(occ.medianAnnual, 39530);
-	assert.equal(occ.percentiles.p10, 31390);
-	assert.equal(occ.percentiles.p90, 50140);
-	assert.equal(occ.employment, 1441500);
-	assert.equal(occ.jobOutlookPct, 2);
-	assert.equal(occ.employmentChange, 32600);
+	assert.equal(occ.medianAnnual, 42260);
+	assert.equal(occ.percentiles.p10, 33940);
+	assert.equal(occ.percentiles.p90, 51980);
+	assert.equal(occ.employment, 1505900);
+	assert.equal(occ.jobOutlookPct, 3);
+	assert.equal(occ.employmentChange, 39000);
 	assert.equal(occ.industryWages.length, 5);
 });
 

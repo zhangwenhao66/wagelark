@@ -866,44 +866,44 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"31-1131": {
 		socCode: "31-1131",
 		title: "Nursing Assistants",
-		medianAnnual: 39530,
+		medianAnnual: 42260,
 		percentiles: {
-			p10: 31390,
-			p90: 50140
+			p10: 33940,
+			p90: 51980
 		},
-		employment: 1441500,
-		employmentYear: "2024",
-		jobOutlookPct: 2,
-		jobOutlookLabel: "Slower than average",
-		employmentChange: 32600,
-		projectionPeriod: "2024-34",
+		employment: 1505900,
+		employmentYear: "2025",
+		jobOutlookPct: 3,
+		jobOutlookLabel: "About as fast as average",
+		employmentChange: 39000,
+		projectionPeriod: "2025-35",
 		entryEducation: "State-approved training program",
 		industryWages: [
 			{
 				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 45760
-			},
-			{
-				industry: "Hospitals; state, local, and private",
-				annualWage: 40170
+				annualWage: 47050
 			},
 			{
 				industry: "Nursing care facilities (skilled nursing facilities)",
-				annualWage: 39170
+				annualWage: 43000
+			},
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 42310
 			},
 			{
 				industry: "Continuing care retirement communities & assisted living",
-				annualWage: 38500
+				annualWage: 39490
 			},
 			{
 				industry: "Home healthcare services",
-				annualWage: 36910
+				annualWage: 38040
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/nursing-assistants.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-31"
 	},
 	"53-2021": {
 		socCode: "53-2021",
