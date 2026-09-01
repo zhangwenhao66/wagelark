@@ -1347,9 +1347,9 @@ export const guides: Guide[] = [
 		slug: 'respiratory-therapist-salary',
 		category: 'Salary Guide',
 		title: 'Respiratory Therapist Salary: BLS Wage Data by Percentile (2026)',
-		description: 'BLS puts the median respiratory therapist salary at $80,450 a year, with 12% growth projected through 2034. Here is the full wage range by percentile and by employer.',
+		description: 'BLS puts the median respiratory therapist salary at $80,450 a year, with 12% growth projected through 2034. See the full wage range by percentile and employer.',
 		published: '2026-08-10',
-		updated: '2026-08-10',
+		updated: '2026-09-01',
 		socCode: '29-1126',
 		coreSummary: 'The median annual wage for respiratory therapists was $80,450 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $61,900 while the top 10% earned more than $108,820. BLS projects 12% employment growth from 2024 to 2034, well above the roughly 3% average across all occupations, adding an estimated 16,800 jobs.',
 		sections: [
@@ -1389,23 +1389,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average respiratory therapist salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for respiratory therapists was $80,450 in May 2024, equivalent to $38.68 an hour. "Median" means half of workers in the role earned more and half earned less.',
+				answer: 'BLS\'s most recent survey year, May 2024, put a $80,450 midpoint on annual pay for this role, which works out to $38.68 hourly. Half of the people working in it earned above that figure and half earned below it.',
 			},
 			{
 				question: 'What is the highest-paying setting for a respiratory therapist?',
-				answer: 'Among the three industry categories BLS tracks for May 2024, hospitals (state, local, and private) paid the highest median at $80,660, ahead of nursing care facilities ($75,910) and offices of physicians ($75,240).',
+				answer: 'Of the three work settings BLS breaks out separately, hospitals pay the most, with a May 2024 median of $80,660, versus $75,910 at skilled-nursing employers and $75,240 in physician offices, a roughly $5,400 spread from top to bottom.',
 			},
 			{
 				question: 'How much do the lowest- and highest-paid respiratory therapists make?',
-				answer: 'BLS reports that the bottom 10% of respiratory therapists earned less than $61,900 a year in May 2024, while the top 10% earned more than $108,820. BLS does not break down what separates the highest earners within the occupation on this page.',
+				answer: "Per BLS's May 2024 data, workers in this occupation who fell into the bottom 10% brought home under $61,900 annually, while those in the top 10% cleared $108,820 or more. The agency doesn't break down what separates high earners from the rest of the field on this page.",
 			},
 			{
 				question: 'Do respiratory therapists need to be certified?',
-				answer: "BLS states that respiratory therapists must be licensed in all states except Alaska, where national certification is recommended instead. Independently of BLS, the National Board for Respiratory Care (NBRC) confirms it administers the field's two main credentials, Certified Respiratory Therapist (CRT) and Registered Respiratory Therapist (RRT), which all 49 states that regulate the profession use as the basis for licensure.",
+				answer: "Licensure is required in every state but Alaska, per BLS; there, a countrywide credential covers the same ground instead of a state license. NBRC, the group that certifies people in this field, issues two starting-point credentials, CRT and RRT, and by its own count, 49 of the states with a licensing law on the books use one of those credentials as the basis for it.",
 			},
 			{
 				question: 'Is respiratory therapy a growing field?',
-				answer: 'BLS projects 12% employment growth for respiratory therapists from 2024 to 2034, well above the roughly 3% average across all occupations, adding an estimated 16,800 jobs and about 8,800 openings a year on average, mostly from workers leaving the occupation rather than newly created positions.',
+				answer: 'Yes. BLS expects roughly 16,800 additional jobs in this field between 2024 and 2034, a 12% jump that outpaces the economy-wide average of about 3%. It also projects roughly 8,800 annual job openings on average, with most driven by people leaving the field or retiring, not by newly created roles.',
 			},
 		],
 		sources: [
