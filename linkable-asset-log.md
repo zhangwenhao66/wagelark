@@ -62,3 +62,29 @@ Reddit候选清单：本资产暂不追加到 `独立站/reddit-投放候选清�
 ### 部署验证（补记）
 
 新页面上线后用带随机query string的curl确认返回200，绕过Cloudflare Pages边缘缓存；同时确认页面正文含头条数字"144,580"、Cite this区块、CSV下载链接均正常渲染（build产物本地已核实，线上核实见commit后的部署检查）。
+
+---
+
+## 2026-09-01（distribution pass #2, capacity-concentration rule）
+
+**Site selection**: recomputed 28-day 11-30-position impressions across all 10 traffic sites via `gsc_query.py`: dialwick(766) / dayalmanac(627) / **wagelark(596)** / umberlore(344) / mythcairn(118) / factcrumbs(114) / lingogrove(114) / warcrumbs(41) / hollowvane(10) / calcbadger(2). Excluded the three still-suppressed sites (CalcBadger since 8/18, DialWick since 8/22, LingoGrove since 8/24 — confirmed still in the observation window per `流量站矩阵风险应对追踪.md`, no recheck posted yet). Ranking of the rest: DayAlmanac(627) > **WageLark(596)** > UmberLore(344), consistent with the 8/29 run. WageLark is in this run's top-3 allocation.
+
+**Order of work**: this site's one published asset (highest-paying-jobs-without-a-degree) had a distribution count of 1/10, well below saturation — continued distribution, no new asset built.
+
+**Step 2 (unlinked-mention recovery)**: WebSearch `"wagelark.com" -site:wagelark.com` — no results referencing the site. No recovery opportunity this round.
+
+**Step 3 (pitch)**: Found resumegenius.com's "10 Highest-Paying Jobs Without a Degree in 2026" (confirmed live via Wayback Machine snapshot after the live URL returned a Cloudflare challenge to direct curl — https://web.archive.org/web/2026/https://resumegenius.com/blog/job-hunting/highest-paying-jobs-without-a-degree), a genuine BLS OES/Employment-Projections-sourced piece on the same topic. Media contact eduardo@resumegenius.com independently confirmed via the Wayback-archived press page ("For media inquiries, we welcome you to reach out to eduardo@resumegenius.com"). Dedup: `gmail_send.py list --query "to:resumegenius.com OR eduardo@resumegenius.com"` → empty; `grep -ril "resumegenius" 独立站/` → no prior contact with this org.
+
+Drafted an email offering WageLark's 48-occupation BLS dataset (percentile pay, not just median) as a broader supporting source. Passed `Skill(humanizer)` and `Skill(avoid-ai-writing)` self-review (no em dashes, no AI-vocabulary hits, no filler). **First independent review agent caught a real problem**: the draft's numbers ("47 occupations," "$144,580," "41 of 46") were stale — the site's BLS data had been refreshed to May 2025 figures by a separate content-publishing/audit commit (`5aff6f8 fix(content): update stale occupation-count in highest-paying-jobs-without-a-degree`) since this asset's original 8/29 publish, and the live page now reads 48 occupations, $148,080, "42 of the other 47." Corrected the email to match, re-verified the corrected numbers directly against the live page (cache-busted curl) and via a second independent review agent, which returned CAN SEND with every number confirmed verbatim against the live page.
+
+Sent 2026-09-01 via `gmail_send.py send --from wagelark` → eduardo@resumegenius.com, Message ID `1a05b865c1a3327c`.
+
+**Lesson for future runs**: when reusing figures from an asset's original publish-log entry in a later pitch, re-verify against the *live* page rather than trusting the log — site content (especially BLS-sourced numbers) gets refreshed independently by other tasks (content audits, data-freshness passes) and the log entry is a snapshot, not a live source.
+
+### Step 3.5 (discovery-platform placement)
+
+Not re-evaluated — the 8/29 conclusion (not Reddit-ready without a standalone [OC] chart, no HN fit for a data-journalism/ranking page) still stands; nothing has changed since.
+
+### Distribution count
+
+2/10 targets pitched (thebluecollarrecruiter.com 8/29 + resumegenius.com 9/1). Still below the ≥10 saturation bar — continue distribution on future runs.
