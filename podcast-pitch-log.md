@@ -70,3 +70,27 @@
 ### 本次运行小结
 
 新查6档（不含8/4已排除的9档），1档通过双重门槛，1封pitch撰写+humanizer+avoid-ai-writing双重检查+独立复核通过+已发送，0封因问题/卡死留待处理。无需Owen人工处理事项（发信前已重新读取`独立站/待Owen处理事项.md`，未发现与本站相关的待处理阻塞项）。
+
+---
+
+## 2026-09-01（第三次运行）
+
+### 回访验证：HR Data Labs（david.turetsky@hrdatalabs.com，2026-08-04发送，28天后）
+
+WebSearch核实该播客近期节目——搜索结果只查到2025年10月的节目（"Garbage In, Garbage Out"等），未发现任何2026年节目，判断该播客可能已在2025年停更（222期后结束）。`dataforseo_query.py backlinks wagelark.com`外链明细共6条，全部来自pmt-ae.com/gunghapcafe.com/webmaster-philippines.com三个backlink checker聚合站域名，跟hrdatalabs.com/wrkdefined.com无关。判定：`still_pending`（如实记录：该播客本身可能已停更，后续大概率不会有回应，但没有明确"declined"证据，不升级判定）。
+
+HR Empowerment（wendy@thehrlady.com，同为8/4发送）、Workology（jessica@workology.com，8/16发送）本轮未重复核实（每站每次只挑1条最早的）。
+
+### 🎯 外链产能集中规则：WageLark 本轮入选前3（第1名，11-30位曝光596，2026-09-01现算）
+
+### 检查过的播客（本轮新查3档，均为此前未查过的新候选）
+
+| 播客 | 活跃度核实 | 受众/嘉宾定位核实 | 结论 |
+|---|---|---|---|
+| Talent Wars: A Podcast by DCI（Patience Fairbrother） | 查到的最新一期为2026-05-26（"AI, Wage Transparency and More: 2026 Hiring Market in Focus"，嘉宾为WageScape创始人Cary Sparrow），距今超3个月，多次搜索未找到更晚的新一期 | DCI（Development Counsellors International）是经济发展营销代理公司自办播客，主题偏"人才招商/城市选址营销"而非薪资数据分析，且是供应商/机构自办节目 | **跳过——活跃度超3个月新鲜度门槛+供应商自办节目双重不符，同8/4已排除的Comp and Coffee/Payscale同类问题** |
+| SHRM People + Strategy Podcast | 查到近期一期讨论Robert Half《2026 Salary Guide》 | SHRM是大型专业协会官方播客，嘉宾为Robert Half运营总裁级别人物，机构背景重 | **跳过——机构级官方播客，嘉宾量级与独立内容站运营者差距过大，未进一步核实具体活跃度和联系方式** |
+| The Conference Board「C-Suite Perspectives」 | 查到近期一期"Salary Budgets 2026"，嘉宾为经济学家Mitchell Barnes | 智库机构官方播客，嘉宾门槛是执业经济学家 | **跳过——机构官方播客+经济学家门槛，同上一档同类问题，未进一步核实** |
+
+### 本次运行结果：无候选通过双重门槛，未发送
+
+本轮搜索薪酬数据/劳动力市场类播客（含"小型独立"方向的定向补充搜索），除三档新候选外未挖到其他可核实的具体候选。三档均因活跃度超窗口或"供应商/机构自办播客"结构性冲突被排除——这是继8/4（Comp and Coffee/Payscale）、8/16（Comp Chat/Decusoft、Transform Your Workplace/Xenium HR）之后第三次在这个赛道遇到同一种冲突模式，说明薪酬数据播客领域天然被软件供应商/咨询机构占据，独立数据站的自然位置有限。没有为了完成任务硬凑角度或投递门槛不符的节目。独立复核步骤未触发（没有草稿需要复核）。**待Owen处理事项：无**——本轮是赛道供给问题，不是渠道/身份类阻塞。
