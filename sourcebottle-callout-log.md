@@ -54,4 +54,17 @@
 - **表单设置**：Job title = Content Creator；Organisation = WageLark；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@wagelark.com`。
 - **Deadline**：2026-09-25 17:00（鼠标真实点击日历控件选中）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval..."。提交回执 product id = `0bd705ab1d90742c0eb79665a78961a5`。
+- **上线复核（2026-09-01 补做）**：✅ 已确认上线。在 `industry-list-results.asp?scid=5&iid=61`（Business & Finance / United States）列表里实际看到本条，署名 WageLark (Content Creator)，Date Posted 25 August 2026，与提交内容一致。
+
+### 2026-09-01（周二，正常排期，本站为本轮"外链产能集中规则"选中的3站之一）— WageLark（wagelark.com）
+
+- **选站说明**：本次运行按 SKILL.md「外链产能集中规则」重新用 `gsc_query.py` 拉了各候选站近28天 11-30位曝光量（排除压制中的 CalcBadger/DialWick/commsadvisor/hrpaypick），WageLark 以111次曝光排入前3（另两站为 chinaabroadguide 311、UmberLore 75）；FactCrumbs 以49次并列第3同批处理。DayAlmanac 本次跌出前3（11-30位曝光从08-25的1074骤降到42，同时前10位曝光暴涨到2801，说明它的排名问题已大幅缓解，不再是本轮最需要外链撬动的站）。alpha（chinaabroadguide）虽然曝光最高，但按本任务A部分既有的"SourceBottle是英文平台、alpha中文站受众错配"硬规则排除在SourceBottle选站之外，不适用于本任务。
+- **上线复核（本次顺带补做）**：✅ 已确认 08-18 dental-hygienist-salary、08-25 plumbing-apprenticeship 两条均已上线（见上方补记）。08-04 phlebotomist、08-12 air-traffic-controller 两条本次未在已查的 Business & Finance / Health & Wellbeing（US）分类下找到，其Deadline分别为08-25（已过期，大概率已下架）和09-02（未过期，但可能挂在未检查的Topics组合下），未做进一步判定，留待下次运行时如有余力再查。
+- **问题标题**：Court reporting/captioning industry pros: has BLS's flat-growth outlook actually matched real hiring?
+- **角度**：绑定`how-to-become-a-court-reporter`一文"Job outlook: BLS projects no growth, but stable openings from replacement need"一节——BLS对court reporters/simultaneous captioners的整体判断是2024-2034flat 0%增长，但同时点名无障碍字幕法规、老龄化人口、电影院/体育场馆加装字幕等因素应该会单独拉动captioning端的需求，跟法庭预算驱动的court reporter端形成分化。征集法律行业招聘方/法院行政人员/字幕公司负责人分享——这个"法庭端持平或下滑、字幕端上升"的分化是否真实发生在他们的招聘决策里，实际驱动因素是什么。与此前问过的认证路径有效性（08-04）、行业招聘瓶颈（08-12）、薪资预期落差（08-18）、学徒工时跨州流转（08-25）均不重叠——这次聚焦BLS就业展望预测本身准不准。
+- **绑定文章**：WageLark `how-to-become-a-court-reporter`（How to Become a Court Reporter: Certification, Path, and Pay）。
+- **分类标签**：Topics = General + Professional Services；Countries = United States（BLS数据是美国特有统计口径）。
+- **表单设置**：Job title = Content Creator；Organisation = WageLark；Contact = Email；Unpaid；Email address 和 Contact email 均填 `contact@wagelark.com`。
+- **Deadline**：2026-09-30 17:00（鼠标真实点击日历控件选中月份+日期，未直接写文本框）。
+- **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval, your post will be included in the next Drink Up! Alert"。提交回执 product id = `5581cf273d17f1f89b96ee0f6c88dd29`。
 - **上线复核**：⏳ 待下次任务运行时补查。
