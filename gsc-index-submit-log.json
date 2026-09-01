@@ -307,5 +307,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-01",
+    "action": "submitted",
+    "reason": "今日新发布nuclear-medicine-technologist-salary，URL Inspection确认URL is not on Google，提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/nuclear-medicine-technologist-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
