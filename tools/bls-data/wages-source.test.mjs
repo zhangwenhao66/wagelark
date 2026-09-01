@@ -1036,3 +1036,25 @@ test("spot check: Optometrists (29-1041) matches BLS OOH page", () => {
 	assert.equal(occ.industryWages[3].industry, 'Offices of optometrists');
 	assert.equal(occ.industryWages[3].annualWage, 129250);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-09-01 (last modified
+// August 27, 2026, carrying May 2025 data). Independent of wages-source.json's
+// own numbers -- do not derive these from the source file. Unlike Radiation
+// Therapists above, this page DOES give a 10th/90th split, just phrased as
+// "lowest 10 percent... highest 10 percent" rather than the word
+// "percentile" -- a naive text search for "percentile" will miss it.
+test('spot check: Nuclear Medicine Technologists (29-2033) matches BLS OOH page', () => {
+	const occ = occupations['29-2033'];
+	assert.equal(occ.medianAnnual, 101370);
+	assert.equal(occ.medianHourly, 48.74);
+	assert.deepEqual(occ.percentiles, { p10: 78080, p90: 134500 });
+	assert.equal(occ.employment, 17400);
+	assert.equal(occ.jobOutlookPct, 4);
+	assert.equal(occ.employmentChange, 800);
+	assert.equal(occ.entryEducation, "Associate's degree");
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Outpatient care centers');
+	assert.equal(occ.industryWages[0].annualWage, 171170);
+	assert.equal(occ.industryWages[3].industry, 'Offices of physicians');
+	assert.equal(occ.industryWages[3].annualWage, 98420);
+});

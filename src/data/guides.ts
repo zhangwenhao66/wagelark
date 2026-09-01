@@ -4345,4 +4345,73 @@ export const guides: Guide[] = [
 		image: '/images/optometrist-salary-chart.svg',
 		imageAlt: 'Bar chart showing optometrist annual wage by percentile: 10th percentile $74,870, median $136,570, 90th percentile $202,180, based on BLS May 2025 data.',
 	},
+	{
+		slug: 'nuclear-medicine-technologist-salary',
+		category: 'Salary Guide',
+		title: 'Nuclear Medicine Technologist Salary: $101,370 Median (2026 BLS)',
+		description: 'BLS puts the median nuclear medicine technologist salary at $101,370 a year, with a range of $78,080 to $134,500 by percentile. Full wage and industry breakdown.',
+		published: '2026-09-01',
+		updated: '2026-09-01',
+		socCode: '29-2033',
+		coreSummary: "The median annual wage for nuclear medicine technologists was $101,370 in May 2025, according to the U.S. Bureau of Labor Statistics, or $48.74 an hour. The bottom 10% earned less than $78,080 while the top 10% earned more than $134,500, a spread of roughly $56,420. BLS projects 4% employment growth from 2025 to 2035, about as fast as the average for all occupations, adding an estimated 800 jobs to a 2025 workforce of 17,400, with about 800 openings projected each year, mostly from workers transferring to other occupations or leaving the labor force.",
+		sections: [
+			{
+				heading: 'What nuclear medicine technologists earn, and a page that gives more than radiation therapy\'s does',
+				body: [
+					"A nuclear medicine technologist earned a median of $101,370 a year in May 2025, or $48.74 an hour, per the Bureau of Labor Statistics, which profiles this occupation under SOC code 29-2033. The bottom 10% of earners made less than $78,080 a year, while the top 10% made more than $134,500, a spread of roughly $56,420. That median figure is within $3,940 of what BLS reports for [radiation therapists](/radiation-therapist-salary/) ($105,310), an occupation that likewise uses radioactive materials in patient care but for treatment rather than diagnostic imaging, and both occupations share the same associate's-degree entry level.",
+					"Where the two pages diverge is in how much BLS actually publishes. The radiation therapist profile gives only that single national median, with no percentile breakdown at all. This page carries the fuller 10th-to-90th spread instead, the same format BLS uses on its pages for [veterinarians](/veterinarian-salary/), [MRI technologists](/mri-tech-salary/), and [optometrists](/optometrist-salary/). Nothing on either page accounts for why one occupation gets the wider breakdown and the other one doesn't.",
+				],
+			},
+			{
+				heading: 'Pay by industry setting, and an inversion between where the pay is and where the jobs are',
+				body: [
+					'BLS breaks out May 2025 wages across four industry categories for nuclear medicine technologists. Outpatient care centers paid the highest median by a wide margin, at $171,170. Medical and diagnostic laboratories paid $103,410, hospitals paid $101,280, and offices of physicians paid the least of the four, at $98,420, a difference of $72,750 between the highest- and lowest-paying settings.',
+					"BLS separately reports how the workforce is actually distributed across those same settings, and the pattern runs opposite to the pay ranking: hospitals employ 71% of nuclear medicine technologists, by far the largest share, despite paying the third-highest of the four industry wages. Offices of physicians employ 14%, medical and diagnostic laboratories 8%, and outpatient care centers, the highest-paying setting, employ just 3% of the field. This site found the same shape in its [optometrist pay breakdown](/optometrist-salary/): there too, the highest-paying industry turned out to employ only a sliver of the workforce, while the largest employer paid among the least. Neither page ties the gap to a specific cause; both simply lay out the wage and employment-share numbers side by side, unexplained.",
+				],
+			},
+			{
+				heading: 'Certification and licensure: what BLS says, and what NMTCB adds',
+				body: [
+					"Per BLS, most nuclear medicine technologists become certified, and certification, while not itself required for a license, fulfills most of the requirements state licensing boards ask for. Licensing requirements vary by state, and BLS directs readers to a state's health board for specifics rather than naming uniform requirements. Certification itself generally requires graduating from an accredited nuclear medicine technology program, and BLS explicitly names the credentialing body on this page: the Nuclear Medicine Technology Certification Board (NMTCB), which administers exams for specialty certifications in positron emission tomography (PET), nuclear cardiology (NCT), and computed tomography (CT) on top of the base credential.",
+					"Independently of BLS, NMTCB's own homepage describes that base credential by name, the Certified Nuclear Medicine Technologist (CNMT) designation, and says it is recognized by state licensure agencies and employers nationwide; a separate page on NMTCB's site dates the organization's founding to 1977. BLS also notes technologists may separately need certifications unrelated to nuclear medicine specifically, such as basic life support (BLS), advanced cardiovascular life support (ACLS), or cardiopulmonary resuscitation (CPR), depending on the employer.",
+				],
+			},
+			{
+				heading: 'Job outlook, next to the other imaging occupations this site tracks',
+				body: [
+					'BLS projects 4% employment growth for nuclear medicine technologists from 2025 to 2035, classified as about as fast as the average for all occupations, adding an estimated 800 jobs to a 2025 workforce of 17,400. About 800 openings are projected each year on average over the decade, a figure BLS attributes mostly to workers transferring to other occupations or leaving the labor force entirely, such as to retire, rather than to newly created positions.',
+					"Among the associate's-degree imaging and radiation occupations this site tracks, nuclear medicine technologists' 4% outlook ties [radiologic technologists](/radiology-tech-salary/) at the same rate, edges out radiation therapy's 3%, and trails [diagnostic medical sonographers](/ultrasound-tech-salary/) at 13%, the fastest-growing occupation in this cluster. Pay runs in the opposite direction from growth: at $101,370, this occupation earns more than MRI technologists ($95,480), sonographers ($89,340), and radiologic technologists ($77,660), the highest median of the group apart from radiation therapy. No page in this cluster attributes that inverse relationship between growth and pay to a specific cause.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median nuclear medicine technologist salary?',
+				answer: "$101,370 a year for May 2025 (about $48.74 on an hourly basis), according to BLS, with the lowest tenth of earners under $78,080 annually and the highest tenth above $134,500.",
+			},
+			{
+				question: 'Does BLS give a percentile wage range for nuclear medicine technologists?',
+				answer: "Yes. Unlike a few related BLS profiles on this site (the radiation-therapy field among them) that stop at one median figure, this occupation gets three data points: $78,080 low, $101,370 in the middle, $134,500 high.",
+			},
+			{
+				question: 'Which industry pays nuclear medicine technologists the most?',
+				answer: "Per BLS's May 2025 data, the outpatient-care setting topped the four tracked industries at $171,170, even though only a small sliver of technologists, about 3%, actually work there. Physician offices sat lowest at $98,420, with labs ($103,410) and hospitals ($101,280) in between; hospitals alone account for 71% of all jobs in the occupation.",
+			},
+			{
+				question: 'What certification do nuclear medicine technologists need?',
+				answer: "BLS points to finishing a program accredited for this specific field as the usual path to certification, which in turn covers most of what individual states ask for when issuing a license (state requirements themselves differ). The credentialing organization named on BLS's page, the NMTCB, also offers a handful of add-on specialty exams for technologists who want to sub-specialize; separately, NMTCB's homepage gives the entry-level designation its own short name, CNMT.",
+			},
+			{
+				question: 'Is nuclear medicine technology a growing field?',
+				answer: "Yes, though modestly: BLS pegs the 2025-2035 pace at 4%, in line with the broader economy, translating to roughly 800 new positions on top of the current 17,400 and around 800 yearly openings once retirements and career changes are factored in. Ultrasound technologists grow faster within this site's imaging lineup, at 13%, even while earning less per year than this occupation does.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Nuclear Medicine Technologists (accessed 2026-09-01 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/nuclear-medicine-technologists.htm' },
+			{ label: 'Nuclear Medicine Technology Certification Board (NMTCB): homepage, used for the CNMT credential name above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.nmtcb.org/' },
+			{ label: 'Nuclear Medicine Technology Certification Board (NMTCB): About page, used for the 1977 founding date above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.nmtcb.org/about' },
+		],
+		image: '/images/nuclear-medicine-technologist-salary-chart.svg',
+		imageAlt: 'Bar chart showing nuclear medicine technologist annual wage by percentile: 10th percentile $78,080, median $101,370, 90th percentile $134,500, based on BLS May 2025 data.',
+	},
 ];

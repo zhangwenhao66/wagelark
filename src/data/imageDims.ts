@@ -131,6 +131,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/nuclear-medicine-technologist-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/nurse-practitioner-duties.svg": {
   "h": 220,
   "w": 640
@@ -140,6 +144,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 640
  },
  "/images/occupational-therapist-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
+ "/images/optometrist-salary-chart.svg": {
   "h": 240,
   "w": 640
  },

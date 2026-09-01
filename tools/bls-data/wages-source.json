@@ -1787,6 +1787,44 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Radiation Therapists",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/radiation-therapists.htm",
       "publishedDate": "2026-08-27"
+    },
+    "29-2033": {
+      "title": "Nuclear Medicine Technologists",
+      "medianAnnual": 101370,
+      "medianHourly": 48.74,
+      "percentiles": {
+        "p10": 78080,
+        "p90": 134500
+      },
+      "employment": 17400,
+      "employmentYear": "2025",
+      "jobOutlookPct": 4,
+      "jobOutlookLabel": "As fast as average",
+      "employmentChange": 800,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "Associate's degree",
+      "industryWages": [
+        {
+          "industry": "Outpatient care centers",
+          "annualWage": 171170
+        },
+        {
+          "industry": "Medical and diagnostic laboratories",
+          "annualWage": 103410
+        },
+        {
+          "industry": "Hospitals; state, local, and private",
+          "annualWage": 101280
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 98420
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Nuclear Medicine Technologists",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/nuclear-medicine-technologists.htm",
+      "publishedDate": "2026-08-27"
     }
   }
 }
