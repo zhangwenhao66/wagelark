@@ -1609,3 +1609,45 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "respiratory-therapist-salary",
+  "last_audited": "2026-09-01",
+  "published_date": "2026-08-10",
+  "note": "content-audit-log.md已记录19篇（最新08-31），guides.ts共62篇文章；按'从未审计过优先，同为未审计取published日期最早'规则，respiratory-therapist-salary（published 2026-08-10）在全部从未审计过的38篇里published日期最早，选取本文",
+  "article_specific_priorities": "核心价值主张：BLS SOC 29-1126呼吸治疗师薪资全国参考页，median $80,450/p10 $61,900/p90 $108,820（May 2024）。最关键可核查论断：(1) 三项行业细分薪资（医院$80,660/专业护理机构$75,910/医师诊所$75,240）是否与BLS当前公开数据逐字一致；(2) 12%就业增长/16,800新增岗位/约8,800年均空缺是否可溯源BLS原文；(3) '除阿拉斯加外全部州要求执照，阿拉斯加以国家认证代替'这一表述是否准确、是否已过时；(4) NBRC自述'49个监管该职业的州以CRT/RRT为发证依据'这一独立信源断言是否准确；(5) 与dental-hygienist-salary（$94,260/7%增长）、radiology-tech-salary（$77,660/4%增长）两篇交叉对比数字是否与这两篇自己的数据源一致。",
+  "findings": [
+    { "dimension": "EEAT", "status": "未发现问题", "detail": "全篇具名引用BLS（'per BLS'/'BLS states'反复出现）+独立引用NBRC作为第二信源并明确区分'independently of BLS'，非泛泛而谈；sources字段2条均有明确URL+访问方式+数据年份标注。" },
+    { "dimension": "事实准确性", "status": "未发现问题", "detail": "独立WebSearch核实8项关键断言（median/hourly/p10/p90/12%增长/16,800新增/8,800年均空缺/3项行业细分/entry education/Alaska例外/NBRC49州CRT-RRT）全部CONFIRMED，与BLS OOH及NBRC/AARC信源逐字一致。核查该文'X先出现/后来影响'类断言（本站已知复发模式）：全文无此类表述，不适用。交叉对比的dental-hygienist-salary（$94,260/7%）与radiology-tech-salary（$77,660/4%）两个数字经核对与bls-wages.ts对应条目完全一致，无漂移。" },
+    { "dimension": "时效性", "status": "确认发现但决定不做修复，仅记录观察", "detail": "WebSearch独立核实发现：Alaska已通过呼吸治疗师执照立法，生效日期为2027-01-01（届时将成为第50个要求执照的州），本文当前'除阿拉斯加外'的表述在该日期前仍准确，但届时会过时。因法律尚未生效、当前表述仍是BLS原文准确转述，本次不做修复，记录为观察项，建议2027年1月后的下一次审计复查是否需要更新此处表述。" },
+    { "dimension": "竞品差异化", "status": "确认发现问题，沿用既有判例不做修复", "detail": "dataforseo-query serp \"respiratory therapist salary\"实测：indeed.com/ziprecruiter.com/theceplace.com等头部竞品均提供州级细分（California/North Carolina/Illinois/Texas），本文仅有全国数据。此为本站pharmacist-salary（2026-08-03审计）已确认并记录过的同类系统性缺口（BLS州级数据仅以XLSX/JS查询工具形式发布，当前工具集无法逐条核实提取，风险高于收益），非本文新发现，沿用既有判例不做修复，站内'州组合页'规划仍是解决这个缺口的正确架构位置。" },
+    { "dimension": "SEO技术审计", "status": "确认发现问题（meta description），已修复", "detail": "Skill(seo-audit)+live curl实测：title 64字符/z=1.27正常；description初始166字符/z=1.59需复核，超Google约155-160字符截断阈值，已缩短至159字符/z=0.63。单一H1含关键词，4个H2结构清晰，canonical自引用正确，图片alt描述性强，schema（Article/FAQPage/BreadcrumbList/Dataset/ImageObject/Organization/WebPage）实测完整渲染，无robots noindex。" },
+    { "dimension": "GEO审计", "status": "未发现问题，达标", "detail": "按11维度人工核算：权威原文引语13/统计数据完整性13/可引用性12/结构规范性11/表达流畅度8/语义密度7/权威信号7/专业术语6/鲁棒性4/跨域连接4/易懂表达3，合计约88/99，高于80分及格线。跨域连接项满分（3条正文手动锚文本出链到相关职业页），优于本站早期文章（如pharmacist-salary当时为0）。表达流畅度扣分因'rather than'密度问题（见维度14）。修复未触及GEO相关维度，未重新打分。" },
+    { "dimension": "早期内容AI味补漏", "status": "不适用", "detail": "published=2026-08-10，晚于2026-08-07 avoid-ai-writing强制化生效日期，不属于需要回填的早期内容。" },
+    { "dimension": "外部引用链接腐烂", "status": "未发现问题", "detail": "sources 2条外部引用（BLS OOH respiratory-therapists.htm、NBRC examinations页）均curl实测200可访问，内容与引用一致。" },
+    { "dimension": "内链健康度", "status": "未发现问题", "detail": "本文正文3条手动锚文本出链（how-to-become-an-ultrasound-tech/dental-hygienist-salary/radiology-tech-salary）；入链方面，highest-paying-jobs-without-a-degree文章正文内嵌的职业排名表格含1条指向本文的锚文本链接（'Respiratory Therapists'→/respiratory-therapist-salary/），非仅靠自动轮转，非孤儿页。Salary Guide分类29篇文章，本文也出现在同分类的侧栏轮转窗口中（chef-salary/electrician-salary/firefighter-salary/occupational-therapist-salary/truck-driver-salary/welder-salary，实测live页面确认）。" },
+    { "dimension": "Schema数据一致性", "status": "确认符合", "detail": "编辑后dateModified随updated字段同步更新，FAQPage的5条Answer与guides.ts改写后内容一致（seo_drift.py compare确认schema内容变化为预期编辑，无CRITICAL）。" },
+    { "dimension": "合规/敏感度漂移", "status": "未发现问题", "detail": "呼吸治疗职业无新增争议；免责声明页脚存在；正文/FAQ无收入承诺式表述，无具体培训机构推荐，无个性化职业建议。" },
+    { "dimension": "配图可用性与版权", "status": "未发现问题", "detail": "配图为站内脚本自动生成的SVG柱状图（非第三方图片，无版权问题），public/images/respiratory-therapist-salary-chart.svg存在，live页面正常渲染。" },
+    { "dimension": "AdSense政策风险", "status": "未发现问题", "detail": "ads.txt实测内容为'google.com, pub-5245502795720653, DIRECT, f08c47fec0942fa0'，与全矩阵共享发布商ID一致；/privacy/、/about/、/terms/均curl 200；本文无敏感类目/误导性标题/误导性广告布局。" },
+    { "dimension": "机械行文模式（脚本）", "status": "确认发现2类问题，1类已修复1类经独立复核判定非真问题", "detail": "check_prose_patterns.py初次运行：①'rather than/instead of'7次/1246词（密度1/177词，超阈值总数>4或密度>1/200词）；②FAQ与正文≥20字符逐字重合5条（重合25-136字符）。独立复核：①insufficient evidence/not a problem（7处均为语义必要的不同对比，非重复文风，强行改写反而生硬）——未修复，脚本该项检查仍会报警，这是有意保留，非遗漏；②CONFIRMED real problem（整句复制而非改述）——已改写全部5条FAQ答案，反复调整5轮后重合降为0，脚本该项检查通过。" }
+  ],
+  "independent_verification": "spawn 3个全新独立agent（均后台异步完成，7-10秒，均正常返回未卡死，无需启动看门狗降级流程）：①'rather than'密度——insufficient evidence/not a problem；②FAQ与正文≥20字符逐字重合——CONFIRMED real problem；③meta description长度z=1.59——CONFIRMED（低优先级但真实截断风险）。均严格按'只给该独立agent单条finding+支撑证据，不给整体上下文'执行。",
+  "actions_taken": [
+    "改写全部5条FAQ答案，消除与正文的逐字重合（数字/事实不变，仅措辞），check_prose_patterns.py该项检查从5条重合降为0",
+    "meta description从166字符（z=1.59）缩短为159字符（z=0.63），保留核心数字$80,450/12%/2034",
+    "updated字段2026-08-10→2026-09-01（published字段已存在'2026-08-10'，无需回填流程）",
+    "未修复'rather than/instead of'密度警告——独立复核判定非真问题，故意保留脚本该项非零退出码，属于'只对CONFIRMED finding采取行动'规则下的正常结果，非遗漏",
+    "未修复竞品差异化（州级数据缺口）——沿用pharmacist-salary既有判例，风险高于收益",
+    "npm run build 70页无报错；npm test 67/67全绿",
+    "python3 seo_drift.py baseline/compare：修改前存档，部署后对比仅2条WARNING（schema内容变化+meta description变化，均为预期内编辑），无CRITICAL",
+    "commit ee40178（guides.ts）+f2ccaed（indexnow-submit-log.json）+2f87fb4（内容发布日志.md）全部push成功，Cloudflare Pages自动部署，绕缓存轮询5次后确认200且新FAQ文案命中真实新内容",
+    "node tools/submit-indexnow.mjs /respiratory-therapist-salary/ 提交，Bing 200 / Yandex 202",
+    "内容发布日志.md已追加本次审计记录（标注为content-quality-audit审计更新非新发布）；本次未发现新的跨站可泛化问题，内容通用教训库.md本次未追加新条目"
+  ],
+  "seo_score": "description z-score从1.59降至0.63，其余技术项无变化",
+  "geo_score": "约88/99（按11维度逐项核算），高于80分及格线，修复未触及评分维度，维持不变",
+  "escalation": null
+}
+```
