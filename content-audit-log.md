@@ -1651,3 +1651,49 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "electrician-salary",
+  "last_audited": "2026-09-02",
+  "published_date": "2026-08-11",
+  "checklist": [
+    "BLS median/percentile/employment/growth数字是否仍是当前有效BLS数据",
+    "四类industry breakdown median wage是否属实",
+    "apprenticeship/licensing流程描述是否准确",
+    "跨文章引用electrician数字的姊妹文章是否会因本次修复产生新的不一致"
+  ],
+  "findings": [
+    {
+      "dimension": "时效性",
+      "status": "确认1处重大问题，已修复",
+      "detail": "全篇引用BLS \"May 2024\"数据（2024-2034 projections），但BLS官网OOH Electricians页面已刷新为\"May 2025\"数据（2025-2035 projections）：median $62,350→$63,190、10th百分位$39,430→$42,640、90th百分位$106,030→$108,510、就业人数818,700→821,000、增长率仍9%但周期改为2025-2035、新增岗位77,400→75,900、年均空缺81,000→72,700、四类行业median全部上调、自雇比例8%→7%、承包商雇佣占比65%→66%，增长归因叙事新增AI/数据中心用电需求驱动因素。独立复核agent直连BLS官网独立核实全部数字一致，CONFIRMED。"
+    },
+    {
+      "dimension": "站内系统性风险（记录，未处理）",
+      "status": "已记录，超出本次单篇审计范围",
+      "detail": "grep确认至少7篇其他文章（firefighter-salary/plumbing-apprenticeship/truck-driver-salary/welder-salary/how-to-become-an-electrician/how-to-become-a-lineman/what-does-a-millwright-do）+1个29行跨职业排名表格引用了electrician旧版$62,350数字。这些文章自己的BLS数字大概率也因同一次BLS年度刷新而过期（不止electrician一个SOC code），需要专项协调修复而非逐篇顺手patch，已通过作战数据台记录提醒。本次仅修复了firefighter-salary一处直接引用electrician数字的句子，未触碰其余6篇及排名表格，也未刷新firefighter-salary自身的BLS数据。"
+    },
+    {
+      "dimension": "EEAT/内链健康度/SEO技术/GEO审计/合规敏感度/AdSense合规",
+      "status": "未发现问题",
+      "detail": "check_seo_field_stats.py：title z-score=0.74、description z-score=0.06，均正常范围。schema/robots.txt AI爬虫许可完好。内容为中性BLS职业数据，无AdSense限制类目风险，ads.txt正确指向pub-5245502795720653。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "bls.gov与careeronestop.org直接curl均返回403，与本站sources注释已记录的Akamai/政府站反爬判例一致（本站惯例通过r.jina.ai代理访问bls.gov），非真实死链。"
+    },
+    {
+      "dimension": "第十四项机械检查（check_prose_patterns.py）",
+      "status": "2类候选，部分CONFIRMED已修复，脚本仍以exit 1收尾（原因已记录）",
+      "detail": "①\"rather than/instead of\"原6次——独立复核agent判定4处（成分归因/描述性排名/州执照信息委托/离职vs新增岗位）为合理多样化使用FALSE POSITIVE，2处（CNA与医疗助理两个训练时长对比句结构相同）为轻微重复，已改写医疗助理一句降至5次，独立复核认为不强制要求继续修剩余5次（涉及5个不同主题，非机械重复）。②FAQ与正文≥20字符重合原6条——独立复核agent判定FAQ#2/#3为官方类目名/数字类不可避免重合FALSE POSITIVE，FAQ#1/#4/#5/#6为可改写描述性文字CONFIRMED，已全部改写；迭代后仍有27-51字符残余重合（机构名片段/技术课程术语/数字短语），判定为不可避免重合的FALSE POSITIVE，不做牺牲准确性的强行改写。"
+    }
+  ],
+  "independent_verification": "3类候选问题各自spawn一个全新独立agent复核，均正常完成无卡死（41.3秒/19.8秒/21.1秒）：①BLS May 2025数据刷新→CONFIRMED；②'rather than'6次→NOT CONFIRMED/FALSE POSITIVE为主（已按建议优化1处）；③FAQ重合6条→4 CONFIRMED已改写+2 FALSE POSITIVE。",
+  "actions_taken": "全篇BLS数字与period更新为May 2025/2025-2035（title/description/coreSummary/4个section/6条FAQ/sources注释/imageAlt）；percentile图表SVG柱状图数值与柱宽同步更新；FAQ#1/#4/#5/#6改写降低verbatim重合；updated字段2026-08-21→2026-09-02；顺手修复firefighter-salary一处引用electrician旧数字的跨文章句子；seo_drift baseline/compare确认部署后无CRITICAL回归（3条WARNING均为预期编辑）；commit a3b953f push，CF Pages自动部署，绕缓存轮询确认线上生效；IndexNow提交electrician-salary与firefighter-salary两个URL（均成功）；内容发布日志.md已追加本条审计记录；作战数据台已记录'WageLark全站BLS数据可能系统性过期一个刷新周期'的提醒（alert，非阻塞待办）。",
+  "seo_score": "技术项全部通过，title/description均在正常z-score范围内",
+  "geo_score": "定性评估维持发布时判断，达标（≥80），线上schema/robots.txt AI爬虫许可完好",
+  "escalation": null
+}
+```
