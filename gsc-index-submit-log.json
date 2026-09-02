@@ -317,5 +317,18 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-02",
+    "action": "submitted",
+    "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，WageLark排第4位，今日无新发布。检查how-to-become-a-social-worker已收录，改用Page indexing报告Discovered-not-indexed列表找到chef-salary提交成功。第二轮hvac-certification（同报告列表）提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/chef-salary/",
+      "https://wagelark.com/hvac-certification/"
+    ],
+    "already_indexed_no_action": [
+      "https://wagelark.com/how-to-become-a-social-worker/"
+    ],
+    "quota_used": "2 of shared account-wide daily quota"
   }
 ]
