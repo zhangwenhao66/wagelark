@@ -714,3 +714,37 @@ WageLark
 
 1. Simmons和LIU两条死链的重定向目标路径完全一致（均是`/Sys/Error/404`），怀疑两所大学的图书馆网站使用同一套过期的CMS/DNS配置模板，可留意后续是否有更多同类LibGuide出现相同模式。
 2. 本轮已排查10个新职业方向中的librarian/bookkeeper/actuary(CAS)三类找到真实机会，air-traffic-controller/chef/millwright/CEO/controller/lineman/bartender/psychologist七个方向本轮未系统性排查（时间/精力优先给了历史命中率最高的LibGuides这条线），下轮可以继续排查这七个方向的从业者协会/州分会资源页。
+
+---
+
+## 2026-09-02 — Broken link pitch: Governors State University Pre-Professional Pathways
+
+- Target page: https://www.govst.edu/pre-professional-pathways (Governors State University, "Pre-Professional Pathways" — career-track cards for students, each with a median-salary link, undergrad/grad program links, and certification links). Page images are dated 2026-06 in their file paths, consistent with a page maintained within the last few months, not abandoned.
+- Dead link found: under the "Finance Director" card, the median-salary link's href is `http://https//www.salary.com/tools/salary-calculator/finance-director/chicago-il?edu=EDLEV5` — a malformed URL (missing the colon after the first `https`, so the browser parses "https" itself as the hostname). Confirmed with `curl -v`: "Could not resolve host: https". This is a URL-construction bug, not a WAF block or transient failure — independently reproduced by both `tools/broken_link_scan.py` (DNS resolution failure) and a manual `curl -v`.
+- Other DEAD links on the same page not pitched: none — this was the only DEAD result out of 35 outbound links scanned on this page (8 more flagged SOFT/403, manually spot-checked and confirmed to be live salary.com pages blocked only by bot detection on a plain curl, not actually dead — e.g. `salary.com/research/salary/recruiting/police-chief-salary/chicago-il` returns 403 to curl's UA but the same URL pattern for `accountant-i` and `human-resources-manager` on the same page return clean 200s with a browser-like UA, so treated as WAF noise, not real breakage).
+- Content match: WageLark does not have a Finance Director page. The closest match found is `what-does-a-controller-do` (published 2026-08-22, zero prior outreach — this run's cold-start pick per the new-article-priority rule). Checked whether BLS/O*NET formally group "Finance Director" under SOC 11-3031 (Financial Managers, the code our page covers): O*NET's own "Sample of reported job titles" list for 11-3031.00 (pulled live via curl) does **not** include "Finance Director" by name, and the BLS OOH page for Financial Managers also doesn't use that title. So the match is **not verified as the same SOC classification** — it's a plausible-but-unconfirmed overlap (both are bachelor's-plus-experience financial management roles; the govst.edu card's own listed undergrad programs for Finance Director are Accounting/Economics/Mathematics, which line up with the controller page's accountant/financial-analyst feeder-occupation description). The email states this uncertainty explicitly rather than asserting a classification match, consistent with the honest soft-match precedent (ACRA/NCC/AICPA in prior runs).
+- Numbers checked against `src/data/guides.ts` `what-does-a-controller-do` entry: median $161,700/yr (Financial Managers group, May 2024 BLS) — matches exactly.
+- Dedup: `gmail_send.py list --query "to:career@govst.edu"` returned `[]`. `grep -ril "govst"` across every `独立站/*/outreach-drafts.md`, `独立站/*/broken-link-outreach-log.md`, and all other `.md` files in `独立站/` (both the four seo-geo-trinity sites and the 10-site traffic matrix) returned no hits outside this file. No prior contact with this institution or domain anywhere in the matrix.
+- Contact used: career@govst.edu (Governors State University Office of Career Services general inbox, WebSearch-confirmed — not a personal address, not a scoped legal/privacy/ads-only inbox).
+- Passed Skill(humanizer) and Skill(avoid-ai-writing) unmodified: no em/en dashes, no AI-vocabulary hits, no filler, no template closing line (avoided reusing "No obligation either way," per the 08-24 note that this site had overused that exact phrase).
+
+**Draft email:**
+
+Subject: Broken link on your Pre-Professional Pathways page
+
+Hi there,
+
+I was looking at your Pre-Professional Pathways page (govst.edu/pre-professional-pathways) and noticed the median salary link under the Finance Director section is broken. The href reads "http://https//www.salary.com/tools/salary-calculator/finance-director/chicago-il?edu=EDLEV5" instead of a normal URL, so it fails to resolve rather than loading the salary page.
+
+I run wagelark.com, a reference site built on BLS wage data. We don't have a Finance Director page specifically. BLS lumps controllers, treasurers, and a few other finance-management titles into one combined occupation, "Financial Managers" (median $161,700, May 2024), rather than tracking Finance Director on its own, so this only overlaps loosely:
+
+https://wagelark.com/what-does-a-controller-do/
+
+Feel free to skip it if that's not close enough for the page. Either way, worth fixing that link.
+
+Owen Zhang
+contact@wagelark.com
+
+**Independent review verdict: SEND.** Fresh-context review agent independently re-fetched the govst.edu page and reproduced the malformed-URL failure via `curl -v`, cross-checked the $161,700 figure against `guides.ts`, independently pulled O*NET's sample-job-titles list for SOC 11-3031.00 and confirmed "Finance Director" is not on it (validating the email's disclosed uncertainty rather than assuming it), confirmed `career@govst.edu` is GSU's real general Career Services inbox, re-ran the dedup queries itself (both empty/clean), and confirmed the email has no AI-writing tells and the required two-paragraph structure.
+
+**Status: 已发送。** `gmail_send.py send --from wagelark --to career@govst.edu`，Message ID `1a0624f7cfdf0d57`。

@@ -317,3 +317,51 @@ phlebotomy.com 页面查出的3条失效链接因主题不对应（管理培训�
 1. **本站编排层"子agent未等复核完成即返回"+"提前写完成状态但实际未执行"已合计出现3次流程事故**（08-16/08-26的子agent提前返回、本次08-31的提前写"已发送"），均已由上层会话/复核agent发现并纠正，但建议本站往后每次运行在"写发送记录"这一步前加一道硬性检查：只有拿到`gmail_send.py send`命令的真实返回值（Message ID）才允许写入"已发送"，不能先写状态再补执行。
 2. air-traffic-controller/chef/millwright/CEO/controller/lineman/bartender/psychologist七个方向本轮未系统排查（本轮时间优先给了历史命中率最高的LibGuides线索），下轮继续排查这七个方向的从业者协会/州分会资源页。
 3. Simmons和LIU两条死链重定向路径完全一致（均为`/Sys/Error/404`），怀疑两校图书馆网站共用同一套过期CMS，留意后续是否有更多同类LibGuide案例。
+
+---
+
+## 2026-09-02（第八次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中WageLark（11-30位曝光584，矩阵第三名）
+
+### 第0步（续）：核实08-21批次剩余机会A（HCC，本轮首次轮到；机会B/ACC留给下轮）
+
+**发现的缺口**：08-31那次运行漏做了第0步（该次日志直接从候选收集开始，无核实环节），导致08-21发出的HCC（library.support@hccs.edu）和ACC（ls-instruction@austincc.edu）两条pitch本该在08-31（10天整）就轮到核实，实际拖到本轮（12天）才处理。如实记录这个缺口，不掩盖。
+
+**机会A（HCC，Message ID `1a024dfa33b7c750`，发出12天）**：curl访问 `https://library.hccs.edu/guides/hvac/careers`：HTTP 200，页面仍是原样，"HCC's Career Coach"（hccs.emsicareercoach.com）死链依旧挂在页面上，无`wagelark`字样。`dataforseo_query.py backlinks wagelark.com --limit 100`（全量拉取，当前共6条外链，全部来自反链检测类聚合站pmt-ae.com/gunghapcafe.com/webmaster-philippines.com，非真实内容引用）：无`hccs.edu`。判定**`not_replaced`**。`gmail_send.py list --query "from:library.support@hccs.edu"` 返回空，零回复。发出日期08-21，距今12天，落在10-14天跟进窗口内，且目标资源页（Houston Community College图书馆官方HVAC职业资源页）具备真实机构权威度，符合规则5跟进条件。已发送简短跟进（2句，`--reply-to`挂入原线程，未使用"No obligation either way"模板句），过humanizer+avoid-ai-writing自查无需改动，`gmail_send.py send --from wagelark --to library.support@hccs.edu --reply-to 1a024dfa33b7c750`，**Message ID `1a06240b0964c2f7`**，正确挂入原线程。标记 **`verified_not_replaced_followed_up_once`**。
+
+**机会B（ACC，`ls-instruction@austincc.edu`）本轮未轮到**：同为08-21发出、同样已满10天未验证，但规则5"每次挑1条最早的"，本轮HCC与ACC同日发出、机会A（HCC）在原08-21记录里列在前，本轮只处理1条，ACC留给下轮核实。
+
+### 第1-1.8步：新断链机会
+
+**目标池检查**：读`独立站/外链目标池.md`对标salaryexplorer.com的32个候选域名，逐条核实后判定**全部不可用**——快照里的域名清一色是国际薪资对比类博客/论坛（迪拜、芬兰、肯尼亚、新加坡、挪威等国的"XX工作薪资是多少"个人博客/移民中介站/多语言站点），主题是海外生活/移民场景下的薪资参考，跟WageLark专做美国BLS职业数据的定位不对应，且多数是"other"类型（非resource_page/edu_gov），不符合本步骤要求的目标类型。如实记录目标池对WageLark本次不可用，不强行凑数。
+
+**1.5竞品外链缺口分析**：`dataforseo_query.py backlinks careerexplorer.com --limit 150`和`backlinks salary.com --limit 150`，过滤`.edu`/`.gov`/协会类域名。careerexplorer.com新增候选2个：`virtualedge.org`（链接careerexplorer的caterer页）WebSearch核实后确认该域名实际运营方向是虚拟会议活动策划，与"caterer"职业毫无关联，判定为域名转手/内容不匹配的误报，不可用；`hiboox.org`（链接careerexplorer的woodworker页）WebSearch核实该域名被第三方安全评估工具标记为低信任度/疑似域名滥用，不可用。salary.com新增候选中`career.umn.edu`/`www.cmaa.org`延续08-26已记录的"通用薪资工具链接非具体职业页"结论，仍不可用；`nptiflorida.edu`（个人训练师）/`online.felician.edu`（持证咨询师）WageLark均无对应文章，未追加。
+
+**govst.edu — Governors State University Pre-Professional Pathways页面**（由salary.com反链数据牵出：govst.edu的4条salary.com具体职业链接里，Accountant I/Clinical Psychologist/Speech Pathologist/City Manager均活的（curl验证200或经WAF拦截但用不同UA可访问200），唯独Finance Director一条href写成`http://https//www.salary.com/tools/salary-calculator/finance-director/chicago-il?edu=EDLEV5`——`https`被错误当成了主机名，`curl -v`直接报"Could not resolve host: https"，是真实的URL拼写错误导致的死链，不是WAF拦截或临时故障）：
+
+- 替换内容：`what-does-a-controller-do`（2026-08-22发布，此前从未被用于任何pitch，本轮冷启动名额）。BLS/O*NET均未将"Finance Director"列为SOC 11-3031（Financial Managers）官方样本职称之一（独立curl核实O*NET该编码页"Sample of reported job titles"列表，无此头衔），因此邮件如实声明这不是确认的职业分类匹配，只是"松散重叠"（controller/finance director同属bachelor's+经验路径的财务管理岗位，且govst.edu该卡片自己列出的本科专业Accounting/Economics/Mathematics与controller页描述的入行路径吻合），不做"这就是同一个职业"的断言。
+- 数字核对：median $161,700/yr（Financial Managers group, May 2024 BLS）与`guides.ts`及线上页面逐字一致。
+- 收件人：`career@govst.edu`（Governors State University Career Services总台，WebSearch独立核实为真实公开联系方式，非法务/隐私/广告专用邮箱）。
+- 查重：`gmail_send.py list --query "to:career@govst.edu"`返回空；`grep -ril "govst"`遍历全矩阵14站`outreach-drafts.md`/`broken-link-outreach-log.md`及其余`.md`文件，仅命中本文件本身，无既往联系。
+- 已过Skill(humanizer)+Skill(avoid-ai-writing)（零破折号、零AI高频词、无套话收尾句，第一段纯断链通知不提WageLark，第二段才给替换建议）。
+
+**其余20个候选资源页扫描结果（`broken_link_scan.py`，22个URL、共约550条出站链接）**：命中的DEAD链接逐条核实后**均判定不可用**，未强行凑数——图书馆目录基础设施类（`libraryguides.ccbcmd.edu`页面命中22处DEAD，实为该学院`ccbcmd.edu`整个域名/子域名在扫描时无法解析，波及范围是图书馆自家目录/楼层地图/借阅政策等内部页面，非可置换的外部资源链接，且判断为该域名当时的临时性大范围解析异常而非真实"资源已废弃"，未采纳）、付费数据库登录跳转类（`henryford.libguides.com`命中13处DEAD，全部是EBSCO/ClinicalKey这类订阅数据库的登录跳转链接，加上NCCN/RTOG临床指南链接，主题是医院内部临床文献资源，跟"薪资/职业介绍"完全不搭）、图书馆FAQ系统类（`library.northshore.edu`两条`libanswers.com/researchhelp/faq/`内部问答系统链接）、军事机构专属项目页类（`wamc-amedd.libguides.com`三条陆军医疗中心`army.mil`/`tricare.mil`死链，指向的是该院自己的住院医师项目页，非可替换的外部资源）、求职板块/雇主招聘页类（`erau.libguides.com`两条：`aviationinterviews.com`面试技巧站与航空薪资数据主题不符、`northropgrumman.com/careers`是单一雇主招聘页非职业信息资源）、临床影像案例库类（`guides.stlcc.edu`一条`mrionline.com`病例检索工具，非薪资参考）、图书馆系统API类（`guides.fscj.edu`一条`alma-apps.flvc.org`目录检索API端点）。`libguides.lib.msu.edu`保险资源页命中的2条DEAD（`careers.casact.org`/`bls.gov/oco`）与08-31已发送的MSU pitch是同一页面，不重复联系。
+
+### 独立复核
+
+govst.edu pitch spawn独立复核agent（全新上下文），逐项核实：重新curl govst.edu页面独立复现`http://https//...`死链+`curl -v`复现"Could not resolve host: https"报错；`guides.ts`数字核对逐字一致；独立curl O*NET SOC 11-3031.00页面验证"Finance Director"确实不在样本职称列表里（未假设草稿的说法正确，自行核实）；`career@govst.edu`真实性WebSearch核实；查重`gmail_send.py list`+跨矩阵grep均独立复跑，结果干净；语气/AI味/两段式结构逐项确认无破折号无AI高频词无模板收尾句，第一段纯断链通知。**结论：SEND**，无阻断性问题。
+
+### 已发送
+
+- HCC跟进 → `library.support@hccs.edu`，`gmail_send.py send --from wagelark --reply-to 1a024dfa33b7c750`，Message ID `1a06240b0964c2f7`（标记`verified_not_replaced_followed_up_once`，非新增外链机会，是第0步跟进）
+- govst.edu → `career@govst.edu`，`gmail_send.py send --from wagelark`，Message ID `1a0624f7cfdf0d57`（新增断链置换pitch，冷启动名额给`what-does-a-controller-do`）
+
+两封均已发出，无留待处理草稿。
+
+**累计口径**：WageLark断链置换战术累计已发送 **16封**（含3封跟进：08-21 UCF、08-28 NALA、本轮HCC）；已验证 **5条 `not_replaced`**（UCF/CSRT/NALA/ten27services/HCC，均已发送跟进除ten27services因权威度不足未跟进外全部跟进过）；`verified_live_backlink_confirmed`/`verified_live_backlink_nofollow` 均为 **0条**；转化率 **0/16 = 0%**。ACRA/NCC（08-24发出，9天）/fana.org（08-26发出，7天）/Simmons、LIU、Harper、MSU（08-31发出，2天）均未到10天验证窗口，留给下轮。ACC（`ls-instruction@austincc.edu`，08-21发出，12天，已满足验证条件）本轮未轮到，下轮优先核实。
+
+### 遗留待办
+
+1. **本轮修正了08-31遗漏的第0步**：08-31那次运行完全跳过了旧pitch核实环节直接进入候选收集，导致HCC/ACC延迟一轮才被核实——提醒本站以后每次运行开头必须先做第0步，不能因为"上轮时间优先给了候选收集"就整体跳过。
+2. ACC（`ls-instruction@austincc.edu`）下轮优先核实，同批次的HCC已在本轮处理完毕。
+3. air-traffic-controller/chef/millwright/CEO/lineman/bartender/psychologist方向本轮同样未系统排查（时间优先给了govst.edu这条更高置信度的线索+目标池/竞品缺口两条常规步骤），继续留到下轮。
+4. 外链目标池（salaryexplorer.com快照）对WageLark暂不可用，是国际薪资对比类内容和美国BLS定位的方向性不匹配，不是快照过期问题，重新生成快照大概率不会改善，除非未来更换对标域名。
