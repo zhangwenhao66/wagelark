@@ -3,15 +3,15 @@
 	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Electricians: Annual Wage by Percentile</text>
 	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
 	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="56" width="141.3128359898142" height="34" fill="#0f8b7f" />
-	<text x="301.3128359898142" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$39,430</text>
+	<rect x="150" y="56" width="149.32448622246798" height="34" fill="#0f8b7f" />
+	<text x="309.32448622246798" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$42,640</text>
 	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
 	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="116" width="223.45562576629257" height="34" fill="#0f8b7f" />
-	<text x="383.45562576629254" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$62,350</text>
+	<rect x="150" y="116" width="221.29020366786472" height="34" fill="#0f8b7f" />
+	<text x="381.29020366786472" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$63,190</text>
 	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
 	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
-	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$106,030</text>
-	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national)</text>
+	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$108,510</text>
+	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national)</text>
 </svg>
