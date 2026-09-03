@@ -14,13 +14,23 @@
         "name": "Good Professions",
         "url": "https://goodprofessions.com/write-for-us/",
         "status": "pitch sent 2026-08-04 (Message ID 19fcb798e67ea0de)",
-        "notes": "真实投稿页，editor@goodprofessions.com。首页核实为持续更新的编辑内容(2024-2026多篇真实文章)，非纯guest-post交易站。分类含Career Tips/Employment，跟'how-to-become'类无学位进入路径内容主题匹配度高。要求原创、未发表过、深入研究、简明写作。2026-08-04积压处理：过humanizer+独立复核agent判定'可以发送'（无AI味/6项BLS数字对guides.ts核实一致/渠道确认真实开放免费/无14天内重复联系记录）后经gmail_send.py --from wagelark发出，全文见guest-post-pitch-drafts.md。"
+        "notes": "真实投稿页，editor@goodprofessions.com。首页核实为持续更新的编辑内容(2024-2026多篇真实文章)，非纯guest-post交易站。分类含Career Tips/Employment，跟'how-to-become'类无学位进入路径内容主题匹配度高。要求原创、未发表过、深入研究、简明写作。2026-08-04积压处理：过humanizer+独立复核agent判定'可以发送'（无AI味/6项BLS数字对guides.ts核实一致/渠道确认真实开放免费/无14天内重复联系记录）后经gmail_send.py --from wagelark发出，全文见guest-post-pitch-drafts.md。",
+        "verified_status": {
+          "checked_on": "2026-09-03",
+          "classification": "no_response_declined",
+          "evidence": "gmail_send.py list --query \"from:editor@goodprofessions.com\" returned [] (no reply in 30 days). WebSearch (site:goodprofessions.com wagelark OR no-degree) found no published article referencing wagelark or the pitched angle. Pitch was a topic pitch requesting a fit-check, not a full submission, so no article/backlink could exist without a reply; treating 30 days of silence as practical decline."
+        }
       },
       {
         "name": "CareerBands",
         "url": "https://careerbands.com/contribute-and-submit-a-guest-post/",
         "status": "pitch sent 2026-08-04 (Message ID 19fcb79ada898999)",
-        "notes": "真实投稿页，info@careerbands.com。首页核实为真实运营10年的简历/面试辅导机构博客，含2026年新文章。要求1200-2500字、不付稿费、发布后版权归站方所有、需先邮件提交主题+5-8行说明。主题(Career development/Job Searching)跟'不同雇主类型下同一职位薪资差异'角度契合。2026-08-04积压处理：过humanizer+独立复核agent判定'可以发送'后经gmail_send.py --from wagelark发出，全文见guest-post-pitch-drafts.md。"
+        "notes": "真实投稿页，info@careerbands.com。首页核实为真实运营10年的简历/面试辅导机构博客，含2026年新文章。要求1200-2500字、不付稿费、发布后版权归站方所有、需先邮件提交主题+5-8行说明。主题(Career development/Job Searching)跟'不同雇主类型下同一职位薪资差异'角度契合。2026-08-04积压处理：过humanizer+独立复核agent判定'可以发送'后经gmail_send.py --from wagelark发出，全文见guest-post-pitch-drafts.md。",
+        "verified_status": {
+          "checked_on": "2026-09-03",
+          "classification": "no_response_declined",
+          "evidence": "gmail_send.py list --query \"from:info@careerbands.com\" returned [] (no reply in 30 days). WebSearch (site:careerbands.com wagelark) found no published article. Pitch required the site to first approve a topic by email before a draft was written, so no article/backlink could exist without a reply; treating 30 days of silence as practical decline."
+        }
       },
       {
         "name": "Selecting Career",
@@ -159,8 +169,8 @@
       {
         "name": "CareerAddict (careeraddict.com)",
         "url": "https://www.careeraddict.com/publish",
-        "status": "viable — pitch drafted, NOT sent (pending independent review per task scope) — pitch sent",
-        "notes": "Established, actively publishing career-advice media site (confirmed via WebSearch: 2026 posts on in-demand jobs, highest-paying jobs, salary calculators). Real editorial process — in-house design team commissions illustrations, requires proof of qualifications/identity before commissioning a full piece — not a content mill. Primary submission path appears to be a form (per WebSearch summary of the /publish page); curl to the page returned HTTP 403 (Cloudflare) with two user agents so the page text could not be directly verified. editor@careeraddict.com is publicly listed as the submission-guide contact and was used as the pitch channel per this project's precedent (email a topic pitch when a working address exists, even if a form also exists), flagged as a lower-confidence point on submission mechanics. Angle: how-to-become-a-lineman (published today, 2026-08-20) shows linemen as the highest-paid no-degree trade this site tracks ($92,560 median vs. $62,970 plumbers, $62,350 electricians, $51,000 welders, all May 2024 BLS), a genuinely new angle not reused from the 8/4 or 8/16 pitches. Dedup via gmail_send.py returned empty. Draft in outreach-drafts.md, humanizer + avoid-ai-writing both applied during drafting. [Top-level orchestrator independent review 2026-08-20: confirmed editor@careeraddict.com is the official pitch contact (site's own /publish and /submission-guide pages), all BLS figures verified verbatim against how-to-become-a-lineman entry in guides.ts, dedup clean. Sent via gmail_send.py --from wagelark. Message ID 1a01f3aebe028d75.]"
+        "status": "pitch sent 2026-08-20 (Message ID 1a01f3aebe028d75)",
+        "notes": "Established, actively publishing career-advice media site (confirmed via WebSearch: 2026 posts on in-demand jobs, highest-paying jobs, salary calculators). Real editorial process — in-house design team commissions illustrations, requires proof of qualifications/identity before commissioning a full piece — not a content mill. Primary submission path appears to be a form (per WebSearch summary of the /publish page); curl to the page returned HTTP 403 (Cloudflare) with two user agents so the page text could not be directly verified. editor@careeraddict.com is publicly listed as the submission-guide contact and was used as the pitch channel per this project's precedent (email a topic pitch when a working address exists, even if a form also exists), flagged as a lower-confidence point on submission mechanics. Angle: how-to-become-a-lineman (published today, 2026-08-20) shows linemen as the highest-paid no-degree trade this site tracks ($92,560 median vs. $62,970 plumbers, $62,350 electricians, $51,000 welders, all May 2024 BLS), a genuinely new angle not reused from the 8/4 or 8/16 pitches. Dedup via gmail_send.py returned empty. Draft in outreach-drafts.md, humanizer + avoid-ai-writing both applied during drafting. [Top-level orchestrator independent review 2026-08-20: confirmed editor@careeraddict.com is the official pitch contact (site's own /publish and /submission-guide pages), all BLS figures verified verbatim against how-to-become-a-lineman entry in guides.ts, dedup clean. Sent via gmail_send.py --from wagelark. Message ID 1a01f3aebe028d75.] [2026-09-03 trafficsite-guest-post-outreach 修正]: 本条状态此前自相矛盾写着\"NOT sent...— pitch sent\"，导致本次运行第0步差点重复发送同一封邮件给同一收件人。独立复核agent核实gmail_send.py list返回该邮件确已于2026-08-20发出（Message ID 1a01f3aebe028d75），状态已订正为准确的已发送记录，未重复发送。"
       },
       {
         "name": "todaycut.com (\"Jobs, Career, Education, Recruitment Guest Post Site\")",
@@ -254,5 +264,30 @@
     ],
     "actions_taken": "Step A: verified 2 oldest un-verified 'pitch sent' entries (Spark Hire 21 days silent, Seminole State College 11 days silent), both still_pending with no publication/backlink evidence either way, sent one follow-up nudge each (both dedup-clean, both passed humanizer + avoid-ai-writing unchanged). Step B: pulled GSC data, identified unused position 5-40 pages for topic selection. Step D: researched 8 distinct channels/pages across 4 unused GSC topics (nurse practitioner, electrician, flight attendant, welder/plumbing trades) plus a general career-blog sweep; all rejected (thin content mill, paid placement, weak topical fit, or no channel exists) or dead-ended (no dead links found). No viable new guest-post or broken-link target found this round.",
     "result_summary": "Step A: 2 follow-up nudges sent (Spark Hire Message ID 1a043441cb06ed44, Seminole State College Message ID 1a0434433de6af62), both targets remain still_pending, no further follow-up permitted to either. Step D: no viable new target found after checking 8 channels — logged as a fine and expected outcome per task instructions. No pitch drafted or sent for a new channel this round. No Owen escalation needed — all rejections fall within already-established policy (paid placement, content-mill pattern, weak topical fit, no channel exists), not judgment calls requiring Owen's input."
+  },
+  {
+    "date": "2026-09-03",
+    "site": "wagelark",
+    "niche_focus": "career/salary reference (BLS-sourced), this round targeting dental-hygienist-salary/radiology-tech-salary/pharmacist-salary pages (GSC position 11-30, positive impressions)",
+    "channels_researched": [
+      {
+        "name": "HealthyWrites.com — Write for Us (health/fitness)",
+        "url": "https://www.healthywrites.com/write-for-us/",
+        "status": "real but legitimacy unconfirmed — not pursued",
+        "notes": "WebSearch找到投稿页(email混淆未取得明文地址)，Contributor类型列表异常宽泛(医生/护士/药剂师/牙医/营养师/物理治疗师/心理咨询师/私人教练/瑜伽老师/研究者/博客写手全部欢迎)——这个模式此前在本项目多次被判定为SEO反向链接工厂而非真实编辑站点(参照已拒绝的Ampkart/FreePress Directory)。curl核实首页及/blog/均被Cloudflare bot challenge拦截(完整hashcash挑战页,非403),WebSearch也未找到任何具体已发布文章证据。证据不足以确认是真实运营的编辑站点,未起草pitch。"
+      },
+      {
+        "name": "ADA News \"New Dentist\" blog — seeks contributors",
+        "url": "https://adanews.ada.org/new-dentist/2025/june/new-dentist-blog-seeks-contributors/",
+        "status": "real but ineligible — contributor credential requirement not met",
+        "notes": "真实且权威(美国牙科协会官方新闻站),但明确要求投稿人必须是毕业不满10年的执业牙医本人撰写第一人称从业经验,WageLark不是牙医执业者,无法真实满足这个身份要求,伪造身份投稿违反诚信,直接排除。"
+      },
+      {
+        "name": "Virtosu Art Gallery Blog guest post page (found via umberlore search, checked for cross-relevance)",
+        "url": "https://www.virtosuart.com/index.php/rss/595-submit-a-guest-post-guidelines-for-virtosu-art-gallery-blog",
+        "status": "dead-link-or-domain-repurposed",
+        "notes": "(记录在此仅为交叉参考,实际与umberlore相关)curl -L追踪301重定向后最终落地en.elartemonumental.com(完全不同的网站),原Virtosu Art Gallery域名/guest-post页面已不存在。"
+      }
+    ]
   }
 ]
