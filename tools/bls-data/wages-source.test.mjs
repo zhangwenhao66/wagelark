@@ -1077,3 +1077,22 @@ test('spot check: School and Career Counselors and Advisors (21-1012) matches BL
 	assert.equal(occ.industryWages[4].industry, 'Other educational services; private');
 	assert.equal(occ.industryWages[4].annualWage, 57480);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-09-03 (last modified
+// August 27, 2026, carrying May 2025 data). Independent of wages-source.json's
+// own numbers -- do not derive these from the source file.
+test('spot check: Home Health and Personal Care Aides (31-1120) matches BLS OOH page', () => {
+	const occ = occupations['31-1120'];
+	assert.equal(occ.medianAnnual, 35800);
+	assert.equal(occ.medianHourly, 17.21);
+	assert.deepEqual(occ.percentiles, { p10: 27040, p90: 45040 });
+	assert.equal(occ.employment, 4677100);
+	assert.equal(occ.jobOutlookPct, 18);
+	assert.equal(occ.employmentChange, 847300);
+	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Residential intellectual and developmental disability facilities');
+	assert.equal(occ.industryWages[0].annualWage, 37340);
+	assert.equal(occ.industryWages[3].industry, 'Individual and family services');
+	assert.equal(occ.industryWages[3].annualWage, 34900);
+});

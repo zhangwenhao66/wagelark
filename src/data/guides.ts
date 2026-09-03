@@ -4491,4 +4491,78 @@ export const guides: Guide[] = [
 		image: '/images/school-counselor-path.svg',
 		imageAlt: "Diagram showing the path to becoming a school counselor: a 4-year bachelor's degree, a master's degree in school counseling with a required internship, a state-issued credential and certification exam that varies by state, leading to a working school or career counselor earning a median of $64,330 a year per BLS.",
 	},
+	{
+		slug: 'home-health-aide-job-description',
+		category: 'Career Guide',
+		title: 'Home Health Aide Job Description: Duties, Pay, and BLS Outlook',
+		description: 'BLS lists the daily duties, entry requirements, and industry pay for home health and personal care aides, an occupation projected to grow 18% through 2035.',
+		published: '2026-09-03',
+		updated: '2026-09-03',
+		socCode: '31-1120',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, home health and personal care aides monitor the condition of people with disabilities or chronic illnesses and help them with daily living activities such as bathing, dressing, housekeeping, and meal preparation, often for older adults, and under the direction of a nurse or other healthcare practitioner they may also check vital signs or help administer medication. BLS reports a median annual wage of $35,800 in May 2025, with the bottom 10% earning less than $27,040 and the top 10% earning more than $45,040. BLS projects 18% employment growth from 2025 to 2035, about six times the 3% average projected across all occupations.",
+		sections: [
+			{
+				heading: 'What the job actually involves, per BLS',
+				body: [
+					'BLS lists a specific set of typical duties for the role: assisting clients with daily personal tasks such as bathing or dressing; performing housekeeping tasks including laundry, dishwashing, and vacuuming; helping organize a client\'s schedule and appointments; arranging transportation to doctors\' offices or other outings; shopping for groceries and preparing meals to meet a client\'s dietary needs; and keeping clients engaged in their social networks and communities.',
+					'BLS splits the occupation\'s title into two roles with different scopes. Home health aides may provide basic health-related services depending on the state in which they work, such as checking a client\'s pulse, temperature, and respiration rate, helping with simple prescribed exercises, giving medications, and occasionally changing bandages or dressings, giving massages, or helping with braces and artificial limbs. With special training, BLS notes, experienced home health aides may also help with medical equipment such as ventilators. Personal care aides, sometimes called caregivers or personal attendants, are generally limited to nonmedical services such as companionship, cleaning, cooking, and driving; some specialize in working with clients who have developmental or intellectual disabilities, helping create a behavior plan and teaching self-care skills such as laundry or cooking. BLS states that aides in both roles are typically supervised by medical practitioners, usually nurses, keep records on the client\'s condition and services received, and report changes in that condition to a supervisor or case manager.',
+				],
+				image: {
+					src: '/images/home-health-aide-job-description.svg',
+					alt: 'Diagram showing four duties of a home health aide per BLS: assist with daily personal tasks like bathing and dressing, support with housekeeping and meals, monitor vital signs under a nurse\'s direction, and coordinate appointments and social engagement.',
+				},
+			},
+			{
+				heading: 'Where the work happens, and who employs the most aides',
+				body: [
+					'Home health and personal care aides held about 4.7 million jobs in 2025, per BLS, the vast majority of them concentrated in a single industry: individual and family services, which employed 51% of the occupation. Home healthcare services followed at 23%, with residential intellectual and developmental disability facilities and continuing care retirement communities and assisted living facilities for the elderly each accounting for 6%. Many aides work in clients\' homes, per BLS, while others work in group homes, day services programs, or care communities; some work with only one client on a long-term basis, such as hospice care, while others work in shifts alongside other aides so a client always has coverage.',
+					'BLS describes the work as physically and emotionally demanding. Aides often move clients into and out of bed or help them stand or walk, so BLS says proper lifting technique matters for guarding against back injury, and aides may also work with clients who have cognitive impairments or mental health conditions that can produce difficult or violent behavior, alongside routine exposure to minor infections and communicable disease that BLS says proper procedure can help reduce. Most aides work full time, per BLS, though part-time work is common, and schedules often include evenings and weekends depending on a client\'s needs.',
+				],
+			},
+			{
+				heading: 'Getting in: a low bar to entry, but one that varies sharply by employer',
+				body: [
+					'BLS lists a high school diploma or equivalent as the typical entry-level education, though it notes some positions do not require even that, and lists no prior work experience in a related occupation as necessary. Training is typically short-term and on the job, covering areas such as personal hygiene, reading and recording vital signs, infection control, and basic nutrition; postsecondary nondegree award programs are also available through community colleges and vocational schools for aides who want more formal preparation.',
+					'How much of that training is actually required, though, depends heavily on the employer and the state. BLS states that certified home health or hospice agencies receiving payments from federally funded programs such as Medicare must comply with federal regulations regarding aides\' employment, which in practice means completing formal training and passing a standardized test; private care agencies that do not receive federal funds may set different requirements that vary by state. Some states separately require a license or certification for the role generally, which per BLS may involve completing training, passing a background check, and passing a competency exam. Aides may also need certification in first aid and CPR.',
+					'That employer-dependent structure is a real contrast with [becoming a CNA](/how-to-become-a-cna/) on this site, where a federal rule sets one uniform 75-hour training floor plus a state competency exam and registry listing that applies regardless of which employer someone works for. Home health aide entry, by comparison, can run from no formal requirement at all, for an aide working through a private, non-Medicare-funded agency in a state with no separate licensing rule, up to a mandated training-and-exam track for anyone working through a Medicare-certified home health or hospice agency.',
+				],
+			},
+			{
+				heading: 'Pay by industry, and a growth rate that stands out on this site',
+				body: [
+					'BLS reports a median annual wage of $35,800 for home health and personal care aides in May 2025, or $17.21 an hour, well below the $50,980 median across all U.S. occupations that year. The bottom 10% earned less than $27,040, and the top 10% earned more than $45,040, a spread of $18,000 between the two boundary figures BLS publishes.',
+					'By industry, BLS\'s May 2025 wage table shows residential intellectual and developmental disability facilities paying the highest median for the occupation at $37,340, followed closely by continuing care retirement communities and assisted living facilities for the elderly at $37,060, then home healthcare services at $36,230, and individual and family services, the industry employing the largest share of aides at 51%, paying the least of the four tracked industries at $34,900. The $2,440 gap between the highest- and lowest-paying tracked industries here is notably narrower than the roughly $7,490 industry gap this site\'s [dental assistant salary guide](/dental-assistant-salary/) reports for that occupation, and, as with dental assistants, the industry that employs the most workers is not the one that pays the most.',
+					'Against [nursing assistants](/how-to-become-a-cna/), a nearby short-training healthcare role on this site, home health and personal care aides earn less: BLS puts the nursing assistant median at $42,260, about $6,460 (roughly 18%) above the home health aide figure, a gap that lines up with nursing assistants\' more standardized federal training and state registry requirement. Where the two occupations diverge sharply is growth. BLS projects 18% employment growth for home health and personal care aides from 2025 to 2035, adding an estimated 847,300 jobs to reach 5,524,400 by 2035, versus a 3% growth projection for nursing assistants and orderlies over the same period, six times slower. BLS attributes the home health and personal care aide growth to the rising number of older people needing care and to a policy and lifestyle shift moving long-term care out of institutional settings such as nursing homes and into home- and community-based settings instead. About 760,500 openings for the occupation are projected each year on average over the decade, with BLS attributing most of them to workers transferring to other occupations or leaving the labor force rather than to newly created positions alone.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What does a home health aide do on a typical day?',
+				answer: "A day usually mixes hands-on help (getting someone bathed or dressed) with running the household around them: laundry, cooking, tidying up, and getting a client to appointments or errands. BLS also credits the role with a social component, keeping the person connected to friends, family, and community rather than isolated. Where a state permits it, the health-related side of the job can extend to reading a pulse or temperature, or handing over a dose of medication, always under a nurse's oversight.",
+			},
+			{
+				question: 'What is the difference between a home health aide and a personal care aide?',
+				answer: "BLS treats the two titles as one combined occupation but draws a real line between them: whether the tasks touch medical care. The home health side can, state rules permitting, step into things like vitals checks, medication, or hands-on equipment support. The personal care side stays out of medical territory entirely, sticking to household and companionship work; within that group, BLS points to a subset who work specifically with people facing lifelong cognitive challenges, teaching skills like laundry or meal prep rather than delivering hands-on care.",
+			},
+			{
+				question: 'How much do home health aides make?',
+				answer: "$35,800 was the May 2025 median BLS reported for the year, or a shade over $17 an hour. Below that, earners in the bottom tenth brought home under $27,040, while those at the top cleared $45,040. Pay also shifts by where an aide works: BLS's top-paying setting is the industry classification covering residential care for people with lasting cognitive and physical disabilities, a median of $37,340.",
+			},
+			{
+				question: 'Do home health aides need a license or certification?',
+				answer: "Whether formal credentials are required comes down to who the employer is and which state the aide works in. Agencies that bill Medicare or other federal programs have to put aides through actual training and a standardized exam before they can work, per BLS. Beyond that federal layer, individual states sometimes add their own licensing rule covering the whole occupation, background checks and a skills test included, while agencies running outside the federally funded system may set looser, inconsistent expectations of their own.",
+			},
+			{
+				question: 'Is home health aide a growing career?',
+				answer: "Very much so. The decade running through 2035 is set to add roughly 847,300 positions to this field, a pace BLS pegs at six times faster than the economy-wide norm it expects elsewhere. Two forces are driving that surge, per BLS: a larger share of older Americans needing support, and a broader move away from nursing-home-style institutions toward care delivered in someone's own home or neighborhood.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Home Health and Personal Care Aides (accessed 2026-09-03 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm' },
+			{ label: 'O*NET OnLine: 31-1121.00 Home Health Aides (the detailed occupation code O*NET tracks separately; BLS combines it with Personal Care Aides, 31-1122, under 31-1120 for OOH/OEWS wage and employment reporting)', url: 'https://www.onetonline.org/link/summary/31-1121.00' },
+		],
+		image: '/images/home-health-aide-job-description.svg',
+		imageAlt: 'Diagram showing four duties of a home health aide per BLS: assist with daily personal tasks like bathing and dressing, support with housekeeping and meals, monitor vital signs under a nurse\'s direction, and coordinate appointments and social engagement.',
+	},
 ];

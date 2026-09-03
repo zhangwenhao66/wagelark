@@ -1,6 +1,44 @@
 {
   "_readme": "Source of truth for BLS wage figures used on WageLark. Every entry is hand-verified against the live BLS Occupational Outlook Handbook page listed in sourceUrl (fetched and cross-checked on 2026-08-03). Do not edit numbers here from memory -- re-fetch the sourceUrl and update dataYear/publishedDate when refreshing. Run `node tools/bls-data/build-wage-data.mjs` after any edit, then `npm test` before using the generated output.",
   "occupations": {
+    "31-1120": {
+      "title": "Home Health and Personal Care Aides",
+      "medianAnnual": 35800,
+      "medianHourly": 17.21,
+      "percentiles": {
+        "p10": 27040,
+        "p90": 45040
+      },
+      "employment": 4677100,
+      "employmentYear": "2025",
+      "jobOutlookPct": 18,
+      "jobOutlookLabel": "Much faster than average",
+      "employmentChange": 847300,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "High school diploma or equivalent",
+      "industryWages": [
+        {
+          "industry": "Residential intellectual and developmental disability facilities",
+          "annualWage": 37340
+        },
+        {
+          "industry": "Continuing care retirement communities and assisted living facilities for the elderly",
+          "annualWage": 37060
+        },
+        {
+          "industry": "Home healthcare services",
+          "annualWage": 36230
+        },
+        {
+          "industry": "Individual and family services",
+          "annualWage": 34900
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Home Health and Personal Care Aides",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm",
+      "publishedDate": "2026-09-03"
+    },
     "29-1041": {
       "title": "Optometrists",
       "medianAnnual": 136570,
