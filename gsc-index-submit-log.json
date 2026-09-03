@@ -330,5 +330,15 @@
       "https://wagelark.com/how-to-become-a-social-worker/"
     ],
     "quota_used": "2 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-03",
+    "action": "submitted",
+    "reason": "今日新发布how-to-become-a-school-counselor（第一次运行），URL Inspection确认URL is not on Google，提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/how-to-become-a-school-counselor/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
