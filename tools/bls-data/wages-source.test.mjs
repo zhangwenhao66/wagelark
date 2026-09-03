@@ -1058,3 +1058,22 @@ test('spot check: Nuclear Medicine Technologists (29-2033) matches BLS OOH page'
 	assert.equal(occ.industryWages[3].industry, 'Offices of physicians');
 	assert.equal(occ.industryWages[3].annualWage, 98420);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-09-03 (last modified
+// August 27, 2026, carrying May 2025 data). Independent of wages-source.json's
+// own numbers -- do not derive these from the source file.
+test('spot check: School and Career Counselors and Advisors (21-1012) matches BLS OOH page', () => {
+	const occ = occupations['21-1012'];
+	assert.equal(occ.medianAnnual, 64330);
+	assert.equal(occ.medianHourly, 30.93);
+	assert.deepEqual(occ.percentiles, { p10: 45020, p90: 104770 });
+	assert.equal(occ.employment, 389500);
+	assert.equal(occ.jobOutlookPct, 3);
+	assert.equal(occ.employmentChange, 11400);
+	assert.equal(occ.entryEducation, "Master's degree");
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Elementary and secondary schools; local');
+	assert.equal(occ.industryWages[0].annualWage, 77800);
+	assert.equal(occ.industryWages[4].industry, 'Other educational services; private');
+	assert.equal(occ.industryWages[4].annualWage, 57480);
+});

@@ -1917,5 +1917,48 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Nuclear Medicine Technologists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/nuclear-medicine-technologists.htm",
 		publishedDate: "2026-08-27"
+	},
+	"21-1012": {
+		socCode: "21-1012",
+		title: "School and Career Counselors and Advisors",
+		medianAnnual: 64330,
+		medianHourly: 30.93,
+		percentiles: {
+			p10: 45020,
+			p90: 104770
+		},
+		employment: 389500,
+		employmentYear: "2025",
+		jobOutlookPct: 3,
+		jobOutlookLabel: "As fast as average",
+		employmentChange: 11400,
+		projectionPeriod: "2025-35",
+		entryEducation: "Master's degree",
+		industryWages: [
+			{
+				industry: "Elementary and secondary schools; local",
+				annualWage: 77800
+			},
+			{
+				industry: "Elementary and secondary schools; private",
+				annualWage: 62190
+			},
+			{
+				industry: "Colleges, universities, professional schools; state/local",
+				annualWage: 58870
+			},
+			{
+				industry: "Colleges, universities, professional schools; private",
+				annualWage: 58720
+			},
+			{
+				industry: "Other educational services; private",
+				annualWage: 57480
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: School and Career Counselors and Advisors",
+		sourceUrl: "https://www.bls.gov/ooh/community-and-social-service/school-and-career-counselors.htm",
+		publishedDate: "2026-08-27"
 	}
 };

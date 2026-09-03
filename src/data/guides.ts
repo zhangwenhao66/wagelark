@@ -4414,4 +4414,81 @@ export const guides: Guide[] = [
 		image: '/images/nuclear-medicine-technologist-salary-chart.svg',
 		imageAlt: 'Bar chart showing nuclear medicine technologist annual wage by percentile: 10th percentile $78,080, median $101,370, 90th percentile $134,500, based on BLS May 2025 data.',
 	},
+	{
+		slug: 'how-to-become-a-school-counselor',
+		category: 'How to Become',
+		title: 'How to Become a School Counselor: Degree, Certification, and Pay',
+		description: "BLS says school and career counselors typically need a master's degree plus a state-issued credential. Median pay is $64,330 a year in May 2025.",
+		published: '2026-09-03',
+		updated: '2026-09-03',
+		socCode: '21-1012',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, nearly all states and D.C. require school counselors to hold a master's degree in school counseling or a related field, plus a state-issued credential that may be called a certification, a license, or an endorsement. Which exam that credential requires varies by state: many states use the Praxis School Counselor exam from ETS, but Texas instead requires its own Texas Examinations of Educator Standards (TExES) School Counselor exam. BLS reports a median annual wage of $64,330 in May 2025, with the bottom 10% earning less than $45,020 and the top 10% earning more than $104,770.",
+		sections: [
+			{
+				heading: "The degree BLS says you need, and what it covers",
+				body: [
+					"Per BLS, nearly all states and the District of Columbia require school counselors to hold a master's degree, typically in school counseling or a related field such as counseling or psychology. A bachelor's degree in any major is generally the entry requirement for these graduate programs; BLS notes the coursework covers skills such as fostering student development, running group and individual counseling sessions, working with parents and school staff, and using data to build and evaluate a school's counseling program. These master's programs typically require an internship as part of earning the degree.",
+					"Career counselors and advisors, the other half of this BLS occupational category, face a lighter typical bar: BLS says some employers prefer a master's degree focused on career development, but for career or academic advisor roles specifically, employers may instead accept a bachelor's degree plus relevant work experience. BLS does not name a single credentialing body for career counselors comparable to what applies to school counselors, and notes that only some states require licensure for this half of the occupation.",
+				],
+				image: {
+					src: '/images/school-counselor-path.svg',
+					alt: "Diagram showing the path to becoming a school counselor: a 4-year bachelor's degree, a master's degree in school counseling with a required internship, a state-issued credential and certification exam that varies by state, leading to a working school or career counselor earning a median of $64,330 a year per BLS.",
+				},
+			},
+			{
+				heading: 'The credentialing exam: Praxis in many states, but not in Texas',
+				body: [
+					"Per BLS, public school counselors must hold a state-issued credential to practice, which depending on the state may be called a certification, a license, or an endorsement; earning it typically requires the master's degree above, a supervised internship or practicum, and passing a test. BLS does not name a specific exam, directing candidates instead to their state's own licensing board or to CareerOneStop, a U.S. Department of Labor resource, for state-specific requirements.",
+					"In practice, many states use a Praxis exam from ETS, the School Counselor test (numbered 5422, which as of September 2022 replaced an earlier version numbered 5421); passing scores for it differ by state, with most states that use it setting the bar at 159, while Arkansas accepts as low as 146, Missouri sets 149, and Mississippi and Utah both require 153. Texas is a documented exception that skips the Praxis series entirely: its State Board for Educator Certification instead requires its own exam, the Texas Examinations of Educator Standards (TExES) School Counselor EC-12 test. Texas separately requires a 48-hour school-counseling master's degree from an accredited educator preparation program (Texas Administrative Code 239.20), a 100-hour supervised practicum, and two further 300-hour supervised internship placements; as of September 2023, following Senate Bill 798, Texas also no longer requires school counselor candidates to have prior classroom teaching experience, reversing a requirement some other states still carry. Because the credentialing exam and the supervised-hour minimums both vary this much between just two examples, confirming requirements with the specific state licensing board remains the reliable step, exactly as BLS and CareerOneStop both point candidates to do.",
+				],
+			},
+			{
+				heading: 'What school and career counselors actually do, and where the jobs are',
+				body: [
+					"BLS splits this occupation's day-to-day duties by setting. School counselors typically help students work through social or behavioral challenges, analyze attendance and academic data to spot problems early, evaluate student abilities through assessments and interviews, and coordinate with teachers and families on academic, career, and social planning; duties shift by grade level; BLS describes elementary counselors focusing on social and academic skill-building, middle school counselors easing the transition to high school, and high school counselors advising on college applications, financial aid, and job-search skills. Career counselors and advisors, the occupation's other half, typically use aptitude assessments to help clients evaluate skills and interests, guide decisions about which degree or credential to pursue, and teach job-search skills such as résumé writing and interviewing; BLS notes a subset called career coaches works specifically with people already in the workforce, while college advisors specialize in helping students choose majors and navigate one part of the college experience, such as financial aid or admissions.",
+					"School and career counselors and advisors held about 389,500 jobs in 2025, per BLS, with local elementary and secondary schools the single largest employer at 38% of the total; the rest of the field is spread across public and private colleges and universities, private K-12 schools, and other private educational services, none of which BLS reports as approaching that 38% share on its own.",
+				],
+			},
+			{
+				heading: "Pay, by setting, against other master's-level school careers on this site",
+				body: [
+					"BLS reports a median annual wage of $64,330 for school and career counselors and advisors in May 2025, or $30.93 an hour, above the $50,980 median for all occupations that year but below the $58,300 median it separately reports for the broader group of counselors, social workers, and other community and social service specialists this occupation belongs to. The bottom 10% of school and career counselors and advisors earned less than $45,020, and the top 10% earned more than $104,770.",
+					"By industry, BLS reports the highest median pay in local elementary and secondary schools, at $77,800, the same setting that employs 38% of the field; private elementary and secondary schools follow at $62,190, then public colleges and universities at $58,870, private colleges and universities at $58,720, and other private educational services at $57,480, the lowest of the five tracked settings. BLS projects 3% employment growth from 2025 to 2035, about as fast as the average for all occupations, adding an estimated 11,400 jobs to the 389,500 already employed, with about 27,800 openings projected each year on average, mostly from workers transferring to other occupations or leaving the labor force.",
+					"Against other education- and human-services careers this site tracks, the school counselor median sits within about $10 of [librarians](/how-to-become-a-librarian/) (whose most recently reported BLS median was $64,320, though for the May 2024 data year rather than May 2025), above [social workers](/how-to-become-a-social-worker/) at $61,330, an occupation whose overall median blends a bachelor's-level entry path with a master's-level clinical track, and well below [psychologists](/how-to-become-a-psychologist/) at $94,310, an occupation whose largest specialty by headcount typically requires a doctoral rather than a master's degree. BLS does not attribute these gaps to a specific cause; the comparison describes what each occupation's own BLS profile reports, not a claim that one credentialing path pays better than another for a given reader.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How long does it take to become a school counselor?',
+				answer: "There's no single BLS-published timeline. The path runs a 4-year undergraduate degree, then an open-ended stretch for the graduate program itself, since BLS doesn't pin down how long that runs. A hands-on training requirement comes before any state will sign off, adding further time; in Texas specifically, that means a roughly 100-hour practicum plus two more rounds of 300-hour fieldwork on top of the coursework.",
+			},
+			{
+				question: 'Do all states require the same exam to become a school counselor?',
+				answer: "No, and BLS is explicit that it won't name one: what a given state calls its credential differs, and so does the path to earning it, which is why candidates get pointed toward their own state board rather than a fixed national standard. Most states lean on ETS's version, currently the 5422, with a passing bar that shifts from one state to the next. Texas breaks from that pattern entirely, running its own EC-12 assessment through the agency that oversees its schools, instead of adopting the ETS test at all.",
+			},
+			{
+				question: 'Do school counselors need to have been a teacher first?',
+				answer: "It depends on the state, per BLS. Some jurisdictions still want to see a background in the classroom, or a teaching credential, before they'll certify someone. That expectation has been loosening, though: one concrete example is the change Texas made a few years back, dropping the old rule that tied school-counselor certification to having taught first.",
+			},
+			{
+				question: 'How much do school counselors make?',
+				answer: "The typical worker in this field clears just over $30 an hour, or somewhere in the low-to-mid $60,000s annually, per the latest BLS figures. That range stretches considerably at the edges, though: the lowest-paid tenth sits closer to $45,000, while the top tenth clears six figures. Where someone works shapes the paycheck too, and district-employed counselors in K-12 public schools tend to sit at the top of that spread.",
+			},
+			{
+				question: 'Is school counseling a growing career?',
+				answer: "BLS pegs the growth rate for this decade at roughly on pace with the broader labor market, translating into over eleven thousand additional positions layered onto the current workforce. Annual turnover adds a lot more openings than that net growth figure alone suggests, since most vacancies come from people retiring or moving into other lines of work rather than from newly created roles.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: School and Career Counselors and Advisors (accessed 2026-09-03 via proxied fetch, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/community-and-social-service/school-and-career-counselors.htm' },
+			{ label: 'ETS: Praxis School Counselor (5422) Study Companion, independent confirmation of the exam name, number, and its 2022 update from 5421', url: 'https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5422.pdf' },
+			{ label: 'Texas State Board of Education: April 2024 Committee on School Initiatives, Item 9, on the SBEC rule amending 19 TAC §239.20 (School Counselor Certificate) to implement Senate Bill 798, independent state-government confirmation that Texas certifies school counselors under its own state rule rather than the Praxis series', url: 'https://sboe.texas.gov/state-board-of-education/sboe-2024/sboe-2024-april/april-2024-committee-on-school-initiatives-item-9' },
+			{ label: 'Texas Legislature (capitol.texas.gov): official bill analysis for Senate Bill 798, 88th Regular Session (2023), whose Section 3 states the September 1, 2023 effective date for removing the teaching-experience requirement', url: 'https://capitol.texas.gov/tlodocs/88R/analysis/html/SB00798F.htm' },
+			{ label: 'CareerOneStop (U.S. Department of Labor): Certification Finder, the resource BLS itself directs candidates to for state-specific licensing requirements', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx' },
+			{ label: 'O*NET OnLine: 21-1012.00 Educational, Guidance, and Career Counselors and Advisors (independent corroboration of the SOC code and typical entry education)', url: 'https://www.onetonline.org/link/summary/21-1012.00' },
+		],
+		image: '/images/school-counselor-path.svg',
+		imageAlt: "Diagram showing the path to becoming a school counselor: a 4-year bachelor's degree, a master's degree in school counseling with a required internship, a state-issued credential and certification exam that varies by state, leading to a working school or career counselor earning a median of $64,330 a year per BLS.",
+	},
 ];
