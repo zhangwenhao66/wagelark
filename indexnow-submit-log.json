@@ -11,7 +11,8 @@
     "verified_status": "stale_not_indexed",
     "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
-    "verified_method": "bwt_url_inspection"
+    "verified_method": "bwt_url_inspection",
+    "last_submitted_date": "2026-09-03"
   },
   "https://wagelark.com/pharmacist-salary/": {
     "submitted_date": "2026-08-03",
@@ -19,7 +20,7 @@
     "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection",
-    "last_submitted_date": "2026-08-19"
+    "last_submitted_date": "2026-09-03"
   },
   "https://wagelark.com/physical-therapist-salary/": {
     "submitted_date": "2026-08-03",
@@ -74,12 +75,12 @@
     "note": "launch batch 10/10 (Salary Guide, colloquial-query type); Bing 202 / Yandex 202; Discovered but not crawled (Discovered on 03 Aug 2026)",
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
-    "last_submitted_date": "2026-08-12",
+    "last_submitted_date": "2026-09-03",
     "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/radiology-tech-salary/": {
     "submitted_date": "2026-08-03",
-    "last_submitted_date": "2026-08-21",
+    "last_submitted_date": "2026-09-03",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-25",
     "verified_method": "bwt_url_inspection",
@@ -97,7 +98,7 @@
   },
   "https://wagelark.com/nurse-practitioner-salary/": {
     "submitted_date": "2026-08-04",
-    "last_submitted_date": "2026-08-23",
+    "last_submitted_date": "2026-09-03",
     "verified_status": "stale_not_indexed",
     "note": "Discovered but not crawled, discovered 07 Aug 2026, age 16 days as of 08-23 check",
     "last_checked_date": "2026-08-23",
@@ -169,7 +170,7 @@
   },
   "https://wagelark.com/electrician-salary/": {
     "submitted_date": "2026-08-11",
-    "last_submitted_date": "2026-08-21",
+    "last_submitted_date": "2026-09-03",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-30",
     "verified_method": "bwt_url_inspection",
@@ -200,7 +201,7 @@
   },
   "https://wagelark.com/welder-salary/": {
     "submitted_date": "2026-08-13",
-    "last_submitted_date": "2026-08-27",
+    "last_submitted_date": "2026-09-03",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-09-01",
     "verified_method": "bwt_url_inspection"
