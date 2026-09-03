@@ -1697,3 +1697,6 @@
   "escalation": null
 }
 ```
+
+## 2026-09-03 CTR专项回滚（8/28 七页标题恢复为改写前原文）
+依据：`独立站/标题CTR改写方法论_20260903.md` 第二节 + `seo-geo-trinity/title_test.py evaluate --label wagelark-0828-bls-median`。8/28 改写后 4-6 天，7 页里 4 页曝光 -84%~-100%（radiology-tech-salary 50/天→0、flight-attendants 25→2、actuary 17→3、nurse-practitioner 25→2），3 页排名跌 >5 位（welder 7.6→14.5、electrician 10→15.4、flight-attendants 19.9→28.8），点击 2→0；同期 5 个未改的对照页（firefighter/mri-tech/ultrasound-tech/respiratory-therapist/physician-assistant）曝光持平或上涨。人类查询与机器式查询（AI 代理核对 BLS 数字的 "bls may 2023 … employment" 类）两类都掉，保留了 "BLS" 字样的两页也掉，判断为标题改动触发页面重评估、新站试用位被收回，不只是丢词。按协议"多项恶化指标同时命中"提前回滚：7 页 title 逐字恢复为 8/28 之前的字符串（commit 403c461 的原文），正文/description/数据不动（electrician 9/2 刷新的 May 2025 数据保留）。复核：`title_test.py evaluate --label wagelark-0903-rollback`，9/17 看 14 天数据。教训已写入方法论：新站改标题每批 ≤5 页、留对照、不删现有词面。

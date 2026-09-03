@@ -125,7 +125,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'actuary-salary',
 		category: 'Salary Guide',
-		title: 'Actuary Salary: $125,770 Median, Top Earners $206,430 (2026)',
+		title: 'Actuary Salary: BLS Wage Data by Percentile (2026)',
 		description: 'The median actuary salary is $125,770 a year per BLS. Top earners clear $206,430. Here is the full wage breakdown, by industry, and what drives it.',
 		published: '2026-08-03',
 		updated: '2026-08-03',
@@ -181,7 +181,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'pharmacist-salary',
 		category: 'Salary Guide',
-		title: 'Pharmacist Salary: $137,480 Median, Range by Industry (2026)',
+		title: 'Pharmacist Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS reports a $137,480 median pharmacist salary. See the full wage range by percentile and by industry, from retail pharmacy to hospitals.',
 		published: '2026-08-03',
 		updated: '2026-08-19',
@@ -583,7 +583,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'how-much-do-flight-attendants-make',
 		category: 'Salary Guide',
-		title: 'How Much Do Flight Attendants Make? $67,130 Median (BLS 2026)',
+		title: 'How Much Do Flight Attendants Make? BLS Data by Percentile',
 		description: 'The median flight attendant salary is $67,130 a year per BLS, but the range is enormous, from $34,030 to $138,040. Here is why, and what drives it.',
 		published: '2026-08-03',
 		updated: '2026-08-12',
@@ -640,7 +640,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'radiology-tech-salary',
 		category: 'Salary Guide',
-		title: 'Radiology Tech Salary: $77,660 Median & Full Range (2026 BLS)',
+		title: 'Radiology Tech Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median radiology tech salary at $77,660 a year. See the full wage range by percentile, by industry, and how the role differs from MRI techs.',
 		published: '2026-08-04',
 		updated: '2026-08-21',
@@ -786,7 +786,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'nurse-practitioner-salary',
 		category: 'Salary Guide',
-		title: 'Nurse Practitioner Salary: $129,210 Median, +40% Outlook (2026)',
+		title: 'Nurse Practitioner Salary: BLS Wage Data and Job Outlook (2026)',
 		description: 'BLS puts the median nurse practitioner salary at $129,210 a year, with 40% projected job growth through 2034, the fastest of any advanced practice nursing role it tracks.',
 		published: '2026-08-04',
 		updated: '2026-08-04',
@@ -1418,7 +1418,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'electrician-salary',
 		category: 'Salary Guide',
-		title: 'Electrician Salary: $63,190 Median, Range by Percentile (2026)',
+		title: 'Electrician Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median electrician salary at $63,190 a year, with 9% growth projected through 2035. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-11',
 		updated: '2026-09-02',
@@ -1713,7 +1713,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'welder-salary',
 		category: 'Salary Guide',
-		title: 'Welder Salary: $51,000 Median, Range by Percentile (2026)',
+		title: 'Welder Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median welder salary at $51,000 a year, with 2% growth projected through 2034. Here is the full wage range by percentile and by industry.',
 		published: '2026-08-13',
 		updated: '2026-08-27',
