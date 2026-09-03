@@ -4492,9 +4492,9 @@ export const guides: Guide[] = [
 		imageAlt: "Diagram showing the path to becoming a school counselor: a 4-year bachelor's degree, a master's degree in school counseling with a required internship, a state-issued credential and certification exam that varies by state, leading to a working school or career counselor earning a median of $64,330 a year per BLS.",
 	},
 	{
-		slug: 'home-health-aide-job-description',
+		slug: 'what-does-a-home-health-aide-do',
 		category: 'Career Guide',
-		title: 'Home Health Aide Job Description: Duties, Pay, and BLS Outlook',
+		title: 'What Does a Home Health Aide Do? Duties, Pay, and BLS Outlook',
 		description: 'BLS lists the daily duties, entry requirements, and industry pay for home health and personal care aides, an occupation projected to grow 18% through 2035.',
 		published: '2026-09-03',
 		updated: '2026-09-03',
@@ -4508,7 +4508,7 @@ export const guides: Guide[] = [
 					'BLS splits the occupation\'s title into two roles with different scopes. Home health aides may provide basic health-related services depending on the state in which they work, such as checking a client\'s pulse, temperature, and respiration rate, helping with simple prescribed exercises, giving medications, and occasionally changing bandages or dressings, giving massages, or helping with braces and artificial limbs. With special training, BLS notes, experienced home health aides may also help with medical equipment such as ventilators. Personal care aides, sometimes called caregivers or personal attendants, are generally limited to nonmedical services such as companionship, cleaning, cooking, and driving; some specialize in working with clients who have developmental or intellectual disabilities, helping create a behavior plan and teaching self-care skills such as laundry or cooking. BLS states that aides in both roles are typically supervised by medical practitioners, usually nurses, keep records on the client\'s condition and services received, and report changes in that condition to a supervisor or case manager.',
 				],
 				image: {
-					src: '/images/home-health-aide-job-description.svg',
+					src: '/images/what-does-a-home-health-aide-do.svg',
 					alt: 'Diagram showing four duties of a home health aide per BLS: assist with daily personal tasks like bathing and dressing, support with housekeeping and meals, monitor vital signs under a nurse\'s direction, and coordinate appointments and social engagement.',
 				},
 			},
@@ -4562,7 +4562,7 @@ export const guides: Guide[] = [
 			{ label: 'BLS Occupational Outlook Handbook: Home Health and Personal Care Aides (accessed 2026-09-03 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm' },
 			{ label: 'O*NET OnLine: 31-1121.00 Home Health Aides (the detailed occupation code O*NET tracks separately; BLS combines it with Personal Care Aides, 31-1122, under 31-1120 for OOH/OEWS wage and employment reporting)', url: 'https://www.onetonline.org/link/summary/31-1121.00' },
 		],
-		image: '/images/home-health-aide-job-description.svg',
+		image: '/images/what-does-a-home-health-aide-do.svg',
 		imageAlt: 'Diagram showing four duties of a home health aide per BLS: assist with daily personal tasks like bathing and dressing, support with housekeeping and meals, monitor vital signs under a nurse\'s direction, and coordinate appointments and social engagement.',
 	},
 ];
