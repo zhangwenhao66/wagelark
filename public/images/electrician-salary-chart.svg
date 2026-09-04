@@ -3,12 +3,12 @@
 	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Electricians: Annual Wage by Percentile</text>
 	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
 	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="56" width="149.32448622246798" height="34" fill="#0f8b7f" />
-	<text x="309.32448622246798" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$42,640</text>
+	<rect x="150" y="56" width="149.32448622246795" height="34" fill="#0f8b7f" />
+	<text x="309.32448622246795" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$42,640</text>
 	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
 	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="116" width="221.29020366786472" height="34" fill="#0f8b7f" />
-	<text x="381.29020366786472" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$63,190</text>
+	<text x="381.2902036678647" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$63,190</text>
 	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
 	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />

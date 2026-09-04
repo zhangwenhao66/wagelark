@@ -1095,41 +1095,41 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"47-2111": {
 		socCode: "47-2111",
 		title: "Electricians",
-		medianAnnual: 62350,
-		medianHourly: 29.98,
+		medianAnnual: 63190,
+		medianHourly: 30.38,
 		percentiles: {
-			p10: 39430,
-			p90: 106030
+			p10: 42640,
+			p90: 108510
 		},
-		employment: 818700,
-		employmentYear: "2024",
+		employment: 821000,
+		employmentYear: "2025",
 		jobOutlookPct: 9,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 77400,
-		projectionPeriod: "2024-34",
+		employmentChange: 75900,
+		projectionPeriod: "2025-35",
 		entryEducation: "High school diploma or equivalent",
 		industryWages: [
 			{
 				industry: "Government, excluding state and local education and hospitals",
-				annualWage: 77080
+				annualWage: 79820
 			},
 			{
 				industry: "Manufacturing",
-				annualWage: 71820
+				annualWage: 74550
 			},
 			{
 				industry: "Electrical contractors and other wiring installation contractors",
-				annualWage: 61290
+				annualWage: 61570
 			},
 			{
 				industry: "Employment services",
-				annualWage: 57490
+				annualWage: 57760
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Electricians",
 		sourceUrl: "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-09-04"
 	},
 	"33-2011": {
 		socCode: "33-2011",

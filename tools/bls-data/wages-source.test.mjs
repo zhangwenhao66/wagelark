@@ -357,25 +357,24 @@ test('spot check: Respiratory Therapists (29-1126) matches BLS OOH page', () => 
 	assert.equal(occ.industryWages.length, 3);
 });
 
-// Numbers below transcribed by hand on 2026-08-11 from a live fetch of
-// bls.gov/ooh/construction-and-extraction/electricians.htm via the r.jina.ai
-// reader proxy (direct curl returns Akamai 403, same pattern as prior spot
-// checks; the reader's raw-HTML mode also surfaced the page's own "Last
-// modified date: August 28, 2025" footer, matching the same data-freshness
-// date as every other spot check in this file). Independent of
-// wages-source.json's own numbers -- do not derive these from the source file.
-// This is an independent OOH page (not a merged profile with another
-// occupation), so all fields including percentiles and industryWages are
-// specific to Electricians (47-2111).
+// Numbers below transcribed by hand on 2026-09-04 from a direct curl fetch of
+// bls.gov/ooh/construction-and-extraction/electricians.htm (200 OK, no proxy
+// needed this time). Page shows "2025 Median Pay" quick facts and "Number of
+// Jobs, 2025" / "Job Outlook, 2025-35", i.e. BLS has rolled the page forward
+// to May 2025 data since the 2026-08-11 spot check below was transcribed.
+// Independent of wages-source.json's own numbers -- do not derive these from
+// the source file. This is an independent OOH page (not a merged profile with
+// another occupation), so all fields including percentiles and industryWages
+// are specific to Electricians (47-2111).
 test('spot check: Electricians (47-2111) matches BLS OOH page', () => {
 	const occ = occupations['47-2111'];
-	assert.equal(occ.medianAnnual, 62350);
-	assert.equal(occ.medianHourly, 29.98);
-	assert.equal(occ.percentiles.p10, 39430);
-	assert.equal(occ.percentiles.p90, 106030);
-	assert.equal(occ.employment, 818700);
+	assert.equal(occ.medianAnnual, 63190);
+	assert.equal(occ.medianHourly, 30.38);
+	assert.equal(occ.percentiles.p10, 42640);
+	assert.equal(occ.percentiles.p90, 108510);
+	assert.equal(occ.employment, 821000);
 	assert.equal(occ.jobOutlookPct, 9);
-	assert.equal(occ.employmentChange, 77400);
+	assert.equal(occ.employmentChange, 75900);
 	assert.equal(occ.industryWages.length, 4);
 });
 
