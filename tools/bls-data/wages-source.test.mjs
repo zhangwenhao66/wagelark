@@ -1096,3 +1096,26 @@ test('spot check: Home Health and Personal Care Aides (31-1120) matches BLS OOH 
 	assert.equal(occ.industryWages[3].industry, 'Individual and family services');
 	assert.equal(occ.industryWages[3].annualWage, 34900);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-09-04 (last modified
+// August 27, 2026, carrying May 2025 data). The OOH page combines Occupational
+// Therapy Assistants and Aides under one narrative but publishes separate
+// SOC-level median/percentile/industry figures for each; this entry uses the
+// Occupational Therapy Assistants (31-2011) split only, not the blended
+// family-level (31-2010) header figure of $70,800/$34.04. Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+test('spot check: Occupational Therapy Assistants (31-2011) matches BLS OOH page', () => {
+	const occ = occupations['31-2011'];
+	assert.equal(occ.medianAnnual, 72300);
+	assert.equal(occ.medianHourly, 34.76);
+	assert.deepEqual(occ.percentiles, { p10: 51490, p90: 89780 });
+	assert.equal(occ.employment, 52200);
+	assert.equal(occ.jobOutlookPct, 21);
+	assert.equal(occ.employmentChange, 11200);
+	assert.equal(occ.entryEducation, "Associate's degree");
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Home healthcare services');
+	assert.equal(occ.industryWages[0].annualWage, 77310);
+	assert.equal(occ.industryWages[4].industry, 'Educational services; state, local, and private');
+	assert.equal(occ.industryWages[4].annualWage, 60920);
+});

@@ -42,6 +42,49 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"31-2011": {
+		socCode: "31-2011",
+		title: "Occupational Therapy Assistants",
+		medianAnnual: 72300,
+		medianHourly: 34.76,
+		percentiles: {
+			p10: 51490,
+			p90: 89780
+		},
+		employment: 52200,
+		employmentYear: "2025",
+		jobOutlookPct: 21,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 11200,
+		projectionPeriod: "2025-35",
+		entryEducation: "Associate's degree",
+		industryWages: [
+			{
+				industry: "Home healthcare services",
+				annualWage: 77310
+			},
+			{
+				industry: "Nursing care facilities (skilled nursing facilities)",
+				annualWage: 76780
+			},
+			{
+				industry: "Offices of physical, occupational and speech therapists, and audiologists",
+				annualWage: 70740
+			},
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 67020
+			},
+			{
+				industry: "Educational services; state, local, and private",
+				annualWage: 60920
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Occupational Therapy Assistants and Aides",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/occupational-therapy-assistants-and-aides.htm",
+		publishedDate: "2026-08-27"
+	},
 	"31-1120": {
 		socCode: "31-1120",
 		title: "Home Health and Personal Care Aides",

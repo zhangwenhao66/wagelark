@@ -40,6 +40,7 @@ const CHARTS = {
 	'funeral-director-salary-chart': '39-4031',
 	'mri-tech-salary-chart': '29-2035',
 	'veterinarian-salary-chart': '29-1131',
+	'occupational-therapy-assistant-salary-chart': '31-2011',
 };
 
 const NAVY = '#14273f';

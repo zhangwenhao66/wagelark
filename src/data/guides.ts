@@ -4565,4 +4565,72 @@ export const guides: Guide[] = [
 		image: '/images/what-does-a-home-health-aide-do.svg',
 		imageAlt: 'Diagram showing four duties of a home health aide per BLS: assist with daily personal tasks like bathing and dressing, support with housekeeping and meals, monitor vital signs under a nurse\'s direction, and coordinate appointments and social engagement.',
 	},
+	{
+		slug: 'occupational-therapy-assistant-salary',
+		category: 'Salary Guide',
+		title: 'Occupational Therapy Assistant Salary, Per BLS',
+		description: 'BLS puts the median occupational therapy assistant salary at $72,300 a year, nearly double the $39,160 median it reports for aides on the same page.',
+		published: '2026-09-04',
+		updated: '2026-09-04',
+		socCode: '31-2011',
+		coreSummary: "The median annual wage for occupational therapy assistants was $72,300 in May 2025, according to the U.S. Bureau of Labor Statistics, or roughly $34.76 an hour. The bottom 10% earned less than $51,490 while the top 10% earned more than $89,780, a spread of about $38,290. BLS reports this figure on a combined page for 'Occupational Therapy Assistants and Aides,' but the two roles are paid very differently: occupational therapy aides, a separate, lower-training role on the same BLS page, had a May 2025 median of just $39,160. BLS projects 21% employment growth for occupational therapy assistants from 2025 to 2035, much faster than the roughly 3% average across all occupations, growing the occupation from 52,200 workers to an estimated 63,400.",
+		sections: [
+			{
+				heading: 'One BLS page, two very different paychecks',
+				body: [
+					"BLS tracks occupational therapy assistants under SOC code 31-2011, but publishes that data on a single Occupational Outlook Handbook page shared with a second, related occupation: occupational therapy aides (31-2012). The two titles sound close enough to blur together, and BLS's own combined header stat for the page, $70,800 a year, blends them into one number. Split apart, the gap is large: assistants earned a median of $72,300 in May 2025, while aides earned $39,160, a difference of $33,140. The bottom 10% of assistants still out-earned the median aide, at $51,490 versus $39,160.",
+					"The pay gap tracks a real difference in what the job requires. Per BLS, occupational therapy assistants typically need an associate's degree from an accredited occupational therapy assistant program and usually a state-issued license, working directly with clients on therapeutic exercises and skill-building under an occupational therapist's supervision. Occupational therapy aides typically need only a high school diploma or its equivalent and learn on the job, handling setup, scheduling, and other support tasks rather than delivering therapy themselves. BLS does not license aides the way it does assistants.",
+				],
+			},
+			{
+				heading: 'Pay by industry, and the associate\'s-degree ceiling next to a master\'s-degree role on this site',
+				body: [
+					"BLS breaks out May 2025 wages for occupational therapy assistants across five industry categories. Home healthcare services paid the highest median at $77,310, just ahead of nursing care facilities (skilled nursing facilities) at $76,780. Offices of physical, occupational and speech therapists, and audiologists, the outpatient-clinic setting, paid $70,740, followed by hospitals at $67,020. Educational services, meaning school-based work, paid the least of the five tracked categories at $60,920, a $16,390 gap between the highest- and lowest-paying settings BLS lists here.",
+					"Against [occupational therapists](/occupational-therapist-salary/), the credentialed role assistants work under, the pay gap is substantial: BLS puts the OT median at $98,340 (May 2024, the most recent year BLS has published for that page), about $26,040 above the assistant figure. That gap lines up with a real difference in schooling, a master's degree for OTs versus an associate's degree for assistants, roughly two additional years of graduate coursework. Against [dental hygienists](/dental-hygienist-salary/), another allied-health role this site tracks, the comparison cuts the other way: BLS reports a $94,260 median for dental hygienists, $21,960 above occupational therapy assistants, even though BLS lists an associate's degree as the typical entry-level education for both occupations, a fact this site's dental hygienist page does not itself spell out but that BLS states directly on its own dental hygienist handbook page. BLS does not explain on either page why two associate's-degree fields land so far apart in pay.",
+				],
+			},
+			{
+				heading: 'Licensing and the COTA credential',
+				body: [
+					"Per BLS, occupational therapy assistants typically complete an associate's degree from an accredited program, generally about two years of full-time study, though some bachelor's degree programs also exist. Licensure then usually requires that accredited program, a fieldwork component, and passing an exam; BLS notes some states add further requirements, such as a background check, and points readers to CareerOneStop for state-specific licensing board details rather than listing all fifty states' rules itself. Passing the exam is also what lets a graduate use the title Certified Occupational Therapy Assistant, or COTA, per BLS.",
+					"Occupational therapy aides, by contrast, are not described by BLS as needing a license at all; their entry path is a high school diploma or equivalent plus on-the-job training, with no accredited program, fieldwork, or exam involved.",
+				],
+			},
+			{
+				heading: 'Job outlook, and how it compares to the aide role sharing this BLS page',
+				body: [
+					"BLS projects 21% employment growth for occupational therapy assistants from 2025 to 2035, classified as much faster than the roughly 3% average across all occupations, adding an estimated 11,200 jobs to a 2025 workforce of 52,200. That rate runs well ahead of the 4% growth BLS projects for occupational therapy aides over the same decade, the lower-paid role on the same combined OOH page, and also outpaces the 20% BLS projects for the two occupations blended together. About 8,600 openings a year, on average, are projected for occupational therapy assistants and aides combined; BLS does not split that annual-openings figure between the two roles the way it splits pay and employment counts.",
+					"BLS attributes the broader demand for occupational therapy services to the healthcare needs of an aging population, a driver it also cites for [occupational therapists](/occupational-therapist-salary/) themselves, whose own 14% growth projection (from an earlier, May 2024 projection cycle) trails the assistant role's newer 21% figure. BLS does not attribute the difference between the two cycles' growth rates to a specific cause on either page.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median occupational therapy assistant salary?',
+				answer: "BLS pegs it at $72,300 for the year, translating to roughly $34.76 hourly. Pay ranges widely around that midpoint: the lowest tenth of earners cleared under $51,490, while the highest tenth climbed past $89,780.",
+			},
+			{
+				question: 'What is the difference between an occupational therapy assistant and an occupational therapy aide?',
+				answer: "Both show up on one shared BLS handbook entry, yet the two jobs land worlds apart on pay and schooling. Getting hired as an assistant means finishing an accredited associate's program and, in most cases, clearing a state licensing hurdle, work that translated to a $72,300 midpoint wage. Aides skip that credentialing path entirely, walking into the role with a diploma from high school and some hands-on coaching, and their pay reflects it at a $39,160 midpoint, roughly $33,140 lower.",
+			},
+			{
+				question: 'Which industry pays occupational therapy assistants the most?',
+				answer: "Home health agencies topped BLS's five-industry breakdown at $77,310, narrowly beating nursing homes offering skilled-level care at $76,780. Schools sat at the bottom of that ranking, paying $60,920.",
+			},
+			{
+				question: 'How does occupational therapy assistant pay compare to occupational therapists?',
+				answer: "The fully credentialed version of this role carries a $98,340 midpoint on BLS's most current figures, a $26,040 lead over assistants. Closing that pay gap generally requires finishing graduate school beyond the two-year credential an assistant position calls for.",
+			},
+			{
+				question: 'Is occupational therapy assistant a growing career?',
+				answer: "By BLS's count, yes: a projected 21% jump in headcount over 2025-35, dwarfing the roughly 3% pace expected economy-wide, growing the field from a current headcount around 52,200 to roughly 63,400 by the mid-2030s. Aides working the counterpart role on the same handbook page are set to expand at a far slower clip, just 4% over that stretch.",
+			},
+		],
+		sources: [
+			{ label: "BLS Occupational Outlook Handbook: Occupational Therapy Assistants and Aides (accessed 2026-09-04 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)", url: 'https://www.bls.gov/ooh/healthcare/occupational-therapy-assistants-and-aides.htm' },
+			{ label: 'O*NET OnLine: 31-2011.00 Occupational Therapy Assistants (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/31-2011.00' },
+		],
+		image: '/images/occupational-therapy-assistant-salary-chart.svg',
+		imageAlt: 'Bar chart showing occupational therapy assistant annual wage by percentile: 10th percentile $51,490, median $72,300, 90th percentile $89,780, based on BLS May 2025 data.',
+	},
 ];
