@@ -147,6 +147,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/occupational-therapy-assistant-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/optometrist-salary-chart.svg": {
   "h": 240,
   "w": 640
@@ -215,6 +219,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 420,
   "w": 640
  },
+ "/images/school-counselor-path.svg": {
+  "h": 460,
+  "w": 640
+ },
  "/images/social-worker-path.svg": {
   "h": 460,
   "w": 640
@@ -253,6 +261,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/welder-salary-chart.svg": {
   "h": 240,
+  "w": 640
+ },
+ "/images/what-does-a-home-health-aide-do.svg": {
+  "h": 220,
   "w": 640
  }
 };
