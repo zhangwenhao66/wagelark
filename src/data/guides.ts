@@ -3800,7 +3800,7 @@ export const guides: Guide[] = [
 		title: 'Ultrasound Tech Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median ultrasound tech salary at $89,340 a year, with 13% growth projected through 2034. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-27',
-		updated: '2026-08-27',
+		updated: '2026-09-09',
 		socCode: '29-2032',
 		coreSummary: 'The median annual wage for diagnostic medical sonographers, commonly called ultrasound techs, was $89,340 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $64,760 while the top 10% earned more than $123,170, a spread of roughly $58,410. BLS projects 13% employment growth from 2024 to 2034, much faster than average, adding an estimated 11,700 jobs.',
 		sections: [
@@ -3855,10 +3855,15 @@ export const guides: Guide[] = [
 				question: 'Is ultrasound tech a growing field?',
 				answer: 'BLS projects 13% employment growth for diagnostic medical sonographers from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 11,700 jobs and about 5,800 openings a year on average.',
 			},
+			{
+				question: 'How much does a cardiac sonographer make?',
+				answer: "BLS does not report a separate median for cardiac sonographers. The Handbook treats cardiac work as one specialty inside the broader occupation covered above, so the $89,340 figure applies whether someone scans the heart, the abdomen, or the vascular system. ARDMS does credential the cardiac specialty on its own, as the Registered Diagnostic Cardiac Sonographer (RDCS), most often earned through its Adult Echocardiography exam, but that credentialing distinction does not carry through into a separate BLS pay number.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
 			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (comparison figure for radiologic technologists and technicians, SOC 29-2034, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
+			{ label: 'ARDMS: Registered Diagnostic Cardiac Sonographer (RDCS), Adult Echocardiography credential page (independently confirmed, not a BLS-sourced detail, used only for the credential name in the FAQ above)', url: 'https://www.ardms.org/get-certified/rdcs/adult-echocardiography/' },
 		],
 		image: '/images/ultrasound-tech-salary-chart.svg',
 		imageAlt: 'Bar chart showing diagnostic medical sonographer (ultrasound tech) annual wage by percentile: 10th percentile $64,760, median $89,340, 90th percentile $123,170, based on BLS May 2024 data.',
