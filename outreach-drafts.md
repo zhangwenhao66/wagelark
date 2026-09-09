@@ -845,4 +845,51 @@ contact@wagelark.com
 
 **收件人**：submissions@realclearpolicy.com
 
+---
+
+## 2026-09-09 — Broken link pitch: ASCLS-ND Links page (five dead regional-chapter links)
+
+- Target page: https://www.asclsnd.org/links (American Society for Clinical Laboratory Science — North Dakota chapter, "Links" page, a "Region Links" section listing every ASCLS regional chapter's own website).
+- Discovery path: WebSearch for clinical-lab-science student/professional association resource pages (continuing the historically highest-hit-rate direction: state/regional chapter "useful links" pages, same pattern as CSRT/FANA/NALA/ACRA). `broken_link_scan.py` flagged 14 DEAD links on this one page; most (thomas.loc.gov, aafp.org, house.gov/MemberWWW.html, oig.hhs.gov, gpoaccess.gov, healthtalk.com, etotallab.com, mt.advanceweb.com) are unrelated general-interest/government links with no topical connection to clinical lab science and were not pitched.
+- Five links are genuine ASCLS regional-chapter sites that have gone dark, confirmed independently past the scanner (two separate DoH resolvers, Google `dns.google` and Cloudflare `cloudflare-dns.com`, both returning Status 3/NXDOMAIN for every domain below, checked 2026-09-09):
+  - ASCLS Region I — asclsregioni.org
+  - ASCLS Region II — asclsregion2.org
+  - ASCLS Region IV (Missouri Society, MSCLS) — mscls.org
+  - ASCLS Region VIII — asclsregionviii.org
+  - ASCLS Region IX — linked on the page as `asclsr9.orgg` (an apparent typo, extra "g"); checked the correctly spelled `asclsr9.org` too and that is also NXDOMAIN, so this isn't just a typo masking a live site.
+- Content match: WageLark published `clinical-laboratory-technologist-salary` today (2026-09-09), zero prior outreach anywhere in the matrix — this run's cold-start pick per the new-article-priority rule. Same occupation family as the dead page's subject matter (clinical laboratory science professional associations), not a stretch match.
+- Numbers checked against `src/data/guides.ts` `clinical-laboratory-technologist-salary` entry and against the live page: median $62,930/yr, 10th percentile $38,910, 90th percentile $100,990 (May 2025 BLS OEWS, SOC 29-2011). Confirmed live at https://wagelark.com/clinical-laboratory-technologist-salary/ (curl 200, figures match exactly).
+- Dedup: `gmail_send.py list --query "to:asclsnd@gmail.com"` returned `[]`. `grep -ril "asclsnd\|asclsregion\|mscls.org"` across every `.md`/`.json` file under `独立站/` (both seo-geo-trinity's four sites and the 10-site traffic matrix) returned no hits outside this file. No prior contact with this organization or any of the five dead domains anywhere in the matrix.
+- Contact used: asclsnd@gmail.com (ASCLS-ND's own listed contact email at the bottom of the Links page, plain-text `mailto:` link, not obfuscated — a chapter-level general contact, not a personal, legal, privacy, or ad-sales address).
+- Passed Skill(humanizer) and Skill(avoid-ai-writing) unmodified: zero em/en dashes, no AI-vocabulary hits, no rule-of-three padding, no template closing line (varied wording, not "No obligation either way").
+
+**Draft email:**
+
+Subject: Five dead regional-chapter links on your Links page
+
+Hi,
+
+I was going through the Links page on asclsnd.org (asclsnd.org/links) and found five regional-chapter links under the ASCLS Region section that no longer resolve. I checked each one against two independent DNS resolvers (Google and Cloudflare) on September 9, 2026, and all five come back NXDOMAIN, not just a slow or blocked server:
+
+Region I (asclsregioni.org)
+Region II (asclsregion2.org)
+Region IV / MSCLS (mscls.org)
+Region VIII (asclsregionviii.org)
+Region IX (listed as asclsr9.orgg, which looks like a typo, but the correctly spelled asclsr9.org is also gone)
+
+I run wagelark.com, a reference site built on BLS occupational wage data. There's a page on clinical laboratory technologist pay with the current numbers: median $62,930 a year as of May 2025, the percentile spread from $38,910 to $100,990, and a breakdown by industry. Not a replacement for the regional-chapter links themselves, just mentioning it in case it fits somewhere on that page while you're updating the section:
+
+https://wagelark.com/clinical-laboratory-technologist-salary/
+
+Happy to send over the DNS lookups if that's useful for tracking down which chapters are still active under a different domain.
+
+Owen Zhang
+contact@wagelark.com
+
+**独立复核结果：内容层面 VERDICT: SEND**——独立复核agent（全新上下文）逐项独立核实：dedup（`gmail_send.py list --query "to:asclsnd@gmail.com"`返回空，跨矩阵grep无历史接触）、断链真实性（自行对5个域名分别查询dns.google和cloudflare-dns.com两个独立DoH解析器，均返回Status:3/NXDOMAIN，并独立curl `asclsnd.org/links`确认5个域名字面出现在页面的Region Links区块，包括`asclsr9.orgg`拼写错误的字面复现）、替换内容真实性（curl确认`wagelark.com/clinical-laboratory-technologist-salary/`200且三个数字逐字出现，`guides.ts`确认`published`/`updated`均为2026-09-09）、语气（判定为具体的一次性邮件而非模板）、去AI味（重新审视文本，零em/en dash、零AI高频词、零翻案句、零模板收尾句）、专用邮箱红线（asclsnd@gmail.com确认为该分会公开总台联系邮箱，非法务/隐私/广告专用）。
+
+**但复核agent同时发现一个内容之外的阻断因素并判定 VERDICT: DO NOT SEND（原因是基础设施冻结，非内容问题）**：复核agent读到`独立站/邮件发信基础设施迁移_AWS_SES_20260907.md`（2026-09-09当天更新）后指出，截至本轮运行，14个矩阵域名的Gmail「Send mail as」SMTP中继仍未从Mailjet切换到SES（该步骤是【Owen】待办，尚未完成），而Mailjet已明确告知Owen不同意继续用同一账号代发这14个域名的邮件。也就是说此刻调用`gmail_send.py --from wagelark send`实际路径仍会走Mailjet中继，存在被Mailjet判定违规、影响全矩阵14个域名发信能力的风险。核查`独立站/待Owen处理事项.md`确认这不是本轮新发现——`trafficsite-directory-media-outreach`任务已于**同一天（2026-09-09）**先行发现并记录了这个矩阵级冻结（"SES迁移期间，14个域名contact@别名的邮件发送暂停执行，直到Owen完成切换"一节），本轮判断与其一致，遵循同一原则：审慎起见暂停实际发送，直到Owen完成SES sandbox解除+Gmail SMTP切换，或Owen明确表示接受继续走Mailjet的风险。
+
+**Status: `drafted_blocked_by_ses_migration`**——内容已通过独立复核，随时可发，仅等待Owen完成SES迁移（或明确指示继续走Mailjet）。不重复写入`待Owen处理事项.md`，因为该文档已有覆盖全矩阵14域名的同一条目，本站不需要单独重复记录。
+
 **Status: `drafted_blocked_by_ses_migration`。** 未调用`gmail_send.py send`（本次运行邮件发送硬性暂停，见任务说明）。草稿完整存档于此，供SES迁移完成后下一轮直接发送，或Owen手动发送。

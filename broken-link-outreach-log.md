@@ -365,3 +365,62 @@ govst.edu pitch spawn独立复核agent（全新上下文），逐项核实：重
 2. ACC（`ls-instruction@austincc.edu`）下轮优先核实，同批次的HCC已在本轮处理完毕。
 3. air-traffic-controller/chef/millwright/CEO/lineman/bartender/psychologist方向本轮同样未系统排查（时间优先给了govst.edu这条更高置信度的线索+目标池/竞品缺口两条常规步骤），继续留到下轮。
 4. 外链目标池（salaryexplorer.com快照）对WageLark暂不可用，是国际薪资对比类内容和美国BLS定位的方向性不匹配，不是快照过期问题，重新生成快照大概率不会改善，除非未来更换对标域名。
+
+---
+
+## 2026-09-09（第九次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中WageLark（11-30位曝光350，矩阵第二名）
+
+### 第0步：核实08-21批次剩余一条（ACC，本轮首次轮到，19天未验证）
+
+通读全文逐条核对后确认：ACC（`ls-instruction@austincc.edu`，Message ID `1a024dfb43b56a68`，2026-08-21发出，本轮距今19天）是全文里唯一从未标注过`verified_*`/`not_replaced`结果的最早一条已发送记录（08-16批次三条、08-21 UCF/HCC两条均已验证；08-24 ACRA/NCC、08-26 fana.org、08-31 Simmons/LIU/Harper/MSU、09-02 govst.edu均已发出但更晚，且未满足"最早"条件）。
+
+- curl访问 `https://researchguides.austincc.edu/accounting/careers`：HTTP 200，页面内容原样，`aicpa.org/career/jobboards.html`与`aicpa.org/content/aicpa`两条死链仍挂在页面上，无`wagelark`字样。
+- `dataforseo_query.py backlinks wagelark.com --limit 100`（全量拉取，当前共8条外链）：完整列表里无`austincc.edu`。
+- `gmail_send.py list --query "from:ls-instruction@austincc.edu"`返回空，零回复。
+- 判定：**`not_replaced`**。发出已19天，早已超过10-14天跟进窗口（该批次上一轮HCC在12天时跟进过，ACC本该在同一窗口跟进但因"本轮未轮到"被拖到19天才核实），跟进窗口已过，如实记录为**未跟进**（跟进价值随时间衰减，19天后补发跟进容易显得突兀），不再补发。标记 **`not_replaced`（跟进窗口已过，未跟进）**。
+
+### 第1-1.8步：新断链机会
+
+**外链目标池**：延续08-31/09-02已确认的结论，未重新核查（`独立站/外链目标池.md`对标salaryexplorer.com的候选是国际薪资对比类博客/移民站，跟WageLark的美国BLS定位方向性不匹配，非快照过期问题）。
+
+**竞品外链缺口分析**：`dataforseo_query.py backlinks careerexplorer.com --limit 150`重新抽样，结果与08-21/08-24已核查的域名高度重合（sokanu.com遗留链接、fieldengineer.com、virtualedge.org均已判定不可用），未发现新的.edu/.gov/协会类候选。
+
+**从业者/州级协会资源页方向**（延续CSRT/FANA/NALA/ACRA历史命中率最高的模式）：本轮针对此前未系统排查的职业方向做WebSearch，覆盖clinical laboratory science、school counselor、MRI technologist、radiation therapist、optometry、psychology、millwright、bartending等此前遗留待办里点名的方向。收集10个候选资源页跑`broken_link_scan.py`，逐条核实：
+
+- Ferris State University核医学/验光技术LibGuide两处DEAD均为该校自己导航栏"Academic Literacies Center"模板链接，非内容资源，不采用。
+- Huddersfield大学验光LibGuide一条DEAD（`optical.org`学生指导页）主题是英国监管机构学生指南非薪资数据，且为英国站点跟WageLark美国BLS定位不对应，不采用。
+- NJSCA（新泽西学校辅导员协会）资源页9条DEAD，逐条核实主题均为心理健康/自杀预防/学生关怀类PDF资源，非职业薪资/介绍类内容，跟`how-to-become-a-school-counselor`不对应，不采用。
+- Morehead State University影像科学LibGuide一条DEAD（`kbmirt.ky.gov`肯塔基州放射影像执照页）——`dig`本机解析超时，但curl访问返回403（非404/非DNS不存在），判定为WAF/沙箱访问受阻的疑似假阳性而非确认失效，按"只处理真实确认失效"的硬性原则不采用。
+- Millwright Employers Association、USBG（美国调酒师协会）resources页均查出DEAD，但均为该组织自己的分支机构/基金会介绍页（`usbgfoundation.org`），跟"死链主题需与本站薪资/职业介绍内容对应"的要求不符，不采用。
+- 心理学方向多所大学LibGuide（LMU/Marshall/Worcester/DePaul）里仅Marshall查出2条DEAD，均为该校图书馆自己的过期表单/协会遗留链接，非可置换的外部薪资资源，不采用。
+
+**真实确认失效+主题对应+目标页有权威度的机会，共1条：**
+
+**ASCLS-ND（American Society for Clinical Laboratory Science — North Dakota分会）Links页面，"Region Links"区块**
+- 目标页：https://www.asclsnd.org/links
+- 死链（5条，均为ASCLS各地区分会自己的官网，非WAF/沙箱假阳性——用两个独立DoH解析器`dns.google`和`cloudflare-dns.com`交叉验证，全部返回Status:3/NXDOMAIN）：Region I（asclsregioni.org）、Region II（asclsregion2.org）、Region IV/MSCLS（mscls.org）、Region VIII（asclsregionviii.org）、Region IX（页面写成`asclsr9.orgg`疑似拼写错误，但改用正确拼写`asclsr9.org`同样NXDOMAIN，并非仅仅是打字错误掩盖了一个存活站点）
+- 替换内容：`clinical-laboratory-technologist-salary`（2026-09-09发布，零历史外链接触，本轮冷启动名额）。median $62,930/yr（SOC 29-2011, May 2025 BLS），与`guides.ts`及线上页面逐字一致
+- 联系邮箱：asclsnd@gmail.com（页面底部明文`mailto:`公开总台邮箱，非混淆编码，非法务/隐私/广告专用）
+- 查重：`gmail_send.py list --query "to:asclsnd@gmail.com"`返回空；`grep -ril "asclsnd\|asclsregion\|mscls.org"`遍历`独立站/`全部`.md`/`.json`文件（trinity四站+流量站矩阵十站）仅命中本文件自己，无既往联系
+- 已过Skill(humanizer)+Skill(avoid-ai-writing)：零em/en dash、零AI高频词、零翻案句、未使用"No obligation either way"模板收尾句
+
+### 独立复核
+
+spawn独立复核agent（全新上下文），逐项核实：dedup（跨矩阵grep+`gmail_send.py list`均独立复跑，结果干净）、5个域名断链真实性（独立重新查询两个DoH解析器，均复现Status:3/NXDOMAIN；独立curl `asclsnd.org/links`复现5个域名字面出现在页面Region Links区块，含`asclsr9.orgg`拼写错误原样复现）、替换内容真实性（独立curl确认`wagelark.com/clinical-laboratory-technologist-salary/`200且三个数字逐字出现，`guides.ts`确认发布日期2026-09-09）、语气/去AI味（重新审视文本，判定为具体一次性邮件，零AI写作特征）、专用邮箱红线（确认asclsnd@gmail.com为分会公开总台联系邮箱）。**内容层面结论：SEND**，无阻断性内容问题。
+
+**但复核agent额外读取了`独立站/邮件发信基础设施迁移_AWS_SES_20260907.md`（2026-09-09当天更新）后指出一个内容之外的阻断因素**：截至本轮，14个矩阵域名的Gmail「Send mail as」SMTP中继仍未从Mailjet切换到SES（Owen尚未完成该步骤），而Mailjet已明确告知Owen不同意继续用同一账号代发这14个域名的邮件——此刻调用`gmail_send.py --from wagelark send`实际路径仍会走Mailjet中继，存在被Mailjet判定违规、波及全矩阵14个域名发信能力的风险。核查`独立站/待Owen处理事项.md`确认这不是本轮孤立发现——`trafficsite-directory-media-outreach`任务已于**同一天**先行发现并记录了这个矩阵级冻结（该文档"SES迁移期间，14个域名contact@别名的邮件发送暂停执行，直到Owen完成切换"一节），本轮遵循同一原则处理，不重复记录待办。**独立复核最终结论：内容SEND-worthy，但本轮暂停实际发送，等待Owen完成SES迁移或明确指示继续走Mailjet。**
+
+### 本轮处理结果
+
+**0封新邮件实际发出**（ASCLS-ND草稿已完成撰写+过双重检查+过独立复核，内容判定可发，但因矩阵级SES迁移冻结暂停执行，标记`drafted_blocked_by_ses_migration`，存档于`outreach-drafts.md`，一旦Owen完成迁移可直接发送无需重新复核，除非断链状态或文章数据发生变化）。
+
+**累计口径（不含本轮未发出的ASCLS-ND草稿）**：WageLark断链置换战术累计已发送 **16封**（含3封跟进：08-21 UCF、08-28 NALA、09-02 HCC）；已验证 **6条 `not_replaced`**（UCF/CSRT/NALA/ten27services/HCC/本轮ACC）；`verified_live_backlink_confirmed`/`verified_live_backlink_nofollow` 均为 **0条**；转化率 **0/16 = 0%**。转化率持续为0且已发送≥30封的红线尚未触及（16封），暂不需要写入待办文档，但已连续9轮0转化，下轮起应留意是否需要在遗留待办里提请Owen关注这个模式本身（断链置换战术对WageLark这个细分定位是否有效）。
+
+ACRA/NCC（08-24发出，16天）、fana.org（08-26发出，14天）、Simmons/LIU/Harper/MSU（08-31发出，9天，尚未满10天）均仍待核实，下轮按"最早未验证"顺序优先处理ACRA/NCC。
+
+### 遗留待办
+
+1. **ASCLS-ND草稿已就绪待发**：内容已通过完整独立复核，下轮（或Owen手动确认后）应优先检查SES迁移状态，一旦14域名SMTP切换完成，直接发送`outreach-drafts.md`里这份草稿，无需重新走复核（除非距今时间过长导致断链状态/文章数据需要重新核实）。
+2. 下轮核实顺序：ACRA/NCC（08-24，16天，已严重超期）→ fana.org（08-26，14天）→ Simmons/LIU/Harper/MSU（08-31，即将满10天）。
+3. 本轮新排查的方向（NJSCA心理健康类PDF、millwright/bartender协会基金会介绍页、心理学LibGuide过期表单）均因主题不对应或权威度不足未采用，如实记录不强凑；kbmirt.ky.gov因curl返回403（非确认失效）未采用，如果沙箱网络环境改善可重新核查。
+4. **转化率0/16持续9轮未转化**，尚未达到"发出≥30封仍0到手"的写待办门槛，但已是明显趋势，下轮或下下轮如果仍为0，应考虑在遗留待办里提请Owen关注WageLark这个战术方向本身的有效性，而不是仅仅继续增加发送量。
