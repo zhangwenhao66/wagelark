@@ -748,3 +748,101 @@ contact@wagelark.com
 **Independent review verdict: SEND.** Fresh-context review agent independently re-fetched the govst.edu page and reproduced the malformed-URL failure via `curl -v`, cross-checked the $161,700 figure against `guides.ts`, independently pulled O*NET's sample-job-titles list for SOC 11-3031.00 and confirmed "Finance Director" is not on it (validating the email's disclosed uncertainty rather than assuming it), confirmed `career@govst.edu` is GSU's real general Career Services inbox, re-ran the dedup queries itself (both empty/clean), and confirmed the email has no AI-writing tells and the required two-paragraph structure.
 
 **Status: 已发送。** `gmail_send.py send --from wagelark --to career@govst.edu`，Message ID `1a0624f7cfdf0d57`。
+
+---
+
+## 2026-09-09 (trafficsite-directory-media-outreach) — Task 0.8: GitHub apd-core PR draft (awesomedata/awesome-public-datasets)
+
+**渠道核实**：`awesomedata/awesome-public-datasets`（78,878 stars，`pushed_at` 2026-09-08，日均多次commit，非archived）——该README由子仓库`apd-core`按YAML meta文件自动生成，贡献流程是fork `apd-core`、在对应category目录下新增一个`.yml`文件、跑本地校验、提PR。核实其"Economics"分类已收录同类站点：`PayCrunch-Best-Paying-States.yml`（"PayCrunch Best-Paying States by Occupation"，BLS OEWS衍生数据站，直接CSV/JSON下载）与`US-Wage-Atlas.yml`（"US Wage Atlas"，同样BLS衍生CSV数据集）——两者结构与WageLark高度相似（同为独立运营者产出的BLS衍生数据集，非官方机构），确认本类目对这类站点接受度高。`apd-core`的CONTRIBUTING.md明确"high quality"判定标准包含"能直接下载、无需登录/付费"，WageLark的`highest-paying-jobs-without-a-degree.csv`（`https://wagelark.com/data/highest-paying-jobs-without-a-degree.csv`，已用curl核实HTTP 200、`content-type: text/csv`，无需登录）完全符合。
+
+**查重**：`grep -ril "awesome-job-seeking\|awesome list\|awesome-jobs\|awesome-career"` 全流量站矩阵`outreach-drafts.md`未命中除本站已知的`yuhonas/awesome-job-seeking`（PR#48，已于08-31合并生效为`verified_live_backlink_nofollow`）外的任何awesome-list条目，本次为全新渠道，不与已投递的PR重复。
+
+**草稿YML**（放入`apd-core`仓库`core/Economics/WageLark-Highest-Paying-No-Degree-Occupations.yml`）：
+
+```yaml
+---
+title: WageLark Highest-Paying Occupations Without a Bachelor's Degree
+homepage: https://wagelark.com/highest-paying-jobs-without-a-degree/
+category: Economics
+description: Every occupation WageLark tracks that does not require a bachelor's degree to enter, ranked by median annual wage (29 of the 47 occupations covered). Air traffic controllers lead at $144,580, ahead of most degree-requiring occupations in the same dataset. Each row carries the SOC code, entry-education level, 10th/median/90th percentile wages, projected job growth, and a source link to the specific BLS Occupational Outlook Handbook page the figure came from. Direct CSV download, no login or signup.
+keywords: wages, salaries, occupations, employment, labor, BLS, OEWS, OOH, United States, education requirements, entry-level
+license: Public Domain (BLS source data); site content CC BY 4.0
+access_level: public
+language: en
+issued_time: 2026.08
+sources:
+  - name: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics (OEWS), May 2024/May 2025 releases
+    access_url: https://www.bls.gov/oes/
+  - name: U.S. Bureau of Labor Statistics, Occupational Outlook Handbook (entry-education and job-outlook fields)
+    access_url: https://www.bls.gov/ooh/
+organization:
+  - name: WageLark
+    web: https://wagelark.com/
+```
+
+CSV第一列（`rank,occupation,soc_code,entry_education,median_annual_wage_usd,p10_annual_wage_usd,p90_annual_wage_usd,job_outlook_pct,bls_data_year,bls_source_url,wagelark_page`）与描述里"每行含SOC code/入行学历/百分位薪资/增长率/BLS来源链接"逐字核对一致，未编造字段。
+
+**状态：`drafted_not_submitted`**——按SKILL.md规则"只起草不要自己提PR"，未fork仓库、未创建分支、未提交PR。第二个候选仓库排查（`JovaniPink/awesome-economic-data`2 stars、`brandonhimpfen/awesome-economics`15 stars均近期活跃但未达star≥100门槛；`emredurukn/awesome-job-boards`1042 stars/近期活跃但定位是"job boards"目录非wage数据集，README中"salary"仅作为职位板功能描述出现，无同类站点先例，判定主题不匹配未采用）均未找到第二个合格新仓库，本轮只产出1个草稿（SKILL允许"最多2个"，非强制凑数）。
+
+---
+
+## 2026-09-09 (trafficsite-directory-media-outreach) — Task 1: NCDA "Internet Sites for Career Planning" 提交表单已填写核验，未点击提交（待Owen授权）
+
+**渠道核实**：National Career Development Association（NCDA，美国职业发展从业者专业协会）官方资源页 `https://ncda.org/resources/`（curl -L核实HTTP 200）明确列出面向career counselors/coaches的"Internet Sites for Career Planning"资源清单及开放提交入口，收录标准（免费、准确、专业、易导航、对client有用）全部与WageLark定位吻合。提交入口是真实在线表单（`https://associationdatabase.com/aws/NCDA/input_form/display_form_01_show?...form_no=50`），非邮件——用Browser pane打开并用`read_page`确认表单字段（资源标题/URL/2-3句描述/网站负责人/最后更新日期/更新频率/对从业者的用处/是否收费/建议分类/提交人姓名邮箱/关系/邮寄地址），非JS空壳。
+
+**已完成的核验**：确认表单包含Google invisible reCAPTCHA（`size=invisible`），尚未触发可见验证码挑战；未点击"Next >"或后续的最终提交按钮，未实际提交任何数据。
+
+**未提交的原因**：本次运行的安全准则明确"向表单填入个人信息/提交任何表单"属于需要在对话中获得Owen明确同意后才能执行的动作类别，而本次委托任务本身来自无人值守的编排层指令，不构成chat内的用户明确同意。据此判断本次不代为点击提交，仅完成调研+草稿，供Owen审阅后手动提交或明确授权后由后续会话代为提交。
+
+**草稿内容**（供提交时使用）：
+- Exact Title: WageLark
+- Website URL: https://wagelark.com
+- 2-3句描述: A free wage reference site built entirely from U.S. Bureau of Labor Statistics OEWS and Occupational Outlook Handbook data. Covers 10th/50th/90th percentile pay, entry-education requirements, and job outlook for dozens of occupations, plus a percentile tool that shows where a specific pay figure falls within an occupation's real range. No signup or login required.
+- Site sponsor/producer: WageLark (independently operated; not affiliated with BLS, any employer, staffing agency, or recruiter)
+- Date Last Updated: Rolling — new occupation guides added regularly (most recent: 2026-09, see wagelark.com)
+- Frequency of updates: Continuous content additions; wage data refreshed each year when BLS releases new OEWS figures (typically May/June)
+- Why useful: Gives career counselors and clients a fast, sourced way to check realistic pay ranges (not just a single median) and typical entry-education requirements for a specific occupation, without navigating BLS's own multi-page tables
+- Fees: No
+- Suggested placement: General Occupational Information
+- Name of person submitting: Owen Zhang
+- Email: contact@wagelark.com
+- Relationship to site: Creator / site operator
+- Mailing address: 待Owen填写（表单未标注此字段为必填，未在草稿里代填个人地址；如确认为必填字段，建议用WageLark的运营通讯地址而非个人住址）
+
+**needs_owen**：是。已在 `独立站/待Owen处理事项.md` 新增条目，说明表单URL、草稿内容、以及"需要Owen本人确认提交或明确授权后续会话代为提交"。
+
+---
+
+## 2026-09-09 (trafficsite-directory-media-outreach) — Task 2: RealClearPolicy op-ed 已起草，因SES迁移未发送
+
+**渠道核实**：`https://www.realclearpolicy.com/submissions.html`（curl --compressed核实HTTP 200，实际正文）："RealClearPolicy welcomes original submissions including op-eds, reporting, analysis, and commentary. Articles should be at least 600 words. Please submit pieces directly to submissions@realclearpolicy.com and indicate if the piece has been published elsewhere." 无身份门槛（不要求智库/学术/从业者背景），未找到AI撰写政策明确禁令（WebSearch核实RealClearPolicy/RealClear Media Group无公开AI内容政策）。查重：`grep -ril "realclearpolicy\|realclearmarkets"` 全矩阵未命中；`realclear`唯一命中是factcrumbs站08-04投给`submissions@realclearscience.com`（RealClear旗下另一独立品牌科学站，不同编辑部/不同邮箱/不同站点），不构成重复投递。
+
+**选题**：与已用角度（Task & Purpose的老兵入行窗口、Fast Company的"单一薪资中位数掩盖差异"、FedSmith的联邦vs民营pay split）均不重叠——本次角度是"免学位高薪职业"数据对"学位vs不学位"政策辩论的反驳：真正决定薪资溢价的变量是"入行门槛难度"（执照/学徒工时/联邦认证），不是"是否需要学士学位"；并加入执业资质跨州不可携带这一独立政策问题（电工/牙科保健师等）。数据全部复用已发布`highest-paying-jobs-without-a-degree.csv`中已核实的真实数字（空管员中位$144,580、MRI技师$95,480、牙科保健师$94,260、线路安装工$92,560），逐一比对CSV原始行，未编造任何新数字。
+
+约620词，已过`Skill(humanizer)`+`Skill(avoid-ai-writing)`审核并按两个技能的检测项修改：删除"It's not X. It's Y"式翻案句（原稿两处，均已改写为直接陈述）、去掉"a real, fundable policy lever"里的空心强化词"real"、去掉"worth naming"这类空心背书句式。核对全文零em/en dash、零弯引号。
+
+**完整草稿：**
+
+Subject: Submission: What "no degree required" actually pays, occupation by occupation
+
+The debate over whether we're pushing too many young people toward four-year degrees usually runs on averages. Bachelor's degree holders earn more than high school graduates, on average, so the policy conclusion writes itself: more degrees, more earnings. But the Bureau of Labor Statistics tracks pay by occupation, not by credential in the abstract, and that data tells a messier story than the average suggests.
+
+I run WageLark, a wage reference site built entirely on BLS occupational data. Pulling together every occupation we track that doesn't require a bachelor's degree to enter, air traffic controllers top the list at a median $144,580 a year, ahead of most jobs that do require one. Magnetic resonance imaging technologists median $95,480. Dental hygienists median $94,260. Electrical power-line installers, who typically enter with only a high school diploma, median $92,560.
+
+None of these are outliers in the sense of one lucky occupation skewing a chart. They cluster around a specific structure: an entry gate that isn't a bachelor's degree, but isn't nothing either. Air traffic controllers go through an FAA-approved training program, extensive medical and background screening, and an age window that closes at 31 for new hires. Line installers serve a multi-year apprenticeship, typically several thousand hours of supervised work before they're earning journeyman wages. MRI technologists and dental hygienists both sit behind state licensure and an accredited program, usually two years, not four, but not open-enrollment either.
+
+Those gates also don't travel well across state lines, which is a separate policy problem from whether they exist at all. A dental hygienist licensed in one state generally can't just cross a border and start working in the next one; most states run their own exam and application process, and reciprocity agreements between states are patchy rather than universal. An electrician's journeyman card faces the same friction. So the same entry barrier that supports the wage premium also traps workers in the state where they trained, which matters if the policy goal is getting people into these occupations where the jobs actually are rather than where the licensing exam happened to be administered.
+
+That's the piece the "skip college, learn a trade" framing tends to leave out, and it matters for how policymakers should read this data. The pay is compensation for going through a different, narrower kind of credentialing than a four-year degree, one gated by licensing boards, apprenticeship hours, or federal certification instead of a university registrar. Expanding access to a two-year radiography program or an electrical apprenticeship is a fundable policy lever. Telling more eighteen-year-olds to "learn a trade" without funding more apprenticeship slots or accreditation seats is not the same thing, even though both get described the same way in the debate.
+
+The occupations on the other side of this comparison matter too, because they're the ones that actually fit the "no degree, no gate" story people imagine. Bookkeeping clerks, for instance, have no licensure requirement and no structured entry program, and BLS projects the occupation to shrink over the next decade as software absorbs the work. There's no wage premium building up behind an open door. The wage premium in the data we do have sits specifically behind doors that are hard, slow, or expensive to open, which is a different policy problem than "people aren't choosing trades."
+
+The variable that predicts this wage data, across both degree and non-degree paths, is how hard the entry gate is to get through, not which side of the bachelor's-degree line an occupation sits on. That's the chart to hand to people writing workforce legislation. Happy to share the full dataset (29 occupations, sourced line by line to BLS OEWS, May 2024/2025 releases) if useful for a piece.
+
+Owen Zhang
+WageLark (wagelark.com)
+contact@wagelark.com
+
+**收件人**：submissions@realclearpolicy.com
+
+**Status: `drafted_blocked_by_ses_migration`。** 未调用`gmail_send.py send`（本次运行邮件发送硬性暂停，见任务说明）。草稿完整存档于此，供SES迁移完成后下一轮直接发送，或Owen手动发送。
