@@ -41,6 +41,7 @@ const CHARTS = {
 	'mri-tech-salary-chart': '29-2035',
 	'veterinarian-salary-chart': '29-1131',
 	'occupational-therapy-assistant-salary-chart': '31-2011',
+	'clinical-laboratory-technologist-salary-chart': '29-2011',
 };
 
 const NAVY = '#14273f';

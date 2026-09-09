@@ -1118,3 +1118,22 @@ test('spot check: Occupational Therapy Assistants (31-2011) matches BLS OOH page
 	assert.equal(occ.industryWages[4].industry, 'Educational services; state, local, and private');
 	assert.equal(occ.industryWages[4].annualWage, 60920);
 });
+
+// Hand-transcribed from live bls.gov OOH page fetched via curl on 2026-09-09
+// (last modified August 27, 2026, carrying May 2025 data). Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+test('spot check: Clinical Laboratory Technologists and Technicians (29-2011) matches BLS OOH page', () => {
+	const occ = occupations['29-2011'];
+	assert.equal(occ.medianAnnual, 62930);
+	assert.equal(occ.medianHourly, 30.26);
+	assert.deepEqual(occ.percentiles, { p10: 38910, p90: 100990 });
+	assert.equal(occ.employment, 343000);
+	assert.equal(occ.jobOutlookPct, 3);
+	assert.equal(occ.employmentChange, 9400);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'General medical and surgical hospitals; private');
+	assert.equal(occ.industryWages[0].annualWage, 69190);
+	assert.equal(occ.industryWages[4].industry, 'Other ambulatory healthcare services');
+	assert.equal(occ.industryWages[4].annualWage, 48140);
+});

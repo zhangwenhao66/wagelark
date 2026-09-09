@@ -4633,4 +4633,74 @@ export const guides: Guide[] = [
 		image: '/images/occupational-therapy-assistant-salary-chart.svg',
 		imageAlt: 'Bar chart showing occupational therapy assistant annual wage by percentile: 10th percentile $51,490, median $72,300, 90th percentile $89,780, based on BLS May 2025 data.',
 	},
+	{
+		slug: 'clinical-laboratory-technologist-salary',
+		category: 'Salary Guide',
+		title: 'Clinical Laboratory Technologist Salary, Per BLS',
+		description: 'BLS puts the median clinical laboratory technologist salary at $62,930 a year, a figure it reports jointly with technicians on one combined handbook page.',
+		published: '2026-09-09',
+		updated: '2026-09-09',
+		socCode: '29-2011',
+		coreSummary: "The median annual wage for clinical laboratory technologists and technicians was $62,930 in May 2025, according to the U.S. Bureau of Labor Statistics, or $30.26 an hour. The bottom 10% earned less than $38,910 while the top 10% earned more than $100,990, a spread of about $62,080. BLS tracks this figure under one combined Occupational Outlook Handbook page covering two separate occupation codes: technologists (29-2011), who typically need a bachelor's degree, and technicians (29-2012), who can sometimes qualify with an associate's degree, without splitting pay between the two the way BLS does on its occupational therapy assistants and aides page. Employment stood at 343,000 in 2025, and BLS projects 3% growth from 2025 to 2035, about as fast as the average for all occupations.",
+		sections: [
+			{
+				heading: 'One handbook page, two occupation codes, and a wage BLS never splits',
+				body: [
+					"BLS profiles clinical laboratory technologists under SOC code 29-2011, but the Occupational Outlook Handbook page carrying that $62,930 median actually covers two distinct occupations at once: technologists, also called medical laboratory scientists, and clinical laboratory technicians (29-2012), also called medical laboratory technicians. Per BLS, both perform medical laboratory tests that diagnose, treat, and help prevent disease, testing body fluids such as blood, urine, and tissue samples on equipment ranging from microscopes to automated cell counters, then recording results into a patient's medical record and discussing findings with physicians. Where the two roles diverge is complexity and oversight: technologists handle the more complex manual tests and carry more quality-assurance responsibility, while technicians run more routine, often automated tests under a technologist's or lab manager's supervision.",
+					"That combined structure is worth flagging because [occupational therapy assistants](/occupational-therapy-assistant-salary/) sit on a similarly paired BLS page, yet BLS reports separate medians there ($72,300 for assistants versus $39,160 for aides). This page gives no such split between its own two roles, so a reader cannot tell from BLS's own numbers how much of the $62,930 figure sits above or below the median for a bachelor's-degree technologist versus an associate's-degree technician specifically.",
+				],
+			},
+			{
+				heading: 'Industry pay tops out at hospitals, though a less-schooled peer role earns still more',
+				body: [
+					"BLS breaks out May 2025 wages for this combined occupation across five industry categories. General medical and surgical hospitals paid the highest median at $69,190, ahead of educational services (state, local, and private) at $63,690. Medical and diagnostic laboratories, the setting many people associate most closely with this work, paid $58,320, followed by offices of physicians at $56,850. Other ambulatory healthcare services paid the least of the five tracked categories, at $48,140, a $21,050 gap between the highest- and lowest-paying settings BLS lists here.",
+					"Against [nuclear medicine technologists](/nuclear-medicine-technologist-salary/), another allied-health role this site tracks under a similar job title, the comparison runs opposite to what the degree requirements would suggest: BLS lists an associate's degree as the typical entry-level education for nuclear medicine technologists, one step below the bachelor's degree BLS lists for clinical laboratory technologists, yet nuclear medicine technologists carry a $101,370 median, $38,440 above this page's figure. BLS does not explain the gap on either page; it simply reports each occupation's typical education and pay side by side.",
+				],
+			},
+			{
+				heading: 'Certification, and where phlebotomy fits into the same pipeline',
+				body: [
+					"Per BLS, some states require laboratory personnel to be licensed or registered, with requirements varying by state and specialty; BLS points readers to CareerOneStop for state board details rather than listing every state's rules. Certification is not always mandatory to enter the field, but BLS notes employers may prefer certified hires, and individuals can earn credentials as either a medical laboratory scientist or medical laboratory technician after completing an accredited education program. Independently of BLS, the American Society for Clinical Pathology's Board of Certification, whose own history dates the agency's founding to 1928, issues the MLS (ASCP) credential most commonly cited for this exact title. The programmatic accreditor behind that eligibility, the National Accrediting Agency for Clinical Laboratory Sciences (NAACLS), accredits laboratory science degree programs at the associate through master's level and, separately, accredits phlebotomy training programs, the entry point this site covers in [how to become a phlebotomist](/how-to-become-a-phlebotomist/).",
+					"That phlebotomy page reports a $43,660 median, well under this page's $62,930, for a role BLS says can take under a year of postsecondary training to enter. BLS itself flags specialty certification as available in areas such as histology and clinical chemistry for technologists who complete additional education and experience, and names several specialized roles it tracks under this occupation: blood bank technologists, who classify and prepare blood for transfusion; clinical chemistry technologists, who analyze the chemical and hormonal content of body fluids; cytotechnologists, who examine cell slides for signs of cancer; hematology, histotechnology, microbiology, and molecular biology technologists, each focused on a different category of specimen or test.",
+				],
+			},
+			{
+				heading: 'Growth trails the wider health-tech field, but BLS documents a path from technician to technologist',
+				body: [
+					"BLS projects 3% employment growth for clinical laboratory technologists and technicians from 2025 to 2035, classified as about as fast as the average for all occupations, adding an estimated 9,400 jobs to a 2025 workforce of 343,000. That trails the 7% growth BLS projects for the broader health technologists and technicians category this occupation belongs to, meaning this specific role is growing more slowly than its own parent group. About 20,800 openings a year, on average, are projected over the decade, with BLS attributing much of that demand to an aging population needing more diagnostic testing for conditions such as cancer and type 2 diabetes.",
+					"BLS also names a specific advancement route on this page: some clinical laboratory technicians move into technologist positions after gaining experience and completing additional education, closing the associate's-to-bachelor's gap this article opened with rather than starting over in a separate occupation. BLS does not quantify how common that path is or how long it typically takes.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median clinical laboratory technologist salary?',
+				answer: "BLS reports $62,930 a year, or $30.26 an hour, for the combined technologist-and-technician occupation. The bottom tenth of earners made under $38,910, while the top tenth cleared $100,990.",
+			},
+			{
+				question: 'What is the difference between a clinical laboratory technologist and a technician?',
+				answer: "Entering as a technologist usually means a four-year degree and responsibility for the more difficult, manual test work plus a bigger share of quality control. The technician track can start with a two-year degree instead, handling higher-volume, machine-run testing while reporting to someone senior in the lab. BLS folds both job titles into the single $62,930 figure rather than pricing them apart.",
+			},
+			{
+				question: 'Which industry pays clinical laboratory technologists the most?',
+				answer: "Hospitals pay the most under BLS's breakdown, with the general-hospital setting reaching $69,190 a year. The lowest of the five categories, a catch-all outpatient-services group, came in at $48,140.",
+			},
+			{
+				question: 'Do you need certification to work in a clinical laboratory?',
+				answer: "It depends on where you work and which role you're in, since license rules differ from one state or specialty to the next. Even without a legal mandate, a lab is still free to prefer a credentialed hire, such as someone holding ASCP's MLS designation, which requires finishing a NAACLS-accredited lab program and then passing a certification exam.",
+			},
+			{
+				question: 'Can a lab technician become a lab technologist?',
+				answer: "Yes. BLS spells out this exact route: technicians who build hands-on experience and finish more schooling can step up into a technologist role, effectively trading their two-year credential for the four-year one without leaving the field.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Medical and Clinical Laboratory Technologists and Technicians (accessed 2026-09-09 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/clinical-laboratory-technologists-and-technicians.htm' },
+			{ label: 'O*NET OnLine: 29-2011.00 Medical and Clinical Laboratory Technologists (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/29-2011.00' },
+			{ label: "American Society for Clinical Pathology, Board of Certification: Medical Laboratory Scientist (MLS) credential page, used for the MLS (ASCP) credential name above (independently confirmed, not a BLS-sourced detail)", url: 'https://www.ascp.org/boc/explore-credentials/view-all-credentials/MLS' },
+			{ label: 'National Accrediting Agency for Clinical Laboratory Sciences (NAACLS): homepage, used for the programmatic accreditation details above, including its coverage of phlebotomy training programs (independently confirmed, not a BLS-sourced detail)', url: 'https://naacls.org/' },
+		],
+		image: '/images/clinical-laboratory-technologist-salary-chart.svg',
+		imageAlt: 'Bar chart showing clinical laboratory technologist and technician annual wage by percentile: 10th percentile $38,910, median $62,930, 90th percentile $100,990, based on BLS May 2025 data.',
+	},
 ];

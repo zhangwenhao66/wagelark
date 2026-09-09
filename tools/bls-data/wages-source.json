@@ -1947,6 +1947,48 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: School and Career Counselors and Advisors",
       "sourceUrl": "https://www.bls.gov/ooh/community-and-social-service/school-and-career-counselors.htm",
       "publishedDate": "2026-08-27"
+    },
+    "29-2011": {
+      "title": "Clinical Laboratory Technologists and Technicians",
+      "medianAnnual": 62930,
+      "medianHourly": 30.26,
+      "percentiles": {
+        "p10": 38910,
+        "p90": 100990
+      },
+      "employment": 343000,
+      "employmentYear": "2025",
+      "jobOutlookPct": 3,
+      "jobOutlookLabel": "As fast as average",
+      "employmentChange": 9400,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        {
+          "industry": "General medical and surgical hospitals; private",
+          "annualWage": 69190
+        },
+        {
+          "industry": "Educational services; state, local, and private",
+          "annualWage": 63690
+        },
+        {
+          "industry": "Medical and diagnostic laboratories",
+          "annualWage": 58320
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 56850
+        },
+        {
+          "industry": "Other ambulatory healthcare services",
+          "annualWage": 48140
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Clinical Laboratory Technologists and Technicians",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/clinical-laboratory-technologists-and-technicians.htm",
+      "publishedDate": "2026-08-27"
     }
   }
 }
