@@ -1134,37 +1134,37 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"33-2011": {
 		socCode: "33-2011",
 		title: "Firefighters",
-		medianAnnual: 59530,
-		medianHourly: 28.62,
+		medianAnnual: 59280,
+		medianHourly: 28.5,
 		percentiles: {
-			p10: 34490,
-			p90: 101330
+			p10: 34910,
+			p90: 101040
 		},
-		employment: 344900,
-		employmentYear: "2024",
-		jobOutlookPct: 3,
+		employment: 355300,
+		employmentYear: "2025",
+		jobOutlookPct: 4,
 		jobOutlookLabel: "As fast as average",
-		employmentChange: 11800,
-		projectionPeriod: "2024-34",
+		employmentChange: 13100,
+		projectionPeriod: "2025-35",
 		entryEducation: "Postsecondary nondegree award",
 		industryWages: [
 			{
-				industry: "Federal government, excluding postal service",
-				annualWage: 62690
+				industry: "State government, excluding education and hospitals",
+				annualWage: 64980
 			},
 			{
-				industry: "State government, excluding education and hospitals",
-				annualWage: 61850
+				industry: "Federal government, excluding postal service",
+				annualWage: 63270
 			},
 			{
 				industry: "Local government, excluding education and hospitals",
-				annualWage: 60360
+				annualWage: 59850
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Firefighters",
 		sourceUrl: "https://www.bls.gov/ooh/protective-service/firefighters.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-09-09"
 	},
 	"47-2152": {
 		socCode: "47-2152",

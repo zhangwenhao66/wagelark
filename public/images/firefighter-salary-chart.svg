@@ -4,11 +4,11 @@
 	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
 	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="56" width="131.29255740300871" height="34" fill="#0f8b7f" />
-	<text x="289.2925574030087" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$34,910</text>
+	<text x="291.2925574030087" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$34,910</text>
 	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
 	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="116" width="222.94536817102136" height="34" fill="#0f8b7f" />
-	<text x="382.9453681710214" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$59,280</text>
+	<text x="382.94536817102136" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$59,280</text>
 	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
 	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
