@@ -1700,3 +1700,66 @@
 
 ## 2026-09-03 CTR专项回滚（8/28 七页标题恢复为改写前原文）
 依据：`独立站/标题CTR改写方法论_20260903.md` 第二节 + `seo-geo-trinity/title_test.py evaluate --label wagelark-0828-bls-median`。8/28 改写后 4-6 天，7 页里 4 页曝光 -84%~-100%（radiology-tech-salary 50/天→0、flight-attendants 25→2、actuary 17→3、nurse-practitioner 25→2），3 页排名跌 >5 位（welder 7.6→14.5、electrician 10→15.4、flight-attendants 19.9→28.8），点击 2→0；同期 5 个未改的对照页（firefighter/mri-tech/ultrasound-tech/respiratory-therapist/physician-assistant）曝光持平或上涨。人类查询与机器式查询（AI 代理核对 BLS 数字的 "bls may 2023 … employment" 类）两类都掉，保留了 "BLS" 字样的两页也掉，判断为标题改动触发页面重评估、新站试用位被收回，不只是丢词。按协议"多项恶化指标同时命中"提前回滚：7 页 title 逐字恢复为 8/28 之前的字符串（commit 403c461 的原文），正文/description/数据不动（electrician 9/2 刷新的 May 2025 数据保留）。复核：`title_test.py evaluate --label wagelark-0903-rollback`，9/17 看 14 天数据。教训已写入方法论：新站改标题每批 ≤5 页、留对照、不删现有词面。
+
+```json
+{
+  "url_slug": "firefighter-salary",
+  "last_audited": "2026-09-09",
+  "published_date": "2026-08-11",
+  "note": "本站从未审计过的44篇文章之一，按guides.ts发布顺序取第一篇；同时也是全流量站矩阵最久未审计的站点（wagelark上次审计2026-09-02）",
+  "diagnosed_checkpoints": [
+    "BLS median/percentile/雇主薪资/就业展望数据是否仍是发布时（2026-08-11）的May 2024周期，是否已有更新的May 2025数据",
+    "三处跨文章数字引用（truck-driver-salary/how-to-become-a-paramedic/29行占位职业排名大表）是否与本文数字保持一致",
+    "FAQ是否逐字复述正文（机械散文检查第④项）",
+    "广义类别'firefighting and prevention workers'对比数字是否可独立核实",
+    "本文是否有独立的结构化数据管线（wages-source.json驱动的交互工具）需要同步刷新"
+  ],
+  "findings": [
+    {
+      "dimension": "事实准确性/时效性",
+      "status": "CONFIRMED，已修复",
+      "detail": "现状：全文（description/coreSummary/4节正文/5条FAQ/sources/imageAlt）使用BLS May 2024周期数据（median $59,530、p10 $34,490、p90 $101,330、全行业中位数$49,500、雇主薪资Federal最高$62,690>State $61,850>Local $60,360、就业占比88/3/2、增长率3% 2024-2034、年开缺27,100、就业变化11,800、广义类别中位数$59,870）。替换：全部改为BLS May 2025周期数据（median $59,280、p10 $34,910、p90 $101,040、全行业中位数$50,980、雇主薪资顺位变化为State最高$64,980>Federal $63,270>Local $59,850、就业占比87/4/2、增长率4% 2025-2035、年开缺26,800、就业变化13,100、广义类别中位数改用OEWS Table 1时薪$28.67换算约$59,630并注明换算方法）。来源：curl直连https://www.bls.gov/ooh/protective-service/firefighters.htm（HTTP 200，页面明确标注May 2025）+ https://www.bls.gov/news.release/ocwage.t01.htm（BLS官方新闻稿表格，用于核实广义类别数字）。理由：这不是数字微调，雇主薪资顺位从Federal最高变为State最高是实质性编辑差异，独立复核agent直接访问两个BLS官方页面逐项核实确认。"
+    },
+    {
+      "dimension": "第十四项机械检查——FAQ逐字复述正文（check_prose_patterns.py L-0819-9）",
+      "status": "CONFIRMED，已修复",
+      "detail": "现状：5条FAQ中4条与正文有≥20字符逐字重合（65/63/108/93字符）。替换：4条全部改写为不同句式表达同一事实，1条（'federal government (excluding postal service)'等BLS官方雇主分类术语）判定为不可避免重合FALSE POSITIVE保留原样。理由：独立复核agent逐条判断——数字/机构名/技术术语类重合不可避免不动，完整解释性/描述性整句照抄可改写不损失准确性。改写过程中新引入的重合迭代多轮（每次修复又暴露新的短语级重合），最终check_prose_patterns.py退出码从1收敛到0。"
+    },
+    {
+      "dimension": "站内跨文章一致性",
+      "status": "CONFIRMED，已修复",
+      "detail": "现状：truck-driver-salary引用'firefighters...post a similar median of $59,530'及旧版electrician $62,350；how-to-become-a-paramedic引用'firefighters, whose $59,530 median is about $1,120 above the paramedic figure'；29行占位职业排名大表firefighter一行显示$59,530。替换：三处均更新为firefighter新数字$59,280（paramedic差值同步重算为$870），排名大表排序未受影响（$59,280仍落在$59,810与$58,410之间）。理由：这两篇文章本身未被本次审计（超出单篇审计范围），但它们直接引用本文数字构成事实性错误，与本站2026-09-02审计electrician-salary时的'顺手修复'先例一致，仅做最小范围的数字替换，未触碰这两篇文章其余内容。"
+    },
+    {
+      "dimension": "结构化数据管线（本次审计的意外发现，超出原diagnosed_checkpoints但属于同一篇文章）",
+      "status": "CONFIRMED，已修复",
+      "detail": "现状：正文修复+部署后，绕缓存核实线上页面仍在一处交互式百分位对比工具（SalaryPercentileTool.astro，读取src/data/bls-wages.ts）里显示旧数字$59,530/$34,490/$101,330，与已刷新的正文并存于同一页面。根因：本站独立维护一条数据管线（tools/bls-data/wages-source.json → build-wage-data.mjs → src/data/bls-wages.ts），只改guides.ts不会同步这条管线。修复：刷新wages-source.json里33-2011条目、重新运行build-wage-data.mjs生成bls-wages.ts、重新运行generate-charts.mjs确认仅firefighter图表变化（其余54个职业SVG逐字节比对无变化，管线幂等）、更新独立手抄的spot-check测试断言（wages-source.test.mjs），npm test 71/71通过。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "sources里CareerOneStop链接curl直连返回403（CloudFront WAF），WebSearch确认该URL仍是官方Certification Finder主页真实存在且被索引，判定为反爬拦截非真实死链，与本站惯例判例一致。BLS OOH链接本次curl直接成功无需代理（此前sources注释记录'Akamai拦截需走r.jina.ai代理'，本次未复现该拦截，已更新sources注释为直接访问，不再声称需要代理）。"
+    },
+    {
+      "dimension": "EEAT/内链健康度/竞品差异化",
+      "status": "未发现问题",
+      "detail": "内容基于BLS官方数据+跨文章多职业比较框架（本站独有，非BLS/竞品页面具备），WebSearch核实SERP头部竞品（ZipRecruiter/Indeed）均为众包自报数据，权威性和结构化对比程度不及本文。内链方面本文被truck-driver-salary/how-to-become-a-paramedic两篇文章链接，非孤儿页；本文自身链向electrician-salary/how-to-become-a-cna均已确认真实存在。"
+    },
+    {
+      "dimension": "SEO技术/GEO/合规/AdSense",
+      "status": "未发现问题",
+      "detail": "title未改动，无需title_lint.py。description变化未触发z-score离群（数字长度接近）。`Skill(google-spam-compliance)`全11项PASS（模板化职业页有SOC专属真实数据+独有跨文章比较框架，非规模化滥用）。`Skill(humanizer)`复核清除本次改写中新引入的2处em dash。内容为中性BLS职业数据，无AdSense限制类目风险。GEO结构未变（仅数字刷新），未重跑ai-seo完整评分，定性判断维持发布时达标水平。"
+    },
+    {
+      "dimension": "早期内容AI味补漏/Schema一致性/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "本文2026-08-11发布，晚于avoid-ai-writing 2026-08-07接入时间，不属于'早期文章'补漏范围。schema随coreSummary/FAQ字段联动，seo_drift compare确认schema变化为预期编辑。内容主题（消防员薪资）无敏感度漂移风险。"
+    }
+  ],
+  "independent_verification": "2条主要发现（BLS数据过期、FAQ逐字重合）各自spawn一个全新独立agent复核，均正常完成无卡死（约61秒/64秒）：①BLS数据刷新→CONFIRMED，独立agent直接fetch两个BLS官方页面核实全部数字；②FAQ重合5条→4 CONFIRMED（已改写）+1 FALSE POSITIVE（官方雇主分类术语）。",
+  "actions_taken": "全文（title不变，description/coreSummary/4节正文/5条FAQ/2条sources/imageAlt）刷新至BLS May 2025数据；4条FAQ多轮改写至check_prose_patterns.py退出码0；SVG图表（手写+generate-charts.mjs交叉验证）同步更新；wages-source.json/bls-wages.ts结构化数据管线同步刷新，spot-check测试断言更新，npm test 71/71通过；顺手修复truck-driver-salary与how-to-become-a-paramedic两处引用本文旧数字的跨文章句子及29行占位排名大表一处数字；updated字段2026-08-11→2026-09-09（published字段本已存在，未触发git历史回填流程）；seo_drift baseline/compare确认部署后仅2条WARNING（均为预期编辑）无CRITICAL回归；3次独立commit（9bdea0b正文、225e7a2结构化数据、00780cf IndexNow日志）均push成功；WageLark经CF Pages Git集成自动部署，绕缓存轮询确认线上生效（旧值残留归零）；IndexNow提交firefighter-salary（Bing 200/Yandex 200）；内容发布日志.md已追加本条审计记录。",
+  "seo_score": "技术项全部通过，description变化未触发离群",
+  "geo_score": "定性评估维持发布时判断，达标（≥80），线上schema/robots.txt AI爬虫许可完好",
+  "escalation": null
+}
+```
