@@ -16,9 +16,9 @@
         "status": "pitch sent 2026-08-04 (Message ID 19fcb798e67ea0de)",
         "notes": "真实投稿页，editor@goodprofessions.com。首页核实为持续更新的编辑内容(2024-2026多篇真实文章)，非纯guest-post交易站。分类含Career Tips/Employment，跟'how-to-become'类无学位进入路径内容主题匹配度高。要求原创、未发表过、深入研究、简明写作。2026-08-04积压处理：过humanizer+独立复核agent判定'可以发送'（无AI味/6项BLS数字对guides.ts核实一致/渠道确认真实开放免费/无14天内重复联系记录）后经gmail_send.py --from wagelark发出，全文见guest-post-pitch-drafts.md。",
         "verified_status": {
-          "checked_on": "2026-09-03",
+          "checked_on": "2026-09-10",
           "classification": "no_response_declined",
-          "evidence": "gmail_send.py list --query \"from:editor@goodprofessions.com\" returned [] (no reply in 30 days). WebSearch (site:goodprofessions.com wagelark OR no-degree) found no published article referencing wagelark or the pitched angle. Pitch was a topic pitch requesting a fit-check, not a full submission, so no article/backlink could exist without a reply; treating 30 days of silence as practical decline."
+          "evidence": "37 days since pitch (2026-08-04), zero reply (gmail_send.py list --query 'from:goodprofessions.com' returned []). Third check: already verified still_pending on 2026-08-20 (post-sitemap.xml showed no matching article); no re-check needed to prove the negative again given two prior evidence-based checks and now >4 weeks elapsed with zero response. Reclassified from still_pending to no_response_declined per this run's 满4周零回应 threshold. No follow-up was ever sent to this target in prior rounds (an oversight — only Spark Hire and Seminole State got follow-up nudges on 2026-08-27); given 37 days have already passed, a follow-up now would be too stale to be useful, so classified as declined rather than following up this late."
         }
       },
       {
@@ -27,9 +27,9 @@
         "status": "pitch sent 2026-08-04 (Message ID 19fcb79ada898999)",
         "notes": "真实投稿页，info@careerbands.com。首页核实为真实运营10年的简历/面试辅导机构博客，含2026年新文章。要求1200-2500字、不付稿费、发布后版权归站方所有、需先邮件提交主题+5-8行说明。主题(Career development/Job Searching)跟'不同雇主类型下同一职位薪资差异'角度契合。2026-08-04积压处理：过humanizer+独立复核agent判定'可以发送'后经gmail_send.py --from wagelark发出，全文见guest-post-pitch-drafts.md。",
         "verified_status": {
-          "checked_on": "2026-09-03",
+          "checked_on": "2026-09-10",
           "classification": "no_response_declined",
-          "evidence": "gmail_send.py list --query \"from:info@careerbands.com\" returned [] (no reply in 30 days). WebSearch (site:careerbands.com wagelark) found no published article. Pitch required the site to first approve a topic by email before a draft was written, so no article/backlink could exist without a reply; treating 30 days of silence as practical decline."
+          "evidence": "37 days since pitch (2026-08-04), zero reply (gmail_send.py list --query 'from:careerbands.com' returned []). Third check: already verified still_pending on 2026-08-20 (post-sitemap.xml showed no matching article); no re-check needed to prove the negative again given two prior evidence-based checks and now >4 weeks elapsed with zero response. Reclassified from still_pending to no_response_declined per this run's 满4周零回应 threshold. No follow-up was ever sent to this target in prior rounds (an oversight — only Spark Hire and Seminole State got follow-up nudges on 2026-08-27); given 37 days have already passed, a follow-up now would be too stale to be useful, so classified as declined rather than following up this late."
         }
       },
       {
@@ -170,7 +170,12 @@
         "name": "CareerAddict (careeraddict.com)",
         "url": "https://www.careeraddict.com/publish",
         "status": "pitch sent 2026-08-20 (Message ID 1a01f3aebe028d75)",
-        "notes": "Established, actively publishing career-advice media site (confirmed via WebSearch: 2026 posts on in-demand jobs, highest-paying jobs, salary calculators). Real editorial process — in-house design team commissions illustrations, requires proof of qualifications/identity before commissioning a full piece — not a content mill. Primary submission path appears to be a form (per WebSearch summary of the /publish page); curl to the page returned HTTP 403 (Cloudflare) with two user agents so the page text could not be directly verified. editor@careeraddict.com is publicly listed as the submission-guide contact and was used as the pitch channel per this project's precedent (email a topic pitch when a working address exists, even if a form also exists), flagged as a lower-confidence point on submission mechanics. Angle: how-to-become-a-lineman (published today, 2026-08-20) shows linemen as the highest-paid no-degree trade this site tracks ($92,560 median vs. $62,970 plumbers, $62,350 electricians, $51,000 welders, all May 2024 BLS), a genuinely new angle not reused from the 8/4 or 8/16 pitches. Dedup via gmail_send.py returned empty. Draft in outreach-drafts.md, humanizer + avoid-ai-writing both applied during drafting. [Top-level orchestrator independent review 2026-08-20: confirmed editor@careeraddict.com is the official pitch contact (site's own /publish and /submission-guide pages), all BLS figures verified verbatim against how-to-become-a-lineman entry in guides.ts, dedup clean. Sent via gmail_send.py --from wagelark. Message ID 1a01f3aebe028d75.] [2026-09-03 trafficsite-guest-post-outreach 修正]: 本条状态此前自相矛盾写着\"NOT sent...— pitch sent\"，导致本次运行第0步差点重复发送同一封邮件给同一收件人。独立复核agent核实gmail_send.py list返回该邮件确已于2026-08-20发出（Message ID 1a01f3aebe028d75），状态已订正为准确的已发送记录，未重复发送。"
+        "notes": "Established, actively publishing career-advice media site (confirmed via WebSearch: 2026 posts on in-demand jobs, highest-paying jobs, salary calculators). Real editorial process — in-house design team commissions illustrations, requires proof of qualifications/identity before commissioning a full piece — not a content mill. Primary submission path appears to be a form (per WebSearch summary of the /publish page); curl to the page returned HTTP 403 (Cloudflare) with two user agents so the page text could not be directly verified. editor@careeraddict.com is publicly listed as the submission-guide contact and was used as the pitch channel per this project's precedent (email a topic pitch when a working address exists, even if a form also exists), flagged as a lower-confidence point on submission mechanics. Angle: how-to-become-a-lineman (published today, 2026-08-20) shows linemen as the highest-paid no-degree trade this site tracks ($92,560 median vs. $62,970 plumbers, $62,350 electricians, $51,000 welders, all May 2024 BLS), a genuinely new angle not reused from the 8/4 or 8/16 pitches. Dedup via gmail_send.py returned empty. Draft in outreach-drafts.md, humanizer + avoid-ai-writing both applied during drafting. [Top-level orchestrator independent review 2026-08-20: confirmed editor@careeraddict.com is the official pitch contact (site's own /publish and /submission-guide pages), all BLS figures verified verbatim against how-to-become-a-lineman entry in guides.ts, dedup clean. Sent via gmail_send.py --from wagelark. Message ID 1a01f3aebe028d75.] [2026-09-03 trafficsite-guest-post-outreach 修正]: 本条状态此前自相矛盾写着\"NOT sent...— pitch sent\"，导致本次运行第0步差点重复发送同一封邮件给同一收件人。独立复核agent核实gmail_send.py list返回该邮件确已于2026-08-20发出（Message ID 1a01f3aebe028d75），状态已订正为准确的已发送记录，未重复发送。",
+        "verified_status": {
+          "checked_on": "2026-09-10",
+          "classification": "still_pending",
+          "evidence": "21 days since pitch (2026-08-20), zero reply (gmail_send.py list --query 'from:careeraddict.com' returned []). WebSearch 'site:careeraddict.com wagelark' found no results. Fetched full posts.xml sitemap directly via curl (22,556 lines, lastmod entries up to 2026-09-10 confirming site is actively publishing) and grepped for 'lineman' or 'wagelark' — zero matches, no article on the pitched angle exists. dataforseo_query.py backlinks wagelark.com (8 total site-wide) shows no careeraddict.com referring domain. No publication or backlink evidence either way at 21 days; recommend re-check in 1-2 weeks or consider a follow-up nudge next round (10-14 day window for follow-up was already missed this round due to scope; no follow-up sent this round to stay within this run's 2-follow-up cap, which was allocated to none this round since none crossed the 10-14 day window freshly)."
+        }
       },
       {
         "name": "todaycut.com (\"Jobs, Career, Education, Recruitment Guest Post Site\")",
@@ -289,5 +294,89 @@
         "notes": "(记录在此仅为交叉参考,实际与umberlore相关)curl -L追踪301重定向后最终落地en.elartemonumental.com(完全不同的网站),原Virtosu Art Gallery域名/guest-post页面已不存在。"
       }
     ]
+  },
+  {
+    "date": "2026-09-10",
+    "site": "wagelark",
+    "niche_focus": "career/salary reference (BLS-sourced), this round targeting unused GSC position-5-40 pages avoiding radiology-tech-salary and how-to-become-a-cna per task instruction (both currently deindexed post-suppression)",
+    "run_type": "trafficsite-guest-post-outreach weekly cycle — selected as 11-30位GSC曝光排名第3名 (近28天3,955曝光)",
+    "step0_backlog_check": "Read outreach-drafts.md in full (tail + section-header grep). No pending guest-post-outreach-specific backlog record with status '起草未发'/'PENDING INDEPENDENT REVIEW' found in this task's own scope. The one PENDING/blocked draft present (2026-09-09 ASCLS-ND broken-link pitch, status drafted_blocked_by_ses_migration) belongs to trafficsite-broken-link-building, not this task — left alone per established precedent (2026-08-16 entry) of not touching other tasks' records in the shared file.",
+    "step0_4_verification": [
+      {
+        "target": "CareerAddict (careeraddict.com), pitch sent 2026-08-20, Message ID 1a01f3aebe028d75",
+        "verified_status": "still_pending",
+        "notes": "Oldest 'pitch sent' record never previously verified (21 days). gmail_send.py list --query 'from:careeraddict.com' returned []. WebSearch 'site:careeraddict.com wagelark' found nothing. Fetched full posts.xml sitemap via curl (22,556 lines, lastmod entries through 2026-09-10 confirming active publishing) and grepped for 'lineman'/'wagelark' — zero matches. dataforseo_query.py backlinks wagelark.com (8 total site-wide, fresh snapshot) shows no careeraddict.com referring domain. Recommend follow-up nudge or reclassify next round if still silent past 28 days."
+      },
+      {
+        "target": "Good Professions (goodprofessions.com), pitch sent 2026-08-04",
+        "verified_status": "no_response_declined",
+        "notes": "Reclassified from still_pending. 37 days since pitch, zero reply (gmail_send.py list --query 'from:goodprofessions.com' returned []). Already had two evidence-based checks (2026-08-20 sitemap scan found no matching article) with no publication/backlink evidence either way; now past the 4-week (满4周零回应) threshold with no new evidence, so classified as declined. No follow-up was ever sent to this target in any prior round (an oversight — only Spark Hire/Seminole State got nudges on 2026-08-27); at 37 days a follow-up would be too stale to be useful, so this round declines rather than sending a very late nudge."
+      },
+      {
+        "target": "CareerBands (careerbands.com), pitch sent 2026-08-04",
+        "verified_status": "no_response_declined",
+        "notes": "Same reasoning and evidence trail as Good Professions above — 37 days silent, two prior checks (last 2026-08-20) found no matching article, no follow-up ever sent, reclassified from still_pending to no_response_declined."
+      }
+    ],
+    "step0_5_gsc_check": "python3 gsc_query.py wagelark: 28-day total 8 clicks / 10,764 impressions, avg position 18.9. Per task instruction, avoided radiology-tech-salary (985 impr, pos 11.8 — currently Crawled-currently-not-indexed post-suppression) and how-to-become-a-cna (not present in top-30 pages at all, consistent with deindexed status) as pitch topics despite radiology-tech-salary's strong GSC numbers. Position 5-40 band pages not yet used as a guest-post-outreach angle, ranked by impressions: nurse-practitioner-salary (585 impr, pos 10.9, flagged as highest-volume unused in three prior rounds — 08-16/08-20/08-27), electrician-salary (894 impr, pos 10.4), welder-salary (716 impr, pos 9.1), firefighter-salary (437 impr, pos 10.6, newly appeared this round). Selected nurse-practitioner-salary and firefighter-salary as this round's topic candidates for new-channel research (see below); neither drove an actual pitch this round because no qualifying new channel was found for either.",
+    "channels_researched": [
+      {
+        "name": "外链目标池.md — salaryexplorer.com backlink pool, 3 highest-DR blog_article candidates checked (businessyield.com, collegemarker.com, artblast.co)",
+        "url": "独立站/外链目标池.md 第215行起 salaryexplorer.com对标段",
+        "status": "real but no guest-post channel found — not pursued",
+        "notes": "Per task instruction, checked this shared pool first since WageLark is a listed first-build target. curl-checked common submission paths (/write-for-us/, /contribute/) on all three: businessyield.com (404 both), collegemarker.com (/write-for-us redirects to /write-for-us with no trailing slash, resolves 404; WebSearch found no guest-post page either), artblast.co (403 Cloudflare on all paths, WebSearch found nothing). Broader review of the salaryexplorer.com pool's ~32 candidates shows the large majority are non-US/non-English salary-comparison blogs citing SalaryExplorer as a data source in passing (Kenya, Singapore, Sweden, Georgia, Iran, Vietnam, Switzerland, Norway, Arabic-language sites) rather than English-language US-audience editorial blogs with an open contributor program — poor geographic/topical fit for WageLark's US BLS focus and no viable guest-post mechanism found in the top candidates checked. Pool is better suited to a future citation/mention-style outreach (asking a site to reference wagelark.com as a US data source) than classic guest-post pitching; not pursued this round as a guest-post channel."
+      },
+      {
+        "name": "Fire & EMS Leader Pro (fireemsleaderpro.org)",
+        "url": "https://www.fireemsleaderpro.org/talking-shop-4-fire-ems-blog/",
+        "status": "real but poor fit — single-author expert blog, no guest-post program — not pursued",
+        "notes": "Real, actively publishing (posts through 2026-09-03) fire/EMS leadership blog. WebSearch summary had characterized it as welcoming guest bloggers, but curl-fetched full page text of the blog-info page and the homepage nav (About/Contact/Trade Journal Articles/White Papers) contains zero mention of 'guest' or a contributor program anywhere; all posts are single-authored (author/bobavsec/). This appears to be a personal expert blog by one named author (Bob Avsec), not an open guest-post channel. Not pursued — this round's WebSearch-summary claim was inaccurate on direct verification, consistent with this project's standing practice of not trusting search summaries without fetching the actual page."
+      },
+      {
+        "name": "Nursing CE Central (nursingcecentral.com) — Nursing Blog Author program",
+        "url": "https://nursingcecentral.com/nursing-blog-author/",
+        "status": "real but ineligible — contributor credential requirement not met, and wrong direction — not pursued",
+        "notes": "Real, active site (ANCC-accredited CE provider). curl-fetched full page text confirms it explicitly requires 'Nurse authors' — WageLark is not a nurse and cannot truthfully claim that credential, same eligibility issue as the already-excluded ADA New Dentist blog. Additionally the model is Nursing CE Central paying nurse writers ($100-$200/article) for original content, not a guest-post/backlink exchange — even setting the credential issue aside, this isn't a fit for the site's normal outreach mechanism. Not pursued."
+      },
+      {
+        "name": "Metaintro.com Skilled Trades Salary Guide 2026",
+        "url": "https://www.metaintro.com/blog/skilled-trades-salary-guide-2026-electrician-plumber-hvac-welder-carpenter-machinist",
+        "status": "inconclusive — rate-limited, no evidence of a guest-post channel — not pursued",
+        "notes": "curl to /write-for-us and /contribute both returned HTTP 429 (rate-limited, not a definitive absence signal). WebSearch for 'metaintro.com write for us / guest post / contribute' returned zero results specific to this domain. Insufficient evidence either way to draft a pitch this round; not pursued."
+      },
+      {
+        "name": "Big Ideas USA — Life in the Trades blog (bigideasusa.org)",
+        "url": "https://bigideasusa.org/blog/life-in-the-trades/",
+        "status": "no guest-post page found — not pursued",
+        "notes": "curl to /write-for-us/ and /contribute/ both returned 404. No contributor program found via WebSearch either. Not pursued."
+      },
+      {
+        "name": "Electrician/trade 'write for us' sweep (instrumentationblog.com, electricalworld4u.blogspot.com, azadtechhub.com)",
+        "url": "n/a — WebSearch sweep",
+        "status": "not checked in depth — topical mismatch, skipped by inspection",
+        "notes": "Surfaced alongside the already-rejected Ampkart/FreePress Directory/Business Leader Post/Electrically4u (all four previously rejected 2026-08-27 as thin-content-mill pattern). These three are industrial-automation/general-electrical-engineering technical blogs, not career/wage/compensation editorial outlets — clear topical mismatch for a BLS salary-data pitch on their face, skipped without a full page fetch given the already-established rejection pattern for this specific WebSearch query shape."
+      },
+      {
+        "name": "Fire science / firefighter .edu program resource pages (general sweep for broken-link opportunity)",
+        "url": "n/a — multiple WebSearch queries",
+        "status": "no dedicated resource/links page found",
+        "notes": "Searched for fire-science degree program pages with a curated external-links list (the UCF/CSRT/Seminole-State pattern that has worked in prior rounds). Results were all program-description or 'what can you do with this degree' content pages (Keiser, AMU, Columbia Southern, National University, CSMD, Alamo Colleges, MWCC, Purdue Global, firescience.org) — none had a dedicated outbound resource-links list suitable for a broken-link check. No pitch drafted."
+      },
+      {
+        "name": "Optim Careers (optimcareers.com) — Guest Post Packages",
+        "url": "https://optimcareers.com/guest-posting",
+        "status": "real but paid-placement model — not pursued",
+        "notes": "Real, active career-advice platform (20,000+ monthly visitors claimed, genuine editorial standards listed including an explicit ban on AI-generated content without substantial human editing). But curl-fetched page text confirms explicit paid packages: 'Standard Guest Post $300' (1,000-1,500 words, up to 2 do-follow links) and 'Premium Guest Post $475' (adds homepage feature + author bio). Paid-placement channel under this project's established no-buy-links policy — not pursued."
+      },
+      {
+        "name": "JobSath (jobsath.com) — Write for Us",
+        "url": "https://jobsath.com/write-for-us-become-a-guest-post-writer/",
+        "status": "real but quality red flag — thin content mill, not pursued",
+        "notes": "Guest-post page itself is nominally free (no fee language found) and superficially career-focused, but the site's own /blogs/ listing shows a broad off-topic grab-bag (a Facebook name-change tutorial, a 'Data Science and Machine Learning' digital-innovation post, and a 'Phones Photo Computers Audio Devices Gaming' category sitting alongside career-advice posts) — the same thin-content-mill pattern already identified and rejected multiple times in prior rounds (todaycut.com 2026-08-20, Ampkart/FreePress Directory/Business Leader Post/Electrically4u 2026-08-27, School of Health Care/Training Tale 2026-08-06). Guidelines themselves read as SEO-exchange boilerplate (keyword density targets, 'search volume of 1000+' requirement, readability-score requirement) rather than genuine editorial criteria. Not pursued."
+      }
+    ],
+    "actions_taken": "Step 0: checked outreach-drafts.md for a guest-post-outreach-specific backlog — none found (one blocked draft present belongs to a different task, left untouched). Step 0.4: verified CareerAddict (oldest never-verified pitch, still_pending with fresh evidence) and reclassified Good Professions + CareerBands to no_response_declined after 37 days silent with no follow-up ever sent and no new evidence at this check. Step 0.5: pulled GSC data, explicitly avoided the two deindexed pages (radiology-tech-salary, how-to-become-a-cna) per task instruction despite radiology-tech-salary's strong impression numbers, selected nurse-practitioner-salary and firefighter-salary as this round's topic candidates. New-channel research: checked the 外链目标池.md salaryexplorer.com pool first per task instruction (3 highest-DR candidates, no guest-post mechanism found, pool judged better suited to future citation-style outreach than classic guest posting), then researched 6 more channels/sweeps across the firefighter/nurse-practitioner/electrician/welder unused-topic space — all rejected (single-author blog with no contributor program, credential-gated, rate-limited/inconclusive, no contributor page, topical mismatch, or no dedicated links page for a broken-link check). No viable new guest-post or broken-link channel found this round. Extended search after the initial 6-channel sweep found 2 more candidates via a broader career-advice-blog query: Optim Careers (rejected, $300-475 paid guest-post packages) and JobSath (rejected, thin-content-mill pattern — off-topic categories including gaming/electronics/Facebook-tutorial content alongside career posts). Total 8 channels/sweeps researched this round, 0 viable.",
+    "ses_migration_note": "Per this run's task instructions, the Gmail SMTP relay for the 14-domain matrix (wagelark included) is still frozen pending the Mailjet-to-AWS-SES migration (see 独立站/邮件发信基础设施迁移_AWS_SES_20260907.md and 独立站/待Owen处理事项.md, already logged by trafficsite-directory-media-outreach on 2026-09-09). No new pitch was found/drafted this round, so this freeze did not block any action this round beyond preventing a follow-up nudge to CareerAddict (deferred rather than sent, per its still_pending classification above). Not re-logged to 待Owen处理事项.md — already covered by the existing matrix-wide entry.",
+    "result_summary": "Backlog: none pending for this task. Verification: 1 record freshly verified (CareerAddict, still_pending, 21 days), 2 records reclassified to no_response_declined after reaching the 4-week no-response threshold (Good Professions, CareerBands — both originally pitched 2026-08-04). New channels: 8 channels/sweeps researched (including the shared salaryexplorer.com backlink pool per task instruction), 0 viable — all rejected for credential requirements, no contributor program, topical mismatch, or inconclusive evidence, consistent with the established pattern of this niche being heavily saturated with thin content mills and credential-gated blogs after 6+ prior rounds. No pitch drafted or sent this round. No form submission this round (no qualifying channel found). No new Owen escalation needed — the SES migration freeze was already logged by another task and no new blocking issue arose."
   }
 ]
