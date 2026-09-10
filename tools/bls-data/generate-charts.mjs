@@ -43,6 +43,7 @@ const CHARTS = {
 	'occupational-therapy-assistant-salary-chart': '31-2011',
 	'clinical-laboratory-technologist-salary-chart': '29-2011',
 	'medical-dosimetrist-salary-chart': '29-2036',
+	'genetic-counselor-salary-chart': '29-9092',
 };
 
 const NAVY = '#14273f';

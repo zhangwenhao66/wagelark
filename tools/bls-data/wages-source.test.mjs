@@ -1162,3 +1162,25 @@ test('spot check: Medical Dosimetrists (29-2036) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages[2].industry, 'Hospitals; state, local, and private');
 	assert.equal(occ.industryWages[2].annualWage, 147010);
 });
+
+// Spot check hand-transcribed from bls.gov/ooh/healthcare/genetic-counselors.htm
+// (last modified August 27, 2026, carrying May 2025 data). Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+// Percentile spread is phrased on the page as "lowest 10 percent... highest
+// 10 percent" rather than the word "percentile" -- checked per the SKILL's
+// multi-phrase search rule, not a naive "percentile" grep.
+test('spot check: Genetic Counselors (29-9092) matches BLS OOH page', () => {
+	const occ = occupations['29-9092'];
+	assert.equal(occ.medianAnnual, 100040);
+	assert.equal(occ.medianHourly, 48.09);
+	assert.deepEqual(occ.percentiles, { p10: 78270, p90: 138760 });
+	assert.equal(occ.employment, 4200);
+	assert.equal(occ.jobOutlookPct, 10);
+	assert.equal(occ.employmentChange, 400);
+	assert.equal(occ.entryEducation, "Master's degree");
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Outpatient care centers');
+	assert.equal(occ.industryWages[0].annualWage, 143620);
+	assert.equal(occ.industryWages[4].industry, 'Offices of physicians');
+	assert.equal(occ.industryWages[4].annualWage, 94380);
+});

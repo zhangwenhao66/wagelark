@@ -4778,4 +4778,74 @@ export const guides: Guide[] = [
 		image: '/images/medical-dosimetrist-salary-chart.svg',
 		imageAlt: 'Bar chart showing medical dosimetrist annual wage by percentile: 10th percentile $111,670, median $147,470, 90th percentile $185,450, based on BLS May 2025 data.',
 	},
+	{
+		slug: 'genetic-counselor-salary',
+		category: 'Salary Guide',
+		title: 'Genetic Counselor Salary: $100,040 Median (2026 BLS)',
+		description: "BLS puts the median genetic counselor salary at $100,040 a year, well above the $64,330 for school counselors, with 10% projected job growth through 2035.",
+		published: '2026-09-10',
+		updated: '2026-09-10',
+		socCode: '29-9092',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, genetic counselors earned a median of $100,040 in May 2025, or $48.09 an hour. Earners in the bottom 10% made less than $78,270, and those in the top 10% cleared $138,760, a range of roughly $60,490. Genetic counselors clear the $50,980 median BLS reports across all U.S. occupations by a wide margin, and beat the $64,330 median for [school and career counselors](/how-to-become-a-school-counselor/) by $35,710, despite the shared \"counselor\" label and a similarly typical master's-degree entry point. BLS counted 4,200 genetic counselors in 2025, a small workforce by this site's standards, and projects 10% growth through 2035, adding roughly 400 jobs, well ahead of the 3% average across all occupations.",
+		sections: [
+			{
+				heading: 'What genetic counselors earn, and what BLS says they actually do',
+				body: [
+					"A genetic counselor earned a median of $100,040 a year in May 2025, or $48.09 an hour, per the Bureau of Labor Statistics, which profiles this occupation on its own dedicated page under SOC code 29-9092. The bottom 10% of earners made less than $78,270 a year, while the top 10% made more than $138,760, a spread of roughly $60,490. BLS counted 4,200 genetic counselors nationwide in 2025, a small occupation in headcount terms compared with most of the roles this site tracks.",
+					"BLS describes the job itself as assessing a client's risk for inherited conditions, such as birth defects, then reviewing genetic test results with individuals and families and helping them work through decisions based on those results; genetic counselors also pass that information along to other healthcare providers involved in a client's care. Most work full time, primarily in hospitals, physicians' offices, outpatient care centers, university medical centers, and diagnostic laboratories.",
+				],
+			},
+			{
+				heading: "Two jobs share the word \"counselor\" on this site, but not much else",
+				body: [
+					"BLS separately tracks [school and career counselors and advisors](/how-to-become-a-school-counselor/) under a different SOC code, with a May 2025 median of $64,330, or $30.93 an hour, $35,710 below what genetic counselors earn. Both occupations typically require a master's degree for entry, and both usually require a state-issued credential to practice, so the pay gap is not a matter of one job asking for more schooling than the other on paper.",
+					"What differs is the degree itself and who issues the credential. BLS says school counselors typically need a master's degree in school counseling or a related field, plus a state credential that may be called a certification, a license, or an endorsement, with the specific exam varying by state (many use a Praxis test, though Texas uses its own). Genetic counselors instead need a master's degree specifically in genetic counseling from a program accredited by the Accreditation Council for Genetic Counseling (ACGC), and licensure in most states typically requires passing a national board exam rather than a state-specific one, discussed further below. The two occupations sit in entirely separate parts of BLS's classification system despite the shared job title word, which is a reminder that \"counselor\" alone does not tell a reader much about degree requirements or pay on this site.",
+				],
+			},
+			{
+				heading: 'Industry pay spans about $49,000, and physician offices pay the least of the five settings',
+				body: [
+					"BLS breaks out May 2025 wages across five industry categories for genetic counselors. Outpatient care centers paid the highest median, at $143,620, followed by medical and diagnostic laboratories at $108,640, private colleges, universities, and professional schools at $106,710, and hospitals (state, local, and private) at $102,140. Offices of physicians paid the least of the five, at $94,380, a gap of $49,240 between the highest- and lowest-paying settings.",
+					"That ordering runs counter to an assumption some readers might make, that an individual physician's practice is where genetic counselors are paid the most, since it is a setting closely tied to direct patient care. BLS does not explain the gap on this page; a plausible factor, not a claim BLS itself makes, is that outpatient care centers and larger laboratory or hospital systems may see higher volumes of referred, complex cases and can operate under different compensation structures than an individual physician's practice.",
+				],
+			},
+			{
+				heading: "A master's-only field that already out-earns one occupation requiring a doctorate",
+				body: [
+					"Per BLS, genetic counselors typically need a master's degree in genetic counseling, and nearly all states require them to be licensed, with licensure usually requiring board certification. BLS does not name the certifying body on its own page; it directs readers to their state's medical board for licensing specifics and separately points to CareerOneStop for certification information. Independently of BLS, that certification is the Certified Genetic Counselor (CGC) credential, issued by the American Board of Genetic Counseling (ABGC) to candidates who complete an ACGC-accredited master's program and pass a 200-question exam (170 scored questions plus 30 unscored pretest items) administered over four hours through the testing company Prometric. The field's primary professional association, the National Society of Genetic Counselors (NSGC), was incorporated in 1979 and remains the largest membership organization for genetic counselors in the U.S. and Canada.",
+					"Against other advanced-degree occupations this site tracks, the $100,040 genetic counselor median already beats the $94,310 BLS reports for [psychologists](/how-to-become-a-psychologist/), an occupation whose largest specialty group typically requires a doctoral degree rather than a master's (that psychologist figure is for May 2024, the most recently published data on that page, rather than the May 2025 year used above). It still trails [physician assistants](/physician-assistant-salary/) at $133,260, another occupation that, like genetic counseling, typically enters with a master's degree (also a May 2024 figure). BLS does not explain why two master's-entry occupations land $33,220 apart, or why a master's-only field outpaces one that often requires a doctorate; the comparison describes what each occupation's own BLS profile reports, not a claim that one degree path pays better than another for a given reader.",
+					"BLS projects 10% employment growth for genetic counselors from 2025 to 2035, classified as much faster than the average for all occupations, adding an estimated 400 jobs to the 4,200-person 2025 workforce. About 300 openings a year, on average, are projected over the decade, a figure that works out to roughly 3,000 openings across the full ten years against a total net headcount gain of only 400, meaning BLS attributes the large majority of those openings to people transferring to other occupations or leaving the labor force rather than to new positions being created.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median genetic counselor salary?',
+				answer: "BLS's 2025 median for this occupation is $100,040 a year, equivalent to $48.09 hourly, a full $35,710 above the $64,330 it reports for school counseling, a separately credentialed occupation with an overlapping job title.",
+			},
+			{
+				question: 'What is the pay range for genetic counselors?',
+				answer: "For May 2025, per BLS, the bottom tenth earned under $78,270 a year while the top tenth topped $138,760, roughly a $60,490 spread between the two.",
+			},
+			{
+				question: 'Which industry pays genetic counselors the most?',
+				answer: "Ambulatory, outpatient-based settings top BLS's May 2025 numbers at $143,620, and testing labs come in second at $108,640. A physician's own practice trails all five tracked settings at $94,380, the lowest despite being one of the more common places to find this role.",
+			},
+			{
+				question: 'Do genetic counselors need to be licensed?',
+				answer: "Per BLS, the overwhelming majority of states require it, and getting licensed usually means clearing a national exam first. This site independently identified who administers that exam: ABGC grants the CGC credential once a candidate finishes an accredited graduate track and clears its four-hour, 200-question test.",
+			},
+			{
+				question: 'Is genetic counseling a growing field?',
+				answer: "Per BLS, employment is set to grow 10% over the 2025-2035 decade, more than triple the roughly 3% pace expected for the labor market overall. The base is small, though: starting from 4,200 workers, that percentage only nets about 400 additional jobs, and most yearly openings trace back to replacement needs rather than to a growing headcount.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Genetic Counselors (accessed 2026-09-10 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/genetic-counselors.htm' },
+			{ label: 'American Board of Genetic Counseling (ABGC): About the CGC Credential, used for the certifying-body and exam-requirement details above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.abgc.net/Certify/About-the-CGC-Credential' },
+			{ label: 'National Society of Genetic Counselors (NSGC): organization history, used for the professional-association detail above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.nsgc.org/' },
+		],
+		image: '/images/genetic-counselor-salary-chart.svg',
+		imageAlt: 'Bar chart showing genetic counselor annual wage by percentile: 10th percentile $78,270, median $100,040, 90th percentile $138,760, based on BLS May 2025 data.',
+	},
 ];

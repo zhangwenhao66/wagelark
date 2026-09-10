@@ -2120,5 +2120,48 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Medical Dosimetrists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/medical-dosimetrists.htm",
 		publishedDate: "2026-08-27"
+	},
+	"29-9092": {
+		socCode: "29-9092",
+		title: "Genetic Counselors",
+		medianAnnual: 100040,
+		medianHourly: 48.09,
+		percentiles: {
+			p10: 78270,
+			p90: 138760
+		},
+		employment: 4200,
+		employmentYear: "2025",
+		jobOutlookPct: 10,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 400,
+		projectionPeriod: "2025-35",
+		entryEducation: "Master's degree",
+		industryWages: [
+			{
+				industry: "Outpatient care centers",
+				annualWage: 143620
+			},
+			{
+				industry: "Medical and diagnostic laboratories",
+				annualWage: 108640
+			},
+			{
+				industry: "Colleges, universities, and professional schools; private",
+				annualWage: 106710
+			},
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 102140
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 94380
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Genetic Counselors",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/genetic-counselors.htm",
+		publishedDate: "2026-08-27"
 	}
 };

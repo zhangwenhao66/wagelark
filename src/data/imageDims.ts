@@ -39,6 +39,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/clinical-laboratory-technologist-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/cna-certification-path.svg": {
   "h": 300,
   "w": 640
@@ -95,6 +99,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/genetic-counselor-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/highest-paying-jobs-without-a-degree-chart.svg": {
   "h": 444,
   "w": 700
@@ -120,6 +128,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 640
  },
  "/images/medical-assistant-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
+ "/images/medical-dosimetrist-salary-chart.svg": {
   "h": 240,
   "w": 640
  },
