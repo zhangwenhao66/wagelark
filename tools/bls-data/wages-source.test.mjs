@@ -1140,3 +1140,25 @@ test('spot check: Clinical Laboratory Technologists and Technicians (29-2011) ma
 	assert.equal(occ.industryWages[4].industry, 'Other ambulatory healthcare services');
 	assert.equal(occ.industryWages[4].annualWage, 48140);
 });
+
+// Hand-transcribed from live bls.gov OOH page fetched via curl on 2026-09-10
+// (last modified August 27, 2026, carrying May 2025 data). Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+// Percentile spread is phrased on the page as "lowest 10 percent... highest
+// 10 percent" rather than the word "percentile" -- checked per the SKILL's
+// multi-phrase search rule, not a naive "percentile" grep.
+test('spot check: Medical Dosimetrists (29-2036) matches BLS OOH page', () => {
+	const occ = occupations['29-2036'];
+	assert.equal(occ.medianAnnual, 147470);
+	assert.equal(occ.medianHourly, 70.90);
+	assert.deepEqual(occ.percentiles, { p10: 111670, p90: 185450 });
+	assert.equal(occ.employment, 3500);
+	assert.equal(occ.jobOutlookPct, 5);
+	assert.equal(occ.employmentChange, 200);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 3);
+	assert.equal(occ.industryWages[0].industry, 'Outpatient care centers');
+	assert.equal(occ.industryWages[0].annualWage, 174400);
+	assert.equal(occ.industryWages[2].industry, 'Hospitals; state, local, and private');
+	assert.equal(occ.industryWages[2].annualWage, 147010);
+});

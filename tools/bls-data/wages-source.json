@@ -1989,6 +1989,40 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Clinical Laboratory Technologists and Technicians",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/clinical-laboratory-technologists-and-technicians.htm",
       "publishedDate": "2026-08-27"
+    },
+    "29-2036": {
+      "title": "Medical Dosimetrists",
+      "medianAnnual": 147470,
+      "medianHourly": 70.90,
+      "percentiles": {
+        "p10": 111670,
+        "p90": 185450
+      },
+      "employment": 3500,
+      "employmentYear": "2025",
+      "jobOutlookPct": 5,
+      "jobOutlookLabel": "Faster than average",
+      "employmentChange": 200,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        {
+          "industry": "Outpatient care centers",
+          "annualWage": 174400
+        },
+        {
+          "industry": "Offices of physicians",
+          "annualWage": 148190
+        },
+        {
+          "industry": "Hospitals; state, local, and private",
+          "annualWage": 147010
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Medical Dosimetrists",
+      "sourceUrl": "https://www.bls.gov/ooh/healthcare/medical-dosimetrists.htm",
+      "publishedDate": "2026-08-27"
     }
   }
 }

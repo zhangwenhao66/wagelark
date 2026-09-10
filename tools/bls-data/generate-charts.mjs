@@ -42,6 +42,7 @@ const CHARTS = {
 	'veterinarian-salary-chart': '29-1131',
 	'occupational-therapy-assistant-salary-chart': '31-2011',
 	'clinical-laboratory-technologist-salary-chart': '29-2011',
+	'medical-dosimetrist-salary-chart': '29-2036',
 };
 
 const NAVY = '#14273f';

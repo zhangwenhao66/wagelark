@@ -4176,7 +4176,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'How radiation therapist pay compares to two occupations on the same BLS page',
 				body: [
-					"BLS lists radiation therapists alongside eight related occupations in a Similar Occupations comparison table on the same page. Two are especially close in scope, since both work in radiation oncology or nuclear medicine rather than general diagnostic imaging. Medical dosimetrists, who calculate and plan radiation treatment doses, had the highest median of any occupation in that table at $147,470, about $42,160 above the radiation therapist figure, but BLS lists a bachelor's degree as the typical entry-level education for that role, one credential tier above the associate's degree BLS lists for radiation therapists. Nuclear medicine technologists, who also use radioactive materials in patient care but for diagnostic imaging rather than treatment, had a median of $101,370, within $3,940 of the radiation therapist figure, at the same associate's-degree entry level.",
+					"BLS lists radiation therapists alongside eight related occupations in a Similar Occupations comparison table on the same page. Two are especially close in scope, since both work in radiation oncology or nuclear medicine rather than general diagnostic imaging. [Medical dosimetrists](/medical-dosimetrist-salary/), who calculate and plan radiation treatment doses, had the highest median of any occupation in that table at $147,470, about $42,160 above the radiation therapist figure, but BLS lists a bachelor's degree as the typical entry-level education for that role, one credential tier above the associate's degree BLS lists for radiation therapists. Nuclear medicine technologists, who also use radioactive materials in patient care but for diagnostic imaging rather than treatment, had a median of $101,370, within $3,940 of the radiation therapist figure, at the same associate's-degree entry level.",
 					'Two other occupations in that same comparison table sit well below the radiation therapist median at the identical associate\'s-degree entry level: cardiovascular technologists and technicians at $74,310, and respiratory therapists at $82,280. BLS does not explain on this page why occupations requiring the same typical degree land at such different pay levels; the gap likely reflects differences in the specialized, cancer-treatment-specific training radiation therapy programs require beyond the general associate\'s-degree credential.',
 				],
 			},
@@ -4708,5 +4708,74 @@ export const guides: Guide[] = [
 		],
 		image: '/images/clinical-laboratory-technologist-salary-chart.svg',
 		imageAlt: 'Bar chart showing clinical laboratory technologist and technician annual wage by percentile: 10th percentile $38,910, median $62,930, 90th percentile $100,990, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'medical-dosimetrist-salary',
+		category: 'Salary Guide',
+		title: 'Medical Dosimetrist Salary: $147,470 Median (2026 BLS)',
+		description: 'BLS puts the median medical dosimetrist salary at $147,470 a year, the highest of the radiation-oncology roles this site tracks, with 5% growth through 2035.',
+		published: '2026-09-10',
+		updated: '2026-09-10',
+		socCode: '29-2036',
+		coreSummary: "The median annual wage for medical dosimetrists was $147,470 in May 2025, according to the U.S. Bureau of Labor Statistics, or $70.90 an hour. The bottom 10% earned less than $111,670 while the top 10% earned more than $185,450, a spread of about $73,780. That median sits well above the $50,980 BLS reports across all occupations for the same period, and above every other radiation-oncology role this site tracks, including [radiation therapists](/radiation-therapist-salary/) ($105,310) and [nuclear medicine technologists](/nuclear-medicine-technologist-salary/) ($101,370). BLS projects 5% employment growth from 2025 to 2035, faster than the roughly 3% average across all occupations, adding an estimated 200 jobs to a 2025 workforce of 3,500, one of the smaller occupations by headcount this site has covered.",
+		sections: [
+			{
+				heading: 'Confirming a figure this site had already cited before this page existed',
+				body: [
+					"A medical dosimetrist earned a median of $147,470 a year in May 2025, or $70.90 an hour, per the Bureau of Labor Statistics, which profiles this occupation on its own page under SOC code 29-2036. The bottom 10% of earners made less than $111,670 a year, while the top 10% made more than $185,450, a spread of roughly $73,780. This is a small occupation in headcount terms: BLS counted just 3,500 medical dosimetrists nationwide in 2025, a fraction of the 343,000 clinical laboratory technologists and technicians this site covers elsewhere.",
+					"That $147,470 figure was not new information when this page went up. BLS's own page for [radiation therapists](/radiation-therapist-salary/) lists medical dosimetrists in a Similar Occupations comparison table with the same median, calling it the highest figure of any occupation in that table, about $42,160 above the radiation therapist number. This page independently confirms that figure directly from the dosimetrist occupation's own dedicated BLS page, rather than relying on a comparison-table entry on someone else's page.",
+				],
+			},
+			{
+				heading: 'Industry pay comes in a narrower band than most occupations on this site',
+				body: [
+					"BLS breaks out May 2025 wages across three industry categories for medical dosimetrists. Outpatient care centers paid the highest median, at $174,400. Offices of physicians paid $148,190, and hospitals, state, local, and private combined, paid $147,010, the least of the three. The gap between the highest- and lowest-paying settings is $27,390, a narrower spread than this site found for [radiation therapists](/radiation-therapist-salary/), where the same three settings differ by $23,420 on a much lower base, or for [optometrists](/optometrist-salary/), where the four tracked industries span nearly $78,000.",
+					"BLS's Work Environment section for this occupation states that most medical dosimetrists work in healthcare settings such as hospitals and physicians' offices, without giving a percentage breakdown of how the 3,500-person workforce splits across the three tracked industries. That means this page can report what each setting pays but not how many dosimetrists actually work in the highest-paying outpatient-care setting versus the other two.",
+				],
+			},
+			{
+				heading: 'A four-year degree and a specific certifying body, in an occupation BLS also flags as tightly clustered',
+				body: [
+					"Per BLS, medical dosimetrists typically need a bachelor's degree in medical dosimetry or a related field such as biology or physical science, then must complete an accredited medical dosimetry program that includes coursework in physics, anatomy, and radiology alongside supervised clinical experience. Applicants without a dosimetry-specific undergraduate degree can instead complete a graduate certificate or master's program in the field. BLS notes that admission is often competitive and that some programs require applicants to already be a registered radiation therapist or to hold a bachelor's degree with specific coursework in biology, medical terminology, and calculus.",
+					"BLS states that employers usually prefer to hire dosimetrists holding a credential it calls the CMD but does not name the issuing body on the page. Independently of BLS, that credential, the Certified Medical Dosimetrist (CMD), is issued by the Medical Dosimetrist Certification Board (MDCB), which requires a bachelor's degree, graduation from an accredited program, and a passing exam score, plus ongoing continuing-education hours to maintain the credential. The related professional association, the American Association of Medical Dosimetrists (AAMD), separately publishes its own definition of a \"qualified medical dosimetrist,\" a title distinct from, but built on top of, the BLS-tracked occupation and the MDCB's CMD exam.",
+				],
+			},
+			{
+				heading: 'A small but faster-growing field, where 200 openings a year covers almost the entire projected job gain',
+				body: [
+					"BLS projects 5% employment growth for medical dosimetrists from 2025 to 2035, classified as faster than the average for all occupations, adding an estimated 200 jobs to the 3,500-person 2025 workforce. About 200 openings a year, on average, are projected over the decade, a figure BLS says mostly reflects the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than newly created positions. Because the occupation is small, that annual openings figure lands close to the total 10-year employment change BLS projects, a pattern this site has not seen on its larger occupation pages, where annual openings typically run well above the total employment change.",
+					"Against the other radiation-oncology roles this site tracks, dosimetrists' 5% growth rate outpaces the 4% BLS projects for [nuclear medicine technologists](/nuclear-medicine-technologist-salary/) and the 3% it projects for [radiation therapists](/radiation-therapist-salary/), even though dosimetrists already carry the highest median pay of the three. BLS does not explain on any of the three pages why the highest-paying role also has the fastest projected growth; an aging population needing more cancer treatment is the more general demographic driver BLS cites for radiation-oncology occupations broadly, not a claim specific to this one page.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median medical dosimetrist salary?',
+				answer: "$70.90 an hour, or $147,470 annualized, is what BLS counted for this role over 2025. That beats every comparable oncology-support job title this site has priced out, clearing the figures for both the diagnostic-imaging techs and the treatment-side specialists it tracks in the same broad field.",
+			},
+			{
+				question: 'What is the pay range for medical dosimetrists?',
+				answer: "The tenth of earners at the bottom brought home under $111,670, while the top tenth cleared $185,450, per BLS's May 2025 figures, roughly a $73,780 spread between the two ends. Notably, even entry into that lower band still beats what BLS lists as the typical full-career median for a couple of other imaging and treatment roles this site covers.",
+			},
+			{
+				question: 'Which industry pays medical dosimetrists the most?',
+				answer: "Ambulatory, outpatient-based care leads BLS's May 2025 split at $174,400, with physician practices next at $148,190 and hospital employment trailing at $147,010. BLS gives no sense of how its roughly 3,500 counted workers divide across those three.",
+			},
+			{
+				question: 'Do you need a certification to work as a medical dosimetrist?',
+				answer: "BLS mentions a preferred credential it abbreviates as CMD but stops short of saying who grants it. This site tracked that down separately: a specialty board (MDCB) sets its own bar of a four-year college degree, finishing an approved training track, clearing its exam, and keeping up with education hours afterward to stay current.",
+			},
+			{
+				question: 'Is medical dosimetry a growing field?',
+				answer: "Yes, at a 5% clip through the decade ending 2035, per BLS, ahead of the roughly 3% pace it expects economy-wide. Scale matters here, though: starting from just 3,500 workers means that percentage translates into a couple hundred net new positions rather than a large hiring wave, with most yearly openings instead coming from people leaving the occupation altogether.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Medical Dosimetrists (accessed 2026-09-10 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/medical-dosimetrists.htm' },
+			{ label: 'Medical Dosimetrist Certification Board (MDCB): CMD Credentialing overview, used for the certifying-body and exam-requirement details above (independently confirmed, not a BLS-sourced detail)', url: 'https://mdcb.org/cmd-credentialing' },
+			{ label: 'American Association of Medical Dosimetrists (AAMD): Definition of a Qualified Medical Dosimetrist, used for the professional-association detail above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.medicaldosimetry.org/about/definition/' },
+		],
+		image: '/images/medical-dosimetrist-salary-chart.svg',
+		imageAlt: 'Bar chart showing medical dosimetrist annual wage by percentile: 10th percentile $111,670, median $147,470, 90th percentile $185,450, based on BLS May 2025 data.',
 	},
 ];
