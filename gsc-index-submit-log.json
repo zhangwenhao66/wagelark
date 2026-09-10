@@ -360,5 +360,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-10",
+    "action": "submitted",
+    "reason": "今日新发布medical-dosimetrist-salary，URL Inspection确认URL is not on Google，提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/medical-dosimetrist-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
