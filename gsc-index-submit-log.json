@@ -370,5 +370,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-11",
+    "action": "submitted",
+    "reason": "今日新发布audiologist-salary，URL Inspection确认URL is unknown to Google，提交成功。",
+    "submitted_urls": [
+      "https://wagelark.com/audiologist-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
