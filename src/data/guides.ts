@@ -4918,4 +4918,71 @@ export const guides: Guide[] = [
 		image: '/images/audiologist-salary-chart.svg',
 		imageAlt: 'Bar chart showing audiologist annual wage by percentile: 10th percentile $64,610, median $95,780, 90th percentile $133,120, based on BLS May 2025 data.',
 	},
+	{
+		slug: 'forensic-scientist-salary',
+		category: 'Salary Guide',
+		title: 'Forensic Scientist Salary: $72,060 Median (2026 BLS)',
+		description: 'BLS puts the median forensic scientist salary at $72,060 a year, above the $50,980 median for all U.S. occupations, with 13% projected job growth through 2035.',
+		published: '2026-09-11',
+		updated: '2026-09-11',
+		socCode: '19-4092',
+		coreSummary: "Forensic science technicians, the official BLS title behind the common search term \"forensic scientist,\" earned a median of $72,060 in May 2025, working out to $34.65 an hour. The bottom 10% of earners made less than $48,250, and the top 10% cleared $117,250, a spread of roughly $69,000. That places the occupation $21,080 above the $50,980 median BLS reports across all U.S. occupations, and $9,130 above clinical laboratory technologists, an occupation BLS itself lists as sharing similar duties and degree requirements. BLS counted 20,100 forensic science technicians in 2025 and projects 13% growth through 2035, much faster than average, adding roughly 2,700 jobs and about 2,800 openings a year on average.",
+		sections: [
+			{
+				heading: 'The $72,060 median, from percentile spread to job outlook',
+				body: [
+					"The U.S. Bureau of Labor Statistics puts the median forensic scientist salary at $72,060 a year, or $34.65 an hour, for May 2025, tracked under SOC code 19-4092, which BLS titles \"Forensic Science Technicians.\" Earners in the bottom 10% made less than $48,250, while the top 10% cleared $117,250, a spread of about $69,000 between the two ends. BLS counted 20,100 forensic science technicians nationally in 2025 and projects the field will grow 13% through 2035, a pace BLS classifies as much faster than average across all U.S. occupations. That growth is expected to add roughly 2,700 jobs to the current headcount, with about 2,800 openings projected each year on average, most tied to workers transferring to other occupations or leaving the labor force rather than to newly created positions alone.",
+					"BLS splits the job into two working environments that carry different day-to-day duties. At the crime scene, technicians analyze what evidence should be collected, photograph and sketch the scene, record the location and position of evidence, collect items ranging from weapons and fingerprints to bodily fluids, and reconstruct how the scene likely unfolded. In the laboratory, technicians run chemical, biological, and microscopic analyses on evidence taken from crime scenes, examine DNA test results, prepare technical reports with statistical analysis, and consult with specialists in fields such as toxicology and odontology. BLS notes many technicians handle both sets of duties, while others specialize, such as a ballistics specialist who compares spent cartridge cases against a national digital database and refers likely matches to a forensic scientist for confirmation.",
+				],
+			},
+			{
+				heading: "A bachelor's degree, not a police academy: what BLS says about entry",
+				body: [
+					"Per BLS, forensic science technicians typically need at least a bachelor's degree to enter the occupation, drawn from fields such as physical science, biology, or forensic science, with an associate's degree sufficient for some positions. Forensic science programs themselves may specialize further, in areas such as toxicology, pathology, or DNA analysis. BLS draws one distinction worth flagging for anyone picturing a TV crime-scene investigator: some crime scene investigators who work for police departments are sworn police officers who met the educational requirements for a police academy rather than the bachelor's-degree path described here, and BLS covers that separate role on its own profile for police and detectives.",
+					"Beyond the degree, BLS says forensic science technicians receive on-the-job training before working cases independently, typically under a year depending on the laboratory specialty, with newly hired crime scene technicians supervised by experienced workers while they learn evidence-collection procedures. Licenses and certifications are not required to enter the occupation, per BLS, though a technician may need to pass a state proficiency exam, testing laboratory science topics, pattern recognition, and reading and writing comprehension, or otherwise gain approval from a laboratory or accrediting body before performing independent casework. CareerOneStop, a U.S. Department of Labor resource, is where BLS points readers for details on available voluntary certifications.",
+				],
+			},
+			{
+				heading: 'Government labs and courts pay more than private testing labs',
+				body: [
+					"BLS breaks out May 2025 wages for forensic science technicians across four industry categories. State government (excluding education and hospitals) paid the highest median, at $74,740, followed by local government (excluding education and hospitals) at $70,050 and educational services at $61,680. Testing laboratories and services, the private-sector setting many people might assume is the norm for this field, paid the least of the four tracked categories, at $49,600, a gap of $25,140 between the highest- and lowest-paying settings BLS lists here.",
+					"BLS does not explain the gap on this page, but the pattern lines up with how forensic evidence actually gets processed in the U.S.: most crime labs that handle criminal casework sit inside state or local government, often attached to a police department, sheriff's office, or medical examiner's office, while private testing laboratories more often handle non-criminal work such as paternity testing or workplace drug screening. That is offered as a plausible explanation drawn from the industry categories BLS publishes, not a claim BLS itself makes about why one setting pays more than another.",
+				],
+			},
+			{
+				heading: 'Against other lab-science occupations this site tracks',
+				body: [
+					"BLS's own Similar Occupations table for forensic science technicians names [clinical laboratory technologists and technicians](/clinical-laboratory-technologist-salary/) as a comparable role by job duties and degree requirement. BLS reports a May 2025 median of $62,930 for that occupation, $9,130 below the forensic science technician figure above, even though both typically require a bachelor's degree and involve laboratory analysis of biological samples. BLS's similar-occupations table also lists chemists and materials scientists at a May 2025 median of $95,060 and chemical technicians, which typically require only an associate's degree, at $60,390, though neither of those two has a dedicated page on this site yet.",
+					"Against [radiation therapists](/radiation-therapist-salary/), an occupation this site tracks that typically needs only an associate's degree, BLS reports a May 2025 median of $105,310, $33,250 above the forensic science technician figure despite the shorter typical training path. BLS does not weigh how much of that gap traces to differences in clinical risk, licensing burden, or the healthcare-reimbursement structures that fund radiation therapy versus the government budgets that fund most crime labs; the comparison describes what BLS's own entry-education and pay tables show side by side, not a claim about which credential is the better investment for a given reader.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median forensic scientist salary?',
+				answer: "This occupation goes by several informal names online, but BLS tracks it under its own occupation code, 19-4092: a $72,060 median wage for May 2025, close to $34.65 hourly, among 20,100 workers nationwide.",
+			},
+			{
+				question: 'What is the pay range for forensic science technicians?',
+				answer: "Low earners, in the bottom 10%, stayed under $48,250 in May 2025, while the top decile passed $117,250, roughly a $69,000 range per BLS's own numbers. The agency does not publish a finer percentile breakdown on this occupation's page.",
+			},
+			{
+				question: 'What degree do you need to become a forensic scientist?',
+				answer: "Typically a four-year, bachelor's-level degree, per BLS, commonly earned in biology, physical science, or a dedicated forensic-science program, though a two-year associate's credential covers a handful of positions. Readers picturing a badge-carrying officer handling crime-scene duties should know that role falls under a separate profile BLS keeps for law enforcement, covering detectives and uniformed officers, not this degree track.",
+			},
+			{
+				question: 'Which industry pays forensic science technicians the most?',
+				answer: 'State government jobs apart from schools, colleges, and hospitals pay best, a $74,740 median for May 2025. Independent testing labs and services pay least of the four wage categories BLS tracks, $49,600, since more of that work is civil rather than criminal casework.',
+			},
+			{
+				question: 'Is forensic science a growing career?',
+				answer: "Yes. BLS's 2025-35 projection calls for 13% growth, well above the roughly 3% growth rate typical economy-wide, which works out to about 2,700 additional jobs on a 20,100-worker base and roughly 2,800 job openings annually when averaged across the decade.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Forensic Science Technicians (accessed 2026-09-11 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026; also source for the duties list, education/training detail, industry wage breakdown, and Similar Occupations comparisons above)', url: 'https://www.bls.gov/ooh/life-physical-and-social-science/forensic-science-technicians.htm' },
+		],
+		image: '/images/forensic-scientist-salary-chart.svg',
+		imageAlt: 'Bar chart showing forensic science technician annual wage by percentile: 10th percentile $48,250, median $72,060, 90th percentile $117,250, based on BLS May 2025 data.',
+	},
 ];

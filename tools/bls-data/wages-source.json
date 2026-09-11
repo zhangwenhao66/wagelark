@@ -1,6 +1,32 @@
 {
   "_readme": "Source of truth for BLS wage figures used on WageLark. Every entry is hand-verified against the live BLS Occupational Outlook Handbook page listed in sourceUrl (fetched and cross-checked on 2026-08-03). Do not edit numbers here from memory -- re-fetch the sourceUrl and update dataYear/publishedDate when refreshing. Run `node tools/bls-data/build-wage-data.mjs` after any edit, then `npm test` before using the generated output.",
   "occupations": {
+    "19-4092": {
+      "title": "Forensic Science Technicians",
+      "medianAnnual": 72060,
+      "medianHourly": 34.65,
+      "percentiles": {
+        "p10": 48250,
+        "p90": 117250
+      },
+      "employment": 20100,
+      "employmentYear": "2025",
+      "jobOutlookPct": 13,
+      "jobOutlookLabel": "Much faster than average",
+      "employmentChange": 2700,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        { "industry": "State government, excluding education and hospitals", "annualWage": 74740 },
+        { "industry": "Local government, excluding education and hospitals", "annualWage": 70050 },
+        { "industry": "Educational services; state, local, and private", "annualWage": 61680 },
+        { "industry": "Testing laboratories and services", "annualWage": 49600 }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Forensic Science Technicians",
+      "sourceUrl": "https://www.bls.gov/ooh/life-physical-and-social-science/forensic-science-technicians.htm",
+      "publishedDate": "2026-08-27"
+    },
     "29-1181": {
       "title": "Audiologists",
       "medianAnnual": 95780,

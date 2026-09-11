@@ -45,6 +45,7 @@ const CHARTS = {
 	'medical-dosimetrist-salary-chart': '29-2036',
 	'genetic-counselor-salary-chart': '29-9092',
 	'audiologist-salary-chart': '29-1181',
+	'forensic-scientist-salary-chart': '19-4092',
 };
 
 const NAVY = '#14273f';

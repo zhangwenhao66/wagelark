@@ -1206,3 +1206,19 @@ test('spot check: Audiologists (29-1181) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages[3].industry, 'Offices of physical, occupational and speech therapists, and audiologists');
 	assert.equal(occ.industryWages[3].annualWage, 81730);
 });
+
+test('spot check: Forensic Science Technicians (19-4092) matches BLS OOH page', () => {
+	const occ = occupations['19-4092'];
+	assert.equal(occ.medianAnnual, 72060);
+	assert.equal(occ.medianHourly, 34.65);
+	assert.deepEqual(occ.percentiles, { p10: 48250, p90: 117250 });
+	assert.equal(occ.employment, 20100);
+	assert.equal(occ.jobOutlookPct, 13);
+	assert.equal(occ.employmentChange, 2700);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'State government, excluding education and hospitals');
+	assert.equal(occ.industryWages[0].annualWage, 74740);
+	assert.equal(occ.industryWages[3].industry, 'Testing laboratories and services');
+	assert.equal(occ.industryWages[3].annualWage, 49600);
+});
