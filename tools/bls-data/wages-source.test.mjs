@@ -1184,3 +1184,25 @@ test('spot check: Genetic Counselors (29-9092) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages[4].industry, 'Offices of physicians');
 	assert.equal(occ.industryWages[4].annualWage, 94380);
 });
+
+// Spot check hand-transcribed from bls.gov/ooh/healthcare/audiologists.htm
+// (last modified August 27, 2026, carrying May 2025 data). Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+// Percentile spread is phrased on the page as "lowest 10 percent... highest
+// 10 percent" rather than the word "percentile" -- checked per the SKILL's
+// multi-phrase search rule, not a naive "percentile" grep.
+test('spot check: Audiologists (29-1181) matches BLS OOH page', () => {
+	const occ = occupations['29-1181'];
+	assert.equal(occ.medianAnnual, 95780);
+	assert.equal(occ.medianHourly, 46.05);
+	assert.deepEqual(occ.percentiles, { p10: 64610, p90: 133120 });
+	assert.equal(occ.employment, 14200);
+	assert.equal(occ.jobOutlookPct, 11);
+	assert.equal(occ.employmentChange, 1600);
+	assert.equal(occ.entryEducation, 'Doctoral or professional degree');
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Hospitals; state, local, and private');
+	assert.equal(occ.industryWages[0].annualWage, 103700);
+	assert.equal(occ.industryWages[3].industry, 'Offices of physical, occupational and speech therapists, and audiologists');
+	assert.equal(occ.industryWages[3].annualWage, 81730);
+});

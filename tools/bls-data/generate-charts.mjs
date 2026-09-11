@@ -44,6 +44,7 @@ const CHARTS = {
 	'clinical-laboratory-technologist-salary-chart': '29-2011',
 	'medical-dosimetrist-salary-chart': '29-2036',
 	'genetic-counselor-salary-chart': '29-9092',
+	'audiologist-salary-chart': '29-1181',
 };
 
 const NAVY = '#14273f';

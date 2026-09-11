@@ -42,6 +42,45 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"29-1181": {
+		socCode: "29-1181",
+		title: "Audiologists",
+		medianAnnual: 95780,
+		medianHourly: 46.05,
+		percentiles: {
+			p10: 64610,
+			p90: 133120
+		},
+		employment: 14200,
+		employmentYear: "2025",
+		jobOutlookPct: 11,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 1600,
+		projectionPeriod: "2025-35",
+		entryEducation: "Doctoral or professional degree",
+		industryWages: [
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 103700
+			},
+			{
+				industry: "Educational services; state, local, and private",
+				annualWage: 98110
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 92620
+			},
+			{
+				industry: "Offices of physical, occupational and speech therapists, and audiologists",
+				annualWage: 81730
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Audiologists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/audiologists.htm",
+		publishedDate: "2026-08-27"
+	},
 	"31-2011": {
 		socCode: "31-2011",
 		title: "Occupational Therapy Assistants",

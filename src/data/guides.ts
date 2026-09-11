@@ -4848,4 +4848,74 @@ export const guides: Guide[] = [
 		image: '/images/genetic-counselor-salary-chart.svg',
 		imageAlt: 'Bar chart showing genetic counselor annual wage by percentile: 10th percentile $78,270, median $100,040, 90th percentile $138,760, based on BLS May 2025 data.',
 	},
+	{
+		slug: 'audiologist-salary',
+		category: 'Salary Guide',
+		title: 'Audiologist Salary: $95,780 Median (2026 BLS)',
+		description: 'BLS puts the median audiologist salary at $95,780 a year, above the $50,980 median for all U.S. occupations, with 11% projected job growth through 2035.',
+		published: '2026-09-11',
+		updated: '2026-09-11',
+		socCode: '29-1181',
+		coreSummary: "Audiologists earned a median of $95,780 in May 2025, per the Bureau of Labor Statistics, working out to $46.05 an hour. The bottom 10% of earners made less than $64,610, and the top 10% cleared $133,120, a range of roughly $68,510. That places audiologists $44,800 above the $50,980 median BLS reports across all U.S. occupations, though the field still trails speech-language pathologists ($97,870) by $2,090 despite requiring a four-year clinical doctorate rather than speech-language pathology's typical master's. BLS counted 14,200 audiologists in 2025 and projects 11% growth through 2035, much faster than average, adding roughly 1,600 jobs.",
+		sections: [
+			{
+				heading: 'The $95,780 median, from percentile spread to job outlook',
+				body: [
+					"The U.S. Bureau of Labor Statistics puts the median audiologist salary at $95,780 a year, or $46.05 an hour, for May 2025, on the dedicated occupational profile it maintains under SOC code 29-1181. Earners in the bottom 10% made less than $64,610, while the top 10% cleared $133,120, a spread of about $68,510 between the two ends. BLS counted 14,200 audiologists nationally in 2025 and projects the field will grow 11% through 2035, a pace BLS classifies as much faster than average across all U.S. occupations. That growth is expected to add roughly 1,600 jobs to the current headcount, with about 600 openings projected each year on average, most tied to workers leaving the field rather than to newly created positions.",
+					"BLS describes the work itself as diagnosing, managing, and treating patients who have hearing, balance, or related problems, which includes examining the outer, middle, and inner ear, fitting and dispensing hearing aids and other assistive listening devices, and counseling patients and families on communication strategies such as lip reading. Most audiologists work full time in healthcare settings such as physicians' offices, dedicated audiology clinics, and hospitals; a smaller share work in schools or travel between facilities under contract.",
+				],
+			},
+			{
+				heading: "A four-year doctorate that still trails an adjacent master's field by $2,090",
+				body: [
+					"Entering audiology requires a doctor of audiology (Au.D.) degree, a four-year program built on top of a bachelor's degree, covering anatomy and physiology, diagnosis and treatment, and statistics alongside supervised clinical practice, per BLS. That is a longer, more advanced credential than the master's degree BLS lists as the typical entry point for speech-language pathologists, a field audiologists often work alongside in outpatient therapy settings and that BLS groups together with audiology in some of its own industry statistics. Yet BLS's dedicated page for that occupation puts the May 2025 median for speech-language pathologists at $97,870, a full $2,090 above what audiologists earn despite the shorter degree path.",
+					"The gap widens against [optometrists](/optometrist-salary/), another occupation requiring a doctoral or professional degree rather than a master's. BLS reports a May 2025 median of $136,570 for optometrists, $40,790 above the audiologist figure. BLS does not explain why two doctoral-entry occupations land that far apart; a plausible factor it does not state outright is that optometry combines routine eye care with product sales, such as eyewear and contact lenses, in a way audiology's hearing-aid dispensing only partly mirrors. That is offered as a possible explanation, not a claim BLS itself makes.",
+				],
+			},
+			{
+				heading: 'Hospitals pay the most, therapy-group offices pay the least',
+				body: [
+					"BLS breaks out May 2025 wages for audiologists across four industry categories. Hospitals (state, local, and private) paid the highest median, at $103,700, followed by educational services (state, local, and private) at $98,110 and offices of physicians at $92,620. Offices of physical, occupational, and speech therapists, and audiologists, the multi-specialty outpatient-therapy setting that includes many independent audiology practices, paid the least of the four tracked categories, at $81,730, a gap of $21,970 between the highest- and lowest-paying settings.",
+					"That ordering means the industry category most closely tied to audiologists' day-to-day field, shared with physical, occupational, and speech therapy practices, is where BLS records the lowest pay for the occupation, while a larger institutional setting like a hospital system pays the most. BLS does not explain the gap on this page; a plausible factor, not a claim BLS itself makes, is that hospital-based roles may involve more complex diagnostic caseloads or sit under different reimbursement and staffing structures than a smaller outpatient therapy practice.",
+				],
+			},
+			{
+				heading: 'Licensure is mandatory everywhere; a voluntary credential can stand in for parts of it',
+				body: [
+					"Per BLS, all states require audiologists to be licensed, with requirements typically including an Au.D. from an accredited program; BLS does not set a single national requirement, so it directs readers to their state licensing board for specifics, and separately points to CareerOneStop for information on voluntary certifications. Independently of BLS, one such credential is ABA Certified, issued by the American Board of Audiology (ABA), a branch of the American Academy of Audiology (AAA). Per ABA's published requirements, the credential can substitute for documenting Praxis exam scores or supervised clinical experience when applying for a license in 18 jurisdictions (17 states plus the District of Columbia), including California, Florida, Georgia, Pennsylvania, and Texas, and is separately accepted as one of two certifications that satisfy a state-mandated certification requirement in ten other states, including Massachusetts, Nevada, and Virginia.",
+					"AAA, the parent organization behind ABA certification, was founded in January 1988, when a group of audiology leaders convened at the invitation of Dr. James Jerger at Baylor College of Medicine in Houston to explore forming an independent national association for the field; it now describes itself as \"the largest professional organization of, by and for audiologists.\" Against another highly credentialed occupation this site tracks, [physician assistants](/physician-assistant-salary/) report a May 2024 median of $133,260, the most recently published figure on that page and a year older than the audiologist data above, which is $37,480 above what audiologists earn despite typically requiring only a master's degree rather than a four-year clinical doctorate.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median audiologist salary?',
+				answer: "For May 2025, BLS puts it at $95,780 annually, which works out to roughly $46 for each hour on the clock, across a workforce of 14,200 nationwide.",
+			},
+			{
+				question: 'What is the pay range for audiologists?',
+				answer: "Per BLS's May 2025 numbers, the bottom tenth earned under $64,610 while the top tenth cleared $133,120, roughly $68,510 apart.",
+			},
+			{
+				question: 'Which industry pays audiologists the most?',
+				answer: "Hospitals top BLS's May 2025 list at $103,700. The bottom spot, $81,730, belongs to the combined therapy-office category, which happens to be where a good number of standalone hearing clinics get filed.",
+			},
+			{
+				question: 'Do audiologists need a doctoral degree?',
+				answer: "Yes, per BLS: entry runs through a four-year Au.D. program taken after an undergraduate degree, and a state license is a further, non-optional step in all 50 states.",
+			},
+			{
+				question: 'Is audiology a growing occupation?',
+				answer: 'BLS projects 11% employment growth from 2025 to 2035, well ahead of the roughly 3% pace expected economy-wide, adding about 1,600 jobs to a 2025 base of 14,200 workers.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Audiologists (accessed 2026-09-11 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/audiologists.htm' },
+			{ label: "BLS Occupational Outlook Handbook: Speech-Language Pathologists (accessed 2026-09-11 via direct fetch, returned 200, data from May 2025, last modified August 27, 2026, used for the cross-occupation pay comparison above)", url: 'https://www.bls.gov/ooh/healthcare/speech-language-pathologists.htm' },
+			{ label: 'American Board of Audiology (ABA) / American Academy of Audiology (AAA): ABA Certification FAQ, used for the state-by-state licensure-substitution detail above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.audiology.org/american-board-of-audiology/aba-certification/' },
+			{ label: 'American Academy of Audiology: About the Academy, used for the founding-date detail above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.audiology.org/about/' },
+		],
+		image: '/images/audiologist-salary-chart.svg',
+		imageAlt: 'Bar chart showing audiologist annual wage by percentile: 10th percentile $64,610, median $95,780, 90th percentile $133,120, based on BLS May 2025 data.',
+	},
 ];
