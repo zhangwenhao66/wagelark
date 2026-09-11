@@ -1247,41 +1247,41 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"47-2152": {
 		socCode: "47-2152",
 		title: "Plumbers, Pipefitters, and Steamfitters",
-		medianAnnual: 62970,
-		medianHourly: 30.27,
+		medianAnnual: 63800,
+		medianHourly: 30.67,
 		percentiles: {
-			p10: 40670,
-			p90: 105150
+			p10: 44150,
+			p90: 108420
 		},
-		employment: 504500,
-		employmentYear: "2024",
-		jobOutlookPct: 4,
-		jobOutlookLabel: "As fast as average",
-		employmentChange: 22700,
-		projectionPeriod: "2024-34",
+		employment: 510600,
+		employmentYear: "2025",
+		jobOutlookPct: 7,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 34500,
+		projectionPeriod: "2025-35",
 		entryEducation: "High school diploma or equivalent",
 		industryWages: [
 			{
 				industry: "Government, excluding state and local education and hospitals",
-				annualWage: 69160
-			},
-			{
-				industry: "Heavy and civil engineering construction",
-				annualWage: 62770
-			},
-			{
-				industry: "Plumbing, heating, and air-conditioning contractors",
-				annualWage: 62670
+				annualWage: 71660
 			},
 			{
 				industry: "Manufacturing",
-				annualWage: 61620
+				annualWage: 65770
+			},
+			{
+				industry: "Heavy and civil engineering construction",
+				annualWage: 63270
+			},
+			{
+				industry: "Plumbing, heating, and air-conditioning contractors",
+				annualWage: 63010
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Plumbers, Pipefitters, and Steamfitters",
 		sourceUrl: "https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-09-12"
 	},
 	"53-3032": {
 		socCode: "53-3032",

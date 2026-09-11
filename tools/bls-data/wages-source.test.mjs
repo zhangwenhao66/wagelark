@@ -401,27 +401,29 @@ test('spot check: Firefighters (33-2011) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages.length, 3);
 });
 
-// Independently transcribed by hand from the live BLS OOH Plumbers,
-// Pipefitters, and Steamfitters page
-// (https://www.bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm)
-// on 2026-08-12 via r.jina.ai proxy read (direct bls.gov fetch returns 403
-// for this agent's network path -- same footer confirms "Last modified
-// date: August 28, 2025", matching the same data-freshness date as every
-// other spot check in this file). Independent of wages-source.json's own
-// numbers -- do not derive these from the source file. This occupation
-// covers three related job titles under one SOC code and OOH page, but BLS
-// publishes single unified Pay/Outlook figures for the combined group
-// (not separate percentiles per title), so all fields here are that
-// combined-group figure as BLS itself reports it.
+// Numbers below transcribed by hand on 2026-09-12 from a direct curl fetch
+// (via r.jina.ai proxy; direct bls.gov fetch still returns 403 for this
+// agent's network path) of
+// bls.gov/ooh/construction-and-extraction/plumbers-pipefitters-and-steamfitters.htm.
+// Page shows "2025 Median Pay" quick facts and "Job Outlook, 2025-35",
+// footer confirms "Last modified date: August 27, 2026" -- BLS has rolled
+// the page forward to May 2025 data since the 2026-08-12 spot check below
+// was transcribed. Independently cross-checked via WebSearch and a
+// separate independent-review agent before this update. Independent of
+// wages-source.json's own numbers -- do not derive these from the source
+// file. This occupation covers three related job titles under one SOC code
+// and OOH page, but BLS publishes single unified Pay/Outlook figures for
+// the combined group (not separate percentiles per title), so all fields
+// here are that combined-group figure as BLS itself reports it.
 test('spot check: Plumbers, Pipefitters, and Steamfitters (47-2152) matches BLS OOH page', () => {
 	const occ = occupations['47-2152'];
-	assert.equal(occ.medianAnnual, 62970);
-	assert.equal(occ.medianHourly, 30.27);
-	assert.equal(occ.percentiles.p10, 40670);
-	assert.equal(occ.percentiles.p90, 105150);
-	assert.equal(occ.employment, 504500);
-	assert.equal(occ.jobOutlookPct, 4);
-	assert.equal(occ.employmentChange, 22700);
+	assert.equal(occ.medianAnnual, 63800);
+	assert.equal(occ.medianHourly, 30.67);
+	assert.equal(occ.percentiles.p10, 44150);
+	assert.equal(occ.percentiles.p90, 108420);
+	assert.equal(occ.employment, 510600);
+	assert.equal(occ.jobOutlookPct, 7);
+	assert.equal(occ.employmentChange, 34500);
 	assert.equal(occ.industryWages.length, 4);
 });
 
