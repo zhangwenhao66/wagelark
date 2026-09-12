@@ -21,12 +21,12 @@ Fields per entry: date, target keyword, target type, target URL, contact method,
 | 联系方式 | 邮件 info@teslamr.com（/contact/、/about/ 均公开列出的通用联系邮箱） |
 | AI 复核 | v1: ❌ 有问题（事实核查不通过，详见drafts.md）。v2: 独立复核agent `ae76e287869f1ccb9` 因平台周配额限制（HTTP 429，非内容问题，2小时后北京时间14:00重置）失败终止，未产出判定；**本人依同一六项清单自行复核替代**，六项全部通过（查重、双claim逐字核对、本站自身数据准确性、新鲜度、语气去AI味、诉求分寸），已在drafts.md明确记录本次是复核agent配额失败后的替代自查，非静默降级 |
 | 发送状态 | ✅ 已发送 2026-08-29（v2版本，Gmail msg `1a05144afbce0780`；已回读投递 From 头确认为 `WageLark <contact@wagelark.com>`） |
-| 10天后验证 | ⏳ 待 2026-09-08 之后回查（目标页面是否加上真 `<a href>` 链接 + `dataforseo_query.py backlinks wagelark.com` 确认 dofollow） |
+| 10天后验证 | `not_replaced`（2026-09-12 复核：curl目标页 `https://teslamr.com/guides/x-ray-tech-salary/` 返回200，全文无 `wagelark` 字样；`dataforseo_query.py backlinks wagelark.com` 结果里无 `teslamr.com` 匹配行） |
 
 ### 本次运行累计记账（外链记账纪律，2026-08-25起硬性）
 
 | 指标 | 数值 |
 |---|---|
 | 累计已发送 | 1 |
-| 累计已验证到手（dofollow） | 0（本轮首次发送，未到10天验证窗口） |
-| 转化率 | 待验证（首次运行，n=1，10天后才有第一个数据点） |
+| 累计已验证到手（dofollow） | 0 |
+| 转化率 | 0/1（2026-09-12 复核 Tesla MR Institute 未加链接，判定 not_replaced） |
