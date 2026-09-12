@@ -139,3 +139,105 @@ test('percentile is monotonically non-decreasing as input increases (sanity chec
 		prev = value;
 	}
 });
+
+// ---------------------------------------------------------------------------
+// Hourly <-> annual conversion helpers.
+// ---------------------------------------------------------------------------
+
+import {
+	BLS_FULL_TIME_HOURS_PER_YEAR,
+	hourlyToAnnual,
+	annualToHourly,
+	normalizeWageInput,
+	describeWagePair,
+} from './salaryPercentile.ts';
+
+test('BLS full-time convention constant is 2,080 hours (40 x 52)', () => {
+	assert.equal(BLS_FULL_TIME_HOURS_PER_YEAR, 2080);
+	assert.equal(BLS_FULL_TIME_HOURS_PER_YEAR, 40 * 52);
+});
+
+test('hourlyToAnnual: defaults to 2,080 hours', () => {
+	assert.equal(hourlyToAnnual(28.5), 59_280);
+	assert.equal(hourlyToAnnual(1), 2080);
+});
+
+test('hourlyToAnnual: rounds to whole dollars', () => {
+	// 17.333 * 2080 = 36052.64 -> 36053
+	assert.equal(hourlyToAnnual(17.333), 36_053);
+	// 34.65 * 2080 = 72072 exactly (Forensic Science Technicians' real medianHourly)
+	assert.equal(hourlyToAnnual(34.65), 72_072);
+	assert.ok(Number.isInteger(hourlyToAnnual(0.005)));
+});
+
+test('hourlyToAnnual: honours a custom hoursPerYear', () => {
+	// Half-time: 20 hours x 52 weeks.
+	assert.equal(hourlyToAnnual(28.5, 1040), 29_640);
+});
+
+test('annualToHourly: defaults to 2,080 hours', () => {
+	assert.equal(annualToHourly(59_280), 28.5);
+	assert.equal(annualToHourly(2080), 1);
+});
+
+test('annualToHourly: rounds to cents', () => {
+	// 72060 / 2080 = 34.6442... -> 34.64
+	assert.equal(annualToHourly(72_060), 34.64);
+	// 100000 / 2080 = 48.0769... -> 48.08
+	assert.equal(annualToHourly(100_000), 48.08);
+	// Never more than two decimals.
+	assert.equal(annualToHourly(94_260) * 100, Math.round(annualToHourly(94_260) * 100));
+});
+
+test('annualToHourly: honours a custom hoursPerYear', () => {
+	assert.equal(annualToHourly(29_640, 1040), 28.5);
+});
+
+test('round trip: hourly -> annual -> hourly returns the same cents value', () => {
+	for (const h of [16.12, 22.11, 28.5, 47.28, 86.16]) {
+		assert.equal(annualToHourly(hourlyToAnnual(h)), h);
+	}
+});
+
+test('normalizeWageInput: hourly mode converts to annual for the lookup and keeps cents', () => {
+	const pair = normalizeWageInput(28.5, 'hourly');
+	assert.deepEqual(pair, { annual: 59_280, hourly: 28.5, enteredAs: 'hourly' });
+});
+
+test('normalizeWageInput: hourly mode rounds the typed hourly value to cents before converting', () => {
+	const pair = normalizeWageInput(28.499, 'hourly');
+	assert.equal(pair?.hourly, 28.5);
+	assert.equal(pair?.annual, 59_280);
+});
+
+test('normalizeWageInput: annual mode leaves the typed value untouched and derives hourly', () => {
+	const pair = normalizeWageInput(72_060, 'annual');
+	assert.deepEqual(pair, { annual: 72_060, hourly: 34.64, enteredAs: 'annual' });
+	// Unrounded annual input is passed through unchanged, so the percentile
+	// lookup behaves exactly as before hourly input existed.
+	assert.equal(normalizeWageInput(72_060.4, 'annual')?.annual, 72_060.4);
+});
+
+test('normalizeWageInput: rejects zero, negatives, NaN and Infinity in both modes', () => {
+	for (const mode of ['annual', 'hourly'] as const) {
+		assert.equal(normalizeWageInput(0, mode), null);
+		assert.equal(normalizeWageInput(-5, mode), null);
+		assert.equal(normalizeWageInput(Number.NaN, mode), null);
+		assert.equal(normalizeWageInput(Number.POSITIVE_INFINITY, mode), null);
+	}
+});
+
+test('normalizeWageInput: annual-mode result feeds estimatePercentile identically to a direct call', () => {
+	const pair = normalizeWageInput(94_260, 'annual');
+	assert.ok(pair);
+	assert.deepEqual(estimatePercentile(pair!.annual, SPARSE_PERCENTILES), estimatePercentile(94_260, SPARSE_PERCENTILES));
+});
+
+test('describeWagePair: hourly entered leads with the hourly figure', () => {
+	assert.equal(describeWagePair({ annual: 59_280, hourly: 28.5, enteredAs: 'hourly' }), '$28.50/hour ≈ $59,280/year');
+});
+
+test('describeWagePair: annual entered leads with the annual figure, hourly shown to two decimals', () => {
+	assert.equal(describeWagePair({ annual: 72_060, hourly: 34.64, enteredAs: 'annual' }), '$72,060/year ≈ $34.64/hour');
+	assert.equal(describeWagePair({ annual: 2080, hourly: 1, enteredAs: 'annual' }), '$2,080/year ≈ $1.00/hour');
+});

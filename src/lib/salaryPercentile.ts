@@ -177,3 +177,68 @@ export function estimatePercentile(input: number, source: PercentileSource): Per
 	// future refactor that breaks this invariant fails loudly.
 	throw new Error('estimatePercentile: input was within known range but no segment matched -- this is a bug');
 }
+
+// ---------------------------------------------------------------------------
+// Hourly <-> annual conversion.
+//
+// BLS OEWS derives annual wages from hourly ones by assuming a full-time,
+// year-round schedule of 2,080 hours (40 hours x 52 weeks); the reverse
+// division is the same convention. bls-wages.ts carries a real published
+// medianHourly for most (not all) occupations, and the UI prefers that real
+// figure for the BLS reference number -- these helpers are only for
+// converting the *visitor's own* input and for the occupations where BLS
+// published no hourly median at all. No hourly percentiles are published in
+// this dataset, so the percentile lookup always runs on the annual figure.
+// ---------------------------------------------------------------------------
+
+/** BLS full-time, year-round convention: 40 hours x 52 weeks. */
+export const BLS_FULL_TIME_HOURS_PER_YEAR = 2080;
+
+/** Convert an hourly wage to an annual salary, rounded to whole dollars. */
+export function hourlyToAnnual(hourly: number, hoursPerYear: number = BLS_FULL_TIME_HOURS_PER_YEAR): number {
+	return Math.round(hourly * hoursPerYear);
+}
+
+/** Convert an annual salary to an hourly wage, rounded to cents. */
+export function annualToHourly(annual: number, hoursPerYear: number = BLS_FULL_TIME_HOURS_PER_YEAR): number {
+	return Math.round((annual / hoursPerYear) * 100) / 100;
+}
+
+export type WageInputMode = 'annual' | 'hourly';
+
+export interface WagePair {
+	/** Annual figure -- what estimatePercentile() is run against. */
+	annual: number;
+	/** Hourly figure, rounded to cents. */
+	hourly: number;
+	/** Which of the two the visitor actually typed. */
+	enteredAs: WageInputMode;
+}
+
+/**
+ * Accept the visitor's raw number in either mode and return both figures.
+ * Returns null for anything that isn't a positive finite number so the UI
+ * has a single validity check regardless of mode.
+ *
+ * Annual mode leaves the typed value untouched (so the percentile lookup
+ * behaves exactly as it did before hourly input existed) and derives the
+ * hourly figure; hourly mode rounds the typed value to cents and derives
+ * the whole-dollar annual figure.
+ */
+export function normalizeWageInput(value: number, mode: WageInputMode, hoursPerYear: number = BLS_FULL_TIME_HOURS_PER_YEAR): WagePair | null {
+	if (!Number.isFinite(value) || value <= 0) return null;
+	if (mode === 'hourly') {
+		const hourly = Math.round(value * 100) / 100;
+		return { annual: hourlyToAnnual(hourly, hoursPerYear), hourly, enteredAs: 'hourly' };
+	}
+	return { annual: value, hourly: annualToHourly(value, hoursPerYear), enteredAs: 'annual' };
+}
+
+const usdCents = (n: number) => `$${n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+
+/** "$28.50/hour ≈ $59,280/year" (hourly entered) or "$59,280/year ≈ $28.50/hour" (annual entered). */
+export function describeWagePair(pair: WagePair): string {
+	const annual = `${usd(pair.annual)}/year`;
+	const hourly = `${usdCents(pair.hourly)}/hour`;
+	return pair.enteredAs === 'hourly' ? `${hourly} ≈ ${annual}` : `${annual} ≈ ${hourly}`;
+}
