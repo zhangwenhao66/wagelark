@@ -380,5 +380,15 @@
     ],
     "already_indexed_no_action": [],
     "quota_used": "1 of shared account-wide daily quota"
+  },
+  {
+    "date": "2026-09-12",
+    "action": "submitted",
+    "reason": "今日新发布psychiatrist-salary，URL Inspection确认URL is not on Google，提交成功。同日plumbing-apprenticeship为content-quality-audit审计更新（BLS数据周期刷新），本轮已用掉本站名额未额外查询。",
+    "submitted_urls": [
+      "https://wagelark.com/psychiatrist-salary/"
+    ],
+    "already_indexed_no_action": [],
+    "quota_used": "1 of shared account-wide daily quota"
   }
 ]
