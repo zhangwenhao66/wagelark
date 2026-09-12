@@ -99,6 +99,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/forensic-scientist-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/funeral-director-salary-chart.svg": {
   "h": 240,
   "w": 640
@@ -213,6 +217,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/plumbing-apprenticeship-path.svg": {
   "h": 350,
+  "w": 640
+ },
+ "/images/psychiatrist-salary-chart.svg": {
+  "h": 300,
   "w": 640
  },
  "/images/psychologist-education-path.svg": {
