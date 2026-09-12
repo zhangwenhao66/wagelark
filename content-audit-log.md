@@ -1763,3 +1763,116 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "plumbing-apprenticeship",
+  "last_audited": "2026-09-12",
+  "published_date": "2026-08-12",
+  "note": "选取依据：guides.ts数组内firefighter-salary（前次审计2026-09-09）之后第一个从未被本任务审计过的条目",
+  "article_specific_checklist": [
+    "BLS median/p10/p90（$62,970/$40,670/$105,150）及行业细分四档是否仍是May 2024周期，BLS官网是否已发布May 2025新数据",
+    "就业展望数字（4%增长/22,700新增岗位/44,000年开缺）是否可溯源到当前BLS原文",
+    "本文内两处跨文章比较句（electrician-salary median $62,350、how-to-become-a-cna median $39,530）是否与这两篇姊妹文章当前的最新数据一致",
+    "immigration/licensing叙述（州执照2-5年经验+考试）是否准确",
+    "check_prose_patterns.py机械检查（'rather than'密度、FAQ与正文逐字重合）是否清零"
+  ],
+  "findings": [
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇具名引用BLS并标注数据年份，非泛泛而谈；apprenticeship.gov作为补充信源；正文解释了apprentice-to-master进阶路径等具体细节。"
+    },
+    {
+      "dimension": "事实准确性/时效性",
+      "status": "确认发现问题，独立复核CONFIRMED，已修复",
+      "detail": "curl+r.jina.ai代理直连BLS OOH plumbers-pipefitters-and-steamfitters页面（200，Last modified date: August 27, 2026），确认已发布May 2025 OEWS数据：median annual $63,800（原$62,970）、p10 $44,150（原$40,670）、p90 $108,420（原$105,150）、行业细分四档重排（Government $71,660最高不变，但Manufacturing $65,770从最低档升至第二档，原第二档Heavy/civil engineering construction $63,270降至第三，Plumbing/heating/AC contractors $63,010降至最低档）、增长率4%(2024-34)→7%(2025-35)、新增岗位22,700→34,500（BLS改用'Employment Change'口径）、年开缺44,000→42,000。雇主分布小幅变化：contractors 66%→65%、heavy/civil construction 4%→3%（government/self-employed/manufacturing不变）。独立复核agent独立curl同一页面+WebSearch交叉核实，逐项CONFIRMED。已全文刷新（coreSummary/3节正文/FAQ/sources/updated字段）。"
+    },
+    {
+      "dimension": "事实准确性（跨文章引用）",
+      "status": "确认发现问题，独立复核CONFIRMED，已修复",
+      "detail": "本文'How to go from apprentice to licensed plumber'一节比较句引用electrician-salary median为$62,350——该文已于2026-09-02刷新为$63,190（May 2025数据），本文未同步；同段引用how-to-become-a-cna median为$39,530——该文已于2026-08-31刷新为$42,260，本文未同步。独立复核agent核实两篇姊妹文章当前guides.ts实际数值，逻辑CONFIRMED（不需外部核实，纯站内一致性问题）。属`内容通用教训库.md` L-0830-2（跨文章数字引用未随源头刷新同步）在WageLark站的再次复发，已在该条目下追加复发记录。已修复两处引用为当前值。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现新问题（沿用既有站级决策）",
+      "detail": "WebSearch实测'plumbing apprenticeship pay'头部结果（ziprecruiter/indeed/chron/salary.com/glassdoor/payscale）均给出独立的'apprentice专属'时薪估算（约$21/hr，年化约$40-52k），但均为第三方众包/专有数据非政府数据；本文已明确说明BLS不单独发布apprentice工资数字（只发布occupation-wide median）。与pharmacist-salary/actuary-salary历次审计确立的站级政策一致：不采用无法逐条核验的第三方数字，保持'本页=纯BLS数据'定位，不构成需修复的问题。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "curl实测live页面：title 65字符/description 159字符，z-score分别为1.46/0.68均在正常范围（check_seo_field_stats.py），未触发离群警报；单一H1、canonical自引用正确；schema含Article/FAQPage/BreadcrumbList/Dataset/WebPage/Organization/ImageObject七种类型正确渲染；robots.txt对全部AI爬虫Allow；ads.txt正确指向pub-5245502795720653。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未发现问题，达标",
+      "detail": "99分制11维度人工核算约84/99（权威原文引语10/16、统计数据完整性13/14、可引用性12/13、结构规范性11/12、表达流畅度9/10、语义密度7/8、权威信号6/8、专业术语6/6、鲁棒性4/5、跨域连接3/4、易懂表达3/3），高于80分及格线，与本站同模板文章历史评分一致。编辑仅刷新数字未改变文章结构，分数未变化。较弱维度（权威原文引语/权威信号/跨域连接）与本站其他文章同源，非本文独有问题。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "不适用",
+      "detail": "published=2026-08-12，晚于avoid-ai-writing接入日期(2026-08-07)，不触发回填检查。本次编辑内容另行过Skill(humanizer)复核，PASS，grep确认0处em/en dash、0处AI高频词。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "BLS OOH页面curl+r.jina.ai代理200可访问（直连403为Akamai对自动化抓取的常规拦截，非链接失效，与本站历次审计经验一致）；apprenticeship.gov curl直连200可访问。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "grep确认至少8篇姊妹文章（welder-salary/how-to-become-an-electrician/hvac-certification/how-to-become-a-bartender/how-to-become-a-lineman/what-does-a-millwright-do/highest-paying-jobs-without-a-degree排行表等）正文手动锚文本真实链接到本文，非孤儿页；live页面'More in How to Become'侧栏正常展示同分类轮转文章。本文自身也有2处outbound锚文本链接到electrician-salary/how-to-become-a-cna，均grep确认目标slug真实存在。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题",
+      "detail": "编辑后seo_drift.py compare仅1条WARNING（schema内容变化，因Dataset schema随正文wage数字更新而变化，属预期），无CRITICAL级意外。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "live页面实测免责声明页脚存在；grep正文未发现收入承诺式表述（'you will earn'/'guaranteed'）、培训机构推荐、个性化职业建议。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "未发现问题",
+      "detail": "配图为站内自制时间轴SVG（/images/plumbing-apprenticeship-path.svg，Timeline diagram非BLS数据图表），非第三方图片无版权问题，不含wage数字，无需随本次数据刷新更新。"
+    },
+    {
+      "dimension": "AdSense政策合规",
+      "status": "未发现问题",
+      "detail": "ads.txt正确指向pub-5245502795720653；标题非标题党无收入承诺；privacy/about页面curl实测200；BLS数据支撑的百科式内容，非限制类目。"
+    },
+    {
+      "dimension": "YMYL专项检查",
+      "status": "未发现问题",
+      "detail": "全文未出现'你能挣到X'式承诺表述；未推荐具体培训机构/认证项目（apprenticeship.gov为官方政府资源非商业机构）；页脚免责声明存在且完整。"
+    },
+    {
+      "dimension": "机械检查（check_prose_patterns.py）",
+      "status": "确认发现问题，独立复核CONFIRMED，已修复",
+      "detail": "初次运行命中：①'rather than'密度7次/1353词（阈值>4次或>1/200词密度）；②FAQ 5条与正文≥20字符逐字重合（L-0819-9）。独立复核agent独立重读原文确认两项均为真实问题（非domain术语不可避免的重复），逐条列出具体重合短语。改写4处'rather than'降至2次（均为合理对比场景保留）；FAQ 5条经多轮改写（约3轮迭代，逐次消除新引入的重合）至与正文无≥20字符重合。最终check_prose_patterns.py退出码0。"
+    },
+    {
+      "dimension": "谷歌垃圾政策合规",
+      "status": "PASS",
+      "detail": "Skill(google-spam-compliance)三要素判定：投入[有]（自制SVG时间轴图+跨文章交叉比较+BLS原始数据整理）原创[有]（BLS数据经本站独立核实转写非转载）附加价值[有]（整合apprenticeship时长+薪资分级+执照路径于一页，非同质化）→高危信号[否]。十一类政策逐条核对全部PASS：非规模化模板滥用（'How to Become'类目22篇均有BLS原始数据支撑差异化内容，非换词模板）、无隐藏文字、无关键词堆砌、内链目标真实存在、无抓取/伪装/误导性功能问题。AdSense合规PASS。"
+    }
+  ],
+  "actions_taken": [
+    "刷新coreSummary/3节正文/5条FAQ/sources至BLS May 2025数据（median/p10/p90/行业细分/增长率/新增岗位/年开缺）",
+    "修复2处跨文章引用（electrician-salary $62,350→$63,190、how-to-become-a-cna $39,530→$42,260），系内容通用教训库L-0830-2复发，已追加复发记录",
+    "改写4处'rather than'降低密度、多轮改写5条FAQ消除与正文≥20字符逐字重合，check_prose_patterns.py退出码0",
+    "同步更新tools/bls-data/wages-source.json的47-2152条目→重新生成src/data/bls-wages.ts→更新wages-source.test.mjs对应spot-check断言，npm test 61/61（合并全量75/75）通过",
+    "npm run build 78页通过，commit 0266b24 push成功",
+    "CF Pages git自动部署本次异常延迟（>30分钟轮询未生效），改用npx wrangler pages deploy dist --project-name=wagelark直接部署成功，随后轮询线上确认新内容生效",
+    "seo_drift.py compare：仅1条WARNING（schema内容变化，预期），无CRITICAL",
+    "IndexNow提交Bing✅200/Yandex✅200，commit 29475d1 push成功",
+    "内容发布日志.md追加本条记录（标注为审计更新非新发布）",
+    "留给未来审计：highest-paying-jobs-without-a-degree排行表及7篇姊妹文章仍引用本文旧数字$62,970，按站内既有惯例（针对性修复不借机大范围重写）留给各自专属审计轮次处理"
+  ],
+  "seo_score": "技术项全部通过，title/description z-score均在正常范围，未触发离群",
+  "geo_score": "约84/99（11维度人工核算），高于80分及格线，编辑未改变结构，分数未变化",
+  "escalation": null
+}
+```
