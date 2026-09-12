@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="300" fill="white" />
+	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Psychiatrists: Median Pay vs. Other BLS-Tracked Fields</text>
+
+	<text x="138" y="80" text-anchor="end" font-size="15" fill="#14212e">Psychiatrists</text>
+	<rect x="150" y="62" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="62" width="380" height="34" fill="#0f8b7f" />
+	<text x="540" y="85" font-size="15" font-weight="700" fill="#14273f">$281,870</text>
+
+	<text x="138" y="140" text-anchor="end" font-size="15" fill="#14212e">Physicians overall</text>
+	<rect x="150" y="122" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="122" width="372" height="34" fill="#0f8b7f" />
+	<text x="532" y="145" font-size="15" font-weight="700" fill="#14273f">$275,930</text>
+
+	<text x="138" y="200" text-anchor="end" font-size="15" fill="#14212e">Optometrists</text>
+	<rect x="150" y="182" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="182" width="184" height="34" fill="#0f8b7f" />
+	<text x="344" y="205" font-size="15" font-weight="700" fill="#14273f">$136,570</text>
+
+	<text x="138" y="260" text-anchor="end" font-size="15" fill="#14212e">Psychologists</text>
+	<rect x="150" y="242" width="380" height="34" fill="#dcdad2" />
+	<rect x="150" y="242" width="127" height="34" fill="#0f8b7f" />
+	<text x="287" y="265" font-size="15" font-weight="700" fill="#14273f">$94,310</text>
+
+	<text x="150" y="290" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics. Psychiatrists and physicians overall: May 2025. Optometrists: May 2025. Psychologists: May 2024.</text>
+</svg>

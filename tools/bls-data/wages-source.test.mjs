@@ -1224,3 +1224,29 @@ test('spot check: Forensic Science Technicians (19-4092) matches BLS OOH page', 
 	assert.equal(occ.industryWages[3].industry, 'Testing laboratories and services');
 	assert.equal(occ.industryWages[3].annualWage, 49600);
 });
+
+// Psychiatrists (29-1223) is one of 17 detailed titles inside BLS's combined
+// "Physicians and Surgeons" OOH page (transcribed 2026-09-12 from
+// bls.gov/ooh/healthcare/physicians-and-surgeons.htm). Unlike Paramedics
+// above, the employment table on this page DOES break out psychiatrist-
+// specific employment/jobOutlookPct/employmentChange (30,000 -> 32,100,
+// 7%, +2,100), so employmentIsGroupLevel is not set. Only entryEducation
+// (Doctoral or professional degree -- true for every physician specialty)
+// and percentiles are blended-group figures; BLS gives one percentile range
+// for physicians and surgeons overall ($76,560 / $488,320+), not split by
+// specialty, so percentiles is left empty rather than populated with the
+// blended figure. No industry-wage table exists for psychiatrists on this
+// page, so industryWages is empty.
+test('spot check: Psychiatrists (29-1223) matches BLS OOH page', () => {
+	const occ = occupations['29-1223'];
+	assert.equal(occ.medianAnnual, 281870);
+	assert.equal(occ.medianHourly, undefined);
+	assert.deepEqual(occ.percentiles, {});
+	assert.equal(occ.employment, 30000);
+	assert.equal(occ.jobOutlookPct, 7);
+	assert.equal(occ.jobOutlookLabel, 'Much faster than average');
+	assert.equal(occ.employmentChange, 2100);
+	assert.equal(occ.entryEducation, 'Doctoral or professional degree');
+	assert.deepEqual(occ.industryWages, []);
+	assert.equal(occ.employmentIsGroupLevel, undefined);
+});

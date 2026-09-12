@@ -4985,4 +4985,79 @@ export const guides: Guide[] = [
 		image: '/images/forensic-scientist-salary-chart.svg',
 		imageAlt: 'Bar chart showing forensic science technician annual wage by percentile: 10th percentile $48,250, median $72,060, 90th percentile $117,250, based on BLS May 2025 data.',
 	},
+	{
+		slug: 'psychiatrist-salary',
+		category: 'Salary Guide',
+		title: 'Psychiatrist Salary: $281,870 Median & Job Outlook (2026 BLS)',
+		description: "BLS puts the median psychiatrist salary at $281,870 a year, above the blended physician median. It's tied for the fastest-growing physician specialty BLS tracks.",
+		published: '2026-09-12',
+		updated: '2026-09-12',
+		socCode: '29-1223',
+		coreSummary: "The U.S. Bureau of Labor Statistics reports a median annual wage of $281,870 for psychiatrists in May 2025, one of 17 detailed physician specialties it breaks out by title on its combined \"Physicians and Surgeons\" page. That figure sits above the $275,930 blended median for physicians and surgeons as a whole. BLS projects 7% employment growth for psychiatrists from 2025 to 2035, a rate that ties with dermatologists for the fastest of any physician specialty BLS lists by title on this page, adding roughly 2,100 jobs to a 2025 workforce of 30,000. BLS does not publish a psychiatrist-specific percentile wage range; the 10th-to-90th spread it does report ($76,560 to more than $488,320) covers physicians and surgeons overall, not psychiatrists alone.",
+		sections: [
+			{
+				heading: 'What psychiatrists earn, and how that compares across the physician group',
+				body: [
+					"Psychiatrists earned a median of $281,870 a year in May 2025, per BLS, which tracks the occupation under SOC code 29-1223 within its combined Occupational Outlook Handbook page for physicians and surgeons. That places psychiatrists $5,940 above the $275,930 median BLS reports for physicians and surgeons as a blended group covering dozens of specialties, from family medicine to cardiology to surgery. Among the 17 detailed physician titles BLS breaks out by name on this page, psychiatrists rank in the middle of the pack for pay: well behind top earners like pediatric surgeons ($559,030) and cardiologists ($496,010), but ahead of primary-care-oriented specialties such as family medicine physicians ($244,180) and general internal medicine physicians ($256,560).",
+					"BLS does not publish a percentile wage breakdown specific to psychiatrists on this page. The one percentile range it does report, a 10th percentile of $76,560 and a 90th percentile above $488,320, describes physicians and surgeons as a whole rather than any single specialty, so it isn't a reliable stand-in for how psychiatrist pay actually spreads. That's a real data gap compared with occupations this site tracks that get their own dedicated BLS profile page, such as [optometrists](/optometrist-salary/), where BLS reports a specialty-specific 10th percentile of $74,870 and 90th percentile of $202,180.",
+					"Against two other doctoral-track fields this site covers, the gap in psychiatrist pay is large. BLS's May 2024 figure for [physician assistants](/physician-assistant-salary/) sits at $133,260, about $148,610 below the psychiatrist median; [psychologists](/how-to-become-a-psychologist/), whose highest entry point is also a doctoral degree, come in lower still at $94,310 for the same May 2024 period. Neither comparison isolates how much of that spread traces to the length of training (a psychiatrist's path runs through medical school and residency, while a PA's runs through a two-year master's program) versus scope of practice, and BLS does not weigh those factors on this page.",
+				],
+				image: {
+					src: '/images/psychiatrist-salary-chart.svg',
+					alt: 'Bar chart comparing median annual pay: psychiatrists $281,870, physicians overall $275,930, optometrists $136,570, psychologists $94,310, per BLS.',
+				},
+			},
+			{
+				heading: 'What psychiatrists do, and how BLS separates the role from psychology',
+				body: [
+					'Per BLS, psychiatrists are physicians who diagnose and treat mental illness through a mix of personal counseling (psychotherapy), psychoanalysis, hospitalization, and medication. Psychotherapy, in BLS\'s description, involves helping a patient change behavioral patterns and work through past experiences, while psychoanalysis refers to a longer-term form of that same talk-based treatment. Because psychiatrists complete medical school, BLS notes they can prescribe medication directly to correct the chemical imbalances behind some mental illnesses, the same prescribing authority any other physician holds.',
+					"That's the dividing line BLS draws between psychiatry and psychology, a distinction this site's own [psychologist pay guide](/how-to-become-a-psychologist/) states directly: most psychologists cannot prescribe medication, though a small number of states permit it for those with added training. Psychologists typically enter the field through a master's or doctoral degree in psychology rather than a medical degree, and BLS profiles them on an entirely separate occupational page, not folded into the physicians-and-surgeons group the way psychiatrists are.",
+					"BLS also flags a related growth driver specific to this occupation: rising demand for psychiatric care and wider access to mental health services are named, on this same page, as factors supporting job growth for psychiatrists specifically, distinct from the broader aging-population explanation BLS gives for physician demand generally.",
+				],
+			},
+			{
+				heading: 'Becoming a psychiatrist: the residency structure BLS describes only in general terms',
+				body: [
+					"BLS's typical entry-level education for every physician specialty on this page, psychiatry included, is a doctoral or professional degree (an M.D. or a D.O.), following a bachelor's degree. Beyond medical school, BLS states that physicians generally spend 3 to 9 years in internship and residency programs, with the exact length varying by specialty, plus an optional 1-to-3-year fellowship for those who subspecialize. BLS does not give a psychiatry-specific number within that 3-to-9-year range on this page.",
+					"The American Board of Psychiatry and Neurology (ABPN), the certifying board for the specialty, fills in that gap: it requires a full PGY-1 year of clinical training followed by three additional years of ACGME-accredited psychiatry residency, four years in total, with the first year including at least four months in internal medicine, family medicine, or pediatrics. That four-year figure sits inside BLS's general 3-to-9-year window rather than contradicting it.",
+					'All states require physicians, psychiatrists included, to hold a license, which BLS says requires graduating from an accredited medical school, completing residency training in the relevant specialty, and passing standardized national exams; CareerOneStop is the source BLS points readers to for state-specific licensing board details. Board certification through ABPN is a separate, optional step: BLS states plainly that specialty certification is not required for physicians generally, though it notes certification may improve a physician\'s employment prospects.',
+				],
+			},
+			{
+				heading: 'Job outlook: tied for the fastest-growing physician specialty BLS tracks',
+				body: [
+					"BLS projects 7% employment growth for psychiatrists from 2025 to 2035, adding an estimated 2,100 jobs to the 30,000 already employed in 2025. Among the 17 detailed physician specialties BLS lists by title and growth rate on this page, only dermatologists match that 7% figure; every other named specialty, including cardiologists (5%), neurologists (6%), and family medicine physicians (3%), grows more slowly over the same decade. That 7% also outpaces the 4% BLS projects for physicians and surgeons as a whole and the roughly 3% average across all U.S. occupations.",
+					"BLS attributes this specialty's growth specifically to rising demand for psychiatric care and improved access to mental health services, language it uses only for psychiatrists on this page rather than for physician demand broadly. It does not, however, break out a psychiatrist-specific figure for average annual job openings the way it does for the blended physicians-and-surgeons group (about 22,100 openings a year); the site is limiting this figure to what BLS actually publishes at the psychiatrist level, the 2,100-job net change over the full 2025-35 period.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median psychiatrist salary?',
+				answer: "$281,870 a year as of May 2025, according to BLS's figures. That number comes from the by-title pay breakdown on the combined doctors-and-surgeons profile the agency keeps, one of 17 specialties BLS names individually there, and it beats the blended $275,930 figure covering every medical and surgical specialty on that page by just under $6,000.",
+			},
+			{
+				question: "What's the difference between a psychiatrist and a psychologist?",
+				answer: "A medical degree, in BLS's framing. Psychiatrists finish medical school (M.D. or D.O.), which lets them write prescriptions, and they show up on the same government pay table as dozens of other specialties within medicine. Psychologists instead complete graduate training in the field without a medical degree, get their own separate BLS occupational listing (median $94,310 for May 2024), and can't write prescriptions in the large majority of states.",
+			},
+			{
+				question: 'How long does it take to become a psychiatrist?',
+				answer: "BLS itself only offers a wide window here, 3 to 9 years of post-medical-school training that covers every branch of medicine without singling out psychiatry. The specialty's own certifying board, ABPN, is more precise: one clinical intern year followed by three further years training inside a program ACGME has accredited for this specialty, four years altogether, layered on top of undergraduate study and medical school.",
+			},
+			{
+				question: 'Do psychiatrists need board certification?',
+				answer: "Legally, no. Physicians in any field of medicine can practice on a state medical license alone, and BLS's own language treats board credentialing as optional rather than mandatory, while noting it can help someone's career prospects. ABPN runs the certifying exam for this field, a separate, voluntary step layered on top of the state licensing process BLS describes as the actual legal requirement.",
+			},
+			{
+				question: 'Is psychiatry a growing field?',
+				answer: "By BLS's count, yes, and quickly: a projected 7% jump in psychiatrist jobs over the 2025-35 decade, a pace only dermatology matches among the medical specialties the agency lists by name, and well past the roughly 3% economy-wide baseline. BLS points to more people seeking help for mental illness and easier entry into treatment as the specific reasons, not the general physician-shortage story it tells for medicine at large.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Physicians and Surgeons (accessed 2026-09-12 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026; source for the psychiatrist-specific median wage, employment figures, and growth rate, plus the blended physician-group figures and duties/licensing text)', url: 'https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm' },
+			{ label: 'American Board of Psychiatry and Neurology: Psychiatry specialty-exam requirements (accessed 2026-09-12, independently confirmed the four-year residency structure BLS does not break out by specialty on its own page)', url: 'https://abpn.org/become-certified/taking-a-specialty-exam/psychiatry/' },
+		],
+		image: '/images/psychiatrist-salary-chart.svg',
+		imageAlt: 'Bar chart comparing median annual pay: psychiatrists $281,870, physicians overall $275,930, optometrists $136,570, psychologists $94,310, per BLS.',
+	},
 ];

@@ -2241,5 +2241,23 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Genetic Counselors",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/genetic-counselors.htm",
 		publishedDate: "2026-08-27"
+	},
+	"29-1223": {
+		socCode: "29-1223",
+		title: "Psychiatrists",
+		medianAnnual: 281870,
+		percentiles: {},
+		employment: 30000,
+		employmentYear: "2025",
+		jobOutlookPct: 7,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 2100,
+		projectionPeriod: "2025-35",
+		entryEducation: "Doctoral or professional degree",
+		industryWages: [],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Physicians and Surgeons (accessed 2026-09-12 via direct fetch with a UA string carrying a declared contact URL, returned 200, last modified August 27, 2026). Psychiatrists (SOC 29-1223) is one of 17 detailed titles BLS tracks within the combined \"Physicians and Surgeons\" page. The employment table gives psychiatrist-specific figures (30,000 jobs in 2025, projected 32,100 by 2035, 7% growth, +2,100 change) and the Pay section gives a psychiatrist-specific median annual wage ($281,870, May 2025) in its by-title breakdown -- both used here. But BLS gives only one blended entry-level-education value (Doctoral or professional degree) and one blended percentile range (10th percentile $76,560, 90th percentile $488,320+) for physicians and surgeons overall, not broken out by specialty; percentiles is left empty rather than populated with the blended figure, and entryEducation uses the blended value since an MD/DO is required for every physician specialty regardless. BLS does not publish an industry-specific wage table for psychiatrists on this page, so industryWages is empty.",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm",
+		publishedDate: "2026-08-27"
 	}
 };
