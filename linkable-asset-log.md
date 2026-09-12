@@ -88,3 +88,23 @@ Not re-evaluated — the 8/29 conclusion (not Reddit-ready without a standalone 
 ### Distribution count
 
 2/10 targets pitched (thebluecollarrecruiter.com 8/29 + resumegenius.com 9/1). Still below the ≥10 saturation bar — continue distribution on future runs.
+
+---
+
+## 2026-09-12 (distribution pass #3, capacity-concentration rule)
+
+**Site selection**: WageLark ranked #2 of the non-suppressed top-3 this run (328 11-30-position impressions over 28 days, behind UmberLore's 563), per the same recomputation as UmberLore's 2026-09-12 log entry above.
+
+**Order of work**: continued distribution of the one published asset (highest-paying-jobs-without-a-degree; distribution count 2/10 going in) rather than building a new one.
+
+**Step 2**: WebSearch `"wagelark.com" OR "highest-paying-jobs-without-a-degree"` — no results referencing the site. No recovery opportunity this round.
+
+**Step 3**: found Apollo Technical (apollotechnical.com), a real IT/engineering staffing agency with a live "50 Top High-Paying Jobs Without a Degree" post. Drafted a pitch offering WageLark's BLS dataset as a cross-check. Independent review agent caught a real problem before this went any further: the CSV file the email promotes (`public/data/highest-paying-jobs-without-a-degree.csv`) was still showing May 2024 BLS figures ($144,580 for Air Traffic Controllers) while the page's own prose had already been refreshed to May 2025 ($148,080) by an unrelated content-freshness commit — the CSV was simply never regenerated. Fixed: regenerated all 29 CSV rows from `tools/bls-data/wages-source.json` by SOC code (same occupation set, refreshed wage/percentile/year fields, re-sorted by updated median). `npm test` (76/76) and `npm run build` passed; committed (`5c2d75b`) and pushed; deployed and verified live via cache-busted curl. The email text itself needed no change — it already quoted the current figures.
+
+**Step 3.5**: not re-evaluated — 8/29 conclusion stands.
+
+**Not sent**: withheld per the SES migration freeze (see `独立站/待Owen处理事项.md`). Content is clean (would be CAN SEND once the CSV was fixed, which it now is) but sending is held regardless. Drafted, stored in `outreach-drafts.md`, marked `drafted_blocked_by_ses_migration`.
+
+**Distribution count**: 2/10 sent + 1/10 drafted-and-fixed-but-withheld = 3 targets. Still below the ≥10-target saturation bar.
+
+**Site-maintenance note (out of this task's normal scope but fixed in passing since it was found blocking a pitch)**: the same staleness could affect other CSVs on the matrix that were generated once at publish time and never regenerated after a later data refresh — worth a spot-check next time `content-quality-audit` or a data-freshness pass touches a site with a downloadable-CSV asset.

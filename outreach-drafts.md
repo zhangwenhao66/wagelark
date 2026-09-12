@@ -893,3 +893,29 @@ contact@wagelark.com
 **Status: `drafted_blocked_by_ses_migration`**——内容已通过独立复核，随时可发，仅等待Owen完成SES迁移（或明确指示继续走Mailjet）。不重复写入`待Owen处理事项.md`，因为该文档已有覆盖全矩阵14域名的同一条目，本站不需要单独重复记录。
 
 **Status: `drafted_blocked_by_ses_migration`。** 未调用`gmail_send.py send`（本次运行邮件发送硬性暂停，见任务说明）。草稿完整存档于此，供SES迁移完成后下一轮直接发送，或Owen手动发送。
+
+---
+
+## Pitch — Apollo Technical (info@apollotechnical.com) — 2026-09-12 distribution pass #3
+
+Status: DRAFTED, pending independent review.
+
+Subject: BLS data on no-degree jobs, if it's useful for your rankings
+
+Hi,
+
+I saw Apollo Technical's list of high-paying jobs without a degree. I run WageLark, a career-data site, and we track BLS wage figures for 48 occupations, tagged by minimum education requirement.
+
+Air traffic controller tops the no-degree group at a median $148,080 (BLS, May 2025). That's higher than all but five of the other occupations we track, and every one of those five requires a bachelor's degree or higher. 29 of the 48, or 60%, don't require a degree at all.
+
+Full ranking with BLS source links and a CSV download: https://wagelark.com/highest-paying-jobs-without-a-degree/. Feel free to cite or link to it if it's a useful cross-check against your own numbers.
+
+Best,
+Owen
+WageLark
+
+**Verification notes**: Apollo Technical (apollotechnical.com) is a real IT/engineering staffing agency (Smyrna, GA; phone 404.474.4571) with a live "50 Top High-Paying Jobs Without a Degree" post (found via WebSearch `highest paying jobs without a college degree 2026 BLS blog author contact`), directly on-topic. Contact `info@apollotechnical.com` confirmed live via `curl` on their contact page. Dedup: `gmail_send.py list --query "to:apollotechnical.com"` → empty; `grep -ril "apollotechnical" 独立站/` → no prior contact. Numbers re-verified against the live page (`?cb=$RANDOM` cache-bust) before drafting: 48 occupations, $148,080 median for air traffic controllers (May 2025 BLS), "29, or 60%" no-degree — all current, not the stale 8/29 publish-log snapshot (per the lesson recorded in the 2026-09-01 entry above).
+
+**Independent review agent caught a real problem**: the email promotes the downloadable CSV as a source for Apollo Technical to "cross-check your own numbers," but the live CSV (`public/data/highest-paying-jobs-without-a-degree.csv`) was still showing May 2024 figures ($144,580 for Air Traffic Controllers) while the page's own prose had already been refreshed to May 2025 ($148,080) by an unrelated content-freshness commit — the CSV was simply never regenerated when that happened. Fixed by regenerating all 29 CSV rows from the current `tools/bls-data/wages-source.json` (same occupation set and page URLs, refreshed wage/percentile/year fields, re-sorted by updated median). `npm test` (76/76) and `npm run build` passed; committed (`5c2d75b`) and pushed; deployed and verified live via cache-busted curl (CSV row 1 now reads `148080,...,May 2025`). The email text itself needed no change since it already quoted the current, correct figures — only the linked file was stale.
+
+**Status: ⛔ NOT SENT this run — blocked by the SES migration freeze** (see `独立站/待Owen处理事项.md` "SES迁移期间..." and `独立站/邮件发信基础设施迁移_AWS_SES_20260907.md`). As of this run, the 14 matrix domains' Gmail "Send mail as" still routes through Mailjet, which Mailjet has told Owen it no longer permits for this use. Sending now risks the same silent-failure/account-risk pattern already seen on `--from alpha`. Content-wise this pitch is now clean (independent review verdict would be CAN SEND once the stale-CSV issue above is fixed — not re-run since sending is withheld regardless). Marked `drafted_blocked_by_ses_migration`; send once Owen completes the SES cutover (see the todo doc) and a task re-verifies with a fresh independent review pass (the CSV fix should be re-confirmed live at send time, not just at draft time).
