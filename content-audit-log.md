@@ -1903,3 +1903,103 @@
 **验证**：`npm run build`每批commit前均执行，81页全部构建成功，无语法错误。构建产物已push到`origin/main`（5次push均成功，`git pull --rebase`前均已确认无冲突；过程中发现该仓库确实存在其他自动化任务并发修改`guides.ts`的情况——两次行号计算出现漂移，已改为"当场重新grep行号+原子化脚本一次性完成计算+校验+写入"规避，未造成任何内容误插入或覆盖）。
 
 线上生效抽查（绕缓存`curl "https://wagelark.com/<slug>/?cb=$RANDOM"`，5篇随机抽查全部命中）：electrician-salary（"two-year degree program"✓）、pharmacist-salary（"basically a doctor"✓）、crna-salary（"How many years does it take to become a CRNA"✓）、medical-assistant-salary（"basically a nurse"✓）、optometrist-salary（"optometrist or ophthalmologist"✓）。Cloudflare Pages部署延迟未构成问题，抽查时已全部生效。
+
+```json
+{
+  "url_slug": "how-much-do-flight-attendants-make",
+  "last_audited": "2026-09-13",
+  "published_date": "2026-08-03",
+  "diagnostic_focus": [
+    "1. BLS数据年份漂移——本文2026-08-03发布/2026-08-12更新，超一个月未复查，须直接curl BLS原始页面确认是否已滚动到更新年份数据",
+    "2. 中位数/10th/90th百分位+两个行业中位数（nonscheduled/scheduled air）+就业人数+增长率+预测周期，全部具体数字须逐一核实",
+    "3. U.S.News 25th/75th百分位引用——已知'未能对照BLS原始表格独立核实'的历史注记，须确认该注记本身是否仍准确（是否该年份也已过期）",
+    "4. SVG图表（flight-attendant-salary-chart.svg）条形宽度是否与数字保持正确比例，图表是渲染死数据非动态生成",
+    "5. 本文2026-08-03发布，早于2026-08-30机械散文检查规则(check_prose_patterns.py)上线，此前从未接受过该项检查"
+  ],
+  "findings": [
+    {
+      "dimension": "EEAT",
+      "status": "未发现问题",
+      "detail": "全篇数字均标注BLS来源+具体口径（industry breakdown/percentile split），无泛泛而谈。"
+    },
+    {
+      "dimension": "事实准确性/时效性（合并，重大发现）",
+      "status": "发现重大时效性问题（已修复）",
+      "detail": "直接curl `bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm`确认BLS已把该职业数据从May 2024滚动更新到May 2025：中位数$67,130→$63,580（-5.3%）、10th百分位$34,030→$35,110、90th百分位$138,040→$136,430、Nonscheduled air中位数$77,060→$70,700、Scheduled air $67,620→$63,570、就业人数130,800(2024)→133,700(2025)、预测周期2024-34→2025-35。BLS官方叙述框架也变了：不再强调'十年净增X个岗位'，改为同时给出净增数字（Employment Change表格）和'每年约X个岗位空缺（含离职补充）'两套口径。全部数字改动均来自本次直接curl原始BLS页面获得，非训练记忆。"
+    },
+    {
+      "dimension": "竞品差异化",
+      "status": "未发现新问题，既有注记已同步更新",
+      "detail": "U.S.News 25th/75th百分位引用（$52,280/$98,160）本身也是旧年度（2024）数据，且经独立复核agent两次尝试直连U.S.News页面均连接失败（无法确认该站是否已更新），措辞从'与BLS完全一致'改为如实注明'基于上一年度BLS中位数、未对照本次更新核实'，避免过时数字被包装成'验证一致'。"
+    },
+    {
+      "dimension": "SEO技术审计",
+      "status": "未发现问题",
+      "detail": "description因数字更新同步改动（属预期），title/H1/canonical未变，`seo_drift.py compare`确认无CRITICAL。"
+    },
+    {
+      "dimension": "GEO审计",
+      "status": "未重新打分",
+      "detail": "本次为数字级更新非结构性改动，未运行完整ai-seo skill重新打分。"
+    },
+    {
+      "dimension": "早期内容AI味补漏",
+      "status": "未发现新问题",
+      "detail": "本文已在此前审计历史中多次处理过AI味相关问题（见content-audit-log历史记录，如'rather than'密度/内链锚文本重复），本次改动范围限于数字更新，未引入新的AI味特征。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现新问题",
+      "detail": "bls.gov来源200可访问（本次即通过curl成功抓取该页面获得新数据）；U.S.News来源本次尝试连接失败（同独立复核agent的结果），判定为该站点的访问限制而非真实404，sources标签已如实注明访问限制历史。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "`internal_link_audit.py --site wagelark`未将本文列入0入链或临门页≤1入链名单。"
+    },
+    {
+      "dimension": "Schema数据一致性",
+      "status": "未发现问题（预期内变化）",
+      "detail": "`seo_drift.py compare`提示schema内容变化+meta description变化，均因本次数字更新导致，属预期内，无CRITICAL（canonical/H1/HTTP状态未变）。"
+    },
+    {
+      "dimension": "合规/敏感度漂移",
+      "status": "未发现问题",
+      "detail": "纯BLS工资数据陈述，无新增争议性内容。"
+    },
+    {
+      "dimension": "配图可用性与版权",
+      "status": "发现真实问题（已修复）",
+      "detail": "`flight-attendant-salary-chart.svg`是本站自制SVG（非第三方版权图），但条形图数据仍是旧数字（$34,030/$67,130/$138,040），与本次更新后的正文不一致。已重新计算三根条形的宽度比例（按新数字相对90th百分位的占比）+更新全部文字标签+来源脚注年份，重新验证线上SVG渲染正确。"
+    },
+    {
+      "dimension": "AdSense政策合规风险",
+      "status": "未发现问题",
+      "detail": "纯统计数据陈述，无限制类目/误导性内容。"
+    },
+    {
+      "dimension": "机械散文四项检查",
+      "status": "发现问题（已修复）",
+      "detail": "`check_prose_patterns.py`：rather-than密度合规（未触发）；FAQ与正文≥20字符逐字重合，初次7条（部分因本次改写引入，部分因本文早于2026-08-30该规则上线、此前从未接受过此检查）。迭代约10轮重写措辞（含2轮因我自己新写的表述在body/FAQ间再次重合），最终`EXIT 0`。"
+    },
+    {
+      "dimension": "谷歌垃圾政策合规检查",
+      "status": "未发现问题",
+      "detail": "非模板化内容，数据更新为真实信息刷新非规模化操作，PASS。"
+    }
+  ],
+  "actions_taken": [
+    "更新tools/bls-data/wages-source.json（SOC 53-2031，数据源头文件）全部字段为May 2025 BLS数据",
+    "node tools/bls-data/build-wage-data.mjs重新生成src/data/bls-wages.ts（GENERATED FILE，未手改）",
+    "重绘public/images/flight-attendant-salary-chart.svg（条形宽度比例+文字标签+来源年份）",
+    "改写guides.ts该文章的description/coreSummary/两段正文/4条FAQ/2条sources/imageAlt，全部数字同步+软化U.S.News旧数据引用的表述",
+    "独立复核agent发现employmentChange字段错误（我估算12,000，BLS实际直接发布11,800），已改正三处（wages-source.json/bls-wages.ts/wages-source.test.mjs新增断言）+正文/FAQ同步补充这一确认后的精确数字",
+    "check_prose_patterns.py迭代修复至EXIT 0",
+    "npm test 92/92、npm run build 81页0报错、seo_drift baseline/compare（仅预期内WARNING）、git commit 0cf42d0 push、绕缓存curl确认线上生效（含SVG图表）、IndexNow提交（Bing 200/Yandex 202）",
+    "内容发布日志.md已追加本次审计记录"
+  ],
+  "seo_score": "未重新打分（数字级更新，非结构性问题）",
+  "geo_score": "未重新打分（数字级更新，非结构性问题）",
+  "escalation": "无——未发现需要推翻核心结论的问题，无需更新作战数据台待办"
+}
+```
