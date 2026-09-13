@@ -115,6 +115,14 @@ export const guides: Guide[] = [
 				question: 'Is dental hygiene a growing field?',
 				answer: 'Yes. BLS projects 7% employment growth for dental hygienists from 2024 to 2034, which it classifies as much faster than the average for all occupations, about 15,500 additional positions over the decade.',
 			},
+			{
+				question: 'How long does it take to become a dental hygienist?',
+				answer: 'BLS lists an associate\'s degree as the typical entry-level education for dental hygienists, generally understood as about two years of full-time study, the standard length of an associate degree, though BLS does not itself state an exact number of years on this page.',
+			},
+			{
+				question: 'Who gets paid more, RN or RDH?',
+				answer: 'The two are close, per BLS\'s May 2024 data: dental hygienists had a median of $94,260, just above the $93,600 median for registered nurses reported on this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey for the same year, though the two occupations require different entry credentials: an associate\'s degree for dental hygienists versus a bachelor\'s, associate\'s, or diploma path for registered nurses.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Dental Hygienists (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/dental-hygienists.htm' },
@@ -170,6 +178,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is actuarial science a growing field?',
 				answer: 'BLS projects 22% employment growth for actuaries from 2024 to 2034, which it classifies as much faster than the average for all occupations, adding about 7,300 jobs over the decade.',
+			},
+			{
+				question: 'Who earns more, a CPA or an actuary?',
+				answer: 'BLS reports a higher median for actuaries: $125,770 in May 2024, versus $81,680 for the broader "accountants and auditors" category BLS tracks, the closest comparison available since BLS does not publish separate wage data for CPAs specifically; that category includes accountants who are not CPAs alongside those who are. The gap widens further out on the pay scale: the top 10% of actuaries earned more than $206,430, compared with $141,420 for the top 10% of accountants and auditors.',
 			},
 		],
 		sources: [
@@ -236,6 +248,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Is pharmacy a growing field?',
 				answer: 'BLS projects 5% employment growth for pharmacists from 2024 to 2034, faster than the average for all occupations, adding roughly 15,400 jobs over the decade.',
+			},
+			{
+				question: 'Do pharmacists make a lot of money?',
+				answer: 'Relative to the broader labor market, yes. BLS puts the median pharmacist salary at $137,480 for May 2024, compared with a $49,500 median across all U.S. occupations that same year, meaning a typical pharmacist earned roughly 2.8 times the typical U.S. worker. That comparison describes national medians, not what any individual pharmacist earns after accounting for setting, region, or hours.',
+			},
+			{
+				question: 'Is a pharmacist basically a doctor?',
+				answer: 'Not in the medical sense. Pharmacists hold a Doctor of Pharmacy (PharmD), a professional doctoral degree, per BLS and the American Association of Colleges of Pharmacy (AACP), both already cited on this page. A PharmD is a different credential from the MD or DO a physician holds. Pharmacists are licensed by state pharmacy boards to dispense medication, check for drug interactions, and counsel patients on proper use, rather than to diagnose conditions or perform medical procedures.',
 			},
 		],
 		sources: [
@@ -405,6 +425,10 @@ export const guides: Guide[] = [
 			{
 				question: 'What are the main actuarial specialties?',
 				answer: 'Five main tracks: health insurance, life insurance, property and casualty insurance, pension and retirement benefits, and enterprise risk management. Actuaries typically specialize based on which professional exams they sit for as they progress through certification.',
+			},
+			{
+				question: 'Is actuary a high-paying career?',
+				answer: 'Relative to the broader labor market, yes. BLS puts the median actuary salary at $125,770 for May 2024, compared with a $49,500 median across all U.S. occupations the same year, meaning a typical actuary earned roughly two and a half times the typical U.S. worker. Pay also varies substantially within the occupation itself: BLS reports a range from under $75,240 at the 10th percentile to over $206,430 at the 90th, reflecting the profession\'s multi-year, exam-based credentialing system more than any single employer or industry factor.',
 			},
 		],
 		sources: [
@@ -705,6 +729,14 @@ export const guides: Guide[] = [
 				question: 'What year is the BLS OEWS data on this page from?',
 				answer: "This guide cites the U.S. Bureau of Labor Statistics Occupational Outlook Handbook page for radiologic and MRI technologists, which draws on Occupational Employment and Wage Statistics (OEWS) data from May 2024, the most recent year BLS had published as of this guide's last update. BLS's OEWS program also tracks total nationwide employment for the occupation, but this page reports the median wage, percentile spread, and projected job growth figures above rather than a separate current employment headcount.",
 			},
+			{
+				question: 'How long does it take to become a radiology tech?',
+				answer: 'BLS lists an associate\'s degree as the typical entry-level education for radiologic technologists, a credential that generally takes about two years of full-time study, combining coursework in anatomy, radiation physics, and patient care with supervised clinical hours. BLS does not itself state an exact number of years on this page; two years reflects the standard length of an associate degree generally, the same convention this site uses for other associate-degree occupations such as diagnostic medical sonography.',
+			},
+			{
+				question: 'Which pays more, an RN or a radiology tech?',
+				answer: 'Registered nurses earned more in May 2024: a median of $93,600, per BLS data cited on this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $77,660 for radiologic technologists and technicians the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey, though the two occupations sit on separate Handbook pages with different typical entry-level education: a bachelor\'s, associate\'s, or diploma path for RNs versus an associate\'s degree for radiologic technologists.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
@@ -774,6 +806,10 @@ export const guides: Guide[] = [
 				question: 'How does CRNA pay compare to nurse practitioner or nurse midwife pay?',
 				answer: 'BLS reports a May 2024 median annual wage of $223,210 for nurse anesthetists, compared with $129,210 for nurse practitioners and $128,790 for nurse midwives, the two other roles covered on the same BLS occupational page.',
 			},
+			{
+				question: 'How many years does it take to become a CRNA?',
+				answer: 'Combining the steps BLS and the field\'s accrediting body describe: a bachelor\'s degree in nursing, BLS\'s stated minimum of one year of experience as a registered nurse in a critical care setting before applying, and a nurse anesthesia doctoral program that the Council on Accreditation of Nurse Anesthesia Educational Programs (COA), already cited on this page, requires to run at least 36 months, adds up to a minimum of roughly eight years. In practice the timeline often runs longer, since many applicants build several years of ICU experience before applying and some programs take longer than the 36-month floor.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm' },
@@ -841,6 +877,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Can nurse practitioners practice without a supervising physician?',
 				answer: 'It depends entirely on the state. The American Association of Nurse Practitioners classifies a majority of states as granting "full practice authority," while the rest require some form of physician collaboration or supervision. Reported counts vary by source and change through legislation fairly regularly, so a specific state\'s current status is best confirmed through AANP\'s state practice environment map rather than a fixed count in any one article.',
+			},
+			{
+				question: 'How many years does it take to become a nurse practitioner?',
+				answer: 'BLS does not publish one combined total; it describes the path in stages. Nurse practitioners must first hold a registered nursing license, and most programs prefer candidates who already have a bachelor\'s degree in nursing, before completing a graduate program of at least a master\'s degree in an advanced practice nursing specialty that includes both coursework and supervised clinical hours. Based on typical program lengths, a four-year bachelor\'s degree followed by a master\'s- or doctoral-level nurse practitioner program, sources outside BLS commonly put the full path at roughly six to eight years from the start of a nursing degree, though the exact timeline depends on the school, prior RN experience, and full-time versus part-time study.',
 			},
 		],
 		sources: [
@@ -927,6 +967,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is physician assistant a growing career?',
 				answer: 'BLS projects 20% employment growth for physician assistants from 2024 to 2034, classified as much faster than average, adding an estimated 33,200 jobs.',
+			},
+			{
+				question: 'Is a PA program a two-year degree?',
+				answer: 'Not exactly. BLS states that physician assistant programs typically require at least two years of postbaccalaureate study, so the graduate program itself runs close to two years, but it awards a master\'s degree, not the associate degree most people mean by a "two-year degree." Getting in also generally requires already holding a bachelor\'s degree and some patient-care experience beforehand, so the total time invested runs well past two years once that undergraduate and pre-PA experience is counted.',
 			},
 		],
 		sources: [
@@ -1407,6 +1451,14 @@ export const guides: Guide[] = [
 				question: 'Is respiratory therapy a growing field?',
 				answer: 'Yes. BLS expects roughly 16,800 additional jobs in this field between 2024 and 2034, a 12% jump that outpaces the economy-wide average of about 3%. It also projects roughly 8,800 annual job openings on average, with most driven by people leaving the field or retiring, not by newly created roles.',
 			},
+			{
+				question: 'How long does it take to become a respiratory therapist?',
+				answer: 'BLS lists an associate\'s degree as the typical entry-level education, generally about two years of full-time study combining coursework in human anatomy and physiology with supervised clinical hours, though BLS notes some employers prefer candidates who hold a bachelor\'s degree instead.',
+			},
+			{
+				question: 'Do respiratory therapists make more than RNs?',
+				answer: 'No, per BLS\'s May 2024 data. Registered nurses had a higher median that year, $93,600 per BLS data cited on this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $80,450 for respiratory therapists. Both figures are national medians from BLS\'s Occupational Employment and Wage Statistics survey; actual pay for either role varies by setting and region.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Respiratory Therapists (accessed 2026-08-10 via Wayback Machine snapshot of 2026-07-18, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/respiratory-therapists.htm' },
@@ -1482,6 +1534,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is electrician a growing occupation?',
 				answer: "Yes — BLS expects the electrician workforce to expand 9% between 2025 and 2035, well above the roughly 3% rate projected economy-wide. That works out to about 75,900 additional positions and roughly 72,700 openings a year on average, mostly from workers leaving the occupation rather than newly created jobs.",
+			},
+			{
+				question: 'Is becoming an electrician a two-year degree program?',
+				answer: 'No. BLS lists no postsecondary degree at all as electricians\' typical entry-level education, just a high school diploma or equivalent. Most electricians train through a 4- or 5-year apprenticeship that combines paid on-the-job work with classroom instruction, a longer and differently structured path than a two-year associate degree, even though people sometimes assume trade training runs on the same timeline as a community-college program.',
 			},
 		],
 		sources: [
@@ -1782,6 +1838,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is welding a growing occupation?',
 				answer: 'BLS projects 2% employment growth for welders, cutters, solderers, and brazers from 2024 to 2034, slower than the roughly 3% average across all occupations, adding an estimated 9,900 jobs. Despite the limited growth, BLS still projects about 45,600 openings a year on average, mostly from workers leaving the occupation rather than newly created positions.',
+			},
+			{
+				question: 'Can you make $100,000 a year as a welder?',
+				answer: 'Not typically, per national BLS data. The top 10% of welders, cutters, solderers, and brazers earned more than $75,850 a year in May 2024, the highest decile BLS publishes for the occupation, still short of $100,000. Specialty trade contractors, the highest-paying of the three industries BLS tracks for this occupation, had a median of just $57,310. BLS\'s wage data reflects the broad occupation as surveyed nationally; it does not break out highly specialized, higher-hazard niches such as underwater or pipeline welding separately.',
 			},
 		],
 		sources: [
@@ -2915,6 +2975,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is software development a growing career?',
 				answer: "Yes, per the BLS Employment Projections program's National Employment Matrix, which breaks the Handbook's combined 15% growth figure out by occupation. Software developers specifically are projected to grow 15.8% from 2024 to 2034, adding an estimated 267,700 jobs to the roughly 1,693,800 already working in 2024, both figures BLS itself classifies as much faster than the roughly 3% average projected across all occupations.",
+			},
+			{
+				question: 'Can software developers make $300,000 a year?',
+				answer: 'BLS\'s own wage data tops out below that figure: the highest-earning 10% of software developers made more than $211,450 in May 2024, the top percentile BLS reports for the occupation. BLS\'s Occupational Employment and Wage Statistics survey measures cash wages reported by employers; it does not capture total compensation packages that include equity or stock awards, which some large technology employers add on top of base pay and which are not reflected in this figure.',
 			},
 		],
 		sources: [
@@ -4071,6 +4135,10 @@ export const guides: Guide[] = [
 				question: 'How do you become an MRI technologist?',
 				answer: "BLS lists an associate's degree as the typical entry-level education. Separately from BLS, the American Registry of Radiologic Technologists (ARRT) administers the field's MR credential through two routes: a primary pathway via an ARRT-approved MRI educational program, or a post-primary pathway that requires already holding an ARRT certification in radiography, nuclear medicine technology, radiation therapy, or sonography, plus 16 hours of structured MRI education, 125 documented MRI procedure repetitions, and a passing exam score.",
 			},
+			{
+				question: 'How long does it take to become an MRI technologist?',
+				answer: 'There is no single fixed timeline. BLS lists an associate\'s degree as the typical entry-level education for radiologic and MRI technologists, generally about two years of full-time study. Most MRI technologists start out as radiologic technologists first: BLS states MRI technologists typically need less than five years of experience in a related occupation, most often gained working as a radiologic technologist, before qualifying for the ARRT\'s MRI-specific credential through its post-primary pathway.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists, SOC 29-2035 (accessed 2026-08-29 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
@@ -4208,6 +4276,10 @@ export const guides: Guide[] = [
 			{
 				question: 'How do you become a radiation therapist?',
 				answer: "Per BLS, entering the field typically calls for a two- or four-year degree centered on this specialty, plus whatever a given state requires for a license to practice, usually clearing a national exam. This site separately confirmed the credentialing group behind that exam, ARRT, and its primary route calls for a qualifying two-year-or-higher degree, completing ARRT-approved coursework in the field, and clearing its own ethics and exam components.",
+			},
+			{
+				question: 'Who gets paid more, RN or radiation therapist?',
+				answer: 'Radiation therapists earned more, per BLS\'s May 2025 data: a median of $105,310, compared with $97,550 for registered nurses the same year, both drawn from BLS\'s Occupational Employment and Wage Statistics survey. The two occupations sit on separate BLS Handbook pages with different typical entry-level education: a two- or four-year degree for radiation therapists versus a bachelor\'s, associate\'s, or diploma path for registered nurses.',
 			},
 		],
 		sources: [
