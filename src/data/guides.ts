@@ -494,6 +494,10 @@ export const guides: Guide[] = [
 				question: 'What education do you need to become a paralegal?',
 				answer: 'Most positions require an associate degree in paralegal studies, or a bachelor\'s degree in another field plus a paralegal certificate program. Some employers will train a bachelor\'s-degree hire on the job for specific practice areas.',
 			},
+			{
+				question: 'Is paralegal a high-paying job?',
+				answer: 'Relative to the broader labor market, somewhat above it. BLS puts the median paralegal and legal assistant salary at $61,010 for May 2024, compared with a $49,500 median across all U.S. occupations that same year, meaning a typical paralegal earned roughly 23% more than the typical U.S. worker. Pay varies substantially by employer type on this page\'s own breakdown, so that comparison describes national medians rather than what any individual paralegal earns.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm' },
@@ -1121,6 +1125,10 @@ export const guides: Guide[] = [
 				question: 'Is pharmacy technician a growing occupation?',
 				answer: 'BLS projects 6% employment growth for pharmacy technicians from 2024 to 2034, faster than the average for all occupations, adding a net 31,500 jobs. BLS separately projects about 49,000 average annual job openings once the decade is averaged out, though most of those openings come from replacing technicians who leave the occupation rather than from new positions.',
 			},
+			{
+				question: 'Who gets paid more, CNA or pharmacy tech?',
+				answer: 'Pharmacy technicians earned slightly more: a median of $43,460 for May 2024, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, since BLS refreshes occupations on its own schedule, so this is a close comparison rather than an exact same-year one.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Pharmacy Technicians (accessed 2026-08-05, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm' },
@@ -1187,6 +1195,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is dental assisting a growing occupation?',
 				answer: 'BLS projects 6% employment growth for dental assistants from 2024 to 2034, faster than the average for all occupations, adding a net 24,400 jobs. BLS separately projects about 52,900 average annual job openings once the decade is averaged out. Most of those openings come from replacing assistants who leave the occupation, not from newly created positions.',
+			},
+			{
+				question: 'Who gets paid more, CNA or dental assistant?',
+				answer: 'Dental assistants earned more: a median of $47,300 in May 2024 for dental assistants, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, so this is a close comparison rather than an exact same-year one.',
 			},
 		],
 		sources: [
@@ -3217,6 +3229,10 @@ export const guides: Guide[] = [
 				question: "What's the difference between a millwright and an industrial machinery mechanic?",
 				answer: 'Both are tracked under the same combined BLS occupation, but the work differs. Per BLS, millwrights install new machines, and disassemble, move, and reassemble them, often using cranes, forklifts, and precision-measuring tools on large projects. Industrial machinery mechanics instead diagnose and repair machines that are already running, using technical manuals and computerized diagnostic tools to trace a problem, such as a vibration, back to a specific cause before taking the machine apart to fix it. Millwrights typically train through a 3- to 4-year apprenticeship, while industrial machinery mechanics typically receive more than a year of on-the-job training, sometimes alongside a 2-year associate\'s degree.',
 			},
+			{
+				question: 'What qualifications do I need to be a millwright?',
+				answer: 'Per BLS, entry qualifications are a minimum age of 18, a high school diploma or equivalent, and being physically able to do the work. From there, most millwrights learn the trade through a 3- or 4-year apprenticeship sponsored by employers, local unions, contractor associations, or state labor departments, combining at least 144 hours of related technical instruction per year with up to 2,000 hours of paid on-the-job training.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (accessed 2026-08-23 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm' },
@@ -3505,6 +3521,10 @@ export const guides: Guide[] = [
 			{
 				question: "What's the difference between a bookkeeper and an accountant?",
 				answer: "BLS tracks them as separate occupations with different entry requirements and pay. Bookkeepers typically need some college coursework but no degree, and BLS reports a $49,210 median wage. Accountants typically need a bachelor's degree and BLS reports an $81,680 median, a gap of more than $32,000. BLS describes bookkeepers as recording and organizing financial data, while accountants additionally examine financial statements for compliance, compute taxes, and inspect accounting systems for fraud risk.",
+			},
+			{
+				question: 'Do bookkeepers make a lot of money?',
+				answer: 'Not especially, relative to the broader labor market. BLS puts the median wage for bookkeeping, accounting, and auditing clerks at $49,210 for May 2024, just under the $49,500 median BLS reports across all U.S. occupations that same year, essentially in line with a typical U.S. worker\'s pay.',
 			},
 		],
 		sources: [
@@ -4605,6 +4625,10 @@ export const guides: Guide[] = [
 				question: 'Is school counseling a growing career?',
 				answer: "BLS pegs the growth rate for this decade at roughly on pace with the broader labor market, translating into over eleven thousand additional positions layered onto the current workforce. Annual turnover adds a lot more openings than that net growth figure alone suggests, since most vacancies come from people retiring or moving into other lines of work rather than from newly created roles.",
 			},
+			{
+				question: 'What degree do most school counselors have?',
+				answer: 'A master\'s degree. Per BLS, nearly all states and D.C. require school counselors to hold a master\'s degree in school counseling or a related field, along with a state-issued credential, which may be called a certification, a license, or an endorsement depending on the state.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: School and Career Counselors and Advisors (accessed 2026-09-03 via proxied fetch, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/community-and-social-service/school-and-career-counselors.htm' },
@@ -4682,6 +4706,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is home health aide a growing career?',
 				answer: "Very much so. The decade running through 2035 is set to add roughly 847,300 positions to this field, a pace BLS pegs at six times faster than the economy-wide norm it expects elsewhere. Two forces are driving that surge, per BLS: a larger share of older Americans needing support, and a broader move away from nursing-home-style institutions toward care delivered in someone's own home or neighborhood.",
+			},
+			{
+				question: 'Who gets paid more, CNA or HHA?',
+				answer: 'CNAs earned more, per BLS\'s May 2025 data: a median of $42,260 for nursing assistants, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide, compared with $35,800 for home health and personal care aides the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey, though the two occupations have different typical training requirements: a 75-hour federal minimum for CNAs versus no fixed federal training-hour requirement described on this page for home health and personal care aides.',
 			},
 		],
 		sources: [
@@ -4892,6 +4920,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Is medical dosimetry a growing field?',
 				answer: "Yes, at a 5% clip through the decade ending 2035, per BLS, ahead of the roughly 3% pace it expects economy-wide. Scale matters here, though: starting from just 3,500 workers means that percentage translates into a couple hundred net new positions rather than a large hiring wave, with most yearly openings instead coming from people leaving the occupation altogether.",
+			},
+			{
+				question: 'How long does it take to become a medical dosimetrist?',
+				answer: 'BLS doesn\'t give an exact timeline on this page, only that a CMD credential is generally preferred. This site separately traced that credential to the Medical Dosimetrist Certification Board (MDCB), which requires a four-year college degree plus completion of an approved dosimetry training program before a candidate is eligible to sit for its certification exam. Program lengths for that dosimetry-specific training vary by school, so this page does not state a single combined total beyond the four-year degree itself.',
+			},
+			{
+				question: 'Is a dosimetrist a doctor?',
+				answer: 'No. A medical dosimetrist is an allied health professional, not a physician. The role involves calculating and mapping precise radiation doses for cancer treatment under the direction of a radiation oncologist, the physician who oversees the treatment plan; dosimetrists don\'t hold a medical degree and don\'t diagnose or treat patients independently the way a physician does.',
 			},
 		],
 		sources: [
