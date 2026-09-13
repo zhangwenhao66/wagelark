@@ -147,11 +147,24 @@ test('spot check: Physician Assistants (29-1071) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages.length, 5);
 });
 
+// Re-verified against the live bls.gov OOH page on 2026-09-13 (content-quality-audit,
+// cross-checked by an independent verification agent with its own fresh curl of the
+// page): BLS rolled the page forward to May 2025 data since the 2026-08-03
+// transcription -- median fell from $67,130 to $63,580, p10/p90 and both industry
+// wages moved too. employmentChange is BLS's own stated "Employment Change, 2025-35"
+// figure (133,700 -> 145,500 = +11,800), published directly on the page -- the first
+// draft of this audit had guessed 12,000 by multiplying 133,700 x 9%, which the
+// independent verification agent caught and corrected against the real table.
 test('spot check: Flight Attendants (53-2031) matches BLS OOH page', () => {
 	const occ = occupations['53-2031'];
-	assert.equal(occ.medianAnnual, 67130);
-	assert.equal(occ.percentiles.p10, 34030);
-	assert.equal(occ.percentiles.p90, 138040);
+	assert.equal(occ.medianAnnual, 63580);
+	assert.equal(occ.percentiles.p10, 35110);
+	assert.equal(occ.percentiles.p90, 136430);
+	assert.equal(occ.employment, 133700);
+	assert.equal(occ.jobOutlookPct, 9);
+	assert.equal(occ.employmentChange, 11800);
+	assert.equal(occ.industryWages[0].annualWage, 70700);
+	assert.equal(occ.industryWages[1].annualWage, 63570);
 });
 
 // Hand-transcribed from live bls.gov OOH page on 2026-08-04. Independent of

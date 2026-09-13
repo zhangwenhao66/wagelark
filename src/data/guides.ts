@@ -624,58 +624,58 @@ export const guides: Guide[] = [
 		slug: 'how-much-do-flight-attendants-make',
 		category: 'Salary Guide',
 		title: 'How Much Do Flight Attendants Make? BLS Data by Percentile',
-		description: 'The median flight attendant salary is $67,130 a year per BLS, but the range is enormous, from $34,030 to $138,040. Here is why, and what drives it.',
+		description: 'The median flight attendant salary is $63,580 a year per BLS, but the range is enormous, from $35,110 to $136,430. Here is why, and what drives it.',
 		published: '2026-08-03',
-		updated: '2026-08-12',
+		updated: '2026-09-13',
 		socCode: '53-2031',
-		coreSummary: 'The median annual wage for flight attendants was $67,130 in May 2024, according to the Bureau of Labor Statistics. The range is unusually wide for the required entry education: the bottom 10% earned less than $34,030 while the top 10% earned more than $138,040, a roughly $104,000 gap driven mainly by seniority-based pay scales and route/aircraft assignments under airline union contracts.',
+		coreSummary: 'The median annual wage for flight attendants was $63,580 in May 2025, according to the Bureau of Labor Statistics, down from $67,130 the year before. The range is unusually wide for the required entry education: the bottom 10% earned less than $35,110 while the top 10% earned more than $136,430, a roughly $101,000 gap driven mainly by seniority-based pay scales and route/aircraft assignments under airline union contracts.',
 		sections: [
 			{
 				heading: 'Why the range is so wide for an entry-level-education job',
 				body: [
-					'Flight attendant is one of the few well-paying occupations that typically requires only a high school diploma or equivalent to enter, per BLS. That makes the size of its pay range notable: the bottom 10% of flight attendants earned less than $34,030 in May 2024, while the top 10% earned more than $138,040, over a $100,000 spread within a single occupation that has a low formal education barrier to entry.',
+					'Flight attendant is one of the few well-paying occupations that typically requires only a high school diploma or equivalent to enter, per BLS. That makes the size of its pay range notable: the bottom 10% of flight attendants earned less than $35,110 in May 2025, while the top 10% earned more than $136,430, over a $100,000 spread within a single occupation that has a low formal education barrier to entry.',
 					'The explanation is seniority. Nearly all major U.S. airlines pay flight attendants under union contracts with seniority-based pay scales, where hourly rates increase substantially with years of service, and senior flight attendants get priority for the most desirable (and often highest-paying, due to international or long-haul premiums) routes and aircraft. A first-year flight attendant at a regional carrier and a 20-year flight attendant at a major international carrier are, in effect, in very different pay tiers despite sharing a job title.',
-					"BLS itself only publishes the 10th and 90th percentile split for this occupation, not a 25th or 75th percentile figure. U.S. News's flight attendant salary page, which draws on the same BLS survey (its reported 2024 median of $67,130 matches the BLS figure exactly), puts the 25th percentile at $52,280 and the 75th at $98,160. That narrower middle-half range is a useful check on the extremes: most flight attendants land well inside the full 10th-to-90th spread, and the largest jumps in pay tend to arrive later in a career, once seniority pushes someone past the 75th percentile mark.",
+					"BLS itself only publishes the 10th and 90th percentile split for this occupation, not a 25th or 75th percentile figure. U.S. News's flight attendant salary page, drawing on the prior year's BLS survey (its reported 2024 median of $67,130 matched that year's BLS figure exactly, before BLS's May 2025 update brought the median down to $63,580), put the 25th percentile at $52,280 and the 75th at $98,160. Those aren't re-verified against the newer BLS release, so treat them as a rough middle-half check on the extremes rather than a current figure: most flight attendants land well inside the full 10th-to-90th spread, and the largest jumps in pay tend to arrive later in a career, once seniority pushes someone past the middle of the range.",
 				],
 			},
 			{
 				heading: 'How airline type changes the number',
 				body: [
-					'BLS breaks out May 2024 wages by two industry categories: nonscheduled air transportation (largely charter and private-jet operations) paid a higher median at $77,060, compared with $67,620 at scheduled air transportation, the major and regional passenger airlines most flight attendants work for. That gap partly reflects the different pay structures and passenger mix of charter versus scheduled commercial flying.',
+					'BLS breaks out May 2025 wages by two industry categories: nonscheduled air transportation (largely charter and private-jet operations) paid a higher median at $70,700, compared with $63,570 at scheduled air transportation, the major and regional passenger airlines most flight attendants work for. That gap partly reflects the different pay structures and passenger mix of charter versus scheduled commercial flying.',
 					'It is also worth noting what published median pay figures do not fully capture for this occupation: flight attendants are traditionally paid only for scheduled flight time (wheels-up to wheels-down), not for time spent on the ground during boarding, delays, or layovers, though airline contract terms on this have shifted somewhat in recent years following industry-wide labor negotiations. BLS wage data reflects reported total compensation, but the hourly structure underlying it differs meaningfully from a typical hourly job.',
 				],
 			},
 			{
 				heading: 'Job outlook',
 				body: [
-					'BLS projects 9% employment growth for flight attendants from 2024 to 2034, classified as much faster than average, adding roughly 12,100 jobs over the decade. Growth in air travel demand, plus regulatory minimum staffing requirements tied to aircraft passenger capacity, are the main drivers BLS cites. Airlines cannot simply run more flights without proportionally more crew, which links growth directly to industry capacity expansion in a way that is less true for some other service occupations.',
+					'BLS projects 9% employment growth for flight attendants from 2025 to 2035, classified as much faster than average, taking the occupation from 133,700 jobs to roughly 145,500, a net gain of about 11,800 positions. On top of that net growth, BLS separately estimates about 18,500 openings a year on average over the decade, since most yearly openings come from replacing workers who transfer out or retire rather than from new positions alone. Growth in air travel demand, plus regulatory minimum staffing requirements tied to aircraft passenger capacity, are the main drivers BLS cites. Airlines cannot simply run more flights without proportionally more crew, which links growth directly to industry capacity expansion in a way that is less true for some other service occupations.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'How much do flight attendants make?',
-				answer: 'The Bureau of Labor Statistics reports a median annual flight attendant salary of $67,130 in May 2024, with a very wide range: the bottom 10% earned under $34,030 and the top 10% earned over $138,040. BLS does not break out a 25th or 75th percentile for this occupation, but U.S. News, citing the same BLS survey, puts the middle half of flight attendants between about $52,280 and $98,160.',
+				answer: 'BLS puts the May 2025 median at $63,580 a year for the role, roughly 5% lower than a year earlier, with pay ranging from under $35,110 at the 10th percentile to over $136,430 at the 90th. BLS itself doesn\'t break the wage down that finely; U.S. News previously put the middle half between about $52,280 and $98,160, based on the prior year\'s BLS median, a figure this site has not checked against BLS\'s latest numbers.',
 			},
 			{
 				question: 'Why do some flight attendants make so much more than others?',
-				answer: 'Mainly seniority. Most U.S. airlines pay flight attendants on union-negotiated, seniority-based pay scales where hourly rates rise substantially with years of service, and senior flight attendants also get priority access to higher-paying international and long-haul routes.',
+				answer: 'Mainly seniority. At most of the major carriers, pay follows a union-negotiated scale where the hourly rate climbs a great deal the longer someone has been on the job, and the most senior crew members also get first pick of the higher-paying international and long-haul routes.',
 			},
 			{
 				question: 'Do flight attendants need a college degree?',
-				answer: 'No. BLS lists a high school diploma or equivalent as the typical entry-level education requirement, along with airline-provided initial training (moderate-term on-the-job training) and FAA certification, which is required by law before working as a flight attendant.',
+				answer: 'No. BLS lists high-school completion (or its equivalent) as the typical entry-level education requirement, along with airline-provided initial training (moderate-term on-the-job training) and FAA certification, which is required by law before working as a flight attendant.',
 			},
 			{
 				question: 'Is flight attendant a growing career?',
-				answer: 'BLS projects 9% employment growth for flight attendants from 2024 to 2034, classified as much faster than the average for all occupations, adding roughly 12,100 jobs over the decade.',
+				answer: 'Yes. BLS puts the growth rate at 9% for the 2025-to-2035 decade, well above the pace of the typical U.S. occupation, adding around 11,800 net positions. On a year-to-year basis, most of the roughly 18,500 annual openings are driven by turnover, not by that net gain alone.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
-			{ label: 'U.S. News Best Jobs: Flight Attendant Salary (25th/75th percentile figures citing the same BLS OEWS survey; not independently verified against BLS raw tables due to bls.gov bot-protection blocking direct XLSX access; accessed 2026-08-12)', url: 'https://careers.usnews.com/best-jobs/flight-attendant/salary' },
+			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants (accessed 2026-08-03, refreshed 2026-09-13, data from May 2025)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
+			{ label: "U.S. News Best Jobs: Flight Attendant Salary (25th/75th percentile figures citing the prior year's BLS OEWS survey, not re-verified against BLS's May 2025 update; not independently verified against BLS raw tables due to bls.gov bot-protection blocking direct XLSX access; accessed 2026-08-12)", url: 'https://careers.usnews.com/best-jobs/flight-attendant/salary' },
 		],
 		image: '/images/flight-attendant-salary-chart.svg',
-		imageAlt: 'Bar chart showing flight attendant annual wage by percentile: 10th percentile $34,030, median $67,130, 90th percentile $138,040, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing flight attendant annual wage by percentile: 10th percentile $35,110, median $63,580, 90th percentile $136,430, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'radiology-tech-salary',

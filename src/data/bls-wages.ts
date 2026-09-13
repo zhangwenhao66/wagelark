@@ -825,32 +825,32 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"53-2031": {
 		socCode: "53-2031",
 		title: "Flight Attendants",
-		medianAnnual: 67130,
+		medianAnnual: 63580,
 		percentiles: {
-			p10: 34030,
-			p90: 138040
+			p10: 35110,
+			p90: 136430
 		},
-		employment: 130800,
-		employmentYear: "2024",
+		employment: 133700,
+		employmentYear: "2025",
 		jobOutlookPct: 9,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 12100,
-		projectionPeriod: "2024-34",
+		employmentChange: 11800,
+		projectionPeriod: "2025-35",
 		entryEducation: "High school diploma or equivalent",
 		industryWages: [
 			{
 				industry: "Nonscheduled air transportation",
-				annualWage: 77060
+				annualWage: 70700
 			},
 			{
 				industry: "Scheduled air transportation",
-				annualWage: 67620
+				annualWage: 63570
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Flight Attendants",
 		sourceUrl: "https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-09-13"
 	},
 	"29-1151": {
 		socCode: "29-1151",
