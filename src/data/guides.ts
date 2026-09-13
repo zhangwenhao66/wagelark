@@ -313,6 +313,10 @@ export const guides: Guide[] = [
 				question: 'Is physical therapy a growing field?',
 				answer: 'BLS projects 11% employment growth for physical therapists from 2024 to 2034, classified as much faster than the average for all occupations, adding roughly 29,300 jobs over the decade.',
 			},
+			{
+				question: 'How long does it take to become a physical therapist?',
+				answer: 'A typical four-year bachelor\'s degree with prerequisite coursework, followed by a CAPTE-accredited Doctor of Physical Therapy (DPT) program that BLS describes as running about three years, adds up to roughly seven years before a graduate is eligible to sit for the licensing exam, per this site\'s [how to become a physical therapist](/how-to-become-a-physical-therapist/) guide. Some physical therapists add an optional one-year clinical residency after that.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Physical Therapists (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/physical-therapists.htm' },
@@ -369,6 +373,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Do physician assistants work in specific specialties?',
 				answer: 'PAs work across most medical specialties rather than being limited to one. BLS names primary care and family medicine, emergency medicine, and psychiatry as common placements, and notes PAs also work in specialties like surgery and pediatrics. Generalist training makes it possible for a PA to move between specialties during a career.',
+			},
+			{
+				question: 'Can you make $200,000 as a PA?',
+				answer: 'Not typically, per national BLS data. The top 10% of physician assistants earned more than $182,200 in May 2024, the highest decile BLS publishes for the occupation, short of $200,000. See this site\'s [physician assistant salary guide](/physician-assistant-salary/) for the full percentile and industry breakdown; pay varies by specialty and setting in ways this national figure does not capture.',
 			},
 		],
 		sources: [
@@ -1043,6 +1051,10 @@ export const guides: Guide[] = [
 				question: 'Is surgical technology a growing field?',
 				answer: 'BLS Employment Projections data shows 4.5% employment growth for surgical technologists specifically from 2024 to 2034, adding about 5,200 jobs on top of a 2024 workforce of 115,600, with roughly 7,000 average annual openings once retirements and career changes are included.',
 			},
+			{
+				question: 'Who gets paid more, RN or a surgical tech?',
+				answer: 'Registered nurses earned substantially more in May 2024, per BLS: a median of $93,600, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $62,830 for surgical technologists. The gap tracks a real difference in typical entry-level education: a bachelor\'s, associate\'s, or diploma path for RNs versus a certificate or associate\'s degree for surgical technologists.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Surgical Assistants and Technologists (accessed 2026-08-05, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/surgical-technologists.htm' },
@@ -1309,6 +1321,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is air traffic control a growing occupation?',
 				answer: 'No, not by much. BLS projects only 2% employment growth for air traffic controllers from 2025 to 2035, slower than the average for all occupations, adding a net 400 jobs. BLS separately projects about 2,100 average annual openings once the decade is averaged out, with almost all of them coming from controllers reaching mandatory retirement rather than from newly created positions.',
+			},
+			{
+				question: 'How long does it take to become an air traffic controller?',
+				answer: 'There is no single fixed number. Per BLS, candidates typically complete an associate\'s or bachelor\'s degree through an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program, or build several years of progressively responsible work experience instead, then pass a medical evaluation, background check, and FAA preemployment tests before completing a training course at the FAA Academy. Once hired, BLS states that new controllers typically complete more than 12 months of additional on-the-job training before working independently.',
 			},
 		],
 		sources: [
@@ -3639,6 +3655,10 @@ export const guides: Guide[] = [
 				question: 'Do welders work regular hours?',
 				answer: "Most work full time, and some work more than 40 hours a week, per BLS. Many manufacturing firms run two or three 8- to 12-hour shifts a day to keep production continuous, so evening and weekend work is common even outside of scheduled overtime.",
 			},
+			{
+				question: 'Do welders make a lot of money?',
+				answer: 'Not especially, relative to the broader U.S. labor market. BLS puts the median wage for welders, cutters, solderers, and brazers at $51,000 for May 2024, just above the $49,500 median BLS reports across all U.S. occupations that same year. See this site\'s [welder salary guide](/welder-salary/) for the full percentile and industry breakdown.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200 on retry after an initial TLS handshake failure, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
@@ -3923,6 +3943,14 @@ export const guides: Guide[] = [
 				question: 'How much does a cardiac sonographer make?',
 				answer: "BLS does not report a separate median for cardiac sonographers. The Handbook treats cardiac work as one specialty inside the broader occupation covered above, so the $89,340 figure applies whether someone scans the heart, the abdomen, or the vascular system. ARDMS does credential the cardiac specialty on its own, as the Registered Diagnostic Cardiac Sonographer (RDCS), most often earned through its Adult Echocardiography exam, but that credentialing distinction does not carry through into a separate BLS pay number.",
 			},
+			{
+				question: 'How long does it take to become an ultrasound technician?',
+				answer: 'BLS classifies ultrasound techs under diagnostic medical sonographers, and lists at least an associate\'s degree or a postsecondary certificate as the typical entry-level education. In practice, most students complete a two-year associate degree in diagnostic medical sonography; certificate programs can run shorter, generally for candidates who already hold a related healthcare credential such as a nursing degree or radiologic technology background.',
+			},
+			{
+				question: 'What pays more, RN or ultrasound tech?',
+				answer: 'Registered nurses earned slightly more in May 2024, per BLS: a median of $93,600, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $89,340 for diagnostic medical sonographers, the category BLS uses for ultrasound techs. Both figures come from the same BLS survey year, though the two occupations sit on separate Handbook pages with different typical entry-level education.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
@@ -3995,6 +4023,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Is veterinary technician a growing career?',
 				answer: 'BLS projects 9% employment growth for veterinary technologists and technicians from 2024 to 2034, classified as much faster than average, adding roughly 12,200 jobs and about 14,300 openings a year on average, driven mainly by rising pet ownership and pet-care spending.',
+			},
+			{
+				question: 'How long does it take to become a vet tech?',
+				answer: 'It depends which of the two credential tracks BLS covers under this occupation. Veterinary technicians typically complete a two-year associate\'s degree in veterinary technology, while veterinary technologists complete a four-year bachelor\'s degree in the same field. Both must then pass a credentialing exam and become registered, licensed, or certified, per the requirements of the state where they work.',
+			},
+			{
+				question: 'Is vet tech a four-year degree?',
+				answer: 'Not for the technician track specifically. BLS describes veterinary technicians as typically completing a two-year associate\'s degree, while the related veterinary technologist role, tracked under the same combined BLS occupation and wage figure, requires a four-year bachelor\'s degree. The two credentials share one median wage on BLS\'s page even though the training length differs by two years.',
 			},
 		],
 		sources: [
@@ -4208,6 +4244,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is veterinary medicine a growing field?',
 				answer: 'BLS projects 9% employment growth for veterinarians from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 8,600 jobs and about 3,100 openings a year on average. BLS attributes the growth to rising pet-care spending, expanding treatment options, and a growing, aging pet population.',
+			},
+			{
+				question: 'Is vet school two years or four years?',
+				answer: 'Four years. BLS lists a doctoral or professional degree, specifically a Doctor of Veterinary Medicine (DVM), as the typical entry-level education for veterinarians, a professional program that runs four years after an undergraduate degree, the same overall structure BLS describes for pharmacists\' Doctor of Pharmacy training. That is a longer path than the two-year associate\'s degree BLS lists for veterinary technicians and technologists, a related occupation this site covers separately.',
 			},
 		],
 		sources: [
@@ -4483,6 +4523,14 @@ export const guides: Guide[] = [
 				question: 'Is nuclear medicine technology a growing field?',
 				answer: "Yes, though modestly: BLS pegs the 2025-2035 pace at 4%, in line with the broader economy, translating to roughly 800 new positions on top of the current 17,400 and around 800 yearly openings once retirements and career changes are factored in. Ultrasound technologists grow faster within this site's imaging lineup, at 13%, even while earning less per year than this occupation does.",
 			},
+			{
+				question: 'How long does it take to become a nuclear medicine technologist?',
+				answer: 'BLS lists an associate\'s degree as the typical entry-level education for nuclear medicine technologists, the same associate\'s-degree entry level as radiation therapists, generally about two years of full-time study. BLS does not itself state an exact number of years on this page; two years reflects the standard length of an associate degree generally.',
+			},
+			{
+				question: 'Who makes more, RN or a nuclear medicine technologist?',
+				answer: 'Nuclear medicine technologists earned more, per BLS\'s May 2025 data: a median of $101,370, compared with $97,550 for registered nurses the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey, though the two occupations have different typical entry-level education: an associate\'s degree for nuclear medicine technologists versus a bachelor\'s, associate\'s, or diploma path for registered nurses.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Nuclear Medicine Technologists (accessed 2026-09-01 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/nuclear-medicine-technologists.htm' },
@@ -4702,6 +4750,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is occupational therapy assistant a growing career?',
 				answer: "By BLS's count, yes: a projected 21% jump in headcount over 2025-35, dwarfing the roughly 3% pace expected economy-wide, growing the field from a current headcount around 52,200 to roughly 63,400 by the mid-2030s. Aides working the counterpart role on the same handbook page are set to expand at a far slower clip, just 4% over that stretch.",
+			},
+			{
+				question: 'How long does it take to become an occupational therapy assistant?',
+				answer: 'BLS lists an associate\'s degree from an accredited occupational therapy assistant program as the typical entry-level education, generally about two years of full-time study, though some bachelor\'s degree programs also exist. Licensure then requires that accredited program, a fieldwork component, and passing an exam.',
 			},
 		],
 		sources: [
