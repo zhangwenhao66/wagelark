@@ -554,6 +554,10 @@ export const guides: Guide[] = [
 				question: 'Is ultrasound tech a good career to get into?',
 				answer: 'BLS projects 13% employment growth from 2024 to 2034, much faster than average, for a role that typically requires about two years of postsecondary training rather than a four-year degree. Whether it is the right choice depends on individual circumstances such as location, tolerance for direct patient care, and interest in the clinical subject matter; BLS data describes the aggregate labor market, not a recommendation for any specific person.',
 			},
+			{
+				question: 'What pays more, RN or ultrasound tech?',
+				answer: 'Registered nurses came out ahead for May 2024: a $93,600 median, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, versus $89,340 for diagnostic medical sonographers, the BLS category that covers ultrasound techs. Both numbers are from the same BLS survey year, though RNs and sonographers sit on separate BLS Handbook pages with different typical entry-level education requirements.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
@@ -1267,6 +1271,14 @@ export const guides: Guide[] = [
 				question: 'Is medical assisting a growing occupation?',
 				answer: 'Yes. BLS projects 13% employment growth for medical assistants from 2025 to 2035, much faster than the average for all occupations, adding a net 107,600 jobs. BLS separately projects about 109,700 average annual job openings once the decade is averaged out, with most coming from workers transferring out of the occupation or leaving the labor force rather than from newly created positions.',
 			},
+			{
+				question: 'Is a medical assistant basically a nurse?',
+				answer: 'No. A medical assistant is a distinct, unlicensed role from a nurse. Per BLS, medical assistants typically need only a postsecondary nondegree award or on-the-job training and work under the supervision of physicians or other health practitioners, handling administrative tasks and basic clinical duties such as taking vital signs. Registered nurses, by contrast, must hold a nursing license following a bachelor\'s, associate\'s, or diploma-level nursing education, and have a broader scope of practice.',
+			},
+			{
+				question: 'Who gets paid more, medical assistant or CNA?',
+				answer: 'Medical assistants earned slightly more, per BLS\'s May 2025 data: a median of $45,690, compared with $42,260 for nursing assistants, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. Both figures come from the same BLS survey year, though the two roles have different typical training paths: a postsecondary nondegree award or on-the-job training for medical assistants versus a federal 75-hour minimum training program for CNAs.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Medical Assistants (accessed 2026-08-28 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/medical-assistants.htm' },
@@ -1948,6 +1960,14 @@ export const guides: Guide[] = [
 				question: "What is the difference between a paralegal certificate and a paralegal degree?",
 				answer: "An associate's degree in paralegal studies is a standalone two-year credential and the most common entry path, per BLS. A paralegal certificate is shorter and typically aimed at candidates who already hold a bachelor's degree in an unrelated field and want to add paralegal-specific coursework, such as legal research and writing, without pursuing a second full degree.",
 			},
+			{
+				question: 'How long does it take to become a paralegal?',
+				answer: 'Most paralegals enter through an associate\'s degree in paralegal studies, generally about two years of full-time study, or a shorter certificate program for candidates who already hold a bachelor\'s degree in an unrelated field. BLS does not itself state an exact number of years on this page for either path.',
+			},
+			{
+				question: 'What do paralegals get paid?',
+				answer: 'BLS reports a median annual wage of $61,010 for paralegals and legal assistants in May 2024, with the bottom 10% earning less than $39,710 and the top 10% earning more than $98,990.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (accessed 2026-08-13 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm' },
@@ -2095,6 +2115,10 @@ export const guides: Guide[] = [
 			{
 				question: 'How much do physical therapists make?',
 				answer: 'BLS reports a median annual wage of $101,020 for physical therapists in May 2024, with the bottom 10% earning less than $74,420 and the top 10% earning more than $132,500. See [physical therapist salary](/physical-therapist-salary/) for the full percentile and industry breakdown.',
+			},
+			{
+				question: 'Who gets paid more, PA or PT?',
+				answer: 'Physician assistants earned more in May 2024, per BLS: a median of $133,260 for physician assistants compared with $101,020 for physical therapists, a gap of roughly $32,000. Both roles typically require a graduate degree beyond a bachelor\'s, a master\'s for PAs and a Doctor of Physical Therapy for PTs, but PA programs generally run shorter than the roughly three-year DPT program BLS describes.',
 			},
 		],
 		sources: [
@@ -3602,6 +3626,14 @@ export const guides: Guide[] = [
 				question: "What's the difference between a CEO and a COO or CFO?",
 				answer: 'BLS classifies all three as top executives, but chief executive officers provide overall direction for the entire organization and typically report to a board of directors, while chief operating officers, chief financial officers, and similar titles manage one specific part of the organization, such as day-to-day operations or finance, rather than the whole of it.',
 			},
+			{
+				question: 'Does a CEO have a boss?',
+				answer: 'Yes, in most structures. Per BLS, chief executive officers typically report to a board of directors, which sets overall direction and can hire or remove the CEO. A CEO who also owns the company outright, such as a sole founder, may have no formal board oversight, but that is a different structure from the typical corporate arrangement BLS describes.',
+			},
+			{
+				question: 'Is a CEO higher than an owner?',
+				answer: 'It depends on the structure. In a corporation, the CEO is typically the highest-ranking employee but still answers to a board of directors representing the owners, or shareholders; the CEO and the owners are not the same role. In a smaller or privately held business, the owner often serves as CEO directly, in which case there is no separate, higher position above them.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Top Executives (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/management/top-executives.htm' },
@@ -3819,6 +3851,14 @@ export const guides: Guide[] = [
 			{
 				question: 'How much do nurse practitioners make?',
 				answer: "BLS reports a median annual wage of $129,210 for nurse practitioners in May 2024. See [nurse practitioner salary](/nurse-practitioner-salary/) for the full wage and job-outlook breakdown.",
+			},
+			{
+				question: 'How many years of school does it take to become a nurse practitioner?',
+				answer: 'BLS does not publish one combined total on this page either; it describes the requirement as at least a master\'s degree in an advanced practice nursing specialty, built on top of an existing RN license, with most programs preferring candidates who already hold a bachelor\'s degree in nursing. Based on typical program lengths, a four-year bachelor\'s degree followed by a master\'s- or doctoral-level nurse practitioner program, sources outside BLS commonly put the full path at roughly six to eight years, though the exact timeline depends on the school and whether a candidate already has RN experience.',
+			},
+			{
+				question: 'Is an RN higher than a nurse practitioner?',
+				answer: 'No, it works the other way. A nurse practitioner is an advanced practice role built on top of the RN credential: NPs must already be licensed registered nurses before completing the additional graduate education BLS lists as the typical entry-level requirement. That added training gives NPs a broader scope of practice, such as diagnosing conditions and prescribing medication, that a base RN license does not include on its own.',
 			},
 		],
 		sources: [
@@ -4850,6 +4890,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Can a lab technician become a lab technologist?',
 				answer: "Yes. BLS spells out this exact route: technicians who build hands-on experience and finish more schooling can step up into a technologist role, effectively trading their two-year credential for the four-year one without leaving the field.",
+			},
+			{
+				question: 'How long does it take to become a clinical lab technologist?',
+				answer: 'It depends which of the two BLS occupation codes applies. Technologists (SOC 29-2011) typically need a bachelor\'s degree, generally four years of full-time study, while technicians (SOC 29-2012) can sometimes qualify with an associate\'s degree, generally about two years, per BLS.',
 			},
 		],
 		sources: [
