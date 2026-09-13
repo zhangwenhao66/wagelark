@@ -1799,6 +1799,10 @@ export const guides: Guide[] = [
 				question: 'Is truck driving a growing occupation?',
 				answer: 'BLS projects 4% employment growth for truck drivers from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 89,300 jobs and about 237,600 openings a year on average, mostly from workers leaving the occupation rather than newly created positions.',
 			},
+			{
+				question: 'Can a truck driver make $100,000 a year?',
+				answer: 'Not typically, per national BLS data. The top 10% of heavy and tractor-trailer truck drivers earned more than $78,800 a year in May 2024, the highest decile BLS publishes for the occupation, still short of $100,000. BLS\'s wage data reflects the broad occupation as surveyed nationally; it does not separately break out owner-operators or specialized hauling niches that can pay more.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers (accessed 2026-08-12 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm' },
@@ -3783,6 +3787,10 @@ export const guides: Guide[] = [
 				question: 'How much do flight attendants make?',
 				answer: "BLS reports a median annual wage of $67,130 in May 2024, with pay ranging from under $34,030 at the 10th percentile to over $138,040 at the 90th, driven largely by seniority. See [flight attendant salary](/how-much-do-flight-attendants-make/) for the full percentile and industry breakdown.",
 			},
+			{
+				question: 'Do flight attendants get paid well?',
+				answer: 'About average for the broader U.S. labor market. BLS puts the median flight attendant salary at $67,130 for May 2024, above the $49,500 median BLS reports across all U.S. occupations that same year, though pay varies by airline type; see this site\'s [flight attendant salary guide](/how-much-do-flight-attendants-make/) for the full percentile breakdown.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants, How to Become One (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
@@ -3929,6 +3937,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is occupational therapy a physically demanding job?',
 				answer: 'BLS states occupational therapists have one of the highest rates of injuries and illnesses of all occupations, mainly because the job can require lifting or moving clients or heavy equipment. BLS says therapists reduce that risk primarily by using proper body mechanics and lifting technique.',
+			},
+			{
+				question: 'Does an RN or OT make more money?',
+				answer: 'Occupational therapists earned more in May 2024, per BLS: a median of $98,340, compared with $93,600 for registered nurses, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide. Both figures come from the same BLS survey year, though OTs require a master\'s or doctoral degree while RNs can enter with a bachelor\'s, associate\'s, or diploma.',
 			},
 		],
 		sources: [
@@ -4162,6 +4174,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is funeral director a growing career?',
 				answer: 'BLS projects 3% employment growth for morticians, undertakers, and funeral arrangers from 2025 to 2035, about as fast as the average for all occupations, adding roughly 800 jobs. BLS attributes most annual openings to workers leaving the occupation rather than to new positions, and names a continuing shift toward cremation as a factor limiting faster growth.',
+			},
+			{
+				question: 'Can you make six figures as a funeral director?',
+				answer: 'Not typically, per national BLS data. The top 10% of morticians, undertakers, and funeral arrangers, the BLS title for this occupation, earned more than $88,620 in May 2025, the highest decile BLS publishes for the role, still short of $100,000.',
 			},
 		],
 		sources: [
@@ -4513,6 +4529,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is optometry a growing field?',
 				answer: 'BLS expects the optometrist workforce to grow 10% over the 2025-2035 decade, well outpacing the economy-wide growth rate of about 3%, and add roughly 4,300 jobs with around 2,000 annual openings. Among comparable graduate-degree fields on this site, only physical therapy, projected at 11%, grows faster.',
+			},
+			{
+				question: 'Who gets paid more, optometrist or ophthalmologist?',
+				answer: 'Likely ophthalmologists, though the comparison isn\'t exact. BLS puts the optometrist median at $136,570 for May 2025, well below the $275,930 median BLS reports for the broader "physicians and surgeons" category that includes ophthalmologists, since BLS does not break out ophthalmology as its own line item the way it does for optometrists. That blended physician figure covers dozens of medical and surgical specialties, not ophthalmology specifically, so the true ophthalmologist-only figure could differ from it in either direction.',
 			},
 		],
 		sources: [
@@ -5043,6 +5063,10 @@ export const guides: Guide[] = [
 				question: 'Is genetic counseling a growing field?',
 				answer: "Per BLS, employment is set to grow 10% over the 2025-2035 decade, more than triple the roughly 3% pace expected for the labor market overall. The base is small, though: starting from 4,200 workers, that percentage only nets about 400 additional jobs, and most yearly openings trace back to replacement needs rather than to a growing headcount.",
 			},
+			{
+				question: 'How long does it take to become a genetic counselor?',
+				answer: 'BLS does not state an exact number of years on this page, only that a master\'s degree is the typical entry-level education. Genetic counseling master\'s programs are generally structured as two-year graduate programs following a bachelor\'s degree, the standard length for a master\'s program generally, though BLS does not itself confirm that figure for this specific field.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Genetic Counselors (accessed 2026-09-10 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/genetic-counselors.htm' },
@@ -5111,6 +5135,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Is audiology a growing occupation?',
 				answer: 'BLS projects 11% employment growth from 2025 to 2035, well ahead of the roughly 3% pace expected economy-wide, adding about 1,600 jobs to a 2025 base of 14,200 workers.',
+			},
+			{
+				question: 'Do audiologists go to medical school?',
+				answer: 'No. Audiologists hold a Doctor of Audiology (Au.D.), a four-year clinical doctorate, not a medical degree. They are not physicians and do not attend medical school; the Au.D. is a separate professional doctorate focused on diagnosing and treating hearing and balance disorders.',
+			},
+			{
+				question: 'Do audiologists make more than nurses?',
+				answer: 'No, slightly the other way, per BLS\'s May 2025 data: registered nurses had a median of $97,550, compared with $95,780 for audiologists the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey; audiologists require a four-year clinical doctorate versus a bachelor\'s, associate\'s, or diploma path for RNs.',
 			},
 		],
 		sources: [
@@ -5181,6 +5213,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is forensic science a growing career?',
 				answer: "Yes. BLS's 2025-35 projection calls for 13% growth, well above the roughly 3% growth rate typical economy-wide, which works out to about 2,700 additional jobs on a 20,100-worker base and roughly 2,800 job openings annually when averaged across the decade.",
+			},
+			{
+				question: 'Do forensic scientists get paid well?',
+				answer: 'Above the broader labor market, yes. BLS puts the median wage for forensic science technicians at $72,060 for May 2025, compared with a $50,980 median across all U.S. occupations that same year, meaning a typical forensic science technician earned about 41% more than the typical U.S. worker.',
 			},
 		],
 		sources: [
