@@ -1,394 +1,407 @@
 [
-  {
-    "date": "2026-08-04",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行（本站首次出现在本任务日志）。今日新发布2篇（radiology-tech-salary/crna-salary），取当天第2篇crna-salary（URL is not on Google）提交成功。第二轮取队列代理值最高的pharmacist-salary（Discovered - currently not indexed）提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/crna-salary/",
-      "https://wagelark.com/pharmacist-salary/"
-    ],
-    "quota_used": "2 of shared account-wide daily quota (10th and 19th requests this run)"
-  },
-  {
-    "date": "2026-08-05",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行。本站今日无新发布，按build-index-queue.py代理排序取队列。第一轮依次检查dental-hygienist-salary/radiology-tech-salary/nurse-practitioner-salary/physical-therapist-salary均已'URL is on Google'（自然收录，未消耗配额），改提交physician-assistant-salary（URL is not on Google）成功。第二轮依次检查what-does-a-paralegal-do/how-to-become-an-ultrasound-tech/actuary-salary/how-to-become-a-phlebotomist/what-does-an-actuary-do均已收录，改提交what-does-a-physician-assistant-do（URL is not on Google）成功。",
-    "submitted_urls": [
-      "https://wagelark.com/physician-assistant-salary/",
-      "https://wagelark.com/what-does-a-physician-assistant-do/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/dental-hygienist-salary/",
-      "https://wagelark.com/radiology-tech-salary/",
-      "https://wagelark.com/nurse-practitioner-salary/",
-      "https://wagelark.com/physical-therapist-salary/",
-      "https://wagelark.com/what-does-a-paralegal-do/",
-      "https://wagelark.com/how-to-become-an-ultrasound-tech/",
-      "https://wagelark.com/actuary-salary/",
-      "https://wagelark.com/how-to-become-a-phlebotomist/",
-      "https://wagelark.com/what-does-an-actuary-do/"
-    ],
-    "quota_used": "2 requests this run (round 1 and round 2)"
-  },
-  {
-    "date": "2026-08-06",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行。本站今日无新发布，按build-index-queue.py代理排序取队列。第一轮依次检查dental-hygienist-salary/radiology-tech-salary均已'URL is on Google'（自然收录，未消耗配额），改提交pharmacy-technician-salary（URL is not on Google）成功。第二轮因Chrome扩展断连未能到达本站，队列后续候选本次未检查。",
-    "submitted_urls": [
-      "https://wagelark.com/pharmacy-technician-salary/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/dental-hygienist-salary/",
-      "https://wagelark.com/radiology-tech-salary/"
-    ],
-    "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
-  },
-  {
-    "date": "2026-08-06",
-    "action": "already_indexed",
-    "reason": "第二轮（Chrome扩展重连后继续）：依次检查nurse-practitioner-salary/what-does-a-paralegal-do/physical-therapist-salary均已'URL is on Google'（自然收录，未消耗配额）。本站第二轮无新提交，游标继续前进不重置。",
-    "submitted_urls": [],
-    "already_indexed_no_action": [
-      "https://wagelark.com/nurse-practitioner-salary/",
-      "https://wagelark.com/what-does-a-paralegal-do/",
-      "https://wagelark.com/physical-therapist-salary/"
-    ],
-    "quota_used": "0 requests (round 2, all checked candidates already indexed)"
-  },
-  {
-    "date": "2026-08-07",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行（跨天连续游标轮换，两轮）。按收入代理排序队列逐个URL Inspection检查：已收录（URL is on Google）的候选跳过不消耗配额，共2个；找到未收录候选后提交REQUEST INDEXING，两轮各提交1个，共2个。",
-    "submitted_urls": [
-      "https://wagelark.com/dental-assistant-salary/",
-      "https://wagelark.com/surgical-tech-salary/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/dental-hygienist-salary/",
-      "https://wagelark.com/radiology-tech-salary/"
-    ],
-    "quota_used": "2 requests (2轮各1次)"
-  },
-  {
-    "date": "2026-08-08",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行。已收录候选跳过2个，找到未收录候选medical-assistant-salary提交REQUEST INDEXING并收到确认。因怀疑账号级配额已在处理LingoGrove时耗尽，本站仅处理1个候选后即结束本次运行，未继续检查剩余候选（nurse-practitioner-salary等）。",
-    "submitted_urls": [
-      "https://wagelark.com/medical-assistant-salary/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/dental-hygienist-salary/",
-      "https://wagelark.com/radiology-tech-salary/"
-    ],
-    "quota_used": "1 request"
-  },
-  {
-    "date": "2026-08-09",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行。处理今日新发布 air-traffic-controller-salary（第19篇），URL Inspection确认'URL is not on Google'，REQUEST INDEXING后确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://wagelark.com/air-traffic-controller-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 request"
-  },
-  {
-    "date": "2026-08-10",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行。今日两篇新发布均查询后确认未收录，均REQUEST INDEXING并确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://wagelark.com/how-to-become-a-cna/",
-      "https://wagelark.com/respiratory-therapist-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "2 requests"
-  },
-  {
-    "date": "2026-08-11",
-    "action": "submitted",
-    "reason": "游标第2站。今日新发布electrician-salary（第22篇，本站首篇技能类工种文章）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://wagelark.com/electrician-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 request"
-  },
-  {
-    "date": "2026-08-12",
-    "action": "submitted",
-    "reason": "游标起点站（承接8/11收尾时next_start_site=WageLark）。今日新发布plumbing-apprenticeship（第24篇，How to Become页型）URL Inspection显示未收录（URL is unknown to Google）。REQUEST INDEXING点击后5秒等待截图仍显示未提交前状态，为保险起见再次点击REQUEST INDEXING，随后确认'Indexing requested'——不能完全排除两次点击都各自消耗了一次配额（本任务后续在其余9站改为固定等待20秒以上再判定，未再复现此问题）。",
-    "submitted_urls": [
-      "https://wagelark.com/plumbing-apprenticeship/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1-2 requests（存在重复点击疑虑，详见reason）"
-  },
-  {
-    "date": "2026-08-13",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，游标本轮起点WageLark（跨天连续游标）。今日新发布welder-salary，URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功（一次点击即显示Indexing requested）。",
-    "submitted_urls": [
-      "https://wagelark.com/welder-salary/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota (1st request this run)"
-  },
-  {
-    "date": "2026-08-16",
-    "action": "submitted",
-    "reason": "游标起点站（承接2026-08-13收尾时next_start_site=WageLark，中间08-14/08-15任务运行出现空档未记录提交）。本轮完整走完一圈全部10站后配额仍有余量，第二圈回到WageLark额外提交一次。第一次：how-to-become-a-paralegal（08-13已发布未提交），URL Inspection确认'URL is not on Google'（Discovered - currently not indexed），REQUEST INDEXING后确认'Indexing requested'。第二次（第二圈）：从Page indexing报告的'Discovered - currently not indexed'分类中找到how-much-do-flight-attendants-make，同样确认未收录后提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/how-to-become-a-paralegal/",
-      "https://wagelark.com/how-much-do-flight-attendants-make/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/what-does-a-paralegal-do/",
-      "https://wagelark.com/how-to-become-an-ultrasound-tech/"
-    ],
-    "quota_used": "2 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-16",
-    "action": "submitted",
-    "reason": "同日第三次提交（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑，本站是本轮游标最后一站）。GSC'Crawled - currently not indexed'分类候选medical-assistant-salary/已收录（报告延迟）。改查最新发布文章how-to-become-an-electrician（内容发布日志最新一条，累计28篇）经URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://wagelark.com/how-to-become-an-electrician/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/medical-assistant-salary/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-17",
-    "action": "submitted",
-    "reason": "今日新发布第30篇how-long-is-nursing-school（12:35档），URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://wagelark.com/how-long-is-nursing-school/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-18",
-    "action": "submitted",
-    "reason": "今日新发布第32篇hvac-certification（12:35档），URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://wagelark.com/hvac-certification/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-19",
-    "action": "submitted",
-    "reason": "今日为既有页pharmacist-salary内容增强（并入how-long-does-it-take-to-become-a-pharmacist，非新页面），URL Inspection确认该URL已'URL is on Google'（已收录），无需提交。改用build-index-queue.py优先级队列候选how-long-does-it-take-to-become-a-dentist，URL Inspection确认'URL is not on Google'（Discovered - currently not indexed），REQUEST INDEXING提交成功确认'Indexing requested'。",
-    "submitted_urls": [
-      "https://wagelark.com/how-long-does-it-take-to-become-a-dentist/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/pharmacist-salary/"
-    ],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-20",
-    "action": "submitted",
-    "reason": "今日新发布how-to-become-a-psychologist（第36篇，wagelark-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://wagelark.com/how-to-become-a-psychologist/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-21",
-    "action": "submitted",
-    "reason": "今日新发布how-to-become-an-accountant（第39篇，wagelark-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。同日content-quality-audit审计更新radiology-tech-salary为既有页非新页面，未重复处理。",
-    "submitted_urls": [
-      "https://wagelark.com/how-to-become-an-accountant/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-22",
-    "action": "submitted",
-    "reason": "今日新发布how-to-become-a-software-engineer（第41篇，wagelark-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://wagelark.com/how-to-become-a-software-engineer/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-23",
-    "action": "submitted",
-    "reason": "今日仅有trafficsite-content-quality-audit审计更新nurse-practitioner-salary，wagelark-content-publishing当日尚未产出新文章（12:35档运行时刻尚未到达）。Pages报告2个Discovered-currently not indexed候选(firefighter-salary/truck-driver-salary)中选中firefighter-salary，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://wagelark.com/firefighter-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-24",
-    "action": "submitted",
-    "reason": "今日新发布what-does-a-dental-hygienist-do（第46篇，wagelark-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://wagelark.com/what-does-a-dental-hygienist-do/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-26",
-    "action": "submitted",
-    "reason": "今日新发布what-does-a-nurse-practitioner-do（第52篇），URL Inspection确认未收录，REQUEST INDEXING提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/what-does-a-nurse-practitioner-do/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": 1
-  },
-  {
-    "date": "2026-08-27",
-    "action": "submitted",
-    "reason": "今日存量丰富welder-salary（补充AWS认证章节，非新发布），URL Inspection确认该页已收录不作为提交对象。改查build-index-queue.py队列候选：how-to-become-a-social-worker/how-to-become-a-physical-therapist/what-does-a-paralegal-do/how-to-become-an-ultrasound-tech/how-long-does-it-take-to-become-a-lawyer均已'URL is on Google'（已收录，不耗配额），what-does-a-welder-do未收录，REQUEST INDEXING提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/what-does-a-welder-do/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/welder-salary/",
-      "https://wagelark.com/how-to-become-a-social-worker/",
-      "https://wagelark.com/how-to-become-a-physical-therapist/",
-      "https://wagelark.com/what-does-a-paralegal-do/",
-      "https://wagelark.com/how-to-become-an-ultrasound-tech/",
-      "https://wagelark.com/how-long-does-it-take-to-become-a-lawyer/"
-    ],
-    "quota_used": 1
-  },
-  {
-    "date": "2026-08-28",
-    "action": "submitted",
-    "reason": "今日随机休息未发布新文章（R=0）。改用build-index-queue.py队列取代理值最高候选ultrasound-tech-salary，URL Inspection确认未收录，REQUEST INDEXING提交成功。第二轮遍历时提交队列次高候选veterinary-technician-salary，同样确认未收录后提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/ultrasound-tech-salary/",
-      "https://wagelark.com/veterinary-technician-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "2 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-29",
-    "action": "submitted",
-    "reason": "今日新发布mri-tech-salary：URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://wagelark.com/mri-tech-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-30",
-    "action": "submitted",
-    "reason": "今日两条记录：air-traffic-controller-salary为content-quality-audit审计更新（非新发布），本轮站点名额已用于veterinarian-salary未再核查该URL；veterinarian-salary为新发布文章，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
-    "submitted_urls": [
-      "https://wagelark.com/veterinarian-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-08-31",
-    "action": "submitted",
-    "reason": "今日新发布radiation-therapist-salary（Radiation Therapists, SOC 29-1124）：URL Inspection确认URL is not on Google，REQUEST INDEXING提交成功确认Indexing requested。今日另有审计更新how-to-become-a-cna未再核查（非新发布，优先级低于新发布）。",
-    "submitted_urls": [
-      "https://wagelark.com/radiation-therapist-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-01",
-    "action": "submitted",
-    "reason": "今日新发布nuclear-medicine-technologist-salary，URL Inspection确认URL is not on Google，提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/nuclear-medicine-technologist-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-02",
-    "action": "submitted",
-    "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，WageLark排第4位，今日无新发布。检查how-to-become-a-social-worker已收录，改用Page indexing报告Discovered-not-indexed列表找到chef-salary提交成功。第二轮hvac-certification（同报告列表）提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/chef-salary/",
-      "https://wagelark.com/hvac-certification/"
-    ],
-    "already_indexed_no_action": [
-      "https://wagelark.com/how-to-become-a-social-worker/"
-    ],
-    "quota_used": "2 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-03",
-    "action": "submitted",
-    "reason": "今日新发布how-to-become-a-school-counselor（第一次运行），URL Inspection确认URL is not on Google，提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/how-to-become-a-school-counselor/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-04",
-    "action": "submitted",
-    "reason": "今日新发布occupational-therapy-assistant-salary，URL Inspection确认URL is not on Google，提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/occupational-therapy-assistant-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-09",
-    "action": "submitted",
-    "reason": "今日新发布clinical-laboratory-technologist-salary，URL Inspection确认URL is not on Google，提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/clinical-laboratory-technologist-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-10",
-    "action": "submitted",
-    "reason": "今日新发布medical-dosimetrist-salary，URL Inspection确认URL is not on Google，提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/medical-dosimetrist-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-11",
-    "action": "submitted",
-    "reason": "今日新发布audiologist-salary，URL Inspection确认URL is unknown to Google，提交成功。",
-    "submitted_urls": [
-      "https://wagelark.com/audiologist-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  },
-  {
-    "date": "2026-09-12",
-    "action": "submitted",
-    "reason": "今日新发布psychiatrist-salary，URL Inspection确认URL is not on Google，提交成功。同日plumbing-apprenticeship为content-quality-audit审计更新（BLS数据周期刷新），本轮已用掉本站名额未额外查询。",
-    "submitted_urls": [
-      "https://wagelark.com/psychiatrist-salary/"
-    ],
-    "already_indexed_no_action": [],
-    "quota_used": "1 of shared account-wide daily quota"
-  }
+    {
+        "date": "2026-08-04",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，跨天连续游标机制首次运行（本站首次出现在本任务日志）。今日新发布2篇（radiology-tech-salary/crna-salary），取当天第2篇crna-salary（URL is not on Google）提交成功。第二轮取队列代理值最高的pharmacist-salary（Discovered - currently not indexed）提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/crna-salary/",
+            "https://wagelark.com/pharmacist-salary/"
+        ],
+        "quota_used": "2 of shared account-wide daily quota (10th and 19th requests this run)"
+    },
+    {
+        "date": "2026-08-05",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行。本站今日无新发布，按build-index-queue.py代理排序取队列。第一轮依次检查dental-hygienist-salary/radiology-tech-salary/nurse-practitioner-salary/physical-therapist-salary均已'URL is on Google'（自然收录，未消耗配额），改提交physician-assistant-salary（URL is not on Google）成功。第二轮依次检查what-does-a-paralegal-do/how-to-become-an-ultrasound-tech/actuary-salary/how-to-become-a-phlebotomist/what-does-an-actuary-do均已收录，改提交what-does-a-physician-assistant-do（URL is not on Google）成功。",
+        "submitted_urls": [
+            "https://wagelark.com/physician-assistant-salary/",
+            "https://wagelark.com/what-does-a-physician-assistant-do/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/dental-hygienist-salary/",
+            "https://wagelark.com/radiology-tech-salary/",
+            "https://wagelark.com/nurse-practitioner-salary/",
+            "https://wagelark.com/physical-therapist-salary/",
+            "https://wagelark.com/what-does-a-paralegal-do/",
+            "https://wagelark.com/how-to-become-an-ultrasound-tech/",
+            "https://wagelark.com/actuary-salary/",
+            "https://wagelark.com/how-to-become-a-phlebotomist/",
+            "https://wagelark.com/what-does-an-actuary-do/"
+        ],
+        "quota_used": "2 requests this run (round 1 and round 2)"
+    },
+    {
+        "date": "2026-08-06",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行。本站今日无新发布，按build-index-queue.py代理排序取队列。第一轮依次检查dental-hygienist-salary/radiology-tech-salary均已'URL is on Google'（自然收录，未消耗配额），改提交pharmacy-technician-salary（URL is not on Google）成功。第二轮因Chrome扩展断连未能到达本站，队列后续候选本次未检查。",
+        "submitted_urls": [
+            "https://wagelark.com/pharmacy-technician-salary/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/dental-hygienist-salary/",
+            "https://wagelark.com/radiology-tech-salary/"
+        ],
+        "quota_used": "1 request this run (round 1 only; round 2 not reached due to Chrome extension disconnect)"
+    },
+    {
+        "date": "2026-08-06",
+        "action": "already_indexed",
+        "reason": "第二轮（Chrome扩展重连后继续）：依次检查nurse-practitioner-salary/what-does-a-paralegal-do/physical-therapist-salary均已'URL is on Google'（自然收录，未消耗配额）。本站第二轮无新提交，游标继续前进不重置。",
+        "submitted_urls": [],
+        "already_indexed_no_action": [
+            "https://wagelark.com/nurse-practitioner-salary/",
+            "https://wagelark.com/what-does-a-paralegal-do/",
+            "https://wagelark.com/physical-therapist-salary/"
+        ],
+        "quota_used": "0 requests (round 2, all checked candidates already indexed)"
+    },
+    {
+        "date": "2026-08-07",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行（跨天连续游标轮换，两轮）。按收入代理排序队列逐个URL Inspection检查：已收录（URL is on Google）的候选跳过不消耗配额，共2个；找到未收录候选后提交REQUEST INDEXING，两轮各提交1个，共2个。",
+        "submitted_urls": [
+            "https://wagelark.com/dental-assistant-salary/",
+            "https://wagelark.com/surgical-tech-salary/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/dental-hygienist-salary/",
+            "https://wagelark.com/radiology-tech-salary/"
+        ],
+        "quota_used": "2 requests (2轮各1次)"
+    },
+    {
+        "date": "2026-08-08",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行。已收录候选跳过2个，找到未收录候选medical-assistant-salary提交REQUEST INDEXING并收到确认。因怀疑账号级配额已在处理LingoGrove时耗尽，本站仅处理1个候选后即结束本次运行，未继续检查剩余候选（nurse-practitioner-salary等）。",
+        "submitted_urls": [
+            "https://wagelark.com/medical-assistant-salary/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/dental-hygienist-salary/",
+            "https://wagelark.com/radiology-tech-salary/"
+        ],
+        "quota_used": "1 request"
+    },
+    {
+        "date": "2026-08-09",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行。处理今日新发布 air-traffic-controller-salary（第19篇），URL Inspection确认'URL is not on Google'，REQUEST INDEXING后确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://wagelark.com/air-traffic-controller-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 request"
+    },
+    {
+        "date": "2026-08-10",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行。今日两篇新发布均查询后确认未收录，均REQUEST INDEXING并确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://wagelark.com/how-to-become-a-cna/",
+            "https://wagelark.com/respiratory-therapist-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "2 requests"
+    },
+    {
+        "date": "2026-08-11",
+        "action": "submitted",
+        "reason": "游标第2站。今日新发布electrician-salary（第22篇，本站首篇技能类工种文章）URL Inspection显示未收录（URL is unknown to Google），REQUEST INDEXING后确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://wagelark.com/electrician-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 request"
+    },
+    {
+        "date": "2026-08-12",
+        "action": "submitted",
+        "reason": "游标起点站（承接8/11收尾时next_start_site=WageLark）。今日新发布plumbing-apprenticeship（第24篇，How to Become页型）URL Inspection显示未收录（URL is unknown to Google）。REQUEST INDEXING点击后5秒等待截图仍显示未提交前状态，为保险起见再次点击REQUEST INDEXING，随后确认'Indexing requested'——不能完全排除两次点击都各自消耗了一次配额（本任务后续在其余9站改为固定等待20秒以上再判定，未再复现此问题）。",
+        "submitted_urls": [
+            "https://wagelark.com/plumbing-apprenticeship/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1-2 requests（存在重复点击疑虑，详见reason）"
+    },
+    {
+        "date": "2026-08-13",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，游标本轮起点WageLark（跨天连续游标）。今日新发布welder-salary，URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功（一次点击即显示Indexing requested）。",
+        "submitted_urls": [
+            "https://wagelark.com/welder-salary/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota (1st request this run)"
+    },
+    {
+        "date": "2026-08-16",
+        "action": "submitted",
+        "reason": "游标起点站（承接2026-08-13收尾时next_start_site=WageLark，中间08-14/08-15任务运行出现空档未记录提交）。本轮完整走完一圈全部10站后配额仍有余量，第二圈回到WageLark额外提交一次。第一次：how-to-become-a-paralegal（08-13已发布未提交），URL Inspection确认'URL is not on Google'（Discovered - currently not indexed），REQUEST INDEXING后确认'Indexing requested'。第二次（第二圈）：从Page indexing报告的'Discovered - currently not indexed'分类中找到how-much-do-flight-attendants-make，同样确认未收录后提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/how-to-become-a-paralegal/",
+            "https://wagelark.com/how-much-do-flight-attendants-make/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/what-does-a-paralegal-do/",
+            "https://wagelark.com/how-to-become-an-ultrasound-tech/"
+        ],
+        "quota_used": "2 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-16",
+        "action": "submitted",
+        "reason": "同日第三次提交（首次运行结尾因Claude in Chrome工具故障卡在Hollowvane，等待网络恢复后重试成功续跑，本站是本轮游标最后一站）。GSC'Crawled - currently not indexed'分类候选medical-assistant-salary/已收录（报告延迟）。改查最新发布文章how-to-become-an-electrician（内容发布日志最新一条，累计28篇）经URL Inspection确认'URL is not on Google'（URL unknown to Google），REQUEST INDEXING提交成功确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://wagelark.com/how-to-become-an-electrician/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/medical-assistant-salary/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-17",
+        "action": "submitted",
+        "reason": "今日新发布第30篇how-long-is-nursing-school（12:35档），URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://wagelark.com/how-long-is-nursing-school/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-18",
+        "action": "submitted",
+        "reason": "今日新发布第32篇hvac-certification（12:35档），URL Inspection确认'URL is not on Google'，REQUEST INDEXING提交成功确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://wagelark.com/hvac-certification/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-19",
+        "action": "submitted",
+        "reason": "今日为既有页pharmacist-salary内容增强（并入how-long-does-it-take-to-become-a-pharmacist，非新页面），URL Inspection确认该URL已'URL is on Google'（已收录），无需提交。改用build-index-queue.py优先级队列候选how-long-does-it-take-to-become-a-dentist，URL Inspection确认'URL is not on Google'（Discovered - currently not indexed），REQUEST INDEXING提交成功确认'Indexing requested'。",
+        "submitted_urls": [
+            "https://wagelark.com/how-long-does-it-take-to-become-a-dentist/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/pharmacist-salary/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-20",
+        "action": "submitted",
+        "reason": "今日新发布how-to-become-a-psychologist（第36篇，wagelark-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://wagelark.com/how-to-become-a-psychologist/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-21",
+        "action": "submitted",
+        "reason": "今日新发布how-to-become-an-accountant（第39篇，wagelark-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。同日content-quality-audit审计更新radiology-tech-salary为既有页非新页面，未重复处理。",
+        "submitted_urls": [
+            "https://wagelark.com/how-to-become-an-accountant/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-22",
+        "action": "submitted",
+        "reason": "今日新发布how-to-become-a-software-engineer（第41篇，wagelark-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://wagelark.com/how-to-become-a-software-engineer/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-23",
+        "action": "submitted",
+        "reason": "今日仅有trafficsite-content-quality-audit审计更新nurse-practitioner-salary，wagelark-content-publishing当日尚未产出新文章（12:35档运行时刻尚未到达）。Pages报告2个Discovered-currently not indexed候选(firefighter-salary/truck-driver-salary)中选中firefighter-salary，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://wagelark.com/firefighter-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-24",
+        "action": "submitted",
+        "reason": "今日新发布what-does-a-dental-hygienist-do（第46篇，wagelark-content-publishing任务）。URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://wagelark.com/what-does-a-dental-hygienist-do/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-26",
+        "action": "submitted",
+        "reason": "今日新发布what-does-a-nurse-practitioner-do（第52篇），URL Inspection确认未收录，REQUEST INDEXING提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/what-does-a-nurse-practitioner-do/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": 1
+    },
+    {
+        "date": "2026-08-27",
+        "action": "submitted",
+        "reason": "今日存量丰富welder-salary（补充AWS认证章节，非新发布），URL Inspection确认该页已收录不作为提交对象。改查build-index-queue.py队列候选：how-to-become-a-social-worker/how-to-become-a-physical-therapist/what-does-a-paralegal-do/how-to-become-an-ultrasound-tech/how-long-does-it-take-to-become-a-lawyer均已'URL is on Google'（已收录，不耗配额），what-does-a-welder-do未收录，REQUEST INDEXING提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/what-does-a-welder-do/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/welder-salary/",
+            "https://wagelark.com/how-to-become-a-social-worker/",
+            "https://wagelark.com/how-to-become-a-physical-therapist/",
+            "https://wagelark.com/what-does-a-paralegal-do/",
+            "https://wagelark.com/how-to-become-an-ultrasound-tech/",
+            "https://wagelark.com/how-long-does-it-take-to-become-a-lawyer/"
+        ],
+        "quota_used": 1
+    },
+    {
+        "date": "2026-08-28",
+        "action": "submitted",
+        "reason": "今日随机休息未发布新文章（R=0）。改用build-index-queue.py队列取代理值最高候选ultrasound-tech-salary，URL Inspection确认未收录，REQUEST INDEXING提交成功。第二轮遍历时提交队列次高候选veterinary-technician-salary，同样确认未收录后提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/ultrasound-tech-salary/",
+            "https://wagelark.com/veterinary-technician-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "2 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-29",
+        "action": "submitted",
+        "reason": "今日新发布mri-tech-salary：URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://wagelark.com/mri-tech-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-30",
+        "action": "submitted",
+        "reason": "今日两条记录：air-traffic-controller-salary为content-quality-audit审计更新（非新发布），本轮站点名额已用于veterinarian-salary未再核查该URL；veterinarian-salary为新发布文章，URL Inspection确认URL is not on Google/unknown to Google，REQUEST INDEXING提交成功确认Indexing requested。",
+        "submitted_urls": [
+            "https://wagelark.com/veterinarian-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-08-31",
+        "action": "submitted",
+        "reason": "今日新发布radiation-therapist-salary（Radiation Therapists, SOC 29-1124）：URL Inspection确认URL is not on Google，REQUEST INDEXING提交成功确认Indexing requested。今日另有审计更新how-to-become-a-cna未再核查（非新发布，优先级低于新发布）。",
+        "submitted_urls": [
+            "https://wagelark.com/radiation-therapist-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-01",
+        "action": "submitted",
+        "reason": "今日新发布nuclear-medicine-technologist-salary，URL Inspection确认URL is not on Google，提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/nuclear-medicine-technologist-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-02",
+        "action": "submitted",
+        "reason": "trafficsite-gsc-index-requests例行运行，游标停留位DayAlmanac，WageLark排第4位，今日无新发布。检查how-to-become-a-social-worker已收录，改用Page indexing报告Discovered-not-indexed列表找到chef-salary提交成功。第二轮hvac-certification（同报告列表）提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/chef-salary/",
+            "https://wagelark.com/hvac-certification/"
+        ],
+        "already_indexed_no_action": [
+            "https://wagelark.com/how-to-become-a-social-worker/"
+        ],
+        "quota_used": "2 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-03",
+        "action": "submitted",
+        "reason": "今日新发布how-to-become-a-school-counselor（第一次运行），URL Inspection确认URL is not on Google，提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/how-to-become-a-school-counselor/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-04",
+        "action": "submitted",
+        "reason": "今日新发布occupational-therapy-assistant-salary，URL Inspection确认URL is not on Google，提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/occupational-therapy-assistant-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-09",
+        "action": "submitted",
+        "reason": "今日新发布clinical-laboratory-technologist-salary，URL Inspection确认URL is not on Google，提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/clinical-laboratory-technologist-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-10",
+        "action": "submitted",
+        "reason": "今日新发布medical-dosimetrist-salary，URL Inspection确认URL is not on Google，提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/medical-dosimetrist-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-11",
+        "action": "submitted",
+        "reason": "今日新发布audiologist-salary，URL Inspection确认URL is unknown to Google，提交成功。",
+        "submitted_urls": [
+            "https://wagelark.com/audiologist-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-12",
+        "action": "submitted",
+        "reason": "今日新发布psychiatrist-salary，URL Inspection确认URL is not on Google，提交成功。同日plumbing-apprenticeship为content-quality-audit审计更新（BLS数据周期刷新），本轮已用掉本站名额未额外查询。",
+        "submitted_urls": [
+            "https://wagelark.com/psychiatrist-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_used": "1 of shared account-wide daily quota"
+    },
+    {
+        "date": "2026-09-13",
+        "action": "submitted_then_quota_exceeded",
+        "reason": "今日新发布speech-language-pathologist-salary（同时也是老页未收录巡检候选），URL Inspection确认URL unknown to Google，提交成功。第二轮补充提交巡检候选funeral-director-salary（Discovered-currently not indexed）时触发Quota Exceeded（当日共享配额第11次成功提交之后的第12次尝试），立即停止未重试，未消耗到该URL的配额。",
+        "submitted_urls": [
+            "https://wagelark.com/speech-language-pathologist-salary/"
+        ],
+        "already_indexed_no_action": [],
+        "quota_exceeded_attempted": [
+            "https://wagelark.com/funeral-director-salary/"
+        ],
+        "quota_used": "1 of shared account-wide daily quota (2nd attempt hit Quota Exceeded, not counted)"
+    }
 ]
