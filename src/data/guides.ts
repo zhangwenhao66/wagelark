@@ -5060,4 +5060,72 @@ export const guides: Guide[] = [
 		image: '/images/psychiatrist-salary-chart.svg',
 		imageAlt: 'Bar chart comparing median annual pay: psychiatrists $281,870, physicians overall $275,930, optometrists $136,570, psychologists $94,310, per BLS.',
 	},
+	{
+		slug: 'speech-language-pathologist-salary',
+		category: 'Salary Guide',
+		title: 'Speech-Language Pathologist Salary: $97,870 Median Pay',
+		description: 'BLS puts the median speech-language pathologist salary at $97,870 a year, above the $50,980 U.S. median, with 17% job growth projected through 2035.',
+		published: '2026-09-13',
+		updated: '2026-09-13',
+		socCode: '29-1127',
+		coreSummary: "Speech-language pathologists earned a median of $97,870 in May 2025, per the Bureau of Labor Statistics, working out to $47.05 an hour. The bottom 10% of earners made less than $62,900, and the top 10% cleared $134,160, a range of roughly $71,260. That places speech-language pathologists $46,890 above the $50,980 median BLS reports across all U.S. occupations, and $2,090 above audiologists ($95,780), a closely related field that typically requires a four-year clinical doctorate rather than speech-language pathology's typical two-year master's. BLS counted 193,400 speech-language pathologists in 2025 and projects 17% growth through 2035, much faster than average, adding roughly 32,100 jobs.",
+		sections: [
+			{
+				heading: 'The $97,870 median, from percentile spread to job outlook',
+				body: [
+					"The U.S. Bureau of Labor Statistics puts the median speech-language pathologist salary at $97,870 a year, or $47.05 an hour, for May 2025, on the dedicated occupational profile it maintains under SOC code 29-1127. Earners in the bottom 10% made less than $62,900, while the top 10% cleared $134,160, a spread of about $71,260 between the two ends. BLS counted 193,400 speech-language pathologists nationally in 2025 and projects the field will grow 17% through 2035, a pace BLS classifies as much faster than average across all U.S. occupations. That growth is expected to add roughly 32,100 jobs to the current headcount, with about 12,500 openings projected each year on average, most tied to workers transferring to other occupations or leaving the labor force rather than to newly created positions alone.",
+					"BLS describes the day-to-day work as evaluating a client's level of speech, language, or swallowing difficulty, then creating and carrying out an individualized treatment plan that can involve teaching clients how to make sounds, improve vocabulary and sentence structure, or strengthen the muscles used to swallow, alongside counseling clients and their families on how to cope with communication and swallowing disorders. BLS lists schools, private practice, hospitals, and nursing and residential care facilities as the main work settings, and notes that most speech-language pathologists work full time, though part-time work is common.",
+				],
+			},
+			{
+				heading: "A two-year master's that still out-earns a related four-year doctorate",
+				body: [
+					"Entering speech-language pathology requires at least a master's degree in the field, a program BLS says typically takes two years of postbaccalaureate study; master's programs may not require a specific undergraduate major but often expect coursework in biology, social science, or related health fields. That is a shorter, less advanced credential than the doctor of audiology (Au.D.) degree BLS lists as the typical entry point for [audiologists](/audiologist-salary/), an adjacent field speech-language pathologists often work alongside in outpatient therapy settings. Yet BLS's dedicated page for that occupation puts the May 2025 median for audiologists at $95,780, a full $2,090 below what speech-language pathologists earn despite the longer degree path.",
+					"BLS does not explain the gap on either page; a plausible factor it does not state outright is that speech-language pathology serves a much larger client base across schools, hospitals, and private practice (193,400 workers nationally versus audiology's 14,200), which could translate into more consistent institutional demand and staffing pressure than a smaller, more specialized field. That is offered as a possible explanation, not a claim BLS itself makes.",
+				],
+			},
+			{
+				heading: 'Nursing facilities pay the most, schools pay the least',
+				body: [
+					"BLS breaks out May 2025 wages for speech-language pathologists across four industry categories. Nursing and residential care facilities paid the highest median, at $109,660, followed by hospitals (state, local, and private) at $103,690 and offices of physical, occupational and speech therapists, and audiologists at $98,910. Educational services (state, local, and private), meaning school-based work, paid the least of the four tracked categories, at $83,120, a gap of $26,540 between the highest- and lowest-paying settings.",
+					"That pattern, school-based work paying the least of the tracked settings, echoes what BLS reported a year earlier on this site's [occupational therapist salary](/occupational-therapist-salary/) page, where educational services likewise ranked lowest among the five industry categories BLS tracked for that occupation in May 2024. BLS does not tie the two occupations' pay structures together on either page; the parallel is one this site draws by comparing the two profiles, not a claim BLS makes about school-based allied health pay in general.",
+				],
+			},
+			{
+				heading: 'Licensed in every state, with a national clinical fellowship behind the certification',
+				body: [
+					"Per BLS, all states require speech-language pathologists to be licensed, though requirements vary by state and typically include supervised clinical experience and passing an exam; BLS notes that certification typically satisfies some or all of the requirements for state licensure and may be required by some employers, and it points readers to CareerOneStop for state-specific licensing-board details. On the certification path itself, BLS's own language is specific: \"To become certified, candidates must graduate from an accredited program, pass an exam, and complete a fellowship that lasts several months and is supervised by a certified speech-language pathologist.\"",
+					"Independently of BLS, the credential behind that fellowship is the Certificate of Clinical Competence in Speech-Language Pathology (CCC-SLP), issued by the American Speech-Language-Hearing Association (ASHA). Per ASHA's own published requirements, the Clinical Fellowship must total at least 1,260 hours across a minimum of 36 weeks of full-time work (or a proportionally longer part-time equivalent), supervised by a mentor who already holds an active CCC-SLP with at least nine months of post-certification experience. Travel, lunch, vacations, and other paid or unpaid time off do not count toward those hours, per ASHA.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median speech-language pathologist salary?',
+				answer: "For May 2025, BLS puts it at $97,870 annually, which works out to roughly $47 for each hour on the clock, across a workforce of 193,400 nationwide.",
+			},
+			{
+				question: 'What is the pay range for speech-language pathologists?',
+				answer: "Per BLS's May 2025 numbers, the bottom tenth earned under $62,900 while the top tenth cleared $134,160, roughly $71,260 apart.",
+			},
+			{
+				question: 'Which industry pays speech-language pathologists the most?',
+				answer: "Long-term and residential-care settings top BLS's May 2025 list at $109,660. School-based work sits at the bottom of that same list, $83,120.",
+			},
+			{
+				question: 'Do speech-language pathologists need a license or certification?',
+				answer: "Yes, every state mandates one, and BLS says the specifics differ state to state, generally covering an exam plus hands-on clinical time. On top of that, ASHA's CCC-SLP credential requires a mentored post-graduate work period of 1,260 hours minimum, spread across 36 weeks, under someone who already holds that credential.",
+			},
+			{
+				question: 'Is speech-language pathology a growing occupation?',
+				answer: 'BLS projects 17% employment growth from 2025 to 2035, well ahead of the roughly 3% pace expected economy-wide, adding about 32,100 jobs to a 2025 base of 193,400 workers.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Speech-Language Pathologists (accessed 2026-09-13 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/speech-language-pathologists.htm' },
+			{ label: 'American Speech-Language-Hearing Association (ASHA): A Guide to the ASHA Clinical Fellowship Experience, used for the mentor and hours-requirement detail above (independently confirmed via direct fetch 2026-09-13, not a BLS-sourced detail)', url: 'https://www.asha.org/certification/clinical-fellowship/' },
+		],
+		image: '/images/speech-language-pathologist-salary-chart.svg',
+		imageAlt: 'Bar chart showing speech-language pathologist annual wage by percentile: 10th percentile $62,900, median $97,870, 90th percentile $134,160, based on BLS May 2025 data.',
+	},
 ];

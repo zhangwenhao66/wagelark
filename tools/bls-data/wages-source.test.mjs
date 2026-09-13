@@ -1250,3 +1250,21 @@ test('spot check: Psychiatrists (29-1223) matches BLS OOH page', () => {
 	assert.deepEqual(occ.industryWages, []);
 	assert.equal(occ.employmentIsGroupLevel, undefined);
 });
+
+test('spot check: Speech-Language Pathologists (29-1127) matches BLS OOH page', () => {
+	const occ = occupations['29-1127'];
+	assert.equal(occ.medianAnnual, 97870);
+	assert.equal(occ.medianHourly, 47.05);
+	assert.deepEqual(occ.percentiles, { p10: 62900, p90: 134160 });
+	assert.equal(occ.employment, 193400);
+	assert.equal(occ.jobOutlookPct, 17);
+	assert.equal(occ.jobOutlookLabel, 'Much faster than average');
+	assert.equal(occ.employmentChange, 32100);
+	assert.equal(occ.entryEducation, "Master's degree");
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Nursing and residential care facilities');
+	assert.equal(occ.industryWages[0].annualWage, 109660);
+	assert.equal(occ.industryWages[2].industry, 'Offices of physical, occupational and speech therapists, and audiologists');
+	assert.equal(occ.industryWages[2].annualWage, 98910);
+	assert.equal(occ.industryWages[3].annualWage, 83120);
+});
