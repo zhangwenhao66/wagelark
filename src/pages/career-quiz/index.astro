@@ -5,6 +5,12 @@
 // 因此不会被 Cloudflare Pages 构建上线——安全边界靠"不推送"，不是靠 noindex（本页未加 noindex 标签）。
 // 上线前仍需：常规发布任务把它排进当日配额、跑齐 humanizer/avoid-ai-writing/google-spam-compliance/
 // title_lint 全套质检、独立复核，并把 GuideCategory 是否要新增 'Career Quiz' 分类的问题交给正式发布任务决定。
+//
+// 2026-09-13 15词穷举补测追加：除 career quiz for teens 外，又在 free career test with free
+// results（880/月）里找到第二个 A 档证据——careerkit.me（whois 注册 15.5 个月，真实 RIASEC 测验产品，
+// 免注册即时出结果）。三个独立年轻竞品（my-career-path.com/mypassion.ai/careerkit.me）共同的卖点是
+// "零注册墙、客户端即时算分"，本页下方的 vanilla JS 计分逻辑天然满足这一点，无需为此改代码。
+// 详见 独立站/缺口簇立项_20260913.md WageLark 节「2026-09-13 补测」。
 import Layout from '../../layouts/Layout.astro';
 
 const archetypes = [
