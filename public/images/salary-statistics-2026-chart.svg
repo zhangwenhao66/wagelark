@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 236" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="700" height="236" fill="white" />
+	<text x="350" y="26" font-size="16" font-weight="700" fill="#14273f" text-anchor="middle">Median Weekly Earnings by Education, Q2 2026</text>
+	<text x="248" y="61" text-anchor="end" font-size="13" fill="#14212e" font-family="Arial, sans-serif">No high school diploma</text>
+	<rect x="260" y="46" width="350.0" height="22" fill="#dcdad2" />
+	<rect x="260" y="46" width="158.96493212669682" height="22" fill="#0f8b7f" />
+	<text x="428.9649321266968" y="61" font-size="13" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$803</text>
+	<text x="248" y="99" text-anchor="end" font-size="13" fill="#14212e" font-family="Arial, sans-serif">High school diploma, no college</text>
+	<rect x="260" y="84" width="350.0" height="22" fill="#dcdad2" />
+	<rect x="260" y="84" width="196.7760180995475" height="22" fill="#0f8b7f" />
+	<text x="466.7760180995475" y="99" font-size="13" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$994</text>
+	<text x="248" y="137" text-anchor="end" font-size="13" fill="#14212e" font-family="Arial, sans-serif">All full-time workers (median)</text>
+	<rect x="260" y="122" width="350.0" height="22" fill="#dcdad2" />
+	<rect x="260" y="122" width="247.65271493212668" height="22" fill="#0f8b7f" />
+	<text x="517.6527149321266" y="137" font-size="13" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$1,251</text>
+	<text x="248" y="175" text-anchor="end" font-size="13" fill="#14212e" font-family="Arial, sans-serif">Bachelor's degree or higher</text>
+	<rect x="260" y="160" width="350.0" height="22" fill="#dcdad2" />
+	<rect x="260" y="160" width="350.0" height="22" fill="#0f8b7f" />
+	<text x="620.0" y="175" font-size="13" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$1,768</text>
+	<text x="260" y="210" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, Usual Weekly Earnings, Q2 2026 (full-time wage and salary workers, national)</text>
+</svg>

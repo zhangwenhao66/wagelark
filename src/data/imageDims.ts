@@ -243,6 +243,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 420,
   "w": 640
  },
+ "/images/salary-statistics-2026-chart.svg": {
+  "h": 236,
+  "w": 700
+ },
  "/images/school-counselor-path.svg": {
   "h": 460,
   "w": 640
@@ -253,6 +257,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/software-developer-education-path.svg": {
   "h": 460,
+  "w": 640
+ },
+ "/images/speech-language-pathologist-salary-chart.svg": {
+  "h": 240,
   "w": 640
  },
  "/images/surgical-tech-salary-chart.svg": {
