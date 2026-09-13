@@ -1876,3 +1876,30 @@
   "escalation": null
 }
 ```
+
+## PAA-FAQ批强(2026-09-13批次)
+
+一次性批量任务（Owen直接批准），来源：`独立站/research-db/paa_gap.py`重新解析12000+份历史DataForSEO SERP抓取，比对出目标关键词真实存在但现有FAQ未接住的Google PAA问法。列表：`独立站/research-db/paa_bulk_20260913/wagelark.json`（53条候选，按`impressions_28d`降序处理）。
+
+**处理方式**：每篇文章仅追加1-2条FAQ到`faq`数组末尾，答案来自BLS OOH/OEWS真实数据（本文件已引用的来源优先，需要新事实时用WebSearch核实或curl直连/r.jina.ai代理抓取BLS官网原文，未使用WebFetch）；不修改正文/标题/description/sources/coreSummary/其他FAQ条目/`updated`字段。跑遍Skill(avoid-ai-writing)规则人工自查（无破折号、无"重要的是"类模型腔、无三连排比）。
+
+**处理完成47篇（新增FAQ约63条），分5批commit+push**：
+1. electrician-salary, radiology-tech-salary, pharmacist-salary, welder-salary, nurse-practitioner-salary, mri-tech-salary, how-to-become-a-software-engineer, actuary-salary, what-does-an-actuary-do, crna-salary, radiation-therapist-salary, respiratory-therapist-salary, dental-hygienist-salary, physician-assistant-salary（commit 0950147）
+2. what-does-a-welder-do, ultrasound-tech-salary, occupational-therapy-assistant-salary, surgical-tech-salary, veterinary-technician-salary, air-traffic-controller-salary, what-does-a-physician-assistant-do, veterinarian-salary, nuclear-medicine-technologist-salary, physical-therapist-salary（commit 298bea8）
+3. what-does-a-paralegal-do, what-does-a-bookkeeper-do, what-does-a-millwright-do, what-does-a-home-health-aide-do, pharmacy-technician-salary, how-to-become-a-school-counselor, dental-assistant-salary, medical-dosimetrist-salary（commit 0e9c4f8）
+4. how-to-become-a-paralegal, what-does-a-ceo-do, how-to-become-an-ultrasound-tech, what-does-a-nurse-practitioner-do, clinical-laboratory-technologist-salary, how-to-become-a-physical-therapist, medical-assistant-salary（commit d4663db）
+5. occupational-therapist-salary, funeral-director-salary, genetic-counselor-salary, audiologist-salary, forensic-scientist-salary, truck-driver-salary, how-to-become-a-flight-attendant, optometrist-salary（commit 54231ed）
+
+**跳过6篇，未新增FAQ（如实记录，未凑数）**：
+- `what-does-a-dental-hygienist-do`：3条gap问法中，"主要职责"已被现有FAQ实质覆盖（措辞不同），剩余1条"pros and cons"过于宽泛主观，无法用单一可核实事实回答。
+- `how-to-become-an-electrician`：4条gap问法中，"多少年"已被现有FAQ覆盖，剩余3条均为"25/30岁是否太晚"这类个人化年龄提问，属主观/职业建议范畴，不给具体人群建议以免涉及编造或误导性劝告。
+- `highest-paying-jobs-without-a-degree`：5条gap问法中2条与现有FAQ重复（最高薪资/无学位最高薪），"月入1万""百万年薪""最快乐职业"三条BLS均无对应可核实数据，编造风险高，全部放弃。
+- `psychiatrist-salary`：3条gap问法（是否朝九晚五/哪个亚专科最赚钱/是否高压）均无法在本文已引用来源基础上找到可核实事实，均为主观或BLS未拆分数据的问题。
+- `speech-language-pathologist-salary`：4条gap问法，"哪个领域最赚钱"已被现有"最高薪行业"FAQ实质覆盖，其余3条（压力/难度/与护理对比难度）均为主观问题。
+- `salary-statistics-2026`：4条gap问法中"2026薪资是否在涨/什么算好薪资"过于主观笼统，"超过$75000/$100000（男性）美国人占比"需要Census/BLS收入分布表精确数字，当前工具（WebSearch额度已耗尽、curl未定位到可靠权威分布表）无法当场核实，未凑数编造。
+
+**53条候选全部处理完毕，无遗留**：47篇新增FAQ + 6篇明确跳过 = 53，覆盖率100%（`impressions_28d`为None的11篇优先级最低，但本次时间预算内也已全部过了一遍：truck-driver-salary/funeral-director-salary/optometrist-salary/genetic-counselor-salary/audiologist-salary/forensic-scientist-salary/how-to-become-a-flight-attendant/occupational-therapist-salary共8篇完成新增，psychiatrist-salary/speech-language-pathologist-salary/salary-statistics-2026共3篇因无可核实的净新增事实而跳过）。
+
+**验证**：`npm run build`每批commit前均执行，81页全部构建成功，无语法错误。构建产物已push到`origin/main`（5次push均成功，`git pull --rebase`前均已确认无冲突；过程中发现该仓库确实存在其他自动化任务并发修改`guides.ts`的情况——两次行号计算出现漂移，已改为"当场重新grep行号+原子化脚本一次性完成计算+校验+写入"规避，未造成任何内容误插入或覆盖）。
+
+线上生效抽查（绕缓存`curl "https://wagelark.com/<slug>/?cb=$RANDOM"`，5篇随机抽查全部命中）：electrician-salary（"two-year degree program"✓）、pharmacist-salary（"basically a doctor"✓）、crna-salary（"How many years does it take to become a CRNA"✓）、medical-assistant-salary（"basically a nurse"✓）、optometrist-salary（"optometrist or ophthalmologist"✓）。Cloudflare Pages部署延迟未构成问题，抽查时已全部生效。
