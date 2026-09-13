@@ -14,6 +14,16 @@
 
 2026-08-29 已发布为 [Highest-Paying Jobs Without a Bachelor's Degree, Ranked by BLS Pay (2026)](https://wagelark.com/highest-paying-jobs-without-a-degree/)，见 `linkable-asset-log.md`。实际覆盖 47 个职业（非原计划27个，词库已扩），29个（62%）为免学位；头条数字：Air Traffic Controllers中位年薪$144,580，高于其余46个职业中的41个。含Cite this引用块+CSV下载（`public/data/highest-paying-jobs-without-a-degree.csv`）+排行条形图（`public/images/highest-paying-jobs-without-a-degree-chart.svg`）。归类为Career Guide（未新增Data Studies分类，避免改动GuideCategory类型+导航页面的连带工程量）。
 
+**[同类反查 2026-09-13]**：`serp "highest paying jobs without a degree"` 取前3同类合集页/招聘平台（跳过Reddit），对 indeed.com / careers.usnews.com / teenlife.com 做 backlinks 反查，合并去重后过门槛，3 个合格：
+
+| 来源域名 | 命中同类资产数 | 类型 | ETV | 外链结构 | 具体来源页 |
+|---|---|---|---|---|---|
+| featured.com | 1 | resource_page（专家问答聚合平台） | 1.48万 | 23.5条/域名，正常 | https://careers.usnews.com/（首页链接） |
+| michaelthompson-phd.com | 1 | blog_article（职业发展类个人博主） | 967 | 2.7条/域名，正常 | https://www.teenlife.com/blogs/articles/separating-parent-teen-college-dreams/（锚文本"teenlife.com"） |
+| dailyvoice.com | 1 | blog_article（本地新闻媒体） | 33.5万 | 20.2条/域名，正常 | https://careers.usnews.com/best-jobs/rankings（锚文本"2026 rankings"） |
+
+未筛掉候选（其余多为indeed自己的国际子域名/招聘SaaS/隐私政策页，本身就不算真正第三方，未列入门槛检查名单）。
+
 - **类别**：原创数据研究
 - **具体做什么**：用 `bls-wages.ts` 里已有的 `entryEducation` 字段（High school diploma / Postsecondary nondegree award / Associate's degree / Bachelor's / Master's / Doctoral 六档）对 27 个职业做交叉分析，按"入行学历门槛"分组后各组内按 `medianAnnual`（及 `percentiles.p90`）排序，产出一篇"不需要四年制学位、薪资中位数最高的 N 个职业"的数据文章，附排行表格（职业、入行学历、中位年薪、p90、职业增长率 `jobOutlookPct`）。全部数据已在仓库现成字段里，不需要新采集。
 - **为什么会被引用**：个人理财博主、"gap year/不上大学"类内容创作者、社区大学招生页、职业规划类 subreddit 都在找"高薪不需要学位的工作"这类可核实数据支撑的排行——比同类内容常见的"拍脑袋列举"更有说服力，因为每个数字都能标注 BLS 来源年份可核实。
