@@ -4129,6 +4129,14 @@ export const guides: Guide[] = [
 				question: 'What pays more, RN or ultrasound tech?',
 				answer: 'Registered nurses earned slightly more in May 2024, per BLS: a median of $93,600, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $89,340 for diagnostic medical sonographers, the category BLS uses for ultrasound techs. Both figures come from the same BLS survey year, though the two occupations sit on separate Handbook pages with different typical entry-level education.',
 			},
+			{
+				question: 'Is becoming an ultrasound tech hard?',
+				answer: "It's a real, credential-gated path rather than something learned purely on the job. Per BLS, most candidates complete an accredited associate's degree program, and even in states without a licensing requirement, most employers expect ARDMS certification before hiring, which means passing a separate certifying exam on top of finishing the program. This site's [guide to becoming an ultrasound tech](/how-to-become-an-ultrasound-tech/) covers the accredited-program route and ARDMS requirements in full. BLS itself doesn't rate the difficulty of the path, only that it runs through an accredited program and, in practice, a certification exam most employers treat as a hiring bar.",
+			},
+			{
+				question: 'Is ultrasound tech a stressful job?',
+				answer: "BLS doesn't rate occupations for stress, but its own description of the work points to real physical and scheduling demands: sonographers \"may need to stand for long periods and to lift or turn patients who are ill or disabled,\" often while working at imaging equipment in dimly lit rooms. Because many sonographers work in medical facilities that stay open around the clock, shifts can include evenings, weekends, or overnights. BLS also notes the role functions as part of a care team rather than independently, which adds a coordination demand on top of the physical one, even though BLS itself doesn't use the word \"stressful.\"",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
@@ -4209,6 +4217,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Is vet tech a four-year degree?',
 				answer: 'Not for the technician track specifically. BLS describes veterinary technicians as typically completing a two-year associate\'s degree, while the related veterinary technologist role, tracked under the same combined BLS occupation and wage figure, requires a four-year bachelor\'s degree. The two credentials share one median wage on BLS\'s page even though the training length differs by two years.',
+			},
+			{
+				question: 'Can you live off being a vet tech?',
+				answer: "That depends heavily on location and household situation, which BLS's national figures don't capture. The $45,980 median sits below the roughly $49,500 median BLS reports across all U.S. occupations for the same period, and the bottom 10% earned less than $32,120. Whether that's livable varies enormously by regional cost of living and whether it's a single income or one of two in a household; this page's own wage data can't answer that question for a specific person's circumstances, only report what the occupation pays nationally.",
+			},
+			{
+				question: 'What type of vet tech makes the most money?',
+				answer: "BLS doesn't break out veterinary technician and technologist pay by specialty. The Veterinary Technician Specialist (VTS) credential, awarded by specialty academies recognized by NAVTA (the National Association of Veterinary Technicians in America) in areas like emergency and critical care, dentistry, and anesthesia, is a real, independently confirmed credential layer on top of the base license, but BLS does not publish a separate wage figure for VTS-credentialed technicians versus the general occupation. The clearest pay lever this page's own data shows is setting, not specialty: educational services pays the highest industry median BLS tracks, $51,250, versus $45,740 in veterinary services, where most technicians actually work.",
 			},
 		],
 		sources: [
