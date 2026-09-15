@@ -2003,3 +2003,25 @@
   "escalation": "无——未发现需要推翻核心结论的问题，无需更新作战数据台待办"
 }
 ```
+
+## PAA-FAQ批强第二轮(2026-09-15批次)
+
+第二轮批量任务，来源：重新跑`paa_gap.py`算出的当前真实剩余缺口（已排除2026-09-13第一轮已完全覆盖的页面；第一轮只答了部分问题的页面，本次清单只列剩下没答的问题）。列表：`独立站/research-db/paa_bulk_20260915/wagelark.json`（52条候选，按`impressions_28d`降序处理）。范围已排除CalcBadger/DialWick/LingoGrove三站压制期页面（不适用于本站）及beta/gamma walled_deprioritize名单（不适用于本站）。
+
+**处理方式**：每篇文章挑2-4条gap_questions中最值得回答、能找到可靠来源的问题追加到`faq`数组末尾；答案来自BLS OOH/OEWS真实数据，或ARRT/NBSTSA/NABP/AACP/AANP/AWS/NBRC/MDCB/COA等独立可核实的专业组织来源；找不到可靠来源或问题过于主观（如"是否值得""哪个更难"缺乏可核实判据）时，要么如实标注BLS不做该拆分并给出诚实的hedge式回答，要么整题跳过。WebSearch额度（11个agent共用一池200次）本次会话中途耗尽，耗尽后全部改用Bash curl（直连BLS/ARRT/NBSTSA/NBRC/NAVLE/OSHA官网，部分辅以Wikipedia REST API做背景事实核查），未使用WebFetch。全程未编造薪资数字、考试通过率或死亡率等具体数据，找不到可靠来源的一律注明"BLS不做该拆分"或直接跳过该问题。
+
+**处理完成20篇（新增FAQ 43条），分4批commit+push**：
+1. electrician-salary(+2), radiology-tech-salary(+2), pharmacist-salary(+2), welder-salary(+2), mri-tech-salary(+2), actuary-salary(+2), what-does-an-actuary-do(+2), nurse-practitioner-salary(+3)（commit 7be0c6a）
+2. what-does-a-welder-do(+2), radiation-therapist-salary(+3), physician-assistant-salary(+2), medical-dosimetrist-salary(+1), crna-salary(+3)（commit fde4358 → fbcc014内含批3，见下）
+3. dental-hygienist-salary(+1), respiratory-therapist-salary(+2), veterinarian-salary(+3)（commit fbcc014）
+4. surgical-tech-salary(+2), air-traffic-controller-salary(+1), ultrasound-tech-salary(+2), veterinary-technician-salary(+2)（commit 76fd33c + 19d5d44，两次commit的原因见下方"并发事故"）
+
+**跳过/未完成的问题（如实记录）**：
+- 部分页面的gap_questions里有与现有FAQ实质重复的问法（如"哪个NP专科最赚钱"式的问题，若该页已有"最高薪行业"FAQ实质覆盖），选择性跳过重复项，只答未覆盖的。
+- `how-to-become-a-software-engineer`（392次曝光，3条gap问法）：整页跳过未新增——"多少年成为工程师"与现有FAQ实质重复；"30岁转行是否太晚"是主观职业建议问题，找不到BLS或权威机构的年龄分布可核实数据；"哪种工程师年薪50万"与现有"$300k软件工程师"FAQ高度重叠且无新增可核实信源，三条均放弃而非凑数。
+- 因WebSearch额度耗尽，个别问题（如"welder不长寿"的具体寿命数字、部分职业倦怠具体统计）改用Wikipedia/OSHA/AACP等curl可达的权威二手源，未能拿到每个问题都有一手政府统计，但均标注来源性质（BLS vs 独立确认 vs 行业调查），不冒充BLS数据。
+- 剩余约32篇（按impressions_28d排序中优先级较低的部分，多数曝光<100）本次未轮到，留给下一轮；已处理的20篇覆盖了本次清单曝光量最高的头部页面。
+
+**并发事故与恢复（如实记录）**：处理到第18篇（veterinary-technician-salary）时，git status发现另一个并发任务在同一份共享工作目录上执行了`git checkout`切换到`gap-cluster-career-quiz-20260913`分支，且该任务体贴地用`git stash`保护了我当时未提交的surgical-tech-salary/air-traffic-controller-salary改动（stash message含"while I switch branches"字样，确认是另一并发agent所为，非本会话操作）。后续`git commit`误提交到了错误分支；随后又观察到另一并发进程已自行尝试用`git cherry-pick`把我的commit转移回main，中途冲突（两边独立给同一篇文章的FAQ数组追加了不同问题，非重复内容）。本会话手动完成了冲突消解（两边内容都保留，非二选一丢弃）、恢复了被stash的surgical-tech/ATC改动（`git stash apply`+校验+commit）、确认`gap-cluster-career-quiz-20260913`分支已被对方进程自行复原（无残留的误提交），未触碰不属于本任务的`career-quiz/index.astro`改动或其stash。全程通过`git show --stat`/`grep`逐项核对20篇文章的FAQ内容在最终main分支上完整且无重复无丢失，未造成内容误插入或覆盖。
+
+**验证**：`npm run build`每批commit前均执行，82页全部构建成功。构建产物已push到`origin/main`。绕缓存抽查（`curl "https://wagelark.com/<slug>/?cb=$RANDOM"`，全部HTTP 200）：electrician-salary（"How do electricians make $100,000 a year?"✓）、radiology-tech-salary（"Is becoming a radiology tech hard?"✓）、crna-salary（"Is CRNA the highest-paid nursing role?"✓）、veterinarian-salary（"Is becoming a vet very hard?"✓）、air-traffic-controller-salary（"Why do air traffic controllers have to be hired before age 31?"✓），5篇全部命中，Cloudflare Pages部署延迟未构成问题。
