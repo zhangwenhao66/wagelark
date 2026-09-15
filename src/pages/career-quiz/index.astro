@@ -47,7 +47,7 @@ const archetypes = [
 	{
 		id: 'responder',
 		name: 'Frontline Responder',
-		blurb: 'Unpredictable days don’t drain you — they’re the reason you took the job.',
+		blurb: "Unpredictable days don't drain you. They're the reason you took the job.",
 		guides: [
 			{ slug: 'firefighter-salary', label: 'Firefighter' },
 			{ slug: 'how-to-become-a-paramedic', label: 'Paramedic' },
@@ -88,8 +88,8 @@ const questions = [
 	{
 		q: 'Your ideal Tuesday has…',
 		opts: [
-			{ t: 'No two hours the same — you go where you’re needed', a: 'responder' },
-			{ t: 'A predictable rhythm you’ve gotten good at', a: 'support' },
+			{ t: "Every hour looks different, and you go where you're needed", a: 'responder' },
+			{ t: "A predictable rhythm you've gotten good at", a: 'support' },
 			{ t: 'One-on-one time with the same few people all day', a: 'healer' },
 			{ t: 'A physical task with a visible result by 5pm', a: 'builder' },
 		],
@@ -97,19 +97,19 @@ const questions = [
 	{
 		q: 'Which mistake would bother you more?',
 		opts: [
-			{ t: 'A measurement that’s off by a fraction', a: 'analyst' },
+			{ t: "A measurement that's off by a fraction", a: 'analyst' },
 			{ t: 'A missed deadline that throws off everyone else', a: 'support' },
 			{ t: 'Reacting a beat too slow in an emergency', a: 'responder' },
-			{ t: 'A repair that looks fine but isn’t', a: 'builder' },
+			{ t: "A repair that looks fine but isn't", a: 'builder' },
 		],
 	},
 	{
-		q: 'Someone asks what you’re good at. You say…',
+		q: "Someone asks what you're good at. You say:",
 		opts: [
-			{ t: '"People trust me with them when they’re not okay."', a: 'healer' },
-			{ t: '"I stay calm when everyone else doesn’t."', a: 'responder' },
-			{ t: '"I notice the detail everyone else missed."', a: 'analyst' },
-			{ t: '"Give me the manual and I’ll figure out the rest."', a: 'builder' },
+			{ t: "People trust me with them when they're not okay", a: 'healer' },
+			{ t: "I stay calm when everyone else doesn't", a: 'responder' },
+			{ t: 'I notice the detail everyone else missed', a: 'analyst' },
+			{ t: "Give me the manual and I'll figure out the rest", a: 'builder' },
 		],
 	},
 	{
@@ -118,7 +118,7 @@ const questions = [
 			{ t: 'Never getting to finish anything with your own hands', a: 'builder' },
 			{ t: 'Feeling invisible even when the work matters', a: 'support' },
 			{ t: 'Sloppy processes nobody bothers to fix', a: 'analyst' },
-			{ t: 'Being kept away from the people you’re meant to help', a: 'healer' },
+			{ t: "Being kept away from the people you're meant to help", a: 'healer' },
 		],
 	},
 ]
@@ -128,7 +128,7 @@ const idToArchetype = Object.fromEntries(archetypes.map((a) => [a.id, a]))
 
 <Layout
 	title="Career Personality Quiz"
-	description="A six-question quiz that matches your work style to real career paths in WageLark's salary guides — grounded in BLS wage data, not a generic personality label."
+	description="A six-question quiz that matches your work style to real career paths in WageLark's salary guides, grounded in BLS wage data instead of a generic personality label."
 >
 	<div class="rule-double pt-4">
 		<p class="font-mono-figures m-0 flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1 text-[0.68rem] tracking-[0.14em] uppercase text-[var(--ink-soft)]">
@@ -137,8 +137,8 @@ const idToArchetype = Object.fromEntries(archetypes.map((a) => [a.id, a]))
 		</p>
 		<h1 class="mt-3 mb-0 text-3xl font-bold text-[var(--navy)] md:text-4xl">Which Career Path Actually Fits You?</h1>
 		<p class="mt-3 mb-0 max-w-2xl border-b border-[var(--rule)] pb-4 text-lg text-[var(--ink-soft)]">
-			Most career quizzes end with a personality label. This one ends with three real jobs — each linked to
-			WageLark’s own BLS-sourced salary guide, not a generic description.
+			Most career quizzes end with a personality label. This one ends with three real jobs, each linked to
+			WageLark's own BLS-sourced salary guide instead of a generic description.
 		</p>
 	</div>
 
@@ -152,15 +152,15 @@ const idToArchetype = Object.fromEntries(archetypes.map((a) => [a.id, a]))
 		<div class="mt-4 flex flex-col gap-6">
 			<div>
 				<p class="m-0 font-semibold text-[var(--navy)]">What are some good career tests for teenagers?</p>
-				<p class="m-0 mt-1 text-[var(--ink-soft)]">One built around concrete work styles rather than abstract personality types tends to hold up better for teens who don’t yet have a job to compare the questions against. This quiz uses situational questions (what you’d do when a machine breaks, what mistake would bother you most) instead of asking teens to rate themselves on traits they haven’t tested yet.</p>
+				<p class="m-0 mt-1 text-[var(--ink-soft)]">One built around concrete work styles rather than abstract personality types tends to hold up better for teens who don't yet have a job to compare the questions against. This quiz uses situational questions, like what you'd do when a machine breaks or what mistake would bother you most, instead of asking teens to rate themselves on traits they haven't tested yet.</p>
 			</div>
 			<div>
 				<p class="m-0 font-semibold text-[var(--navy)]">What are some good career assessments for high schoolers?</p>
-				<p class="m-0 mt-1 text-[var(--ink-soft)]">The most useful ones connect a result to an actual entry path — required schooling, typical age to start earning, and real pay data — rather than stopping at a label like "Investigator" or "Builder." Every result on this page links to a full WageLark guide with that detail sourced from the U.S. Bureau of Labor Statistics.</p>
+				<p class="m-0 mt-1 text-[var(--ink-soft)]">The most useful ones connect a result to an actual entry path (required schooling, typical age to start earning, real pay data) rather than stopping at a label like "Investigator" or "Builder." Every result on this page links to a full WageLark guide with that detail sourced from the U.S. Bureau of Labor Statistics.</p>
 			</div>
 			<div>
 				<p class="m-0 font-semibold text-[var(--navy)]">How is this different from a "what career suits my personality" quiz?</p>
-				<p class="m-0 mt-1 text-[var(--ink-soft)]">Generic personality-career quizzes match you to a broad category (creative, analytical, social) that covers thousands of unrelated jobs. This one is scoped to the professions WageLark has actually researched in depth — mostly healthcare, skilled trades, and safety-critical roles — so every result points to a page with real median pay, education requirements, and job outlook instead of a one-line description.</p>
+				<p class="m-0 mt-1 text-[var(--ink-soft)]">Generic personality-career quizzes match you to a broad category, like creative, analytical, or social, that covers thousands of unrelated jobs. This one is scoped to the professions WageLark has actually researched in depth: mostly healthcare, skilled trades, and safety-critical roles. Every result points to a page with real median pay, education requirements, and job outlook instead of a one-line description.</p>
 			</div>
 		</div>
 	</section>
