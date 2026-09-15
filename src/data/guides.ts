@@ -183,6 +183,14 @@ export const guides: Guide[] = [
 				question: 'Who earns more, a CPA or an actuary?',
 				answer: 'BLS reports a higher median for actuaries: $125,770 in May 2024, versus $81,680 for the broader "accountants and auditors" category BLS tracks, the closest comparison available since BLS does not publish separate wage data for CPAs specifically; that category includes accountants who are not CPAs alongside those who are. The gap widens further out on the pay scale: the top 10% of actuaries earned more than $206,430, compared with $141,420 for the top 10% of accountants and auditors.',
 			},
+			{
+				question: 'Is actuary a hard job to get?',
+				answer: "The credentialing path is the main barrier, not the hiring process itself. BLS notes it can take up to seven years of passing Society of Actuaries or Casualty Actuarial Society exams just to reach the Associate-level credential, and actuarial exam-prep providers that track results report individual exam pass rates typically in the 40% to 55% range, meaning most candidates fail at least one exam along the way. Entry-level analyst roles that sponsor exam study are the more common way in, rather than landing a fully credentialed position straight out of school.",
+			},
+			{
+				question: 'What exactly does an actuary do?',
+				answer: "BLS describes actuaries as professionals who use mathematics, statistics, and financial theory to analyze the economic cost of risk, estimating the probability and likely cost of events such as death, illness, accidents, or natural disasters, then using those estimates to price insurance policies, pension plans, and corporate risk strategies. See this site's [what does an actuary do](/what-does-an-actuary-do/) guide for the full breakdown of day-to-day duties and specialties.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Actuaries (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/math/actuaries.htm' },
@@ -257,10 +265,20 @@ export const guides: Guide[] = [
 				question: 'Is a pharmacist basically a doctor?',
 				answer: 'Not in the medical sense. Pharmacists hold a Doctor of Pharmacy (PharmD), a professional doctoral degree, per BLS and the American Association of Colleges of Pharmacy (AACP), both already cited on this page. A PharmD is a different credential from the MD or DO a physician holds. Pharmacists are licensed by state pharmacy boards to dispense medication, check for drug interactions, and counsel patients on proper use, rather than to diagnose conditions or perform medical procedures.',
 			},
+			{
+				question: 'Is becoming a pharmacist hard?',
+				answer: "The licensing exam itself is passable for most graduates: the National Association of Boards of Pharmacy reports an 86.8% first-time national pass rate on the NAPLEX for 2025 graduates. The harder part is the six to eight years of school leading up to it. AACP's 2024 National Pharmacist Workforce Study also found that 73% of full-time pharmacists rated their workload as \"high\" or \"excessively high,\" up from 66% in 2014, which points to the job itself, not just the training, as the more demanding stretch.",
+			},
+			{
+				question: 'Is pharmacist a stressful job?',
+				answer: "Workforce survey data says yes, and workloads have been getting heavier. AACP's 2024 National Pharmacist Workforce Study, based on responses from more than 5,100 pharmacists nationwide, found 73% of full-time pharmacists rated their workload as \"high\" or \"excessively high,\" up from 66% a decade earlier in 2014. Retail and chain pharmacy settings reported the heaviest workloads, while independent community pharmacies reported the lightest, so how stressful the job feels depends heavily on where a pharmacist actually works.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Pharmacists (accessed 2026-08-19, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/pharmacists.htm' },
 			{ label: 'AACP: Pharm.D. Program Structures (accessed 2026-08-19)', url: 'https://www.aacp.org/resource/pharmd-program-structures' },
+			{ label: 'National Association of Boards of Pharmacy: NAPLEX Passing Rates for 2023-2025 Graduates', url: 'https://nabp.pharmacy/wp-content/uploads/NAPLEX-Pass-Rates.pdf' },
+			{ label: 'AACP: 2024 National Pharmacist Workforce Study, Executive Summary', url: 'https://www.aacp.org/sites/default/files/2025-06/2024-npws-executive-summary-5.27.25.pdf' },
 		],
 		image: '/images/pharmacist-salary-chart.svg',
 		imageAlt: 'Bar chart showing pharmacist annual wage by percentile: 10th percentile $86,930, median $137,480, 90th percentile $172,040, based on BLS May 2024 data.',
@@ -437,6 +455,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Is actuary a high-paying career?',
 				answer: 'Relative to the broader labor market, yes. BLS puts the median actuary salary at $125,770 for May 2024, compared with a $49,500 median across all U.S. occupations the same year, meaning a typical actuary earned roughly two and a half times the typical U.S. worker. Pay also varies substantially within the occupation itself: BLS reports a range from under $75,240 at the 10th percentile to over $206,430 at the 90th, reflecting the profession\'s multi-year, exam-based credentialing system more than any single employer or industry factor.',
+			},
+			{
+				question: 'Can actuaries earn $500,000?',
+				answer: "Not according to BLS's own wage data. The top 10% of actuaries earned more than $206,430 in May 2024, the highest decile BLS reports for the occupation, well short of $500,000. That figure is a national percentile drawn from BLS's Occupational Employment and Wage Statistics survey, which captures base wages across the full range of employers; it would not necessarily capture total compensation, including bonuses or equity, for a small number of chief actuary or C-suite roles at large insurers, which BLS does not break out separately.",
+			},
+			{
+				question: 'Who earns more, CPA or actuary?',
+				answer: 'BLS reports a higher median for actuaries: $125,770 in May 2024, versus $81,680 for the broader "accountants and auditors" category, the closest comparison BLS publishes since it does not track CPAs as a separate occupation from accountants generally. The gap holds at the top of the pay scale too: the top 10% of actuaries earned more than $206,430, compared with $141,420 for the top 10% of accountants and auditors.',
 			},
 		],
 		sources: [
@@ -753,12 +779,21 @@ export const guides: Guide[] = [
 				question: 'Which pays more, an RN or a radiology tech?',
 				answer: 'Registered nurses earned more in May 2024: a median of $93,600, per BLS data cited on this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $77,660 for radiologic technologists and technicians the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey, though the two occupations sit on separate Handbook pages with different typical entry-level education: a bachelor\'s, associate\'s, or diploma path for RNs versus an associate\'s degree for radiologic technologists.',
 			},
+			{
+				question: 'Is becoming a radiology tech hard?',
+				answer: "The credentialing exam is passable but not a formality. ARRT's 2025 Annual Exam Report puts the first-time pass rate for the Radiography exam at 86%, with Image Acquisition and Technical Evaluation, and Equipment Operation and Quality Assurance, the two content areas candidates struggle with most. That's on top of an accredited two-year associate degree program with supervised clinical hours, so the harder part for most students is finishing the program itself, not the exam at the end of it.",
+			},
+			{
+				question: 'What type of radiology tech makes the most money?',
+				answer: "BLS tracks base radiologic technologists and technicians separately from more specialized imaging roles, and the specialized roles pay more. MRI technologists, who need an additional certification on top of the base radiography credential, posted a $95,480 BLS median in May 2025, about $18,000 above the base radiologic technologist figure this page covers. Techs who add other specialty certifications, such as CT or mammography (the latter federally regulated under the Mammography Quality Standards Act, with its own required training hours), typically qualify for higher-paying assignments too, though BLS does not publish separate median wages for every specialty certification.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
 			{ label: 'American Registry of Radiologic Technologists (ARRT): Radiography credential', url: 'https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography' },
 			{ label: 'American Registry for Diagnostic Medical Sonography (ARDMS), operated by Inteleos', url: 'https://www.inteleos.org/about/community/ardms/' },
 			{ label: 'Joint Review Committee on Education in Radiologic Technology (JRCERT): program accreditation standards', url: 'https://www.jrcert.org/accreditation-for-students/' },
+			{ label: 'ARRT Annual Exam Report 2025 (Radiography exam first-time pass rate)', url: 'https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/22f9f912-46a8-4f24-ba43-fd0b0c7e602a/ARRT_Annual_Exam_Report-2025.pdf' },
 		],
 		image: '/images/radiology-tech-salary-chart.svg',
 		imageAlt: 'Bar chart showing radiologic technologist annual wage by percentile: 10th percentile $52,360, median $77,660, 90th percentile $106,990, based on BLS May 2024 data.',
@@ -897,6 +932,18 @@ export const guides: Guide[] = [
 			{
 				question: 'How many years does it take to become a nurse practitioner?',
 				answer: 'BLS does not publish one combined total; it describes the path in stages. Nurse practitioners must first hold a registered nursing license, and most programs prefer candidates who already have a bachelor\'s degree in nursing, before completing a graduate program of at least a master\'s degree in an advanced practice nursing specialty that includes both coursework and supervised clinical hours. Based on typical program lengths, a four-year bachelor\'s degree followed by a master\'s- or doctoral-level nurse practitioner program, sources outside BLS commonly put the full path at roughly six to eight years from the start of a nursing degree, though the exact timeline depends on the school, prior RN experience, and full-time versus part-time study.',
+			},
+			{
+				question: 'How do nurse practitioners get to $200,000?',
+				answer: "BLS doesn't publish a formula, and it doesn't break out nurse practitioner pay by specialty at all, but the combined figures it does publish point toward where six-figure-plus pay comes from. The top 10% across the three roles BLS groups together on this page, nurse anesthetists, nurse midwives, and nurse practitioners, earned more than $217,270 in May 2024. Since CRNA pay (median $223,210) sits well above typical NP pay, that combined top decile is pulled upward by anesthetist earners specifically. Nursing-industry sources outside BLS commonly point to specialty (psychiatric-mental health and acute care are frequently cited as higher-paid tracks) and setting as the two biggest levers within NP pay itself, though those figures come from self-reported salary surveys rather than BLS's employer-reported data.",
+			},
+			{
+				question: 'Which NP specialty has the highest salary?',
+				answer: "BLS doesn't say. It publishes one national median, $129,210, for nurse practitioners as a single occupation and does not break wages out by population focus (family, psychiatric-mental health, acute care, pediatric, and so on). Several nursing-industry and job-board sites report psychiatric-mental health and acute-care nurse practitioners among the higher-paid specialties, but those figures come from self-reported salary surveys and aggregator estimates, not from BLS's employer-reported Occupational Employment and Wage Statistics survey, and different sites report different dollar amounts for the same specialty. This page doesn't adopt any single site's numbers as fact given that gap in the underlying data.",
+			},
+			{
+				question: 'Which pays more, PA or NP?',
+				answer: "Physician assistants, by BLS's May 2024 numbers. PAs posted a $133,260 median that year, compared with $129,210 for nurse practitioners, a gap of about $4,050. Both figures come from BLS's Occupational Employment and Wage Statistics survey, though the two occupations sit on separate Handbook pages with different typical entry-level education: a master's degree for both roles in practice, but a physician-collaborative supervision model for PAs in most states versus increasingly independent practice authority for NPs, depending on the state. See this site's [physician assistant salary](/physician-assistant-salary/) guide for the full PA wage breakdown.",
 			},
 		],
 		sources: [
@@ -1579,10 +1626,19 @@ export const guides: Guide[] = [
 				question: 'Is becoming an electrician a two-year degree program?',
 				answer: 'No. BLS lists no postsecondary degree at all as electricians\' typical entry-level education, just a high school diploma or equivalent. Most electricians train through a 4- or 5-year apprenticeship that combines paid on-the-job work with classroom instruction, a longer and differently structured path than a two-year associate degree, even though people sometimes assume trade training runs on the same timeline as a community-college program.',
 			},
+			{
+				question: 'How do electricians make $100,000 a year?',
+				answer: "BLS doesn't publish a formula, but its own numbers show where six-figure electrician pay tends to come from. The top 10% of electricians already cleared $108,510 in May 2025, and government employers, excluding state and local education and hospitals, paid the highest industry median at $79,820. Specializing helps too: BLS's most recently published Occupational Outlook Handbook data puts the median for elevator and escalator installers and repairers, a related trade some electricians move into, at $106,580.",
+			},
+			{
+				question: 'Is electrician a stressful job?',
+				answer: "BLS doesn't rate occupations for stress, but its Work Environment section for electricians is blunt about the physical risks: the work involves close contact with live electrical systems, and common injuries include shocks, burns, and falls. That's why BLS notes electricians must wear protective clothing and safety glasses on the job.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Electricians (accessed 2026-09-02 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2025, superseding the May 2024 data cited when this page was first published)', url: 'https://www.bls.gov/ooh/construction-and-extraction/electricians.htm' },
 			{ label: 'CareerOneStop: Find Licenses (U.S. Department of Labor)', url: 'https://www.careeronestop.org/Toolkit/Training/find-licenses.aspx' },
+			{ label: 'BLS Occupational Outlook Handbook: Elevator and Escalator Installers and Repairers (median wage cited via secondary aggregation of BLS OOH data, most recently published figure)', url: 'https://www.bls.gov/ooh/construction-and-extraction/elevator-installers-and-repairers.htm' },
 		],
 		image: '/images/electrician-salary-chart.svg',
 		imageAlt: 'Bar chart showing electrician annual wage by percentile: 10th percentile $42,640, median $63,190, 90th percentile $108,510, based on BLS May 2025 data.',
@@ -1887,12 +1943,21 @@ export const guides: Guide[] = [
 				question: 'Can you make $100,000 a year as a welder?',
 				answer: 'Not typically, per national BLS data. The top 10% of welders, cutters, solderers, and brazers earned more than $75,850 a year in May 2024, the highest decile BLS publishes for the occupation, still short of $100,000. Specialty trade contractors, the highest-paying of the three industries BLS tracks for this occupation, had a median of just $57,310. BLS\'s wage data reflects the broad occupation as surveyed nationally; it does not break out highly specialized, higher-hazard niches such as underwater or pipeline welding separately.',
 			},
+			{
+				question: 'Can welders make $200,000 a year?',
+				answer: "Not through general welding work, based on the BLS figures on this page, but a narrow, higher-risk specialty can get there. Saturation divers, commercial divers who weld and perform other underwater work while living in a pressurized chamber for days or weeks at a stretch, can earn day rates in the $1,000 to $4,000-plus range while in saturation, and industry sources on commercial diving pay put realistic annual earnings for experienced sat divers working full schedules at $180,000 to $300,000. That's a distinct credentialed path through a commercial diving school, not a figure BLS tracks under its welders, cutters, solderers, and brazers occupation code, and it isn't representative of what most working welders, including most underwater welders, actually earn.",
+			},
+			{
+				question: 'Is welding worth it as a career?',
+				answer: "That depends on what a reader is comparing it to. Against a four-year degree, welding offers a much shorter, cheaper path to a paycheck: BLS lists no postsecondary degree as the typical entry requirement, just a high school diploma plus technical and on-the-job training. On pay, the $51,000 median this page reports trails several other no-degree trades this site covers, and BLS projects only 2% employment growth for the occupation through 2034, slower than the roughly 3% average across all occupations. Against that, BLS still projects about 45,600 openings a year on average, mostly from workers leaving the trade rather than new jobs being created, and it's physically demanding work performed in heat, noise, and sometimes outdoor weather. None of that answers whether it's worth it for any specific person; it's a tradeoff between fast, low-cost entry and a mid-range wage ceiling relative to other skilled trades.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (accessed 2026-08-13 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
 			{ label: 'CareerOneStop (U.S. Department of Labor)', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx?newsearch=true' },
 			{ label: 'American Welding Society: Certified Welder (CW) Program FAQ (accessed 2026-08-27 via direct fetch)', url: 'https://www.aws.org/certification-and-education/professional-certification/certified-welder-program/' },
 			{ label: 'American Welding Society: Certified Welding Inspector (CWI) Program (accessed 2026-08-27 via direct fetch, exam pass score independently corroborated by third-party CWI exam-prep sources)', url: 'https://www.aws.org/certification-and-education/professional-certification/certified-welding-inspector/' },
+			{ label: 'Ocean Corp: Commercial Diver Wages (saturation diver day-rate and annual-earnings figures, industry source, not BLS)', url: 'https://oceancorp.com/commercial-diver-wages/' },
 		],
 		image: '/images/welder-salary-chart.svg',
 		imageAlt: 'Bar chart showing welder, cutter, solderer, and brazer annual wage by percentile: 10th percentile $38,130, median $51,000, 90th percentile $75,850, based on BLS May 2024 data.',
@@ -4251,10 +4316,19 @@ export const guides: Guide[] = [
 				question: 'How long does it take to become an MRI technologist?',
 				answer: 'There is no single fixed timeline. BLS lists an associate\'s degree as the typical entry-level education for radiologic and MRI technologists, generally about two years of full-time study. Most MRI technologists start out as radiologic technologists first: BLS states MRI technologists typically need less than five years of experience in a related occupation, most often gained working as a radiologic technologist, before qualifying for the ARRT\'s MRI-specific credential through its post-primary pathway.',
 			},
+			{
+				question: 'Is becoming an MRI tech hard?',
+				answer: "The credentialing exam is one of the tougher ones ARRT administers. ARRT's 2025 Annual Exam Report puts the overall pass rate for the Magnetic Resonance Imaging exam at 75%, versus 86% for the base Radiography exam, meaning roughly one in four candidates doesn't clear it on a given attempt. That's on top of qualifying to sit for it in the first place, which for most candidates means first earning a radiologic technologist credential and logging enough clinical hours to meet ARRT's post-primary pathway before the MRI-specific exam even comes into play.",
+			},
+			{
+				question: 'Is MRI tech a stressful job?',
+				answer: "BLS doesn't rate occupations for stress, but its description of the physical side of the job points to real day-to-day demands: radiologic and MRI technologists are often on their feet for long periods and may need to lift or turn patients, including those who are injured or unable to move themselves. Add to that the mental load of running expensive imaging equipment correctly, positioning patients precisely, and managing anxious or claustrophobic patients inside an MRI bore, and the job carries real physical and cognitive demands even though BLS itself doesn't use the word \"stressful.\"",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists, SOC 29-2035 (accessed 2026-08-29 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
 			{ label: 'American Registry of Radiologic Technologists (ARRT): Postprimary Eligibility Pathway Requirements, used for the MR credential pathway details above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.arrt.org/pages/earn-arrt-credentials/initial-requirements/postprimary-requirement' },
+			{ label: 'ARRT Annual Exam Report 2025 (MRI and Radiography exam pass rates)', url: 'https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/22f9f912-46a8-4f24-ba43-fd0b0c7e602a/ARRT_Annual_Exam_Report-2025.pdf' },
 		],
 		image: '/images/mri-tech-salary-chart.svg',
 		imageAlt: 'Bar chart showing MRI technologist annual wage by percentile: 10th percentile $68,890, median $95,480, 90th percentile $127,670, based on BLS May 2025 data.',
