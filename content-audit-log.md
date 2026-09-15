@@ -2057,3 +2057,21 @@
   "note": "顺手发现`.worktrees/prose-backfill-20260915-wagelark/`存在一个并行会话正在处理同类FAQ-vs-正文重合问题的存量批次（当日commit 4a6bdf6已修复9篇其他文章：forensic-scientist-salary/audiologist-salary/genetic-counselor-salary/optometrist-salary/clinical-laboratory-technologist-salary/how-to-become-a-school-counselor/what-does-a-home-health-aide-do/nuclear-medicine-technologist-salary/occupational-therapy-assistant-salary），与本次修复的electrician-salary不重叠，判断为09-13/09-15批量PAA-FAQ追加遗留的系统性回溯债务已在被处理中，未干扰、未重复劳动。"
 }
 ```
+
+```json
+{
+  "tool_slug": "机械检查回溯_20260916",
+  "audited": "2026-09-16",
+  "source": "owen-opc-kit/docs/机械检查回溯发现_20260916.md",
+  "findings_fixed": [
+    {
+      "issue": "crna-salary断言CRNA的$223,210是'the highest of any occupation on this site so far'，但psychiatrist-salary（$281,870，live文章）已反超，且站内其余多篇文章（dentist-salary/dental-hygienist-salary等）已经正确把psychiatrist列为更高，只有crna-salary自己的措辞过时",
+      "script": "check_site_superlative_claims.py --verify --data <职业列表> --claim-name CRNA --claim-value 223210",
+      "fix": "改措辞：'the highest of any occupation on this site so far'改为'among the highest this site tracks outside of physician roles like [psychiatrists](/psychiatrist-salary/) at $281,870'，不改BLS数据（$223,210本身准确），过Skill(humanizer)+Skill(avoid-ai-writing)两道检查未发现新增AI味",
+      "commit": "c51b322"
+    }
+  ],
+  "verify": "check_site_superlative_claims.py --guides src/data/guides.ts --slug crna-salary 复验：未发现候选；npm run build 83页成功；push后curl绕缓存/crna-salary/返回200",
+  "escalation": null
+}
+```
