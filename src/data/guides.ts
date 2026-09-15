@@ -1604,7 +1604,7 @@ export const guides: Guide[] = [
 		title: 'Electrician Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median electrician salary at $63,190 a year, with 9% growth projected through 2035. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-11',
-		updated: '2026-09-02',
+		updated: '2026-09-15',
 		socCode: '47-2111',
 		coreSummary: 'The median annual wage for electricians was $63,190 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $42,640 while the top 10% earned more than $108,510. BLS projects 9% employment growth from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 75,900 jobs.',
 		sections: [
@@ -1644,39 +1644,43 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average electrician salary?',
-				answer: 'As of May 2025, the U.S. Bureau of Labor Statistics puts electricians\' median annual pay at $63,190, or $30.38 an hour. "Median" means half of workers in the occupation earned more and half earned less.',
+				answer: "BLS's most recent estimate, from May 2025, puts the typical electrician's pay at $63,190 annually, working out to $30.38 an hour. That figure splits the occupation exactly in half: as many electricians earned more as earned less.",
 			},
 			{
 				question: 'What is the highest-paying industry for electricians?',
-				answer: 'Among the four industry categories BLS tracks for May 2025, government employers (excluding state and local education and hospitals) paid the highest median at $79,820, ahead of manufacturing ($74,550), electrical contractors and wiring installation contractors ($61,570), and employment services ($57,760).',
+				answer: 'Among the four industry categories BLS tracks for May 2025, public-sector work came out on top at a $79,820 median (this category leaves out state and local schools and hospitals, which BLS counts separately), with manufacturing next at $74,550, then firms that install and wire buildings at $61,570, then the staffing-agency category BLS calls "employment services" trailing the group at $57,760.',
 			},
 			{
 				question: 'How much do the lowest- and highest-paid electricians make?',
-				answer: 'BLS reports that the bottom 10% of electricians earned less than $42,640 a year in May 2025, while the top 10% earned more than $108,510. BLS does not break down what separates the highest earners within the occupation on this page.',
+				answer: "Per the May 2025 data, the bottom-earning 10% of electricians made under $42,640 annually, and the top-earning 10% cleared $108,510, roughly a $66,000 spread between those two ends of the range. The Handbook doesn't say what specifically separates the highest earners from everyone else.",
 			},
 			{
 				question: 'Do electricians need a license?',
-				answer: "BLS states that most states require electricians to be licensed, though the specific requirements vary by state. Rather than publish every state's rules itself, BLS points readers to CareerOneStop's database of state licensing boards.",
+				answer: "Yes. The Handbook says licensing is required in the majority of states, though exact requirements vary from one to the next. It doesn't spell out every state's rules itself; it links out to CareerOneStop, which keeps a state-by-state directory of licensing boards.",
 			},
 			{
 				question: 'How long does it take to become an electrician?',
-				answer: 'BLS says most electricians train through a 4- or 5-year apprenticeship that combines paid on-the-job work, roughly 2,000 hours per year, with classroom instruction in electrical theory, blueprint reading, math, and code compliance. Workers who start at a technical school first can typically earn apprenticeship credit for it, and workers who already have electrical experience from the military or construction industry may test into a shorter program.',
+				answer: 'Most electricians spend 4 to 5 years training as an apprentice, per BLS, putting in about 2,000 paid on-the-job hours a year plus classroom coursework covering wiring theory, reading blueprints, math, and code compliance. Those who go through vocational schooling first often get apprenticeship credit for it, and people who already picked up hands-on wiring skills through military service or general construction work can sometimes test into a shorter track.',
 			},
 			{
 				question: 'Is electrician a growing occupation?',
-				answer: "Yes — BLS expects the electrician workforce to expand 9% between 2025 and 2035, well above the roughly 3% rate projected economy-wide. That works out to about 75,900 additional positions and roughly 72,700 openings a year on average, mostly from workers leaving the occupation rather than newly created jobs.",
+				answer: "Yes. Per BLS, the electrician workforce is on track to expand 9% over the 2025-2035 decade, well above the roughly 3% projected for the economy as a whole. That's about 75,900 new positions plus an average of 72,700 openings every year, most of them opening up because someone left the occupation, not because a brand-new position was created.",
 			},
 			{
 				question: 'Is becoming an electrician a two-year degree program?',
-				answer: 'No. BLS lists no postsecondary degree at all as electricians\' typical entry-level education, just a high school diploma or equivalent. Most electricians train through a 4- or 5-year apprenticeship that combines paid on-the-job work with classroom instruction, a longer and differently structured path than a two-year associate degree, even though people sometimes assume trade training runs on the same timeline as a community-college program.',
+				answer: 'No. According to BLS, electricians don\'t need any college degree to start. Just finishing high school, diploma or GED, is enough to begin training. Most spend 4 to 5 years working as a paid apprentice while taking classroom coursework on the side, a longer, differently shaped path than a two-year associate degree, even though people often assume trade training runs on a community-college timeline.',
 			},
 			{
 				question: 'How do electricians make $100,000 a year?',
-				answer: "BLS doesn't publish a formula, but its own numbers show where six-figure electrician pay tends to come from. The top 10% of electricians already cleared $108,510 in May 2025, and government employers, excluding state and local education and hospitals, paid the highest industry median at $79,820. Specializing helps too: BLS's most recently published Occupational Outlook Handbook data puts the median for elevator and escalator installers and repairers, a related trade some electricians move into, at $106,580.",
+				answer: "BLS doesn't spell out a formula, but its own figures show where six-figure pay tends to show up. The top-earning 10% of electricians already cleared $108,510 in May 2025. Government work paid best among the four tracked industries, at a $79,820 median. And some electricians out-earn the base occupation by moving into a higher-paying adjacent trade: BLS's Handbook puts the median for the elevator and escalator repair trade at $106,580.",
 			},
 			{
 				question: 'Is electrician a stressful job?',
-				answer: "BLS doesn't rate occupations for stress, but its Work Environment section for electricians is blunt about the physical risks: the work involves close contact with live electrical systems, and common injuries include shocks, burns, and falls. That's why BLS notes electricians must wear protective clothing and safety glasses on the job.",
+				answer: "BLS doesn't formally rate occupations by stress level, but its notes on the physical risks of this trade are blunt: close contact with live electrical systems, with shocks, burns, and falls among the common injuries. That's also why the Handbook says electricians need protective clothing and safety glasses on the job.",
+			},
+			{
+				question: 'Which type of electrician earns the most?',
+				answer: "BLS treats \"electrician\" as a single occupation nationally and doesn't publish separate pay for specialties such as residential, industrial, or marine work: they all fall under the same SOC code, 47-2111. The closest official breakdown it does publish is by employer type, where the government-sector median outpaces manufacturing, contracting, and staffing-agency employers. Some electricians eventually out-earn the base occupation by retraining into a related trade (installing and maintaining elevators and escalators pays more, per BLS), but that's a different occupation, not a specialty within electrician work itself.",
 			},
 		],
 		sources: [
