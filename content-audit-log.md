@@ -2025,3 +2025,35 @@
 **并发事故与恢复（如实记录）**：处理到第18篇（veterinary-technician-salary）时，git status发现另一个并发任务在同一份共享工作目录上执行了`git checkout`切换到`gap-cluster-career-quiz-20260913`分支，且该任务体贴地用`git stash`保护了我当时未提交的surgical-tech-salary/air-traffic-controller-salary改动（stash message含"while I switch branches"字样，确认是另一并发agent所为，非本会话操作）。后续`git commit`误提交到了错误分支；随后又观察到另一并发进程已自行尝试用`git cherry-pick`把我的commit转移回main，中途冲突（两边独立给同一篇文章的FAQ数组追加了不同问题，非重复内容）。本会话手动完成了冲突消解（两边内容都保留，非二选一丢弃）、恢复了被stash的surgical-tech/ATC改动（`git stash apply`+校验+commit）、确认`gap-cluster-career-quiz-20260913`分支已被对方进程自行复原（无残留的误提交），未触碰不属于本任务的`career-quiz/index.astro`改动或其stash。全程通过`git show --stat`/`grep`逐项核对20篇文章的FAQ内容在最终main分支上完整且无重复无丢失，未造成内容误插入或覆盖。
 
 **验证**：`npm run build`每批commit前均执行，82页全部构建成功。构建产物已push到`origin/main`。绕缓存抽查（`curl "https://wagelark.com/<slug>/?cb=$RANDOM"`，全部HTTP 200）：electrician-salary（"How do electricians make $100,000 a year?"✓）、radiology-tech-salary（"Is becoming a radiology tech hard?"✓）、crna-salary（"Is CRNA the highest-paid nursing role?"✓）、veterinarian-salary（"Is becoming a vet very hard?"✓）、air-traffic-controller-salary（"Why do air traffic controllers have to be hired before age 31?"✓），5篇全部命中，Cloudflare Pages部署延迟未构成问题。
+
+## 2026-09-15 content-quality-audit（electrician-salary，PAA缺口清单命中）
+
+```json
+{
+  "url_slug": "electrician-salary",
+  "last_audited": "2026-09-15",
+  "published_date": "2026-08-11",
+  "selection_source": "独立站/PAA缺口清单_20260913.md 命中（28天曝光1008，本站PAA gap候选最高值；未覆盖问法'What electrician gets the most salary?'，dataforseo_query.py serp当次实测重新确认仍在PAA卡片中）",
+  "diagnostic_focus": [
+    "1. 该文2026-09-02刚做过完整14维度审计（BLS May 2025数据刷新+prose检查），距今仅13天，重点应是核对是否有新变化，而非重复整套审计",
+    "2. check_prose_patterns.py是否仍为exit 0——文件已知在09-02之后又被至少一次外部批量操作（09-13/09-15 PAA-FAQ批次）追加过FAQ，需要重新验证机械检查",
+    "3. 正面回答PAA清单指出的具体缺口问法，且不能与已有9条FAQ实质重复或逐字重合正文",
+    "4. BLS数字是否在13天窗口内发生滚动更新（低概率但需verify，不能假设09-02验证过的数字仍适用于09-15）"
+  ],
+  "findings": [
+    { "dimension": "机械散文检查（第14项）", "status": "发现问题，已修复", "detail": "check_prose_patterns.py运行显示全部9条既有FAQ与正文有≥20字符逐字重合（此前09-02审计时FAQ为6条且已清零，09-13/09-15某次独立于本任务的PAA-FAQ批量追加操作新增了3条FAQ且未跑该检查，与WarCrumbs此前同类事故同源，非本任务历次审计遗留）。逐条改写全部9条既有FAQ答案措辞（BLS数字/事实零改动），脚本复跑至0命中。同时发现改写中引入的em dash（humanizer检查发现），已清除。" },
+    { "dimension": "PAA缺口修复（第4步动作）", "status": "已新增第10条FAQ", "detail": "问题：'Which type of electrician earns the most?' 答案：如实说明BLS不按专业方向（住宅/工业/船舶）拆分电工工资数据，仅按雇主类型（已验证数据：政府部门中位数$79,820最高）和相邻但独立统计的电梯/扶梯安装维修职业（已验证数据$106,580）作答，不编造'专业方向排名'。答案全部复用本文已核实数据，未引入新数字。" },
+    { "dimension": "时效性", "status": "未发现问题，数字仍当前", "detail": "curl直连bls.gov/ooh/construction-and-extraction/electricians.htm（经r.jina.ai代理）逐一核对：median $63,190、10th $42,640、90th $108,510、就业821,000、增速9%(2025-35)、四行业细分($79,820/$74,550/$61,570/$57,760)全部与文章现有数字一致，09-02的May 2025数据仍是BLS当前发布版本，13天窗口内未发生新的年度滚动。" },
+    { "dimension": "竞品差异化", "status": "未发现新问题", "detail": "dataforseo_query.py serp实测'electrician salary'：Google AI Overview已出现（引用9个来源含bls.gov+多个第三方聚合站），本站未进入AI Overview来源列表；本文100% BLS溯源+明确数据年份的定位相比多数第三方聚合站（含推测性/未标注年份数据）仍是差异化优势，维持09-02判断不变。" },
+    { "dimension": "内链健康度/SEO技术/EEAT/合规敏感度/AdSense政策", "status": "未发现问题", "detail": "internal_link_audit.py未将本文标记为临门孤儿页；check_seo_field_stats.py：title z-score=-0.69、description z-score=0.09均正常范围；bls.gov与careeronestop.org经代理确认可正常访问，非死链；内容为中性BLS职业数据，无AdSense限制类目风险。" },
+    { "dimension": "'rather than'密度（第14项另一子项）", "status": "既存问题，沿用2026-09-02已完成的独立复核结论，未重新处理", "detail": "正文仍有5处'rather than'（总数>4阈值），均为09-02审计时已spawn独立agent复核确认的合理多样化使用（4处FALSE POSITIVE+1处已从6处改写降至5处），本次未改动这部分正文，不重复独立复核流程；仅FAQ相关的新发现（FAQ重合）触发本次修复。" },
+    { "dimension": "谷歌垃圾政策合规复核（第15项）", "status": "PASS", "detail": "Skill(google-spam-compliance)重新核对：三要素判定（投入/原创/附加价值均'有'，非高危信号）；十一类逐项核对适用项全部PASS——本页非'同模板换变量'结构（各职业页均有该SOC code专属BLS数据，非仅换职业名的模板页），内链指向真实slug，外链无垃圾链接特征，无隐藏文字/关键词堆砌/伪装门页，AI内容判定为非商品化（明确标注数据来源与年份，诚实说明BLS未跟踪的维度而非编造）。" }
+  ],
+  "independent_verification": "本次未spawn独立agent：①FAQ重合修复为脚本可验证的机械性改写（数字/事实零改动，退出码0为客观验证标准），②'rather than'既存问题沿用2026-09-02已完成的独立复核结论未重新处理，③新增FAQ答案完全复用本文已通过历次审计验证的数据（无新事实主张需要核实）。均不构成需要独立agent复核的'新的、有争议的判断'。",
+  "actions_taken": "改写全部9条既有FAQ答案措辞消除与正文≥20字符逐字重合（BLS数字/事实零改动）；新增第10条FAQ正面回答PAA缺口清单指出的'Which type of electrician earns the most?'；清除改写过程中引入的em dash；updated字段2026-09-02→2026-09-15（published字段已存在，无需回填）；seo_drift baseline/compare确认部署后无CRITICAL/WARNING意外回归；commit 100ed48 push，CF Pages(github-integration自动部署)约150秒后绕缓存curl确认线上生效；IndexNow提交electrician-salary URL（Bing 200/Yandex 200）；内容发布日志.md已追加本条审计记录。",
+  "seo_score": "技术项全部通过，title/description均在正常z-score范围内，与09-02持平",
+  "geo_score": "定性评估维持09-02判断（约87-89/99区间，高于80及格线），FAQ改写未改变事实密度/权威引用结构，未重新逐项打分",
+  "escalation": null,
+  "note": "顺手发现`.worktrees/prose-backfill-20260915-wagelark/`存在一个并行会话正在处理同类FAQ-vs-正文重合问题的存量批次（当日commit 4a6bdf6已修复9篇其他文章：forensic-scientist-salary/audiologist-salary/genetic-counselor-salary/optometrist-salary/clinical-laboratory-technologist-salary/how-to-become-a-school-counselor/what-does-a-home-health-aide-do/nuclear-medicine-technologist-salary/occupational-therapy-assistant-salary），与本次修复的electrician-salary不重叠，判断为09-13/09-15批量PAA-FAQ追加遗留的系统性回溯债务已在被处理中，未干扰、未重复劳动。"
+}
+```
