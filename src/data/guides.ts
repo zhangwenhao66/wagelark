@@ -4700,7 +4700,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Who gets paid more, optometrist or ophthalmologist?',
-				answer: 'Likely ophthalmologists, though the comparison isn\'t exact. BLS puts the optometrist median at $136,570 for May 2025, well below the $275,930 median BLS reports for the broader "physicians and surgeons" category that includes ophthalmologists, since BLS does not break out ophthalmology as its own line item the way it does for optometrists. That blended physician figure covers dozens of medical and surgical specialties, not ophthalmology specifically, so the true ophthalmologist-only figure could differ from it in either direction.',
+				answer: 'Likely ophthalmologists, though the comparison isn\'t exact. BLS puts the optometrist median at $136,570 for May 2025, well below the $275,930 median BLS reports for the wider physician-and-surgeon category that ophthalmologists fall under, since BLS does not break out ophthalmology as its own line item the way it does for optometrists. That blended physician figure lumps together every field from family medicine to surgery, without breaking eye surgeons out on their own, so the true ophthalmologist-only figure could differ from it in either direction.',
 			},
 		],
 		sources: [
@@ -4773,11 +4773,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How long does it take to become a nuclear medicine technologist?',
-				answer: 'BLS lists an associate\'s degree as the typical entry-level education for nuclear medicine technologists, the same associate\'s-degree entry level as radiation therapists, generally about two years of full-time study. BLS does not itself state an exact number of years on this page; two years reflects the standard length of an associate degree generally.',
+				answer: 'BLS lists an associate\'s degree as this occupation\'s typical entry-level credential, a two-year program comparable to what several other imaging-adjacent fields require, generally about two years of full-time study. BLS does not itself state an exact number of years on this page; two years reflects the standard length of an associate degree generally.',
 			},
 			{
 				question: 'Who makes more, RN or a nuclear medicine technologist?',
-				answer: 'Nuclear medicine technologists earned more, per BLS\'s May 2025 data: a median of $101,370, compared with $97,550 for registered nurses the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey, though the two occupations have different typical entry-level education: an associate\'s degree for nuclear medicine technologists versus a bachelor\'s, associate\'s, or diploma path for registered nurses.',
+				answer: 'The occupation this page covers paid more, per BLS\'s May 2025 data: the six-figure median covered above, compared with $97,550 for registered nurses the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey, though the two paths differ on typical entry-level education: an associate\'s degree here versus a bachelor\'s, associate\'s, or diploma path for registered nurses.',
 			},
 		],
 		sources: [
@@ -4855,7 +4855,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What degree do most school counselors have?',
-				answer: 'A master\'s degree. Per BLS, nearly all states and D.C. require school counselors to hold a master\'s degree in school counseling or a related field, along with a state-issued credential, which may be called a certification, a license, or an endorsement depending on the state.',
+				answer: 'A graduate-level degree is the baseline everywhere except a small handful of jurisdictions, per BLS: a master\'s in the field or something adjacent to it, then whatever certification, license, or endorsement your particular state layers on top of that credential.',
 			},
 		],
 		sources: [
@@ -4937,7 +4937,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Who gets paid more, CNA or HHA?',
-				answer: 'CNAs earned more, per BLS\'s May 2025 data: a median of $42,260 for nursing assistants, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide, compared with $35,800 for home health and personal care aides the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey, though the two occupations have different typical training requirements: a 75-hour federal minimum for CNAs versus no fixed federal training-hour requirement described on this page for home health and personal care aides.',
+				answer: 'CNAs earned more, per BLS\'s May 2025 data: a median of $42,260 in that nursing-assistant role, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide, well above the figure covered above for this occupation the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey. Training length is where the two jobs really split: a 75-hour federal minimum applies to CNAs, while no such federal floor exists for the role covered on this page.',
 			},
 		],
 		sources: [
@@ -5009,7 +5009,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How long does it take to become an occupational therapy assistant?',
-				answer: 'BLS lists an associate\'s degree from an accredited occupational therapy assistant program as the typical entry-level education, generally about two years of full-time study, though some bachelor\'s degree programs also exist. Licensure then requires that accredited program, a fieldwork component, and passing an exam.',
+				answer: 'The standard way in, per BLS, is a two-year associate\'s credential, with a smaller number of four-year bachelor\'s programs also available. Getting licensed afterward is a three-part hurdle: the accredited coursework itself, hands-on fieldwork hours, and a certifying exam at the end.',
 			},
 		],
 		sources: [
@@ -5081,7 +5081,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How long does it take to become a clinical lab technologist?',
-				answer: 'It depends which of the two BLS occupation codes applies. Technologists (SOC 29-2011) typically need a bachelor\'s degree, generally four years of full-time study, while technicians (SOC 29-2012) can sometimes qualify with an associate\'s degree, generally about two years, per BLS.',
+				answer: 'It depends which of the two BLS occupation codes applies. Technologists (SOC 29-2011) usually come in with a four-year bachelor\'s degree. Technicians (SOC 29-2012), by contrast, can sometimes enter the field with just a two-year associate\'s degree, per BLS.',
 			},
 		],
 		sources: [
@@ -5237,7 +5237,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How long does it take to become a genetic counselor?',
-				answer: 'BLS does not state an exact number of years on this page, only that a master\'s degree is the typical entry-level education. Genetic counseling master\'s programs are generally structured as two-year graduate programs following a bachelor\'s degree, the standard length for a master\'s program generally, though BLS does not itself confirm that figure for this specific field.',
+				answer: 'BLS does not state an exact number of years on this page, only that a master\'s degree is the typical entry-level education. ACGC-accredited programs in this field are generally structured to run two years past a bachelor\'s degree, the standard length for graduate programs generally, though BLS does not itself confirm that figure here.',
 			},
 		],
 		sources: [
@@ -5310,11 +5310,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do audiologists go to medical school?',
-				answer: 'No. Audiologists hold a Doctor of Audiology (Au.D.), a four-year clinical doctorate, not a medical degree. They are not physicians and do not attend medical school; the Au.D. is a separate professional doctorate focused on diagnosing and treating hearing and balance disorders.',
+				answer: 'No. Audiologists earn the Au.D., a four-year postgraduate clinical credential, not a medical degree. They are not physicians and do not attend medical school; the Au.D. is a separate professional doctorate focused on diagnosing and treating hearing and balance disorders.',
 			},
 			{
 				question: 'Do audiologists make more than nurses?',
-				answer: 'No, slightly the other way, per BLS\'s May 2025 data: registered nurses had a median of $97,550, compared with $95,780 for audiologists the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey; audiologists require a four-year clinical doctorate versus a bachelor\'s, associate\'s, or diploma path for RNs.',
+				answer: 'No, slightly the other way, per BLS\'s May 2025 data: registered nurses had a median of $97,550, compared with $95,780 for audiologists the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey; audiologists spend four years earning a clinical doctorate, versus a bachelor\'s, associate\'s, or diploma path for RNs.',
 			},
 		],
 		sources: [
@@ -5388,7 +5388,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do forensic scientists get paid well?',
-				answer: 'Above the broader labor market, yes. BLS puts the median wage for forensic science technicians at $72,060 for May 2025, compared with a $50,980 median across all U.S. occupations that same year, meaning a typical forensic science technician earned about 41% more than the typical U.S. worker.',
+				answer: "Above the broader labor market, yes. This occupation's May 2025 BLS median of $72,060 runs well past the $50,980 economy-wide median for that same year, meaning a typical worker in this field earned about 41% more than the typical U.S. worker.",
 			},
 		],
 		sources: [
