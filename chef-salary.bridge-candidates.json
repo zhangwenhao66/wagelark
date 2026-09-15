@@ -1,0 +1,23 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "For a healthcare role with a comparable median but a formal bachelor\\'s-degree entry bar instead of years of food-service experience, see this site\\'s [clinical lab technologist pay](/clinical-laboratory-technologist-salary/) guide.",
+    "target_slug": "clinical-laboratory-technologist-salary",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "That is a different model from [bartending](/how-to-become-a-bartender/), a similarly education-light food-service occupation on this site where BLS lists no related-experience requirement at all, just a few weeks of on-the-job training after hire.",
+    "target_slug": "how-to-become-a-bartender",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "Measured against a different vocational field entirely, chefs and head cooks also out-earn [welders, cutters, solderers, and brazers](/welder-salary/), who BLS lists at the same high-school-diploma entry tier but a median of $51,000, roughly $9,990 below chefs.",
+    "target_slug": "welder-salary",
+    "target_found": true
+  }
+]
