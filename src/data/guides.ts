@@ -123,6 +123,10 @@ export const guides: Guide[] = [
 				question: 'Who gets paid more, RN or RDH?',
 				answer: 'The two are close, per BLS\'s May 2024 data: dental hygienists had a median of $94,260, just above the $93,600 median for registered nurses reported on this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey for the same year, though the two occupations require different entry credentials: an associate\'s degree for dental hygienists versus a bachelor\'s, associate\'s, or diploma path for registered nurses.',
 			},
+			{
+				question: 'Is dental hygiene harder than nursing?',
+				answer: "That's subjective, and BLS doesn't rate occupations by difficulty, but the two credentials differ in scope. BLS lists an associate's degree as the typical entry-level education for both dental hygienists and, via one of several accepted paths, registered nurses, so the base training length is often similar. Where they diverge is breadth: nursing covers a much wider range of settings, patient conditions, and clinical decision-making across a career, while dental hygiene is a narrower, single-setting scope centered on preventive oral care under a dentist's supervision. Neither BLS nor this page has a way to rank the two by difficulty; the honest answer is that they're different kinds of work, not that one is measurably harder than the other.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Dental Hygienists (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/dental-hygienists.htm' },
@@ -1565,6 +1569,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Do respiratory therapists make more than RNs?',
 				answer: 'No, per BLS\'s May 2024 data. Registered nurses had a higher median that year, $93,600 per BLS data cited on this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $80,450 for respiratory therapists. Both figures are national medians from BLS\'s Occupational Employment and Wage Statistics survey; actual pay for either role varies by setting and region.',
+			},
+			{
+				question: 'Is becoming a respiratory therapist hard?',
+				answer: "It's a real, multi-step credentialing process rather than an on-the-job-trained role. Per BLS, entry typically requires completing an accredited associate's degree program combining anatomy and physiology coursework with supervised clinical hours, then passing a licensing exam in every state except Alaska. Independently of BLS, NBRC's two-tier credential system adds another layer for many candidates: the entry-level CRT exam most people sit for first, followed by the RRT exam some employers require before hiring or within a set window after starting. That's a defined, gated path, though BLS does not itself characterize it as harder or easier than other associate-degree health credentials it tracks.",
+			},
+			{
+				question: 'Is being a respiratory therapist a stressful job?',
+				answer: "BLS doesn't rate occupations for stress, but its Work Environment section for this role points to a real scheduling demand: because respiratory therapists often work in facilities that are always open, such as hospitals, shifts commonly include nights, weekends, and holidays. On top of that schedule, the job involves treating patients in acute respiratory distress, care that by its nature doesn't happen on a predictable timetable, which is a real source of day-to-day pressure even though BLS itself doesn't use the word \"stressful.\"",
 			},
 		],
 		sources: [
@@ -4427,6 +4439,18 @@ export const guides: Guide[] = [
 			{
 				question: 'Is vet school two years or four years?',
 				answer: 'Four years. BLS lists a doctoral or professional degree, specifically a Doctor of Veterinary Medicine (DVM), as the typical entry-level education for veterinarians, a professional program that runs four years after an undergraduate degree, the same overall structure BLS describes for pharmacists\' Doctor of Pharmacy training. That is a longer path than the two-year associate\'s degree BLS lists for veterinary technicians and technologists, a related occupation this site covers separately.',
+			},
+			{
+				question: 'Is becoming a vet very hard?',
+				answer: "BLS doesn't rate the difficulty of getting there, but the structure of the path is demanding by design. It requires a four-year Doctor of Veterinary Medicine program at an AVMA-accredited school, on top of an undergraduate degree, followed by passing the North American Veterinary Licensing Examination (NAVLE) and, in most states, a separate state-level exam on veterinary law. BLS also notes few states accept another state's license without additional steps, so the licensing bar doesn't fully transfer if someone relocates. That's a longer, more gated path than several other doctoral-entry occupations this site tracks, without a way for this page to rank it against them on difficulty alone.",
+			},
+			{
+				question: 'Is becoming a veterinarian worth it?',
+				answer: "That depends on what a reader weighs it against. On pay, veterinarians clear $130,100 at the median, well above the broader U.S. labor market, and BLS projects 9% employment growth through 2035, much faster than average. Against that, the DVM is a four-year professional doctorate after a bachelor's degree, a longer and more expensive path than many other well-paying occupations this site covers, and BLS states directly that veterinarians can be \"bitten, kicked, and scratched\" while handling frightened or injured animals, a real physical-risk factor most desk-based professional roles don't carry. BLS's wage and outlook data don't settle whether that tradeoff is worth it for any specific person; that depends on program cost, debt load, and how someone weighs the physical demands of the work.",
+			},
+			{
+				question: 'What type of veterinarian gets paid the most?',
+				answer: "BLS doesn't say. It publishes one national median, $130,100, for veterinarians as a single occupation and does not break wages out by specialty, such as small-animal, large-animal, exotic, surgical, or emergency practice. The industry breakdown this page does report is the closest BLS comes: social advocacy organizations and veterinary services, ordinary clinical practice, pay the most among the four settings BLS tracks, at $131,760 and $129,990 respectively. Specialty-specific pay claims circulating elsewhere come from sources outside BLS's employer-reported wage survey.",
 			},
 		],
 		sources: [
