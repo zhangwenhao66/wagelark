@@ -1281,3 +1281,36 @@ test('spot check: Speech-Language Pathologists (29-1127) matches BLS OOH page', 
 	assert.equal(occ.industryWages[2].annualWage, 98910);
 	assert.equal(occ.industryWages[3].annualWage, 83120);
 });
+
+// Ironworkers (transcribed 2026-09-15 from bls.gov/ooh/construction-and-
+// extraction/structural-iron-and-steel-workers.htm, data May 2025). SOC
+// 47-2221 (structural iron and steel workers) is one of two 6-digit codes
+// under this page's combined "Ironworkers" title, the other being 47-2171
+// (reinforcing iron and rebar workers). BLS's Pay tab breaks out a
+// structural-specific median ($62,780) and 10th/90th percentile range
+// ($44,580/$108,260), plus a structural-specific 5-industry wage table and
+// a structural-specific job outlook (3%, 2025-35) -- but the Quick Facts
+// panel's employment (84,800), employment change (+1,300), job outlook
+// label ("Slower than average" at 1%), and entry education are published
+// only for the combined Ironworkers group, not split by subtype, so
+// employmentIsGroupLevel is set and jobOutlookPct/employmentChange/
+// employment here use the combined-group Quick Facts numbers rather than
+// the structural-specific 3% figure (that split is reported in article
+// prose instead).
+test('spot check: Structural Iron and Steel Workers (47-2221) matches BLS OOH page', () => {
+	const occ = occupations['47-2221'];
+	assert.equal(occ.medianAnnual, 62780);
+	assert.equal(occ.medianHourly, undefined);
+	assert.deepEqual(occ.percentiles, { p10: 44580, p90: 108260 });
+	assert.equal(occ.employment, 84800);
+	assert.equal(occ.jobOutlookPct, 1);
+	assert.equal(occ.jobOutlookLabel, 'Slower than average');
+	assert.equal(occ.employmentChange, 1300);
+	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Heavy and civil engineering construction');
+	assert.equal(occ.industryWages[0].annualWage, 73470);
+	assert.equal(occ.industryWages[4].industry, 'Manufacturing');
+	assert.equal(occ.industryWages[4].annualWage, 59960);
+	assert.equal(occ.employmentIsGroupLevel, true);
+});

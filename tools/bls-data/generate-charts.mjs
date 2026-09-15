@@ -47,6 +47,7 @@ const CHARTS = {
 	'audiologist-salary-chart': '29-1181',
 	'forensic-scientist-salary-chart': '19-4092',
 	'speech-language-pathologist-salary-chart': '29-1127',
+	'ironworker-salary-chart': '47-2221',
 };
 
 const NAVY = '#14273f';

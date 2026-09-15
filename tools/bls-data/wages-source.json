@@ -2196,6 +2196,48 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Speech-Language Pathologists",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/speech-language-pathologists.htm",
       "publishedDate": "2026-08-27"
+    },
+    "47-2221": {
+      "title": "Structural Iron and Steel Workers",
+      "medianAnnual": 62780,
+      "percentiles": {
+        "p10": 44580,
+        "p90": 108260
+      },
+      "employment": 84800,
+      "employmentYear": "2025",
+      "jobOutlookPct": 1,
+      "jobOutlookLabel": "Slower than average",
+      "employmentChange": 1300,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "High school diploma or equivalent",
+      "employmentIsGroupLevel": true,
+      "industryWages": [
+        {
+          "industry": "Heavy and civil engineering construction",
+          "annualWage": 73470
+        },
+        {
+          "industry": "Building equipment contractors",
+          "annualWage": 68330
+        },
+        {
+          "industry": "Foundation, structure, and building exterior contractors",
+          "annualWage": 63340
+        },
+        {
+          "industry": "Nonresidential building construction",
+          "annualWage": 61930
+        },
+        {
+          "industry": "Manufacturing",
+          "annualWage": 59960
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Ironworkers (SOC 47-2221 covers structural iron and steel workers specifically, a distinct 6-digit code from reinforcing iron and rebar workers' 47-2171 within the combined \"Ironworkers\" group BLS titles this page; BLS's Pay tab breaks out a structural-specific median annual wage ($62,780), 10th/90th percentile range ($44,580/$108,260), a structural-specific top-5-industry wage table, and a structural-specific job outlook rate (3%, 2025-35) -- the percentile and industry figures are used here, but jobOutlookPct/employmentChange/employment above instead use the Quick Facts panel's combined-group figures (1% \"Slower than average\", +1,300 jobs, 84,800 total 2025 employment) since that is the headline stat BLS presents for the page's own title, hence employmentIsGroupLevel is set; the structural-specific 3% outlook and the sister occupation reinforcing iron and rebar workers' declining -5% outlook are reported separately in the article prose, not in this JSON entry)",
+      "sourceUrl": "https://www.bls.gov/ooh/construction-and-extraction/structural-iron-and-steel-workers.htm",
+      "publishedDate": "2026-08-27"
     }
   }
 }
