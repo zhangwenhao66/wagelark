@@ -861,6 +861,18 @@ export const guides: Guide[] = [
 				question: 'How many years does it take to become a CRNA?',
 				answer: 'Combining the steps BLS and the field\'s accrediting body describe: a bachelor\'s degree in nursing, BLS\'s stated minimum of one year of experience as a registered nurse in a critical care setting before applying, and a nurse anesthesia doctoral program that the Council on Accreditation of Nurse Anesthesia Educational Programs (COA), already cited on this page, requires to run at least 36 months, adds up to a minimum of roughly eight years. In practice the timeline often runs longer, since many applicants build several years of ICU experience before applying and some programs take longer than the 36-month floor.',
 			},
+			{
+				question: 'Is CRNA the highest-paid nursing role?',
+				answer: 'Among the nursing roles BLS tracks with published wage data, yes. The $223,210 CRNA median is well above the $129,210 BLS reports for nurse practitioners, the $128,790 for nurse midwives on the same occupational page, and the $93,600 median BLS reports for registered nurses generally. BLS does not publish a single ranked list across every nursing job title, but among the specific roles it does track individually, CRNA is the highest.',
+			},
+			{
+				question: 'Can a CRNA make $500,000 a year?',
+				answer: "Not based on BLS's published wage data. The highest decile BLS reports touching this occupation is the combined top 10% across nurse anesthetists, nurse midwives, and nurse practitioners together, at more than $217,270 in May 2024, still well short of $500,000. BLS's Occupational Employment and Wage Statistics survey measures base wages reported by employers; it would not necessarily capture unusually high total compensation for independent contractor or locum tenens CRNA arrangements, which BLS does not break out separately from employed CRNA pay.",
+			},
+			{
+				question: 'Is CRNA school harder than med school?',
+				answer: "That's subjective, but the two paths differ in concrete, comparable ways. A CRNA doctoral program requires a bachelor's degree in nursing, at least one year of critical-care RN experience, and a minimum 36-month doctoral program, per COA, on top of already being a licensed nurse. Medical school is a four-year MD or DO program following a bachelor's degree, with no nursing or clinical-experience prerequisite, followed by a residency that runs three to seven years depending on specialty before a physician can practice independently. Measured purely by total years from bachelor's degree to independent practice, the physician path runs longer for most specialties; measured by admission competitiveness or curriculum intensity, this page doesn't have BLS or other verifiable data that settles the comparison either way.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm' },
@@ -1034,6 +1046,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Is a PA program a two-year degree?',
 				answer: 'Not exactly. BLS states that physician assistant programs typically require at least two years of postbaccalaureate study, so the graduate program itself runs close to two years, but it awards a master\'s degree, not the associate degree most people mean by a "two-year degree." Getting in also generally requires already holding a bachelor\'s degree and some patient-care experience beforehand, so the total time invested runs well past two years once that undergraduate and pre-PA experience is counted.',
+			},
+			{
+				question: 'Can you make $200,000 as a physician assistant?',
+				answer: "Not typically, per national BLS data. The top 10% of physician assistants earned more than $182,200 a year in May 2024, the highest decile BLS publishes for the occupation, still short of $200,000. Government employment, the highest-paying of the five industries BLS tracks for this role, had a median of $151,470, well below that figure too. Reaching $200,000 would generally mean combining top-decile pay with a high-paying specialty, setting, or region that BLS's national wage data does not break out separately.",
+			},
+			{
+				question: 'Is a PA basically a doctor?',
+				answer: "No. Physician assistants hold a master's degree from an accredited PA program, a different credential from the MD or DO a physician earns after medical school and residency. PAs practice medicine, examining patients, ordering tests, diagnosing conditions, and prescribing medication, but per BLS they do so working as part of a team with physicians and other healthcare providers, with the specific scope of collaboration or supervision required varying by state. See this site's [what does a physician assistant do](/what-does-a-physician-assistant-do/) guide for the full breakdown of duties and how PA scope of practice compares to a physician's.",
 			},
 		],
 		sources: [
@@ -3780,10 +3800,19 @@ export const guides: Guide[] = [
 				question: 'Do welders make a lot of money?',
 				answer: 'Not especially, relative to the broader U.S. labor market. BLS puts the median wage for welders, cutters, solderers, and brazers at $51,000 for May 2024, just above the $49,500 median BLS reports across all U.S. occupations that same year. See this site\'s [welder salary guide](/welder-salary/) for the full percentile and industry breakdown.',
 			},
+			{
+				question: 'Is welding a hard job?',
+				answer: "Physically and technically, yes, on the demands BLS itself describes. The work involves precise, sustained attention (monitoring and adjusting heat in real time while welding to spec), physical strain (lifting heavy objects, working overhead or in awkward bent and stooped positions, sometimes on a scaffold or platform), and exposure to real hazards including fumes, very hot materials, and intense arc light. On top of that, many manufacturing employers run 8- to 12-hour shifts around the clock, so evening and weekend work is common. It's a skilled trade with a relatively fast, low-cost entry path, but BLS's own description of the job doesn't paint it as easy once someone is actually doing it.",
+			},
+			{
+				question: 'Why do welders not live long?',
+				answer: "BLS doesn't publish life-expectancy or mortality data for any occupation, and this page isn't aware of a rigorous, welder-specific study that puts a number on it. What is well documented is the occupational exposure behind that reputation. Welding fume particles small enough to reach deep into the lungs can cause fibrosis, or scarring, that can develop into lung cancer, and welding on stainless steel and other chromium-containing alloys can expose workers to hexavalent chromium, which OSHA identifies as carcinogenic and linked to effects on the respiratory system, kidneys, liver, skin, and eyes. Manganese in welding fume has also been linked to neurological damage at low exposure levels. Modern fume-extraction equipment and respiratory protection substantially reduce these exposures compared to unprotected work, and BLS itself notes welders reduce injury risk by following safety procedures and using protective equipment, but the underlying health hazards are real and specific, not just a reputation.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200 on retry after an initial TLS handshake failure, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
 			{ label: 'O*NET OnLine: 51-4121.00 Welders, Cutters, Solderers, and Brazers (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/51-4121.00' },
+			{ label: 'OSHA: Hexavalent Chromium (occupational carcinogen classification, cited via Wikipedia\'s "Welding" article health and safety section, cross-checked against OSHA\'s own Cr(VI) topic page)', url: 'https://www.osha.gov/hexavalent-chromium' },
 		],
 		image: '/images/welder-duties.svg',
 		imageAlt: 'Diagram showing four things welders do per BLS: read blueprints and specifications, measure and inspect materials, weld or cut according to spec while monitoring heat, and maintain their equipment.',
@@ -4471,10 +4500,23 @@ export const guides: Guide[] = [
 				question: 'Who gets paid more, RN or radiation therapist?',
 				answer: 'Radiation therapists earned more, per BLS\'s May 2025 data: a median of $105,310, compared with $97,550 for registered nurses the same year, both drawn from BLS\'s Occupational Employment and Wage Statistics survey. The two occupations sit on separate BLS Handbook pages with different typical entry-level education: a two- or four-year degree for radiation therapists versus a bachelor\'s, associate\'s, or diploma path for registered nurses.',
 			},
+			{
+				question: 'How many years of schooling does it take to be a radiation therapist?',
+				answer: "Two years at the floor, per BLS's listed entry-level education of an associate's degree, though some programs run a full four-year bachelor's track instead. ARRT's primary certification pathway, confirmed independently of BLS, requires that qualifying two-year-or-higher degree plus completion of ARRT-approved radiation therapy coursework before a candidate can sit for the certification exam, so the associate's-degree floor is the starting point for the credential, not a guarantee of finishing in exactly two years.",
+			},
+			{
+				question: 'Is radiation therapy a hard degree?',
+				answer: "The credentialing exam at the end of it is one of the tougher ones ARRT administers. ARRT's 2025 Annual Exam Report puts the Radiation Therapy exam pass rate at 77%, with a mean scaled score of 79.8 against a 75-point cut score, notably lower than the 86% first-time pass rate ARRT reports for its base Radiography exam. That's on top of an accredited two- or four-year program combining coursework in radiation physics, oncology, and treatment planning with supervised clinical hours, so the harder part for most students is the program itself, with a real chance of not clearing the exam on the first attempt even after finishing it.",
+			},
+			{
+				question: 'What type of radiation therapist makes the most money?',
+				answer: "BLS doesn't break out radiation therapist pay by specialty within the occupation itself; the $105,310 median on this page is a single national figure. The highest-paying adjacent role BLS lists in its own Similar Occupations table for this page is medical dosimetrist, at a $147,470 median, but that's a distinct occupation with its own BLS entry, requiring a bachelor's degree rather than a specialty someone practices within the radiation therapist title. See this site's [medical dosimetrist salary](/medical-dosimetrist-salary/) guide for the full breakdown.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Radiation Therapists (accessed 2026-08-31 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/radiation-therapists.htm' },
 			{ label: 'American Registry of Radiologic Technologists (ARRT): Primary Eligibility Pathway Requirements, used for the certification pathway details above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.arrt.org/pages/earn-arrt-credentials/initial-requirements/primary-requirements' },
+			{ label: 'ARRT Annual Exam Report 2025 (Radiation Therapy and Radiography exam pass rates)', url: 'https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/22f9f912-46a8-4f24-ba43-fd0b0c7e602a/ARRT_Annual_Exam_Report-2025.pdf' },
 		],
 		image: '/images/radiation-therapist-salary-chart.svg',
 		imageAlt: 'Bar chart showing radiation therapist median annual wage by industry: outpatient care centers $127,680, offices of physicians $110,610, hospitals $104,260, based on BLS May 2025 data.',
@@ -5066,6 +5108,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is a dosimetrist a doctor?',
 				answer: 'No. A medical dosimetrist is an allied health professional, not a physician. The role involves calculating and mapping precise radiation doses for cancer treatment under the direction of a radiation oncologist, the physician who oversees the treatment plan; dosimetrists don\'t hold a medical degree and don\'t diagnose or treat patients independently the way a physician does.',
+			},
+			{
+				question: 'Is dosimetry a good career?',
+				answer: "On pay, yes: the $147,470 BLS median for medical dosimetrists is the highest of any radiation-oncology role this site tracks, and BLS projects 5% employment growth through 2035, faster than the roughly 3% average across all occupations. The tradeoff is a narrow field with real entry barriers: BLS counted only 3,500 medical dosimetrists nationwide in 2025, admission into accredited programs is often competitive, and some programs prefer applicants who are already registered radiation therapists. It's a strong outcome for someone who can get into and finish the program, but not a large or easy-to-enter occupation by headcount.",
 			},
 		],
 		sources: [
