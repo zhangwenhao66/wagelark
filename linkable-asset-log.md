@@ -132,3 +132,19 @@ Not re-evaluated — the 8/29 conclusion (not Reddit-ready without a standalone 
 **Backlog**: item #8 updated from `[待制作]` to `[制作完成，待次日push]` with the above summary.
 
 **Distribution / discovery-platform steps**: not run this pass — the asset isn't live yet, so there's nothing to pitch or submit to a discovery platform. Next run (once pushed and deployed) should pick up Step 2/3 (mention recovery, targeted embed/pitch outreach) for this asset alongside the existing `highest-paying-jobs-without-a-degree` distribution backlog.
+
+---
+
+## 2026-09-15 (distribution pass #4, capacity-concentration rule)
+
+**Site selection**: recomputed 28-day 11-30-position impressions across all 10 traffic sites via `gsc_query.py`: umberlore(588) / **wagelark(323)** / dialwick(204) / lingogrove(68) / mythcairn(63) / dayalmanac(39) / factcrumbs(26) / hollowvane(16) / warcrumbs(13) / calcbadger(1). DialWick is now frozen (2026-09-13 Owen decision, all LLM-involving tasks skip it) rather than merely suppressed, so it no longer competes for the fixed priority slot — CalcBadger took that slot this run instead (most overdue, last processed by this task 2026-08-18). Of the remaining non-suppressed/non-frozen sites, UmberLore(588) > WageLark(323) > MythCairn(63) form this run's top-3.
+
+**Order of work**: UmberLore's monthly-new-asset quota was unmet (2026-09-13 rule: ≥15th of the month, zero new assets published this month) and took priority for a full new-asset build this run — see UmberLore's own log. WageLark's own monthly quota is also unmet this month (no new asset since 8/29's highest-paying-jobs-without-a-degree), but given single-run capacity, this run's WageLark time went to distribution only; **WageLark's new-asset creation is deferred to the next run that selects this site**, which should build one before continuing distribution, per the "分发照做但不阻塞新产" rule.
+
+**Step 2 (unlinked-mention recovery)**: WebSearch `"wagelark.com" OR "highest-paying-jobs-without-a-degree"` — no results referencing the site. No recovery opportunity this round.
+
+**Step 3 (pitch)**: Searched for a fourth pitch target beyond the three already contacted (thebluecollarrecruiter.com, resumegenius.com, apollotechnical.com). Found four new candidates via WebSearch (Quartz, TripleTen, trade-schools.net, Inc./Forbes coverage of Resume Genius's report) but none checked out as a qualified target this round: Quartz, Inc., and Forbes are major outlets whose only visible contact channels are press-only and not a fit for an unsolicited content-marketing pitch (same reasoning as the 9/1 UmberLore decision not to misuse museum press desks); trade-schools.net's article and contact/about pages returned no visible email (404 on /contact and /about-us, only image filenames matched an email-shaped grep); TripleTen's only listed addresses are `helpme@tripleten.com`/`support@tripleten.com`, both customer-support channels, not appropriate for this pitch. No qualified, reachable, on-topic target found this round; recording this honestly rather than forcing a support-desk email or a press-only channel.
+
+**Step 3.5**: not re-evaluated — prior conclusion (not Reddit-ready without a standalone [OC] chart, no HN fit) stands.
+
+**Distribution count**: unchanged at 2/10 sent + 1/10 drafted-but-withheld (SES migration freeze — see `独立站/待Owen处理事项.md`, still in effect as of this run, checked first per the 2026-09-12 SKILL.md addition before any send calls this run).
