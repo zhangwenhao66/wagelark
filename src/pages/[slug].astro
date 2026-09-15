@@ -71,10 +71,59 @@ const percentileRows = wage
 		].filter((row): row is [string, number] => typeof row[1] === 'number')
 	: [];
 const maxWage = percentileRows.length > 0 ? Math.max(...percentileRows.map(([, v]) => v)) : 0;
+import fs from 'node:fs';
+import path from 'node:path';
 import { imgDims } from '../data/imageDims';
+import { RESPONSIVE_HERO } from '../data/responsiveHero';
+// 2026-09-15 CWV 跟进：本站 hero 图是 contain 模式（`w-full object-contain`，无 max-height，
+// 显示宽度始终等于容器宽度 720px，比 dayalmanac/umberlore 简单——不需要按图片自身宽高比算
+// sizes，直接用容器宽度）。
+const heroResponsive = guide.image ? RESPONSIVE_HERO[guide.image] : undefined;
+const heroWebpDesktop = (() => {
+	if (!guide.image || !guide.image.match(/\.jpe?g$/i)) return null;
+	const rel = guide.image.replace(/\.jpe?g$/i, '.webp');
+	const abs = path.join(process.cwd(), 'public', rel.replace(/^\//, ''));
+	return fs.existsSync(abs) ? rel : null;
+})();
+const heroWebpMobile = (() => {
+	if (!heroResponsive) return null;
+	const rel = heroResponsive.mobile.replace(/\.jpe?g$/i, '.webp');
+	const abs = path.join(process.cwd(), 'public', rel.replace(/^\//, ''));
+	return fs.existsSync(abs) ? rel : null;
+})();
+const heroAvifDesktop = (() => {
+	if (!guide.image || !guide.image.match(/\.jpe?g$/i)) return null;
+	const rel = guide.image.replace(/\.jpe?g$/i, '.avif');
+	const abs = path.join(process.cwd(), 'public', rel.replace(/^\//, ''));
+	return fs.existsSync(abs) ? rel : null;
+})();
+const heroAvifMobile = (() => {
+	if (!heroResponsive) return null;
+	const rel = heroResponsive.mobile.replace(/\.jpe?g$/i, '.avif');
+	const abs = path.join(process.cwd(), 'public', rel.replace(/^\//, ''));
+	return fs.existsSync(abs) ? rel : null;
+})();
 ---
 
 <Layout title={guide.title} description={guide.description} ogImage={guide.image ?? '/favicon.svg'} ogType="article">
+	{guide.image && (
+		<link
+			rel="preload"
+			as="image"
+			type={heroAvifDesktop ? 'image/avif' : heroWebpDesktop ? 'image/webp' : undefined}
+			href={heroAvifDesktop ?? heroWebpDesktop ?? guide.image}
+			imagesrcset={
+				heroAvifMobile
+					? `${heroAvifMobile} ${heroResponsive!.w}w, ${heroAvifDesktop} ${imgDims(guide.image)?.w}w`
+					: heroWebpMobile
+						? `${heroWebpMobile} ${heroResponsive!.w}w, ${heroWebpDesktop} ${imgDims(guide.image)?.w}w`
+						: undefined
+			}
+			imagesizes={heroAvifMobile || heroWebpMobile ? '(min-width: 752px) 720px, calc(100vw - 32px)' : undefined}
+			fetchpriority="high"
+			slot="head"
+		/>
+	)}
 	{guide.faq && guide.faq.length > 0 && <FAQPage items={guide.faq} slot="head" />}
 	<Article
 		slot="head"
@@ -121,10 +170,28 @@ import { imgDims } from '../data/imageDims';
 
 		{guide.image && (
 			<figure class="m-0 mt-8">
-				<img src={guide.image} alt={guide.imageAlt ?? guide.title} class="w-full border border-[var(--rule)] bg-white object-contain" loading="eager"
-						width={imgDims(guide.image)?.w}
-						height={imgDims(guide.image)?.h}
-					/>
+				<picture>
+					{heroAvifDesktop && (
+						<source
+							srcset={heroAvifMobile ? `${heroAvifMobile} ${heroResponsive!.w}w, ${heroAvifDesktop} ${imgDims(guide.image)?.w}w` : heroAvifDesktop}
+							sizes={heroAvifMobile ? '(min-width: 752px) 720px, calc(100vw - 32px)' : undefined}
+							type="image/avif"
+						/>
+					)}
+					{heroWebpDesktop && (
+						<source
+							srcset={heroWebpMobile ? `${heroWebpMobile} ${heroResponsive!.w}w, ${heroWebpDesktop} ${imgDims(guide.image)?.w}w` : heroWebpDesktop}
+							sizes={heroWebpMobile ? '(min-width: 752px) 720px, calc(100vw - 32px)' : undefined}
+							type="image/webp"
+						/>
+					)}
+					<img src={guide.image} alt={guide.imageAlt ?? guide.title} class="w-full border border-[var(--rule)] bg-white object-contain" loading="eager" fetchpriority="high"
+							width={imgDims(guide.image)?.w}
+							height={imgDims(guide.image)?.h}
+							srcset={heroResponsive ? `${heroResponsive.mobile} ${heroResponsive.w}w, ${guide.image} ${imgDims(guide.image)?.w}w` : undefined}
+							sizes={heroResponsive ? '(min-width: 752px) 720px, calc(100vw - 32px)' : undefined}
+						/>
+				</picture>
 				{guide.imageCredit && <figcaption class="mt-2 text-xs text-[var(--ink-mute)]" set:html={md(guide.imageCredit)} />}
 			</figure>
 		)}
