@@ -1134,6 +1134,14 @@ export const guides: Guide[] = [
 				question: 'Who gets paid more, RN or a surgical tech?',
 				answer: 'Registered nurses earned substantially more in May 2024, per BLS: a median of $93,600, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $62,830 for surgical technologists. The gap tracks a real difference in typical entry-level education: a bachelor\'s, associate\'s, or diploma path for RNs versus a certificate or associate\'s degree for surgical technologists.',
 			},
+			{
+				question: 'How hard is it to be a surgical tech?',
+				answer: "BLS doesn't rate the difficulty, but the entry path is a real, gated process rather than pure on-the-job training. Most candidates complete an accredited certificate program (through CAAHEP or ABHES) before sitting for the Certified Surgical Technologist (CST) exam administered by NBSTSA, and maintaining that credential requires 30 continuing education credits on a two-year renewal cycle. On the job itself, the role demands sustained precision under pressure, tracking instruments and maintaining a sterile field throughout a procedure where a mistake has real consequences for a patient, even though it's a shorter, lower-cost entry path than many other allied health roles this site covers.",
+			},
+			{
+				question: 'What kind of surgical tech makes the most money?',
+				answer: "BLS doesn't break out surgical technologist pay by specialty, such as cardiovascular, orthopedic, or neurosurgical technology; the $62,830 median on this page is a single national figure for the occupation. One counterintuitive data point from BLS's own numbers: surgical assistants, who take on a more hands-on, expanded scope than surgical technologists, actually earned less at the median in May 2024, $60,290 versus $62,830, so a broader scope of practice within this field doesn't automatically mean higher pay. BLS does not explain that gap on this page.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Surgical Assistants and Technologists (accessed 2026-08-05, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/surgical-technologists.htm' },
@@ -1420,6 +1428,10 @@ export const guides: Guide[] = [
 			{
 				question: 'How long does it take to become an air traffic controller?',
 				answer: 'There is no single fixed number. Per BLS, candidates typically complete an associate\'s or bachelor\'s degree through an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program, or build several years of progressively responsible work experience instead, then pass a medical evaluation, background check, and FAA preemployment tests before completing a training course at the FAA Academy. Once hired, BLS states that new controllers typically complete more than 12 months of additional on-the-job training before working independently.',
+			},
+			{
+				question: 'Why do air traffic controllers have to be hired before age 31?',
+				answer: "The 31 cutoff pairs with the other end of the career: federal law (5 U.S.C. § 8335) generally requires operational controllers to retire by the end of the month they turn 56. Hiring candidates before 31 leaves at least 25 years to complete the lengthy training pipeline, from AT-CTI coursework through FAA Academy training and more than 12 months of on-the-job certification at an assigned facility, and still spend a substantial career actually working traffic before mandatory retirement. BLS does not itself explain the policy rationale; that reasoning is this page's inference from how the entry cutoff and the mandatory retirement age line up, not a specific justification BLS states on its occupational page. The cutoff extends to 35 for applicants with qualifying prior military or FAA-contract air traffic control experience, since that experience shortens the training runway needed before retirement.",
 			},
 		],
 		sources: [
