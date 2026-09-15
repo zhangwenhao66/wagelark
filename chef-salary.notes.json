@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Target text states 'technologists (29-2011), who typically need a bachelor's degree, and technicians (29-2012), who can sometimes qualify with an associate's degree' -- confirms the bachelor's-degree entry bar claim for the technologist role the anchor text names. Medians are comparable: chef $60,990 vs clinical lab technologist/technician combined $62,930, a $1,940 (about 3.1%) difference."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Target text states 'There is no related-work-experience requirement either, but BLS notes that many employers prefer candidates who already have food-service experience' and 'just a few weeks of on-the-job training in recipes, bar setup, and customer service' -- both match the bridge sentence's claims about no required related-experience and a few weeks of on-the-job training."
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "Target text states 'Per BLS, welders typically need a high school diploma or equivalent' (matches same entry tier as chef's high-school-diploma requirement) and 'median annual wage for welders, cutters, solderers, and brazers was $51,000 in May 2024' -- confirms both the entry-tier match and the $51,000 median. Chef median $60,990 minus welder median $51,000 = $9,990, matching the stated gap exactly."
+  }
+]

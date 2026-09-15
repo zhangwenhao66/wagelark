@@ -145,51 +145,51 @@ export const guides: Guide[] = [
 		coreSummary: 'The median annual wage for actuaries was $125,770 in May 2024, per the U.S. Bureau of Labor Statistics. The spread is unusually wide for a single occupation: the bottom 10% earned less than $75,240 while the top 10% earned more than $206,430, a gap that mostly reflects the multi-year, exam-based credentialing system that separates entry-level actuarial analysts from credentialed Fellows.',
 		sections: [
 			{
-				heading: 'A wide range, driven by credentials rather than just experience',
+				heading: 'A wide range, shaped more by credentials than by tenure',
 				body: [
 					'BLS data for May 2024 shows a median annual actuary salary of $125,770, or $60.47 an hour. What stands out in this occupation more than most is the size of the gap between the 10th and 90th percentile: $75,240 at the low end versus $206,430 at the high end, a difference of more than $131,000. That is a wider percentile spread than most professional occupations BLS tracks.',
-					'The reason has less to do with geography or employer than with the profession\'s credentialing structure. Actuaries advance through a series of rigorous exams administered by the Society of Actuaries or the Casualty Actuarial Society, moving from uncredentialed trainee to Associate (ASA/ACAS) and eventually Fellow (FSA/FCAS) status. The Occupational Outlook Handbook notes it can take up to seven years to earn just the associate-level credential, and fellowship requires additional years beyond that. Pay tends to rise sharply at each credentialing milestone, which is the main driver of the wide percentile spread rather than simple years-on-the-job seniority.',
+					'The reason has less to do with geography or employer than with the profession\'s credentialing structure. Actuaries advance through a series of rigorous exams administered by the Society of Actuaries or the Casualty Actuarial Society, moving from uncredentialed trainee to Associate (ASA/ACAS) and eventually Fellow (FSA/FCAS) status. The Occupational Outlook Handbook notes it can take up to seven years to earn just the associate-level credential, and fellowship requires additional years beyond that. Pay tends to rise sharply at each credentialing milestone; that is the main driver of the wide percentile spread, not simply years spent on the job.',
 				],
 			},
 			{
 				heading: 'Pay by industry',
 				body: [
 					'BLS breaks out May 2024 actuary wages by industry: management of companies and enterprises paid the highest median at $133,030, followed by finance and insurance, the industry most people associate with actuarial work, at $126,830. Government employers (excluding state and local education) paid a median of $118,910, and professional, scientific, and technical services paid $111,640.',
-					'This breakdown covers wages only, not headcount by industry; BLS publishes actuarial employment counts by industry separately, in its OEWS industry tables rather than the Occupational Outlook Handbook page cited here. What this wage breakdown does show clearly is that the highest-paying category, management of companies and enterprises, is not the same as "finance and insurance," the industry most people associate with actuarial work by default.',
+					'This breakdown covers wages only, not headcount by industry; BLS publishes actuarial employment counts by industry separately, in its OEWS industry tables, and that count does not appear on the Occupational Outlook Handbook page cited here. What this wage breakdown does show clearly is that the highest-paying category, management of companies and enterprises, is not the same as "finance and insurance," the industry most people associate with actuarial work by default.',
 				],
 			},
 			{
 				heading: 'Job outlook and what it means for future pay',
 				body: [
 					'BLS projects 22% employment growth for actuaries from 2024 to 2034, classified as much faster than average, adding roughly 7,300 jobs over the decade. That is one of the stronger growth projections among BLS-tracked professional occupations, driven in large part by insurers\' and financial firms\' growing use of predictive analytics and enterprise risk management, areas where actuarial training applies directly.',
-					'Combined with the credential-gated pay structure described above, strong projected demand for a licensed, exam-qualified labor pool tends to support continued wage growth for actuaries who complete the certification track, though BLS data describes historical and projected aggregates rather than a guarantee for any individual.',
+					'Combined with the credential-gated pay structure described above, strong projected demand for a licensed, exam-qualified labor pool tends to support continued wage growth for actuaries who complete the certification track. Still, BLS data describes historical and projected aggregates; it is not a guarantee for any individual.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What is the median actuary salary?',
-				answer: 'The U.S. Bureau of Labor Statistics reports a median annual wage of $125,770 for actuaries in May 2024 ($60.47 per hour).',
+				answer: 'BLS\'s May 2024 data shows actuaries earning $125,770 a year at the midpoint, equivalent to $60.47 an hour.',
 			},
 			{
 				question: 'Why is the pay range for actuaries so wide?',
-				answer: 'BLS data shows the bottom 10% of actuaries earned under $75,240 while the top 10% earned over $206,430 in May 2024. The main driver is the profession\'s exam-based credentialing system: pay rises substantially as actuaries pass Society of Actuaries or Casualty Actuarial Society exams and advance from uncredentialed analyst to Associate to Fellow status, a process that can take seven or more years.',
+				answer: 'BLS data puts the lowest-paid tenth of actuaries under $75,240 in May 2024, versus above $206,430 for the highest-paid tenth. The main driver is the profession\'s exam-driven certification path: pay rises substantially as actuaries pass SOA or CAS exams (the two professional actuarial societies) and progress from entry-level analyst up through Associate and on to Fellow status, a process that can take seven or more years.',
 			},
 			{
 				question: 'What industry pays actuaries the most?',
-				answer: 'Among the industry categories BLS tracks for May 2024, management of companies and enterprises paid the highest median actuary wage at $133,030, ahead of finance and insurance ($126,830), government ($118,910), and professional/scientific/technical services ($111,640).',
+				answer: 'Corporate-management employers led all industries BLS tracks for May 2024, at a $133,030 median actuary wage, ahead of the financial-services and insurance sector ($126,830), government ($118,910), and professional/scientific/technical services ($111,640). See the pay-by-industry breakdown above for BLS\'s full industry label.',
 			},
 			{
 				question: 'Is actuarial science a growing field?',
-				answer: 'BLS projects 22% employment growth for actuaries from 2024 to 2034, which it classifies as much faster than the average for all occupations, adding about 7,300 jobs over the decade.',
+				answer: 'Yes: BLS expects actuary employment to expand 22% between 2024 and 2034, a rate the agency puts in its top growth tier, well ahead of most occupations, adding about 7,300 new positions over the decade.',
 			},
 			{
 				question: 'Who earns more, a CPA or an actuary?',
-				answer: 'BLS reports a higher median for actuaries: $125,770 in May 2024, versus $81,680 for the broader "accountants and auditors" category BLS tracks, the closest comparison available since BLS does not publish separate wage data for CPAs specifically; that category includes accountants who are not CPAs alongside those who are. The gap widens further out on the pay scale: the top 10% of actuaries earned more than $206,430, compared with $141,420 for the top 10% of accountants and auditors.',
+				answer: 'BLS reports a higher median for actuaries: $125,770 for May 2024, versus $81,680 for the broader "accountants and auditors" category BLS tracks, the closest comparison available since BLS does not publish separate wage data for CPAs specifically; that category includes accountants who are not CPAs alongside those who are. The gap widens further out on the pay scale: actuaries\' top decile cleared $206,430, well above the $141,420 top-decile figure for accountants and auditors.',
 			},
 			{
 				question: 'Is actuary a hard job to get?',
-				answer: "The credentialing path is the main barrier, not the hiring process itself. BLS notes it can take up to seven years of passing Society of Actuaries or Casualty Actuarial Society exams just to reach the Associate-level credential, and actuarial exam-prep providers that track results report individual exam pass rates typically in the 40% to 55% range, meaning most candidates fail at least one exam along the way. Entry-level analyst roles that sponsor exam study are the more common way in, rather than landing a fully credentialed position straight out of school.",
+				answer: "The credentialing path is the main barrier, not the hiring process itself. Reaching just the Associate credential can take seven years or more of passing SOA or CAS exams, and actuarial exam-prep providers that track results report individual exam pass rates typically in the 40% to 55% range, meaning most candidates fail at least one exam along the way. Entry-level analyst roles that sponsor exam study are the more common way in, rather than landing a fully credentialed position straight out of school.",
 			},
 			{
 				question: 'What exactly does an actuary do?',
@@ -1378,7 +1378,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'What air traffic controllers actually earn, by percentile',
 				body: [
-					'BLS tracks air traffic controller pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The most recent published data, from May 2025, put median annual pay at $148,080, or $71.19 an hour. That is nearly three times the $50,980 median BLS reports across all U.S. occupations for the same year, making air traffic control one of the highest-paying occupations tracked on this site.',
+					'BLS tracks air traffic controller pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly and does not rely on self-reported figures. The most recent published data, from May 2025, put median annual pay at $148,080, or $71.19 an hour. That is nearly three times the $50,980 median BLS reports across all U.S. occupations for the same year, making air traffic control one of the highest-paying occupations tracked on this site.',
 					'The bottom 10% of air traffic controllers earned less than $78,420 in May 2025, while the top 10% earned more than $215,610. Even the bottom of that range sits above the median for most occupations on this site, including registered-nurse-adjacent and technologist roles that themselves require years of postsecondary training. The gap between the 10th percentile and the median, about $69,660, is close in dollar terms to the gap between the median and the 90th percentile, about $67,530, which is a comparatively even split. On this site\'s flight attendant salary guide, by contrast, the top half of the range stretches more than twice as far in dollar terms as the bottom half, a difference traceable to how each occupation\'s pay actually gets set.',
 				],
 			},
@@ -1386,14 +1386,14 @@ export const guides: Guide[] = [
 				heading: 'Why the government pays so much more than everyone else',
 				body: [
 					'BLS breaks out May 2025 wages for air traffic controllers across two industry categories, fewer than it tracks for most occupations on this site, because the role is unusually concentrated in a single type of employer. Federal government employers, who run essentially all of the country\'s en route centers, terminal radar approach control facilities, and major airport towers, paid a median of $156,250. Controllers working in support activities for air transportation, a category that includes contract towers at smaller airports operated by FAA-approved private companies rather than the FAA itself, earned a median of $83,890, roughly half as much.',
-					'BLS does not explain the gap between the two categories on this page; it publishes the two medians without commentary. One plausible, unverified factor is that most air traffic controllers are federal employees paid under the FAA\'s own air traffic controller pay plan, a system separate from the General Schedule used by most federal civilian jobs, in which pay is tied to a facility\'s traffic complexity and to certification milestones a controller clears as they train up to full performance level, rather than to years of service alone. Contract-tower controllers, employed by private firms under FAA oversight rather than by the FAA directly, are not covered by that federal pay plan, which could account for some of the gap, but that is this article\'s inference, not a claim BLS itself makes.',
+					'BLS does not explain the gap between the two categories on this page; it publishes the two medians without commentary. One plausible, unverified factor is that most air traffic controllers are federal employees paid under the FAA\'s own air traffic controller pay plan, a system separate from the General Schedule used by most federal civilian jobs, in which pay is tied to a facility\'s traffic complexity and to certification milestones a controller clears as they train up to full performance level, not simply to years of service. Contract-tower controllers, employed by private firms under FAA oversight rather than by the FAA directly, are not covered by that federal pay plan, which could account for some of the gap, but that is this article\'s inference, not a claim BLS itself makes.',
 				],
 			},
 			{
 				heading: 'Job outlook: growth is essentially flat',
 				body: [
 					'BLS projects employment of air traffic controllers to grow just 2% from 2025 to 2035, from 24,000 to 24,400 positions, a category BLS classifies as slower than the average for all occupations. That is a net increase of only 400 jobs over the entire decade. Despite that limited growth, BLS separately projects about 2,100 average annual openings for the occupation, because most openings come from replacing controllers who leave the role rather than from newly created positions.',
-					'The flat growth figure reflects how tightly the FAA controls hiring relative to a mostly fixed set of towers, centers, and approach facilities, rather than declining demand for air travel. Almost all of the projected openings trace back to controllers reaching the FAA\'s mandatory retirement age, a structural feature unique to this occupation among the roles covered on this site.',
+					'The flat growth figure reflects how tightly the FAA controls hiring relative to a mostly fixed set of towers, centers, and approach facilities; it does not reflect declining demand for air travel. Almost all of the projected openings trace back to controllers reaching the FAA\'s mandatory retirement age, a structural feature unique to this occupation among the roles covered on this site.',
 				],
 			},
 			{
@@ -1407,31 +1407,31 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the median air traffic controller salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for air traffic controllers was $148,080 in May 2025, equivalent to $71.19 an hour. That is nearly three times the $50,980 median BLS reports across all U.S. occupations for the same year.',
+				answer: 'BLS\'s May 2025 figures put the median pay for people who direct air traffic at $148,080 a year, or $71.19 hourly, about three times the all-occupation median of $50,980 reported the same year.',
 			},
 			{
 				question: 'Do air traffic controllers need a college degree?',
-				answer: 'BLS lists an associate\'s degree as the typical entry-level education. Candidates generally complete an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program at the associate\'s or bachelor\'s level, or qualify through several years of progressively responsible work experience, then pass FAA preemployment testing and complete training at the FAA Academy.',
+				answer: 'Not necessarily. Per BLS, most people enter with a two-year degree, though the agency also describes alternate paths in: candidates can complete an AT-CTI program (the FAA\'s dedicated pathway for the role) at either the two-year or four-year level, or qualify instead through multiple years of hands-on, increasingly senior work in a related field, then clear the FAA\'s preemployment screening and finish the required coursework at the FAA Academy.',
 			},
 			{
 				question: 'Why do federal air traffic controllers earn so much more than others in the field?',
-				answer: 'BLS reports a May 2025 median of $156,250 for controllers employed by the federal government, versus $83,890 for those working in air transportation support activities such as FAA-approved contract towers. BLS does not explain the gap on this page. One plausible, unverified factor is that federal controllers are paid under the FAA\'s own air traffic controller pay plan, tied to facility complexity and certification milestones, which contract-tower employees working for private firms are not covered by, but that is this article\'s inference, not a claim BLS itself makes.',
+				answer: 'BLS reports a May 2025 median of $156,250 for federally employed controllers, versus $83,890 for those at FAA-approved contract towers, categorized under air-transportation support roles. The BLS page does not explain why the two medians differ. A likely, though unconfirmed, explanation is that federal controllers fall under a pay plan the FAA maintains specifically for this occupation, tied to how busy and complex a given facility is, and how far a controller has advanced through the certification process, which contract-tower employees working for private firms are not covered by. BLS never states this as the reason; it is this page\'s own reading of how the two pay systems differ.',
 			},
 			{
 				question: 'Is there an age limit to become an air traffic controller?',
-				answer: 'Yes. FAA hiring policy generally requires candidates to be appointed before their 31st birthday, extended to 35 for applicants with qualifying prior military or FAA-contract air traffic control experience. Federal law (5 U.S.C. § 8335) separately requires operational controllers to generally retire by the end of the month they turn 56.',
+				answer: 'Yes. New hires generally must join before turning 31, per FAA hiring policy, though that ceiling rises to 35 for those who already have relevant active-duty or contract-tower experience directing air traffic. A separate rule, 5 U.S.C. § 8335, requires controllers in operational roles to leave the job once they hit 56, generally at that month\'s end.',
 			},
 			{
 				question: 'Is air traffic control a growing occupation?',
-				answer: 'No, not by much. BLS projects only 2% employment growth for air traffic controllers from 2025 to 2035, slower than the average for all occupations, adding a net 400 jobs. BLS separately projects about 2,100 average annual openings once the decade is averaged out, with almost all of them coming from controllers reaching mandatory retirement rather than from newly created positions.',
+				answer: 'No, not by much. BLS projects only a 2% rise in controller employment between 2025 and 2035, well below the pace of most other occupations, adding a net 400 jobs. Still, BLS expects roughly 2,100 openings a year on average, with almost all of them stemming from people aging out of the role at the mandatory cutoff, not from expansion of the workforce.',
 			},
 			{
 				question: 'How long does it take to become an air traffic controller?',
-				answer: 'There is no single fixed number. Per BLS, candidates typically complete an associate\'s or bachelor\'s degree through an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program, or build several years of progressively responsible work experience instead, then pass a medical evaluation, background check, and FAA preemployment tests before completing a training course at the FAA Academy. Once hired, BLS states that new controllers typically complete more than 12 months of additional on-the-job training before working independently.',
+				answer: 'There is no single fixed number. Per BLS, candidates typically hold at least a two- or four-year degree earned via the FAA\'s AT-CTI collegiate program, or build a comparable multi-year track record of increasingly senior work instead, then clear FAA\'s medical screening, background review, and preemployment exams before completing a training course at the FAA Academy. Once hired, BLS states that new controllers typically complete more than 12 months of additional on-the-job training before working independently.',
 			},
 			{
 				question: 'Why do air traffic controllers have to be hired before age 31?',
-				answer: "The 31 cutoff pairs with the other end of the career: federal law (5 U.S.C. § 8335) generally requires operational controllers to retire by the end of the month they turn 56. Hiring candidates before 31 leaves at least 25 years to complete the lengthy training pipeline, from AT-CTI coursework through FAA Academy training and more than 12 months of on-the-job certification at an assigned facility, and still spend a substantial career actually working traffic before mandatory retirement. BLS does not itself explain the policy rationale; that reasoning is this page's inference from how the entry cutoff and the mandatory retirement age line up, not a specific justification BLS states on its occupational page. The cutoff extends to 35 for applicants with qualifying prior military or FAA-contract air traffic control experience, since that experience shortens the training runway needed before retirement.",
+				answer: "The 31 cutoff pairs with the mandatory-retirement side of the career: 5 U.S.C. § 8335 sets the outer limit at age 56 for operational staff. Hiring candidates before 31 leaves at least 25 years to complete the lengthy training pipeline, from AT-CTI coursework, through instruction at the FAA Academy, and more than 12 months of on-the-job certification at an assigned facility, and still spend a substantial career actually working traffic before having to step aside at the mandatory cutoff. BLS does not itself explain the policy rationale; that reasoning is this page's inference from how the entry cutoff and the age-56 exit rule line up, not a specific justification BLS states on its occupational page. The ceiling rises to 35 for candidates who already have qualifying active-duty or contract-tower air traffic experience, since that background shortens the training runway needed before retirement.",
 			},
 		],
 		sources: [
@@ -3055,23 +3055,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average chef salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for chefs and head cooks was $60,990 in May 2024 ($29.32 an hour). The bottom 10% earned less than $36,000, and the top 10% earned more than $96,030.',
+				answer: 'BLS puts chefs\' and head cooks\' median pay at $60,990 a year for May 2024, equivalent to $29.32 an hour. The lowest-paid tenth made under $36,000, while the highest-paid tenth cleared $96,030.',
 			},
 			{
 				question: 'Do you need a culinary degree to become a chef?',
-				answer: "No. BLS lists a high school diploma or equivalent as the typical entry-level education for chefs and head cooks, with no on-the-job training listed beyond it. What BLS does list as typical is five years or more of work experience in a related occupation. Some chefs get there through a culinary program at a community college, technical school, culinary arts school, or four-year college; others work their way up through food-service jobs or an apprenticeship. Neither path is described as a formal requirement, only as common routes toward the experience the occupation typically expects.",
+				answer: "No specific culinary credential is required. BLS's baseline for this occupation is a high-school diploma, or the equivalent, with no further formal training requirement listed beyond that. What BLS does list as typical is at least five years of comparable hands-on food-service work. Some people reach that experience through formal culinary coursework, offered at vocational schools and colleges of various kinds; others gain it by climbing the ranks within restaurant jobs, or through an apprenticeship. Neither path is described as a formal requirement, only as a common route toward that experience benchmark, not a prerequisite BLS mandates.",
 			},
 			{
 				question: 'What is the pay range for chefs and head cooks?',
-				answer: 'BLS reports a median annual wage of $60,990 for May 2024, with the lowest-paid 10% earning less than $36,000 and the highest-paid 10% earning more than $96,030, a range of well over two and a half times between the bottom and top BLS reports.',
+				answer: 'BLS\'s May 2024 data for this occupation puts pay at $60,990 a year at the midpoint, with the lowest-paid 10% earning less than $36,000 and the highest-paid 10% earning above $96,030, more than 2.5 times the low end, per BLS.',
 			},
 			{
 				question: 'Which industry pays chefs the most?',
-				answer: 'Among the four industries BLS tracks for this occupation, traveler accommodation (hotels and similar lodging) paid the highest May 2024 median at $73,110, followed by amusement, gambling, and recreation industries at $69,430. Food services and drinking places, where most chefs work, paid $59,450, and healthcare and social assistance paid the lowest of the four at $57,350.',
+				answer: 'Hotel and lodging employers, what BLS calls the traveler-accommodation category, topped the list at $73,110 for May 2024. Next came gambling and amusement venues (grouped with recreation in BLS\'s data), which paid $69,430. Where most chefs actually work, food service and drinking establishments, pay came in at $59,450, and healthcare-sector employers paid the least of the four, at $57,350.',
 			},
 			{
 				question: 'Is chef a growing career?',
-				answer: 'Yes, per BLS. It projects 7% employment growth for chefs and head cooks from 2024 to 2034, much faster than the roughly 3% average projected across all occupations, adding an estimated 14,000 jobs to the 197,300 already employed in 2024, with about 24,400 openings projected each year on average.',
+				answer: 'Yes, per BLS. It puts growth at 7% for this occupation between 2024 and 2034, well ahead of the roughly 3% economy-wide pace it projects, working out to about 14,000 additional positions in a workforce that numbered 197,300 in 2024. BLS also expects roughly 24,400 openings a year on average, mostly from people moving into different lines of work or exiting the labor force entirely.',
 			},
 		],
 		sources: [
