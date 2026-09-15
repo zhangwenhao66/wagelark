@@ -89,5 +89,17 @@
       "https://wagelark.com/truck-driver-salary/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-15",
+    "site": "wagelark.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://wagelark.com/career-quiz/",
+      "https://wagelark.com/ironworker-salary/",
+      "https://wagelark.com/salary-statistics-2026/",
+      "https://wagelark.com/speech-language-pathologist-salary/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
