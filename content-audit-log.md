@@ -2103,3 +2103,6 @@
 **验证**：`npm run build` 83页0报错；`git add src/data/guides.ts && git commit`（commit `d1a790e`，未包含无关的`index-priority.json`未跟踪文件）；`git push`成功。绕缓存curl抽查5篇（`?cb=$RANDOM`）：`occupational-therapy-assistant-salary`（"How long is OT school?"✓，首次请求未命中、约15秒后重试命中，属Cloudflare Pages部署延迟）、`what-does-a-physician-assistant-do`（"Who is higher paid, NP or PA?"✓）、`pharmacy-technician-salary`（"Is becoming a pharmacist tech hard?"✓）、`what-does-a-welder-do`（"$100,000 as a welder"✓）、`psychiatrist-salary`（"Is a psychiatrist a stressful job?"✓），5篇全部HTTP 200且新FAQ内容已生效。
 
 **收尾总结**：本次处理（评估）26篇高曝光文章，实际新增FAQ 10篇/12条；因与现有FAQ重复或缺乏可靠来源跳过约16篇（含部分文章的部分问题）；机械检查从首轮10个slug全部不通过修复到全部0；build通过；commit `d1a790e`已push；5篇抽查线上生效。剩余14篇（曝光数据缺失，多为近期新发布）留给下一轮运行。
+
+## 2026-09-16 site-search-opportunity-refresh — title_test evaluate（wagelark-0828-bls-median，已被09-03手动回滚覆盖，无新动作）
+`title_test.py evaluate --label wagelark-0828-bls-median --days 14` 判定全部7页ROLLBACK（排名/曝光对照组扣除后仍显著更差）。核查`git log`发现这7页标题早在commit `384ebb5`（2026-09-03 "roll back 7 titles to pre-08-28 strings after impression collapse on rewritten pages"）已经手动回滚回0828改动前的原始模板标题，当前`src/data/guides.ts`逐字核对7页title均已是回滚后状态，本次无需重复操作。`wagelark-0903-rollback`标签正在跟踪09-03这次回滚后的效果（14天判定要到2026-09-17才到期，本次运行尚在wait期，留给下次运行评估）。
