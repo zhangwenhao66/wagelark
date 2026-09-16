@@ -342,12 +342,16 @@
   "https://wagelark.com/what-does-a-dental-hygienist-do/": {
     "submitted_date": "2026-08-24",
     "last_submitted_date": "2026-08-24",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-09-16",
+    "verified_method": "bing_wmt_url_inspection"
   },
   "https://wagelark.com/what-does-an-insurance-underwriter-do/": {
     "submitted_date": "2026-08-24",
     "last_submitted_date": "2026-08-24",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-09-16",
+    "verified_method": "bing_wmt_url_inspection"
   },
   "https://wagelark.com/what-does-a-bookkeeper-do/": {
     "submitted_date": "2026-08-24",
@@ -369,7 +373,9 @@
   "https://wagelark.com/how-to-become-a-flight-attendant/": {
     "submitted_date": "2026-08-25",
     "last_submitted_date": "2026-08-25",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "last_checked_date": "2026-09-16",
+    "verified_method": "bing_wmt_url_inspection"
   },
   "https://wagelark.com/what-does-a-nurse-practitioner-do/": {
     "submitted_date": "2026-08-26",
