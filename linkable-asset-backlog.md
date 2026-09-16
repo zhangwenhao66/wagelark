@@ -20,6 +20,8 @@
 |---|---|---|---|---|---|
 | featured.com | 1 | resource_page（专家问答聚合平台） | 1.48万 | 23.5条/域名，正常 | https://careers.usnews.com/（首页链接） |
 | michaelthompson-phd.com | 1 | blog_article（职业发展类个人博主） | 967 | 2.7条/域名，正常 | https://www.teenlife.com/blogs/articles/separating-parent-teen-college-dreams/（锚文本"teenlife.com"） |
+
+**[已联系 2026-09-16]** asset-distribution-outreach 已联系 michaelthompson-phd.com（michaelthompson.phd@gmail.com），见 `独立站/资产分发外联台账.json`
 | dailyvoice.com | 1 | blog_article（本地新闻媒体） | 33.5万 | 20.2条/域名，正常 | https://careers.usnews.com/best-jobs/rankings（锚文本"2026 rankings"） |
 
 未筛掉候选（其余多为indeed自己的国际子域名/招聘SaaS/隐私政策页，本身就不算真正第三方，未列入门槛检查名单）。
