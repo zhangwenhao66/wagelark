@@ -49,6 +49,7 @@ const CHARTS = {
 	'speech-language-pathologist-salary-chart': '29-1127',
 	'ironworker-salary-chart': '47-2221',
 	'lpn-salary-chart': '29-2061',
+	'orthotist-and-prosthetist-salary-chart': '29-2091',
 };
 
 const NAVY = '#14273f';

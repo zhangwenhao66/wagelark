@@ -1331,3 +1331,20 @@ test('spot check: Licensed Practical and Licensed Vocational Nurses (29-2061) ma
 	assert.equal(occ.industryWages[4].industry, 'Offices of physicians');
 	assert.equal(occ.industryWages[4].annualWage, 59520);
 });
+
+test('spot check: Orthotists and Prosthetists (29-2091) matches BLS OOH page', () => {
+	const occ = occupations['29-2091'];
+	assert.equal(occ.medianAnnual, 81110);
+	assert.equal(occ.medianHourly, 38.99);
+	assert.deepEqual(occ.percentiles, { p10: 46350, p90: 119810 });
+	assert.equal(occ.employment, 9500);
+	assert.equal(occ.jobOutlookPct, 13);
+	assert.equal(occ.jobOutlookLabel, 'Much faster than average');
+	assert.equal(occ.employmentChange, 1200);
+	assert.equal(occ.entryEducation, "Master's degree");
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Federal government, excluding postal service');
+	assert.equal(occ.industryWages[0].annualWage, 91170);
+	assert.equal(occ.industryWages[4].industry, 'Hospitals; state, local, and private');
+	assert.equal(occ.industryWages[4].annualWage, 76290);
+});

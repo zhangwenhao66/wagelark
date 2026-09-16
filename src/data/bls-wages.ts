@@ -2384,5 +2384,48 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Ironworkers (SOC 47-2221 covers structural iron and steel workers specifically, a distinct 6-digit code from reinforcing iron and rebar workers' 47-2171 within the combined \"Ironworkers\" group BLS titles this page; BLS's Pay tab breaks out a structural-specific median annual wage ($62,780), 10th/90th percentile range ($44,580/$108,260), a structural-specific top-5-industry wage table, and a structural-specific job outlook rate (3%, 2025-35) -- the percentile and industry figures are used here, but jobOutlookPct/employmentChange/employment above instead use the Quick Facts panel's combined-group figures (1% \"Slower than average\", +1,300 jobs, 84,800 total 2025 employment) since that is the headline stat BLS presents for the page's own title, hence employmentIsGroupLevel is set; the structural-specific 3% outlook and the sister occupation reinforcing iron and rebar workers' declining -5% outlook are reported separately in the article prose, not in this JSON entry)",
 		sourceUrl: "https://www.bls.gov/ooh/construction-and-extraction/structural-iron-and-steel-workers.htm",
 		publishedDate: "2026-08-27"
+	},
+	"29-2091": {
+		socCode: "29-2091",
+		title: "Orthotists and Prosthetists",
+		medianAnnual: 81110,
+		medianHourly: 38.99,
+		percentiles: {
+			p10: 46350,
+			p90: 119810
+		},
+		employment: 9500,
+		employmentYear: "2025",
+		jobOutlookPct: 13,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 1200,
+		projectionPeriod: "2025-35",
+		entryEducation: "Master's degree",
+		industryWages: [
+			{
+				industry: "Federal government, excluding postal service",
+				annualWage: 91170
+			},
+			{
+				industry: "Medical equipment and supplies manufacturing",
+				annualWage: 83370
+			},
+			{
+				industry: "Health and personal care retailers",
+				annualWage: 78320
+			},
+			{
+				industry: "Ambulatory healthcare services",
+				annualWage: 77980
+			},
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 76290
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Orthotists and Prosthetists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/orthotists-and-prosthetists.htm",
+		publishedDate: "2026-08-27"
 	}
 };

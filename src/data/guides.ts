@@ -308,7 +308,7 @@ export const guides: Guide[] = [
 				heading: 'Setting matters more than most people expect',
 				body: [
 					'BLS breaks out May 2024 wages by industry, and the pattern is somewhat counterintuitive: home healthcare services paid the highest median at $108,110, ahead of nursing and residential care facilities ($105,330) and hospitals ($105,140). Private outpatient physical therapy offices, the setting many people associate with PT work and where a large share of PTs are employed, paid the lowest of these four categories, at $94,860.',
-					'The gap likely reflects staffing economics: home health and skilled nursing settings often pay a premium to attract PTs willing to travel between patient locations or work in facility settings with higher patient acuity, while private outpatient practices compete more on schedule flexibility and caseload variety than on base pay.',
+					'The gap likely reflects staffing economics: home health and skilled nursing settings often pay a premium to attract PTs willing to travel between patient locations or work in facility settings with higher patient acuity, while private outpatient practices compete more on schedule flexibility and caseload variety than on base pay. A similarly lopsided pattern turns up in this site\'s [orthotist and prosthetist salary guide](/orthotist-and-prosthetist-salary/): the two industry categories with the smallest employer share there, federal government and hospitals, land at opposite ends of the pay scale rather than near the middle.',
 				],
 			},
 			{
@@ -5874,5 +5874,76 @@ export const guides: Guide[] = [
 		],
 		image: '/images/lpn-salary-chart.svg',
 		imageAlt: 'Bar chart showing LPN and LVN annual wage by percentile: 10th percentile $49,740, median $64,400, 90th percentile $83,440, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'orthotist-and-prosthetist-salary',
+		category: 'Salary Guide',
+		title: 'Orthotist and Prosthetist Salary: $81,110 Median',
+		description: "BLS puts the median orthotist and prosthetist salary at $81,110 a year, $13,150 below dental hygienists despite requiring a master's degree and residency.",
+		published: '2026-09-16',
+		updated: '2026-09-16',
+		socCode: '29-2091',
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, orthotists and prosthetists earned a median of $81,110 in May 2025, or $38.99 an hour, across a combined occupation BLS tracks under a single SOC code, 29-2091. Earners in the bottom 10% made less than $46,350, and those in the top 10% cleared $119,810, a spread of roughly $73,460. That beats the $50,980 median BLS reports across all U.S. occupations by $30,130, but it trails the $94,260 median for [dental hygienists](/dental-hygienist-salary/) by $13,150, despite dental hygiene typically requiring only an associate degree against this field's master's degree and residency. BLS counted 9,500 orthotists and prosthetists in 2025 and projects 13% growth through 2035, more than four times the roughly 3% average across all occupations.",
+		sections: [
+			{
+				heading: 'What orthotists and prosthetists earn, and what the job actually involves',
+				body: [
+					"The median annual wage for orthotists and prosthetists was $81,110 in May 2025, or $38.99 an hour, per the Bureau of Labor Statistics, which profiles the combined occupation on a single dedicated page under SOC code 29-2091. The bottom 10% of earners made less than $46,350 a year, while the top 10% made more than $119,810, a spread of roughly $73,460 between the two ends. BLS counted 9,500 orthotists and prosthetists nationwide in 2025, a small workforce by this site's standards, closer in size to [genetic counselors](/genetic-counselor-salary/) (4,200) than to larger allied-health occupations.",
+					"BLS describes the work as measuring, designing, fitting, and adapting medical devices, specifically supportive braces and artificial limbs, for patients with disabling conditions. Some workers specialize in orthotics (braces and splints that support an existing body part) or prosthetics (artificial limbs that replace one), while others do both. Most work full time in healthcare offices and in on-site laboratories, where they use tools such as drills and sanders to construct or adjust devices, and they routinely collaborate with [physical therapists](/physical-therapist-salary/) and [occupational therapists](/occupational-therapist-salary/) on a patient's overall care.",
+				],
+			},
+			{
+				heading: "A master's degree and a year-long residency, yet dental hygienists still earn more",
+				body: [
+					"Per BLS, orthotists and prosthetists typically need a master's degree in orthotics and prosthetics from a program accredited by a professional organization, plus a roughly one-year residency, also professionally accredited, after graduating. Master's programs generally take about two years and require a bachelor's degree to enter, and residencies can run longer for candidates who want to specialize in both orthotics and prosthetics rather than just one. BLS doesn't name the accrediting bodies on this page; it points readers to their state licensing board for licensure requirements (some but not all states require a license) and to CareerOneStop for certification information.",
+					"That is a longer, more advanced credential path than the associate degree BLS lists as the typical entry point for this site's [dental hygienist salary guide](/dental-hygienist-salary/). Yet BLS's own dedicated page for that occupation puts the May 2025 median for dental hygienists at $94,260, a full $13,150 above what orthotists and prosthetists earn despite the shorter, less advanced degree path. BLS does not explain the gap across its own pages; a plausible factor, not a claim BLS itself makes, is that dental hygiene has a far larger, more established private-practice market that can support routine four-day work weeks at a high hourly rate, while orthotics and prosthetics is a smaller specialty tied more closely to institutional referral patterns.",
+				],
+			},
+			{
+				heading: 'Industry pay: federal employers pay the most, hospitals pay the least, and both employ the same share of the field',
+				body: [
+					"BLS breaks out May 2025 median wages for orthotists and prosthetists across five industry categories. Federal government employers, excluding the postal service, paid the highest median, at $91,170, followed by medical equipment and supplies manufacturing at $83,370, health and personal care retailers at $78,320, and ambulatory healthcare services at $77,980. Hospitals (state, local, and private) paid the least of the five tracked categories, at $76,290, a gap of $14,880 between the highest- and lowest-paying settings.",
+					"BLS separately reports where orthotists and prosthetists actually work, and the pattern doesn't line up with the pay ranking. Ambulatory healthcare services employs the largest share of the field, 35%, followed by medical equipment and supplies manufacturing at 25% and health and personal care retailers at 12%. Federal government and hospitals each employ just 10% of the field, tying for the smallest share among the five tracked categories, yet those two settings sit at opposite ends of the pay scale, first and last respectively. BLS does not explain why the two smallest employer categories produced its highest- and lowest-paying settings; the data simply shows that employer share and pay rank move independently of each other here.",
+				],
+			},
+			{
+				heading: 'Job outlook: 13% growth through 2035, driven by an aging population',
+				body: [
+					"BLS projects 13% employment growth for orthotists and prosthetists from 2025 to 2035, classified as much faster than the roughly 3% average projected across all occupations, growing the field from 9,500 workers in 2025 to an estimated 10,700 by 2035. About 700 openings are projected each year, on average, over the decade, a figure BLS attributes mainly to the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than to net new job creation alone.",
+					"BLS attributes the growth itself to three demand drivers: an aging population with a rising rate of age-related conditions such as osteoarthritis and fall injuries, increasing rates of obesity and diabetes that raise demand for both orthotic foot and heel devices and prosthetic care following amputation, and the continued occurrence of trauma events, such as industrial and car accidents, that require orthotic or prosthetic care to restore mobility. None of the three factors is unique to this occupation; BLS cites similar demand drivers on several other allied-health pages this site tracks, including [occupational therapy assistants](/occupational-therapy-assistant-salary/), where 21% projected growth outpaces even the 13% rate here.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median orthotist and prosthetist salary?',
+				answer: "BLS's May 2025 survey puts it at $81,110 annually, working out to roughly $39 hourly, spread across the 9,500 people BLS counts in this occupation.",
+			},
+			{
+				question: 'What is the pay range for orthotists and prosthetists?',
+				answer: "Per BLS, the lowest-paid tenth made under $46,350 in May 2025, and the highest-paid tenth cleared $119,810, roughly $73,460 apart.",
+			},
+			{
+				question: 'Which industry pays orthotists and prosthetists the most?',
+				answer: "Per BLS, federal employers outside the postal service posted the top May 2025 wage in this occupation, $91,170. Hospitals ranked lowest among the industries BLS tracks, $76,290, despite both counting the same 10% share of this occupation's workforce.",
+			},
+			{
+				question: 'How long does it take to become an orthotist or prosthetist?',
+				answer: "BLS doesn't give an exact year count on this page, but its own description covers an undergraduate degree first, then a roughly two-year graduate program, then a residency lasting about a year, also accredited: around three years of graduate work in total, longer still for those training in both specialties at once.",
+			},
+			{
+				question: 'Do prosthetists go to medical school?',
+				answer: "No. BLS names the field's typical starting credential as a graduate degree, not a medical one, followed by an accredited residency rather than the four-year MD or DO track physicians complete.",
+			},
+			{
+				question: 'Is orthotics and prosthetics a growing field?',
+				answer: "Yes. Per BLS, employment here is set to expand 13% across the 2025-2035 decade, a pace well above four times what's expected economy-wide, adding about 1,200 jobs to the current 9,500-person workforce. BLS ties the demand to a growing older-adult population, climbing diabetes and obesity rates, and ongoing trauma-related injuries.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Orthotists and Prosthetists (accessed 2026-09-16 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/orthotists-and-prosthetists.htm' },
+		],
+		image: '/images/orthotist-and-prosthetist-salary-chart.svg',
+		imageAlt: 'Bar chart showing orthotist and prosthetist annual wage by percentile: 10th percentile $46,350, median $81,110, 90th percentile $119,810, based on BLS May 2025 data.',
 	},
 ];
