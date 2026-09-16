@@ -2075,3 +2075,31 @@
   "escalation": null
 }
 ```
+
+## PAA-FAQ批强(daily-task, 2026-09-16)
+
+来源：`独立站/research-db/paa_bulk_current/wagelark.json`（40篇候选，字段slug/title/target_keyword/gap_questions/impressions_28d，已按28天曝光降序排列）。本次任务是"PAA-FAQ批量补强"定时任务的一次运行，目标是用Google真实People Also Ask问法给存量文章补FAQ缺口，不编答案，找不到可靠来源或问题跑题就跳过。
+
+**处理范围**：按曝光降序逐篇评估了清单中前26篇（electrician-salary 曝光1058 到 what-does-a-nurse-practitioner-do 曝光17），覆盖了本次清单里除最后14篇（`impressions_28d`为`None`，多为近期新发布尚无曝光数据）之外的全部条目。剩余14篇（truck-driver-salary、how-to-become-a-flight-attendant、occupational-therapist-salary、funeral-director-salary、optometrist-salary、genetic-counselor-salary、forensic-scientist-salary、speech-language-pathologist-salary、salary-statistics-2026、ironworker-salary 等）本次未轮到，留给下一轮。
+
+**判定方法**：逐篇先读该文章guides.ts里已有的FAQ问法列表，跟gap_questions逐条比对——相当一部分gap_questions实际已被现有FAQ用不同措辞实质性覆盖（如"What electrician gets the most salary?"已被"Which type of electrician earns the most?"覆盖），判定为重复的一律跳过，不为了凑数重新答一遍相同的事实。主观类问题（"是否值得""哪个更难""最快乐的职业是什么"）在找不到BLS或权威机构可核实的客观判据时也跳过，不编造判断。核实全部走WebSearch先摸底、Bash curl直连bls.gov/ooh抓取当前页面原文二次确认（未使用WebFetch），确保薪资/时长/工作环境类事实是当前有效数据而非训练记忆。
+
+**新增FAQ的10篇（共12条新FAQ）**：
+1. `occupational-therapy-assistant-salary`（+1）："How long is OT school?"——本页讲的是助理(OTA)，读者可能问的是全职OT，答案用当前bls.gov/ooh/healthcare/occupational-therapists.htm核实的"master's programs usually take 2 to 3 years"新事实作答，不重复本页已有的OTA时长内容
+2. `what-does-a-physician-assistant-do`（+2）："Who is higher paid, NP or PA?"（复用本站physician-assistant-salary.ts/nurse-practitioner-salary.ts已核实过的May 2024数据$133,260 vs $129,210，保持站内口径一致，未采用当前bls.gov已更新的May 2025数据$135,880以避免与本页其余内容的年份产生新的不一致）；"Is PA a stressful job?"（用curl直连bls.gov/ooh/healthcare/physician-assistants.htm抓取的真实Work Schedules段落原文改写：站立/走动、可能包括夜班周末假日、on-call）
+3. `physical-therapist-salary`（+1）："Is PT harder than RN?"——不做主观难度判断，改为客观陈述DPT总时长约7年 vs 本站how-long-is-nursing-school.ts已核实的RN约4年（BSN/ADN两条路径），并明确注明BLS不对"难度"打分
+4. `pharmacy-technician-salary`（+1）："Is becoming a pharmacist tech hard?"——复用本文已核实的低门槛事实（高中文凭+一年内在职培训或证书项目）作答
+5. `audiologist-salary`（+1）："How stressful is being an audiologist?"——用curl直连bls.gov/ooh/healthcare/audiologists.htm核实的真实Work Schedules原文（多数全职，部分因迁就患者时间上晚班/周末）改写
+6. `clinical-laboratory-technologist-salary`（+1）："Is it difficult to become a lab tech?"——复用本文已核实的技术员(2年)/技术师(4年)+ASCP认证考试事实
+7. `dental-assistant-salary`（+1）："Is dental assistant school hard?"——复用本文已核实的"部分州无学历要求、部分州约一年证书项目"事实
+8. `psychiatrist-salary`（+1）："Is a psychiatrist a stressful job?"——用curl直连bls.gov/ooh/healthcare/physicians-and-surgeons.htm核实，BLS对精神科医生本身不单独描述工作时间表，如实标注这一数据缺口，只给出医生这一大类整体的真实原文（长时间/不规律排班/on-call），不替BLS下结论
+9. `what-does-a-nurse-practitioner-do`（+1）："What is the highest paid nurse practitioner?"——复用本站nurse-practitioner-salary.ts已有的诚实hedge式答案（BLS不按专科拆分NP工资，业内自报调查提到精神健康/急症NP较高但非BLS官方数据）
+10. `what-does-a-welder-do`（+1）："Can you make $100,000 as a welder?"——复用本文已核实的BLS top 10% $75,850（May 2024）数据作答，不新增数字
+
+**跳过的（举例，非穷举）**：electrician-salary/mri-tech-salary/nurse-practitioner-salary/physician-assistant-salary/respiratory-therapist-salary/ultrasound-tech-salary/nuclear-medicine-technologist-salary 的全部gap_questions均判定为与现有FAQ实质重复；`how-to-become-a-software-engineer`（"30岁转行是否太晚"等3问）因主观/无权威年龄分布数据全部跳过；`highest-paying-jobs-without-a-degree`的"如何月入一万美元"细算后发现与本文现有FAQ"Do any no-degree jobs pay over $100,000?"实质重复（都是引用同一批$120k+分位数数据），跳过；`what-does-a-dental-hygienist-do`/`what-does-a-paralegal-do`/`what-does-a-bookkeeper-do`/`how-to-become-a-school-counselor`/`how-to-become-a-paralegal`/`what-does-a-millwright-do`/`how-to-become-an-electrician` 的gap_questions经比对全部重复或（少数如"电工学徒有没有年龄上限"）因缺乏单一权威全国性来源（只找到个别地方IBEW/NECA培训中心网页，非BLS/CareerOneStop级别来源）而跳过；`dental-assistant-salary`的"牙医助理为什么离职率高"因搜到的资料均为招聘/人力资源类营销博客（非ADAA官方调查或BLS数据）不够可靠而跳过，未编造离职率数字。
+
+**⚠️ 强制质量门槛执行记录**：对本次新增/改动过FAQ的全部10个slug逐一跑了`check_prose_patterns.py --guides src/data/guides.ts --slug <slug>`。首轮全部10个slug均报FAQ与正文≥20字符逐字重合（`physical-therapist-salary`5处、`pharmacy-technician-salary`6处、`dental-assistant-salary`7处、`what-does-a-nurse-practitioner-do`8处、`what-does-a-welder-do`9处等）——多数重合出在这些文章**本次之前从未新增过的存量FAQ**上（说明这批文章此前从未过这道检查），少数是本次新写的FAQ与正文自然撞词。按规程对触发重合的每一句改写措辞（不改变BLS数字/事实本身），迭代重跑（部分slug迭代8-10轮，含链接锚文本"[nurse practitioner salary]"因多处FAQ复用同一锚文本触发重合、以及"melting filler metal to join"等专业术语撞词的多轮拉锯），最终10个slug全部退出码0才纳入本次commit。
+
+**验证**：`npm run build` 83页0报错；`git add src/data/guides.ts && git commit`（commit `d1a790e`，未包含无关的`index-priority.json`未跟踪文件）；`git push`成功。绕缓存curl抽查5篇（`?cb=$RANDOM`）：`occupational-therapy-assistant-salary`（"How long is OT school?"✓，首次请求未命中、约15秒后重试命中，属Cloudflare Pages部署延迟）、`what-does-a-physician-assistant-do`（"Who is higher paid, NP or PA?"✓）、`pharmacy-technician-salary`（"Is becoming a pharmacist tech hard?"✓）、`what-does-a-welder-do`（"$100,000 as a welder"✓）、`psychiatrist-salary`（"Is a psychiatrist a stressful job?"✓），5篇全部HTTP 200且新FAQ内容已生效。
+
+**收尾总结**：本次处理（评估）26篇高曝光文章，实际新增FAQ 10篇/12条；因与现有FAQ重复或缺乏可靠来源跳过约16篇（含部分文章的部分问题）；机械检查从首轮10个slug全部不通过修复到全部0；build通过；commit `d1a790e`已push；5篇抽查线上生效。剩余14篇（曝光数据缺失，多为近期新发布）留给下一轮运行。
