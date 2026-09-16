@@ -421,5 +421,21 @@
    "https://wagelark.com/truck-driver-salary/"
   ],
   "quota_used": "4 of shared account-wide daily quota (5th attempt hit Quota Exceeded, not counted)"
+ },
+ {
+  "date": "2026-09-16",
+  "action": "submitted_then_quota_exceeded",
+  "reason": "游标延续自09-15停止点WageLark。今日新发布lpn-salary，URL Inspection确认URL unknown to Google，提交成功（第1次）。老页未收录巡检发现7个未收录候选，第二轮起依次追加forensic-scientist-salary（Discovered-not-indexed，第8次）、occupational-therapist-salary（Discovered-not-indexed，第11次）、truck-driver-salary（Discovered-not-indexed，第13次）均提交成功。第14次尝试salary-statistics-2026时触发账号级共享配额Quota Exceeded，立即停止未重试。career-quiz/salary-statistics-2026两个候选留待下次运行。",
+  "submitted_urls": [
+   "https://wagelark.com/lpn-salary/",
+   "https://wagelark.com/forensic-scientist-salary/",
+   "https://wagelark.com/occupational-therapist-salary/",
+   "https://wagelark.com/truck-driver-salary/"
+  ],
+  "already_indexed_no_action": [],
+  "quota_exceeded_attempted": [
+   "https://wagelark.com/salary-statistics-2026/"
+  ],
+  "quota_used": "4 of shared account-wide daily quota (5th attempt hit Quota Exceeded, not counted)"
  }
 ]
