@@ -42,6 +42,49 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"29-2061": {
+		socCode: "29-2061",
+		title: "Licensed Practical and Licensed Vocational Nurses",
+		medianAnnual: 64400,
+		medianHourly: 30.96,
+		percentiles: {
+			p10: 49740,
+			p90: 83440
+		},
+		employment: 666900,
+		employmentYear: "2025",
+		jobOutlookPct: 3,
+		jobOutlookLabel: "As fast as average",
+		employmentChange: 19700,
+		projectionPeriod: "2025-35",
+		entryEducation: "Postsecondary nondegree award",
+		industryWages: [
+			{
+				industry: "Government, excluding state and local education and hospitals",
+				annualWage: 68970
+			},
+			{
+				industry: "Nursing and residential care facilities",
+				annualWage: 68020
+			},
+			{
+				industry: "Home healthcare services",
+				annualWage: 63580
+			},
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 61160
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 59520
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Licensed Practical and Licensed Vocational Nurses",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/licensed-practical-and-licensed-vocational-nurses.htm",
+		publishedDate: "2026-08-27"
+	},
 	"19-4092": {
 		socCode: "19-4092",
 		title: "Forensic Science Technicians",

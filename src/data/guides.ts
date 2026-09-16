@@ -93,7 +93,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the job outlook says about future pay',
 				body: [
-					'BLS projects employment of dental hygienists to grow 7% from 2024 to 2034, which the agency classifies as much faster than the average for all occupations, translating to roughly 15,500 additional jobs over the decade. Faster-than-average growth in a licensed, credential-gated field tends to support wage growth over time, since employers compete for a labor pool that cannot be expanded quickly: becoming a hygienist requires completing an accredited program and passing licensing exams, not just being hired and trained on the job. The same credential-gated logic plays out at a far higher pay tier this site also tracks: [psychiatrist pay](/psychiatrist-salary/), which BLS pegs at a $281,870 median, reflects a medical degree and residency rather than an accredited hygiene program.',
+					'BLS projects employment of dental hygienists to grow 7% from 2024 to 2034, which the agency classifies as much faster than the average for all occupations, translating to roughly 15,500 additional jobs over the decade. Faster-than-average growth in a licensed, credential-gated field tends to support wage growth over time, since employers compete for a labor pool that cannot be expanded quickly: becoming a hygienist requires completing an accredited program and passing licensing exams, not just being hired and trained on the job. The same credential-gated logic plays out at a far higher pay tier this site also tracks: [psychiatrist pay](/psychiatrist-salary/), which BLS pegs at a $281,870 median, reflects a medical degree and residency rather than an accredited hygiene program. At the opposite end, [LPN pay](/lpn-salary/) sits well below the hygienist figure, a $64,400 median per BLS for May 2025, built on a shorter postsecondary nondegree program; dental hygiene, by comparison, requires the associate\'s degree BLS lists as its typical entry path.',
 					'None of this is a guarantee about any individual\'s future earnings, and BLS data describes national averages rather than predictions for a specific person, employer, or year. It is a description of where the market has been and where employment is headed in aggregate, which is useful context for evaluating a specific job offer but should not be read as a promise about what any one hygienist will earn. For what the job actually involves day to day beyond these wage figures, see this site\'s [guide to what dental hygienists do](/what-does-a-dental-hygienist-do/), covering exam findings, preventive treatments, and the supervising-dentist relationship BLS describes.',
 				],
 			},
@@ -1345,7 +1345,7 @@ export const guides: Guide[] = [
 				heading: 'Medical assistant vs. physician assistant: same name pattern, very different role',
 				body: [
 					'The similar-sounding job title is one of the most common points of confusion in healthcare hiring, and the pay gap between the two makes the distinction worth spelling out. A medical assistant typically needs a postsecondary certificate, and some enter the field with just a high school diploma plus on-the-job training, no state license is required in most states, and BLS reports a May 2025 median of $45,690. This site\'s [physician assistant salary guide](/physician-assistant-salary/) covers a role that shares a shortened name but almost nothing else: PAs must complete a master\'s-level program of roughly two to three years after a bachelor\'s degree, pass a national certifying exam, and hold a state license to diagnose patients and prescribe medication, and BLS reports their May 2024 median at $133,260, about three times the medical assistant figure.',
-					'For a closer comparison at a similar entry point, this site\'s [dental assistant salary guide](/dental-assistant-salary/) covers another role BLS classifies under the same "postsecondary nondegree award" entry-education category, with a May 2024 median of $47,300, about $1,610 above the medical assistant median (the two occupations\' BLS data now come from different annual cycles, since this page reflects a newer May 2025 update). Both roles typically take under a year to enter through a certificate program or employer training, and neither requires a state license to practice in most states, though some states require certification for specific expanded duties in each field. At the far end of the pay scale among radiation-oncology roles this site tracks, this site\'s [medical dosimetrist salary guide](/medical-dosimetrist-salary/) reports a $147,470 median, more than three times the medical assistant figure above.',
+					'For a closer comparison at a similar entry point, this site\'s [dental assistant salary guide](/dental-assistant-salary/) covers another role BLS classifies under the same "postsecondary nondegree award" entry-education category, with a May 2024 median of $47,300, about $1,610 above the medical assistant median (the two occupations\' BLS data now come from different annual cycles, since this page reflects a newer May 2025 update). Both roles typically take under a year to enter through a certificate program or employer training, and neither requires a state license to practice in most states, though some states require certification for specific expanded duties in each field. This site\'s [LPN salary guide](/lpn-salary/) tracks a role at the same entry-education tier that does require a state license, and BLS reports a considerably higher $64,400 median for May 2025, an $18,710 gap over medical assistants despite both occupations sharing the postsecondary-nondegree entry bar. At the far end of the pay scale among radiation-oncology roles this site tracks, this site\'s [medical dosimetrist salary guide](/medical-dosimetrist-salary/) reports a $147,470 median, more than three times the medical assistant figure above.',
 				],
 			},
 		],
@@ -5802,5 +5802,77 @@ export const guides: Guide[] = [
 		],
 		image: '/images/ironworker-salary-chart.svg',
 		imageAlt: 'Bar chart showing structural iron and steel worker annual wage by percentile: 10th percentile $44,580, median $62,780, 90th percentile $108,260, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'lpn-salary',
+		category: 'Salary Guide',
+		title: 'LPN Salary: $64,400 Median (2026 BLS)',
+		description: 'BLS puts the median LPN salary at $64,400 a year, with 3% growth projected through 2035. Here is the full wage range by percentile and industry setting.',
+		published: '2026-09-16',
+		updated: '2026-09-16',
+		socCode: '29-2061',
+		coreSummary: 'The median annual wage for licensed practical and licensed vocational nurses (LPNs and LVNs) was $64,400 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $49,740 while the top 10% earned more than $83,440. BLS projects 3% employment growth from 2025 to 2035, about as fast as the roughly 3% average across all occupations, adding an estimated 19,700 jobs to a workforce of 666,900, with about 51,800 openings projected each year, mostly from replacing workers who transfer out or retire.',
+		sections: [
+			{
+				heading: 'What LPNs earn, and the one-year program BLS lists as the entry path',
+				body: [
+					"The Bureau of Labor Statistics tracks this occupation under SOC code 29-2061, covering both licensed practical nurses (LPNs) and licensed vocational nurses (LVNs), two titles for the same role that vary by which state a nurse works in. For May 2025, BLS reported a median annual wage of $64,400, or $30.96 an hour. The bottom 10% of earners made less than $49,740 a year, while the top 10% made more than $83,440, a spread of roughly $33,700.",
+					"BLS lists a postsecondary nondegree award as the typical entry-level education, earned through a state-approved certificate or diploma program that typically takes about a year, commonly offered at community colleges and technical schools, including some high schools. After finishing the program, a candidate must pass a licensing exam to enter the occupation; BLS does not name a single national exam on this page, pointing instead to CareerOneStop for state-by-state licensing board requirements.",
+					'This wage picture is built from employer payroll records, not from what LPNs and LVNs report earning themselves, since BLS\'s Occupational Employment and Wage Statistics survey collects its figures directly from businesses and government agencies. That same 2025 survey round counted about 666,900 LPN and LVN jobs nationally.',
+				],
+			},
+			{
+				heading: 'The highest-paying setting employs a small share of LPNs; the largest employer is a close second',
+				body: [
+					"BLS breaks out May 2025 wages by industry for LPNs and LVNs, and the top two categories sit close together. Government work, excluding state and local education and hospitals, paid the highest median at $68,970, but nursing and residential care facilities, the setting that employs the largest share of the workforce, paid $68,020, just $950 below the top. Home healthcare services paid $63,580, hospitals paid $61,160, and offices of physicians paid the least of the five categories BLS tracks, at $59,520.",
+					"BLS's separate Work Environment data shows 37% of LPNs and LVNs work in nursing and residential care facilities, the setting paying $68,020, second only to government work at $68,970, a category that employs just 6% of the workforce. Hospitals account for another 16% of jobs, home healthcare services 12%, and offices of physicians 11%. Unlike some occupations this site has covered, where the largest employer segment pays well below the top industry, the LPN wage table shows the setting employing the most workers landing almost exactly where the highest-paying setting does.",
+				],
+			},
+			{
+				heading: 'LPN pay next to the two adjacent nursing roles this site already tracks',
+				body: [
+					"LPN pay sits between two other nursing-adjacent occupations this site has separately verified against BLS. At the lower end, [nursing assistants (CNAs)](/how-to-become-a-cna/) earn a $42,260 median for May 2025, per BLS, $22,140 below the LPN figure; BLS lists a much shorter entry bar for that role, a state-approved training program with a federal floor of just 75 clock hours under 42 CFR § 483.152, well under the roughly year-long LPN program. At the higher end sits a bigger jump: BLS reports a $93,600 median for [registered nurses](/how-long-is-nursing-school/) in May 2024 (the most recent year published on that page), $29,200 above LPN pay, tied to a bachelor's, associate's, or diploma path that commonly runs two to four years rather than about one.",
+					"BLS's How to Become One tab for LPNs and LVNs notes a direct path between the two roles it does not describe for CNAs: with experience, an LPN can complete an LPN-to-RN education program to become a registered nurse, without repeating the full entry-level RN coursework other candidates start from scratch. BLS does not quantify how much shorter that bridge path runs compared with starting an RN program with no prior nursing license, or how the pay gap between the three roles breaks down by hours of required training versus scope of clinical authority; the figures above describe what each occupation's own BLS page reports, not a claim that training time alone explains the pay differences.",
+				],
+			},
+			{
+				heading: 'Licensing, optional specialty certifications, and BLS\'s job outlook',
+				body: [
+					"Beyond the roughly year-long educational program, BLS states that all LPNs and LVNs must pass a licensing exam after completing an approved program, with state-specific requirements available through CareerOneStop. Separately from that licensing step, BLS notes that optional certifications are available through professional associations in areas such as gerontology, wound care, and intravenous (IV) therapy, credentials BLS describes as showing an LPN or LVN has an advanced level of knowledge in a specific subject; BLS does not present these certifications as a requirement to practice.",
+					"BLS projects 3% employment growth for LPNs and LVNs from 2025 to 2035, classified as about as fast as the roughly 3% average across all occupations, adding an estimated 19,700 jobs to the 2025 workforce of 666,900. About 51,800 openings are projected each year on average over the decade; BLS attributes many of those to the need to replace workers who transfer to other occupations or exit the labor force, such as to retire, rather than to newly created positions alone. BLS attributes overall demand growth to an aging population needing more residential and home-based care, along with a rise in chronic conditions such as diabetes and obesity, without assigning a specific weight to either factor.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median LPN salary?',
+				answer: "BLS's May 2025 wage survey puts pay for LPNs and LVNs at $64,400 a year at the midpoint, which works out to $30.96 hourly. Half of workers in the role cleared that figure and half fell short of it.",
+			},
+			{
+				question: 'How long is LPN school?',
+				answer: "Around a year, per BLS. The qualifying coursework runs at trade schools, community colleges, and a handful of high schools, structured as a diploma or certificate curriculum that individual state boards sign off on and that BLS ranks below an actual academic degree. A licensing exam follows before anyone can practice.",
+			},
+			{
+				question: 'Which LPN gets paid the most?',
+				answer: "BLS doesn't break its wage data out by clinical specialty; the agency publishes one $64,400 national median for LPNs and LVNs as a single occupation. The nearest substitute this page can offer is the employer-type breakdown above: among the five settings BLS tracks, the government sector outside state/local schooling and hospital jobs pays the most, $68,970, though it accounts for only about 6% of this workforce.",
+			},
+			{
+				question: 'Is it worth being an LPN vs RN?',
+				answer: "That depends on what a reader weighs it against. Registered nurses clear $93,600 at the median per BLS, $29,200 above the LPN figure, but that credential requires a bachelor's-, associate's-, or diploma-level nursing program spanning two to four years, far longer than the roughly one-year run most LPN programs take. Against that longer runway, BLS also documents a direct LPN-to-RN bridge option for practicing LPNs who later want to move up without restarting nursing school from zero. Neither BLS's wage table nor its education page settles which side of that tradeoff wins for any one person; that comes down to program cost, how soon someone needs a paycheck, and where they want their nursing career to end up.",
+			},
+			{
+				question: 'What industry pays LPNs the most?',
+				answer: "Among the five employer categories in BLS's May 2025 breakdown, government positions outside state/local schooling and hospital systems sit on top at $68,970. Close behind, residential and nursing-care settings, which employ the biggest single slice of this workforce (37%), pay $68,020, a gap of only $950 from the top spot.",
+			},
+			{
+				question: 'Is LPN a growing career?',
+				answer: 'Modestly, per BLS: 3% more jobs projected between 2025 and 2035, in line with the economy-wide pace. That adds roughly 19,700 positions and produces close to 52,000 openings annually, though most of those openings trace back to workers retiring or switching fields, not to brand-new roles being created.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Licensed Practical and Licensed Vocational Nurses (accessed 2026-09-16 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/licensed-practical-and-licensed-vocational-nurses.htm' },
+		],
+		image: '/images/lpn-salary-chart.svg',
+		imageAlt: 'Bar chart showing LPN and LVN annual wage by percentile: 10th percentile $49,740, median $64,400, 90th percentile $83,440, based on BLS May 2025 data.',
 	},
 ];

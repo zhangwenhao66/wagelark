@@ -48,6 +48,7 @@ const CHARTS = {
 	'forensic-scientist-salary-chart': '19-4092',
 	'speech-language-pathologist-salary-chart': '29-1127',
 	'ironworker-salary-chart': '47-2221',
+	'lpn-salary-chart': '29-2061',
 };
 
 const NAVY = '#14273f';

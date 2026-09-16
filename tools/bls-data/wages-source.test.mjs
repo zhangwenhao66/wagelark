@@ -1314,3 +1314,20 @@ test('spot check: Structural Iron and Steel Workers (47-2221) matches BLS OOH pa
 	assert.equal(occ.industryWages[4].annualWage, 59960);
 	assert.equal(occ.employmentIsGroupLevel, true);
 });
+
+test('spot check: Licensed Practical and Licensed Vocational Nurses (29-2061) matches BLS OOH page', () => {
+	const occ = occupations['29-2061'];
+	assert.equal(occ.medianAnnual, 64400);
+	assert.equal(occ.medianHourly, 30.96);
+	assert.deepEqual(occ.percentiles, { p10: 49740, p90: 83440 });
+	assert.equal(occ.employment, 666900);
+	assert.equal(occ.jobOutlookPct, 3);
+	assert.equal(occ.jobOutlookLabel, 'As fast as average');
+	assert.equal(occ.employmentChange, 19700);
+	assert.equal(occ.entryEducation, 'Postsecondary nondegree award');
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Government, excluding state and local education and hospitals');
+	assert.equal(occ.industryWages[0].annualWage, 68970);
+	assert.equal(occ.industryWages[4].industry, 'Offices of physicians');
+	assert.equal(occ.industryWages[4].annualWage, 59520);
+});

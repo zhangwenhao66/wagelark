@@ -139,6 +139,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 380,
   "w": 640
  },
+ "/images/lpn-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/medical-assistant-salary-chart.svg": {
   "h": 240,
   "w": 640
