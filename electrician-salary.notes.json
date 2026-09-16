@@ -1,0 +1,7 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Original source text cited a $44,200 median for medical assistants, but the target medical-assistant-salary article (updated 2026-08-28) states 'The median annual wage for medical assistants was $45,690 in May 2025' — the $44,200 figure was stale/incorrect. Fixed the electrician-salary body to read $45,690 to match the target article's current published figure, then re-ran check_prose_patterns.py (still passes) and this check. The bridge sentence as it now stands is CONFIRMED accurate against the target article."
+  }
+]
