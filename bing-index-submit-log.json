@@ -101,5 +101,15 @@
       "https://wagelark.com/speech-language-pathologist-salary/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-16",
+    "site": "wagelark.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://wagelark.com/lpn-salary/",
+      "https://wagelark.com/orthotist-and-prosthetist-salary/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
