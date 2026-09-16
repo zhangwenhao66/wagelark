@@ -321,23 +321,27 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the median physical therapist salary?',
-				answer: 'The Bureau of Labor Statistics reports a median annual physical therapist salary of $101,020 in May 2024 ($48.57 per hour).',
+				answer: 'BLS puts the 2024 figure at $101,020 a year for the occupation, or $48.57 an hour.',
 			},
 			{
 				question: 'Do physical therapists need a doctoral degree?',
-				answer: 'Yes. Since the physical therapy profession transitioned to doctoral-level entry education, practicing PTs need a Doctor of Physical Therapy (DPT) degree plus a passing score on the National Physical Therapy Examination and state licensure.',
+				answer: 'Yes. Since the field transitioned to doctoral-level entry education, practicing PTs need the DPT credential plus a passing score on the National Physical Therapy Examination and state licensure.',
 			},
 			{
 				question: 'What setting pays physical therapists the most?',
-				answer: 'Among the industry categories BLS tracked for May 2024, home healthcare services paid the highest median at $108,110, followed by nursing and residential care facilities ($105,330) and hospitals ($105,140). Private outpatient PT offices paid the lowest of these categories, at $94,860.',
+				answer: '$108,110 at home health agencies is the highest of the four employer categories BLS tracked for May 2024. A residential and skilled-care facility setting followed at $105,330, hospitals came in at $105,140, and standalone outpatient PT clinics trailed the group at $94,860.',
 			},
 			{
 				question: 'Is physical therapy a growing field?',
-				answer: 'BLS projects 11% employment growth for physical therapists from 2024 to 2034, classified as much faster than the average for all occupations, adding roughly 29,300 jobs over the decade.',
+				answer: 'Yes, per BLS: 11% projected job growth for the occupation between 2024 and 2034, well above the roughly 3% average across all U.S. occupations, adding an estimated 29,300 positions over the decade.',
 			},
 			{
 				question: 'How long does it take to become a physical therapist?',
-				answer: 'A typical four-year bachelor\'s degree with prerequisite coursework, followed by a CAPTE-accredited Doctor of Physical Therapy (DPT) program that BLS describes as running about three years, adds up to roughly seven years before a graduate is eligible to sit for the licensing exam, per this site\'s [how to become a physical therapist](/how-to-become-a-physical-therapist/) guide. Some physical therapists add an optional one-year clinical residency after that.',
+				answer: 'A typical four-year undergraduate degree with prerequisite coursework, followed by a CAPTE-accredited DPT program that BLS describes as running about three years, adds up to roughly seven years before a graduate is eligible to sit for the licensing exam, per this site\'s [how to become a physical therapist](/how-to-become-a-physical-therapist/) guide. Some PTs add an optional one-year clinical residency on top of that.',
+			},
+			{
+				question: 'Is PT harder than RN?',
+				answer: "BLS doesn't rate occupations by difficulty, but the credentialing timelines differ substantially. Physical therapy runs roughly seven years total, combining a four-year undergraduate degree with a three-year graduate DPT program. Registered nursing moves faster: per this site's [how long is nursing school](/how-long-is-nursing-school/) guide, BLS lists both the bachelor's (BSN) and associate's (ADN/ASN) nursing paths at about four years to completion, several years shorter than the DPT track.",
 			},
 		],
 		sources: [
@@ -382,23 +386,31 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the difference between a physician assistant and a doctor?',
-				answer: 'Physician assistants practice medicine under the supervision of a licensed physician and complete a master\'s-level program (typically 2+ years post-bachelor\'s), while physicians complete medical school (4 years) plus residency (3-7+ years depending on specialty) and are independently licensed to practice. The scope of what a PA can do without direct physician sign-off varies by state.',
+				answer: 'PAs practice medicine with a licensed physician signing off and complete a master\'s-level program (typically 2+ years post-bachelor\'s), while physicians complete medical school (4 years) plus residency (3-7+ years depending on specialty) and are independently licensed to practice. What a PA is permitted to do without a physician\'s direct sign-off differs from state to state.',
 			},
 			{
 				question: 'How much do physician assistants make?',
-				answer: 'The Bureau of Labor Statistics reports a median annual physician assistant salary of $133,260 in May 2024 ($64.07 per hour), with government employers paying the highest industry median tracked ($151,470).',
+				answer: 'For May 2024, BLS puts PA pay at a $133,260 median annually, or $64.07 an hour. The highest-paying tracked employer type is government work, at $151,470.',
 			},
 			{
 				question: 'What degree do you need to become a physician assistant?',
-				answer: 'A master\'s degree from an accredited PA program, plus passing the Physician Assistant National Certifying Examination (PANCE) and obtaining state licensure. Most programs require a bachelor\'s degree with science prerequisites and prior clinical experience for admission.',
+				answer: 'Graduate-level training through a program accredited for PA education, plus passing PANCE, the profession\'s licensing test, and obtaining state licensure. Most programs also expect an undergraduate degree completed beforehand, along with science classes and hands-on clinical exposure.',
 			},
 			{
 				question: 'Do physician assistants work in specific specialties?',
-				answer: 'PAs work across most medical specialties rather than being limited to one. BLS names primary care and family medicine, emergency medicine, and psychiatry as common placements, and notes PAs also work in specialties like surgery and pediatrics. Generalist training makes it possible for a PA to move between specialties during a career.',
+				answer: 'PAs work across most medical specialties rather than being limited to one. Emergency care, psychiatry, and family practice are among the settings BLS lists most often, on top of surgical and pediatric teams. That range across fields lets one PA move between them across a career, something a physician, already locked into one field by years of residency training, generally cannot do.',
 			},
 			{
 				question: 'Can you make $200,000 as a PA?',
-				answer: 'Not typically, per national BLS data. The top 10% of physician assistants earned more than $182,200 in May 2024, the highest decile BLS publishes for the occupation, short of $200,000. See this site\'s [physician assistant salary guide](/physician-assistant-salary/) for the full percentile and industry breakdown; pay varies by specialty and setting in ways this national figure does not capture.',
+				answer: 'Not typically, per national BLS data. The top decile of PAs earned more than $182,200 in May 2024, the highest figure BLS publishes for the occupation, short of $200,000. See this site\'s [PA salary guide](/physician-assistant-salary/) for the full percentile and industry breakdown; pay varies by specialty and setting in ways this national figure does not capture.',
+			},
+			{
+				question: 'Who is higher paid, NP or PA?',
+				answer: "PAs earned more, per BLS's May 2024 data: a $133,260 median that year, versus $129,210 for NPs, roughly a $4,050 gap. Both are graduate-trained clinical roles that typically require a master's degree, though PAs work with physician oversight in most states while NPs increasingly have independent practice authority depending on the state. See this site's [nurse practitioner salary](/nurse-practitioner-salary/) guide for the full NP wage breakdown.",
+			},
+			{
+				question: 'Is PA a stressful job?',
+				answer: "BLS doesn't formally rate occupations for stress, but its own description of the work points to real demands: treating patients is, in BLS's words, both physically and emotionally demanding, and PAs spend much of the day standing or walking between patients, with those who work in operating rooms often standing for extended stretches. Most PAs work full time, and schedules can include nights, weekends, or holidays; BLS also notes PAs may be on call, meaning they must be ready to respond to a work request on short notice.",
 			},
 		],
 		sources: [
@@ -1194,23 +1206,27 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does BLS report for the pharmacy technician salary?',
-				answer: 'BLS reports a median annual pharmacy technician salary of $43,460 in May 2024, equivalent to $20.90 an hour, based on the U.S. Bureau of Labor Statistics Occupational Employment and Wage Statistics survey. Because pharmacy technicians are often scheduled hourly rather than paid a fixed salary, actual annual earnings can differ from this figure depending on how many hours a technician actually works in a given year.',
+				answer: 'In May 2024, BLS put median annual pay for the role at $43,460, equivalent to $20.90 an hour, based on its own OEWS wage survey. Actual take-home pay can differ from that figure, since scheduling for the role is commonly hourly rather than a fixed salary, and hours worked vary by employer.',
 			},
 			{
 				question: 'Do pharmacy technicians need to be certified?',
-				answer: 'It depends on the state. BLS reports that most states regulate pharmacy technicians in some way, and requirements can include a formal training program, an exam, a background check, or continuing education, though the specific mix varies by state. Certification is not universally required, but some states and employers do require it, and BLS notes it can make finding a job easier even where it isn\'t mandatory.',
+				answer: "Sometimes; rules differ by state. BLS says a good share of states impose some form of oversight on the role, which can mean a licensing exam, a training course, a background screen, or recurring coursework requirements, though the exact combination varies. Certification isn't universally required, but a number of states and individual employers choose to require it anyway, which BLS says can be a practical hiring edge even where the law doesn't mandate it.",
 			},
 			{
 				question: 'Which industry pays pharmacy technicians the most?',
-				answer: 'Among the industry categories BLS tracks for May 2024, ambulatory healthcare services paid the highest median at $49,920, followed closely by hospitals at $49,310. Pharmacies and drug retailers, the traditional retail chain setting, paid the least of the five tracked categories, at $37,900.',
+				answer: 'The ambulatory-care category tops BLS\'s May 2024 breakdown at $49,920, with hospitals just under that at $49,310. National drugstore chains and neighborhood pharmacies, the traditional retail setting, sat at the bottom of the list at $37,900.',
 			},
 			{
 				question: 'Is pharmacy technician a growing occupation?',
-				answer: 'BLS projects 6% employment growth for pharmacy technicians from 2024 to 2034, faster than the average for all occupations, adding a net 31,500 jobs. BLS separately projects about 49,000 average annual job openings once the decade is averaged out, though most of those openings come from replacing technicians who leave the occupation rather than from new positions.',
+				answer: 'BLS projects the pharmacy-tech workforce expanding six percent over the 2024-2034 decade, quicker than the all-occupation average, adding a net 31,500 jobs. Separately, BLS estimates roughly 49,000 openings a year on average across the decade, though most of that figure reflects technicians leaving the field rather than newly created roles.',
 			},
 			{
 				question: 'Who gets paid more, CNA or pharmacy tech?',
-				answer: 'Pharmacy technicians earned slightly more: a median of $43,460 for May 2024, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, since BLS refreshes occupations on its own schedule, so this is a close comparison rather than an exact same-year one.',
+				answer: 'Pharmacy techs came out slightly ahead: a median of $43,460 for May 2024, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, since BLS refreshes occupations on its own schedule, so this is a close comparison rather than an exact same-year one.',
+			},
+			{
+				question: 'Is becoming a pharmacist tech hard?',
+				answer: "Not by BLS's own bar to entry. A completed high school education is the typical requirement, and most people qualify through employer-provided training completed within a year, or by finishing a shorter certificate track at a two-year technical school. That puts pharmacy techs among the more accessible allied-health roles this site tracks; whether a specific state also layers on an exam, background screening, or continuing-education requirement varies, and a state's own labor board is the place to confirm specifics.",
 			},
 		],
 		sources: [
@@ -1261,27 +1277,31 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the median dental assistant salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for dental assistants was $47,300 in May 2024, equivalent to $22.74 an hour. That is close to, though slightly below, the $49,500 median BLS reports across all U.S. occupations for the same year.',
+				answer: 'BLS\'s May 2024 figure: $47,300 a year for someone doing this work, or $22.74 an hour, just under BLS\'s figure for the whole U.S. workforce combined that same year, $49,500.',
 			},
 			{
 				question: 'Do dental assistants need a degree?',
-				answer: 'It depends on the state. BLS reports that some states require graduating from an accredited program, typically a certificate or diploma program of about a year (two-year associate\'s degree programs are less common), and passing an exam. Other states have no formal education requirement, and dental assistants learn the job through on-the-job training. States that allow assistants to perform expanded duties, such as coronal polishing, do require licensure, registration, or certification for those specific tasks.',
+				answer: 'It depends on the state. BLS reports that a share of states call for finishing an approved training program, commonly about a year and capped by a diploma or certificate (associate\'s-degree tracks exist but are rarer), plus passing an exam. Elsewhere, no schooling is mandated by law; assistants can instead pick up the role through employer-provided coaching. Coronal polishing is one example of an expanded function that typically needs its own separate licensure or certification, even in states with no baseline schooling requirement.',
 			},
 			{
 				question: 'Which industry pays dental assistants the most?',
-				answer: 'Among the industry categories BLS tracks for May 2024, government employers, excluding state and local education and hospitals, paid the highest median at $53,660. Offices of dentists, where almost all dental assistants work, paid $47,250. Offices of physicians paid the least of the three tracked categories, at $46,170.',
+				answer: '$53,660 in the public sector (outside of schools and hospitals) tops the three-category list BLS tracks for May 2024. Dental offices, the setting employing practically the entire workforce, land right around the overall median at $47,250, while physician offices pay the least, at $46,170.',
 			},
 			{
 				question: 'How does dental assistant pay compare to dental hygienist pay?',
-				answer: 'BLS reports a May 2024 median of $94,260 for dental hygienists, essentially double the $47,300 median for dental assistants. The gap tracks a real credentialing difference: hygienists must complete an accredited associate\'s degree program and pass a licensing exam, while dental assistants can typically enter through a shorter certificate program or on-the-job training.',
+				answer: 'BLS puts dental hygienist pay at $94,260 for May 2024, roughly twice the $47,300 dental assistant figure. Schooling explains most of the gap: hygienists go through a two-year accredited program capped by a licensing exam, while entering as an assistant is usually much quicker, through a shorter certificate track or on-the-job coaching.',
 			},
 			{
 				question: 'Is dental assisting a growing occupation?',
-				answer: 'BLS projects 6% employment growth for dental assistants from 2024 to 2034, faster than the average for all occupations, adding a net 24,400 jobs. BLS separately projects about 52,900 average annual job openings once the decade is averaged out. Most of those openings come from replacing assistants who leave the occupation, not from newly created positions.',
+				answer: 'BLS projects 6% growth in this occupation between 2024 and 2034, quicker than the U.S. all-occupation average, adding a net 24,400 jobs. Separately, BLS puts average yearly openings at about 52,900 across that same ten-year window, though the bulk of that figure reflects assistants leaving the role rather than the headcount actually expanding.',
 			},
 			{
 				question: 'Who gets paid more, CNA or dental assistant?',
-				answer: 'Dental assistants earned more: a median of $47,300 in May 2024 for dental assistants, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, so this is a close comparison rather than an exact same-year one.',
+				answer: 'In May 2024, dental assistants had a $47,300 median, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, so this is a close comparison rather than an exact same-year one.',
+			},
+			{
+				question: 'Is dental assistant school hard?',
+				answer: "It depends on the state, and for many people there's no formal schooling requirement at all. Per BLS, a portion of states require completing an accredited certificate track, typically around a year long and ending in a diploma, plus passing an exam. Elsewhere, nothing formal is required, letting a newcomer pick up the role through hands-on coaching from a dentist or an experienced coworker instead. That flexibility makes it one of the more approachable starting points among the allied-health roles this site tracks.",
 			},
 		],
 		sources: [
@@ -3806,35 +3826,39 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does a welder do on a typical day?',
-				answer: 'Per BLS, welders read blueprints and specifications, measure and inspect the materials to be joined, weld according to spec while monitoring and adjusting heat, and maintain their equipment. The specific technique used, such as arc welding, is usually chosen based on factors like the types of metals involved.',
+				answer: 'Per BLS, a welder\'s day runs through studying job specs and drawings, checking over the pieces before joining them, running the actual weld while keeping heat under control, then cleaning and maintaining the equipment afterward. The choice of process, arc welding among them, usually comes down to factors like which metals are being joined.',
 			},
 			{
 				question: "What's the difference between a welder, cutter, solderer, and brazer?",
-				answer: 'BLS groups all four under one SOC code but distinguishes them by technique. Welders bond metal using processes such as arc welding. Cutters use heat from an electric arc, plasma, or burning gases to cut and trim metal, including dismantling large structures. Solderers and brazers both heat molten filler metal to join objects; soldering uses a lower temperature for small, precise work, while brazing joins dissimilar metals and can add protective coatings.',
+				answer: 'BLS tracks all four together in its data, sorting them apart by what each one physically does rather than any pay distinction. Welders bond metal through methods like arc welding, running a current through the joint to generate melting heat. Cutters rely on an electric arc, plasma, or an open flame to slice and shape metal pieces, including taking apart large structures. The other two share a filler-metal approach, fusing pieces with heated filler rather than melting the base metal itself, but at different temperatures and for different jobs. Soldering runs cooler and suits small, precise work, while brazing works across metals of different types and can leave behind a wear-resistant coating.',
 			},
 			{
 				question: 'Is welding a dangerous job?',
-				answer: 'BLS states directly that welders, cutters, solderers, and brazers risk injury on the job, citing fumes, very hot materials, and intense arc light as specific hazards. Workers reduce that risk by following safety procedures and using personal protective equipment such as welding helmets, hearing protection, and heat-resistant gloves. Some jobs also involve working on a scaffold or platform, lifting heavy objects, or working in awkward positions.',
+				answer: "BLS is direct about it: this occupation carries real injury risk, pointing to airborne fumes, extreme heat, and the arc's blinding glare as job-specific risks. The countermeasures are procedural and physical: sticking to safety protocols and wearing gear like a welding helmet, ear protection, and gloves rated for heat. Some assignments also add work at height, heavy lifting, or twisting into cramped body positions to the mix.",
 			},
 			{
 				question: 'How much do welders make?',
-				answer: "BLS reports a median annual wage of $51,000 for welders, cutters, solderers, and brazers in May 2024 ($24.52 an hour), with pay ranging from under $38,130 at the 10th percentile to over $75,850 at the 90th. This site's welder salary guide breaks out the full percentile and industry pay data.",
+				answer: "For May 2024, BLS puts pay at a $51,000 median annually, or $24.52 an hour, ranging from under $38,130 at the 10th percentile up to $75,850 at the 90th. That spread, plus a breakdown by industry, lives on this site's dedicated wage guide for the role.",
 			},
 			{
 				question: 'Do welders work regular hours?',
-				answer: "Most work full time, and some work more than 40 hours a week, per BLS. Many manufacturing firms run two or three 8- to 12-hour shifts a day to keep production continuous, so evening and weekend work is common even outside of scheduled overtime.",
+				answer: "Most are on full-time schedules, with some clocking over 40 hours a week, according to BLS. A lot of manufacturing plants run 8- to 12-hour shifts, two or three per day, so the line never really stops, and evenings and weekends come with the territory even before counting overtime.",
 			},
 			{
 				question: 'Do welders make a lot of money?',
-				answer: 'Not especially, relative to the broader U.S. labor market. BLS puts the median wage for welders, cutters, solderers, and brazers at $51,000 for May 2024, just above the $49,500 median BLS reports across all U.S. occupations that same year. See this site\'s [welder salary guide](/welder-salary/) for the full percentile and industry breakdown.',
+				answer: 'Not especially, relative to the broader U.S. labor market. BLS\'s May 2024 figure for this occupation, $51,000, sits just above the $49,500 median it reports economy-wide for that same year. See this site\'s [welder pay breakdown](/welder-salary/) for the complete wage-by-percentile and industry picture.',
 			},
 			{
 				question: 'Is welding a hard job?',
-				answer: "Physically and technically, yes, on the demands BLS itself describes. The work involves precise, sustained attention (monitoring and adjusting heat in real time while welding to spec), physical strain (lifting heavy objects, working overhead or in awkward bent and stooped positions, sometimes on a scaffold or platform), and exposure to real hazards including fumes, very hot materials, and intense arc light. On top of that, many manufacturing employers run 8- to 12-hour shifts around the clock, so evening and weekend work is common. It's a skilled trade with a relatively fast, low-cost entry path, but BLS's own description of the job doesn't paint it as easy once someone is actually doing it.",
+				answer: "Physically and technically, yes, on the demands BLS itself describes. The work calls for close, sustained attention (adjusting heat on the fly while working to spec), real physical strain (hauling heavy pieces, reaching overhead or twisting into cramped postures, sometimes working at height on temporary rigging), and genuine on-the-job hazards from smoke, punishing heat, and the arc's own glare. Add in round-the-clock manufacturing shift patterns, and evening or weekend work becomes routine rather than an exception. It's a skilled trade with a relatively fast, low-cost entry path, but BLS's own description of the job doesn't paint it as easy once someone is actually doing it.",
 			},
 			{
 				question: 'Why do welders not live long?',
-				answer: "BLS doesn't publish life-expectancy or mortality data for any occupation, and this page isn't aware of a rigorous, welder-specific study that puts a number on it. What is well documented is the occupational exposure behind that reputation. Welding fume particles small enough to reach deep into the lungs can cause fibrosis, or scarring, that can develop into lung cancer, and welding on stainless steel and other chromium-containing alloys can expose workers to hexavalent chromium, which OSHA identifies as carcinogenic and linked to effects on the respiratory system, kidneys, liver, skin, and eyes. Manganese in welding fume has also been linked to neurological damage at low exposure levels. Modern fume-extraction equipment and respiratory protection substantially reduce these exposures compared to unprotected work, and BLS itself notes welders reduce injury risk by following safety procedures and using protective equipment, but the underlying health hazards are real and specific, not just a reputation.",
+				answer: "BLS doesn't publish life-expectancy or mortality data for any occupation, and this page isn't aware of a rigorous, welder-specific study that puts a number on it. What is well documented is the occupational exposure behind that reputation. Welding fume particles small enough to reach deep into the lungs can cause fibrosis, or scarring, that can develop into lung cancer, and welding on stainless steel and other chromium-containing alloys can expose workers to hexavalent chromium, which OSHA identifies as carcinogenic and linked to effects on the respiratory system, kidneys, liver, skin, and eyes. Manganese in welding fume has also been linked to neurological damage at low exposure levels. Modern fume-extraction equipment and respiratory protection substantially cut down these exposures versus unprotected work, and safety gear plus following protocol is how BLS says the occupation's injury risk gets managed day to day, but the underlying health hazards are real and specific, not just a reputation.",
+			},
+			{
+				question: 'Can you make $100,000 as a welder?',
+				answer: "Not typically, per national BLS data. The 90th-percentile figure BLS publishes for the combined group, $75,850 in May 2024, is the highest bracket it reports, well short of $100,000. Reaching that level would generally mean combining top-decile pay with a higher-paying specialty, employer, or region than the national wage data captures; see this site's [welder wage guide](/welder-salary/) for the fuller breakdown.",
 			},
 		],
 		sources: [
@@ -3964,31 +3988,35 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does a nurse practitioner do on a typical day?',
-				answer: "Per BLS, nurse practitioners take patient histories, perform physical exams, order and interpret diagnostic tests, diagnose health problems, and prescribe medication or other treatment, usually focused on a specific patient population such as adult-gerontology, pediatric, or psychiatric-mental health care. They also counsel patients and families and consult with physicians and other healthcare professionals as needed.",
+				answer: "Per BLS, day-to-day duties include reviewing a patient's health background, conducting exams, ordering and reading diagnostic results, working out a diagnosis, and prescribing treatment, usually within one population focus, like caring for adults and the elderly, treating children, or handling mental and behavioral health. NPs also spend time explaining care plans to patients and coordinating with the rest of a patient's care team.",
 			},
 			{
 				question: "What's the difference between a nurse practitioner and a registered nurse?",
-				answer: "BLS describes nurse practitioners as sharing some duties with registered nurses, such as gathering information about a patient's condition and taking action to manage it, but nurse practitioners are additionally trained to order and evaluate test results, refer patients to specialists, and diagnose and treat health problems, tasks outside a registered nurse's scope.",
+				answer: "BLS draws the line by noting NPs and RNs overlap on basic duties, like assessing a patient's status and responding to it, but NPs go further: they're trained to order and evaluate test results, route people to the right specialist, and put together a diagnosis and treatment plan, tasks outside a registered nurse's scope.",
 			},
 			{
 				question: 'Can nurse practitioners practice without a supervising physician?',
-				answer: "It depends entirely on the state. BLS notes broadly that scope of practice for this occupational group varies from state to state; see this site's [nurse practitioner salary guide](/nurse-practitioner-salary/) for how state practice-authority categories work and where to check a specific state's current rules.",
+				answer: "There's no fixed national answer; it comes down to which state someone practices in. See this site's [NP salary and scope-of-practice guide](/nurse-practitioner-salary/) for how the state categories break down, and confirm current rules for any one state directly through that resource.",
 			},
 			{
 				question: 'Do nurse practitioners specialize?',
-				answer: 'Yes. Per BLS, nurse practitioners typically focus on a specific patient population, such as adult and geriatric health, pediatric health, or psychiatric and mental health, which shapes the conditions and patients an individual NP sees.',
+				answer: 'Yes. Per BLS, most NPs concentrate on one population group, such as adults and older patients, children, or people needing mental and behavioral healthcare, which shapes the day-to-day mix of conditions and patients any one practitioner sees.',
 			},
 			{
 				question: 'How much do nurse practitioners make?',
-				answer: "BLS reports a median annual wage of $129,210 for nurse practitioners in May 2024. See [nurse practitioner salary](/nurse-practitioner-salary/) for the full wage and job-outlook breakdown.",
+				answer: "BLS's May 2024 figure puts this role's pay at $129,210 a year. See [NP pay data](/nurse-practitioner-salary/) for the full wage and job-outlook breakdown.",
 			},
 			{
 				question: 'How many years of school does it take to become a nurse practitioner?',
-				answer: 'BLS does not publish one combined total on this page either; it describes the requirement as at least a master\'s degree in an advanced practice nursing specialty, built on top of an existing RN license, with most programs preferring candidates who already hold a bachelor\'s degree in nursing. Based on typical program lengths, a four-year bachelor\'s degree followed by a master\'s- or doctoral-level nurse practitioner program, sources outside BLS commonly put the full path at roughly six to eight years, though the exact timeline depends on the school and whether a candidate already has RN experience.',
+				answer: 'BLS doesn\'t spell out one single combined total on this page either; it describes the requirement as at least a master\'s degree in an advanced practice nursing specialty, built on top of an existing RN license, with most programs preferring candidates who already hold a bachelor\'s degree in nursing. Based on typical program lengths, a four-year undergraduate degree followed by a master\'s- or doctoral-level NP program, sources outside BLS commonly put the full path at roughly six to eight years, though the exact timeline depends on the school and whether a candidate already has RN experience.',
+			},
+			{
+				question: 'What is the highest paid nurse practitioner?',
+				answer: "BLS doesn't say. It keeps this a single national figure, $129,210 for May 2024, and skips a wage breakdown by population focus such as family care, mental and behavioral health, or acute care. Several nursing-industry and job-board sites report the mental-health and acute-care tracks among the higher-paid ones, but those figures come from self-reported salary surveys rather than BLS's employer-reported data, and different sites report different dollar amounts for the same specialty. See this site's [NP wage breakdown](/nurse-practitioner-salary/) for the full picture.",
 			},
 			{
 				question: 'Is an RN higher than a nurse practitioner?',
-				answer: 'No, it works the other way. A nurse practitioner is an advanced practice role built on top of the RN credential: NPs must already be licensed registered nurses before completing the additional graduate education BLS lists as the typical entry-level requirement. That added training gives NPs a broader scope of practice, such as diagnosing conditions and prescribing medication, that a base RN license does not include on its own.',
+				answer: 'No, it works the other way. This advanced-practice role is built on top of the RN credential: someone must already be a licensed registered nurse before completing the additional graduate education BLS lists as the typical entry-level requirement. That added training brings a broader scope of practice, such as diagnosing conditions and prescribing medication, that a base RN license does not include on its own.',
 			},
 		],
 		sources: [
@@ -5015,6 +5043,10 @@ export const guides: Guide[] = [
 				question: 'How long does it take to become an occupational therapy assistant?',
 				answer: 'The standard way in, per BLS, is a two-year associate\'s credential, with a smaller number of four-year bachelor\'s programs also available. Getting licensed afterward is a three-part hurdle: the accredited coursework itself, hands-on fieldwork hours, and a certifying exam at the end.',
 			},
+			{
+				question: 'How long is OT school?',
+				answer: "This page prices out the assistant role (OTA), not the fully credentialed clinician it works under. That master's-level credential, per BLS, generally takes 2 to 3 years of graduate study, layered onto a bachelor's degree finished first, well past the associate's-level route this page covers.",
+			},
 		],
 		sources: [
 			{ label: "BLS Occupational Outlook Handbook: Occupational Therapy Assistants and Aides (accessed 2026-09-04 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)", url: 'https://www.bls.gov/ooh/healthcare/occupational-therapy-assistants-and-aides.htm' },
@@ -5086,6 +5118,10 @@ export const guides: Guide[] = [
 			{
 				question: 'How long does it take to become a clinical lab technologist?',
 				answer: 'It depends which of the two BLS occupation codes applies. Technologists (SOC 29-2011) usually come in with a four-year bachelor\'s degree. Technicians (SOC 29-2012), by contrast, can sometimes enter the field with just a two-year associate\'s degree, per BLS.',
+			},
+			{
+				question: 'Is it difficult to become a lab tech?',
+				answer: "It depends which of the two BLS-tracked paths someone takes. Entering as a technician typically takes a two-year credential. Entering as a technologist typically takes a full four-year undergraduate program instead. Either way, the usual next step is earning a professional credential, most commonly ASCP's MLS or MLT designation, through a NAACLS-accredited program and a certification exam. It's a real, multi-step process rather than something picked up purely on the job, though BLS itself doesn't rate either path's difficulty.",
 			},
 		],
 		sources: [
@@ -5320,6 +5356,10 @@ export const guides: Guide[] = [
 				question: 'Do audiologists make more than nurses?',
 				answer: 'No, slightly the other way, per BLS\'s May 2025 data: registered nurses had a median of $97,550, compared with $95,780 for audiologists the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey; audiologists spend four years earning a clinical doctorate, versus a bachelor\'s, associate\'s, or diploma path for RNs.',
 			},
+			{
+				question: 'How stressful is being an audiologist?',
+				answer: "BLS doesn't formally rate occupations for stress. Its description of the schedule leans mild relative to some other clinical fields this site tracks: audiologists work standard healthcare hours for the most part, with some picking up evenings and weekends specifically to fit patients' needs rather than any noted on-call or emergency demand. That points to a clinic-paced role rather than the acute or emergency rhythm of some other health occupations this site covers.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Audiologists (accessed 2026-09-11 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/audiologists.htm' },
@@ -5467,6 +5507,10 @@ export const guides: Guide[] = [
 			{
 				question: 'Is psychiatry a growing field?',
 				answer: "By BLS's count, yes, and quickly: a projected 7% jump in psychiatrist jobs over the 2025-35 decade, a pace only dermatology matches among the medical specialties the agency lists by name, and well past the roughly 3% economy-wide baseline. BLS points to more people seeking help for mental illness and easier entry into treatment as the specific reasons, not the general physician-shortage story it tells for medicine at large.",
+			},
+			{
+				question: 'Is a psychiatrist a stressful job?',
+				answer: "BLS doesn't rate any specialty for stress, and it doesn't break out work-schedule specifics for psychiatrists apart from the broader physician group this page covers. What it does say generally: most doctors work full time, some log more than 40 hours a week, and many work long, irregular shifts that can include overnight hours or being on call. Whether that describes a typical psychiatrist's week specifically isn't something this BLS page answers on its own.",
 			},
 		],
 		sources: [
