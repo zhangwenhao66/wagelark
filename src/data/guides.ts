@@ -4395,35 +4395,35 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does BLS report for the MRI technologist salary?',
-				answer: "BLS reports a median annual MRI technologist salary of $95,480 in May 2025, based on the U.S. Bureau of Labor Statistics Occupational Employment and Wage Statistics survey under SOC code 29-2035. That figure doesn't include a BLS-published hourly equivalent; dividing by a standard 2,080-hour year works out to roughly $45.90 an hour, a calculated figure rather than one BLS reports directly.",
+				answer: "SOC code 29-2035 is what BLS uses to track this role, and it puts the median at $95,480 a year in May 2025, drawn from its OEWS payroll survey. BLS doesn't publish an hourly figure for this role on the same page; spread across 2,080 work hours in a year, that dollar figure comes out to an unofficial estimate of about $45.90 an hour.",
 			},
 			{
 				question: 'Is an MRI technologist salary higher than a radiologic technologist salary?',
-				answer: "Yes. BLS puts the May 2025 median MRI technologist wage at $95,480, versus $80,110 for radiologic technologists and technicians, a gap of about $15,370, even though BLS profiles both occupations on the same Occupational Outlook Handbook page and both typically require only an associate's degree to enter.",
+				answer: "Yes. BLS's May 2025 figures put this role's median at $95,480, versus $80,110 for the related radiography role, a gap of about $15,370, even though the two show up side by side in BLS's handbook entry and both accept the same two-year degree as the ticket in.",
 			},
 			{
 				question: 'Which industry pays MRI technologists the most?',
-				answer: "Among the four industry categories BLS tracks for May 2025, outpatient care centers paid the highest median at $140,390, well above hospitals ($95,920), offices of physicians ($93,880), and medical and diagnostic laboratories ($93,540). BLS's separate work-environment data shows only about 3% of MRI technologists actually work in outpatient care centers, versus 61% in hospitals, so that top-paying setting is a small niche, not the typical one.",
+				answer: "BLS breaks pay for this role into four settings for May 2025, and the top-paying one is outpatient care, at $140,390, well above hospitals ($95,920), physicians' offices ($93,880), and diagnostic labs ($93,540). A different BLS table, on where people actually work rather than what they're paid, puts that top-paying setting's share of the workforce at roughly 3%, against 61% employed in hospitals, so the best-paid setting is a small niche rather than where most people in the role actually work.",
 			},
 			{
 				question: 'Is MRI technologist a growing occupation?',
-				answer: "Yes, and its projected growth outpaces the related radiologic technologist role. BLS's Job Outlook tab breaks the two occupations out separately: MRI technologists are projected to grow from 43,900 jobs in 2025 to 47,300 by 2035, an 8% increase adding 3,400 positions, versus 5% growth for radiologic technologists and technicians over the same period. Both figures sit above the 3% average growth rate BLS projects across all occupations.",
+				answer: "Yes, and its projected growth outpaces the related radiography role. BLS's Job Outlook tab reports each SOC code on its own line: MRI technologist headcount is expected to climb from 43,900 in 2025 to 47,300 in 2035, adding 3,400 jobs for an 8% gain, versus a 5% gain for the broader radiography occupation over the same span. Both figures sit above the 3% average growth rate BLS projects across all occupations.",
 			},
 			{
 				question: 'How do you become an MRI technologist?',
-				answer: "BLS lists an associate's degree as the typical entry-level education. Separately from BLS, the American Registry of Radiologic Technologists (ARRT) administers the field's MR credential through two routes: a primary pathway via an ARRT-approved MRI educational program, or a post-primary pathway that requires already holding an ARRT certification in radiography, nuclear medicine technology, radiation therapy, or sonography, plus 16 hours of structured MRI education, 125 documented MRI procedure repetitions, and a passing exam score.",
+				answer: "A two-year college credential, an associate's, is the entry point BLS lists for the role. Separately from BLS, ARRT, the body that credentials imaging technologists nationwide, issues the field's MR certification through two routes: enrolling in an ARRT-approved program that teaches MRI from the ground up, or, for candidates already ARRT-certified elsewhere in imaging, taking the second-entry route instead. That second route additionally requires a passing exam score plus two logged minimums: a 16-hour block of MRI-focused coursework and 125 hands-on MRI procedures.",
 			},
 			{
 				question: 'How long does it take to become an MRI technologist?',
-				answer: 'There is no single fixed timeline. BLS lists an associate\'s degree as the typical entry-level education for radiologic and MRI technologists, generally about two years of full-time study. Most MRI technologists start out as radiologic technologists first: BLS states MRI technologists typically need less than five years of experience in a related occupation, most often gained working as a radiologic technologist, before qualifying for the ARRT\'s MRI-specific credential through its post-primary pathway.',
+				answer: 'There is no single fixed timeline. BLS lists an associate\'s degree, roughly two years of full-time study, as what both this role and its radiography counterpart typically require to get started. Most people in this field work in radiography first: BLS states MRI technologists typically need less than five years of experience in a related occupation, most often gained as a radiographer, before qualifying for the ARRT\'s MRI-specific credential the second-entry way.',
 			},
 			{
 				question: 'Is becoming an MRI tech hard?',
-				answer: "The credentialing exam is one of the tougher ones ARRT administers. ARRT's 2025 Annual Exam Report puts the overall pass rate for the Magnetic Resonance Imaging exam at 75%, versus 86% for the base Radiography exam, meaning roughly one in four candidates doesn't clear it on a given attempt. That's on top of qualifying to sit for it in the first place, which for most candidates means first earning a radiologic technologist credential and logging enough clinical hours to meet ARRT's post-primary pathway before the MRI-specific exam even comes into play.",
+				answer: "The credentialing exam is one of the tougher ones ARRT administers. ARRT's 2025 Annual Exam Report puts the overall pass rate for the Magnetic Resonance Imaging exam at 75%, versus 86% for the base Radiography exam, meaning roughly one in four candidates doesn't clear it on a given attempt. That's on top of qualifying to sit for it in the first place, which for most candidates means qualifying as a radiographer first and racking up the clinical hours ARRT requires under its second-route rules before the MRI-specific exam even comes into play.",
 			},
 			{
 				question: 'Is MRI tech a stressful job?',
-				answer: "BLS doesn't rate occupations for stress, but its description of the physical side of the job points to real day-to-day demands: radiologic and MRI technologists are often on their feet for long periods and may need to lift or turn patients, including those who are injured or unable to move themselves. Add to that the mental load of running expensive imaging equipment correctly, positioning patients precisely, and managing anxious or claustrophobic patients inside an MRI bore, and the job carries real physical and cognitive demands even though BLS itself doesn't use the word \"stressful.\"",
+				answer: "BLS doesn't rate occupations for stress, but its description of the physical side of the job points to real day-to-day demands: people in this role and its imaging counterpart are often on their feet for long periods and may need to lift or turn patients, including those who are injured or unable to move themselves. Add to that the mental load of running expensive imaging equipment correctly, positioning patients precisely, and managing anxious or claustrophobic patients inside an MRI bore, and the job carries real physical and cognitive demands even though BLS itself doesn't use the word \"stressful.\"",
 			},
 		],
 		sources: [
