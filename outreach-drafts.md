@@ -892,7 +892,7 @@ contact@wagelark.com
 
 **Status: `drafted_blocked_by_ses_migration`**——内容已通过独立复核，随时可发，仅等待Owen完成SES迁移（或明确指示继续走Mailjet）。不重复写入`待Owen处理事项.md`，因为该文档已有覆盖全矩阵14域名的同一条目，本站不需要单独重复记录。
 
-**Status: `drafted_blocked_by_ses_migration`。** 未调用`gmail_send.py send`（本次运行邮件发送硬性暂停，见任务说明）。草稿完整存档于此，供SES迁移完成后下一轮直接发送，或Owen手动发送。
+**Status: SENT (2026-09-16).** SES冻结已于2026-09-15解除（改接ZeptoMail）。本轮重新核实5个死链域名仍NXDOMAIN、目标页与本站落地页均未变化，断链状态未过期，按遗留待办无需重新走独立复核，直接发送：`gmail_send.py send --from wagelark --to asclsnd@gmail.com`，Message ID `1a0aa538cbc64b17`。
 
 ---
 

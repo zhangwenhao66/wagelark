@@ -424,3 +424,42 @@ ACRA/NCC（08-24发出，16天）、fana.org（08-26发出，14天）、Simmons/
 2. 下轮核实顺序：ACRA/NCC（08-24，16天，已严重超期）→ fana.org（08-26，14天）→ Simmons/LIU/Harper/MSU（08-31，即将满10天）。
 3. 本轮新排查的方向（NJSCA心理健康类PDF、millwright/bartender协会基金会介绍页、心理学LibGuide过期表单）均因主题不对应或权威度不足未采用，如实记录不强凑；kbmirt.ky.gov因curl返回403（非确认失效）未采用，如果沙箱网络环境改善可重新核查。
 4. **转化率0/16持续9轮未转化**，尚未达到"发出≥30封仍0到手"的写待办门槛，但已是明显趋势，下轮或下下轮如果仍为0，应考虑在遗留待办里提请Owen关注WageLark这个战术方向本身的有效性，而不是仅仅继续增加发送量。
+
+---
+
+## 2026-09-16（第十次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中WageLark（11-30位曝光498，矩阵内容/资料型站排名第三）
+
+### 第0步：先发送已就绪的SES冻结积压草稿
+
+`独立站/待Owen处理事项.md`确认SES冻结已于2026-09-15解除（18个域名Gmail Send-as已全部改接ZeptoMail，非当初计划的AWS SES）。09-09完成撰写+双重去AI味+独立复核、但因冻结未发的**ASCLS-ND**草稿（asclsnd@gmail.com，五个区域分会死链）本轮重新核实新鲜度：`dns.google`/`cloudflare-dns.com`双解析器复核5个域名（asclsregioni.org/asclsregion2.org/mscls.org/asclsregionviii.org/asclsr9.org）**仍全部NXDOMAIN**，目标页`asclsnd.org/links`原样保留全部5个死链字面，`wagelark.com/clinical-laboratory-technologist-salary/`仍200存活。断链状态未变化，按遗留待办"无需重新走复核"直接发送：`gmail_send.py send --from wagelark --to asclsnd@gmail.com --subject "Five dead regional-chapter links on your Links page"`，**Message ID `1a0aa538cbc64b17`**。
+
+### 第一部分：核实旧pitch
+
+按"下轮核实顺序：ACRA/NCC → fana.org → Simmons/LIU/Harper/MSU"，本轮处理最早的**ACRA + NCC**（均2026-08-24发出，今天已23天，严重超期未验证）。
+
+**ACRA（office@acraonline.org，Message ID `1a033fb318941514`）**：
+- curl `https://uscra.org/index.shtml`：HTTP 404，死链依旧。
+- `dataforseo_query.py backlinks wagelark.com --limit 100`：外链明细未查到acraonline.org/uscra.org。
+- `gmail_send.py list --query "from:acraonline.org OR from:office@acraonline.org"`返回空，从未回复。
+- 判定**`not_replaced`**。发出已23天，远超10-14天跟进窗口（参照09-11本站ACC案例"19天已严重超期不再跟进"的既定先例），跟进价值已随时间衰减到可忽略，**不安排跟进**。
+
+**NCC（ask@ncc.libanswers.com，Message ID `1a033fbbaeb92c5f`）**：
+- curl `https://library.ncc.edu/c.php?g=309111&p=2063096`：HTTP 200，页面`careerzone`字样原样保留（死链未修复），全文无"wagelark"字样。
+- `dataforseo_query.py backlinks wagelark.com --limit 100`：未查到library.ncc.edu/ncc.libanswers.com。
+- `gmail_send.py list --query "from:ncc.libanswers.com OR from:ask@ncc.libanswers.com"`返回空，从未回复。
+- 判定**`not_replaced`**。同样23天超期，**不安排跟进**（与ACRA同批次同日发出，跟进窗口早已一并过期）。
+
+fana.org（08-26，21天）、Simmons/LIU/Harper/MSU（08-31，16天）本轮未轮到，留给下轮，按"最早未验证优先"下一轮先处理fana.org。
+
+### 第二部分：新机会挖掘
+
+本轮时间预算优先用于第0步积压草稿发送+第一部分双条严重超期旧pitch核实，未进行新候选搜索，如实记录未做，非遗漏隐瞒。
+
+### 累计口径
+
+WageLark断链置换战术累计已发送 **17封**（含3封跟进：08-21 UCF、08-28 NALA、09-02 HCC；不含本轮ASCLS-ND，因为它是"首次发送"不是跟进）；已验证 **8条 `not_replaced`**（UCF/CSRT/NALA/ten27services/HCC/ACC/本轮ACRA/本轮NCC）；`verified_live_backlink_confirmed`/`verified_live_backlink_nofollow` 均为 **0条**；转化率 **0/17 = 0%**（ASCLS-ND刚发出，未到验证窗口，不计入分母）。**转化率持续为0已达10轮**，累计发送17封，尚未触及"≥30封仍0到手"的写待办硬门槛，但已是显著趋势，建议后续2-3轮内如仍0转化正式写入`独立站/待Owen处理事项.md`请Owen评估该战术对WageLark这个细分定位的有效性。
+
+### 遗留待办
+
+1. 下轮核实顺序：fana.org（08-26，21天，严重超期）→ Simmons/LIU/Harper/MSU（08-31，16天）。
+2. 转化率0/17持续10轮，接近但未达30封门槛，下2-3轮继续0转化应正式提请Owen。
