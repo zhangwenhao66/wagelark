@@ -2106,3 +2106,17 @@
 
 ## 2026-09-16 site-search-opportunity-refresh — title_test evaluate（wagelark-0828-bls-median，已被09-03手动回滚覆盖，无新动作）
 `title_test.py evaluate --label wagelark-0828-bls-median --days 14` 判定全部7页ROLLBACK（排名/曝光对照组扣除后仍显著更差）。核查`git log`发现这7页标题早在commit `384ebb5`（2026-09-03 "roll back 7 titles to pre-08-28 strings after impression collapse on rewritten pages"）已经手动回滚回0828改动前的原始模板标题，当前`src/data/guides.ts`逐字核对7页title均已是回滚后状态，本次无需重复操作。`wagelark-0903-rollback`标签正在跟踪09-03这次回滚后的效果（14天判定要到2026-09-17才到期，本次运行尚在wait期，留给下次运行评估）。
+
+## 2026-09-16 trafficsite-content-quality-audit（mri-tech-salary，首次审计，十四维度）
+
+**选题**：`独立站/PAA缺口清单_20260913.md`命中mri-tech-salary（28天曝光545，本站PAA gap候选最高值），此前从未被本任务审计。
+
+**事实核实**：curl直连`bls.gov/ooh/healthcare/radiologic-technologists.htm`核对10项工资/就业数字（$95,480中位数/$68,890/$127,670十分位/$80,110放射技师中位数/四行业中位数$140,390/$95,920/$93,880/$93,540/43,900→47,300就业增长），全部逐字精确匹配官方页面。curl下载ARRT《2025 Annual Exam Report》PDF用pypdf解析，核对Exam Performance表格确认MRI Pass Rate=75%、Radiography Pass Rate=86%，与文中FAQ引用完全一致。全部具体数字无一处编造。
+
+**机械散文检查（第14项）**：首次运行本文即触发L-0819-9——全部8条FAQ均与正文有≥20字符逐字重合。逐条改写FAQ措辞（约7轮迭代，多次与BLS/ARRT固定专有名词碰撞），未改动任何数字/年份/机构名，最终四项检查全部退出码0。
+
+**其他维度**：内链健康度（正文markdown入链5条，非孤儿页）、外部引用链接（BLS页面、ARRT两份文件均curl 200）、EEAT（数据全部来自政府/行业权威一手来源）、合规敏感度（YMYL-adjacent限速规则遵守，无个人财务建议表述）抽查均未发现问题。未逐项跑seo-audit/ai-seo/google-spam-compliance独立技能复核，基于人工抽查判断本次运行内无待修复项。
+
+**验证与部署**：`npm run build`85页0 error。commit `e138a95`（工作区另有并发任务未提交的`imageDims.ts`改动，未纳入本次范围）。`git push`成功（c3ffefa..e138a95，fast-forward）。`seo_drift.py`：1条WARNING级schema变化（FAQ改写导致，符合预期），无CRITICAL。绕缓存curl轮询4次（约60秒）确认线上生效。IndexNow提交（仅本文）Bing 200/Yandex 200。
+
+**跳过项**：本次未逐条核对全部sources外链的HTTP状态（仅核对BLS主页面与ARRT PDF两个最关键来源），留作后续运行补充项。
