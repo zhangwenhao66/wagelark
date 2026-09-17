@@ -1330,7 +1330,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Pay by industry and practice setting',
 				body: [
-					'BLS breaks out May 2025 medical assistant wages across four industry categories. Outpatient care centers paid the highest median at $48,560. Hospitals (state, local, and private) paid $46,910. Offices of physicians, the setting where BLS notes this occupation's largest employment share works, paid $45,520, close to the occupation-wide median. Offices of other health practitioners, such as chiropractors or optometrists, paid the least of the four tracked categories, at $38,400.',
+					"BLS breaks out May 2025 medical assistant wages across four industry categories. Outpatient care centers paid the highest median at $48,560. Hospitals (state, local, and private) paid $46,910. Offices of physicians, the setting where BLS notes this occupation's largest employment share works, paid $45,520, close to the occupation-wide median. Offices of other health practitioners, such as chiropractors or optometrists, paid the least of the four tracked categories, at $38,400.",
 					'The roughly $10,160 gap between the highest- and lowest-paying tracked industries means the specific setting a medical assistant works in moves the needle more than it does for some other allied health roles on this site. Outpatient care centers, which include facilities like urgent care clinics and ambulatory surgical centers, paid noticeably more than the smaller physician or specialist offices where a large share of the occupation is actually employed.',
 				],
 			},
