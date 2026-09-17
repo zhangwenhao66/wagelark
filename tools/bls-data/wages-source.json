@@ -569,41 +569,41 @@
     },
     "29-1051": {
       "title": "Pharmacists",
-      "medianAnnual": 137480,
-      "medianHourly": 66.1,
+      "medianAnnual": 140910,
+      "medianHourly": 67.75,
       "percentiles": {
-        "p10": 86930,
-        "p90": 172040
+        "p10": 99290,
+        "p90": 174230
       },
-      "employment": 335100,
-      "employmentYear": "2024",
+      "employment": 325200,
+      "employmentYear": "2025",
       "jobOutlookPct": 5,
       "jobOutlookLabel": "Faster than average",
-      "employmentChange": 15400,
-      "projectionPeriod": "2024-34",
+      "employmentChange": 17100,
+      "projectionPeriod": "2025-35",
       "entryEducation": "Doctoral or professional degree (PharmD)",
       "industryWages": [
         {
-          "industry": "Ambulatory healthcare services",
-          "annualWage": 152980
+          "industry": "Hospitals (state, local, private)",
+          "annualWage": 157290
         },
         {
-          "industry": "Hospitals (state, local, private)",
-          "annualWage": 149240
+          "industry": "Ambulatory healthcare services",
+          "annualWage": 153920
         },
         {
           "industry": "General merchandise retailers",
-          "annualWage": 145210
+          "annualWage": 151370
         },
         {
           "industry": "Pharmacies and drug retailers",
-          "annualWage": 131640
+          "annualWage": 132940
         }
       ],
-      "dataYear": "May 2024",
+      "dataYear": "May 2025",
       "sourceLabel": "BLS Occupational Outlook Handbook: Pharmacists",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/pharmacists.htm",
-      "publishedDate": "2025-08-28"
+      "publishedDate": "2026-09-17"
     },
     "29-1123": {
       "title": "Physical Therapists",

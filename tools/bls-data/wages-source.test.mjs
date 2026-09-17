@@ -121,9 +121,9 @@ test('spot check: Actuaries (15-2011) matches BLS OOH page', () => {
 
 test('spot check: Pharmacists (29-1051) matches BLS OOH page', () => {
 	const occ = occupations['29-1051'];
-	assert.equal(occ.medianAnnual, 137480);
-	assert.equal(occ.medianHourly, 66.10);
-	assert.equal(occ.employment, 335100);
+	assert.equal(occ.medianAnnual, 140910);
+	assert.equal(occ.medianHourly, 67.75);
+	assert.equal(occ.employment, 325200);
 });
 
 test('spot check: Paralegals and Legal Assistants (23-2011) matches BLS OOH page', () => {

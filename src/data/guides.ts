@@ -206,24 +206,24 @@ export const guides: Guide[] = [
 		slug: 'pharmacist-salary',
 		category: 'Salary Guide',
 		title: 'Pharmacist Salary: BLS Wage Data by Percentile (2026)',
-		description: 'BLS reports a $137,480 median pharmacist salary. See the full wage range by percentile and by industry, from retail pharmacy to hospitals.',
+		description: 'BLS reports a $140,910 median pharmacist salary. See the full wage range by percentile and by industry, from retail pharmacy to hospitals.',
 		published: '2026-08-03',
-		updated: '2026-08-19',
+		updated: '2026-09-17',
 		socCode: '29-1051',
-		coreSummary: 'The median annual wage for pharmacists was $137,480 in May 2024, according to the Bureau of Labor Statistics. The bottom 10% earned less than $86,930 and the top 10% earned more than $172,040. Pay varies meaningfully by setting: ambulatory healthcare services paid the highest industry median at $152,980, well above the $131,640 median at pharmacies and drug retailers, the setting where most pharmacists actually work. Reaching that pay typically requires six to eight years of school: at least two years of prerequisite coursework followed by a four-year Doctor of Pharmacy program.',
+		coreSummary: 'The median annual wage for pharmacists was $140,910 in May 2025, according to the Bureau of Labor Statistics. The bottom 10% earned less than $99,290 and the top 10% earned more than $174,230. Pay varies meaningfully by setting: hospitals paid the highest industry median at $157,290, well above the $132,940 median at pharmacies and drug retailers, the setting where most pharmacists actually work. Reaching that pay typically requires six to eight years of school: at least two years of prerequisite coursework followed by a four-year Doctor of Pharmacy program.',
 		sections: [
 			{
 				heading: 'The national numbers',
 				body: [
-					'BLS puts the May 2024 median pharmacist salary at $137,480 a year, or $66.10 an hour. Since pharmacists require a Doctor of Pharmacy (PharmD) degree (a professional doctorate that typically takes four years after at least two years of prerequisite coursework), this is one of the higher-paying occupations that does not require a residency or additional post-graduate licensing exam beyond the North American Pharmacist Licensure Examination (NAPLEX) and a jurisprudence exam. By contrast, this site\'s [clinical laboratory technologist salary guide](/clinical-laboratory-technologist-salary/) covers a healthcare role that typically requires only a bachelor\'s degree, with a considerably lower $62,930 median.',
-					'The percentile spread is narrower than in occupations like actuarial science: the bottom 10% of pharmacists earned less than $86,930, and the top 10% earned more than $172,040 in May 2024. A roughly $85,000 gap between deciles in a single-credential profession suggests the spread is driven mainly by setting and geography rather than large differences in required qualifications. A comparably tight spread shows up in [medical dosimetrist pay](/medical-dosimetrist-salary/), a radiation-oncology specialty with a $147,470 median and a similar roughly $73,780 gap between its own 10th and 90th percentiles.',
+					'BLS puts the May 2025 median pharmacist salary at $140,910 a year, or $67.75 an hour. Since pharmacists require a Doctor of Pharmacy (PharmD) degree (a professional doctorate that typically takes four years after at least two years of prerequisite coursework), this is one of the higher-paying occupations that does not require a residency or additional post-graduate licensing exam beyond the North American Pharmacist Licensure Examination (NAPLEX) and a jurisprudence exam. By contrast, this site\'s [clinical laboratory technologist salary guide](/clinical-laboratory-technologist-salary/) covers a healthcare role that typically requires only a bachelor\'s degree, with a considerably lower $62,930 median.',
+					'The percentile spread is narrower than in occupations like actuarial science: the bottom 10% of pharmacists earned less than $99,290, and the top 10% earned more than $174,230 in May 2025. A roughly $75,000 gap between deciles in a single-credential profession suggests the spread is driven mainly by setting and geography rather than large differences in required qualifications. A comparably tight spread shows up in [medical dosimetrist pay](/medical-dosimetrist-salary/), a radiation-oncology specialty with a $147,470 median and a similar roughly $73,780 gap between its own 10th and 90th percentiles.',
 				],
 			},
 			{
 				heading: 'Retail pharmacy vs. clinical and hospital settings',
 				body: [
-					'The industry breakdown clarifies where the money actually is. Ambulatory healthcare services (a category that includes outpatient clinics and specialty infusion centers) paid the highest median in May 2024 at $152,980. Hospitals paid close behind at $149,240. General merchandise retailers, meaning big-box stores with in-house pharmacies, paid $145,210.',
-					'Pharmacies and drug retailers, the traditional chain and independent retail pharmacy setting most people picture when they hear "pharmacist," paid a median of $131,640, noticeably below the other four categories despite employing a large share of all pharmacists. For a considerably lower-paid licensed profession outside clinical pharmacy entirely, this site\'s [funeral director salary guide](/funeral-director-salary/) reports a $55,010 median for morticians, undertakers, and funeral arrangers in May 2025.',
+					'The industry breakdown clarifies where the money actually is. Hospitals paid the highest median in May 2025 at $157,290. Ambulatory healthcare services, a category that includes outpatient clinics and specialty infusion centers, paid close behind at $153,920. General merchandise retailers, meaning big-box stores with in-house pharmacies, paid $151,370.',
+					'Pharmacies and drug retailers, the traditional chain and independent retail pharmacy setting most people picture when they hear "pharmacist," paid a median of $132,940, noticeably below the other three categories despite employing a large share of all pharmacists. For a considerably lower-paid licensed profession outside clinical pharmacy entirely, this site\'s [funeral director salary guide](/funeral-director-salary/) reports a $55,010 median for morticians, undertakers, and funeral arrangers in May 2025.',
 				],
 			},
 			{
@@ -236,42 +236,42 @@ export const guides: Guide[] = [
 			{
 				heading: 'Job outlook',
 				body: [
-					'BLS projects 5% employment growth for pharmacists from 2024 to 2034, classified as faster than average, adding about 15,400 jobs over the decade. That is a more moderate growth rate than several other healthcare occupations on this site, in part because retail pharmacy chains have been consolidating locations in some regions even as demand for clinical pharmacist roles in hospitals and specialty care has grown. A smaller but faster-growing master\'s-level specialty is covered in this site\'s [genetic counselor salary guide](/genetic-counselor-salary/), which reports a $100,040 median and 10% projected growth through 2035.',
+					'BLS projects 5% employment growth for pharmacists from 2025 to 2035, classified as faster than average, adding about 17,100 jobs over the decade. That is a more moderate growth rate than several other healthcare occupations on this site, in part because retail pharmacy chains have been consolidating locations in some regions even as demand for clinical pharmacist roles in hospitals and specialty care has grown. A smaller but faster-growing master\'s-level specialty is covered in this site\'s [genetic counselor salary guide](/genetic-counselor-salary/), which reports a $100,040 median and 10% projected growth through 2035.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What is the median pharmacist salary?',
-				answer: 'The Bureau of Labor Statistics reports a median annual pharmacist salary of $137,480 in May 2024 ($66.10 per hour).',
+				answer: "BLS's May 2025 figure for pharmacists: a $140,910 median yearly salary, equal to about $67.75 an hour worked.",
 			},
 			{
 				question: 'How long does it take to become a pharmacist?',
-				answer: 'Most pharmacists spend six to eight years in school: at least two years of prerequisite coursework, or a full four-year bachelor\'s degree at schools that require one, followed by a four-year Doctor of Pharmacy program, per BLS and the American Association of Colleges of Pharmacy. A smaller number of schools offer six-year programs that admit students straight out of high school. After graduating, candidates still need to pass licensing exams and log state-required intern hours, which typically adds a few months, and those heading into clinical specialties often add a one- to two-year residency.',
+				answer: "A PharmD is typically a six-to-eight-year commitment: about two years of required prerequisite classes (or four years toward a standalone bachelor's degree first, at schools that prefer one), then four more years to complete the doctoral program itself, per BLS and AACP. A minority of schools instead offer combined six-year tracks that start right after high school. After graduation, licensing exams and state intern-hour requirements typically add a few months, and pharmacists pursuing clinical specialties often complete an additional residency lasting one to two years.",
 			},
 			{
 				question: 'Do hospital pharmacists make more than retail pharmacists?',
-				answer: 'BLS industry data for May 2024 shows hospitals paid a median of $149,240, compared with $131,640 at pharmacies and drug retailers, the typical retail chain setting. Ambulatory healthcare services paid the highest of the tracked categories, at $152,980.',
+				answer: "Yes. BLS's May 2025 industry data puts hospitals at $157,290 in median pay, versus $132,940 in typical community and chain retail pharmacies. That makes hospitals the highest-paying of the tracked settings, ahead of ambulatory care ($153,920) and big-box stores that run their own pharmacy counters ($151,370).",
 			},
 			{
 				question: 'What is the pay range for pharmacists?',
-				answer: 'BLS reports the bottom 10% of pharmacists earned less than $86,930 in May 2024, while the top 10% earned more than $172,040.',
+				answer: 'Pharmacist pay spans a wide band: per BLS, the lowest-paid 10% earned under $99,290 in May 2025, while pharmacists in the top decile earned upward of $174,230.',
 			},
 			{
 				question: 'Is pharmacy a growing field?',
-				answer: 'BLS projects 5% employment growth for pharmacists from 2024 to 2034, faster than the average for all occupations, adding roughly 15,400 jobs over the decade.',
+				answer: 'Yes. BLS expects the pharmacist workforce to expand at an above-average clip: a projected 5% growth rate and about 17,100 new positions from 2025 to 2035.',
 			},
 			{
 				question: 'Do pharmacists make a lot of money?',
-				answer: 'Relative to the broader labor market, yes. BLS puts the median pharmacist salary at $137,480 for May 2024, compared with a $49,500 median across all U.S. occupations that same year, meaning a typical pharmacist earned roughly 2.8 times the typical U.S. worker. That comparison describes national medians, not what any individual pharmacist earns after accounting for setting, region, or hours.',
+				answer: "Relative to the broader labor market, yes. Per BLS, pharmacist pay sat at $140,910 for May 2025 versus a $49,500 median across all U.S. occupations the prior year (the most recent economy-wide figure verified for this page), or roughly 2.8 times what a typical worker earned. That's a national-median comparison, not a prediction of what any individual pharmacist takes home after setting, region, or hours are factored in.",
 			},
 			{
 				question: 'Is a pharmacist basically a doctor?',
-				answer: 'Not in the medical sense. Pharmacists hold a Doctor of Pharmacy (PharmD), a professional doctoral degree, per BLS and the American Association of Colleges of Pharmacy (AACP), both already cited on this page. A PharmD is a different credential from the MD or DO a physician holds. Pharmacists are licensed by state pharmacy boards to dispense medication, check for drug interactions, and counsel patients on proper use, rather than to diagnose conditions or perform medical procedures.',
+				answer: "Not in the medical sense. Pharmacists earn a PharmD, the field's terminal clinical degree, a different credential from the MD or DO held by physicians, per BLS and AACP data cited above. State pharmacy boards license pharmacists to dispense medication, flag drug interactions, and counsel patients on proper use, not to diagnose conditions or perform medical procedures.",
 			},
 			{
 				question: 'Is becoming a pharmacist hard?',
-				answer: "The licensing exam itself is passable for most graduates: the National Association of Boards of Pharmacy reports an 86.8% first-time national pass rate on the NAPLEX for 2025 graduates. The harder part is the six to eight years of school leading up to it. AACP's 2024 National Pharmacist Workforce Study also found that 73% of full-time pharmacists rated their workload as \"high\" or \"excessively high,\" up from 66% in 2014, which points to the job itself, not just the training, as the more demanding stretch.",
+				answer: "The licensing exam itself is passable for most graduates: the National Association of Boards of Pharmacy reports an 86.8% first-time national pass rate on the NAPLEX for 2025 graduates. The tougher part is the years of coursework and the PharmD program leading up to it. AACP's 2024 National Pharmacist Workforce Study also found that 73% of full-time pharmacists rated their workload as \"high\" or \"excessively high,\" up from 66% in 2014, pointing to the job itself, not just the training, as the more demanding stretch.",
 			},
 			{
 				question: 'Is pharmacist a stressful job?',
@@ -279,13 +279,13 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Pharmacists (accessed 2026-08-19, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/pharmacists.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Pharmacists (accessed 2026-09-17, data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/pharmacists.htm' },
 			{ label: 'AACP: Pharm.D. Program Structures (accessed 2026-08-19)', url: 'https://www.aacp.org/resource/pharmd-program-structures' },
 			{ label: 'National Association of Boards of Pharmacy: NAPLEX Passing Rates for 2023-2025 Graduates', url: 'https://nabp.pharmacy/wp-content/uploads/NAPLEX-Pass-Rates.pdf' },
 			{ label: 'AACP: 2024 National Pharmacist Workforce Study, Executive Summary', url: 'https://www.aacp.org/sites/default/files/2025-06/2024-npws-executive-summary-5.27.25.pdf' },
 		],
 		image: '/images/pharmacist-salary-chart.svg',
-		imageAlt: 'Bar chart showing pharmacist annual wage by percentile: 10th percentile $86,930, median $137,480, 90th percentile $172,040, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing pharmacist annual wage by percentile: 10th percentile $99,290, median $140,910, 90th percentile $174,230, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'physical-therapist-salary',
