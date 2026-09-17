@@ -919,3 +919,35 @@ WageLark
 **Independent review agent caught a real problem**: the email promotes the downloadable CSV as a source for Apollo Technical to "cross-check your own numbers," but the live CSV (`public/data/highest-paying-jobs-without-a-degree.csv`) was still showing May 2024 figures ($144,580 for Air Traffic Controllers) while the page's own prose had already been refreshed to May 2025 ($148,080) by an unrelated content-freshness commit — the CSV was simply never regenerated when that happened. Fixed by regenerating all 29 CSV rows from the current `tools/bls-data/wages-source.json` (same occupation set and page URLs, refreshed wage/percentile/year fields, re-sorted by updated median). `npm test` (76/76) and `npm run build` passed; committed (`5c2d75b`) and pushed; deployed and verified live via cache-busted curl (CSV row 1 now reads `148080,...,May 2025`). The email text itself needed no change since it already quoted the current, correct figures — only the linked file was stale.
 
 **Status: ⛔ NOT SENT this run — blocked by the SES migration freeze** (see `独立站/待Owen处理事项.md` "SES迁移期间..." and `独立站/邮件发信基础设施迁移_AWS_SES_20260907.md`). As of this run, the 14 matrix domains' Gmail "Send mail as" still routes through Mailjet, which Mailjet has told Owen it no longer permits for this use. Sending now risks the same silent-failure/account-risk pattern already seen on `--from alpha`. Content-wise this pitch is now clean (independent review verdict would be CAN SEND once the stale-CSV issue above is fixed — not re-run since sending is withheld regardless). Marked `drafted_blocked_by_ses_migration`; send once Owen completes the SES cutover (see the todo doc) and a task re-verifies with a fresh independent review pass (the CSV fix should be re-confirmed live at send time, not just at draft time).
+
+---
+
+## Pitch — Daily Voice (info@dailyvoice.com) — asset-distribution-outreach 2026-09-17
+
+**Status: 独立复核agent发现原始草稿数字过期（见下方订正说明），订正后判定"可以发送"。已发送 2026-09-17，`gmail_send.py send --from wagelark`，Message ID `1a0af5febeab3865`，跟进日期 2026-09-29。**
+
+Target article: https://dailyvoice.com/article/us-news-releases-2026-best-jobs-rankings/ (DailyVoice's coverage of U.S. News's 2026 Best Jobs rankings release). Found via same-type-asset backlink reverse lookup (`linkable-asset-backlog.md` "[同类反查 2026-09-13]" entry): dailyvoice.com links to careers.usnews.com/best-jobs/rankings, anchor "2026 rankings".
+
+Asset: https://wagelark.com/highest-paying-jobs-without-a-degree/ (BLS-sourced ranking, tagged by degree requirement, published 2026-08-29, refreshed since to May-2025 BLS figures).
+
+Subject: A no-degree angle on the US News Best Jobs list
+
+```
+Hi,
+
+Saw the piece on U.S. News's 2026 Best Jobs rankings release. A chunk of your readers probably care most about the jobs on that list that don't need a four-year degree, and that's not really the cut U.S. News gives.
+
+We ran BLS wage data for 48 careers and ranked the ones that skip the bachelor's requirement by median pay (air traffic controllers top it at $148,080): https://wagelark.com/highest-paying-jobs-without-a-degree/. CSV and a citation block are on the page if it's worth referencing.
+
+No follow-up needed unless you have questions about the data.
+
+Owen
+wagelark.com
+```
+
+**Verification notes**: dailyvoice.com blocks curl/bot UAs with 403 (Cloudflare), so live-page confirmation used DataForSEO backlink data instead (DR 413 dofollow, first seen 2026-08-13 — an established month-old link, not a today artifact) plus WebSearch/r.jina.ai to find contact address (`info@dailyvoice.com`, labeled "News Tips, story idea or announcement" on their contact page — general editorial, not single-purpose). Asset URL curl-verified 200.
+
+**⚠️ Correction (2026-09-17, caught by independent review agent, not by pre-send drafting)**: original draft said "47 careers... $144,580" based on the 2026-08-29 publish-log snapshot in `linkable-asset-backlog.md`. Independent review actually curled the live page and found it had since been refreshed (same page-freshness update noted in the 2026-09-12 Apollo Technical pitch above) to **48 occupations, air traffic controllers at $148,080** — confirmed directly against `wagelark.com/highest-paying-jobs-without-a-degree/?cb=...` (both figures appear repeatedly on the page, not a single occurrence). Draft corrected to 48/$148,080 before send. Lesson: a backlog file's "as published" figures go stale once a page gets a freshness refresh; always re-curl the live asset page right before drafting, not just cite what the backlog says.
+
+Dedup: `资产分发外联台账.json` has no prior entry for dailyvoice.com; grepped matrix outreach logs, no match. humanizer + avoid-ai-writing both applied (re-applied to the corrected numbers; no wording changed besides the two figures).
+

@@ -24,6 +24,8 @@
 **[已联系 2026-09-16]** asset-distribution-outreach 已联系 michaelthompson-phd.com（michaelthompson.phd@gmail.com），见 `独立站/资产分发外联台账.json`
 | dailyvoice.com | 1 | blog_article（本地新闻媒体） | 33.5万 | 20.2条/域名，正常 | https://careers.usnews.com/best-jobs/rankings（锚文本"2026 rankings"） |
 
+**[已联系 2026-09-17]** asset-distribution-outreach 已联系 dailyvoice.com（info@dailyvoice.com，具体文章为 https://dailyvoice.com/article/us-news-releases-2026-best-jobs-rankings/）——邮件正文里页面数字已按当前值订正为48个职业/$148,080（旧草稿沿用了本条目2026-08-29的发布快照47/$144,580，独立复核agent实测发现页面已刷新），见 `独立站/资产分发外联台账.json`。featured.com本轮跳过：来源页是careers.usnews.com首页的通用聚合链接（"publication-source"目录条目），不是围绕免学位/高薪职业话题的编辑内容，缺乏可核实的具体切入点。
+
 未筛掉候选（其余多为indeed自己的国际子域名/招聘SaaS/隐私政策页，本身就不算真正第三方，未列入门槛检查名单）。
 
 - **类别**：原创数据研究
