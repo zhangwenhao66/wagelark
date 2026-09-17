@@ -1324,20 +1324,20 @@ export const guides: Guide[] = [
 				heading: 'What medical assistants actually earn, by percentile',
 				body: [
 					'BLS tracks medical assistant pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly instead of relying on self-reported figures. The most recent published data, from May 2025, put median annual pay at $45,690, or $21.97 an hour, for a role that is nearly always paid hourly, not salaried.',
-					'The bottom 10% of medical assistants earned less than $36,050 in May 2025, while the top 10% earned more than $59,310, a spread of about $23,260. That is a somewhat narrower dollar range than this site\'s dental assistant salary guide reports for a comparably credentialed role ($36,190 to $61,780, a roughly $25,590 spread), though the two spreads are close enough, within a few thousand dollars of each other, that neither occupation stands out as having a meaningfully wider pay ceiling than the other.',
+					'Workers at the bottom 10% of this occupation earned less than $36,050 in May 2025, while the top 10% earned more than $59,310, a spread of about $23,260. That is a somewhat narrower dollar range than this site\'s dental assistant salary guide reports for a comparably credentialed role ($36,190 to $61,780, a roughly $25,590 spread), though the two spreads are close enough, within a few thousand dollars of each other, that neither occupation stands out as having a meaningfully wider pay ceiling than the other.',
 				],
 			},
 			{
 				heading: 'Pay by industry and practice setting',
 				body: [
-					'BLS breaks out May 2025 medical assistant wages across four industry categories. Outpatient care centers paid the highest median at $48,560. Hospitals (state, local, and private) paid $46,910. Offices of physicians, the setting where BLS notes the largest share of medical assistants work, paid $45,520, close to the occupation-wide median. Offices of other health practitioners, such as chiropractors or optometrists, paid the least of the four tracked categories, at $38,400.',
+					'BLS breaks out May 2025 medical assistant wages across four industry categories. Outpatient care centers paid the highest median at $48,560. Hospitals (state, local, and private) paid $46,910. Offices of physicians, the setting where BLS notes this occupation's largest employment share works, paid $45,520, close to the occupation-wide median. Offices of other health practitioners, such as chiropractors or optometrists, paid the least of the four tracked categories, at $38,400.',
 					'The roughly $10,160 gap between the highest- and lowest-paying tracked industries means the specific setting a medical assistant works in moves the needle more than it does for some other allied health roles on this site. Outpatient care centers, which include facilities like urgent care clinics and ambulatory surgical centers, paid noticeably more than the smaller physician or specialist offices where a large share of the occupation is actually employed.',
 				],
 			},
 			{
 				heading: 'Job outlook: one of the fastest-growing healthcare support roles',
 				body: [
-					'BLS projects employment of medical assistants to grow 13% from 2025 to 2035, from 833,900 to roughly 941,500 positions, which the agency classifies as much faster than the average for all occupations. That is a net increase of 107,600 jobs over the decade. Separately, BLS projects about 109,700 average annual openings once the decade is averaged out, since most openings come from replacing assistants who transfer to other occupations or exit the labor force rather than from newly created positions alone.',
+					'BLS projects this occupation to grow 13% from 2025 to 2035, from 833,900 to roughly 941,500 positions, a pace the agency classifies as much faster than average. That is a net increase of 107,600 jobs over the decade. Separately, BLS projects about 109,700 average annual openings once the decade is averaged out, since most openings come from replacing assistants who transfer to other occupations or exit the labor force rather than from newly created positions alone.',
 					'BLS attributes the growth to the expanding role of outpatient care as more medical services move out of hospitals and into physicians\' offices, outpatient care centers, and other ambulatory settings, along with continued demand from an aging population that requires more routine medical care. Because medical assistants handle both administrative and clinical tasks in these growing outpatient settings, BLS expects demand for the role to track that broader shift in where care is delivered.',
 				],
 			},
@@ -1352,35 +1352,40 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the median medical assistant salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for medical assistants was $45,690 in May 2025, equivalent to $21.97 an hour. The bottom 10% earned less than $36,050, and the top 10% earned more than $59,310.',
+				answer: "BLS put this job's typical pay at $45,690 for the year in its May 2025 release, close to $22 hourly. The lowest-paid slice of the field made under $36,050; the best-paid slice cleared $59,310.",
 			},
 			{
 				question: 'Do medical assistants need a degree?',
-				answer: 'No degree is typically required. BLS lists the typical entry-level education as a postsecondary nondegree award, such as a certificate program, and notes that some medical assistants enter the occupation with only a high school diploma and learn through on-the-job training. Most states do not require a license to work as a medical assistant, though certain expanded duties may require state-specific certification.',
+				answer: "No degree is typically required. BLS lists the typical entry-level education as a nondegree postsecondary award, the kind earned in a short certificate track, and notes that some people enter this line of work with nothing more than a high school background, learning the role hands-on once hired. Most states don't require a license for this line of work, though certain expanded duties may require state-specific certification.",
 			},
 			{
 				question: 'Which industry pays medical assistants the most?',
-				answer: 'Among the industry categories BLS tracks for May 2025, outpatient care centers paid the highest median at $48,560, followed by hospitals (state, local, and private) at $46,910 and offices of physicians at $45,520. Offices of other health practitioners paid the least of the four tracked categories, at $38,400.',
+				answer: "Of the four settings BLS breaks out for May 2025, the outpatient-care setting came out on top at $48,560, followed by hospitals next at $46,910 and physicians' offices at $45,520. Practices run by other kinds of clinicians trailed the group, just $38,400.",
 			},
 			{
 				question: 'Is a medical assistant the same as a physician assistant?',
-				answer: 'No, despite the similar name, the two are very different roles. A medical assistant typically needs a postsecondary certificate and earns a May 2025 median of $45,690. A physician assistant must complete a master\'s-level program, pass a national exam, and hold a state license to diagnose and prescribe, and earns a May 2024 median of $133,260, about three times as much.',
+				answer: "No, despite the similar name, these two jobs barely overlap beyond the title. Someone in this occupation typically needs only a short postsecondary credential, with pay landing at $45,690 for that same year. The other role, in contrast, completes a master's-level program, sits a national test, and gets licensed by their state before they can diagnose and prescribe, earning $133,260 for the same May 2024 period, roughly three times as much.",
 			},
 			{
 				question: 'Is medical assisting a growing occupation?',
-				answer: 'Yes. BLS projects 13% employment growth for medical assistants from 2025 to 2035, much faster than the average for all occupations, adding a net 107,600 jobs. BLS separately projects about 109,700 average annual job openings once the decade is averaged out, with most coming from workers transferring out of the occupation or leaving the labor force rather than from newly created positions.',
+				answer: "Yes, and briskly. BLS puts the 2025-to-2035 growth rate for this field at 13%, a pace it rates well ahead of the broader U.S. job market, adding a net 107,600 jobs. BLS separately projects some 109,700 job openings a year, on average, over that span, with most of them coming from people moving to a different line of work or exiting the workforce altogether, not from brand-new roles.",
 			},
 			{
 				question: 'Is a medical assistant basically a nurse?',
-				answer: 'No. A medical assistant is a distinct, unlicensed role from a nurse. Per BLS, medical assistants typically need only a postsecondary nondegree award or on-the-job training and work under the supervision of physicians or other health practitioners, handling administrative tasks and basic clinical duties such as taking vital signs. Registered nurses, by contrast, must hold a nursing license following a bachelor\'s, associate\'s, or diploma-level nursing education, and have a broader scope of practice.',
+				answer: "No. This is a distinct, unlicensed role, quite different from nursing. Per BLS, people in this occupation typically need only a nondegree postsecondary award, picking up the rest of the skill set on the job, and they work under the supervision of physicians or other kinds of clinicians, handling administrative tasks and basic clinical duties such as taking vital signs. Registered nurses, by contrast, must hold a nursing license following a bachelor's, associate's, or diploma-level nursing education, and have a broader scope of practice.",
 			},
 			{
 				question: 'Who gets paid more, medical assistant or CNA?',
-				answer: 'Medical assistants earned slightly more, per BLS\'s May 2025 data: a median of $45,690, compared with $42,260 for nursing assistants, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. Both figures come from the same BLS survey year, though the two roles have different typical training paths: a postsecondary nondegree award or on-the-job training for medical assistants versus a federal 75-hour minimum training program for CNAs.',
+				answer: "Slightly more went to this field, per BLS's May 2025 data: a median of $45,690, compared with $42,260 for nursing assistants, per this site's [how to become a CNA](/how-to-become-a-cna/) guide. Both figures come from the same BLS survey year, though the two roles have different typical training paths: a short nondegree credential or hands-on learning here versus a federal 75-hour minimum training program for CNAs.",
+			},
+			{
+				question: 'Is medical assistant hard to pass?',
+				answer: "If that's asking about the CMA (Certified Medical Assistant) credentialing exam, not every candidate clears it on the first attempt. Per the American Association of Medical Assistants, which administers the credential, 4,171 CMA exams were given between July 2024 and April 2025, and of the 2,680 that were first-time attempts, 69% passed. That's a voluntary certification, not a requirement for this job in most states, where the typical entry path, per BLS, is a short nondegree credential or plain hands-on learning, with no license needed either way.",
 			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Medical Assistants (accessed 2026-08-28 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/medical-assistants.htm' },
+			{ label: 'American Association of Medical Assistants (AAMA): Certification statistics, CMA (AAMA) exam pass rate (accessed 2026-09-17, covers exams administered July 2024 through April 2025)', url: 'https://aama-ntl.org/certification' },
 		],
 		image: '/images/medical-assistant-salary-chart.svg',
 		imageAlt: 'Bar chart showing medical assistant annual wage by percentile: 10th percentile $36,050, median $45,690, 90th percentile $59,310, based on BLS May 2025 data.',
@@ -1880,8 +1885,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'Industry pay differences, and how drivers are actually paid',
 				body: [
-					'BLS breaks out May 2024 wages by industry for truck drivers into four categories. Truck transportation, the industry BLS says employs 40% of drivers (the largest single share by far), paid the highest median at $59,570. Wholesale trade followed at $57,260, then manufacturing at $54,860 and construction at $54,170. BLS does not explain the ranking beyond publishing the figures, so readers should treat it as descriptive rather than a guarantee that switching industries alone would raise a given driver\'s pay, since route type, employer size, and region were not isolated in this survey.',
-					"Unlike most occupations on this site, BLS describes truck driver pay as structured around miles driven rather than a flat hourly or salaried rate. Drivers are typically paid by the mile, plus bonuses, and the per-mile rate varies by employer and can depend on the type of cargo hauled and the driver's experience, according to BLS. Some long-distance drivers, particularly owner-operators who buy or lease their own trucks and run an independent business, are instead paid a share of the revenue from a shipment. BLS does not publish a separate wage line for owner-operators, so the percentile figures above describe the broader employed workforce rather than self-employed drivers running their own operation.",
+					'BLS breaks out May 2024 wages by industry for truck drivers into four categories. Truck transportation, the industry BLS says employs 40% of drivers (the largest single share by far), paid the highest median at $59,570. Wholesale trade followed at $57,260, then manufacturing at $54,860 and construction at $54,170. BLS does not explain the ranking beyond publishing the figures, so readers should treat it as descriptive, not as a guarantee that switching industries alone would raise a given driver\'s pay, since route type, employer size, and region were not isolated in this survey.',
+					"Unlike most occupations on this site, BLS describes truck driver pay as structured around miles driven rather than a flat hourly or salaried rate. Drivers are typically paid by the mile, plus bonuses, and the per-mile rate varies by employer and can depend on the type of cargo hauled and the driver's experience, according to BLS. Some long-distance drivers, particularly owner-operators who buy or lease their own trucks and run an independent business, are instead paid a share of the revenue from a shipment. BLS does not publish a separate wage line for owner-operators, so the percentile figures above describe the broader employed workforce, not self-employed drivers running their own operation.",
 					'On who employs these drivers, BLS lists truck transportation at 40%, wholesale trade at 12%, manufacturing at 7%, self-employed workers at 7%, and construction at 6%, with the remainder spread across smaller categories the Handbook page does not break out individually.',
 				],
 			},
@@ -1905,32 +1910,37 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average truck driver salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for heavy and tractor-trailer truck drivers was $57,440 in May 2024, equivalent to $27.62 an hour. "Median" means half of workers in the occupation earned more and half earned less.',
+				answer: 'Per BLS, this occupation cleared a $57,440 median in May 2024, or $27.62 an hour. Half the workforce made more than that figure and half made less.',
 			},
 			{
 				question: 'What is the highest-paying industry for truck drivers?',
-				answer: 'Among the four industry categories BLS tracks for May 2024, truck transportation paid the highest median at $59,570, ahead of wholesale trade ($57,260), manufacturing ($54,860), and construction ($54,170).',
+				answer: "The trucking-carrier segment itself, BLS's top-paying category for this role, led the group at $59,570 for May 2024, ahead of wholesale trade ($57,260), manufacturing ($54,860), and construction ($54,170).",
 			},
 			{
 				question: 'How much do the lowest- and highest-paid truck drivers make?',
-				answer: 'BLS reports that the bottom 10% of heavy and tractor-trailer truck drivers earned less than $38,640 a year in May 2024, while the top 10% earned more than $78,800. BLS attributes the spread broadly to factors such as employer type, route length, and experience, without isolating any single cause.',
+				answer: "BLS reports that the bottom 10% in this line of work started below $38,640 annually in May 2024, while the highest-paid tenth cleared $78,800. BLS chalks the gap up to differences like who a driver works for, how long their routes run, and years on the job, without isolating one cause.",
 			},
 			{
 				question: 'Do truck drivers need a CDL?',
-				answer: 'Yes. BLS states that all long-haul heavy and tractor-trailer truck drivers must hold a commercial driver\'s license (CDL), which generally requires passing a knowledge test and a driving test, with specific requirements varying by state. Drivers hauling hazardous materials need an additional H endorsement.',
+				answer: "Yes. Per BLS, anyone driving long-haul in this occupation needs a CDL, the credential required to legally operate these vehicles, generally requiring both a written exam and an on-road driving evaluation, with specific requirements varying by state overall. Anyone moving hazardous cargo needs a further H endorsement on top of that license.",
 			},
 			{
 				question: 'Is truck driving a growing occupation?',
-				answer: 'BLS projects 4% employment growth for truck drivers from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 89,300 jobs and about 237,600 openings a year on average, mostly from workers leaving the occupation rather than newly created positions.',
+				answer: 'Modestly, per BLS: 4% projected employment growth between 2024 and 2034, close to the U.S. economy-wide pace, with roughly 89,300 new jobs expected and an average of some 237,600 yearly openings. Most of those openings trace back to people leaving the occupation, not brand-new roles being added.',
 			},
 			{
 				question: 'Can a truck driver make $100,000 a year?',
-				answer: 'Not typically, per national BLS data. The top 10% of heavy and tractor-trailer truck drivers earned more than $78,800 a year in May 2024, the highest decile BLS publishes for the occupation, still short of $100,000. BLS\'s wage data reflects the broad occupation as surveyed nationally; it does not separately break out owner-operators or specialized hauling niches that can pay more.',
+				answer: 'Not typically, per national BLS data. The highest-paid tenth of drivers in this occupation cleared $78,800 a year in May 2024, the top decile BLS publishes here, still short of $100,000. That figure reflects the broad occupation as surveyed nationally; it does not separately break out owner-operators or specialized hauling niches that can pay more.',
+			},
+			{
+				question: 'Does Walmart pay new truck drivers $110,000 a year?',
+				answer: "Walmart says yes, for its own Private Fleet, not for the trucking occupation as a whole. The company's 2026 Jobs Spotlight Report puts average base pay for Walmart and Sam's Club over-the-road drivers at more than $109,000 over the past year, as of the end of its FY27 Q1, in line with the up-to-$110,000 first-year pay it advertised when it launched the Private Fleet Development Program. That figure covers one large private employer, well above the $57,440 national median BLS reports across the occupation as a whole, so it isn't a stand-in for typical industry-wide pay.",
 			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers (accessed 2026-08-12 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm' },
 			{ label: 'Federal Motor Carrier Safety Administration (U.S. Department of Transportation)', url: 'https://www.fmcsa.dot.gov/' },
+			{ label: "Walmart Corporate: 2026 Jobs Spotlight Report, Private Fleet Driver base pay (accessed 2026-09-17 via direct fetch, returned 200, data as of the end of FY27 Q1)", url: 'https://corporate.walmart.com/news/2026/07/16/2026-jobs-spotlight-report' },
 		],
 		image: '/images/truck-driver-salary-chart.svg',
 		imageAlt: 'Bar chart showing heavy and tractor-trailer truck driver annual wage by percentile: 10th percentile $38,640, median $57,440, 90th percentile $78,800, based on BLS May 2024 data.',
@@ -2122,14 +2132,14 @@ export const guides: Guide[] = [
 		published: '2026-08-16',
 		updated: '2026-08-16',
 		socCode: '47-2111',
-		coreSummary: 'Most electricians enter the trade through a registered apprenticeship rather than a college degree, following either a union path through a local IBEW/NECA Joint Apprenticeship and Training Committee or a non-union path through an Independent Electrical Contractors (IEC) or Associated Builders and Contractors (ABC) chapter. BLS describes the typical apprenticeship as 4 to 5 years; IEC publishes its own program as a 4-year structure totaling roughly 8,000 hours of paid on-the-job training and 576 hours of classroom instruction. Most states then require passing a licensing exam. BLS puts the median electrician wage at $62,350 a year as of May 2024.',
+		coreSummary: 'Most electricians enter the trade through a registered apprenticeship, not a college degree, following either a union path through a local IBEW/NECA Joint Apprenticeship and Training Committee or a non-union path through an Independent Electrical Contractors (IEC) or Associated Builders and Contractors (ABC) chapter. BLS describes the typical apprenticeship as 4 to 5 years; IEC publishes its own program as a 4-year structure totaling roughly 8,000 hours of paid on-the-job training and 576 hours of classroom instruction. Most states then require passing a licensing exam. BLS puts the median electrician wage at $62,350 a year as of May 2024.',
 		sections: [
 			{
 				heading: 'Two apprenticeship routes into the trade',
 				body: [
-					'Per BLS, the entry-level education for electricians is a high school diploma or equivalent, with the trade itself learned through a paid apprenticeship rather than a postsecondary degree. Applicants generally choose between two structurally different routes to get there: a union path or a non-union path, and the choice mostly determines who runs the training and where a person ends up working, not how many hours the program eventually requires.',
+					'Per BLS, the entry-level education for electricians is a high school diploma or equivalent, with the trade itself learned through a paid apprenticeship, not a postsecondary degree. Applicants generally choose between two structurally different routes to get there: a union path or a non-union path, and the choice mostly determines who runs the training and where a person ends up working, not how many hours the program eventually requires.',
 					'The union route runs through the International Brotherhood of Electrical Workers (IBEW) and the National Electrical Contractors Association (NECA), which jointly operate roughly 300 local Joint Apprenticeship and Training Committees (JATCs) under a shared training arm called the Electrical Training Alliance, formerly known as the National Joint Apprenticeship and Training Committee. Getting in usually requires passing the Electrical Training Alliance Aptitude Test, a proctored exam covering algebra and functions plus reading comprehension across 69 questions in about 97 minutes, scored on a 1-to-9 stanine scale. Most locals require at least a 4 to move on to a separate, also-scored interview, and the two scores together decide who is offered a spot.',
-					'The non-union route runs through Independent Electrical Contractors (IEC), a nonprofit trade association for merit-shop contractors with more than 50 local chapters, and through similar programs run by Associated Builders and Contractors (ABC) chapters. Entry requirements are set locally rather than through one national exam, and typically include a high school diploma and proof of basic algebra coursework; some chapters use their own placement screening, but not the centralized aptitude test IBEW/NECA locals share. Both the union and non-union tracks register with the U.S. Department of Labor\'s Office of Apprenticeship under the same electrician occupation code, 47-2111.00, so from a federal standpoint they carry the same underlying credential even though the application process differs.',
+					'The non-union route runs through Independent Electrical Contractors (IEC), a nonprofit trade association for merit-shop contractors with more than 50 local chapters, and through similar programs run by Associated Builders and Contractors (ABC) chapters. Entry requirements are set locally, not through one national exam, and typically include a high school diploma and proof of basic algebra coursework; some chapters use their own placement screening, but not the centralized aptitude test IBEW/NECA locals share. Both the union and non-union tracks register with the U.S. Department of Labor\'s Office of Apprenticeship under the same electrician occupation code, 47-2111.00, so from a federal standpoint they carry the same underlying credential even though the application process differs.',
 				],
 				image: {
 					src: '/images/electrician-apprenticeship-path.svg',
@@ -2148,38 +2158,46 @@ export const guides: Guide[] = [
 				heading: 'Getting licensed after the apprenticeship',
 				body: [
 					'Completing an apprenticeship makes someone a journey worker, per BLS, who may perform electrical work independently, subject to state or local licensing requirements. Most states require passing a licensing exam before a journey worker can operate on their own, and the exams generally test knowledge of the National Electrical Code alongside state and local building codes.',
-					'PSI Services LLC administers the electrical licensing exam for a number of state boards, including Texas, North Carolina, Washington, Virginia, and Nebraska, though each state sets its own exam format rather than sharing one national test. Virginia, for example, requires a 70-question, 210-minute journeyman exam and a 70% score (49 correct answers) to pass, per the state\'s Department of Professional and Occupational Regulation; that specific format is Virginia\'s own published requirement and should not be assumed to carry over to other states. Texas, by contrast, split its journeyman exam into two separately timed sections in March 2025, an NEC-knowledge portion and a calculations portion, each requiring its own 70% score.',
-					"BLS directs readers to CareerOneStop for state-by-state licensing board information rather than listing every state's requirements on its own page, and this article follows the same approach rather than guessing at rules for a specific state. In states that recognize a master electrician tier, reaching it typically requires several more years of experience as a licensed journey worker plus a separate exam, a pattern that mirrors what BLS describes for [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) on this site.",
+					'PSI Services LLC administers the electrical licensing exam for a number of state boards, including Texas, North Carolina, Washington, Virginia, and Nebraska, though each state sets its own exam format; there is no single shared national test. Virginia, for example, requires a 70-question, 210-minute journeyman exam and a 70% score (49 correct answers) to pass, per the state\'s Department of Professional and Occupational Regulation; that specific format is Virginia\'s own published requirement and should not be assumed to carry over to other states. Texas, by contrast, split its journeyman exam into two separately timed sections in March 2025, an NEC-knowledge portion and a calculations portion, each requiring its own 70% score.',
+					"BLS directs readers to CareerOneStop for state-by-state licensing board information, without listing every state's requirements on its own page, and this article follows the same approach, declining to guess at rules for a specific state. In states that recognize a master electrician tier, reaching it typically requires several more years of experience as a licensed journey worker plus a separate exam, a pattern that mirrors what BLS describes for [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) on this site.",
 				],
 			},
 			{
 				heading: 'What the work pays once you are licensed',
 				body: [
 					"BLS reported a median annual wage of $62,350 for electricians in May 2024, or $29.98 an hour, with the bottom 10% of earners making less than $39,430 and the top 10% making more than $106,030. Government employers, excluding state and local education and hospitals, paid the highest median at $77,080, while electrical contractors, the industry employing 65% of electricians, paid closer to the occupation-wide median at $61,290. BLS projects 9% employment growth from 2024 to 2034, which it classifies as much faster than average, for a full percentile and industry breakdown, see [electrician salary](/electrician-salary/).",
-					"Against other no-bachelor's-degree apprenticeship trades this site has covered, electricians land close to the top. [Plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) post a similar median of $62,970 after a comparably structured 4- to 5-year apprenticeship, while [welders](/welder-salary/) have a lower median and multiple non-apprenticeship entry routes BLS describes side by side. [Becoming a CNA](/how-to-become-a-cna/) sits at the opposite end of the training-length spectrum, a federal minimum of 75 hours rather than a multi-year apprenticeship, with a median of $42,260, well below any of the trades above. This site's guide to [what a welder does](/what-does-a-welder-do/) covers that trade's duties and safety, and [HVAC certification](/hvac-certification/) covers EPA 608 requirements, training, and pay for another trade in this group.",
+					"Against other no-bachelor's-degree apprenticeship trades this site has covered, electricians land close to the top. [Plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) post a similar median of $62,970 after a comparably structured 4- to 5-year apprenticeship, while [welders](/welder-salary/) have a lower median and multiple non-apprenticeship entry routes BLS describes side by side. [Becoming a CNA](/how-to-become-a-cna/) sits at the opposite end of the training-length spectrum, a federal minimum of 75 hours, not a multi-year apprenticeship, with a median of $42,260, well below any of the trades above. This site's guide to [what a welder does](/what-does-a-welder-do/) covers that trade's duties and safety, and [HVAC certification](/hvac-certification/) covers EPA 608 requirements, training, and pay for another trade in this group.",
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'How long does it take to become an electrician?',
-				answer: 'BLS describes the typical electrician apprenticeship as running 4 to 5 years. IEC, the trade association behind one of the non-union routes, publishes its own program as a 4-year structure: 2,000 hours of paid on-the-job training and 144 hours of classroom instruction per year, 8,000 and 576 hours total. Workers with prior military or construction electrical experience may qualify for a shortened program after testing.',
+				answer: "BLS puts the typical timeline at 4 to 5 years. IEC, the trade group behind one of the non-union tracks, sets out its version as a four-year plan: 2,000 hours a year of paid, hands-on work plus 144 hours a year in the classroom, 8,000 and 576 hours by the end. Prior hands-on wiring work picked up in the military or on a construction crew can sometimes shorten that, if a program accepts it after testing.",
 			},
 			{
 				question: 'Do you need a college degree to become an electrician?',
-				answer: 'No. BLS lists a high school diploma or equivalent as the typical entry-level education for electricians, with the trade learned through a paid apprenticeship rather than a postsecondary degree.',
+				answer: "No. BLS lists finishing high school, or its GED equivalent, as the entry bar for this trade, with the actual skills built through years of paid, supervised fieldwork rather than in a college classroom.",
 			},
 			{
 				question: "What's the difference between an IBEW/NECA apprenticeship and an IEC or ABC apprenticeship?",
-				answer: 'IBEW/NECA is the union path, run through roughly 300 local Joint Apprenticeship and Training Committees under the Electrical Training Alliance, and requires passing a standardized 69-question aptitude test plus an interview. IEC and ABC run non-union, merit-shop apprenticeships through local chapters, with entry requirements set locally rather than through one national test. Both register with the U.S. Department of Labor under the same electrician occupation code.',
+				answer: "The union side runs through IBEW and NECA's network of about 300 local committees, gated by a 69-question aptitude exam plus a separate interview. IEC and ABC, the non-union alternative, sponsor merit-shop programs at the chapter level instead, screening candidates however each local chapter sees fit rather than through any single centralized test. Federally, both tracks register under that same 47-2111.00 occupation code.",
 			},
 			{
 				question: 'Do electricians need a state license?',
-				answer: "Per BLS, most states require electricians to be licensed before they can work independently, typically after completing an apprenticeship and passing an exam covering the National Electrical Code and local rules. Requirements vary by state, and BLS directs readers to CareerOneStop for state-specific licensing board information rather than publishing every state's rules itself.",
+				answer: "Per BLS, most states won't let someone work independently without a license, which typically follows several years of supervised field training, plus a passing score on an exam covering code compliance and local rules. Exact requirements differ state to state; CareerOneStop, not BLS's own Handbook page, is where BLS points readers for a state-by-state rundown.",
 			},
 			{
 				question: 'How much do electrician apprentices get paid?',
-				answer: 'BLS states that apprentices earn less than fully trained electricians and that pay rises as they take on more responsibility over the course of the apprenticeship, but it does not publish a separate apprentice wage schedule. The fully qualified median, once someone becomes a licensed journey worker, was $62,350 a year as of May 2024.',
+				answer: "Less than someone who already holds a full electrician's license, with raises tied to growing responsibility, per BLS, though the agency stops short of publishing an actual apprentice pay scale. Once someone finishes that multi-year training and becomes a journey worker, the wage floor becomes the occupation's own May 2024 median: $62,350 for the year.",
+			},
+			{
+				question: 'Is there an age limit to become an electrician?',
+				answer: "No, per BLS: the entry bar is a high school education or a GED, and no publisher, not BLS, not IBEW/NECA's joint training arm, not IEC, sets a maximum age for applicants. That joint training arm's own entry gate is its aptitude test and interview score, not age, and IEC/ABC chapters set their own local screening the same way. Someone starting at 25 or 30 goes through the identical 4- to 5-year training track and licensing exam as an 18-year-old; nothing in BLS's occupational profile ties the training path or the pay outcome to the age a person begins it.",
+			},
+			{
+				question: 'Is becoming an electrician hard?',
+				answer: "It's a multi-step, gated process, not something picked up casually. The union route starts with a proctored aptitude test, 69 questions on algebra and reading with roughly an hour and a half on the clock, plus a separate interview, and a local typically wants at least a 4 stanine on each before considering a candidate. From there, per BLS, everyone spends 4 to 5 years training, combining roughly 2,000 yearly hours of hands-on paid work with classroom coursework on wiring theory and code, before a final state-set exam, generally a 70% passing score covering wiring rules and local codes. It isn't a single test someone passes or fails once; it's a multi-year sequence with a gate at the start, the aptitude test or a chapter's local screening, and another at the end, the state license.",
 			},
 		],
 		sources: [
@@ -2235,27 +2253,31 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How long does it take to become a physical therapist?',
-				answer: "A typical four-year bachelor's degree with prerequisite coursework, followed by a CAPTE-accredited Doctor of Physical Therapy (DPT) program that BLS describes as running about three years, adds up to roughly seven years before a graduate is eligible to sit for the licensing exam. Some physical therapists add an optional one-year clinical residency after that.",
+				answer: "Four years for the undergraduate degree, plus the roughly three-year doctoral program BLS describes for this field, puts most people at around seven years total before they're even in a position to test for licensure. Some add a further year of specialty training once they're already licensed.",
 			},
 			{
 				question: 'Do you need a specific undergraduate major to become a physical therapist?',
-				answer: 'BLS does not require a specific major. Applicants typically complete a bachelor\'s degree, often in a field like recreation and fitness or a healthcare-related area, plus prerequisite coursework such as anatomy, chemistry, and physics before applying to a DPT program.',
+				answer: "There's no mandated major here. Most candidates study kinesiology, exercise science, or another health-adjacent field as undergrads, plus prerequisite science coursework, biology and physics among it, before applying to a doctoral program in this field.",
 			},
 			{
 				question: 'What is the NPTE and how is it scored?',
-				answer: 'The National Physical Therapy Examination is a 225-question, five-hour, computer-based exam administered by the Federation of State Boards of Physical Therapy (FSBPT) at Prometric centers, offered four times a year. Raw scores are converted to a scaled score from 200 to 800, and a scaled score of 600 or higher is required to pass in every state.',
+				answer: 'This licensing test runs 225 questions over five hours on a computer at a testing center, offered four times a year by the national body that writes it for every state board. Raw scores convert to a scale of 200 to 800, and candidates need a 600 to clear the bar anywhere in the country.',
 			},
 			{
 				question: 'Do physical therapists need board certification to practice?',
-				answer: 'No. A DPT degree, a passing NPTE score, and a state license are what is required to practice. Board certification through the American Board of Physical Therapy Specialties (ABPTS), in specialty areas such as orthopedics, sports, and geriatrics, is optional credentialing some physical therapists pursue after they are already licensed and working.',
+				answer: "No. A doctoral degree in this field, a passing licensing-exam score, and a state license cover what's required to practice. Getting recognized as a specialist in a clinical area, sports medicine or geriatric care among them, is a separate, optional credential a working clinician can add later on.",
 			},
 			{
 				question: 'How much do physical therapists make?',
-				answer: 'BLS reports a median annual wage of $101,020 for physical therapists in May 2024, with the bottom 10% earning less than $74,420 and the top 10% earning more than $132,500. See [physical therapist salary](/physical-therapist-salary/) for the full percentile and industry breakdown.',
+				answer: "BLS puts this occupation's median at $101,020 a year for May 2024, running from under $74,420 at the bottom tenth to above $132,500 at the top. This site's [dedicated wage guide for the field](/physical-therapist-salary/) breaks that range down further, by percentile and by industry.",
 			},
 			{
 				question: 'Who gets paid more, PA or PT?',
-				answer: 'Physician assistants earned more in May 2024, per BLS: a median of $133,260 for physician assistants compared with $101,020 for physical therapists, a gap of roughly $32,000. Both roles typically require a graduate degree beyond a bachelor\'s, a master\'s for PAs and a Doctor of Physical Therapy for PTs, but PA programs generally run shorter than the roughly three-year DPT program BLS describes.',
+				answer: "The physician-assistant role came out ahead in May 2024, per BLS: $133,260 for that job versus $101,020 here, a gap of roughly $32,000. Both paths run through a graduate credential on top of a bachelor's, a master's on the PA side against a clinical doctorate for this field, though those master's programs generally finish sooner than the roughly three-year doctoral track BLS describes on this page.",
+			},
+			{
+				question: 'Is becoming a PT difficult?',
+				answer: "The path itself is long, roughly seven years of school before a candidate can register for the exam, and the exam at the end isn't a rubber stamp either. FSBPT, the licensing-board group behind this exam, reported an 86.6% first-time pass rate for the 2025 exam year, down slightly from 88.9% in 2024, meaning roughly one in eight first-time candidates doesn't clear the required scaled score on the first attempt. That's stacked on top of finishing the doctoral coursework in the first place, the multi-year gate BLS and APTA both describe.",
 			},
 		],
 		sources: [
@@ -2263,6 +2285,7 @@ export const guides: Guide[] = [
 			{ label: 'APTA: Becoming a Physical Therapist', url: 'https://www.apta.org/your-career/careers-in-physical-therapy/becoming-a-pt' },
 			{ label: 'FSBPT: Understanding the NPTE (Candidate Handbook)', url: 'https://www.fsbpt.org/Free-Resources/NPTE-Candidate-Handbook/Understanding-the-NPTE' },
 			{ label: 'APTA Specialist Certification (governed by ABPTS): About', url: 'https://specialization.apta.org/about-abpts' },
+			{ label: 'FSBPT: NPTE Pass Rate Reports, 2025 and 2024 exam-year first-time pass rates (accessed 2026-09-17)', url: 'https://www.fsbpt.org/free-resources/npte-pass-rate-reports' },
 		],
 		image: '/images/physical-therapist-career-path.svg',
 		imageAlt: 'Timeline diagram showing the path to becoming a physical therapist: bachelor\'s degree with prerequisite coursework, then a CAPTE-accredited Doctor of Physical Therapy (DPT) program of about three years, then passing the NPTE licensing exam, leading to a licensed physical therapist earning a median of $101,020 a year per BLS, with optional residency, fellowship, or board certification.',
@@ -4323,32 +4346,37 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average funeral director salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for morticians, undertakers, and funeral arrangers, the title BLS uses for funeral directors, was $55,010 in May 2025 ($26.45 an hour). The bottom 10% earned less than $33,350, and the top 10% earned more than $88,620.',
+answer: "BLS files this job under a longer official name (see above), but the pay figure attached to it is simple enough: $55,010 for the year, per its May 2025 release, translating to $26.45 hourly. The lowest-paid tenth of the field fell under $33,350; the highest-paid tenth topped $88,620.",
 			},
 			{
 				question: 'Is a funeral home manager the same job as a funeral director?',
-				answer: 'No. BLS tracks them as two separate occupations. Funeral home managers (SOC 11-9171) run the business side of a funeral home and had a higher May 2025 median of $78,790, while funeral directors, tracked as "morticians, undertakers, and funeral arrangers" (SOC 39-4031), arrange individual services and had a median of $55,010. BLS notes that funeral home managers typically work as a funeral director first.',
+				answer: "No. BLS tracks them as two separate occupations. The manager title (SOC 11-9171) oversees the business end of running the operation and commanded a higher $78,790 that same year, while the director title (SOC 39-4031) handles arranging individual services and paid $55,010. BLS notes that people usually direct first before moving into management.",
 			},
 			{
 				question: 'Do funeral directors need to be licensed?',
-				answer: 'In most states, yes. Per BLS, most states and Washington, D.C. require a funeral director license, which typically requires being at least 21 years old, completing an accredited funeral service or mortuary science program, passing a state and/or national board exam, and serving a one-to-three-year supervised internship. Colorado is the one state BLS names where certification is voluntary. Requirements vary by state, and working across state lines generally requires holding multiple licenses.',
+				answer: "In most states, yes. Per BLS, a license is required almost everywhere, including Washington, D.C., and getting one generally means clearing four hurdles: turning 21, finishing a two-year mortuary science course of study, passing a board exam, and spending anywhere from twelve months to three years training under a licensed mentor. Colorado stands apart as the single state BLS flags where the credential is optional. Rules differ by state, and covering territory in more than one jurisdiction typically means holding a separate license for each.",
 			},
 			{
 				question: 'What education does a funeral director need?',
-				answer: "BLS lists an associate's degree in funeral service or mortuary science as the typical entry-level education, covering coursework in ethics, grief counseling, business law, embalming, and restorative techniques. Some employers prefer a bachelor's degree.",
+				answer: "An associate's degree is the typical bar BLS sets, with coursework covering the emotional side of the job, like grief counseling, alongside embalming technique, restoration work, and the legal side of running a death-care business. Some employers would rather see a full bachelor's.",
 			},
 			{
 				question: 'Is funeral director a growing career?',
-				answer: 'BLS projects 3% employment growth for morticians, undertakers, and funeral arrangers from 2025 to 2035, about as fast as the average for all occupations, adding roughly 800 jobs. BLS attributes most annual openings to workers leaving the occupation rather than to new positions, and names a continuing shift toward cremation as a factor limiting faster growth.',
+				answer: "BLS pegs growth for this occupation at 3% between 2025 and 2035, keeping pace with the broader U.S. labor market, and expanding the field by around 800 workers. Most yearly openings trace back to people exiting the field rather than brand-new jobs being created, and BLS points to more families choosing cremation as one drag on faster hiring.",
 			},
 			{
 				question: 'Can you make six figures as a funeral director?',
-				answer: 'Not typically, per national BLS data. The top 10% of morticians, undertakers, and funeral arrangers, the BLS title for this occupation, earned more than $88,620 in May 2025, the highest decile BLS publishes for the role, still short of $100,000.',
+				answer: "Not typically, per national BLS numbers. Even the top-earning tenth of this workforce landed at $88,620 in May 2025, the ceiling BLS publishes for the role, which falls short of six figures.",
+			},
+			{
+				question: 'Is it difficult to become a funeral director?',
+				answer: "It's a multi-step credentialing process, not something learned purely on the job. A candidate generally completes a two-year mortuary science course of study first, then a board exam, then a stint interning under someone already licensed, lasting a year to three years, before any state signs off. The board exam itself, run nationally by the International Conference of Funeral Service Examining Boards, splits into two separately graded halves, one on the Arts side and one on the Sciences side, both of which have to be cleared. Nothing here comes with an official difficulty rating; what's clear is that it's a years-long sequence of gates, not a single test or a quick certificate.",
 			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Funeral Service Workers, Morticians, Undertakers, and Funeral Arrangers profile, SOC 39-4031 (accessed 2026-08-28 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm' },
 			{ label: 'BLS Occupational Outlook Handbook: Funeral Service Workers, Funeral Home Managers profile, SOC 11-9171, used for the comparison figure above (same page and access details as the primary source)', url: 'https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm' },
+			{ label: 'The International Conference of Funeral Service Examining Boards (ICFSEB): National Board Exam structure (accessed 2026-09-17, independently confirmed the two-section Arts/Sciences exam format, not a BLS-sourced detail)', url: 'https://theconferenceonline.org/candidates/' },
 		],
 		image: '/images/funeral-director-salary-chart.svg',
 		imageAlt: 'Bar chart showing mortician, undertaker, and funeral arranger (funeral director) annual wage by percentile: 10th percentile $33,350, median $55,010, 90th percentile $88,620, based on BLS May 2025 data.',
@@ -5047,10 +5075,15 @@ export const guides: Guide[] = [
 				question: 'How long is OT school?',
 				answer: "This page prices out the assistant role (OTA), not the fully credentialed clinician it works under. That master's-level credential, per BLS, generally takes 2 to 3 years of graduate study, layered onto a bachelor's degree finished first, well past the associate's-level route this page covers.",
 			},
+			{
+				question: 'Do occupational therapy assistants make more than nurses?',
+				answer: "No. BLS puts the 2025 median for registered nurses at $97,550 a year, about $25,250 above the $72,300 figure this page reports above. Part of that gap traces to schooling length: nurses typically enter with a bachelor's degree, while the assistants this page covers typically enter with the shorter, associate's-level credential.",
+			},
 		],
 		sources: [
 			{ label: "BLS Occupational Outlook Handbook: Occupational Therapy Assistants and Aides (accessed 2026-09-04 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)", url: 'https://www.bls.gov/ooh/healthcare/occupational-therapy-assistants-and-aides.htm' },
 			{ label: 'O*NET OnLine: 31-2011.00 Occupational Therapy Assistants (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/31-2011.00' },
+			{ label: 'BLS Occupational Outlook Handbook: Registered Nurses (accessed 2026-09-17 via direct fetch, returned 200, data from May 2025, used for the registered-nurse comparison figure above)', url: 'https://www.bls.gov/ooh/healthcare/registered-nurses.htm' },
 		],
 		image: '/images/occupational-therapy-assistant-salary-chart.svg',
 		imageAlt: 'Bar chart showing occupational therapy assistant annual wage by percentile: 10th percentile $51,490, median $72,300, 90th percentile $89,780, based on BLS May 2025 data.',
@@ -5360,6 +5393,10 @@ export const guides: Guide[] = [
 				question: 'How stressful is being an audiologist?',
 				answer: "BLS doesn't formally rate occupations for stress. Its description of the schedule leans mild relative to some other clinical fields this site tracks: audiologists work standard healthcare hours for the most part, with some picking up evenings and weekends specifically to fit patients' needs rather than any noted on-call or emergency demand. That points to a clinic-paced role rather than the acute or emergency rhythm of some other health occupations this site covers.",
 			},
+			{
+				question: 'Is it hard to become an audiologist?',
+				answer: "It's a long, exam-gated path rather than a quick certificate. Per BLS, everyone entering the field completes the four-year Au.D. once they finish undergrad, working through coursework in anatomy and statistics plus hands-on clinical rotations, and every state then requires a license on top of that degree. Most states build their licensing requirement around passing the Praxis Audiology exam; separately, an optional credential called ABA Certification (issued by the body of the same name) stands in for that exam score or clinical-hours paperwork in 18 licensing jurisdictions. BLS doesn't rate how hard the path is, only that four years of doctoral study plus mandatory licensing everywhere stands between someone and the job, a heavier front-loaded requirement than several other allied-health fields this site covers that only require an associate's degree.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Audiologists (accessed 2026-09-11 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/audiologists.htm' },
@@ -5512,6 +5549,10 @@ export const guides: Guide[] = [
 				question: 'Is a psychiatrist a stressful job?',
 				answer: "BLS doesn't rate any specialty for stress, and it doesn't break out work-schedule specifics for psychiatrists apart from the broader physician group this page covers. What it does say generally: most doctors work full time, some log more than 40 hours a week, and many work long, irregular shifts that can include overnight hours or being on call. Whether that describes a typical psychiatrist's week specifically isn't something this BLS page answers on its own.",
 			},
+			{
+				question: 'What field of psychiatry makes the most money?',
+				answer: "BLS doesn't answer that question. The combined doctors-and-surgeons profile it maintains tracks psychiatrists as one line item, SOC 29-1223, with a single median wage, $281,870 for May 2025, whether someone practices general psychiatry or an ABPN-recognized subspecialty such as child and adolescent, addiction, or forensic psychiatry. Unlike some of the other specialties that page names individually, it doesn't further break psychiatry down into subfields with their own separate pay figures.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Physicians and Surgeons (accessed 2026-09-12 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026; source for the psychiatrist-specific median wage, employment figures, and growth rate, plus the blended physician-group figures and duties/licensing text)', url: 'https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm' },
@@ -5580,10 +5621,15 @@ export const guides: Guide[] = [
 				question: 'Is speech-language pathology a growing occupation?',
 				answer: 'BLS projects 17% employment growth from 2025 to 2035, well ahead of the roughly 3% pace expected economy-wide, adding about 32,100 jobs to a 2025 base of 193,400 workers.',
 			},
+			{
+				question: 'Is it difficult to become a speech pathologist?',
+				answer: "Getting into practice runs through a master's degree, a passing Praxis score, and a mentored fellowship period, not a single test with an easy pass or fail. ASHA's own historical data show test-takers passed this specialty's Praxis exam at rates in the high 80s to low 90s percent through the most recent year ASHA has published in its national summary report, 89.5% in 2018-19. Layered on top of a passing score, per BLS, is the CCC-SLP fellowship this page already covers: at least 1,260 supervised hours spread across 36 weeks or more before the credential is granted.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Speech-Language Pathologists (accessed 2026-09-13 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/speech-language-pathologists.htm' },
 			{ label: 'American Speech-Language-Hearing Association (ASHA): A Guide to the ASHA Clinical Fellowship Experience, used for the mentor and hours-requirement detail above (independently confirmed via direct fetch 2026-09-13, not a BLS-sourced detail)', url: 'https://www.asha.org/certification/clinical-fellowship/' },
+			{ label: 'ASHA: National Summary Report, Praxis Speech-Language Pathology exam scores, test administration years 2008-09 through 2018-19 (accessed 2026-09-17 via direct fetch, most recent year in this specific report is 2018-19)', url: 'https://www.asha.org/siteassets/uploadedfiles/praxisscoresslp.pdf' },
 		],
 		image: '/images/speech-language-pathologist-salary-chart.svg',
 		imageAlt: 'Bar chart showing speech-language pathologist annual wage by percentile: 10th percentile $62,900, median $97,870, 90th percentile $134,160, based on BLS May 2025 data.',
@@ -5708,6 +5754,10 @@ export const guides: Guide[] = [
 				question: "Are wages rising faster than inflation right now?",
 				answer: "For private-sector payrolls overall, no. A composite index of that group's pay grew about 3.1% in the year through mid-2026 before accounting for prices, a gain that turns negative once inflation is stripped out. A different measure that tracks individual people rather than an aggregate payroll figure, the Atlanta Fed's tracker, showed a stronger nominal gain of 4.1% for the same August.",
 			},
+			{
+				question: "What percentage of Americans earn over $75,000 a year?",
+				answer: "About a quarter, per individual wage data rather than household data. The Social Security Administration's wage statistics track net compensation for every individual wage earner in the country, and its most recent published breakdown, for 2023, shows about 25.7% of the 173.7 million wage earners that year had net compensation of $75,000 or more. That's a distinct measure from the $83,730 figure cited above for a typical household's total income, which counts every earner under one roof together rather than one person at a time.",
+			},
 		],
 		sources: [
 			{ label: 'U.S. Bureau of Labor Statistics: Occupational Employment and Wages news release (accessed 2026-09-13 via direct fetch with a UA string carrying a declared contact email, returned 200, USDL-26-0725, data May 2025)', url: 'https://www.bls.gov/news.release/ocwage.nr0.htm' },
@@ -5727,6 +5777,7 @@ export const guides: Guide[] = [
 			{ label: 'NACE: Average Starting Salary for Class of 2024 Shows Mild Gain (accessed 2026-09-13 via direct fetch, returned 200, published August 26, 2025)', url: 'https://www.naceweb.org/job-market/compensation/average-starting-salary-for-class-of-2024-shows-mild-gain' },
 			{ label: 'NACE: Average Hourly Wage for Interns Exceeds $23 (accessed 2026-09-13 via direct fetch, returned 200, published March 24, 2025)', url: 'https://www.naceweb.org/job-market/compensation/average-hourly-wage-for-interns-exceeds-23-dollars' },
 			{ label: 'NACE: Class of 2025 Engineering, Business Grads Expected to See Salaries Climb at the Master\'s Level (accessed 2026-09-13 via direct fetch, returned 200, published February 24, 2025)', url: 'https://www.naceweb.org/job-market/compensation/class-of-2025-engineering-business-grads-expected-to-see-salaries-climb-at-the-masters--level' },
+			{ label: 'Social Security Administration: Wage Statistics for 2023, distribution of wage earners by net compensation (accessed 2026-09-17 via r.jina.ai reader proxy, direct fetch blocked; 2023 is the most recent year SSA has published this breakdown)', url: 'https://www.ssa.gov/cgi-bin/netcomp.cgi?year=2023' },
 		],
 		image: '/images/salary-statistics-2026-chart.svg',
 		imageAlt: "Bar chart showing median weekly earnings by education level in the second quarter of 2026: no high school diploma $803, high school diploma $994, all full-time workers $1,251, bachelor's degree or higher $1,768, based on BLS data.",
@@ -5795,6 +5846,10 @@ export const guides: Guide[] = [
 			{
 				question: 'How long does it take to become an ironworker?',
 				answer: "Usually 3 to 4 years. BLS describes an apprenticeship track built around a minimum of 144 classroom hours plus roughly 2,000 hours of hands-on field work each year, after which a worker reaches journey-level standing and can take on tasks unsupervised.",
+			},
+			{
+				question: 'How hard is it to be an ironworker?',
+				answer: "BLS doesn't rate the trade's difficulty, but its Work Environment section is blunt about the physical side: ironworkers perform physically demanding and dangerous work, often at great heights, and BLS says workers must wear safety equipment to guard against falls and other injuries. BLS's Important Qualities section for the occupation also lists the ability to work at heights specifically, since ironworkers connecting girders during skyscraper construction, for instance, can't be afraid of exposed heights. On top of the physical demands, most people entering this trade spend three to four years training, 144 hours a year in the classroom and 2,000 hours a year in the field, so it's a trade that gates entry through sustained training, not a short course, even though BLS itself never uses the word \"hard.\"",
 			},
 		],
 		sources: [
