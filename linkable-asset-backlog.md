@@ -95,3 +95,25 @@
 - **为什么会被引用**：本站已是职业薪资参考站，与现有单职业Salary Guide文章（30篇）形成分工——本条是"全景数字枢纽"而非"单职业深挖"，记者写"2026年薪资趋势"类年度报道时天然需要一个能直接引用的统计集合页，比逐个翻BLS原始表格更方便。
 - **制作复杂度**：低——数据源均为公开官方/机构报告，`src/data/bls-wages.ts`已有部分数据可直接复用，主要工作是补充宏观层面统计并逐条标注BLS/USAFacts/NACE原始出处。
 - **备注**：YMYL-adjacent站的既有纪律同样适用——只呈现官方数据不做收入承诺式表述；与已发布的"免学位高薪职业排行"（第1条）、待制作的"薪资分散度研究"（第2条）不重复，那两条是本站原创数据研究，本条是策展外部权威统计。
+
+## 9. BLS 薪资图表嵌入库（Career Path & Salary Chart Embeds） `[图片面][待制作]`
+
+**2026-09-17 GSC 图片面扫描**（`trafficsite-linkable-asset-planning` 新增检查项，本站首次跑）：过去28天Google图片搜索曝光≥495且点击≤2的页面共7个，全部对应站内自制SVG图表（非第三方照片）：
+
+| 页面 | 曝光 | 点击 | 图片文件 |
+|---|---|---|---|
+| /highest-paying-jobs-without-a-degree/ | 2,269 | 0 | highest-paying-jobs-without-a-degree-chart.svg（已发布，资产1排行图） |
+| /how-to-become-a-psychologist/ | 908 | 1 | psychologist-education-path.svg |
+| /ultrasound-tech-salary/ | 718 | 1 | ultrasound-tech-salary-chart.svg |
+| /how-long-does-it-take-to-become-a-dentist/ | 542 | 2 | （dentist对应path/chart图，需制作时核对文件名） |
+| /electrician-salary/ | 507 | 1 | electrician-salary-chart.svg |
+| /how-to-become-a-software-engineer/ | 499 | 1 | （software-engineer对应path图） |
+| /welder-salary/ | 495 | 1 | welder-salary-chart.svg |
+
+7 个页面合计 28 天图片曝光约 5,940 次、点击仅 8 次——图在被反复看见（很可能是被其他网站/图片聚合结果抓取展示），但没人点回站内，跟 MythCairn family-tree 图（4,725曝光/3点击）是同一种资产未被利用的信号。
+
+- **类别**：图片面 embed 资产
+- **具体做什么**：给这 7 张（以及未来任何达到同等曝光门槛的）原创 BLS 薪资/职业路径 SVG 图表各建一个 `/embed/<slug>/` 路由（noindex、canonical 指回原文章、sitemap 排除，参照 MythCairn `/embed/greek-gods-family-tree/` 已验证的模式），并在对应文章页加"Embed this chart"代码块（iframe embed 代码 + 一键复制），服务端固定署名链接（"Salary data via WageLark.com"）不可被嵌入方删除。第一批做曝光最高的3个（免学位排行图/心理学家路径图/超声技师薪资图），验证有真实第三方嵌入后再扩到其余4个。
+- **为什么会被引用**：这些图表是站内已经做好、有真实数据支撑（BLS官方数字）的原创可视化，职业规划类博客、大学就业指导中心页面、理财媒体写"这个职业能挣多少"时经常直接盗用截图或重新画图——给一个官方iframe嵌入选项，比被截图盗用更容易换来一条可见的署名回链，且零内容制作成本（图已经存在，只是缺嵌入通道）。
+- **制作复杂度**：低——复用 MythCairn 已验证过的 embed 路由模式（noindex+canonical+iframe代码块），7 张图表批量套用同一套模板，主要工作量是确认每张图对应的具体文件名/slug 并逐个接入。
+- **备注**：跟第3条"薪资vs增长率交互矩阵图"提到的"额外做embed路由"是同一机制的复用，但那条是全新交互图表（工作量大、待后续验证），这条是给**已经存在**的7张静态图表补embed通道（工作量小、可立即做），应优先于第3条执行。
