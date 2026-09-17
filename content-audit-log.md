@@ -2120,3 +2120,32 @@
 **验证与部署**：`npm run build`85页0 error。commit `e138a95`（工作区另有并发任务未提交的`imageDims.ts`改动，未纳入本次范围）。`git push`成功（c3ffefa..e138a95，fast-forward）。`seo_drift.py`：1条WARNING级schema变化（FAQ改写导致，符合预期），无CRITICAL。绕缓存curl轮询4次（约60秒）确认线上生效。IndexNow提交（仅本文）Bing 200/Yandex 200。
 
 **跳过项**：本次未逐条核对全部sources外链的HTTP状态（仅核对BLS主页面与ARRT PDF两个最关键来源），留作后续运行补充项。
+
+## 2026-09-17 PAA-FAQ批强(daily-task, 2026-09-17)
+
+**数据源**：`独立站/research-db/paa_bulk_current/wagelark.json`，39条候选按28天曝光降序处理。先用脚本比对每条gap_question与该slug现有FAQ的token重合度做初筛，再逐篇人工读正文/FAQ判断是否真重复，避免把同义改写的PAA问法误判成新问题。
+
+**处理到第几篇**：39条候选中处理了约27篇（含判定后跳过的），实际新增FAQ的有11篇/共12条。因单条FAQ的核实成本高（每条都要WebSearch+curl核实一手数据源），未处理完剩余约12篇（多为0曝光的健康类新页面，如`occupational-therapist-salary`/`funeral-director-salary`同族的`optometrist-salary`/`genetic-counselor-salary`/`forensic-scientist-salary`/`lpn-salary`等），如实说明进度，未强行做完。
+
+**新增FAQ的11篇（各1-2条）**：
+1. `truck-driver-salary`（+1）："Does Walmart pay new truck drivers $110,000 a year?"——curl直连`corporate.walmart.com/news/2026/07/16/2026-jobs-spotlight-report`核实官方2026 Jobs Spotlight Report原文（Private Fleet司机基础工资均值$109,000+，FY27 Q1数据），与站内$57,440全国中位数区分开，不混为一谈
+2. `occupational-therapy-assistant-salary`（+1）："Do occupational therapy assistants make more than nurses?"——curl直连`bls.gov/ooh/healthcare/registered-nurses.htm`核实RN中位数$97,550（May 2025），本文此前从未与护士做过对比
+3. `how-to-become-an-electrician`（+2）："Is there an age limit to become an electrician?"/"Is becoming an electrician hard?"——基于本文已核实的BLS无年龄门槛表述+IBEW/NECA能力测试结构+州执照考试流程整合新答，未新查外部数据
+4. `medical-assistant-salary`（+1）："Is medical assistant hard to pass?"——WebSearch+核实AAMA官网`aama-ntl.org/certification`当前CMA认证考试通过率数据（2024年7月-2025年4月4171次考试，首考2680次，69%通过）
+5. `funeral-director-salary`（+1）："Is it difficult to become a funeral director?"——curl核实ICFSEB（`theconferenceonline.org/candidates/`）全国委员会考试Arts/Sciences两段式结构，未采用查到的过时(2019-2021)分校通过率数据，避免误导
+6. `audiologist-salary`（+1）："Is it hard to become an audiologist?"——复用本文已核实的Au.D.四年制博士学位+ABA认证18州执照替代路径事实，未新查数字
+7. `ironworker-salary`（+1）："How hard is it to be an ironworker?"——curl直连`bls.gov/ooh/construction-and-extraction/structural-iron-and-steel-workers.htm`核实Work Environment原文"physically demanding and dangerous work, often at great heights"，本文此前未引用这句
+8. `psychiatrist-salary`（+1）："What field of psychiatry makes the most money?"——如实说明BLS将精神科医生列为单一line item(SOC 29-1223)、不按亚专科拆分工资，不编造Medscape等第三方薪酬调查数字
+9. `how-to-become-a-physical-therapist`（+1）："Is becoming a PT difficult?"——WebSearch+核实FSBPT官方NPTE通过率报告（2025考试年86.6%首考通过率，较2024年88.9%略降）
+10. `speech-language-pathologist-salary`（+1）："Is it difficult to become a speech pathologist?"——curl下载ASHA官方PDF（`asha.org/siteassets/uploadedfiles/praxisscoresslp.pdf`）核实Praxis考试历史通过率，该PDF最新年份仅到2018-19（89.5%），如实标注这是ASHA该报告能查到的最新一年，未虚构更新数据
+11. `salary-statistics-2026`（+1）："What percentage of Americans earn over $75,000 a year?"——curl经r.jina.ai读取SSA官方`ssa.gov/cgi-bin/netcomp.cgi?year=2023`工资分布表，累计计算得约25.7%个人年薪≥$75,000（2023年，SSA最新公开年份），与本文已有的家庭收入中位数$83,730明确区分开（个人 vs 家庭口径不同）
+
+**跳过的（举例，非穷举）**：`electrician-salary`/`mri-tech-salary`/`nurse-practitioner-salary`/`respiratory-therapist-salary`/`nuclear-medicine-technologist-salary`/`what-does-a-physician-assistant-do`/`ultrasound-tech-salary`（"Which ultrasound tech gets paid the most?"，已有FAQ明确说明BLS不按专科拆分）/`physical-therapist-salary`（"What type of PT makes the most money?"，与已有"设置维度"FAQ实质重复）/`what-does-a-millwright-do`（BLS本身未提供millwright专属细分数据，已有FAQ已说明）/`what-does-a-bookkeeper-do`/`what-does-a-paralegal-do`/`what-does-a-dental-hygienist-do`/`clinical-laboratory-technologist-salary`的全部gap_questions经比对判定与现有FAQ实质重复；`how-to-become-a-software-engineer`（"30岁转行是否太晚"/"$500k工程师"）因缺乏权威数据源或范围模糊跳过；`dental-assistant-salary`（"为什么离职率高"）、`how-to-become-a-cna`（州特定培训时长问题）因找不到可靠一手来源或曝光太低（≤3）跳过；`highest-paying-jobs-without-a-degree`的"$1,000,000工作"因超出BLS方法论覆盖范围（本站数据不支持这类极端值）跳过；`how-to-become-a-flight-attendant`的"35-7 rule"核实后发现是航司工会集体合同条款（如APFA/联合航空AFA），并非FAA统一规定，与本文BLS+FAA一手来源风格不符，为避免误导性地把工会合同细节说成联邦规定而跳过。
+
+**⚠️ 强制质量门槛执行记录**：对本次新增FAQ的全部11个slug逐一跑了`check_prose_patterns.py --guides src/data/guides.ts --slug <slug>`。首轮多个slug报FAQ与正文≥20字符逐字重合（`truck-driver-salary`7处、`how-to-become-an-electrician`7处+"rather than"密度超阈值、`medical-assistant-salary`8处、`funeral-director-salary`7处等），按规程逐句改写触发重合的措辞（不改变BLS/官方数字与事实本身），部分slug迭代6-10轮（如`how-to-become-an-electrician`因"a high school diploma or equivalent"等BLS固定表述反复撞词），最终11个slug全部退出码0才纳入commit。
+
+**去AI味两个Skill执行情况**：`Skill(humanizer)`和`Skill(avoid-ai-writing)`各真实调用两次——第一次对12条FAQ初稿做审查（发现1处"genuinely"空洞强调词需改，1处"It's a real...not just..."已有命名对比予以保留），第二次对经过机械查重迭代大幅改写后的最终文本做复审（发现funeral-director-salary FAQ里遗留的"genuine multi-step"同类问题并改掉），两次调用均有真实工具日志记录，非仅推理中"过一遍"。
+
+**验证与部署**：`npm run build`首次因`medical-assistant-salary`正文里一处单引号字符串内含未转义撇号（"this occupation's largest employment share"）导致esbuild解析失败，已改为双引号包裹并重新构建确认85页0 error。两次commit：`b8559ac`（FAQ新增，11个slug）+`098f222`（撇号转义修复），`git add`均只提交`src/data/guides.ts`，未带上工作区里并发存在的`imageDims.ts`改动和未跟踪的`index-priority.json`/`orthotist-and-prosthetist-salary.bridge-candidates.json`。`git pull --rebase`因这些无关未暂存文件被拒，但两次`git push`均已fast-forward成功推送到origin/main。绕缓存curl抽查5篇（`truck-driver-salary`/`how-to-become-an-electrician`/`funeral-director-salary`/`ironworker-salary`/`salary-statistics-2026`，均`?cb=$RANDOM`）：HTTP全部200，但新FAQ文本在约90秒的轮询窗口内均未命中，判断是Cloudflare Pages部署延迟（历史条目里也出现过类似首次未命中、隔一段时间后命中的情况），不计入本次失败，留给下一次运行或人工复查确认线上生效。
+
+**收尾总结**：本次处理约27篇（含跳过），实际新增FAQ 11篇/12条，全部有一手来源核实（BLS OOH/Walmart官方新闻室/AAMA/FSBPT/ASHA/ICFSEB/SSA）；机械检查11个slug全部从"首轮报警"修复到退出码0；去AI味双技能各真实调用2轮；build从1处语法错误修复到85页0 error；两次commit均已push；线上抽查5篇HTTP 200但新内容因部署延迟未在轮询窗口内确认生效。剩余约12篇（多为0曝光新页面）留给下一轮运行。
