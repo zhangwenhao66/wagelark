@@ -42,6 +42,49 @@ export interface BlsWageEntry {
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = {
+	"47-2011": {
+		socCode: "47-2011",
+		title: "Boilermakers",
+		medianAnnual: 76410,
+		medianHourly: 36.74,
+		percentiles: {
+			p10: 50490,
+			p90: 110370
+		},
+		employment: 10200,
+		employmentYear: "2025",
+		jobOutlookPct: -2,
+		jobOutlookLabel: "Decline",
+		employmentChange: -200,
+		projectionPeriod: "2025-35",
+		entryEducation: "High school diploma or equivalent",
+		industryWages: [
+			{
+				industry: "Utility system construction",
+				annualWage: 80060
+			},
+			{
+				industry: "Other building equipment contractors",
+				annualWage: 79110
+			},
+			{
+				industry: "Nonresidential building construction",
+				annualWage: 74960
+			},
+			{
+				industry: "Plumbing, heating, and air-conditioning contractors",
+				annualWage: 73150
+			},
+			{
+				industry: "Fabricated metal product manufacturing",
+				annualWage: 63760
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Boilermakers",
+		sourceUrl: "https://www.bls.gov/ooh/construction-and-extraction/boilermakers.htm",
+		publishedDate: "2026-08-27"
+	},
 	"29-2061": {
 		socCode: "29-2061",
 		title: "Licensed Practical and Licensed Vocational Nurses",

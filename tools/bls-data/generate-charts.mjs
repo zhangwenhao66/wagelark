@@ -50,6 +50,7 @@ const CHARTS = {
 	'ironworker-salary-chart': '47-2221',
 	'lpn-salary-chart': '29-2061',
 	'orthotist-and-prosthetist-salary-chart': '29-2091',
+	'boilermaker-salary-chart': '47-2011',
 };
 
 const NAVY = '#14273f';

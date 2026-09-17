@@ -3653,9 +3653,9 @@ export const guides: Guide[] = [
 		title: 'What Does a Bookkeeper Do? Duties, Path, and BLS Pay Data',
 		description: 'Bookkeepers post transactions and reconcile accounts, but software has automated much of the work. BLS projects a 6% employment decline and $49,210 median pay.',
 		published: '2026-08-24',
-		updated: '2026-08-24',
+		updated: '2026-09-17',
 		socCode: '43-3031',
-		coreSummary: 'Per the U.S. Bureau of Labor Statistics, bookkeeping, accounting, and auditing clerks compute, classify, and record data to help organizations keep complete and accurate financial records, using bookkeeping software to post transactions, reconcile accounts, and produce reports such as balance sheets and income statements. BLS reports a median annual wage of $49,210 in May 2024, and the role typically requires only some college coursework rather than a degree. It is also one of just two occupations covered on this site where BLS projects employment to shrink rather than grow: bookkeeper employment is projected to decline 6% from 2024 to 2034, a loss BLS attributes directly to accounting software automating tasks the role used to require by hand.',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, bookkeeping, accounting, and auditing clerks compute, classify, and record data to help organizations keep complete and accurate financial records, using bookkeeping software to post transactions, reconcile accounts, and produce reports such as balance sheets and income statements. BLS reports a median annual wage of $49,210 in May 2024, and the role typically requires only some college coursework rather than a degree. It is also one of three occupations covered on this site where BLS projects employment to shrink rather than grow: bookkeeper employment is projected to decline 6% from 2024 to 2034, the steepest of the three, a loss BLS attributes directly to accounting software automating tasks the role used to require by hand.',
 		sections: [
 			{
 				heading: 'What bookkeepers actually do, per BLS',
@@ -3673,7 +3673,7 @@ export const guides: Guide[] = [
 				body: [
 					'BLS projects bookkeeper employment to decline 6% from 2024 to 2034, a loss of about 94,300 positions from a 2024 base of 1,613,400. That is a steeper drop than any other decline this site has found on a BLS occupational page so far. BLS states the cause plainly rather than leaving it to inference: "Software innovations have automated many of the tasks performed by bookkeeping, accounting, and auditing clerks. As a result, the same amount of work can be done with fewer employees."',
 					"Despite the shrinking headcount, BLS still projects about 170,000 openings a year on average over the decade, a number that runs well above the roughly 94,300 total jobs projected to disappear. BLS attributes nearly all of that gap to replacement demand: with more than 1.6 million people currently working in the occupation, most annual openings come from workers who transfer to a different occupation or leave the labor force entirely, such as to retire, not from newly created positions. A shrinking occupation and a large number of yearly openings aren't a contradiction in BLS's data; they describe two different things, the size of the workforce and the churn within it.",
-					"Bookkeepers aren't alone in this pattern among the occupations this site covers. [Insurance underwriters](/what-does-an-insurance-underwriter-do/) are the only other occupation here with a projected employment decline, down 3% over the same decade, and BLS attributes that drop to the same underlying force: automated underwriting software reducing the need for people to do the work by hand. The bookkeeper decline is twice as steep, which tracks with how much more of the underlying work, routine data entry and reconciliation, is the kind of task accounting software already handles well.",
+					"Bookkeepers aren't alone in this pattern among the occupations this site covers. [Insurance underwriters](/what-does-an-insurance-underwriter-do/) also show a projected employment decline, down 3% over the same decade, and BLS attributes that drop to the same underlying force: automated underwriting software reducing the need for people to do the work by hand. A third occupation, [boilermakers](/boilermaker-salary/), rounds out the list with the mildest decline of the three, just 2%, but for an unrelated reason: it's a hands-on trade building and repairing pressure vessels, and BLS does not cite software or automation anywhere on that page. The bookkeeper decline remains the steepest of the three, which tracks with how much more of the underlying work, routine data entry and reconciliation, is the kind of task accounting software already handles well.",
 				],
 			},
 			{
@@ -3724,7 +3724,7 @@ export const guides: Guide[] = [
 		title: 'What Does a CEO Do? Duties, Pay, and Job Outlook (BLS Data)',
 		description: 'Chief executives set strategy and report to the board. BLS puts median CEO pay at $206,420, second-highest on this site, with 4% projected job growth.',
 		published: '2026-08-25',
-		updated: '2026-08-25',
+		updated: '2026-09-17',
 		socCode: '11-1011',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, chief executive officers provide overall direction for companies and organizations, formulating and implementing policy, directing the work of other top executives, and typically reporting to a board of directors. BLS tracks chief executives under SOC code 11-1011 and reports a median annual wage of $206,420 in May 2024, the second-highest median of any occupation on this site, behind only nurse anesthetists. BLS projects the occupation to grow 4% from 2024 to 2034, about as fast as the average for all occupations, adding roughly 13,300 positions to a 2024 base of 309,400.",
 		sections: [
@@ -3751,7 +3751,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Job outlook: headcount is projected to grow, not just replace departures',
 				body: [
-					'BLS projects employment of chief executives to grow 4% from 2024 to 2034, close to the roughly 3% average projected across all occupations, and a departure from the pattern on two other occupations this site tracks. [Bookkeepers](/what-does-a-bookkeeper-do/) and [insurance underwriters](/what-does-an-insurance-underwriter-do/) are both projected to shrink over the same decade; chief executive headcount is projected to grow instead, from about 309,400 in 2024 to about 322,700 in 2034, an increase of roughly 13,300 positions.',
+					'BLS projects employment of chief executives to grow 4% from 2024 to 2034, close to the roughly 3% average projected across all occupations, and a departure from the pattern on three other occupations this site tracks. [Bookkeepers](/what-does-a-bookkeeper-do/) and [insurance underwriters](/what-does-an-insurance-underwriter-do/) are both projected to shrink from 2024 to 2034, and [boilermakers](/boilermaker-salary/) are projected to shrink from 2025 to 2035 on BLS\'s more recently refreshed page for that trade; chief executive headcount is projected to grow instead, from about 309,400 in 2024 to about 322,700 in 2034, an increase of roughly 13,300 positions.',
 					"BLS also publishes an annual-openings estimate of about 331,000 for the combined \"Top Executives\" category, but that figure covers chief executives and general and operations managers together rather than chief executives alone. General and operations managers make up the much larger share of that combined group, holding about 3.7 million jobs in 2024 against roughly 309,400 for chief executives specifically, so most of the combined 331,000 annual openings likely land in the larger occupation. BLS does not publish a chief-executive-specific annual-openings number the way it does for employment, pay, and the growth rate, so this page reports the combined figure with that caveat rather than attributing all of it to chief executives.",
 					'Among employers of chief executives specifically, BLS reports the largest share, 26%, as self-employed workers, ahead of professional, scientific, and technical services at 13%, government excluding state and local education and hospitals at 9%, healthcare and social assistance at 6%, and management of companies and enterprises at 5%. Those five categories BLS names individually account for 59% of chief executives; BLS does not itemize the remaining 41% by industry. The large self-employed share reflects how broadly BLS defines the occupation: it counts the owner-operator of a small business alongside the chief executive of a large public corporation.',
 				],
@@ -3776,7 +3776,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is CEO a growing career?',
-				answer: 'Yes. BLS projects chief executive employment to grow 4% from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 13,300 positions to a 2024 base of 309,400. That is a different trend from two other occupations this site tracks, bookkeepers and insurance underwriters, both of which BLS projects to shrink over the same period.',
+				answer: 'Yes. BLS projects chief executive employment to grow 4% from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 13,300 positions to a 2024 base of 309,400. That is a different trend from three other occupations this site tracks: bookkeepers and insurance underwriters, both shrinking from 2024 to 2034 per BLS, and boilermakers, shrinking from 2025 to 2035 on that trade\'s more recently updated BLS page.',
 			},
 			{
 				question: 'Do you need an MBA to become a CEO?',
@@ -6000,5 +6000,80 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		],
 		image: '/images/orthotist-and-prosthetist-salary-chart.svg',
 		imageAlt: 'Bar chart showing orthotist and prosthetist annual wage by percentile: 10th percentile $46,350, median $81,110, 90th percentile $119,810, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'boilermaker-salary',
+		category: 'Salary Guide',
+		title: 'Boilermaker Salary: $76,410 Median (2026 BLS)',
+		description: "BLS puts the median boilermaker salary at $76,410, one of three shrinking outlooks this site tracks, yet still projects about 700 openings a year.",
+		published: '2026-09-17',
+		updated: '2026-09-17',
+		socCode: '47-2011',
+		coreSummary: "The U.S. Bureau of Labor Statistics reports a median annual wage of $76,410 for boilermakers in May 2025, or $36.74 an hour. The bottom 10% of earners made less than $50,490, while the top 10% made more than $110,370. BLS counted about 10,200 boilermaker jobs in 2025 and projects employment will decline 2% from 2025 to 2035, joining bookkeeping clerks and insurance underwriters as the third occupation on this site with a shrinking rather than flat or growing outlook, and the mildest decline of the three. Despite that decline, BLS still projects about 700 openings a year on average over the decade, all attributed to replacing workers who transfer out or retire. Entry typically requires only a high school diploma or equivalent, followed by a 4-year apprenticeship.",
+		sections: [
+			{
+				heading: 'The $76,410 median, and where it lands on BLS\'s own comparison table',
+				body: [
+					"Per BLS, the median annual wage for boilermakers, who assemble, install, maintain, and repair boilers, closed vats, and other large pressure vessels, was $76,410 in May 2025, equivalent to $36.74 an hour. The bottom 10% of earners made less than $50,490, while the top 10% made more than $110,370, a spread of roughly $59,880 between the extremes. O*NET Online, a separate U.S. Department of Labor database, lists identical figures under the same SOC code, $36.74 hourly and $76,410 annually for 2025, independent confirmation of BLS's headline number.",
+					"BLS's Occupational Outlook Handbook page for boilermakers publishes a \"Similar Occupations\" table naming seven related trades, all pulled from the same May 2025 wage survey. Boilermaker pay lands in the upper half of that list: above welders, cutters, solderers, and brazers ($53,750), machinists and tool and die makers ($59,620), sheet metal workers ($61,800), plumbers, pipefitters, and steamfitters ($63,800), and industrial machinery mechanics ($64,100), but below stationary engineers and boiler operators, a closely related role that runs the boilers boilermakers build, at $78,620. Assemblers and fabricators sit at the bottom of the list, at $45,450.",
+					'<div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:0.9rem;min-width:480px;"><thead><tr><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">BLS \'Similar Occupations\' (May 2025)</th><th style="text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);">Median annual wage</th></tr></thead><tbody><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Stationary engineers and boiler operators</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;">$78,620</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);font-weight:600;">Boilermakers</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$76,410</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Industrial machinery mechanics</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;">$64,100</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Plumbers, pipefitters, and steamfitters</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;">$63,800</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Sheet metal workers</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;">$61,800</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Machinists and tool and die makers</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;">$59,620</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Welders, cutters, solderers, and brazers</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;">$53,750</td></tr><tr><td style="padding:8px 10px;">Assemblers and fabricators</td><td style="padding:8px 10px;text-align:right;">$45,450</td></tr></tbody></table></div>',
+					"Note that BLS's comparison table reports $53,750 for welders as of May 2025, a $2,750 increase over the $51,000 May 2024 figure [this site's dedicated welder salary page](/welder-salary/) currently cites, since that page has not yet cycled to the newer data year. The plumbers, pipefitters, and steamfitters figure above, $63,800, does match the current May 2025 figure on [this site's plumbing page](/plumbing-apprenticeship/) exactly.",
+				],
+			},
+			{
+				heading: 'The mildest of three declining outlooks this site tracks, and the only trade among them',
+				body: [
+					"BLS projects boilermaker employment will decline 2% from 2025 to 2035, a shrinking outlook rather than the flat-to-growing projections BLS publishes for most other high school diploma-entry trades this site has covered: 9% growth for [electricians](/electrician-salary/), 7% for [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/), 3% for structural iron and steel workers within the [ironworker](/ironworker-salary/) page, and 2% for [welders](/welder-salary/). Two other occupations on this site also carry negative BLS projections: [bookkeeping, accounting, and auditing clerks](/what-does-a-bookkeeper-do/) at -6% and [insurance underwriters](/what-does-an-insurance-underwriter-do/) at -3%, both of which BLS attributes directly to software automating tasks those roles used to require by hand. Boilermakers post the mildest decline of the three, and are the only one that's a hands-on trade rather than office work; BLS does not cite automation as a factor on the boilermaker page.",
+					"Despite the 2% decline, BLS still projects about 700 boilermaker openings a year on average over the 2025-35 decade, all attributed to the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than to newly created positions. A shrinking occupation and a nonzero flow of job openings aren't a contradiction in BLS's framework: as long as any of the existing 10,200 boilermakers retire or move on each year, someone needs to fill that seat, even while the total headcount edges down. BLS's page does not explain what is driving the decline itself, beyond noting more broadly that boiler and vat installation work follows construction and industrial-plant activity.",
+				],
+			},
+			{
+				heading: 'How to become a boilermaker',
+				body: [
+					"Per BLS, a high school diploma or equivalent is generally the only formal education requirement to enter the trade. Most boilermakers then learn the job through a 4-year apprenticeship sponsored by unions or contractor associations, during which they train on boilermaker-specific tools and equipment, metals and installation techniques, blueprint reading and sketching, and safety practices. Completing the apprenticeship brings a worker to journey-level status.",
+					"BLS notes one entry detail that sets this trade apart from some others on this site: applicants who already have welding or other related experience have a better chance of being accepted into an apprenticeship program in the first place, even though welding experience isn't a formal prerequisite. That overlap doesn't make the two occupations the same; BLS tracks welders, cutters, solderers, and brazers as a separate SOC code from boilermakers, with its own median wage, outlook, and OOH page.",
+					"BLS's Work Environment section doesn't soften the description: \"Boilermakers do physically demanding work in cramped spaces inside boilers, vats, or tanks that are often dark, damp, noisy, and poorly ventilated.\" The same section adds that crews work outdoors through extreme heat and cold, and because dams, boilers, storage tanks, and pressure vessels are large, the job often means laboring at great heights, occasionally hundreds of feet up on a structure like a dam. BLS's Important Qualities section lists mechanical skills, physical stamina, physical strength, and comfort working in confined spaces and at heights as the traits the job specifically calls for.",
+				],
+			},
+			{
+				heading: 'Where boilermakers work, and where the pay is highest',
+				body: [
+					"BLS breaks out both the industries that employ the most boilermakers and the industries that pay them the most for May 2025, and the two lists only partly overlap. Utility system construction is both the largest employer, at 21% of the workforce, and the highest-paying industry, at a $80,060 median. Nonresidential building construction employs the next-largest share, 16%, and pays the third-highest median, $74,960. Plumbing, heating, and air-conditioning contractors employ 12% of boilermakers at a $73,150 median.",
+					"The disconnect shows up at the other two industries. Other building equipment contractors pay the second-highest median of any industry BLS tracks for this occupation, $79,110, just $950 below the top spot, yet employ only 4% of the boilermaker workforce, the smallest share of the five industries BLS names. Fabricated metal product manufacturing sits at the opposite end: it employs 10% of boilermakers, more than double the top-paying niche industry's share, but pays the lowest median of the five, $63,760, about $16,300 below the utility system construction figure. BLS does not explain why the second-best-paying niche employs so few boilermakers relative to lower-paying, higher-headcount industries; the industry tables above describe what BLS itself reports side by side, not a claim about why employers in each industry set pay where they do.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median boilermaker salary?',
+				answer: "BLS puts this trade's median at $76,410 a year for 2025, roughly $36.74 hourly. Half of the workforce earns above that figure and half below it.",
+			},
+			{
+				question: 'Do boilermakers make more than welders?',
+				answer: "Yes, and by a sizable margin. BLS's 2025 wage tables put boilermakers at $76,410 versus $53,750 for the trade that cuts, joins, and repairs metal parts and products, a difference of roughly $22,660.",
+			},
+			{
+				question: 'Is boilermaking a hard job?',
+				answer: "BLS doesn't assign a difficulty score, but its description leaves little doubt: cramped, dark, poorly ventilated tanks, harsh outdoor conditions in any season, and long stretches spent working many stories up on things like dams.",
+			},
+			{
+				question: 'Is a boilermaker a welder?',
+				answer: "No, the two show up as separate occupations in BLS's data, each carrying its own SOC code and pay figures. They overlap in practice, though: BLS points out that people entering with a welding background often land a training slot more easily, even though it isn't a hard requirement.",
+			},
+			{
+				question: 'Where do boilermakers get paid the most?',
+				answer: "Pay peaks in the segment that builds utility systems, a $80,060 median in the same 2025 data, which also happens to employ the largest slice of the workforce, 21%. A narrower equipment-installation contractor niche pays nearly as well, $79,110, while employing just 4% of the trade.",
+			},
+			{
+				question: 'Is boilermaking a growing career?',
+				answer: "No. BLS expects headcount here to contract 2% over the coming decade. WageLark's underwriter and bookkeeper pages show a similar pullback, and both fall more steeply than this trade does. Even so, roughly 700 positions open up each year regardless, almost all from workers retiring or moving into different roles.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Boilermakers (accessed 2026-09-17 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/construction-and-extraction/boilermakers.htm' },
+			{ label: 'O*NET OnLine: Boilermakers, SOC 47-2011.00 (accessed 2026-09-17 via direct fetch, returned 200, cross-checked median wage of $36.74/hour and $76,410/year for 2025 against the BLS figure above)', url: 'https://www.onetonline.org/link/summary/47-2011.00' },
+		],
+		image: '/images/boilermaker-salary-chart.svg',
+		imageAlt: 'Bar chart showing boilermaker annual wage by percentile: 10th percentile $50,490, median $76,410, 90th percentile $110,370, based on BLS May 2025 data.',
 	},
 ];

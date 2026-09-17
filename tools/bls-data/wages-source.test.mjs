@@ -1348,3 +1348,20 @@ test('spot check: Orthotists and Prosthetists (29-2091) matches BLS OOH page', (
 	assert.equal(occ.industryWages[4].industry, 'Hospitals; state, local, and private');
 	assert.equal(occ.industryWages[4].annualWage, 76290);
 });
+
+test('spot check: Boilermakers (47-2011) matches BLS OOH page', () => {
+	const occ = occupations['47-2011'];
+	assert.equal(occ.medianAnnual, 76410);
+	assert.equal(occ.medianHourly, 36.74);
+	assert.deepEqual(occ.percentiles, { p10: 50490, p90: 110370 });
+	assert.equal(occ.employment, 10200);
+	assert.equal(occ.jobOutlookPct, -2);
+	assert.equal(occ.jobOutlookLabel, 'Decline');
+	assert.equal(occ.employmentChange, -200);
+	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Utility system construction');
+	assert.equal(occ.industryWages[0].annualWage, 80060);
+	assert.equal(occ.industryWages[4].industry, 'Fabricated metal product manufacturing');
+	assert.equal(occ.industryWages[4].annualWage, 63760);
+});
