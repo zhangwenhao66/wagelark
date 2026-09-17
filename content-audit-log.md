@@ -2149,3 +2149,70 @@
 **验证与部署**：`npm run build`首次因`medical-assistant-salary`正文里一处单引号字符串内含未转义撇号（"this occupation's largest employment share"）导致esbuild解析失败，已改为双引号包裹并重新构建确认85页0 error。两次commit：`b8559ac`（FAQ新增，11个slug）+`098f222`（撇号转义修复），`git add`均只提交`src/data/guides.ts`，未带上工作区里并发存在的`imageDims.ts`改动和未跟踪的`index-priority.json`/`orthotist-and-prosthetist-salary.bridge-candidates.json`。`git pull --rebase`因这些无关未暂存文件被拒，但两次`git push`均已fast-forward成功推送到origin/main。绕缓存curl抽查5篇（`truck-driver-salary`/`how-to-become-an-electrician`/`funeral-director-salary`/`ironworker-salary`/`salary-statistics-2026`，均`?cb=$RANDOM`）：HTTP全部200，但新FAQ文本在约90秒的轮询窗口内均未命中，判断是Cloudflare Pages部署延迟（历史条目里也出现过类似首次未命中、隔一段时间后命中的情况），不计入本次失败，留给下一次运行或人工复查确认线上生效。
 
 **收尾总结**：本次处理约27篇（含跳过），实际新增FAQ 11篇/12条，全部有一手来源核实（BLS OOH/Walmart官方新闻室/AAMA/FSBPT/ASHA/ICFSEB/SSA）；机械检查11个slug全部从"首轮报警"修复到退出码0；去AI味双技能各真实调用2轮；build从1处语法错误修复到85页0 error；两次commit均已push；线上抽查5篇HTTP 200但新内容因部署延迟未在轮询窗口内确认生效。剩余约12篇（多为0曝光新页面）留给下一轮运行。
+
+```json
+{
+  "url_slug": "pharmacist-salary",
+  "last_audited": "2026-09-17",
+  "published_date": "2026-08-03",
+  "note": "第二次审计（首次08-03为建站基线）。选取依据：站内last_audited最早 + 命中零点击查询增量清单三条待处理项。",
+  "diagnosed_checkpoints": [
+    "check_prose_patterns.py L-0819-9机械检查（08-30后新增规则，本文首次过检）是否命中FAQ与正文逐字重合",
+    "08-03审计明确标注'BLS下次OOH刷新后（约2026年8月）复查一次'——本次是否已到刷新窗口",
+    "零点击查询清单三条待处理项（how much do pharmacists make/pharmacist salary/how much does a pharmacist make）是否为AI摘要截流还是真实内容缺口"
+  ],
+  "findings": [
+    {
+      "dimension": "机械散文检查（第14项）",
+      "status": "确认发现问题，已修复",
+      "detail": "check_prose_patterns.py首次对本文运行，L-0819-9报警9条FAQ全部命中与正文≥20字符逐字重合（如'the bureau of labor statistics'/'a doctor of pharmacy (pharmd)'/'six to eight years of school'等）。独立复核agent确认为真实问题非z-order假阳性。迭代约12轮改写全部FAQ答案措辞，逐项核对改写后数字与事实未变，最终退出码0。改写中意外引入4处em dash，过Skill(humanizer)后清零。"
+    },
+    {
+      "dimension": "时效性",
+      "status": "确认发现问题，已修复",
+      "detail": "08-03基线审计的独立复核曾预测'BLS OOH页面本身尚未同步更新...下一次预计2026年8月前后'。本次WebFetch实测bls.gov/ooh/healthcare/pharmacists.htm已确认刷新为May 2025数据：median annual $137,480→$140,910、hourly $66.10→$67.75、p10 $86,930→$99,290、p90 $172,040→$174,230，行业细分四项数字与顺序均变化（Hospitals反超Ambulatory healthcare services成为最高薪行业），employmentChange 15,400→17,100，projectionPeriod 2024-34→2025-35。已更新wages-source.json（单一数据源，联动生成chart SVG与bls-wages.ts）+guides.ts正文/coreSummary/FAQ/sources/imageAlt全部同步，updated字段改为2026-09-17。"
+    },
+    {
+      "dimension": "竞品差异化/零点击查询",
+      "status": "确认发现但独立复核意见分歧，未强行处理",
+      "detail": "WebSearch实测'how much do pharmacists make'命中AI生成式摘要答案。但独立复核agent进一步查证发现第三方数据分歧大（Glassdoor $158K/Indeed $141K/Zippia $119K/Salary.com $151K等，跨度$118K-$158K），认为这不能100%确认是'纯AI Overview截流、非内容缺口'——用户仍可能因为数字不一致而点击寻求权威来源。本次未在零点击查询增量清单标✅（维持'待处理'），未强行添加未经充分论证的'为什么各家数字不同'类内容，留给后续常规审计评估。"
+    },
+    {
+      "dimension": "事实准确性",
+      "status": "未发现新问题",
+      "detail": "新数字逐项对照BLS OOH页面WebFetch结果核对，NAPLEX 86.8%通过率经WebSearch二次核实仍准确（2025届毕业生数据）。AACP workforce study 73%/66%数字未变动，未重新核实（非本次编辑范围）。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题（沙箱curl误报已排除）",
+      "detail": "NABP NAPLEX pass rate PDF直接curl返回403（Cloudflare WAF，多种UA均如此），但WebSearch确认该URL仍是当前有效文档（标题'Passing Rates for 2023-2025 Graduates'与sources标注一致），判定为沙箱出口IP被拦截，非真实链接失效。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "未发现问题",
+      "detail": "internal_link_audit.py确认全站0孤儿页（此前审计已处理）；本文4条出站内链（clinical-laboratory-technologist-salary/medical-dosimetrist-salary/funeral-director-salary/truck-driver-salary/genetic-counselor-salary）均未受本次编辑影响，链接目标slug均存在。"
+    },
+    {
+      "dimension": "谷歌垃圾政策合规",
+      "status": "PASS",
+      "detail": "Skill(google-spam-compliance)核对：单页事实数字刷新，非规模化生产，投入/原创/附加价值三要素均有，11项检查PASS。"
+    }
+  ],
+  "actions_taken": [
+    "更新tools/bls-data/wages-source.json（SOC 29-1051单条目，BLS May 2024→May 2025全部字段）",
+    "同步更新wages-source.test.mjs硬编码spot-check断言",
+    "运行generate-charts.mjs重新生成pharmacist-salary-chart.svg，build-wage-data.mjs重新生成bls-wages.ts",
+    "guides.ts：title/description/coreSummary/4节正文/9条FAQ/sources访问日期/imageAlt全部同步新数字，updated改为2026-09-17",
+    "改写9条FAQ答案消除与正文的逐字重合（check_prose_patterns.py从9处报警到0）",
+    "过Skill(humanizer)清除改写中引入的4处em dash",
+    "npm test 96/96通过，npm run build 86页0 error",
+    "seo_drift.py baseline→compare：2条WARNING（schema变化+meta description数字变化，均预期），无CRITICAL",
+    "commit 2861885 + push（限定5个文件，未带上并发任务的indexnow-submit-log.json/内容发布日志.md/未跟踪bridge-candidates文件）",
+    "CF Pages部署确认（curl绕缓存4次轮询约60秒命中），node submit-indexnow.mjs提交Bing 200/Yandex 200",
+    "内容发布日志.md追加审计记录（未commit，与并发任务共享文件，留给下次该文件提交时一并带上）"
+  ],
+  "seo_score": "未使用seo-audit重新逐项打分，技术字段（title/meta/schema/canonical）随数字更新同步核对无异常",
+  "geo_score": "未重新逐项打分（此前约89/99基线），本次改动为数字刷新+FAQ去重措辞，未改变论证结构，判断不影响GEO评分",
+  "escalation": null
+}
+```
