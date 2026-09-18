@@ -4,7 +4,8 @@
     "verified_status": "stale_not_indexed",
     "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
-    "verified_method": "bwt_url_inspection"
+    "verified_method": "bwt_url_inspection",
+    "last_submitted_date": "2026-09-18"
   },
   "https://wagelark.com/actuary-salary/": {
     "submitted_date": "2026-08-03",
@@ -50,7 +51,7 @@
     "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
-    "last_submitted_date": "2026-08-17",
+    "last_submitted_date": "2026-09-18",
     "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/how-to-become-an-ultrasound-tech/": {
@@ -215,7 +216,7 @@
   },
   "https://wagelark.com/how-to-become-an-electrician/": {
     "submitted_date": "2026-08-16",
-    "last_submitted_date": "2026-08-16",
+    "last_submitted_date": "2026-09-18",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-09-01",
     "verified_method": "bwt_url_inspection"
