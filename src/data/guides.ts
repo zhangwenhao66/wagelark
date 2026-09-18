@@ -4668,7 +4668,7 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 				heading: 'What this ranking is, and what it is not',
 				body: [
 					"This is a ranking of the 48 occupations WageLark currently has BLS wage data for, not a ranking of every occupation in the U.S. economy that skips a bachelor's degree. BLS's own SOC system covers roughly 800 detailed occupations, and plenty of well-paying no-degree fields, industrial machinery repair outside the roles covered here, certain unionized construction trades, some sales roles, aren't yet built out on this site with the same percentile-and-industry breakdown the rest of this list gets. Treat this as a ranking within a growing, currently 48-occupation dataset, not a claim about the full labor market.",
-					'<div style="border-top:1px solid var(--rule);padding-top:16px;margin-top:8px;"><p style="font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--ink-mute);margin:0;">Cite this</p><p style="font-size:0.875rem;line-height:1.6;color:var(--ink-mute);margin-top:8px;margin-bottom:0;">WageLark Editorial, &#8220;Highest-Paying Jobs Without a Bachelor\'s Degree, Ranked by BLS Pay (2026),&#8221; WageLark, published August 29, 2026, https://wagelark.com/highest-paying-jobs-without-a-degree/.</p></div><p style="margin-top:16px;"><a href="/data/highest-paying-jobs-without-a-degree.csv" download style="color:var(--teal-dark);font-weight:600;">Download the full dataset (CSV, all 29 occupations, one row each)</a></p>',
+					'<p style="margin-top:16px;"><a href="/data/highest-paying-jobs-without-a-degree.csv" download style="color:var(--teal-dark);font-weight:600;">Download the full dataset (CSV, all 29 occupations, one row each)</a></p>',
 				],
 			},
 		],
@@ -5732,7 +5732,6 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 				heading: "Methodology and how to cite this page",
 				body: [
 					"Every figure above links to the original release, report, or press page from the agency or association that produced it: the U.S. Bureau of Labor Statistics, the U.S. Census Bureau, the Federal Reserve Bank of Atlanta, the National Association of Colleges and Employers, and Robert Half. None of it is pulled from a secondary statistics roundup, and each source URL was checked directly before publication. One gap worth flagging: Robert Half's page describes surveying 2,250 business leaders but doesn't break out which specific figures came from that group versus a separate worker-facing survey, so those numbers are presented here as Robert Half itself presents them, without that added layer of detail. Last verified: September 13, 2026.",
-					'<div style="border-top:1px solid var(--rule);padding-top:16px;margin-top:8px;"><p style="font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:var(--ink-mute);margin:0;">Cite this</p><p style="font-size:0.875rem;line-height:1.6;color:var(--ink-mute);margin-top:8px;margin-bottom:0;">WageLark Editorial, &#8220;US Salary Statistics 2026: Sourced, Not Recycled,&#8221; WageLark, published September 13, 2026, https://wagelark.com/salary-statistics-2026/.</p></div>',
 				],
 			},
 		],

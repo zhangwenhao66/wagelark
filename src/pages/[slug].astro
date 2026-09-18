@@ -38,6 +38,14 @@ const catPath = categoryToPath[guide.category] ?? '/';
 const pageUrl = `${SITE_ORIGIN}/${guide.slug}/`;
 const heroImage = `${SITE_ORIGIN}${guide.image ?? '/favicon.svg'}`;
 const toISO = (d: string) => `${d}T00:00:00+00:00`;
+// "Cite this" formatted date, e.g. "August 3, 2026" -- built from the same
+// published/updated fields already on every guide, so this stays in sync
+// automatically rather than being typed out by hand per page (as the two
+// earlier hand-written instances were).
+const citeDate = new Date(`${guide.published ?? guide.updated}T00:00:00Z`).toLocaleDateString(
+	'en-US',
+	{ month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' },
+);
 const breadcrumbItems = [
 	{ name: 'Home', item: `${SITE_ORIGIN}/` },
 	{ name: guide.category, item: `${SITE_ORIGIN}${catPath}` },
@@ -349,6 +357,13 @@ const heroAvifMobile = (() => {
 				</ul>
 			</div>
 		)}
+
+		<div class="mt-6 border-t border-[var(--rule)] pt-4">
+			<p class="font-mono-figures m-0 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-[var(--ink-mute)]">Cite this</p>
+			<p class="mt-2 mb-0 text-sm leading-relaxed text-[var(--ink-mute)]">
+				WageLark Editorial, &#8220;{guide.title},&#8221; WageLark, published {citeDate}, {pageUrl}.
+			</p>
+		</div>
 
 		<div class="mt-6 border-l-2 border-[var(--amber)] bg-[var(--panel)] py-3 pr-3 pl-4 text-xs leading-relaxed text-[var(--ink-soft)]">
 			This page reports government wage statistics for informational purposes. It is not personalized career, financial, or legal advice, and does not endorse or recommend any specific employer, school, or training program.
