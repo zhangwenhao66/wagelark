@@ -1365,3 +1365,80 @@ test('spot check: Boilermakers (47-2011) matches BLS OOH page', () => {
 	assert.equal(occ.industryWages[4].industry, 'Fabricated metal product manufacturing');
 	assert.equal(occ.industryWages[4].annualWage, 63760);
 });
+
+// stateWages (added 2026-09-18) -- state-level pilot for 3 occupations. Source:
+// BLS OEWS state estimates (bls.gov/oes/special-requests/oesm{YY}st.zip), the
+// cross-industry ("000000" NAICS) row per state, extracted with two independent
+// parsers (openpyxl + pandas) that agreed on every value. See
+// 独立站/wagelark/州级薪资数据试点_20260918.md for the full verification trail --
+// this is a DIFFERENT BLS dataset from the OOH-page spot checks above (OOH never
+// publishes state-level medians), so these numbers are not expected to equal or
+// derive from medianAnnual/percentiles on the same occupation.
+test('stateWages: structural sanity for the 3 pilot occupations', () => {
+	const PILOT_SOCS = ['29-2034', '47-2111', '29-1051'];
+	for (const soc of PILOT_SOCS) {
+		const occ = occupations[soc];
+		assert.ok(Array.isArray(occ.stateWages), `${soc}: stateWages must be an array`);
+		// 50 states + DC, no more, no less.
+		assert.equal(occ.stateWages.length, 51, `${soc}: expected 51 states+DC`);
+		const seenAbbr = new Set();
+		for (const row of occ.stateWages) {
+			assert.ok(row.state && row.state.length > 0, `${soc}: state name required`);
+			assert.match(row.stateAbbr, /^[A-Z]{2}$/, `${soc}: stateAbbr must be 2 uppercase letters, got ${row.stateAbbr}`);
+			assert.ok(!seenAbbr.has(row.stateAbbr), `${soc}: duplicate state ${row.stateAbbr}`);
+			seenAbbr.add(row.stateAbbr);
+			assert.ok(row.annualPct10 > 0, `${soc}/${row.stateAbbr}: annualPct10 must be positive`);
+			assert.ok(row.annualMedian > row.annualPct10, `${soc}/${row.stateAbbr}: median must exceed p10`);
+			assert.ok(row.annualPct90 > row.annualMedian, `${soc}/${row.stateAbbr}: p90 must exceed median`);
+		}
+		assert.ok(occ.stateWagesSourceUrl.startsWith('https://www.bls.gov/'), `${soc}: stateWagesSourceUrl must be an official bls.gov page`);
+		// Not asserted equal to occ.dataYear: BLS's OOH pages (the source of
+		// dataYear/medianAnnual) and the OEWS state flat files are published on
+		// different schedules -- the state file can be a newer OEWS round than
+		// the OOH page has rolled forward to yet (true for 29-2034 here: OOH
+		// still shows May 2024, but the May 2025 state file is what's
+		// independently verifiable via CareerOneStop, so that's what's used).
+		assert.match(occ.stateWagesDataYear, /^May \d{4}$/, `${soc}: stateWagesDataYear must look like "May 2024"`);
+	}
+});
+
+test('stateWages: occupations outside the pilot have no fabricated state data', () => {
+	const PILOT_SOCS = new Set(['29-2034', '47-2111', '29-1051']);
+	for (const [soc, occ] of Object.entries(occupations)) {
+		if (PILOT_SOCS.has(soc)) continue;
+		assert.equal(occ.stateWages, undefined, `${soc}: should not have stateWages outside the verified pilot`);
+	}
+});
+
+// Spot checks below are independently re-derived from CareerOneStop.org (a
+// U.S. Department of Labor-funded site whose wage tool draws on the same BLS
+// OEWS survey), fetched 2026-09-18, NOT copied from wages-source.json -- a
+// future silent edit to the state figures should get caught here instead of
+// both drifting together. One high-wage, one low-wage, one middle-wage state,
+// one per pilot occupation.
+test('stateWages spot check: Radiologic Technologists Mississippi (low-wage state) matches CareerOneStop', () => {
+	const occ = occupations['29-2034'];
+	const row = occ.stateWages.find((r) => r.stateAbbr === 'MS');
+	assert.ok(row, 'Mississippi row must exist');
+	assert.equal(row.annualPct10, 40740);
+	assert.equal(row.annualMedian, 59300);
+	assert.equal(row.annualPct90, 78090);
+});
+
+test('stateWages spot check: Electricians California (high-wage state) matches CareerOneStop', () => {
+	const occ = occupations['47-2111'];
+	const row = occ.stateWages.find((r) => r.stateAbbr === 'CA');
+	assert.ok(row, 'California row must exist');
+	assert.equal(row.annualPct10, 46800);
+	assert.equal(row.annualMedian, 76160);
+	assert.equal(row.annualPct90, 140340);
+});
+
+test('stateWages spot check: Pharmacists Texas (middle-wage state) matches CareerOneStop', () => {
+	const occ = occupations['29-1051'];
+	const row = occ.stateWages.find((r) => r.stateAbbr === 'TX');
+	assert.ok(row, 'Texas row must exist');
+	assert.equal(row.annualPct10, 95950);
+	assert.equal(row.annualMedian, 138260);
+	assert.equal(row.annualPct90, 170170);
+});

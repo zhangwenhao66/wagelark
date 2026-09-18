@@ -1,5 +1,5 @@
 {
-  "_readme": "Source of truth for BLS wage figures used on WageLark. Every entry is hand-verified against the live BLS Occupational Outlook Handbook page listed in sourceUrl (fetched and cross-checked on 2026-08-03). Do not edit numbers here from memory -- re-fetch the sourceUrl and update dataYear/publishedDate when refreshing. Run `node tools/bls-data/build-wage-data.mjs` after any edit, then `npm test` before using the generated output.",
+  "_readme": "Source of truth for BLS wage figures used on WageLark. Every entry is hand-verified against the live BLS Occupational Outlook Handbook page listed in sourceUrl (fetched and cross-checked on 2026-08-03). Do not edit numbers here from memory -- re-fetch the sourceUrl and update dataYear/publishedDate when refreshing. Run `node tools/bls-data/build-wage-data.mjs` after any edit, then `npm test` before using the generated output. stateWages (added 2026-09-18) is a separate hand-verified layer: raw BLS OEWS state-level XLSX (bls.gov/oes/special-requests/oesm{YY}st.zip), cross-industry rows only, extracted with two independent parsers (openpyxl + pandas) and spot-checked against CareerOneStop.org (DOL-funded, same OEWS survey) for a high/low/middle state per occupation -- see 独立站/wagelark/州级薪资数据试点_20260918.md for the full verification trail. Only occupations with a stateWagesSourceUrl have this; do not backfill others without repeating the same verification.",
   "occupations": {
     "47-2011": {
       "title": "Boilermakers",
@@ -603,7 +603,368 @@
       "dataYear": "May 2025",
       "sourceLabel": "BLS Occupational Outlook Handbook: Pharmacists",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/pharmacists.htm",
-      "publishedDate": "2026-09-17"
+      "publishedDate": "2026-09-17",
+      "stateWages": [
+        {
+          "state": "Alaska",
+          "stateAbbr": "AK",
+          "annualMedian": 167310,
+          "annualPct10": 133830,
+          "annualPct90": 196020
+        },
+        {
+          "state": "Oregon",
+          "stateAbbr": "OR",
+          "annualMedian": 165960,
+          "annualPct10": 126040,
+          "annualPct90": 193860
+        },
+        {
+          "state": "California",
+          "stateAbbr": "CA",
+          "annualMedian": 164610,
+          "annualPct10": 90560,
+          "annualPct90": 213820
+        },
+        {
+          "state": "Hawaii",
+          "stateAbbr": "HI",
+          "annualMedian": 163220,
+          "annualPct10": 127410,
+          "annualPct90": 177290
+        },
+        {
+          "state": "Washington",
+          "stateAbbr": "WA",
+          "annualMedian": 160610,
+          "annualPct10": 126230,
+          "annualPct90": 205210
+        },
+        {
+          "state": "Minnesota",
+          "stateAbbr": "MN",
+          "annualMedian": 159740,
+          "annualPct10": 98150,
+          "annualPct90": 174660
+        },
+        {
+          "state": "Colorado",
+          "stateAbbr": "CO",
+          "annualMedian": 156030,
+          "annualPct10": 120410,
+          "annualPct90": 188430
+        },
+        {
+          "state": "District of Columbia",
+          "stateAbbr": "DC",
+          "annualMedian": 153400,
+          "annualPct10": 64870,
+          "annualPct90": 196080
+        },
+        {
+          "state": "Delaware",
+          "stateAbbr": "DE",
+          "annualMedian": 152880,
+          "annualPct10": 103170,
+          "annualPct90": 178760
+        },
+        {
+          "state": "Wisconsin",
+          "stateAbbr": "WI",
+          "annualMedian": 148740,
+          "annualPct10": 112020,
+          "annualPct90": 178090
+        },
+        {
+          "state": "New Mexico",
+          "stateAbbr": "NM",
+          "annualMedian": 147000,
+          "annualPct10": 103500,
+          "annualPct90": 174200
+        },
+        {
+          "state": "Arizona",
+          "stateAbbr": "AZ",
+          "annualMedian": 146930,
+          "annualPct10": 103490,
+          "annualPct90": 171660
+        },
+        {
+          "state": "South Dakota",
+          "stateAbbr": "SD",
+          "annualMedian": 146790,
+          "annualPct10": 112200,
+          "annualPct90": 166340
+        },
+        {
+          "state": "Idaho",
+          "stateAbbr": "ID",
+          "annualMedian": 144900,
+          "annualPct10": 102180,
+          "annualPct90": 164050
+        },
+        {
+          "state": "Indiana",
+          "stateAbbr": "IN",
+          "annualMedian": 144290,
+          "annualPct10": 107050,
+          "annualPct90": 169360
+        },
+        {
+          "state": "Utah",
+          "stateAbbr": "UT",
+          "annualMedian": 144240,
+          "annualPct10": 70260,
+          "annualPct90": 172440
+        },
+        {
+          "state": "Virginia",
+          "stateAbbr": "VA",
+          "annualMedian": 144060,
+          "annualPct10": 106800,
+          "annualPct90": 173550
+        },
+        {
+          "state": "New Hampshire",
+          "stateAbbr": "NH",
+          "annualMedian": 143020,
+          "annualPct10": 98870,
+          "annualPct90": 170030
+        },
+        {
+          "state": "New York",
+          "stateAbbr": "NY",
+          "annualMedian": 142090,
+          "annualPct10": 92910,
+          "annualPct90": 174550
+        },
+        {
+          "state": "Montana",
+          "stateAbbr": "MT",
+          "annualMedian": 142080,
+          "annualPct10": 98660,
+          "annualPct90": 165260
+        },
+        {
+          "state": "North Dakota",
+          "stateAbbr": "ND",
+          "annualMedian": 142040,
+          "annualPct10": 105490,
+          "annualPct90": 167940
+        },
+        {
+          "state": "Connecticut",
+          "stateAbbr": "CT",
+          "annualMedian": 141290,
+          "annualPct10": 106660,
+          "annualPct90": 165360
+        },
+        {
+          "state": "Maine",
+          "stateAbbr": "ME",
+          "annualMedian": 140930,
+          "annualPct10": 101360,
+          "annualPct90": 166810
+        },
+        {
+          "state": "Nevada",
+          "stateAbbr": "NV",
+          "annualMedian": 140030,
+          "annualPct10": 104000,
+          "annualPct90": 168600
+        },
+        {
+          "state": "Wyoming",
+          "stateAbbr": "WY",
+          "annualMedian": 139550,
+          "annualPct10": 115820,
+          "annualPct90": 168450
+        },
+        {
+          "state": "Nebraska",
+          "stateAbbr": "NE",
+          "annualMedian": 139330,
+          "annualPct10": 84990,
+          "annualPct90": 170090
+        },
+        {
+          "state": "Illinois",
+          "stateAbbr": "IL",
+          "annualMedian": 139080,
+          "annualPct10": 98970,
+          "annualPct90": 169430
+        },
+        {
+          "state": "Maryland",
+          "stateAbbr": "MD",
+          "annualMedian": 138990,
+          "annualPct10": 115860,
+          "annualPct90": 169890
+        },
+        {
+          "state": "Iowa",
+          "stateAbbr": "IA",
+          "annualMedian": 138860,
+          "annualPct10": 117450,
+          "annualPct90": 164520
+        },
+        {
+          "state": "North Carolina",
+          "stateAbbr": "NC",
+          "annualMedian": 138860,
+          "annualPct10": 101670,
+          "annualPct90": 169820
+        },
+        {
+          "state": "Texas",
+          "stateAbbr": "TX",
+          "annualMedian": 138260,
+          "annualPct10": 95950,
+          "annualPct90": 170170
+        },
+        {
+          "state": "Massachusetts",
+          "stateAbbr": "MA",
+          "annualMedian": 138170,
+          "annualPct10": 113710,
+          "annualPct90": 164500
+        },
+        {
+          "state": "Pennsylvania",
+          "stateAbbr": "PA",
+          "annualMedian": 138160,
+          "annualPct10": 112750,
+          "annualPct90": 163570
+        },
+        {
+          "state": "Michigan",
+          "stateAbbr": "MI",
+          "annualMedian": 137860,
+          "annualPct10": 101740,
+          "annualPct90": 168540
+        },
+        {
+          "state": "Kansas",
+          "stateAbbr": "KS",
+          "annualMedian": 137800,
+          "annualPct10": 78770,
+          "annualPct90": 169310
+        },
+        {
+          "state": "New Jersey",
+          "stateAbbr": "NJ",
+          "annualMedian": 137620,
+          "annualPct10": 112560,
+          "annualPct90": 172110
+        },
+        {
+          "state": "Missouri",
+          "stateAbbr": "MO",
+          "annualMedian": 137610,
+          "annualPct10": 107530,
+          "annualPct90": 166840
+        },
+        {
+          "state": "Georgia",
+          "stateAbbr": "GA",
+          "annualMedian": 137120,
+          "annualPct10": 100950,
+          "annualPct90": 170110
+        },
+        {
+          "state": "Ohio",
+          "stateAbbr": "OH",
+          "annualMedian": 137020,
+          "annualPct10": 65470,
+          "annualPct90": 165900
+        },
+        {
+          "state": "Kentucky",
+          "stateAbbr": "KY",
+          "annualMedian": 136530,
+          "annualPct10": 84280,
+          "annualPct90": 168940
+        },
+        {
+          "state": "Vermont",
+          "stateAbbr": "VT",
+          "annualMedian": 136270,
+          "annualPct10": 117860,
+          "annualPct90": 164370
+        },
+        {
+          "state": "Arkansas",
+          "stateAbbr": "AR",
+          "annualMedian": 136060,
+          "annualPct10": 105560,
+          "annualPct90": 164940
+        },
+        {
+          "state": "Florida",
+          "stateAbbr": "FL",
+          "annualMedian": 135970,
+          "annualPct10": 56000,
+          "annualPct90": 166310
+        },
+        {
+          "state": "South Carolina",
+          "stateAbbr": "SC",
+          "annualMedian": 135700,
+          "annualPct10": 82430,
+          "annualPct90": 170270
+        },
+        {
+          "state": "Oklahoma",
+          "stateAbbr": "OK",
+          "annualMedian": 135140,
+          "annualPct10": 100320,
+          "annualPct90": 162070
+        },
+        {
+          "state": "Alabama",
+          "stateAbbr": "AL",
+          "annualMedian": 134630,
+          "annualPct10": 90010,
+          "annualPct90": 161940
+        },
+        {
+          "state": "West Virginia",
+          "stateAbbr": "WV",
+          "annualMedian": 133430,
+          "annualPct10": 80900,
+          "annualPct90": 166020
+        },
+        {
+          "state": "Tennessee",
+          "stateAbbr": "TN",
+          "annualMedian": 133390,
+          "annualPct10": 88700,
+          "annualPct90": 164430
+        },
+        {
+          "state": "Mississippi",
+          "stateAbbr": "MS",
+          "annualMedian": 133230,
+          "annualPct10": 97260,
+          "annualPct90": 158230
+        },
+        {
+          "state": "Louisiana",
+          "stateAbbr": "LA",
+          "annualMedian": 132410,
+          "annualPct10": 100920,
+          "annualPct90": 156740
+        },
+        {
+          "state": "Rhode Island",
+          "stateAbbr": "RI",
+          "annualMedian": 128180,
+          "annualPct10": 86650,
+          "annualPct90": 161090
+        }
+      ],
+      "stateWagesSourceUrl": "https://www.bls.gov/oes/special-requests/oesm25st.zip",
+      "stateWagesDataYear": "May 2025"
     },
     "29-1123": {
       "title": "Physical Therapists",
@@ -843,7 +1204,368 @@
       "dataYear": "May 2024",
       "sourceLabel": "BLS Occupational Outlook Handbook: Radiologic and MRI Technologists",
       "sourceUrl": "https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm",
-      "publishedDate": "2025-08-28"
+      "publishedDate": "2025-08-28",
+      "stateWages": [
+        {
+          "state": "California",
+          "stateAbbr": "CA",
+          "annualMedian": 121260,
+          "annualPct10": 70210,
+          "annualPct90": 165460
+        },
+        {
+          "state": "Massachusetts",
+          "stateAbbr": "MA",
+          "annualMedian": 103620,
+          "annualPct10": 75350,
+          "annualPct90": 131940
+        },
+        {
+          "state": "District of Columbia",
+          "stateAbbr": "DC",
+          "annualMedian": 102770,
+          "annualPct10": 59130,
+          "annualPct90": 128120
+        },
+        {
+          "state": "Oregon",
+          "stateAbbr": "OR",
+          "annualMedian": 102290,
+          "annualPct10": 70760,
+          "annualPct90": 124810
+        },
+        {
+          "state": "Washington",
+          "stateAbbr": "WA",
+          "annualMedian": 102090,
+          "annualPct10": 66570,
+          "annualPct90": 132060
+        },
+        {
+          "state": "Hawaii",
+          "stateAbbr": "HI",
+          "annualMedian": 101700,
+          "annualPct10": 39150,
+          "annualPct90": 115440
+        },
+        {
+          "state": "Alaska",
+          "stateAbbr": "AK",
+          "annualMedian": 98920,
+          "annualPct10": 74210,
+          "annualPct90": 126860
+        },
+        {
+          "state": "New York",
+          "stateAbbr": "NY",
+          "annualMedian": 98470,
+          "annualPct10": 67540,
+          "annualPct90": 129310
+        },
+        {
+          "state": "New Jersey",
+          "stateAbbr": "NJ",
+          "annualMedian": 95000,
+          "annualPct10": 71770,
+          "annualPct90": 118410
+        },
+        {
+          "state": "Vermont",
+          "stateAbbr": "VT",
+          "annualMedian": 94540,
+          "annualPct10": 66960,
+          "annualPct90": 125230
+        },
+        {
+          "state": "Connecticut",
+          "stateAbbr": "CT",
+          "annualMedian": 91970,
+          "annualPct10": 68070,
+          "annualPct90": 122760
+        },
+        {
+          "state": "Arizona",
+          "stateAbbr": "AZ",
+          "annualMedian": 89200,
+          "annualPct10": 61510,
+          "annualPct90": 123410
+        },
+        {
+          "state": "Colorado",
+          "stateAbbr": "CO",
+          "annualMedian": 87760,
+          "annualPct10": 63270,
+          "annualPct90": 111730
+        },
+        {
+          "state": "Maryland",
+          "stateAbbr": "MD",
+          "annualMedian": 85890,
+          "annualPct10": 68140,
+          "annualPct90": 106260
+        },
+        {
+          "state": "Rhode Island",
+          "stateAbbr": "RI",
+          "annualMedian": 85330,
+          "annualPct10": 65840,
+          "annualPct90": 109640
+        },
+        {
+          "state": "New Hampshire",
+          "stateAbbr": "NH",
+          "annualMedian": 84910,
+          "annualPct10": 64620,
+          "annualPct90": 106370
+        },
+        {
+          "state": "Delaware",
+          "stateAbbr": "DE",
+          "annualMedian": 84210,
+          "annualPct10": 61770,
+          "annualPct90": 108980
+        },
+        {
+          "state": "Minnesota",
+          "stateAbbr": "MN",
+          "annualMedian": 83400,
+          "annualPct10": 67080,
+          "annualPct90": 106100
+        },
+        {
+          "state": "Nevada",
+          "stateAbbr": "NV",
+          "annualMedian": 82910,
+          "annualPct10": 65710,
+          "annualPct90": 121700
+        },
+        {
+          "state": "Utah",
+          "stateAbbr": "UT",
+          "annualMedian": 81000,
+          "annualPct10": 48150,
+          "annualPct90": 108070
+        },
+        {
+          "state": "Virginia",
+          "stateAbbr": "VA",
+          "annualMedian": 80670,
+          "annualPct10": 60000,
+          "annualPct90": 106170
+        },
+        {
+          "state": "Idaho",
+          "stateAbbr": "ID",
+          "annualMedian": 80080,
+          "annualPct10": 60540,
+          "annualPct90": 103580
+        },
+        {
+          "state": "Maine",
+          "stateAbbr": "ME",
+          "annualMedian": 80080,
+          "annualPct10": 62210,
+          "annualPct90": 102640
+        },
+        {
+          "state": "New Mexico",
+          "stateAbbr": "NM",
+          "annualMedian": 79940,
+          "annualPct10": 59560,
+          "annualPct90": 104120
+        },
+        {
+          "state": "Illinois",
+          "stateAbbr": "IL",
+          "annualMedian": 79930,
+          "annualPct10": 59350,
+          "annualPct90": 104210
+        },
+        {
+          "state": "Wisconsin",
+          "stateAbbr": "WI",
+          "annualMedian": 79140,
+          "annualPct10": 61870,
+          "annualPct90": 99420
+        },
+        {
+          "state": "Texas",
+          "stateAbbr": "TX",
+          "annualMedian": 78630,
+          "annualPct10": 48550,
+          "annualPct90": 102630
+        },
+        {
+          "state": "Ohio",
+          "stateAbbr": "OH",
+          "annualMedian": 78320,
+          "annualPct10": 60360,
+          "annualPct90": 98450
+        },
+        {
+          "state": "Wyoming",
+          "stateAbbr": "WY",
+          "annualMedian": 77860,
+          "annualPct10": 56750,
+          "annualPct90": 104790
+        },
+        {
+          "state": "Indiana",
+          "stateAbbr": "IN",
+          "annualMedian": 77640,
+          "annualPct10": 51090,
+          "annualPct90": 99580
+        },
+        {
+          "state": "Montana",
+          "stateAbbr": "MT",
+          "annualMedian": 77070,
+          "annualPct10": 55750,
+          "annualPct90": 91650
+        },
+        {
+          "state": "Florida",
+          "stateAbbr": "FL",
+          "annualMedian": 76750,
+          "annualPct10": 51390,
+          "annualPct90": 99020
+        },
+        {
+          "state": "Michigan",
+          "stateAbbr": "MI",
+          "annualMedian": 76420,
+          "annualPct10": 55450,
+          "annualPct90": 97250
+        },
+        {
+          "state": "Kansas",
+          "stateAbbr": "KS",
+          "annualMedian": 76070,
+          "annualPct10": 50940,
+          "annualPct90": 98320
+        },
+        {
+          "state": "Pennsylvania",
+          "stateAbbr": "PA",
+          "annualMedian": 76050,
+          "annualPct10": 56430,
+          "annualPct90": 97740
+        },
+        {
+          "state": "Georgia",
+          "stateAbbr": "GA",
+          "annualMedian": 74550,
+          "annualPct10": 49730,
+          "annualPct90": 102840
+        },
+        {
+          "state": "North Carolina",
+          "stateAbbr": "NC",
+          "annualMedian": 74450,
+          "annualPct10": 52860,
+          "annualPct90": 99210
+        },
+        {
+          "state": "Oklahoma",
+          "stateAbbr": "OK",
+          "annualMedian": 74160,
+          "annualPct10": 49920,
+          "annualPct90": 96880
+        },
+        {
+          "state": "West Virginia",
+          "stateAbbr": "WV",
+          "annualMedian": 74150,
+          "annualPct10": 56270,
+          "annualPct90": 95510
+        },
+        {
+          "state": "Missouri",
+          "stateAbbr": "MO",
+          "annualMedian": 73080,
+          "annualPct10": 50810,
+          "annualPct90": 97150
+        },
+        {
+          "state": "Nebraska",
+          "stateAbbr": "NE",
+          "annualMedian": 72860,
+          "annualPct10": 54410,
+          "annualPct90": 98300
+        },
+        {
+          "state": "Kentucky",
+          "stateAbbr": "KY",
+          "annualMedian": 69670,
+          "annualPct10": 51740,
+          "annualPct90": 99170
+        },
+        {
+          "state": "South Carolina",
+          "stateAbbr": "SC",
+          "annualMedian": 69600,
+          "annualPct10": 51860,
+          "annualPct90": 96020
+        },
+        {
+          "state": "North Dakota",
+          "stateAbbr": "ND",
+          "annualMedian": 67790,
+          "annualPct10": 60600,
+          "annualPct90": 93870
+        },
+        {
+          "state": "Iowa",
+          "stateAbbr": "IA",
+          "annualMedian": 65930,
+          "annualPct10": 54360,
+          "annualPct90": 86520
+        },
+        {
+          "state": "South Dakota",
+          "stateAbbr": "SD",
+          "annualMedian": 65240,
+          "annualPct10": 48730,
+          "annualPct90": 89710
+        },
+        {
+          "state": "Tennessee",
+          "stateAbbr": "TN",
+          "annualMedian": 64630,
+          "annualPct10": 50540,
+          "annualPct90": 90790
+        },
+        {
+          "state": "Louisiana",
+          "stateAbbr": "LA",
+          "annualMedian": 63680,
+          "annualPct10": 50030,
+          "annualPct90": 82830
+        },
+        {
+          "state": "Arkansas",
+          "stateAbbr": "AR",
+          "annualMedian": 63640,
+          "annualPct10": 46810,
+          "annualPct90": 94180
+        },
+        {
+          "state": "Alabama",
+          "stateAbbr": "AL",
+          "annualMedian": 60700,
+          "annualPct10": 41060,
+          "annualPct90": 80300
+        },
+        {
+          "state": "Mississippi",
+          "stateAbbr": "MS",
+          "annualMedian": 59300,
+          "annualPct10": 40740,
+          "annualPct90": 78090
+        }
+      ],
+      "stateWagesSourceUrl": "https://www.bls.gov/oes/special-requests/oesm25st.zip",
+      "stateWagesDataYear": "May 2025"
     },
     "53-2031": {
       "title": "Flight Attendants",
@@ -1218,7 +1940,368 @@
       "dataYear": "May 2025",
       "sourceLabel": "BLS Occupational Outlook Handbook: Electricians",
       "sourceUrl": "https://www.bls.gov/ooh/construction-and-extraction/electricians.htm",
-      "publishedDate": "2026-09-04"
+      "publishedDate": "2026-09-04",
+      "stateWages": [
+        {
+          "state": "Oregon",
+          "stateAbbr": "OR",
+          "annualMedian": 101310,
+          "annualPct10": 59550,
+          "annualPct90": 131530
+        },
+        {
+          "state": "Illinois",
+          "stateAbbr": "IL",
+          "annualMedian": 99560,
+          "annualPct10": 49240,
+          "annualPct90": 123660
+        },
+        {
+          "state": "Hawaii",
+          "stateAbbr": "HI",
+          "annualMedian": 96460,
+          "annualPct10": 45730,
+          "annualPct90": 124590
+        },
+        {
+          "state": "Washington",
+          "stateAbbr": "WA",
+          "annualMedian": 95220,
+          "annualPct10": 52170,
+          "annualPct90": 133950
+        },
+        {
+          "state": "Alaska",
+          "stateAbbr": "AK",
+          "annualMedian": 89440,
+          "annualPct10": 58420,
+          "annualPct90": 123200
+        },
+        {
+          "state": "Massachusetts",
+          "stateAbbr": "MA",
+          "annualMedian": 79420,
+          "annualPct10": 46990,
+          "annualPct90": 128210
+        },
+        {
+          "state": "District of Columbia",
+          "stateAbbr": "DC",
+          "annualMedian": 78970,
+          "annualPct10": 51950,
+          "annualPct90": 125790
+        },
+        {
+          "state": "New York",
+          "stateAbbr": "NY",
+          "annualMedian": 78750,
+          "annualPct10": 45740,
+          "annualPct90": 131640
+        },
+        {
+          "state": "Minnesota",
+          "stateAbbr": "MN",
+          "annualMedian": 78160,
+          "annualPct10": 47480,
+          "annualPct90": 118820
+        },
+        {
+          "state": "Connecticut",
+          "stateAbbr": "CT",
+          "annualMedian": 77540,
+          "annualPct10": 47680,
+          "annualPct90": 104280
+        },
+        {
+          "state": "New Jersey",
+          "stateAbbr": "NJ",
+          "annualMedian": 77250,
+          "annualPct10": 48570,
+          "annualPct90": 130860
+        },
+        {
+          "state": "Montana",
+          "stateAbbr": "MT",
+          "annualMedian": 76760,
+          "annualPct10": 49130,
+          "annualPct90": 89510
+        },
+        {
+          "state": "Wisconsin",
+          "stateAbbr": "WI",
+          "annualMedian": 76540,
+          "annualPct10": 44830,
+          "annualPct90": 101770
+        },
+        {
+          "state": "Michigan",
+          "stateAbbr": "MI",
+          "annualMedian": 76270,
+          "annualPct10": 42980,
+          "annualPct90": 103120
+        },
+        {
+          "state": "California",
+          "stateAbbr": "CA",
+          "annualMedian": 76160,
+          "annualPct10": 46800,
+          "annualPct90": 140340
+        },
+        {
+          "state": "Wyoming",
+          "stateAbbr": "WY",
+          "annualMedian": 76120,
+          "annualPct10": 48240,
+          "annualPct90": 104000
+        },
+        {
+          "state": "Maine",
+          "stateAbbr": "ME",
+          "annualMedian": 75380,
+          "annualPct10": 54180,
+          "annualPct90": 115720
+        },
+        {
+          "state": "Rhode Island",
+          "stateAbbr": "RI",
+          "annualMedian": 74090,
+          "annualPct10": 42990,
+          "annualPct90": 102840
+        },
+        {
+          "state": "Nevada",
+          "stateAbbr": "NV",
+          "annualMedian": 73570,
+          "annualPct10": 46110,
+          "annualPct90": 121200
+        },
+        {
+          "state": "Maryland",
+          "stateAbbr": "MD",
+          "annualMedian": 73490,
+          "annualPct10": 46450,
+          "annualPct90": 118370
+        },
+        {
+          "state": "Indiana",
+          "stateAbbr": "IN",
+          "annualMedian": 68490,
+          "annualPct10": 43190,
+          "annualPct90": 99310
+        },
+        {
+          "state": "Pennsylvania",
+          "stateAbbr": "PA",
+          "annualMedian": 67600,
+          "annualPct10": 45600,
+          "annualPct90": 122620
+        },
+        {
+          "state": "Kansas",
+          "stateAbbr": "KS",
+          "annualMedian": 65860,
+          "annualPct10": 42660,
+          "annualPct90": 96830
+        },
+        {
+          "state": "North Dakota",
+          "stateAbbr": "ND",
+          "annualMedian": 65710,
+          "annualPct10": 46440,
+          "annualPct90": 101020
+        },
+        {
+          "state": "Missouri",
+          "stateAbbr": "MO",
+          "annualMedian": 65410,
+          "annualPct10": 43860,
+          "annualPct90": 104060
+        },
+        {
+          "state": "West Virginia",
+          "stateAbbr": "WV",
+          "annualMedian": 64810,
+          "annualPct10": 43620,
+          "annualPct90": 95140
+        },
+        {
+          "state": "Ohio",
+          "stateAbbr": "OH",
+          "annualMedian": 64700,
+          "annualPct10": 40750,
+          "annualPct90": 99280
+        },
+        {
+          "state": "Delaware",
+          "stateAbbr": "DE",
+          "annualMedian": 63700,
+          "annualPct10": 38280,
+          "annualPct90": 105340
+        },
+        {
+          "state": "Vermont",
+          "stateAbbr": "VT",
+          "annualMedian": 63430,
+          "annualPct10": 47470,
+          "annualPct90": 132080
+        },
+        {
+          "state": "Idaho",
+          "stateAbbr": "ID",
+          "annualMedian": 63000,
+          "annualPct10": 38830,
+          "annualPct90": 95470
+        },
+        {
+          "state": "Virginia",
+          "stateAbbr": "VA",
+          "annualMedian": 62900,
+          "annualPct10": 40780,
+          "annualPct90": 105720
+        },
+        {
+          "state": "New Hampshire",
+          "stateAbbr": "NH",
+          "annualMedian": 62840,
+          "annualPct10": 43190,
+          "annualPct90": 91850
+        },
+        {
+          "state": "Colorado",
+          "stateAbbr": "CO",
+          "annualMedian": 62230,
+          "annualPct10": 45520,
+          "annualPct90": 94160
+        },
+        {
+          "state": "Utah",
+          "stateAbbr": "UT",
+          "annualMedian": 62000,
+          "annualPct10": 39940,
+          "annualPct90": 89110
+        },
+        {
+          "state": "Louisiana",
+          "stateAbbr": "LA",
+          "annualMedian": 61540,
+          "annualPct10": 38750,
+          "annualPct90": 81810
+        },
+        {
+          "state": "South Dakota",
+          "stateAbbr": "SD",
+          "annualMedian": 61390,
+          "annualPct10": 44320,
+          "annualPct90": 80060
+        },
+        {
+          "state": "Tennessee",
+          "stateAbbr": "TN",
+          "annualMedian": 61090,
+          "annualPct10": 39600,
+          "annualPct90": 92160
+        },
+        {
+          "state": "Arizona",
+          "stateAbbr": "AZ",
+          "annualMedian": 61060,
+          "annualPct10": 45540,
+          "annualPct90": 89600
+        },
+        {
+          "state": "Oklahoma",
+          "stateAbbr": "OK",
+          "annualMedian": 61010,
+          "annualPct10": 37900,
+          "annualPct90": 92740
+        },
+        {
+          "state": "Iowa",
+          "stateAbbr": "IA",
+          "annualMedian": 60860,
+          "annualPct10": 39770,
+          "annualPct90": 89480
+        },
+        {
+          "state": "Mississippi",
+          "stateAbbr": "MS",
+          "annualMedian": 60860,
+          "annualPct10": 38200,
+          "annualPct90": 76540
+        },
+        {
+          "state": "Nebraska",
+          "stateAbbr": "NE",
+          "annualMedian": 60820,
+          "annualPct10": 40400,
+          "annualPct90": 94040
+        },
+        {
+          "state": "Kentucky",
+          "stateAbbr": "KY",
+          "annualMedian": 59720,
+          "annualPct10": 37110,
+          "annualPct90": 85260
+        },
+        {
+          "state": "South Carolina",
+          "stateAbbr": "SC",
+          "annualMedian": 58740,
+          "annualPct10": 44330,
+          "annualPct90": 77800
+        },
+        {
+          "state": "Texas",
+          "stateAbbr": "TX",
+          "annualMedian": 58570,
+          "annualPct10": 37920,
+          "annualPct90": 80300
+        },
+        {
+          "state": "New Mexico",
+          "stateAbbr": "NM",
+          "annualMedian": 58390,
+          "annualPct10": 36650,
+          "annualPct90": 86830
+        },
+        {
+          "state": "Georgia",
+          "stateAbbr": "GA",
+          "annualMedian": 58320,
+          "annualPct10": 37180,
+          "annualPct90": 84000
+        },
+        {
+          "state": "Florida",
+          "stateAbbr": "FL",
+          "annualMedian": 57250,
+          "annualPct10": 38190,
+          "annualPct90": 77180
+        },
+        {
+          "state": "North Carolina",
+          "stateAbbr": "NC",
+          "annualMedian": 56800,
+          "annualPct10": 40130,
+          "annualPct90": 75060
+        },
+        {
+          "state": "Alabama",
+          "stateAbbr": "AL",
+          "annualMedian": 55690,
+          "annualPct10": 37640,
+          "annualPct90": 78230
+        },
+        {
+          "state": "Arkansas",
+          "stateAbbr": "AR",
+          "annualMedian": 49070,
+          "annualPct10": 34910,
+          "annualPct90": 74460
+        }
+      ],
+      "stateWagesSourceUrl": "https://www.bls.gov/oes/special-requests/oesm25st.zip",
+      "stateWagesDataYear": "May 2025"
     },
     "33-2011": {
       "title": "Firefighters",

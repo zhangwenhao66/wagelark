@@ -8,6 +8,7 @@ import { pickRelatedGuides } from '../../vendor/site-toolkit/packages/related-gu
 import { guides, wageDataFor, type Guide } from '../data/guides';
 import { AUTHOR_NAME, SITE_ORIGIN } from '../consts';
 import SalaryPercentileTool from '../components/SalaryPercentileTool.astro';
+import StateWageTable from '../components/StateWageTable.astro';
 import FeedbackCard from '../components/FeedbackCard.astro';
 
 export function getStaticPaths() {
@@ -224,6 +225,8 @@ const heroAvifMobile = (() => {
 		)}
 
 		{wage && <SalaryPercentileTool wage={wage} />}
+
+		{wage && wage.stateWages && wage.stateWages.length > 0 && <StateWageTable wage={wage} />}
 
 		{wage && wage.industryWages.length > 0 && (
 			<div class="mt-6 overflow-x-auto border border-[var(--rule)] bg-white">

@@ -1,0 +1,164 @@
+---
+// State-level wage breakdown -- a pilot for 3 occupations only.
+//
+// Why this exists: the percentile tool above (SalaryPercentileTool.astro)
+// deliberately stays national-only because src/data/bls-wages.ts historically
+// carried no region breakdown at all, and inventing one would have meant
+// fabricating numbers BLS never published (see
+// 工资分位数工具-实施方案_20260804.md). This component is the honest version of
+// that idea: real BLS OEWS state estimates, fetched directly from
+// bls.gov/oes/special-requests, not the OOH page in wage.sourceUrl (OOH never
+// publishes state-level medians -- this is a separate BLS dataset covering a
+// separate BLS survey artifact). Verification trail (dual-parser extraction +
+// CareerOneStop.org spot checks against a high/low/middle-wage state) is in
+// 独立站/wagelark/州级薪资数据试点_20260918.md.
+//
+// Only 3 occupations currently have wage.stateWages populated -- everything
+// else in bls-wages.ts has an empty/undefined array, and this component
+// renders nothing for those (see the `wage.stateWages.length > 0` guard on
+// the call site in [slug].astro). Do not backfill more occupations without
+// repeating the same two-parser-plus-spot-check verification; do not
+// interpolate or estimate a state's figure when BLS hasn't published one --
+// a state simply missing from stateWages should stay missing, never filled
+// with the national number.
+import type { BlsWageEntry } from '../data/bls-wages';
+
+interface Props {
+	wage: BlsWageEntry;
+}
+
+const { wage } = Astro.props;
+const states = wage.stateWages ?? [];
+
+const usd = (n: number) => `$${n.toLocaleString('en-US')}`;
+
+// Rows are pre-sorted descending by annualMedian in wages-source.json, but
+// don't assume that ordering survives a future hand-edit -- sort defensively.
+const sortedStates = [...states].sort((a, b) => b.annualMedian - a.annualMedian);
+const stateOptions = [...states].sort((a, b) => a.state.localeCompare(b.state));
+
+// Serialized for the client-side "jump to my state" picker below -- this is
+// static BLS data baked in at build time, not a runtime fetch.
+const tableData = {
+	title: wage.title,
+	nationalMedian: wage.medianAnnual,
+	states: sortedStates,
+};
+---
+
+{
+	states.length > 0 && (
+		<div class="state-wage-table mt-6 border border-[var(--rule)] bg-white" data-table={JSON.stringify(tableData)}>
+			<p class="m-0 bg-[var(--navy)] px-5 py-2.5 text-[0.7rem] font-semibold uppercase tracking-[0.1em] text-white">
+				{wage.title}: Annual Median Wage by State ({wage.stateWagesDataYear}, BLS state estimates)
+			</p>
+			<div class="px-5 pt-4">
+				<p class="m-0 text-sm leading-relaxed text-[var(--ink)]/70">
+					The national median above blends every state into one number. BLS also publishes {wage.title.toLowerCase()} pay by state, and the {states.length} figures below can differ from that national median by tens of thousands of dollars depending on where you work. This is a separate BLS dataset (state OEWS estimates), not a breakdown of the national percentiles above it.
+				</p>
+				<div class="mt-3 flex flex-wrap items-center gap-2">
+					<label for="state-wage-picker" class="text-xs font-semibold text-[var(--ink)]/70">
+						Find your state:
+					</label>
+					<select
+						id="state-wage-picker"
+						class="border border-[var(--rule)] bg-[var(--paper)] px-2 py-1.5 text-sm text-[var(--ink)]"
+					>
+						<option value="">Choose a state</option>
+						{stateOptions.map((s) => (
+							<option value={s.stateAbbr}>{s.state}</option>
+						))}
+					</select>
+				</div>
+				<p id="state-wage-picker-result" class="mt-2.5 mb-0 text-sm leading-relaxed text-[var(--navy)]" hidden aria-live="polite" />
+			</div>
+			<div class="mt-4 overflow-x-auto px-5 pb-5">
+				<table class="data-table">
+					<thead>
+						<tr>
+							<th scope="col">State</th>
+							<th scope="col" class="num">10th percentile</th>
+							<th scope="col" class="num">Median</th>
+							<th scope="col" class="num">90th percentile</th>
+						</tr>
+					</thead>
+					<tbody>
+						{sortedStates.map((s) => (
+							<tr data-state-abbr={s.stateAbbr}>
+								<td>{s.state}</td>
+								<td class="num">{usd(s.annualPct10)}</td>
+								<td class="num">{usd(s.annualMedian)}</td>
+								<td class="num">{usd(s.annualPct90)}</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
+			</div>
+			<p class="mt-0 mb-0 px-5 pb-5 text-xs text-[var(--ink-mute)]">
+				Source: <a href={wage.stateWagesSourceUrl} target="_blank" rel="noopener noreferrer" class="text-[var(--teal-dark)] no-underline hover:underline">BLS Occupational Employment and Wage Statistics, state estimates</a>, {wage.stateWagesDataYear}. If your state is missing, BLS did not publish a wage estimate for this occupation there that year; it does not mean the wage was zero.
+			</p>
+		</div>
+	)
+}
+
+<style>
+	.state-wage-table tbody tr[data-highlighted] {
+		background: var(--panel);
+	}
+</style>
+
+<script>
+	interface StateWageRow {
+		state: string;
+		stateAbbr: string;
+		annualMedian: number;
+		annualPct10: number;
+		annualPct90: number;
+	}
+	interface TableData {
+		title: string;
+		nationalMedian: number;
+		states: StateWageRow[];
+	}
+
+	const usd = (n: number) => `$${Math.round(n).toLocaleString('en-US')}`;
+
+	document.querySelectorAll<HTMLElement>('.state-wage-table').forEach((root) => {
+		const raw = root.dataset.table;
+		if (!raw) return;
+		const data: TableData = JSON.parse(raw);
+
+		const picker = root.querySelector<HTMLSelectElement>('#state-wage-picker');
+		const result = root.querySelector<HTMLElement>('#state-wage-picker-result');
+		const rows = Array.from(root.querySelectorAll<HTMLTableRowElement>('tbody tr[data-state-abbr]'));
+		if (!picker || !result) return;
+
+		picker.addEventListener('change', () => {
+			rows.forEach((row) => row.removeAttribute('data-highlighted'));
+
+			const abbr = picker.value;
+			if (!abbr) {
+				result.hidden = true;
+				return;
+			}
+
+			const row = data.states.find((s) => s.stateAbbr === abbr);
+			if (!row) {
+				result.hidden = true;
+				return;
+			}
+
+			const match = rows.find((r) => r.dataset.stateAbbr === abbr);
+			if (match) {
+				match.setAttribute('data-highlighted', 'true');
+				match.scrollIntoView({ block: 'nearest' });
+			}
+
+			const diffPct = ((row.annualMedian - data.nationalMedian) / data.nationalMedian) * 100;
+			const direction = diffPct > 0 ? 'above' : diffPct < 0 ? 'below' : 'equal to';
+			const diffText = Math.abs(diffPct) < 0.5 ? 'about equal to' : `${Math.abs(Math.round(diffPct))}% ${direction}`;
+			result.textContent = `${row.state} median: ${usd(row.annualMedian)}/year, ${diffText} the national median (${usd(data.nationalMedian)}/year) for ${data.title.toLowerCase()}.`;
+			result.hidden = false;
+		});
+	});
+</script>

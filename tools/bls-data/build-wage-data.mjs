@@ -41,6 +41,14 @@ export interface IndustryWage {
 	annualWage: number;
 }
 
+export interface StateWage {
+	state: string;
+	stateAbbr: string;
+	annualMedian: number;
+	annualPct10: number;
+	annualPct90: number;
+}
+
 export interface BlsWageEntry {
 	socCode: string;
 	title: string;
@@ -66,6 +74,13 @@ export interface BlsWageEntry {
 	// since BLS gives no title-specific alternative at all for this occupation.
 	// [slug].astro renders an inline caveat under the stat cards when true.
 	employmentIsGroupLevel?: boolean;
+	// State-level breakdown from BLS OEWS state estimates (bls.gov/oes/special-requests,
+	// NOT the OOH page in sourceUrl -- OOH never publishes state detail). Only present
+	// for occupations that have gone through the state-data verification pass; most
+	// occupations in this file have none. See stateWagesSourceUrl for provenance.
+	stateWages?: StateWage[];
+	stateWagesSourceUrl?: string;
+	stateWagesDataYear?: string;
 }
 
 export const BLS_WAGES: Record<string, BlsWageEntry> = `;
