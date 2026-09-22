@@ -147,6 +147,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/massage-therapist-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/medical-assistant-salary-chart.svg": {
   "h": 240,
   "w": 640

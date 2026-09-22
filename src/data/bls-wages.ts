@@ -3568,5 +3568,44 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Orthotists and Prosthetists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/orthotists-and-prosthetists.htm",
 		publishedDate: "2026-08-27"
+	},
+	"31-9011": {
+		socCode: "31-9011",
+		title: "Massage Therapists",
+		medianAnnual: 58450,
+		medianHourly: 28.1,
+		percentiles: {
+			p10: 33640,
+			p90: 100200
+		},
+		employment: 155400,
+		employmentYear: "2025",
+		jobOutlookPct: 15,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 23700,
+		projectionPeriod: "2025-35",
+		entryEducation: "Postsecondary nondegree award",
+		industryWages: [
+			{
+				industry: "Offices of chiropractors",
+				annualWage: 72800
+			},
+			{
+				industry: "Offices of all other health practitioners",
+				annualWage: 65350
+			},
+			{
+				industry: "Personal care services",
+				annualWage: 56230
+			},
+			{
+				industry: "Accommodation",
+				annualWage: 43840
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Massage Therapists",
+		sourceUrl: "https://www.bls.gov/ooh/healthcare/massage-therapists.htm",
+		publishedDate: "2026-08-27"
 	}
 };

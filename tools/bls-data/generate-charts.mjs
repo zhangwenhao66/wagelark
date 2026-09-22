@@ -51,6 +51,7 @@ const CHARTS = {
 	'lpn-salary-chart': '29-2061',
 	'orthotist-and-prosthetist-salary-chart': '29-2091',
 	'boilermaker-salary-chart': '47-2011',
+	'massage-therapist-salary-chart': '31-9011',
 };
 
 const NAVY = '#14273f';

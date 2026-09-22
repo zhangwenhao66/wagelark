@@ -1442,3 +1442,22 @@ test('stateWages spot check: Pharmacists Texas (middle-wage state) matches Caree
 	assert.equal(row.annualMedian, 138260);
 	assert.equal(row.annualPct90, 170170);
 });
+
+// Hand-transcribed from live bls.gov OOH page on 2026-09-22 (last modified
+// August 27, 2026, carrying May 2025 data). Independent of wages-source.json's
+// own numbers -- do not derive these from the source file.
+test("spot check: Massage Therapists (31-9011) matches BLS OOH page", () => {
+	const occ = occupations['31-9011'];
+	assert.equal(occ.medianAnnual, 58450);
+	assert.equal(occ.medianHourly, 28.10);
+	assert.deepEqual(occ.percentiles, { p10: 33640, p90: 100200 });
+	assert.equal(occ.employment, 155400);
+	assert.equal(occ.jobOutlookPct, 15);
+	assert.equal(occ.employmentChange, 23700);
+	assert.equal(occ.entryEducation, 'Postsecondary nondegree award');
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Offices of chiropractors');
+	assert.equal(occ.industryWages[0].annualWage, 72800);
+	assert.equal(occ.industryWages[3].industry, 'Accommodation');
+	assert.equal(occ.industryWages[3].annualWage, 43840);
+});

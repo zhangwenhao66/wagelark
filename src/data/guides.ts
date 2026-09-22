@@ -1541,7 +1541,7 @@ export const guides: Guide[] = [
 		title: 'Respiratory Therapist Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median respiratory therapist salary at $80,450 a year, with 12% growth projected through 2034. See the full wage range by percentile and employer.',
 		published: '2026-08-10',
-		updated: '2026-09-01',
+		updated: '2026-09-22',
 		socCode: '29-1126',
 		coreSummary: 'The median annual wage for respiratory therapists was $80,450 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $61,900 while the top 10% earned more than $108,820. BLS projects 12% employment growth from 2024 to 2034, well above the roughly 3% average across all occupations, adding an estimated 16,800 jobs.',
 		sections: [
@@ -1573,7 +1573,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook, and how this compares to other roles with the same entry requirement',
 				body: [
 					'BLS projects 12% employment growth for respiratory therapists from 2024 to 2034, adding an estimated 16,800 jobs and about 8,800 openings a year on average. Many of those annual openings, per BLS, are expected to come from workers transferring to other occupations or leaving the labor force, such as to retire, rather than from newly created positions alone. BLS attributes the underlying growth mainly to an aging population, which it expects to increase the prevalence of respiratory conditions such as pneumonia, chronic obstructive pulmonary disease (COPD), and other disorders that restrict lung function, in turn raising demand for respiratory therapy services.',
-					"That 12% figure is worth putting next to other roles on this site that share the same typical entry-level education, an associate's degree, since the growth rates for that group vary widely despite the similar training bar. [Dental hygienists](/dental-hygienist-salary/), who carry a higher median wage of $94,260, are projected to grow 7%. [Radiologic technologists](/radiology-tech-salary/), with a median of $77,660 close to this occupation's figure, are projected to grow just 4%, the slowest of the three. Respiratory therapists sit well above both, though the reasons a demand-side BLS projection differs across occupations with the same entry credential are not something BLS itself explains on any of these pages.",
+					"That 12% figure is worth putting next to other roles on this site that share the same typical entry-level education, an associate's degree, since the growth rates for that group vary widely despite the similar training bar. [Dental hygienists](/dental-hygienist-salary/), who carry a higher median wage of $94,260, are projected to grow 7%. [Radiologic technologists](/radiology-tech-salary/), with a median of $77,660 close to this occupation's figure, are projected to grow just 4%, the slowest of the three. Respiratory therapists sit well above both, though the reasons a demand-side BLS projection differs across occupations with the same entry credential are not something BLS itself explains on any of these pages. Outside that associate's-degree group entirely, [massage therapy](/massage-therapist-salary/), which BLS lists at a lighter postsecondary-nondegree-award entry bar, posts a faster 15% growth rate than any of the three, though its $58,450 median trails this occupation's by more than $20,000.",
 					"BLS's growth projection describes the healthcare system's aggregate demand for this occupation nationally; it is not a forecast about any specific hospital, region, or individual's job security, employer, or pay trajectory. Someone evaluating a specific offer or program should weigh this figure alongside local job market conditions and program-specific placement data rather than as a standalone guarantee.",
 				],
 			},
@@ -6074,5 +6074,75 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		],
 		image: '/images/boilermaker-salary-chart.svg',
 		imageAlt: 'Bar chart showing boilermaker annual wage by percentile: 10th percentile $50,490, median $76,410, 90th percentile $110,370, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'massage-therapist-salary',
+		category: 'Salary Guide',
+		title: 'Massage Therapist Salary: $58,450 (2026 BLS)',
+		description: "BLS puts the median massage therapist salary at $58,450 a year, with 15% employment growth projected through 2035. Full wage range by percentile and industry.",
+		published: '2026-09-22',
+		updated: '2026-09-22',
+		socCode: '31-9011',
+		coreSummary: 'The median annual wage for massage therapists was $58,450 in May 2025, according to the U.S. Bureau of Labor Statistics, or $28.10 an hour. The bottom 10% earned less than $33,640 while the top 10% earned more than $100,200, a spread of roughly $66,560. BLS projects 15% employment growth from 2025 to 2035, much faster than average, adding an estimated 23,700 jobs to a 2025 workforce of 155,400, with about 20,400 openings projected each year, mostly from workers transferring to other occupations or leaving the labor force.',
+		sections: [
+			{
+				heading: 'What massage therapists earn, and the credential bar BLS lists for this field',
+				body: [
+					'The Bureau of Labor Statistics tracks massage therapist pay through its Occupational Employment and Wage Statistics (OEWS) program, the same employer-survey source behind every wage figure on this site. For May 2025, the most recent data BLS has published, the median annual wage for massage therapists was $58,450, or $28.10 an hour, across an estimated 155,400 jobs nationwide, under SOC code 31-9011.',
+					"That median sits inside a wide range. The bottom 10% of earners made less than $33,640 a year, while the top 10% made more than $100,200, a spread of roughly $66,560 between the two deciles. BLS does not attribute that gap to a single cause on this page, though the industry breakdown below accounts for some of it, and the self-employment pattern covered in the next section likely explains more.",
+					"BLS lists a postsecondary nondegree award as the typical entry-level education for this occupation, meaning a certificate or diploma program rather than a full associate's or bachelor's degree. That's a lighter credential bar than several other allied-health roles this site tracks, including [dental hygienists](/dental-hygienist-salary/), whose $94,260 median (May 2024) comes with an associate's degree requirement, a two-year program beyond what BLS lists for massage therapy.",
+					'BLS also notes that most states regulate massage therapy and require a license or certification, but it is explicit that standards and requirements vary by state, stopping short of naming one uniform national credential the way it does for more tightly regulated fields. Anyone comparing training programs should confirm the specific rules with the licensing board in the state where they plan to practice before assuming a program\'s credential transfers everywhere.',
+				],
+			},
+			{
+				heading: 'Where the pay is highest, and a self-employment detail the wage figures don\'t fully capture',
+				body: [
+					'BLS breaks out May 2025 wages across four industry categories for massage therapists, and the spread between them is wide. Offices of chiropractors paid the highest median of the four, $72,800, about $14,350 above the occupation\'s overall median. Offices of all other health practitioners came in second at $65,350. Personal care services, the category covering spas and similar wellness businesses, paid $56,230. Accommodation providers, meaning hotels and resorts that employ their own massage staff, paid the least of the four: $43,840, a difference of $28,960 from the top-paying setting.',
+					"The $35,800 median BLS separately reports for [home health and personal care aides](/what-does-a-home-health-aide-do/), an occupation that shares the 'personal care services' industry label in BLS's data, sits below every one of the four massage therapy settings, including the lowest-paying one. The two occupations are adjacent in BLS's industry classification but far apart in pay, a reminder that an industry category name alone doesn't say much about what a specific job inside it pays.",
+					'BLS\'s write-up for this occupation flags a structural reason the figures above may not match what a given therapist actually takes home in a year: "many massage therapists are self-employed," and part-time schedules are common, partly because of the physical demands of the work. Because of the strength and endurance needed to give a massage, BLS states plainly that "many therapists cannot perform massage services 8 hours per day, 5 days a week."',
+					"That self-employment note carries more weight than it might first appear. The OEWS survey behind every wage and job-count figure this page cites leaves the self-employed out of its coverage entirely, a limitation confirmed on BLS's separate OEWS methodology FAQ; this occupation's BLS page does not mention that gap itself. Both the $58,450 median and the 155,400 jobs total come from that survey, so they describe only the salaried, employer-payroll slice of the field. The self-employed share, the one BLS itself calls common in this occupation, doesn't show up in either number.",
+				],
+			},
+			{
+				heading: "Job outlook: the fastest growth among WageLark's no-formal-degree occupations",
+				body: [
+					'BLS projects 15% employment growth for massage therapists from 2025 to 2035, a pace the agency classifies as much faster than the roughly 3% average across all occupations. That translates to an estimated 23,700 additional jobs on top of the 155,400 already employed, plus about 20,400 openings projected each year on average, a figure BLS attributes mostly to workers transferring to other occupations or leaving the labor force, such as to retire, rather than to newly created positions alone.',
+					"Among the 11 occupations this site tracks at massage therapy's postsecondary-nondegree-award entry tier, 15% is the fastest projected growth rate. The next-closest is [medical assistants](/medical-assistant-salary/) at 13%, then a wider gap down to dental assistants and phlebotomists, both at 6%. Pay tells a less consistent story: medical assistants' $45,690 median runs well below massage therapy's $58,450, while a higher-paying occupation in the same credential tier, [licensed practical nurses](/lpn-salary/) at a $64,400 median, projects far slower growth, just 3%.",
+					"None of this describes what any individual therapist, in a specific city or specialty, will actually earn or how quickly local demand will grow. BLS's projections are national aggregates built from historical employment trends, not a guarantee for a particular metro area or business model, whether that's a solo practice, a spa-employee role, or the chiropractic-office setting the industry breakdown above puts at the top of the pay scale.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What is the median massage therapist salary?',
+				answer: 'BLS\'s latest number here is $58,450 annually, working out to $28.10 hourly. "Median" means half of the workers in the role earned more and half earned less; it tends to reflect a typical worker better than a simple average would.',
+			},
+			{
+				question: 'What type of massage therapy pays the most?',
+				answer: "BLS doesn't track pay by massage modality, so there's no figure comparing deep tissue, sports massage, or other specific techniques directly. What BLS does track is pay by employer setting, and chiropractic practices top that list by a comfortable margin over the other three categories this page breaks out. See the industry table above for the full four-way comparison.",
+			},
+			{
+				question: 'How much do licensed massage therapists make in Illinois?',
+				answer: "This role's BLS profile publishes just one nationwide figure; it doesn't break out pay by state. State-level wage tables aren't part of WageLark's current BLS state-data pilot, which so far covers only radiologic technologists, electricians, and pharmacists. Until that expands, the national percentile range above is the most current BLS number available here.",
+			},
+			{
+				question: 'Is massage therapy a growing field?',
+				answer: "Yes, and by a wide margin. BLS's 2025-35 projection has this occupation growing 15%, roughly five times the pace BLS forecasts for the U.S. job market overall. Among WageLark's tracked occupations sitting at this same no-full-degree credential tier, that 15% leads the group; medical assistants come closest at 13%.",
+			},
+			{
+				question: 'Do massage therapists need a license?',
+				answer: "State rules apply here, not one nationwide standard. BLS says licensing or certification is required in most states, though the exact requirements differ from state to state, and BLS does not name a single uniform credential on this page. Check directly with your own state's regulator before signing up for a training program.",
+			},
+			{
+				question: 'Are most massage therapists self-employed, and does that affect the wage data?',
+				answer: 'A meaningful share, per BLS, which describes both self-employment and part-time work as widespread in this occupation. That matters for reading the figures on this page: by its own published methodology, the underlying OEWS survey does not produce estimates covering people who work for themselves. So the median pay and the job count both count wage-and-salary workers only, missing every independent-practice therapist entirely.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Massage Therapists (accessed 2026-09-22 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/massage-therapists.htm' },
+			{ label: "BLS OEWS Frequently Asked Questions, confirming the OEWS survey does not produce employment or wage estimates covering the self-employed (accessed 2026-09-22, independent of the occupation page above)", url: 'https://www.bls.gov/oes/oes_ques.htm' },
+		],
+		image: '/images/massage-therapist-salary-chart.svg',
+		imageAlt: 'Bar chart showing massage therapist annual wage by percentile: 10th percentile $33,640, median $58,450, 90th percentile $100,200, based on BLS May 2025 data.',
 	},
 ];
