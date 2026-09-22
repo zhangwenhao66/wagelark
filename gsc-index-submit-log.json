@@ -437,5 +437,16 @@
    "https://wagelark.com/salary-statistics-2026/"
   ],
   "quota_used": "4 of shared account-wide daily quota (5th attempt hit Quota Exceeded, not counted)"
+ },
+ {
+  "date": "2026-09-22",
+  "action": "submitted",
+  "reason": "游标从09-16停止点WageLark开始。今日新发布massage-therapist-salary，URL Inspection确认URL not on Google，提交成功。老页未收录巡检（unindexed_pages.py）无其他候选（respiratory-therapist-salary为既有已收录页更新，非未收录）。",
+  "submitted_urls": [
+   "https://wagelark.com/massage-therapist-salary/"
+  ],
+  "already_indexed_no_action": [],
+  "quota_exceeded_attempted": [],
+  "quota_used": "1 of shared account-wide daily quota"
  }
 ]
