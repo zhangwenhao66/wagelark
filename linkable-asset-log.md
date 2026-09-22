@@ -148,3 +148,15 @@ Not re-evaluated — the 8/29 conclusion (not Reddit-ready without a standalone 
 **Step 3.5**: not re-evaluated — prior conclusion (not Reddit-ready without a standalone [OC] chart, no HN fit) stands.
 
 **Distribution count**: unchanged at 2/10 sent + 1/10 drafted-but-withheld (SES migration freeze — see `独立站/待Owen处理事项.md`, still in effect as of this run, checked first per the 2026-09-12 SKILL.md addition before any send calls this run).
+
+---
+
+## 2026-09-22 — distribution pass #6 (capacity-concentration rule)
+
+**Site selection**: WageLark ranked #2 of the non-suppressed top-3 this run (472 11-30-position impressions over 28 days, behind UmberLore's 605, ahead of DayAlmanac's 427) — same recomputation as UmberLore's 2026-09-22 log entry above.
+
+**Distribution — cleared backlog pitch**: the SES migration freeze lifted 2026-09-15. Sent the one pending approved-but-withheld pitch from 2026-09-12/09-15 — Apollo Technical (info@apollotechnical.com), pitching `highest-paying-jobs-without-a-degree`. Re-verified before sending: live page still shows 48 occupations / $148,080 median for air traffic controllers, CSV data (fixed 2026-09-12) not re-broken, no new dedup conflict. Sent via `gmail_send.py send --from wagelark`, Message ID `1a0c79ecb4df6fdf`.
+
+**salary-statistics-2026 — verified live, distribution not yet started**: confirmed this asset (built 2026-09-13, push was held pending the daily-cadence cap) is now live — `wagelark.com/salary-statistics-2026/` returns 200, and `git log origin/main..HEAD` shows no unpushed commits, so it went out with a subsequent daily run. This asset has never been distributed. Looked for a first target this round (Cornell University Library's "Labor Union Statistics" LibGuide, guides.library.cornell.edu/StatisticalSources/laborunionstats) but found no published contact email on the page within this round's time budget. No pitch sent for this asset this round — next run selecting WageLark should prioritize Step 2/3 for `salary-statistics-2026` before further work on `highest-paying-jobs-without-a-degree` (which is already well into its distribution count).
+
+**Distribution count for highest-paying-jobs-without-a-degree**: now 5 sent targets (thebluecollarrecruiter.com 8/29, michaelthompson-phd.com 9/16, dailyvoice.com 9/17, apollotechnical.com 9/22, plus the earlier asclsnd@gmail.com broken-link pitch pointing readers to this page as replacement content 9/16) — over halfway to the ≥10-target saturation bar. `salary-statistics-2026` at 0 sent — should take priority next time this site is selected.
