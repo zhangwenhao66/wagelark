@@ -1,0 +1,7 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "The extracted bridge sentence only claims the linked occupation is 'a comparable role by job duties and degree requirement' without asserting an exact match. Target article confirms shared duties (lab analysis of biological samples) and confirms a bachelor's-degree track exists on that page ('technologists (29-2011), who typically need a bachelor's degree'), which matches forensic science technicians' own bachelor's-degree entry bar described elsewhere in this article. NOTE: the adjacent sentence originally claimed 'both typically require a bachelor's degree' as a blanket statement about 'clinical laboratory technologists and technicians' -- target article clarifies technicians (29-2012) 'can sometimes qualify with an associate's degree', so that adjacent sentence was corrected in this pass to specify the bachelor's requirement applies to the technologist half only, technicians can use an associate's degree instead."
+  }
+]

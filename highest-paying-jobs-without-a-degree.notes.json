@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "electrician-salary target article confirms 'the typical entry-level education for electricians is a high school diploma or equivalent' and 'Most electricians learn the trade through a 4- or 5-year apprenticeship' with 'about 2,000 hours of paid on-the-job training per year of the program', matching the '4- to 5-year, roughly 2,000 paid hours a year' apprenticeship claim. The 'few weeks of on-the-job training' comparison is a general statement about the breadth of the BLS 'high school diploma or equivalent' entry-education category, not a claim sourced from this specific target page, and is not contradicted by it."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "plumbing-apprenticeship target article confirms 'A plumbing apprenticeship typically runs 4 to 5 years, combining about 2,000 hours of paid on-the-job training per year' and lists 'the typical entry-level education for this occupation as a high school diploma or equivalent', matching both the 4-5 year/2,000-hours claim and the shared high-school-diploma entry-education label with electricians."
+  }
+]

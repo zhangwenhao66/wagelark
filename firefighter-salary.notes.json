@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "electrician-salary target article states 'The median annual wage for electricians was $63,190 in May 2025' and 'Most electricians learn the trade through a 4- or 5-year apprenticeship' with 'about 2,000 hours of paid on-the-job training per year' (matches 'mostly on-the-job'), and 'the typical entry-level education for electricians is a high school diploma or equivalent'. Firefighter's own article (this site, same file) states median $59,280 and 'firefighters typically need a high school diploma and training in emergency medical services to enter the occupation', 'Most receive their initial training at a fire academy' plus 'EMT certification training most departments require alongside the fire academy' -- confirms 'fire academy plus EMT certification' framing and the $63,190 vs $59,280 comparison."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "how-to-become-a-cna target article states 'Federal regulation sets a 75-hour minimum for nurse aide training programs' citing '42 CFR § 483.152: a state-approved program must run at least 75 clock hours' and 'The Bureau of Labor Statistics reports a median annual wage of $42,260 for nursing assistants in May 2025'. $42,260 is below firefighter's own $59,280 median and electrician's $63,190 median (both confirmed in candidate #1), so 'well below both firefighters and electricians' checks out."
+  }
+]
