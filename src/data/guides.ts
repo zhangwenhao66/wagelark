@@ -2333,27 +2333,27 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How long does it take to become a registered nurse?',
-				answer: 'It depends on the path. BLS describes both a bachelor of science in nursing (BSN) and an associate\'s degree in nursing (ADN or ASN) as typically taking about 4 years to complete, largely because of required science prerequisites completed before the core nursing coursework begins. A hospital-based diploma program, a much less common option today, typically runs 2 to 3 years. Every path still requires passing the NCLEX-RN licensing exam afterward before someone can practice.',
+				answer: 'It depends on the path. Per BLS, a four-year timeline covers both the university BSN degree and the community-college ADN/ASN route, since required science prerequisites have to be finished before the core coursework begins in either case. A hospital-based diploma program, a much less common option today, takes about 2 to 3 years to finish. No matter which route someone takes, they still have to sit for and pass the NCLEX-RN exam before a state will actually license them.',
 			},
 			{
 				question: 'Is an associate degree in nursing really only 2 years?',
-				answer: 'Not according to BLS. The Bureau of Labor Statistics Occupational Outlook Handbook lists the ADN and ASN as typically taking about 4 years to complete, the same figure it gives for a BSN, because most programs require prerequisite science coursework, such as anatomy and microbiology, before a student can start the core nursing curriculum. The "2-year degree" framing usually refers only to the nursing-specific coursework, not the full timeline BLS reports.',
+				answer: 'Not according to BLS: its own data puts the ADN and ASN at generally a four-year commitment, the same length assigned to a BSN, because most programs make students clear required science classes first (anatomy and physiology among them) before they can even begin the nursing coursework itself. The "2-year degree" framing usually refers only to the nursing courses themselves, leaving out the prerequisite stretch BLS folds into its total.',
 			},
 			{
 				question: 'What GPA and prerequisites do you need to get into nursing school?',
-				answer: "It varies by program type and competitiveness, and BLS doesn't cover admissions criteria since that's set by individual schools, not by BLS. Per NurseJournal, associate degree (ADN) programs typically set a GPA floor between 2.0 and 2.75, while bachelor's (BSN) programs generally set a 3.0 minimum, with selective schools expecting 3.25 or higher. Prerequisite science courses, such as anatomy and microbiology, are often weighed separately from overall GPA. Some programs also require a TEAS or HESI entrance exam score, though a number of accredited programs have dropped that requirement.",
+				answer: "It depends on the type of program and how selective the school is; that's a decision each school makes on its own, not something BLS weighs in on. NurseJournal's research puts ADN programs' GPA floor generally at 2.0 to 2.75, while BSN programs set the bar closer to a 3.0 floor, and the most competitive options push that expectation up toward 3.25. Grades earned in required science classes like physiology and microbiology often get judged on their own, apart from a student's overall GPA. A TEAS or HESI entrance exam score is required at some schools, but plenty of schools with full accreditation have dropped it from their checklist, leaning instead on an applicant's grades, a written personal statement, and how they come across in an interview.",
 			},
 			{
 				question: 'What is the NCLEX-RN and how many questions does it have?',
-				answer: 'The NCLEX-RN is the licensing exam every state requires registered nurses to pass, developed and administered by the National Council of State Boards of Nursing (NCSBN). Per NCSBN, it is a computer-adaptive test with a minimum of 85 and a maximum of 150 items, and a total appointment time, including the introductory screen and any breaks, capped at 5 hours.',
+				answer: "The NCLEX-RN is the licensing exam that stands between a nursing graduate and an actual RN license, and NCSBN, the group that represents nursing boards across every state, is the one that writes and runs it. Per NCSBN, the exam adapts as a candidate answers, pulling somewhere between 85 and 150 items in total, and the whole sitting, intro screen, breaks, and everything else included, can't run past the 5-hour mark.",
 			},
 			{
 				question: 'Does it matter whether an RN has a BSN or an associate degree?',
-				answer: 'For the state license itself, no; BLS states that graduates of a BSN, ADN, ASN, or diploma program all qualify for entry-level staff nurse positions once licensed. For hiring, it can matter: BLS notes that employers, particularly hospitals, may require a bachelor\'s degree specifically. RNs who start with an associate degree or diploma can add a BSN later through an RN-to-BSN bridge program without repeating their earlier coursework.',
+				answer: 'Not for the license itself: BLS says a graduate of any of these paths, whether they went the university, community-college, or hospital-diploma route, qualifies for the same entry-level staff role once they clear licensing. Hiring can be a different story, though, since some employers, hospitals especially, favor applicants whose credential is the four-year kind, per BLS. RNs who start out with a shorter credential can pick up a BSN afterward through a dedicated bridge program, without redoing the coursework they already finished.',
 			},
 			{
 				question: 'How much do registered nurses make?',
-				answer: 'BLS reports a median annual wage of $93,600 for registered nurses in May 2024, with the bottom 10% earning less than $66,030 and the top 10% earning more than $135,320. The highest-paying industry BLS tracks for this role is government employment outside state/local education and hospitals, at a median of $106,480.',
+				answer: "Per BLS's May 2024 survey, typical RN pay lands at $93,600 a year in the middle of the range, with the lowest-paid tenth of the workforce earning under $66,030 and the highest-paid tenth clearing $135,320. Government work that isn't state or local schooling, or a hospital job, pays best for this occupation, per BLS, at a median of $106,480.",
 			},
 		],
 		sources: [
@@ -2413,23 +2413,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How many years does it take to become a lawyer?',
-				answer: "Per BLS, the typical path is 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school for a J.D. Finishing the degree is not the last step, though; every state also requires passing a bar exam before someone can practice law.",
+				answer: "Seven years, per BLS: four years earning an undergraduate degree, then three more for a J.D. at law school. Earning the J.D. doesn't put anyone in a courtroom on its own: they still need a passing bar-exam score and formal admission to the bar before they can call themselves a practicing lawyer.",
 			},
 			{
 				question: 'Do you need the LSAT to get into law school?',
-				answer: 'Most law schools still require the LSAT, administered by LSAC and scored 120 to 180, or the GRE at a growing number of schools. A 2024 ABA policy change lets individual law schools apply for a variance to admit up to 100% of an entering class without a standardized test score; 14 schools had that variance as of 2025, out of roughly 200 ABA-accredited schools nationwide, so it remains the exception rather than the norm.',
+				answer: 'The LSAT, which LSAC scores on a scale running from 120 up to 180, is still what most programs ask for, though a growing number will also take the GRE instead. A 2024 ABA rule change opened the door for schools to seek an exemption from the testing requirement entirely, meaning every single admitted student at a given school could go score-free; 14 schools had that exemption as of 2025, against a pool of roughly 200 schools nationally that carry ABA accreditation, so it remains the exception rather than the norm.',
 			},
 			{
 				question: 'Does finishing law school let you practice right away?',
-				answer: 'No. BLS states that all states require lawyers to be licensed, and requirements vary by state. Candidates must graduate from an accredited law school and pass a state bar exam, coordinated in most states through NCBE\'s Uniform Bar Examination, before they can practice. Per BLS, states may also require ongoing continuing legal education to maintain the license afterward.',
+				answer: 'No. Per BLS, every state requires a law license, with the specific rules set state by state. An ABA-accredited J.D. only gets a candidate to the starting line; they still have to sit for and pass a bar exam, coordinated in most states through NCBE\'s UBE, before a court will let them take on clients. BLS also notes that some states keep the license active only if a lawyer keeps taking approved coursework, commonly shortened to CLE.',
 			},
 			{
 				question: 'What is the highest-paying industry for lawyers?',
-				answer: 'Per BLS May 2024 data, federal government roles post the highest median lawyer pay tracked, at $174,680, ahead of legal services (the largest employer segment for the occupation) at $143,470, local government at $125,180, and state government at $111,280.',
+				answer: "Federal government jobs top BLS's May 2024 list at a $174,680 median. Legal services, where most lawyers actually work, comes in lower at $143,470, followed by local government at $125,180, with state government trailing the pack at $111,280.",
 			},
 			{
 				question: 'Is being a lawyer a growing career?',
-				answer: 'BLS projects 4% employment growth for lawyers from 2024 to 2034, which it classifies as about as fast as average across all occupations, adding an estimated 35,900 jobs and roughly 31,500 openings a year on average. Most of those openings come from the need to replace lawyers who transfer to other work or leave the labor force, such as to retire, rather than from newly created positions.',
+				answer: "Modestly. BLS puts the 2024-to-2034 growth rate at 4%, roughly in line with the economy-wide pace, translating to about 35,900 new jobs and, on average, well over 30,000 openings annually. Most of that turnover comes from lawyers retiring or moving into other work, not from the profession itself expanding.",
 			},
 		],
 		sources: [
@@ -2538,7 +2538,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Before dental school: an admissions test that just changed its scale',
 				body: [
-					'Nearly every U.S. dental school requires the Dental Admission Test (DAT), a computer-based exam administered by the American Dental Association that covers Biology, General Chemistry, Organic Chemistry, Perceptual Ability, Reading Comprehension, and Quantitative Reasoning. Admissions committees weigh DAT scores alongside GPA, letters of recommendation, and interviews rather than using the score as a standalone cutoff.',
+					'Nearly every U.S. dental school requires the Dental Admission Test (DAT), a computer-based exam administered by the American Dental Association that covers Biology, General Chemistry, Organic Chemistry, Perceptual Ability, Reading Comprehension, and Quantitative Reasoning. Admissions committees weigh DAT scores alongside GPA, letters of recommendation, and interviews, without treating the score itself as a standalone cutoff.',
 					'The scoring scale itself changed recently. Per the ADA, starting March 1, 2025, DAT score reporting moved from a 1-to-30 scale to a new 200-to-600 scale in 10-point increments, with 400 representing roughly average performance among test-takers that year. Candidates can sit for the DAT up to three times without needing special authorization for further retakes, and score validity typically runs 2 to 3 years depending on the dental school.',
 				],
 			},
@@ -2554,30 +2554,30 @@ export const guides: Guide[] = [
 				heading: 'Dentist pay, and where it lands among the other advanced-degree fields on this site',
 				body: [
 					'BLS reports a median annual wage of $179,210 for dentists in May 2024, or $86.16 an hour, a figure covering general dentists together with the smaller population of dental specialists. The bottom 10% earned less than $84,740, and the top 10% earned more than $239,200, the ceiling BLS publishes for this figure rather than an exact top value. By industry, BLS lists government roles, excluding state and local education and hospitals, at the highest median it tracks, $213,210, ahead of offices of physicians at $180,120, outpatient care centers at $179,460, and offices of dentists, the industry employing the largest share of the occupation, at $178,300, the lowest of the four. BLS projects 4% employment growth for dentists from 2024 to 2034, about as fast as average, adding roughly 4,500 openings a year, mostly from workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
-					"Dentists post the highest BLS median among the fields this site has covered so far that BLS itself classifies as requiring a doctoral or professional degree, ahead of [lawyers](/how-long-does-it-take-to-become-a-lawyer/) at $151,160, [pharmacists](/pharmacist-salary/) at $137,480, and [physical therapists](/how-to-become-a-physical-therapist/) at $101,020. One exception worth naming: this site's [CRNA salary guide](/crna-salary/) reports a higher median, $223,210, for nurse anesthetists. BLS's own entry-education table for that occupation still says master's degree, but the field's accrediting body has required a doctoral degree for every newly enrolled student since 2022, so the comparison depends on whether a reader goes by BLS's label or by current practice. Time in school varies too: dentists and physical therapists both run roughly 7 to 8 years past high school combining undergraduate and professional study, lawyers commonly run around 7, and pharmacists can finish in as few as 6 years, since PharmD programs can admit candidates after just two years of prerequisite coursework rather than a full bachelor's degree. A national median folds together every state, specialty, and experience level BLS tracks; it says nothing about what a specific reader would earn, or which of these fields is the sounder financial choice for them individually.",
+					"Dentists post the highest BLS median among the fields this site has covered so far that BLS itself classifies as requiring a doctoral or professional degree, ahead of [lawyers](/how-long-does-it-take-to-become-a-lawyer/) at $151,160, [pharmacists](/pharmacist-salary/) at $137,480, and [physical therapists](/how-to-become-a-physical-therapist/) at $101,020. One exception worth naming: this site's [CRNA salary guide](/crna-salary/) reports a higher median, $223,210, for nurse anesthetists. BLS's own entry-education table for that occupation still says master's degree, but the field's accrediting body has required a doctoral degree for every newly enrolled student since 2022, so the comparison depends on whether a reader goes by BLS's label or by current practice. Time in school varies too: dentists and physical therapists both run roughly 7 to 8 years past high school combining undergraduate and professional study, lawyers commonly run around 7, and pharmacists can finish in as few as 6 years, since PharmD programs can admit candidates after just two years of prerequisite coursework, with no full bachelor's degree required first. A national median folds together every state, specialty, and experience level BLS tracks; it says nothing about what a specific reader would earn, or which of these fields is the sounder financial choice for them individually.",
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'How many years does it take to become a dentist?',
-				answer: "BLS puts the typical timeline at 8 years past high school: a 4-year bachelor's degree, then 4 years of dental school to earn a DDS or DMD. That degree does not put someone in practice on its own; nearly every state also requires passing the INBDE and satisfying a state clinical requirement first.",
+				answer: "Eight years total, per BLS: four years of undergrad coursework, then a 4-year dental-school program that ends in a DDS or DMD. Earning the degree isn't the finish line, though; a candidate still has to clear the INBDE written exam and whatever clinical test their state requires.",
 			},
 			{
 				question: 'Do you need the DAT to get into dental school?',
-				answer: 'Nearly every U.S. dental school requires the DAT, administered by the American Dental Association. Per the ADA, the scoring scale changed on March 1, 2025, moving from a 1-to-30 scale to a 200-to-600 scale in 10-point increments, with 400 representing roughly average performance.',
+				answer: "Yes: the DAT is a near-universal requirement across U.S. dental programs, and the ADA is the one that runs it. As of March 1, 2025, per the ADA, the old 1-to-30 scoring scale gave way to a new one that runs from 200 up to 600 in steps of 10, and a candidate scoring around 400 is landing near the middle of the pack.",
 			},
 			{
 				question: 'Does finishing dental school let you practice right away?',
-				answer: "It does not. Per BLS, every state requires dentists to be licensed, with requirements that vary by state. Candidates need a CODA-accredited dental degree (or a credential-evaluation route for non-CODA-accredited programs), a passing INBDE score, and a state clinical requirement. Most states satisfy that last piece with the ADEX clinical exam; Delaware runs its own practical exam instead, and New York replaced the clinical-exam requirement entirely in 2007 with a 1-year postgraduate residency.",
+				answer: "It does not. Per BLS, every state requires dentists to be licensed, with requirements that vary by state. Candidates need a dental degree earned under CODA accreditation, or, failing that, a credential review that checks the education some other way, plus a passing INBDE score and a state clinical requirement. Most states satisfy that last piece with the ADEX clinical exam; Delaware runs its own practical exam instead, and New York took that option off the table back in 2007, requiring a year of supervised postgraduate training with a competency check baked in instead.",
 			},
 			{
 				question: 'What is the highest-paying industry for dentists?',
-				answer: 'Per BLS May 2024 data, government roles (excluding state and local education and hospitals) post the highest median dentist pay tracked, at $213,210, ahead of offices of physicians at $180,120, outpatient care centers at $179,460, and offices of dentists, the largest employer segment for the occupation, at $178,300.',
+				answer: "BLS's May 2024 breakdown puts government jobs (outside state and local schooling and hospitals) on top for dentist pay, at a $213,210 median. Physician offices follow at $180,120, and $179,460 is the going median at outpatient facilities. Dentist offices employ more of the workforce than any other setting on this list, yet post the lowest pay of the four, at $178,300.",
 			},
 			{
 				question: 'Is being a dentist a growing career?',
-				answer: 'Yes, at a modest pace. BLS classifies the projected 4% growth for dentists between 2024 and 2034 as about as fast as average, translating to an estimated 5,900 additional jobs and roughly 4,500 openings a year. BLS attributes most of those yearly openings to dentists leaving the occupation, whether by retiring or moving into other work, rather than to newly created positions.',
+				answer: "Yes, at a modest pace. BLS's 2024-to-2034 projection has dentist employment climbing 4%, a rate the agency treats as roughly on par with the economy overall, translating to an estimated 5,900 additional jobs and, on average, about 4,500 yearly job openings. BLS attributes most of that annual churn to dentists leaving the occupation, whether by retiring or moving into other work, more than to the field actually adding new roles.",
 			},
 		],
 		sources: [
@@ -2682,7 +2682,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'What BLS says it actually takes to start',
 				body: [
-					"Per BLS, bartenders typically need no formal education credential to enter the occupation, though some employers prefer or require a high school diploma. There is no related-work-experience requirement either, but BLS notes that many employers prefer candidates who already have food-service experience, in roles such as waiter, waitress, or bartender helper. Some aspiring bartenders instead attend a bartending school or take a course at a community college first; these programs typically cover mixing cocktails, serving customers, and setting up a bar, and BLS notes some schools help graduates find jobs, though attending one is optional rather than a BLS-stated requirement.",
+					"Per BLS, bartenders typically need no formal education credential to enter the occupation, though some employers prefer or require a high school diploma. There is no related-work-experience requirement either, but BLS notes that many employers prefer candidates who already have food-service experience, in roles such as waiter, waitress, or bartender helper. Some aspiring bartenders instead attend a bartending school or take a course at a community college first; these programs typically cover mixing cocktails, serving customers, and setting up a bar, and BLS notes some schools help graduates find jobs, though BLS treats attending one as optional, not something it actually requires.",
 					'On-the-job training is the part BLS describes as the norm: a few weeks under an experienced bartender learning cocktail recipes, bar-setup procedures, and customer service, including how to handle unruly customers. Where bartenders also serve food, BLS says training can extend to teamwork and food-handling procedures. Some employers instead use self-study materials, such as videos and instructional booklets, to teach the same skills. Most states require anyone serving alcoholic beverages to be at least 18 years old, and BLS notes bartenders must know the state and local laws governing alcohol sales in whichever jurisdiction they work.',
 				],
 				image: {
@@ -2715,23 +2715,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How long does it take to become a bartender?',
-				answer: 'Per BLS, there is no formal education requirement, and on-the-job training typically runs a few weeks. Add time for a state-required responsible-server course where one applies, which in states like Texas and California must be completed within 30 to 60 days of starting the job, and someone can realistically become a working bartender within a couple of months of entering the field.',
+				answer: "BLS doesn't set any diploma or degree bar for this job, and learning the ropes on the job usually wraps up in a few weeks. Add time for state-mandated alcohol-server training where it's required, which in states like Texas and California must be completed within 30 to 60 days of starting the job, and someone can realistically be pouring drinks for a paycheck within a couple of months of entering the field.",
 			},
 			{
 				question: 'Do you need a license or certification to be a bartender?',
-				answer: 'It depends on the state. Many states and localities require a responsible-server course before someone can serve alcohol for pay, such as California\'s RBS training, Washington\'s MAST permit, or Illinois\'s BASSET certification, all completed directly by the server. Texas works a bit differently: its TABC certification is tied to a Safe Harbor liability defense for the employer rather than a direct mandate on the server, but because employers rely on that protection, nearly every Texas bartender ends up certified within 30 days of hire anyway. The specific program and compliance window vary by state, and some states have no statewide mandate at all. Professional bartending certification beyond that is optional, per BLS, though it may help demonstrate competency to an employer.',
+				answer: "It depends on the state. A lot of state and local governments won't let someone pour a drink for pay without first clearing an alcohol-server training class, such as California's RBS training, Washington's MAST permit, or Illinois's BASSET certification, all completed directly by the server. Texas works a bit differently: its TABC certification exists to give the employer a Safe Harbor defense against liability, rather than a direct mandate on the server, but because employers rely on that protection, practically the entire Texas bartending workforce ends up certified in that same first month on the job anyway. The rules shift from state to state, and a handful skip the mandate entirely and leave it up to individual cities or counties. Professional bartending certification beyond that is optional, per BLS, though it can help show a prospective employer that someone already knows the job.",
 			},
 			{
 				question: 'How old do you have to be to bartend?',
-				answer: 'Per BLS, most states require workers who serve alcoholic beverages to be at least 18 years old, though the exact minimum age and any additional restrictions depend on the specific state.',
+				answer: "Per BLS, most states set 18 as the minimum age for anyone pouring or serving alcoholic drinks, though the exact cutoff and any extra restrictions depend on the specific state.",
 			},
 			{
 				question: 'How much do bartenders make?',
-				answer: 'BLS reports a median hourly wage of $16.12 for bartenders in May 2024, equivalent to $33,530 a year, including tips. The bottom 10% earned less than $9.58 an hour, and the top 10% earned more than $34.58. Pay is highest, per BLS industry data, in traveler accommodation ($17.18/hour) and lowest among the tracked industries in civic and social organizations ($13.18/hour).',
+				answer: "Per BLS's May 2024 data, bartenders earn a median of $16.12 an hour, tips included, which comes out to $33,530 over a full year. The range runs from $9.58 an hour at the low end up to $34.58 at the high end. Broken down by industry, the best-paying setting for this work tops out at $17.18/hour, while the lowest-paying one BLS tracks comes in at $13.18/hour.",
 			},
 			{
 				question: 'Is bartending a growing career?',
-				answer: 'Yes, per BLS. It projects 6% employment growth for bartenders from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 44,800 jobs and about 129,600 openings a year on average, driven mostly by population and income growth increasing demand for food, drinks, and entertainment.',
+				answer: "Yes. BLS's 2024-to-2034 outlook has bartender employment rising 6%, well above the roughly 3% economy-wide pace, with roughly 44,800 more jobs by the end of that stretch and, on average, about 129,600 yearly openings. Most of that growth traces back to a bigger, better-off population that's simply going out to eat, drink, and be entertained more often.",
 			},
 		],
 		sources: [
