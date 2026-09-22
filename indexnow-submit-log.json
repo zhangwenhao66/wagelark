@@ -164,7 +164,7 @@
   },
   "https://wagelark.com/respiratory-therapist-salary/": {
     "submitted_date": "2026-08-10",
-    "last_submitted_date": "2026-09-01",
+    "last_submitted_date": "2026-09-22",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection"
@@ -521,6 +521,11 @@
   "https://wagelark.com/salary-statistics-2026/": {
     "submitted_date": "2026-09-18",
     "last_submitted_date": "2026-09-18",
+    "verified_status": "pending"
+  },
+  "https://wagelark.com/massage-therapist-salary/": {
+    "submitted_date": "2026-09-22",
+    "last_submitted_date": "2026-09-22",
     "verified_status": "pending"
   }
 }
