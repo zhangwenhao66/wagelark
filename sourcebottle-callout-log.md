@@ -68,3 +68,16 @@
 - **Deadline**：2026-09-30 17:00（鼠标真实点击日历控件选中月份+日期，未直接写文本框）。
 - **发布状态**：✅ 已提交，跳转到 thankyou.asp，提示 "Pending approval, your post will be included in the next Drink Up! Alert"。提交回执 product id = `5581cf273d17f1f89b96ee0f6c88dd29`。
 - **上线复核**：⏳ 待下次任务运行时补查。
+
+### 2026-09-22（周二，正常排期）
+
+- **上线复核（本次先做）**：查了General分类列表（`industry-list-results.asp?iid=63&scid=5`第3页），确认09-01提交的"Court reporting/captioning industry pros..."条目✅已上线（Date Posted 1 September 2026，Deadline 30 September 2026 @ 5pm，署名WageLark (Content Creator)，与提交内容一致）。同页也看到08-25 licensed-trades条目仍在线。
+- **选站说明**：本站最后发布日期为09-01，是本轮流量站矩阵里最久未发布的三站之一（另两站FactCrumbs/UmberLore同为09-01），本次轮到。
+- **问题标题**：Legal hiring managers and law school advisors: has someone's path to practicing law blown well past the standard 7-year estimate?
+- **角度**：绑定`how-long-does-it-take-to-become-a-lawyer`一文——BLS给出的标准路径是7年（本科4年+法学院3年），拿到J.D.后还要再通过州律师资格考试才能执业；文中提到大多数州要求J.D.来自ABA认证院校，加州则允许通过未认证的固定校区或函授法学院走另一条路径（但须先通过"baby bar"）。征集法律行业招聘方/法学院招生顾问/司考培训人员分享真实案例：某人实际拿到执业资格的时间远远超过这个标准7年估计——反复考不过律师资格考试、走非全日制JD、走未认证院校这类绕路——具体多花了多长时间、原因是什么、对求职/职业规划造成了什么影响。与本站此前问过的采血员培训路径、空管员招聘瓶颈、牙科保健员薪资预期落差、水电暖学徒跨州转移、法庭速记员BLS就业展望准确性五个角度均不重叠，本次首次切入"实际耗时远超官方标准估计"角度。
+- **绑定文章**：WageLark `how-long-does-it-take-to-become-a-lawyer`（How Long Does It Take to Become a Lawyer? Degree, LSAT, Bar Exam）。
+- **分类标签**：Topics = General + Professional Services；Countries = United States（律师资格考试是美国州级制度，与既往WageLark条目对美国特有制度的地域设置一致）。
+- **表单设置**：Your name = Owen Zhang；Job title = Content Creator；Organisation = WageLark；Contact = Email；Unpaid；勾选了 Expert Directory 搜索；未勾 Verified Media。Email address 和 Contact email 均填 `contact@wagelark.com`。
+- **Deadline**：2026-10-08 17:00（鼠标真实点击日历控件切换到10月并选中8日、三击选中分钟数字段输入00改成整点，未直接写文本框，符合SKILL.md第0条硬规则）。
+- **发布状态**：✅ 已提交，跳转到`thankyou.asp?k=0,%200&product=d4f6c8a0be86758d3c48db2ae6e36196&name=Owen%20Zhang&email=contact@wagelark.com`，提示"Pending approval, your post will be included in the next Drink Up! Alert"。提交回执 product id = `d4f6c8a0be86758d3c48db2ae6e36196`。
+- **上线复核**：⏳ 待下次任务运行时补查。
