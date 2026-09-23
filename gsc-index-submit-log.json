@@ -448,5 +448,19 @@
   "already_indexed_no_action": [],
   "quota_exceeded_attempted": [],
   "quota_used": "1 of shared account-wide daily quota"
+ },
+ {
+  "date": "2026-09-23",
+  "note": "游标从WageLark开始（09-22停止点）。今日无新发布（随机休息，节奏自然化）。抽查队列前5候选（how-to-become-a-social-worker/how-to-become-a-physical-therapist/what-does-a-paralegal-do/how-to-become-an-ultrasound-tech/boilermaker-salary）经URL Inspection均已'Page is indexed'。老页未收录巡检（unindexed_pages.py）显示sitemap 79页、零曝光2页、未收录0——均已收录仅未获曝光。本站无可提交候选，跳过，不消耗配额。",
+  "submitted_urls": [],
+  "already_indexed_no_action": [
+   "https://wagelark.com/how-to-become-a-social-worker/",
+   "https://wagelark.com/how-to-become-a-physical-therapist/",
+   "https://wagelark.com/what-does-a-paralegal-do/",
+   "https://wagelark.com/how-to-become-an-ultrasound-tech/",
+   "https://wagelark.com/boilermaker-salary/"
+  ],
+  "quota_exceeded_attempted": [],
+  "quota_used": "0（无候选可提交）"
  }
 ]
