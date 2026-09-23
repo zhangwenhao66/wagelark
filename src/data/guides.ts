@@ -3710,6 +3710,10 @@ export const guides: Guide[] = [
 				question: 'Do bookkeepers make a lot of money?',
 				answer: 'Not especially, relative to the broader labor market. BLS puts the median wage for bookkeeping, accounting, and auditing clerks at $49,210 for May 2024, just under the $49,500 median BLS reports across all U.S. occupations that same year, essentially in line with a typical U.S. worker\'s pay.',
 			},
+			{
+				question: 'Is bookkeeping a hard job?',
+				answer: "Not in the way some licensed occupations on this site are. There's no state license, certifying exam, or four-year degree standing between someone and this job, per BLS, only a general preference for a bit of college beyond finishing high school. Nearly everything else a new hire needs to know gets learned while doing the work itself. The harder part may be job security: BLS expects the workforce here to get smaller, not bigger, as software takes over more of the work.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks (accessed 2026-08-24 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm' },
@@ -3960,11 +3964,16 @@ export const guides: Guide[] = [
 				question: 'Do flight attendants get paid well?',
 				answer: 'About average for the broader U.S. labor market. BLS puts the median flight attendant salary at $67,130 for May 2024, above the $49,500 median BLS reports across all U.S. occupations that same year, though pay varies by airline type; see this site\'s [flight attendant salary guide](/how-much-do-flight-attendants-make/) for the full percentile breakdown.',
 			},
+			{
+				question: 'What is the 35-7 rule for flight attendants?',
+				answer: "That's not an FAA safety regulation; it's a scheduling limit built into union contracts. Under the collective bargaining agreements at American Airlines (APFA) and United (AFA-CWA), for example, airlines can't schedule someone working reserve for more than 35 hours of flying in any seven consecutive 24-hour stretch on domestic routes, and reserves don't have to accept a schedule that pushes past that cap. The exact numbers vary by carrier and by whether the person holds a reserve slot or a bid line, since this comes from each airline's own labor contract rather than a nationwide rule BLS or the FAA publishes.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants, How to Become One (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
 			{ label: 'Federal Aviation Administration: Flight Attendant Certificate of Demonstrated Proficiency (independent corroboration of the certification requirement, its legal basis, and effective date)', url: 'https://www.faa.gov/Flight_Attendant_Certificate_Demonstrated_Proficiency_Information' },
 			{ label: 'O*NET OnLine: 53-2031.00 Flight Attendants (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/53-2031.00' },
+			{ label: 'Association of Professional Flight Attendants (APFA): American Airlines collective bargaining agreement, Section 11, Hours of Service (independently confirmed the 35-in-7 reserve flight-hour scheduling limit, not a BLS- or FAA-sourced detail; a contractual scheduling standard that can vary by airline)', url: 'https://www.apfa.org/wp-content/uploads/2024/07/2024-CBA-SECTION-11-HOURS-OF-SERVICE.pdf' },
 		],
 		image: '/images/flight-attendant-path.svg',
 		imageAlt: 'Diagram showing the path to becoming a flight attendant: meet eligibility requirements, get hired by an airline, complete several weeks to a few months of initial training, earn the FAA Certificate of Demonstrated Proficiency, then work as a flight attendant earning a median of $67,130 a year per BLS.',
@@ -4114,6 +4123,14 @@ export const guides: Guide[] = [
 			{
 				question: 'Does an RN or OT make more money?',
 				answer: 'Occupational therapists earned more in May 2024, per BLS: a median of $98,340, compared with $93,600 for registered nurses, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide. Both figures come from the same BLS survey year, though OTs require a master\'s or doctoral degree while RNs can enter with a bachelor\'s, associate\'s, or diploma.',
+			},
+			{
+				question: 'How long does it take to become an occupational therapist?',
+				answer: "Typically six to seven years altogether, per BLS: a four-year bachelor's degree first, since these graduate programs require one for admission, followed by a two- to three-year program pairing science coursework with supervised client fieldwork. After finishing that fieldwork, a graduate still has to clear a licensing exam before being allowed to practice.",
+			},
+			{
+				question: 'Is OT harder than nursing?',
+				answer: "BLS doesn't rate occupations by difficulty, but the credentialing timelines differ. The OT path runs through four years of undergraduate study plus a two- to three-year master's program, roughly six to seven years altogether, followed by a licensing exam. Registered nursing moves faster in most cases: per this site's [how long is nursing school](/how-long-is-nursing-school/) guide, BLS lists both the bachelor's (BSN) and associate's (ADN/ASN) nursing paths at about four years to completion, a shorter timeline than the track above.",
 			},
 		],
 		sources: [
@@ -4371,6 +4388,10 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 			{
 				question: 'Is it difficult to become a funeral director?',
 				answer: "It's a multi-step credentialing process, not something learned purely on the job. A candidate generally completes a two-year mortuary science course of study first, then a board exam, then a stint interning under someone already licensed, lasting a year to three years, before any state signs off. The board exam itself, run nationally by the International Conference of Funeral Service Examining Boards, splits into two separately graded halves, one on the Arts side and one on the Sciences side, both of which have to be cleared. Nothing here comes with an official difficulty rating; what's clear is that it's a years-long sequence of gates, not a single test or a quick certificate.",
+			},
+			{
+				question: 'What is the highest paying job in the funeral industry?',
+				answer: "Per BLS, the highest-paying title on the same funeral-service page is Funeral Home Manager (SOC 11-9171), at a $78,790 median in May 2025, about $23,780 above the $55,010 funeral director figure this page covers. That role oversees the administrative and financial end of running the operation, and BLS notes people typically spend several years as a licensed director first, so the higher-paying role is usually a step up rather than a separate entry point.",
 			},
 		],
 		sources: [
@@ -4761,6 +4782,10 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 			{
 				question: 'Who gets paid more, optometrist or ophthalmologist?',
 				answer: 'Likely ophthalmologists, though the comparison isn\'t exact. BLS puts the optometrist median at $136,570 for May 2025, well below the $275,930 median BLS reports for the wider physician-and-surgeon category that ophthalmologists fall under, since BLS does not break out ophthalmology as its own line item the way it does for optometrists. That blended physician figure lumps together every field from family medicine to surgery, without breaking eye surgeons out on their own, so the true ophthalmologist-only figure could differ from it in either direction.',
+			},
+			{
+				question: 'Is it hard to become an optometrist?',
+				answer: "It's a multi-year, multi-exam sequence rather than a single hurdle. Getting into an accredited O.D. program generally requires passing the OAT entrance exam first, then completing four years of doctoral coursework and hands-on clinical instruction on top of the three to four years of undergraduate study most applicants already have. Licensing afterward means clearing every section of NBEO's exam, a basic-science portion, a patient-care portion, and often a separate hands-on practical test, a heavier lift than the single licensing exam covered on this site's veterinarian page. None of that comes with an official difficulty rating; it's simply the four-year graduate track this profession runs on.",
 			},
 		],
 		sources: [
@@ -5624,6 +5649,14 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 			{
 				question: 'Is it difficult to become a speech pathologist?',
 				answer: "Getting into practice runs through a master's degree, a passing Praxis score, and a mentored fellowship period, not a single test with an easy pass or fail. ASHA's own historical data show test-takers passed this specialty's Praxis exam at rates in the high 80s to low 90s percent through the most recent year ASHA has published in its national summary report, 89.5% in 2018-19. Layered on top of a passing score, per BLS, is the CCC-SLP fellowship this page already covers: at least 1,260 supervised hours spread across 36 weeks or more before the credential is granted.",
+			},
+			{
+				question: 'Is SLP a stressful job?',
+				answer: "BLS doesn't rate occupations for stress, but it does describe a demanding path and a varied caseload. Per BLS, the role spans several settings at once, hospitals, doctors' offices, schools, and long-term care, often with clients whose needs range from stutters to feeding and voice disorders. Getting there already requires a mentored post-graduate fellowship, 1,260-plus hours spread over 36 weeks or more, before full certification, on top of a master's degree, pointing to substantial day-to-day demands even though BLS itself doesn't use the word \"stressful.\"",
+			},
+			{
+				question: 'Is speech pathology harder than nursing?',
+				answer: "BLS doesn't rate occupations by difficulty, but the credentialing timelines and structure differ. This career takes a master's degree, about two years past a bachelor's, then, under ASHA's certification framework, a mentored post-graduate fellowship of 1,260-plus hours over 36 weeks or more and a passing exam score before full certification. Registered nursing typically moves faster: per this site's [how long is nursing school](/how-long-is-nursing-school/) guide, BLS lists both the bachelor's (BSN) and associate's (ADN/ASN) nursing paths at about four years to completion, without an equivalent post-graduation fellowship requirement.",
 			},
 		],
 		sources: [
