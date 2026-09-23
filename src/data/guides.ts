@@ -600,6 +600,10 @@ export const guides: Guide[] = [
 				question: 'What pays more, RN or ultrasound tech?',
 				answer: 'Registered nurses came out ahead for May 2024: a $93,600 median, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, versus $89,340 for diagnostic medical sonographers, the BLS category that covers ultrasound techs. Both numbers are from the same BLS survey year, though RNs and sonographers sit on separate BLS Handbook pages with different typical entry-level education requirements.',
 			},
+			{
+				question: 'Is becoming an ultrasound technician hard?',
+				answer: "There's no BLS difficulty rating, but the training itself pairs classroom work in anatomy and the physics behind imaging with clinical hours, hands-on scanning under supervision before anyone graduates, and most employers still expect a credential from ARDMS, the field's main certifying body, even in states that don't legally require one. That's a heavier bar than fields on this site with no license or degree at all, but a lighter one than the four-year-plus paths some other allied-health roles require. Whether that combination feels hard depends on a candidate's own background in physics and hands-on patient care, which BLS's data doesn't measure.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
@@ -1526,11 +1530,25 @@ export const guides: Guide[] = [
 				question: 'Is becoming a CNA a good way into healthcare?',
 				answer: 'The occupation is not fast-growing, roughly 3% between 2025 and 2035, in line with the economy-wide average, but BLS still counts roughly 203,300 openings a year because so many current workers cycle out into other jobs or leave the workforce. Whether that turnover-driven demand makes CNA work the right entry point depends on individual circumstances; this is national labor-market data, not personal career guidance for any one reader.',
 			},
+			{
+				question: 'How long does it take to get a CNA license in New Jersey?',
+				answer: "New Jersey requires far more than federal rules demand: 90 hours in total, made up of 50 hours in the classroom and 40 hours of hands-on practice at a state-licensed long-term care facility, per the Department of Health's NATCEP guidance. Finishing the course isn't the finish line, either. A candidate then sits for a two-part exam and clears a fingerprint background check before New Jersey lists them as certified.",
+			},
+			{
+				question: 'How long is CNA training in PA?',
+				answer: "Pennsylvania requires 80 hours, of which at least 37.5 must be supervised clinical experience, according to Credentia, the vendor the commonwealth contracts with to run its nurse aide competency exam and registry. That clinical block runs more than double the federal 16-hour minimum, layered on top of the same exam and registry listing every state requires.",
+			},
+			{
+				question: 'What is the easiest way to become a CNA?',
+				answer: "There's no BLS-ranked 'easiest' route, but one federal rule stacks the deck for anyone with a nursing home job lined up first. That same 75-hour minimum described above also bars a facility from charging its own hires, or anyone it has already offered a job, for any part of the course, textbooks included. Someone without a job offer yet still qualifies for pro-rated reimbursement once hired within 12 months of finishing. Beyond cost, which specific program runs fastest depends on the state's own hour requirement, covered in the two answers above.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies (accessed 2026-08-31 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/nursing-assistants.htm' },
 			{ label: '42 CFR Part 483, Subpart D: Nurse Aide Training and Competency Evaluation (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D' },
 			{ label: '42 CFR § 483.35(d): Requirements for facility hiring and use of nurse aides (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-B/section-483.35' },
+			{ label: 'New Jersey Department of Health: Navigating the NATCEP (accessed 2026-09-23 via direct fetch, PDF, confirms the 90-hour state-approved nurse aide training course)', url: 'https://www.nj.gov/health/healthfacilities/documents/ltc/navigating_natcep.pdf' },
+			{ label: "Credentia (Pennsylvania's nurse aide testing vendor): Frequently Asked Questions, NNAAP Handbook (accessed 2026-09-23 via direct fetch, confirms Pennsylvania's 80-hour training requirement with 37.5 clinical hours)", url: 'https://kb-pa.credentia.com/en/article/faqfrequently-asked-questions' },
 		],
 		image: '/images/cna-certification-path.svg',
 		imageAlt: 'Timeline diagram showing the path to CNA certification: 75-hour minimum state-approved training program, competency exam, then placement on the state nurse aide registry within 30 days.',
@@ -5496,6 +5514,10 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 				question: 'Do forensic scientists get paid well?',
 				answer: "Above the broader labor market, yes. This occupation's May 2025 BLS median of $72,060 runs well past the $50,980 economy-wide median for that same year, meaning a typical worker in this field earned about 41% more than the typical U.S. worker.",
 			},
+			{
+				question: 'How many years does it take to become a forensic scientist?',
+				answer: "About four years for the degree itself, per BLS, earned in one of the bachelor's-level majors covered above (a two-year credential covers some positions instead). A new hire doesn't start handling cases alone on day one, either; BLS describes a further stretch of supervised time learning the specialty hands-on, usually well under 12 months, before that happens. Add the two together and the realistic runway to working solo lands closer to four to five years, not the bachelor's degree alone.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Forensic Science Technicians (accessed 2026-09-11 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026; also source for the duties list, education/training detail, industry wage breakdown, and Similar Occupations comparisons above)', url: 'https://www.bls.gov/ooh/life-physical-and-social-science/forensic-science-technicians.htm' },
@@ -5789,6 +5811,10 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 			{
 				question: "What percentage of Americans earn over $75,000 a year?",
 				answer: "About a quarter, per individual wage data rather than household data. The Social Security Administration's wage statistics track net compensation for every individual wage earner in the country, and its most recent published breakdown, for 2023, shows about 25.7% of the 173.7 million wage earners that year had net compensation of $75,000 or more. That's a distinct measure from the $83,730 figure cited above for a typical household's total income, which counts every earner under one roof together rather than one person at a time.",
+			},
+			{
+				question: "What is considered a good salary in 2026?",
+				answer: "There's no official government definition, but the figures on this page give a few concrete benchmarks instead of a single number. Beating the $69,770 mean pay across the hundreds of individual jobs the federal government surveys puts a worker above a typical paycheck. Clearing $83,730 a year is a higher bar, since that's the government's most recent read on what a typical household, not a single worker, brings in when every earner under one roof is added together. By a third measure, Social Security Administration data shows about a quarter of individual wage earners cleared $75,000 in net compensation in 2023. None of these is an authority's ruling on what counts as good; each is one way to read where a given number falls against the rest of the country.",
 			},
 		],
 		sources: [
@@ -6169,6 +6195,14 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 			{
 				question: 'Are most massage therapists self-employed, and does that affect the wage data?',
 				answer: 'A meaningful share, per BLS, which describes both self-employment and part-time work as widespread in this occupation. That matters for reading the figures on this page: by its own published methodology, the underlying OEWS survey does not produce estimates covering people who work for themselves. So the median pay and the job count both count wage-and-salary workers only, missing every independent-practice therapist entirely.',
+			},
+			{
+				question: 'Is massage therapy school hard?',
+				answer: "There's no BLS difficulty rating for the coursework. What is documented: BLS puts this job at its lightest schooling tier, a postsecondary award earned outside the standard two- or four-year degree track, but most states still require passing a licensing exam after finishing, and BLS separately notes the work itself takes enough muscular effort and stamina that many working therapists can't sustain a full 8-hour, 5-day schedule. Clearing the classroom hurdle looks shorter than most allied-health training on this site; the physical toll of the job itself is the part BLS flags as the harder, ongoing constraint.",
+			},
+			{
+				question: 'Is massage therapy worth it as a career?',
+				answer: "BLS's aggregate numbers lean favorable: a 15% jump in projected jobs over the coming decade, faster than any other light-training-bar role WageLark has covered, plus a $58,450 median that beats several other short-training roles. Two caveats sit next to that data. Pay varies widely by setting, from a low of $43,840 in hotel and resort jobs up to $72,800 in chiropractic offices, and a meaningful share of the field is self-employed or part-time, a group the underlying BLS survey doesn't capture at all. Whether fast growth, a wide pay spread, and common self-employment add up to worth it depends on individual circumstances BLS's labor-market data doesn't speak to.",
 			},
 		],
 		sources: [
