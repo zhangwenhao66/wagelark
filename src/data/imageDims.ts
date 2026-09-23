@@ -23,6 +23,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/airline-pilot-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/audiologist-salary-chart.svg": {
   "h": 240,
   "w": 640
@@ -53,6 +57,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/cna-certification-path.svg": {
   "h": 300,
+  "w": 640
+ },
+ "/images/commercial-pilot-salary-chart.svg": {
+  "h": 240,
   "w": 640
  },
  "/images/court-reporter-education-path.svg": {

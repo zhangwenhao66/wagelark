@@ -52,6 +52,8 @@ const CHARTS = {
 	'orthotist-and-prosthetist-salary-chart': '29-2091',
 	'boilermaker-salary-chart': '47-2011',
 	'massage-therapist-salary-chart': '31-9011',
+	'airline-pilot-salary-chart': '53-2011',
+	'commercial-pilot-salary-chart': '53-2012',
 };
 
 const NAVY = '#14273f';

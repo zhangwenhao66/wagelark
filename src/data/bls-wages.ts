@@ -3607,5 +3607,85 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Massage Therapists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/massage-therapists.htm",
 		publishedDate: "2026-08-27"
+	},
+	"53-2011": {
+		socCode: "53-2011",
+		title: "Airline Pilots, Copilots, and Flight Engineers",
+		medianAnnual: 232140,
+		percentiles: {
+			p10: 106710,
+			p90: 463830
+		},
+		employment: 104600,
+		employmentYear: "2025",
+		jobOutlookPct: 8,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 8700,
+		projectionPeriod: "2025-35",
+		entryEducation: "Bachelor's degree",
+		industryWages: [
+			{
+				industry: "Couriers and express delivery services",
+				annualWage: 334930
+			},
+			{
+				industry: "Scheduled air transportation",
+				annualWage: 293240
+			},
+			{
+				industry: "Support activities for transportation",
+				annualWage: 202680
+			},
+			{
+				industry: "Federal government, excluding postal service",
+				annualWage: 141140
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Airline and Commercial Pilots",
+		sourceUrl: "https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm",
+		publishedDate: "2026-08-27"
+	},
+	"53-2012": {
+		socCode: "53-2012",
+		title: "Commercial Pilots",
+		medianAnnual: 123220,
+		percentiles: {
+			p10: 58850,
+			p90: 266620
+		},
+		employment: 50400,
+		employmentYear: "2025",
+		jobOutlookPct: 5,
+		jobOutlookLabel: "Faster than average",
+		employmentChange: 2600,
+		projectionPeriod: "2025-35",
+		entryEducation: "Postsecondary nondegree award",
+		industryWages: [
+			{
+				industry: "Nonscheduled air transportation",
+				annualWage: 133150
+			},
+			{
+				industry: "Professional, scientific, and technical services",
+				annualWage: 129610
+			},
+			{
+				industry: "Support activities for air transportation",
+				annualWage: 123090
+			},
+			{
+				industry: "Other ambulatory healthcare services",
+				annualWage: 100330
+			},
+			{
+				industry: "Technical and trade schools; private",
+				annualWage: 93820
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Airline and Commercial Pilots",
+		sourceUrl: "https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm",
+		publishedDate: "2026-08-27"
 	}
 };

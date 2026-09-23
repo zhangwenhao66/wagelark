@@ -1470,3 +1470,35 @@ test("spot check: Massage Therapists (31-9011) matches BLS OOH page", () => {
 	assert.equal(occ.industryWages[3].industry, 'Accommodation');
 	assert.equal(occ.industryWages[3].annualWage, 43840);
 });
+
+test("spot check: Airline Pilots, Copilots, and Flight Engineers (53-2011) matches BLS OOH page", () => {
+	const occ = occupations['53-2011'];
+	assert.equal(occ.medianAnnual, 232140);
+	assert.equal(occ.medianHourly, undefined);
+	assert.deepEqual(occ.percentiles, { p10: 106710, p90: 463830 });
+	assert.equal(occ.employment, 104600);
+	assert.equal(occ.jobOutlookPct, 8);
+	assert.equal(occ.employmentChange, 8700);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Couriers and express delivery services');
+	assert.equal(occ.industryWages[0].annualWage, 334930);
+	assert.equal(occ.industryWages[3].industry, 'Federal government, excluding postal service');
+	assert.equal(occ.industryWages[3].annualWage, 141140);
+});
+
+test("spot check: Commercial Pilots (53-2012) matches BLS OOH page", () => {
+	const occ = occupations['53-2012'];
+	assert.equal(occ.medianAnnual, 123220);
+	assert.equal(occ.medianHourly, undefined);
+	assert.deepEqual(occ.percentiles, { p10: 58850, p90: 266620 });
+	assert.equal(occ.employment, 50400);
+	assert.equal(occ.jobOutlookPct, 5);
+	assert.equal(occ.employmentChange, 2600);
+	assert.equal(occ.entryEducation, 'Postsecondary nondegree award');
+	assert.equal(occ.industryWages.length, 5);
+	assert.equal(occ.industryWages[0].industry, 'Nonscheduled air transportation');
+	assert.equal(occ.industryWages[0].annualWage, 133150);
+	assert.equal(occ.industryWages[4].industry, 'Technical and trade schools; private');
+	assert.equal(occ.industryWages[4].annualWage, 93820);
+});

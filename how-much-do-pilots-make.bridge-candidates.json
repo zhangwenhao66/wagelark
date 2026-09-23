@@ -1,0 +1,16 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "Related reading on this site: [flight attendant pay](/how-much-do-flight-attendants-make/), another airline-crew role with a similarly wide, seniority-driven range, and [air traffic controller salary](/air-traffic-controller-salary/), a non-flying aviation career where BLS puts the May 2025 median at $148,080, between the two pilot figures on this page.",
+    "target_slug": "how-much-do-flight-attendants-make",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "Related reading on this site: [flight attendant pay](/how-much-do-flight-attendants-make/), another airline-crew role with a similarly wide, seniority-driven range, and [air traffic controller salary](/air-traffic-controller-salary/), a non-flying aviation career where BLS puts the May 2025 median at $148,080, between the two pilot figures on this page.",
+    "target_slug": "air-traffic-controller-salary",
+    "target_found": true
+  }
+]

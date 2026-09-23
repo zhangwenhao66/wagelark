@@ -672,7 +672,7 @@ export const guides: Guide[] = [
 		title: 'How Much Do Flight Attendants Make? BLS Data by Percentile',
 		description: 'The median flight attendant salary is $63,580 a year per BLS, but the range is enormous, from $35,110 to $136,430. Here is why, and what drives it.',
 		published: '2026-08-03',
-		updated: '2026-09-13',
+		updated: '2026-09-23',
 		socCode: '53-2031',
 		coreSummary: 'The median annual wage for flight attendants was $63,580 in May 2025, according to the Bureau of Labor Statistics, down from $67,130 the year before. The range is unusually wide for the required entry education: the bottom 10% earned less than $35,110 while the top 10% earned more than $136,430, a roughly $101,000 gap driven mainly by seniority-based pay scales and route/aircraft assignments under airline union contracts.',
 		sections: [
@@ -695,6 +695,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook',
 				body: [
 					'BLS projects 9% employment growth for flight attendants from 2025 to 2035, classified as much faster than average, taking the occupation from 133,700 jobs to roughly 145,500, a net gain of about 11,800 positions. On top of that net growth, BLS separately estimates about 18,500 openings a year on average over the decade, since most yearly openings come from replacing workers who transfer out or retire rather than from new positions alone. Growth in air travel demand, plus regulatory minimum staffing requirements tied to aircraft passenger capacity, are the main drivers BLS cites. Airlines cannot simply run more flights without proportionally more crew, which links growth directly to industry capacity expansion in a way that is less true for some other service occupations.',
+					"The other crew role on the same flight deck follows a similar seniority-driven pay pattern but at a much higher scale: this site's [pilot pay guide](/how-much-do-pilots-make/) puts the May 2025 median for airline pilots, copilots, and flight engineers at $232,140, roughly three and a half times the flight attendant median above.",
 				],
 			},
 		],
@@ -6211,5 +6212,81 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		],
 		image: '/images/massage-therapist-salary-chart.svg',
 		imageAlt: 'Bar chart showing massage therapist annual wage by percentile: 10th percentile $33,640, median $58,450, 90th percentile $100,200, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'how-much-do-pilots-make',
+		category: 'Salary Guide',
+		title: 'How Much Do Pilots Make? Airline vs Commercial',
+		description: 'The median airline pilot salary is $232,140 a year per BLS, nearly double the $123,220 median for commercial pilots. See the full wage range by percentile.',
+		published: '2026-09-23',
+		updated: '2026-09-23',
+		socCode: '53-2011',
+		coreSummary: 'How much a pilot earns depends on which of two categories the job falls under. BLS tracked a median annual wage of $232,140 for airline pilots, copilots, and flight engineers in May 2025, versus $123,220 for commercial pilots, a gap of more than $108,000 between two occupations the agency counts separately. Airline pilots ranged from under $106,710 at the 10th percentile to over $463,830 at the 90th; commercial pilots ranged from under $58,850 to over $266,620.',
+		sections: [
+			{
+				heading: 'Pilot pay splits into two BLS categories, and the gap is large',
+				body: [
+					'The Bureau of Labor Statistics does not track a single occupation called "pilot." Its Occupational Employment and Wage Statistics program splits flying jobs into two categories on the same Airline and Commercial Pilots page: airline pilots, copilots, and flight engineers, who fly scheduled passenger and cargo routes for major and regional airlines, and commercial pilots, who fly charter flights, aerial application, instructional flights, and other work outside scheduled airline service. The May 2025 median for the airline category was $232,140 a year; for the commercial category it was $123,220, a gap of just over $108,000 between two jobs that share a search term but not a pay scale.',
+					"The size of that gap traces mostly to what each job actually is. Airline pilots typically need a bachelor's degree plus experience as a commercial or military pilot before an airline will hire them, and once hired, most fly under union contracts with structured, seniority-based pay progression. Commercial pilots typically need flight training and FAA certification instead of a four-year degree, and the work covers a much wider range of employers, from charter operators to flight schools to agricultural spraying. A search for \"how much do pilots make\" without specifying which kind is, in effect, a question about two different labor markets that happen to share a job title.",
+					'Employment size differs too. BLS counted about 104,600 airline pilots, copilots, and flight engineers and about 50,400 commercial pilots in 2025, so the higher-paying airline category is also the larger of the two by headcount.',
+				],
+			},
+			{
+				heading: 'The percentile spread inside each category',
+				body: [
+					"Airline pilot pay is not evenly distributed even within the category. The lowest-earning 10% made less than $106,710 in May 2025, while the highest-earning 10% made more than $463,830, a spread of well over $350,000. BLS attributes most of that spread to seniority: airline pilots usually start their careers as first officers and receive wage increases as they accumulate experience and seniority, with the most senior captains at large carriers landing at the top of the range. Pilots also receive a per-diem expense allowance for every hour away from home and can earn extra pay for international flights, on top of the base wage figures reported here.",
+					'Commercial pilots show a narrower but still wide range: under $58,850 at the 10th percentile to over $266,620 at the 90th. That spread reflects the variety within the category more than seniority alone. A newly certified flight instructor building hours toward an airline job and a charter pilot flying jets for a corporate operator both fall under "commercial pilots" in BLS\'s data, despite very different pay and experience levels.',
+				],
+				image: {
+					src: '/images/commercial-pilot-salary-chart.svg',
+					alt: 'Bar chart showing commercial pilot annual wage by percentile: 10th percentile $58,850, median $123,220, 90th percentile $266,620, based on BLS May 2025 data.',
+				},
+			},
+			{
+				heading: "Which employers pay the most, by BLS's industry data",
+				body: [
+					"For airline pilots, BLS's industry breakdown holds a surprise: the highest median pay was not at passenger airlines. Couriers and express delivery services, the cargo carriers that fly for companies like UPS and FedEx, paid a median of $334,930 in May 2025, well above the $293,240 median at scheduled air transportation, the category covering the passenger airlines most people picture when they think \"airline pilot.\" Support activities for transportation paid $202,680, and federal government employers (excluding the postal service) paid $141,140, the lowest of the four industries BLS breaks out for this occupation.",
+					'Commercial pilots show a similar shape at a lower altitude. Nonscheduled air transportation, the charter-flight industry, paid the highest median at $133,150, followed by professional, scientific, and technical services at $129,610 and support activities for air transportation at $123,090. Two smaller industries round out the list: other ambulatory healthcare services, which includes air ambulance operators, paid $100,330, and private technical and trade schools, where certified flight instructors are classified, paid $93,820, the lowest median BLS reports for either pilot category.',
+				],
+			},
+			{
+				heading: 'Job outlook and how the pay ladder actually works',
+				body: [
+					'BLS projects 8% employment growth for airline pilots, copilots, and flight engineers from 2025 to 2035, adding about 8,700 jobs to a base of 104,600. Commercial pilots are projected to grow 5% over the same decade, adding about 2,600 jobs. Both rates beat the 3% average projected across all U.S. occupations, and BLS classifies the combined airline-and-commercial-pilot outlook as much faster than average, citing rising demand for air travel and continued e-commerce-driven freight growth as the main drivers.',
+					"The path from a commercial pilot's median pay to an airline pilot's median mostly involves building flight hours and then getting hired by an airline, not a raise inside the same job. Airline pilots typically enter the field with a bachelor's degree and prior experience as a commercial or military pilot, so most of the highest earners on this page's chart started out flying lower-paying jobs first. Once hired, BLS notes pay climbs with seniority, which is a large part of why the 90th percentile for airline pilots, more than $463,830, sits over four times higher than the category's 10th percentile. Related reading on this site: [flight attendant pay](/how-much-do-flight-attendants-make/), another airline-crew role with a similarly wide, seniority-driven range, and [air traffic controller salary](/air-traffic-controller-salary/), a non-flying aviation career where BLS puts the May 2025 median at $148,080, between the two pilot figures on this page.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How much do pilots make?',
+				answer: "Two BLS-tracked categories answer that differently. The pilots on the flight deck of a major or regional carrier, flying on a fixed timetable, earned a $232,140 median in May 2025; pilots doing charter, instructional, and other non-airline work had a $123,220 median. Pay for the higher-paid group alone stretches from a bottom decile near $106,710 up past $463,830 at the top, mostly a function of seniority.",
+			},
+			{
+				question: 'Do plane pilots make good money?',
+				answer: "By national standards, yes. BLS put the typical U.S. worker's May 2025 pay at a $50,980 median. The $123,220 figure for charter and instructional pilots is over twice that number, and the $232,140 figure for pilots on a fixed airline timetable clears it by more than four and a half times. Even the bottom tenth of that higher-paid group, just above $106,710, still beats the nationwide figure by a wide margin.",
+			},
+			{
+				question: 'How long does it take to make $200,000 as a pilot?',
+				answer: "BLS doesn't publish pay by years on the job, so there's no official timeline. Its figures do show $200,000 sits below the median for pilots flying a fixed airline timetable ($232,140) but well above the commercial-pilot median ($123,220), and BLS describes pay in the higher tier as climbing with seniority once someone starts as a first officer. In practice, clearing that mark usually means logging hours as a commercial pilot first, landing an airline seat, and working up its pay scale over a span of years, not a fixed count.",
+			},
+			{
+				question: 'What pilots make $400,000 a year?',
+				answer: "The top 10% among pilots flying a fixed airline or cargo timetable cleared $463,830 in May 2025, per BLS, well past $400,000. BLS doesn't name job titles at that level, but its industry figures point toward senior captains flying for cargo carriers: the express-delivery and courier segment logged the top wage among the industries listed for this line of work, at $334,930.",
+			},
+			{
+				question: "What's the difference between an airline pilot and a commercial pilot, according to BLS?",
+				answer: "One flies a fixed passenger or cargo timetable and generally needs a four-year degree plus prior flying experience before getting hired. The other covers work outside that structure, including charter flights, flight instruction, and crop-dusting runs, and the entry bar there runs through hands-on flying instruction plus a pilot's license from the FAA, not a college diploma. BLS tracks the two as separate occupations with a median pay gap topping $108,000.",
+			},
+			{
+				question: 'Do pilots need a college degree?',
+				answer: "It depends which path. A four-year degree is what BLS lists as the usual entry point for pilots on a fixed airline timetable. The other route runs through hands-on flying instruction and an FAA-issued license, though some employers still ask for or prefer a degree on top of that.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Airline and Commercial Pilots (accessed 2026-09-23, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm' },
+		],
+		image: '/images/airline-pilot-salary-chart.svg',
+		imageAlt: 'Bar chart showing airline pilot annual wage by percentile: 10th percentile $106,710, median $232,140, 90th percentile $463,830, based on BLS May 2025 data.',
 	},
 ];
