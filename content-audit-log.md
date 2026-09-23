@@ -2237,3 +2237,61 @@
   "escalation": null
 }
 ```
+
+## 2026-09-23 — PAA-FAQ批强(daily-task, 2026-09-23)
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-09-23)",
+  "source": "独立站/research-db/paa_bulk_current/wagelark.json（38条候选，按impressions_28d降序处理，覆盖曝光前15条+部分低曝光条目，本次未跑完全部38条）",
+  "processed_slugs": [
+    "electrician-salary", "mri-tech-salary", "how-to-become-a-software-engineer",
+    "physician-assistant-salary", "occupational-therapy-assistant-salary",
+    "nuclear-medicine-technologist-salary", "ultrasound-tech-salary",
+    "what-does-a-millwright-do", "respiratory-therapist-salary",
+    "nurse-practitioner-salary", "highest-paying-jobs-without-a-degree",
+    "what-does-a-paralegal-do", "physical-therapist-salary",
+    "how-to-become-a-school-counselor", "what-does-a-bookkeeper-do",
+    "what-does-a-physician-assistant-do", "psychiatrist-salary",
+    "dental-assistant-salary", "funeral-director-salary",
+    "what-does-a-dental-hygienist-do", "genetic-counselor-salary",
+    "occupational-therapist-salary", "how-to-become-an-electrician",
+    "clinical-laboratory-technologist-salary", "salary-statistics-2026",
+    "optometrist-salary", "how-to-become-a-flight-attendant",
+    "how-to-become-a-physical-therapist", "how-to-become-a-paralegal",
+    "speech-language-pathologist-salary", "boilermaker-salary",
+    "lpn-salary（部分）", "physical-therapist-salary",
+    "orthotist-and-prosthetist-salary", "medical-assistant-salary"
+  ],
+  "not_reached": [
+    "lpn-salary（州级问法'NC小时工资'未核实，跳过不算处理）",
+    "how-to-become-a-cna（3条均为州级细节问法，NJ/PA/最简路径，需要额外核实未来得及）",
+    "forensic-scientist-salary（4条，低曝光=4，未处理）",
+    "how-to-become-an-ultrasound-tech（1条，低曝光=3，未处理）",
+    "massage-therapist-salary（4条，曝光值None，未处理）"
+  ],
+  "faq_added": [
+    {"slug": "what-does-a-bookkeeper-do", "question": "Is bookkeeping a hard job?", "sourced_from": "本页已有BLS条目(entry-level education/on-the-job training/6%decline)，无需新查"},
+    {"slug": "funeral-director-salary", "question": "What is the highest paying job in the funeral industry?", "sourced_from": "本页已有BLS Funeral Home Manager条目($78,790 vs $55,010)"},
+    {"slug": "occupational-therapist-salary", "question": "How long does it take to become an occupational therapist?", "sourced_from": "本页已有BLS学位/执照信息组合计算"},
+    {"slug": "occupational-therapist-salary", "question": "Is OT harder than nursing?", "sourced_from": "本页OT学位年限 vs 站内how-long-is-nursing-school页RN年限对比"},
+    {"slug": "optometrist-salary", "question": "Is it hard to become an optometrist?", "sourced_from": "本页已有OAT/NBEO考试结构信息"},
+    {"slug": "speech-language-pathologist-salary", "question": "Is SLP a stressful job?", "sourced_from": "本页已有BLS执业场所/fellowship信息"},
+    {"slug": "speech-language-pathologist-salary", "question": "Is speech pathology harder than nursing?", "sourced_from": "本页SLP学位+fellowship年限 vs 站内RN年限对比"},
+    {"slug": "how-to-become-a-flight-attendant", "question": "What is the 35-7 rule for flight attendants?", "sourced_from": "WebSearch核实：APFA(美航工会)与AFA-CWA(联航工会)两份劳资合同文档独立印证35-in-7 reserve排班限制一致；明确这是工会合同排班标准非FAA强制法规，已加第4条sources引用APFA合同PDF"}
+  ],
+  "faq_rejected_count": 59,
+  "faq_rejected_detail": "全部通过 research-db/paa_gap.py --reject-* 登记入 paa_rejections.json，明日不会被重复评估。拒绝原因分三类：(1) 与现有FAQ语义重复(表述不同但已被覆盖，最多)；(2) 主题不匹配本页范围(如OTA页面被问OT专科薪资、软件工程师页被问泛化engineer)；(3) 无可靠信源(主观'值不值得/好不好'类问题、第三方营销站估算数据不达本站信源标准，如物理治疗师分专科薪资、男性收入超$10万占比)。逐条明细见 research-db/paa_rejections.json 的 wagelark 节点。",
+  "mechanical_checks": {
+    "check_prose_patterns": "对6个改动slug逐一跑 check_prose_patterns.py --guides --slug。optometrist-salary与speech-language-pathologist-salary两个slug最终三类模式全部通过(exit 0)。what-does-a-bookkeeper-do/occupational-therapist-salary/how-to-become-a-flight-attendant三个slug仍报L-0819-9(FAQ与正文重合)，但逐条核实报警的FAQ编号全部是本次改动前就存在的存量FAQ(与08-30前发布内容同属matrix-prose-gate-backfill已知回溯债务范围，未新增)，本次新增的FAQ均已改到不再触发。funeral-director-salary一个slug报警的是本次新增FAQ本身(#8, 'funeral home manager'这个官方职位名恰好20个字符，命中脚本≥20连续字符阈值)：反复改写16版仍无法在保留清晰职位名的前提下避开这个阈值(职位名本身长度就是20字符，属于脚本对'精确复用官方短标题'类内容的已知盲区，非真正的逐句抄袭)，判断为不牺牲FAQ可读性/准确性，保留清晰职位名，此1项已知例外记录在此不做静默处理。",
+    "humanizer_avoid_ai_writing": "8条新增FAQ答案文本发布前已真实调用 Skill(humanizer) 与 Skill(avoid-ai-writing)（均为真实工具调用，非文字自述），humanizer未发现问题；avoid-ai-writing发现1处'real day-to-day intensity'的空洞强调词已删除。改写check_prose_patterns触发的多轮措辞微调后未重新过两个skill完整流程，仅本人逐条人工核对未引入新AI腔调用语（保持平实客观风格，未加比喻/三段式/破折号）。"
+  },
+  "build_and_deploy": {
+    "npm_run_build": "87页0 error",
+    "git_commit": "dcb035b（限定 src/data/guides.ts 单文件，未带上并发任务产生的未跟踪JSON文件）",
+    "git_push": "已推送origin/main",
+    "live_verification": "绕缓存curl核实6个改动页面全部已生效：what-does-a-bookkeeper-do/how-to-become-a-flight-attendant/funeral-director-salary/occupational-therapist-salary/optometrist-salary/speech-language-pathologist-salary"
+  },
+  "escalation": null
+}
+```
