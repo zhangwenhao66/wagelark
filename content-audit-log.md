@@ -2335,3 +2335,59 @@
   "escalation": null
 }
 ```
+
+```json
+{
+  "url_slug": "salary-statistics-2026",
+  "last_audited": "2026-09-23",
+  "published_date": "2026-09-13",
+  "selection_reason": "站内选文优先来源第3条命中：internal_link_audit.py --site wagelark 显示该页排名11.7/28天曝光36的临门页，正文入链=0",
+  "findings": [
+    {
+      "dimension": "事实准确性",
+      "status": "未发现问题（抽样5条核实）",
+      "detail": "抽查5条最高可见度数据点，逐条WebSearch溯源：$69,770国家平均年薪(OEWS May 2025)、$1,251周薪中位数+女性82.0%比例(BLS Q2 2026)、$83,730家庭收入中位数(Census Sept 2025)、$67,983起薪+3.5%涨幅(NACE，curl实测原文'Salaries Climb for the Class of 2025'页面逐字确认，与另一篇更早的'projections'文章的$68,680区分开，两者是NACE不同批次调查，非矛盾)、$1,404 vs $1,174工会薪资(BLS Feb 2026)。5/5准确。"
+    },
+    {
+      "dimension": "外部引用链接腐烂",
+      "status": "未发现问题",
+      "detail": "17个唯一href逐一curl核实。bls.gov(7个)/dol.gov(1个)返回403，经WebSearch交叉验证均为真实有效页面（标题匹配），判定为bot UA拦截假阳性，非真实链接失效（与本站/全矩阵此前审计对BLS/Britannica/PNAS等站点的一致结论相同）。census.gov/naceweb.org(6个)/roberthalf.com/atlantafed.org均200或正常重定向。"
+    },
+    {
+      "dimension": "内链健康度",
+      "status": "确认问题，已修复",
+      "detail": "internal_link_audit.py显示正文入链=0（临门页，排名11.7/28天曝光36）。按candidate_sources_detail排序（主题分→28天点击降序→入链数）取前3：firefighter-salary、pharmacy-technician-salary、ironworker-salary。三篇各在已有自然段落处追加一句指回本文，均只复述来源文章已断言的自身数字（$59,280中位数、$43,460中位数、$62,780中位数），未引入新事实。修复后正文入链0→3。"
+    },
+    {
+      "dimension": "EEAT / 抓取(聚合不加价值)政策",
+      "status": "未发现问题",
+      "detail": "本页是'统计数据枢纽页'模式：55+条数据逐条追溯到原始发布方（BLS/Census/DOL/NACE/Atlanta Fed），非从其他roundup复制。标题'Sourced, Not Recycled'即直接回应谷歌抓取政策里'聚合不加价值'的红线。Skill(google-spam-compliance)清单人工套用：三要素(投入/原创/附加价值)均'有'，11类逐条PASS，AI内容专属PASS。"
+    },
+    {
+      "dimension": "竞品差异化 / 时效性",
+      "status": "未发现问题",
+      "detail": "published=updated=2026-09-13，审计时仅10天新鲜度极高，无需更新。未做SERP头对头竞品调研（这类统计枢纽页价值在于交叉验证的数据密度，非与单一竞品比较结构）。"
+    },
+    {
+      "dimension": "SEO技术 / GEO / 机械散文 / 配图",
+      "status": "未发现问题",
+      "detail": "check_prose_patterns.py四项全部通过（'s own 1次/对比框架0次/连字符0处/FAQ复述0条重合）；check_seo_field_stats.py title z=-1.41/description z=0.55均在正常范围；hero图裁剪检查不适用（wagelark非强制裁剪站）；GEO人工核对（问句式H2标题、55+条带来源统计、6条FAQ、schema应由site-toolkit自动生成）符合结构化摘要提取标准，判定通过（未跑ai-seo技能打具体分数，手工套用Content Extractability Check清单）。"
+    },
+    {
+      "dimension": "其余维度（时效性以外的Schema一致性/合规敏感度/早期AI味/AdSense合规/谷歌垃圾政策）",
+      "status": "未发现问题",
+      "detail": "发布仅10天，属post-avoid-ai-writing硬性规则生效后的新文章，无早期AI味回溯需求；内容为劳动统计数据，无YMYL个人建议措辞、无AdSense限制类目风险；未做schema改动故无一致性漂移。"
+    }
+  ],
+  "actions_taken": [
+    "firefighter-salary正文'that broader benchmark'改为带链接锚文本'that broader national wage benchmark'指向/salary-statistics-2026/",
+    "pharmacy-technician-salary'What pharmacy technicians actually earn'节末追加一句'For how that $43,460 median stacks up against pay figures across the broader U.S. labor market, see this site's roundup of national wage statistics'并链接/salary-statistics-2026/",
+    "ironworker-salary首节末追加一句'For where that figure falls against the wider U.S. labor market, see this site's roundup of national wage statistics'并链接/salary-statistics-2026/",
+    "三篇编辑后逐一重跑check_prose_patterns.py确认无新增违规；npm run build验证通过；seo_drift.py对4个URL取基线并在部署后compare，salary-statistics-2026本身零drift，3个来源页均为预期内的INFO级正文变化",
+    "commit 5db603c + push，Cloudflare Pages自动部署，约35秒后绕缓存curl确认4个URL均生效；node tools/submit-indexnow.mjs提交4个URL（Bing/Yandex均200）；内容发布日志.md追加记录"
+  ],
+  "seo_score": "未跑具体打分脚本，人工核对title/description z-score均在正常范围（详见findings）",
+  "geo_score": "未跑ai-seo技能打具体分数，人工套用Content Extractability Check清单判定通过（问句式H2/55+条带来源统计/6条FAQ/10天新鲜度）",
+  "escalation": null
+}
+```
