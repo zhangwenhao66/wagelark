@@ -1969,7 +1969,7 @@ export const guides: Guide[] = [
 		title: 'Welder Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median welder salary at $51,000 a year, with 2% growth projected through 2034. Here is the full wage range by percentile and by industry.',
 		published: '2026-08-13',
-		updated: '2026-08-27',
+		updated: '2026-09-23',
 		socCode: '51-4121',
 		coreSummary: 'The median annual wage for welders, cutters, solderers, and brazers was $51,000 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $38,130 while the top 10% earned more than $75,850. BLS projects 2% employment growth from 2024 to 2034, slower than the roughly 3% average across all occupations, though about 45,600 openings are still projected each year.',
 		sections: [
@@ -1977,7 +1977,7 @@ export const guides: Guide[] = [
 				heading: 'What welders earn, and how wide the pay spread runs',
 				body: [
 					"SOC code 51-4121 is BLS's catch-all for welders, cutters, solderers, and brazers, defined as workers who use hand-held or remotely controlled equipment to join, repair, or cut metal parts and products. Roughly 457,300 people held these jobs in 2024, and BLS put the median annual wage at $51,000 that May, or $24.52 an hour. Pay ran from less than $38,130 at the 10th percentile to more than $75,850 at the 90th, a gap of roughly $37,700. That single wage figure covers all four job titles under the SOC code; BLS does not break out percentiles separately by specialty. For duties and safety on the job, see this site's guide to [what a welder does](/what-does-a-welder-do/).",
-					'BLS distinguishes the four roles inside that single SOC code by technique rather than by pay. Welders join metals using processes such as arc welding, where machinery produces an electrical current that generates heat to bond pieces together, with the specific process chosen based on factors like the metals involved. Cutters use heat from an electric arc, plasma, or burning gases to cut and trim metal to a specific size, including dismantling large structures such as ships or railroad cars. Solderers and brazers both heat molten filler metal to join two or more objects, but BLS notes soldering uses a lower temperature and is common on small, precisely positioned pieces such as computer chips, while brazing joins dissimilar metals and can add a protective coating against wear and corrosion. BLS does not publish separate wage data for any of these four specialties individually.',
+					"That $51,000 figure folds together four separate job titles BLS tracks under one SOC code and tells apart by technique, not pay: welders, cutters, solderers, and brazers. BLS doesn't publish wage data for any of the four individually.",
 					'BLS also places the occupation against two broader comparison points on the same page: a $48,660 median across "metal workers and plastic workers" as a group, and a $49,500 median across all occupations in the economy. Welders and related workers sit above both. BLS publishes the three figures side by side without breaking down what accounts for the difference, whether that\'s skill level, certification, or the physical demands of the work.',
 					'On growth, BLS projects 2% employment growth for welders, cutters, solderers, and brazers from 2024 to 2034, which it classifies as slower than average against the roughly 3% figure for all occupations combined. That said, the occupation still outpaces the broader metal workers and plastic workers group, which BLS projects will shrink 4% over the same period on the same comparison chart.',
 				],
@@ -1987,7 +1987,7 @@ export const guides: Guide[] = [
 				body: [
 					'BLS breaks out May 2024 wages by industry into three categories for this occupation. Specialty trade contractors paid the highest median at $57,310, followed by repair and maintenance at $53,300, then manufacturing at $49,740, the lowest of the three even though manufacturing is by far the largest employer.',
 					"On who actually employs welders, BLS lists manufacturing at 61% of all jobs, specialty trade contractors at 8%, self-employed workers at 6%, and repair and maintenance at 4%, with the remainder spread across smaller industries the Handbook page does not break out individually. That means most welders work in the lowest-paying of the three tracked industries by median wage. BLS does not explain the gap on this page, so a reader can't tell from the Handbook alone whether it reflects company size, union coverage, or some other factor not captured in a single median figure.",
-					'BLS also notes that welders may work outdoors in all types of weather or indoors in a confined area designed to contain sparks and glare, and that many manufacturing firms run two or three shifts a day, so evening and weekend work is common. Wages vary with the worker\'s experience, skill level, industry, and the size of the company, per BLS, though the Handbook page does not quantify how much any single factor moves pay.',
+					"BLS also flags the job's physical side: outdoor and confined-space work, plus rotating shifts. See this site's guide to [what a welder does](/what-does-a-welder-do/) for those conditions in full. Wages vary with the worker's experience, skill level, industry, and the size of the company, per BLS, though the Handbook page does not quantify how much any single factor moves pay.",
 				],
 			},
 			{
@@ -2064,7 +2064,7 @@ export const guides: Guide[] = [
 		title: 'How to Become a Paralegal: Education, Certification, and Pay',
 		description: "BLS data on the education path most paralegals take, what NALA and NFPA certification exams require, and median pay of $61,010 a year broken out by industry.",
 		published: '2026-08-13',
-		updated: '2026-08-13',
+		updated: '2026-09-23',
 		socCode: '23-2011',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, most paralegals and legal assistants enter the field through an associate's degree or certificate in paralegal studies. BLS reports a median annual wage of $61,010 in May 2024, with the bottom 10% earning less than $39,710 and the top 10% earning more than $98,990. No U.S. state currently licenses the paralegal occupation, though voluntary certification is available through NALA and NFPA.",
 		sections: [
@@ -2098,7 +2098,7 @@ export const guides: Guide[] = [
 			{
 				heading: "What flat growth doesn't tell you: 39,300 openings a year, and why",
 				body: [
-					'BLS projects essentially flat employment for paralegals and legal assistants from 2024 to 2034, describing the outlook as "little or no change." Flat growth is not the same as few job openings, though: BLS still projects about 39,300 openings a year on average over the decade, attributing most of them to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions. A faster-growing, shorter-training occupation by comparison, this site\'s [flight attendant training guide](/how-to-become-a-flight-attendant/) covers FAA-mandated certification with 9% growth projected through 2034, per BLS.',
+					'BLS projects essentially flat employment for paralegals and legal assistants from 2024 to 2034, describing the outlook as "little or no change," but flat growth doesn\'t mean a closed job market: BLS still counts roughly 39,300 openings a year on average, most from replacing workers who leave the field rather than from newly created positions. See this site\'s [what a paralegal does](/what-does-a-paralegal-do/) page for the full growth breakdown and how it stacks up against other occupations covered here. A faster-growing, shorter-training occupation by comparison, this site\'s [flight attendant training guide](/how-to-become-a-flight-attendant/) covers FAA-mandated certification with 9% growth projected through 2035, per BLS.',
 					"BLS attributes part of the limited growth specifically to technology, stating that advances including artificial intelligence are expected to make paralegals and legal assistants more efficient at tasks such as conducting research and preparing documents, which may reduce demand for these workers going forward. That is a more specific, technology-driven explanation than BLS gives for most occupations on this site.",
 					"On its \"Similar Occupations\" table, BLS lists lawyers at a 2024 median of $151,160, which requires a doctoral or professional degree, and secretaries and administrative assistants at $47,460, which requires only a high school diploma. The paralegal role sits between those two entry-education tiers on both pay and required schooling, a middle position that lines up with the mix of entry paths described above.",
 				],
@@ -2148,9 +2148,9 @@ export const guides: Guide[] = [
 		title: 'How to Become an Electrician: Apprenticeship, Licensing, and Pay',
 		description: 'Two apprenticeship routes lead to a license: union through IBEW/NECA, or non-union through IEC/ABC. Both run about 8,000 paid training hours. Here is the process.',
 		published: '2026-08-16',
-		updated: '2026-08-16',
+		updated: '2026-09-23',
 		socCode: '47-2111',
-		coreSummary: 'Most electricians enter the trade through a registered apprenticeship, not a college degree, following either a union path through a local IBEW/NECA Joint Apprenticeship and Training Committee or a non-union path through an Independent Electrical Contractors (IEC) or Associated Builders and Contractors (ABC) chapter. BLS describes the typical apprenticeship as 4 to 5 years; IEC publishes its own program as a 4-year structure totaling roughly 8,000 hours of paid on-the-job training and 576 hours of classroom instruction. Most states then require passing a licensing exam. BLS puts the median electrician wage at $62,350 a year as of May 2024.',
+		coreSummary: 'Most electricians enter the trade through a registered apprenticeship, not a college degree, following either a union path through a local IBEW/NECA Joint Apprenticeship and Training Committee or a non-union path through an Independent Electrical Contractors (IEC) or Associated Builders and Contractors (ABC) chapter. BLS describes the typical apprenticeship as 4 to 5 years; IEC publishes its own program as a 4-year structure totaling roughly 8,000 hours of paid on-the-job training and 576 hours of classroom instruction. Most states then require passing a licensing exam. BLS puts the median electrician wage at $63,190 a year as of May 2025.',
 		sections: [
 			{
 				heading: 'Two apprenticeship routes into the trade',
@@ -2161,7 +2161,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/electrician-apprenticeship-path.svg',
-					alt: 'Diagram showing two paths to becoming a licensed electrician: a union path through IBEW/NECA JATC apprenticeships (aptitude test plus interview) or a non-union path through IEC/ABC chapters (locally set entry requirements). Both converge on a roughly 4- to 5-year apprenticeship (IEC publishes its own program as totaling about 8,000 hours over 4 years), then a state licensing exam, leading to a licensed journey worker earning a median of $62,350 a year per BLS, with optional advancement to master electrician.',
+					alt: 'Diagram showing two paths to becoming a licensed electrician: a union path through IBEW/NECA JATC apprenticeships (aptitude test plus interview) or a non-union path through IEC/ABC chapters (locally set entry requirements). Both converge on a roughly 4- to 5-year apprenticeship (IEC publishes its own program as totaling about 8,000 hours over 4 years), then a state licensing exam, leading to a licensed journey worker earning a median of $63,190 a year per BLS, with optional advancement to master electrician.',
 				},
 			},
 			{
@@ -2183,7 +2183,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the work pays once you are licensed',
 				body: [
-					"BLS reported a median annual wage of $62,350 for electricians in May 2024, or $29.98 an hour, with the bottom 10% of earners making less than $39,430 and the top 10% making more than $106,030. Government employers, excluding state and local education and hospitals, paid the highest median at $77,080, while electrical contractors, the industry employing 65% of electricians, paid closer to the occupation-wide median at $61,290. BLS projects 9% employment growth from 2024 to 2034, which it classifies as much faster than average, for a full percentile and industry breakdown, see [electrician salary](/electrician-salary/).",
+					"BLS reported a median annual wage of $63,190 for electricians in May 2025, or $30.38 an hour, with the bottom 10% of earners making less than $42,640 and the top 10% making more than $108,510. Government employers, excluding state and local education and hospitals, paid the highest median at $79,820, while electrical contractors, the industry employing 66% of electricians, paid closer to the occupation-wide median at $61,570. BLS projects 9% employment growth from 2025 to 2035, which it classifies as much faster than average; for a full percentile and industry breakdown, see [electrician salary](/electrician-salary/).",
 					"Against other no-bachelor's-degree apprenticeship trades this site has covered, electricians land close to the top. [Plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) post a similar median of $62,970 after a comparably structured 4- to 5-year apprenticeship, while [welders](/welder-salary/) have a lower median and multiple non-apprenticeship entry routes BLS describes side by side. [Becoming a CNA](/how-to-become-a-cna/) sits at the opposite end of the training-length spectrum, a federal minimum of 75 hours, not a multi-year apprenticeship, with a median of $42,260, well below any of the trades above. This site's guide to [what a welder does](/what-does-a-welder-do/) covers that trade's duties and safety, and [HVAC certification](/hvac-certification/) covers EPA 608 requirements, training, and pay for another trade in this group. The rest of WageLark's [How to Become hub](/how-to-become/) covers apprenticeship and certification paths for other trades.",
 				],
 			},
@@ -2207,7 +2207,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do electrician apprentices get paid?',
-				answer: "Less than someone who already holds a full electrician's license, with raises tied to growing responsibility, per BLS, though the agency stops short of publishing an actual apprentice pay scale. Once someone finishes that multi-year training and becomes a journey worker, the wage floor becomes the occupation's own May 2024 median: $62,350 for the year.",
+				answer: "Less than someone who already holds a full electrician's license, with raises tied to growing responsibility, per BLS, though the agency stops short of publishing an actual apprentice pay scale. Once someone finishes that multi-year training and becomes a journey worker, the wage floor becomes the occupation's own May 2025 median: $63,190 for the year.",
 			},
 			{
 				question: 'Is there an age limit to become an electrician?',
@@ -2219,7 +2219,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Electricians (data from May 2024)', url: 'https://www.bls.gov/ooh/construction-and-extraction/electricians.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Electricians (data from May 2025, synced 2026-09-23 to match this site\'s electrician salary page, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/construction-and-extraction/electricians.htm' },
 			{ label: 'IEC (Independent Electrical Contractors): Electrical Apprenticeships', url: 'https://ieci.org/apprenticeship/' },
 			{ label: 'IBEW Local 81: Aptitude Test (Electrical Training Alliance test structure and scoring)', url: 'https://ibew81.org/content/aptitude-test' },
 			{ label: 'Apprenticeship.gov: Occupation Finder, Electricians (47-2111.00)', url: 'https://www.apprenticeship.gov/apprenticeship-occupations/listings?occupationCode=47-2111.00' },
@@ -2227,7 +2227,7 @@ export const guides: Guide[] = [
 			{ label: 'Texas Department of Licensing and Regulation: Electricians Program (two-part exam format example)', url: 'https://www.tdlr.texas.gov/electricians/elecexam.htm' },
 		],
 		image: '/images/electrician-apprenticeship-path.svg',
-		imageAlt: 'Diagram showing two paths to becoming a licensed electrician: a union path through IBEW/NECA JATC apprenticeships (aptitude test plus interview) or a non-union path through IEC/ABC chapters (locally set entry requirements). Both converge on a roughly 4- to 5-year apprenticeship (IEC publishes its own program as totaling about 8,000 hours over 4 years), then a state licensing exam, leading to a licensed journey worker earning a median of $62,350 a year per BLS, with optional advancement to master electrician.',
+		imageAlt: 'Diagram showing two paths to becoming a licensed electrician: a union path through IBEW/NECA JATC apprenticeships (aptitude test plus interview) or a non-union path through IEC/ABC chapters (locally set entry requirements). Both converge on a roughly 4- to 5-year apprenticeship (IEC publishes its own program as totaling about 8,000 hours over 4 years), then a state licensing exam, leading to a licensed journey worker earning a median of $63,190 a year per BLS, with optional advancement to master electrician.',
 	},
 	{
 		slug: 'how-to-become-a-physical-therapist',
@@ -3918,11 +3918,11 @@ export const guides: Guide[] = [
 		slug: 'how-to-become-a-flight-attendant',
 		category: 'How to Become',
 		title: 'How to Become a Flight Attendant: Training & FAA Certification',
-		description: "BLS says flight attendants need a high school diploma, service experience, and FAA-required training. Median pay is $67,130 a year, per BLS data.",
+		description: "BLS says flight attendants need a high school diploma, service experience, and FAA-required training. Median pay is $63,580 a year, per BLS data.",
 		published: '2026-08-25',
-		updated: '2026-08-25',
+		updated: '2026-09-23',
 		socCode: '53-2031',
-		coreSummary: "Per the Bureau of Labor Statistics, flight attendants typically need a high school diploma or the equivalent, one to two years of prior customer-service experience, and several weeks to a few months of employer-provided training before they can work. That training exists to meet a federal requirement: the FAA's Certificate of Demonstrated Proficiency, mandatory under 14 CFR parts 121 and 135 for anyone working aircraft with 20 or more passenger seats. BLS reports a median annual wage of $67,130 in May 2024, with 9% employment growth projected through 2034.",
+		coreSummary: "Per the Bureau of Labor Statistics, flight attendants typically need a high school diploma or the equivalent, one to two years of prior customer-service experience, and several weeks to a few months of employer-provided training before they can work. That training exists to meet a federal requirement: the FAA's Certificate of Demonstrated Proficiency, mandatory under 14 CFR parts 121 and 135 for anyone working aircraft with 20 or more passenger seats. BLS reports a median annual wage of $63,580 in May 2025, with 9% employment growth projected through 2035.",
 		sections: [
 			{
 				heading: 'Eligibility: what airlines screen for before training even starts',
@@ -3932,7 +3932,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/flight-attendant-path.svg',
-					alt: 'Diagram showing the path to becoming a flight attendant: meet eligibility requirements, get hired by an airline, complete several weeks to a few months of initial training, earn the FAA Certificate of Demonstrated Proficiency, then work as a flight attendant earning a median of $67,130 a year per BLS.',
+					alt: 'Diagram showing the path to becoming a flight attendant: meet eligibility requirements, get hired by an airline, complete several weeks to a few months of initial training, earn the FAA Certificate of Demonstrated Proficiency, then work as a flight attendant earning a median of $63,580 a year per BLS.',
 				},
 			},
 			{
@@ -3952,8 +3952,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'Pay and advancement once the certification is in hand',
 				body: [
-					"BLS reports a median annual wage of $67,130 for flight attendants in May 2024, but that single figure hides an unusually wide range driven mainly by airline seniority systems. [This site's flight attendant salary guide](/how-much-do-flight-attendants-make/) breaks out the full 10th-to-90th percentile spread and the pay gap between charter and scheduled airlines in detail.",
-					'BLS describes advancement as seniority-based rather than tied to additional certification: on international flights, senior flight attendants frequently oversee the work of newer colleagues, and some are promoted into management roles handling recruiting, instructing, or scheduling. BLS projects 9% employment growth for the occupation from 2024 to 2034, much faster than the roughly 3% average across all occupations, with about 19,800 openings projected each year, most from the need to replace workers who transfer out or leave the labor force.',
+					"BLS reports a median annual wage of $63,580 for flight attendants in May 2025, down from $67,130 the year before, but that single figure hides an unusually wide range driven mainly by airline seniority systems. [This site's flight attendant salary guide](/how-much-do-flight-attendants-make/) breaks out the full 10th-to-90th percentile spread and the pay gap between charter and scheduled airlines in detail.",
+					'BLS describes advancement as seniority-based rather than tied to additional certification: on international flights, senior flight attendants frequently oversee the work of newer colleagues, and some are promoted into management roles handling recruiting, instructing, or scheduling. BLS projects 9% employment growth for the occupation from 2025 to 2035, much faster than the roughly 3% average across all occupations, with about 18,500 openings projected each year, most from the need to replace workers who transfer out or leave the labor force.',
 				],
 			},
 		],
@@ -3976,11 +3976,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do flight attendants make?',
-				answer: "BLS reports a median annual wage of $67,130 in May 2024, with pay ranging from under $34,030 at the 10th percentile to over $138,040 at the 90th, driven largely by seniority. See [flight attendant salary](/how-much-do-flight-attendants-make/) for the full percentile and industry breakdown.",
+				answer: "BLS reports a median annual wage of $63,580 in May 2025, with pay ranging from under $35,110 at the 10th percentile to over $136,430 at the 90th, driven largely by seniority. See [flight attendant salary](/how-much-do-flight-attendants-make/) for the full percentile and industry breakdown.",
 			},
 			{
 				question: 'Do flight attendants get paid well?',
-				answer: 'About average for the broader U.S. labor market. BLS puts the median flight attendant salary at $67,130 for May 2024, above the $49,500 median BLS reports across all U.S. occupations that same year, though pay varies by airline type; see this site\'s [flight attendant salary guide](/how-much-do-flight-attendants-make/) for the full percentile breakdown.',
+				answer: 'About average for the broader U.S. labor market. BLS puts the median flight attendant salary at $63,580 for May 2025, above the $50,980 median BLS reports across all U.S. occupations that same year, though pay varies by airline type; see this site\'s [flight attendant salary guide](/how-much-do-flight-attendants-make/) for the full percentile breakdown.',
 			},
 			{
 				question: 'What is the 35-7 rule for flight attendants?',
@@ -3988,13 +3988,13 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants, How to Become One (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants, How to Become One (data from May 2025, synced 2026-09-23 to match this site\'s flight attendant salary page, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
 			{ label: 'Federal Aviation Administration: Flight Attendant Certificate of Demonstrated Proficiency (independent corroboration of the certification requirement, its legal basis, and effective date)', url: 'https://www.faa.gov/Flight_Attendant_Certificate_Demonstrated_Proficiency_Information' },
 			{ label: 'O*NET OnLine: 53-2031.00 Flight Attendants (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/53-2031.00' },
 			{ label: 'Association of Professional Flight Attendants (APFA): American Airlines collective bargaining agreement, Section 11, Hours of Service (independently confirmed the 35-in-7 reserve flight-hour scheduling limit, not a BLS- or FAA-sourced detail; a contractual scheduling standard that can vary by airline)', url: 'https://www.apfa.org/wp-content/uploads/2024/07/2024-CBA-SECTION-11-HOURS-OF-SERVICE.pdf' },
 		],
 		image: '/images/flight-attendant-path.svg',
-		imageAlt: 'Diagram showing the path to becoming a flight attendant: meet eligibility requirements, get hired by an airline, complete several weeks to a few months of initial training, earn the FAA Certificate of Demonstrated Proficiency, then work as a flight attendant earning a median of $67,130 a year per BLS.',
+		imageAlt: 'Diagram showing the path to becoming a flight attendant: meet eligibility requirements, get hired by an airline, complete several weeks to a few months of initial training, earn the FAA Certificate of Demonstrated Proficiency, then work as a flight attendant earning a median of $63,580 a year per BLS.',
 	},
 	{
 		slug: 'what-does-a-nurse-practitioner-do',
