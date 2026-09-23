@@ -2295,3 +2295,43 @@
   "escalation": null
 }
 ```
+
+## 2026-09-23 — PAA-FAQ批强收尾(交互会话，处理09-23早间批次剩余积压)
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-09-23收尾)",
+  "site": "wagelark",
+  "trigger": "Owen明确要求继续处理09-23早间批次遗留的5站积压，本条覆盖wagelark部分（cna/forensic-scientist-salary/ultrasound-tech/massage-therapist-salary/salary-statistics-2026共5个slug、16条候选问题）",
+  "slugs_processed": [
+    "salary-statistics-2026（1条候选，1条采纳）",
+    "how-to-become-a-cna（3条候选，3条全部采纳：NJ训练时长/PA训练时长/最简路径）",
+    "forensic-scientist-salary（4条候选，1条采纳：成为法医科学家需要几年；3条拒绝：math主观且FEPAC官方PDF被JS阻挡无法核实、按专业方向拆薪资BLS本页明确不提供、与前一条重复）",
+    "how-to-become-an-ultrasound-tech（1条候选，1条采纳：培训难度）",
+    "massage-therapist-salary（4条候选，2条采纳：学校难度/职业是否值得；2条拒绝：每日按摩次数无权威可核实数字、按地点最高薪资与现有FAQ重复）"
+  ],
+  "faq_added": [
+    {"slug": "salary-statistics-2026", "question": "What is considered a good salary in 2026?", "sourced_from": "本页已有三处基准数字(BLS全国均值$69,770/Census家庭中位数$83,730/SSA个人收入超$75k占比25.7%)组合回答，无需新查"},
+    {"slug": "how-to-become-a-cna", "question": "How long does it take to get a CNA license in New Jersey?", "sourced_from": "New Jersey Department of Health《Navigating the NATCEP》官方PDF直接抓取确认90小时(50课堂+40临床)"},
+    {"slug": "how-to-become-a-cna", "question": "How long is CNA training in PA?", "sourced_from": "Credentia(宾州官方护理助理考试/注册登记供应商)官方FAQ页直接抓取确认80小时(37.5临床)"},
+    {"slug": "how-to-become-a-cna", "question": "What is the easiest way to become a CNA?", "sourced_from": "WebSearch核实42 CFR § 483.152免费培训条款(已雇用/已获offer者不得收费)，本页已引用该CFR条款作为75小时federal floor来源"},
+    {"slug": "forensic-scientist-salary", "question": "How many years does it take to become a forensic scientist?", "sourced_from": "本页已有BLS学位(4年)+在职培训(通常不足12个月)信息组合计算，无需新查"},
+    {"slug": "how-to-become-an-ultrasound-tech", "question": "Is becoming an ultrasound technician hard?", "sourced_from": "本页已有CAAHEP认证项目/ARDMS认证/临床实操信息组合回答，无需新查"},
+    {"slug": "massage-therapist-salary", "question": "Is massage therapy school hard?", "sourced_from": "本页已有postsecondary nondegree award入门门槛+州执照考试+BLS体力要求描述组合回答，无需新查"},
+    {"slug": "massage-therapist-salary", "question": "Is massage therapy worth it as a career?", "sourced_from": "本页已有15%增长率/行业薪资分布/自雇比例未被OEWS统计三处事实组合回答，无需新查"}
+  ],
+  "faq_rejected_count": 8,
+  "faq_rejected_detail": "全部通过 research-db/paa_gap.py --reject-* 登记入 paa_rejections.json。拒绝原因：(1) 与现有FAQ语义重复——how-to-become-a-school-counselor的'能否不先当老师'、what-does-a-bookkeeper-do的'需要什么资质'、massage-therapist-salary的'哪里挣得最多'均已被现有FAQ覆盖；(2) 无可靠信源——lpn-salary的NC时薪超出本站'州级数据试点'范围(试点仅覆盖radiologic technologists/electricians/pharmacists三个职业，该限定已写在massage-therapist-salary现有FAQ里，本次据此拒绝)，forensic-scientist-salary的数学课时要求(FEPAC官方PDF被JS/Cloudflare阻挡无法直接核实具体学分数)，massage-therapist-salary的每日按摩次数(仅查到论坛帖子等不可引用来源)；(3) BLS数据不支持该拆分维度——forensic-scientist-salary的'哪个专业方向最挣钱'BLS明确不按专业细分只按雇主行业细分(已被现有FAQ覆盖)。逐条明细见 research-db/paa_rejections.json。",
+  "mechanical_checks": {
+    "check_prose_patterns": "对5个改动slug逐一跑 check_prose_patterns.py --guides --slug，反复改写后salary-statistics-2026/how-to-become-a-cna/forensic-scientist-salary/massage-therapist-salary四个slug三类模式全部通过(exit 0)。how-to-become-an-ultrasound-tech本次新增的FAQ(#6)已不再触发，但该slug原有FAQ#1-5命中的5处重合经git diff核实是改动前就存在的存量债务(与2026-09-15 matrix-prose-gate-backfill记录的回溯欠账同类)，与本次新增无关，未做改写，留作已知存量问题。",
+    "check_bridge_sentences": "how-to-become-a-cna（1条候选，链接到how-to-become-a-social-worker）、massage-therapist-salary（1条候选，链接到lpn-salary）、forensic-scientist-salary（1条候选，链接到clinical-laboratory-technologist-salary）三个slug的候选桥接句均位于本次未改动的正文段落（跨文章对比句，非新增FAQ），经git diff确认与本次编辑无关，属存量内容，未做核对/改写，留待后续存量回溯任务处理。",
+    "humanizer_avoid_ai_writing": "8条新增FAQ答案文本发布前已真实调用 Skill(humanizer) 与 Skill(avoid-ai-writing)（均为真实工具调用，非文字自述）。两项审查均判定文本干净：无em/en dash、无花引号、无AI高频词(delve/robust/testament等)、无rule of three堆砌。humanizer审查中发现1处'real clinical hours'的'real'空洞强调词已删除改为'clinical hours'。"
+  },
+  "build_and_deploy": {
+    "npm_run_build": "87页0 error",
+    "git_commit": "4a3d3c8（限定 src/data/guides.ts 单文件，未带上并发任务产生的未跟踪JSON文件与内容发布日志.md）",
+    "git_push": "已推送origin/main",
+    "live_verification": "推送后立即绕缓存curl核实how-to-become-a-cna，未查到新内容（部署延迟，符合Cloudflare Pages正常传播窗口，非失败）"
+  },
+  "escalation": null
+}
+```
