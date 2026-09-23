@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Target article states: 'The median annual wage for physician assistants was $133,260 in May 2024, according to the U.S. Bureau of Labor Statistics.' This matches the $133,260 figure exactly. The target also confirms master's-degree entry: 'physician assistants and nurse practitioners both typically enter with a master's degree' and FAQ#8 says 'Physician assistants hold a master's degree from an accredited PA program.'"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Target article states: 'The median annual wage for nurse practitioners was $129,210 in May 2024, according to the U.S. Bureau of Labor Statistics.' This matches the $129,210 figure exactly. The target also confirms master's-degree entry: 'BLS lists \"master's degree\" as the typical entry-level education for this role, and unlike nurse anesthetists, that has not changed... the great majority of nurse practitioner programs nationally remain master's-level as of 2026.'"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "Target confirms the $223,210 median exactly ('The median annual wage for Certified Registered Nurse Anesthetists (CRNAs) was $223,210 in May 2024') and confirms $223,210 is more than triple the librarian's $64,320 median (3x64,320=192,960 < 223,210). BUT the original bridge sentence grouped CRNA into occupations that 'also require a master's degree to enter,' which the target article explicitly contradicts: 'every accredited entry program now awards a doctoral degree, not the master's degree BLS still lists as the typical entry-level education' and FAQ#2: 'COA has required every accredited program in the field to award a doctorate (DNP or DNAP) since fully transitioning in 2025... though that is outdated' referring to BLS's master's-degree listing. I rewrote the librarian article's bridge sentence to no longer claim CRNA requires a master's degree, instead noting CRNA programs 'now award a doctorate rather than the master's degree BLS's summary table still lists,' which matches the target's own framing."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "That licensing landscape puts court reporting at the opposite end of the spectrum from [paralegals](/how-to-become-a-paralegal/), an occupation this site tracks that starts from a similar postsecondary certificate or associate's degree, but where BLS states no U.S. state currently licenses the occupation at all.",
+    "target_slug": "how-to-become-a-paralegal",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "Against another postsecondary-certificate occupation this site tracks, the court reporter median sits well below [ultrasound techs](/how-to-become-an-ultrasound-tech/) at $89,340, even though both start from a similar credential tier, roughly two years of postsecondary training for ultrasound techs against 2 to 3 years for court reporters.",
+    "target_slug": "how-to-become-an-ultrasound-tech",
+    "target_found": true
+  }
+]

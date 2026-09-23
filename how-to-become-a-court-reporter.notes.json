@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "Target article states verbatim: 'most paralegals and legal assistants enter the field through an associate's degree or certificate in paralegal studies' and 'No U.S. state currently licenses the paralegal occupation, though voluntary certification is available through NALA and NFPA.' This matches the bridge sentence's claim that paralegals start from a similar postsecondary certificate/associate's degree and that no U.S. state licenses the occupation."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "Target article confirms median wage $89,340 in May 2024 and states 'most entrants complete a two-year associate degree program in diagnostic medical sonography, though postsecondary certificate programs ... can be shorter.' The bridge sentence (after my edit) now says ultrasound techs train roughly two years against 2 to 3 years for court reporters, matching this two-year figure rather than the original unedited version's inaccurate claim that both fields run 2 to 3 years."
+  }
+]

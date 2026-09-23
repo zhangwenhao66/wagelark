@@ -1,0 +1,23 @@
+[
+  {
+    "index": 1,
+    "source": "正文",
+    "sentence": "Against other graduate-credentialed occupations on this site, librarians post a noticeably lower median: [physician assistants](/physician-assistant-salary/), also a master's-degree entry field per BLS, report $133,260, [nurse practitioners](/nurse-practitioner-salary/), likewise master's-level entry per BLS, report $129,210, and [certified registered nurse anesthetists](/crna-salary/), whose accredited programs now award a doctorate rather than the master's degree BLS's summary table still lists, report $223,210, more than triple the librarian figure.",
+    "target_slug": "physician-assistant-salary",
+    "target_found": true
+  },
+  {
+    "index": 2,
+    "source": "正文",
+    "sentence": "Against other graduate-credentialed occupations on this site, librarians post a noticeably lower median: [physician assistants](/physician-assistant-salary/), also a master's-degree entry field per BLS, report $133,260, [nurse practitioners](/nurse-practitioner-salary/), likewise master's-level entry per BLS, report $129,210, and [certified registered nurse anesthetists](/crna-salary/), whose accredited programs now award a doctorate rather than the master's degree BLS's summary table still lists, report $223,210, more than triple the librarian figure.",
+    "target_slug": "nurse-practitioner-salary",
+    "target_found": true
+  },
+  {
+    "index": 3,
+    "source": "正文",
+    "sentence": "Against other graduate-credentialed occupations on this site, librarians post a noticeably lower median: [physician assistants](/physician-assistant-salary/), also a master's-degree entry field per BLS, report $133,260, [nurse practitioners](/nurse-practitioner-salary/), likewise master's-level entry per BLS, report $129,210, and [certified registered nurse anesthetists](/crna-salary/), whose accredited programs now award a doctorate rather than the master's degree BLS's summary table still lists, report $223,210, more than triple the librarian figure.",
+    "target_slug": "crna-salary",
+    "target_found": true
+  }
+]
