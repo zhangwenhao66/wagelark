@@ -53,6 +53,15 @@
       "answer_url": "https://www.quora.com/What-are-the-highest-paying-jobs-without-a-college-degree-in-2019/answer/Owen-Zhang-161",
       "status": null,
       "notes": "本次为外链产能集中规则(2026-08-25新增)首次执行：用gsc_query.py现算8个非压制站近28天11-30位曝光，WageLark(533)排第一，与DayAlmanac(286)/UmberLore(259)一并获得本轮全部产能，其余5站本轮不轮到。目标页选取遵循冷启动规则：该页2026-08-30发布/更新，从未建过外链。发布时该问题0答案(2条折叠垃圾答案不计，标题含'in 2019'但内容评论开放且持续被follow，判定为长青问题非过期)。以站内highest-paying-jobs-without-a-degree文章骨架撰写(BLS 2025年5月数据：空管员中位年薪$148,080居首但需FAA认可项目/体检背调/FAA学院培训/年龄上限31-35/强制退休56岁，MRI技师$95,480/牙科保健师$94,260/超声技师$89,340/呼吸治疗师$80,450/放射技师$77,660五项医疗影像类，电工/管道工均被BLS归为'高中学历'但学徒制实为4-5年约2000小时/年；结论段指出真正共性是执照/名额/考试瓶颈而非'免学位'本身，反例为簿记员因无此瓶颈且BLS预测未来十年萎缩6%)。已过humanizer+avoid-ai-writing双重检查(无破折号、无AI高频词、无vague endorsement、句长有变化)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向highest-paying-jobs-without-a-degree页面,全程只填URL字段。已直接发布成功(非Space类问题)，发布前用javascript_tool核实编辑器DOM中确实生成了<a href>真实超链接(非纯文本)，发布后再次核实渲染页面DOM中确实是<a href=\"https://wagelark.com/highest-paying-jobs-without-a-degree/\">真实超链接,锚文本为here。 | question_title: What are the highest paying jobs without a college degree in 2019?"
+    },
+    {
+      "date": "2026-09-23",
+      "site": "wagelark.com",
+      "target_page": "https://wagelark.com/mri-tech-salary/",
+      "question_url": "https://www.quora.com/What-is-the-average-salary-for-MRI-technologists-in-the-United-States",
+      "answer_url": "https://www.quora.com/What-is-the-average-salary-for-MRI-technologists-in-the-United-States/answer/Owen-Zhang-161",
+      "status": null,
+      "notes": "2026-09-10起每天1站节奏。选站：DayAlmanac(08-30)与WageLark(08-30)并列最久未处理，用gsc_query.py现算28天11-30位曝光tiebreak——WageLark 490 > DayAlmanac 374，WageLark当选；CalcBadger固定优先名额本次判定未到期(最近09-11，间隔12天，不及WageLark 24天缺口)，未使用；DialWick冻结中不计入遍历；LingoGrove排名压制中按规则排除。目标页mri-tech-salary（本站GSC 11-30位曝光第1，113曝光0点击，此前从未建过外链），发布时该问题0答案。以站内mri-tech-salary文章骨架撰写(BLS OEWS 2025年5月数据：MRI技师中位年薪$95,480，比放射技师$80,110高约$15,370，10-90分位$68,890-$127,670；按行业细分门诊中心$140,390最高但仅3%技师在此就业，61%在医院就业处中位$95,920；MRI技师职业增长8%(2025-2035，43,900→47,300)快于放射技师5%；差异化事实：大多数MRI技师经ARRT post-primary途径从放射/核医学/放疗/超声等既有执照转训而来，非直接入行)。已过Skill(humanizer)+Skill(avoid-ai-writing)双重检查(无em dash、无AI高频词、修正1处vague endorsement'worth knowing'为直接陈述)。首次为WageLark新建专属Quora credential\"Salary Research Analyst at WageLark.com\"(2026-present，此前一直用默认Business Communications Researcher)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向mri-tech-salary页面,全程只填URL字段。发布前用javascript_tool核实编辑器DOM中确实是class=\"span link active\"(非link_pending)，发布后再次核实渲染页面DOM中确实是<a href=\"https://wagelark.com/mri-tech-salary/\" rel=\"noopener nofollow\">真实超链接,锚文本为here。 | question_title: What is the average salary for MRI technologists in the United States?"
     }
   ],
   "reddit": []
