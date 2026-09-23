@@ -62,6 +62,21 @@ const escapeHtml = (s: string) =>
 const highlightFigures = (s: string) =>
 	escapeHtml(s).replace(/\$?\d(?:[\d,]*\d)?(?:\.\d+)?%?/g, (m) => `<span class="kf">${m}</span>`);
 
+// 2026-09-24: coreSummary 里有手写的 [text](/path/) 链接（3 篇），原来只过 highlightFigures，
+// 读者看到的是字面 [text](url)。先按链接切开，链接锚文本和链接外文本各自做数字高亮，
+// 避免 href 里的数字被包进 <span class="kf"> 弄坏链接。
+const renderCoreSummary = (s: string) => {
+	const parts: string[] = [];
+	let last = 0;
+	for (const m of s.matchAll(/\[([^\]]+)\]\(((?:[^()]|\([^()]*\))*)\)/g)) {
+		parts.push(highlightFigures(s.slice(last, m.index)));
+		parts.push(`<a href="${m[2]}">${highlightFigures(m[1])}</a>`);
+		last = (m.index ?? 0) + m[0].length;
+	}
+	parts.push(highlightFigures(s.slice(last)));
+	return parts.join('');
+};
+
 function md(text: string): string {
 	return text
 		.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
@@ -207,7 +222,7 @@ const heroAvifMobile = (() => {
 
 		<div class="rule-double mt-9 border-b border-[var(--rule)] bg-white px-5 pt-4 pb-5">
 			<p class="font-mono-figures m-0 text-[0.68rem] font-semibold uppercase tracking-[0.13em] text-[var(--ink-soft)]">Key figures</p>
-			<p class="mt-2.5 mb-0 text-[1.05rem] leading-[1.9] text-[var(--ink)]" set:html={highlightFigures(guide.coreSummary)} />
+			<p class="mt-2.5 mb-0 text-[1.05rem] leading-[1.9] text-[var(--ink)]" set:html={renderCoreSummary(guide.coreSummary)} />
 		</div>
 
 		{wage && percentileRows.length > 0 && (
