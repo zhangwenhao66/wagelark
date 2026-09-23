@@ -2415,37 +2415,37 @@
     },
     "51-4121": {
       "title": "Welders, Cutters, Solderers, and Brazers",
-      "medianAnnual": 51000,
-      "medianHourly": 24.52,
+      "medianAnnual": 53750,
+      "medianHourly": 25.84,
       "percentiles": {
-        "p10": 38130,
-        "p90": 75850
+        "p10": 39240,
+        "p90": 77530
       },
-      "employment": 457300,
-      "employmentYear": "2024",
+      "employment": 437700,
+      "employmentYear": "2025",
       "jobOutlookPct": 2,
       "jobOutlookLabel": "Slower than average",
-      "employmentChange": 9900,
-      "projectionPeriod": "2024-34",
+      "employmentChange": 10300,
+      "projectionPeriod": "2025-35",
       "entryEducation": "High school diploma or equivalent",
       "industryWages": [
         {
           "industry": "Specialty trade contractors",
-          "annualWage": 57310
+          "annualWage": 59440
         },
         {
           "industry": "Repair and maintenance",
-          "annualWage": 53300
+          "annualWage": 56080
         },
         {
           "industry": "Manufacturing",
-          "annualWage": 49740
+          "annualWage": 51210
         }
       ],
-      "dataYear": "May 2024",
-      "sourceLabel": "BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers",
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (data from May 2025, synced 2026-09-23, superseding the May 2024 figures cited when related pages were first published)",
       "sourceUrl": "https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm",
-      "publishedDate": "2025-08-28"
+      "publishedDate": "2026-09-23"
     },
     "29-1141": {
       "title": "Registered Nurses",
@@ -2647,45 +2647,45 @@
     },
     "49-9051": {
       "title": "Electrical Power-Line Installers and Repairers",
-      "medianAnnual": 92560,
-      "medianHourly": 44.5,
+      "medianAnnual": 95320,
+      "medianHourly": 45.83,
       "percentiles": {
-        "p10": 50020,
-        "p90": 126610
+        "p10": 51470,
+        "p90": 128690
       },
-      "employment": 127400,
-      "employmentYear": "2024",
-      "jobOutlookPct": 7,
+      "employment": 131900,
+      "employmentYear": "2025",
+      "jobOutlookPct": 10,
       "jobOutlookLabel": "Much faster than average",
-      "employmentChange": 8400,
-      "projectionPeriod": "2024-34",
+      "employmentChange": 13600,
+      "projectionPeriod": "2025-35",
       "entryEducation": "High school diploma or equivalent",
       "industryWages": [
         {
-          "industry": "Federal government, excluding postal service",
-          "annualWage": 104540
+          "industry": "Federal government",
+          "annualWage": 111900
         },
         {
           "industry": "Utilities",
-          "annualWage": 102050
+          "annualWage": 103060
         },
         {
           "industry": "Local government, excluding education and hospitals",
-          "annualWage": 87550
+          "annualWage": 90060
         },
         {
           "industry": "Specialty trade contractors",
-          "annualWage": 76290
+          "annualWage": 76980
         },
         {
           "industry": "Utility system construction",
-          "annualWage": 74550
+          "annualWage": 76060
         }
       ],
-      "dataYear": "May 2024",
-      "sourceLabel": "BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers",
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers (data from May 2025, synced 2026-09-23, superseding the May 2024 figures cited when related pages were first published)",
       "sourceUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm",
-      "publishedDate": "2025-08-28"
+      "publishedDate": "2026-09-23"
     },
     "13-2011": {
       "title": "Accountants and Auditors",
@@ -2802,20 +2802,20 @@
     },
     "49-9044": {
       "title": "Millwrights",
-      "medianAnnual": 65170,
+      "medianAnnual": 65700,
       "percentiles": {},
-      "employment": 41300,
-      "employmentYear": "2024",
-      "jobOutlookPct": 0,
+      "employment": 40700,
+      "employmentYear": "2025",
+      "jobOutlookPct": 1,
       "jobOutlookLabel": "Little or no change",
-      "employmentChange": 0,
-      "projectionPeriod": "2024-34",
+      "employmentChange": 400,
+      "projectionPeriod": "2025-35",
       "entryEducation": "High school diploma or equivalent",
       "industryWages": [],
-      "dataYear": "May 2024",
-      "sourceLabel": "BLS Occupational Outlook Handbook: Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (SOC 49-9044 covers millwrights specifically; BLS breaks out a millwright-specific median annual wage ($65,170) and employment figure (41,300, flat 0% growth 2024-34) in its Pay and Job Outlook tables, but publishes 10th/90th percentiles and industry-level wages only for the combined three-title group, not broken out for millwrights alone -- percentiles and industryWages are left empty here rather than populated with the combined-group figures, so the auto-rendered chart/table on this page never mislabels group-level data as millwright-specific; the combined-group percentile and industry figures are still reported, with that caveat, in the article prose)",
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (SOC 49-9044 covers millwrights specifically; BLS breaks out a millwright-specific median annual wage ($65,700) and employment figure (40,700 in 2025, projected 41,000 in 2035, a 1% / +400 change) in its Pay and Job Outlook tables, but publishes 10th/90th percentiles and industry-level wages only for the combined three-title group ($45,760-$94,530; Manufacturing $65,220 top industry), not broken out for millwrights alone -- percentiles and industryWages are left empty here rather than populated with the combined-group figures, so the auto-rendered chart/table on this page never mislabels group-level data as millwright-specific; the combined-group percentile and industry figures are still reported, with that caveat, in the article prose. Re-verified 2026-09-23 against the live BLS OOH page, superseding the May 2024 figures cited when related pages were first published.)",
       "sourceUrl": "https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm",
-      "publishedDate": "2025-08-28"
+      "publishedDate": "2026-09-23"
     },
     "29-2043": {
       "title": "Paramedics",

@@ -471,15 +471,18 @@ test('spot check: Heavy and Tractor-trailer Truck Drivers (53-3032) matches BLS 
 // date: August 28, 2025", matching the same data-freshness date as every
 // other spot check in this file). Independent of wages-source.json's own
 // numbers -- do not derive these from the source file.
+// Re-verified 2026-09-23 via direct curl fetch of the live BLS OOH page
+// (returned 200), which now shows May 2025 figures superseding the May
+// 2024 numbers this spot check previously asserted.
 test('spot check: Welders, Cutters, Solderers, and Brazers (51-4121) matches BLS OOH page', () => {
 	const occ = occupations['51-4121'];
-	assert.equal(occ.medianAnnual, 51000);
-	assert.equal(occ.medianHourly, 24.52);
-	assert.equal(occ.percentiles.p10, 38130);
-	assert.equal(occ.percentiles.p90, 75850);
-	assert.equal(occ.employment, 457300);
+	assert.equal(occ.medianAnnual, 53750);
+	assert.equal(occ.medianHourly, 25.84);
+	assert.equal(occ.percentiles.p10, 39240);
+	assert.equal(occ.percentiles.p90, 77530);
+	assert.equal(occ.employment, 437700);
 	assert.equal(occ.jobOutlookPct, 2);
-	assert.equal(occ.employmentChange, 9900);
+	assert.equal(occ.employmentChange, 10300);
 	assert.equal(occ.industryWages.length, 3);
 });
 
@@ -664,15 +667,18 @@ test('spot check: Social Workers (21-1020) matches BLS OOH page', () => {
 // Hand-transcribed from the live bls.gov OOH page (Electrical Power-Line
 // Installers and Repairers) on 2026-08-20. Independent of wages-source.json's
 // own numbers.
+// Re-verified 2026-09-23 via direct curl fetch of the live BLS OOH page
+// (returned 200), which now shows May 2025 figures superseding the May
+// 2024 numbers this spot check previously asserted.
 test('spot check: Electrical Power-Line Installers and Repairers (49-9051) matches BLS OOH page', () => {
 	const occ = occupations['49-9051'];
-	assert.equal(occ.medianAnnual, 92560);
-	assert.equal(occ.medianHourly, 44.50);
-	assert.equal(occ.percentiles.p10, 50020);
-	assert.equal(occ.percentiles.p90, 126610);
-	assert.equal(occ.employment, 127400);
-	assert.equal(occ.jobOutlookPct, 7);
-	assert.equal(occ.employmentChange, 8400);
+	assert.equal(occ.medianAnnual, 95320);
+	assert.equal(occ.medianHourly, 45.83);
+	assert.equal(occ.percentiles.p10, 51470);
+	assert.equal(occ.percentiles.p90, 128690);
+	assert.equal(occ.employment, 131900);
+	assert.equal(occ.jobOutlookPct, 10);
+	assert.equal(occ.employmentChange, 13600);
 	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
 	assert.equal(occ.industryWages.length, 5);
 });
@@ -798,18 +804,21 @@ test('spot check: Court Reporters and Simultaneous Captioners (27-3092) matches 
 // "Millwrights -- Annual Wage by Percentile" chart and industry table never
 // mislabel three-title combined-group data as millwright-specific; those
 // combined-group figures are still reported, with that caveat, in the
-// article's prose. Millwrights are also a rare flat/no-growth line: BLS's
-// own projections table shows 41,300 -> 41,300 (2024-34), a 0% change, while
-// the combined group's headline growth (13%, driven by industrial machinery
-// mechanics at +16%) does not apply to millwrights specifically.
+// article's prose. Millwrights were previously a flat/no-growth line (BLS's
+// 2024-34 projections table showed 41,300 -> 41,300, a 0% change); re-verified
+// 2026-09-23 via direct curl fetch of the live BLS OOH page (returned 200),
+// which now shows a May 2025 / 2025-35 table of 40,700 -> 41,000 (+400, 1%),
+// still within "little or no change," while the combined group's headline
+// growth (14% in the 2025-35 table) still does not apply to millwrights
+// specifically.
 test('spot check: Millwrights (49-9044) matches BLS OOH page', () => {
 	const occ = occupations['49-9044'];
-	assert.equal(occ.medianAnnual, 65170);
+	assert.equal(occ.medianAnnual, 65700);
 	assert.equal(occ.medianHourly, undefined);
 	assert.deepEqual(occ.percentiles, {});
-	assert.equal(occ.employment, 41300);
-	assert.equal(occ.jobOutlookPct, 0);
-	assert.equal(occ.employmentChange, 0);
+	assert.equal(occ.employment, 40700);
+	assert.equal(occ.jobOutlookPct, 1);
+	assert.equal(occ.employmentChange, 400);
 	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
 	assert.deepEqual(occ.industryWages, []);
 });

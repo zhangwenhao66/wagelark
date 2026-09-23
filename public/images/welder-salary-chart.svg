@@ -3,15 +3,15 @@
 	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Welders, Cutters, Solderers, and Brazers: Annual Wage by Percentile</text>
 	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
 	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="56" width="191.027027027027" height="34" fill="#0f8b7f" />
-	<text x="351.027027027027" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$38,130</text>
+	<rect x="150" y="56" width="192.3281310460467" height="34" fill="#0f8b7f" />
+	<text x="352.3281310460467" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$39,240</text>
 	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
 	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="116" width="255.50428477257748" height="34" fill="#0f8b7f" />
-	<text x="415.5042847725775" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$51,000</text>
+	<rect x="150" y="116" width="263.44640784212567" height="34" fill="#0f8b7f" />
+	<text x="423.44640784212567" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$53,750</text>
 	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
 	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
-	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$75,850</text>
-	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national)</text>
+	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$77,530</text>
+	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national)</text>
 </svg>
