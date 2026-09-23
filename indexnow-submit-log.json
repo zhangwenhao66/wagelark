@@ -76,7 +76,7 @@
     "note": "launch batch 10/10 (Salary Guide, colloquial-query type); Bing 202 / Yandex 202; Discovered but not crawled (Discovered on 03 Aug 2026)",
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
-    "last_submitted_date": "2026-09-13",
+    "last_submitted_date": "2026-09-23",
     "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/radiology-tech-salary/": {
@@ -535,6 +535,11 @@
   "https://wagelark.com/massage-therapist-salary/": {
     "submitted_date": "2026-09-22",
     "last_submitted_date": "2026-09-22",
+    "verified_status": "pending"
+  },
+  "https://wagelark.com/how-much-do-pilots-make/": {
+    "submitted_date": "2026-09-23",
+    "last_submitted_date": "2026-09-23",
     "verified_status": "pending"
   }
 }
