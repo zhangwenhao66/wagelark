@@ -6216,13 +6216,21 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 	{
 		slug: 'how-much-do-pilots-make',
 		category: 'Salary Guide',
-		title: 'How Much Do Pilots Make? Airline vs Commercial',
-		description: 'The median airline pilot salary is $232,140 a year per BLS, nearly double the $123,220 median for commercial pilots. See the full wage range by percentile.',
+		title: 'How Much Do Pilots Make Per Flight or Hour?',
+		description: 'The BLS $232,140 median for airline pilots comes to about $258 per hour flown, based on the 75 flight hours a month BLS reports. Trip pay depends on block time.',
 		published: '2026-09-23',
 		updated: '2026-09-23',
 		socCode: '53-2011',
-		coreSummary: 'How much a pilot earns depends on which of two categories the job falls under. BLS tracked a median annual wage of $232,140 for airline pilots, copilots, and flight engineers in May 2025, versus $123,220 for commercial pilots, a gap of more than $108,000 between two occupations the agency counts separately. Airline pilots ranged from under $106,710 at the 10th percentile to over $463,830 at the 90th; commercial pilots ranged from under $58,850 to over $266,620.',
+		coreSummary: 'The BLS May 2025 median of $232,140 for airline pilots, copilots, and flight engineers comes to about $258 per hour flown, using the average of 75 flight hours a month that BLS reports. Airlines pay by the block hour, so one trip\'s pay depends on how long it runs. The commercial pilot median was $123,220, and airline pilots ranged from under $106,710 at the 10th percentile to over $463,830 at the 90th.',
 		sections: [
+			{
+				heading: 'How much pilots make per flight and per hour',
+				body: [
+					'An airline pilot\'s contract pay is an hourly rate for flight time, usually counted in block hours: the clock starts when the aircraft pushes back from the gate and stops when it parks at the other end. There is no set fee for flying a trip, so the pay for one flight depends on its block time, and a short hop pays less than a transcontinental leg for the same pilot.',
+					'BLS lists pilot pay only as an annual figure, so an hourly number has to be worked out, and the result is a yearly average per hour flown. BLS says airline pilots fly an average of 75 hours a month, roughly 900 a year, and spend another 150 hours a month on other duties. Spread the $232,140 median over 900 flight hours and you get about $258 per hour flown. Counted against all 225 working hours a month, the same salary is closer to $86 an hour. For passenger airlines, FAA rules in 14 CFR 117.23 also bar scheduling a pilot past 1,000 flight hours in any 365 consecutive days, so no passenger-airline pilot can log more than that.',
+					'Contract rates are a separate number, set by the airline, the aircraft, the seat, and seniority. AeroTime\'s July 2023 write-up of United\'s agreement in principle with its pilots, which still needed union approval at the time, listed $199.74 per block hour for a captain on the CRJ900, the smallest aircraft on that pay scale, and more than $386 for a captain on the Boeing 787.',
+				],
+			},
 			{
 				heading: 'Pilot pay splits into two BLS categories, and the gap is large',
 				body: [
@@ -6259,6 +6267,10 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		],
 		faq: [
 			{
+				question: 'How much do pilots make per flight?',
+				answer: 'Airlines count pay per block hour, so a trip\'s value comes down to how long it runs and what rate the pilot holds. On average, dividing the $232,140 BLS median by the roughly 900 hours a year airline pilots spend flying gives about $258 for each hour in the air, or around $516 for every two hours flown. Per diem is paid separately.',
+			},
+			{
 				question: 'How much do pilots make?',
 				answer: "Two BLS-tracked categories answer that differently. The pilots on the flight deck of a major or regional carrier, flying on a fixed timetable, earned a $232,140 median in May 2025; pilots doing charter, instructional, and other non-airline work had a $123,220 median. Pay for the higher-paid group alone stretches from a bottom decile near $106,710 up past $463,830 at the top, mostly a function of seniority.",
 			},
@@ -6285,6 +6297,8 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Airline and Commercial Pilots (accessed 2026-09-23, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm' },
+			{ label: 'eCFR: 14 CFR 117.23, Cumulative limitations (Part 121 passenger operations: 1,000 flight hours in any 365 consecutive calendar days; accessed 2026-09-23)', url: 'https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-117/section-117.23' },
+			{ label: 'AeroTime: Comparing the two American and United Airline pilot contracts (July 2023; United figures are from the agreement in principle then pending union approval; accessed 2026-09-23)', url: 'https://www.aerotime.aero/articles/united-aa-pilot-contracts' },
 		],
 		image: '/images/airline-pilot-salary-chart.svg',
 		imageAlt: 'Bar chart showing airline pilot annual wage by percentile: 10th percentile $106,710, median $232,140, 90th percentile $463,830, based on BLS May 2025 data.',
