@@ -463,3 +463,42 @@ WageLark断链置换战术累计已发送 **17封**（含3封跟进：08-21 UCF�
 
 1. 下轮核实顺序：fana.org（08-26，21天，严重超期）→ Simmons/LIU/Harper/MSU（08-31，16天）。
 2. 转化率0/17持续10轮，接近但未达30封门槛，下2-3轮继续0转化应正式提请Owen。
+
+---
+
+## 2026-09-23（第十一次运行）— trafficsite-broken-link-building「外链产能集中规则」本轮命中WageLark（11-30位曝光490，矩阵第二名）
+
+### 第一部分：核实旧pitch
+
+按上轮遗留待办，本轮处理fana.org（08-26发出，Message ID `1a03e422e3c8e238`，今天已28天，严重超期未验证）：
+- curl独立复核目标页`https://www.fana.org/national-and-state-associations-`：HTTP 200，Arkansas(arcrnas.com)/Rhode Island(ricrna.com)/Alaska(alaskacrna.com)三条死链原样保留，全文grep无"wagelark"字样。
+- `dataforseo_query.py backlinks wagelark.com --limit 100`：外链明细未查到fana.org/kmgnet.com。
+- `gmail_send.py list --query "from:fana.org OR from:kmgnet.com"`返回空，零回复。
+- 判定**`not_replaced`**。发出已28天，远超10-14天跟进窗口（参照ACRA/NCC 23天"跟进价值已随时间衰减到可忽略"的既定先例，28天更超期），**不安排跟进**。
+
+Simmons/LIU/Harper/MSU（08-31发出，23天，同样严重超期）本轮未轮到，留给下轮。
+
+### 第二部分：新断链机会
+
+WebSearch定向搜索未试过的执业协会/职业方向（延续"从业者协会/图书馆career info指南"历史命中率最高方向），本轮试radiologic technologist州学会与dental hygienist州协会两条线。命中两个强候选：
+
+**候选A（采用）：HealthGuideUSA `State Dental Hygienist Associations`目录页**——`broken_link_scan.py`扫描54条出站链接命中9条DEAD，逐条精确核对`<a href>`紧邻的州名标签（避免张冠李戴），采用其中7条证据最干净的（California cdha.org 404、Oregon odha.org/new/index.php 404、Maryland/West Virginia/Wisconsin三州DNS NXDOMAIN经Cloudflare DoH交叉验证、New Hampshire/Tennessee两州Tripod免费空间已下线）；Maine（DNS lame delegation）与Nevada（DNS可解析但连接失败）证据不够干净，未采用。目标域名`healthguideusa.org`预估月自然流量212,100 ETV（`dataforseo_query.py traffic`核实，远超300门槛），17,635个排名关键词，非空壳站——页脚"Copyright 2002-2023"看似陈旧但流量数据证明仍是活跃站点。页面本身已收录"Dental Hygienist Job Outlook"职业信息链接，wagelark的`dental-hygienist-salary`文章（BLS May 2024中位数$94,260，已核对guides.ts原文属实）是同类内容的自然延伸。收件人comment@proquantum.com为页脚公布的站方通用反馈邮箱，非单一用途。
+
+**候选B（记录但本轮未采用）：MoSRT（Missouri Society of Radiologic Technologists）`links`页**——命中2条DEAD（ISSRT/North Dakota SRT两州学会链接，href本身带有异常的双重"https://"前缀，判定为该链接从建立时就是损坏的畸形URL），资源池已记录供下轮使用；本轮时间预算优先给候选A（证据更多、更干净）。CSRT（California Society of Radiologic Technologists）"Affiliate Links"页同样命中DEAD，但经核对**与08-16已联系过的`info@csrt.org`是同一机构**（历史记录`已验证not_replaced`），跳过避免重复联系。
+
+已过`Skill(humanizer)`+`Skill(avoid-ai-writing)`：均判定干净，无em dash/AI高频词/rule of three/促销语言，7个州列举属真实枚举不算规则化三连。
+
+**独立复核**：全新spawn agent，独立re-fetch核实全部7项——逐条独立测试7个州域名确认真实失效类型、收件人真实性、站点非废弃（独立验证流量数据）、`dental-hygienist-salary`文章真实覆盖BLS May 2024数据、语气/结构、无不可核实陈述、无重复迹象。
+**VERDICT: SEND**——全部7项独立核实通过，含独立curl复现7个州域名的真实失效类型、独立fetch确认comment@proquantum.com是页脚公布的"报告失效链接"专用渠道（与本次用途完全对口）、独立curl首页last-modified头（2026-05）证明"Copyright 2002-2023"只是过期版权字样非站点废弃信号。
+
+**已发送**：`gmail_send.py send --from wagelark --to comment@proquantum.com --subject "Several state links on your Dental Hygienist Associations page"`，**Message ID `1a0ce7130ea99409`**。
+
+### 累计口径
+
+WageLark断链置换战术累计已发送 **18封**（含3封跟进：08-21 UCF、08-28 NALA、09-02 HCC）；已验证 **9条 `not_replaced`**（UCF/CSRT/NALA/ten27services/HCC/ACC/ACRA/NCC/本轮fana.org）；`verified_live_backlink_confirmed`/`verified_live_backlink_nofollow` 均为 **0条**；转化率 **0/18 = 0%**（本轮HealthGuideUSA刚发出，未到验证窗口，不计入分母）。**转化率持续为0已达11轮，累计发送18封**，仍未触及"≥30封仍0到手"的写待办硬门槛，继续观察。
+
+### 遗留待办
+
+1. 下轮核实顺序：Simmons/LIU/Harper/MSU（08-31，即将超30天，严重超期）→ 本轮HealthGuideUSA（满10天后）。
+2. MoSRT（Missouri Society of Radiologic Technologists）links页候选（ISSRT/North Dakota SRT两条畸形href死链）已记录，下轮可继续跟进这条radiologic technologist方向。
+3. 转化率0/18持续11轮，仍在观察期，下2-3轮继续0转化应正式提请Owen评估该战术对WageLark的有效性。

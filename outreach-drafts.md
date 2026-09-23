@@ -953,3 +953,51 @@ wagelark.com
 
 Dedup: `资产分发外联台账.json` has no prior entry for dailyvoice.com; grepped matrix outreach logs, no match. humanizer + avoid-ai-writing both applied (re-applied to the corrected numbers; no wording changed besides the two figures).
 
+
+---
+
+## 2026-09-23 — HealthGuideUSA / State Dental Hygienist Associations（comment@proquantum.com）— broken-link-building
+
+**发现**：`https://www.healthguideusa.org/state_dental_hygiene_associations.htm`（ProQuantum运营的健康行业目录站，域名`healthguideusa.org`预估月自然流量212,100 ETV，17,635个排名关键词，远超300 ETV门槛，非空壳站）的各州牙科保健师协会链接表，逐个精确核对`<a href>`与紧邻的州名标签（避免张冠李戴），确认9个州协会链接真实失效：
+
+| 州 | 域名 | 失效类型 |
+|---|---|---|
+| California | cdha.org | HTTP 404（独立curl复核） |
+| Oregon | odha.org/new/index.php | HTTP 404（独立curl复核） |
+| Maryland | maryland-dha.org | DNS NXDOMAIN（Cloudflare DoH交叉验证） |
+| West Virginia | wvdhaonline.org | DNS NXDOMAIN（Cloudflare DoH交叉验证） |
+| Wisconsin | rdhwdha.com | DNS NXDOMAIN（Cloudflare DoH交叉验证） |
+| New Hampshire | members.tripod.com/NHdentalhygiene/ | Tripod免费空间已下线（域名本身仍在但该路径已不存在） |
+| Tennessee | tnrdh.tripod.com | 同上，Tripod免费空间已下线 |
+| Maine | mainedha.org | DNS lame delegation（权威NS拒绝查询，未采用，证据不够干净） |
+| Nevada | nvdha.org | DNS可解析(Cloudflare代理IP)但连接失败(HTTP 000，未采用，证据不够干净) |
+
+邮件仅引用7条已100%确认的（排除Maine/Nevada两条证据较弱的）。
+
+**主题匹配**：页面顶部本身已有"Dental Hygienist Job Outlook"职业信息链接，说明该目录页本来就收录职业信息类内容，wagelark的`dental-hygienist-salary`文章（BLS May 2024中位数$94,260，已核对guides.ts原文属实）是同类内容的自然延伸，非硬凑。
+
+**收件人**：comment@proquantum.com（页面页脚公布的站方联系邮箱，属通用反馈渠道，非法务/隐私/广告单一用途邮箱）。
+
+**查重**：`gmail_send.py list --query "to:comment@proquantum.com OR to:healthguideusa.org"`返回空；跨14站`outreach-drafts.md`/所有`broken-link-outreach-log.md`/`*-outreach-log.md` grep "proquantum"/"healthguideusa"均无历史记录。
+
+Subject: Several state links on your Dental Hygienist Associations page
+
+Body:
+
+Hi,
+
+I was looking at your State Dental Hygienist Associations page and found several of the state links no longer work. California (cdha.org) and Oregon (odha.org/new/index.php) both return a 404. Maryland (maryland-dha.org), West Virginia (wvdhaonline.org), and Wisconsin (rdhwdha.com) don't resolve at all. New Hampshire and Tennessee both point to Tripod pages (members.tripod.com/NHdentalhygiene and tnrdh.tripod.com) that stopped existing when Tripod's free hosting shut down.
+
+Not a fix for those, just something that might be worth adding near your Dental Hygienist Job Outlook link: we put together a page on dental hygienist pay, using the BLS's May 2024 wage data. https://wagelark.com/dental-hygienist-salary/
+
+Thanks for keeping the directory up.
+
+Best,
+Owen
+WageLark
+
+**已过Skill(humanizer)+Skill(avoid-ai-writing)双重检查**：均判定干净，无em dash/AI高频词/rule of three/promotional language，7州列举属真实枚举非规则化三连。
+
+**独立复核（全新spawn agent，独立re-fetch核实）**：VERDICT: SEND。7项检查逐一独立验证：①独立fetch目标页确认7个州/域名对照完全一致，独立curl测试全部7条确认真实失效（cdha.org/odha.org均404；maryland-dha.org/wvdhaonline.org/rdhwdha.com/tripod域名均DNS解析失败），失效类型与邮件描述吻合；②comment@proquantum.com确认是页脚明确公布的"报告失效链接"专用反馈渠道，与本次断链置换用途完全对口；③站点非废弃：独立curl首页`last-modified`头显示2026-05，页脚"2002-2023"只是过期的版权字样未更新，非站点废弃信号，ProQuantum旗下多个姊妹目录站佐证是活跃运营的多站点目录业务；④独立fetch wagelark.com/dental-hygienist-salary/确认真实含"median $94,260...BLS May 2024"数据，且确认目标页确有"Dental Hygienist Job Outlook"链接与邮件建议的放置位置吻合；⑤语气/结构检查通过，7州列举按失效类型分组陈述，读起来像真人逐条测试后的客观汇报而非机械枚举；⑥无不可核实的收件人相关陈述；⑦无重复/群发迹象。
+
+**已发送**：`gmail_send.py send --from wagelark --to comment@proquantum.com --subject "Several state links on your Dental Hygienist Associations page"`，**Message ID `1a0ce7130ea99409`**。
