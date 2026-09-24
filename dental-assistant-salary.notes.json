@@ -1,7 +1,1 @@
-[
-  {
-    "index": 1,
-    "verdict": "CONFIRMED",
-    "note": "Target pharmacy-technician-salary coreSummary states 'The median annual wage for pharmacy technicians was $43,460 in May 2024' — matches the $43,460 figure cited in the bridge sentence exactly. Target body also states 'Entry-level education for pharmacy technicians is a high school diploma or equivalent, one of the lowest bars among the occupations tracked on this site' — confirms the 'high school diploma or equivalent' entry requirement claim and supports 'even shorter formal-education requirement' relative to dental assistants' typical ~1-year certificate path described in the source article's own body."
-  }
-]
+[{"index":1,"verdict":"CONFIRMED","note":"pharmacy-technician-salary guide (SOC 29-2052) shows median $43,460 and high school diploma or equivalent entry education, matching the sentence's two claims."}]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="330" fill="white" />
+	<text x="20" y="30" font-size="16" font-weight="700" fill="#14273f">Dentists vs. Dental Hygienists: Annual Wage by Percentile</text>
+	<rect x="20" y="44" width="12" height="12" fill="#14273f" /><text x="38" y="55" font-size="13" fill="#14212e">Dentists</text>
+	<rect x="120" y="44" width="12" height="12" fill="#0f8b7f" /><text x="138" y="55" font-size="13" fill="#14212e">Dental hygienists</text>
+	<text x="20" y="86" font-size="14" font-weight="700" fill="#14212e">10th percentile</text>
+	<rect x="20" y="94" width="87.2" height="22" fill="#14273f" />
+	<text x="115.2" y="110" font-size="14" font-weight="700" fill="#14273f">$89,100</text>
+	<rect x="20" y="120" width="73.3" height="22" fill="#0f8b7f" />
+	<text x="101.3" y="136" font-size="14" font-weight="700" fill="#14273f">$74,880</text>
+	<text x="20" y="168" font-size="14" font-weight="700" fill="#14212e">Median</text>
+	<rect x="20" y="176" width="172.3" height="22" fill="#14273f" />
+	<text x="200.3" y="192" font-size="14" font-weight="700" fill="#14273f">$176,110</text>
+	<rect x="20" y="202" width="96.0" height="22" fill="#0f8b7f" />
+	<text x="124.0" y="218" font-size="14" font-weight="700" fill="#14273f">$98,100</text>
+	<text x="20" y="250" font-size="14" font-weight="700" fill="#14212e">90th percentile</text>
+	<rect x="20" y="258" width="330.0" height="22" fill="#14273f" />
+	<text x="358.0" y="274" font-size="14" font-weight="700" fill="#14273f">$337,210</text>
+	<rect x="20" y="284" width="123.4" height="22" fill="#0f8b7f" />
+	<text x="151.4" y="300" font-size="14" font-weight="700" fill="#14273f">$126,050</text>
+	<text x="20" y="322" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national)</text>
+</svg>

@@ -64,7 +64,7 @@ export const guides: Guide[] = [
 		title: 'Dental Hygienist Salary: What BLS Data Actually Shows (2026)',
 		description: 'BLS puts the median dental hygienist salary at $94,260 a year. Here is the full wage range by percentile, by industry, and what drives the gap.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-09-24',
 		socCode: '29-1292',
 		coreSummary: 'The median annual wage for dental hygienists was $94,260 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% of earners made less than $66,470, while the top 10% made more than $120,060, a range driven mainly by geography, hours worked, and whether the role is in a private dental office versus a physician\'s office or government setting.',
 		sections: [
@@ -94,7 +94,7 @@ export const guides: Guide[] = [
 				heading: 'What the job outlook says about future pay',
 				body: [
 					'BLS projects employment of dental hygienists to grow 7% from 2024 to 2034, which the agency classifies as much faster than the average for all occupations, translating to roughly 15,500 additional jobs over the decade. Faster-than-average growth in a licensed, credential-gated field tends to support wage growth over time, since employers compete for a labor pool that cannot be expanded quickly: becoming a hygienist requires completing an accredited program and passing licensing exams, not just being hired and trained on the job. The same credential-gated logic plays out at a far higher pay tier this site also tracks: [psychiatrist pay](/psychiatrist-salary/), which BLS pegs at a $281,870 median, reflects a medical degree and residency, not an accredited hygiene program. At the opposite end, [LPN pay](/lpn-salary/) sits well below the hygienist figure, a $64,400 median per BLS for May 2025, built on a shorter postsecondary nondegree program; dental hygiene, by comparison, requires the associate\'s degree BLS lists as its typical entry path. WageLark\'s [Salary Guide hub](/salary-guides/) has BLS-sourced pay breakdowns for dozens of other occupations.',
-					'None of this is a guarantee about any individual\'s future earnings, and BLS data describes national averages rather than predictions for a specific person, employer, or year. It is a description of where the market has been and where employment is headed in aggregate, which is useful context for evaluating a specific job offer but should not be read as a promise about what any one hygienist will earn. For what the job actually involves day to day beyond these wage figures, see this site\'s [guide to what dental hygienists do](/what-does-a-dental-hygienist-do/), covering exam findings, preventive treatments, and the supervising-dentist relationship BLS describes.',
+					'None of this is a guarantee about any individual\'s future earnings, and BLS data describes national averages rather than predictions for a specific person, employer, or year. It is a description of where the market has been and where employment is headed in aggregate, which is useful context for evaluating a specific job offer but should not be read as a promise about what any one hygienist will earn. For what the job actually involves day to day beyond these wage figures, see this site\'s [guide to what dental hygienists do](/what-does-a-dental-hygienist-do/), covering exam findings, preventive treatments, and the supervising-dentist relationship BLS describes. The [dental hygienist vs dentist comparison](/dental-hygienist-vs-dentist/) lines up dentist and hygienist pay using the newer May 2025 BLS release.',
 				],
 			},
 		],
@@ -1268,7 +1268,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook: growth is real, but most openings come from turnover',
 				body: [
 					'BLS projects employment of dental assistants to grow 6% from 2024 to 2034, from 381,900 to 406,300 positions, which the agency classifies as faster than the average for all occupations. That is a net increase of 24,400 jobs over the decade. Separately, BLS projects about 52,900 average annual openings for the occupation once the decade is averaged out, a substantially larger number than the net growth figure. Most of those openings come from replacing assistants who transfer to other occupations or leave the labor force; relatively few come from newly created positions.',
-					'BLS attributes demand for the occupation to a few converging factors: ongoing research linking oral health to general health is increasing demand for preventive dental services, and dentists continue hiring assistants to handle routine tasks so practices can run more efficiently as they grow. An aging population, combined with more people keeping their natural teeth into later life than in previous generations, is also expected to keep demand for dental care, and the assistants who support it, elevated over the projection period.',
+					'BLS attributes demand for the occupation to a few converging factors: ongoing research linking oral health to general health is increasing demand for preventive dental services, and dentists continue hiring assistants to handle routine tasks so practices can run more efficiently as they grow. An aging population, combined with more people keeping their natural teeth into later life than in previous generations, is also expected to keep demand for dental care, and the assistants who support it, elevated over the projection period. For pay in the two licensed roles above the assistant, see the [dental hygienist vs dentist breakdown](/dental-hygienist-vs-dentist/), which uses the newer May 2025 figures.',
 				],
 			},
 			{
@@ -6302,5 +6302,84 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		],
 		image: '/images/airline-pilot-salary-chart.svg',
 		imageAlt: 'Bar chart showing airline pilot annual wage by percentile: 10th percentile $106,710, median $232,140, 90th percentile $463,830, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'dental-hygienist-vs-dentist',
+		category: 'Salary Guide',
+		title: 'Dental Hygienist vs Dentist: Pay and Schooling',
+		description: 'BLS puts dentists at a $176,110 median and dental hygienists at $98,100, yet the lowest-paid tenth of dentists earn less than the typical hygienist.',
+		published: '2026-09-24',
+		updated: '2026-09-24',
+		coreSummary: 'A dentist earned a median of $176,110 in May 2025 and a dental hygienist $98,100, according to the U.S. Bureau of Labor Statistics, about 1.8 times as much. The ranges overlap: the lowest-paid 10% of dentists earned less than $89,100, under the hygienist median. A hygienist typically needs a 3-year associate program; a dentist needs a DDS or DMD after at least a bachelor\'s degree.',
+		sections: [
+			{
+				heading: 'Dental hygienist vs dentist pay: the BLS medians side by side',
+				body: [
+					'The Bureau of Labor Statistics reports a median annual wage of $176,110 for dentists in May 2025, or $84.67 an hour. Dental hygienists had a median of $98,100, or $47.16 an hour. That puts the dentist median $78,010 above the hygienist median, a ratio of about 1.8 to 1. For context, BLS gives $50,980 as the median for all U.S. occupations that year, so both jobs sit well above the national middle.',
+					'The dentist figure covers every kind of dentist. BLS also lists it by specialty: general dentists had a median of $170,950, and they hold about 141,900 of the 161,400 dentist jobs, so the general dentist is the typical case. Dentists in other specialties earned $224,990, prosthodontists $311,180, orthodontists $289,140, and oral and maxillofacial surgeons $352,220, roughly 3.6 times the hygienist median. Hygienists have no comparable specialty ladder in the BLS data. For hygienist pay in more detail, see the [dental hygienist salary guide](/dental-hygienist-salary/), which uses the earlier May 2024 release.',
+				],
+			},
+			{
+				heading: 'Where the two pay ranges overlap',
+				body: [
+					'A median compares the middle of each group and hides how many people fall in the other group\'s range. The 10th percentile for dentists was $89,100 in May 2025, and BLS says the lowest-paid tenth earned less than that. Hygienists had a median of $98,100, so a dentist in the bottom tenth earned about $9,000 less than the typical hygienist. The overlap shows from the other side too: a hygienist at the 90th percentile, above $126,050, earned more than the $89,100 mark that separates the lowest-paid tenth of dentists from the rest.',
+					'The spread inside each job is very different. Dentists range from under $89,100 to over $337,210 between the 10th and 90th percentiles, a gap of $248,110. Hygienists range from under $74,880 to over $126,050, a gap of $51,170, about one-fifth as wide. A hygienist\'s pay is bunched close to the median. A dentist\'s pay moves a lot more, and BLS says dentist wages vary with location, hours worked, specialty, and years in practice.',
+				],
+				image: {
+					src: '/images/dentist-vs-dental-hygienist-salary-chart.svg',
+					alt: 'Grouped bar chart comparing dentists and dental hygienists by annual wage percentile, May 2025 BLS data: 10th percentile $89,100 vs $74,880, median $176,110 vs $98,100, 90th percentile $337,210 vs $126,050.',
+				},
+			},
+			{
+				heading: 'Schooling and licensing: a 3-year program vs a doctoral degree',
+				body: [
+					'BLS lists an associate\'s degree in dental hygiene as the typical entry-level education for a hygienist, and says programs usually take 3 years. Every state requires hygienists to be licensed. In most states that means a degree from an accredited program plus written and clinical exams, and hygienists must complete continuing education to keep the license.',
+					'A dentist needs a Doctor of Dental Surgery (DDS) or Doctor of Dental Medicine (DMD) degree from an accredited dental program. Most programs expect applicants to hold at least a bachelor\'s degree first, and dentists must pass written and clinical exams for a state license as well. Dentists who want a specialty add postdoctoral training after dental school, and BLS says oral and maxillofacial surgery programs typically take 4 to 6 years. This site\'s [guide to how long it takes to become a dentist](/how-long-does-it-take-to-become-a-dentist/) walks through the full timeline. BLS does not report tuition or student debt, so the pay figures above say nothing about what each path costs to complete.',
+				],
+			},
+			{
+				heading: 'What each job does and who supervises whom',
+				body: [
+					'BLS describes dentists as the ones who diagnose and treat problems with teeth, gums, and related parts of the mouth. They remove decay, fill cavities, and repair fractured teeth, and those in private practice also handle administrative work such as bookkeeping and ordering equipment. Hygienists examine patients for signs of oral disease, remove tartar, stains, and plaque, apply sealants and fluorides, and teach patients about oral health. BLS notes that dentists in private practice employ and supervise hygienists.',
+					'How much supervision a hygienist actually works under is set state by state. BLS says the tasks hygienists may perform, and how closely a dentist must supervise them, vary by state and by setting, and that in some places hygienists may work without a dentist\'s direct supervision. A few states also allow hygienists with extra training, sometimes called dental therapists, to provide some restorative services. Anyone comparing the two jobs should check their own state board, since the national description covers a range of rules.',
+					'The setting is similar. Offices of dentists employ 94% of hygienists and 78% of dentists, and another 12% of dentists are self-employed. Inside those offices, the median was $98,280 for hygienists and $173,760 for dentists in May 2025. On schedules, BLS says many hygienists work part time and some work for more than one dentist, while many dentists work less than 40 hours a week and some work considerably more. Because of that, an hourly or annual median describes the pay level, not what a particular schedule earns over a year. Our [hygienist duties guide](/what-does-a-dental-hygienist-do/) covers the day-to-day work in more detail.',
+				],
+			},
+			{
+				heading: 'Employment and outlook for both jobs',
+				body: [
+					'BLS counted about 225,300 hygienist jobs and 161,400 dentist jobs in 2025, about 1.4 hygienists for every dentist. Both are projected to grow faster than the 3% average for all occupations from 2025 to 2035. Hygienist employment is projected to rise 8%, about 17,900 jobs, and dentist employment 6%, about 9,000 jobs.',
+					'Yearly openings favor the hygienist side by a wide margin. BLS projects about 15,000 openings a year for hygienists and about 4,800 for dentists, roughly 3.1 to 1. BLS says most openings come from workers who move to other occupations or leave the labor force, such as retirees, so the larger hygienist workforce accounts for part of the gap. BLS ties dentist demand to an aging population and to each generation keeping more of its natural teeth, and hygienist demand to the link between oral and general health, wider access to hygiene services, and preventive care.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Who gets paid more, a dentist or dental hygienist?',
+				answer: 'Dentists, by a wide margin on the typical paycheck. They come out ahead at the median: $176,110 a year in May 2025 per BLS, versus $98,100 for hygienists. The top and bottom of the ranges cross, though, since the lowest-earning dentists made under $89,100, which is less than a typical hygienist earned.',
+			},
+			{
+				question: 'Is it better to be a dentist or hygienist?',
+				answer: 'BLS does not rank the two, and the data cannot say which suits any one person. The numbers do show a trade. Dentists have higher median pay and a far wider spread, but they need a doctoral-level dental degree, usually after finishing a bachelor\'s program. Hygienists have narrower pay, a shorter path, and faster projected growth.',
+			},
+			{
+				question: 'Is a hygienist more qualified than a dentist?',
+				answer: 'No. The two are qualified for different work. A dentist holds a DDS or DMD and is licensed to identify and treat oral conditions. A hygienist usually completes a program of about 3 years and is licensed for preventive care and patient education. The level of oversight a hygienist needs differs from one state to the next.',
+			},
+			{
+				question: 'How much more per hour does a dentist make than a hygienist?',
+				answer: 'BLS lists $84.67 an hour for dentists and $47.16 for hygienists, a difference of $37.51 an hour at the median. The hourly ratio comes out at about 1.8, the same as the annual one.',
+			},
+			{
+				question: 'How long is dental hygiene school compared with dental school?',
+				answer: 'Per BLS, hygiene school takes about 3 years and ends with an associate degree. Dental school usually follows an undergraduate degree, and BLS says a specialty adds a residency that usually runs 2 to 4 years. Both paths end in a state licensing exam.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Dentists (accessed 2026-09-24, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/dentists.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Dental Hygienists (accessed 2026-09-24, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/dental-hygienists.htm' },
+		],
+		image: '/images/dentist-vs-dental-hygienist-salary-chart.svg',
+		imageAlt: 'Bar chart comparing dentist and dental hygienist annual wages by percentile: median $176,110 vs $98,100 (BLS May 2025).',
 	},
 ];
