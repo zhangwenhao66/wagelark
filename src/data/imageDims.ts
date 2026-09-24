@@ -87,6 +87,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 360,
   "w": 640
  },
+ "/images/dentist-vs-dental-hygienist-salary-chart.svg": {
+  "h": 330,
+  "w": 640
+ },
  "/images/electrician-apprenticeship-path.svg": {
   "h": 480,
   "w": 640

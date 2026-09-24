@@ -5,7 +5,7 @@
     "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection",
-    "last_submitted_date": "2026-09-18"
+    "last_submitted_date": "2026-09-24"
   },
   "https://wagelark.com/actuary-salary/": {
     "submitted_date": "2026-08-03",
@@ -131,7 +131,7 @@
   },
   "https://wagelark.com/dental-assistant-salary/": {
     "submitted_date": "2026-08-06",
-    "last_submitted_date": "2026-08-27",
+    "last_submitted_date": "2026-09-24",
     "verified_status": "stale_not_indexed",
     "note": "Not discovered — 'The inspected URL is not known to Bing', worse than usual discovered-but-not-crawled state despite submitted 06 Aug 2026 (17 days ago); IndexNow submission appears to have never registered with Bing for this URL",
     "last_checked_date": "2026-08-23",
@@ -540,6 +540,11 @@
   "https://wagelark.com/how-much-do-pilots-make/": {
     "submitted_date": "2026-09-23",
     "last_submitted_date": "2026-09-23",
+    "verified_status": "pending"
+  },
+  "https://wagelark.com/dental-hygienist-vs-dentist/": {
+    "submitted_date": "2026-09-24",
+    "last_submitted_date": "2026-09-24",
     "verified_status": "pending"
   }
 }
