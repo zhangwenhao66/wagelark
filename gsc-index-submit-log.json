@@ -462,5 +462,16 @@
   ],
   "quota_exceeded_attempted": [],
   "quota_used": "0（无候选可提交）"
+ },
+ {
+  "date": "2026-09-24",
+  "note": "游标从WageLark开始。巡检unindexed_old，Discovered-not-indexed；今日随机休息无新发布",
+  "action": "submitted",
+  "submitted_urls": [
+   "https://wagelark.com/how-much-do-pilots-make/"
+  ],
+  "already_indexed_no_action": [],
+  "quota_exceeded_attempted": [],
+  "quota_used": "1 of shared account-wide daily quota"
  }
 ]
