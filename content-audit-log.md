@@ -2391,3 +2391,16 @@
   "escalation": null
 }
 ```
+
+## 2026-09-26 orthotist-and-prosthetist-salary（trafficsite-content-quality-audit）
+```json
+{"url_slug": "orthotist-and-prosthetist-salary", "last_audited": "2026-09-26", "published_date": "2026-09-16",
+ "选文来源": "第3条：正文入链≤1临门页（internal_link_audit，17曝光@12.2）",
+ "findings": [
+  "事实性：BLS页逐项核对（81,110/46,350/119,810/9,500/13%/10,700/700 openings/五行业工资与占比/学历与住院医师年限）全部一致。唯一错误：文中称BLS洁牙师页May 2025中位数为$94,260，现值$98,100（$94,260是May 2024）。差额$13,150应为$16,990。独立复核agent未启动，直接对BLS原页面curl核对，属机械数字比对。",
+  "内链：正文入链仅1，补2条来自OTA、遗传咨询师页（out<5）",
+  "机械散文四项通过；SEO/GEO/其余维度：本次未重跑seo-audit/ai-seo（仅数字与链接微调）；title不动"],
+ "actions_taken": ["修正description/coreSummary/正文共4处数字，updated→2026-09-26（published已存在）","OTA、genetic-counselor各加1句入链","commit b88e7ca，线上绕缓存确认，seo_drift仅预期WARNING，IndexNow已提交3个URL"],
+ "扩散判定": "通用 / 扫描范围：仅WageLark（grep 'May 2024'，其余站为非BLS数据未扫）/ 命中：63/80篇含'May 2024'，dental-hygienist-salary($94,260)、OTA页对OT/洁牙师、多页跨引用均为旧年度 / 修复：当场仅本篇+本篇跨引用；其余写数据台watch，9/23已有同步提交在逐步做 / 防复发：见下，尚未落地检查脚本",
+ "seo_score": null, "geo_score": null, "escalation": null}
+```
