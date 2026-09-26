@@ -502,3 +502,9 @@ WageLark断链置换战术累计已发送 **18封**（含3封跟进：08-21 UCF�
 1. 下轮核实顺序：Simmons/LIU/Harper/MSU（08-31，即将超30天，严重超期）→ 本轮HealthGuideUSA（满10天后）。
 2. MoSRT（Missouri Society of Radiologic Technologists）links页候选（ISSRT/North Dakota SRT两条畸形href死链）已记录，下轮可继续跟进这条radiologic technologist方向。
 3. 转化率0/18持续11轮，仍在观察期，下2-3轮继续0转化应正式提请Owen评估该战术对WageLark的有效性。
+
+---
+
+## 2026-09-26 trafficsite-broken-link-building（外链产能集中规则：11-30位曝光 UmberLore 614 / WageLark 567 / MythCairn 396 前三；DialWick冻结，固定名额给CalcBadger）
+
+第0步：Simmons University LIS Archives（08-31，library@simmons.edu，已发约26天）curl复查 simmons.libguides.com/lisarchives HTTP 200，无wagelark字样；外链明细26条为垃圾SEO网络与无关站，未见simmons.edu。零回复。判定 `not_replaced`，超期不再跟进（沿用ACRA/NCC先例）。第二部分未做新挖掘。未发送。累计口径：已发送18封 / 到手0条 / 0%。
