@@ -3563,6 +3563,40 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Airline and Commercial Pilots",
       "sourceUrl": "https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm",
       "publishedDate": "2026-08-27"
+    },
+    "17-1011": {
+      "title": "Architects",
+      "medianAnnual": 99280,
+      "medianHourly": 47.73,
+      "percentiles": {
+        "p10": 62300,
+        "p90": 161420
+      },
+      "employment": 124600,
+      "employmentYear": "2025",
+      "jobOutlookPct": 4,
+      "jobOutlookLabel": "As fast as average",
+      "employmentChange": 5300,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "Bachelor's degree",
+      "industryWages": [
+        {
+          "industry": "Government, excluding state and local education and hospitals",
+          "annualWage": 115920
+        },
+        {
+          "industry": "Architectural, engineering, and related services",
+          "annualWage": 98440
+        },
+        {
+          "industry": "Construction",
+          "annualWage": 95760
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Architects",
+      "sourceUrl": "https://www.bls.gov/ooh/architecture-and-engineering/architects.htm",
+      "publishedDate": "2026-08-27"
     }
   }
 }

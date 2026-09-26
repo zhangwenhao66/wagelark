@@ -140,7 +140,7 @@ export const guides: Guide[] = [
 		title: 'Actuary Salary: BLS Wage Data by Percentile (2026)',
 		description: 'The median actuary salary is $125,770 a year per BLS. Top earners clear $206,430. Here is the full wage breakdown, by industry, and what drives it.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-09-26',
 		socCode: '15-2011',
 		coreSummary: 'The median annual wage for actuaries was $125,770 in May 2024, per the U.S. Bureau of Labor Statistics. The spread is unusually wide for a single occupation: the bottom 10% earned less than $75,240 while the top 10% earned more than $206,430, a gap that mostly reflects the multi-year, exam-based credentialing system that separates entry-level actuarial analysts from credentialed Fellows.',
 		sections: [
@@ -162,7 +162,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook and what it means for future pay',
 				body: [
 					'BLS projects 22% employment growth for actuaries from 2024 to 2034, classified as much faster than average, adding roughly 7,300 jobs over the decade. That is one of the stronger growth projections among BLS-tracked professional occupations, driven in large part by insurers\' and financial firms\' growing use of predictive analytics and enterprise risk management, areas where actuarial training applies directly.',
-					'Combined with the credential-gated pay structure described above, strong projected demand for a licensed, exam-qualified labor pool tends to support continued wage growth for actuaries who complete the certification track. Still, BLS data describes historical and projected aggregates; it is not a guarantee for any individual.',
+					'Combined with the credential-gated pay structure described above, strong projected demand for a licensed, exam-qualified labor pool tends to support continued wage growth for actuaries who complete the certification track. Still, BLS data describes historical and projected aggregates; it is not a guarantee for any individual. Architects follow a similar credential-gated route, through a degree, a multi-year paid internship, and a licensing exam; the [architect pay guide](/do-architects-make-good-money/) has the BLS figures.',
 				],
 			},
 		],
@@ -1089,7 +1089,7 @@ export const guides: Guide[] = [
 		title: 'Surgical Tech Salary: BLS Wage Data and Job Outlook (2026)',
 		description: 'BLS puts the median surgical tech salary at $62,830, below what self-reported sites show. See the real BLS number and what CST certification requires.',
 		published: '2026-08-05',
-		updated: '2026-08-25',
+		updated: '2026-09-26',
 		socCode: '29-2055',
 		coreSummary: 'The median annual wage for surgical technologists was $62,830 in May 2024, according to the U.S. Bureau of Labor Statistics, compared with $60,290 for the closely related surgical assistant role. BLS projects 4.5% employment growth for surgical technologists from 2024 to 2034, adding about 5,200 jobs on top of a 115,600-person workforce, and entry typically requires a certificate or associate\'s degree rather than a four-year degree.',
 		sections: [
@@ -1121,7 +1121,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook and where this fits among allied health pay',
 				body: [
 					'The BLS Employment Projections National Employment Matrix projects 4.5% employment growth for surgical technologists specifically from 2024 to 2034, adding about 5,200 jobs on top of a 2024 base of 115,600, with roughly 7,000 average annual openings once retirements and occupational transfers are included. That is faster than the roughly 3% growth projected across all occupations combined, though BLS does not publish a stated explanation for the growth on this occupation\'s Handbook page the way it sometimes does for other roles; rising surgical volume tied to an aging population is a plausible, unverified factor rather than a claim BLS makes directly.',
-					'Compared with [radiologic technologists](/radiology-tech-salary), another associate-degree-or-certificate-level allied health role that supports physicians rather than practicing independently, surgical technologists earn a lower national median ($62,830 vs. $77,660) but face a similar growth rate (4.5% vs. 4%). The gap in pay likely tracks entry credential depth more than growth outlook: radiologic technology typically requires a full associate\'s degree, while surgical technology\'s typical entry point, a postsecondary certificate, is usually a shorter and less expensive path to a first paycheck.',
+					'Compared with [radiologic technologists](/radiology-tech-salary), another associate-degree-or-certificate-level allied health role that supports physicians rather than practicing independently, surgical technologists earn a lower national median ($62,830 vs. $77,660) but face a similar growth rate (4.5% vs. 4%). The gap in pay likely tracks entry credential depth more than growth outlook: radiologic technology typically requires a full associate\'s degree, while surgical technology\'s typical entry point, a postsecondary certificate, is usually a shorter and less expensive path to a first paycheck. At the long-training end, architects need a bachelor\'s degree plus a paid internship and a licensing exam, and BLS put their May 2025 median at $99,280 (see the [architect pay guide](/do-architects-make-good-money/)).',
 					'None of these figures predict what a specific person will earn. They describe national medians and projections for occupations with real variation by state, employer setting, and individual certification, and readers comparing a specific job offer against these numbers should weigh local market conditions alongside the national baseline rather than treating either as a guarantee.',
 				],
 			},
@@ -6381,5 +6381,84 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		],
 		image: '/images/dentist-vs-dental-hygienist-salary-chart.svg',
 		imageAlt: 'Bar chart comparing dentist and dental hygienist annual wages by percentile: median $176,110 vs $98,100 (BLS May 2025).',
+	},
+	{
+		slug: 'do-architects-make-good-money',
+		category: 'Salary Guide',
+		title: 'Do Architects Make Good Money? BLS Pay Data',
+		description: 'The BLS architect median is $99,280, about 1.9 times the all-jobs median. See the pay range, the best-paying employers, and how long training takes.',
+		published: '2026-09-26',
+		updated: '2026-09-26',
+		socCode: '17-1011',
+		coreSummary: 'Do architects make good money? By BLS figures, yes: the May 2025 median was $99,280 a year ($47.73 an hour), about 1.9 times the $50,980 median for all U.S. occupations. Even the 10th-percentile architect, at $62,300, was above that national median, while the top 10% earned more than $161,420.',
+		sections: [
+			{
+				heading: 'Do architects make good money compared with other workers?',
+				body: [
+					"By the numbers the Bureau of Labor Statistics publishes, yes. Architects had a median annual wage of $99,280 in May 2025, or $47.73 an hour. The median for all U.S. occupations was $50,980, so the typical architect out-earns the typical worker by a factor of about 1.9. Search results for this question include a Reddit post titled \"Are Architects underpaid?\" The BLS figures below cover the pay side of that question.",
+					"Check the label before quoting the number. BLS files this job as architects, except landscape and naval, and lists landscape architects separately. Its charts also show a wider group, architects, surveyors, and cartographers, at $87,950. The $99,280 median belongs to architects proper.",
+				],
+			},
+			{
+				heading: 'The bottom and top of the architect pay range',
+				body: [
+					"Do architects make good money at the low end too? A median hides the spread, so BLS also reports the ends. The lowest-paid 10% of architects earned less than $62,300 in May 2025, and the highest-paid 10% earned more than $161,420. That is a gap of $99,120 between the two ends, and the top figure is about 2.6 times the bottom one.",
+					"Even the floor beats the national median. The 10th-percentile architect wage sits $11,320 above the $50,980 median for all occupations. BLS does not break architect pay down by years of experience or license status, so the percentile range is the official picture of how pay is spread across all architects.",
+				],
+				image: {
+					src: '/images/architect-salary-chart.svg',
+					alt: 'Bar chart showing architect annual wage by percentile: 10th percentile $62,300, median $99,280, 90th percentile $161,420, based on BLS May 2025 data.',
+				},
+			},
+			{
+				heading: 'Which employers pay architects the most',
+				body: [
+					"BLS lists median pay for three of the biggest industries. Government, excluding state and local education and hospitals, paid $115,920. Architectural, engineering, and related services paid $98,440, and construction paid $95,760. The government premium over the services firms is $17,480, or about 18%.",
+					"Employment tells you how little of the field that premium touches. About 74% of architects work in architectural, engineering, and related services, 14% are self-employed, 4% work in construction, and 3% work in government (excluding state and local education and hospitals). BLS gives no separate wage for the self-employed, so the industry list cannot say what running a small practice pays.",
+				],
+			},
+			{
+				heading: 'Do architects make good money next to jobs with different training paths?',
+				body: [
+					"Some jobs with shorter training pay about the same. Nuclear medicine technologists, who typically need an associate's degree, had a median of $101,370 in May 2025, which is $2,090 above the architect figure (see [nuclear medicine technologist salary](/nuclear-medicine-technologist-salary/)). MRI technologists, also typically an associate's degree, earned $95,480, or $3,800 below (see [MRI tech salary](/mri-tech-salary/)).",
+					"Two master's-level jobs land almost on top of it. Genetic counselors earned a $100,040 median, only $760 more than architects ([genetic counselor salary](/genetic-counselor-salary/)). Speech-language pathologists earned $97,870, and their 10th percentile of $62,900 is within $600 of the architect floor ([speech-language pathologist salary](/speech-language-pathologist-salary/)).",
+					"For architects, BLS describes a longer path. They typically need a bachelor's degree, most often a 5-year Bachelor of Architecture, and that every state board requires a paid internship, generally about 3 years, before candidates sit the licensing exam. All states and the District of Columbia require a license. A master's degree adds 1 to 5 years, depending on prior training.",
+				],
+			},
+			{
+				heading: 'Job outlook: 4% growth and about 6,900 openings a year',
+				body: [
+					"About 124,600 people worked as architects in 2025. BLS projects 4% growth from 2025 to 2035, adding roughly 5,300 jobs, which it rates as about as fast as the average for all occupations (3%). It expects about 6,900 openings a year, or roughly 5.5% of current jobs, and says many come from people who transfer to other occupations or leave the labor force, such as to retire.",
+					"On automation, BLS says design work is becoming more efficient with improved building information modeling software, measuring technology, and the integration of artificial intelligence, and that the same productivity gains let architects take on more of the building process and new responsibilities. The 4% figure is a projected increase, not a decline.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Do architects make good money?',
+				answer: 'Compared with the whole workforce, they usually do. BLS\'s May 2025 median for architects, $99,280, compares with $50,980 across all occupations, and the wage at the 10th percentile, $62,300, also topped the all-occupation figure. BLS has no pay figures split by seniority, so the span from the 10th to the 90th percentile ($62,300 to $161,420) is the official view of how far pay can rise.',
+			},
+			{
+				question: 'Does it take 7 years to become an architect?',
+				answer: 'About 8 if the steps run back to back, before the exam. BLS describes a five-year B.Arch degree, the most common route, followed by a paid internship of generally 3 years before candidates are eligible to test for a license. Internship time completed during school can count toward part of that 3 years, and a master\'s degree can add anywhere from 1 to 5 more years.',
+			},
+			{
+				question: 'What type of architecture gets paid the most?',
+				answer: 'BLS does not publish architect pay by specialty. It does publish industry medians for May 2025. Government pays $115,920, engineering and architecture services firms $98,440, construction firms $95,760. Those are the only pay splits on the BLS architects page, and they describe employers, not design specialties.',
+			},
+			{
+				question: 'Is AI replacing architects?',
+				answer: 'BLS projects architect employment to grow 4% over the 2025-35 decade, about 5,300 new jobs on top of the 124,600 held in 2025. Its outlook notes that AI and modeling software make design work more efficient, and that the gains give architects room for a larger part in the full building process, plus new roles.',
+			},
+			{
+				question: 'How much do architects make an hour?',
+				answer: 'The BLS median hourly wage was $47.73 in May 2025. BLS also notes that most architects work full time and many put in extra hours when deadlines press, so what an architect earns per hour actually worked can differ from the published hourly figure.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Architects (accessed 2026-09-26, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/architecture-and-engineering/architects.htm' },
+		],
+		image: '/images/architect-salary-chart.svg',
+		imageAlt: 'Bar chart showing architect annual wage by percentile: 10th percentile $62,300, median $99,280, 90th percentile $161,420, based on BLS May 2025 data.',
 	},
 ];

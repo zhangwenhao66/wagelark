@@ -1502,3 +1502,18 @@ test("spot check: Commercial Pilots (53-2012) matches BLS OOH page", () => {
 	assert.equal(occ.industryWages[4].industry, 'Technical and trade schools; private');
 	assert.equal(occ.industryWages[4].annualWage, 93820);
 });
+
+test("spot check: Architects (17-1011) matches BLS OOH page", () => {
+	const occ = occupations['17-1011'];
+	assert.equal(occ.medianAnnual, 99280);
+	assert.equal(occ.medianHourly, 47.73);
+	assert.deepEqual(occ.percentiles, { p10: 62300, p90: 161420 });
+	assert.equal(occ.employment, 124600);
+	assert.equal(occ.jobOutlookPct, 4);
+	assert.equal(occ.employmentChange, 5300);
+	assert.equal(occ.entryEducation, "Bachelor's degree");
+	assert.equal(occ.industryWages.length, 3);
+	assert.equal(occ.industryWages[0].annualWage, 115920);
+	assert.equal(occ.industryWages[2].industry, 'Construction');
+	assert.equal(occ.industryWages[2].annualWage, 95760);
+});

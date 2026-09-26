@@ -54,6 +54,7 @@ const CHARTS = {
 	'massage-therapist-salary-chart': '31-9011',
 	'airline-pilot-salary-chart': '53-2011',
 	'commercial-pilot-salary-chart': '53-2012',
+	'architect-salary-chart': '17-1011',
 };
 
 const NAVY = '#14273f';
