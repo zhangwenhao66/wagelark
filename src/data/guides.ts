@@ -582,23 +582,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How long does it take to become an ultrasound tech?',
-				answer: 'Most people complete a two-year associate degree program in diagnostic medical sonography. Postsecondary certificate programs can be shorter, typically for candidates who already hold a related healthcare credential.',
+				answer: 'About two years for most people, since the usual route is an associate program in sonography. Shorter certificate tracks exist, mainly for candidates who already work in another healthcare role.',
 			},
 			{
 				question: 'Do you need certification to work as an ultrasound tech?',
-				answer: 'Requirements vary by state, and BLS notes some states require licensure. Even where not legally required, most employers strongly prefer or require professional certification, most commonly through the American Registry for Diagnostic Medical Sonography (ARDMS).',
+				answer: 'It depends on the state, because some require a license. Even without a legal mandate, most employers strongly prefer or require a professional credential, and ARDMS is the one hiring managers name most often.',
 			},
 			{
 				question: 'How much do ultrasound techs make?',
-				answer: 'BLS reports a median annual salary of $89,340 for diagnostic medical sonographers in May 2024, with outpatient care centers paying the highest industry median tracked at $123,610.',
+				answer: 'The May 2024 median was $89,340 a year for this occupation, according to BLS. The top of the industry list belonged to outpatient clinics, at a $123,610 median.',
 			},
 			{
 				question: 'Is ultrasound tech a good career to get into?',
-				answer: 'BLS projects 13% employment growth from 2024 to 2034, much faster than average, for a role that typically requires about two years of postsecondary training rather than a four-year degree. Whether it is the right choice depends on individual circumstances such as location, tolerance for direct patient care, and interest in the clinical subject matter; BLS data describes the aggregate labor market, not a recommendation for any specific person.',
+				answer: 'Growth of 13% is projected across 2024 to 2034, well above the national average, for a role that typically requires about two years of postsecondary training rather than a four-year degree. Whether it is the right choice depends on individual circumstances such as location, tolerance for direct patient care, and interest in the clinical subject matter; BLS data describes the aggregate labor market, not a recommendation for any specific person.',
 			},
 			{
 				question: 'What pays more, RN or ultrasound tech?',
-				answer: 'Registered nurses came out ahead for May 2024: a $93,600 median, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, versus $89,340 for diagnostic medical sonographers, the BLS category that covers ultrasound techs. Both numbers are from the same BLS survey year, though RNs and sonographers sit on separate BLS Handbook pages with different typical entry-level education requirements.',
+				answer: 'Registered nurses came out ahead for May 2024: a $93,600 median, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, versus $89,340 for the sonographer category that covers ultrasound techs. Both numbers are from the same BLS survey year, though RNs and sonographers sit on separate BLS Handbook pages with different typical entry-level education requirements.',
 			},
 			{
 				question: 'Is becoming an ultrasound technician hard?',
@@ -2897,23 +2897,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How long does it take to become a social worker?',
-				answer: "It depends on the track. Per BLS, entry-level, nonclinical roles typically need a 4-year Bachelor of Social Work (BSW). Clinical practice typically needs a Master of Social Work (MSW), generally another 2 years after a bachelor's degree in any field, plus supervised clinical experience after graduation before independent licensure; California, for example, requires a minimum of 104 weeks (2 years) and 3,000 hours of that supervised experience, per its Board of Behavioral Sciences.",
+				answer: "It depends on the track. Starter jobs that involve no clinical work typically need a 4-year BSW, per BLS. Clinical practice typically needs an MSW, which adds roughly 2 years after an undergraduate degree in any subject, and then a stretch of supervised practice after graduation before independent licensure. California's state licensing agency, for example, asks for at least two years of that supervision, logged as 3,000 hours.",
 			},
 			{
 				question: 'Do you need a master\'s degree to become a social worker?',
-				answer: "Not always. Per BLS, a Bachelor of Social Work (BSW) is the most common requirement for entry-level, nonclinical positions. A Master of Social Work (MSW) is typically required for clinical social work, which involves diagnosing and treating mental, emotional, and behavioral issues. A BSW is not a prerequisite for entering an MSW program; BLS says a bachelor's in almost any field is acceptable.",
+				answer: "Not always. For nonclinical starter jobs, a BSW is what most employers ask for, according to BLS. Clinical work, which involves diagnosing and treating mental, emotional, and behavioral issues, typically calls for an MSW. Applicants to MSW programs do not need a BSW first, since BLS says nearly any undergraduate major is accepted.",
 			},
 			{
 				question: 'What exam do you need to pass to become a licensed social worker?',
-				answer: "Per the Association of Social Work Boards (ASWB), which develops and administers the exams, candidates take one of four categories, Bachelors, Masters, Advanced Generalist, or Clinical, matched to their degree and the license they're pursuing. Clinical practice requires the Clinical exam. California's LCSW credential is one documented example: its Board of Behavioral Sciences requires the ASWB Clinical Exam plus a separate state law and ethics exam of its own. Other states set their own requirements, so confirming with the specific licensing board where someone intends to practice is the reliable way to check.",
+				answer: "ASWB, the exam body for the field, offers four exams: two at the bachelor and master level, plus a generalist one and a clinical one. Test-takers pick the one that fits their education and the license they want. Clinical practice requires the clinical-level one. California's LCSW credential is one documented example: the licensing board requires passing ASWB's clinical test plus an extra exam on ethics and the state's own statutes that the board runs itself. Other states set their own requirements, so the reliable check is a call to the board in the state where you plan to work.",
 			},
 			{
 				question: 'How much do social workers make?',
-				answer: "BLS reports a median annual wage of $61,330 for social workers in May 2024 ($29.49 an hour), with the bottom 10% earning less than $41,580 and the top 10% earning more than $99,500. Pay varies by specialty: \"social workers, all other\" and healthcare social workers post the highest tracked medians, $69,480 and $68,090, while child, family, and school social workers, the field's largest group by employment, post the lowest at $58,570.",
+				answer: "In May 2024 the median wage was $61,330 a year (about $29.49 hourly), per BLS, and the range runs from under $41,580 at the bottom 10% to over $99,500 at the top 10%. Pay varies by specialty: the catch-all group and the healthcare specialty lead with $69,480 and $68,090, while the group covering child welfare, families, and schools, which is also the biggest by headcount, sits lowest at $58,570.",
 			},
 			{
 				question: 'Is social work a growing career?',
-				answer: "Yes. BLS projects the field will add about 44,700 jobs between 2024 and 2034, a 6% increase that outpaces the roughly 3% average projected across all occupations, bringing total employment to roughly 855,600. Most of the 74,000 openings BLS expects each year, though, will come from replacing social workers who leave the field or retire rather than from newly created positions.",
+				answer: "Yes. BLS projects the field will add about 44,700 jobs between 2024 and 2034, a 6% increase that outpaces the roughly 3% projected for the workforce as a whole, bringing total employment to roughly 855,600. Of the roughly 74,000 openings BLS expects each year, most come from covering for people who leave the field or retire, not from newly created positions.",
 			},
 		],
 		sources: [
