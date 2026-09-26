@@ -473,5 +473,16 @@
   "already_indexed_no_action": [],
   "quota_exceeded_attempted": [],
   "quota_used": "1 of shared account-wide daily quota"
+ },
+ {
+  "date": "2026-09-26",
+  "note": "游标从WageLark开始。巡检unindexed_old，URL unknown",
+  "action": "submitted",
+  "submitted_urls": [
+   "https://wagelark.com/dental-hygienist-vs-dentist/"
+  ],
+  "already_indexed_no_action": [],
+  "quota_exceeded_attempted": [],
+  "quota_used": "1 of shared account-wide daily quota"
  }
 ]
