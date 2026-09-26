@@ -659,6 +659,14 @@ export const guides: Guide[] = [
 				question: 'Is phlebotomy a good first job in healthcare?',
 				answer: 'Many people use it that way. The training is comparatively short (often under a year) and low-cost, and the direct patient-contact experience is valued by admissions programs for some higher-paying credentials like medical assisting, nursing, or diagnostic imaging. BLS projects 6% employment growth for the role itself through 2034, but BLS data describes the aggregate labor market, not a recommendation for any specific person.',
 			},
+			{
+				question: "Do phlebotomists make a lot of money?",
+				answer: "Not by national standards. BLS reported a median of $43,660 a year in May 2024, below the $49,500 median for all occupations that year. The best-paying industry on the BLS list is outpatient care, at $48,450, which is still under that all-occupation median.",
+			},
+			{
+				question: "Is it hard being a phlebotomist?",
+				answer: "The difficulty is more physical and practical than academic. BLS says phlebotomists may stand for long periods, must take care around blood, needles and other equipment, and have one of the highest rates of injuries and illnesses of all occupations. Those working in hospitals and labs may also cover nights, weekends and holidays.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Phlebotomists (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/phlebotomists.htm' },
@@ -2984,6 +2992,10 @@ export const guides: Guide[] = [
 				question: "What's the difference between a lineman and an electrician?",
 				answer: "BLS tracks them as separate occupations with separate SOC codes, 49-9051 for this line-work role and 47-2111 for electricians, and lists electricians as a similar occupation on the lineman's BLS page. Both fields typically need nothing more than a standard high-school credential to get started, but linemen work on outdoor, high-voltage power-distribution lines, often at height, while [electricians](/how-to-become-an-electrician/) more often install and repair wiring and lower-voltage systems inside buildings. BLS's median pay for the two differs by about $32,000 a year, $95,320 for linemen versus $63,190 for electricians in May 2025, a gap the data does not explain beyond the setting and voltage differences it describes.",
 			},
+			{
+				question: "Is lineman a tough job?",
+				answer: "Yes. BLS says the work carries serious hazards, chiefly live high-voltage lines high off the ground, and describes it as tiring on the body. When storms or disasters hit, crews can be sent far from home for days of long shifts. A 2018 BLS analysis of 2011-2015 data found nonfatal injury rates for this line of work considerably higher than the overall average across jobs.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm' },
@@ -3359,6 +3371,14 @@ export const guides: Guide[] = [
 			{
 				question: "What's the difference between a court reporter and a simultaneous captioner?",
 				answer: 'Both fall under the same BLS occupation and SOC code, 27-3092, because the underlying skill is identical: turning spoken words into an accurate, word-for-word record as they happen. Where the work happens is what splits the two roles apart. Court reporters mostly sit in courtrooms or legislative chambers, logging courtroom trials, sworn depositions, and other formal proceedings word for word. Their captioning counterparts, by contrast, caption TV broadcasts or transcribe live events such as news conferences and corporate meetings, work BLS notes can happen remotely or from a central office, serving people with hearing loss.',
+			},
+			{
+				question: "Is becoming a court reporter worth it?",
+				answer: "The BLS numbers point both ways. Training usually runs 2 to 3 years, and no prior work experience is required, and the May 2024 median of $67,310 is higher than the $49,500 figure for all occupations. Against that, BLS projects flat headcount over the ten years to 2034, and many states expect a license or a professional credential. Whether that trade is worth it depends on where you would work and what kind of reporting you train for, which BLS does not weigh for you.",
+			},
+			{
+				question: "Is court reporter a stressful job?",
+				answer: "BLS says it may be. It ties that to the speed and accuracy needed to capture a verbatim record and to the time-sensitive nature of legal proceedings. Concentration and attention to detail top its list of important qualities, because the finished record is what the court relies on.",
 			},
 		],
 		sources: [
@@ -6293,6 +6313,10 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 			{
 				question: 'Do pilots need a college degree?',
 				answer: "It depends which path. A four-year degree is what BLS lists as the usual entry point for pilots on a fixed airline timetable. The other route runs through hands-on flying instruction and an FAA-issued license, though some employers still ask for or prefer a degree on top of that.",
+			},
+			{
+				question: "Is 25 too late to become a pilot?",
+				answer: "No. The FAA rules checked for this answer set minimum ages, not a cutoff for starting: 18 for a commercial pilot certificate, 23 for an airline transport pilot certificate (21 on one restricted route). The upper limit that matters is 65, since airlines flying under Part 121 cannot use a pilot past that birthday. Someone who starts training at 25 or 27 still has decades before then. BLS does not publish pay by starting age, so it cannot say how a later start changes earnings.",
 			},
 		],
 		sources: [

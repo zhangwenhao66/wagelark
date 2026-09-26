@@ -2404,3 +2404,23 @@
  "扩散判定": "通用 / 扫描范围：仅WageLark（grep 'May 2024'，其余站为非BLS数据未扫）/ 命中：63/80篇含'May 2024'，dental-hygienist-salary($94,260)、OTA页对OT/洁牙师、多页跨引用均为旧年度 / 修复：当场仅本篇+本篇跨引用；其余写数据台watch，9/23已有同步提交在逐步做 / 防复发：见下，尚未落地检查脚本",
  "seo_score": null, "geo_score": null, "escalation": null}
 ```
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-09-26)",
+  "site": "wagelark",
+  "slugs_processed": ["how-to-become-a-lineman", "how-to-become-a-court-reporter", "how-to-become-a-phlebotomist", "how-much-do-pilots-make", "do-architects-make-good-money"],
+  "faq_added": {"how-to-become-a-lineman": 1, "how-to-become-a-court-reporter": 2, "how-to-become-a-phlebotomist": 2, "how-much-do-pilots-make": 1, "do-architects-make-good-money": 0},
+  "skipped": [
+    "lineman: highest paying job / lineman vs electrician（已有FAQ覆盖）、why paid so much（无因果来源）",
+    "phlebotomist: vs CNA（本页仍为 May 2024 数据，BLS 现 May 2025 $45,230，年份不一致，先刷新页面）、highest hourly pay（BLS 无此数据）",
+    "pilots: 27 too old（并入 25 的回答）",
+    "architects: millionaire / 200k 路径（无 BLS 来源）"
+  ],
+  "sources": "BLS OOH（WebSearch 摘录，bls.gov 对 curl 403）、eCFR 14 CFR 61.123/61.153/121.383（curl 核实）",
+  "humanizer_avoid_ai_writing": "已真实调用 Skill(humanizer) 与 Skill(avoid-ai-writing)，数字已对照",
+  "check_prose_patterns": "lineman/court-reporter/pilots rc=0；phlebotomist rc=1，剩余 FAQ#1-4 为存量债务（与本次新增无关，未重写旧内容），新增两条无命中",
+  "stale_data_found": "how-to-become-a-phlebotomist 仍用 May 2024（$43,660），BLS 已更新至 May 2025 $45,230，建议刷新",
+  "note": "只新增 FAQ"
+}
+```
