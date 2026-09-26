@@ -13,7 +13,7 @@
     "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection",
-    "last_submitted_date": "2026-09-03"
+    "last_submitted_date": "2026-09-26"
   },
   "https://wagelark.com/pharmacist-salary/": {
     "submitted_date": "2026-08-03",
@@ -115,7 +115,7 @@
   },
   "https://wagelark.com/surgical-tech-salary/": {
     "submitted_date": "2026-08-05",
-    "last_submitted_date": "2026-08-25",
+    "last_submitted_date": "2026-09-26",
     "verified_status": "stale_not_indexed",
     "note": "Discovered but not crawled, discovered 06 Aug 2026, age 17 days as of 08-23 check",
     "last_checked_date": "2026-08-23",
@@ -459,7 +459,7 @@
   },
   "https://wagelark.com/occupational-therapy-assistant-salary/": {
     "submitted_date": "2026-09-04",
-    "last_submitted_date": "2026-09-04",
+    "last_submitted_date": "2026-09-26",
     "verified_status": "pending"
   },
   "https://wagelark.com/clinical-laboratory-technologist-salary/": {
@@ -474,7 +474,7 @@
   },
   "https://wagelark.com/genetic-counselor-salary/": {
     "submitted_date": "2026-09-10",
-    "last_submitted_date": "2026-09-10",
+    "last_submitted_date": "2026-09-26",
     "verified_status": "pending"
   },
   "https://wagelark.com/audiologist-salary/": {
@@ -514,7 +514,7 @@
   },
   "https://wagelark.com/orthotist-and-prosthetist-salary/": {
     "submitted_date": "2026-09-16",
-    "last_submitted_date": "2026-09-16",
+    "last_submitted_date": "2026-09-26",
     "verified_status": "pending"
   },
   "https://wagelark.com/mri-tech-salary": {
@@ -545,6 +545,11 @@
   "https://wagelark.com/dental-hygienist-vs-dentist/": {
     "submitted_date": "2026-09-24",
     "last_submitted_date": "2026-09-24",
+    "verified_status": "pending"
+  },
+  "https://wagelark.com/do-architects-make-good-money/": {
+    "submitted_date": "2026-09-26",
+    "last_submitted_date": "2026-09-26",
     "verified_status": "pending"
   }
 }
