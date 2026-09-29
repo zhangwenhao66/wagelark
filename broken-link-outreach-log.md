@@ -508,3 +508,38 @@ WageLark断链置换战术累计已发送 **18封**（含3封跟进：08-21 UCF�
 ## 2026-09-26 trafficsite-broken-link-building（外链产能集中规则：11-30位曝光 UmberLore 614 / WageLark 567 / MythCairn 396 前三；DialWick冻结，固定名额给CalcBadger）
 
 第0步：Simmons University LIS Archives（08-31，library@simmons.edu，已发约26天）curl复查 simmons.libguides.com/lisarchives HTTP 200，无wagelark字样；外链明细26条为垃圾SEO网络与无关站，未见simmons.edu。零回复。判定 `not_replaced`，超期不再跟进（沿用ACRA/NCC先例）。第二部分未做新挖掘。未发送。累计口径：已发送18封 / 到手0条 / 0%。
+
+---
+
+## 2026-09-29（第十九次运行）— trafficsite-broken-link-building「外链产能集中规则」11-30位曝光WageLark第一（703）
+
+### 第一部分：核实08-31批次剩余3条（LIU/Harper/MSU），29天严重超期
+
+按"最早未验证优先"，处理08-31批次里此前只验证过Simmons（09-26）的剩余3条：
+
+- **LIU Post**（post-ref@liu.edu，acrlny.org死链→how-to-become-a-librarian，Message ID `1a0580e37018d9ce`）：curl复查`liu.cwp.libguides.com/LIS/career` HTTP 200，acrlny.org/jobs-2/死链原样保留，全文无wagelark字样；`backlinks wagelark.com`未查到liu.edu；`gmail_send.py list --query "from:liu.edu"`返回空。判定**`not_replaced`**。
+- **Harper College**（acc@harpercollege.edu，nacpb.org死链→what-does-a-bookkeeper-do，Message ID `1a0580e3a618940c`）：curl复查`harpercollege.edu/academics/business/accounting/professional-orgs.php` HTTP 200，nacpb.org死链原样保留，无wagelark字样；backlinks/gmail均无记录。判定**`not_replaced`**。
+- **MSU Libraries**（leavitt9@msu.edu，casact.org死链→actuary-salary，Message ID `1a0580e3e79070a0`）：curl复查`libguides.lib.msu.edu/c.php?g=96195&p=626085` HTTP 200，casact.org死链原样保留，无wagelark字样；backlinks/gmail均无记录。判定**`not_replaced`**。
+
+**⚠️流程教训（独立复核agent拦下一次差点发错内容的跟进邮件）**：本轮最初打算给LIU发跟进邮件，但草稿内容不慎误用了另一封邮件（HealthGuideUSA/comment@proquantum.com）的正文——独立复核agent核对发现邮件提到"Dental Hygienist Associations page"与LIU Post的图书馆职业指南完全不相关，判定DO NOT SEND并指出错误。修正后又发现：本批次（LIU/Harper/MSU）与已按"超期不再跟进"处理的Simmons是**同一天（08-31）发出**，现已29天，比Simmons（09-26核实时26天）更超期，按既定先例（ACC/ACRA/NCC/fana.org/Simmons）三条均应判超期不再跟进，不发送任何跟进邮件。三条均标记为最终状态`not_replaced`（跟进窗口已过）。
+
+**HealthGuideUSA**（09-23发出，comment@proquantum.com，13天）：curl复查`healthguideusa.org/state_dental_hygiene_associations.htm` HTTP 200，7个州死链均原样保留，无wagelark字样；backlinks未查到；`gmail_send.py list --query "from:proquantum.com"`返回空零回复。判定`not_replaced`。该目标为高权威度目录站（ETV 212,100），发送一次简短跟进：`gmail_send.py send --from wagelark --to comment@proquantum.com --reply-to 1a0ce7130ea99409`。标记**`followed_up_once`**。
+
+### 第二部分：新断链机会——社区大学CTE技能类LibGuide新方向
+
+延续"从业者协会/图书馆career info指南"历史命中率最高方向，本轮改试社区大学职业技术教育（CTE）项目的LibGuide（焊接/电工/水管工/卡车驾驶四个技能方向），区别于此前已饱和的四年制大学图书馆职业指南。扫描21个候选页面：焊接（10所院校LibGuide）、电工（NLTCC×2/Delgado）、卡车驾驶（Bevill State/NLTCC/Georgia Northwestern）三个方向仅命中院校自身内部页面死链（非可替换外部资源），未采用；**水管工方向命中1条真实机会**：
+
+**Fayetteville Technical Community College — Plumbing Resources guide**（`faytechcc.libguides.com/plumbing/resources`）：3条死链（NC州执照委员会nclicensing.org 404、PHCC行业协会phccweb.org的ewebToken链接404/href带未替换占位符、United Association工会www.ua.org/plumbing DNS无法解析），均curl独立核实。目标：`wagelark.com/plumbing-apprenticeship`（工会/协会/雇主学徒制+州执照考试+BLS薪资），主题精确对应三条死链的组织类型。
+
+**独立复核（两轮）**：第一轮发现草稿编造"位于Professional Organizations小节"（页面实际无此标题，真实容器是"Online Resources OR Books Available in Library"），判定DO NOT SEND；修正为不做结构性断言后，第二轮独立复核确认修正到位+补充的"ua.org/plumbers是真实现存页"经验证为真，**VERDICT: SEND**。
+
+**已发送**：`gmail_send.py send --from wagelark --to brownkr@faytechcc.edu --subject "Three dead links on your Plumbing resources guide"`，**Message ID `1a0ed92b2e83ffb0`**。
+
+### 累计口径
+
+WageLark断链置换战术累计已发送 **20封**（含4封跟进：08-21 UCF、08-28 NALA、09-02 HCC、09-29 HealthGuideUSA）；已验证 **12条 `not_replaced`**（UCF/CSRT/NALA/ten27services/HCC/ACC/ACRA/NCC/fana.org/Simmons/LIU/Harper/MSU，共13条，此处口径含全部历史累计）；`verified_live_backlink_confirmed`/`verified_live_backlink_nofollow` 均为 **0条**；转化率 **0/20 = 0%**（Fayetteville Tech本轮刚发出，未到验证窗口，不计入分母）。转化率持续为0已达12轮，累计发送20封，仍未触及"≥30封仍0到手"的写待办硬门槛。
+
+### 遗留待办
+
+1. 下轮核实HealthGuideUSA跟进邮件（09-29发出，满10天后）。
+2. 社区大学CTE LibGuide方向本轮仅水管工命中1条，焊接/电工/卡车驾驶三个子方向已饱和；下轮可尝试暖通空调(HVAC)/汽修(automotive)技术类LibGuide，或换回护理/牙科技师类协会资源页方向。

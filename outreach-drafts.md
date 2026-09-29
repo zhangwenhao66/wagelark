@@ -1001,3 +1001,37 @@ WageLark
 **独立复核（全新spawn agent，独立re-fetch核实）**：VERDICT: SEND。7项检查逐一独立验证：①独立fetch目标页确认7个州/域名对照完全一致，独立curl测试全部7条确认真实失效（cdha.org/odha.org均404；maryland-dha.org/wvdhaonline.org/rdhwdha.com/tripod域名均DNS解析失败），失效类型与邮件描述吻合；②comment@proquantum.com确认是页脚明确公布的"报告失效链接"专用反馈渠道，与本次断链置换用途完全对口；③站点非废弃：独立curl首页`last-modified`头显示2026-05，页脚"2002-2023"只是过期的版权字样未更新，非站点废弃信号，ProQuantum旗下多个姊妹目录站佐证是活跃运营的多站点目录业务；④独立fetch wagelark.com/dental-hygienist-salary/确认真实含"median $94,260...BLS May 2024"数据，且确认目标页确有"Dental Hygienist Job Outlook"链接与邮件建议的放置位置吻合；⑤语气/结构检查通过，7州列举按失效类型分组陈述，读起来像真人逐条测试后的客观汇报而非机械枚举；⑥无不可核实的收件人相关陈述；⑦无重复/群发迹象。
 
 **已发送**：`gmail_send.py send --from wagelark --to comment@proquantum.com --subject "Several state links on your Dental Hygienist Associations page"`，**Message ID `1a0ce7130ea99409`**。
+
+---
+
+## 2026-09-29 — Fayetteville Technical Community College Plumbing Resources guide（brownkr@faytechcc.edu）— 新方向：社区大学CTE技能类LibGuide
+
+Subject: Three dead links on your Plumbing resources guide
+
+Hi Kris,
+
+I was going through Fayetteville Tech's Plumbing guide (faytechcc.libguides.com/plumbing/resources) and three of the links don't load anymore. The NC licensing board link (nclicensing.org/Default.asp) returns a 404. The PHCC link also 404s. The United Association link (www.ua.org/plumbing) doesn't resolve at all; their current plumbing page is at ua.org/plumbers.
+
+If you're updating that section, I run WageLark, a site that pulls BLS wage data for trades. We have a page on the plumbing apprenticeship path (wagelark.com/plumbing-apprenticeship) that covers licensing requirements, apprenticeship routes through unions and trade groups, and current pay at each stage. It's not a replacement for the licensing board or PHCC, just something that could fit next to them once those links get fixed.
+
+Thanks for keeping the guide up to date.
+
+Owen
+
+**目标页面**：`https://faytechcc.libguides.com/plumbing/resources`，维护者Kris Brown（Spring Lake Campus Librarian）。
+
+**死链核实**（均curl独立核实）：nclicensing.org/Default.asp（NC州执照委员会）404；phccweb.org的ewebToken链接（PHCC行业协会，href本身带未替换的`{token}`占位符，从发布起就是模板变量复制粘贴错误）404；www.ua.org/plumbing（United Association工会）DNS无法解析（`Could not resolve host`），不带www的`ua.org/plumbers`才是真实现存页面。
+
+**⚠️独立复核第一轮发现真实错误**：原草稿声称三条死链"位于Professional Organizations小节下"，独立fetch页面后确认**页面上根本没有这个标题**，真实容器标题是"Online Resources OR Books Available in Library"——判定DO NOT SEND，要求修正。**修正方式**：删除对小节标题的任何声称，改为直接列举三条链接状态，不再做无法验证的结构性断言；同时补充"their current plumbing page is at ua.org/plumbers"这条经独立验证为真的陈述。二轮独立复核确认修正到位、无新问题，VERDICT: SEND。
+
+**主题匹配**：`wagelark.com/plumbing-apprenticeship/`（09-12更新）覆盖工会/行业协会/雇主赞助学徒制、州执照考试要求、各阶段BLS薪资数据，与死链的三个组织（州执照委员会/行业协会/工会）直接对应。
+
+**收件人**：brownkr@faytechcc.edu，页面profile box列出的该指南维护者本人邮箱。
+
+**查重**：`gmail_send.py list --query "to:brownkr@faytechcc.edu OR from:faytechcc.edu"`返回空；grep全部14站outreach日志/drafts确认矩阵内无重复联系。
+
+**已过`Skill(humanizer)`+`Skill(avoid-ai-writing)`**：无em dash/AI高频词/促销语言/rule of three。
+
+**新方向说明**：本轮延续"社区大学CTE技能类项目LibGuide"（焊接/电工/水管工/卡车驾驶），焊接/电工/卡车驾驶三个方向均只命中院校自身内部页面死链（非可替换外部资源），唯独水管工方向命中这条真实机会。
+
+**已发送**：`gmail_send.py send --from wagelark --to brownkr@faytechcc.edu --subject "Three dead links on your Plumbing resources guide"`，**Message ID `1a0ed92b2e83ffb0`**。
