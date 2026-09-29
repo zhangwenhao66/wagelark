@@ -1035,3 +1035,35 @@ Owen
 **新方向说明**：本轮延续"社区大学CTE技能类项目LibGuide"（焊接/电工/水管工/卡车驾驶），焊接/电工/卡车驾驶三个方向均只命中院校自身内部页面死链（非可替换外部资源），唯独水管工方向命中这条真实机会。
 
 **已发送**：`gmail_send.py send --from wagelark --to brownkr@faytechcc.edu --subject "Three dead links on your Plumbing resources guide"`，**Message ID `1a0ed92b2e83ffb0`**。
+
+---
+
+## 2026-09-29 — UVA Economics "Salary Surveys and Resources" page (jlh7b@virginia.edu) — salary-statistics-2026 distribution, first target
+
+To: jlh7b@virginia.edu
+Subject: A primary-source addition for your Salary Surveys and Resources page
+
+Hi Jennifer,
+
+I came across the Economics Department's "Salary Surveys and Resources" page. A few of the tools listed there, like Glassdoor, PayScale, and Salary.com, are crowd-sourced or need a paid subscription for the full report.
+
+I run WageLark, a site built on BLS and Census wage data. We put together a page with 61 statistics on pay by education level, gender, industry, union status, and minimum wage incidence. Each one links straight to the original government, industry, or association source: wagelark.com/salary-statistics-2026/. It's free and doesn't require a sign-up, so students can cite a number directly back to where it came from.
+
+No worries if it's not a fit. Just thought it could sit well next to the BLS Occupational Outlook Handbook entry already on the list.
+
+Thanks,
+Owen
+WageLark
+contact@wagelark.com
+
+**Target found via**: WebSearch for salary-statistics resource pages on .edu career-center sites. `economics.virginia.edu/salary-surveys-and-resources` confirmed live (200), lists 15 salary-research resources for students including BLS OOH (first entry), CareerBuilder, Glassdoor, Indeed, NACE, PayScale, PNP, Robert Half, Salary.com, SalaryExpert, Simply Hired, UN Common System, US OPM, ZipRecruiter.
+
+**Contact**: jlh7b@virginia.edu confirmed via `economics.virginia.edu/eco-contact` and `economics.virginia.edu/people/jennifer-jones` as Jennifer Jones, Director of the Economics Career Office — the department's own general contact channel, not single-purpose (legal/privacy/media/sales).
+
+**Quality gate**: `dataforseo_query.py traffic economics.virginia.edu` → ETV 15,484/month, 达标（门槛300）。.edu domain, legitimate department page, no spam signals.
+
+**Three independent review rounds** (details in `linkable-asset-log.md` 2026-09-29 entry): round 1 caught an overclaim about source coverage (page also cites NACE/Robert Half, not just government releases) — fixed. Round 2 caught a false "most" quantifier about the target page's own resource list (only 3 of 15 entries fit the crowd-sourced/paywalled description) — fixed. Round 3: fresh re-fetch of both live pages, verdict CAN SEND.
+
+**Dedup**: `gmail_send.py list --query "to:virginia.edu"` → empty.
+
+**Status: SENT (2026-09-29).** `gmail_send.py send --from wagelark --to jlh7b@virginia.edu`, Message ID `1a0edd2ab4909500`.

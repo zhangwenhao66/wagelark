@@ -160,3 +160,25 @@ Not re-evaluated — the 8/29 conclusion (not Reddit-ready without a standalone 
 **salary-statistics-2026 — verified live, distribution not yet started**: confirmed this asset (built 2026-09-13, push was held pending the daily-cadence cap) is now live — `wagelark.com/salary-statistics-2026/` returns 200, and `git log origin/main..HEAD` shows no unpushed commits, so it went out with a subsequent daily run. This asset has never been distributed. Looked for a first target this round (Cornell University Library's "Labor Union Statistics" LibGuide, guides.library.cornell.edu/StatisticalSources/laborunionstats) but found no published contact email on the page within this round's time budget. No pitch sent for this asset this round — next run selecting WageLark should prioritize Step 2/3 for `salary-statistics-2026` before further work on `highest-paying-jobs-without-a-degree` (which is already well into its distribution count).
 
 **Distribution count for highest-paying-jobs-without-a-degree**: now 5 sent targets (thebluecollarrecruiter.com 8/29, michaelthompson-phd.com 9/16, dailyvoice.com 9/17, apollotechnical.com 9/22, plus the earlier asclsnd@gmail.com broken-link pitch pointing readers to this page as replacement content 9/16) — over halfway to the ≥10-target saturation bar. `salary-statistics-2026` at 0 sent — should take priority next time this site is selected.
+
+---
+
+## 2026-09-29 — distribution pass #7 (capacity-concentration rule)
+
+**Site selection**: recomputed 28-day 11-30-position impressions across the 7 non-suppressed/non-frozen traffic sites: wagelark(729) / umberlore(608) / mythcairn(401) / dayalmanac(218) / factcrumbs(102) / hollowvane(35) / warcrumbs(13). CalcBadger/DialWick compete separately for the fixed priority slot (CalcBadger more overdue this run, last processed 2026-09-15 vs. DialWick's 2026-09-22 — but CalcBadger's fixed-slot outreach effectively already happened today via `trafficsite-broken-link-building`'s identical dietitian.org pitch, see that site's own log for the correction note). LingoGrove excluded (ranking-suppressed, third false-dawn confirmed reverted 2026-09-22). WageLark ranks #1 this run.
+
+**Order of work**: distribution only, per the standing "分发优先" rule — both published assets (highest-paying-jobs-without-a-degree at 5/10 sent, salary-statistics-2026 at 0/10 sent) are well short of the monthly-quota trigger being relevant (quota already satisfied this month via the 9/13 statistics-hub build). Prioritized `salary-statistics-2026` per the 2026-09-22 log's explicit next-step note.
+
+**Step 3 (pitch) — salary-statistics-2026's first distribution target**: WebSearch found UVA Economics Department's "Salary Surveys and Resources" page (economics.virginia.edu/salary-surveys-and-resources), a real editorial resource list for students (BLS OOH, CareerBuilder, Glassdoor, NACE, PayScale, PNP, Robert Half, Salary.com, SalaryExpert, Simply Hired, UN Common System, US OPM, ZipRecruiter — 15 entries). Drafted a pitch to Jennifer Jones (jlh7b@virginia.edu, Director of the Economics Career Office, the department's general contact channel, not single-purpose). Passed `Skill(humanizer)` and `Skill(avoid-ai-writing)` clean. **Three independent review rounds, two real problems caught and fixed**: round 1 flagged "Each one links straight to the original BLS, Census, or Fed release" as an overclaim (the page's own methodology cites NACE and Robert Half too, not just government releases) — fixed to "government, industry, or association source." Round 2 flagged "Most of the tools listed there... are crowd-sourced or need a paid subscription" as false (only 3 of the UVA page's 15 listed resources actually fit that description, not "most") — fixed to "A few of the tools listed there, like Glassdoor, PayScale, and Salary.com...". Round 3 (fresh independent re-fetch of both live pages, full line-by-line re-read) returned CAN SEND with no further issues.
+
+**Dedup**: `gmail_send.py list --query "to:virginia.edu"` → empty before send.
+
+**Sent**: `gmail_send.py send --from wagelark --to jlh7b@virginia.edu`, Message ID `1a0edd2ab4909500`.
+
+**Backlog housekeeping**: item #8's status tag was stale (`[统计枢纽][制作完成，待次日push]` despite having been confirmed live since the 2026-09-22 log entry) — corrected to `[统计枢纽][已发布]`.
+
+**Step 2 (unlinked-mention recovery)**: not re-run this pass (time budget went to the salary-statistics-2026 pitch, which required 3 review rounds).
+
+**Step 3.5 / Reddit**: not re-evaluated this pass — standing conclusions from prior runs hold.
+
+**Distribution count**: `highest-paying-jobs-without-a-degree` unchanged at 5/10 sent. `salary-statistics-2026` now 1/10 sent (jlh7b@virginia.edu) — first target landed for this asset.
