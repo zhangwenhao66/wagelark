@@ -204,5 +204,18 @@
       "https://wagelark.com/how-much-do-pilots-make/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-29",
+    "site": "wagelark.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://wagelark.com/salary-statistics-2026/",
+      "https://wagelark.com/ironworker-salary/",
+      "https://wagelark.com/speech-language-pathologist-salary/",
+      "https://wagelark.com/career-quiz/",
+      "https://wagelark.com/do-architects-make-good-money/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]
