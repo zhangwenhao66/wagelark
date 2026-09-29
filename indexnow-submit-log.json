@@ -76,12 +76,12 @@
     "note": "launch batch 10/10 (Salary Guide, colloquial-query type); Bing 202 / Yandex 202; Discovered but not crawled (Discovered on 03 Aug 2026)",
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
-    "last_submitted_date": "2026-09-23",
+    "last_submitted_date": "2026-09-29",
     "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/radiology-tech-salary/": {
     "submitted_date": "2026-08-03",
-    "last_submitted_date": "2026-09-03",
+    "last_submitted_date": "2026-09-29",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-25",
     "verified_method": "bwt_url_inspection",
@@ -202,7 +202,7 @@
   },
   "https://wagelark.com/welder-salary/": {
     "submitted_date": "2026-08-13",
-    "last_submitted_date": "2026-09-03",
+    "last_submitted_date": "2026-09-29",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-09-01",
     "verified_method": "bwt_url_inspection"
@@ -556,6 +556,11 @@
   "https://wagelark.com/do-architects-make-good-money/": {
     "submitted_date": "2026-09-26",
     "last_submitted_date": "2026-09-26",
+    "verified_status": "pending"
+  },
+  "https://wagelark.com/wagelark": {
+    "submitted_date": "2026-09-29",
+    "last_submitted_date": "2026-09-29",
     "verified_status": "pending"
   }
 }
