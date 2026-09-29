@@ -677,7 +677,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'how-much-do-flight-attendants-make',
 		category: 'Salary Guide',
-		title: 'How Much Do Flight Attendants Make? BLS Data by Percentile',
+		title: 'How Much Do Flight Attendants Make? $67,130 Median (BLS 2026)',
 		description: 'The median flight attendant salary is $63,580 a year per BLS, but the range is enormous, from $35,110 to $136,430. Here is why, and what drives it.',
 		published: '2026-08-03',
 		updated: '2026-09-23',
@@ -735,7 +735,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'radiology-tech-salary',
 		category: 'Salary Guide',
-		title: 'Radiology Tech Salary: BLS Wage Data by Percentile (2026)',
+		title: 'Radiology Tech Salary: $77,660 Median & Full Range (2026 BLS)',
 		description: 'BLS puts the median radiology tech salary at $77,660 a year. See the full wage range by percentile, by industry, and how the role differs from MRI techs.',
 		published: '2026-08-04',
 		updated: '2026-08-21',
@@ -1975,7 +1975,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'welder-salary',
 		category: 'Salary Guide',
-		title: 'Welder Salary: BLS Wage Data by Percentile (2026)',
+		title: 'Welder Salary: $51,000 Median, Range by Percentile (2026)',
 		description: 'BLS puts the median welder salary at $53,750 a year, with 2% growth projected through 2035. Here is the full wage range by percentile and by industry.',
 		published: '2026-08-13',
 		updated: '2026-09-23',
