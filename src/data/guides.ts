@@ -1054,35 +1054,35 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average physician assistant salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for physician assistants was $133,260 in May 2024 ($64.07 per hour). "Median" means half of PAs earned more and half earned less; BLS data comes from employer payroll reports rather than self-submitted figures.',
+				answer: 'The BLS figure for May 2024 lands at $133,260 a year, about $64.07 hourly. Half of all PAs made more and half made less. The numbers are drawn from what employers report paying, not from surveys that people fill out themselves.',
 			},
 			{
 				question: 'What is the highest-paying setting for a physician assistant?',
-				answer: 'Among the industry categories BLS tracks for May 2024, government employment (excluding state/local education and hospitals) paid the highest median at $151,470, ahead of outpatient care centers ($147,650), hospitals ($136,630), offices of physicians ($129,640), and educational services ($127,900).',
+				answer: 'Public-sector work pays best. Leaving out public schools, universities and hospitals, that category posted a $151,470 median in May 2024. Next come outpatient clinics ($147,650), hospitals ($136,630), physician offices ($129,640), and schools and universities last at $127,900.',
 			},
 			{
 				question: 'How much do the lowest- and highest-paid physician assistants make?',
-				answer: 'BLS reports that the bottom 10% of physician assistants earned less than $95,240 a year in May 2024, while the top 10% earned more than $182,200, a range specific to this occupation rather than a combined group figure.',
+				answer: 'The spread is wide. Per BLS, the lowest-paid tenth took home under $95,240 in May 2024 and the highest-paid tenth took home over $182,200. These percentiles cover PAs only, not a blended group of occupations.',
 			},
 			{
 				question: 'How does PA pay compare to nurse practitioner pay?',
-				answer: 'BLS reports a May 2024 median annual wage of $133,260 for physician assistants, compared with $129,210 for nurse practitioners, even though both roles typically require a master\'s degree for entry. Physician assistant employment is also projected to grow more slowly (20%) than nurse practitioner employment (40%) from 2024 to 2034.',
+				answer: 'PAs come out ahead, $133,260 against $129,210 for NPs in May 2024, although entry for both roles typically means a graduate-level master\'s. Growth runs the other way: BLS projects 20% for PAs and 40% for NPs between 2024 and 2034.',
 			},
 			{
 				question: 'Is physician assistant a growing career?',
-				answer: 'BLS projects 20% employment growth for physician assistants from 2024 to 2034, classified as much faster than average, adding an estimated 33,200 jobs.',
+				answer: 'Yes. BLS expects the PA workforce to expand by 20% over the 2024-2034 decade, a pace BLS rates well above the national norm, with about 33,200 added jobs.',
 			},
 			{
 				question: 'Is a PA program a two-year degree?',
-				answer: 'Not exactly. BLS states that physician assistant programs typically require at least two years of postbaccalaureate study, so the graduate program itself runs close to two years, but it awards a master\'s degree, not the associate degree most people mean by a "two-year degree." Getting in also generally requires already holding a bachelor\'s degree and some patient-care experience beforehand, so the total time invested runs well past two years once that undergraduate and pre-PA experience is counted.',
+				answer: 'Not quite. BLS says PA programs usually require at least two years of postbaccalaureate study, but graduates finish with a master\'s rather than an associate degree. Applicants generally arrive with a bachelor\'s degree and some patient-care hours, so the full timeline is considerably longer than two years.',
 			},
 			{
 				question: 'Can you make $200,000 as a physician assistant?',
-				answer: "Not typically, per national BLS data. The top 10% of physician assistants earned more than $182,200 a year in May 2024, the highest decile BLS publishes for the occupation, still short of $200,000. Government employment, the highest-paying of the five industries BLS tracks for this role, had a median of $151,470, well below that figure too. Reaching $200,000 would generally mean combining top-decile pay with a high-paying specialty, setting, or region that BLS's national wage data does not break out separately.",
+				answer: "Not typically, going by national BLS data. Even the top decile, who cleared $182,200 in May 2024, fell short of $200,000, and that is the highest cut BLS publishes for the occupation. Government work, the best-paying of the five industries BLS tracks for PAs, has a median of $151,470, which is far short as well. Reaching $200,000 would generally mean combining top-decile pay with a high-paying specialty, setting, or region that the national BLS tables do not split out.",
 			},
 			{
 				question: 'Is a PA basically a doctor?',
-				answer: "No. Physician assistants hold a master's degree from an accredited PA program, a different credential from the MD or DO a physician earns after medical school and residency. PAs practice medicine, examining patients, ordering tests, diagnosing conditions, and prescribing medication, but per BLS they do so working as part of a team with physicians and other healthcare providers, with the specific scope of collaboration or supervision required varying by state. See this site's [what does a physician assistant do](/what-does-a-physician-assistant-do/) guide for the full breakdown of duties and how PA scope of practice compares to a physician's.",
+				answer: 'No. PAs earn a master\'s-level credential through an accredited program, which is a different credential from the MD or DO a physician earns after medical school and residency. PAs examine patients, order tests, diagnose conditions, and prescribe medication, but per BLS they work on a team with physicians and other providers, and each state sets how much collaboration or supervision is required. The site\'s [PA duties and scope guide](/what-does-a-physician-assistant-do/) has the details.',
 			},
 		],
 		sources: [
@@ -1212,7 +1212,7 @@ export const guides: Guide[] = [
 				heading: 'What it takes to get in, and how the pay compares to a pharmacist',
 				body: [
 					'Entry-level education for pharmacy technicians is a high school diploma or equivalent, one of the lowest bars among the occupations tracked on this site. Most states regulate pharmacy technicians in some way, and requirements can include a formal education or training program, an exam, fees, continuing education, a criminal background check, or a minimum age, though the exact mix varies significantly by state. Certification is not required everywhere, but BLS notes that some states and employers do require it, and that having it can make finding a job easier even where it is not mandatory. CareerOneStop, the resource BLS itself points readers to for details, is the place to check what a specific state actually requires rather than assuming national rules apply everywhere.',
-					'That low barrier to entry is also what separates a pharmacy technician\'s pay from a pharmacist\'s. Pharmacists require a Doctor of Pharmacy (PharmD), a professional doctorate that typically takes four years after at least two years of prerequisite coursework, plus passing a national licensure exam. This site\'s [pharmacist salary guide](/pharmacist-salary/) reports a May 2025 median of $140,910, more than three times the pharmacy technician median in this article, reflecting that multi-year credentialing gap rather than a difference in day-to-day workload. For a comparison at a similarly accessible entry point, this site\'s [guide to becoming a phlebotomist](/how-to-become-a-phlebotomist/) covers another allied health role with the same kind of low bar to entry: like pharmacy technicians, phlebotomists can qualify with just a high school diploma plus employer-provided on-the-job training in many states, though phlebotomists also have a formal postsecondary-certificate route that some states require.',
+					'That low barrier to entry is also what separates a pharmacy technician\'s pay from a pharmacist\'s. Pharmacists require a Doctor of Pharmacy (PharmD), a professional doctorate that typically takes four years after at least two years of prerequisite coursework, plus passing a national licensure exam. This site\'s [pharmacist salary guide](/pharmacist-salary/) reports a May 2025 median of $140,910, more than three times the pharmacy technician median in this article, reflecting that multi-year credentialing gap rather than a difference in day-to-day workload. For a comparison at a similarly accessible entry point, this site\'s [guide to becoming a phlebotomist](/how-to-become-a-phlebotomist/) covers another allied health role with the same kind of low bar to entry: like pharmacy technicians, phlebotomists can start with just a high school diploma plus employer-provided on-the-job training where state rules allow it, though some states require a certification that effectively forces the formal postsecondary-program route.',
 				],
 			},
 		],
