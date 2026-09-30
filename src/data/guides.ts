@@ -1978,7 +1978,7 @@ export const guides: Guide[] = [
 		title: 'Welder Salary: $51,000 Median, Range by Percentile (2026)',
 		description: 'BLS puts the median welder salary at $53,750 a year, with 2% growth projected through 2035. Here is the full wage range by percentile and by industry.',
 		published: '2026-08-13',
-		updated: '2026-09-23',
+		updated: '2026-09-30',
 		socCode: '51-4121',
 		coreSummary: 'The median annual wage for welders, cutters, solderers, and brazers was $53,750 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $39,240 while the top 10% earned more than $77,530. BLS projects 2% employment growth from 2025 to 2035, slower than the roughly 3% average across all occupations, though about 40,300 openings are still projected each year.',
 		sections: [
@@ -1987,7 +1987,7 @@ export const guides: Guide[] = [
 				body: [
 					"SOC code 51-4121 is BLS's catch-all for welders, cutters, solderers, and brazers, defined as workers who use hand-held or remotely controlled equipment to join, repair, or cut metal parts and products. Roughly 437,700 people held these jobs in 2025, and BLS put the median annual wage at $53,750 that May, or $25.84 an hour. Pay ran from less than $39,240 at the 10th percentile to more than $77,530 at the 90th, a gap of roughly $38,290. That single wage figure covers all four job titles under the SOC code; BLS does not break out percentiles separately by specialty. For duties and safety on the job, see this site's guide to [what a welder does](/what-does-a-welder-do/).",
 					"That $53,750 figure folds together four separate job titles BLS tracks under one SOC code and tells apart by technique, not pay: welders, cutters, solderers, and brazers. BLS doesn't publish wage data for any of the four individually.",
-					'BLS also places the occupation against two broader comparison points on the same page: a $49,800 median across "metal workers and plastic workers" as a group, and a $50,980 median across all occupations in the economy. Welders and related workers sit above both. BLS publishes the three figures side by side without breaking down what accounts for the difference, whether that\'s skill level, certification, or the physical demands of the work.',
+					'BLS also places the occupation against two broader comparison points on the same page: a $49,800 median across "metal workers and plastic workers" as a group, and a $50,980 median across all occupations in the economy. Welders and related workers sit above both. BLS publishes the three figures side by side without breaking down what accounts for the difference, whether that\'s skill level, certification, or the physical demands of the work. A job with a similar median but a far wider spread is real estate sales, where BLS puts the sales agent median at $52,830 and the 90th percentile at $123,590 (see [how much real estate agents make a month](/how-much-do-real-estate-agents-make-a-month/)).',
 					'On growth, BLS projects 2% employment growth for welders, cutters, solderers, and brazers from 2025 to 2035, which it classifies as slower than average against the roughly 3% figure for all occupations combined. That said, the occupation still outpaces the broader metal workers and plastic workers group, which BLS projects will shrink 3% over the same period on the same comparison chart.',
 				],
 			},
@@ -6484,5 +6484,85 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		],
 		image: '/images/architect-salary-chart.svg',
 		imageAlt: 'Bar chart showing architect annual wage by percentile: 10th percentile $62,300, median $99,280, 90th percentile $161,420, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'how-much-do-real-estate-agents-make-a-month',
+		category: 'Salary Guide',
+		title: 'How Much Do Real Estate Agents Make a Month?',
+		description: 'BLS puts the median real estate sales agent at $52,830 a year, about $4,403 a month if spread evenly. See the pay range, brokers, and irregular income.',
+		published: '2026-09-30',
+		updated: '2026-09-30',
+		socCode: '41-9022',
+		coreSummary: 'How much do real estate agents make a month? BLS does not publish a monthly figure, but its May 2025 median for real estate sales agents was $52,830 a year, which works out to about $4,403 a month if income were level. The 10th percentile was $32,970 and the 90th was $123,590, so a single month can look very different from the average.',
+		sections: [
+			{
+				heading: 'How much do real estate agents make a month? The BLS median',
+				body: [
+					"The Bureau of Labor Statistics reports agent pay per year, not per month. For real estate sales agents the median annual wage was $52,830 in May 2025. Divide that by 12 and you get about $4,403 a month. That monthly number is our own arithmetic on the BLS annual median, and it describes a smoothed average, not what lands in an agent's account in any given month.",
+					"BLS also lists real estate brokers as a separate occupation with its own pay data. Their median was $73,220, or about $6,102 a month on the same math. The two groups combined had a median of $57,400 a year, or $27.59 an hour. For comparison, the median for all U.S. occupations was $50,980, so the typical sales agent earns only about $1,850 more than the typical worker, while a broker earns about 1.4 times as much.",
+				],
+			},
+			{
+				heading: 'The low and high end of real estate agent pay',
+				body: [
+					"The spread is wide. The lowest-paid 10% of real estate sales agents earned less than $32,970 in May 2025, about $2,748 a month averaged out. The highest-paid 10% earned more than $123,590, about $10,299 a month. That top figure is about 3.7 times the bottom one.",
+					"Brokers show the same shape at a higher level. Their 10th percentile was $37,110 and their 90th was $143,300, a gap of $106,190. A broker at the 90th percentile out-earns a sales agent at the 90th by $19,710.",
+				],
+				image: {
+					src: '/images/real-estate-agent-salary-chart.svg',
+					alt: 'Bar chart showing real estate sales agent annual wage by percentile: 10th percentile $32,970, median $52,830, 90th percentile $123,590, based on BLS May 2025 data.',
+				},
+			},
+			{
+				heading: 'Why a real estate agent\'s monthly income is uneven',
+				body: [
+					"BLS says brokers and sales agents earn most of their income from commissions on sales, and that the commission varies with the type of property and its value. Commissions are often divided among the buying agent, the selling agent, the brokers, and the firms. BLS does not publish a standard commission rate or split, so any single percentage you see quoted is not an official figure.",
+					"BLS adds that an agent's income often depends on economic conditions, individual motivation, and the types of property available. It says earnings may be irregular, especially for beginners, and that agents sometimes go weeks or months without a sale. So a monthly average of $4,403 could mean several empty months followed by one large payout.",
+					"Income usually increases as agents become more experienced at sales, according to BLS. It does not break pay out by years of experience, so the percentile range is the official picture of how far earnings can spread.",
+				],
+			},
+			{
+				heading: 'Sales agents next to jobs with similar median pay',
+				body: [
+					"Welders had a May 2025 median of $53,750, only $920 above the sales agent figure (see [welder salary](/welder-salary/)). The difference is in the ends. The welder 10th percentile was $39,240, which is $6,270 above the agent floor, while the sales agent 90th percentile was $46,060 above the welder top.",
+					"Massage therapists had a $58,450 median, a $33,640 10th percentile, and a $100,200 90th percentile ([massage therapist salary](/massage-therapist-salary/)). The floor is nearly the same as the agent floor, but the sales agent 90th percentile is $23,390 higher.",
+					"By industry, BLS lists median sales agent pay of $56,310 in construction and $49,850 in real estate and rental and leasing. That is a $6,460 gap. BLS gives no separate wage for the self-employed.",
+				],
+			},
+			{
+				heading: 'Licensing, hours, and job outlook',
+				body: [
+					"All states require real estate brokers and sales agents to be licensed. BLS says minimum requirements vary by state but typically include being at least 18, holding a high school diploma or equivalent, completing prelicensing courses, and passing an exam. Licenses typically are not transferable between states, though some states have reciprocity agreements. For a broker license, states typically also require a set number of years as a licensed sales agent.",
+					"Most brokers and sales agents work full time, and some work more than 40 hours a week, often including evenings and weekends. Some work part time. About 530,600 people held these jobs in 2025. BLS projects 2% growth from 2025 to 2035, about 8,300 jobs, which it rates slower than the average for all occupations (3%). It still expects about 40,400 openings a year, roughly 7.6% of current jobs, mostly from workers who move to other occupations or leave the labor force.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How much do real estate agents make a month?',
+				answer: 'No monthly figure exists in the BLS data. Sales agents had a $52,830 annual median in May 2025, which comes to roughly $4,400 monthly if spread evenly, and brokers had $73,220, near $6,100 a month. Since agent pay arrives unevenly, any single month can land well above or below those averages.',
+			},
+			{
+				question: 'Do real estate agents get paid monthly?',
+				answer: 'BLS describes no monthly pay schedule. Most of the income comes as commission when a sale closes, and the agency notes that dry spells of weeks or months happen. Most pay arrives when a sale closes.',
+			},
+			{
+				question: 'Is it hard to make money being a realtor?',
+				answer: 'It can be, early on. BLS warns that beginners often see irregular earnings, and that income tends to rise with experience. The May 2025 spread shows the stakes: the lowest-paid tenth of sales agents took home under $32,970 and the top tenth over $123,590.',
+			},
+			{
+				question: 'How much does a real estate agent make on a $300,000 house?',
+				answer: 'There is no official answer, because BLS publishes no commission rates. What it does say is that commissions depend on the property type and value, and that the total is usually shared among two agents, their brokers, and their firms.',
+			},
+			{
+				question: 'How much do real estate agents make an hour?',
+				answer: 'Across both jobs together, the May 2025 median hourly wage was $27.59. Because many work past the standard week and keep odd schedules, what an agent earns per hour worked can differ from that number.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Real Estate Brokers and Sales Agents (accessed 2026-09-30, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm' },
+		],
+		image: '/images/real-estate-agent-salary-chart.svg',
+		imageAlt: 'Bar chart showing real estate sales agent annual wage by percentile: 10th percentile $32,970, median $52,830, 90th percentile $123,590, based on BLS May 2025 data.',
 	},
 ];

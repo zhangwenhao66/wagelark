@@ -27,6 +27,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/architect-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
  "/images/audiologist-salary-chart.svg": {
   "h": 240,
   "w": 640

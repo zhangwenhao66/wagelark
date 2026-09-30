@@ -1517,3 +1517,15 @@ test("spot check: Architects (17-1011) matches BLS OOH page", () => {
 	assert.equal(occ.industryWages[2].industry, 'Construction');
 	assert.equal(occ.industryWages[2].annualWage, 95760);
 });
+
+test("spot check: Real Estate Sales Agents (41-9022) matches BLS OOH page", () => {
+	const occ = occupations['41-9022'];
+	assert.equal(occ.medianAnnual, 52830);
+	assert.deepEqual(occ.percentiles, { p10: 32970, p90: 123590 });
+	assert.equal(occ.employment, 530600);
+	assert.equal(occ.employmentIsGroupLevel, true);
+	assert.equal(occ.jobOutlookPct, 2);
+	assert.equal(occ.employmentChange, 8300);
+	assert.equal(occ.industryWages[0].annualWage, 56310);
+	assert.equal(occ.industryWages[1].annualWage, 49850);
+});

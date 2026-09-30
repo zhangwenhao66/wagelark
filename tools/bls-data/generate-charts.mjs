@@ -55,6 +55,7 @@ const CHARTS = {
 	'airline-pilot-salary-chart': '53-2011',
 	'commercial-pilot-salary-chart': '53-2012',
 	'architect-salary-chart': '17-1011',
+	'real-estate-agent-salary-chart': '41-9022',
 };
 
 const NAVY = '#14273f';

@@ -3722,5 +3722,36 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		sourceLabel: "BLS Occupational Outlook Handbook: Architects",
 		sourceUrl: "https://www.bls.gov/ooh/architecture-and-engineering/architects.htm",
 		publishedDate: "2026-08-27"
+	},
+	"41-9022": {
+		socCode: "41-9022",
+		title: "Real Estate Sales Agents",
+		medianAnnual: 52830,
+		percentiles: {
+			p10: 32970,
+			p90: 123590
+		},
+		employment: 530600,
+		employmentYear: "2025",
+		employmentIsGroupLevel: true,
+		jobOutlookPct: 2,
+		jobOutlookLabel: "Slower than average",
+		employmentChange: 8300,
+		projectionPeriod: "2025-35",
+		entryEducation: "High school diploma or equivalent",
+		industryWages: [
+			{
+				industry: "Construction",
+				annualWage: 56310
+			},
+			{
+				industry: "Real estate and rental and leasing",
+				annualWage: 49850
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Real Estate Brokers and Sales Agents (sales-agent wage, percentile and industry figures; employment, outlook and change are the combined brokers-and-sales-agents Quick Facts figures, hence employmentIsGroupLevel)",
+		sourceUrl: "https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm",
+		publishedDate: "2026-08-27"
 	}
 };
