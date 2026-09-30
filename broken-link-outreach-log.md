@@ -543,3 +543,6 @@ WageLark断链置换战术累计已发送 **20封**（含4封跟进：08-21 UCF�
 
 1. 下轮核实HealthGuideUSA跟进邮件（09-29发出，满10天后）。
 2. 社区大学CTE LibGuide方向本轮仅水管工命中1条，焊接/电工/卡车驾驶三个子方向已饱和；下轮可尝试暖通空调(HVAC)/汽修(automotive)技术类LibGuide，或换回护理/牙科技师类协会资源页方向。
+
+## 2026-09-30 运行（选站：11-30位曝光第1，799）
+第-1步：SES/邮件冻结已于09-15解除（待办文档区块已标注），可发信。第0步：无满10天未验证记录（HealthGuideUSA已跟进过，Fayetteville Tech 09-29仅1天），本轮无可核实项。新方向：汽修/暖通/诊断类LibGuide与职业资源页，扫描10页（Pitt CC/Dallas College/Midlands Tech/Cape Fear CC/RSI/Milwaukee Tool/Rutgers/TSTC/Shawnee State等），仅Rutgers营养工具页6条DEAD（医学数据库类，与wagelark职业文章无主题对应）和Shawnee的ssuinnovation.com（本校内部站）命中，其余DEAD=0，SOFT均为403反爬。未发送。累计口径不变：已发送20封 / 到手0条 / 0%。下轮建议：换护理、牙科、法律助理类协会资源页，汽修/暖通LibGuide已确认无死链。
