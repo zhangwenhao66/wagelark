@@ -62,6 +62,15 @@
       "answer_url": "https://www.quora.com/What-is-the-average-salary-for-MRI-technologists-in-the-United-States/answer/Owen-Zhang-161",
       "status": null,
       "notes": "2026-09-10起每天1站节奏。选站：DayAlmanac(08-30)与WageLark(08-30)并列最久未处理，用gsc_query.py现算28天11-30位曝光tiebreak——WageLark 490 > DayAlmanac 374，WageLark当选；CalcBadger固定优先名额本次判定未到期(最近09-11，间隔12天，不及WageLark 24天缺口)，未使用；DialWick冻结中不计入遍历；LingoGrove排名压制中按规则排除。目标页mri-tech-salary（本站GSC 11-30位曝光第1，113曝光0点击，此前从未建过外链），发布时该问题0答案。以站内mri-tech-salary文章骨架撰写(BLS OEWS 2025年5月数据：MRI技师中位年薪$95,480，比放射技师$80,110高约$15,370，10-90分位$68,890-$127,670；按行业细分门诊中心$140,390最高但仅3%技师在此就业，61%在医院就业处中位$95,920；MRI技师职业增长8%(2025-2035，43,900→47,300)快于放射技师5%；差异化事实：大多数MRI技师经ARRT post-primary途径从放射/核医学/放疗/超声等既有执照转训而来，非直接入行)。已过Skill(humanizer)+Skill(avoid-ai-writing)双重检查(无em dash、无AI高频词、修正1处vague endorsement'worth knowing'为直接陈述)。首次为WageLark新建专属Quora credential\"Salary Research Analyst at WageLark.com\"(2026-present，此前一直用默认Business Communications Researcher)。用Quora Add Link功能(Cmd+K)插入真实超链接,锚文本here,指向mri-tech-salary页面,全程只填URL字段。发布前用javascript_tool核实编辑器DOM中确实是class=\"span link active\"(非link_pending)，发布后再次核实渲染页面DOM中确实是<a href=\"https://wagelark.com/mri-tech-salary/\" rel=\"noopener nofollow\">真实超链接,锚文本为here。 | question_title: What is the average salary for MRI technologists in the United States?"
+    },
+    {
+      "date": "2026-09-30",
+      "site": "wagelark",
+      "target_page": "https://wagelark.com/do-architects-make-good-money/",
+      "question_url": "https://www.quora.com/Do-architects-make-good-money-Why-or-why-not-compared-to-other-fields-like-engineering-or-law",
+      "answer_url": "https://www.quora.com/Do-architects-make-good-money-Why-or-why-not-compared-to-other-fields-like-engineering-or-law/answer/Owen-Zhang-161",
+      "status": "published",
+      "notes": "Quora引荐回答(nofollow,不计外链)。问题发布时无答案;9/26新发文章首次建链。已过Skill(humanizer)+Skill(avoid-ai-writing);数据全部取自站内文章(BLS OEWS May 2025)。发布后DOM核实<a rel='noopener nofollow'>真超链接,锚文本here。使用既有credential 'Salary Research Analyst at WageLark.com'(身份声明不可核实,待Owen确认是否改为publisher/founder表述)。"
     }
   ],
   "reddit": []
