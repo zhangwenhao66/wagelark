@@ -202,7 +202,7 @@
   },
   "https://wagelark.com/welder-salary/": {
     "submitted_date": "2026-08-13",
-    "last_submitted_date": "2026-09-29",
+    "last_submitted_date": "2026-09-30",
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-09-01",
     "verified_method": "bwt_url_inspection"
@@ -561,6 +561,11 @@
   "https://wagelark.com/wagelark": {
     "submitted_date": "2026-09-29",
     "last_submitted_date": "2026-09-29",
+    "verified_status": "pending"
+  },
+  "https://wagelark.com/how-much-do-real-estate-agents-make-a-month/": {
+    "submitted_date": "2026-09-30",
+    "last_submitted_date": "2026-09-30",
     "verified_status": "pending"
   }
 }
