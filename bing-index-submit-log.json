@@ -217,5 +217,25 @@
       "https://wagelark.com/do-architects-make-good-money/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-09-29",
+    "site": "wagelark.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://wagelark.com/how-we-work/"
+    ],
+    "method": "SubmitUrl"
+  },
+  {
+    "date": "2026-09-30",
+    "site": "wagelark.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://wagelark.com/lpn-salary/",
+      "https://wagelark.com/orthotist-and-prosthetist-salary/",
+      "https://wagelark.com/how-much-do-real-estate-agents-make-a-month/"
+    ],
+    "method": "SubmitUrlBatch"
   }
 ]

@@ -2,7 +2,7 @@
   "https://wagelark.com/dental-hygienist-salary/": {
     "submitted_date": "2026-08-03",
     "verified_status": "stale_not_indexed",
-    "note": "discovered 04 Aug 2026, \u8d26\u9f8415\u5929, \u8d8514\u5929\u9608\u503c(\u6b64\u524d08-17\u6807\u6ce8\u6070\u597d14\u5929\u903c\u8fd1\u9608\u503c,\u672c\u6b21\u786e\u8ba4\u8f6cstale)",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection",
     "last_submitted_date": "2026-09-24"
@@ -10,7 +10,7 @@
   "https://wagelark.com/actuary-salary/": {
     "submitted_date": "2026-08-03",
     "verified_status": "stale_not_indexed",
-    "note": "discovered 04 Aug 2026, \u8d26\u9f8415\u5929, \u8d8514\u5929\u9608\u503c(\u6b64\u524d08-17\u6807\u6ce8\u6070\u597d14\u5929\u903c\u8fd1\u9608\u503c,\u672c\u6b21\u786e\u8ba4\u8f6cstale)",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection",
     "last_submitted_date": "2026-09-26"
@@ -18,7 +18,7 @@
   "https://wagelark.com/pharmacist-salary/": {
     "submitted_date": "2026-08-03",
     "verified_status": "stale_not_indexed",
-    "note": "discovered 04 Aug 2026, \u8d26\u9f8415\u5929, \u8d8514\u5929\u9608\u503c(\u6b64\u524d08-17\u6807\u6ce8\u6070\u597d14\u5929\u903c\u8fd1\u9608\u503c,\u672c\u6b21\u786e\u8ba4\u8f6cstale) | resubmit after fixing double-domain-prefix bug (2026-09-18)",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale) | resubmit after fixing double-domain-prefix bug (2026-09-18)",
     "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection",
     "last_submitted_date": "2026-09-18"
@@ -26,14 +26,14 @@
   "https://wagelark.com/physical-therapist-salary/": {
     "submitted_date": "2026-08-03",
     "verified_status": "stale_not_indexed",
-    "note": "discovered 04 Aug 2026, \u8d26\u9f8415\u5929, \u8d8514\u5929\u9608\u503c(\u6b64\u524d08-17\u6807\u6ce8\u6070\u597d14\u5929\u903c\u8fd1\u9608\u503c,\u672c\u6b21\u786e\u8ba4\u8f6cstale)",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection"
   },
   "https://wagelark.com/what-does-a-physician-assistant-do/": {
     "submitted_date": "2026-08-03",
     "verified_status": "stale_not_indexed",
-    "note": "discovered 04 Aug 2026, \u8d26\u9f8415\u5929, \u8d8514\u5929\u9608\u503c(\u6b64\u524d08-17\u6807\u6ce8\u6070\u597d14\u5929\u903c\u8fd1\u9608\u503c,\u672c\u6b21\u786e\u8ba4\u8f6cstale)",
+    "note": "discovered 04 Aug 2026, 账龄15天, 超14天阈值(此前08-17标注恰好14天逼近阈值,本次确认转stale)",
     "last_checked_date": "2026-08-19",
     "verified_method": "bwt_url_inspection"
   },
@@ -43,7 +43,7 @@
     "note": "launch batch 6/10 (Career Guide); Bing 202 / Yandex 202",
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 04 Aug, 18\u5929\u672a\u6536\u5f55"
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/what-does-a-paralegal-do/": {
     "submitted_date": "2026-08-03",
@@ -52,7 +52,7 @@
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
     "last_submitted_date": "2026-09-18",
-    "verify_note": "discovered 04 Aug, 18\u5929\u672a\u6536\u5f55"
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/how-to-become-an-ultrasound-tech/": {
     "submitted_date": "2026-08-03",
@@ -60,7 +60,7 @@
     "note": "launch batch 8/10 (How to Become); Bing 202 / Yandex 202",
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 04 Aug, 18\u5929\u672a\u6536\u5f55"
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/how-to-become-a-phlebotomist/": {
     "submitted_date": "2026-08-03",
@@ -68,7 +68,7 @@
     "note": "Discovered but not crawled, discovered 03 Aug 2026, age 13 days as of 08-16 check, approaching stale threshold",
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 04 Aug, 18\u5929\u672a\u6536\u5f55"
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/how-much-do-flight-attendants-make/": {
     "submitted_date": "2026-08-03",
@@ -77,7 +77,7 @@
     "last_checked_date": "2026-08-22",
     "verified_method": "bwt_url_inspection",
     "last_submitted_date": "2026-09-29",
-    "verify_note": "discovered 04 Aug, 18\u5929\u672a\u6536\u5f55"
+    "verify_note": "discovered 04 Aug, 18天未收录"
   },
   "https://wagelark.com/radiology-tech-salary/": {
     "submitted_date": "2026-08-03",
@@ -86,7 +86,7 @@
     "last_checked_date": "2026-08-25",
     "verified_method": "bwt_url_inspection",
     "note": "Discovered but not crawled, discovered 04 Aug 2026, age 12 days as of 08-16 check",
-    "verify_note": "discovered 04 Aug, \u8d26\u9f8421\u5929\u8d85\u8fc714\u5929\u9608\u503c, Blocked"
+    "verify_note": "discovered 04 Aug, 账龄21天超过14天阈值, Blocked"
   },
   "https://wagelark.com/crna-salary/": {
     "submitted_date": "2026-08-03",
@@ -95,7 +95,7 @@
     "last_checked_date": "2026-08-30",
     "verified_method": "bwt_url_inspection",
     "note": "Blocked-style message, discovered 22 Aug; submitted 08-03, 27 days, exceeds 14-day threshold",
-    "verify_note": "discovered 22 Aug, \u8d26\u9f843\u5929, Blocked, \u672a\u6ee114\u5929"
+    "verify_note": "discovered 22 Aug, 账龄3天, Blocked, 未满14天"
   },
   "https://wagelark.com/nurse-practitioner-salary/": {
     "submitted_date": "2026-08-04",
@@ -133,7 +133,7 @@
     "submitted_date": "2026-08-06",
     "last_submitted_date": "2026-09-24",
     "verified_status": "stale_not_indexed",
-    "note": "Not discovered \u2014 'The inspected URL is not known to Bing', worse than usual discovered-but-not-crawled state despite submitted 06 Aug 2026 (17 days ago); IndexNow submission appears to have never registered with Bing for this URL",
+    "note": "Not discovered — 'The inspected URL is not known to Bing', worse than usual discovered-but-not-crawled state despite submitted 06 Aug 2026 (17 days ago); IndexNow submission appears to have never registered with Bing for this URL",
     "last_checked_date": "2026-08-23",
     "verified_method": "bwt_url_inspection"
   },
@@ -143,7 +143,7 @@
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-30",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 22 Aug, \u8d26\u9f843\u5929, Blocked, \u672a\u6ee114\u5929",
+    "verify_note": "discovered 22 Aug, 账龄3天, Blocked, 未满14天",
     "note": "Blocked-style message, discovered 22 Aug; submitted 08-06, 24 days, exceeds 14-day threshold"
   },
   "https://wagelark.com/air-traffic-controller-salary/": {
@@ -152,7 +152,7 @@
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 11 Aug, \u8d26\u9f8414\u5929\u8fb9\u754c, Blocked, \u672a\u8fbe\u8d85\u8fc7"
+    "verify_note": "discovered 11 Aug, 账龄14天边界, Blocked, 未达超过"
   },
   "https://wagelark.com/how-to-become-a-cna/": {
     "submitted_date": "2026-08-09",
@@ -160,7 +160,7 @@
     "verified_status": "stale_not_indexed",
     "last_checked_date": "2026-08-28",
     "verified_method": "bwt_url_inspection",
-    "verify_note": "discovered 11 Aug, \u8d26\u9f8414\u5929\u8fb9\u754c, Blocked, \u672a\u8fbe\u8d85\u8fc7"
+    "verify_note": "discovered 11 Aug, 账龄14天边界, Blocked, 未达超过"
   },
   "https://wagelark.com/respiratory-therapist-salary/": {
     "submitted_date": "2026-08-10",
@@ -416,7 +416,10 @@
   "https://wagelark.com/funeral-director-salary/": {
     "submitted_date": "2026-08-28",
     "last_submitted_date": "2026-08-28",
-    "verified_status": "pending"
+    "verified_status": "stale_not_indexed",
+    "note": "Blocked: known to Bing but issues prevent serving (Bing Webmaster Guidelines)",
+    "last_checked_date": "2026-09-30",
+    "verified_method": "bwt_url_inspection"
   },
   "https://wagelark.com/mri-tech-salary/": {
     "submitted_date": "2026-08-29",
