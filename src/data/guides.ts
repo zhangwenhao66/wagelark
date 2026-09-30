@@ -137,7 +137,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'actuary-salary',
 		category: 'Salary Guide',
-		title: 'Actuary Salary: BLS Wage Data by Percentile (2026)',
+		title: 'Actuary Salary: $125,770 Median, Top Earners $206,430 (2026)',
 		description: 'The median actuary salary is $125,770 a year per BLS. Top earners clear $206,430. Here is the full wage breakdown, by industry, and what drives it.',
 		published: '2026-08-03',
 		updated: '2026-09-26',
@@ -205,7 +205,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'pharmacist-salary',
 		category: 'Salary Guide',
-		title: 'Pharmacist Salary: BLS Wage Data by Percentile (2026)',
+		title: 'Pharmacist Salary: $140,910 Median, Range by Industry (2026)',
 		description: 'BLS reports a $140,910 median pharmacist salary. See the full wage range by percentile and by industry, from retail pharmacy to hospitals.',
 		published: '2026-08-03',
 		updated: '2026-09-17',
@@ -914,7 +914,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'nurse-practitioner-salary',
 		category: 'Salary Guide',
-		title: 'Nurse Practitioner Salary: BLS Wage Data and Job Outlook (2026)',
+		title: 'Nurse Practitioner Salary: $129,210 Median, +40% Outlook (2026)',
 		description: 'BLS puts the median nurse practitioner salary at $129,210 a year, with 40% projected job growth through 2034, the fastest of any advanced practice nursing role it tracks.',
 		published: '2026-08-04',
 		updated: '2026-08-04',
@@ -1653,7 +1653,7 @@ export const guides: Guide[] = [
 	{
 		slug: 'electrician-salary',
 		category: 'Salary Guide',
-		title: 'Electrician Salary: BLS Wage Data by Percentile (2026)',
+		title: 'Electrician Salary: $63,190 Median, Range by Percentile (2026)',
 		description: 'BLS puts the median electrician salary at $63,190 a year, with 9% growth projected through 2035. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-11',
 		updated: '2026-09-15',
