@@ -2424,3 +2424,8 @@
   "note": "只新增 FAQ"
 }
 ```
+
+
+## 2026-10-07 21:25 审计尝试（未完成，不更新审计日期）
+
+空乘薪资页四项候选修正已独立复核，候选机械散文及隔离build通过。生产文章未改，0篇完整审计、0部署；计薪/资历因果未核实，两家竞品403，GEO未打分。扩散：17站精确模式扫描完成，命中仅WageLark两篇；历史比较不误改。防复发未落地：kit被其他会话认领，未覆盖源文件。其余11运营站未轮到，DialWick冻结跳过。完整证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261007T2125/receipt.json 和业务日志.md。候选补丁confirmed-fixes.patch保留，后续正常窗口重新核实再执行，不补旧窗口。
