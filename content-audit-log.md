@@ -2429,3 +2429,9 @@
 ## 2026-10-07 21:25 审计尝试（未完成，不更新审计日期）
 
 空乘薪资页四项候选修正已独立复核，候选机械散文及隔离build通过。生产文章未改，0篇完整审计、0部署；计薪/资历因果未核实，两家竞品403，GEO未打分。扩散：17站精确模式扫描完成，命中仅WageLark两篇；历史比较不误改。防复发未落地：kit被其他会话认领，未覆盖源文件。其余11运营站未轮到，DialWick冻结跳过。完整证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-content-quality-audit/20261007T2125/receipt.json 和业务日志.md。候选补丁confirmed-fixes.patch保留，后续正常窗口重新核实再执行，不补旧窗口。
+
+
+## 2026-10-08 how-much-do-flight-attendants-make 审计（接续 10-07 未完成项）
+```json
+{"url_slug":"how-much-do-flight-attendants-make","last_audited":"2026-10-08","published_date":"2026-08-03","findings":["正文称BLS不发布25/75百分位（过度否定，已改为限定OOH页）","reported total compensation 与 BLS 工资定义不符","FAQ#1与正文26字符逐字重合","标题仍写$67,130（May 2024值），当前为$63,580 —— title_guard 冷却期拦截"],"actions_taken":["应用10-07已复核的3项正文/FAQ修正+2条来源，updated=2026-10-08","IndexNow已提交，seo_drift schema变化为预期"],"seo_score":null,"geo_score":null,"not_done":"标题事实修正待10/13后；GEO打分、SEO全套未重跑；独立agent复核沿用10-07 verify_flight_findings结果，本次未新起","扩散判定":"通用 / 沿用10-07 17站扫描：命中仅WageLark两篇，未再改其他站","humanizer_avoid_ai_writing":"本次真实调用 Skill(humanizer)、Skill(avoid-ai-writing)，数字逐项对照；check_prose rc=0"}
+```
