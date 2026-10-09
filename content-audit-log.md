@@ -2435,3 +2435,28 @@
 ```json
 {"url_slug":"how-much-do-flight-attendants-make","last_audited":"2026-10-08","published_date":"2026-08-03","findings":["正文称BLS不发布25/75百分位（过度否定，已改为限定OOH页）","reported total compensation 与 BLS 工资定义不符","FAQ#1与正文26字符逐字重合","标题仍写$67,130（May 2024值），当前为$63,580 —— title_guard 冷却期拦截"],"actions_taken":["应用10-07已复核的3项正文/FAQ修正+2条来源，updated=2026-10-08","IndexNow已提交，seo_drift schema变化为预期"],"seo_score":null,"geo_score":null,"not_done":"标题事实修正待10/13后；GEO打分、SEO全套未重跑；独立agent复核沿用10-07 verify_flight_findings结果，本次未新起","扩散判定":"通用 / 沿用10-07 17站扫描：命中仅WageLark两篇，未再改其他站","humanizer_avoid_ai_writing":"本次真实调用 Skill(humanizer)、Skill(avoid-ai-writing)，数字逐项对照；check_prose rc=0"}
 ```
+
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-10-09)",
+  "site": "wagelark",
+  "slugs_processed": [
+    "how-much-do-flight-attendants-make"
+  ],
+  "faq_added": 2,
+  "sources": [
+    "https://www.bls.gov/OOH/transportation-and-material-moving/flight-attendants.htm"
+  ],
+  "source_verification": "BLS OOH live web open 2026-10-09 lines 259-293: variable schedules, part-time work, union contracts, ground duties; customer service, screening/drug test, training weeks-months, FAA certification exam.",
+  "check_prose_patterns": "Baseline rc0; each addition rc0; precommit rc0",
+  "quality_chain": {
+    "humanizer": "Original /Users/zhangwh/.claude/skills/humanizer/SKILL.md read and applied: neutral reference voice, simple clauses, no invented first-person or promotional frame; draft retained after audit.",
+    "avoid-ai-writing": "Original /Users/zhangwh/.claude/skills/avoid-ai-writing/SKILL.md read and applied after humanizer: no Tier1 filler, rhetorical reveal, manufactured personality, or dash; second-pass fact qualifiers preserved.",
+    "fidelity": "Every specific location, tense form, practice and employment requirement checked against the listed live official source; no salary or numeric work-hour estimates introduced."
+  },
+  "scope": "Only new FAQ entries; original prose/title/description/sources/dates/FAQ preserved. Partial exposure-priority batch; remaining pages not reached.",
+  "suppression_exception": null,
+  "independent_review": "Root independently opened all four official sources and checked all five FAQ drafts before publication, 2026-10-09; supported. Worker subsequently removed redundant Louvre gallery name for overlap gate, preserving meaning."
+}
+```

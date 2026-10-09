@@ -724,6 +724,14 @@ export const guides: Guide[] = [
 				question: 'Is flight attendant a growing career?',
 				answer: 'Yes. BLS puts the growth rate at 9% for the 2025-to-2035 decade, well above the pace of the typical U.S. occupation, adding around 11,800 net positions. On a year-to-year basis, most of the roughly 18,500 annual openings are driven by turnover, not by that net gain alone.',
 			},
+			{
+				question: 'Do flight attendants work 40 hours a week?',
+				answer: 'A fixed forty-hour week is not the standard schedule described by BLS. Airlines run overnight and on holidays, and part-time work is common. Duty periods vary, while preparation and waiting on the ground add work beyond the time spent flying. Airline contracts usually set the daily and monthly hour limits.',
+			},
+			{
+				question: 'Is it hard to become a flight attendant?',
+				answer: 'Applicants usually need customer-service experience as well as a high-school education. BLS describes background screening and drug testing, followed by airline training that can last weeks or months. Passing the training and an exam is necessary for FAA certification. These requirements describe the entry process, without predicting an individual applicant\'s chances.',
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants (accessed 2026-08-03, refreshed 2026-09-13, data from May 2025)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
