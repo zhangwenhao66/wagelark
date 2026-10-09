@@ -591,5 +591,11 @@
       "submitted_date": "2026-09-30",
       "verified_status": "pending"
     }
+  },
+  "https://wagelark.com/how-do-adjunct-professors-get-paid/": {
+    "submitted_date": "2026-10-09",
+    "last_submitted_date": "2026-10-09",
+    "verified_status": "pending",
+    "note": "[{\"urls\":[\"https://wagelark.com/how-do-adjunct-professors-get-paid/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
   }
 }
