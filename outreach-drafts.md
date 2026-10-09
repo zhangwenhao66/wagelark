@@ -1067,3 +1067,39 @@ contact@wagelark.com
 **Dedup**: `gmail_send.py list --query "to:virginia.edu"` → empty.
 
 **Status: SENT (2026-09-29).** `gmail_send.py send --from wagelark --to jlh7b@virginia.edu`, Message ID `1a0edd2ab4909500`.
+
+
+## 2026-10-09 follow-up（run-id: 20261009T2100）
+
+STATUS: REVIEW PASSED / WAITING OWEN APPROVAL / NOT SENT
+
+From: WageLark <contact@wagelark.com>
+
+To: brownkr@faytechcc.edu
+
+Subject: Re: Three dead links on your Plumbing resources guide
+
+Reply to: 1a0ed92b2e83ffb0
+
+Not before: 2026-10-09 22:41 Asia/Shanghai
+
+Hi Kris,
+
+One follow-up on my September 29 note about the links in your Plumbing guide. The WageLark apprenticeship guide is at https://wagelark.com/plumbing-apprenticeship/ if you need background reading alongside the official licensing and trade-group resources.
+
+Owen Zhang
+Publisher, WageLark
+contact@wagelark.com
+
+On September 29, 2026, WageLark <contact@wagelark.com> wrote:
+> Subject: Three dead links on your Plumbing resources guide
+>
+> Hi Kris,
+>
+> I was going through Fayetteville Tech's Plumbing guide (faytechcc.libguides.com/plumbing/resources) and three of the links don't load anymore. The NC licensing board link (nclicensing.org/Default.asp) returns a 404. The PHCC link also 404s. The United Association link (www.ua.org/plumbing) doesn't resolve at all; their current plumbing page is at ua.org/plumbers.
+>
+> If you're updating that section, I run WageLark, a site that pulls BLS wage data for trades. We have a page on the plumbing apprenticeship path (wagelark.com/plumbing-apprenticeship) that covers licensing requirements, apprenticeship routes through unions and trade groups, and current pay at each stage. It's not a replacement for the licensing board or PHCC, just something that could fit next to them once those links get fixed.
+>
+> Thanks for keeping the guide up to date.
+>
+> Owen

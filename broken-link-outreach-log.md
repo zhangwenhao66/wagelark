@@ -546,3 +546,10 @@ WageLark断链置换战术累计已发送 **20封**（含4封跟进：08-21 UCF�
 
 ## 2026-09-30 运行（选站：11-30位曝光第1，799）
 第-1步：SES/邮件冻结已于09-15解除（待办文档区块已标注），可发信。第0步：无满10天未验证记录（HealthGuideUSA已跟进过，Fayetteville Tech 09-29仅1天），本轮无可核实项。新方向：汽修/暖通/诊断类LibGuide与职业资源页，扫描10页（Pitt CC/Dallas College/Midlands Tech/Cape Fear CC/RSI/Milwaukee Tool/Rutgers/TSTC/Shawnee State等），仅Rutgers营养工具页6条DEAD（医学数据库类，与wagelark职业文章无主题对应）和Shawnee的ssuinnovation.com（本校内部站）命中，其余DEAD=0，SOFT均为403反爬。未发送。累计口径不变：已发送20封 / 到手0条 / 0%。下轮建议：换护理、牙科、法律助理类协会资源页，汽修/暖通LibGuide已确认无死链。
+
+
+## 2026-10-09 Codex正式运行（run-id: 20261009T2100）
+
+原任务源码SHA 0ba445bbeffccdc04fdb2129ec95cd04b96e56ce31153b420a2dd4a2e89ca61c，完整覆盖1–176行。先查旧账及全账号Gmail，再复查来源页HTTP200、未出现本站替换链接；DataForSEO未找到对应来源域名外链。本次0发送、0新提交、0获链。原十站累计原账口径79封/0确认获链（不同站日志计数存在历史ID差异，非新增投递）。成本全轮$0.1221。证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-broken-link-building/20261009T2100/old-review.json、wagelark-backlinks.txt。
+一次跟进稿已过humanizer→avoid-ai-writing与独立agent实审，可以发送；待Owen批准，满十天统一最早22:41后，发送前重新去重/检查回复。草稿不算提交，未新建Gmail已发回执。/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-broken-link-building/20261009T2100/independent-review.md。
+17站今日已确认新提交2/102、缺口100（alpha1、gamma1，其余0）；本专项0。公开上线本轮未重新验证，未检查不算完成。完整逐站表：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-broken-link-building/20261009T2100/17站当日覆盖.md。外链范围最新覆盖17站，但专项仅真实适配子集；主执行器补缺。低转化79/0已登记原统一待办，不重复新增策略告警。
