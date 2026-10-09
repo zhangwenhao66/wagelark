@@ -58,6 +58,95 @@ export function wageDataFor(guide: Guide) {
 }
 
 export const guides: Guide[] = [
+{
+  "slug": "how-do-adjunct-professors-get-paid",
+  "category": "Salary Guide",
+  "title": "How Do Adjunct Professors Get Paid? Course Fees",
+  "description": "Adjunct pay can be quoted per course, credit or contact hour. Compare AAUP course data, a CUNY contract example and the limits of BLS annual wages.",
+  "published": "2026-10-09",
+  "updated": "2026-10-09",
+  "socCode": "25-1000",
+  "coreSummary": "How do adjunct professors get paid? Many receive a fee for each course section; the contract determines the unit and payment schedule. BLS reports $85,330 median annual pay for all postsecondary teachers in May 2025, with the lowest 10% below $49,540 and highest 10% above $203,580; those are occupation-wide figures, not an adjunct-only annual salary.",
+  "image": "/images/how-do-adjunct-professors-get-paid.svg",
+  "imageAlt": "Hypothetical $4,000 course fee divided by 100, 200 and 300 total work hours gives $40, $20 and about $13.33 per hour.",
+  "sections": [
+    {
+      "heading": "The contract pays for a course; the paycheck follows its own schedule",
+      "body": [
+        "For a course-based appointment, gross teaching pay is the agreed fee multiplied by the sections taught under that agreement. A rate quoted per credit needs its credit count before it can be compared with a whole-course fee. Payroll can distribute that total across installments. The rate alone does not specify the dates when money reaches an instructor: those dates belong to the employer's appointment and payroll documents.",
+        "[AAUP's survey instructions](https://research.aaup.org/faq) distinguish faculty paid for undergraduate course sections from salaried employees on reduced workloads. Its usual comparison unit is a three-credit section. A college quoting $1,200 per credit therefore has a $3,600 fee for a three-credit section, assuming that policy applies without another adjustment. That is an illustrative calculation, not an observed college rate. Three academic credits also do not mean the instructor works just three hours.",
+        "Pay unit, contracted amount and payroll interval answer different questions. A hypothetical $4,000 section paid in eight equal installments produces $500 gross per installment. The same $4,000 paid in four installments produces $1,000 each. The second schedule has larger checks but provides exactly the same contracted total. These examples exclude withholding, benefits deductions and any separate payments; they cannot establish take-home pay.",
+        "An appointment described as adjunct may use a different arrangement. The documents could specify an hourly rate or a salary for an agreed workload. Comparing two offers requires their own definitions of paid work, because the job title does not supply a standard national formula. A contact hour used to set teaching compensation needs its contractual meaning; it cannot automatically stand for every hour spent on the course."
+      ]
+    },
+    {
+      "heading": "Published course rates and a dated CUNY example",
+      "body": [
+        "[AAUP's final 2025-26 report](https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/annual-report-economic-status-profession-25-26) gives $4,093 average pay per standard three-credit section for 2024-25, across 428 reporting institutions. Its minimum-pay item covers 556 institutions: the median of their reported minimum rates is $3,130. These describe different measures and reporting groups. Neither number is a median annual income for individual adjuncts. The earlier preliminary release had $3,121 across 555 institutions; the final values above incorporate the later report.",
+        "A contractual example comes from the [PSC-CUNY agreement salary table](https://psc-cuny.org/issues/contract-apeoplescuny/ta-2023-2027/). For an Adjunct Lecturer teaching a three-contact-hour course, it lists a minimum of $6,750 effective January 26, 2026, and $6,986.25 effective September 1, 2026. Teaching adjuncts remain hourly employees through spring 2027. The agreement schedules a change to course/contact-hour compensation in summer 2027, with a $7,100 three-contact-hour minimum. The summary rounds the September figure to about $7,000; the salary table gives the precise rate. This is a CUNY example with a particular title and effective date, not a US-wide adjunct rate.",
+        "The scheduled change explains why a page advertising a future course rate can disagree with the rate currently in effect. Fall 2026 and summer 2027 describe separate contractual periods. A comparison of two amounts should hold the title, course workload and applicable date constant. A four-contact-hour course cannot be treated as the three-contact-hour example simply because both are one section.",
+        "For the annual example below, assume a fee of $4,000 for every completed section, with no additional paid duties or adjustments. Two sections in fall and two in spring yield four sections and $16,000 gross. Three each term yield six sections and $24,000. Four each term yield eight sections and $32,000. The table shows multiplication under those assumptions; it does not establish that an employer offers, permits or guarantees any of these loads.",
+        "<table><caption>Hypothetical $4,000 per-section contract, two teaching terms</caption><thead><tr><th>Sections each term</th><th>Sections over both terms</th><th>Gross teaching pay</th></tr></thead><tbody><tr><td>2</td><td>4</td><td>$16,000</td></tr><tr><td>3</td><td>6</td><td>$24,000</td></tr><tr><td>4</td><td>8</td><td>$32,000</td></tr></tbody></table>",
+        "A lost or unassigned section changes that arithmetic by $4,000 in this example, if it carries no cancellation payment. A contract with a cancellation provision would need a different calculation. Summer sections are excluded here. Adding one hypothetical summer section at the same rate would add $4,000, but the assumption requires an actual summer assignment before it can describe earnings. Several employers likewise require separate rates and course counts before their totals can be added."
+      ]
+    },
+    {
+      "heading": "Turning a course fee into a work-hour estimate",
+      "body": [
+        "A course fee divided only by classroom time gives pay per classroom hour. A work-hour estimate uses the total time devoted to the assignment, including preparation, grading and student contact where those tasks belong to the appointment. The same fee produces different hourly results as the time total changes. This is an arithmetic comparison of assumptions, not an employment-law calculation or an assertion about a particular instructor's workload.",
+        "Using the same hypothetical $4,000 fee, 100 total hours produce $40 per hour. At 200 hours the result is $20; at 300 hours it is $13.33 when rounded to cents. All three rows refer to one section. No survey here establishes which time total is typical. The diagram therefore labels the hours as assumptions instead of presenting a national adjunct hourly wage.",
+        "Preparation time is particularly important to this calculation because it is absent from a simple count of classroom meetings. Holding classroom hours constant while adding 50 hours of other course work enlarges the denominator. For example, a 150-hour total gives $26.67, while a 200-hour total gives $20 under the $4,000 assumption. That is a $6.67 difference after rounding. A wage statistic based on a reported payroll rate cannot supply that individual time log.",
+        "The calculation can be reconstructed from a section's fee and a record of its work hours. When either input is unknown, the quotient is unknown too. Reusing a national annual wage, dividing by a standard full-time year and labeling the answer adjunct hourly pay substitutes a different population and schedule. The [salary statistics explanation](/salary-statistics-2026/) provides context for wage medians and their comparison limits."
+      ]
+    },
+    {
+      "heading": "Where the BLS teacher figures fit",
+      "body": [
+        "The [BLS postsecondary teachers profile](https://www.bls.gov/ooh/education-training-and-library/postsecondary-teachers.htm), last modified August 27, 2026, reports a May 2025 median of $85,330 annually. The lowest tenth earned under $49,540 and the highest tenth over $203,580. This profile covers college teachers across subjects and employment arrangements. Its annual figures and the data panels on this page are background for that broader occupation group; they do not quote the annual income of course-paid adjuncts.",
+        "BLS lists May 2025 industry medians of $96,120 for state colleges, universities and professional schools, $89,660 for private institutions in that category, $81,640 for local junior colleges and $68,160 for state junior colleges. These remain occupation-wide comparisons. The gap between those medians cannot be used as the expected difference between two adjunct contracts without their rates and assigned workloads.",
+        "Employment was 1,378,200 in 2025. BLS projects 7% growth from 2025 to 2035, or 98,200 additional jobs; that is an employment projection, not a forecast of pay increases. Both part-time and full-time teachers appear in the projections. BLS states, \"Most postsecondary teachers work full time, although part-time work is common.\" Some instructors teach at several institutions or combine teaching with another occupation.",
+        "The work also extends beyond delivering lectures. BLS describes developing course materials, assessing assignments, advising students and keeping up with the field. It distinguishes the research and service responsibilities associated with full-time faculty from adjuncts' stronger focus on teaching. These are occupational descriptions, so a specific appointment still needs its own duties rather than an assumed workload copied from the general profile.",
+        "Education varies by institution and subject. BLS describes a doctorate as typical, with some community-college and part-time positions accepting a master's degree or doctoral candidates. That does not set a uniform course rate or make adjunct teaching equivalent to another school occupation. The [school counselor pathway](/how-to-become-a-school-counselor/) and [speech-language pathologist wage page](/speech-language-pathologist-salary/) cover their own roles and credentials; their pay figures should retain those role labels."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do adjunct professors get paid?",
+      "answer": "An appointment may quote a section fee, a rate for course credits or contact hours, or another contractual arrangement. The employer's terms identify the paid unit and payroll dates. Multiplying the applicable fee by assigned sections estimates gross contract pay, while deductions and additional payments require separate inputs."
+    },
+    {
+      "question": "What degree is needed to be an adjunct professor?",
+      "answer": "Doctoral qualifications are typical in four-year institutions, according to BLS. Certain two-year colleges and part-time vacancies accept a master's qualification. Students pursuing a doctorate may also qualify for some posts. Each institution sets requirements for its subject area."
+    },
+    {
+      "question": "Can adjunct faculty get benefits?",
+      "answer": "Eligibility differs by employer. The [final AAUP report](https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/annual-report-economic-status-profession-25-26) says 32.7% of colleges providing these data contributed toward retirement for some or all course-paid part-time faculty, and 30.6% contributed toward medical premiums. Those are institution percentages, not a count of insured adjuncts; an individual appointment's benefit conditions still govern."
+    },
+    {
+      "question": "Is a per-credit rate the same as an hourly wage?",
+      "answer": "A credit is an academic course unit. Under a hypothetical $1,200 rate for each credit, a three-credit assignment pays $3,600 before adjustments. Establishing pay per hour of work additionally requires a total-hour count covering preparation and other course work."
+    }
+  ],
+  "sources": [
+    {
+      "label": "BLS: Postsecondary Teachers, May 2025 wages; modified August 27, 2026",
+      "url": "https://www.bls.gov/ooh/education-training-and-library/postsecondary-teachers.htm"
+    },
+    {
+      "label": "AAUP: Final Annual Report, 2025-26; part-time data for 2024-25",
+      "url": "https://www.aaup.org/reports-publications/aaup-policies-reports/topical-reports/annual-report-economic-status-profession-25-26"
+    },
+    {
+      "label": "AAUP: Faculty Compensation Survey FAQ, updated September 8, 2026",
+      "url": "https://research.aaup.org/faq"
+    },
+    {
+      "label": "PSC-CUNY: 2023-27 agreement summary and adjunct compensation dates",
+      "url": "https://psc-cuny.org/issues/contract-apeoplescuny/ta-2023-2027/"
+    }
+  ]
+},
 	{
 		slug: 'dental-hygienist-salary',
 		category: 'Salary Guide',
@@ -5726,14 +5815,14 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 		title: "US Salary Statistics 2026: Sourced, Not Recycled",
 		description: "The Bureau of Labor Statistics puts the median full-time weekly wage at $1,251 in 2026. More than 55 wage statistics here, each linked to its original source.",
 		published: '2026-09-13',
-		updated: '2026-09-13',
+		updated: '2026-10-09',
 		coreSummary: "The U.S. Bureau of Labor Statistics puts the national mean annual wage across roughly 830 tracked occupations at $69,770 as of May 2025, while its separate survey of full-time workers put median weekly earnings at $1,251 for the second quarter of 2026. This page compiles more than 55 such figures on pay, education, race, gender, unions, and new graduates, each traced to the government agency or association that originally published it.",
 
 		sections: [
 			{
 				heading: "Key Takeaways",
 				body: [
-					"Thirteen headline figures from this page, each traceable to the government agency or association below that published it first.",
+					"Thirteen headline figures from this page, each traceable to the government agency or association below that published it first. For course-based college teaching, <a href='/how-do-adjunct-professors-get-paid/'>the adjunct pay explanation</a> distinguishes reported course fees from broad annual wage figures.",
 					'<ul style="margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:10px;color:var(--ink);font-size:0.9375rem;"><li style="line-height:1.6;"><strong>$69,770</strong>: the national mean annual wage across the roughly 830 occupations tracked by <a href="https://www.bls.gov/news.release/ocwage.nr0.htm" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">BLS, May 2025</a>.</li><li style="line-height:1.6;"><strong>$1,251</strong>: median weekly earnings for the nation\'s 120.9 million full-time wage and salary workers, per <a href="https://www.bls.gov/news.release/wkyeng.nr0.htm" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">BLS, Q2 2026</a>.</li><li style="line-height:1.6;">Women\'s median weekly earnings were <strong>82.0%</strong> of men\'s in the second quarter of 2026 ($1,131 versus $1,380), per <a href="https://www.bls.gov/news.release/wkyeng.nr0.htm" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">BLS, Q2 2026</a>.</li><li style="line-height:1.6;">The female-to-male earnings ratio for full-time, year-round workers fell to <strong>80.9%</strong> in 2024, the second straight annual decline, per the <a href="https://www.census.gov/library/publications/2025/demo/p60-286.html" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">U.S. Census Bureau, Sept. 2025</a>.</li><li style="line-height:1.6;"><strong>$83,730</strong>: median U.S. household income in 2024, not statistically different from 2023\'s $82,690, per the <a href="https://www.census.gov/library/publications/2025/demo/p60-286.html" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">U.S. Census Bureau, Sept. 2025</a>.</li><li style="line-height:1.6;">Workers with a bachelor\'s degree or higher had median weekly earnings of <strong>$1,768</strong> in Q2 2026, more than double the $803 for workers without a high school diploma, per <a href="https://www.bls.gov/news.release/wkyeng.nr0.htm" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">BLS, Q2 2026</a>.</li><li style="line-height:1.6;">Private-industry wages and salaries rose <strong>3.1%</strong> over the year ending June 2026, but fell <strong>0.4%</strong> once adjusted for inflation, per <a href="https://www.bls.gov/news.release/eci.nr0.htm" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">BLS Employment Cost Index, Aug. 2026</a>.</li><li style="line-height:1.6;">The Atlanta Fed\'s Wage Growth Tracker put nominal wage growth at <strong>4.1%</strong> in August 2026, with workers who switched jobs gaining 5.0% versus 3.6% for those who stayed, per the <a href="https://www.atlantafed.org/chcs/wage-growth-tracker" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">Federal Reserve Bank of Atlanta, Sept. 2026</a>.</li><li style="line-height:1.6;">Union members had 2025 median weekly earnings of <strong>$1,404</strong>, versus $1,174 for nonunion workers, whose pay BLS puts at 84% of the union figure, per <a href="https://www.bls.gov/news.release/union2.nr0.htm" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">BLS Union Members, Feb. 2026</a>.</li><li style="line-height:1.6;">The federal minimum wage has been <strong>$7.25</strong> an hour since July 24, 2009, per the <a href="https://www.dol.gov/agencies/whd/minimum-wage" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">U.S. Department of Labor</a>.</li><li style="line-height:1.6;">Only <strong>1.0%</strong> of hourly-paid workers earned at or below that federal minimum in 2024 (1.3% of women, 0.8% of men); the rate was highest in leisure and hospitality, at 5.6%, per <a href="https://www.bls.gov/opub/reports/minimum-wage/2024/home.htm" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">BLS Report 1115, June 2025</a>.</li><li style="line-height:1.6;">Employers spent <strong>$49.46</strong> an hour per civilian worker on total compensation in June 2026, with benefits making up $15.61 of that, per <a href="https://www.bls.gov/news.release/ecec.nr0.htm" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">BLS Employer Costs for Employee Compensation, Sept. 2026</a>.</li><li style="line-height:1.6;">Class of 2025 bachelor\'s degree graduates earned an average starting salary of <strong>$67,983</strong>, up 3.5% from the Class of 2024, per <a href="https://www.naceweb.org/job-market/compensation/starting-salaries-climb-for-the-class-of-2025" target="_blank" rel="noopener noreferrer" style="color:var(--teal-dark);">NACE, Sept. 2026</a>.</li></ul>',
 				],
 			},

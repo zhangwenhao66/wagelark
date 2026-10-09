@@ -1529,3 +1529,17 @@ test("spot check: Real Estate Sales Agents (41-9022) matches BLS OOH page", () =
 	assert.equal(occ.industryWages[0].annualWage, 56310);
 	assert.equal(occ.industryWages[1].annualWage, 49850);
 });
+
+// Transcribed independently from live BLS OOH on 2026-10-09.
+// 25-1000 is the postsecondary-teacher group, not an adjunct-specific SOC.
+test('spot check: Postsecondary Teachers group matches May 2025 OOH', () => {
+ const occ = occupations['25-1000'];
+ assert.equal(occ.medianAnnual, 85330);
+ assert.equal(occ.percentiles.p10, 49540);
+ assert.equal(occ.percentiles.p90, 203580);
+ assert.equal(occ.employment, 1378200);
+ assert.equal(occ.employmentChange, 98200);
+ assert.equal(occ.jobOutlookPct, 7);
+ assert.equal(occ.publishedDate, '2026-08-27');
+ assert.equal(occ.medianHourly, undefined);
+});

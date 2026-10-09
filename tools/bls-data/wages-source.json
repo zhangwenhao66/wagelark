@@ -3627,6 +3627,43 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Real Estate Brokers and Sales Agents (sales-agent wage, percentile and industry figures; employment, outlook and change are the combined brokers-and-sales-agents Quick Facts figures, hence employmentIsGroupLevel)",
       "sourceUrl": "https://www.bls.gov/ooh/sales/real-estate-brokers-and-sales-agents.htm",
       "publishedDate": "2026-08-27"
+    },
+    "25-1000": {
+      "title": "Postsecondary teachers (all employment arrangements, not adjunct-only)",
+      "medianAnnual": 85330,
+      "percentiles": {
+        "p10": 49540,
+        "p90": 203580
+      },
+      "employment": 1378200,
+      "employmentYear": "2025",
+      "jobOutlookPct": 7,
+      "jobOutlookLabel": "Much faster than average",
+      "employmentChange": 98200,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "Doctoral or professional degree; requirements vary by subject and institution",
+      "industryWages": [
+        {
+          "industry": "Colleges, universities, and professional schools; state",
+          "annualWage": 96120
+        },
+        {
+          "industry": "Colleges, universities, and professional schools; private",
+          "annualWage": 89660
+        },
+        {
+          "industry": "Junior colleges; local",
+          "annualWage": 81640
+        },
+        {
+          "industry": "Junior colleges; state",
+          "annualWage": 68160
+        }
+      ],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Postsecondary Teachers (occupation group)",
+      "sourceUrl": "https://www.bls.gov/ooh/education-training-and-library/postsecondary-teachers.htm",
+      "publishedDate": "2026-08-27"
     }
   }
 }

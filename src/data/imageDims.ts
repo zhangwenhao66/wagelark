@@ -135,6 +135,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 444,
   "w": 700
  },
+ "/images/how-do-adjunct-professors-get-paid.svg": {
+  "h": 520,
+  "w": 1000
+ },
  "/images/hvac-certification-path.svg": {
   "h": 380,
   "w": 640
@@ -268,6 +272,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "w": 640
  },
  "/images/radiology-tech-salary-chart.svg": {
+  "h": 240,
+  "w": 640
+ },
+ "/images/real-estate-agent-salary-chart.svg": {
   "h": 240,
   "w": 640
  },
