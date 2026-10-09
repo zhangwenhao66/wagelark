@@ -56,3 +56,13 @@
 ## 2026-09-03 复查：BLS数据循环引用结构未变，跳过理由维持
 
 本站薪资数据仍完整转述自BLS OES/OOH，未发展出独立一手数据（如自行雇主调查），循环引用问题（同上DialWick同类逻辑）不随内容量或站龄改变。YMYL-adjacent属性下编辑部信号缺失的风险感知依然偏高，跳过理由维持。
+
+
+<!-- run:20261009T141607+0800 -->
+## 2026-10-09 近期样本实查
+
+当前核查以词条修订和本站实际内容为准，历史站龄门槛、缺作者页或计算器一律禁止的推断不沿用。本轮是近期样本筛查，非全站穷尽审计；不推进最后有效提交日期。
+
+- WageLark：本站 `how-much-do-flight-attendants-make`；维基条目 [Flight attendant](https://en.wikipedia.org/w/index.php?oldid=1377843694)，修订 1377843694。结论：职责/舱铃/乘务长CN非薪酬统计；BLS上游优先。合格引用建议0、Talk留言0、新提交0、公开上线0。
+
+参考来源资格与外部资源价值分别判断；本站来源更详尽本身不构成可靠来源资格。独立审查已完成，无对外草稿，英文写作链不适用。未编辑维基正文、未新增机会键或虚构回执。证据：`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/screening-results.json`、`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/wiki-current.json`、`/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-wikipedia-outreach/20261009T141607+0800/followup-20261009T1515-receipt.json`。
