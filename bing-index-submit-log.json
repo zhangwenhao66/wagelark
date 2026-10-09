@@ -237,5 +237,14 @@
       "https://wagelark.com/how-much-do-real-estate-agents-make-a-month/"
     ],
     "method": "SubmitUrlBatch"
+  },
+  {
+    "date": "2026-10-09",
+    "site": "wagelark.com",
+    "action": "submitted",
+    "submitted_urls": [
+      "https://wagelark.com/how-do-adjunct-professors-get-paid/"
+    ],
+    "method": "SubmitUrl"
   }
 ]
