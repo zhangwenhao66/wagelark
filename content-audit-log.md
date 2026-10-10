@@ -2460,3 +2460,79 @@
   "independent_review": "Root independently opened all four official sources and checked all five FAQ drafts before publication, 2026-10-09; supported. Worker subsequently removed redundant Louvre gallery name for overlap gate, preserving meaning."
 }
 ```
+
+```json
+{
+  "type": "PAA-FAQ批强(daily-task, 2026-10-10)",
+  "site": "wagelark",
+  "run_id": "20261010T1100",
+  "scope": "客观职业参考，禁止个人收入承诺",
+  "slugs_reviewed": [
+    "how-much-do-flight-attendants-make",
+    "highest-paying-jobs-without-a-degree",
+    "how-to-become-a-lineman",
+    "how-much-do-real-estate-agents-make-a-month"
+  ],
+  "faq_added": 0,
+  "slugs_modified": [],
+  "rejections": [
+    {
+      "slug": "how-much-do-flight-attendants-make",
+      "question": "Can I live off being a flight attendant?",
+      "reason": "个人开支、所在城市及实际offer决定可负担性；BLS职业分布不能证明个人生活保障"
+    },
+    {
+      "slug": "how-much-do-flight-attendants-make",
+      "question": "Do flight attendants get paid well?",
+      "reason": "主观收入评价；既有薪资及seniority FAQ提供客观分布，不能普遍承诺高收入"
+    },
+    {
+      "slug": "highest-paying-jobs-without-a-degree",
+      "question": "What career makes the most money without a degree?",
+      "reason": "既有highest-paying no-college FAQ实质覆盖，且本文口径是无需学士不是无需任何学位"
+    },
+    {
+      "slug": "highest-paying-jobs-without-a-degree",
+      "question": "What is the #1 happiest job in the world?",
+      "reason": "主题错配；未找到跨国家统一可核第一名的可靠衡量标准"
+    },
+    {
+      "slug": "highest-paying-jobs-without-a-degree",
+      "question": "Which 3 jobs will survive AI?",
+      "reason": "问题要求三个职业未来必然存活，BLS projections不能证实这种确定性预测"
+    },
+    {
+      "slug": "how-to-become-a-lineman",
+      "question": "Do you have to be big to be a lineman?",
+      "reason": "BLS说明strength/stamina但无统一体型或身高入职标准，不能编造通用门槛"
+    },
+    {
+      "slug": "how-to-become-a-lineman",
+      "question": "Is being a lineman physically hard?",
+      "reason": "既有Is lineman a tough job FAQ已经解释身体负荷与长工时，实质重复"
+    },
+    {
+      "slug": "how-to-become-a-lineman",
+      "question": "What is the fastest way to become a lineman?",
+      "reason": "培训期限按sponsor分别确定；无可靠来源证明通用最快路径，既有期限FAQ已说明"
+    },
+    {
+      "slug": "how-to-become-a-lineman",
+      "question": "Who gets paid more, electricians or lineman?",
+      "reason": "既有difference between lineman and electrician FAQ已有同年份两职业薪资对照，实质重复"
+    },
+    {
+      "slug": "how-much-do-real-estate-agents-make-a-month",
+      "question": "How many houses a year does a realtor have to sell to make $200,000 a year?",
+      "reason": "佣金及分账非统一标准且税费/开支不明；BLS无法证实单一交易数量达20万美元"
+    }
+  ],
+  "mechanical": "无新增FAQ，机械检查不适用，不称全页通过",
+  "writing_chain": "kit唯一源humanizer→avoid-ai-writing按参考口径两轮执行；数字/语言例子/链接保真",
+  "sources": [],
+  "review": "独立父agent审查通过；回执traffic-b-review.json",
+  "not_reached": "0；4候选页逐项评估，无合格新增",
+  "fairness": "无新增不推进最后实际处理日期；既有日志日期保留",
+  "evidence": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261010T1100/traffic-b-final.json"
+}
+```
