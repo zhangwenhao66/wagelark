@@ -182,3 +182,13 @@ Not re-evaluated — the 8/29 conclusion (not Reddit-ready without a standalone 
 **Step 3.5 / Reddit**: not re-evaluated this pass — standing conclusions from prior runs hold.
 
 **Distribution count**: `highest-paying-jobs-without-a-degree` unchanged at 5/10 sent. `salary-statistics-2026` now 1/10 sent (jlh7b@virginia.edu) — first target landed for this asset.
+
+
+## 2026-10-10 13:30 — Codex / run-id 20261010T1330
+
+- 当前任务源码SHA：98aea1a63cda47dc8bf7f5ccc15de79260112e2567762b2b83483512f801c018，完整覆盖1–248行。
+- GSC窗口2026-09-10至2026-10-07，应查17/实查17/未检查0；按固定首位及前三选CalcBadger、WageLark、alpha、UmberLore。其余13站本轮未轮到，不推进处理日期。
+- 11–30名查询曝光940，进入前三。已核GoWelding welder-salary页面HTTP200，现有WageLark链接rel=nofollow，不计dofollow。Salary Statistics枢纽补齐一次性同类反查：Hays/OnlineRecruitersDirectory/Statista，one_per_domain limit50，分别0/0/79条（最后返回50）；采样来源为旧新闻、镜像、商业博客及非对应资源页，未接受为新的合格编辑引用缺口；既有免学位研究反查不重复。未新增发送，处理日期不推进。
+- 新资产0；本轮发送N=0，新增已验证dofollow M=0，不计算0/0成功率。有回执历史累计N=21，原日志已确认M=0，M/N=0%；不声称全量历史链接本轮实时复查。未到累计30触发线。
+- 证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-linkable-asset-building/20261010T1330/receipt.json；现存资产未饱和且今天10号未触发15号兜底，本轮不制造资产；只改业务文档，无网站内容部署。
+- 下一步：UmberLore邮件精确草稿待Owen明确说“发”；其余未获新分发机会的对象保留原日期。共享work_journal保存本轮结果，不更新作战数据台。

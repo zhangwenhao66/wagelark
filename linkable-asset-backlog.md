@@ -117,3 +117,7 @@
 - **为什么会被引用**：这些图表是站内已经做好、有真实数据支撑（BLS官方数字）的原创可视化，职业规划类博客、大学就业指导中心页面、理财媒体写"这个职业能挣多少"时经常直接盗用截图或重新画图——给一个官方iframe嵌入选项，比被截图盗用更容易换来一条可见的署名回链，且零内容制作成本（图已经存在，只是缺嵌入通道）。
 - **制作复杂度**：低——复用 MythCairn 已验证过的 embed 路由模式（noindex+canonical+iframe代码块），7 张图表批量套用同一套模板，主要工作量是确认每张图对应的具体文件名/slug 并逐个接入。
 - **备注**：跟第3条"薪资vs增长率交互矩阵图"提到的"额外做embed路由"是同一机制的复用，但那条是全新交互图表（工作量大、待后续验证），这条是给**已经存在**的7张静态图表补embed通道（工作量小、可立即做），应优先于第3条执行。
+
+
+**[同类反查 2026-10-10 / 20261010T1330]** 11–30名查询曝光940，进入前三。已核GoWelding welder-salary页面HTTP200，现有WageLark链接rel=nofollow，不计dofollow。Salary Statistics枢纽补齐一次性同类反查：Hays/OnlineRecruitersDirectory/Statista，one_per_domain limit50，分别0/0/79条（最后返回50）；采样来源为旧新闻、镜像、商业博客及非对应资源页，未接受为新的合格编辑引用缺口；既有免学位研究反查不重复。未新增发送，处理日期不推进。
+证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-linkable-asset-building/20261010T1330/receipt.json。尚未发送的合格草稿不计入10次成功分发累计。
