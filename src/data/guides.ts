@@ -2749,7 +2749,7 @@ export const guides: Guide[] = [
 		title: 'How to Become a Librarian: Degree, Certification, and Pay',
 		description: "BLS says most librarians need a master's degree in library science, usually from an ALA-accredited program after a bachelor's. Median pay is $64,320 a year.",
 		published: '2026-08-19',
-		updated: '2026-08-19',
+		updated: '2026-10-12',
 		socCode: '25-4022',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, most librarians need a master's degree in library science (an MLS or MLIS), which comes after a bachelor's degree in any field and typically takes 1 to 2 years; the American Library Association notes that most librarian positions call for a program it has accredited. School librarians additionally need state teaching certification, and requirements vary by state. BLS reports a median annual wage of $64,320 in May 2024, with the bottom 10% earning less than $38,920 and the top 10% earning more than $100,880.",
 		sections: [
@@ -2790,7 +2790,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How long does it take to become a librarian?',
-				answer: "Per BLS, the typical path is about 6 years of full-time study after high school: four years for an undergraduate degree, in whatever subject a student picks, followed by the graduate library credential most employers ask for, which usually runs 1 to 2 years. Anyone aiming for a school library role may follow a different timeline if their state also makes them pick up a teaching license alongside that coursework.",
+				answer: "Usually five to six years in full-time study: a four-year undergraduate degree followed by one or two years toward the MLS. Public-school jobs can add a state teaching credential, depending on the jurisdiction.",
 			},
 			{
 				question: 'Do you need a master\'s degree to become a librarian?',
@@ -3435,7 +3435,7 @@ export const guides: Guide[] = [
 		title: 'How to Become a Court Reporter: Certification, Path, and Pay',
 		description: 'BLS says most court reporters train 2-3 years for a certificate or associate degree. State licensing rules vary, and BLS projects flat 0% job growth through 2034.',
 		published: '2026-08-22',
-		updated: '2026-08-22',
+		updated: '2026-10-12',
 		socCode: '27-3092',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, court reporters and simultaneous captioners (SOC 27-3092) typically complete a postsecondary certificate or associate's degree at a community college or technical institute, a program that usually takes 2 to 3 years. Many states require a license or certification from a professional association to work in a legal setting, though BLS notes these requirements vary by state and by reporting method. BLS reports a median annual wage of $67,310 in May 2024 ($32.36 an hour), with the bottom 10% earning less than $39,100 and the top 10% earning more than $127,020. Unlike most occupations this site tracks, BLS projects 0% employment growth for court reporters and simultaneous captioners from 2024 to 2034, attributing the roughly 1,700 annual openings entirely to the need to replace workers who leave the occupation.",
 		sections: [
@@ -3456,7 +3456,7 @@ export const guides: Guide[] = [
 				body: [
 					"BLS is explicit that licensing is not standardized across the country: many states require court reporters and simultaneous captioners working in legal settings to hold a state license or a certification from a professional association, but the specific requirements vary by state and by method of reporting or captioning. Certification typically requires passing a written test plus a skills test, in which applicants must type, record, or transcribe a minimum number of words per minute at a set accuracy level. Professional associations often add continuing education credits as a condition of renewing that certification once it's issued.",
 					'The method a court reporter trains in also shapes the path. O*NET lists several sample job titles under this same SOC code, including Court Stenographer, Realtime Court Reporter, Digital Court Reporter, and Stenographer, reflecting that some programs teach traditional stenotype-machine shorthand, others teach voice-writing into a steno mask paired with speech-recognition software, and others focus on operating digital or electronic recording equipment. Employers and state licensing boards, not BLS, decide which method or methods a given credential covers.',
-					"That licensing landscape puts court reporting at the opposite end of the spectrum from [paralegals](/how-to-become-a-paralegal/), an occupation this site tracks that starts from a similar postsecondary certificate or associate's degree, but where BLS states no U.S. state currently licenses the occupation at all. Court reporters, by contrast, typically do need a state credential to work in the legal settings BLS describes as their primary work environment.",
+					"Legal court-reporting jobs commonly need state authorization or an accepted industry qualification. For [paralegals](/how-to-become-a-paralegal/), associate degrees and certificates are also common entry routes, but traditional lawyer-supervised work usually has voluntary professional certification. That does not cover every legal role: Oregon licenses paralegals for limited independent housing and family-law services. Court reporters, by contrast, typically do need a state credential to work in the legal settings BLS describes as their primary work environment.",
 				],
 			},
 			{
@@ -3482,7 +3482,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do you need a license to be a court reporter?',
-				answer: "Often, yes. Per BLS, most states set their own bar for legal-setting work in this field, typically some combination of official state approval and a licensing test run by a trade association, though the specifics shift depending on location and on which reporting method a worker uses. Paralegals face a different rule: [paralegals](/how-to-become-a-paralegal/) also train through a comparably short postsecondary credential, but BLS notes that occupation currently has zero state licensing requirements anywhere in the country.",
+				answer: "In numerous jurisdictions, a court reporter must obtain government permission for courtroom work, or meet the local rule through a recognized association credential. Association certification and a government license are different approvals, so applicants must check the local rule. For ordinary paralegal employment under an attorney, obtaining an association certificate is generally optional. Oregon has a separate license allowing designated family and housing services without lawyer supervision.",
 			},
 			{
 				question: 'How much do court reporters make?',
@@ -3506,6 +3506,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'Oregon State Bar: separate limited-practice Licensed Paralegal role (checked 2026-10-12)', url: 'https://www.osbar.org/lp' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Court Reporters and Simultaneous Captioners (accessed 2026-08-22 via direct fetch with a UA string carrying a declared contact URL, returned 200 via the canonical short URL after the long-form URL returned 403, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/court-reporters.htm' },
 			{ label: 'O*NET OnLine: 27-3092.00 Court Reporters and Simultaneous Captioners, sample job titles cross-check', url: 'https://www.onetonline.org/link/summary/27-3092.00' },
 		],
@@ -4065,7 +4067,7 @@ export const guides: Guide[] = [
 		title: 'How to Become a Flight Attendant: Training & FAA Certification',
 		description: "BLS says flight attendants need a high school diploma, service experience, and FAA-required training. Median pay is $63,580 a year, per BLS data.",
 		published: '2026-08-25',
-		updated: '2026-09-23',
+		updated: '2026-10-12',
 		socCode: '53-2031',
 		coreSummary: "Per the Bureau of Labor Statistics, flight attendants typically need a high school diploma or the equivalent, one to two years of prior customer-service experience, and several weeks to a few months of employer-provided training before they can work. That training exists to meet a federal requirement: the FAA's Certificate of Demonstrated Proficiency, mandatory under 14 CFR parts 121 and 135 for anyone working aircraft with 20 or more passenger seats. BLS reports a median annual wage of $63,580 in May 2025, with 9% employment growth projected through 2035.",
 		sections: [
@@ -4084,7 +4086,7 @@ export const guides: Guide[] = [
 				heading: 'Training: what happens once an airline hires you',
 				body: [
 					'Per BLS, initial training after hire typically lasts several weeks to a few months and takes place at the airline\'s own flight training center. Trainees learn emergency procedures such as evacuating an aircraft, operating emergency equipment, and administering first aid, alongside instruction on flight regulations, company operations, and day-to-day job duties. Training ends with practice flights, and BLS is explicit that completing the program is required to keep the job, not merely to start it.',
-					"The federal certification requirement gets fulfilled during this training, not before it. A flight attendant cannot walk in already FAA-certified; the certificate is issued only after an airline's training program and its own exam are completed.",
+					"For a first-time applicant, FAA certification follows completion of the approved airline training program, including operating experience. An experienced hire may already hold a certificate from another carrier; after the new training, the airline updates the FAA record rather than treating the existing credential as a substitute for its own qualification process.",
 				],
 			},
 			{
@@ -4117,7 +4119,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is FAA certification required to be a flight attendant?',
-				answer: "Yes, for most commercial flights. Anyone crewing the cabin on a plane seating 20 passengers or more must carry FAA sign-off proving they finished the required training, a federal rule Congress wrote into law in 2003 and that airlines have had to follow since Dec. 11, 2004. That credential is issued only once someone finishes their airline's own training program, one the FAA has signed off on in advance.",
+				answer: "The federal rule covers cabin attendants on aircraft with at least 20 passenger seats operated by Part 121 or 135 air carriers. A new entrant earns the FAA credential after the authorized course; an experienced employee can already hold the credential when changing airlines. The certificate belongs to the employee, and FAA guidance says it need not be carried on each flight, although it must be presented when requested.",
 			},
 			{
 				question: 'How much do flight attendants make?',
@@ -4125,7 +4127,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do flight attendants get paid well?',
-				answer: 'About average for the broader U.S. labor market. BLS puts median pay for this role at $63,580 for May 2025, above the $50,980 median BLS reports across all U.S. occupations that same year, though pay varies by airline type; see this site\'s [breakdown of flight attendant pay](/how-much-do-flight-attendants-make/) for the full percentile breakdown.',
+				answer: 'Above the national midpoint: the May 2025 flight-attendant figure of $63,580 is $12,600 higher than the $50,980 median across U.S. occupations. Employer type and seniority still matter. The [flight-attendant wage guide](/how-much-do-flight-attendants-make/) gives the tenth- and ninetieth-percentile thresholds and the industry comparison.',
 			},
 			{
 				question: 'What is the 35-7 rule for flight attendants?',
@@ -4133,6 +4135,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'FAA certificate guidance: ownership, transfer and presentation (checked 2026-10-12)', url: 'https://www.faa.gov/licenses_certificates/airmen_certification/media/Flight%20Attendant%20Certificate%20of%20Demonstrated%20Proficiency.pdf' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants, How to Become One (data from May 2025, synced 2026-09-23 to match this site\'s flight attendant salary page, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
 			{ label: 'Federal Aviation Administration: Flight Attendant Certificate of Demonstrated Proficiency (independent corroboration of the certification requirement, its legal basis, and effective date)', url: 'https://www.faa.gov/Flight_Attendant_Certificate_Demonstrated_Proficiency_Information' },
 			{ label: 'O*NET OnLine: 53-2031.00 Flight Attendants (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/53-2031.00' },
@@ -5461,7 +5465,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Genetic Counselor Salary: $100,040 Median (2026 BLS)',
 		description: "BLS puts the median genetic counselor salary at $100,040 a year, well above the $64,330 for school counselors, with 10% projected job growth through 2035.",
 		published: '2026-09-10',
-		updated: '2026-09-10',
+		updated: '2026-10-12',
 		socCode: '29-9092',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, genetic counselors earned a median of $100,040 in May 2025, or $48.09 an hour. Earners in the bottom 10% made less than $78,270, and those in the top 10% cleared $138,760, a range of roughly $60,490. Genetic counselors clear the $50,980 median BLS reports across all U.S. occupations by a wide margin, and beat the $64,330 median for [school and career counselors](/how-to-become-a-school-counselor/) by $35,710, despite the shared \"counselor\" label and a similarly typical master's-degree entry point. BLS counted 4,200 genetic counselors in 2025, a small workforce by this site's standards, and projects 10% growth through 2035, adding roughly 400 jobs, well ahead of the 3% average across all occupations.",
 		sections: [
@@ -5518,7 +5522,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'How long does it take to become a genetic counselor?',
-				answer: 'BLS does not state an exact number of years on this page, only that a master\'s degree is the typical entry-level education. ACGC-accredited programs in this field are generally structured to run two years past a bachelor\'s degree, the standard length for graduate programs generally, though BLS does not itself confirm that figure here.',
+				answer: 'BLS identifies a graduate degree as the normal entry credential but gives no fixed completion time. Accredited genetic-counseling courses commonly take two years after undergraduate study; that is a field-specific program estimate, not a universal duration for every graduate degree.',
 			},
 		],
 		sources: [
@@ -5621,7 +5625,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Forensic Scientist Salary: $72,060 Median (2026 BLS)',
 		description: 'BLS puts the median forensic scientist salary at $72,060 a year, above the $50,980 median for all U.S. occupations, with 13% projected job growth through 2035.',
 		published: '2026-09-11',
-		updated: '2026-09-11',
+		updated: '2026-10-12',
 		socCode: '19-4092',
 		coreSummary: "Forensic science technicians, the official BLS title behind the common search term \"forensic scientist,\" earned a median of $72,060 in May 2025, working out to $34.65 an hour. The bottom 10% of earners made less than $48,250, and the top 10% cleared $117,250, a spread of roughly $69,000. That places the occupation $21,080 above the $50,980 median BLS reports across all U.S. occupations, and $9,130 above clinical laboratory technologists, an occupation BLS itself lists as sharing similar duties and degree requirements. BLS counted 20,100 forensic science technicians in 2025 and projects 13% growth through 2035, much faster than average, adding roughly 2,700 jobs and about 2,800 openings a year on average.",
 		sections: [
@@ -5669,7 +5673,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Which industry pays forensic science technicians the most?',
-				answer: 'State government jobs apart from schools, colleges, and hospitals pay best, a $74,740 median for May 2025. Independent testing labs and services pay least of the four wage categories BLS tracks, $49,600, since more of that work is civil rather than criminal casework.',
+				answer: 'Among four May 2025 categories, state-government work leads at $74,740; that category leaves out public schools and hospital employers. The laboratory-testing category sits last, with a $49,600 midpoint. BLS does not establish that civil rather than criminal casework causes this pay difference.',
 			},
 			{
 				question: 'Is forensic science a growing career?',
