@@ -1361,15 +1361,15 @@ export const guides: Guide[] = [
 		title: 'Dental Assistant Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median dental assistant salary at $47,300 a year. See the full wage range by percentile, by industry, and how it compares to a dental hygienist.',
 		published: '2026-08-06',
-		updated: '2026-08-27',
+		updated: '2026-10-12',
 		socCode: '31-9091',
 		coreSummary: 'The median annual wage for dental assistants was $47,300 in May 2024, according to the U.S. Bureau of Labor Statistics, close to the $49,500 median for all U.S. occupations that year. The bottom 10% earned less than $36,190, and the top 10% earned more than $61,780. Government employers paid the highest industry median at $53,660, while the large majority of dental assistants, who work in dentists\' offices, earned close to the occupation-wide median at $47,250.',
 		sections: [
 			{
 				heading: 'What dental assistants actually earn, by percentile',
 				body: [
-					'BLS tracks dental assistant pay through its Occupational Employment and Wage Statistics (OEWS) program. The program surveys employers directly instead of relying on workers to self-report their pay. The most recent published data, from May 2024, put median annual pay at $47,300, or $22.74 an hour. For context, BLS reports the median across all U.S. occupations that year at $49,500, so dental assistants earn close to, though slightly below, the broader labor-market median rather than sitting notably above or below it.',
-					'The bottom 10% of dental assistants earned less than $36,190 in May 2024, while the top 10% earned more than $61,780, a spread of roughly $25,590. That is a narrower dollar gap than several other occupations tracked on this site, including dental hygienists, whose 10th-to-90th-percentile spread runs from $66,470 to $120,060, more than double the assistant spread in dollar terms. Part of that difference traces to credentialing: dental assistants generally enter through one widely available path, either a certificate program of about a year or on-the-job training, so pay does not stretch as far based on additional formal education the way it can in fields with a licensed, degree-gated ceiling.',
+					'BLS tracks dental assistant pay through its Occupational Employment and Wage Statistics (OEWS) program. The program surveys employers directly instead of relying on workers to self-report their pay. The May 2024 data retained here put median annual pay at $47,300, or $22.74 an hour. For context, BLS reports the median across all U.S. occupations that year at $49,500, so dental assistants earn close to, though slightly below, the broader labor-market median rather than sitting notably above or below it.',
+					'The bottom 10% of dental assistants earned less than $36,190 in May 2024, while the top 10% earned more than $61,780, a spread of roughly $25,590. That is a narrower dollar gap than several other occupations tracked on this site, including dental hygienists, whose 10th-to-90th-percentile spread runs from $66,470 to $120,060, more than double the assistant spread in dollar terms. The entry credentials also differ, although BLS does not isolate their contribution to pay: dental assistants generally enter through one widely available path, either a certificate program of about a year or on-the-job training, while dental hygiene has a degree and licensing route. These wage tables do not identify schooling as the cause of the different percentile spreads.',
 				],
 			},
 			{
@@ -1390,7 +1390,7 @@ export const guides: Guide[] = [
 				heading: 'How to become one, and how the pay compares to a dental hygienist',
 				body: [
 					'There are several paths into the occupation, and the requirements depend heavily on the state. Some states require dental assistants to graduate from an accredited program, most commonly offered by community colleges or vocational and technical schools, and pass an exam; most of these programs take about a year and lead to a certificate or diploma, while two-year programs leading to an associate\'s degree are less common. Other states have no formal education requirement at all, and assistants learn the job through on-the-job training under a supervising dentist, hygienist, or experienced assistant. Entry-level licensing generally is not required, but states that allow assistants to perform expanded duties, such as coronal polishing, do require licensure, registration, or certification for those specific tasks. Information on those certification requirements is available from CareerOneStop, the resource BLS itself points readers to.',
-					'That comparatively low and flexible barrier to entry is also what separates a dental assistant\'s pay from a dental hygienist\'s. This site\'s [dental hygienist salary guide](/dental-hygienist-salary/) reports a May 2024 median of $94,260, essentially double the dental assistant median in this article. That gap tracks a real credential difference rather than a difference in the underlying work: dental hygienists must complete an accredited associate\'s degree program, a fixed multi-year path with a licensing exam at the end, while dental assistants can typically enter through a certificate program closer to a year in length or through employer training alone. For a comparison at a similarly accessible entry point, this site\'s [pharmacy technician salary guide](/pharmacy-technician-salary/) covers another allied health role with a comparable median wage, $43,460, and an even shorter formal-education requirement of just a high school diploma or equivalent. For another assistant-level allied health role, see this site\'s [occupational therapy assistant salary](/occupational-therapy-assistant-salary/) guide, per BLS.',
+					'That comparatively low and flexible barrier to entry is also what separates a dental assistant\'s pay from a dental hygienist\'s. This site\'s [dental hygienist salary guide](/dental-hygienist-salary/) reports a May 2024 median of $94,260, essentially double the dental assistant median in this article. The occupations differ in duties as well as qualifications: dental hygienists must complete an accredited associate\'s degree program, a fixed multi-year path with a licensing exam at the end, while dental assistants can typically enter through a certificate program closer to a year in length or through employer training alone. For a comparison at a similarly accessible entry point, this site\'s [pharmacy technician salary guide](/pharmacy-technician-salary/) covers another allied health role with a comparable median wage, $43,460, and high-school completion as its usual entry-education level, followed by workplace training or a certificate and any state requirements. For another assistant-level allied health role, see this site\'s [occupational therapy assistant salary](/occupational-therapy-assistant-salary/) guide, per BLS.',
 				],
 			},
 		],
@@ -1409,7 +1409,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How does dental assistant pay compare to dental hygienist pay?',
-				answer: 'BLS puts dental hygienist pay at $94,260 for May 2024, roughly twice the $47,300 dental assistant figure. Schooling explains most of the gap: hygienists go through a two-year accredited program capped by a licensing exam, while entering as an assistant is usually much quicker, through a shorter certificate track or on-the-job coaching.',
+				answer: 'The hygienist midpoint was $94,260 in May 2024, almost twice the assistant figure of $47,300. Their qualifications and duties differ: hygiene programs generally last three years and lead to state licensure, whereas assisting often starts with a roughly one-year course or employer training. BLS does not establish that education explains most of the wage gap.',
 			},
 			{
 				question: 'Is dental assisting a growing occupation?',
@@ -1516,7 +1516,7 @@ export const guides: Guide[] = [
 		title: 'Air Traffic Controller Salary: BLS Pay by Percentile (2026)',
 		description: 'BLS puts the median air traffic controller salary at $148,080 a year. See the full wage range by percentile, by employer, and the FAA age rules that shape it.',
 		published: '2026-08-09',
-		updated: '2026-08-30',
+		updated: '2026-10-12',
 		socCode: '53-2021',
 		coreSummary: 'The median annual wage for air traffic controllers was $148,080 in May 2025, according to the U.S. Bureau of Labor Statistics, nearly three times the $50,980 median across all U.S. occupations that year. The bottom 10% earned less than $78,420, and the top 10% earned more than $215,610. Federal government employers, who employ the large majority of controllers, paid a median of $156,250, well above the $83,890 median for controllers working in air traffic support activities.',
 		sections: [
@@ -1524,7 +1524,7 @@ export const guides: Guide[] = [
 				heading: 'What air traffic controllers actually earn, by percentile',
 				body: [
 					'BLS tracks air traffic controller pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly and does not rely on self-reported figures. The most recent published data, from May 2025, put median annual pay at $148,080, or $71.19 an hour. That is nearly three times the $50,980 median BLS reports across all U.S. occupations for the same year, making air traffic control one of the highest-paying occupations tracked on this site.',
-					'The bottom 10% of air traffic controllers earned less than $78,420 in May 2025, while the top 10% earned more than $215,610. Even the bottom of that range sits above the median for most occupations on this site, including registered-nurse-adjacent and technologist roles that themselves require years of postsecondary training. The gap between the 10th percentile and the median, about $69,660, is close in dollar terms to the gap between the median and the 90th percentile, about $67,530, which is a comparatively even split. On this site\'s flight attendant salary guide, by contrast, the top half of the range stretches more than twice as far in dollar terms as the bottom half, a difference traceable to how each occupation\'s pay actually gets set.',
+					'The bottom 10% of air traffic controllers earned less than $78,420 in May 2025, while the top 10% earned more than $215,610. That tenth-percentile boundary is above the median for many occupations on this site, but it is not a minimum controller wage, including registered-nurse-adjacent and technologist roles that themselves require years of postsecondary training. The gap between the 10th percentile and the median, about $69,660, is close in dollar terms to the gap between the median and the 90th percentile, about $67,530, which is a comparatively even split. On this site\'s flight attendant salary guide, by contrast, the top half of the range stretches more than twice as far in dollar terms as the bottom half, a difference in the published distributions that does not by itself identify the causes.',
 				],
 			},
 			{
@@ -1538,14 +1538,14 @@ export const guides: Guide[] = [
 				heading: 'Job outlook: growth is essentially flat',
 				body: [
 					'BLS projects employment of air traffic controllers to grow just 2% from 2025 to 2035, from 24,000 to 24,400 positions, a category BLS classifies as slower than the average for all occupations. That is a net increase of only 400 jobs over the entire decade. Despite that limited growth, BLS separately projects about 2,100 average annual openings for the occupation, because most openings come from replacing controllers who leave the role rather than from newly created positions.',
-					'The flat growth figure reflects how tightly the FAA controls hiring relative to a mostly fixed set of towers, centers, and approach facilities; it does not reflect declining demand for air travel. Almost all of the projected openings trace back to controllers reaching the FAA\'s mandatory retirement age, a structural feature unique to this occupation among the roles covered on this site.',
+					'The flat growth figure reflects how tightly the FAA controls hiring relative to a mostly fixed set of towers, centers, and approach facilities; it does not reflect declining demand for air travel. BLS attributes most openings to people switching occupations or leaving the labor force, including retirement. It does not say almost all arise at the mandatory retirement age.',
 				],
 			},
 			{
 				heading: 'Getting in: a narrower window than most careers, and how the pay compares',
 				body: [
-					'BLS lists an associate\'s degree as the typical entry-level education, but describes several paths in: an associate\'s or bachelor\'s degree completed through an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program, several years of progressively responsible work experience, or a combination of the two. Candidates must also be U.S. citizens and pass a medical evaluation, background check, and FAA preemployment testing, then complete training at the FAA Academy in Oklahoma City before being assigned to a facility as a developmental controller.',
-					'The entry window itself is unusually narrow. Under federal law (5 U.S.C. § 8335), operational controllers must generally separate from service by the end of the month in which they turn 56, and FAA hiring policy generally requires candidates to be appointed before their 31st birthday, with that cutoff extended to 35 for applicants with qualifying prior military or FAA-contract air traffic control experience. No other occupation covered on this site has both an age-based entry cutoff and a mandatory retirement age. This site\'s dental hygienist salary guide covers another associate\'s-degree occupation for comparison: dental hygienists earn a May 2024 median of $94,260, well below the controller median, with no equivalent age restriction on either end of a career. This site\'s flight attendant salary guide covers the other FAA-regulated occupation in this dataset; flight attendants need only a high school diploma to start, versus a controller\'s associate\'s degree and FAA Academy training, yet the top 10% of flight attendants still earn more than $136,430, above the $78,420 floor for the bottom 10% of controllers, since flight attendant pay keeps climbing with seniority for as long as the person keeps flying, with no age-based ceiling on the career itself.',
+					'BLS lists an associate\'s degree as the typical entry-level education, but describes several paths in: an associate\'s or bachelor\'s degree completed through an FAA-approved Air Traffic Collegiate Training Initiative (AT-CTI) program, several years of progressively responsible work experience, or a combination of the two. Candidates must also be U.S. citizens and pass a medical evaluation, background check, and FAA preemployment testing, then follow the applicable training route. Most train at the FAA Academy; qualified Enhanced AT-CTI graduates can instead enter localized facility training directly after hiring.',
+					'The entry window itself is unusually narrow. Under federal law (5 U.S.C. § 8335), operational controllers must generally separate from service by the end of the month in which they turn 56, and FAA hiring policy generally requires candidates to apply before turning 31 under the general entry campaign, while its separate experienced-controller route has used an age-35-or-under closing-date limit for qualifying FAA, military or contract-tower experience; the vacancy notice sets the applicable rule. No other occupation covered on this site has both an age-based entry cutoff and a mandatory retirement age. This site\'s dental hygienist salary guide covers another associate\'s-degree occupation for comparison: dental hygienists earn a May 2024 median of $94,260, well below the controller median, with no equivalent age restriction on either end of a career. This site\'s flight attendant salary guide covers the other FAA-regulated occupation in this dataset; flight attendants need only a high school diploma to start, versus a controller\'s associate\'s degree and FAA Academy training, yet the top 10% of flight attendants still earn more than $136,430, above the $78,420 controller tenth-percentile boundary, which is not a wage floor, since flight attendant pay keeps climbing with seniority for as long as the person keeps flying, with no age-based ceiling on the career itself.',
 				],
 			},
 		],
@@ -1556,7 +1556,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do air traffic controllers need a college degree?',
-				answer: 'Not necessarily. Per BLS, most people enter with a two-year degree, though the agency also describes alternate paths in: candidates can complete an AT-CTI program (the FAA\'s dedicated pathway for the role) at either the two-year or four-year level, or qualify instead through multiple years of hands-on, increasingly senior work in a related field, then clear the FAA\'s preemployment screening and finish the required coursework at the FAA Academy.',
+				answer: 'College is one option, not a universal prerequisite. The Handbook also describes experience-based qualification or a mix of work and study. Candidates undergo medical, background and aptitude screening. Most attend the Academy, but graduates from the enhanced collegiate initiative can go straight to an assigned facility for local training after hiring.',
 			},
 			{
 				question: 'Why do federal air traffic controllers earn so much more than others in the field?',
@@ -1564,22 +1564,26 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is there an age limit to become an air traffic controller?',
-				answer: 'Yes. New hires generally must join before turning 31, per FAA hiring policy, though that ceiling rises to 35 for those who already have relevant active-duty or contract-tower experience directing air traffic. A separate rule, 5 U.S.C. § 8335, requires controllers in operational roles to leave the job once they hit 56, generally at that month\'s end.',
+				answer: 'Yes. For ordinary entry hiring, FAA accepts applications only from people aged 30 or younger. Recruitment for already-qualified staff has accepted applicants up to age 35, measured at the notice deadline, provided they meet its recent-service conditions. Federal staff directing aircraft in covered operational positions generally retire at 56. The relevant vacancy and any exceptions determine which limits apply.',
 			},
 			{
 				question: 'Is air traffic control a growing occupation?',
-				answer: 'No, not by much. BLS projects only a 2% rise in controller employment between 2025 and 2035, well below the pace of most other occupations, adding a net 400 jobs. Still, BLS expects roughly 2,100 openings a year on average, with almost all of them stemming from people aging out of the role at the mandatory cutoff, not from expansion of the workforce.',
+				answer: 'The workforce forecast adds about 400 jobs, a 2% gain from 2025 to 2035. Hiring openings are much larger, around 2,100 annually, because people change careers or exit employment, retirement included. The Handbook does not say the mandatory exit age accounts for nearly every vacancy.',
 			},
 			{
 				question: 'How long does it take to become an air traffic controller?',
-				answer: 'There is no single fixed number. Per BLS, candidates typically hold at least a two- or four-year degree earned via the FAA\'s AT-CTI collegiate program, or build a comparable multi-year track record of increasingly senior work instead, then clear FAA\'s medical screening, background review, and preemployment exams before completing a training course at the FAA Academy. Once hired, BLS states that new controllers typically complete more than 12 months of additional on-the-job training before working independently.',
+				answer: 'There is no single timeline. Collegiate study can last two or four years, and an experience-based route also exists. Screening follows, with workplace qualification generally taking over 12 months. Academy attendance is common; the enhanced college program can substitute for that stage and permit direct local training once a graduate is hired.',
 			},
 			{
 				question: 'Why do air traffic controllers have to be hired before age 31?',
-				answer: "The 31 cutoff pairs with the mandatory-retirement side of the career: 5 U.S.C. § 8335 sets the outer limit at age 56 for operational staff. Hiring candidates before 31 leaves at least 25 years to complete the lengthy training pipeline, from AT-CTI coursework, through instruction at the FAA Academy, and more than 12 months of on-the-job certification at an assigned facility, and still spend a substantial career actually working traffic before having to step aside at the mandatory cutoff. BLS does not itself explain the policy rationale; that reasoning is this page's inference from how the entry cutoff and the age-56 exit rule line up, not a specific justification BLS states on its occupational page. The ceiling rises to 35 for candidates who already have qualifying active-duty or contract-tower air traffic experience, since that background shortens the training runway needed before retirement.",
+				answer: "An entry age below 31 and a usual federal retirement age of 56 create a potential working span of about 25 years. That arithmetic is not an official explanation of the hiring policy. Recruitment based on previous controller service has used a different deadline-based limit of 35 or younger. Check the notice governing the particular application.",
 			},
 		],
 		sources: [
+			{ label: 'FAA general controller hiring: application age requirement (checked 2026-10-12)', url: 'https://www.faa.gov/atc-hiring' },
+			{ label: 'FAA Enhanced AT-CTI: direct facility training (checked 2026-10-12)', url: 'https://www.faa.gov/air_traffic/air-traffic-collegiate-training-initiatives-cti' },
+			{ label: 'FAA experienced-controller pathway: age and experience conditions (checked 2026-10-12)', url: 'https://www.faa.gov/jobs/career_fields/aviation_careers/experienced_controllers' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Air Traffic Controllers (accessed 2026-08-30 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/air-traffic-controllers.htm' },
 			{ label: '5 U.S.C. § 8335, Mandatory separation', url: 'https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title5-section8335' },
 		],
@@ -1592,15 +1596,15 @@ export const guides: Guide[] = [
 		title: 'How to Become a CNA: Certification, Training, and Pay',
 		description: 'The federal minimum for CNA training is 75 hours, not a degree. Here is the real certification path, the state exam and registry, plus BLS pay data.',
 		published: '2026-08-10',
-		updated: '2026-08-31',
+		updated: '2026-10-12',
 		socCode: '31-1131',
-		coreSummary: 'Federal regulation sets a 75-hour minimum for nurse aide training programs, including at least 16 hours of supervised practical training, well short of the multi-month or multi-year programs required for most other healthcare roles. The Bureau of Labor Statistics reports a median annual wage of $42,260 for nursing assistants in May 2025, with the bottom 10% earning less than $33,940 and the top 10% earning more than $51,980.',
+		coreSummary: 'For training tied to federally certified nursing-home work, federal regulation sets a 75-hour minimum for nurse aide training programs, including at least 16 hours of supervised practical training, well short of the multi-month or multi-year programs required for most other healthcare roles. The Bureau of Labor Statistics reports a median annual wage of $42,260 for nursing assistants in May 2025, with the bottom 10% earning less than $33,940 and the top 10% earning more than $51,980.',
 		sections: [
 			{
 				heading: 'The federal floor: 75 hours, not a degree',
 				body: [
-					'Nurse aide training in the United States has a federal floor set by 42 CFR § 483.152: a state-approved program must run at least 75 clock hours, including a minimum of 16 hours of supervised practical training in which the trainee performs hands-on tasks on a person under the direct supervision of a registered nurse or a licensed practical nurse. That 75-hour figure is a national minimum, not a target. According to PHI, a national policy organization that tracks state nurse aide training rules, more than half the states set a higher bar than the federal floor, with some states requiring as much as 180 hours of instruction and clinical practice before a candidate is eligible to test.',
-					'The Bureau of Labor Statistics lists these programs as available through high schools, community colleges, vocational and technical schools, hospitals, and nursing homes themselves, meaning a candidate rarely has to enroll in a standalone college program the way a diagnostic medical sonographer or dental hygienist would. There is no associate or bachelor\'s degree requirement anywhere in the federal rule. That short, low-cost training window is the main structural difference between becoming a CNA and becoming most of the other entry-level healthcare roles covered on this site. A similarly bachelor\'s-or-master\'s-gated human-services role covered on this site, [becoming a social worker](/how-to-become-a-social-worker/), sits at the opposite end of that credential spectrum, per BLS.',
+					'Training for nurse aides in Medicare- or Medicaid-certified nursing homes has a federal floor set by 42 CFR § 483.152: a state-approved program must run at least 75 clock hours, including a minimum of 16 hours of supervised practical training in which the trainee performs hands-on tasks on a person under the direct supervision of a registered nurse or a licensed practical nurse. That is the minimum for approved training under this federal nursing-home framework, not a rule covering every aide employer. State requirements may extend further. According to PHI, a national policy organization that tracks state nurse aide training rules, more than half the states set a higher bar than the federal floor, with some states requiring as much as 180 hours of instruction and clinical practice before a candidate is eligible to test.',
+					'The Bureau of Labor Statistics lists these programs as available through high schools, community colleges, vocational and technical schools, hospitals, and nursing homes themselves, meaning a candidate rarely has to enroll in a standalone college program the way a diagnostic medical sonographer or dental hygienist would. There is no associate or bachelor\'s degree requirement anywhere in the federal rule. That short, low-cost training window is the main structural difference between becoming a CNA and becoming most of the other entry-level healthcare roles covered on this site. A human-services role with a higher usual degree requirement covered on this site, [becoming a social worker](/how-to-become-a-social-worker/), sits at the opposite end of that credential spectrum, per BLS.',
 				],
 			},
 			{
@@ -1614,7 +1618,7 @@ export const guides: Guide[] = [
 				heading: 'What the job pays once certified',
 				body: [
 					'BLS reports a median annual wage of $42,260 for nursing assistants in May 2025 ($33,940 at the 10th percentile and $51,980 at the 90th). Pay varies meaningfully by setting: government employers outside state/local education and hospitals paid the highest median tracked, at $47,050, ahead of nursing care facilities, meaning skilled nursing facilities ($43,000), hospitals ($42,310), continuing care retirement communities and assisted living facilities ($39,490), and home healthcare services, the lowest of the industries BLS tracks for this role at $38,040.',
-					'BLS projects 3% employment growth for nursing assistants and orderlies combined from 2025 to 2035, about as fast as the average for all occupations, and about 203,300 openings each year on average across the decade. Most of those openings are expected to come from the need to replace workers who transfer to different occupations or exit the labor force, such as to retire, rather than from newly created positions. A different federally regulated short-training path, covered in this site\'s [flight attendant certification guide](/how-to-become-a-flight-attendant/), centers on FAA-mandated training rather than a state nurse aide registry.',
+					'BLS projects 3% employment growth for nursing assistants and orderlies combined from 2025 to 2035, about as fast as the average for all occupations, and about 203,300 openings each year on average for that combined group, rather than nursing assistants alone. Most of those openings are expected to come from the need to replace workers who transfer to different occupations or exit the labor force, such as to retire, rather than from newly created positions. A different federally regulated short-training path, covered in this site\'s [flight attendant certification guide](/how-to-become-a-flight-attendant/), centers on FAA-mandated training rather than a state nurse aide registry.',
 				],
 			},
 			{
@@ -1628,7 +1632,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How long does it take to become a CNA?',
-				answer: 'Federal rule (42 CFR § 483.152) sets a 75-hour floor for a state-approved CNA course, and part of that time, a 16-hour block, has to be hands-on clinical practice under a nurse\'s direct supervision. Over half of all states go beyond that federal floor, up to 180 hours in the toughest states, per PHI\'s state-by-state tracking of how much training each state requires.',
+				answer: 'For a state-approved course tied to work in a Medicare/Medicaid-certified facility, the national rule calls for 75 clock hours or more. Sixteen must involve practical patient tasks supervised by a nurse. Jurisdictions can demand longer preparation: PHI finds over half exceed that baseline, with some reaching 180 hours.',
 			},
 			{
 				question: 'What happens after CNA training is finished?',
@@ -1644,7 +1648,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is becoming a CNA a good way into healthcare?',
-				answer: 'The occupation is not fast-growing, roughly 3% between 2025 and 2035, in line with the economy-wide average, but BLS still counts roughly 203,300 openings a year because so many current workers cycle out into other jobs or leave the workforce. Whether that turnover-driven demand makes CNA work the right entry point depends on individual circumstances; this is national labor-market data, not personal career guidance for any one reader.',
+				answer: 'The forecast covers both the direct-care assistant role and the orderly occupation: together they have 3% projected growth during 2025-35 and roughly 203,300 openings per year. Replacement hiring accounts for most of those vacancies. Those national numbers cannot establish whether a particular CNA employer or course is the right choice.',
 			},
 			{
 				question: 'How long does it take to get a CNA license in New Jersey?',
@@ -1660,6 +1664,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: '42 CFR 483.152: covered training and cost provisions (checked 2026-10-12)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D/section-483.152' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Nursing Assistants and Orderlies (accessed 2026-08-31 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/nursing-assistants.htm' },
 			{ label: '42 CFR Part 483, Subpart D: Nurse Aide Training and Competency Evaluation (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-D' },
 			{ label: '42 CFR § 483.35(d): Requirements for facility hiring and use of nurse aides (eCFR)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-483/subpart-B/section-483.35' },
@@ -1763,14 +1769,14 @@ export const guides: Guide[] = [
 		title: 'Electrician Salary: $63,190 Median, Range by Percentile (2026)',
 		description: 'BLS puts the median electrician salary at $63,190 a year, with 9% growth projected through 2035. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-11',
-		updated: '2026-09-15',
+		updated: '2026-10-12',
 		socCode: '47-2111',
 		coreSummary: 'The median annual wage for electricians was $63,190 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $42,640 while the top 10% earned more than $108,510. BLS projects 9% employment growth from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 75,900 jobs.',
 		sections: [
 			{
 				heading: 'What electricians earn, and what the growth rate means',
 				body: [
-					'The Bureau of Labor Statistics tracks this role under SOC code 47-2111. For May 2025, BLS reported a median annual wage of $63,190, or $30.38 an hour, for the roughly 821,000 people employed as electricians nationwide. The bottom 10% of earners made less than $42,640 a year, while the top 10% made more than $108,510, a spread of more than $65,000 that reflects differences in experience, license level, employer type, and region, not any single factor. BLS describes the job itself as physically demanding work, noting that electricians need enough strength to move components that can weigh up to 50 pounds and must be able to identify wires by color, on top of the troubleshooting skills the role requires day to day.',
+					'The Bureau of Labor Statistics tracks this role under SOC code 47-2111. For May 2025, BLS reported a median annual wage of $63,190, or $30.38 an hour. Separately, the employment-projection baseline counts about 821,000 jobs nationwide. The bottom 10% of earners made less than $42,640 a year, while the top 10% made more than $108,510, a spread of more than $65,000 that reflects differences in experience, license level, employer type, and region, not any single factor. BLS describes the job itself as physically demanding work, noting that electricians need enough strength to move components that can weigh up to 50 pounds and must be able to identify wires by color, on top of the troubleshooting skills the role requires day to day.',
 					"BLS also places electricians against two broader groupings on the same page. The median for construction trades workers as a whole was $58,150, and the median across all occupations in the economy was $50,980. Electricians sit above both comparison figures, though BLS does not break out how much of that gap owes to the trade's licensing requirements versus other factors like union coverage or regional demand.",
 					'On growth, BLS projects 9% employment growth for electricians from 2025 to 2035, compared with 6% for construction trades workers as a whole and roughly 3% for all occupations combined. BLS classifies that as "much faster than average," one of the stronger outlooks among the skilled trades this site has covered so far.',
 				],
@@ -1788,7 +1794,7 @@ export const guides: Guide[] = [
 				body: [
 					'Per BLS, the typical entry-level education for electricians is a high school diploma or equivalent, with no postsecondary degree required to start training. Most electricians [learn the trade](/how-to-become-an-electrician/) through a 4- or 5-year apprenticeship, and BLS specifies that apprentices typically receive about 2,000 hours of paid on-the-job training per year of the program, alongside technical instruction covering electrical theory, blueprint reading, and code requirements. Some workers start out by attending a technical school first, which BLS notes can earn credit toward the apprenticeship, and workers with prior electrical experience in the military or construction may qualify for a shortened program based on testing. For the related power-line trade, see [how to become a lineman](/how-to-become-a-lineman/), which covers apprenticeship, CDL, and pay.',
 					'BLS states that after completing an apprenticeship, electricians are considered journey workers who may perform duties on their own, subject to state or local licensing requirements. Most states require passing a test and obtaining a license, and the specific requirements, such as hours of supervised experience, exam content, and renewal cycles, vary by state. BLS directs readers to CareerOneStop for state-by-state licensing board information rather than listing every state\'s rules on its own page, and this article does not attempt to summarize them either, since a reader in one state cannot rely on another state\'s requirements. BLS also notes that licensed electricians may need continuing education to maintain that license, and that journey workers who meet additional requirements can advance to master electrician or move into supervisory or project-management roles.',
-					"For readers comparing [entry paths that skip a bachelor's degree](/highest-paying-jobs-without-a-degree/), electricians sit at the higher-paying end of the occupations covered on this site so far. [Becoming a CNA](/how-to-become-a-cna/) requires a 75-hour minimum training program rather than a multi-year apprenticeship, and BLS puts the median nursing assistant wage at $42,260, well below the electrician median. [Medical assistants](/medical-assistant-salary/), whose typical entry credential BLS lists as a postsecondary nondegree award, unlike the apprenticeship electricians go through, have a median of $45,690. Electricians, despite requiring no postsecondary credential at all beyond a high school diploma, out-earn both at the median, though BLS does not track how apprenticeship length, licensing requirements, or industry mix account for that gap. [HVAC certification](/hvac-certification/), covering EPA 608 requirements, training, and pay, is another entry path this site covers.",
+					"For readers comparing [entry paths that skip a bachelor's degree](/highest-paying-jobs-without-a-degree/), electricians sit at the higher-paying end of the occupations covered on this site so far. [Becoming a CNA](/how-to-become-a-cna/) describes a 75-hour federal training minimum for covered nursing-home work rather than a multi-year apprenticeship, and BLS puts the median nursing assistant wage at $42,260, well below the electrician median. [Medical assistants](/medical-assistant-salary/), whose typical entry credential BLS lists as a postsecondary nondegree award, unlike the apprenticeship electricians go through, have a median of $45,690. Electricians, despite requiring no postsecondary credential at all beyond a high school diploma, out-earn both at the median, though BLS does not track how apprenticeship length, licensing requirements, or industry mix account for that gap. [HVAC certification](/hvac-certification/), covering EPA 608 requirements, training, and pay, is another entry path this site covers.",
 				],
 			},
 			{
@@ -2184,9 +2190,9 @@ export const guides: Guide[] = [
 		title: 'How to Become a Paralegal: Education, Certification, and Pay',
 		description: "BLS data on the education path most paralegals take, what NALA and NFPA certification exams require, and median pay of $61,010 a year broken out by industry.",
 		published: '2026-08-13',
-		updated: '2026-09-23',
+		updated: '2026-10-12',
 		socCode: '23-2011',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, most paralegals and legal assistants enter the field through an associate's degree or certificate in paralegal studies. BLS reports a median annual wage of $61,010 in May 2024, with the bottom 10% earning less than $39,710 and the top 10% earning more than $98,990. No U.S. state currently licenses the paralegal occupation, though voluntary certification is available through NALA and NFPA.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, most paralegals and legal assistants enter the field through an associate's degree or certificate in paralegal studies. BLS reports a median annual wage of $61,010 in May 2024, with the bottom 10% earning less than $39,710 and the top 10% earning more than $98,990. Traditional lawyer-supervised paralegal work has no general national licensing exam; NALA and NFPA offer voluntary credentials. Separate licensed roles exist, including Oregon Licensed Paralegals with limited independent practice rights.",
 		sections: [
 			{
 				heading: 'How most paralegals get in the door',
@@ -2197,13 +2203,13 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/paralegal-career-path.svg',
-					alt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. No U.S. state currently licenses the occupation.",
+					alt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. Traditional supervised work differs from limited independent-practice licensing, such as Oregon Licensed Paralegals.",
 				},
 			},
 			{
 				heading: 'Certification is voluntary, not a state license',
 				body: [
-					"Unlike some other occupations covered on this site, where a state license is required to work independently, no U.S. state currently licenses the paralegal profession, according to NFPA, the National Federation of Paralegal Associations. NFPA notes several states are working on regulatory frameworks, but as things stand, using the title \"paralegal\" does not require a government-issued license anywhere in the country. That is a sharp contrast with this site's [timeline for becoming a dentist](/how-long-does-it-take-to-become-a-dentist/), which per BLS runs 8 years and ends in mandatory state licensing exams.",
+					"NALA and NFPA credentials for traditional lawyer-supervised paralegal work are voluntary. That role must be distinguished from licenses permitting limited independent legal services: Oregon created its Licensed Paralegal route in 2023 for designated housing and family-law work, with education, experience and regulatory requirements. Thus a blanket claim that no state licenses any paralegal role is inaccurate. That is a sharp contrast with this site's [timeline for becoming a dentist](/how-long-does-it-take-to-become-a-dentist/), which per BLS runs 8 years and ends in mandatory state licensing exams.",
 					"That does not mean credentials are absent from the field, only that they are voluntary and come from professional associations, not a government body. The National Association of Legal Assistants (NALA) offers the Certified Paralegal (CP) credential through one of three eligibility routes: completing an ABA-approved or otherwise institutionally accredited paralegal studies program (associate's, bachelor's, or post-baccalaureate certificate, or a program of at least 60 semester hours including 15 hours of substantive legal coursework), holding a bachelor's degree in any field plus at least one year of paralegal experience, or holding a high school diploma plus at least five years of paralegal experience and 20 hours of continuing legal education completed in the two years before applying. Candidates who qualify must pass a three-hour, multiple-choice Knowledge Exam before they are eligible to sit for a separate two-hour, written Skills Exam; passing both is required to earn the CP designation.",
 					"NFPA runs a separate pair of exams. The Paralegal CORE Competency Exam (PCCE) is an entry-level credential that leads to the CRP designation, aimed at candidates whose education, rather than years of on-the-job experience, demonstrates readiness. The Paralegal Advanced Competency Exam (PACE) is aimed at paralegals with a comprehensive education plus substantial practical experience, generally two to six years depending on degree level, and leads to the RP designation. BLS confirms the general pattern without naming a specific organization: certification typically requires passing an exam, and maintaining it typically requires a set number of continuing-education hours, which for both NALA's and NFPA's credentials takes the form of continuing legal education (CLE).",
 				],
@@ -2212,7 +2218,7 @@ export const guides: Guide[] = [
 				heading: 'What the job pays, once you get there',
 				body: [
 					"BLS reports a median annual wage of $61,010 for paralegals and legal assistants in May 2024, or $29.33 an hour. The bottom 10% earned less than $39,710, and the top 10% earned more than $98,990, a spread of roughly $59,000. Pay also varies substantially by industry, with federal government roles paying the highest median tracked and state government the lowest; for the full industry-by-industry breakdown and a closer look at what the day-to-day work involves, see [what does a paralegal do](/what-does-a-paralegal-do/).",
-					"Against the shortest entry path this site has covered, [becoming a CNA](/how-to-become-a-cna/) requires a federal minimum of just 75 hours of training rather than a multi-year degree, and BLS puts the median nursing assistant wage at $42,260, about $18,750 below the paralegal figure above. Whether the extra years of schooling are worth that gap depends on a reader's own finances and goals, a call this site's national wage figures are not built to make.",
+					"Against the shortest entry path this site has covered, [becoming a CNA](/how-to-become-a-cna/) describes a 75-hour federal training minimum for covered nursing-home work rather than a multi-year degree, and BLS puts the median nursing assistant wage at $42,260, about $18,750 below the paralegal figure above. Whether the extra years of schooling are worth that gap depends on a reader's own finances and goals, a call this site's national wage figures are not built to make.",
 				],
 			},
 			{
@@ -2231,7 +2237,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do paralegals need to be licensed or certified?',
-				answer: "According to NFPA, not a single U.S. state has a licensing rule on the books for this occupation. Any credentials that do exist are voluntary and industry-run rather than government-issued: NALA's flagship CP designation and NFPA's PCCE and PACE exams are the two most recognized, and both require passing an exam plus a set number of ongoing legal-education credits to keep the credential active.",
+				answer: "Working under a lawyer is different from holding authority to offer limited legal help independently. NALA awards CP; NFPA awards CRP and RP. Renewing those qualifications involves recurring CLE credits. Oregon has also established a state-bar license for certain family and housing matters, with separate admission conditions. That exception makes a claim of no licensing anywhere inaccurate.",
 			},
 			{
 				question: "What's the difference between NALA's CP credential and NFPA's PACE or PCCE exams?",
@@ -2255,12 +2261,14 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'Oregon State Bar: Licensed Paralegals in housing and family law (checked 2026-10-12)', url: 'https://www.osbar.org/lp' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (accessed 2026-08-13 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm' },
 			{ label: 'NALA (National Association of Legal Assistants): Eligibility Requirements for Certification, Category 1 and Category 3', url: 'https://nala.org/eligibility-requirements-for-certification/' },
 			{ label: 'NFPA (National Federation of Paralegal Associations): Paralegal Certification and PACE/PCCE Eligibility', url: 'https://www.paralegals.org/page/paralegal-certification' },
 		],
 		image: '/images/paralegal-career-path.svg',
-		imageAlt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. No U.S. state currently licenses the occupation.",
+		imageAlt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. Traditional supervised work differs from limited independent-practice licensing, such as Oregon Licensed Paralegals.",
 	},
 	{
 		slug: 'how-to-become-an-electrician',
@@ -2512,14 +2520,14 @@ export const guides: Guide[] = [
 		title: 'How Long Does It Take to Become a Lawyer? Degree, LSAT, Bar Exam',
 		description: 'BLS puts the typical path at 7 years: 4 years of undergraduate study plus 3 years of law school, then a state bar exam. Median pay is $151,160 a year.',
 		published: '2026-08-17',
-		updated: '2026-08-17',
+		updated: '2026-10-12',
 		socCode: '23-1011',
-		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a lawyer usually takes 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school for a Juris Doctor (J.D.). That degree alone does not permit anyone to practice; every state also requires passing a bar exam and being admitted to the bar. BLS reports a median annual lawyer salary of $151,160 in May 2024, with the bottom 10% earning less than $72,780 and the top 10% earning more than $239,200.',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a lawyer usually takes 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school for a Juris Doctor (J.D.). That degree alone does not permit anyone to practice; every state requires admission to practice, usually through a bar exam, with exceptions such as Wisconsin diploma privilege. BLS reports a median annual lawyer salary of $151,160 in May 2024, with the bottom 10% earning less than $72,780 and the top 10% earning more than $239,200.',
 		sections: [
 			{
 				heading: 'The 7-year timeline BLS actually gives',
 				body: [
-					"Per BLS, becoming a lawyer usually takes 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school. Most law schools do not require a specific bachelor's major for admission, though BLS notes that applicants commonly come in having studied law and legal studies, history, or social science. A similar gap between assumed and actual program length shows up in nursing: this site's [guide to nursing school length](/how-long-is-nursing-school/) explains why BLS lists both the BSN and the associate's-degree path at about 4 years, not the 2 years often assumed.",
+					"Per BLS, becoming a lawyer usually takes 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school. Most law schools do not require a specific bachelor's major for admission, though BLS notes that applicants commonly come in having studied law and legal studies, history, or social science. A similar gap between assumed and actual program length shows up in nursing: this site's [guide to nursing school length](/how-long-is-nursing-school/) reports that BLS lists both BSN and ADN/ASN programs at about four years, while noting that BLS does not explain the associate estimate.",
 					"That 7-year figure covers the degree itself, not the ability to practice. Most states require the J.D. to come from a law school accredited by the American Bar Association (ABA); a J.D. from an ABA-accredited school has been treated as sufficient by every U.S. jurisdiction. California is the most notable exception: per the State Bar of California, applicants can also qualify for the California bar exam through four years of study at a state-registered but not ABA-accredited fixed-facility law school (a minimum of 270 classroom hours a year), or through a registered correspondence or distance-learning law school (a minimum of 864 study hours a year). Students at those unaccredited schools must additionally pass the First-Year Law Students' Examination, informally called the \"baby bar,\" after their first year. Per the State Bar of California, passing it within three consecutive administrations credits all law study completed up to that point; passing on a later attempt credits only one year of study toward the degree requirement.",
 				],
 				image: {
@@ -2537,15 +2545,15 @@ export const guides: Guide[] = [
 			{
 				heading: 'The J.D. does not let anyone practice on its own',
 				body: [
-					'BLS states plainly that all states require lawyers to be licensed, and that requirements vary by state. Candidates must graduate from an accredited law school and then pass a bar exam before they can practice, a step separate from and after finishing the degree itself. Bar exams are coordinated at the national level by the National Conference of Bar Examiners (NCBE), which develops the (legacy) Uniform Bar Examination (UBE): the Multistate Essay Examination, two Multistate Performance Test tasks, and the Multistate Bar Examination, combined into a single scaled score.',
-					"Not every state uses the same exam. Per NCBE's own current jurisdiction list, checked directly on 2026-08-17, 35 of the 51 U.S. jurisdictions it tracks (34 states plus the District of Columbia) have adopted the legacy UBE; the rest, including California, Florida, and several others, administer their own state-specific bar exam instead. A UBE score is portable: it can be transferred to seek admission in any other UBE jurisdiction without retaking the exam, though some UBE jurisdictions still require passing a separate, shorter local-law component first. NCBE is also phasing in a redesigned NextGen UBE, with the legacy exam scheduled to stop being administered after February 2028, so the specific exam format a given state uses is likely to keep shifting over the next few years.",
+					'BLS states plainly that all states require lawyers to be licensed, and that requirements vary by state. Admission rules generally require a qualifying legal education and a bar exam, but exceptions exist. Wisconsin grants diploma privilege to qualifying University of Wisconsin and Marquette graduates, subject to legal-competence and character-and-fitness certification. A degree alone does not grant admission. Bar exams are coordinated at the national level by the National Conference of Bar Examiners (NCBE), which develops the (legacy) Uniform Bar Examination (UBE): the Multistate Essay Examination, two Multistate Performance Test tasks, and the Multistate Bar Examination, combined into a single scaled score.',
+					"Not every state uses the same exam. Per NCBE's own current jurisdiction list, checked directly on 2026-08-17, jurisdictions differ between the legacy UBE, the new NextGen UBE and state-specific exams. A fixed count of legacy users is misleading during the transition; Wisconsin began administering the UBE in July 2026, while California and Florida use their own exams. A UBE score is portable: it can be transferred to seek admission in any other UBE jurisdiction without retaking the exam, though some UBE jurisdictions still require passing a separate, shorter local-law component first. NCBE is also phasing in a redesigned NextGen UBE, with the legacy exam scheduled to stop being administered after February 2028, so the specific exam format a given state uses is likely to keep shifting over the next few years.",
 					'Passing the bar and being "admitted to the bar" is not the final step either. Per BLS, states may require lawyers to participate in continuing legal education (CLE) to maintain their license, on top of the one-time licensing exam.',
 				],
 			},
 			{
 				heading: 'What the extra years buy, against other long-training paths on this site',
 				body: [
-					'BLS reports a median annual wage of $151,160 for lawyers in May 2024, or $72.67 an hour. The bottom 10% earned less than $72,780, and the top 10% earned more than $239,200, the ceiling BLS publishes for this figure rather than an exact top value; that data excludes self-employed lawyers and law-firm owners or partners. By industry, BLS lists federal government roles at the highest median it tracks, $174,680, ahead of legal services (the largest employer segment) at $143,470, local government excluding education and hospitals at $125,180, and state government excluding education and hospitals at $111,280, the lowest of the four. BLS projects 4% employment growth for lawyers from 2024 to 2034, which it classifies as about as fast as average, adding roughly 31,500 openings a year, most from the need to replace workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
+					'BLS reports a median annual wage of $151,160 for lawyers in May 2024, or $72.67 an hour. The bottom 10% earned less than $72,780, and the top 10% earned more than $239,200, a top-coded reporting threshold rather than a maximum lawyer wage; that data excludes self-employed lawyers and law-firm owners or partners. By industry, BLS lists federal government roles at the highest median it tracks, $174,680, ahead of legal services (the largest employer segment) at $143,470, local government excluding education and hospitals at $125,180, and state government excluding education and hospitals at $111,280, the lowest of the four. BLS projects 4% employment growth for lawyers from 2024 to 2034, which it classifies as about as fast as average, adding roughly 31,500 openings a year, most from the need to replace workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
 					"Against other occupations on this site that require a doctoral or professional degree, the lawyer figure sits at the top of the group: [pharmacists](/pharmacist-salary/), who need a Doctor of Pharmacy (PharmD), post a lower BLS median of $140,910, and [physical therapists](/how-to-become-a-physical-therapist/), who need a three-year Doctor of Physical Therapy after a bachelor's degree plus a licensing exam, post $101,020. [Paralegals](/how-to-become-a-paralegal/), whose BLS page lists lawyers as a comparison point precisely because paralegals support them without being licensed to practice law, post a considerably lower median of $61,010 on an associate's-degree or certificate entry path. None of these comparisons account for a reader's own state, practice area, or years of experience, and BLS's national medians are not built to say which path is the better financial bet for any one person. For a field on a different degree track, this site's guide to [becoming a software engineer](/how-to-become-a-software-engineer/) covers the degree, path, and pay.",
 				],
 			},
@@ -2553,7 +2561,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How many years does it take to become a lawyer?',
-				answer: "Seven years, per BLS: four years earning an undergraduate degree, then three more for a J.D. at law school. Earning the J.D. doesn't put anyone in a courtroom on its own: they still need a passing bar-exam score and formal admission to the bar before they can call themselves a practicing lawyer.",
+				answer: "A conventional full-time path totals seven years: an undergraduate degree over four, then three at law school. Professional admission is still needed afterward. Most candidates sit an examination, but eligible graduates of the two Wisconsin law schools can qualify through the diploma route, after the required assessment of legal knowledge, fitness and character.",
 			},
 			{
 				question: 'Do you need the LSAT to get into law school?',
@@ -2561,7 +2569,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does finishing law school let you practice right away?',
-				answer: 'No. Per BLS, every state requires a law license, with the specific rules set state by state. An ABA-accredited J.D. only gets a candidate to the starting line; they still have to sit for and pass a bar exam, coordinated in most states through NCBE\'s UBE, before a court will let them take on clients. BLS also notes that some states keep the license active only if a lawyer keeps taking approved coursework, commonly shortened to CLE.',
+				answer: 'No. A law-school credential alone does not authorize practice. The usual next step is an admission examination, although eligible alumni of UW or Marquette have a diploma route in Wisconsin. Each jurisdiction sets the remaining conditions; recurring approved coursework may also be required to keep a license.',
 			},
 			{
 				question: 'What is the highest-paying industry for lawyers?',
@@ -2573,6 +2581,9 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'Wisconsin Court System: diploma privilege and July 2026 UBE adoption (checked 2026-10-12)', url: 'https://www.wicourts.gov/services/attorney/bar.htm' },
+			{ label: 'NCBE: legacy UBE and NextGen transition (checked 2026-10-12)', url: 'https://www.ncbex.org/exams/ube' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Lawyers (accessed 2026-08-17 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/lawyers.htm' },
 			{ label: 'NCBE (National Conference of Bar Examiners): UBE Jurisdictions (checked 2026-08-17)', url: 'https://www.ncbex.org/exams/ube' },
 			{ label: 'LSAC (Law School Admission Council): LSAT Scoring', url: 'https://www.lsac.org/lsat/lsat-scoring' },
@@ -5209,22 +5220,22 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Occupational Therapy Assistant Salary, Per BLS',
 		description: 'BLS puts the median occupational therapy assistant salary at $72,300 a year, nearly double the $39,160 median it reports for aides on the same page.',
 		published: '2026-09-04',
-		updated: '2026-09-04',
+		updated: '2026-10-12',
 		socCode: '31-2011',
 		coreSummary: "The median annual wage for occupational therapy assistants was $72,300 in May 2025, according to the U.S. Bureau of Labor Statistics, or roughly $34.76 an hour. The bottom 10% earned less than $51,490 while the top 10% earned more than $89,780, a spread of about $38,290. BLS reports this figure on a combined page for 'Occupational Therapy Assistants and Aides,' but the two roles are paid very differently: occupational therapy aides, a separate, lower-training role on the same BLS page, had a May 2025 median of just $39,160. BLS projects 21% employment growth for occupational therapy assistants from 2025 to 2035, much faster than the roughly 3% average across all occupations, growing the occupation from 52,200 workers to an estimated 63,400.",
 		sections: [
 			{
 				heading: 'One BLS page, two very different paychecks',
 				body: [
-					"BLS tracks occupational therapy assistants under SOC code 31-2011, but publishes that data on a single Occupational Outlook Handbook page shared with a second, related occupation: occupational therapy aides (31-2012). The two titles sound close enough to blur together, and BLS's own combined header stat for the page, $70,800 a year, blends them into one number. Split apart, the gap is large: assistants earned a median of $72,300 in May 2025, while aides earned $39,160, a difference of $33,140. The bottom 10% of assistants still out-earned the median aide, at $51,490 versus $39,160.",
-					"The pay gap tracks a real difference in what the job requires. Per BLS, occupational therapy assistants typically need an associate's degree from an accredited occupational therapy assistant program and usually a state-issued license, working directly with clients on therapeutic exercises and skill-building under an occupational therapist's supervision. Occupational therapy aides typically need only a high school diploma or its equivalent and learn on the job, handling setup, scheduling, and other support tasks rather than delivering therapy themselves. BLS does not license aides the way it does assistants.",
+					"BLS tracks occupational therapy assistants under SOC code 31-2011, but publishes that data on a single Occupational Outlook Handbook page shared with a second, related occupation: occupational therapy aides (31-2012). The two titles sound close enough to blur together, and BLS's own combined header stat for the page, $70,800 a year, blends them into one number. Split apart, the gap is large: assistants earned a median of $72,300 in May 2025, while aides earned $39,160, a difference of $33,140. The assistant tenth-percentile boundary, $51,490, exceeds the $39,160 aide median. Assistants in the lowest tenth earn below that boundary, so the table does not show that all of them earn more than a typical aide.",
+					"The pay gap tracks a real difference in what the job requires. Per BLS, occupational therapy assistants typically need an associate's degree from an accredited occupational therapy assistant program and usually a state-issued license, working directly with clients on therapeutic exercises and skill-building under an occupational therapist's supervision. Occupational therapy aides typically need only a high school diploma or its equivalent and learn on the job, handling setup, scheduling, and other support tasks rather than delivering therapy themselves. BLS describes licensing requirements; state boards, not BLS, issue occupational licenses.",
 				],
 			},
 			{
 				heading: 'Pay by industry, and the associate\'s-degree ceiling next to a master\'s-degree role on this site',
 				body: [
 					"BLS breaks out May 2025 wages for occupational therapy assistants across five industry categories. Home healthcare services paid the highest median at $77,310, just ahead of nursing care facilities (skilled nursing facilities) at $76,780. Offices of physical, occupational and speech therapists, and audiologists, the outpatient-clinic setting, paid $70,740, followed by hospitals at $67,020. Educational services, meaning school-based work, paid the least of the five tracked categories at $60,920, a $16,390 gap between the highest- and lowest-paying settings BLS lists here.",
-					"Against [occupational therapists](/occupational-therapist-salary/), the credentialed role assistants work under, the pay gap is substantial: BLS puts the OT median at $98,340 (May 2024, the most recent year BLS has published for that page), about $26,040 above the assistant figure. That gap lines up with a real difference in schooling, a master's degree for OTs versus an associate's degree for assistants, roughly two additional years of graduate coursework. Against [dental hygienists](/dental-hygienist-salary/), another allied-health role this site tracks, the comparison cuts the other way: BLS reports a $94,260 median for dental hygienists, $21,960 above occupational therapy assistants, even though BLS lists an associate's degree as the typical entry-level education for both occupations, a fact this site's dental hygienist page does not itself spell out but that BLS states directly on its own dental hygienist handbook page. BLS does not explain on either page why two associate's-degree fields land so far apart in pay. A master's-degree field with a required residency also lands below the hygienist figure, as this site's [orthotist and prosthetist salary guide](/orthotist-and-prosthetist-salary/) shows.",
+					"Against [occupational therapists](/occupational-therapist-salary/), the credentialed role assistants work under, the pay gap is substantial: BLS puts the OT median at $98,340 (May 2024, the year retained in that guide), about $26,040 above the May 2025 assistant figure, a comparison across different survey years. That gap lines up with a real difference in schooling, a master's degree for OTs versus an associate's degree for assistants, roughly two additional years of graduate coursework. Against [dental hygienists](/dental-hygienist-salary/), another allied-health role this site tracks, the comparison cuts the other way: BLS reports a $94,260 median for dental hygienists, $21,960 above occupational therapy assistants, even though BLS lists an associate's degree as the typical entry-level education for both occupations, a fact this site's dental hygienist page does not itself spell out but that BLS states directly on its own dental hygienist handbook page. BLS does not explain on either page why two associate's-degree fields land so far apart in pay. A master's-degree field with a required residency also lands below the hygienist figure, as this site's [orthotist and prosthetist salary guide](/orthotist-and-prosthetist-salary/) shows.",
 				],
 			},
 			{
@@ -5257,7 +5268,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'How does occupational therapy assistant pay compare to occupational therapists?',
-				answer: "The fully credentialed version of this role carries a $98,340 midpoint on BLS's most current figures, a $26,040 lead over assistants. Closing that pay gap generally requires finishing graduate school beyond the two-year credential an assistant position calls for.",
+				answer: "The OT guide retains a May 2024 midpoint of $98,340, compared with $72,300 for assistants in May 2025, a $26,040 difference across survey years. The clinician role normally involves graduate education, while assistants commonly qualify at the associate level. These figures do not isolate the return from additional schooling.",
 			},
 			{
 				question: 'Is occupational therapy assistant a growing career?',
@@ -5273,7 +5284,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do occupational therapy assistants make more than nurses?',
-				answer: "No. BLS puts the 2025 median for registered nurses at $97,550 a year, about $25,250 above the $72,300 figure this page reports above. Part of that gap traces to schooling length: nurses typically enter with a bachelor's degree, while the assistants this page covers typically enter with the shorter, associate's-level credential.",
+				answer: "No: the May 2025 RN midpoint of $97,550 exceeds the assistant figure of $72,300 by $25,250. BLS lists different usual education levels, bachelor for RN and associate for OTA, but it also describes associate and diploma RN routes. The pay comparison does not establish training length as the cause.",
 			},
 		],
 		sources: [
