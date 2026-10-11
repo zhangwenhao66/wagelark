@@ -157,14 +157,14 @@ export const guides: Guide[] = [
 		title: 'Dental Hygienist Salary: What BLS Data Actually Shows (2026)',
 		description: 'BLS puts the median dental hygienist salary at $94,260 a year. Here is the full wage range by percentile, by industry, and what drives the gap.',
 		published: '2026-08-03',
-		updated: '2026-09-24',
+		updated: '2026-10-12',
 		socCode: '29-1292',
 		coreSummary: 'The median annual wage for dental hygienists was $94,260 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% of earners made less than $66,470, while the top 10% made more than $120,060, a range driven mainly by geography, hours worked, and whether the role is in a private dental office versus a physician\'s office or government setting.',
 		sections: [
 			{
 				heading: 'What dental hygienists actually earn, by percentile',
 				body: [
-					'The Bureau of Labor Statistics tracks dental hygienist pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The most recent published data, from May 2024, put median annual pay at $94,260, or $45.32 an hour, for a role that is very often scheduled hourly, not salaried.',
+					'The Bureau of Labor Statistics tracks dental hygienist pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The May 2024 data retained in this guide put median annual pay at $94,260, or $45.32 an hour, for a role that is very often scheduled hourly, not salaried.',
 					'That median sits in the middle of a fairly wide spread. The lowest-earning 10% of dental hygienists made less than $66,470 a year, while the highest-earning 10% made more than $120,060. A nearly $54,000 gap between the bottom and top deciles reflects real differences in setting, schedule, and region, not random variation. A hygienist working four days a week in a rural practice and one working full-time in a high-cost metro area are functionally in different pay markets.',
 					'One structural note worth understanding before comparing this figure to a job posting: dental hygiene is one of the more common healthcare roles paid by the hour or by the day rather than a fixed annual salary, and many hygienists work fewer than five days a week by choice. BLS converts reported hourly wages to an annual figure by assuming full-time, full-year work (2,080 hours), so a hygienist working three or four days a week should expect actual annual earnings below the published median even if their hourly rate is at or above it.',
 				],
@@ -202,7 +202,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do the lowest- and highest-paid dental hygienists make?',
-				answer: 'BLS reports that hygienists in the bottom decile earned under $66,470 in May 2024, while the top decile cleared $120,060. The gap mostly reflects hours worked (many in the role choose part-time schedules) and regional cost-of-living differences, not a single factor.',
+				answer: 'BLS reports that hygienists in the bottom decile earned under $66,470 in May 2024, while the top decile cleared $120,060. Schedules, location and employer setting may differ, but these percentile figures do not establish how much each factor contributes. Hourly-based annual estimates assume full-time hours, rather than actual employee part-time earnings.',
 			},
 			{
 				question: 'Is dental hygiene a growing field?',
@@ -210,18 +210,20 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How long does it take to become a dental hygienist?',
-				answer: 'BLS lists an associate degree as this field\'s typical entry-level education, generally a two-year program of full-time study, though BLS does not itself state an exact number of years on this page.',
+				answer: 'The usual qualification is an associate-level dental-hygiene course. BLS explicitly says these programs generally take three years, with clinical, laboratory and classroom work. Individual schools set prerequisites and calendars, so the degree label alone does not establish a two-year completion time.',
 			},
 			{
 				question: 'Who gets paid more, RN or RDH?',
-				answer: 'The two are close, per BLS\'s May 2024 data: dental hygienists had a median of $94,260, just above the $93,600 median for registered nurses reported on this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide. Both figures come from BLS\'s OEWS wage survey for the same year, though the two occupations require different entry credentials: a two-year associate credential for this role versus a bachelor\'s, associate\'s, or diploma path for registered nurses.',
+				answer: 'In the May 2024 series, hygiene had a $94,260 midpoint and RN work $93,600, a $660 difference. Those are same-year OEWS estimates. Training follows different paths: hygiene programs usually last three years; the [nursing-school guide](/how-long-is-nursing-school/) describes bachelor, associate and hospital-diploma routes to RN licensure.',
 			},
 			{
 				question: 'Is dental hygiene harder than nursing?',
-				answer: "That's subjective, and BLS doesn't rate occupations by difficulty, but the two credentials differ in scope. BLS lists an associate's degree as the typical entry-level education for this occupation and, via one of several accepted paths, for registered nurses too, so the base training length is often similar. Where they diverge is breadth: nursing covers a much wider range of settings, patient conditions, and clinical decision-making across a career, while dental hygiene is a narrower, single-setting scope centered on preventive oral care under a dentist's supervision. Neither BLS nor this page has a way to rank the two by difficulty; the honest answer is that they're different kinds of work, not that one is measurably harder than the other.",
+				answer: "There is no BLS ranking of how difficult the two are. Dental-hygiene study normally lasts three years; RN preparation has several degree or diploma routes with different timelines. Nursing spans many patient conditions and clinical settings, while hygiene concentrates on preventive oral care, with duties and supervision governed by state rules. Credential level alone cannot establish equal training time or decide which work is harder.",
 			},
 		],
 		sources: [
+			{ label: 'BLS dental hygienist education: programs usually take three years (checked 2026-10-12)', url: 'https://www.bls.gov/ooh/healthcare/dental-hygienists.htm' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Dental Hygienists (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/dental-hygienists.htm' },
 		],
 		image: '/images/dental-hygienist-salary-chart.svg',
@@ -5766,7 +5768,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Speech-Language Pathologist Salary: $97,870 Median Pay',
 		description: 'BLS puts the median speech-language pathologist salary at $97,870 a year, above the $50,980 U.S. median, with 17% job growth projected through 2035.',
 		published: '2026-09-13',
-		updated: '2026-09-13',
+		updated: '2026-10-12',
 		socCode: '29-1127',
 		coreSummary: "Speech-language pathologists earned a median of $97,870 in May 2025, per the Bureau of Labor Statistics, working out to $47.05 an hour. The bottom 10% of earners made less than $62,900, and the top 10% cleared $134,160, a range of roughly $71,260. That places speech-language pathologists $46,890 above the $50,980 median BLS reports across all U.S. occupations, and $2,090 above audiologists ($95,780), a closely related field that typically requires a four-year clinical doctorate rather than speech-language pathology's typical two-year master's. BLS counted 193,400 speech-language pathologists in 2025 and projects 17% growth through 2035, much faster than average, adding roughly 32,100 jobs.",
 		sections: [
@@ -5802,7 +5804,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		faq: [
 			{
 				question: 'What is the median speech-language pathologist salary?',
-				answer: "For May 2025, BLS puts it at $97,870 annually, which works out to roughly $47 for each hour on the clock, across a workforce of 193,400 nationwide.",
+				answer: "The May 2025 wage midpoint was $97,870, or about $47 hourly, according to the employer survey. Separately, the employment forecast starts from 193,400 jobs that year. That headcount is not the sample behind the wage figure.",
 			},
 			{
 				question: 'What is the pay range for speech-language pathologists?',
@@ -5998,14 +6000,14 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Ironworker Salary: $62,780 Median (2026 BLS)',
 		description: 'BLS puts the median structural ironworker salary at $62,780, but its own data shows two trades hiding under one job title, with opposite 10-year outlooks.',
 		published: '2026-09-15',
-		updated: '2026-09-15',
+		updated: '2026-10-12',
 		socCode: '47-2221',
 		coreSummary: "The U.S. Bureau of Labor Statistics tracks \"ironworkers\" as two distinct occupations under one Occupational Outlook Handbook page: structural iron and steel workers (SOC 47-2221) and reinforcing iron and rebar workers (SOC 47-2171). Structural ironworkers, who erect the steel frames of buildings, bridges, and towers, earned a median of $62,780 in May 2025, with the bottom 10% under $44,580 and the top 10% over $108,260. Reinforcing ironworkers, who install rebar inside poured concrete, earned less at every level: a $58,970 median, $43,310 at the 10th percentile, and $104,540 at the 90th. BLS projects the two trades will head in opposite directions over the next decade: 3% growth for structural iron and steel workers, roughly the same pace as the U.S. economy overall, against a 5% decline for reinforcing iron and rebar workers, a split the combined \"Ironworkers\" headline figure BLS publishes (1% growth, 84,800 workers in 2025) blends into one number.",
 		sections: [
 			{
 				heading: "The $62,780 median, and why \"ironworker\" is really two jobs",
 				body: [
-					"Per BLS, the median annual wage for structural iron and steel workers, the trade most people picture when they hear \"ironworker,\" the crews who bolt and weld together the steel skeletons of buildings, bridges, and towers, was $62,780 in May 2025. The bottom 10% of earners made less than $44,580, while the top 10% cleared $108,260, a spread of roughly $63,680 between the extremes. That $62,780 median sits within about $1,000 of what BLS reports for electricians and plumbers, two other high school diploma-entry trades this site covers, and its $108,260 top-decile figure lands almost exactly on top of theirs too, a pattern detailed further down this page. For where that figure falls against the wider U.S. labor market, see this site's [roundup of national wage statistics](/salary-statistics-2026/).",
+					"Per BLS, the median annual wage for structural iron and steel workers, the trade most people picture when they hear \"ironworker,\" the crews who bolt and weld together the steel skeletons of buildings, bridges, and towers, was $62,780 in May 2025. The bottom 10% of earners made less than $44,580, while the top 10% cleared $108,260, a $63,680 difference between those percentile boundaries, not the full earnings range. That $62,780 median sits within about $1,000 of what BLS reports for electricians and plumbers, two other high school diploma-entry trades this site covers, and its $108,260 top-decile figure lands almost exactly on top of theirs too, a pattern detailed further down this page. For where that figure falls against the wider U.S. labor market, see this site's [roundup of national wage statistics](/salary-statistics-2026/).",
 					"BLS's Occupational Outlook Handbook page titled \"Ironworkers\" actually covers a second, separate occupation with its own six-digit SOC code: reinforcing iron and rebar workers, who install the steel reinforcing bars inside concrete before it's poured, rather than erecting structural steel frames. That trade earned less at every point BLS measures for May 2025: a $58,970 median, $3,810 below the structural figure, with a $43,310 to $104,540 spread between its 10th and 90th percentiles. The two trades share entry requirements and many of the same apprenticeship programs, but BLS tracks them as distinct occupations in its pay tables, not interchangeable titles for the same job.",
 				],
 			},
@@ -6027,8 +6029,8 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			{
 				heading: 'How ironworker pay compares with other no-degree trades',
 				body: [
-					"Against other high school diploma-entry trades this site has covered, structural ironworker pay lands close to the middle of the pack at the median but converges sharply at the top end. [Electricians](/electrician-salary/) have a slightly higher median, $63,190 versus $62,780 for structural ironworkers, and their top decile, $108,510, sits within $250 of the ironworker figure above. [Plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) run close behind at a $63,800 median with a $108,420 top decile, again within a few hundred dollars of both trades. Three separate BLS occupations, three different training paths and licensing structures, and all three converge on roughly $108,000 to $109,000 for their highest-paid 10%, a pattern BLS does not call out but that its own percentile tables show clearly side by side.",
-					"[Welders, cutters, solderers, and brazers](/welder-salary/) trail noticeably behind at every point BLS measures, a $53,750 median with a $77,530 top decile, roughly $30,700 below the structural ironworker ceiling despite a similar high school diploma entry bar and overlapping welding work on the job. At the other extreme, [electrical power-line installers and repairers](/how-to-become-a-lineman/), commonly called linemen, post a $95,320 median well above any of the trades here, in a role whose path adds line-crew apprenticeship training and, usually, a CDL on top of the same nominal high school diploma bar. BLS does not weigh how much of these gaps trace to licensing requirements, physical risk, or regional demand for each trade; the comparison describes what BLS's own tables report side by side, not a claim about which path suits a given reader.",
+					"Against other high school diploma-entry trades this site has covered, structural ironworker pay lands close to the middle of the pack at the median but converges sharply at the top end. [Electricians](/electrician-salary/) have a slightly higher median, $63,190 versus $62,780 for structural ironworkers, and their top decile, $108,510, sits within $250 of the ironworker figure above. [Plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/) run close behind at a $63,800 median with a $108,420 top decile, again within a few hundred dollars of both trades. Three separate BLS occupations, three different training paths and licensing structures, and all three place the boundary of their highest-paid tenth at roughly $108,000 to $109,000, a pattern BLS does not call out but that its own percentile tables show clearly side by side.",
+					"[Welders, cutters, solderers, and brazers](/welder-salary/) trail noticeably behind at every point BLS measures, a $53,750 median with a $77,530 top decile, roughly $30,700 below the structural ironworker 90th-percentile boundary despite a similar high school diploma entry bar and overlapping welding work on the job. At the other extreme, [electrical power-line installers and repairers](/how-to-become-a-lineman/), commonly called linemen, post a $95,320 median well above any of the trades here, in a role whose path adds line-crew apprenticeship training and, usually, a CDL on top of the same nominal high school diploma bar. BLS does not weigh how much of these gaps trace to licensing requirements, physical risk, or regional demand for each trade; the comparison describes what BLS's own tables report side by side, not a claim about which path suits a given reader.",
 				],
 			},
 		],
@@ -6039,7 +6041,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do ironworkers make six figures?',
-				answer: "Top performers in either specialty do. BLS's 90th-percentile figures for May 2025 run to $108,260 for steel-frame crews and $104,540 for rebar crews, both past six figures, though a typical worker in either specialty takes home far less than that.",
+				answer: "Yes. The upper tenth begins above $108,260 for structural crews and $104,540 for reinforcing crews in the May 2025 data. Both boundaries exceed $100,000, while the typical worker earns considerably less. These are pay percentiles, not BLS ratings of job performance.",
 			},
 			{
 				question: 'Where do ironworkers get paid the most?',
@@ -6047,7 +6049,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do ironworkers make $400 an hour?',
-				answer: "Nothing in BLS's May 2025 numbers supports that claim. Even the best-paid tenth of steel-frame crews, over $108,000 a year, comes out to roughly $52 an hour across a standard 2,080-hour work year, nowhere close to $400.",
+				answer: "That would be unusual compared with these national figures: $400 hourly amounts to $832,000 over a 2,080-hour year. The structural trade had a $108,260 upper-decile threshold, equivalent to about $52 hourly. That marks entry to the highest-paid tenth, not its maximum; BLS does not establish that no individual can earn $400 an hour.",
 			},
 			{
 				question: 'Is ironworking a growing career?',
@@ -6148,9 +6150,9 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Orthotist and Prosthetist Salary: $81,110 Median',
 		description: "BLS puts the median orthotist and prosthetist salary at $81,110 a year, $16,990 below dental hygienists despite requiring a master's degree and residency.",
 		published: '2026-09-16',
-		updated: '2026-09-26',
+		updated: '2026-10-12',
 		socCode: '29-2091',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, orthotists and prosthetists earned a median of $81,110 in May 2025, or $38.99 an hour, across a combined occupation BLS tracks under a single SOC code, 29-2091. Earners in the bottom 10% made less than $46,350, and those in the top 10% cleared $119,810, a spread of roughly $73,460. That beats the $50,980 median BLS reports across all U.S. occupations by $30,130, but it trails the $98,100 median for [dental hygienists](/dental-hygienist-salary/) by $16,990, despite dental hygiene typically requiring only an associate degree against this field's master's degree and residency. BLS counted 9,500 orthotists and prosthetists in 2025 and projects 13% growth through 2035, more than four times the roughly 3% average across all occupations.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, orthotists and prosthetists earned a median of $81,110 in May 2025, or $38.99 an hour, across a combined occupation BLS tracks under a single SOC code, 29-2091. Earners in the bottom 10% made less than $46,350, and those in the top 10% cleared $119,810, a spread of roughly $73,460. That beats the $50,980 median BLS reports across all U.S. occupations by $30,130, but it trails the May 2025 dental hygienist median of $98,100 by $16,990; the [dental hygienist guide](/dental-hygienist-salary/) retains the earlier May 2024 wage figures. The usual dental-hygiene qualification is an associate degree, compared with the graduate degree and residency required in orthotics and prosthetics. BLS counted 9,500 orthotists and prosthetists in 2025 and projects 13% growth through 2035, more than four times the roughly 3% average across all occupations.",
 		sections: [
 			{
 				heading: 'What orthotists and prosthetists earn, and what the job actually involves',
@@ -6163,7 +6165,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: "A master's degree and a year-long residency, yet dental hygienists still earn more",
 				body: [
 					"Per BLS, orthotists and prosthetists typically need a master's degree in orthotics and prosthetics from a program accredited by a professional organization, plus a roughly one-year residency, also professionally accredited, after graduating. Master's programs generally take about two years and require a bachelor's degree to enter, and residencies can run longer for candidates who want to specialize in both orthotics and prosthetics rather than just one. BLS doesn't name the accrediting bodies on this page; it points readers to their state licensing board for licensure requirements (some but not all states require a license) and to CareerOneStop for certification information.",
-					"That is a longer, more advanced credential path than the associate degree BLS lists as the typical entry point for this site's [dental hygienist salary guide](/dental-hygienist-salary/). Yet BLS's own dedicated page for that occupation puts the May 2025 median for dental hygienists at $98,100, a full $16,990 above what orthotists and prosthetists earn despite the shorter, less advanced degree path. BLS does not explain the gap across its own pages; a plausible factor, not a claim BLS itself makes, is that dental hygiene has a far larger, more established private-practice market that can support routine four-day work weeks at a high hourly rate, while orthotics and prosthetics is a smaller specialty tied more closely to institutional referral patterns.",
+					"That is a longer, more advanced credential path than the associate degree BLS lists as the typical entry point for this site's [dental hygienist salary guide](/dental-hygienist-salary/). The linked guide keeps the May 2024 wage series. BLS meanwhile puts the May 2025 median for dental hygienists at $98,100, a full $16,990 above what orthotists and prosthetists earn despite the shorter, less advanced degree path. BLS does not explain the gap across its own pages; a plausible factor, not a claim BLS itself makes, is that dental hygiene has a far larger, more established private-practice market that can support routine four-day work weeks at a high hourly rate, while orthotics and prosthetics is a smaller specialty tied more closely to institutional referral patterns.",
 				],
 			},
 			{
@@ -6177,14 +6179,14 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Job outlook: 13% growth through 2035, driven by an aging population',
 				body: [
 					"BLS projects 13% employment growth for orthotists and prosthetists from 2025 to 2035, classified as much faster than the roughly 3% average projected across all occupations, growing the field from 9,500 workers in 2025 to an estimated 10,700 by 2035. About 700 openings are projected each year, on average, over the decade, a figure BLS attributes mainly to the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than to net new job creation alone.",
-					"BLS attributes the growth itself to three demand drivers: an aging population with a rising rate of age-related conditions such as osteoarthritis and fall injuries, increasing rates of obesity and diabetes that raise demand for both orthotic foot and heel devices and prosthetic care following amputation, and the continued occurrence of trauma events, such as industrial and car accidents, that require orthotic or prosthetic care to restore mobility. None of the three factors is unique to this occupation; BLS cites similar demand drivers on several other allied-health pages this site tracks, including [occupational therapy assistants](/occupational-therapy-assistant-salary/), where 21% projected growth outpaces even the 13% rate here.",
+					"BLS attributes the growth itself to three demand drivers: an aging population with a rising rate of age-related conditions such as osteoarthritis and fall injuries, increasing rates of obesity and diabetes that raise demand for both orthotic foot and heel devices and prosthetic care following amputation, and the continued occurrence of trauma events, such as industrial and car accidents, that require orthotic or prosthetic care to restore mobility. An aging population is also a demand driver on the [occupational therapy assistant](/occupational-therapy-assistant-salary/) page. Its 21% projection for 2025-35 exceeds the 13% rate for orthotists and prosthetists over the same period.",
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What is the median orthotist and prosthetist salary?',
-				answer: "BLS's May 2025 survey puts it at $81,110 annually, working out to roughly $39 hourly, spread across the 9,500 people BLS counts in this occupation.",
+				answer: "For May 2025, the employer wage survey reports an $81,110 midpoint, equivalent to about $39 hourly. The 9,500-job estimate is a separate employment-projection baseline, not the population used to calculate that wage.",
 			},
 			{
 				question: 'What is the pay range for orthotists and prosthetists?',
@@ -6294,16 +6296,16 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Massage Therapist Salary: $58,450 (2026 BLS)',
 		description: "BLS puts the median massage therapist salary at $58,450 a year, with 15% employment growth projected through 2035. Full wage range by percentile and industry.",
 		published: '2026-09-22',
-		updated: '2026-09-22',
+		updated: '2026-10-12',
 		socCode: '31-9011',
 		coreSummary: 'The median annual wage for massage therapists was $58,450 in May 2025, according to the U.S. Bureau of Labor Statistics, or $28.10 an hour. The bottom 10% earned less than $33,640 while the top 10% earned more than $100,200, a spread of roughly $66,560. BLS projects 15% employment growth from 2025 to 2035, much faster than average, adding an estimated 23,700 jobs to a 2025 workforce of 155,400, with about 20,400 openings projected each year, mostly from workers transferring to other occupations or leaving the labor force.',
 		sections: [
 			{
 				heading: 'What massage therapists earn, and the credential bar BLS lists for this field',
 				body: [
-					'The Bureau of Labor Statistics tracks massage therapist pay through its Occupational Employment and Wage Statistics (OEWS) program, the same employer-survey source behind every wage figure on this site. For May 2025, the most recent data BLS has published, the median annual wage for massage therapists was $58,450, or $28.10 an hour, across an estimated 155,400 jobs nationwide, under SOC code 31-9011.',
-					"That median sits inside a wide range. The bottom 10% of earners made less than $33,640 a year, while the top 10% made more than $100,200, a spread of roughly $66,560 between the two deciles. BLS does not attribute that gap to a single cause on this page, though the industry breakdown below accounts for some of it, and the self-employment pattern covered in the next section likely explains more.",
-					"BLS lists a postsecondary nondegree award as the typical entry-level education for this occupation, meaning a certificate or diploma program rather than a full associate's or bachelor's degree. That's a lighter credential bar than several other allied-health roles this site tracks, including [dental hygienists](/dental-hygienist-salary/), whose $94,260 median (May 2024) comes with an associate's degree requirement, a two-year program beyond what BLS lists for massage therapy.",
+					'The Bureau of Labor Statistics tracks massage therapist pay through its Occupational Employment and Wage Statistics (OEWS) program, the same employer-survey source behind every wage figure on this site. For May 2025, the most recent data BLS has published, the median annual wage for massage therapists was $58,450, or $28.10 an hour, under SOC code 31-9011. A separate Employment Projections estimate counts 155,400 jobs in 2025.',
+					"That median sits inside a wide range. The bottom 10% of earners made less than $33,640 a year, while the top 10% made more than $100,200, a spread of roughly $66,560 between the two deciles. BLS does not attribute that gap to a single cause on this page, and its four industry medians do not isolate the causes of the individual wage spread. Self-employed therapists are outside this wage survey.",
+					"BLS lists a postsecondary nondegree award as the typical entry-level education for this occupation, meaning a certificate or diploma program rather than a full associate's or bachelor's degree. That's a lighter credential bar than several other allied-health roles this site tracks, including [dental hygienists](/dental-hygienist-salary/), whose $94,260 median (May 2024) comes with an associate degree as the usual entry credential, compared with the nondegree award BLS lists for massage therapy.",
 					'BLS also notes that most states regulate massage therapy and require a license or certification, but it is explicit that standards and requirements vary by state, stopping short of naming one uniform national credential the way it does for more tightly regulated fields. Anyone comparing training programs should confirm the specific rules with the licensing board in the state where they plan to practice before assuming a program\'s credential transfers everywhere.',
 				],
 			},
@@ -6311,9 +6313,9 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Where the pay is highest, and a self-employment detail the wage figures don\'t fully capture',
 				body: [
 					'BLS breaks out May 2025 wages across four industry categories for massage therapists, and the spread between them is wide. Offices of chiropractors paid the highest median of the four, $72,800, about $14,350 above the occupation\'s overall median. Offices of all other health practitioners came in second at $65,350. Personal care services, the category covering spas and similar wellness businesses, paid $56,230. Accommodation providers, meaning hotels and resorts that employ their own massage staff, paid the least of the four: $43,840, a difference of $28,960 from the top-paying setting.',
-					"The $35,800 median BLS separately reports for [home health and personal care aides](/what-does-a-home-health-aide-do/), an occupation that shares the 'personal care services' industry label in BLS's data, sits below every one of the four massage therapy settings, including the lowest-paying one. The two occupations are adjacent in BLS's industry classification but far apart in pay, a reminder that an industry category name alone doesn't say much about what a specific job inside it pays.",
+					"The $35,800 median BLS separately reports for [home health and personal care aides](/what-does-a-home-health-aide-do/), a separate combined occupation whose industry table includes individual and family services, sits below every one of the four massage therapy settings, including the lowest-paying one. Individual and family services is not the personal care services category used above. This comparison is between the aide occupation overall and four massage-therapy settings, not two jobs within one industry.",
 					'BLS\'s write-up for this occupation flags a structural reason the figures above may not match what a given therapist actually takes home in a year: "many massage therapists are self-employed," and part-time schedules are common, partly because of the physical demands of the work. Because of the strength and endurance needed to give a massage, BLS states plainly that "many therapists cannot perform massage services 8 hours per day, 5 days a week."',
-					"That self-employment note carries more weight than it might first appear. The OEWS survey behind every wage and job-count figure this page cites leaves the self-employed out of its coverage entirely, a limitation confirmed on BLS's separate OEWS methodology FAQ; this occupation's BLS page does not mention that gap itself. Both the $58,450 median and the 155,400 jobs total come from that survey, so they describe only the salaried, employer-payroll slice of the field. The self-employed share, the one BLS itself calls common in this occupation, doesn't show up in either number.",
+					"That self-employment note carries more weight than it might first appear. The OEWS survey behind the wage figures leaves self-employed workers outside its coverage, a limitation confirmed on BLS's separate OEWS methodology FAQ; this occupation's BLS page does not mention that gap itself. The $58,450 wage median therefore describes employees, including those working part time. The 155,400 employment estimate comes from Employment Projections, whose broader coverage includes self-employment. They are different statistical populations. Annual OEWS pay based on an hourly rate assumes 2,080 hours, so it need not match actual earnings on a shorter schedule.",
 				],
 			},
 			{
@@ -6348,7 +6350,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Are most massage therapists self-employed, and does that affect the wage data?',
-				answer: 'A meaningful share, per BLS, which describes both self-employment and part-time work as widespread in this occupation. That matters for reading the figures on this page: by its own published methodology, the underlying OEWS survey does not produce estimates covering people who work for themselves. So the median pay and the job count both count wage-and-salary workers only, missing every independent-practice therapist entirely.',
+				answer: 'BLS describes independent practice and reduced schedules as common. Self-employed earnings are excluded from OEWS pay statistics, but employees working part time are included. The 155,400-job estimate uses the broader employment-projection coverage, including self-employment, so it must not be read as a payroll-only count.',
 			},
 			{
 				question: 'Is massage therapy school hard?',
@@ -6356,10 +6358,13 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Is massage therapy worth it as a career?',
-				answer: "BLS's aggregate numbers lean favorable: a 15% jump in projected jobs over the coming decade, faster than any other light-training-bar role WageLark has covered, plus a $58,450 median that beats several other short-training roles. Two caveats sit next to that data. Pay varies widely by setting, from a low of $43,840 in hotel and resort jobs up to $72,800 in chiropractic offices, and a meaningful share of the field is self-employed or part-time, a group the underlying BLS survey doesn't capture at all. Whether fast growth, a wide pay spread, and common self-employment add up to worth it depends on individual circumstances BLS's labor-market data doesn't speak to.",
+				answer: "The national outlook is strong: 15% projected growth, leading the light-training occupations tracked here, and a $58,450 wage midpoint above several comparable roles. Employer setting matters: the listed medians run from $43,840 at accommodation businesses to $72,800 at chiropractic practices. OEWS covers part-time employees but excludes self-employed earnings; annualized hourly wages can also overstate actual income on a short schedule. Those figures cannot settle whether a particular practice or job is worthwhile.",
 			},
 		],
 		sources: [
+			{ label: 'BLS OEWS FAQ: employee coverage, self-employment exclusion and annualization (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+			{ label: 'BLS Employment Projections methods: broader employment population (checked 2026-10-12)', url: 'https://www.bls.gov/emp/documentation/projections-methods.htm' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Massage Therapists (accessed 2026-09-22 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/massage-therapists.htm' },
 			{ label: "BLS OEWS Frequently Asked Questions, confirming the OEWS survey does not produce employment or wage estimates covering the self-employed (accessed 2026-09-22, independent of the occupation page above)", url: 'https://www.bls.gov/oes/oes_ques.htm' },
 		],
@@ -6372,7 +6377,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'How Much Do Pilots Make Per Flight or Hour?',
 		description: 'The BLS $232,140 median for airline pilots comes to about $258 per hour flown, based on the 75 flight hours a month BLS reports. Trip pay depends on block time.',
 		published: '2026-09-23',
-		updated: '2026-09-23',
+		updated: '2026-10-12',
 		socCode: '53-2011',
 		coreSummary: 'The BLS May 2025 median of $232,140 for airline pilots, copilots, and flight engineers comes to about $258 per hour flown, using the average of 75 flight hours a month that BLS reports. Airlines pay by the block hour, so one trip\'s pay depends on how long it runs. The commercial pilot median was $123,220, and airline pilots ranged from under $106,710 at the 10th percentile to over $463,830 at the 90th.',
 		sections: [
@@ -6380,7 +6385,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'How much pilots make per flight and per hour',
 				body: [
 					'An airline pilot\'s contract pay is an hourly rate for flight time, usually counted in block hours: the clock starts when the aircraft pushes back from the gate and stops when it parks at the other end. There is no set fee for flying a trip, so the pay for one flight depends on its block time, and a short hop pays less than a transcontinental leg for the same pilot.',
-					'BLS lists pilot pay only as an annual figure, so an hourly number has to be worked out, and the result is a yearly average per hour flown. BLS says airline pilots fly an average of 75 hours a month, roughly 900 a year, and spend another 150 hours a month on other duties. Spread the $232,140 median over 900 flight hours and you get about $258 per hour flown. Counted against all 225 working hours a month, the same salary is closer to $86 an hour. For passenger airlines, FAA rules in 14 CFR 117.23 also bar scheduling a pilot past 1,000 flight hours in any 365 consecutive days, so no passenger-airline pilot can log more than that.',
+					'BLS lists pilot pay only as an annual figure, so an hourly number has to be worked out, and the result is a yearly average per hour flown. BLS says airline pilots fly an average of 75 hours a month, roughly 900 a year, and spend another 150 hours a month on other duties. Spread the $232,140 median over 900 flight hours and you get about $258 per hour flown. Counted against all 225 working hours a month, the same salary is closer to $86 an hour. For passenger airlines, FAA rules in 14 CFR 117.23 also bar scheduling a pilot past 1,000 flight hours in any 365 consecutive days, counting covered commercial flying on behalf of certificate holders or a 91K Program Manager; that limit is not a blanket cap on every kind of flying a pilot may do.',
 					'Contract rates are a separate number, set by the airline, the aircraft, the seat, and seniority. AeroTime\'s July 2023 write-up of United\'s agreement in principle with its pilots, which still needed union approval at the time, listed $199.74 per block hour for a captain on the CRJ900, the smallest aircraft on that pay scale, and more than $386 for a captain on the Boeing 787.',
 				],
 			},
@@ -6429,7 +6434,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do plane pilots make good money?',
-				answer: "By national standards, yes. BLS put the typical U.S. worker's May 2025 pay at a $50,980 median. The $123,220 figure for charter and instructional pilots is over twice that number, and the $232,140 figure for pilots on a fixed airline timetable clears it by more than four and a half times. Even the bottom tenth of that higher-paid group, just above $106,710, still beats the nationwide figure by a wide margin.",
+				answer: "Compared with the $50,980 national midpoint for May 2025, the commercial-pilot figure of $123,220 is about 2.4 times as high, and the airline-category figure of $232,140 is about 4.6 times as high. The airline group has a $106,710 tenth-percentile boundary, but its lowest-paid tenth earns below that amount; the table does not show that every pilot exceeds the national midpoint.",
 			},
 			{
 				question: 'How long does it take to make $200,000 as a pilot?',
@@ -6453,6 +6458,8 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 		],
 		sources: [
+			{ label: '14 CFR 117.1: applicability of Part 117 flight limits (checked 2026-10-12)', url: 'https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-117/section-117.1' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Airline and Commercial Pilots (accessed 2026-09-23, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/airline-and-commercial-pilots.htm' },
 			{ label: 'eCFR: 14 CFR 117.23, Cumulative limitations (Part 121 passenger operations: 1,000 flight hours in any 365 consecutive calendar days; accessed 2026-09-23)', url: 'https://www.ecfr.gov/current/title-14/chapter-I/subchapter-G/part-117/section-117.23' },
 			{ label: 'AeroTime: Comparing the two American and United Airline pilot contracts (July 2023; United figures are from the agreement in principle then pending union approval; accessed 2026-09-23)', url: 'https://www.aerotime.aero/articles/united-aa-pilot-contracts' },
