@@ -518,7 +518,7 @@ export const guides: Guide[] = [
 		title: 'What Does an Actuary Do? Duties, Specialties, and Pay',
 		description: 'Actuaries use math and statistics to price risk for insurers, pension funds, and corporations. Here is what the job actually involves, plus BLS pay data.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-10-11',
 		socCode: '15-2011',
 		coreSummary: 'Actuaries use mathematics, statistics, and financial theory to estimate the probability and economic cost of future events (death, illness, accidents, natural disasters) and design insurance policies, pension plans, and risk strategies around those estimates. The role requires passing a multi-year series of professional exams; BLS reports a median annual salary of $125,770 in May 2024.',
 		sections: [
@@ -547,31 +547,31 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does an actuary do on a typical day?',
-				answer: 'Actuaries compile and analyze statistical data, build models estimating the probability and cost of future events (death, illness, accidents, disasters), and translate those models into reports and recommendations presented to executives or clients. The specific focus depends on specialty: health, life, property/casualty, pension, or enterprise risk.',
+				answer: 'An actuary gathers data, estimates how often losses might occur and what they would cost, and explains the findings in written reports or presentations. Models may cover deaths, medical problems, accidental losses or disasters. The work differs across policies covering health costs or human lives, casualty coverage, pensions and risks affecting an entire business.',
 			},
 			{
 				question: 'How long does it take to become a fully qualified actuary?',
-				answer: 'The BLS Occupational Outlook Handbook states that reaching associate-level certification can take up to seven years, with fellowship (the terminal credential) requiring additional years beyond that. In the U.S., that exam-based certification is administered by the Society of Actuaries or the Casualty Actuarial Society depending on specialty, though BLS itself does not name these organizations by name.',
+				answer: 'Associate status may require as many as seven years of study and exams, according to the OOH. Fellowship comes later and takes further years. U.S. candidates follow the SOA or CAS route for their chosen field; those organizations are identified here separately from the BLS account.',
 			},
 			{
 				question: 'How much do actuaries make?',
-				answer: 'BLS reports a median annual actuary salary of $125,770 in May 2024, with a wide range by credential level: the bottom 10% earned under $75,240 and the top 10% earned over $206,430.',
+				answer: 'For the May 2024 survey, the national median was $125,770 a year. Earnings were below $75,240 for the lowest-paid tenth and above $206,430 for the highest-paid tenth. Credentials affect pay, and these cutoffs describe the wage distribution.',
 			},
 			{
 				question: 'What are the main actuarial specialties?',
-				answer: 'Five main tracks: health insurance, life insurance, property and casualty insurance, pension and retirement benefits, and enterprise risk management. Actuaries typically specialize based on which professional exams they sit for as they progress through certification.',
+				answer: 'The usual fields are coverage for health costs, policies on human lives, property-loss and casualty cover, benefits for retirees, and risk across a whole enterprise. An actuary\'s exam choices help determine which field they enter.',
 			},
 			{
 				question: 'Is actuary a high-paying career?',
-				answer: 'Relative to the broader labor market, yes. BLS puts the median actuary salary at $125,770 for May 2024, compared with a $49,500 median across all U.S. occupations the same year, meaning a typical actuary earned roughly two and a half times the typical U.S. worker. Pay also varies substantially within the occupation itself: BLS reports a range from under $75,240 at the 10th percentile to over $206,430 at the 90th, reflecting the profession\'s multi-year, exam-based credentialing system more than any single employer or industry factor.',
+				answer: 'Yes by the national comparison: the May 2024 occupation midpoint, $125,770, was about 2.5 times the $49,500 figure for U.S. jobs overall. The lowest-paid tenth was below $75,240 and the highest-paid tenth above $206,430. Credentials earned over several years help explain variation; neither one employer nor one industry explains all of it.',
 			},
 			{
 				question: 'Can actuaries earn $500,000?',
-				answer: "Not according to BLS's own wage data. The top 10% of actuaries earned more than $206,430 in May 2024, the highest decile BLS reports for the occupation, well short of $500,000. That figure is a national percentile drawn from BLS's Occupational Employment and Wage Statistics survey, which captures base wages across the full range of employers; it would not necessarily capture total compensation, including bonuses or equity, for a small number of chief actuary or C-suite roles at large insurers, which BLS does not break out separately.",
+				answer: "The published percentiles do not answer whether an individual earns $500,000. In the May 2024 data used here, $206,430 was the boundary above which the highest-paid tenth earned, not an upper limit. The survey is a national wage measure, not a separate account of chief-actuary or insurance-executive compensation, and does not establish their bonuses or equity.",
 			},
 			{
 				question: 'Who earns more, CPA or actuary?',
-				answer: 'BLS reports a higher median for actuaries: $125,770 in May 2024, versus $81,680 for the broader "accountants and auditors" category, the closest comparison BLS publishes since it does not track CPAs as a separate occupation from accountants generally. The gap holds at the top of the pay scale too: the top 10% of actuaries earned more than $206,430, compared with $141,420 for the top 10% of accountants and auditors.',
+				answer: 'The May 2024 national medians favor actuaries: $125,770 against $81,680 for accountants together with auditors. That second category includes CPAs but does not isolate them. At the upper-decile boundary the figures were $206,430 and $141,420 respectively; workers in the highest-paid tenth earned above those amounts.',
 			},
 		],
 		sources: [
@@ -586,7 +586,7 @@ export const guides: Guide[] = [
 		title: 'What Does a Paralegal Do? Duties, Setting, and Pay',
 		description: 'Paralegals research law, draft documents, and organize case files to support lawyers without being licensed to practice law. Includes BLS pay and outlook data.',
 		published: '2026-08-03',
-		updated: '2026-08-17',
+		updated: '2026-10-11',
 		socCode: '23-2011',
 		coreSummary: 'Paralegals and legal assistants support lawyers by researching law, drafting documents and correspondence, organizing and maintaining case files, and preparing materials for trials and hearings, without being licensed to practice law themselves. BLS reports a median annual salary of $61,010 in May 2024, with pay varying substantially by employer type; federal government roles paid the most among tracked industries.',
 		sections: [
@@ -615,23 +615,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the difference between a paralegal and a lawyer?',
-				answer: 'A paralegal supports an attorney by researching law, drafting documents, and organizing case materials, but cannot give legal advice, represent clients in court, or practice law independently. Becoming a lawyer requires a Juris Doctor (JD) degree and passing a state bar exam; a paralegal typically needs an associate degree or a certificate program, not a law degree.',
+				answer: 'Paralegals assist lawyers with research, paperwork and case organization; they cannot independently practice law, advise a client legally or appear as the client\'s attorney in court. A lawyer ordinarily takes the JD and state-bar route. A two-year degree or certificate often prepares someone for paralegal work without that law degree.',
 			},
 			{
 				question: 'How much do paralegals make?',
-				answer: 'BLS reports a median annual paralegal salary of $61,010 in May 2024, with federal government roles paying the highest industry median tracked at $77,940 and state government the lowest at $56,280.',
+				answer: 'In May 2024 the occupation\'s yearly median was $61,010, according to BLS. Among the industries listed, the federal sector had the largest median ($77,940), and state employers had the smallest ($56,280).',
 			},
 			{
 				question: 'Is paralegal a growing career?',
-				answer: 'BLS projects essentially flat employment growth for paralegals from 2024 to 2034 (0%, described as "little or no change"), adding only about 600 net jobs nationally over the decade, a notably weaker net-growth outlook than many other occupations. BLS separately projects about 39,300 paralegal openings a year on average, though most of those come from replacing workers who leave the occupation rather than from newly created positions.',
+				answer: 'The 2024-to-2034 BLS forecast is 0% growth, or roughly 600 extra jobs nationally. That is a weak expansion forecast compared with many careers, but it still includes about 39,300 annual vacancies on average. Most are replacement openings when existing workers depart, not additions to the workforce.',
 			},
 			{
 				question: 'What education do you need to become a paralegal?',
-				answer: 'Most positions require an associate degree in paralegal studies, or a bachelor\'s degree in another field plus a paralegal certificate program. Some employers will train a bachelor\'s-degree hire on the job for specific practice areas.',
+				answer: 'A common route is a two-year paralegal degree. Another combines an undergraduate degree in a different subject with a certificate focused on legal support. Some firms teach graduates the relevant practice-area skills after hiring them.',
 			},
 			{
 				question: 'Is paralegal a high-paying job?',
-				answer: 'Relative to the broader labor market, somewhat above it. BLS puts the median paralegal and legal assistant salary at $61,010 for May 2024, compared with a $49,500 median across all U.S. occupations that same year, meaning a typical paralegal earned roughly 23% more than the typical U.S. worker. Pay varies substantially by employer type on this page\'s own breakdown, so that comparison describes national medians rather than what any individual paralegal earns.',
+				answer: 'The national median was moderately above the overall U.S. figure: $61,010 versus $49,500 in May 2024, about 23% higher. Employer type makes a substantial difference. These occupation-wide midpoints do not predict any one person\'s paycheck.',
 			},
 		],
 		sources: [
@@ -3342,7 +3342,7 @@ export const guides: Guide[] = [
 		title: 'What Does a Controller Do? Duties, Path, and BLS Pay Data',
 		description: "Controllers direct financial reporting and oversee accounting teams. BLS tracks the role under Financial Managers, a group with a $161,700 median wage.",
 		published: '2026-08-22',
-		updated: '2026-08-22',
+		updated: '2026-10-11',
 		socCode: '11-3031',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, controllers direct the preparation of an organization's financial reports, oversee its accounting, audit, and budget departments, and prepare the filings required by government regulatory agencies. BLS does not track controllers as their own occupation; it groups them with treasurers, credit managers, cash managers, risk managers, and insurance managers under a single SOC code, Financial Managers (11-3031), and publishes one combined median wage and job-growth figure for the whole group rather than a controller-specific number. That combined group reported a median annual wage of $161,700 in May 2024, and BLS projects 15% employment growth for it from 2024 to 2034, much faster than the average for all occupations.",
 		sections: [
@@ -3375,30 +3375,30 @@ export const guides: Guide[] = [
 				heading: 'Job outlook, and how this group compares to the roles that typically lead into it',
 				body: [
 					"BLS projects employment of financial managers to grow 15% from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 128,800 jobs to the 868,600 already employed in 2024. About 74,600 openings are projected each year on average over the decade; BLS attributes many of those to the need to replace workers who transfer to other occupations or exit the labor force, such as to retire, rather than to newly created positions alone. BLS attributes the growth itself partly to an increased emphasis on risk management within the financial industry, which it expects to continue, and specifically calls out cash management and risk management as specialties likely to be in high demand over the decade.",
-					"Against the feeder occupations BLS itself names for this role, the financial manager median sits well above [accountants](/how-to-become-an-accountant/) at $81,680, nearly double that figure, and above [actuaries](/actuary-salary/) at $125,770, a gap of $35,930. That ordering lines up with BLS's own description of the career path: accountant and financial analyst are named as roles someone typically works in before becoming a financial manager, not as competing end points, so the pay gap partly reflects that a financial manager's 5-plus years of prior experience is layered on top of, not instead of, the bachelor's degree those feeder roles also require. BLS's data describes what each occupation pays; it does not break out how much of that gap is attributable to the added years of experience alone versus the added management responsibility, and this page reports the pattern rather than asserting a specific cause.",
+					"Against the feeder occupations BLS itself names for this role, the financial manager median sits well above [accountants](/how-to-become-an-accountant/) at $81,680, nearly double that figure, and above [actuaries](/actuary-salary/) at $125,770, a gap of $35,930. That ordering lines up with BLS's own description of the career path: accountant and financial analyst are named as roles someone typically works in before becoming a financial manager, not as competing end points, so the pay gap partly reflects that a financial manager's 5-plus years of prior experience is layered on top of, not instead of, the bachelor's degree those feeder roles also require. BLS's data describes what each occupation pays; it does not break out how much of that gap is attributable to the added years of experience alone versus the added management responsibility, and the comparison here does not attribute the gap to a single cause.",
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What does a controller do?',
-				answer: "Per BLS, controllers direct the preparation of financial reports that summarize and forecast an organization's financial position, including income statements, balance sheets, and analyses of future earnings or expenses. They also prepare the reports required by government regulatory agencies and typically oversee their organization's accounting, audit, and budget departments.",
+				answer: "A controller leads the team producing statements of income, balance sheets and forecasts of earnings or costs. The role also handles reporting to regulators and usually manages the departments responsible for bookkeeping and accounts, auditing, and budgets, according to BLS.",
 			},
 			{
 				question: 'How much do controllers make?',
-				answer: "BLS does not publish a controller-specific wage. It reports one combined figure for the broader Financial Managers occupation, which includes controllers, treasurers, credit managers, cash managers, risk managers, and insurance managers: a median annual wage of $161,700 in May 2024 ($77.74 an hour), with the bottom 10% earning less than $86,490 and the top 10% earning more than $239,200.",
+				answer: "There is no separate BLS pay estimate just for controllers. The May 2024 midpoint for the full finance-management category was $161,700 yearly, or $77.74 hourly. That group also covers treasurers and managers responsible for credit, cash, risk and insurance. Its lowest-paid tenth fell below $86,490 and its highest-paid tenth earned above $239,200.",
 			},
 			{
 				question: "What's the difference between a controller and a treasurer?",
-				answer: "Both are financial manager titles BLS tracks under the same SOC code, but the focus differs. Per BLS, controllers direct financial reporting, oversee the accounting, audit, and budget departments, and prepare filings for regulators, a largely backward-looking record-keeping role. Treasurers direct an organization's budgets, oversee investments, and raise capital through means such as issuing stocks or bonds, and develop financial plans for mergers and acquisitions, a forward-looking capital-strategy role.",
+				answer: "BLS puts both titles in one occupation. Controllers concentrate on financial statements, regulatory filings and the teams handling accounts, audits and budgets. Treasurers focus on budgets, investments and funding, including stock or bond issues, plus financial planning for a merger or acquisition. The first emphasizes reporting; the second emphasizes capital strategy.",
 			},
 			{
 				question: 'How do you become a controller?',
-				answer: "Per BLS, the path runs through a bachelor's degree, typically in business, economics, or a related field, followed by 5 years or more of experience in another business or financial occupation such as loan officer, accountant, auditor, securities sales agent, or financial analyst. BLS does not list a specific license or certification as required to work as a controller, though some controllers hold a CPA license issued by a state board of accountancy. From there, BLS notes experienced financial managers, controllers included, may advance to chief financial officer (CFO).",
+				answer: "The usual preparation is an undergraduate degree in economics, business or a related subject, then at least five years in finance or business work. BLS examples include lending, accountancy, auditing, selling securities and analyzing finances. A credential specific to the controller title is not listed as mandatory; some hold a state-issued CPA license. Experienced members of this management group may later become CFOs.",
 			},
 			{
 				question: 'Is financial management a growing career?',
-				answer: 'Yes, per BLS. It projects 15% employment growth for financial managers, the group that includes controllers, from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 128,800 jobs to the 868,600 already employed in 2024. About 74,600 openings are projected each year on average, mostly from the need to replace workers who transfer to other occupations or leave the labor force.',
+				answer: 'For controllers together with the other financial-manager roles, BLS projected a 15% increase over 2024-to-2034, against about 3% for U.S. jobs overall. It forecast 128,800 additional jobs from a 2024 base of 868,600, alongside approximately 74,600 annual vacancies, many replacing people who change careers or retire.',
 			},
 		],
 		sources: [
@@ -3648,7 +3648,7 @@ export const guides: Guide[] = [
 		title: 'What Does a Dental Hygienist Do? Duties, Setting, and Pay',
 		description: "Dental hygienists clean teeth, take x-rays, and screen for gum disease, usually under a dentist's oversight. Here's what BLS says the job involves, plus pay data.",
 		published: '2026-08-24',
-		updated: '2026-08-24',
+		updated: '2026-10-11',
 		socCode: '29-1292',
 		coreSummary: 'Per the U.S. Bureau of Labor Statistics, dental hygienists examine patients for signs of oral disease, remove tartar and plaque, apply preventive treatments such as fluoride and sealants, take dental x-rays, and educate patients on oral hygiene, typically working alongside a supervising dentist. The role requires an associate\'s degree from an accredited dental hygiene program, usually a 3-year course of study, plus state licensure. BLS reports a median annual salary of $94,260 in May 2024, and nearly all hygienists, 94% of the occupation, work in dentists\' offices.',
 		sections: [
@@ -3690,23 +3690,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does a dental hygienist do on a typical day?',
-				answer: 'Per BLS, dental hygienists remove tartar, stains, and plaque from teeth; apply preventive treatments such as sealants and fluoride; take and develop dental x-rays; assess a patient\'s oral health and report findings to the supervising dentist; document care and treatment plans; and teach patients proper brushing and flossing technique.',
+				answer: 'Cleaning removes deposits such as plaque, tartar and staining. A hygienist also gives fluoride or sealant treatments, makes x-ray images, checks oral health and tells the dentist what they find. Records of treatment and instruction in brushing or flossing are part of the work too, according to BLS.',
 			},
 			{
 				question: 'How long does it take to become a dental hygienist?',
-				answer: 'BLS states that dental hygienists typically need an associate\'s degree in dental hygiene, with programs usually taking 3 years to complete. Every state also requires passing written and clinical licensing exams after graduation before a hygienist can practice.',
+				answer: 'The usual degree is an associate credential in the subject, with about three years spent in the program. A state license is also necessary. Most jurisdictions require an accredited degree and written plus clinical exams, although the specific conditions depend on the state.',
 			},
 			{
 				question: 'Do dental hygienists need a license?',
-				answer: 'Yes. BLS states every state requires dental hygienists to be licensed, though the specific requirements vary by state. Most states require graduating from an accredited program and passing written and clinical exams, plus completing continuing education to keep the license active. BLS points readers to their state\'s Board of Dental Examiners or to CareerOneStop for state-specific details.',
+				answer: 'Yes, throughout the United States. The usual licensing route combines graduation from an approved hygiene program with tests of knowledge and clinical skill; ongoing education maintains the credential. Requirements differ locally, so consult the relevant dental examiners board or CareerOneStop\'s state listings.',
 			},
 			{
 				question: 'How much do dental hygienists make?',
-				answer: 'BLS reports a median annual dental hygienist salary of $94,260 in May 2024 ($45.32 an hour). Pay varies by setting: offices of dentists paid the highest tracked median at $94,570, followed by offices of physicians at $84,720 and government employers at $77,940.',
+				answer: 'The May 2024 national median was $94,260 yearly ($45.32 hourly), in the BLS figures used here. The industry medians were $94,570 in dental offices, $84,720 in physician practices and $77,940 for government workplaces.',
 			},
 			{
 				question: 'Can a dental hygienist work without a dentist present?',
-				answer: 'It depends on the state. BLS states that the tasks a hygienist may perform, and how closely a dentist must supervise them, vary by state and by practice setting, and that a few states allow hygienists with extra training, sometimes called dental therapists, to provide limited restorative services. There is no single national scope-of-practice rule; it is set state by state.',
+				answer: 'The applicable state law and workplace setting determine that. BLS says authorized tasks and the required oversight differ, and some states permit additional restorative work by specially trained practitioners known as dental therapists in some jurisdictions. A nationwide yes-or-no answer would miss those differences.',
 			},
 		],
 		sources: [
@@ -4465,7 +4465,7 @@ export const guides: Guide[] = [
 		title: 'Funeral Director Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median funeral director salary (morticians, undertakers, and funeral arrangers) at $55,010 a year. Full wage range, licensing path, and industry data.',
 		published: '2026-08-28',
-		updated: '2026-08-28',
+		updated: '2026-10-11',
 		socCode: '39-4031',
 		coreSummary: 'The median annual wage for morticians, undertakers, and funeral arrangers, the title the U.S. Bureau of Labor Statistics uses for what is commonly called a funeral director, was $55,010 in May 2025. The bottom 10% earned less than $33,350 while the top 10% earned more than $88,620. BLS projects 3% employment growth from 2025 to 2035, about as fast as the average for all occupations, adding roughly 800 jobs to a workforce of 26,700.',
 		sections: [
@@ -4505,35 +4505,35 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average funeral director salary?',
-answer: "BLS files this job under a longer official name (see above), but the pay figure attached to it is simple enough: $55,010 for the year, per its May 2025 release, translating to $26.45 hourly. The lowest-paid tenth of the field fell under $33,350; the highest-paid tenth topped $88,620.",
+answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to $26.45 hourly. The survey labels the occupation with the longer title shown above. Its bottom decile earned below $33,350, while the upper decile earned above $88,620; these are percentile cutoffs, not an average or a maximum.",
 			},
 			{
 				question: 'Is a funeral home manager the same job as a funeral director?',
-				answer: "No. BLS tracks them as two separate occupations. The manager title (SOC 11-9171) oversees the business end of running the operation and commanded a higher $78,790 that same year, while the director title (SOC 39-4031) handles arranging individual services and paid $55,010. BLS notes that people usually direct first before moving into management.",
+				answer: "No. SOC 11-9171 covers management of the business, with a May 2025 median of $78,790. SOC 39-4031 covers arranging individual funerals, with $55,010 at the midpoint. BLS says managers commonly enter after spending years in the director role.",
 			},
 			{
 				question: 'Do funeral directors need to be licensed?',
-				answer: "In most states, yes. Per BLS, a license is required almost everywhere, including Washington, D.C., and getting one generally means clearing four hurdles: turning 21, finishing a two-year mortuary science course of study, passing a board exam, and spending anywhere from twelve months to three years training under a licensed mentor. Colorado stands apart as the single state BLS flags where the credential is optional. Rules differ by state, and covering territory in more than one jurisdiction typically means holding a separate license for each.",
+				answer: "Usually, including in D.C. BLS describes a typical licensed applicant as at least 21, a graduate of an approved mortuary or funeral-service program, successful in the relevant board examination, and trained under supervision for one to three years. Its Colorado entry describes voluntary certification. Check the relevant board's rules: requirements vary, and work across state borders calls for credentials in each jurisdiction.",
 			},
 			{
 				question: 'What education does a funeral director need?',
-				answer: "An associate's degree is the typical bar BLS sets, with coursework covering the emotional side of the job, like grief counseling, alongside embalming technique, restoration work, and the legal side of running a death-care business. Some employers would rather see a full bachelor's.",
+				answer: "A two-year associate credential is the usual starting qualification. The syllabus includes ethics, grief support and funeral services, plus embalming, restoration and the law of the business. Certain employers ask for a four-year degree; psychology or business may be additional areas of study.",
 			},
 			{
 				question: 'Is funeral director a growing career?',
-				answer: "BLS pegs growth for this occupation at 3% between 2025 and 2035, keeping pace with the broader U.S. labor market, and expanding the field by around 800 workers. Most yearly openings trace back to people exiting the field rather than brand-new jobs being created, and BLS points to more families choosing cremation as one drag on faster hiring.",
+				answer: "The forecast adds about 800 positions over 2025-to-2035, a 3% increase matching the projected national rate. Most openings across funeral services are replacements for departing workers. BLS also expects growing demand for cremation, with its smaller staffing needs, to constrain hiring.",
 			},
 			{
 				question: 'Can you make six figures as a funeral director?',
-				answer: "Not typically, per national BLS numbers. Even the top-earning tenth of this workforce landed at $88,620 in May 2025, the ceiling BLS publishes for the role, which falls short of six figures.",
+				answer: "The May 2025 median of $55,010 is below $100,000, but the published data do not set a maximum. BLS says the highest-paid tenth earned above $88,620. That is the entry threshold for the top decile, so it cannot establish that nobody earns six figures.",
 			},
 			{
 				question: 'Is it difficult to become a funeral director?',
-				answer: "It's a multi-step credentialing process, not something learned purely on the job. A candidate generally completes a two-year mortuary science course of study first, then a board exam, then a stint interning under someone already licensed, lasting a year to three years, before any state signs off. The board exam itself, run nationally by the International Conference of Funeral Service Examining Boards, splits into two separately graded halves, one on the Arts side and one on the Sciences side, both of which have to be cleared. Nothing here comes with an official difficulty rating; what's clear is that it's a years-long sequence of gates, not a single test or a quick certificate.",
+				answer: "Qualification takes years: typically an associate program, board exams and a supervised placement of one to three years. BLS says that training can occur before, during or after graduation and the national exam. The national board test has separately scored Arts and Sciences sections, both requiring a pass. No official score ranks the overall process by difficulty.",
 			},
 			{
 				question: 'What is the highest paying job in the funeral industry?',
-				answer: "Per BLS, the highest-paying title on the same funeral-service page is Funeral Home Manager (SOC 11-9171), at a $78,790 median in May 2025, about $23,780 above the $55,010 funeral director figure this page covers. That role oversees the administrative and financial end of running the operation, and BLS notes people typically spend several years as a licensed director first, so the higher-paying role is usually a step up rather than a separate entry point.",
+				answer: "Of the titles shown on the BLS funeral-service profile, the management role has the larger median: $78,790 as of the May 2025 survey, compared with $55,010 for directors, a $23,780 difference. It handles administration and finances. BLS describes prior years directing funerals as the usual route into it, so it commonly follows experience in the other role.",
 			},
 		],
 		sources: [
