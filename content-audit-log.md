@@ -2536,3 +2536,27 @@
   "evidence": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261010T1100/traffic-b-final.json"
 }
 ```
+
+## PAA-FAQ批强(daily-task, 2026-10-11)
+```json
+{
+  "site": "wagelark",
+  "type": "PAA-FAQ批强(daily-task, 2026-10-11)",
+  "run_id": "20261011T2041",
+  "baseline": "origin/main (d32738b) 独立worktree，未触碰原checkout（原checkout落后origin/main 7个提交且有他人未推送提交d51cd51，故用worktree隔离）",
+  "added": [
+    {"slug": "how-do-adjunct-professors-get-paid", "question": "Why are adjuncts paid so little?", "source": "AAUP (contingent appointments / cost-containment rebuttal; Kezar study); UC Berkeley Labor Center (part-time instructors on public assistance)"},
+    {"slug": "highest-paying-jobs-without-a-degree", "question": "What job pays $400,000 a year without a degree?", "source": "BLS OEWS May 2025 medians; top below-bachelor's occupation is air traffic control at $148,080 (already in page body)"}
+  ],
+  "added_faq_count": 2,
+  "added_page_count": 2,
+  "rejections_registered": [
+    {"slug": "highest-paying-jobs-without-a-degree", "questions": ["What is the easiest job to learn?"], "reason": "本文按BLS中位工资排名无学位职业，不涉及学习难度；主题错配，无可核来源"}
+  ],
+  "rejection_notes": "1条写入 research-db/paa_rejections.json（90天冷却）。",
+  "mechanical": "check_prose_patterns.py 两个slug逐条运行：how-do-adjunct-professors-get-paid 三类全过 rc0；highest-paying-jobs-without-a-degree 首轮新增FAQ触发 L-0819-9（'air traffic control' 20字符重合），经 git show HEAD 取改动前版本对照确认属边界①（我新增的内容），改写后清零；残留 FAQ#2 'electrical power-line installers' 34字符重合经同法对照证实为**改动前既存**（边界②存量债务），未触碰，留给专门回溯任务。",
+  "writing_chain": "真实调用 Skill(humanizer) 与 Skill(avoid-ai-writing) 过新增文字；两条FAQ为参考型事实文本，无em dash/Tier1词汇/意义膨胀，改写仅调整'rather than'否定对比与冗余措辞；数字/专名/来源保真",
+  "scope": "只新增FAQ；正文/title/description/sources/其他FAQ/schema/updated/published原样保留",
+  "build": "npm run build 通过（见提交记录）"
+}
+```

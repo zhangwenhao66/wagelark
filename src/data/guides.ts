@@ -126,6 +126,10 @@ export const guides: Guide[] = [
     {
       "question": "Is a per-credit rate the same as an hourly wage?",
       "answer": "A credit is an academic course unit. Under a hypothetical $1,200 rate for each credit, a three-credit assignment pays $3,600 before adjustments. Establishing pay per hour of work additionally requires a total-hour count covering preparation and other course work."
+    },
+    {
+      "question": "Why are adjuncts paid so little?",
+      "answer": "The AAUP's own account ties the low per-course rates to how contingent hiring is structured, not to a shortage of money. It notes that part-time faculty hiring grew fastest during periods of economic expansion, and it cites Adrianna Kezar's research finding that the restructuring did not make college costs more competitive. Money once spent on instruction, the association argues, moved toward administrative roles and noninstructional student services. The UC Berkeley Labor Center has reported that a quarter of part-time instructors nationally received some form of public assistance."
     }
   ],
   "sources": [
@@ -4847,6 +4851,10 @@ answer: "BLS files this job under a longer official name (see above), but the pa
 			{
 				question: 'How many of the occupations on this site require a four-year degree or more?',
 				answer: "Nineteen of WageLark's 48 tracked roles set four-year-degree attainment or higher as their typical BLS-listed education floor; the remaining majority, 29 roles, sit below that bar.",
+			},
+			{
+				question: 'What job pays $400,000 a year without a degree?',
+				answer: "Nothing in the BLS wage data behind this ranking comes close. The best-paid of the 29 below-bachelor's occupations is the one that directs aircraft from the ground, and no occupation in that group has a median anywhere near $400,000. Individual earners without a degree do pass that mark, but they are usually owners, entertainers, or athletes, and their income is not an occupational median that someone can train into.",
 			},
 		],
 		sources: [
