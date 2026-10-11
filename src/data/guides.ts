@@ -936,7 +936,7 @@ export const guides: Guide[] = [
 		title: 'CRNA Salary: BLS Wage Data for Nurse Anesthetists (2026)',
 		description: 'The median CRNA salary is $223,210 a year, the highest of any nursing role BLS tracks. Here is what drives the pay, and why entry now requires a doctorate.',
 		published: '2026-08-04',
-		updated: '2026-08-04',
+		updated: '2026-10-12',
 		socCode: '29-1151',
 		coreSummary: 'The median annual wage for Certified Registered Nurse Anesthetists (CRNAs) was $223,210 in May 2024, according to the Bureau of Labor Statistics, well above the $129,210 median for nurse practitioners and $128,790 for nurse midwives, the two other advanced practice nursing roles BLS tracks on the same page. Employment is projected to grow 9% from 2024 to 2034, adding roughly 4,600 jobs, and as of 2025 every accredited entry program now awards a doctoral degree, not the master\'s degree BLS still lists as the typical entry-level education.',
 		sections: [
@@ -999,7 +999,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Can a CRNA make $500,000 a year?',
-				answer: "Not per BLS's published numbers. The highest decile the agency reports touching this occupation is a combined top 10% spanning the nurse-practitioner, nurse-midwife, and CRNA group together, at more than $217,270 for May 2024, still nowhere near $500,000. That OEWS survey measures base wages employers report; it would not necessarily pick up unusually high total pay for independent-contractor or locum tenens CRNA work, which BLS does not break out separately from employed CRNA pay.",
+				answer: "These BLS figures cannot establish whether an individual earns $500,000. The May 2024 nurse-anesthesia midpoint was $223,210; the $217,270 upper-decile threshold belongs to a larger group that also includes NPs and midwives. A threshold marking the highest-paid tenth is not a maximum. OEWS excludes self-employed practitioners and reports wages rather than every form of business income, so it also cannot settle unusually high contractor or locum-tenens earnings.",
 			},
 			{
 				question: 'Is CRNA school harder than med school?',
@@ -1007,6 +1007,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'BLS OEWS FAQ: self-employed exclusion and wage definition (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm' },
 			{ label: 'Council on Accreditation of Nurse Anesthesia Educational Programs (COA): doctoral entry-to-practice requirement', url: 'https://www.coacrna.org/about-coa/requirements-to-practice-as-a-nurse-anesthetist-in-the-united-states/' },
 			{ label: 'National Board of Certification and Recertification for Nurse Anesthetists (NBCRNA)', url: 'https://www.nbcrna.com/about-us/history' },
@@ -1105,7 +1107,7 @@ export const guides: Guide[] = [
 		title: 'Physician Assistant Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median physician assistant salary at $133,260 a year. See the wage range by percentile and employer type, and how it compares to NP and CRNA pay.',
 		published: '2026-08-04',
-		updated: '2026-08-04',
+		updated: '2026-10-12',
 		socCode: '29-1071',
 		coreSummary: 'The median annual wage for physician assistants was $133,260 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $95,240 while the top 10% earned more than $182,200, and government employers paid the highest industry median, at $151,470. Employment is projected to grow 20% from 2024 to 2034, among the faster projected growth rates of any occupation this site tracks.',
 		sections: [
@@ -1181,7 +1183,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Can you make $200,000 as a physician assistant?',
-				answer: "Not typically, going by national BLS data. Even the top decile, who cleared $182,200 in May 2024, fell short of $200,000, and that is the highest cut BLS publishes for the occupation. Government work, the best-paying of the five industries BLS tracks for PAs, has a median of $151,470, which is far short as well. Reaching $200,000 would generally mean combining top-decile pay with a high-paying specialty, setting, or region that the national BLS tables do not split out.",
+				answer: "That is outside the usual national range: the May 2024 median was $133,260, with the upper tenth starting above $182,200. A $200,000 wage would fall in that tenth; the threshold does not mean nobody earns more. The best-paid industry listed here had a $151,470 midpoint, still below $200,000. Specialty, location and individual arrangements may differ, but this table does not isolate their effects.",
 			},
 			{
 				question: 'Is a PA basically a doctor?',
@@ -2432,7 +2434,7 @@ export const guides: Guide[] = [
 		title: 'How Long Is Nursing School? RN Paths, NCLEX-RN, and Pay',
 		description: 'BLS lists an associate degree in nursing at about 4 years, not 2, the same as a BSN. Here is why, plus the NCLEX-RN licensing exam and what RNs earn.',
 		published: '2026-08-17',
-		updated: '2026-08-26',
+		updated: '2026-10-12',
 		socCode: '29-1141',
 		coreSummary: 'Registered nurses usually take one of three education paths, a bachelor\'s degree (BSN), an associate\'s degree (ADN or ASN), or a hospital diploma program, and the Bureau of Labor Statistics lists both the BSN and the ADN/ASN as typically taking about 4 years to complete, not the 2 years commonly assumed for an associate\'s degree. Every path still ends the same way: graduates must pass the NCLEX-RN licensing exam and hold a state license before they can practice. BLS reports a median annual wage of $93,600 for registered nurses in May 2024.',
 		sections: [
@@ -2440,7 +2442,7 @@ export const guides: Guide[] = [
 				heading: 'The "2-year" associate degree is usually a 4-year timeline',
 				body: [
 					'Per the Bureau of Labor Statistics Occupational Outlook Handbook, registered nurses usually take one of three education paths: a bachelor of science in nursing (BSN), an associate\'s degree in nursing (ADN) or associate of science in nursing (ASN), or a diploma from a hospital-based program. All three include supervised clinical experience alongside classroom coursework in subjects such as anatomy, physiology, microbiology, and social and behavioral sciences.',
-					'The part that surprises a lot of people planning this out: BLS describes the ADN and ASN, credentials most people think of as a 2-year degree, as typically taking about 4 years to complete, the same figure BLS gives for a BSN. The reason is prerequisites. Community college nursing programs generally require a set of science courses, such as anatomy and microbiology, completed before a student is even eligible to start the core nursing curriculum, and BLS folds that prerequisite time into its 4-year estimate rather than counting only the nursing-specific coursework. A diploma program, offered by hospitals or medical centers rather than colleges, typically runs 2 to 3 years, but BLS notes there are far fewer diploma programs left than there are BSN, ADN, or ASN programs.',
+					'The part that surprises a lot of people planning this out: BLS describes the ADN and ASN, credentials most people think of as a 2-year degree, as typically taking about 4 years to complete, the same figure BLS gives for a BSN. BLS does not explain why it gives this four-year estimate. Schools may require science prerequisites before nursing coursework, but their own calendars determine the actual sequence; this article cannot attribute the agency estimate to that explanation. A diploma program, offered by hospitals or medical centers rather than colleges, typically runs 2 to 3 years, but BLS notes there are far fewer diploma programs left than there are BSN, ADN, or ASN programs.',
 					"Getting into a program in the first place is a separate hurdle from the timeline itself, and BLS's Occupational Outlook Handbook doesn't cover admissions criteria. Per NurseJournal, an established nursing-education resource, requirements vary by program type and how competitive a given school is: associate degree (ADN) programs typically set a GPA floor between 2.0 and 2.75, though more competitive ones look for 2.5 to 3.5, while bachelor's (BSN) programs generally set a 3.0 minimum, with more selective schools expecting 3.25 or higher. Programs commonly weigh grades in prerequisite science courses, such as anatomy and microbiology, separately from overall GPA, so a strong overall record paired with weak science grades doesn't carry the same weight as consistent performance across both. Some programs also require a standardized entrance exam, the TEAS or HESI, though a number of accredited programs have dropped that requirement in favor of weighing GPA, essays, and interviews instead.",
 				],
 			},
@@ -2462,18 +2464,18 @@ export const guides: Guide[] = [
 				heading: 'What the license is worth, and where it can lead',
 				body: [
 					'BLS reports a median annual wage of $93,600 for registered nurses in May 2024 ($66,030 at the 10th percentile and $135,320 at the 90th). Pay varies by setting: government employers outside state/local education and hospitals paid the highest median BLS tracked, at $106,480, ahead of hospitals ($97,260), ambulatory healthcare services ($83,780), nursing and residential care facilities ($81,820), and educational services ($74,360), the lowest of the industries BLS breaks out for this role. BLS projects 5% employment growth for registered nurses from 2024 to 2034, faster than the average for all occupations, and separately projects about 189,100 openings a year on average, with most of those openings coming from the need to replace nurses who transfer to other occupations or leave the labor force, such as to retire, rather than from newly created positions.',
-					'Against a much shorter training path, [becoming a CNA](/how-to-become-a-cna/) requires a federal minimum of just 75 hours of training rather than a multi-year degree, and BLS puts the CNA median at $42,260, about 45% of the RN figure. Against a similarly long associate-level path, [dental hygienists](/dental-hygienist-salary/), an occupation BLS itself lists among registered nurses\' similar occupations, had a slightly higher May 2024 median of $94,260 despite BLS listing an associate\'s degree, not a bachelor\'s, as dental hygienists\' typical entry-level education. None of these figures account for a given reader\'s own location, hours, or specialty, and a higher aggregate median for one occupation is not evidence that its path is the right one for any specific person weighing the options. For registered nurses who go on to graduate-level advanced practice training, BLS reports considerably higher medians: $129,210 for [nurse practitioners](/nurse-practitioner-salary/) and $223,210 for [certified registered nurse anesthetists](/crna-salary/), both of which require a master\'s degree at minimum, with CRNA programs now requiring a doctorate, on top of prior RN experience, well beyond what the base nursing license alone requires.',
+					'Against a much shorter training path, [becoming a CNA](/how-to-become-a-cna/) requires a federal minimum of just 75 hours of training rather than a multi-year degree, and BLS puts the CNA median at $42,260, about 45% of the RN figure. Against another licensed healthcare path, [dental hygienists](/dental-hygienist-salary/), an occupation BLS itself lists among registered nurses\' similar occupations, had a slightly higher May 2024 median of $94,260 despite BLS listing an associate\'s degree, not a bachelor\'s, as dental hygienists\' typical entry-level education. None of these figures account for a given reader\'s own location, hours, or specialty, and a higher aggregate median for one occupation is not evidence that its path is the right one for any specific person weighing the options. For registered nurses who go on to graduate-level advanced practice training, BLS reports considerably higher medians: $129,210 for [nurse practitioners](/nurse-practitioner-salary/) and $223,210 for [certified registered nurse anesthetists](/crna-salary/), both of which require a master\'s degree at minimum, with CRNA programs now requiring a doctorate, on top of prior RN experience, well beyond what the base nursing license alone requires.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'How long does it take to become a registered nurse?',
-				answer: 'It depends on the path. Per BLS, a four-year timeline covers both the university BSN degree and the community-college ADN/ASN route, since required science prerequisites have to be finished before the core coursework begins in either case. A hospital-based diploma program, a much less common option today, takes about 2 to 3 years to finish. No matter which route someone takes, they still have to sit for and pass the NCLEX-RN exam before a state will actually license them.',
+				answer: 'The Handbook assigns about four years to BSN and ADN/ASN study, compared with two to three for the less common hospital diploma. It gives no explanation for the associate estimate; candidates need the particular school\'s calendar and admission sequence. Each route includes clinical placements and leads to the national licensing examination plus state authorization.',
 			},
 			{
 				question: 'Is an associate degree in nursing really only 2 years?',
-				answer: 'Not according to BLS: its own data puts the ADN and ASN at generally a four-year commitment, the same length assigned to a BSN, because most programs make students clear required science classes first (anatomy and physiology among them) before they can even begin the nursing coursework itself. The "2-year degree" framing usually refers only to the nursing courses themselves, leaving out the prerequisite stretch BLS folds into its total.',
+				answer: 'BLS gives a longer estimate: about four years for the ADN or ASN. It does not identify the reason for that duration or say it counts prerequisite classes. Some colleges require science study before admission to their nursing sequence; check the actual course plan and waiting periods rather than treating one agency estimate as a universal program schedule.',
 			},
 			{
 				question: 'What GPA and prerequisites do you need to get into nursing school?',
@@ -4212,7 +4214,7 @@ export const guides: Guide[] = [
 		title: 'Occupational Therapist Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median occupational therapist salary at $98,340 a year, with 14% growth projected through 2034. Here is the full wage range by percentile and by setting.',
 		published: '2026-08-26',
-		updated: '2026-08-26',
+		updated: '2026-10-12',
 		socCode: '29-1122',
 		coreSummary: 'The median annual wage for occupational therapists was $98,340 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $67,090 while the top 10% earned more than $129,830, a spread of roughly $62,700. BLS projects 14% employment growth from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 22,100 jobs.',
 		sections: [
@@ -4220,8 +4222,8 @@ export const guides: Guide[] = [
 				heading: 'What occupational therapists earn, and the degree BLS says it takes to get there',
 				body: [
 					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-1122, on a page dedicated to occupational therapists alone. For May 2024, BLS reported a median annual wage of $98,340, or $47.28 an hour. The bottom 10% of earners made less than $67,090 a year, while the top 10% made more than $129,830, a spread of roughly $62,700 that BLS does not attribute to any single factor on this page, though setting (covered below) accounts for a meaningful share of it.',
-					"BLS lists a master's degree in occupational therapy as the typical entry-level education for this occupation, a graduate credential rather than a bachelor's or associate's degree. That places it in the same broad tier as several other rehabilitation and diagnostic professions this site tracks, though the exact credential level still varies by field: [physical therapists](/physical-therapist-salary/) need a Doctor of Physical Therapy, one step above a master's, while occupational therapy has not made that same shift to doctoral-entry education as its typical path. For another allied-health comparison, this site's [respiratory therapist salary](/respiratory-therapist-salary/) guide reports BLS wage data by percentile for that field. This site's [occupational therapy assistant salary](/occupational-therapy-assistant-salary/) guide covers the assistant-level role's BLS pay separately.",
-					'BLS counted about 160,000 occupational therapist jobs in 2024, drawing on its Occupational Employment and Wage Statistics survey, which collects wage data directly from employer payroll records rather than worker self-reports.',
+					"BLS lists a master's degree in occupational therapy as the typical entry-level education for this occupation, a graduate credential rather than a bachelor's or associate's degree. That places it in the same broad tier as several other rehabilitation and diagnostic professions this site tracks, though the exact credential level still varies by field: [physical therapists](/physical-therapist-salary/) typically complete a Doctor of Physical Therapy through the U.S. entry route, one degree level above a master's, while occupational therapy has not made that same shift to doctoral-entry education as its typical path. For another allied-health comparison, this site's [respiratory therapist salary](/respiratory-therapist-salary/) guide reports BLS wage data by percentile for that field. This site's [occupational therapy assistant salary](/occupational-therapy-assistant-salary/) guide covers the assistant-level role's BLS pay separately.",
+					'BLS Employment Projections counted about 160,000 occupational therapist jobs in 2024. Pay comes from the separate Occupational Employment and Wage Statistics survey of employer payroll records, rather than worker self-reports.',
 				],
 			},
 			{
@@ -4235,8 +4237,8 @@ export const guides: Guide[] = [
 				heading: "Getting licensed, and how the path compares to physical therapy",
 				body: [
 					"Per BLS, admission to a graduate program in occupational therapy requires a bachelor's degree, though not necessarily in a specific subject; most master's programs still expect coursework in biology, psychology, and other sciences, and some also want applicants to have volunteered or worked in an OT setting first. Master's programs typically run two to three years, combining coursework such as kinesiology, neuroscience, and anatomy with a required number of supervised fieldwork hours where students treat real clients under a licensed therapist's oversight.",
-					'All states require occupational therapists to be licensed, and at minimum that means passing a qualifying exam after completing an accredited program with fieldwork. Passing that exam is also what allows a therapist to legally use the title "Occupational Therapist Registered" (OTR). BLS notes state license and certification renewal typically requires a set number of continuing-education hours on an ongoing basis, not just the initial exam.',
-					"Against the [DPT-credentialed field](/physical-therapist-salary/), which requires an additional year or two of doctoral-level schooling beyond a master's, the pay gap is narrower than the extra training might suggest: BLS puts the physical therapist median at $101,020, about $2,680 above the $98,340 occupational therapist figure. BLS data describes what each occupation's workforce actually earns nationally; it does not explain why an extra degree year correlates with a comparatively small median-wage difference between the two fields.",
+					'All states require occupational therapists to be licensed, and at minimum that means passing a qualifying exam after completing an accredited program with fieldwork. NBCOT awards the Occupational Therapist Registered (OTR) certification separately from state licensure. It says only certificants maintaining Active in Good Standing status may use OTR. BLS notes state license and certification renewal typically requires a set number of continuing-education hours on an ongoing basis, not just the initial exam.',
+					"Against the [DPT-credentialed field](/physical-therapist-salary/), whose usual three-year U.S. entry program can take longer than an OT master's program of two to three years, the pay gap is narrower than the extra training might suggest: BLS puts the physical therapist median at $101,020, about $2,680 above the $98,340 occupational therapist figure. BLS data describes what each occupation's workforce actually earns nationally; it does not establish that differences in study duration cause the relatively small pay gap.",
 				],
 			},
 			{
@@ -4258,7 +4260,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do occupational therapists need a master\'s degree?',
-				answer: 'Yes. The standard starting credential BLS gives is a master\'s in OT, and applicants need a bachelor\'s first. The program also includes hands-on clinical placements. Every state also demands a license, earned through a licensing exam, which lets a therapist carry the OTR credential.',
+				answer: 'The usual starting education is graduate study in OT, generally after a first degree and including supervised placements. State authorization is mandatory throughout the U.S. NBCOT certification is a related but distinct qualification: keeping that certification active is what permits use of the OTR initials.',
 			},
 			{
 				question: 'Is occupational therapy a growing field?',
@@ -4282,6 +4284,9 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'BLS OEWS FAQ: wage versus Employment Projections coverage (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+			{ label: 'NBCOT: active certification and use of the OTR credential (checked 2026-10-12)', url: 'https://www.nbcot.org/occupational-therapy/what-is-an-otr-or-cota' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Occupational Therapists (accessed 2026-08-26 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/occupational-therapists.htm' },
 			{ label: 'O*NET OnLine: 29-1122.00 Occupational Therapists (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/29-1122.00' },
 		],
@@ -5038,7 +5043,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'How to Become a School Counselor: Degree, Certification, and Pay',
 		description: "BLS says school and career counselors typically need a master's degree plus a state-issued credential. Median pay is $64,330 a year in May 2025.",
 		published: '2026-09-03',
-		updated: '2026-09-03',
+		updated: '2026-10-12',
 		socCode: '21-1012',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, nearly all states and D.C. require school counselors to hold a master's degree in school counseling or a related field, plus a state-issued credential that may be called a certification, a license, or an endorsement. Which exam that credential requires varies by state: many states use the Praxis School Counselor exam from ETS, but Texas instead requires its own Texas Examinations of Educator Standards (TExES) School Counselor exam. BLS reports a median annual wage of $64,330 in May 2025, with the bottom 10% earning less than $45,020 and the top 10% earning more than $104,770.",
 		sections: [
@@ -5057,7 +5062,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'The credentialing exam: Praxis in many states, but not in Texas',
 				body: [
 					"Per BLS, public school counselors must hold a state-issued credential to practice, which depending on the state may be called a certification, a license, or an endorsement; earning it typically requires the master's degree above, a supervised internship or practicum, and passing a test. BLS does not name a specific exam, directing candidates instead to their state's own licensing board or to CareerOneStop, a U.S. Department of Labor resource, for state-specific requirements.",
-					"In practice, many states use a Praxis exam from ETS, the School Counselor test (numbered 5422, which as of September 2022 replaced an earlier version numbered 5421); passing scores for it differ by state, with most states that use it setting the bar at 159, while Arkansas accepts as low as 146, Missouri sets 149, and Mississippi and Utah both require 153. Texas is a documented exception that skips the Praxis series entirely: its State Board for Educator Certification instead requires its own exam, the Texas Examinations of Educator Standards (TExES) School Counselor EC-12 test. Texas separately requires a 48-hour school-counseling master's degree from an accredited educator preparation program (Texas Administrative Code 239.20), a 100-hour supervised practicum, and two further 300-hour supervised internship placements; as of September 2023, following Senate Bill 798, Texas also no longer requires school counselor candidates to have prior classroom teaching experience, reversing a requirement some other states still carry. Because the credentialing exam and the supervised-hour minimums both vary this much between just two examples, confirming requirements with the specific state licensing board remains the reliable step, exactly as BLS and CareerOneStop both point candidates to do.",
+					"In practice, many states use a Praxis exam from ETS, the School Counselor test (numbered 5422, which as of September 2022 replaced an earlier version numbered 5421); passing scores for it differ by state, with most states that use it setting the bar at 159, while Arkansas accepts as low as 146, Missouri sets 149, and Mississippi and Utah both require 153. Texas is a documented exception that skips the Praxis series entirely: its State Board for Educator Certification instead requires its own exam, the Texas Examinations of Educator Standards (TExES) School Counselor EC-12 test. Texas separately requires a 48-hour school-counseling master's degree from an accredited educator preparation program (Texas Administrative Code 239.20), a supervised practicum with a state minimum of 160 clock hours under 19 TAC 228.61(d), effective August 2, 2026; individual preparation programs may require more fieldwork; as of September 2023, following Senate Bill 798, Texas also no longer requires school counselor candidates to have prior classroom teaching experience, reversing a requirement some other states still carry. Because the credentialing exam and the supervised-hour minimums both vary this much between just two examples, confirming requirements with the specific state licensing board remains the reliable step, exactly as BLS and CareerOneStop both point candidates to do.",
 				],
 			},
 			{
@@ -5070,7 +5075,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			{
 				heading: "Pay, by setting, against other master's-level school careers on this site",
 				body: [
-					"BLS reports a median annual wage of $64,330 for school and career counselors and advisors in May 2025, or $30.93 an hour, above the $50,980 median for all occupations that year but below the $58,300 median it separately reports for the broader group of counselors, social workers, and other community and social service specialists this occupation belongs to. The bottom 10% of school and career counselors and advisors earned less than $45,020, and the top 10% earned more than $104,770.",
+					"BLS reports a median annual wage of $64,330 for school and career counselors and advisors in May 2025, or $30.93 an hour, above the $50,980 median for all occupations that year and above the $58,300 median it separately reports for the broader group of counselors, social workers, and other community and social service specialists this occupation belongs to. The bottom 10% of school and career counselors and advisors earned less than $45,020, and the top 10% earned more than $104,770.",
 					"By industry, BLS reports the highest median pay in local elementary and secondary schools, at $77,800, the same setting that employs 38% of the field; private elementary and secondary schools follow at $62,190, then public colleges and universities at $58,870, private colleges and universities at $58,720, and other private educational services at $57,480, the lowest of the five tracked settings. BLS projects 3% employment growth from 2025 to 2035, about as fast as the average for all occupations, adding an estimated 11,400 jobs to the 389,500 already employed, with about 27,800 openings projected each year on average, mostly from workers transferring to other occupations or leaving the labor force.",
 					"Against other education- and human-services careers this site tracks, the school counselor median sits within about $10 of [librarians](/how-to-become-a-librarian/) (whose most recently reported BLS median was $64,320, though for the May 2024 data year rather than May 2025), above [social workers](/how-to-become-a-social-worker/) at $61,330, an occupation whose overall median blends a bachelor's-level entry path with a master's-level clinical track, and well below [psychologists](/how-to-become-a-psychologist/) at $94,310, an occupation whose largest specialty by headcount typically requires a doctoral rather than a master's degree. BLS does not attribute these gaps to a specific cause; the comparison describes what each occupation's own BLS profile reports, not a claim that one credentialing path pays better than another for a given reader.",
 				],
@@ -5079,7 +5084,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		faq: [
 			{
 				question: 'How long does it take to become a school counselor?',
-				answer: "There's no single BLS-published timeline. The path runs a 4-year undergraduate degree, then an open-ended stretch for the graduate program itself, since BLS doesn't pin down how long that runs. A hands-on training requirement comes before any state will sign off, adding further time; in Texas specifically, that means a roughly 100-hour practicum plus two more rounds of 300-hour fieldwork on top of the coursework.",
+				answer: "BLS gives no fixed national completion time. Candidates normally finish undergraduate study, graduate counseling coursework and supervised school experience before gaining the local credential. Texas requires at least 48 graduate semester credits, an approved preparation course and the state exam. Its practicum minimum is 160 clock hours; a university can set a longer placement schedule.",
 			},
 			{
 				question: 'Do all states require the same exam to become a school counselor?',
@@ -5103,6 +5108,9 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 		],
 		sources: [
+			{ label: 'Texas 19 TAC 228.61(d): 160-clock-hour nonteacher practicum, August 2026 (checked 2026-10-12)', url: 'https://tea.texas.gov/laws-and-rules/sbec-rules-tac/sbec-tac-currently-effect/ch228e.pdf' },
+			{ label: 'Texas 19 TAC 239.20: 48-hour graduate degree and counselor certification (checked 2026-10-12)', url: 'https://tea.texas.gov/laws-and-rules/sbec-rules-tac/sbec-tac-currently-effect/ch239a.pdf' },
+
 			{ label: 'BLS Occupational Outlook Handbook: School and Career Counselors and Advisors (accessed 2026-09-03 via proxied fetch, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/community-and-social-service/school-and-career-counselors.htm' },
 			{ label: 'ETS: Praxis School Counselor (5422) Study Companion, independent confirmation of the exam name, number, and its 2022 update from 5421', url: 'https://praxis.ets.org/on/demandware.static/-/Library-Sites-ets-praxisLibrary/default/pdfs/5422.pdf' },
 			{ label: 'Texas State Board of Education: April 2024 Committee on School Initiatives, Item 9, on the SBEC rule amending 19 TAC §239.20 (School Counselor Certificate) to implement Senate Bill 798, independent state-government confirmation that Texas certifies school counselors under its own state rule rather than the Praxis series', url: 'https://sboe.texas.gov/state-board-of-education/sboe-2024/sboe-2024-april/april-2024-committee-on-school-initiatives-item-9' },
@@ -5119,7 +5127,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'What Does a Home Health Aide Do? Duties, Pay, and BLS Outlook',
 		description: 'BLS lists the daily duties, entry requirements, and industry pay for home health and personal care aides, an occupation projected to grow 18% through 2035.',
 		published: '2026-09-03',
-		updated: '2026-09-03',
+		updated: '2026-10-12',
 		socCode: '31-1120',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, home health and personal care aides monitor the condition of people with disabilities or chronic illnesses and help them with daily living activities such as bathing, dressing, housekeeping, and meal preparation, often for older adults, and under the direction of a nurse or other healthcare practitioner they may also check vital signs or help administer medication. BLS reports a median annual wage of $35,800 in May 2025, with the bottom 10% earning less than $27,040 and the top 10% earning more than $45,040. BLS projects 18% employment growth from 2025 to 2035, about six times the 3% average projected across all occupations.",
 		sections: [
@@ -5145,8 +5153,8 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Getting in: a low bar to entry, but one that varies sharply by employer',
 				body: [
 					'BLS lists a high school diploma or equivalent as the typical entry-level education, though it notes some positions do not require even that, and lists no prior work experience in a related occupation as necessary. Training is typically short-term and on the job, covering areas such as personal hygiene, reading and recording vital signs, infection control, and basic nutrition; postsecondary nondegree award programs are also available through community colleges and vocational schools for aides who want more formal preparation.',
-					'How much of that training is actually required, though, depends heavily on the employer and the state. BLS states that certified home health or hospice agencies receiving payments from federally funded programs such as Medicare must comply with federal regulations regarding aides\' employment, which in practice means completing formal training and passing a standardized test; private care agencies that do not receive federal funds may set different requirements that vary by state. Some states separately require a license or certification for the role generally, which per BLS may involve completing training, passing a background check, and passing a competency exam. Aides may also need certification in first aid and CPR.',
-					'That employer-dependent structure is a real contrast with [becoming a CNA](/how-to-become-a-cna/) on this site, where a federal rule sets one uniform 75-hour training floor plus a state competency exam and registry listing that applies regardless of which employer someone works for. Home health aide entry, by comparison, can run from no formal requirement at all, for an aide working through a private, non-Medicare-funded agency in a state with no separate licensing rule, up to a mandated training-and-exam track for anyone working through a Medicare-certified home health or hospice agency.',
+					'How much of that training is actually required, though, depends heavily on the employer and the state. BLS states that certified home health or hospice agencies receiving payments from federally funded programs such as Medicare must comply with federal regulations regarding aides\' employment, which requires meeting approved training or competency-evaluation qualifications; private care agencies that do not receive federal funds may set different requirements that vary by state. Some states separately require a license or certification for the role generally, which per BLS may involve completing training, passing a background check, and passing a competency exam. Aides may also need certification in first aid and CPR.',
+					'That employer-dependent structure is a real contrast with [becoming a CNA](/how-to-become-a-cna/) on this site, where a federal rule sets a 75-hour minimum for approved training, a competency assessment and state registry listing for nursing-home employment governed by the federal rules. Private-agency requirements vary by state. For Medicare-certified home health agencies, 42 CFR 484.80 provides several qualifying routes: approved training plus evaluation, competency evaluation alone, qualified nurse-aide status, or an appropriate state-license program. Its training route requires 75 hours, including 16 hours of classroom instruction before at least 16 supervised practical hours. Thus the distinction is coverage and qualifying route, not the absence of a federal home-health training floor.',
 				],
 			},
 			{
@@ -5173,7 +5181,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do home health aides need a license or certification?',
-				answer: "Whether formal credentials are required comes down to who the employer is and which state the aide works in. Agencies that bill Medicare or other federal programs have to put aides through actual training and a standardized exam before they can work, per BLS. Beyond that federal layer, individual states sometimes add their own licensing rule covering the whole occupation, background checks and a skills test included, while agencies running outside the federally funded system may set looser, inconsistent expectations of their own.",
+				answer: "The jurisdiction and agency setting matter. Providers certified to bill Medicare must employ aides meeting federal qualification rules, through an accepted course and assessment, evaluation alone, eligible nurse-aide status or an approved state-license route. States can add certification or background checks. Private providers outside those requirements follow local law and their own hiring policies.",
 			},
 			{
 				question: 'Is home health aide a growing career?',
@@ -5181,10 +5189,12 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Who gets paid more, CNA or HHA?',
-				answer: 'CNAs earned more, per BLS\'s May 2025 data: a median of $42,260 in that nursing-assistant role, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide, well above the figure covered above for this occupation the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey. Training length is where the two jobs really split: a 75-hour federal minimum applies to CNAs, while no such federal floor exists for the role covered on this page.',
+				answer: 'Yes: CNA pay reached a $42,260 midpoint in May 2025, versus $35,800 for this combined home-and-personal-care category, a difference of $6,460. Both pay estimates are OEWS figures. The [CNA entry guide](/how-to-become-a-cna/) describes training and registry rules for covered nursing-home jobs. The covered aide course must also reach 75 hours under federal law, with alternative qualification routes, so that number alone does not distinguish the occupations.',
 			},
 		],
 		sources: [
+			{ label: '42 CFR 484.80: qualification alternatives and home-health training minimum (checked 2026-10-12)', url: 'https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-G/part-484/subpart-B/section-484.80' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Home Health and Personal Care Aides (accessed 2026-09-03 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm' },
 			{ label: 'O*NET OnLine: 31-1121.00 Home Health Aides (the detailed occupation code O*NET tracks separately; BLS combines it with Personal Care Aides, 31-1122, under 31-1120 for OOH/OEWS wage and employment reporting)', url: 'https://www.onetonline.org/link/summary/31-1121.00' },
 		],
@@ -5673,7 +5683,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Psychiatrist Salary: $281,870 Median & Job Outlook (2026 BLS)',
 		description: "BLS puts the median psychiatrist salary at $281,870 a year, above the blended physician median. It's tied for the fastest-growing physician specialty BLS tracks.",
 		published: '2026-09-12',
-		updated: '2026-09-12',
+		updated: '2026-10-12',
 		socCode: '29-1223',
 		coreSummary: "The U.S. Bureau of Labor Statistics reports a median annual wage of $281,870 for psychiatrists in May 2025, one of 17 detailed physician specialties it breaks out by title on its combined \"Physicians and Surgeons\" page. That figure sits above the $275,930 blended median for physicians and surgeons as a whole. BLS projects 7% employment growth for psychiatrists from 2025 to 2035, a rate that ties with dermatologists for the fastest of any physician specialty BLS lists by title on this page, adding roughly 2,100 jobs to a 2025 workforce of 30,000. BLS does not publish a psychiatrist-specific percentile wage range; the 10th-to-90th spread it does report ($76,560 to more than $488,320) covers physicians and surgeons overall, not psychiatrists alone.",
 		sections: [
@@ -5682,7 +5692,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				body: [
 					"Psychiatrists earned a median of $281,870 a year in May 2025, per BLS, which tracks the occupation under SOC code 29-1223 within its combined Occupational Outlook Handbook page for physicians and surgeons. That places psychiatrists $5,940 above the $275,930 median BLS reports for physicians and surgeons as a blended group covering dozens of specialties, from family medicine to cardiology to surgery. Among the 17 detailed physician titles BLS breaks out by name on this page, psychiatrists rank in the middle of the pack for pay: well behind top earners like pediatric surgeons ($559,030) and cardiologists ($496,010), but ahead of primary-care-oriented specialties such as family medicine physicians ($244,180) and general internal medicine physicians ($256,560).",
 					"BLS does not publish a percentile wage breakdown specific to psychiatrists on this page. The one percentile range it does report, a 10th percentile of $76,560 and a 90th percentile above $488,320, describes physicians and surgeons as a whole rather than any single specialty, so it isn't a reliable stand-in for how psychiatrist pay actually spreads. That's a real data gap compared with occupations this site tracks that get their own dedicated BLS profile page, such as [optometrists](/optometrist-salary/), where BLS reports a specialty-specific 10th percentile of $74,870 and 90th percentile of $202,180.",
-					"Against two other doctoral-track fields this site covers, the gap in psychiatrist pay is large. BLS's May 2024 figure for [physician assistants](/physician-assistant-salary/) sits at $133,260, about $148,610 below the psychiatrist median; [psychologists](/how-to-become-a-psychologist/), whose highest entry point is also a doctoral degree, come in lower still at $94,310 for the same May 2024 period. Neither comparison isolates how much of that spread traces to the length of training (a psychiatrist's path runs through medical school and residency, while a PA's runs through a two-year master's program) versus scope of practice, and BLS does not weigh those factors on this page.",
+					"Against two other graduate-trained fields this site covers, the gap in psychiatrist pay is large. BLS's May 2024 figure for [physician assistants](/physician-assistant-salary/) sits at $133,260, about $148,610 below the psychiatrist median; [psychologists](/how-to-become-a-psychologist/), whose highest entry point is also a doctoral degree, come in lower still at $94,310 for May 2024 as well, compared here with the psychiatry May 2025 figure. Neither comparison isolates how much of that spread traces to the length of training (a psychiatrist's path runs through medical school and residency, while a PA's runs through a two-year master's program) versus scope of practice, and BLS does not weigh those factors on this page.",
 				],
 				image: {
 					src: '/images/psychiatrist-salary-chart.svg',
@@ -5720,7 +5730,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: "What's the difference between a psychiatrist and a psychologist?",
-				answer: "A medical degree, in BLS's framing. Psychiatrists finish medical school (M.D. or D.O.), which lets them write prescriptions, and they show up on the same government pay table as dozens of other specialties within medicine. Psychologists instead complete graduate training in the field without a medical degree, get their own separate BLS occupational listing (median $94,310 for May 2024), and can't write prescriptions in the large majority of states.",
+				answer: "A medical degree, in BLS's framing. Psychiatrists finish medical school (M.D. or D.O.), which lets them write prescriptions, and they show up on the same government pay table as dozens of other specialties within medicine. Psychologists instead complete graduate training in the field without a medical degree, get their own separate BLS occupational listing (median $94,310 in the May 2024 figures), and can't write prescriptions in the large majority of states.",
 			},
 			{
 				question: 'How long does it take to become a psychiatrist?',
