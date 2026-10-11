@@ -1852,14 +1852,14 @@ export const guides: Guide[] = [
 		title: 'Firefighter Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median firefighter salary at $59,280 a year, with 4% growth projected through 2035. Here is the full wage range by percentile and by employer type.',
 		published: '2026-08-11',
-		updated: '2026-09-09',
+		updated: '2026-10-12',
 		socCode: '33-2011',
 		coreSummary: 'The median annual wage for firefighters was $59,280 in May 2025, according to the U.S. Bureau of Labor Statistics, or $28.50 an hour. The bottom 10% earned less than $34,910 while the top 10% earned more than $101,040. BLS projects 4% employment growth from 2025 to 2035, about as fast as the roughly 3% average across all occupations, adding an estimated 13,100 jobs and about 26,800 openings a year on average.',
 		sections: [
 			{
 				heading: 'What firefighters earn, and how that compares to the broader labor market',
 				body: [
-					'The Bureau of Labor Statistics tracks this role under SOC code 33-2011. For May 2025, BLS reported a median annual wage of $59,280, or $28.50 an hour, for the roughly 355,300 people employed as firefighters nationwide. On the same page, BLS lists the median across all occupations in the economy as $50,980, putting firefighters above [that broader national wage benchmark](/salary-statistics-2026/). The bottom 10% of firefighters earned less than $34,910 a year, while the top 10% earned more than $101,040, a spread of roughly $66,000 that BLS attributes to differences in department size, rank, region, and years of service rather than any single factor.',
+					'The Bureau of Labor Statistics tracks this role under SOC code 33-2011. For May 2025, BLS reported a median annual wage of $59,280, or $28.50 an hour. The separate Employment Projections program counted roughly 355,300 firefighter jobs in 2025. On the same page, BLS lists the median across all occupations in the economy as $50,980, putting firefighters above that median. The [national salary statistics](/salary-statistics-2026/) page covers a different measure, the $69,770 mean annual wage, alongside weekly earnings and household income. The bottom 10% of firefighters earned less than $34,910 a year, while the top 10% earned more than $101,040, a spread of roughly $66,000 that BLS attributes to differences in department size, rank, region, and years of service rather than any single factor.',
 					'These figures cover paid, career firefighters only. BLS is explicit that its employment and wage numbers "exclude volunteer firefighters, who share the same duties as paid firefighters," and notes separately that volunteers "account for the largest share of firefighters nationwide, especially in communities of fewer than 25,000." That means the $59,280 median describes the career workforce BLS surveys for pay, not the full population of people who do firefighting work in the United States.',
 					'BLS also groups firefighters under a broader "firefighting and prevention workers" category, which also includes fire inspectors and investigators and had a slightly higher median hourly wage of $28.67 (about $59,630 a year using the standard 2,080-hour work year BLS applies) for May 2025. The firefighter-specific figure used throughout this page, $59,280, is the narrower number for the occupation itself.',
 				],
@@ -1877,7 +1877,7 @@ export const guides: Guide[] = [
 				body: [
 					'BLS states that firefighters typically need a high school diploma and training in emergency medical services to enter the occupation, with no college degree required to start. Most receive their initial training at a fire academy run by a local fire department or the state, covering firefighting and fire-prevention techniques, local building codes, and emergency medical procedures, followed by a probationary period on the job. Despite that high-school-diploma hiring bar, BLS classifies the occupation\'s "typical entry-level education" as a postsecondary nondegree award; the firefighters page itself does not spell out why, but BLS elsewhere uses that same category label for occupations built around a standalone certification earned after high school, such as EMTs, which lines up with the postsecondary EMT certification training most departments require alongside the fire academy itself.',
 					"Beyond initial hiring, BLS notes that licensing and certification requirements, such as EMT or paramedic status, vary by state or locality, and that some jurisdictions also require a commercial driver's license or a driver's license with a firefighter endorsement to operate a firetruck. Continuing education is required to maintain these credentials. Wildland firefighters specifically may go through apprenticeship programs lasting up to four years that combine instruction with supervised on-the-job training. For advancement, BLS describes a promotion track from firefighter to engineer, then lieutenant, captain, battalion chief, assistant chief, deputy chief, and chief, and notes that many departments require a bachelor's degree, often in fire science or public administration, for promotion beyond battalion chief.",
-					"Firefighters out-earn some, but not all, of the other entry paths this site has covered that skip a bachelor's degree. [Electricians](/electrician-salary/) sit a bit higher at the median, at $63,190 versus $59,280 for firefighters, and BLS lists the same nominal hiring bar of a high school diploma for both, though electricians train through a 4- to 5-year, mostly on-the-job apprenticeship rather than a fire academy plus EMT certification. [CNAs](/how-to-become-a-cna/), by contrast, need a much shorter training bar, a state-approved program with a federal floor of 75 hours under 42 CFR § 483.152, and BLS puts the nursing assistant median at $42,260, well below both firefighters and electricians. [Ironworkers](/ironworker-salary/), also a high school diploma-entry trade on this site, land on either side of the firefighter figure depending on which of the two BLS ironworking occupations is in question: structural iron and steel workers post a $62,780 median, about $3,500 above firefighters, while reinforcing iron and rebar workers come in at $58,970, just under. BLS does not quantify how much of these gaps owes to training length, licensing requirements, physical risk, or other factors it does not isolate on any of these pages.",
+					"Firefighters out-earn some, but not all, of the other entry paths this site has covered that skip a bachelor's degree. [Electricians](/electrician-salary/) sit a bit higher at the median, at $63,190 versus $59,280 for firefighters, and the narrative profiles describe a high school diploma minimum for both; their typical entry-education classifications differ because firefighter entry also involves a postsecondary nondegree credential. Electricians train through a 4- to 5-year, mostly on-the-job apprenticeship rather than a fire academy plus EMT certification. [CNAs](/how-to-become-a-cna/), by contrast, need a much shorter training bar, a state-approved program with a federal floor of 75 hours under 42 CFR § 483.152, and BLS puts the nursing assistant median at $42,260, well below both firefighters and electricians. [Ironworkers](/ironworker-salary/), also a high school diploma-entry trade on this site, land on either side of the firefighter figure depending on which of the two BLS ironworking occupations is in question: structural iron and steel workers post a $62,780 median, about $3,500 above firefighters, while reinforcing iron and rebar workers come in at $58,970, just under. BLS does not quantify how much of these gaps owes to training length, licensing requirements, physical risk, or other factors it does not isolate on any of these pages.",
 				],
 			},
 			{
@@ -1912,6 +1912,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'BLS OEWS FAQ: wage coverage and separate Employment Projections counts (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Firefighters (accessed 2026-09-09, data from May 2025)', url: 'https://www.bls.gov/ooh/protective-service/firefighters.htm' },
 			{ label: 'BLS Occupational Employment and Wage Statistics, National May 2025 estimates (Table 1)', url: 'https://www.bls.gov/news.release/ocwage.t01.htm' },
 			{ label: 'CareerOneStop: Find Certifications (U.S. Department of Labor)', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx' },
@@ -2000,7 +2002,7 @@ export const guides: Guide[] = [
 		title: 'Truck Driver Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median truck driver salary at $57,440 a year, with 4% growth projected through 2034. Here is the full wage range by percentile and by industry.',
 		published: '2026-08-12',
-		updated: '2026-08-12',
+		updated: '2026-10-12',
 		socCode: '53-3032',
 		coreSummary: 'The median annual wage for heavy and tractor-trailer truck drivers was $57,440 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $38,640 while the top 10% earned more than $78,800. BLS projects 4% employment growth from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 89,300 jobs.',
 		sections: [
@@ -2025,14 +2027,14 @@ export const guides: Guide[] = [
 				body: [
 					"BLS Quick Facts list the typical entry-level education for truck drivers as a postsecondary nondegree award, though the Handbook's narrative description says most companies simply require a high school diploma or equivalent, plus completion of a professional truck driving school. BLS says these training programs run 3 to 6 months at either a private driving school or a community college, and cover both vehicle handling and the federal laws governing interstate trucking; graduates receive a certificate of completion rather than a degree.",
 					'All long-haul drivers must hold a commercial driver\'s license (CDL). Qualifications vary by state but generally include a knowledge test and a driving test, per BLS, and a state can refuse to issue a CDL to someone whose license was suspended by another state. Drivers who haul hazardous materials need an additional H endorsement, which BLS says requires passing a further knowledge test and a background check. After finishing driving school and getting hired, BLS says new drivers typically spend several weeks in on-the-job training, riding with an experienced mentor-driver before driving solo.',
-					"For readers comparing entry paths that skip a bachelor's degree, truck drivers sit below some of the other trades this site has covered. [Electricians](/electrician-salary/) require a 4- or 5-year apprenticeship and post a higher median of $63,190, while [firefighters](/firefighter-salary/) share the same postsecondary-nondegree-award classification from BLS and post a similar median of $59,280, just above truck drivers. BLS does not track how apprenticeship length, licensing requirements, or industry mix account for the differences between these three occupations.",
+					"For readers comparing entry paths that skip a bachelor's degree, truck drivers sit below some of the other trades this site has covered. [Electricians](/electrician-salary/) require a 4- or 5-year apprenticeship and post a higher May 2025 median of $63,190, while [firefighters](/firefighter-salary/) share the same postsecondary-nondegree-award classification from BLS and post a May 2025 median of $59,280, just above the truck-driver figure from May 2024. BLS does not track how apprenticeship length, licensing requirements, or industry mix account for the differences between these three occupations.",
 				],
 			},
 			{
 				heading: 'Job outlook, and the federal rules that govern the job',
 				body: [
 					'BLS projects 4% employment growth for truck drivers from 2024 to 2034, adding an estimated 89,300 jobs and about 237,600 openings a year on average. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions alone. BLS ties underlying demand to growth in household and business spending, since trucks move most of the freight in the United States.',
-					'BLS also flags that heavy and tractor-trailer truck drivers have one of the highest rates of injuries and illnesses of all occupations, along with one of the highest rates of occupational fatalities, tied to the risk of traffic accidents. Federal Motor Carrier Safety Administration rules, which BLS cites directly, limit drivers to 14 hours on duty per day, of which up to 11 can be actual driving, and require at least 10 hours off duty between shifts. Drivers are also capped at 60 hours of driving within 7 days or 70 hours within 8 days, after which federal rules require a 34-hour break before another multi-day run can begin.',
+					'BLS also flags that heavy and tractor-trailer truck drivers have one of the highest rates of injuries and illnesses of all occupations, along with one of the highest rates of occupational fatalities, tied to the risk of traffic accidents. Federal Motor Carrier Safety Administration rules, which BLS cites directly, normally prohibit driving beyond the 14th consecutive hour after coming on duty, after 10 consecutive hours off, and allow at most 11 driving hours within that window. A 30-minute interruption is required after 8 cumulative driving hours without such a break. Driving is also prohibited after 60 hours on duty in 7 days or 70 in 8 days. A driver may restart that 7- or 8-day period with at least 34 consecutive hours off; a restart is optional. FMCSA lists separate sleeper-berth provisions and exceptions, including adverse conditions and short-haul operations.',
 					"These are national figures, and BLS does not break them down by specific carrier, freight lane, or region. A driver comparing training programs would need to weigh the placement record and freight demand of that specific school or carrier separately, since the 4% outlook describes the occupation nationwide rather than any one route or employer.",
 				],
 			},
@@ -2068,6 +2070,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'FMCSA: property-carrying hours-of-service limits and optional restart (checked 2026-10-12)', url: 'https://www.fmcsa.dot.gov/regulations/hours-service/summary-hours-service-regulations' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers (accessed 2026-08-12 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm' },
 			{ label: 'Federal Motor Carrier Safety Administration (U.S. Department of Transportation)', url: 'https://www.fmcsa.dot.gov/' },
 			{ label: "Walmart Corporate: 2026 Jobs Spotlight Report, Private Fleet Driver base pay (accessed 2026-09-17 via direct fetch, returned 200, data as of the end of FY27 Q1)", url: 'https://corporate.walmart.com/news/2026/07/16/2026-jobs-spotlight-report' },
@@ -2260,7 +2264,7 @@ export const guides: Guide[] = [
 		title: 'How to Become an Electrician: Apprenticeship, Licensing, and Pay',
 		description: 'Two apprenticeship routes lead to a license: union through IBEW/NECA, or non-union through IEC/ABC. Both run about 8,000 paid training hours. Here is the process.',
 		published: '2026-08-16',
-		updated: '2026-09-23',
+		updated: '2026-10-12',
 		socCode: '47-2111',
 		coreSummary: 'Most electricians enter the trade through a registered apprenticeship, not a college degree, following either a union path through a local IBEW/NECA Joint Apprenticeship and Training Committee or a non-union path through an Independent Electrical Contractors (IEC) or Associated Builders and Contractors (ABC) chapter. BLS describes the typical apprenticeship as 4 to 5 years; IEC publishes its own program as a 4-year structure totaling roughly 8,000 hours of paid on-the-job training and 576 hours of classroom instruction. Most states then require passing a licensing exam. BLS puts the median electrician wage at $63,190 a year as of May 2025.',
 		sections: [
@@ -2319,7 +2323,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do electrician apprentices get paid?',
-				answer: "Less than someone who already holds a full electrician's license, with raises tied to growing responsibility, per BLS, though the agency stops short of publishing an actual apprentice pay scale. Once someone finishes that multi-year training and becomes a journey worker, the wage floor becomes the occupation's own May 2025 median: $63,190 for the year.",
+				answer: "Less than someone who already holds a full electrician's license, with raises tied to growing responsibility, per BLS, though the agency stops short of publishing an actual apprentice pay scale. For context, the May 2025 middle earnings value across the profession was $63,190 a year; this is neither a promised starting paycheck nor a legal pay minimum.",
 			},
 			{
 				question: 'Is there an age limit to become an electrician?',
@@ -2345,17 +2349,17 @@ export const guides: Guide[] = [
 		slug: 'how-to-become-a-physical-therapist',
 		category: 'How to Become',
 		title: 'How to Become a Physical Therapist: DPT, NPTE, and Licensing',
-		description: 'A CAPTE-accredited DPT degree and a passing NPTE score are required in every state. The admission path, the 225-question exam, and what licensed PTs earn.',
+		description: 'The usual U.S. entry route is a CAPTE-accredited DPT and the NPTE; foreign education may qualify after equivalency review and state approval. The admission path, the 225-question exam, and what licensed PTs earn.',
 		published: '2026-08-16',
-		updated: '2026-08-16',
+		updated: '2026-10-12',
 		socCode: '29-1123',
-		coreSummary: 'Physical therapists need a Doctor of Physical Therapy (DPT) degree from a program accredited by the Commission on Accreditation in Physical Therapy Education (CAPTE), typically three years of coursework and supervised clinical work after a bachelor\'s degree, and a passing score on the National Physical Therapy Examination (NPTE) in every state. The NPTE, administered by the Federation of State Boards of Physical Therapy (FSBPT), is a 225-question exam given over five hours at Prometric testing centers four times a year; a scaled score of 600 out of a possible 800 is required to pass. BLS reports a median annual wage of $101,020 for physical therapists in May 2024.',
+		coreSummary: 'The usual U.S.-educated entry route requires a Doctor of Physical Therapy (DPT) degree from a program accredited by the Commission on Accreditation in Physical Therapy Education (CAPTE), typically three years of coursework and supervised clinical work after a bachelor\'s degree, and a passing score on the National Physical Therapy Examination (NPTE) in every state. FSBPT also recognizes foreign education found substantially equivalent by a credentialing agency, subject to approval by the licensing authority. The NPTE, administered by the Federation of State Boards of Physical Therapy (FSBPT), is a 225-question exam given over five hours at Prometric testing centers four times a year; a scaled score of 600 out of a possible 800 is required to pass. BLS reports a median annual wage of $101,020 for physical therapists in May 2024.',
 		sections: [
 			{
-				heading: 'The DPT is the only path in',
+				heading: 'The usual U.S. entry path is a DPT',
 				body: [
-					"Per the Bureau of Labor Statistics, the typical entry-level education for a physical therapist is a doctoral or professional degree, specifically a Doctor of Physical Therapy (DPT). There is no bachelor's-level or master's-level track left in the United States; anyone entering the occupation today needs the doctorate. BLS does not require a specific undergraduate major to apply to a DPT program, though it notes applicants typically hold a bachelor's degree in a field such as recreation and fitness or a healthcare-related area, along with prerequisite coursework in subjects including anatomy, chemistry, and physics.",
-					'The doctoral program itself must be accredited by the Commission on Accreditation in Physical Therapy Education (CAPTE) to qualify a graduate for licensure, according to the American Physical Therapy Association (APTA); APTA does not rank or endorse individual programs, only CAPTE evaluates and accredits them. BLS describes DPT programs as typically running three years and including coursework in biomechanics, neuroscience, and pharmacology, alongside supervised clinical work in settings such as acute care and orthopedic care. Combined with a four-year bachelor\'s degree, the typical timeline from starting college to finishing the DPT runs around seven years, before a graduate is even eligible to sit for the licensing exam.',
+					"Per the Bureau of Labor Statistics, the typical entry-level education for a physical therapist is a doctoral or professional degree, specifically a Doctor of Physical Therapy (DPT). There is no bachelor's-level or master's-level track left in the United States; new entrants completing a U.S. entry-level program take the doctoral route. Foreign-educated applicants may instead qualify through recognized educational-equivalency review and state approval, according to FSBPT. BLS does not require a specific undergraduate major to apply to a DPT program, though it notes applicants typically hold a bachelor's degree in a field such as recreation and fitness or a healthcare-related area, along with prerequisite coursework in subjects including anatomy, chemistry, and physics.",
+					'For the usual U.S. entry route, the doctoral program must be accredited by the Commission on Accreditation in Physical Therapy Education (CAPTE) to qualify a graduate for licensure, according to the American Physical Therapy Association (APTA); APTA does not rank or endorse individual programs, only CAPTE evaluates and accredits them. BLS describes DPT programs as typically running three years and including coursework in biomechanics, neuroscience, and pharmacology, alongside supervised clinical work in settings such as acute care and orthopedic care. Combined with a four-year bachelor\'s degree, the typical timeline from starting college to finishing the DPT runs around seven years, before a graduate is even eligible to sit for the licensing exam.',
 				],
 			},
 			{
@@ -2376,7 +2380,7 @@ export const guides: Guide[] = [
 				heading: 'What licensed PTs earn, and how the DPT compares to other advanced-credential health roles',
 				body: [
 					'BLS reported a median annual wage of $101,020 for physical therapists in May 2024, with the bottom 10% earning less than $74,420 and the top 10% earning more than $132,500; industry pay also varies, with home healthcare services paying the highest tracked median at $108,110. For the full percentile and industry breakdown, see [physical therapist salary](/physical-therapist-salary/).',
-					'The DPT puts physical therapy in the same doctoral-entry tier BLS uses for [pharmacists](/pharmacist-salary/), whose Doctor of Pharmacy (PharmD) is likewise a professional doctorate. BLS puts the pharmacist median at $140,910 (its May 2025 figure, against May 2024 for physical therapists), about $39,890 (roughly 39%) above the physical therapist median, despite a broadly similar total years of postsecondary training. By contrast, [physician assistants](/physician-assistant-salary/) and [nurse practitioners](/nurse-practitioner-salary/) typically enter with a master\'s degree, one credential level below a DPT or PharmD, yet BLS reports higher medians for both roles: $133,260 for physician assistants and $129,210 for nurse practitioners, each above the physical therapist figure. None of this is a claim that a shorter credential path pays better, or that any one of these roles suits a given person more than another; it is simply what BLS reports for each occupation\'s aggregate labor market. At the opposite end of the training-length spectrum, [becoming a CNA](/how-to-become-a-cna/) requires a federal minimum of 75 hours of training rather than a doctoral degree, with a BLS median of $42,260, about 42% of the physical therapist figure.',
+					'The DPT puts physical therapy in the same doctoral-entry tier BLS uses for [pharmacists](/pharmacist-salary/), whose Doctor of Pharmacy (PharmD) is likewise a professional doctorate. BLS puts the pharmacist median at $140,910 (its May 2025 figure, against May 2024 for physical therapists), about $39,890 (roughly 39%) above the physical therapist median, despite a broadly similar total years of postsecondary training. By contrast, [physician assistants](/physician-assistant-salary/) and [nurse practitioners](/nurse-practitioner-salary/) typically enter with a master\'s degree, one credential level below a DPT or PharmD, yet BLS reports higher medians for both roles: $133,260 for physician assistants and $129,210 for nurse practitioners, both May 2024 figures like the physical therapist figure. None of this is a claim that a shorter credential path pays better, or that any one of these roles suits a given person more than another; it is simply what BLS reports for each occupation\'s aggregate labor market. At the opposite end of the training-length spectrum, [becoming a CNA](/how-to-become-a-cna/) requires a federal minimum of 75 hours of training rather than a doctoral degree, with a BLS median of $42,260, about 42% of the physical therapist figure.',
 				],
 			},
 		],
@@ -2395,7 +2399,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do physical therapists need board certification to practice?',
-				answer: "No. A doctoral degree in this field, a passing licensing-exam score, and a state license cover what's required to practice. Getting recognized as a specialist in a clinical area, sports medicine or geriatric care among them, is a separate, optional credential a working clinician can add later on.",
+				answer: "Specialist recognition is optional. A state license and a passing NPTE result are required, with approved education: usually a U.S. clinical doctorate, or foreign qualifications accepted through a credential evaluator and the state board. Clinical specializations such as sports or geriatric practice add a separate credential after licensure.",
 			},
 			{
 				question: 'How much do physical therapists make?',
@@ -2411,6 +2415,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'FSBPT: CAPTE and substantially-equivalent education eligibility (checked 2026-10-12)', url: 'https://www.fsbpt.org/Secondary-Pages/Exam-Candidates/National-Exam-NPTE/Eligibility-Requirements' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Physical Therapists, How to Become One (data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/physical-therapists.htm' },
 			{ label: 'APTA: Becoming a Physical Therapist', url: 'https://www.apta.org/your-career/careers-in-physical-therapy/becoming-a-pt' },
 			{ label: 'FSBPT: Understanding the NPTE (Candidate Handbook)', url: 'https://www.fsbpt.org/Free-Resources/NPTE-Candidate-Handbook/Understanding-the-NPTE' },
@@ -3192,14 +3198,14 @@ export const guides: Guide[] = [
 		title: 'Chef and Head Cook Salary: BLS Wage Data by Percentile (2026)',
 		description: "BLS reports a $60,990 median chef salary. No degree is required, but the typical entry path runs on five years of related work experience instead.",
 		published: '2026-08-21',
-		updated: '2026-08-21',
+		updated: '2026-10-12',
 		socCode: '35-1011',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, chefs and head cooks (SOC 35-1011) earned a median annual wage of $60,990 in May 2024, or $29.32 an hour, above the $49,500 median for all occupations combined. BLS lists a high school diploma or its equivalent as the typical entry-level education, but unlike most occupations at that education tier, it also lists five years or more of work experience in a related occupation as typical, with no additional formal on-the-job training required once that experience is in place. BLS projects 7% employment growth from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 14,000 jobs to the 197,300 chefs and head cooks already working in 2024.",
 		sections: [
 			{
 				heading: 'The median chef salary, and the range around it',
 				body: [
-					'BLS tracks this occupation under the combined title "Chefs and Head Cooks," SOC code 35-1011, describing the work as overseeing the daily food preparation at restaurants and other places where food is served. The median annual wage was $60,990 in May 2024 ($29.32 an hour), above the $49,500 median across all occupations in the U.S. economy that year. The bottom 10% of chefs and head cooks earned less than $36,000, and the top 10% earned more than $96,030, a spread of well over two and a half times between the lower and upper bound BLS reports. For a healthcare role with a comparable median but a formal bachelor\'s-degree entry bar instead of years of food-service experience, see this site\'s [clinical lab technologist pay](/clinical-laboratory-technologist-salary/) guide.',
+					'BLS tracks this occupation under the combined title "Chefs and Head Cooks," SOC code 35-1011, describing the work as overseeing the daily food preparation at restaurants and other places where food is served. The median annual wage was $60,990 in May 2024 ($29.32 an hour), above the $49,500 median across all occupations in the U.S. economy that year. The bottom 10% of chefs and head cooks earned less than $36,000, and the top 10% earned more than $96,030, a spread of well over two and a half times between the lower and upper bound BLS reports. The [clinical laboratory pay guide](/clinical-laboratory-technologist-salary/) reports a comparable $62,930 median for May 2025, but covers technologists and technicians together. The bachelor-level route applies to technologists; technicians commonly follow an associate route, so the combined wage is not a bachelor-only figure.',
 					"That $60,990 median sits above the $44,140 BLS reports for supervisors of food preparation and serving workers, a related but more junior role, and it is worth separating from figures that circulate on general salary-aggregator sites, which BLS does not publish or verify. This page reports only the U.S. Bureau of Labor Statistics figures, sourced directly from BLS's own Occupational Employment and Wage Statistics survey of employer payroll data rather than self-reported submissions.",
 				],
 				image: {
@@ -3218,7 +3224,7 @@ export const guides: Guide[] = [
 				heading: 'Where chef pay sits on the food-service ladder',
 				body: [
 					"BLS's Occupational Outlook Handbook page for chefs and head cooks lists two adjacent food-service occupations for direct comparison, both drawn from the same May 2024 wage survey. Food preparation workers, who BLS describes as performing tasks other than cooking, such as slicing meat and brewing coffee, require no formal educational credential and earned a median of $34,220, about $26,770 below the chef and head cook median. Food service managers, who oversee the daily operation of a restaurant or similar establishment, need only the same high school diploma BLS lists for chefs, yet earned a higher median of $65,310, about $4,320 above chefs and head cooks.",
-					"That places chefs and head cooks in the middle of a three-step ladder inside the same broad food-service field: a no-credential prep role below, a supervisory management role above, and the chef and head cook role itself sitting on five years of related experience rather than either a lower or a higher formal-education requirement. Measured against a different vocational field entirely, chefs and head cooks also out-earn [welders, cutters, solderers, and brazers](/welder-salary/), who BLS lists at the same high-school-diploma entry tier but a median of $53,750, roughly $7,240 below chefs. BLS's data describes the pay at each tier; it does not explain why five years of food-service experience commands a premium over a shorter vocational-training route in a different industry, and this page does not assert a cause beyond what BLS itself reports.",
+					"That places chefs and head cooks in the middle of a three-step ladder inside the same broad food-service field: a no-credential prep role below, a supervisory management role above, and the chef and head cook role itself sitting on five years of related experience rather than either a lower or a higher formal-education requirement. Measured against a different vocational field entirely, chefs and head cooks also out-earn [welders, cutters, solderers, and brazers](/welder-salary/), who BLS lists at the same high-school-diploma entry tier but a May 2025 median of $53,750, roughly $7,240 below the May 2024 chef figure. These are different survey years. BLS's data describes the pay at each tier; it does not explain why five years of food-service experience commands a premium over a shorter vocational-training route in a different industry, and this page does not assert a cause beyond what BLS itself reports.",
 				],
 			},
 			{
@@ -4288,7 +4294,7 @@ export const guides: Guide[] = [
 		title: 'Ultrasound Tech Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median ultrasound tech salary at $89,340 a year, with 13% growth projected through 2034. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-27',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '29-2032',
 		coreSummary: 'The median annual wage for diagnostic medical sonographers, commonly called ultrasound techs, was $89,340 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $64,760 while the top 10% earned more than $123,170, a spread of roughly $58,410. BLS projects 13% employment growth from 2024 to 2034, much faster than average, adding an estimated 11,700 jobs.',
 		sections: [
@@ -4297,7 +4303,7 @@ export const guides: Guide[] = [
 				body: [
 					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-2032, officially titled "Diagnostic Medical Sonographers," on a page that also notes the job is commonly called an ultrasound technician or ultrasound tech. For May 2024, BLS reported a median annual wage of $89,340, or $42.95 an hour. The bottom 10% of earners made less than $64,760 a year, while the top 10% made more than $123,170, a spread of roughly $58,410 that BLS does not attribute to any single factor on this page, though the employer type someone works for (covered below) accounts for a meaningful share of it.',
 					"BLS lists an associate's degree as the typical entry-level education for this occupation, or in some cases a postsecondary certificate for candidates who already hold a related healthcare credential. That is a shorter, less expensive training path than several other diagnostic and rehabilitation roles this site tracks: [occupational therapists](/occupational-therapist-salary/) need a master's degree and [physical therapists](/physical-therapist-salary/) need a Doctor of Physical Therapy, both graduate credentials that take considerably longer to complete than sonography's typical two-year program. This site also covers [occupational therapy assistant salary](/occupational-therapy-assistant-salary/), per BLS, for the assistant role in that rehabilitation field.",
-					"Those figures come from BLS's Occupational Employment and Wage Statistics survey, which pulls wage data directly from employers, using their payroll records. The same survey put total sonographer employment at about 90,000 jobs in 2024.",
+					"Those figures come from BLS's Occupational Employment and Wage Statistics survey, which pulls wage data directly from employers, using their payroll records. The separate Employment Projections program put sonographer employment at about 90,000 jobs in 2024; that total is not the OEWS wage-survey headcount.",
 				],
 			},
 			{
@@ -4365,6 +4371,8 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
+			{ label: 'BLS OEWS FAQ: wage coverage and separate Employment Projections counts (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
 			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (comparison figure for radiologic technologists and technicians, SOC 29-2034, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
 			{ label: 'ARDMS: Registered Diagnostic Cardiac Sonographer (RDCS), Adult Echocardiography credential page (independently confirmed, not a BLS-sourced detail, used only for the credential name in the FAQ above)', url: 'https://www.ardms.org/get-certified/rdcs/adult-echocardiography/' },
@@ -6056,7 +6064,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'LPN Salary: $64,400 Median (2026 BLS)',
 		description: 'BLS puts the median LPN salary at $64,400 a year, with 3% growth projected through 2035. Here is the full wage range by percentile and industry setting.',
 		published: '2026-09-16',
-		updated: '2026-09-16',
+		updated: '2026-10-12',
 		socCode: '29-2061',
 		coreSummary: 'The median annual wage for licensed practical and licensed vocational nurses (LPNs and LVNs) was $64,400 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $49,740 while the top 10% earned more than $83,440. BLS projects 3% employment growth from 2025 to 2035, about as fast as the roughly 3% average across all occupations, adding an estimated 19,700 jobs to a workforce of 666,900, with about 51,800 openings projected each year, mostly from replacing workers who transfer out or retire.',
 		sections: [
@@ -6065,7 +6073,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				body: [
 					"The Bureau of Labor Statistics tracks this occupation under SOC code 29-2061, covering both licensed practical nurses (LPNs) and licensed vocational nurses (LVNs), two titles for the same role that vary by which state a nurse works in. For May 2025, BLS reported a median annual wage of $64,400, or $30.96 an hour. The bottom 10% of earners made less than $49,740 a year, while the top 10% made more than $83,440, a spread of roughly $33,700.",
 					"BLS lists a postsecondary nondegree award as the typical entry-level education, earned through a state-approved certificate or diploma program that typically takes about a year, commonly offered at community colleges and technical schools, including some high schools. After finishing the program, a candidate must pass a licensing exam to enter the occupation; BLS does not name a single national exam on this page, pointing instead to CareerOneStop for state-by-state licensing board requirements.",
-					'This wage picture is built from employer payroll records, not from what LPNs and LVNs report earning themselves, since BLS\'s Occupational Employment and Wage Statistics survey collects its figures directly from businesses and government agencies. That same 2025 survey round counted about 666,900 LPN and LVN jobs nationally.',
+					'This wage picture is built from employer payroll records, not from what LPNs and LVNs report earning themselves, since BLS\'s Occupational Employment and Wage Statistics survey collects its figures directly from businesses and government agencies. The separate Employment Projections program counted about 666,900 LPN and LVN jobs nationally in 2025; that headcount is not the OEWS wage-survey count.',
 				],
 			},
 			{
@@ -6117,6 +6125,8 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 		],
 		sources: [
+			{ label: 'BLS OEWS FAQ: wage coverage and separate Employment Projections counts (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+
 			{ label: 'BLS Occupational Outlook Handbook: Licensed Practical and Licensed Vocational Nurses (accessed 2026-09-16 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/licensed-practical-and-licensed-vocational-nurses.htm' },
 		],
 		image: '/images/lpn-salary-chart.svg',
