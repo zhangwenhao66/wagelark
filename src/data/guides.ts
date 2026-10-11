@@ -1432,7 +1432,7 @@ export const guides: Guide[] = [
 		title: 'Medical Assistant Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median medical assistant salary at $45,690 a year. See the wage range by percentile, by industry, and how it compares to a physician assistant.',
 		published: '2026-08-06',
-		updated: '2026-08-28',
+		updated: '2026-10-12',
 		socCode: '31-9092',
 		coreSummary: 'The median annual wage for medical assistants was $45,690 in May 2025, according to the U.S. Bureau of Labor Statistics, or $21.97 an hour. The bottom 10% earned less than $36,050, and the top 10% earned more than $59,310. Outpatient care centers paid the highest industry median at $48,560, while offices of other health practitioners paid the least, at $38,400. BLS projects 13% employment growth through 2035, much faster than average, with about 109,700 openings projected each year.',
 		sections: [
@@ -1480,7 +1480,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is a medical assistant the same as a physician assistant?',
-				answer: "No, despite the similar name, these two jobs barely overlap beyond the title. Someone in this occupation typically needs only a short postsecondary credential, with pay landing at $45,690 for that same year. The other role, in contrast, completes a master's-level program, sits a national test, and gets licensed by their state before they can diagnose and prescribe, earning $133,260 for the same May 2024 period, roughly three times as much.",
+				answer: "The titles refer to different jobs. The assistant role covered here usually starts with a short postsecondary qualification and had a $45,690 median in May 2025. PAs generally complete graduate study, a national examination and state licensing before diagnosing and prescribing. Their $133,260 figure is from May 2024, an older survey, so the roughly threefold comparison is not a same-year estimate.",
 			},
 			{
 				question: 'Is medical assisting a growing occupation?',
@@ -1671,7 +1671,7 @@ export const guides: Guide[] = [
 		title: 'Respiratory Therapist Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median respiratory therapist salary at $80,450 a year, with 12% growth projected through 2034. See the full wage range by percentile and employer.',
 		published: '2026-08-10',
-		updated: '2026-09-22',
+		updated: '2026-10-12',
 		socCode: '29-1126',
 		coreSummary: 'The median annual wage for respiratory therapists was $80,450 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $61,900 while the top 10% earned more than $108,820. BLS projects 12% employment growth from 2024 to 2034, well above the roughly 3% average across all occupations, adding an estimated 16,800 jobs.',
 		sections: [
@@ -1696,7 +1696,7 @@ export const guides: Guide[] = [
 				body: [
 					"Per BLS, respiratory therapists typically need an associate's degree in respiratory therapy from an accredited program, and some employers prefer candidates with a bachelor's degree. Accredited programs, offered by colleges, vocational-technical institutes, and the Armed Forces, combine coursework in human anatomy and physiology with clinical hours that give students supervised, hands-on experience treating patients. BLS notes that high school students interested in the field should take biology, algebra, chemistry, and physics, since some programs list those as prerequisites.",
 					"BLS states that respiratory therapists must be licensed in all states except Alaska, where national certification is recommended instead of state licensure, and that requirements vary by state. Independently of BLS, the field's credentialing body, the National Board for Respiratory Care (NBRC), confirms it administers two main credential levels: Certified Respiratory Therapist (CRT), the entry-level credential most candidates sit for first, and Registered Respiratory Therapist (RRT), an additional exam some employers require before hiring or within a set window after starting the job. NBRC's own materials state that all 49 states that regulate the practice of respiratory care use the CRT or RRT credential as the basis for state licensure, a detail BLS itself does not spell out on this page.",
-					"For readers comparing this against other associate-degree-entry diagnostic and therapeutic roles, [becoming an ultrasound tech](/how-to-become-an-ultrasound-tech/) follows a similarly structured path, an accredited associate-degree program plus a certification exam, though sonography is credentialed through a separate organization (ARDMS) rather than NBRC, and the two fields work with different equipment and patient populations entirely.",
+					"For readers comparing this against other associate-degree-entry diagnostic and therapeutic roles, [becoming an ultrasound tech](/how-to-become-an-ultrasound-tech/) follows a similarly structured path, typically an accredited associate program or a postsecondary certificate, with professional certification most employers expect, though sonography is credentialed through a separate organization (ARDMS) rather than NBRC, and the two fields work with different equipment and patient populations entirely.",
 				],
 			},
 			{
@@ -1723,7 +1723,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do respiratory therapists need to be certified?',
-				answer: "Licensure is required in every state but Alaska, per BLS; there, a countrywide credential covers the same ground instead of a state license. NBRC, the group that certifies people in this field, issues two starting-point credentials, CRT and RRT, and by its own count, 49 of the states with a licensing law on the books use one of those credentials as the basis for it.",
+				answer: "BLS describes mandatory state licensing in every state except Alaska. There, the nationwide credential is a recommendation; it is not a substitute legal license requirement. NBRC issues CRT and RRT qualifications, and says the 49 regulating states use those credentials in their licensing rules.",
 			},
 			{
 				question: 'Is respiratory therapy a growing field?',
@@ -4552,7 +4552,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'MRI Technologist Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS reports a $95,480 median MRI technologist salary, well above radiologic technologists. See the wage range by percentile and by industry setting.',
 		published: '2026-08-29',
-		updated: '2026-08-29',
+		updated: '2026-10-12',
 		socCode: '29-2035',
 		coreSummary: 'The median annual wage for MRI technologists was $95,480 in May 2025, according to the U.S. Bureau of Labor Statistics, about $15,370 above the $80,110 median for radiologic technologists and technicians, the closely related occupation BLS profiles on the same page. The bottom 10% of MRI technologists earned less than $68,890 and the top 10% earned more than $127,670. Pay varies sharply by setting: outpatient care centers paid the highest industry median at $140,390, even though BLS reports only about 3% of MRI technologists actually work in that setting, versus 61% in hospitals.',
 		sections: [
@@ -4560,7 +4560,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'What MRI technologists actually earn, by percentile',
 				body: [
 					"BLS tracks MRI technologist pay through its Occupational Employment and Wage Statistics (OEWS) program under SOC code 29-2035, a distinct six-digit code from radiologic technologists and technicians (29-2034), even though BLS profiles both roles together on one Occupational Outlook Handbook page titled \"Radiologic and MRI Technologists.\" The most recent published wage data, from May 2025, puts the MRI technologist median annual wage at $95,480. BLS does not publish a role-specific hourly figure for MRI technologists on this page; dividing the annual median by a standard 2,080-hour work year works out to roughly $45.90 an hour, a calculated figure rather than one BLS reports directly.",
-					"The percentile spread is wide in dollar terms: the bottom 10% of MRI technologists earned less than $68,890 in May 2025, while the top 10% earned more than $127,670, a gap of nearly $58,800. That range sits well above the equivalent spread for radiologic technologists, whose bottom 10% earned less than $55,980 and top 10% earned more than $118,660 on the same page. Both occupations typically require only an associate's degree to enter, so the roughly $15,370 gap between the two medians traces to the additional post-primary certification most MRI technologists complete, not to a difference in base entry credentials. Outside clinical imaging entirely, [truck driver pay](/truck-driver-salary/) sits far below either figure, with BLS reporting a $57,440 median annual wage for heavy and tractor-trailer drivers in May 2024.",
+					"The percentile spread is wide in dollar terms: the bottom 10% of MRI technologists earned less than $68,890 in May 2025, while the top 10% earned more than $127,670, a gap of nearly $58,800. That range sits well above the equivalent spread for radiologic technologists, whose bottom 10% earned less than $55,980 and top 10% earned more than $118,660 on the same page. Both occupations typically require only an associate's degree to enter, so the roughly $15,370 gap accompanies a difference in MRI-specific training and credentials, but BLS does not isolate the effect of certification on wages. Outside clinical imaging entirely, [truck driver pay](/truck-driver-salary/) sits far below either figure, with BLS reporting a $57,440 median annual wage for heavy and tractor-trailer drivers in May 2024.",
 				],
 			},
 			{
@@ -4612,7 +4612,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Is becoming an MRI tech hard?',
-				answer: "The credentialing exam is one of the tougher ones ARRT administers. ARRT's 2025 Annual Exam Report puts the overall pass rate for the Magnetic Resonance Imaging exam at 75%, versus 86% for the base Radiography exam, meaning roughly one in four candidates doesn't clear it on a given attempt. That's on top of qualifying to sit for it in the first place, which for most candidates means qualifying as a radiographer first and racking up the clinical hours ARRT requires under its second-route rules before the MRI-specific exam even comes into play.",
+				answer: "ARRT's 2025 report records 75% passing on their initial attempt, compared with 86% for Radiography. That is roughly one first-time candidate in four failing, with no inference about repeat attempts. The primary education route and the postprimary route have different prerequisites; people using the latter add documented clinical experience and MRI study to an existing credential. The pass rates alone do not rank the relative difficulty of the programs or occupations.",
 			},
 			{
 				question: 'Is MRI tech a stressful job?',
@@ -4872,7 +4872,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Optometrist Salary: $136,570 Median & Full Range (2026 BLS)',
 		description: 'BLS puts the median optometrist salary at $136,570 a year, with 10% employment growth projected through 2035. Full wage range by percentile and industry.',
 		published: '2026-08-31',
-		updated: '2026-08-31',
+		updated: '2026-10-12',
 		socCode: '29-1041',
 		coreSummary: 'The median annual wage for optometrists was $136,570 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $74,870 while the top 10% earned more than $202,180, a spread of roughly $127,310. BLS projects 10% employment growth from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 4,300 jobs to a workforce of 45,100.',
 		sections: [
@@ -4881,7 +4881,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				body: [
 					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-1041, on a page dedicated to optometrists alone. For May 2025, BLS reported a median annual wage of $136,570, or $65.66 an hour. The bottom 10% of earners made less than $74,870 a year, while the top 10% made more than $202,180, a spread of roughly $127,310. BLS does not attribute that spread to any single factor on this page, though the industry breakdown below and the setting where most optometrists actually practice account for some of it.',
 					"BLS lists a doctoral or professional degree as the typical entry-level education for this occupation, specifically a Doctor of Optometry (O.D.) degree that takes four years of graduate-level study, with applicants typically holding a bachelor's degree before entering. That places optometrists in the same broad credential tier as [pharmacists](/pharmacist-salary/), whose PharmD is also a four-year professional doctorate; BLS reports a $140,910 median for pharmacists, just $4,340 above the optometrist figure, and [veterinarians](/veterinarian-salary/), whose DVM sits at $130,100, about $6,470 below optometrists despite a similarly structured four-year doctoral path.",
-					"These figures come from BLS's Occupational Employment and Wage Statistics survey, which draws wage data from employer payroll and self-employment records rather than worker self-reports or job-board postings, the kind of data behind several of the aggregator sites (Indeed, ZipRecruiter, Glassdoor) that also surface for this search term. The same OEWS survey counted about 45,100 optometrist jobs in 2025.",
+					"These figures come from BLS's Occupational Employment and Wage Statistics survey, which collects employer payroll data and excludes self-employed workers; this differs from worker submissions or job-board postings, the kind of data behind several of the aggregator sites (Indeed, ZipRecruiter, Glassdoor) that also surface for this search term. The separate Employment Projections program counted about 45,100 optometrist jobs in 2025, including self-employment.",
 				],
 			},
 			{
@@ -4894,7 +4894,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			{
 				heading: 'Becoming an optometrist, and a three-way mix-up BLS itself flags',
 				body: [
-					"Per BLS, prospective optometrists need a Doctor of Optometry (O.D.) degree from an accredited program, a four-year course of classroom instruction and supervised clinical training that typically follows a bachelor's degree, though applicants need only three years of completed undergraduate coursework to apply. BLS describes an entrance exam covering four subject areas: natural sciences, reading comprehension, physics, and quantitative reasoning, without naming it on the page. Independently of BLS, that description matches the Optometry Admission Test (OAT), sponsored by the Association of Schools and Colleges of Optometry (ASCO) and required by every U.S. optometry program, whose four sections (Survey of the Natural Sciences, Reading Comprehension, Physics, and Quantitative Reasoning) line up with BLS's own description.",
+					"Per BLS, prospective optometrists need a Doctor of Optometry (O.D.) degree from an accredited program, a four-year course of classroom instruction and supervised clinical training that typically follows a bachelor's degree, though applicants need only three years of completed undergraduate coursework to apply. BLS describes an entrance exam covering four subject areas: natural sciences, reading comprehension, physics, and quantitative reasoning, without naming it on the page. Independently of BLS, that description matches the Optometry Admission Test (OAT), sponsored by the Association of Schools and Colleges of Optometry (ASCO) and accepted by U.S. optometry programs; ASCO says many also accept the GRE, MCAT, or DAT instead, whose four sections (Survey of the Natural Sciences, Reading Comprehension, Physics, and Quantitative Reasoning) line up with BLS's own description.",
 					'All states require optometrists to be licensed, which BLS describes as passing "all sections of a qualifying exam" plus, in some states, an additional exam on clinical skills or state optometry law. Independently of BLS, that qualifying exam is administered by the National Board of Examiners in Optometry (NBEO), split into an Applied Basic Science part, a Patient Assessment and Management part, and a further practical exam that many states also require; per the Association of Regulatory Boards of Optometry (ARBO), passing NBEO\'s entry-level licensure exams is a requirement in every U.S. jurisdiction, a multi-part structure with more required components than the single national exam ([NAVLE](/veterinarian-salary/)) this site found for veterinarians.',
 					'BLS also flags a mix-up worth naming directly, since it shows up in this site\'s own "Similar Occupations" research: opticians, listed separately at a $47,260 median (high school diploma typical entry, per BLS\'s table on this same page), fit and sell eyeglasses and, in some states, fill contact lens prescriptions, but they do not examine eyes or write those prescriptions themselves. That job belongs to optometrists or to ophthalmologists, physicians who additionally perform eye surgery and are covered under the much broader "Physicians and Surgeons" BLS category, listed on the same table at a $275,930 median, a figure that blends dozens of medical and surgical specialties rather than describing ophthalmology specifically.',
 				],
@@ -4922,7 +4922,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do optometrists need a doctoral degree?',
-				answer: "Yes. BLS classifies this as a professional-doctorate field: a four-year O.D. program taken at an accredited school, typically after four years of undergraduate study. Separately from BLS's own page, applicants also sit for an entrance exam known as the OAT, run by ASCO, and regulators at ARBO confirm NBEO's exams are a nationwide requirement for practicing.",
+				answer: "Yes. The usual qualification is an accredited O.D. course lasting four years, normally after undergraduate study. Admission tests depend on the school: ASCO says all accept the OAT, while many accept GRE, MCAT or DAT results instead. State licensing adds NBEO examinations and any local conditions.",
 			},
 			{
 				question: 'Is optometry a growing field?',
@@ -4934,10 +4934,12 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Is it hard to become an optometrist?',
-				answer: "It's a multi-year, multi-exam sequence rather than a single hurdle. Getting into an accredited O.D. program generally requires passing the OAT entrance exam first, then completing four years of doctoral coursework and hands-on clinical instruction on top of the three to four years of undergraduate study most applicants already have. Licensing afterward means clearing every section of NBEO's exam, a basic-science portion, a patient-care portion, and often a separate hands-on practical test, a heavier lift than the single licensing exam covered on this site's veterinarian page. None of that comes with an official difficulty rating; it's simply the four-year graduate track this profession runs on.",
+				answer: "The usual path starts with three or four undergraduate years, then a four-year O.D. course with practical patient-care training under supervision. Schools set their own admission-test policies; OAT is widely accepted, with alternatives at many institutions. Licensing includes NBEO's basic-science, patient-assessment and practical components as required by the state. Veterinary licensing uses NAVLE and may add state-law exams. Counting exam parts alone does not establish which profession is harder.",
 			},
 		],
 		sources: [
+			{ label: 'BLS OEWS FAQ: self-employment exclusions and separate EP counts (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+			{ label: 'ASCO FAQ: school-specific admissions and alternative standardized examinations (checked 2026-10-12)', url: 'https://optometriceducation.org/future-students/resources/frequently-asked-questions/' },
 			{ label: 'BLS Occupational Outlook Handbook: Optometrists (accessed 2026-08-31 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/optometrists.htm' },
 			{ label: 'Association of Schools and Colleges of Optometry (ASCO): Optometry Admission Test (OAT) overview, used for the entrance-exam name above (independently confirmed, not a BLS-sourced detail)', url: 'https://optometriceducation.org/future-students/resources/frequently-asked-questions-about-the-optometry-admission-test-oat/' },
 			{ label: 'Association of Regulatory Boards of Optometry (ARBO): FAQ confirming NBEO licensure exams are required in every U.S. jurisdiction, used for the licensing-exam details above (independently confirmed, not a BLS-sourced detail)', url: 'https://www.arbo.org/faq' },
@@ -4951,14 +4953,14 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Nuclear Medicine Technologist Salary: $101,370 Median (2026 BLS)',
 		description: 'BLS puts the median nuclear medicine technologist salary at $101,370 a year, with a range of $78,080 to $134,500 by percentile. Full wage and industry breakdown.',
 		published: '2026-09-01',
-		updated: '2026-09-01',
+		updated: '2026-10-12',
 		socCode: '29-2033',
 		coreSummary: "The median annual wage for nuclear medicine technologists was $101,370 in May 2025, according to the U.S. Bureau of Labor Statistics, or $48.74 an hour. The bottom 10% earned less than $78,080 while the top 10% earned more than $134,500, a spread of roughly $56,420. BLS projects 4% employment growth from 2025 to 2035, about as fast as the average for all occupations, adding an estimated 800 jobs to a 2025 workforce of 17,400, with about 800 openings projected each year, mostly from workers transferring to other occupations or leaving the labor force.",
 		sections: [
 			{
 				heading: 'What nuclear medicine technologists earn, and a page that gives more than radiation therapy\'s does',
 				body: [
-					"A nuclear medicine technologist earned a median of $101,370 a year in May 2025, or $48.74 an hour, per the Bureau of Labor Statistics, which profiles this occupation under SOC code 29-2033. The bottom 10% of earners made less than $78,080 a year, while the top 10% made more than $134,500, a spread of roughly $56,420. That median figure is within $3,940 of what BLS reports for [radiation therapists](/radiation-therapist-salary/) ($105,310), an occupation that likewise uses radioactive materials in patient care but for treatment rather than diagnostic imaging, and both occupations share the same associate's-degree entry level.",
+					"A nuclear medicine technologist earned a median of $101,370 a year in May 2025, or $48.74 an hour, per the Bureau of Labor Statistics, which profiles this occupation under SOC code 29-2033. The bottom 10% of earners made less than $78,080 a year, while the top 10% made more than $134,500, a spread of roughly $56,420. That median figure is within $3,940 of what BLS reports for [radiation therapists](/radiation-therapist-salary/) ($105,310), an occupation delivering radiation treatment, with a different clinical purpose from nuclear-medicine diagnostic imaging, and both occupations share the same associate's-degree entry level.",
 					"Where the two pages diverge is in how much BLS actually publishes. The radiation therapist profile gives only that single national median, with no percentile breakdown at all. This page carries the fuller 10th-to-90th spread instead, the same format BLS uses on its pages for [veterinarians](/veterinarian-salary/), [MRI technologists](/mri-tech-salary/), and [optometrists](/optometrist-salary/). Nothing on either page accounts for why one occupation gets the wider breakdown and the other one doesn't.",
 				],
 			},
@@ -4980,7 +4982,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Job outlook, next to the other imaging occupations this site tracks',
 				body: [
 					'BLS projects 4% employment growth for nuclear medicine technologists from 2025 to 2035, classified as about as fast as the average for all occupations, adding an estimated 800 jobs to a 2025 workforce of 17,400. About 800 openings are projected each year on average over the decade, a figure BLS attributes mostly to workers transferring to other occupations or leaving the labor force entirely, such as to retire, rather than to newly created positions.',
-					"Among the associate's-degree imaging and radiation occupations this site tracks, nuclear medicine technologists' 4% outlook ties [radiologic technologists](/radiology-tech-salary/) at the same rate, edges out radiation therapy's 3%, and trails [diagnostic medical sonographers](/ultrasound-tech-salary/) at 13%, the fastest-growing occupation in this cluster. Pay runs in the opposite direction from growth: at $101,370, this occupation earns more than MRI technologists ($95,480), sonographers ($89,340), and radiologic technologists ($77,660), the highest median of the group apart from radiation therapy. No page in this cluster attributes that inverse relationship between growth and pay to a specific cause.",
+					"Among the associate's-degree imaging and radiation occupations this site tracks, nuclear medicine technologists' 4% outlook for 2025 to 2035 matches the percentage on the [radiography guide](/radiology-tech-salary/), which retains an earlier 2024-to-2034 forecast, edges out radiation therapy's 3%, and trails [diagnostic medical sonographers](/ultrasound-tech-salary/) at 13%, the fastest-growing occupation in this cluster. Pay runs in the opposite direction from growth: at $101,370, this occupation earns more than MRI technologists ($95,480), sonographers ($89,340), and radiologic technologists ($77,660 in May 2024), the highest median of the group apart from radiation therapy. No page in this cluster attributes that inverse relationship between growth and pay to a specific cause.",
 				],
 			},
 		],
@@ -5268,7 +5270,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		title: 'Clinical Laboratory Technologist Salary, Per BLS',
 		description: 'BLS puts the median clinical laboratory technologist salary at $62,930 a year, a figure it reports jointly with technicians on one combined handbook page.',
 		published: '2026-09-09',
-		updated: '2026-09-09',
+		updated: '2026-10-12',
 		socCode: '29-2011',
 		coreSummary: "The median annual wage for clinical laboratory technologists and technicians was $62,930 in May 2025, according to the U.S. Bureau of Labor Statistics, or $30.26 an hour. The bottom 10% earned less than $38,910 while the top 10% earned more than $100,990, a spread of about $62,080. BLS tracks this figure under one combined Occupational Outlook Handbook page covering two separate occupation codes: technologists (29-2011), who typically need a bachelor's degree, and technicians (29-2012), who can sometimes qualify with an associate's degree, without splitting pay between the two the way BLS does on its occupational therapy assistants and aides page. Employment stood at 343,000 in 2025, and BLS projects 3% growth from 2025 to 2035, about as fast as the average for all occupations.",
 		sections: [
@@ -5283,7 +5285,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Industry pay tops out at hospitals, though a less-schooled peer role earns still more',
 				body: [
 					"BLS breaks out May 2025 wages for this combined occupation across five industry categories. General medical and surgical hospitals paid the highest median at $69,190, ahead of educational services (state, local, and private) at $63,690. Medical and diagnostic laboratories, the setting many people associate most closely with this work, paid $58,320, followed by offices of physicians at $56,850. Other ambulatory healthcare services paid the least of the five tracked categories, at $48,140, a $21,050 gap between the highest- and lowest-paying settings BLS lists here.",
-					"Against [nuclear medicine technologists](/nuclear-medicine-technologist-salary/), another allied-health role this site tracks under a similar job title, the comparison runs opposite to what the degree requirements would suggest: BLS lists an associate's degree as the typical entry-level education for nuclear medicine technologists, one step below the bachelor's degree BLS lists for clinical laboratory technologists, yet nuclear medicine technologists carry a $101,370 median, $38,440 above this page's figure. BLS does not explain the gap on either page; it simply reports each occupation's typical education and pay side by side.",
+					"Against [nuclear medicine technologists](/nuclear-medicine-technologist-salary/), another allied-health role this site tracks under a similar job title, the comparison runs opposite to what the degree requirements would suggest: BLS lists an associate's degree as the typical entry-level education for nuclear medicine technologists, one step below the bachelor's degree BLS lists for clinical laboratory technologists, yet nuclear medicine technologists carry a $101,370 median, $38,440 above this page's combined technologist-and-technician figure. The latter includes both education tracks, so the difference is not a technologist-only wage comparison. BLS does not explain the gap on either page; it simply reports each occupation's typical education and pay side by side.",
 				],
 			},
 			{
@@ -5304,7 +5306,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		faq: [
 			{
 				question: 'What is the median clinical laboratory technologist salary?',
-				answer: "BLS reports $62,930 a year, or $30.26 an hour, for the combined technologist-and-technician occupation. The bottom tenth of earners made under $38,910, while the top tenth cleared $100,990.",
+				answer: "BLS reports $62,930 a year, or $30.26 an hour, for the two laboratory job titles counted together. The bottom tenth of earners made under $38,910, while the top tenth cleared $100,990.",
 			},
 			{
 				question: 'What is the difference between a clinical laboratory technologist and a technician?',
@@ -5316,7 +5318,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do you need certification to work in a clinical laboratory?',
-				answer: "It depends on where you work and which role you're in, since license rules differ from one state or specialty to the next. Even without a legal mandate, a lab is still free to prefer a credentialed hire, such as someone holding ASCP's MLS designation, which requires finishing a NAACLS-accredited lab program and then passing a certification exam.",
+				answer: "Local requirements depend on the state and laboratory specialty. A hiring laboratory may favor a professional credential even where the law does not demand one. ASCP awards the MLS credential; completing an approved NAACLS program and an exam is one eligibility route, alongside other education-and-experience routes set by the certification board.",
 			},
 			{
 				question: 'Can a lab technician become a lab technologist?',
@@ -5332,6 +5334,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 		],
 		sources: [
+			{ label: 'ASCP Board of Certification: alternative MLS eligibility routes (checked 2026-10-12)', url: 'https://apps.ascp.org/services/boc/BOC_Cert_RouteRequirement' },
 			{ label: 'BLS Occupational Outlook Handbook: Medical and Clinical Laboratory Technologists and Technicians (accessed 2026-09-09 via direct fetch with a UA string carrying a declared contact email, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/healthcare/clinical-laboratory-technologists-and-technicians.htm' },
 			{ label: 'O*NET OnLine: 29-2011.00 Medical and Clinical Laboratory Technologists (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/29-2011.00' },
 			{ label: "American Society for Clinical Pathology, Board of Certification: Medical Laboratory Scientist (MLS) credential page, used for the MLS (ASCP) credential name above (independently confirmed, not a BLS-sourced detail)", url: 'https://www.ascp.org/boc/explore-credentials/view-all-credentials/MLS' },
