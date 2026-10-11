@@ -3482,7 +3482,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do you need a license to be a court reporter?',
-				answer: "In numerous jurisdictions, a court reporter must obtain government permission for courtroom work, or meet the local rule through a recognized association credential. Association certification and a government license are different approvals, so applicants must check the local rule. For ordinary paralegal employment under an attorney, obtaining an association certificate is generally optional. Oregon has a separate license allowing designated family and housing services without lawyer supervision.",
+				answer: "In numerous jurisdictions, a court reporter must obtain government permission for courtroom work, or meet the local rule through a recognized association credential. Association certification and a government license are different approvals, so applicants must check the local rule. For ordinary [paralegal employment](/how-to-become-a-paralegal/) under an attorney, obtaining an association certificate is generally optional. Oregon has a separate license allowing designated family and housing services without lawyer supervision.",
 			},
 			{
 				question: 'How much do court reporters make?',
