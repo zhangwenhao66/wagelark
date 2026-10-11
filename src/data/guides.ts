@@ -796,7 +796,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook',
 				body: [
 					'BLS projects 9% employment growth for flight attendants from 2025 to 2035, classified as much faster than average, taking the occupation from 133,700 jobs to roughly 145,500, a net gain of about 11,800 positions. On top of that net growth, BLS separately estimates about 18,500 openings a year on average over the decade, since most yearly openings come from replacing workers who transfer out or retire rather than from new positions alone. Growth in air travel demand, plus regulatory minimum staffing requirements tied to aircraft passenger capacity, are the main drivers BLS cites. Airlines cannot simply run more flights without proportionally more crew, which links growth directly to industry capacity expansion in a way that is less true for some other service occupations.',
-					"Pilots on the same aircraft follows a similar seniority-driven pay pattern but at a much higher scale: this site's [pilot pay guide](/how-much-do-pilots-make/) puts the May 2025 median for airline pilots, copilots, and flight engineers at $232,140, about 3.7 times the $63,580 flight attendant median above.",
+					"Pilots on the same aircraft follow a similar seniority-driven pay pattern but at a much higher scale: this site's [pilot pay guide](/how-much-do-pilots-make/) puts the May 2025 median for airline pilots, copilots, and flight engineers at $232,140, about 3.7 times the $63,580 flight attendant median above.",
 				],
 			},
 		],
@@ -841,16 +841,16 @@ export const guides: Guide[] = [
 		title: 'Radiology Tech Salary: $77,660 Median & Full Range (2026 BLS)',
 		description: 'BLS puts the median radiology tech salary at $77,660 a year. See the full wage range by percentile, by industry, and how the role differs from MRI techs.',
 		published: '2026-08-04',
-		updated: '2026-08-21',
+		updated: '2026-10-11',
 		socCode: '29-2034',
 		coreSummary: 'The median annual wage for radiologic technologists and technicians was $77,660 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $52,360 while the top 10% earned more than $106,990, and the highest-paying employer category was the federal government, at a median of $93,970.',
 		sections: [
 			{
 				heading: 'What "radiology tech" actually means, and what the role pays',
 				body: [
-					'The Bureau of Labor Statistics tracks this job under the title "Radiologic Technologists and Technicians," SOC code 29-2034, which is the role most people mean when they search "radiology tech": the person who positions patients and operates x-ray and CT equipment. It is a distinct occupation from [Magnetic Resonance Imaging (MRI) technologists](/mri-tech-salary/), who work with different equipment and are tracked separately by BLS under SOC code 29-2035 (median annual wage $95,480 in May 2025, the more recent figure this site\'s MRI technologist salary guide covers in full), and from radiologists, who are physicians who interpret the images rather than technicians who capture them. Job postings sometimes use these titles loosely, so the wage figure that applies depends on which specific role is being described.',
-					'For radiologic technologists and technicians specifically, BLS reported a median annual wage of $77,660 in May 2024. The bottom 10% of earners made less than $52,360 a year, while the top 10% made more than $106,990, a spread of roughly $54,600. That range reflects a mix of experience, credential level (a base radiography certification versus additional specialty certifications in CT or mammography), employer type, and region, rather than any single factor. This page\'s Quick Facts box lists a combined hourly figure of $37.97 for the broader "Radiologic and MRI Technologists" grouping (which blends this occupation with the higher-paying MRI technologist role), not a figure specific to radiologic technologists and technicians alone, so it is left out of the numbers above to avoid overstating typical hourly pay for this occupation.',
-					'BLS figures are national medians drawn from its Occupational Employment and Wage Statistics survey, which collects data directly from employers rather than relying on self-reported salary submissions the way some job-search sites do. That distinction matters when comparing this page to other sources: a site built on self-reported figures can skew toward workers motivated to report unusually high or low pay, while employer-reported OEWS data reflects actual payroll records across a much larger, more representative sample. BLS does not publish a state-by-state breakdown on this specific page; readers who need per-state or per-metro figures would need the BLS OEWS state wage tables directly, which break the same occupation down by geography.',
+					'The Bureau of Labor Statistics tracks this job under the title "Radiologic Technologists and Technicians," SOC code 29-2034, which is the role most people mean when they search "radiology tech": the person who positions patients and operates x-ray and CT equipment. It is a distinct occupation from [Magnetic Resonance Imaging (MRI) technologists](/mri-tech-salary/), who work with different equipment and are tracked separately by BLS under SOC code 29-2035 (median annual wage $95,480 in May 2025, the more recent figure this site\'s MRI technologist salary guide covers in full), and from radiologists, who are physicians responsible for interpreting images; technologists capture them. Job postings sometimes use these titles loosely, so the wage figure that applies depends on which specific role is being described.',
+					'For radiologic technologists and technicians specifically, BLS reported a median annual wage of $77,660 in May 2024. The bottom 10% of earners made less than $52,360 a year, while the top 10% made more than $106,990, a spread of roughly $54,600. That range reflects a mix of experience, credential level (a base radiography certification versus additional specialty certifications in CT or mammography), employer type, and region, with no single factor explaining it. This page\'s Quick Facts box lists a combined hourly figure of $37.97 for the broader "Radiologic and MRI Technologists" grouping (which blends this occupation with the higher-paying MRI technologist role), not a figure specific to radiologic technologists and technicians alone, so it is left out of the numbers above to avoid overstating typical hourly pay for this occupation.',
+					'BLS figures are national medians drawn from its Occupational Employment and Wage Statistics survey, which collects employer data; other sources rely on self-reported salary submissions the way some job-search sites do. That distinction matters when comparing this page to other sources: a site built on self-reported figures can skew toward workers motivated to report unusually high or low pay, while employer-reported OEWS data reflects actual payroll records across a much larger, more representative sample. BLS does not publish a state-by-state breakdown on this specific page; readers who need per-state or per-metro figures would need the BLS OEWS state wage tables directly, which break the same occupation down by geography.',
 				],
 			},
 			{
@@ -881,43 +881,43 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average radiology tech salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for radiologic technologists and technicians was $77,660 in May 2024. "Median" means half of workers in the role earned more and half earned less. BLS does not publish a separate median hourly wage for this specific occupation on this page; the $37.97 hourly figure shown in the page\'s Quick Facts box covers a broader, combined "Radiologic and MRI Technologists" grouping, not radiologic technologists alone.',
+				answer: 'For the May 2024 survey, $77,660 was the annual midpoint for radiographers and their technician colleagues: half earned above it and half below. The OOH hourly number of $37.97 combines radiography with MRI work and cannot be read as a radiography-only hourly median.',
 			},
 			{
 				question: 'What is the highest-paying setting for a radiology tech?',
-				answer: 'Among the industry categories BLS tracks for May 2024, federal government employment (excluding the postal service) paid the highest median at $93,970, ahead of outpatient care centers ($81,000), hospitals ($78,560), medical and diagnostic laboratories ($76,770), and offices of physicians ($66,060).',
+				answer: 'The May 2024 industry medians ran from $66,060 in physician practices to $93,970 for federal employers outside the postal service. Between those came diagnostic labs ($76,770), hospitals ($78,560) and outpatient facilities ($81,000), according to BLS.',
 			},
 			{
 				question: 'How much do the lowest- and highest-paid radiology techs make?',
-				answer: 'BLS reports that the bottom 10% of radiologic technologists and technicians earned less than $52,360 a year in May 2024, while the top 10% earned more than $106,990. Additional specialty certifications, such as CT or mammography on top of a base radiography credential, are one plausible factor separating higher earners within the field, though BLS itself does not quantify this.',
+				answer: 'Earnings were below $52,360 for the lowest-paid tenth and above $106,990 for the highest-paid tenth in May 2024. Adding credentials for CT or breast imaging may help explain differences, but BLS assigns no numerical share of the pay gap to those qualifications.',
 			},
 			{
 				question: 'Do radiology techs need to be certified?',
-				answer: 'BLS states that most states require radiologic technologists to be licensed or certified, though requirements vary by state, via completing an accredited program and then passing a state exam or earning certification from a credentialing organization. The American Registry of Radiologic Technologists (ARRT) is the field\'s primary credentialing body in practice, confirmed independently of the BLS page (see Sources).',
+				answer: 'In most jurisdictions, an accredited education program must be followed by a state examination or professional certification. Local requirements differ. ARRT is the independently sourced registry identified above; BLS describes the credential route without naming that particular organization.',
 			},
 			{
 				question: 'Is radiologic technology a growing field?',
-				answer: 'BLS projects 4% employment growth for radiologic technologists and technicians from 2024 to 2034, faster than the roughly 3% average projected across all occupations, adding an estimated 9,800 jobs over the decade.',
+				answer: 'The 2024-to-2034 BLS forecast adds about 9,800 positions, a 4% increase, against roughly 3% across U.S. jobs overall.',
 			},
 			{
 				question: 'What year is the BLS OEWS data on this page from?',
-				answer: "This guide cites the U.S. Bureau of Labor Statistics Occupational Outlook Handbook page for radiologic and MRI technologists, which draws on Occupational Employment and Wage Statistics (OEWS) data from May 2024, the most recent year BLS had published as of this guide's last update. BLS's OEWS program also tracks total nationwide employment for the occupation, but this page reports the median wage, percentile spread, and projected job growth figures above rather than a separate current employment headcount.",
+				answer: "The figures here use the May 2024 employer wage survey referenced by the OOH imaging profile. Employment totals are available through OEWS too, but this article concentrates on pay cutoffs and projected expansion and gives no separate current headcount. It retains that historical survey year.",
 			},
 			{
 				question: 'How long does it take to become a radiology tech?',
-				answer: 'BLS lists an associate\'s degree as the typical entry-level education for radiologic technologists, a credential that generally takes about two years of full-time study, combining coursework in anatomy, radiation physics, and patient care with supervised clinical hours. BLS does not itself state an exact number of years on this page; two years reflects the standard length of an associate degree generally, the same convention this site uses for other associate-degree occupations such as diagnostic medical sonography.',
+				answer: 'An undergraduate associate credential is the usual requirement. Two years of full-time attendance is the standard degree convention used here, with classes in radiation science, anatomy and care of patients plus supervised practice. The OOH does not specify an exact program duration.',
 			},
 			{
 				question: 'Which pays more, an RN or a radiology tech?',
-				answer: 'Registered nurses earned more in May 2024: a median of $93,600, per BLS data cited on this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $77,660 for radiologic technologists and technicians the same year. Both figures come from BLS\'s Occupational Employment and Wage Statistics survey, though the two occupations sit on separate Handbook pages with different typical entry-level education: a bachelor\'s, associate\'s, or diploma path for RNs versus an associate\'s degree for radiologic technologists.',
+				answer: 'The nursing figure was larger: $93,600 for nursing and $77,660 for radiography in the May 2024 survey. The [RN education guide](/how-long-is-nursing-school/) gives that nursing estimate. Both use the same employer survey year; nursing can begin through a degree or hospital diploma, while the usual radiography route is an associate credential.',
 			},
 			{
 				question: 'Is becoming a radiology tech hard?',
-				answer: "The credentialing exam is passable but not a formality. ARRT's 2025 Annual Exam Report puts the first-time pass rate for the Radiography exam at 86%, with Image Acquisition and Technical Evaluation, and Equipment Operation and Quality Assurance, the two content areas candidates struggle with most. That's on top of an accredited two-year associate degree program with supervised clinical hours, so the harder part for most students is finishing the program itself, not the exam at the end of it.",
+				answer: "ARRT recorded an 86% first-attempt success rate for its 2025 Radiography exam. The weaker topic scores concerned acquiring and evaluating images and operating equipment with quality control. Passing is still necessary after an accredited associate program and practical clinical work. That coursework and practice can be more demanding than the final test, although the pass rate alone does not rank their difficulty.",
 			},
 			{
 				question: 'What type of radiology tech makes the most money?',
-				answer: "BLS tracks base radiologic technologists and technicians separately from more specialized imaging roles, and the specialized roles pay more. MRI technologists, who need an additional certification on top of the base radiography credential, posted a $95,480 BLS median in May 2025, about $18,000 above the base radiologic technologist figure this page covers. Techs who add other specialty certifications, such as CT or mammography (the latter federally regulated under the Mammography Quality Standards Act, with its own required training hours), typically qualify for higher-paying assignments too, though BLS does not publish separate median wages for every specialty certification.",
+				answer: "MRI was a separately counted occupation with a $95,480 median for May 2025, about $18,000 above this article's May 2024 radiography figure. Additional MRI qualifications can follow radiography training. CT and mammography credentials can also open specialized assignments, but BLS gives no separate median for each credential. Mammography carries federal MQSA training rules, including required hours.",
 			},
 		],
 		sources: [
@@ -1200,14 +1200,14 @@ export const guides: Guide[] = [
 		title: 'Surgical Tech Salary: BLS Wage Data and Job Outlook (2026)',
 		description: 'BLS puts the median surgical tech salary at $62,830, below what self-reported sites show. See the real BLS number and what CST certification requires.',
 		published: '2026-08-05',
-		updated: '2026-09-26',
+		updated: '2026-10-11',
 		socCode: '29-2055',
-		coreSummary: 'The median annual wage for surgical technologists was $62,830 in May 2024, according to the U.S. Bureau of Labor Statistics, compared with $60,290 for the closely related surgical assistant role. BLS projects 4.5% employment growth for surgical technologists from 2024 to 2034, adding about 5,200 jobs on top of a 115,600-person workforce, and entry typically requires a certificate or associate\'s degree rather than a four-year degree.',
+		coreSummary: 'The median annual wage for surgical technologists was $62,830 in May 2024, according to the U.S. Bureau of Labor Statistics, compared with $60,290 for the closely related surgical assistant role. BLS projects 4.5% employment growth for surgical technologists from 2024 to 2034, adding about 5,200 jobs on top of a 115,600-person workforce, and the usual starting credential is a certificate or associate\'s degree.',
 		sections: [
 			{
 				heading: 'What BLS actually reports for surgical tech pay',
 				body: [
-					'Surgical technologists prepare the operating room, set up the sterile back table, pass instruments and supplies to the surgical team, and maintain the sterile field throughout a procedure. BLS tracks this role under SOC code 29-2055, and its own description on the Occupational Outlook Handbook is brief: "surgical assistants and technologists help with surgical operations." That one-line summary covers a role that is procedural and safety-driven, centered on keeping the right instrument ready and the environment sterile, rather than performing surgical steps directly.',
+					'Surgical technologists prepare the operating room, set up the sterile back table, pass instruments and supplies to the surgical team, and maintain the sterile field throughout a procedure. BLS tracks this role under SOC code 29-2055, and its own description on the Occupational Outlook Handbook is brief: "surgical assistants and technologists help with surgical operations." That one-line summary covers a role that is procedural and safety-driven, centered on keeping the right instrument ready and the environment sterile; performing surgical steps is the assistant\'s role.',
 					'BLS publishes this occupation\'s Occupational Outlook Handbook page under the combined title "Surgical Assistants and Technologists," reporting a combined median annual wage of $62,480 and 141,000 combined jobs for May 2024. The narrative page does break out pay by specific role, though: the median annual wage for surgical technologists was $62,830, while the median for surgical assistants was $60,290, both May 2024. The separate BLS Employment Projections National Employment Matrix (Table 1.2), a different BLS data product from the Handbook narrative, confirms the same $62,830 figure tied specifically to SOC 29-2055 and reports a 2024 workforce of 115,600 surgical technologists, versus 25,300 surgical assistants under SOC 29-9093.',
 					'This particular Handbook page does not publish a 10th/90th percentile wage split for either role, unlike some other occupations this site covers. Readers who want that variance would need the BLS Occupational Employment and Wage Statistics (OEWS) tables directly, a separate, more granular data product. It is also worth flagging a real gap between this number and what self-reported salary sites show: search results for "surgical tech salary" surface figures like $107,000 for New York City on ZipRecruiter, roughly 70% above the BLS national median. That gap is not a data error on either side; it reflects self-reported figures skewed toward a specific high-cost metro versus BLS\'s employer-reported, nationally representative survey. Neither number is "wrong" for its own scope, but they answer different questions.',
 				],
@@ -1216,14 +1216,14 @@ export const guides: Guide[] = [
 				heading: 'Surgical technologist and surgical assistant are not the same job',
 				body: [
 					'Despite the similar pay and BLS\'s combined Handbook page, the two roles have a meaningfully different scope of practice. Surgical technologists focus on instrumentation and the sterile field: setting up the operating room, passing instruments, handling specimens, and supporting the team without performing surgical steps themselves. Surgical assistants (sometimes called surgical first assistants) take on a more hands-on role directly supporting the surgeon, which can include retracting tissue, controlling bleeding, suturing, and, depending on state regulation and the assistant\'s credentials, performing portions of a procedure under the surgeon\'s direct supervision. This distinction is a general industry description confirmed by academic medical sources such as Mayo Clinic College of Medicine and Science, not a claim BLS itself makes on its Handbook page.',
-					'That wider scope makes it somewhat notable that the national median pay for surgical assistants ($60,290) is actually lower than for surgical technologists ($62,830), despite the more expansive duties. BLS does not explain this gap; it publishes the two medians without commentary. One plausible, unverified factor is that the surgical assistant workforce is much smaller (25,300 vs. 115,600) and includes a wider range of entry pathways, since some assistants enter through nursing or physician-assistant training rather than a dedicated surgical-assistant program, which could pull the reported median in either direction depending on the underlying credential mix; that is this article\'s inference, not a BLS-stated explanation.',
+					'That wider scope makes it somewhat notable that the national median pay for surgical assistants ($60,290) is actually lower than for surgical technologists ($62,830), despite the more expansive duties. BLS does not explain this gap; it publishes the two medians without commentary. One plausible, unverified factor is that the surgical assistant workforce is much smaller (25,300 vs. 115,600) and includes a wider range of entry pathways, since some assistants enter through nursing or PA training, alongside graduates of dedicated assistant programs, which could pull the reported median in either direction depending on the underlying credential mix; that is this article\'s inference, not a BLS-stated explanation.',
 					'BLS\'s own numbers show that surgical technologist is both the larger job market (about 4.5 times more workers) and the role most surgical-technology training programs are built to enter directly, while surgical assistant credentials are typically layered on after establishing a technologist or nursing background.',
 				],
 			},
 			{
 				heading: 'Certification and how people enter the field',
 				body: [
-					'BLS lists the typical entry-level education for this occupation as a postsecondary nondegree award, meaning a certificate program rather than a full associate degree, with no additional work experience or on-the-job training required beyond that program. In practice, surgical technology programs are accredited either by the Commission on Accreditation of Allied Health Education Programs (CAAHEP) or the Accrediting Bureau of Health Education Schools (ABHES), and graduating from one of those accredited programs (or completing equivalent military surgical-technology training) is the standard eligibility path into the field\'s primary credential.',
+					'BLS lists the typical entry-level education for this occupation as a postsecondary nondegree award, a certificate-level qualification below a full associate degree, with no additional work experience or on-the-job training required beyond that program. In practice, surgical technology programs are accredited either by the Commission on Accreditation of Allied Health Education Programs (CAAHEP) or the Accrediting Bureau of Health Education Schools (ABHES), and graduating from one of those accredited programs (or completing equivalent military surgical-technology training) is the standard eligibility path into the field\'s primary credential.',
 					'That credential is the Certified Surgical Technologist (CST), administered by the National Board of Surgical Technology and Surgical Assisting (NBSTSA) and described by NBSTSA as the most nationally recognized surgical technology credential in the U.S. Maintaining it requires earning 30 continuing education credits (including 4 defined as live) within a two-year renewal cycle, or retaking the exam. NBSTSA\'s current renewal system runs on that single two-year cycle; an older four-year, 60-credit option some other sites still mention has since been consolidated into it. BLS states that employers may require or prefer certification and that some states regulate these workers directly. Requirements vary by state, and this page does not claim a single national licensing standard.',
 					'Within the broader "postsecondary nondegree award" entry tier this site covers, surgical technologist pay sits well above [phlebotomists](/how-to-become-a-phlebotomist), whose median annual wage is $43,660. Both roles share the same typical entry credential level, but the operating-room setting and CST certification requirement appear to carry a real pay premium within that tier, even though BLS itself does not attribute the gap to any single cause.',
 				],
@@ -1240,35 +1240,35 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average surgical tech salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for surgical technologists (SOC 29-2055) was $62,830 in May 2024. This is BLS\'s employer-reported, nationally representative figure; some self-reported salary sites show much higher numbers because they weight toward specific high-cost metro areas rather than the national median.',
+				answer: 'In the May 2024 survey, technologists in SOC 29-2055 had a $62,830 yearly midpoint. This national employer survey differs from salary-site estimates focused on expensive individual cities, which may show considerably larger amounts.',
 			},
 			{
 				question: 'Is a surgical technologist the same as a surgical assistant?',
-				answer: 'No. Surgical technologists focus on instrumentation and maintaining the sterile field, while surgical assistants take on a more hands-on role directly supporting the surgeon, such as retracting tissue or suturing, depending on state regulation and credentials. BLS reports these as separate SOC codes (29-2055 and 29-9093) with close but distinct median pay: $62,830 versus $60,290 in May 2024.',
+				answer: 'The technologist prepares instruments and protects sterility. The assistant may help the surgeon with tissue retraction or stitches, subject to local rules and qualifications. Their occupation codes are 29-2055 and 29-9093, and their respective May 2024 medians were $62,830 and $60,290.',
 			},
 			{
 				question: 'What is the highest- and lowest-paid range for surgical techs?',
-				answer: 'BLS does not publish a 10th/90th percentile wage breakdown for this specific occupation on its Occupational Outlook Handbook page. Readers who need that range would need to consult the BLS Occupational Employment and Wage Statistics (OEWS) tables directly, which report percentile data as a separate, more granular data product.',
+				answer: 'The OOH account used here gives no separate lower- or upper-decile estimate for this title. The more detailed OEWS wage tables are the appropriate BLS source for those percentiles.',
 			},
 			{
 				question: 'Do you need certification to be a surgical technologist?',
-				answer: 'BLS states that employers may require or prefer certification and that some states regulate these workers, though requirements vary by state. In practice, the Certified Surgical Technologist (CST) credential from the National Board of Surgical Technology and Surgical Assisting (NBSTSA) is the field\'s most nationally recognized certification, and it typically requires graduating from a CAAHEP- or ABHES-accredited program.',
+				answer: 'Employers may insist on a credential or prefer it, and some jurisdictions impose their own rules. CST is the principal credential described here, granted by NBSTSA. The ordinary eligibility route is an education program approved by CAAHEP or ABHES; the body\'s requirements should be checked for other routes.',
 			},
 			{
 				question: 'Is surgical technology a growing field?',
-				answer: 'BLS Employment Projections data shows 4.5% employment growth for surgical technologists specifically from 2024 to 2034, adding about 5,200 jobs on top of a 2024 workforce of 115,600, with roughly 7,000 average annual openings once retirements and career changes are included.',
+				answer: 'The projections matrix forecasts 5,200 additional technologist positions over 2024-to-2034, a 4.5% rise from 115,600. Counting replacements as well as expansion produces about 7,000 vacancies annually on average.',
 			},
 			{
 				question: 'Who gets paid more, RN or a surgical tech?',
-				answer: 'Registered nurses earned substantially more in May 2024, per BLS: a median of $93,600, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $62,830 for surgical technologists. The gap tracks a real difference in typical entry-level education: a bachelor\'s, associate\'s, or diploma path for RNs versus a certificate or associate\'s degree for surgical technologists.',
+				answer: 'The May 2024 nursing median was $93,600, substantially above the $62,830 technologist figure. See the [RN training guide](/how-long-is-nursing-school/) for the nursing number. Nursing entrants may take a university, associate or diploma course; operating-room technologists ordinarily take a shorter program at certificate or two-year degree level.',
 			},
 			{
 				question: 'How hard is it to be a surgical tech?',
-				answer: "BLS doesn't rate the difficulty, but the entry path is a real, gated process rather than pure on-the-job training. Most candidates complete an accredited certificate program (through CAAHEP or ABHES) before sitting for the Certified Surgical Technologist (CST) exam administered by NBSTSA, and maintaining that credential requires 30 continuing education credits on a two-year renewal cycle. On the job itself, the role demands sustained precision under pressure, tracking instruments and maintaining a sterile field throughout a procedure where a mistake has real consequences for a patient, even though it's a shorter, lower-cost entry path than many other allied health roles this site covers.",
+				answer: "BLS supplies no difficulty score. The common route includes a CAAHEP- or ABHES-approved course and the CST test from NBSTSA, followed by 30 education credits every two years to keep the credential. Working in surgery requires accuracy in instrument handling and sterility under pressure, with consequences for patient safety. The schooling is shorter than many other health-care paths, but that does not measure how difficult a particular student will find it.",
 			},
 			{
 				question: 'What kind of surgical tech makes the most money?',
-				answer: "BLS doesn't break out surgical technologist pay by specialty, such as cardiovascular, orthopedic, or neurosurgical technology; the $62,830 median on this page is a single national figure for the occupation. One counterintuitive data point from BLS's own numbers: surgical assistants, who take on a more hands-on, expanded scope than surgical technologists, actually earned less at the median in May 2024, $60,290 versus $62,830, so a broader scope of practice within this field doesn't automatically mean higher pay. BLS does not explain that gap on this page.",
+				answer: "The national $62,830 median is not divided into heart-surgery, orthopedics or other specialties. Assistants had a $60,290 midpoint in May 2024 despite their wider surgical duties, so an expanded remit alone does not establish higher earnings. BLS provides no reason for that difference.",
 			},
 		],
 		sources: [
@@ -3722,7 +3722,7 @@ export const guides: Guide[] = [
 		title: 'What Does an Insurance Underwriter Do? Duties, Pay, and Outlook',
 		description: 'Insurance underwriters evaluate applications and decide whether to approve coverage. BLS also projects the role to shrink, not grow. Here is what the job involves.',
 		published: '2026-08-24',
-		updated: '2026-08-24',
+		updated: '2026-10-11',
 		socCode: '13-2053',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, insurance underwriters evaluate insurance applications, weigh the risk of insuring an applicant with the help of automated underwriting software, and decide whether to approve coverage and at what premium. BLS reports a median annual salary of $79,880 in May 2024 for a role that typically requires a bachelor's degree and no state license. It's also one of the few occupations covered on this site where BLS projects employment to shrink rather than grow, down 3% from 2024 to 2034 as automated underwriting software takes on more of the decision-making underwriters used to do by hand.",
 		sections: [
@@ -3764,23 +3764,23 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does an insurance underwriter do on a typical day?',
-				answer: 'Per BLS, underwriters analyze the information on insurance applications, run applicant details through underwriting software to help gauge risk, review what that software recommends, and decide whether to approve the application. For approved applications, they also set the premium and coverage amount.',
+				answer: 'An underwriter reviews the application, checks risk with software and evaluates its recommendation. The decision is whether to provide insurance and, if approved, how much coverage to offer at what premium, according to BLS.',
 			},
 			{
 				question: 'How much do insurance underwriters make?',
-				answer: 'BLS reports a median annual insurance underwriter salary of $79,880 in May 2024 ($38.40 an hour). Pay varies widely: the bottom 10% earned under $51,640 and the top 10% earned over $138,020. By industry, credit intermediation paid the highest tracked median at $90,000, despite employing only 1% of underwriters.',
+				answer: 'The May 2024 occupation midpoint was $79,880 yearly, equivalent to $38.40 hourly. The lowest-paid tenth earned below $51,640 and the highest-paid tenth above $138,020. Employers in the credit-intermediation category led the listed industry medians at $90,000 while employing just 1% of the field.',
 			},
 			{
 				question: 'Is insurance underwriting a growing field?',
-				answer: "No. BLS projects employment of insurance underwriters to decline 3% from 2024 to 2034, a loss of about 3,300 positions, which it attributes to automated underwriting software reducing the need for human underwriters. BLS still projects about 8,200 openings a year on average, but all of them are expected to come from replacing underwriters who leave the occupation, not from newly created roles.",
+				answer: "No. The 2024-to-2034 forecast removes about 3,300 jobs, a 3% contraction tied to increasing use of automated decision software. About 8,200 annual vacancies are still expected on average, entirely to replace departing workers rather than expand headcount.",
 			},
 			{
 				question: 'Do you need a license to become an insurance underwriter?',
-				answer: "BLS does not describe a state licensing requirement for insurance underwriters, unlike some other occupations covered on this site. Most firms prefer a bachelor's degree, and certification, while not mandatory, is often expected by employers and can factor into advancement to senior underwriter or underwriter manager roles.",
+				answer: "The OOH account contains no statewide license requirement for this occupation. Employers usually prefer an undergraduate degree. A professional designation is optional in that account but may be expected for hiring or promotion into senior and management positions; candidates should check the particular employer's conditions.",
 			},
 			{
 				question: 'What is the difference between an insurance underwriter and an actuary?',
-				answer: "Both evaluate insurance risk, but their roles differ. Underwriters apply that risk assessment to individual applications, deciding whether to approve coverage and at what price. Actuaries build the statistical models and pricing assumptions underwriters work from, typically after a multi-year professional exam sequence BLS says can take up to seven years to complete. BLS reports a May 2024 median pay of $125,770 for actuaries versus $79,880 for underwriters.",
+				answer: "The underwriter decides whether an individual application meets the insurer's risk and pricing criteria. The actuary develops models and assumptions using statistics, with professional examinations taking as many as seven years to associate status and further study for fellowship. Their May 2024 national medians were $79,880 and $125,770 respectively.",
 			},
 		],
 		sources: [
@@ -3870,7 +3870,7 @@ export const guides: Guide[] = [
 		title: 'What Does a CEO Do? Duties, Pay, and Job Outlook (BLS Data)',
 		description: 'Chief executives set strategy and report to the board. BLS puts median CEO pay at $206,420, second-highest on this site, with 4% projected job growth.',
 		published: '2026-08-25',
-		updated: '2026-09-17',
+		updated: '2026-10-11',
 		socCode: '11-1011',
 		coreSummary: "Per the U.S. Bureau of Labor Statistics, chief executive officers provide overall direction for companies and organizations, formulating and implementing policy, directing the work of other top executives, and typically reporting to a board of directors. BLS tracks chief executives under SOC code 11-1011 and reports a median annual wage of $206,420 in May 2024, the second-highest median of any occupation on this site, behind only nurse anesthetists. BLS projects the occupation to grow 4% from 2024 to 2034, about as fast as the average for all occupations, adding roughly 13,300 positions to a 2024 base of 309,400.",
 		sections: [
@@ -3878,7 +3878,7 @@ export const guides: Guide[] = [
 				heading: 'What CEOs actually do, per BLS',
 				body: [
 					'Per BLS, top executives, the broader category that includes chief executives, "typically do the following": establish and carry out organizational goals, policies, and procedures; direct and oversee an organization\'s financial and budgetary activities; manage the general activities related to producing goods or providing services; consult with other executives, staff, and board members about operations; negotiate or approve contracts and agreements; appoint department heads and managers; analyze financial statements, sales reports, and other performance indicators; and identify places to cut costs or improve performance. BLS specifically describes chief executive officers, also known by titles such as executive director, managing director, or president, as providing "overall direction for companies and organizations," managing operations, and typically reporting to a board of directors.',
-					"BLS's coverage of chief executives is broader than the corporate sense of \"CEO.\" The same occupation code covers mayors, city managers, county administrators, and governors, all of whom BLS classifies as chief executives of governments, along with school superintendents and college or university presidents, who serve as chief executives of school districts and postsecondary institutions. Mayors and governors reach the role through election rather than promotion, a meaningfully different path from a corporate chief executive's typical route. BLS distinguishes chief executives from other C-suite titles, such as chief operating officers, chief financial officers, or chief human resources officers, who manage one specific part of an organization rather than the whole of it.",
+					"BLS's coverage of chief executives is broader than the corporate sense of \"CEO.\" The same occupation code covers mayors, city managers, county administrators, and governors, all of whom BLS classifies as chief executives of governments, along with school superintendents and college or university presidents, who serve as chief executives of school districts and postsecondary institutions. Mayors and governors reach the role through winning an election, a meaningfully different path from a corporate chief executive's typical route. BLS distinguishes chief executives from other C-suite titles, such as chief operating officers, chief financial officers, or chief human resources officers, who manage a single organizational function.",
 					"How much of this work a chief executive personally handles depends heavily on the size of the organization. In a small business, an owner or manager acting as chief executive is often also responsible for hiring, training, quality control, and day-to-day supervision directly. In a large corporation, the chief executive typically focuses on formulating policy and setting strategy, while general and operations managers, a separate BLS occupation that shares the same \"Top Executives\" page, direct day-to-day operations instead.",
 				],
 				image: {
@@ -3898,7 +3898,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook: headcount is projected to grow, not just replace departures',
 				body: [
 					'BLS projects employment of chief executives to grow 4% from 2024 to 2034, close to the roughly 3% average projected across all occupations, and a departure from the pattern on three other occupations this site tracks. [Bookkeepers](/what-does-a-bookkeeper-do/) and [insurance underwriters](/what-does-an-insurance-underwriter-do/) are both projected to shrink from 2024 to 2034, and [boilermakers](/boilermaker-salary/) are projected to shrink from 2025 to 2035 on BLS\'s more recently refreshed page for that trade; chief executive headcount is projected to grow instead, from about 309,400 in 2024 to about 322,700 in 2034, an increase of roughly 13,300 positions.',
-					"BLS also publishes an annual-openings estimate of about 331,000 for the combined \"Top Executives\" category, but that figure covers chief executives and general and operations managers together rather than chief executives alone. General and operations managers make up the much larger share of that combined group, holding about 3.7 million jobs in 2024 against roughly 309,400 for chief executives specifically, so most of the combined 331,000 annual openings likely land in the larger occupation. BLS does not publish a chief-executive-specific annual-openings number the way it does for employment, pay, and the growth rate, so this page reports the combined figure with that caveat rather than attributing all of it to chief executives.",
+					"BLS also publishes an annual-openings estimate of about 331,000 for the combined \"Top Executives\" category, but that figure covers both chief executives and the much larger general/operations management occupation. General and operations managers make up the much larger share of that combined group, holding about 3.7 million jobs in 2024 against roughly 309,400 for chief executives specifically, so most of the combined 331,000 annual openings likely land in the larger occupation. BLS does not publish a chief-executive-specific annual-openings number the way it does for employment, pay, and the growth rate, so this page reports the combined figure with that caveat; it is not a chief-executive-only estimate.",
 					'Among employers of chief executives specifically, BLS reports the largest share, 26%, as self-employed workers, ahead of professional, scientific, and technical services at 13%, government excluding state and local education and hospitals at 9%, healthcare and social assistance at 6%, and management of companies and enterprises at 5%. Those five categories BLS names individually account for 59% of chief executives; BLS does not itemize the remaining 41% by industry. The large self-employed share reflects how broadly BLS defines the occupation: it counts the owner-operator of a small business alongside the chief executive of a large public corporation.',
 				],
 			},
@@ -3906,7 +3906,7 @@ export const guides: Guide[] = [
 				heading: 'How people reach the role, per BLS',
 				body: [
 					"BLS lists a bachelor's degree as the typical entry-level education for the page's combined Top Executives category, which covers chief executives together with general and operations managers; unlike pay and employment, BLS does not break the entry-education figure out separately for chief executives alone. Within that combined guidance, BLS notes the degree is most often in a field related to the organization's line of work, such as business or engineering, that chief executives of large corporations often instead hold a master's degree in business administration, and that public-sector executives may have a degree in business administration, public administration, law, or the liberal arts. College presidents and school superintendents typically need a master's degree, and a doctorate is often preferred for those roles.",
-					"On top of formal education, BLS says chief executives typically need extensive managerial experience, and specifically notes that experience is expected to be in the organization's area of specialty, rather than general management experience from an unrelated field. Many chief executives are promoted from within their own organization, moving up from lower-level management or supervisory roles, though some employers hire from outside instead. BLS also gives a specific licensing example: some employers require their chief executive officer to hold a Certified Public Accountant credential, though this depends on the individual employer rather than being a universal requirement BLS applies to the whole occupation. At the opposite end of that ladder, this site's [paralegal duties and pay guide](/what-does-a-paralegal-do/) covers a legal-support role that, per BLS, needs only an associate's degree or certificate and no license to practice.",
+					"On top of formal education, BLS says chief executives typically need extensive managerial experience, and specifically notes that experience is expected to be in the organization's area of specialty, rather than general management experience from an unrelated field. Many chief executives are promoted from within their own organization, moving up from lower-level management or supervisory roles, though some employers hire from outside instead. BLS also gives a specific licensing example: some employers require their chief executive officer to hold a Certified Public Accountant credential, though this depends on the individual employer rather than being a universal requirement BLS applies to the whole occupation. At the opposite end of that ladder, this site's [paralegal duties and pay guide](/what-does-a-paralegal-do/) covers a legal-support role that, per BLS, usually takes an associate degree or an undergraduate degree followed by a paralegal certificate.",
 					"The paths BLS groups under this one occupation code vary widely by sector. A corporate chief executive typically advances through internal promotion or an external hire process. A mayor or governor reaches the equivalent chief-executive role through winning an election instead. BLS's data combines all of these paths into one set of pay, employment, and outlook figures, so the wage and growth numbers above describe the occupation as a whole rather than any single one of these routes into it.",
 				],
 			},
@@ -3914,31 +3914,31 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does a CEO do on a typical day?',
-				answer: 'Per BLS, chief executives establish organizational goals and policies, direct financial and budgetary activities, consult with other executives and board members, negotiate or approve contracts, appoint department heads and managers, and review financial statements and performance indicators to identify where to cut costs or improve results. How much of this a CEO handles personally depends on the size of the organization.',
+				answer: 'A CEO sets goals and policy, manages money and budgets, reviews business results, negotiates agreements and selects department leaders. Consultation with fellow leaders and board members is part of the work. Business size determines how much daily activity the CEO personally carries out, according to BLS.',
 			},
 			{
 				question: 'How much do CEOs make?',
-				answer: "BLS reports a median annual wage of $206,420 for chief executives in May 2024 ($99.24 an hour). The bottom 10% earned less than $73,710, and the top 10% earned more than $239,200, which is a top-coded ceiling in BLS's data rather than the true maximum. By industry, management of companies and enterprises and professional, scientific, and technical services report the highest medians.",
+				answer: "The May 2024 chief-executive midpoint was $206,420 annually, or $99.24 hourly. Earnings fell below $73,710 for the lowest-paid tenth and exceeded $239,200 for the highest-paid tenth. That upper figure is the survey's reporting threshold, not the biggest possible paycheck. Company-management employers and professional or technical service firms led the listed industry medians.",
 			},
 			{
 				question: 'Is CEO a growing career?',
-				answer: 'Yes. BLS projects chief executive employment to grow 4% from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 13,300 positions to a 2024 base of 309,400. That is a different trend from three other occupations this site tracks: bookkeepers and insurance underwriters, both shrinking from 2024 to 2034 per BLS, and boilermakers, shrinking from 2025 to 2035 on that trade\'s more recently updated BLS page.',
+				answer: 'Yes. The 2024-to-2034 forecast rises 4%, adding about 13,300 jobs to 309,400, close to the national forecast of roughly 3%. The bookkeeper and underwriter forecasts shrink during those years; boilermakers also shrink, but that comparison uses the newer 2025-to-2035 window.',
 			},
 			{
 				question: 'Do you need an MBA to become a CEO?',
-				answer: "Not according to BLS's baseline requirement. BLS lists a bachelor's degree as the typical entry-level education for its combined Top Executives category (chief executives and general and operations managers together; BLS does not break this figure out for chief executives alone), and notes that chief executives of large corporations often additionally hold a master's degree in business administration. BLS also says chief executives typically need extensive managerial experience in the organization's specific area of specialty, on top of whatever degree they hold.",
+				answer: "No specialized CEO degree is identified in the OOH. Its usual undergraduate qualification belongs to the combined top-executive group, which also includes managers responsible for general business operations. An MBA is also common among CEOs running larger corporations. Experience managing within the relevant business sector matters alongside education; the agency supplies no CEO-only entry-degree statistic.",
 			},
 			{
 				question: "What's the difference between a CEO and a COO or CFO?",
-				answer: 'BLS classifies all three as top executives, but chief executive officers provide overall direction for the entire organization and typically report to a board of directors, while chief operating officers, chief financial officers, and similar titles manage one specific part of the organization, such as day-to-day operations or finance, rather than the whole of it.',
+				answer: 'BLS places these jobs in the top-executive group. The CEO leads the organization overall and generally answers to its board. A COO handles operations and a CFO handles finance: each leads a function within that organization.',
 			},
 			{
 				question: 'Does a CEO have a boss?',
-				answer: 'Yes, in most structures. Per BLS, chief executive officers typically report to a board of directors, which sets overall direction and can hire or remove the CEO. A CEO who also owns the company outright, such as a sole founder, may have no formal board oversight, but that is a different structure from the typical corporate arrangement BLS describes.',
+				answer: 'Usually the board supervises the CEO and can appoint or dismiss that person. A sole owner serving as CEO may operate without a separate board, so the answer depends on the organization\'s governance.',
 			},
 			{
 				question: 'Is a CEO higher than an owner?',
-				answer: 'It depends on the structure. In a corporation, the CEO is typically the highest-ranking employee but still answers to a board of directors representing the owners, or shareholders; the CEO and the owners are not the same role. In a smaller or privately held business, the owner often serves as CEO directly, in which case there is no separate, higher position above them.',
+				answer: 'The CEO normally leads the employees in a corporation while answering to the board that represents shareholders. Ownership is a separate role. A private-business owner can also be the CEO, in which case there may be no distinct superior position.',
 			},
 		],
 		sources: [
@@ -4288,7 +4288,7 @@ export const guides: Guide[] = [
 		title: 'Ultrasound Tech Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS puts the median ultrasound tech salary at $89,340 a year, with 13% growth projected through 2034. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-27',
-		updated: '2026-09-09',
+		updated: '2026-10-11',
 		socCode: '29-2032',
 		coreSummary: 'The median annual wage for diagnostic medical sonographers, commonly called ultrasound techs, was $89,340 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $64,760 while the top 10% earned more than $123,170, a spread of roughly $58,410. BLS projects 13% employment growth from 2024 to 2034, much faster than average, adding an estimated 11,700 jobs.',
 		sections: [
@@ -4297,7 +4297,7 @@ export const guides: Guide[] = [
 				body: [
 					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-2032, officially titled "Diagnostic Medical Sonographers," on a page that also notes the job is commonly called an ultrasound technician or ultrasound tech. For May 2024, BLS reported a median annual wage of $89,340, or $42.95 an hour. The bottom 10% of earners made less than $64,760 a year, while the top 10% made more than $123,170, a spread of roughly $58,410 that BLS does not attribute to any single factor on this page, though the employer type someone works for (covered below) accounts for a meaningful share of it.',
 					"BLS lists an associate's degree as the typical entry-level education for this occupation, or in some cases a postsecondary certificate for candidates who already hold a related healthcare credential. That is a shorter, less expensive training path than several other diagnostic and rehabilitation roles this site tracks: [occupational therapists](/occupational-therapist-salary/) need a master's degree and [physical therapists](/physical-therapist-salary/) need a Doctor of Physical Therapy, both graduate credentials that take considerably longer to complete than sonography's typical two-year program. This site also covers [occupational therapy assistant salary](/occupational-therapy-assistant-salary/), per BLS, for the assistant role in that rehabilitation field.",
-					"Those figures come from BLS's Occupational Employment and Wage Statistics survey, which pulls wage data directly from employer payroll records instead of relying on what workers report themselves. The same survey put total sonographer employment at about 90,000 jobs in 2024.",
+					"Those figures come from BLS's Occupational Employment and Wage Statistics survey, which pulls wage data directly from employers, using their payroll records. The same survey put total sonographer employment at about 90,000 jobs in 2024.",
 				],
 			},
 			{
@@ -4311,7 +4311,7 @@ export const guides: Guide[] = [
 				heading: 'Certification, and how the entry path compares to radiologic technology',
 				body: [
 					"Licensing and certification requirements are covered in full in this site's [guide to becoming an ultrasound tech](/how-to-become-an-ultrasound-tech/), which walks through the accredited-program route, state license rules, and the ARDMS credential most employers expect. The short version: some states require a license, and even in states that don't, most employers still expect ARDMS certification before hiring.",
-					"Sonography sits alongside [radiologic technology](/radiology-tech-salary/) as one of two associate's-degree-level diagnostic imaging paths BLS tracks, but they are distinct occupations under different SOC codes, and the pay is not the same: BLS puts the radiologic technologist median at $77,660, about $11,680 below the $89,340 sonographer figure, despite both requiring a comparable two-year training timeline. The equipment differs too. Sonography uses high-frequency sound waves rather than ionizing radiation, which is one reason the two fields are credentialed through separate organizations, ARDMS for sonography and the American Registry of Radiologic Technologists (ARRT) for radiography, rather than a single shared body.",
+					"Sonography sits alongside [radiologic technology](/radiology-tech-salary/) as one of two associate's-degree-level diagnostic imaging paths BLS tracks, but they are distinct occupations under different SOC codes, and the pay is not the same: BLS puts the radiologic technologist median at $77,660, about $11,680 below the $89,340 sonographer figure, despite both requiring a comparable two-year training timeline. The equipment differs too. Sonography uses high-frequency sound waves rather than ionizing radiation, which is one reason the two fields are credentialed through separate organizations, ARDMS for sonography and ARRT for radiography.",
 				],
 			},
 			{
@@ -4325,43 +4325,43 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the median ultrasound tech salary?',
-				answer: 'According to the U.S. Bureau of Labor Statistics, the median annual wage for diagnostic medical sonographers, commonly called ultrasound techs, was $89,340 in May 2024, equivalent to $42.95 an hour. "Median" means half of workers in the role earned more and half earned less.',
+				answer: 'The May 2024 occupation midpoint was $89,340 yearly ($42.95 hourly), according to BLS. Half the surveyed workers earned above that median and half below; the survey category covers sonographers, including the technicians using ultrasound.',
 			},
 			{
 				question: 'What setting pays ultrasound techs the most?',
-				answer: "Among the four industry categories BLS tracks for May 2024, outpatient care centers paid the highest median by far, at $123,610, well ahead of hospitals ($90,070), offices of physicians ($89,450), and medical and diagnostic laboratories ($83,200). But outpatient care centers employ only 4% of the occupation, per BLS; hospitals and physician offices, which pay closer to the occupation-wide median, together employ 78% of sonographers.",
+				answer: "Outpatient facilities led with $123,610 in May 2024 but employed only 4% of the field. The other medians were $90,070 for hospitals, $89,450 for physician practices and $83,200 for diagnostic labs. Hospitals and physician practices together employed 78%, so relatively few workers are in that best-paid setting.",
 			},
 			{
 				question: 'Do ultrasound techs need to be certified?',
-				answer: "It depends on the state, per BLS. Where state law doesn't mandate it, hiring managers still tend to look for it: the ARDMS credential is the one most sonography job postings ask for by name.",
+				answer: "Local rules decide whether licensure is needed. Employers may still prefer or require professional certification even where the law does not, and ARDMS is the credentialing organization named in this article.",
 			},
 			{
 				question: 'Is ultrasound tech pay higher than radiology tech pay?',
-				answer: "Yes. BLS puts the median diagnostic medical sonographer wage at $89,340 versus $77,660 for radiologic technologists and technicians, a gap of about $11,680, even though both occupations typically require only an associate's degree. The two are separate, independently credentialed occupations: sonography uses sound waves and is certified through ARDMS, while radiography uses ionizing radiation and is certified through ARRT.",
+				answer: "Yes in the May 2024 national medians: ultrasound's $89,340 exceeded radiography's $77,660 by $11,680. An associate credential is the usual starting education for each. Sonography uses sound, radiography uses radiation; the separate registries described here are ARDMS and ARRT.",
 			},
 			{
 				question: 'Is ultrasound tech a growing field?',
-				answer: 'BLS projects 13% employment growth for diagnostic medical sonographers from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 11,700 jobs and about 5,800 openings a year on average.',
+				answer: 'The 2024-to-2034 forecast adds about 11,700 positions, a 13% increase against approximately 3% nationwide. The separate annual vacancy estimate is roughly 5,800 on average, including departures that need replacing.',
 			},
 			{
 				question: 'How much does a cardiac sonographer make?',
-				answer: "BLS does not report a separate median for cardiac sonographers. The Handbook treats cardiac work as one specialty inside the broader occupation covered above, so the $89,340 figure applies whether someone scans the heart, the abdomen, or the vascular system. ARDMS does credential the cardiac specialty on its own, as the Registered Diagnostic Cardiac Sonographer (RDCS), most often earned through its Adult Echocardiography exam, but that credentialing distinction does not carry through into a separate BLS pay number.",
+				answer: "The OOH gives no cardiac-only pay estimate. Heart scanning is a specialty within the occupation whose median is $89,340; that combined number is not evidence of the same median in every specialty. ARDMS offers an RDCS credential, commonly through the Adult Echocardiography examination, without BLS publishing a corresponding separate wage.",
 			},
 			{
 				question: 'How long does it take to become an ultrasound technician?',
-				answer: 'BLS classifies ultrasound techs under diagnostic medical sonographers, and lists at least an associate\'s degree or a postsecondary certificate as the typical entry-level education. In practice, most students complete a two-year associate degree in diagnostic medical sonography; certificate programs can run shorter, generally for candidates who already hold a related healthcare credential such as a nursing degree or radiologic technology background.',
+				answer: 'The typical starting route is a sonography associate program, commonly two years. BLS also accepts certificate-level training after high school. Those shorter courses often serve entrants with an existing qualification in nursing, radiography or another health profession.',
 			},
 			{
 				question: 'What pays more, RN or ultrasound tech?',
-				answer: 'Registered nurses earned slightly more in May 2024, per BLS: a median of $93,600, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, compared with $89,340 for diagnostic medical sonographers, the category BLS uses for ultrasound techs. Both figures come from the same BLS survey year, though the two occupations sit on separate Handbook pages with different typical entry-level education.',
+				answer: 'Nursing was slightly higher for May 2024: $93,600 compared with ultrasound\'s $89,340. The [RN study guide](/how-long-is-nursing-school/) reports that nursing figure. The survey year is the same, though the professions have different usual education routes and separate OOH profiles.',
 			},
 			{
 				question: 'Is becoming an ultrasound tech hard?',
-				answer: "It's a real, credential-gated path rather than something learned purely on the job. Per BLS, most candidates complete an accredited associate's degree program, and even in states without a licensing requirement, most employers expect ARDMS certification before hiring, which means passing a separate certifying exam on top of finishing the program. This site's [guide to becoming an ultrasound tech](/how-to-become-an-ultrasound-tech/) covers the accredited-program route and ARDMS requirements in full. BLS itself doesn't rate the difficulty of the path, only that it runs through an accredited program and, in practice, a certification exam most employers treat as a hiring bar.",
+				answer: "The path includes accredited coursework and supervised scanning, commonly through an associate program, plus professional exams when employers require certification. ARDMS is the registry described in the [ultrasound entry guide](/how-to-become-an-ultrasound-tech/). These steps are education and hiring requirements, not an agency rating of how hard an individual student will find them.",
 			},
 			{
 				question: 'Is ultrasound tech a stressful job?',
-				answer: "BLS doesn't rate occupations for stress, but its own description of the work points to real physical and scheduling demands: sonographers \"may need to stand for long periods and to lift or turn patients who are ill or disabled,\" often while working at imaging equipment in dimly lit rooms. Because many sonographers work in medical facilities that stay open around the clock, shifts can include evenings, weekends, or overnights. BLS also notes the role functions as part of a care team rather than independently, which adds a coordination demand on top of the physical one, even though BLS itself doesn't use the word \"stressful.\"",
+				answer: "The OOH describes long spells on one's feet and helping lift or reposition patients with illness or disability. Scanning often takes place in darkened rooms. Facilities providing care overnight may require night, evening or weekend shifts, and practitioners coordinate with nurses and physicians. Those are concrete work demands; the agency does not assign a stress score.",
 			},
 		],
 		sources: [
@@ -4481,7 +4481,7 @@ export const guides: Guide[] = [
 				heading: 'The path in: an associate\'s degree, a state licensing exam, and a supervised internship',
 				body: [
 					'BLS lists an associate\'s degree as the typical entry-level education, earned through an accredited funeral service or mortuary science program, usually a two-year course of study at a community college that covers ethics, grief counseling, funeral service, business law, embalming, and restorative techniques. Some employers prefer a bachelor\'s degree, and BLS notes psychology and business as common secondary fields of study for those who pursue one.',
-					'Licensing is where this occupation departs from many other associate\'s-degree roles. Per BLS, most states and Washington, D.C. require funeral directors to hold a state license, and the typical requirements are: being at least 21 years old, completing an accredited funeral service or mortuary science program, passing a state and/or national board exam, and serving an internship lasting one to three years under a licensed funeral director or manager. Colorado is the one exception BLS names, where certification is voluntary, not mandatory. Because licensing is set state by state, working across state lines generally means holding more than one license, and most states also require continuing education credits to keep a license current.',
+					'Licensing is where this occupation departs from many other associate\'s-degree roles. Per BLS, most states and Washington, D.C. require funeral directors to hold a state license, and the typical requirements are: being at least 21 years old, completing an accredited funeral service or mortuary science program, passing a state and/or national board exam, and serving an internship lasting one to three years under a licensed funeral director or manager. The BLS page still describes Colorado certification as voluntary. As of October 11, 2026, the new mandatory individual-license rule has not begun, but Colorado has enacted a change: section 12-135-602, added by [SB24-173](https://www.leg.colorado.gov/bills/sb24-173), requires a funeral director or mortuary science practitioner license from January 1, 2027. The regular funeral-director route includes an accredited mortuary-science education, the Arts board exam, and at least one year of workplace learning; transitional provisional-license routes also exist. [HB25-1217](https://www.leg.colorado.gov/bills/HB25-1217) moved the experience cutoff for provisional applicants to January 1, 2027. These Colorado details come from the enacted state laws, not the BLS profile. Because licensing is set state by state, working across state lines generally means holding more than one license, and most states also require continuing education credits to keep a license current.',
 					'Some states additionally require a separate certification specifically to perform cremations, a requirement BLS notes exists apart from the standard funeral director license and is administered by individual state boards or professional organizations, not by BLS itself.',
 				],
 			},
@@ -4513,7 +4513,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do funeral directors need to be licensed?',
-				answer: "Usually, including in D.C. BLS describes a typical licensed applicant as at least 21, a graduate of an approved mortuary or funeral-service program, successful in the relevant board examination, and trained under supervision for one to three years. Its Colorado entry describes voluntary certification. Check the relevant board's rules: requirements vary, and work across state borders calls for credentials in each jurisdiction.",
+				answer: "Usually, including in D.C. BLS describes a typical licensed applicant as at least 21, a graduate of an approved mortuary or funeral-service program, successful in the relevant board examination, and trained under supervision for one to three years. Colorado is changing its rule: the state’s enacted laws make licensure compulsory for the director and mortuary-practitioner roles starting January 1, 2027. At this review (October 11, 2026), the obligation is still prospective. Standard and transitional qualifications differ; the state legislation listed in Sources supplies this update beyond the OOH account. Check the relevant board's rules: requirements vary, and work across state borders calls for credentials in each jurisdiction.",
 			},
 			{
 				question: 'What education does a funeral director need?',
@@ -4537,6 +4537,8 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 		],
 		sources: [
+			{ label: 'Colorado General Assembly: enacted SB24-173, sections 12-135-602 and 603; licensing from January 1, 2027 (checked 2026-10-11)', url: 'https://www.leg.colorado.gov/bills/sb24-173' },
+			{ label: 'Colorado General Assembly: enacted HB25-1217, provisional applicant experience cutoff (checked 2026-10-11)', url: 'https://www.leg.colorado.gov/bills/HB25-1217' },
 			{ label: 'BLS Occupational Outlook Handbook: Funeral Service Workers, Morticians, Undertakers, and Funeral Arrangers profile, SOC 39-4031 (accessed 2026-08-28 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 27, 2026)', url: 'https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm' },
 			{ label: 'BLS Occupational Outlook Handbook: Funeral Service Workers, Funeral Home Managers profile, SOC 11-9171, used for the comparison figure above (same page and access details as the primary source)', url: 'https://www.bls.gov/ooh/personal-care-and-service/funeral-service-occupations.htm' },
 			{ label: 'The International Conference of Funeral Service Examining Boards (ICFSEB): National Board Exam structure (accessed 2026-09-17, independently confirmed the two-section Arts/Sciences exam format, not a BLS-sourced detail)', url: 'https://theconferenceonline.org/candidates/' },
