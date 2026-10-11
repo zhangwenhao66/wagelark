@@ -301,14 +301,14 @@ export const guides: Guide[] = [
 		title: 'Pharmacist Salary: $140,910 Median, Range by Industry (2026)',
 		description: 'BLS reports a $140,910 median pharmacist salary. See the full wage range by percentile and by industry, from retail pharmacy to hospitals.',
 		published: '2026-08-03',
-		updated: '2026-09-17',
+		updated: '2026-10-11',
 		socCode: '29-1051',
 		coreSummary: 'The median annual wage for pharmacists was $140,910 in May 2025, according to the Bureau of Labor Statistics. The bottom 10% earned less than $99,290 and the top 10% earned more than $174,230. Pay varies meaningfully by setting: hospitals paid the highest industry median at $157,290, well above the $132,940 median at pharmacies and drug retailers, the setting where most pharmacists actually work. Reaching that pay typically requires six to eight years of school: at least two years of prerequisite coursework followed by a four-year Doctor of Pharmacy program.',
 		sections: [
 			{
 				heading: 'The national numbers',
 				body: [
-					'BLS puts the May 2025 median pharmacist salary at $140,910 a year, or $67.75 an hour. Since pharmacists require a Doctor of Pharmacy (PharmD) degree (a professional doctorate that typically takes four years after at least two years of prerequisite coursework), this is one of the higher-paying occupations that does not require a residency or additional post-graduate licensing exam beyond the North American Pharmacist Licensure Examination (NAPLEX) and a jurisprudence exam. By contrast, this site\'s [clinical laboratory technologist salary guide](/clinical-laboratory-technologist-salary/) covers a healthcare role that typically requires only a bachelor\'s degree, with a considerably lower $62,930 median.',
+					'BLS puts the May 2025 median pharmacist salary at $140,910 a year, or $67.75 an hour. Since pharmacists require a Doctor of Pharmacy (PharmD) degree (a professional doctorate that typically takes four years after at least two years of prerequisite coursework), this is one of the higher-paying occupations that does not require a residency or additional post-graduate licensing exam beyond the North American Pharmacist Licensure Examination (NAPLEX) and a jurisprudence exam. By contrast, this site\'s [clinical laboratory technologist salary guide](/clinical-laboratory-technologist-salary/) covers technologists, who typically need a bachelor\'s degree, alongside technicians; BLS reports a combined $62,930 median for those two roles.',
 					'The percentile spread is narrower than in occupations like actuarial science: the bottom 10% of pharmacists earned less than $99,290, and the top 10% earned more than $174,230 in May 2025. A roughly $75,000 gap between deciles in a single-credential profession suggests the spread is driven mainly by setting and geography rather than large differences in required qualifications. A comparably tight spread shows up in [medical dosimetrist pay](/medical-dosimetrist-salary/), a radiation-oncology specialty with a $147,470 median and a similar roughly $73,780 gap between its own 10th and 90th percentiles.',
 				],
 			},
@@ -449,7 +449,7 @@ export const guides: Guide[] = [
 		title: 'What Does a Physician Assistant Do? Duties, Setting, and Pay',
 		description: 'A physician assistant examines, diagnoses, and treats patients under physician supervision. Here is what the job actually involves, day to day, plus BLS pay data.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-10-11',
 		socCode: '29-1071',
 		coreSummary: 'Physician assistants (PAs) examine, diagnose, and treat patients under a supervising physician\'s oversight: ordering and interpreting tests, prescribing medication, and performing minor procedures across specialties from primary care to surgery. The role requires a master\'s degree from an accredited PA program and state licensure; BLS reports a median annual salary of $133,260 in May 2024.',
 		sections: [
@@ -472,7 +472,7 @@ export const guides: Guide[] = [
 				heading: 'Education and licensing path',
 				body: [
 					'Becoming a PA requires a master\'s degree from an accredited physician assistant program, which typically takes at least two years beyond a bachelor\'s degree and combines classroom instruction with supervised clinical rotations across multiple specialties. Most programs expect applicants to already hold a bachelor\'s degree with substantial science coursework and hands-on patient-care experience (commonly as a medical assistant, EMT, paramedic, or in a similar clinical support role) before admission.',
-					'After completing a program, candidates must pass the Physician Assistant National Certifying Examination (PANCE) to earn the PA-C (Physician Assistant-Certified) credential, and every state requires PA licensure on top of that national certification. Maintaining certification requires ongoing continuing medical education and periodic recertification exams. By contrast, this site\'s [overview of paralegal duties](/what-does-a-paralegal-do/) covers a legal-support role that, per BLS, requires no license or national certifying exam to practice.',
+					'After completing a program, candidates must pass the Physician Assistant National Certifying Examination (PANCE) to earn the PA-C (Physician Assistant-Certified) credential, and every state requires PA licensure on top of that national certification. Maintaining certification requires ongoing continuing medical education and periodic recertification exams. By contrast, this site\'s [overview of paralegal duties](/what-does-a-paralegal-do/) covers legal-support work whose usual education routes are an associate degree or a bachelor\'s degree combined with a paralegal certificate, without the PA master\'s degree and clinical certification path.',
 				],
 			},
 		],
@@ -495,7 +495,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Can you make $200,000 as a PA?',
-				answer: 'Not typically, per national BLS data. The top decile of PAs earned more than $182,200 in May 2024, the highest figure BLS publishes for the occupation, short of $200,000. See this site\'s [PA salary guide](/physician-assistant-salary/) for the full percentile and industry breakdown; pay varies by specialty and setting in ways this national figure does not capture.',
+				answer: 'Not for most PAs in the May 2024 data used here: $200,000 was above the $182,200 cutoff for the highest-paid tenth. Workers in that tenth earned more than the cutoff, so it does not establish a maximum or rule out individual earnings of $200,000. See this site\'s [PA salary guide](/physician-assistant-salary/) for the full percentile and industry breakdown; pay varies by specialty and setting in ways this national figure does not capture.',
 			},
 			{
 				question: 'Who is higher paid, NP or PA?',
@@ -770,10 +770,10 @@ export const guides: Guide[] = [
 	{
 		slug: 'how-much-do-flight-attendants-make',
 		category: 'Salary Guide',
-		title: 'How Much Do Flight Attendants Make? $67,130 Median (BLS 2026)',
+		title: 'How Much Do Flight Attendants Make? $63,580 Median (BLS 2026)',
 		description: 'The median flight attendant salary is $63,580 a year per BLS, but the range is enormous, from $35,110 to $136,430. Here is why, and what drives it.',
 		published: '2026-08-03',
-		updated: '2026-10-07',
+		updated: '2026-10-11',
 		socCode: '53-2031',
 		coreSummary: 'The median annual wage for flight attendants was $63,580 in May 2025, according to the Bureau of Labor Statistics, down from $67,130 the year before. The range is unusually wide for the required entry education: the bottom 10% earned less than $35,110 while the top 10% earned more than $136,430, a roughly $101,000 gap driven mainly by seniority-based pay scales and route/aircraft assignments under airline union contracts.',
 		sections: [
@@ -796,7 +796,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook',
 				body: [
 					'BLS projects 9% employment growth for flight attendants from 2025 to 2035, classified as much faster than average, taking the occupation from 133,700 jobs to roughly 145,500, a net gain of about 11,800 positions. On top of that net growth, BLS separately estimates about 18,500 openings a year on average over the decade, since most yearly openings come from replacing workers who transfer out or retire rather than from new positions alone. Growth in air travel demand, plus regulatory minimum staffing requirements tied to aircraft passenger capacity, are the main drivers BLS cites. Airlines cannot simply run more flights without proportionally more crew, which links growth directly to industry capacity expansion in a way that is less true for some other service occupations.',
-					"The other crew role on the same flight deck follows a similar seniority-driven pay pattern but at a much higher scale: this site's [pilot pay guide](/how-much-do-pilots-make/) puts the May 2025 median for airline pilots, copilots, and flight engineers at $232,140, roughly three and a half times the flight attendant median above.",
+					"Pilots on the same aircraft follows a similar seniority-driven pay pattern but at a much higher scale: this site's [pilot pay guide](/how-much-do-pilots-make/) puts the May 2025 median for airline pilots, copilots, and flight engineers at $232,140, about 3.7 times the $63,580 flight attendant median above.",
 				],
 			},
 		],
@@ -1286,21 +1286,21 @@ export const guides: Guide[] = [
 		title: 'Pharmacy Technician Salary: BLS Wage Data by Percentile (2026)',
 		description: 'BLS reports a $43,460 median pharmacy technician salary. See the full wage range by percentile and by industry, from retail pharmacies to hospitals.',
 		published: '2026-08-05',
-		updated: '2026-08-18',
+		updated: '2026-10-11',
 		socCode: '29-2052',
 		coreSummary: 'The median annual wage for pharmacy technicians was $43,460 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $35,100 and the top 10% earned more than $59,450, a comparatively narrow spread for an occupation that typically requires only a high school diploma to enter. Pay depends heavily on setting: ambulatory healthcare services paid the highest industry median at $49,920, about $12,000 above the $37,900 median at pharmacies and drug retailers.',
 		sections: [
 			{
 				heading: 'What pharmacy technicians actually earn, by percentile',
 				body: [
-					'BLS tracks pharmacy technician pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The most recent published data, from May 2024, puts the median annual wage at $43,460, or $20.90 an hour. Reporting pay both ways matters here more than for some occupations on this site, since pharmacy technicians are commonly scheduled by the hour rather than paid a fixed annual salary, and hours can vary by employer and by whether the role is full time or part time.',
+					'BLS tracks pharmacy technician pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The May 2024 data used here puts the median annual wage at $43,460, or $20.90 an hour. Reporting pay both ways matters here more than for some occupations on this site, since pharmacy technicians are commonly scheduled by the hour rather than paid a fixed annual salary, and hours can vary by employer and by whether the role is full time or part time.',
 					'The percentile spread is narrower in dollar terms than most other occupations covered here: the bottom 10% of pharmacy technicians earned less than $35,100 in May 2024, while the top 10% earned more than $59,450, a gap of about $24,350. That is still a meaningful spread relative to the median itself, more than half of it, but it is a smaller absolute range than occupations like pharmacists or actuaries, where pay climbs sharply with additional licensing or credentials. Pharmacy technicians share a much more uniform entry requirement: a high school diploma or equivalent, with most training happening on the job in under a year, or through a postsecondary certificate program at a vocational school or community college. For how that $43,460 median stacks up against pay figures across the broader U.S. labor market, see this site\'s [roundup of national wage statistics](/salary-statistics-2026/).',
 				],
 			},
 			{
 				heading: 'Pay by industry setting',
 				body: [
-					'BLS breaks out May 2024 pharmacy technician wages across five industry categories, and the gap between the highest- and lowest-paying settings is larger than the national percentile spread above. Ambulatory healthcare services, a category that includes outpatient clinics and infusion centers, paid the highest median at $49,920. Hospitals paid close behind at $49,310.',
+					'BLS breaks out May 2024 pharmacy technician wages across five industry categories, and the gap between the highest- and lowest-paying settings is $12,020, smaller than the $24,350 gap between the national percentile cutoffs above. Ambulatory healthcare services, a category that includes outpatient clinics and infusion centers, paid the highest median at $49,920. Hospitals paid close behind at $49,310.',
 					'General merchandise retailers, meaning big-box stores that operate an in-house pharmacy counter, paid a median of $46,180. Grocery and specialty food retailers paid $38,810, and pharmacies and drug retailers, the traditional chain and independent retail pharmacy setting most people associate with the job title, paid the least of the five tracked categories, at $37,900. The roughly $12,020 gap between the highest- and lowest-paying settings means the specific type of employer matters more to a pharmacy technician\'s take-home pay than it does in several other occupations this site tracks.',
 				],
 			},
@@ -1315,7 +1315,7 @@ export const guides: Guide[] = [
 				heading: 'What it takes to get in, and how the pay compares to a pharmacist',
 				body: [
 					'Entry-level education for pharmacy technicians is a high school diploma or equivalent, one of the lowest bars among the occupations tracked on this site. Most states regulate pharmacy technicians in some way, and requirements can include a formal education or training program, an exam, fees, continuing education, a criminal background check, or a minimum age, though the exact mix varies significantly by state. Certification is not required everywhere, but BLS notes that some states and employers do require it, and that having it can make finding a job easier even where it is not mandatory. CareerOneStop, the resource BLS itself points readers to for details, is the place to check what a specific state actually requires rather than assuming national rules apply everywhere.',
-					'That low barrier to entry is also what separates a pharmacy technician\'s pay from a pharmacist\'s. Pharmacists require a Doctor of Pharmacy (PharmD), a professional doctorate that typically takes four years after at least two years of prerequisite coursework, plus passing a national licensure exam. This site\'s [pharmacist salary guide](/pharmacist-salary/) reports a May 2025 median of $140,910, more than three times the pharmacy technician median in this article, reflecting that multi-year credentialing gap rather than a difference in day-to-day workload. For a comparison at a similarly accessible entry point, this site\'s [guide to becoming a phlebotomist](/how-to-become-a-phlebotomist/) covers another allied health role with the same kind of low bar to entry: like pharmacy technicians, phlebotomists can start with just a high school diploma plus employer-provided on-the-job training where state rules allow it, though some states require a certification that effectively forces the formal postsecondary-program route.',
+					'That low barrier to entry is also what separates a pharmacy technician\'s pay from a pharmacist\'s. Pharmacists require a Doctor of Pharmacy (PharmD), a professional doctorate that typically takes four years after at least two years of prerequisite coursework, plus passing a national licensure exam. This site\'s [pharmacist salary guide](/pharmacist-salary/) reports a May 2025 median of $140,910, more than three times the pharmacy technician median in this article, reflecting that multi-year credentialing gap rather than a difference in day-to-day workload. For a comparison at a similarly accessible entry point, this site\'s [guide to becoming a phlebotomist](/how-to-become-a-phlebotomist/) covers another allied health role with the same kind of low bar to entry: like pharmacy technicians, phlebotomists can start with just a high school diploma plus employer-provided on-the-job training where state rules allow it, though states may require an accredited training program, a license or certification, or other qualifications.',
 				],
 			},
 		],
