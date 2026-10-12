@@ -345,41 +345,41 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-2056": {
 		socCode: "29-2056",
 		title: "Veterinary Technologists and Technicians",
-		medianAnnual: 45980,
-		medianHourly: 22.11,
+		medianAnnual: 47380,
+		medianHourly: 22.78,
 		percentiles: {
-			p10: 32120,
-			p90: 60880
+			p10: 35710,
+			p90: 63180
 		},
-		employment: 134200,
-		employmentYear: "2024",
+		employment: 131400,
+		employmentYear: "2025",
 		jobOutlookPct: 9,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 12200,
-		projectionPeriod: "2024-34",
+		employmentChange: 12300,
+		projectionPeriod: "2025-35",
 		entryEducation: "Associate's degree",
 		industryWages: [
 			{
-				industry: "Educational services (state, local, private)",
-				annualWage: 51250
+				industry: "Educational services; state, local, and private",
+				annualWage: 52200
 			},
 			{
 				industry: "Veterinary services",
-				annualWage: 45740
-			},
-			{
-				industry: "Other personal services",
-				annualWage: 43280
+				annualWage: 47170
 			},
 			{
 				industry: "Social advocacy organizations",
-				annualWage: 41640
+				annualWage: 45970
+			},
+			{
+				industry: "Other personal services",
+				annualWage: 44730
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Veterinary Technologists and Technicians",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"29-1122": {
 		socCode: "29-1122",
@@ -427,64 +427,64 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"11-3031": {
 		socCode: "11-3031",
 		title: "Financial Managers",
-		medianAnnual: 161700,
-		medianHourly: 77.74,
+		medianAnnual: 166570,
 		percentiles: {
-			p10: 86490,
-			p90: 239200
+			p10: 94310,
+			p90: 323270
 		},
-		employment: 868600,
-		employmentYear: "2024",
-		jobOutlookPct: 15,
+		employment: 879700,
+		employmentYear: "2025",
+		jobOutlookPct: 10,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 128800,
-		projectionPeriod: "2024-34",
+		employmentChange: 84900,
+		projectionPeriod: "2025-35",
 		entryEducation: "Bachelor's degree",
 		industryWages: [
 			{
 				industry: "Professional, scientific, and technical services",
-				annualWage: 171580
+				annualWage: 174170
 			},
 			{
 				industry: "Management of companies and enterprises",
-				annualWage: 169340
+				annualWage: 172340
 			},
 			{
 				industry: "Finance and insurance",
-				annualWage: 164940
+				annualWage: 169980
 			},
 			{
 				industry: "Manufacturing",
-				annualWage: 160660
+				annualWage: 164400
 			},
 			{
-				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 134790
+				industry: "Government, excluding state and local education and hospitals",
+				annualWage: 139810
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Financial Managers (covers controllers, treasurers, credit/cash/risk/insurance managers as one SOC group; BLS does not break out a controller-specific wage)",
 		sourceUrl: "https://www.bls.gov/ooh/management/financial-managers.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 80.08
 	},
 	"35-3011": {
 		socCode: "35-3011",
 		title: "Bartenders",
-		medianAnnual: 33530,
-		medianHourly: 16.12,
+		medianAnnual: 34341,
+		medianHourly: 16.51,
 		percentiles: {},
-		employment: 756700,
-		employmentYear: "2024",
-		jobOutlookPct: 6,
+		employment: 762600,
+		employmentYear: "2025",
+		jobOutlookPct: 5,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 44800,
-		projectionPeriod: "2024-34",
+		employmentChange: 37900,
+		projectionPeriod: "2025-35",
 		entryEducation: "No formal educational credential",
 		industryWages: [],
-		dataYear: "May 2024",
-		sourceLabel: "BLS Occupational Outlook Handbook: Bartenders",
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Bartenders (BLS reports hourly wages only; medianAnnual is annualized from $16.51/hour using 2,080 hours/year for this site annual-wage schema; BLS percentile wage values remain hourly and are not stored as annual values)",
 		sourceUrl: "https://www.bls.gov/ooh/food-preparation-and-serving/bartenders.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"29-1020": {
 		socCode: "29-1020",
@@ -528,41 +528,41 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"23-1011": {
 		socCode: "23-1011",
 		title: "Lawyers",
-		medianAnnual: 151160,
-		medianHourly: 72.67,
+		medianAnnual: 159670,
 		percentiles: {
-			p10: 72780,
-			p90: 239200
+			p10: 78360,
+			p90: 351600
 		},
-		employment: 864800,
-		employmentYear: "2024",
-		jobOutlookPct: 4,
-		jobOutlookLabel: "As fast as average",
-		employmentChange: 35900,
-		projectionPeriod: "2024-34",
+		employment: 863700,
+		employmentYear: "2025",
+		jobOutlookPct: 5,
+		jobOutlookLabel: "Faster than average",
+		employmentChange: 40600,
+		projectionPeriod: "2025-35",
 		entryEducation: "Doctoral or professional degree",
 		industryWages: [
 			{
 				industry: "Federal government",
-				annualWage: 174680
+				annualWage: 178380
 			},
 			{
 				industry: "Legal services",
-				annualWage: 143470
+				annualWage: 157870
 			},
 			{
-				industry: "Local government (excl. education, hospitals)",
-				annualWage: 125180
+				industry: "Local government, excluding education and hospitals",
+				annualWage: 131390
 			},
 			{
-				industry: "State government (excl. education, hospitals)",
-				annualWage: 111280
+				industry: "State government, excluding education and hospitals",
+				annualWage: 115330
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Lawyers",
 		sourceUrl: "https://www.bls.gov/ooh/legal/lawyers.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 76.76
 	},
 	"29-1292": {
 		socCode: "29-1292",
@@ -602,41 +602,41 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"15-2011": {
 		socCode: "15-2011",
 		title: "Actuaries",
-		medianAnnual: 125770,
-		medianHourly: 60.47,
+		medianAnnual: 130000,
 		percentiles: {
-			p10: 75240,
-			p90: 206430
+			p10: 78570,
+			p90: 215100
 		},
-		employment: 33600,
-		employmentYear: "2024",
-		jobOutlookPct: 22,
+		employment: 31200,
+		employmentYear: "2025",
+		jobOutlookPct: 9,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 7300,
-		projectionPeriod: "2024-34",
+		employmentChange: 2900,
+		projectionPeriod: "2025-35",
 		entryEducation: "Bachelor's degree",
 		industryWages: [
 			{
-				industry: "Management of companies and enterprises",
-				annualWage: 133030
-			},
-			{
 				industry: "Finance and insurance",
-				annualWage: 126830
+				annualWage: 131450
 			},
 			{
-				industry: "Government (excl. state/local education)",
-				annualWage: 118910
+				industry: "Management of companies and enterprises",
+				annualWage: 129810
+			},
+			{
+				industry: "Government, excluding state and local education and hospitals",
+				annualWage: 129650
 			},
 			{
 				industry: "Professional, scientific, and technical services",
-				annualWage: 111640
+				annualWage: 124130
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Actuaries",
 		sourceUrl: "https://www.bls.gov/ooh/math/actuaries.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 62.5
 	},
 	"29-1051": {
 		socCode: "29-1051",
@@ -1123,166 +1123,169 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"23-2011": {
 		socCode: "23-2011",
 		title: "Paralegals and Legal Assistants",
-		medianAnnual: 61010,
-		medianHourly: 29.33,
+		medianAnnual: 62890,
 		percentiles: {
-			p10: 39710,
-			p90: 98990
+			p10: 44740,
+			p90: 101500
 		},
-		employment: 376200,
-		employmentYear: "2024",
+		employment: 404900,
+		employmentYear: "2025",
 		jobOutlookPct: 0,
 		jobOutlookLabel: "Little or no change",
-		employmentChange: 600,
-		projectionPeriod: "2024-34",
+		employmentChange: -1100,
+		projectionPeriod: "2025-35",
 		entryEducation: "Associate's degree",
 		industryWages: [
 			{
-				industry: "Federal government (excl. postal service)",
-				annualWage: 77940
+				industry: "Federal government, excluding postal service",
+				annualWage: 81470
 			},
 			{
 				industry: "Finance and insurance",
-				annualWage: 76960
+				annualWage: 80120
 			},
 			{
-				industry: "Local government (excl. education, hospitals)",
-				annualWage: 60990
+				industry: "Local government, excluding education and hospitals",
+				annualWage: 63370
 			},
 			{
 				industry: "Legal services",
-				annualWage: 59800
+				annualWage: 61770
 			},
 			{
-				industry: "State government (excl. education, hospitals)",
-				annualWage: 56280
+				industry: "State government, excluding education and hospitals",
+				annualWage: 59320
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Paralegals and Legal Assistants",
 		sourceUrl: "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 30.24
 	},
 	"29-2032": {
 		socCode: "29-2032",
 		title: "Diagnostic Medical Sonographers",
-		medianAnnual: 89340,
-		medianHourly: 42.95,
+		medianAnnual: 96590,
+		medianHourly: 46.44,
 		percentiles: {
-			p10: 64760,
-			p90: 123170
+			p10: 67820,
+			p90: 129370
 		},
-		employment: 90000,
-		employmentYear: "2024",
-		jobOutlookPct: 13,
+		employment: 92200,
+		employmentYear: "2025",
+		jobOutlookPct: 12,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 11700,
-		projectionPeriod: "2024-34",
+		employmentChange: 12900,
+		projectionPeriod: "2025-35",
 		entryEducation: "Associate's degree",
 		industryWages: [
 			{
 				industry: "Outpatient care centers",
-				annualWage: 123610
+				annualWage: 127940
 			},
 			{
-				industry: "Hospitals (state, local, private)",
-				annualWage: 90070
+				industry: "Hospitals; state, local, and private",
+				annualWage: 97390
 			},
 			{
 				industry: "Offices of physicians",
-				annualWage: 89450
+				annualWage: 95220
 			},
 			{
 				industry: "Medical and diagnostic laboratories",
-				annualWage: 83200
+				annualWage: 87580
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"31-9097": {
 		socCode: "31-9097",
 		title: "Phlebotomists",
-		medianAnnual: 43660,
-		medianHourly: 20.99,
-		percentiles: {},
-		employment: 139700,
-		employmentYear: "2024",
-		jobOutlookPct: 6,
-		jobOutlookLabel: "Faster than average",
-		employmentChange: 7900,
-		projectionPeriod: "2024-34",
+		medianAnnual: 45230,
+		medianHourly: 21.75,
+		percentiles: {
+			p10: 35780,
+			p90: 58780
+		},
+		employment: 143900,
+		employmentYear: "2025",
+		jobOutlookPct: 7,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 9800,
+		projectionPeriod: "2025-35",
 		entryEducation: "Postsecondary nondegree award",
 		industryWages: [
 			{
 				industry: "Outpatient care centers",
-				annualWage: 48450
+				annualWage: 48030
 			},
 			{
 				industry: "Medical and diagnostic laboratories",
-				annualWage: 45700
-			},
-			{
-				industry: "Hospitals (state, local, private)",
-				annualWage: 41490
+				annualWage: 46670
 			},
 			{
 				industry: "Offices of physicians",
-				annualWage: 40480
+				annualWage: 44500
 			},
 			{
-				industry: "Other ambulatory healthcare services",
-				annualWage: 39180
+				industry: "Hospitals; state, local, and private",
+				annualWage: 44220
+			},
+			{
+				industry: "All other ambulatory healthcare services",
+				annualWage: 39930
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Phlebotomists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/phlebotomists.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"29-2034": {
 		socCode: "29-2034",
 		title: "Radiologic Technologists and Technicians",
-		medianAnnual: 77660,
+		medianAnnual: 80110,
 		percentiles: {
-			p10: 52360,
-			p90: 106990
+			p10: 55980,
+			p90: 118660
 		},
-		employment: 228000,
-		employmentYear: "2024",
-		jobOutlookPct: 4,
+		employment: 234200,
+		employmentYear: "2025",
+		jobOutlookPct: 5,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 9800,
-		projectionPeriod: "2024-34",
+		employmentChange: 11800,
+		projectionPeriod: "2025-35",
 		entryEducation: "Associate's degree",
 		industryWages: [
 			{
 				industry: "Federal government (excl. postal service)",
-				annualWage: 93970
+				annualWage: 97490
 			},
 			{
 				industry: "Outpatient care centers",
-				annualWage: 81000
+				annualWage: 84720
 			},
 			{
-				industry: "Hospitals (state, local, private)",
-				annualWage: 78560
+				industry: "Hospitals; state, local, and private",
+				annualWage: 80650
 			},
 			{
 				industry: "Medical and diagnostic laboratories",
-				annualWage: 76770
+				annualWage: 78400
 			},
 			{
 				industry: "Offices of physicians",
-				annualWage: 66060
+				annualWage: 74540
 			}
 		],
-		dataYear: "May 2024",
-		sourceLabel: "BLS Occupational Outlook Handbook: Radiologic and MRI Technologists",
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (SOC-specific wage and projection figures; combined Quick Facts hourly figure omitted)",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm",
-		publishedDate: "2025-08-28",
+		publishedDate: "2026-08-27",
 		stateWages: [
 			{
 				state: "California",
@@ -1696,102 +1699,126 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"35-1011": {
 		socCode: "35-1011",
 		title: "Chefs and Head Cooks",
-		medianAnnual: 60990,
-		medianHourly: 29.32,
+		medianAnnual: 62470,
 		percentiles: {
-			p10: 36000,
-			p90: 96030
+			p10: 37900,
+			p90: 98560
 		},
-		employment: 197300,
-		employmentYear: "2024",
+		employment: 220300,
+		employmentYear: "2025",
 		jobOutlookPct: 7,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 14000,
-		projectionPeriod: "2024-34",
+		employmentChange: 14400,
+		projectionPeriod: "2025-35",
 		entryEducation: "High school diploma or equivalent",
 		industryWages: [
 			{
 				industry: "Traveler accommodation",
-				annualWage: 73110
+				annualWage: 74380
 			},
 			{
 				industry: "Amusement, gambling, and recreation industries",
-				annualWage: 69430
+				annualWage: 72830
 			},
 			{
 				industry: "Food services and drinking places",
-				annualWage: 59450
+				annualWage: 60580
 			},
 			{
 				industry: "Healthcare and social assistance",
-				annualWage: 57350
+				annualWage: 59550
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Chefs and Head Cooks",
 		sourceUrl: "https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 30.03
 	},
 	"29-2055": {
 		socCode: "29-2055",
 		title: "Surgical Technologists",
-		medianAnnual: 62830,
-		percentiles: {},
-		employment: 115600,
-		employmentYear: "2024",
-		jobOutlookPct: 4.5,
+		medianAnnual: 64650,
+		percentiles: {
+			p10: 45940,
+			p90: 96940
+		},
+		employment: 118400,
+		employmentYear: "2025",
+		jobOutlookPct: 5,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 5200,
-		projectionPeriod: "2024-34",
+		employmentChange: 5900,
+		projectionPeriod: "2025-35",
 		entryEducation: "Postsecondary nondegree award",
-		industryWages: [],
-		dataYear: "May 2024",
-		sourceLabel: "BLS Occupational Outlook Handbook: Surgical Assistants and Technologists",
+		industryWages: [
+			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 65020
+			},
+			{
+				industry: "Outpatient care centers",
+				annualWage: 64670
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 64590
+			},
+			{
+				industry: "Administrative and support services",
+				annualWage: 62400
+			},
+			{
+				industry: "Offices of dentists",
+				annualWage: 48190
+			}
+		],
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Surgical Assistants and Technologists (SOC-specific projection row; combined-page wage percentiles and industry medians omitted)",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/surgical-technologists.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"29-2052": {
 		socCode: "29-2052",
 		title: "Pharmacy Technicians",
-		medianAnnual: 43460,
-		medianHourly: 20.9,
+		medianAnnual: 45750,
+		medianHourly: 22,
 		percentiles: {
-			p10: 35100,
-			p90: 59450
+			p10: 36020,
+			p90: 61040
 		},
-		employment: 490400,
-		employmentYear: "2024",
+		employment: 471200,
+		employmentYear: "2025",
 		jobOutlookPct: 6,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 31500,
-		projectionPeriod: "2024-34",
+		employmentChange: 30100,
+		projectionPeriod: "2025-35",
 		entryEducation: "High school diploma or equivalent",
 		industryWages: [
 			{
-				industry: "Ambulatory healthcare services",
-				annualWage: 49920
+				industry: "Hospitals; state, local, and private",
+				annualWage: 50760
 			},
 			{
-				industry: "Hospitals (state, local, private)",
-				annualWage: 49310
+				industry: "Ambulatory healthcare services",
+				annualWage: 48860
 			},
 			{
 				industry: "General merchandise retailers",
-				annualWage: 46180
+				annualWage: 48150
 			},
 			{
 				industry: "Grocery and specialty food retailers",
-				annualWage: 38810
+				annualWage: 41430
 			},
 			{
 				industry: "Pharmacies and drug retailers",
-				annualWage: 37900
+				annualWage: 39240
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Pharmacy Technicians",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm",
-		publishedDate: "2026-04-24"
+		publishedDate: "2026-08-27"
 	},
 	"29-1171": {
 		socCode: "29-1171",
@@ -1814,37 +1841,37 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"31-9091": {
 		socCode: "31-9091",
 		title: "Dental Assistants",
-		medianAnnual: 47300,
-		medianHourly: 22.74,
+		medianAnnual: 48070,
+		medianHourly: 23.11,
 		percentiles: {
-			p10: 36190,
-			p90: 61780
+			p10: 37130,
+			p90: 62250
 		},
-		employment: 381900,
-		employmentYear: "2024",
-		jobOutlookPct: 6,
-		jobOutlookLabel: "Faster than average",
-		employmentChange: 24400,
-		projectionPeriod: "2024-34",
+		employment: 388600,
+		employmentYear: "2025",
+		jobOutlookPct: 7,
+		jobOutlookLabel: "Much faster than average",
+		employmentChange: 28800,
+		projectionPeriod: "2025-35",
 		entryEducation: "Postsecondary nondegree award",
 		industryWages: [
 			{
-				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 53660
+				industry: "Government, excluding state and local education and hospitals",
+				annualWage: 55270
 			},
 			{
 				industry: "Offices of dentists",
-				annualWage: 47250
+				annualWage: 48000
 			},
 			{
 				industry: "Offices of physicians",
-				annualWage: 46170
+				annualWage: 47310
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Dental Assistants",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/dental-assistants.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"31-9092": {
 		socCode: "31-9092",
@@ -2470,41 +2497,41 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"53-3032": {
 		socCode: "53-3032",
 		title: "Heavy and Tractor-trailer Truck Drivers",
-		medianAnnual: 57440,
-		medianHourly: 27.62,
+		medianAnnual: 58640,
 		percentiles: {
-			p10: 38640,
-			p90: 78800
+			p10: 40140,
+			p90: 79380
 		},
-		employment: 2235100,
-		employmentYear: "2024",
+		employment: 2221200,
+		employmentYear: "2025",
 		jobOutlookPct: 4,
 		jobOutlookLabel: "As fast as average",
-		employmentChange: 89300,
-		projectionPeriod: "2024-34",
+		employmentChange: 83800,
+		projectionPeriod: "2025-35",
 		entryEducation: "Postsecondary nondegree award",
 		industryWages: [
 			{
 				industry: "Truck transportation",
-				annualWage: 59570
+				annualWage: 60320
 			},
 			{
 				industry: "Wholesale trade",
-				annualWage: 57260
+				annualWage: 58550
 			},
 			{
 				industry: "Manufacturing",
-				annualWage: 54860
+				annualWage: 56570
 			},
 			{
 				industry: "Construction",
-				annualWage: 54170
+				annualWage: 56080
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers",
 		sourceUrl: "https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 28.19
 	},
 	"51-4121": {
 		socCode: "51-4121",
@@ -2587,162 +2614,166 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"49-9021": {
 		socCode: "49-9021",
 		title: "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
-		medianAnnual: 59810,
-		medianHourly: 28.75,
+		medianAnnual: 61010,
 		percentiles: {
-			p10: 39130,
-			p90: 91020
+			p10: 40050,
+			p90: 95210
 		},
-		employment: 425200,
-		employmentYear: "2024",
-		jobOutlookPct: 8,
+		employment: 440900,
+		employmentYear: "2025",
+		jobOutlookPct: 11,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 34500,
-		projectionPeriod: "2024-34",
+		employmentChange: 48200,
+		projectionPeriod: "2025-35",
 		entryEducation: "Postsecondary nondegree award",
 		industryWages: [
 			{
 				industry: "Wholesale trade",
-				annualWage: 65760
-			},
-			{
-				industry: "Educational services; state, local, and private",
-				annualWage: 60960
+				annualWage: 71190
 			},
 			{
 				industry: "Retail trade",
-				annualWage: 60730
+				annualWage: 62830
+			},
+			{
+				industry: "Educational services; state, local, and private",
+				annualWage: 62520
 			},
 			{
 				industry: "Plumbing, heating, and air-conditioning contractors",
-				annualWage: 58750
+				annualWage: 60030
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
 		sourceUrl: "https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 29.33
 	},
 	"25-4022": {
 		socCode: "25-4022",
 		title: "Librarians and Media Collections Specialists",
-		medianAnnual: 64320,
-		medianHourly: 30.92,
+		medianAnnual: 68270,
 		percentiles: {
-			p10: 38920,
-			p90: 100880
+			p10: 43660,
+			p90: 103990
 		},
-		employment: 142100,
-		employmentYear: "2024",
-		jobOutlookPct: 2,
-		jobOutlookLabel: "Slower than average",
-		employmentChange: 2400,
-		projectionPeriod: "2024-34",
+		employment: 142300,
+		employmentYear: "2025",
+		jobOutlookPct: 3,
+		jobOutlookLabel: "As fast as average",
+		employmentChange: 3600,
+		projectionPeriod: "2025-35",
 		entryEducation: "Master's degree",
 		industryWages: [
 			{
 				industry: "Elementary and secondary schools; local",
-				annualWage: 69880
+				annualWage: 74710
 			},
 			{
 				industry: "Colleges, universities, and professional schools; state",
-				annualWage: 68570
+				annualWage: 74490
 			},
 			{
 				industry: "Colleges, universities, and professional schools; private",
-				annualWage: 66260
+				annualWage: 73700
 			},
 			{
-				industry: "Local government (excl. education, hospitals)",
-				annualWage: 60510
+				industry: "Local government, excluding education and hospitals",
+				annualWage: 62860
 			},
 			{
 				industry: "Web search portals, libraries, archives, and other information services",
-				annualWage: 59810
+				annualWage: 60360
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Librarians and Library Media Specialists",
 		sourceUrl: "https://www.bls.gov/ooh/education-training-and-library/librarians.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 32.82
 	},
 	"19-3030": {
 		socCode: "19-3030",
 		title: "Psychologists",
-		medianAnnual: 94310,
-		medianHourly: 45.34,
+		medianAnnual: 99110,
 		percentiles: {
-			p10: 54860,
-			p90: 157330
+			p10: 59080,
+			p90: 163380
 		},
-		employment: 204300,
-		employmentYear: "2024",
+		employment: 209400,
+		employmentYear: "2025",
 		jobOutlookPct: 6,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 11800,
-		projectionPeriod: "2024-34",
+		employmentChange: 11600,
+		projectionPeriod: "2025-35",
 		entryEducation: "Master's or doctoral degree",
 		industryWages: [
 			{
-				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 126990
+				industry: "Government, excluding state and local education and hospitals",
+				annualWage: 130960
 			},
 			{
 				industry: "Ambulatory healthcare services",
-				annualWage: 96960
+				annualWage: 98590
 			},
 			{
 				industry: "Hospitals; state, local, and private",
-				annualWage: 96060
+				annualWage: 96850
 			},
 			{
 				industry: "Elementary and secondary schools; local",
-				annualWage: 85920
+				annualWage: 95230
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Psychologists",
 		sourceUrl: "https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 47.65
 	},
 	"21-1020": {
 		socCode: "21-1020",
 		title: "Social Workers",
-		medianAnnual: 61330,
-		medianHourly: 29.49,
+		medianAnnual: 61780,
 		percentiles: {
-			p10: 41580,
-			p90: 99500
+			p10: 42790,
+			p90: 100090
 		},
-		employment: 810900,
-		employmentYear: "2024",
+		employment: 816100,
+		employmentYear: "2025",
 		jobOutlookPct: 6,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 44700,
-		projectionPeriod: "2024-34",
+		employmentChange: 50400,
+		projectionPeriod: "2025-35",
 		entryEducation: "Bachelor's or master's degree",
 		industryWages: [
 			{
+				industry: "Hospitals; state, local, and private",
+				annualWage: 77440
+			},
+			{
 				industry: "Educational services; state, local, and private",
-				annualWage: 67620
+				annualWage: 68850
 			},
 			{
-				industry: "Local government (excl. education, hospitals)",
-				annualWage: 65920
+				industry: "State and local government, excluding education and hospitals",
+				annualWage: 65100
 			},
 			{
-				industry: "State government (excl. education, hospitals)",
-				annualWage: 59630
+				industry: "Ambulatory healthcare services",
+				annualWage: 63710
 			},
 			{
 				industry: "Individual and family services",
-				annualWage: 51430
+				annualWage: 51980
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Social Workers",
 		sourceUrl: "https://www.bls.gov/ooh/community-and-social-service/social-workers.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 29.7
 	},
 	"49-9051": {
 		socCode: "49-9051",
@@ -2790,41 +2821,41 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"13-2011": {
 		socCode: "13-2011",
 		title: "Accountants and Auditors",
-		medianAnnual: 81680,
-		medianHourly: 39.27,
+		medianAnnual: 83680,
 		percentiles: {
-			p10: 52780,
-			p90: 141420
+			p10: 56020,
+			p90: 144090
 		},
-		employment: 1579800,
-		employmentYear: "2024",
+		employment: 1595200,
+		employmentYear: "2025",
 		jobOutlookPct: 5,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 72800,
-		projectionPeriod: "2024-34",
+		employmentChange: 79400,
+		projectionPeriod: "2025-35",
 		entryEducation: "Bachelor's degree",
 		industryWages: [
 			{
 				industry: "Finance and insurance",
-				annualWage: 87980
+				annualWage: 93290
 			},
 			{
 				industry: "Management of companies and enterprises",
-				annualWage: 86010
+				annualWage: 91940
 			},
 			{
-				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 81120
+				industry: "Government, excluding state and local education and hospitals",
+				annualWage: 83350
 			},
 			{
 				industry: "Accounting, tax preparation, bookkeeping, and payroll services",
-				annualWage: 80510
+				annualWage: 81490
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Accountants and Auditors",
 		sourceUrl: "https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 40.23
 	},
 	"15-1252": {
 		socCode: "15-1252",
@@ -2871,37 +2902,37 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"27-3092": {
 		socCode: "27-3092",
 		title: "Court Reporters and Simultaneous Captioners",
-		medianAnnual: 67310,
-		medianHourly: 32.36,
+		medianAnnual: 72420,
 		percentiles: {
-			p10: 39100,
-			p90: 127020
+			p10: 42130,
+			p90: 130560
 		},
-		employment: 17700,
-		employmentYear: "2024",
+		employment: 19900,
+		employmentYear: "2025",
 		jobOutlookPct: 0,
 		jobOutlookLabel: "Little or no change",
 		employmentChange: 0,
-		projectionPeriod: "2024-34",
+		projectionPeriod: "2025-35",
 		entryEducation: "Postsecondary nondegree award",
 		industryWages: [
 			{
 				industry: "Local government, excluding education and hospitals",
-				annualWage: 75150
+				annualWage: 78430
 			},
 			{
 				industry: "State government, excluding education and hospitals",
-				annualWage: 74660
+				annualWage: 78300
 			},
 			{
 				industry: "Business support services",
-				annualWage: 51290
+				annualWage: 58760
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Court Reporters and Simultaneous Captioners",
 		sourceUrl: "https://www.bls.gov/ooh/legal/court-reporters.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 34.82
 	},
 	"49-9044": {
 		socCode: "49-9044",
@@ -2924,42 +2955,44 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-2043": {
 		socCode: "29-2043",
 		title: "Paramedics",
-		medianAnnual: 58410,
-		percentiles: {},
-		employment: 282900,
-		employmentYear: "2024",
-		jobOutlookPct: 5,
+		medianAnnual: 60600,
+		percentiles: {
+			p10: 44230,
+			p90: 84850
+		},
+		employment: 102200,
+		employmentYear: "2025",
+		jobOutlookPct: 6,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 14300,
-		projectionPeriod: "2024-34",
+		employmentChange: 5800,
+		projectionPeriod: "2025-35",
 		entryEducation: "Postsecondary nondegree award",
-		employmentIsGroupLevel: true,
 		industryWages: [
 			{
 				industry: "Local government, excluding education and hospitals",
-				annualWage: 59840
-			},
-			{
-				industry: "Offices of physicians",
-				annualWage: 59370
+				annualWage: 61980
 			},
 			{
 				industry: "General medical and surgical hospitals; private",
-				annualWage: 58780
+				annualWage: 61370
 			},
 			{
 				industry: "Ambulance services",
-				annualWage: 57720
+				annualWage: 60040
 			},
 			{
 				industry: "General medical and surgical hospitals; local",
-				annualWage: 52990
+				annualWage: 59260
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 55900
 			}
 		],
-		dataYear: "May 2024",
-		sourceLabel: "BLS Occupational Outlook Handbook: EMTs and Paramedics (SOC 29-2043 covers paramedics specifically, a distinct 6-digit code from EMTs' 29-2042 within the combined 29-2040 group; BLS's Pay tab breaks out a paramedic-specific median annual wage ($58,410) and a paramedic-specific top-5-industry wage table, both used here, but the Quick Facts employment count (282,900), job outlook (5%, 14,300 openings, 2024-34), and typical entry-level education (postsecondary nondegree award) are published only for the combined EMTs-and-Paramedics occupation group, not split out for paramedics alone -- those combined-group figures are still the best available and are used here with that caveat noted in the article prose. BLS does not publish 10th/90th percentile wages anywhere on this page, for EMTs, paramedics, or the combined group, so percentiles is left empty rather than populated with a different granularity)",
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: EMTs and Paramedics (paramedic-specific median and projection row; Quick Facts outlook openings and entry education remain combined-group figures)",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"29-2035": {
 		socCode: "29-2035",
@@ -3003,127 +3036,127 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"13-2053": {
 		socCode: "13-2053",
 		title: "Insurance Underwriters",
-		medianAnnual: 79880,
-		medianHourly: 38.4,
+		medianAnnual: 81370,
 		percentiles: {
-			p10: 51640,
-			p90: 138020
+			p10: 55530,
+			p90: 145160
 		},
-		employment: 127000,
-		employmentYear: "2024",
-		jobOutlookPct: -3,
+		employment: 125600,
+		employmentYear: "2025",
+		jobOutlookPct: -4,
 		jobOutlookLabel: "Decline",
-		employmentChange: -3300,
-		projectionPeriod: "2024-34",
+		employmentChange: -4800,
+		projectionPeriod: "2025-35",
 		entryEducation: "Bachelor's degree",
 		industryWages: [
 			{
+				industry: "Direct health and medical insurance carriers",
+				annualWage: 91290
+			},
+			{
 				industry: "Credit intermediation and related activities",
-				annualWage: 90000
+				annualWage: 86690
 			},
 			{
 				industry: "Other insurance related activities",
-				annualWage: 81870
-			},
-			{
-				industry: "Direct health and medical insurance carriers",
-				annualWage: 81240
-			},
-			{
-				industry: "Direct insurance (except life, health, and medical) carriers",
-				annualWage: 79350
+				annualWage: 81340
 			},
 			{
 				industry: "Insurance agencies and brokerages",
-				annualWage: 79200
+				annualWage: 80740
+			},
+			{
+				industry: "Direct insurance (except life, health, and medical) carriers",
+				annualWage: 80210
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Insurance Underwriters",
 		sourceUrl: "https://www.bls.gov/ooh/business-and-financial/insurance-underwriters.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 39.12
 	},
 	"43-3031": {
 		socCode: "43-3031",
 		title: "Bookkeeping, Accounting, and Auditing Clerks",
-		medianAnnual: 49210,
-		medianHourly: 23.66,
+		medianAnnual: 50670,
 		percentiles: {
-			p10: 34600,
-			p90: 72660
+			p10: 36000,
+			p90: 74550
 		},
-		employment: 1613400,
-		employmentYear: "2024",
+		employment: 1532400,
+		employmentYear: "2025",
 		jobOutlookPct: -6,
 		jobOutlookLabel: "Decline",
-		employmentChange: -94300,
-		projectionPeriod: "2024-34",
+		employmentChange: -85600,
+		projectionPeriod: "2025-35",
 		entryEducation: "Some college, no degree",
 		industryWages: [
 			{
 				industry: "Construction",
-				annualWage: 51670
+				annualWage: 54890
 			},
 			{
 				industry: "Professional, scientific, and technical services",
-				annualWage: 50180
-			},
-			{
-				industry: "Healthcare and social assistance",
-				annualWage: 48810
+				annualWage: 51880
 			},
 			{
 				industry: "Wholesale trade",
-				annualWage: 48810
+				annualWage: 50660
+			},
+			{
+				industry: "Healthcare and social assistance",
+				annualWage: 49860
 			},
 			{
 				industry: "Retail trade",
-				annualWage: 45030
+				annualWage: 45830
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks",
 		sourceUrl: "https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 24.36
 	},
 	"11-1011": {
 		socCode: "11-1011",
 		title: "Chief Executives",
-		medianAnnual: 206420,
-		medianHourly: 99.24,
+		medianAnnual: 213990,
 		percentiles: {
-			p10: 73710,
-			p90: 239200
+			p10: 75700,
+			p90: 507730
 		},
-		employment: 309400,
-		employmentYear: "2024",
-		jobOutlookPct: 4,
-		jobOutlookLabel: "As fast as average",
-		employmentChange: 13300,
-		projectionPeriod: "2024-34",
+		employment: 291600,
+		employmentYear: "2025",
+		jobOutlookPct: 3,
+		jobOutlookLabel: "Faster than average",
+		employmentChange: 9300,
+		projectionPeriod: "2025-35",
 		entryEducation: "Bachelor's degree",
 		industryWages: [
 			{
 				industry: "Management of companies and enterprises",
-				annualWage: 239200
+				annualWage: 358310
 			},
 			{
 				industry: "Professional, scientific, and technical services",
-				annualWage: 208870
+				annualWage: 237180
 			},
 			{
 				industry: "Healthcare and social assistance",
-				annualWage: 194360
+				annualWage: 197090
 			},
 			{
-				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 137310
+				industry: "Government, excluding state and local education and hospitals",
+				annualWage: 146700
 			}
 		],
-		dataYear: "May 2024",
-		sourceLabel: "BLS Occupational Outlook Handbook: Top Executives (covers Chief Executives and General and Operations Managers as one OOH page; this profile uses the Chief Executives-specific pay, employment, and job outlook figures the BLS Pay and Job Outlook tables break out separately from the blended Top Executives total)",
+		dataYear: "May 2025",
+		sourceLabel: "BLS Occupational Outlook Handbook: Top Executives (chief-executive-specific median, industry wage, and SOC projection row)",
 		sourceUrl: "https://www.bls.gov/ooh/management/top-executives.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27",
+		medianHourly: 102.88
 	},
 	"39-4031": {
 		socCode: "39-4031",

@@ -28,9 +28,9 @@
 
 		<rect x="30" y="398" width="580" height="46" rx="6" fill="#14273f"/>
 		<text x="320" y="418" text-anchor="middle" font-weight="700" fill="white">Working court reporter or simultaneous captioner</text>
-		<text x="320" y="435" text-anchor="middle" font-size="11.5" fill="#dcdad2">Median $67,310/yr (BLS, May 2024)</text>
+		<text x="320" y="435" text-anchor="middle" font-size="11.5" fill="#dcdad2">Median $72,420/yr (BLS, May 2025)</text>
 	</g>
 
 	<text x="320" y="460" text-anchor="middle" font-size="11.5" fill="#14212e" font-weight="700">Job outlook is flat: BLS projects 0% employment change through 2034, but ~1,700 openings a year from replacement need.</text>
-	<text x="320" y="478" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Source: BLS Occupational Outlook Handbook, Court Reporters and Simultaneous Captioners (May 2024 data).</text>
+	<text x="320" y="478" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Source: BLS Occupational Outlook Handbook, Court Reporters and Simultaneous Captioners (May 2025 data).</text>
 </svg>

@@ -3,15 +3,15 @@
 	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Diagnostic Medical Sonographers: Annual Wage by Percentile</text>
 	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
 	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="56" width="199.7954047251766" height="34" fill="#0f8b7f" />
-	<text x="359.7954047251766" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$64,760</text>
+	<rect x="150" y="56" width="199.20847182499807" height="34" fill="#0f8b7f" />
+	<text x="359.20847182499807" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$67,820</text>
 	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
 	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="116" width="275.6288057156775" height="34" fill="#0f8b7f" />
-	<text x="435.6288057156775" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$89,340</text>
+	<rect x="150" y="116" width="283.71492618072193" height="34" fill="#0f8b7f" />
+	<text x="443.71492618072193" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$96,590</text>
 	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
 	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
-	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$123,170</text>
-	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national)</text>
+	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$129,370</text>
+	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national)</text>
 </svg>

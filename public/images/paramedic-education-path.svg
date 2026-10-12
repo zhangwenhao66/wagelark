@@ -26,10 +26,10 @@
 
 		<rect x="30" y="390" width="580" height="46" rx="6" fill="#14273f"/>
 		<text x="320" y="410" text-anchor="middle" font-weight="700" fill="white">Working paramedic</text>
-		<text x="320" y="427" text-anchor="middle" font-size="11.5" fill="#dcdad2">Median $58,410/yr (BLS, May 2024)</text>
+		<text x="320" y="427" text-anchor="middle" font-size="11.5" fill="#dcdad2">Median $60,600/yr (BLS, May 2025)</text>
 	</g>
 
 	<text x="320" y="460" text-anchor="middle" font-size="11.5" fill="#14212e" font-weight="700">Each level requires the one before it: paramedic programs require EMT-Intermediate certification first.</text>
 	<text x="320" y="480" text-anchor="middle" font-size="11" fill="#14212e">With additional education, BLS notes some paramedics move into other healthcare roles via paramedic-to-RN bridge programs.</text>
-	<text x="320" y="504" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Source: BLS Occupational Outlook Handbook, EMTs and Paramedics (May 2024 data).</text>
+	<text x="320" y="504" text-anchor="middle" font-size="11" fill="#14212e" opacity="0.55">Source: BLS Occupational Outlook Handbook, EMTs and Paramedics (May 2025 data).</text>
 </svg>

@@ -29,7 +29,7 @@
 		<circle cx="590" cy="115" r="9" fill="#14273f"/>
 		<text x="590" y="150" text-anchor="middle" font-weight="700" fill="#14273f">Working</text>
 		<text x="590" y="167" text-anchor="middle" font-size="11.5">Sonographer</text>
-		<text x="590" y="182" text-anchor="middle" font-size="11.5">Median $89,340/yr</text>
+		<text x="590" y="182" text-anchor="middle" font-size="11.5">Median $96,590/yr</text>
 	</g>
 
 	<text x="330" y="220" text-anchor="middle" font-size="12" fill="#14212e" opacity="0.55">Source: BLS Occupational Outlook Handbook, May 2024 wage data.</text>

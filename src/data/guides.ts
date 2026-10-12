@@ -233,46 +233,46 @@ export const guides: Guide[] = [
 		slug: 'actuary-salary',
 		category: 'Salary Guide',
 		title: 'Actuary Salary: $125,770 Median, Top Earners $206,430 (2026)',
-		description: 'The median actuary salary is $125,770 a year per BLS. Top earners clear $206,430. Here is the full wage breakdown, by industry, and the certification path.',
+		description: 'The median actuary salary is $130,000 a year per BLS. Top earners clear $215,100. Here is the full wage breakdown, by industry, and the certification path.',
 		published: '2026-08-03',
-		updated: '2026-09-26',
+		updated: '2026-10-12',
 		socCode: '15-2011',
-		coreSummary: 'The median annual wage for actuaries was $125,770 in May 2024, per the U.S. Bureau of Labor Statistics. The spread is unusually wide for a single occupation: the bottom 10% earned less than $75,240 while the top 10% earned more than $206,430, a difference between wage boundaries that does not isolate the effects of certification, experience, employer or location.',
+		coreSummary: 'The median annual wage for actuaries was $130,000 in May 2025, per the U.S. Bureau of Labor Statistics. The spread is unusually wide for a single occupation: the bottom 10% earned less than $78,570 while the top 10% earned more than $215,100, a difference between wage boundaries that does not isolate the effects of certification, experience, employer or location.',
 		sections: [
 			{
 				heading: 'Wage range and the certification path',
 				body: [
-					'BLS data for May 2024 shows a median annual actuary salary of $125,770, or $60.47 an hour. What stands out in this occupation more than most is the size of the gap between the 10th and 90th percentile: $75,240 at the low end versus $206,430 at the high end, a difference of more than $131,000. That is a wider percentile spread than most professional occupations BLS tracks.',
+					'BLS data for May 2025 shows a median annual actuary salary of $130,000, or $62.50 an hour. What stands out in this occupation more than most is the size of the gap between the 10th and 90th percentile: $78,570 at the low end versus $215,100 at the high end, a difference of more than $136,000. That is a wider percentile spread than most professional occupations BLS tracks.',
 					'Actuaries advance through SOA or CAS examinations, progressing toward Associate (ASA/ACAS) and Fellow (FSA/FCAS) credentials. BLS says associate-level certification can take up to seven years, with several more years for fellowship. Employers may award raises or bonuses when employees pass exams. That describes one pay practice; it does not establish exams as the main cause of the national percentile spread or rank their effect against tenure, geography or employer.',
 				],
 			},
 			{
 				heading: 'Pay by industry',
 				body: [
-					'BLS breaks out May 2024 actuary wages by industry: management of companies and enterprises paid the highest median at $133,030, followed by finance and insurance, the industry most people associate with actuarial work, at $126,830. Government employers (excluding state and local education) paid a median of $118,910, and professional, scientific, and technical services paid $111,640.',
+					'BLS breaks out May 2025 actuary wages by industry: finance and insurance paid the highest median at $131,450, followed by management of companies and enterprises, at $129,810. Government employers (excluding state and local education) paid a median of $129,650, and professional, scientific, and technical services paid $124,130.',
 					'This breakdown lists wage medians. Employment shares are a separate measure and need the same reference year before being compared with these pay figures. What this wage breakdown does show clearly is that the highest-paying category, management of companies and enterprises, is not the same as "finance and insurance," the industry most people associate with actuarial work by default.',
 				],
 			},
 			{
 				heading: 'Employment outlook and another licensed profession',
 				body: [
-					'BLS projects 22% employment growth for actuaries from 2024 to 2034, classified as much faster than average, adding roughly 7,300 jobs over the decade. That is one of the stronger growth projections among BLS-tracked professional occupations, driven in large part by insurers\' and financial firms\' growing use of predictive analytics and enterprise risk management, areas where actuarial training applies directly.',
-					'The 22% forecast above describes employment in the 2024–2034 projection, not future wages. Actuarial certification and architectural licensure follow different rules. Architects commonly combine education, supervised professional experience and licensing examinations; exam eligibility and the timing of experience depend on the jurisdiction. The [architect pay guide](/do-architects-make-good-money/) covers that occupation\'s BLS figures.',
+					'BLS projects 22% employment growth for actuaries from 2025 to 2035, classified as much faster than average, adding roughly 7,300 jobs over the decade. That is one of the stronger growth projections among BLS-tracked professional occupations, driven in large part by insurers\' and financial firms\' growing use of predictive analytics and enterprise risk management, areas where actuarial training applies directly.',
+					'The 22% forecast above describes employment in the 2025–2035 projection, not future wages. Actuarial certification and architectural licensure follow different rules. Architects commonly combine education, supervised professional experience and licensing examinations; exam eligibility and the timing of experience depend on the jurisdiction. The [architect pay guide](/do-architects-make-good-money/) covers that occupation\'s BLS figures.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What is the median actuary salary?',
-				answer: 'BLS\'s May 2024 data shows actuaries earning $125,770 a year at the midpoint, equivalent to $60.47 an hour.',
+				answer: 'BLS\'s May 2025 data shows actuaries earning $130,000 a year at the midpoint, equivalent to $62.50 an hour.',
 			},
 			{
 				question: 'Why is the pay range for actuaries so wide?',
-				answer: "The May 2024 wage boundaries were below $75,240 for the lowest-paid tenth and above $206,430 for the highest-paid tenth. BLS does not divide that difference by exam status. Passing professional examinations can bring an employer raise or bonus, but these aggregate figures cannot show how much of the spread comes from exams rather than other factors.",
+				answer: "The May 2025 wage boundaries were below $78,570 for the lowest-paid tenth and above $215,100 for the highest-paid tenth. BLS does not divide that difference by exam status. Passing professional examinations can bring an employer raise or bonus, but these aggregate figures cannot show how much of the spread comes from exams rather than other factors.",
 			},
 			{
 				question: 'What industry pays actuaries the most?',
-				answer: 'Corporate-management employers led all industries BLS tracks for May 2024, at a $133,030 median actuary wage, ahead of the financial-services and insurance sector ($126,830), government ($118,910), and professional/scientific/technical services ($111,640). See the pay-by-industry breakdown above for BLS\'s full industry label.',
+				answer: 'Corporate-management employers led all industries BLS tracks for May 2025, at a $131,450 median actuary wage, ahead of the financial-services and insurance sector ($129,810), government ($129,650), and professional/scientific/technical services ($124,130). See the pay-by-industry breakdown above for BLS\'s full industry label.',
 			},
 			{
 				question: 'Is actuarial science a growing field?',
@@ -280,7 +280,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Who earns more, a CPA or an actuary?',
-				answer: 'BLS reports a higher median for actuaries: $125,770 for May 2024, versus $81,680 for the broader "accountants and auditors" category BLS tracks, the closest comparison available since BLS does not publish separate wage data for CPAs specifically; that category includes accountants who are not CPAs alongside those who are. The gap widens further out on the pay scale: actuaries\' top decile cleared $206,430, well above the $141,420 top-decile figure for accountants and auditors.',
+				answer: 'BLS reports a higher median for actuaries: $130,000 for May 2025, versus $81,680 for the broader "accountants and auditors" category BLS tracks, the closest comparison available since BLS does not publish separate wage data for CPAs specifically; that category includes accountants who are not CPAs alongside those who are. The gap widens further out on the pay scale: actuaries\' top decile cleared $215,100, well above the $141,420 top-decile figure for accountants and auditors.',
 			},
 			{
 				question: 'Is actuary a hard job to get?',
@@ -292,10 +292,10 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Actuaries (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/math/actuaries.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Actuaries (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/math/actuaries.htm' },
 		],
 		image: '/images/actuary-salary-chart.svg',
-		imageAlt: 'Bar chart showing actuary annual wage by percentile: 10th percentile $75,240, median $125,770, 90th percentile $206,430, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing actuary annual wage by percentile: 10th percentile $78,570, median $130,000, 90th percentile $215,100, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'pharmacist-salary',
@@ -325,7 +325,7 @@ export const guides: Guide[] = [
 				heading: 'How long it takes to become a licensed pharmacist',
 				body: [
 					'BLS lists at least two years of prerequisite undergraduate coursework (subjects such as anatomy and physiology, physics, and statistics) as the typical entry point for a Pharm.D. program, though many applicants complete a full four-year bachelor\'s degree before applying, since some schools prefer or require one. The Pharm.D. usually takes four years, although BLS also describes three-year options. Adding prerequisite study gives a common six-to-eight-year route; accelerated and combined programs can have different schedules. The American Association of Colleges of Pharmacy confirms this same structure and notes that a smaller number of programs admit students directly out of high school into six-year combined tracks that fold the prerequisite years and the professional years into one continuous sequence.',
-					'Graduating does not mean practicing yet. All states require a license, with requirements varying by jurisdiction. BLS says applicants typically take two exams and complete a state-specified number of intern hours. It provides no national completion time for those licensing steps. Pharmacists aiming for a clinical or hospital specialty often add a one- to two-year residency after the Pharm.D., though it is not required to practice in most general pharmacy roles. Outside any clinical licensing track, this site\'s [truck driver salary guide](/truck-driver-salary/) reports a considerably lower $57,440 median for heavy and tractor-trailer drivers in May 2024, with 4% projected growth through 2034.',
+					'Graduating does not mean practicing yet. All states require a license, with requirements varying by jurisdiction. BLS says applicants typically take two exams and complete a state-specified number of intern hours. It provides no national completion time for those licensing steps. Pharmacists aiming for a clinical or hospital specialty often add a one- to two-year residency after the Pharm.D., though it is not required to practice in most general pharmacy roles. Outside any clinical licensing track, this site\'s [truck driver salary guide](/truck-driver-salary/) reports a considerably lower $58,640 median for heavy and tractor-trailer drivers in May 2025, with 4% projected growth through 2035.',
 				],
 			},
 			{
@@ -358,7 +358,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Do pharmacists make a lot of money?',
-				answer: "Relative to the broader labor market, yes. Per BLS, pharmacist pay sat at $140,910 for May 2025 versus a $49,500 median across all U.S. occupations the prior year (the most recent economy-wide figure verified for this page), or roughly 2.8 times what a typical worker earned. That's a national-median comparison, not a prediction of what any individual pharmacist takes home after setting, region, or hours are factored in.",
+				answer: "Relative to the broader labor market, yes. Per BLS, pharmacist pay sat at $140,910 for May 2025 versus a $50,980 median across all U.S. occupations in May 2025 (the most recent economy-wide figure verified for this page), or roughly 2.8 times what a typical worker earned. That's a national-median comparison, not a prediction of what any individual pharmacist takes home after setting, region, or hours are factored in.",
 			},
 			{
 				question: 'Is a pharmacist basically a doctor?',
@@ -520,9 +520,9 @@ export const guides: Guide[] = [
 		title: 'What Does an Actuary Do? Duties, Specialties, and Pay',
 		description: 'Actuaries use math and statistics to price risk for insurers, pension funds, and corporations. Here is what the job actually involves, plus BLS pay data.',
 		published: '2026-08-03',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '15-2011',
-		coreSummary: 'Actuaries use mathematics, statistics, and financial theory to estimate the probability and economic cost of future events (death, illness, accidents, natural disasters) and design insurance policies, pension plans, and risk strategies around those estimates. The role requires passing a multi-year series of professional exams; BLS reports a median annual salary of $125,770 in May 2024.',
+		coreSummary: 'Actuaries use mathematics, statistics, and financial theory to estimate the probability and economic cost of future events (death, illness, accidents, natural disasters) and design insurance policies, pension plans, and risk strategies around those estimates. The role requires passing a multi-year series of professional exams; BLS reports a median annual salary of $130,000 in May 2025.',
 		sections: [
 			{
 				heading: 'What the work actually looks like',
@@ -557,7 +557,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do actuaries make?',
-				answer: 'For the May 2024 survey, the national median was $125,770 a year. Earnings were below $75,240 for the lowest-paid tenth and above $206,430 for the highest-paid tenth. Credentials affect pay, and these cutoffs describe the wage distribution.',
+				answer: 'For the May 2025 survey, the national median was $130,000 a year. Earnings were below $78,570 for the lowest-paid tenth and above $215,100 for the highest-paid tenth. Credentials affect pay, and these cutoffs describe the wage distribution.',
 			},
 			{
 				question: 'What are the main actuarial specialties?',
@@ -565,19 +565,19 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is actuary a high-paying career?',
-				answer: 'Yes by the national comparison: the May 2024 occupation midpoint, $125,770, was about 2.5 times the $49,500 figure for U.S. jobs overall. The lowest-paid tenth was below $75,240 and the highest-paid tenth above $206,430. Credentials earned over several years help explain variation; neither one employer nor one industry explains all of it.',
+				answer: 'Yes by the national comparison: the May 2025 occupation midpoint, $130,000, was about 2.5 times the $50,980 figure for U.S. jobs overall. The lowest-paid tenth was below $78,570 and the highest-paid tenth above $215,100. Credentials earned over several years help explain variation; neither one employer nor one industry explains all of it.',
 			},
 			{
 				question: 'Can actuaries earn $500,000?',
-				answer: "The published percentiles do not answer whether an individual earns $500,000. In the May 2024 data used here, $206,430 was the boundary above which the highest-paid tenth earned, not an upper limit. The survey is a national wage measure, not a separate account of chief-actuary or insurance-executive compensation, and does not establish their bonuses or equity.",
+				answer: "The published percentiles do not answer whether an individual earns $500,000. In the May 2025 data used here, $215,100 was the boundary above which the highest-paid tenth earned, not an upper limit. The survey is a national wage measure, not a separate account of chief-actuary or insurance-executive compensation, and does not establish their bonuses or equity.",
 			},
 			{
 				question: 'Who earns more, CPA or actuary?',
-				answer: 'The May 2024 national medians favor actuaries: $125,770 against $81,680 for accountants together with auditors. That second category includes CPAs but does not isolate them. At the upper-decile boundary the figures were $206,430 and $141,420 respectively; workers in the highest-paid tenth earned above those amounts.',
+				answer: 'The May 2025 national medians favor actuaries: $130,000 against $81,680 for accountants together with auditors. That second category includes CPAs but does not isolate them. At the upper-decile boundary the figures were $215,100 and $141,420 respectively; workers in the highest-paid tenth earned above those amounts.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Actuaries (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/math/actuaries.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Actuaries (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/math/actuaries.htm' },
 		],
 		image: '/images/actuary-specialties.svg',
 		imageAlt: 'Diagram showing the five actuarial specialty tracks: health, life, property and casualty, pension and retirement benefits, and enterprise risk management.',
@@ -588,9 +588,9 @@ export const guides: Guide[] = [
 		title: 'What Does a Paralegal Do? Duties, Setting, and Pay',
 		description: 'Paralegals research law, draft documents, and organize case files to support lawyers without being licensed to practice law. Includes BLS pay and outlook data.',
 		published: '2026-08-03',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '23-2011',
-		coreSummary: 'Paralegals and legal assistants support lawyers by researching law, drafting documents and correspondence, organizing and maintaining case files, and preparing materials for trials and hearings, without being licensed to practice law themselves. BLS reports a median annual salary of $61,010 in May 2024, with pay varying substantially by employer type; federal government roles paid the most among tracked industries.',
+		coreSummary: 'Paralegals and legal assistants support lawyers by researching law, drafting documents and correspondence, organizing and maintaining case files, and preparing materials for trials and hearings, without being licensed to practice law themselves. BLS reports a median annual salary of $62,890 in May 2025, with pay varying substantially by employer type; federal government roles paid the most among tracked industries.',
 		sections: [
 			{
 				heading: 'What the role actually covers',
@@ -602,7 +602,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Where the pay actually is',
 				body: [
-					'BLS industry data for May 2024 shows a wider-than-expected gap by employer type. Federal government roles paid the highest median at $77,940, followed by finance and insurance at $76,960, both well above the $61,010 national median. Local government paid $60,990, close to the median. Legal services (meaning law firms themselves, the setting most people picture) paid $59,800, and state government paid the least of the tracked categories at $56,280.',
+					'BLS industry data for May 2025 shows a wider-than-expected gap by employer type. Federal government roles paid the highest median at $81,470, followed by finance and insurance at $80,120, both well above the $62,890 national median. Local government paid $63,370, close to the median. Legal services (meaning law firms themselves, the setting most people picture) paid $61,770, and state government paid the least of the tracked categories at $59,320.',
 					'The pattern suggests that paralegals working inside a company\'s in-house legal or compliance function (finance and insurance) or for a federal agency often out-earn paralegals working at a traditional law firm. BLS does not break down why the gap exists by industry, so the figures above are the most specific picture available.',
 				],
 			},
@@ -610,7 +610,7 @@ export const guides: Guide[] = [
 				heading: 'Education path and job outlook',
 				body: [
 					'Most paralegal positions require an associate degree in paralegal studies, or a bachelor\'s degree in another field combined with a paralegal certificate program. Separately, BLS notes that employers will also train candidates on the job with little formal paralegal preparation, whether that means a bachelor\'s-degree hire without legal-specific coursework or a candidate with only a high school diploma, particularly for specialized practice areas; a paralegal certificate is increasingly treated as close to a baseline expectation regardless of which path a candidate starts from.',
-					'BLS projects essentially flat employment for paralegals from 2024 to 2034: 0% growth, described as "little or no change," adding only about 600 net jobs over the decade. Flat growth is not the same as few job openings, though: BLS separately projects about 39,300 paralegal openings a year on average over the decade, with most coming from the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than from newly created positions. Even accounting for that, this is a noticeably weaker net-growth outlook than most other occupations covered on this site, worth weighing against the relatively low barrier to entry: demand growth in this field is not expected to be a strong tailwind over the next decade the way it is in several healthcare roles. The rest of WageLark\'s [Career Guide hub](/career-guides/) covers what a controller and a bookkeeper actually do, among other roles.',
+					'BLS projects essentially flat employment for paralegals from 2025 to 2035: 0% growth, described as "little or no change," adding only about 1,100 net jobs over the decade. Flat growth is not the same as few job openings, though: BLS separately projects about 39,300 paralegal openings a year on average over the decade, with most coming from the need to replace workers who transfer to other occupations or leave the labor force, such as to retire, rather than from newly created positions. Even accounting for that, this is a noticeably weaker net-growth outlook than most other occupations covered on this site, worth weighing against the relatively low barrier to entry: demand growth in this field is not expected to be a strong tailwind over the next decade the way it is in several healthcare roles. The rest of WageLark\'s [Career Guide hub](/career-guides/) covers what a controller and a bookkeeper actually do, among other roles.',
 				],
 			},
 		],
@@ -621,11 +621,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do paralegals make?',
-				answer: 'In May 2024 the occupation\'s yearly median was $61,010, according to BLS. Among the industries listed, the federal sector had the largest median ($77,940), and state employers had the smallest ($56,280).',
+				answer: 'In May 2025 the occupation\'s yearly median was $62,890, according to BLS. Among the industries listed, the federal sector had the largest median ($81,470), and state employers had the smallest ($59,320).',
 			},
 			{
 				question: 'Is paralegal a growing career?',
-				answer: 'The 2024-to-2034 BLS forecast is 0% growth, or roughly 600 extra jobs nationally. That is a weak expansion forecast compared with many careers, but it still includes about 39,300 annual vacancies on average. Most are replacement openings when existing workers depart, not additions to the workforce.',
+				answer: 'The 2025-to-2035 BLS forecast is 0% growth, or roughly 600 extra jobs nationally. That is a weak expansion forecast compared with many careers, but it still includes about 39,300 annual vacancies on average. Most are replacement openings when existing workers depart, not additions to the workforce.',
 			},
 			{
 				question: 'What education do you need to become a paralegal?',
@@ -633,11 +633,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is paralegal a high-paying job?',
-				answer: 'The national median was moderately above the overall U.S. figure: $61,010 versus $49,500 in May 2024, about 23% higher. Employer type makes a substantial difference. These occupation-wide midpoints do not predict any one person\'s paycheck.',
+				answer: 'The national median was moderately above the overall U.S. figure: $62,890 versus $50,980 in May 2025, about 23% higher. Employer type makes a substantial difference. These occupation-wide midpoints do not predict any one person\'s paycheck.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm' },
 		],
 		image: '/images/paralegal-duties.svg',
 		imageAlt: 'Diagram showing core paralegal duties: legal research, drafting documents, organizing case files, and trial preparation support.',
@@ -648,9 +648,9 @@ export const guides: Guide[] = [
 		title: 'How to Become an Ultrasound Tech: Education, Certification, Pay',
 		description: 'Becoming a diagnostic medical sonographer typically takes an associate degree plus certification. Here is the real path, timeline, and BLS pay data.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-10-12',
 		socCode: '29-2032',
-		coreSummary: 'Diagnostic medical sonographers ("ultrasound techs") typically need at least an associate degree or postsecondary certificate from an accredited program, plus professional certification most employers expect even where not legally required. BLS reports a median annual salary of $89,340 in May 2024 and projects 13% employment growth through 2034.',
+		coreSummary: 'Diagnostic medical sonographers ("ultrasound techs") typically need at least an associate degree or postsecondary certificate from an accredited program, plus professional certification most employers expect even where not legally required. BLS reports a median annual salary of $96,590 in May 2025 and projects 12% employment growth through 2035.',
 		sections: [
 			{
 				heading: 'The typical education path',
@@ -669,8 +669,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the job pays once you get there',
 				body: [
-					'According to BLS, the median annual salary for diagnostic medical sonographers was $89,340 in May 2024 ($42.95 an hour). Pay varies by setting: outpatient care centers paid the highest industry median tracked, at $123,610, notably higher than hospitals ($90,070), physician offices ($89,450), or medical and diagnostic laboratories ($83,200). That gap is worth factoring into a job search once certified, since it is large enough to be a meaningful factor beyond just location.',
-					'BLS projects 13% employment growth for the occupation from 2024 to 2034, classified as much faster than average, adding an estimated 11,700 jobs over the decade, a relatively strong outlook among the healthcare occupations covered on this site, especially given the comparatively short (roughly two-year) training timeline relative to the pay level.',
+					'According to BLS, the median annual salary for diagnostic medical sonographers was $96,590 in May 2025 ($46.44 an hour). Pay varies by setting: outpatient care centers paid the highest industry median tracked, at $127,940, notably higher than hospitals ($97,390), physician offices ($95,220), or medical and diagnostic laboratories ($87,580). That gap is worth factoring into a job search once certified, since it is large enough to be a meaningful factor beyond just location.',
+					'BLS projects 12% employment growth for the occupation from 2025 to 2035, classified as much faster than average, adding an estimated 12,900 jobs over the decade, a relatively strong outlook among the healthcare occupations covered on this site, especially given the comparatively short (roughly two-year) training timeline relative to the pay level.',
 				],
 			},
 		],
@@ -685,15 +685,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do ultrasound techs make?',
-				answer: 'The May 2024 median was $89,340 a year for this occupation, according to BLS. The top of the industry list belonged to outpatient clinics, at a $123,610 median.',
+				answer: 'The May 2025 median was $96,590 a year for this occupation, according to BLS. The top of the industry list belonged to outpatient clinics, at a $127,940 median.',
 			},
 			{
 				question: 'Is ultrasound tech a good career to get into?',
-				answer: 'Growth of 13% is projected across 2024 to 2034, well above the national average, for a role that typically requires about two years of postsecondary training rather than a four-year degree. Whether it is the right choice depends on individual circumstances such as location, tolerance for direct patient care, and interest in the clinical subject matter; BLS data describes the aggregate labor market, not a recommendation for any specific person.',
+				answer: 'Growth of 12% is projected across 2025 to 2035, well above the national average, for a role that typically requires about two years of postsecondary training rather than a four-year degree. Whether it is the right choice depends on individual circumstances such as location, tolerance for direct patient care, and interest in the clinical subject matter; BLS data describes the aggregate labor market, not a recommendation for any specific person.',
 			},
 			{
 				question: 'What pays more, RN or ultrasound tech?',
-				answer: 'Registered nurses came out ahead: a $97,550 median as of May 2025, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, versus $89,340 for the sonographer category that covers ultrasound techs in May 2024. The two figures come from different BLS survey years, though RNs and sonographers sit on separate BLS Handbook pages with different typical entry-level education requirements.',
+				answer: 'Registered nurses came out ahead: a $97,550 median as of May 2025, per this site\'s [how long is nursing school](/how-long-is-nursing-school/) guide, versus $96,590 for the sonographer category that covers ultrasound techs in May 2025. The two figures come from different BLS survey years, though RNs and sonographers sit on separate BLS Handbook pages with different typical entry-level education requirements.',
 			},
 			{
 				question: 'Is becoming an ultrasound technician hard?',
@@ -701,7 +701,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
 		],
 		image: '/images/ultrasound-tech-path.svg',
 		imageAlt: 'Timeline diagram showing the path to becoming a diagnostic medical sonographer: associate degree or certificate program, clinical training, ARDMS certification.',
@@ -712,9 +712,9 @@ export const guides: Guide[] = [
 		title: 'How to Become a Phlebotomist: Training, Certification, Pay',
 		description: 'Becoming a phlebotomist usually takes under a year of training. Here is the real path (formal program vs. on-the-job route) plus BLS pay data.',
 		published: '2026-08-03',
-		updated: '2026-08-03',
+		updated: '2026-10-12',
 		socCode: '31-9097',
-		coreSummary: 'Phlebotomists typically enter the field through a postsecondary certificate program lasting less than a year, or through employer-provided on-the-job training after a high school diploma. BLS reports a median annual salary of $43,660 in May 2024 and projects 6% employment growth through 2034, with the training route and state requirements determining an individual candidate\'s schedule.',
+		coreSummary: 'Phlebotomists typically enter the field through a postsecondary certificate program lasting less than a year, or through employer-provided on-the-job training after a high school diploma. BLS reports a median annual salary of $45,230 in May 2025 and projects 7% employment growth through 2035, with the training route and state requirements determining an individual candidate\'s schedule.',
 		sections: [
 			{
 				heading: 'Two real paths in, not one',
@@ -732,8 +732,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'Pay and outlook once you are in',
 				body: [
-					'According to BLS, the median annual phlebotomist salary was $43,660 in May 2024 ($20.99 an hour), one of the lower-paying roles covered on this site, without measuring the time or expense of entering it. Pay varies by setting: outpatient care centers paid the highest industry median tracked, at $48,450, ahead of medical and diagnostic laboratories ($45,700), hospitals ($41,490), physician offices ($40,480), and other ambulatory healthcare services ($39,180).',
-					'BLS projects 6% employment growth from 2024 to 2034, classified as faster than average, adding roughly 7,900 jobs over the decade. Phlebotomy provides direct patient-contact work. Further study in medical assisting, nursing or diagnostic imaging follows each program\'s own admission rules; the cited BLS profile does not establish lower training costs or an admissions advantage from previous phlebotomy experience.',
+					'According to BLS, the median annual phlebotomist salary was $45,230 in May 2025 ($21.75 an hour), one of the lower-paying roles covered on this site, without measuring the time or expense of entering it. Pay varies by setting: outpatient care centers paid the highest industry median tracked, at $48,030, ahead of medical and diagnostic laboratories ($46,670), physician offices ($44,500), hospitals ($44,220), and all other ambulatory healthcare services ($39,930).',
+					'BLS projects 6% employment growth from 2025 to 2035, classified as faster than average, adding roughly 7,900 jobs over the decade. Phlebotomy provides direct patient-contact work. Further study in medical assisting, nursing or diagnostic imaging follows each program\'s own admission rules; the cited BLS profile does not establish lower training costs or an admissions advantage from previous phlebotomy experience.',
 				],
 			},
 		],
@@ -748,15 +748,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do phlebotomists make?',
-				answer: 'The May 2024 median for phlebotomists is $43,660 a year ($20.99 per hour) per BLS, and the top-paying industry is outpatient care, at a $48,450 median.',
+				answer: 'The May 2025 median for phlebotomists is $45,230 a year ($21.75 per hour) per BLS, and the top-paying industry is outpatient care, at a $48,030 median.',
 			},
 			{
 				question: 'Is phlebotomy a good first job in healthcare?',
-				answer: 'A certificate course usually lasts less than twelve months; some employers instead teach high-school graduates on the job. That can provide experience working with patients. Costs, admission credit for that experience and suitability for a further healthcare course depend on the specific institution. Projected growth for the role itself is 6% through 2034, per BLS, but BLS data describes the aggregate labor market, not a recommendation for any specific person.',
+				answer: 'A certificate course usually lasts less than twelve months; some employers instead teach high-school graduates on the job. That can provide experience working with patients. Costs, admission credit for that experience and suitability for a further healthcare course depend on the specific institution. Projected growth for the role itself is 7% through 2035, per BLS, but BLS data describes the aggregate labor market, not a recommendation for any specific person.',
 			},
 			{
 				question: "Do phlebotomists make a lot of money?",
-				answer: "Not by national standards. BLS reported a median of $43,660 a year in May 2024, below the $49,500 median for all occupations that year. The best-paying industry on the BLS list is outpatient care, at $48,450, which is still under that all-occupation median.",
+				answer: "Not by national standards. BLS reported a median of $45,230 a year in May 2025, below the $50,980 median for all occupations that year. The best-paying industry on the BLS list is outpatient care, at $48,030, which is still under that all-occupation median.",
 			},
 			{
 				question: "Is it hard being a phlebotomist?",
@@ -764,7 +764,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Phlebotomists (accessed 2026-08-03, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/phlebotomists.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Phlebotomists (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/phlebotomists.htm' },
 		],
 		image: '/images/phlebotomist-path.svg',
 		imageAlt: 'Diagram comparing two paths to becoming a phlebotomist: formal certificate program vs. high school diploma plus on-the-job training, with certification or licensure requirements depending on the employer and state.',
@@ -842,24 +842,24 @@ export const guides: Guide[] = [
 		slug: 'radiology-tech-salary',
 		category: 'Salary Guide',
 		title: 'Radiology Tech Salary: $77,660 Median & Full Range (2026 BLS)',
-		description: 'BLS puts the median radiology tech salary at $77,660 a year. See the full wage range by percentile, by industry, and how the role differs from MRI techs.',
+		description: 'BLS puts the median radiology tech salary at $80,110 a year. See the full wage range by percentile, by industry, and how the role differs from MRI techs.',
 		published: '2026-08-04',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '29-2034',
-		coreSummary: 'The median annual wage for radiologic technologists and technicians was $77,660 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $52,360 while the top 10% earned more than $106,990, and the highest-paying employer category was the federal government, at a median of $93,970.',
+		coreSummary: 'The median annual wage for radiologic technologists and technicians was $80,110 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $55,980 while the top 10% earned more than $118,660, and the highest-paying employer category was the federal government, at a median of $97,490.',
 		sections: [
 			{
 				heading: 'What "radiology tech" actually means, and what the role pays',
 				body: [
 					'The Bureau of Labor Statistics tracks this job under the title "Radiologic Technologists and Technicians," SOC code 29-2034, which is the role most people mean when they search "radiology tech": the person who positions patients and operates x-ray and CT equipment. It is a distinct occupation from [Magnetic Resonance Imaging (MRI) technologists](/mri-tech-salary/), who work with different equipment and are tracked separately by BLS under SOC code 29-2035 (median annual wage $95,480 in May 2025, the more recent figure this site\'s MRI technologist salary guide covers in full), and from radiologists, who are physicians responsible for interpreting images; technologists capture them. Job postings sometimes use these titles loosely, so the wage figure that applies depends on which specific role is being described.',
-					'For radiologic technologists and technicians specifically, BLS reported a median annual wage of $77,660 in May 2024. The bottom 10% of earners made less than $52,360 a year, while the top 10% made more than $106,990, a spread of roughly $54,600. The national range does not measure how much of the difference comes from experience, additional credentials, employer or region. This page\'s Quick Facts box lists a combined hourly figure of $37.97 for the broader "Radiologic and MRI Technologists" grouping (which blends this occupation with the higher-paying MRI technologist role), not a figure specific to radiologic technologists and technicians alone, so it is left out of the numbers above to avoid overstating typical hourly pay for this occupation.',
+					'For radiologic technologists and technicians specifically, BLS reported a median annual wage of $80,110 in May 2025. The bottom 10% of earners made less than $55,980 a year, while the top 10% made more than $118,660, a spread of roughly $54,600. The national range does not measure how much of the difference comes from experience, additional credentials, employer or region. This page\'s Quick Facts box lists a combined hourly figure of $37.97 for the broader "Radiologic and MRI Technologists" grouping (which blends this occupation with the higher-paying MRI technologist role), not a figure specific to radiologic technologists and technicians alone, so it is left out of the numbers above to avoid overstating typical hourly pay for this occupation.',
 					'BLS figures are national medians drawn from its Occupational Employment and Wage Statistics survey, which collects employer data; other sources rely on self-reported salary submissions the way some job-search sites do. That distinction matters when comparing this page to other sources: a site built on self-reported figures can skew toward workers motivated to report unusually high or low pay, while employer-reported OEWS data reflects actual payroll records across a much larger, more representative sample. BLS does not publish a state-by-state breakdown on this specific page; readers who need per-state or per-metro figures would need the BLS OEWS state wage tables directly, which break the same occupation down by geography.',
 				],
 			},
 			{
 				heading: 'Reported wage medians by industry',
 				body: [
-					'BLS breaks out May 2024 wages by industry, and the differences are large enough to matter when comparing job offers. Federal government employment (excluding the postal service) paid the highest median at $93,970, followed by outpatient care centers at $81,000 and hospitals at $78,560. Medical and diagnostic laboratories paid a median of $76,770, and offices of physicians paid the least of the five categories BLS reports, at $66,060.',
+					'BLS breaks out May 2025 wages by industry, and the differences are large enough to matter when comparing job offers. Federal government employment (excluding the postal service) paid the highest median at $97,490, followed by outpatient care centers at $84,720 and hospitals at $80,650. Medical and diagnostic laboratories paid a median of $78,400, and offices of physicians paid the least of the five categories BLS reports, at $74,540.',
 					'The highest and lowest listed industry medians differ by $27,910; federal employers, rather than hospitals, lead this list. BLS does not explain why federal employment ranks highest for this specific role; it publishes the wage-by-industry figures without an accompanying explanation. Those medians do not show that federal pay scales, private-sector pricing or facility size explain the industry differences.',
 					'These five categories are the industries BLS separately tracks wages for in this occupation on the Occupational Outlook Handbook page; they do not cover every possible employer type, and wages should not be read as employment shares. The Handbook has a separate Work Environment section; OEWS also provides industry employment estimates. Those are distinct measures from the wage medians listed here.',
 				],
@@ -875,7 +875,7 @@ export const guides: Guide[] = [
 			{
 				heading: 'Job outlook and how this compares to other allied health pay',
 				body: [
-					'BLS projects 4% employment growth for radiologic technologists and technicians from 2024 to 2034, faster than the roughly 3% average projected across all occupations, adding an estimated 9,800 jobs over the decade. The broader category that includes MRI technologists is projected to grow faster still, at 5%, with about 15,400 combined openings expected each year on average, reflecting continued demand for diagnostic imaging tied to an aging population and rising rates of chronic disease.',
+					'BLS projects 5% employment growth for radiologic technologists and technicians from 2025 to 2035, faster than the roughly 3% average projected across all occupations, adding an estimated 11,800 jobs over the decade. The broader category that includes MRI technologists is projected to grow faster still, at 5%, with about 15,400 combined openings expected each year on average, reflecting continued demand for diagnostic imaging tied to an aging population and rising rates of chronic disease.',
 					'For context on where this occupation sits within allied health pay generally, another growing licensed field, [physical therapy](/physical-therapist-salary), carries a median annual wage of $102,760, roughly $25,000 above radiologic technology. Physical therapy usually requires a doctoral degree (DPT), while radiologic technology typically requires an associate degree. These entry categories do not establish education as the principal cause of their wage difference or measure program cost. Neither figure predicts what a specific person will earn; both describe national medians for occupations with real variation by state, employer, and specialty certification. This site\'s [surgical tech salary](/surgical-tech-salary/) guide covers BLS wage data and job outlook for another allied health role. At the opposite end of that allied-health-to-physician pay spectrum, [psychiatrists](/psychiatrist-salary/) post a $281,870 BLS median, for an occupation that requires medical education and specialty training; the wage estimate does not measure the contribution of that training.',
 					'BLS attributes projected growth in this occupation mainly to demographic trends: an aging population that needs more diagnostic imaging for conditions like falls, fractures, and chronic disease, combined with continued reliance on x-ray and CT imaging as a first-line diagnostic tool across emergency medicine, orthopedics, and primary care. That is a demand-side projection about the healthcare system as a whole, not a forecast about any individual technologist\'s job security, employer, or pay trajectory, and readers evaluating a specific offer should weigh it alongside local job market conditions rather than as a standalone guarantee.',
 				],
@@ -884,15 +884,15 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average radiology tech salary?',
-				answer: 'For the May 2024 survey, $77,660 was the annual midpoint for radiographers and their technician colleagues: half earned above it and half below. The OOH hourly number of $37.97 combines radiography with MRI work and cannot be read as a radiography-only hourly median.',
+				answer: 'For the May 2025 survey, $80,110 was the annual midpoint for radiographers and their technician colleagues: half earned above it and half below. The OOH hourly number of $37.97 combines radiography with MRI work and cannot be read as a radiography-only hourly median.',
 			},
 			{
 				question: 'What is the highest-paying setting for a radiology tech?',
-				answer: 'The May 2024 industry medians ran from $66,060 in physician practices to $93,970 for federal employers outside the postal service. Between those came diagnostic labs ($76,770), hospitals ($78,560) and outpatient facilities ($81,000), according to BLS.',
+				answer: 'The May 2025 industry medians ran from $74,540 in physician practices to $97,490 for federal employers outside the postal service. Between those came diagnostic labs ($78,400), hospitals ($80,650) and outpatient facilities ($84,720), according to BLS.',
 			},
 			{
 				question: 'How much do the lowest- and highest-paid radiology techs make?',
-				answer: 'Earnings were below $52,360 for the lowest-paid tenth and above $106,990 for the highest-paid tenth in May 2024. BLS provides no separate distribution by CT or breast-imaging credential, so these figures do not measure their contribution to wage differences.',
+				answer: 'Earnings were below $55,980 for the lowest-paid tenth and above $118,660 for the highest-paid tenth in May 2025. BLS provides no separate distribution by CT or breast-imaging credential, so these figures do not measure their contribution to wage differences.',
 			},
 			{
 				question: 'Do radiology techs need to be certified?',
@@ -900,11 +900,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is radiologic technology a growing field?',
-				answer: 'The 2024-to-2034 BLS forecast adds about 9,800 positions, a 4% increase, against roughly 3% across U.S. jobs overall.',
+				answer: 'The 2025-to-2035 BLS forecast adds about 11,800 positions, a 4% increase, against roughly 3% across U.S. jobs overall.',
 			},
 			{
 				question: 'What year is the BLS OEWS data on this page from?',
-				answer: "The figures here use the May 2024 employer wage survey referenced by the OOH imaging profile. Employment totals are available through OEWS too, but this article concentrates on pay cutoffs and projected expansion and gives no separate current headcount. It retains that historical survey year.",
+				answer: "The figures here use the May 2025 employer wage survey referenced by the OOH imaging profile. Employment totals are available through OEWS too, but this article concentrates on pay cutoffs and projected expansion and gives no separate current headcount. It retains that historical survey year.",
 			},
 			{
 				question: 'How long does it take to become a radiology tech?',
@@ -912,7 +912,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Which pays more, an RN or a radiology tech?',
-				answer: 'The nursing figure was larger: $97,550 for nursing (May 2025) and $77,660 for radiography (May 2024). The [RN education guide](/how-long-is-nursing-school/) gives that nursing estimate. The two come from different employer survey years; nursing can begin through a degree or hospital diploma, while the usual radiography route is an associate credential.',
+				answer: 'The nursing figure was larger: $97,550 for nursing (May 2025) and $80,110 for radiography (May 2025). The [RN education guide](/how-long-is-nursing-school/) gives that nursing estimate. The two come from different employer survey years; nursing can begin through a degree or hospital diploma, while the usual radiography route is an associate credential.',
 			},
 			{
 				question: 'Is becoming a radiology tech hard?',
@@ -920,18 +920,18 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What type of radiology tech makes the most money?',
-				answer: "MRI was a separately counted occupation with a $95,480 median for May 2025, about $18,000 above this article's May 2024 radiography figure. Additional MRI qualifications can follow radiography training. Credentials in breast imaging or CT are relevant to work with those techniques, but BLS gives no separate median for each credential. Mammography carries federal MQSA training rules, including required hours.",
+				answer: "MRI was a separately counted occupation with a $95,480 median for May 2025, about $18,000 above this article's May 2025 radiography figure. Additional MRI qualifications can follow radiography training. Credentials in breast imaging or CT are relevant to work with those techniques, but BLS gives no separate median for each credential. Mammography carries federal MQSA training rules, including required hours.",
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (accessed 2026-08-04, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
 			{ label: 'American Registry of Radiologic Technologists (ARRT): Radiography credential', url: 'https://www.arrt.org/pages/earn-arrt-credentials/credential-options/radiography' },
 			{ label: 'American Registry for Diagnostic Medical Sonography (ARDMS), operated by Inteleos', url: 'https://www.inteleos.org/about/community/ardms/' },
 			{ label: 'Joint Review Committee on Education in Radiologic Technology (JRCERT): program accreditation standards', url: 'https://www.jrcert.org/accreditation-for-students/' },
 			{ label: 'ARRT Annual Exam Report 2025 (Radiography exam first-time pass rate)', url: 'https://assets-us-01.kc-usercontent.com/406ac8c6-58e8-00b3-e3c1-0c312965deb2/22f9f912-46a8-4f24-ba43-fd0b0c7e602a/ARRT_Annual_Exam_Report-2025.pdf' },
 		],
 		image: '/images/radiology-tech-salary-chart.svg',
-		imageAlt: 'Bar chart showing radiologic technologist annual wage by percentile: 10th percentile $52,360, median $77,660, 90th percentile $106,990, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing radiologic technologist annual wage by percentile: 10th percentile $55,980, median $80,110, 90th percentile $118,660, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'crna-salary',
@@ -1203,17 +1203,17 @@ export const guides: Guide[] = [
 		slug: 'surgical-tech-salary',
 		category: 'Salary Guide',
 		title: 'Surgical Tech Salary: BLS Wage Data and Job Outlook (2026)',
-		description: 'BLS puts the median surgical tech salary at $62,830, below what self-reported sites show. See the real BLS number and what CST certification requires.',
+		description: 'BLS puts the median surgical tech salary at $64,650, below what self-reported sites show. See the real BLS number and what CST certification requires.',
 		published: '2026-08-05',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '29-2055',
-		coreSummary: 'The median annual wage for surgical technologists was $62,830 in May 2024, according to the U.S. Bureau of Labor Statistics, compared with $60,290 for the closely related surgical assistant role. BLS projects 4.5% employment growth for surgical technologists from 2024 to 2034, adding about 5,200 jobs on top of a 115,600-person workforce, and the usual starting credential is a certificate or associate\'s degree.',
+		coreSummary: 'The median annual wage for surgical technologists was $64,650 in May 2025, according to the U.S. Bureau of Labor Statistics, compared with $60,290 for the closely related surgical assistant role. BLS projects 5% employment growth for surgical technologists from 2025 to 2035, adding about 5,900 jobs on top of a 118,400-person workforce, and the usual starting credential is a certificate or associate\'s degree.',
 		sections: [
 			{
 				heading: 'What BLS actually reports for surgical tech pay',
 				body: [
 					'Surgical technologists prepare the operating room, set up the sterile back table, pass instruments and supplies to the surgical team, and maintain the sterile field throughout a procedure. BLS tracks this role under SOC code 29-2055, and its own description on the Occupational Outlook Handbook is brief: "surgical assistants and technologists help with surgical operations." That one-line summary covers a role that is procedural and safety-driven, centered on keeping the right instrument ready and the environment sterile; performing surgical steps is the assistant\'s role.',
-					'BLS publishes this occupation\'s Occupational Outlook Handbook page under the combined title "Surgical Assistants and Technologists," reporting a combined median annual wage of $62,480 and 141,000 combined jobs for May 2024. The narrative page does break out pay by specific role, though: the median annual wage for surgical technologists was $62,830, while the median for surgical assistants was $60,290, both May 2024. The separate BLS Employment Projections National Employment Matrix (Table 1.2), a different BLS data product from the Handbook narrative, confirms the same $62,830 figure tied specifically to SOC 29-2055 and reports a 2024 workforce of 115,600 surgical technologists, versus 25,300 surgical assistants under SOC 29-9093.',
+					'BLS publishes this occupation\'s Occupational Outlook Handbook page under the combined title "Surgical Assistants and Technologists," reporting a combined median annual wage of $62,480 and 141,000 combined jobs for May 2025. The narrative page does break out pay by specific role, though: the median annual wage for surgical technologists was $64,650, while the median for surgical assistants was $60,290, both May 2025. The separate BLS Employment Projections National Employment Matrix (Table 1.2), a different BLS data product from the Handbook narrative, confirms the same $64,650 figure tied specifically to SOC 29-2055 and reports a 2024 workforce of 118,400 surgical technologists, versus 25,300 surgical assistants under SOC 29-9093.',
 					'This particular Handbook page does not publish a 10th/90th percentile wage split for either role, unlike some other occupations this site covers. Readers who want that variance would need the BLS Occupational Employment and Wage Statistics (OEWS) tables directly, a separate, more granular data product. It is also worth flagging a real gap between this number and what self-reported salary sites show: search results for "surgical tech salary" surface figures like $107,000 for New York City on ZipRecruiter, roughly 70% above the BLS national median. That gap is not a data error on either side; it reflects self-reported figures skewed toward a specific high-cost metro versus BLS\'s employer-reported, nationally representative survey. Neither number is "wrong" for its own scope, but they answer different questions.',
 				],
 			},
@@ -1221,7 +1221,7 @@ export const guides: Guide[] = [
 				heading: 'Surgical technologist and surgical assistant are not the same job',
 				body: [
 					'Despite the similar pay and BLS\'s combined Handbook page, the two roles have a meaningfully different scope of practice. Surgical technologists focus on instrumentation and the sterile field: setting up the operating room, passing instruments, handling specimens, and supporting the team without performing surgical steps themselves. Surgical assistants (sometimes called surgical first assistants) take on a more hands-on role directly supporting the surgeon, which can include retracting tissue, controlling bleeding, suturing, and, depending on state regulation and the assistant\'s credentials, performing portions of a procedure under the surgeon\'s direct supervision. This distinction is a general industry description confirmed by academic medical sources such as Mayo Clinic College of Medicine and Science, not a claim BLS itself makes on its Handbook page.',
-					'That wider scope makes it somewhat notable that the national median pay for surgical assistants ($60,290) is actually lower than for surgical technologists ($62,830), despite the more expansive duties. BLS does not explain this gap; it publishes the two medians without commentary. One plausible, unverified factor is that the surgical assistant workforce is much smaller (25,300 vs. 115,600) and includes a wider range of entry pathways, since some assistants enter through nursing or PA training, alongside graduates of dedicated assistant programs, which could pull the reported median in either direction depending on the underlying credential mix; that is this article\'s inference, not a BLS-stated explanation.',
+					'That wider scope makes it somewhat notable that the national median pay for surgical assistants ($60,290) is actually lower than for surgical technologists ($64,650), despite the more expansive duties. BLS does not explain this gap; it publishes the two medians without commentary. One plausible, unverified factor is that the surgical assistant workforce is much smaller (25,300 vs. 118,400) and includes a wider range of entry pathways, since some assistants enter through nursing or PA training, alongside graduates of dedicated assistant programs, which could pull the reported median in either direction depending on the underlying credential mix; that is this article\'s inference, not a BLS-stated explanation.',
 					'BLS\'s own numbers show that surgical technologist is both the larger job market (about 4.5 times more workers) and the role most surgical-technology training programs are built to enter directly, while surgical assistant credentials are typically layered on after establishing a technologist or nursing background.',
 				],
 			},
@@ -1236,8 +1236,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'Job outlook and where this fits among allied health pay',
 				body: [
-					'The BLS Employment Projections National Employment Matrix projects 4.5% employment growth for surgical technologists specifically from 2024 to 2034, adding about 5,200 jobs on top of a 2024 base of 115,600, with roughly 7,000 average annual openings once retirements and occupational transfers are included. That is faster than the roughly 3% growth projected across all occupations combined, though BLS does not publish a stated explanation for the growth on this occupation\'s Handbook page the way it sometimes does for other roles; rising surgical volume tied to an aging population is a plausible, unverified factor rather than a claim BLS makes directly.',
-					'Compared with [radiologic technologists](/radiology-tech-salary), another associate-degree-or-certificate-level allied health role that supports physicians rather than practicing independently, surgical technologists earn a lower national median ($62,830 vs. $77,660) but face a similar growth rate (4.5% vs. 4%). The gap in pay likely tracks entry credential depth more than growth outlook: radiologic technology typically requires a full associate\'s degree, while surgical technology\'s typical entry point, a postsecondary certificate, is usually a shorter and less expensive path to a first paycheck. At the long-training end, architects need a bachelor\'s degree plus a paid internship and a licensing exam, and BLS put their May 2025 median at $99,280 (see the [architect pay guide](/do-architects-make-good-money/)).',
+					'The BLS Employment Projections National Employment Matrix projects 5% employment growth for surgical technologists specifically from 2025 to 2035, adding about 5,900 jobs on top of a 2024 base of 118,400, with roughly 8,600 average annual openings once retirements and occupational transfers are included. That is faster than the roughly 3% growth projected across all occupations combined, though BLS does not publish a stated explanation for the growth on this occupation\'s Handbook page the way it sometimes does for other roles; rising surgical volume tied to an aging population is a plausible, unverified factor rather than a claim BLS makes directly.',
+					'Compared with [radiologic technologists](/radiology-tech-salary), another associate-degree-or-certificate-level allied health role that supports physicians rather than practicing independently, surgical technologists earn a lower national median ($64,650 vs. $77,660) but face a similar growth rate (5% vs. 4%). The gap in pay likely tracks entry credential depth more than growth outlook: radiologic technology typically requires a full associate\'s degree, while surgical technology\'s typical entry point, a postsecondary certificate, is usually a shorter and less expensive path to a first paycheck. At the long-training end, architects need a bachelor\'s degree plus a paid internship and a licensing exam, and BLS put their May 2025 median at $99,280 (see the [architect pay guide](/do-architects-make-good-money/)).',
 					'None of these figures predict what a specific person will earn. They describe national medians and projections for occupations with real variation by state, employer setting, and individual certification, and readers comparing a specific job offer against these numbers should weigh local market conditions alongside the national baseline rather than treating either as a guarantee.',
 				],
 			},
@@ -1245,11 +1245,11 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average surgical tech salary?',
-				answer: 'In the May 2024 survey, technologists in SOC 29-2055 had a $62,830 yearly midpoint. This national employer survey differs from salary-site estimates focused on expensive individual cities, which may show considerably larger amounts.',
+				answer: 'In the May 2025 survey, technologists in SOC 29-2055 had a $64,650 yearly midpoint. This national employer survey differs from salary-site estimates focused on expensive individual cities, which may show considerably larger amounts.',
 			},
 			{
 				question: 'Is a surgical technologist the same as a surgical assistant?',
-				answer: 'The technologist prepares instruments and protects sterility. The assistant may help the surgeon with tissue retraction or stitches, subject to local rules and qualifications. Their occupation codes are 29-2055 and 29-9093, and their respective May 2024 medians were $62,830 and $60,290.',
+				answer: 'The technologist prepares instruments and protects sterility. The assistant may help the surgeon with tissue retraction or stitches, subject to local rules and qualifications. Their occupation codes are 29-2055 and 29-9093, and their respective May 2025 medians were $64,650 and $60,290.',
 			},
 			{
 				question: 'What is the highest- and lowest-paid range for surgical techs?',
@@ -1261,11 +1261,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is surgical technology a growing field?',
-				answer: 'The projections matrix forecasts 5,200 additional technologist positions over 2024-to-2034, a 4.5% rise from 115,600. Counting replacements as well as expansion produces about 7,000 vacancies annually on average.',
+				answer: 'The projections matrix forecasts 5,200 additional technologist positions over 2025-to-2035, a 5% rise from 118,400. Counting replacements as well as expansion produces about 7,000 vacancies annually on average.',
 			},
 			{
 				question: 'Who gets paid more, RN or a surgical tech?',
-				answer: 'The nursing median was $97,550 (May 2025), substantially above the $62,830 technologist figure (May 2024). See the [RN training guide](/how-long-is-nursing-school/) for the nursing number. Nursing entrants may take a university, associate or diploma course; operating-room technologists ordinarily take a shorter program at certificate or two-year degree level.',
+				answer: 'The nursing median was $97,550 (May 2025), substantially above the $64,650 technologist figure (May 2025). See the [RN training guide](/how-long-is-nursing-school/) for the nursing number. Nursing entrants may take a university, associate or diploma course; operating-room technologists ordinarily take a shorter program at certificate or two-year degree level.',
 			},
 			{
 				question: 'How hard is it to be a surgical tech?',
@@ -1273,46 +1273,46 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What kind of surgical tech makes the most money?',
-				answer: "The national $62,830 median is not divided into heart-surgery, orthopedics or other specialties. Assistants had a $60,290 midpoint in May 2024 despite their wider surgical duties, so an expanded remit alone does not establish higher earnings. BLS provides no reason for that difference.",
+				answer: "The national $64,650 median is not divided into heart-surgery, orthopedics or other specialties. Assistants had a $60,290 midpoint in May 2025 despite their wider surgical duties, so an expanded remit alone does not establish higher earnings. BLS provides no reason for that difference.",
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Surgical Assistants and Technologists (accessed 2026-08-05, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/surgical-technologists.htm' },
-			{ label: 'BLS Employment Projections: Occupational projections and worker characteristics, Table 1.2 (2024-34 release)', url: 'https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Surgical Assistants and Technologists (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/surgical-technologists.htm' },
+			{ label: 'BLS Employment Projections: Occupational projections and worker characteristics, Table 1.2 (2025-35 release)', url: 'https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm' },
 			{ label: 'National Board of Surgical Technology and Surgical Assisting (NBSTSA): CST Certification', url: 'https://www.nbstsa.org/cst-certification' },
 			{ label: 'Mayo Clinic College of Medicine and Science: Surgical First Assistant Career Overview', url: 'https://college.mayo.edu/academics/explore-health-care-careers/careers-a-z/surgical-first-assistant/' },
 		],
 		image: '/images/surgical-tech-salary-chart.svg',
-		imageAlt: 'Bar chart comparing median annual wage of surgical technologists ($62,830) and surgical assistants ($60,290), based on BLS May 2024 data.',
+		imageAlt: 'Bar chart comparing median annual wage of surgical technologists ($64,650) and surgical assistants ($60,290), based on BLS May 2025 data.',
 	},
 	{
 		slug: 'pharmacy-technician-salary',
 		category: 'Salary Guide',
 		title: 'Pharmacy Technician Salary: BLS Wage Data by Percentile (2026)',
-		description: 'BLS reports a $43,460 median pharmacy technician salary. See the full wage range by percentile and by industry, from retail pharmacies to hospitals.',
+		description: 'BLS reports a $45,750 median pharmacy technician salary. See the full wage range by percentile and by industry, from retail pharmacies to hospitals.',
 		published: '2026-08-05',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '29-2052',
-		coreSummary: 'The median annual wage for pharmacy technicians was $43,460 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $35,100 and the top 10% earned more than $59,450, a comparatively narrow spread for an occupation that typically requires only a high school diploma to enter. Pay depends heavily on setting: ambulatory healthcare services paid the highest industry median at $49,920, about $12,000 above the $37,900 median at pharmacies and drug retailers.',
+		coreSummary: 'The median annual wage for pharmacy technicians was $45,750 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $36,020 and the top 10% earned more than $61,040, a comparatively narrow spread for an occupation that typically requires only a high school diploma to enter. Pay varies by setting: hospitals paid the highest industry median at $50,760, $11,520 above the $39,240 median at pharmacies and drug retailers.',
 		sections: [
 			{
 				heading: 'What pharmacy technicians actually earn, by percentile',
 				body: [
-					'BLS tracks pharmacy technician pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The May 2024 data used here puts the median annual wage at $43,460, or $20.90 an hour. Reporting pay both ways matters here more than for some occupations on this site, since pharmacy technicians are commonly scheduled by the hour rather than paid a fixed annual salary, and hours can vary by employer and by whether the role is full time or part time.',
-					'The percentile spread is narrower in dollar terms than most other occupations covered here: the bottom 10% of pharmacy technicians earned less than $35,100 in May 2024, while the top 10% earned more than $59,450, a gap of about $24,350. That is still a meaningful spread relative to the median itself, more than half of it, but it is a smaller absolute range than occupations like pharmacists or actuaries, where pay climbs sharply with additional licensing or credentials. Pharmacy technicians share a much more uniform entry requirement: a high school diploma or equivalent, with most training happening on the job in under a year, or through a postsecondary certificate program at a vocational school or community college. For how that $43,460 median stacks up against pay figures across the broader U.S. labor market, see this site\'s [roundup of national wage statistics](/salary-statistics-2026/).',
+					'BLS tracks pharmacy technician pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly rather than relying on self-reported figures. The May 2025 data used here puts the median annual wage at $45,750, or $22.00 an hour. Reporting pay both ways matters here more than for some occupations on this site, since pharmacy technicians are commonly scheduled by the hour rather than paid a fixed annual salary, and hours can vary by employer and by whether the role is full time or part time.',
+					'The percentile spread is narrower in dollar terms than most other occupations covered here: the bottom 10% of pharmacy technicians earned less than $36,020 in May 2025, while the top 10% earned more than $61,040, a gap of about $25,020. That is still a meaningful spread relative to the median itself, more than half of it, but it is a smaller absolute range than occupations like pharmacists or actuaries, where pay climbs sharply with additional licensing or credentials. Pharmacy technicians share a much more uniform entry requirement: a high school diploma or equivalent, with most training happening on the job in under a year, or through a postsecondary certificate program at a vocational school or community college. For how that $45,750 median stacks up against pay figures across the broader U.S. labor market, see this site\'s [roundup of national wage statistics](/salary-statistics-2026/).',
 				],
 			},
 			{
 				heading: 'Pay by industry setting',
 				body: [
-					'BLS breaks out May 2024 pharmacy technician wages across five industry categories, and the gap between the highest- and lowest-paying settings is $12,020, smaller than the $24,350 gap between the national percentile cutoffs above. Ambulatory healthcare services, a category that includes outpatient clinics and infusion centers, paid the highest median at $49,920. Hospitals paid close behind at $49,310.',
-					'General merchandise retailers, meaning big-box stores that operate an in-house pharmacy counter, paid a median of $46,180. Grocery and specialty food retailers paid $38,810, and pharmacies and drug retailers, the traditional chain and independent retail pharmacy setting most people associate with the job title, paid the least of the five tracked categories, at $37,900. The roughly $12,020 gap between the highest- and lowest-paying settings means the specific type of employer matters more to a pharmacy technician\'s take-home pay than it does in several other occupations this site tracks.',
+					'BLS breaks out May 2025 pharmacy technician wages across five industry categories, and the gap between the highest- and lowest-paying settings is $11,520, smaller than the $25,020 gap between the national percentile cutoffs above. Hospitals paid the highest median at $50,760. Ambulatory healthcare services, including outpatient clinics and infusion centers, followed at $48,860.',
+					'General merchandise retailers, meaning big-box stores that operate an in-house pharmacy counter, paid a median of $48,150. Grocery and specialty food retailers paid $41,430, and pharmacies and drug retailers, the traditional chain and independent retail pharmacy setting most people associate with the job title, paid the least of the five tracked categories, at $39,240. The roughly $11,520 gap between the highest- and lowest-paying settings means the specific type of employer matters more to a pharmacy technician\'s take-home pay than it does in several other occupations this site tracks.',
 				],
 			},
 			{
 				heading: 'Job outlook: growth is real, but most annual openings come from turnover',
 				body: [
-					'BLS projects employment of pharmacy technicians to grow 6% from 2024 to 2034, from 490,400 to 521,800 positions, which the agency classifies as faster than the average for all occupations. That works out to a net increase of 31,500 jobs over the decade. Separately, BLS projects about 49,000 average annual openings for the occupation once the decade is averaged out, a substantially larger number than the net growth figure, because most of those openings come from replacing technicians who transfer to other occupations or leave the labor force, not from newly created positions. Readers comparing job-market numbers across sources should keep that distinction in mind: net employment growth and total annual openings measure different things.',
+					'BLS projects employment of pharmacy technicians to grow 6% from 2025 to 2035, from 471,200 to 521,800 positions, which the agency classifies as faster than the average for all occupations. That works out to a net increase of 30,100 jobs over the decade. Separately, BLS projects about 44,700 average annual openings for the occupation once the decade is averaged out, a substantially larger number than the net growth figure, because most of those openings come from replacing technicians who transfer to other occupations or leave the labor force, not from newly created positions. Readers comparing job-market numbers across sources should keep that distinction in mind: net employment growth and total annual openings measure different things.',
 					'BLS attributes the demand behind both numbers to two forces: a growing and aging population that uses more prescription medication, plus rising rates of chronic conditions such as diabetes and hypertension that require ongoing prescriptions. On top of that structural demand, BLS notes that pharmacists are increasingly shifting toward direct patient-care activities, which is pushing more of the collecting, transferring, and verifying work in a pharmacy down to technicians, a role-mix shift that adds to demand for the occupation beyond population growth alone.',
 				],
 			},
@@ -1327,7 +1327,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What does BLS report for the pharmacy technician salary?',
-				answer: 'In May 2024, BLS put median annual pay for the role at $43,460, equivalent to $20.90 an hour, based on its own OEWS wage survey. Actual take-home pay can differ from that figure, since scheduling for the role is commonly hourly rather than a fixed salary, and hours worked vary by employer.',
+				answer: 'In May 2025, BLS put median annual pay for the role at $45,750, equivalent to $220 an hour, based on its own OEWS wage survey. Actual take-home pay can differ from that figure, since scheduling for the role is commonly hourly rather than a fixed salary, and hours worked vary by employer.',
 			},
 			{
 				question: 'Do pharmacy technicians need to be certified?',
@@ -1335,15 +1335,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Which industry pays pharmacy technicians the most?',
-				answer: 'The ambulatory-care category tops BLS\'s May 2024 breakdown at $49,920, with hospitals just under that at $49,310. National drugstore chains and neighborhood pharmacies, the traditional retail setting, sat at the bottom of the list at $37,900.',
+				answer: 'The ambulatory-care category tops BLS\'s May 2025 breakdown at $50,760, with hospitals just under that at $48,860. National drugstore chains and neighborhood pharmacies, the traditional retail setting, sat at the bottom of the list at $39,240.',
 			},
 			{
 				question: 'Is pharmacy technician a growing occupation?',
-				answer: 'BLS projects the pharmacy-tech workforce expanding six percent over the 2024-2034 decade, quicker than the all-occupation average, adding a net 31,500 jobs. Separately, BLS estimates roughly 49,000 openings a year on average across the decade, though most of that figure reflects technicians leaving the field rather than newly created roles.',
+				answer: 'BLS projects the pharmacy-tech workforce expanding six percent over the 2025-2035 decade, quicker than the all-occupation average, adding a net 30,100 jobs. Separately, BLS estimates roughly 44,700 openings a year on average across the decade, though most of that figure reflects technicians leaving the field rather than newly created roles.',
 			},
 			{
 				question: 'Who gets paid more, CNA or pharmacy tech?',
-				answer: 'Pharmacy techs came out slightly ahead: a median of $43,460 for May 2024, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, since BLS refreshes occupations on its own schedule, so this is a close comparison rather than an exact same-year one.',
+				answer: 'Pharmacy techs came out slightly ahead: a median of $45,750 for May 2025, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, since BLS refreshes occupations on its own schedule, so this is a close comparison rather than an exact same-year one.',
 			},
 			{
 				question: 'Is becoming a pharmacist tech hard?',
@@ -1351,39 +1351,39 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Pharmacy Technicians (accessed 2026-08-05, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Pharmacy Technicians (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/pharmacy-technicians.htm' },
 		],
 		image: '/images/pharmacy-technician-salary-chart.svg',
-		imageAlt: 'Bar chart showing pharmacy technician annual wage by percentile: 10th percentile $35,100, median $43,460, 90th percentile $59,450, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing pharmacy technician annual wage by percentile: 10th percentile $36,020, median $45,750, 90th percentile $61,040, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'dental-assistant-salary',
 		category: 'Salary Guide',
 		title: 'Dental Assistant Salary: BLS Wage Data by Percentile (2026)',
-		description: 'BLS puts the median dental assistant salary at $47,300 a year. See the full wage range by percentile, by industry, and how it compares to a dental hygienist.',
+		description: 'BLS puts the median dental assistant salary at $48,070 a year. See the full wage range by percentile, by industry, and how it compares to a dental hygienist.',
 		published: '2026-08-06',
 		updated: '2026-10-12',
 		socCode: '31-9091',
-		coreSummary: 'The median annual wage for dental assistants was $47,300 in May 2024, according to the U.S. Bureau of Labor Statistics, close to the $49,500 median for all U.S. occupations that year. The bottom 10% earned less than $36,190, and the top 10% earned more than $61,780. Government employers paid the highest industry median at $53,660, while the large majority of dental assistants, who work in dentists\' offices, earned close to the occupation-wide median at $47,250.',
+		coreSummary: 'The median annual wage for dental assistants was $48,070 in May 2025, according to the U.S. Bureau of Labor Statistics, close to the $50,980 median for all U.S. occupations that year. The bottom 10% earned less than $37,130, and the top 10% earned more than $62,250. Government employers paid the highest industry median at $55,270, while the large majority of dental assistants, who work in dentists\' offices, earned close to the occupation-wide median at $48,000.',
 		sections: [
 			{
 				heading: 'What dental assistants actually earn, by percentile',
 				body: [
-					'BLS tracks dental assistant pay through its Occupational Employment and Wage Statistics (OEWS) program. The program surveys employers directly instead of relying on workers to self-report their pay. The May 2024 data retained here put median annual pay at $47,300, or $22.74 an hour. For context, BLS reports the median across all U.S. occupations that year at $49,500, so dental assistants earn close to, though slightly below, the broader labor-market median rather than sitting notably above or below it.',
-					'The bottom 10% of dental assistants earned less than $36,190 in May 2024, while the top 10% earned more than $61,780, a spread of roughly $25,590. That is a narrower dollar gap than several other occupations tracked on this site, including dental hygienists, whose 10th-to-90th-percentile spread runs from $74,880 to $126,050, more than double the assistant spread in dollar terms. The entry credentials also differ, although BLS does not isolate their contribution to pay: dental assistants generally enter through one widely available path, either a certificate program of about a year or on-the-job training, while dental hygiene has a degree and licensing route. These wage tables do not identify schooling as the cause of the different percentile spreads.',
+					'BLS tracks dental assistant pay through its Occupational Employment and Wage Statistics (OEWS) program. The program surveys employers directly instead of relying on workers to self-report their pay. The May 2025 data retained here put median annual pay at $48,070, or $23.11 an hour. For context, BLS reports the median across all U.S. occupations that year at $50,980, so dental assistants earn close to, though slightly below, the broader labor-market median rather than sitting notably above or below it.',
+					'The bottom 10% of dental assistants earned less than $37,130 in May 2025, while the top 10% earned more than $62,250, a spread of roughly $25,590. That is a narrower dollar gap than several other occupations tracked on this site, including dental hygienists, whose 10th-to-90th-percentile spread runs from $74,880 to $126,050, more than double the assistant spread in dollar terms. The entry credentials also differ, although BLS does not isolate their contribution to pay: dental assistants generally enter through one widely available path, either a certificate program of about a year or on-the-job training, while dental hygiene has a degree and licensing route. These wage tables do not identify schooling as the cause of the different percentile spreads.',
 				],
 			},
 			{
 				heading: 'Pay by industry and practice setting',
 				body: [
-					'BLS breaks out May 2024 dental assistant wages across three industry categories, fewer than it tracks for some other occupations on this site, reflecting how concentrated the role is in a single type of employer. Government employers, excluding state and local education and hospitals, paid the highest median at $53,660. Offices of dentists, the setting where BLS notes almost all dental assistants work, paid $47,250, essentially matching the occupation-wide median. Offices of physicians paid the least of the three tracked categories, at $46,170.',
-					'The gap between the highest- and lowest-paying tracked industries, about $7,490, is notably narrower than the roughly $12,020 industry gap this site\'s pharmacy technician salary guide reports for that occupation. Since the large majority of dental assistants work in dentists\' offices, not in government or physician settings, the industry breakdown matters less to a typical dental assistant\'s actual pay than it does for occupations spread more evenly across employer types.',
+					'BLS breaks out May 2025 dental assistant wages across three industry categories, fewer than it tracks for some other occupations on this site, reflecting how concentrated the role is in a single type of employer. Government employers, excluding state and local education and hospitals, paid the highest median at $55,270. Offices of dentists, the setting where BLS notes almost all dental assistants work, paid $48,000, essentially matching the occupation-wide median. Offices of physicians paid the least of the three tracked categories, at $47,310.',
+					'The gap between the highest- and lowest-paying tracked industries, about $7,490, is notably narrower than the roughly $11,520 industry gap this site\'s pharmacy technician salary guide reports for that occupation. Since the large majority of dental assistants work in dentists\' offices, not in government or physician settings, the industry breakdown matters less to a typical dental assistant\'s actual pay than it does for occupations spread more evenly across employer types.',
 				],
 			},
 			{
 				heading: 'Job outlook: growth is real, but most openings come from turnover',
 				body: [
-					'BLS projects employment of dental assistants to grow 6% from 2024 to 2034, from 381,900 to 406,300 positions, which the agency classifies as faster than the average for all occupations. That is a net increase of 24,400 jobs over the decade. Separately, BLS projects about 52,900 average annual openings for the occupation once the decade is averaged out, a substantially larger number than the net growth figure. Most of those openings come from replacing assistants who transfer to other occupations or leave the labor force; relatively few come from newly created positions.',
+					'BLS projects employment of dental assistants to grow 7% from 2025 to 2035, from 388,600 to 417,400 positions, which the agency classifies as faster than the average for all occupations. That is a net increase of 28,800 jobs over the decade. Separately, BLS projects about 53,000 average annual openings for the occupation once the decade is averaged out, a substantially larger number than the net growth figure. Most of those openings come from replacing assistants who transfer to other occupations or leave the labor force; relatively few come from newly created positions.',
 					'BLS attributes demand for the occupation to a few converging factors: ongoing research linking oral health to general health is increasing demand for preventive dental services, and dentists continue hiring assistants to handle routine tasks so practices can run more efficiently as they grow. An aging population, combined with more people keeping their natural teeth into later life than in previous generations, is also expected to keep demand for dental care, and the assistants who support it, elevated over the projection period. For pay in the two licensed roles above the assistant, see the [dental hygienist vs dentist breakdown](/dental-hygienist-vs-dentist/), which uses the newer May 2025 figures.',
 				],
 			},
@@ -1391,14 +1391,14 @@ export const guides: Guide[] = [
 				heading: 'How to become one, and how the pay compares to a dental hygienist',
 				body: [
 					'There are several paths into the occupation, and the requirements depend heavily on the state. Some states require dental assistants to graduate from an accredited program, most commonly offered by community colleges or vocational and technical schools, and pass an exam; most of these programs take about a year and lead to a certificate or diploma, while two-year programs leading to an associate\'s degree are less common. Other states have no formal education requirement at all, and assistants learn the job through on-the-job training under a supervising dentist, hygienist, or experienced assistant. Entry-level licensing generally is not required, but states that allow assistants to perform expanded duties, such as coronal polishing, do require licensure, registration, or certification for those specific tasks. Information on those certification requirements is available from CareerOneStop, the resource BLS itself points readers to.',
-					'Pay and entry routes differ between these two occupations. The wage tables cannot separate the effect of their qualifications. This site\'s [dental hygienist salary guide](/dental-hygienist-salary/) reports a May 2025 median of $98,100, essentially double the dental assistant median in this article. The occupations differ in duties as well as qualifications: dental hygienists typically complete an accredited dental-hygiene program, usually an associate degree taking about three years, and must meet state licensing requirements, while dental assistants can typically enter through a certificate program closer to a year in length or through employer training alone. For a comparison at a similarly accessible entry point, this site\'s [pharmacy technician salary guide](/pharmacy-technician-salary/) covers another allied health role with a comparable median wage, $43,460, and high-school completion as its usual entry-education level, followed by workplace training or a certificate and any state requirements. For another assistant-level allied health role, see this site\'s [occupational therapy assistant salary](/occupational-therapy-assistant-salary/) guide, per BLS.',
+					'Pay and entry routes differ between these two occupations. The wage tables cannot separate the effect of their qualifications. This site\'s [dental hygienist salary guide](/dental-hygienist-salary/) reports a May 2025 median of $98,100, essentially double the dental assistant median in this article. The occupations differ in duties as well as qualifications: dental hygienists typically complete an accredited dental-hygiene program, usually an associate degree taking about three years, and must meet state licensing requirements, while dental assistants can typically enter through a certificate program closer to a year in length or through employer training alone. For a comparison at a similarly accessible entry point, this site\'s [pharmacy technician salary guide](/pharmacy-technician-salary/) covers another allied health role with a comparable median wage, $45,750, and high-school completion as its usual entry-education level, followed by workplace training or a certificate and any state requirements. For another assistant-level allied health role, see this site\'s [occupational therapy assistant salary](/occupational-therapy-assistant-salary/) guide, per BLS.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What is the median dental assistant salary?',
-				answer: 'BLS\'s May 2024 figure: $47,300 a year for someone doing this work, or $22.74 an hour, just under BLS\'s figure for the whole U.S. workforce combined that same year, $49,500.',
+				answer: 'BLS\'s May 2025 figure: $48,070 a year for someone doing this work, or $23.11 an hour, just under BLS\'s figure for the whole U.S. workforce combined that same year, $50,980.',
 			},
 			{
 				question: 'Do dental assistants need a degree?',
@@ -1406,19 +1406,19 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Which industry pays dental assistants the most?',
-				answer: '$53,660 in the public sector (outside of schools and hospitals) tops the three-category list BLS tracks for May 2024. Dental offices, the setting employing practically the entire workforce, land right around the overall median at $47,250, while physician offices pay the least, at $46,170.',
+				answer: '$55,270 in the public sector (outside of schools and hospitals) tops the three-category list BLS tracks for May 2025. Dental offices, the setting employing practically the entire workforce, land right around the overall median at $48,000, while physician offices pay the least, at $47,310.',
 			},
 			{
 				question: 'How does dental assistant pay compare to dental hygienist pay?',
-				answer: 'The hygienist midpoint was $98,100 in May 2025, almost twice the $47,300 assistant median from the earlier cycle. Hygienists normally complete three years of study before gaining the local license. An assistant may begin after a one-year certificate or learn at work, and performs a different set of tasks. These figures cannot attribute most of the pay difference to schooling.',
+				answer: 'The hygienist midpoint was $98,100 in May 2025, almost twice the $48,070 assistant median from the earlier cycle. Hygienists normally complete three years of study before gaining the local license. An assistant may begin after a one-year certificate or learn at work, and performs a different set of tasks. These figures cannot attribute most of the pay difference to schooling.',
 			},
 			{
 				question: 'Is dental assisting a growing occupation?',
-				answer: 'BLS projects 6% growth in this occupation between 2024 and 2034, quicker than the U.S. all-occupation average, adding a net 24,400 jobs. Separately, BLS puts average yearly openings at about 52,900 across that same ten-year window, though the bulk of that figure reflects assistants leaving the role rather than the headcount actually expanding.',
+				answer: 'BLS projects 7% growth in this occupation between 2024 and 2034, quicker than the U.S. all-occupation average, adding a net 28,800 jobs. Separately, BLS puts average yearly openings at about 52,900 across that same ten-year window, though the bulk of that figure reflects assistants leaving the role rather than the headcount actually expanding.',
 			},
 			{
 				question: 'Who gets paid more, CNA or dental assistant?',
-				answer: 'In May 2024, dental assistants had a $47,300 median, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, so this is a close comparison rather than an exact same-year one.',
+				answer: 'In May 2025, dental assistants had a $48,070 median, per BLS, compared with $42,260 for nursing assistants in May 2025, per this site\'s [how to become a CNA](/how-to-become-a-cna/) guide. The two figures come from different BLS survey years, so this is a close comparison rather than an exact same-year one.',
 			},
 			{
 				question: 'Is dental assistant school hard?',
@@ -1426,10 +1426,10 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Dental Assistants (accessed 2026-08-06, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/dental-assistants.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Dental Assistants (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/dental-assistants.htm' },
 		],
 		image: '/images/dental-assistant-salary-chart.svg',
-		imageAlt: 'Bar chart showing dental assistant annual wage by percentile: 10th percentile $36,190, median $47,300, 90th percentile $61,780, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing dental assistant annual wage by percentile: 10th percentile $37,130, median $48,070, 90th percentile $62,250, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'medical-assistant-salary',
@@ -1445,7 +1445,7 @@ export const guides: Guide[] = [
 				heading: 'What medical assistants actually earn, by percentile',
 				body: [
 					'BLS tracks medical assistant pay through its Occupational Employment and Wage Statistics (OEWS) program, which surveys employers directly instead of relying on self-reported figures. The most recent published data, from May 2025, put median annual pay at $45,690, or $21.97 an hour, for a role that is nearly always paid hourly, not salaried.',
-					'Workers at the bottom 10% of this occupation earned less than $36,050 in May 2025, while the top 10% earned more than $59,310, a spread of about $23,260. That is a somewhat narrower dollar range than this site\'s dental assistant salary guide reports for a comparably credentialed role ($36,190 to $61,780, a roughly $25,590 spread), though the two spreads are close enough, within a few thousand dollars of each other, that neither occupation stands out as having a meaningfully wider pay ceiling than the other.',
+					'Workers at the bottom 10% of this occupation earned less than $36,050 in May 2025, while the top 10% earned more than $59,310, a spread of about $23,260. That is a somewhat narrower dollar range than this site\'s dental assistant salary guide reports for a comparably credentialed role ($37,130 to $62,250, a roughly $25,590 spread), though the two spreads are close enough, within a few thousand dollars of each other, that neither occupation stands out as having a meaningfully wider pay ceiling than the other.',
 				],
 			},
 			{
@@ -1466,7 +1466,7 @@ export const guides: Guide[] = [
 				heading: 'Medical assistant vs. physician assistant: same name pattern, very different role',
 				body: [
 					'The similar-sounding job title is one of the most common points of confusion in healthcare hiring, and the pay gap between the two makes the distinction worth spelling out. A medical assistant typically needs a postsecondary certificate, and some enter the field with just a high school diploma plus on-the-job training, no state license is required in most states, and BLS reports a May 2025 median of $45,690. This site\'s [physician assistant salary guide](/physician-assistant-salary/) covers a role that shares a shortened name but almost nothing else: PAs must complete a master\'s-level program of roughly two to three years after a bachelor\'s degree, pass a national certifying exam, and hold a state license to diagnose patients and prescribe medication, and BLS reports their May 2025 median at $135,880, about three times the medical assistant figure.',
-					'For a closer comparison at a similar entry point, this site\'s [dental assistant salary guide](/dental-assistant-salary/) covers another allied health role that people enter through a certificate program of about a year or through on-the-job training, with a May 2024 median of $47,300, about $1,610 above the medical assistant median (the two occupations\' BLS data now come from different annual cycles, since this page reflects a newer May 2025 update). Both roles typically take under a year to enter through a certificate program or employer training, and neither requires a state license to practice in most states, though some states require certification for specific expanded duties in each field. This site\'s [LPN salary guide](/lpn-salary/) tracks a role at the same entry-education tier that also requires passing a licensing exam, and BLS reports a considerably higher $64,400 median for May 2025, an $18,710 gap over medical assistants despite both occupations sharing the postsecondary-nondegree entry bar. At the far end of the pay scale among radiation-oncology roles this site tracks, this site\'s [medical dosimetrist salary guide](/medical-dosimetrist-salary/) reports a $147,470 median, more than three times the medical assistant figure above.',
+					'For a closer comparison at a similar entry point, this site\'s [dental assistant salary guide](/dental-assistant-salary/) covers another allied health role that people enter through a certificate program of about a year or through on-the-job training, with a May 2025 median of $48,070, about $1,610 above the medical assistant median (the two occupations\' BLS data now come from different annual cycles, since this page reflects a newer May 2025 update). Both roles typically take under a year to enter through a certificate program or employer training, and neither requires a state license to practice in most states, though some states require certification for specific expanded duties in each field. This site\'s [LPN salary guide](/lpn-salary/) tracks a role at the same entry-education tier that also requires passing a licensing exam, and BLS reports a considerably higher $64,400 median for May 2025, an $18,710 gap over medical assistants despite both occupations sharing the postsecondary-nondegree entry bar. At the far end of the pay scale among radiation-oncology roles this site tracks, this site\'s [medical dosimetrist salary guide](/medical-dosimetrist-salary/) reports a $147,470 median, more than three times the medical assistant figure above.',
 				],
 			},
 		],
@@ -1626,7 +1626,7 @@ export const guides: Guide[] = [
 				heading: 'CNA pay next to other quick-entry healthcare roles',
 				body: [
 					'Within the same BLS occupational family, nursing assistants and orderlies are two different jobs with two different entry bars and two different median wages. Orderlies, who transport patients and clean treatment areas rather than provide direct patient care, typically need only a high school diploma or equivalent plus a short period of on-the-job training, and do not need a state license or registry listing. BLS puts their median annual wage at $38,290, about $3,970 below the $42,260 nursing assistants earn for taking on the state-approved training, competency exam, and registry requirement that orderlies do not.',
-					'Against roles that require more formal postsecondary training, the CNA path still trails on pay but not by as much as the training-length gap might suggest. [Medical assistants](/medical-assistant-salary/), who typically complete a postsecondary certificate or degree program, have a BLS median annual wage of $45,690, about $3,430 (roughly 8%) above nursing assistants. [Phlebotomists](/how-to-become-a-phlebotomist/), whose entry path runs through either a sub-year certificate program or, in some states, direct on-the-job training, have a BLS median of $43,660, about $1,400 (roughly 3%) above nursing assistants. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one of these paths is the better choice for a given person.',
+					'Against roles that require more formal postsecondary training, the CNA path still trails on pay but not by as much as the training-length gap might suggest. [Medical assistants](/medical-assistant-salary/), who typically complete a postsecondary certificate or degree program, have a BLS median annual wage of $45,690, about $3,430 (roughly 8%) above nursing assistants. [Phlebotomists](/how-to-become-a-phlebotomist/), whose entry path runs through either a sub-year certificate program or, in some states, direct on-the-job training, have a BLS median of $45,230, about $1,400 (roughly 3%) above nursing assistants. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one of these paths is the better choice for a given person.',
 				],
 			},
 		],
@@ -1714,7 +1714,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook, and how this compares to other roles with the same entry requirement',
 				body: [
 					'BLS projects 9% employment growth for respiratory therapists from 2025 to 2035, adding an estimated 12,100 jobs and about 8,600 openings a year on average. Many of those annual openings, per BLS, are expected to come from workers transferring to other occupations or leaving the labor force, such as to retire; newly created positions account for a smaller share of the total. BLS attributes the underlying growth mainly to an aging population, which it expects to increase the prevalence of respiratory conditions such as pneumonia, chronic obstructive pulmonary disease (COPD), and other disorders that restrict lung function, in turn raising demand for respiratory therapy services.',
-					"That 9% figure is worth putting next to other roles on this site that share the same typical entry-level education, an associate's degree, since the growth rates for that group vary widely despite the similar training bar. [Dental hygienists](/dental-hygienist-salary/), who carry a higher median wage of $98,100, are projected to grow 8%. [Radiologic technologists](/radiology-tech-salary/), with a median of $77,660 close to this occupation's figure, are projected to grow just 4%, the slowest of the three. Respiratory therapists sit well above both, though the reasons a demand-side BLS projection differs across occupations with the same entry credential are not something BLS itself explains on any of these pages. Outside that associate's-degree group entirely, [massage therapy](/massage-therapist-salary/), which BLS lists at a lighter postsecondary-nondegree-award entry bar, posts a faster 15% growth rate than any of the three, though its $58,450 median trails this occupation's by more than $20,000.",
+					"That 9% figure is worth putting next to other roles on this site that share the same typical entry-level education, an associate's degree, since the growth rates for that group vary widely despite the similar training bar. [Dental hygienists](/dental-hygienist-salary/), who carry a higher median wage of $98,100, are projected to grow 8%. [Radiologic technologists](/radiology-tech-salary/), with a median of $80,110 close to this occupation's figure, are projected to grow just 4%, the slowest of the three. Respiratory therapists sit well above both, though the reasons a demand-side BLS projection differs across occupations with the same entry credential are not something BLS itself explains on any of these pages. Outside that associate's-degree group entirely, [massage therapy](/massage-therapist-salary/), which BLS lists at a lighter postsecondary-nondegree-award entry bar, posts a faster 15% growth rate than any of the three, though its $58,450 median trails this occupation's by more than $20,000.",
 					"BLS's growth projection describes the healthcare system's aggregate demand for this occupation nationally; it is not a forecast about any specific hospital, region, or individual's job security, employer, or pay trajectory. Someone evaluating a specific offer or program should weigh this figure alongside local job market conditions and program-specific placement data. On its own, the number is not a guarantee.",
 				],
 			},
@@ -2011,24 +2011,24 @@ export const guides: Guide[] = [
 		slug: 'truck-driver-salary',
 		category: 'Salary Guide',
 		title: 'Truck Driver Salary: BLS Wage Data by Percentile (2026)',
-		description: 'BLS puts the median truck driver salary at $57,440 a year, with 4% growth projected through 2034. Here is the full wage range by percentile and by industry.',
+		description: 'BLS puts the median truck driver salary at $58,640 a year, with 4% growth projected through 2035. Here is the full wage range by percentile and by industry.',
 		published: '2026-08-12',
 		updated: '2026-10-12',
 		socCode: '53-3032',
-		coreSummary: 'The median annual wage for heavy and tractor-trailer truck drivers was $57,440 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $38,640 while the top 10% earned more than $78,800. BLS projects 4% employment growth from 2024 to 2034, about as fast as the roughly 3% average across all occupations, adding an estimated 89,300 jobs.',
+		coreSummary: 'The median annual wage for heavy and tractor-trailer truck drivers was $58,640 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $40,140 while the top 10% earned more than $79,380. BLS projects 4% employment growth from 2025 to 2035, about as fast as the roughly 3% average across all occupations, adding an estimated 83,800 jobs.',
 		sections: [
 			{
 				heading: 'What truck drivers earn, and how wide the pay spread runs',
 				body: [
-					'BLS tracks this role under SOC code 53-3032, which covers drivers who operate a tractor-trailer combination or a truck with a total weight of at least 26,000 pounds, most often on long-haul routes that can span several states. For May 2024, BLS reported a median annual wage of $57,440, or $27.62 an hour, across the roughly 2,235,100 people employed as heavy and tractor-trailer truck drivers nationwide. The bottom 10% earned less than $38,640 a year, while the top 10% earned more than $78,800, a spread of about $40,000. BLS attributes that range broadly to factors such as employer type, route length, cargo type, and years of experience, without assigning a specific weight to any one factor.',
-					"BLS also places truck drivers against two broader groupings on the same page. The median across all motor vehicle operators was $48,660, and the median across all occupations in the economy was $49,500. Truck drivers sit above both figures at the median, though BLS does not explain how much of that gap owes to the physical demands of long-haul work versus the commercial license requirement or other factors.",
-					'On growth, BLS projects 4% employment growth for truck drivers from 2024 to 2034, compared with 5% for motor vehicle operators as a group and roughly 3% for all occupations combined. BLS classifies the outlook as "about as fast as average," a middle-of-the-pack projection compared with the stronger growth BLS reports for some of the skilled trades this site has covered.',
+					'BLS tracks this role under SOC code 53-3032, which covers drivers who operate a tractor-trailer combination or a truck with a total weight of at least 26,000 pounds, most often on long-haul routes that can span several states. For May 2025, BLS reported a median annual wage of $58,640, or $28.19 an hour, across the roughly 2,221,200 people employed as heavy and tractor-trailer truck drivers nationwide. The bottom 10% earned less than $40,140 a year, while the top 10% earned more than $79,380, a spread of about $40,000. BLS attributes that range broadly to factors such as employer type, route length, cargo type, and years of experience, without assigning a specific weight to any one factor.',
+					"BLS also places truck drivers against two broader groupings on the same page. The median across all motor vehicle operators was $48,660, and the median across all occupations in the economy was $50,980. Truck drivers sit above both figures at the median, though BLS does not explain how much of that gap owes to the physical demands of long-haul work versus the commercial license requirement or other factors.",
+					'On growth, BLS projects 4% employment growth for truck drivers from 2025 to 2035, compared with 5% for motor vehicle operators as a group and roughly 3% for all occupations combined. BLS classifies the outlook as "about as fast as average," a middle-of-the-pack projection compared with the stronger growth BLS reports for some of the skilled trades this site has covered.',
 				],
 			},
 			{
 				heading: 'Industry pay differences, and how drivers are actually paid',
 				body: [
-					'BLS breaks out May 2024 wages by industry for truck drivers into four categories. Truck transportation, the industry BLS says employs 40% of drivers (the largest single share by far), paid the highest median at $59,570. Wholesale trade followed at $57,260, then manufacturing at $54,860 and construction at $54,170. BLS does not explain the ranking beyond publishing the figures, so readers should treat it as descriptive, not as a guarantee that switching industries alone would raise a given driver\'s pay, since route type, employer size, and region were not isolated in this survey.',
+					'BLS breaks out May 2025 wages by industry for truck drivers into four categories. Truck transportation, the industry BLS says employs 40% of drivers (the largest single share by far), paid the highest median at $60,320. Wholesale trade followed at $58,550, then manufacturing at $56,570 and construction at $56,080. BLS does not explain the ranking beyond publishing the figures, so readers should treat it as descriptive, not as a guarantee that switching industries alone would raise a given driver\'s pay, since route type, employer size, and region were not isolated in this survey.',
 					"Unlike most occupations on this site, BLS describes truck driver pay as structured around miles driven rather than a flat hourly or salaried rate. Drivers are typically paid by the mile, plus bonuses, and the per-mile rate varies by employer and can depend on the type of cargo hauled and the driver's experience, according to BLS. Some long-distance drivers, particularly owner-operators who buy or lease their own trucks and run an independent business, are instead paid a share of the revenue from a shipment. BLS does not publish a separate wage line for owner-operators, so the percentile figures above describe the broader employed workforce, not self-employed drivers running their own operation.",
 					'On who employs these drivers, BLS lists truck transportation at 40%, wholesale trade at 12%, manufacturing at 7%, self-employed workers at 7%, and construction at 6%, with the remainder spread across smaller categories the Handbook page does not break out individually.',
 				],
@@ -2038,13 +2038,13 @@ export const guides: Guide[] = [
 				body: [
 					"BLS Quick Facts list the typical entry-level education for truck drivers as a postsecondary nondegree award, though the Handbook's narrative description says most companies simply require a high school diploma or equivalent, plus completion of a professional truck driving school. BLS says these training programs run 3 to 6 months at either a private driving school or a community college, and cover both vehicle handling and the federal laws governing interstate trucking; graduates receive a certificate of completion rather than a degree.",
 					'All long-haul drivers must hold a commercial driver\'s license (CDL). Qualifications vary by state but generally include a knowledge test and a driving test, per BLS, and a state can refuse to issue a CDL to someone whose license was suspended by another state. Drivers who haul hazardous materials need an additional H endorsement, which BLS says requires passing a further knowledge test and a background check. After finishing driving school and getting hired, BLS says new drivers typically spend several weeks in on-the-job training, riding with an experienced mentor-driver before driving solo.',
-					"For readers comparing entry paths that skip a bachelor's degree, truck drivers sit below some of the other trades this site has covered. [Electricians](/electrician-salary/) require a 4- or 5-year apprenticeship and post a higher May 2025 median of $63,190, while [firefighters](/firefighter-salary/) share the same postsecondary-nondegree-award classification from BLS and post a May 2025 median of $59,280, just above the truck-driver figure from May 2024. BLS does not track how apprenticeship length, licensing requirements, or industry mix account for the differences between these three occupations.",
+					"For readers comparing entry paths that skip a bachelor's degree, truck drivers sit below some of the other trades this site has covered. [Electricians](/electrician-salary/) require a 4- or 5-year apprenticeship and post a higher May 2025 median of $63,190, while [firefighters](/firefighter-salary/) share the same postsecondary-nondegree-award classification from BLS and post a May 2025 median of $59,280, just above the truck-driver figure from May 2025. BLS does not track how apprenticeship length, licensing requirements, or industry mix account for the differences between these three occupations.",
 				],
 			},
 			{
 				heading: 'Job outlook, and the federal rules that govern the job',
 				body: [
-					'BLS projects 4% employment growth for truck drivers from 2024 to 2034, adding an estimated 89,300 jobs and about 237,600 openings a year on average. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions alone. BLS ties underlying demand to growth in household and business spending, since trucks move most of the freight in the United States.',
+					'BLS projects 4% employment growth for truck drivers from 2025 to 2035, adding an estimated 83,800 jobs and about 214,500 openings a year on average. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions alone. BLS ties underlying demand to growth in household and business spending, since trucks move most of the freight in the United States.',
 					'BLS also flags that heavy and tractor-trailer truck drivers have one of the highest rates of injuries and illnesses of all occupations, along with one of the highest rates of occupational fatalities, tied to the risk of traffic accidents. Federal Motor Carrier Safety Administration rules, which BLS cites directly, normally prohibit driving beyond the 14th consecutive hour after coming on duty, after 10 consecutive hours off, and allow at most 11 driving hours within that window. A 30-minute interruption is required after 8 cumulative driving hours without such a break. Driving is also prohibited after 60 hours on duty in 7 days or 70 in 8 days. A driver may restart that 7- or 8-day period with at least 34 consecutive hours off; a restart is optional. FMCSA lists separate sleeper-berth provisions and exceptions, including adverse conditions and short-haul operations.',
 					"These are national figures, and BLS does not break them down by specific carrier, freight lane, or region. A driver comparing training programs would need to weigh the placement record and freight demand of that specific school or carrier separately, since the 4% outlook describes the occupation nationwide rather than any one route or employer.",
 				],
@@ -2053,15 +2053,15 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average truck driver salary?',
-				answer: 'Per BLS, this occupation cleared a $57,440 median in May 2024, or $27.62 an hour. Half the workforce made more than that figure and half made less.',
+				answer: 'Per BLS, this occupation cleared a $58,640 median in May 2025, or $28.19 an hour. Half the workforce made more than that figure and half made less.',
 			},
 			{
 				question: 'What is the highest-paying industry for truck drivers?',
-				answer: "The trucking-carrier segment itself, BLS's top-paying category for this role, led the group at $59,570 for May 2024, ahead of wholesale trade ($57,260), manufacturing ($54,860), and construction ($54,170).",
+				answer: "The trucking-carrier segment itself, BLS's top-paying category for this role, led the group at $60,320 for May 2025, ahead of wholesale trade ($58,550), manufacturing ($56,570), and construction ($56,080).",
 			},
 			{
 				question: 'How much do the lowest- and highest-paid truck drivers make?',
-				answer: "BLS reports that the bottom 10% in this line of work started below $38,640 annually in May 2024, while the highest-paid tenth cleared $78,800. BLS chalks the gap up to differences like who a driver works for, how long their routes run, and years on the job, without isolating one cause.",
+				answer: "BLS reports that the bottom 10% in this line of work started below $40,140 annually in May 2025, while the highest-paid tenth cleared $79,380. BLS chalks the gap up to differences like who a driver works for, how long their routes run, and years on the job, without isolating one cause.",
 			},
 			{
 				question: 'Do truck drivers need a CDL?',
@@ -2069,26 +2069,26 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is truck driving a growing occupation?',
-				answer: 'Modestly, per BLS: 4% projected employment growth between 2024 and 2034, close to the U.S. economy-wide pace, with roughly 89,300 new jobs expected and an average of some 237,600 yearly openings. Most of those openings trace back to people leaving the occupation, not brand-new roles being added.',
+				answer: 'Modestly, per BLS: 4% projected employment growth between 2024 and 2034, close to the U.S. economy-wide pace, with roughly 89,300 new jobs expected and an average of some 214,500 yearly openings. Most of those openings trace back to people leaving the occupation, not brand-new roles being added.',
 			},
 			{
 				question: 'Can a truck driver make $100,000 a year?',
-				answer: 'Not typically, per national BLS data. The highest-paid tenth of drivers in this occupation cleared $78,800 a year in May 2024, the top decile BLS publishes here, still short of $100,000. That figure reflects the broad occupation as surveyed nationally; it does not separately break out owner-operators or specialized hauling niches that can pay more.',
+				answer: 'Not typically, per national BLS data. The highest-paid tenth of drivers in this occupation cleared $79,380 a year in May 2025, the top decile BLS publishes here, still short of $100,000. That figure reflects the broad occupation as surveyed nationally; it does not separately break out owner-operators or specialized hauling niches that can pay more.',
 			},
 			{
 				question: 'Does Walmart pay new truck drivers $110,000 a year?',
-				answer: "Walmart says yes, for its own Private Fleet, not for the trucking occupation as a whole. The company's 2026 Jobs Spotlight Report puts average base pay for Walmart and Sam's Club over-the-road drivers at more than $109,000 over the past year, as of the end of its FY27 Q1, in line with the up-to-$110,000 first-year pay it advertised when it launched the Private Fleet Development Program. That figure covers one large private employer, well above the $57,440 national median BLS reports across the occupation as a whole, so it isn't a stand-in for typical industry-wide pay.",
+				answer: "Walmart says yes, for its own Private Fleet, not for the trucking occupation as a whole. The company's 2026 Jobs Spotlight Report puts average base pay for Walmart and Sam's Club over-the-road drivers at more than $109,000 over the past year, as of the end of its FY27 Q1, in line with the up-to-$110,000 first-year pay it advertised when it launched the Private Fleet Development Program. That figure covers one large private employer, well above the $58,640 national median BLS reports across the occupation as a whole, so it isn't a stand-in for typical industry-wide pay.",
 			},
 		],
 		sources: [
 			{ label: 'FMCSA: property-carrying hours-of-service limits and optional restart (checked 2026-10-12)', url: 'https://www.fmcsa.dot.gov/regulations/hours-service/summary-hours-service-regulations' },
 
-			{ label: 'BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers (accessed 2026-08-12 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Heavy and Tractor-trailer Truck Drivers (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm' },
 			{ label: 'Federal Motor Carrier Safety Administration (U.S. Department of Transportation)', url: 'https://www.fmcsa.dot.gov/' },
 			{ label: "Walmart Corporate: 2026 Jobs Spotlight Report, Private Fleet Driver base pay (accessed 2026-09-17 via direct fetch, returned 200, data as of the end of FY27 Q1)", url: 'https://corporate.walmart.com/news/2026/07/16/2026-jobs-spotlight-report' },
 		],
 		image: '/images/truck-driver-salary-chart.svg',
-		imageAlt: 'Bar chart showing heavy and tractor-trailer truck driver annual wage by percentile: 10th percentile $38,640, median $57,440, 90th percentile $78,800, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing heavy and tractor-trailer truck driver annual wage by percentile: 10th percentile $40,140, median $58,640, 90th percentile $79,380, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'welder-salary',
@@ -2176,7 +2176,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2025 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
 			{ label: 'CareerOneStop (U.S. Department of Labor)', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx?newsearch=true' },
 			{ label: 'American Welding Society: Certified Welder (CW) Program FAQ (accessed 2026-08-27 via direct fetch)', url: 'https://www.aws.org/certification-and-education/professional-certification/certified-welder-program/' },
 			{ label: 'American Welding Society: Certified Welding Inspector (CWI) Program (accessed 2026-08-27 via direct fetch, exam pass score independently corroborated by third-party CWI exam-prep sources)', url: 'https://www.aws.org/certification-and-education/professional-certification/certified-welding-inspector/' },
@@ -2189,11 +2189,11 @@ export const guides: Guide[] = [
 		slug: 'how-to-become-a-paralegal',
 		category: 'How to Become',
 		title: 'How to Become a Paralegal: Education, Certification, and Pay',
-		description: "BLS data on the education path most paralegals take, what NALA and NFPA certification exams require, and median pay of $61,010 a year broken out by industry.",
+		description: "BLS data on the education path most paralegals take, what NALA and NFPA certification exams require, and median pay of $62,890 a year broken out by industry.",
 		published: '2026-08-13',
 		updated: '2026-10-12',
 		socCode: '23-2011',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, most paralegals and legal assistants enter the field through an associate's degree or certificate in paralegal studies. BLS reports a median annual wage of $61,010 in May 2024, with the bottom 10% earning less than $39,710 and the top 10% earning more than $98,990. Traditional lawyer-supervised paralegal work has no general national licensing exam; NALA and NFPA offer voluntary credentials. Separate licensed roles exist, including Oregon Licensed Paralegals with limited independent practice rights.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, most paralegals and legal assistants enter the field through an associate's degree or certificate in paralegal studies. BLS reports a median annual wage of $62,890 in May 2025, with the bottom 10% earning less than $44,740 and the top 10% earning more than $101,500. Traditional lawyer-supervised paralegal work has no general national licensing exam; NALA and NFPA offer voluntary credentials. Separate licensed roles exist, including Oregon Licensed Paralegals with limited independent practice rights.",
 		sections: [
 			{
 				heading: 'How most paralegals get in the door',
@@ -2204,7 +2204,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/paralegal-career-path.svg',
-					alt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. Traditional supervised work differs from limited independent-practice licensing, such as Oregon Licensed Paralegals.",
+					alt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $62,890 a year, with optional voluntary certification through NALA or NFPA. Traditional supervised work differs from limited independent-practice licensing, such as Oregon Licensed Paralegals.",
 				},
 			},
 			{
@@ -2218,14 +2218,14 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the job pays, once you get there',
 				body: [
-					"BLS reports a median annual wage of $61,010 for paralegals and legal assistants in May 2024, or $29.33 an hour. The bottom 10% earned less than $39,710, and the top 10% earned more than $98,990, a spread of roughly $59,000. Pay also varies substantially by industry, with federal government roles paying the highest median tracked and state government the lowest; for the full industry-by-industry breakdown and a closer look at what the day-to-day work involves, see [what does a paralegal do](/what-does-a-paralegal-do/).",
+					"BLS reports a median annual wage of $62,890 for paralegals and legal assistants in May 2025, or $30.24 an hour. The bottom 10% earned less than $44,740, and the top 10% earned more than $101,500, a spread of roughly $59,000. Pay also varies substantially by industry, with federal government roles paying the highest median tracked and state government the lowest; for the full industry-by-industry breakdown and a closer look at what the day-to-day work involves, see [what does a paralegal do](/what-does-a-paralegal-do/).",
 					"Against the shortest entry path this site has covered, [becoming a CNA](/how-to-become-a-cna/) describes a 75-hour federal training minimum for covered nursing-home work rather than a multi-year degree, and BLS puts the median nursing assistant wage at $42,260, about $18,750 below the paralegal figure above. Whether the extra years of schooling are worth that gap depends on a reader's own finances and goals, a call this site's national wage figures are not built to make.",
 				],
 			},
 			{
-				heading: "What flat growth doesn't tell you: 39,300 openings a year, and why",
+				heading: "What flat growth doesn't tell you: 40,800 openings a year, and why",
 				body: [
-					'BLS projects essentially flat employment for paralegals and legal assistants from 2024 to 2034, describing the outlook as "little or no change," but flat growth doesn\'t mean a closed job market: BLS still counts roughly 39,300 openings a year on average, most of them from replacing workers who leave the field, not from newly created positions. See this site\'s [what a paralegal does](/what-does-a-paralegal-do/) page for the full growth breakdown and how it stacks up against other occupations covered here. A faster-growing, shorter-training occupation by comparison, this site\'s [flight attendant training guide](/how-to-become-a-flight-attendant/) covers FAA-mandated certification with 9% growth projected through 2035, per BLS.',
+					'BLS projects essentially flat employment for paralegals and legal assistants from 2025 to 2035, describing the outlook as "little or no change," but flat growth doesn\'t mean a closed job market: BLS still counts roughly 40,800 openings a year on average, most of them from replacing workers who leave the field, not from newly created positions. See this site\'s [what a paralegal does](/what-does-a-paralegal-do/) page for the full growth breakdown and how it stacks up against other occupations covered here. A faster-growing, shorter-training occupation by comparison, this site\'s [flight attendant training guide](/how-to-become-a-flight-attendant/) covers FAA-mandated certification with 9% growth projected through 2035, per BLS.',
 					"BLS attributes part of the limited growth specifically to technology, stating that advances including artificial intelligence are expected to make paralegals and legal assistants more efficient at tasks such as conducting research and preparing documents, which may reduce demand for these workers going forward. That is a more specific, technology-driven explanation than BLS gives for most occupations on this site.",
 					"On its \"Similar Occupations\" table, BLS lists lawyers at a 2024 median of $151,160, which requires a doctoral or professional degree, and secretaries and administrative assistants at $47,460, which requires only a high school diploma. The paralegal role sits between those two entry-education tiers on both pay and required schooling, a middle position that lines up with the mix of entry paths described above.",
 				],
@@ -2246,7 +2246,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Does flat job growth mean paralegal openings are scarce?',
-				answer: 'No. Even with a 2024-to-2034 employment forecast that BLS sums up as essentially flat, the agency still puts yearly openings at around 39,300 on average, mostly turnover as people leave the occupation, not fresh positions being added. BLS separately notes that AI and similar tools may further limit growth by speeding up how quickly paralegals handle research and document work, a more pointed reason than the agency typically volunteers.',
+				answer: 'No. Even with a 2025-to-2035 employment forecast that BLS sums up as essentially flat, the agency still puts yearly openings at around 39,300 on average, mostly turnover as people leave the occupation, not fresh positions being added. BLS separately notes that AI and similar tools may further limit growth by speeding up how quickly paralegals handle research and document work, a more pointed reason than the agency typically volunteers.',
 			},
 			{
 				question: "What is the difference between a paralegal certificate and a paralegal degree?",
@@ -2258,18 +2258,18 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What do paralegals get paid?',
-				answer: 'The typical paralegal earned $61,010 a year as of BLS\'s May 2024 data. Pay stretched from under $39,710 for the lowest-paid tenth up past $98,990 for the highest-paid tenth.',
+				answer: 'The typical paralegal earned $62,890 a year as of BLS\'s May 2025 data. Pay stretched from under $44,740 for the lowest-paid tenth up past $101,500 for the highest-paid tenth.',
 			},
 		],
 		sources: [
 			{ label: 'Oregon State Bar: Licensed Paralegals in housing and family law (checked 2026-10-12)', url: 'https://www.osbar.org/lp' },
 
-			{ label: 'BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (accessed 2026-08-13 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Paralegals and Legal Assistants (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm' },
 			{ label: 'NALA (National Association of Legal Assistants): Eligibility Requirements for Certification, Category 1 and Category 3', url: 'https://nala.org/eligibility-requirements-for-certification/' },
 			{ label: 'NFPA (National Federation of Paralegal Associations): Paralegal Certification and PACE/PCCE Eligibility', url: 'https://www.paralegals.org/page/paralegal-certification' },
 		],
 		image: '/images/paralegal-career-path.svg',
-		imageAlt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $61,010 a year, with optional voluntary certification through NALA or NFPA. Traditional supervised work differs from limited independent-practice licensing, such as Oregon Licensed Paralegals.",
+		imageAlt: "Diagram showing the path to becoming a paralegal: associate's degree or certificate in paralegal studies (or a bachelor's degree plus certificate, or on-the-job training), leading to an entry-level paralegal position at a median of $62,890 a year, with optional voluntary certification through NALA or NFPA. Traditional supervised work differs from limited independent-practice licensing, such as Oregon Licensed Paralegals.",
 	},
 	{
 		slug: 'how-to-become-an-electrician',
@@ -2348,7 +2348,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Electricians (data from May 2025, synced 2026-09-23 to match this site\'s electrician salary page, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/construction-and-extraction/electricians.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Electricians (data from May 2025, synced 2026-09-23 to match this site\'s electrician salary page, superseding the May 2025 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/construction-and-extraction/electricians.htm' },
 			{ label: 'IEC (Independent Electrical Contractors): Electrical Apprenticeships', url: 'https://ieci.org/apprenticeship/' },
 			{ label: 'IBEW Local 81: Aptitude Test (Electrical Training Alliance test structure and scoring)', url: 'https://ibew81.org/content/aptitude-test' },
 			{ label: 'Apprenticeship.gov: Occupation Finder, Electricians (47-2111.00)', url: 'https://www.apprenticeship.gov/apprenticeship-occupations/listings?occupationCode=47-2111.00' },
@@ -2519,11 +2519,11 @@ export const guides: Guide[] = [
 		slug: 'how-long-does-it-take-to-become-a-lawyer',
 		category: 'How to Become',
 		title: 'How Long Does It Take to Become a Lawyer? Degree, LSAT, Bar Exam',
-		description: 'BLS puts the typical path at 7 years: 4 years of undergraduate study plus 3 years of law school, then a state bar exam. Median pay is $151,160 a year.',
+		description: 'BLS puts the typical path at 7 years: 4 years of undergraduate study plus 3 years of law school, then a state bar exam. Median pay is $159,670 a year.',
 		published: '2026-08-17',
 		updated: '2026-10-12',
 		socCode: '23-1011',
-		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a lawyer usually takes 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school for a Juris Doctor (J.D.). That degree alone does not permit anyone to practice; every state requires admission to practice, usually through a bar exam, with exceptions such as Wisconsin diploma privilege. BLS reports a median annual lawyer salary of $151,160 in May 2024, with the bottom 10% earning less than $72,780 and the top 10% earning more than $239,200.',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a lawyer usually takes 7 years of full-time study after high school: 4 years of undergraduate study followed by 3 years of law school for a Juris Doctor (J.D.). That degree alone does not permit anyone to practice; every state requires admission to practice, usually through a bar exam, with exceptions such as Wisconsin diploma privilege. BLS reports a median annual lawyer salary of $159,670 in May 2025, with the bottom 10% earning less than $78,360 and the top 10% earning more than $351,600.',
 		sections: [
 			{
 				heading: 'The 7-year timeline BLS actually gives',
@@ -2533,7 +2533,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/lawyer-education-path.svg',
-					alt: "Diagram showing the path to becoming a lawyer: a 4-year bachelor's degree, a 3-year Juris Doctor at an accredited law school, and a state bar exam, leading to a licensed lawyer earning a median of $151,160 a year per BLS.",
+					alt: "Diagram showing the path to becoming a lawyer: a 4-year bachelor's degree, a 3-year Juris Doctor at an accredited law school, and a state bar exam, leading to a licensed lawyer earning a median of $159,670 a year per BLS.",
 				},
 			},
 			{
@@ -2554,8 +2554,8 @@ export const guides: Guide[] = [
 			{
 				heading: 'What the extra years buy, against other long-training paths on this site',
 				body: [
-					'BLS reports a median annual wage of $151,160 for lawyers in May 2024, or $72.67 an hour. The bottom 10% earned less than $72,780, and the top 10% earned more than $239,200, a top-coded reporting threshold rather than a maximum lawyer wage; that data excludes self-employed lawyers and law-firm owners or partners. By industry, BLS lists federal government roles at the highest median it tracks, $174,680, ahead of legal services (the largest employer segment) at $143,470, local government excluding education and hospitals at $125,180, and state government excluding education and hospitals at $111,280, the lowest of the four. BLS projects 4% employment growth for lawyers from 2024 to 2034, which it classifies as about as fast as average, adding roughly 31,500 openings a year, most from the need to replace workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
-					"Against other occupations on this site that require a doctoral or professional degree, the lawyer figure sits at the top of the group: [pharmacists](/pharmacist-salary/), who need a Doctor of Pharmacy (PharmD), post a lower BLS median of $140,910, and [physical therapists](/how-to-become-a-physical-therapist/), who need a three-year Doctor of Physical Therapy after a bachelor's degree plus a licensing exam, post $102,760. [Paralegals](/how-to-become-a-paralegal/), whose BLS page lists lawyers as a comparison point precisely because paralegals support them without being licensed to practice law, post a considerably lower median of $61,010 on an associate's-degree or certificate entry path. None of these comparisons account for a reader's own state, practice area, or years of experience, and BLS's national medians are not built to say which path is the better financial bet for any one person. For a field on a different degree track, this site's guide to [becoming a software engineer](/how-to-become-a-software-engineer/) covers the degree, path, and pay.",
+					'BLS reports a median annual wage of $159,670 for lawyers in May 2025, or $76.76 an hour. The bottom 10% earned less than $78,360, and the top 10% earned more than $351,600, a top-coded reporting threshold rather than a maximum lawyer wage; that data excludes self-employed lawyers and law-firm owners or partners. By industry, BLS lists federal government roles at the highest median it tracks, $178,380, ahead of legal services (the largest employer segment) at $157,870, local government excluding education and hospitals at $131,390, and state government excluding education and hospitals at $115,330, the lowest of the four. BLS projects 5% employment growth for lawyers from 2025 to 2035, adding about 40,600 jobs. It projects roughly 28,700 openings each year, most from the need to replace workers who transfer to other occupations or leave the labor force, most from the need to replace workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
+					"Against other occupations on this site that require a doctoral or professional degree, the lawyer figure sits at the top of the group: [pharmacists](/pharmacist-salary/), who need a Doctor of Pharmacy (PharmD), post a lower BLS median of $140,910, and [physical therapists](/how-to-become-a-physical-therapist/), who need a three-year Doctor of Physical Therapy after a bachelor's degree plus a licensing exam, post $102,760. [Paralegals](/how-to-become-a-paralegal/), whose BLS page lists lawyers as a comparison point precisely because paralegals support them without being licensed to practice law, post a considerably lower median of $62,890 on an associate's-degree or certificate entry path. None of these comparisons account for a reader's own state, practice area, or years of experience, and BLS's national medians are not built to say which path is the better financial bet for any one person. For a field on a different degree track, this site's guide to [becoming a software engineer](/how-to-become-a-software-engineer/) covers the degree, path, and pay.",
 				],
 			},
 		],
@@ -2574,24 +2574,24 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What is the highest-paying industry for lawyers?',
-				answer: "Federal government jobs top BLS's May 2024 list at a $174,680 median. Legal services, where most lawyers actually work, comes in lower at $143,470, followed by local government at $125,180, with state government trailing the pack at $111,280.",
+				answer: "Federal government jobs top BLS's May 2025 list at a $178,380 median. Legal services, where most lawyers actually work, comes in lower at $157,870, followed by local government at $131,390, with state government trailing the pack at $115,330.",
 			},
 			{
 				question: 'Is being a lawyer a growing career?',
-				answer: "Modestly. BLS puts the 2024-to-2034 growth rate at 4%, roughly in line with the economy-wide pace, translating to about 35,900 new jobs and, on average, well over 30,000 openings annually. Most of that turnover comes from lawyers retiring or moving into other work, not from the profession itself expanding.",
+				answer: "Modestly. BLS puts the 2025-to-2035 growth rate at 5%, roughly in line with the economy-wide pace, translating to about 35,900 new jobs and, on average, well over 30,000 openings annually. Most of that turnover comes from lawyers retiring or moving into other work, not from the profession itself expanding.",
 			},
 		],
 		sources: [
 			{ label: 'Wisconsin Court System: diploma privilege and July 2026 UBE adoption (checked 2026-10-12)', url: 'https://www.wicourts.gov/services/attorney/bar.htm' },
 			{ label: 'NCBE: legacy UBE and NextGen transition (checked 2026-10-12)', url: 'https://www.ncbex.org/exams/ube' },
 
-			{ label: 'BLS Occupational Outlook Handbook: Lawyers (accessed 2026-08-17 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/lawyers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Lawyers (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/legal/lawyers.htm' },
 			{ label: 'NCBE (National Conference of Bar Examiners): UBE Jurisdictions (checked 2026-08-17)', url: 'https://www.ncbex.org/exams/ube' },
 			{ label: 'LSAC (Law School Admission Council): LSAT Scoring', url: 'https://www.lsac.org/lsat/lsat-scoring' },
 			{ label: 'State Bar of California: Legal Education at a Fixed-Facility Law School', url: 'https://www.calbar.ca.gov/admissions/requirements/education/legal-education/fixed-facility' },
 		],
 		image: '/images/lawyer-education-path.svg',
-		imageAlt: "Diagram showing the path to becoming a lawyer: a 4-year bachelor's degree, a 3-year Juris Doctor at an accredited law school, and a state bar exam, leading to a licensed lawyer earning a median of $151,160 a year per BLS.",
+		imageAlt: "Diagram showing the path to becoming a lawyer: a 4-year bachelor's degree, a 3-year Juris Doctor at an accredited law school, and a state bar exam, leading to a licensed lawyer earning a median of $159,670 a year per BLS.",
 	},
 	{
 		slug: 'hvac-certification',
@@ -2599,9 +2599,9 @@ export const guides: Guide[] = [
 		title: 'HVAC Certification: EPA 608 Requirements, Training, and Pay',
 		description: 'Federal law requires HVAC technicians to pass an EPA Section 608 exam before touching refrigerant. Here is what it covers, plus BLS training and pay data.',
 		published: '2026-08-18',
-		updated: '2026-08-18',
+		updated: '2026-10-12',
 		socCode: '49-9021',
-		coreSummary: "Federal law requires nearly all HVAC technicians to pass an EPA Section 608 exam before working with refrigerant, on top of whatever postsecondary training or apprenticeship gets them there. The exam has four types (Core plus Type I, II, III, or Universal), and the credential does not expire once earned. The U.S. Bureau of Labor Statistics reports a median annual wage of $59,810 for heating, air conditioning, and refrigeration mechanics and installers in May 2024, with the bottom 10% earning less than $39,130 and the top 10% earning more than $91,020.",
+		coreSummary: "Federal law requires nearly all HVAC technicians to pass an EPA Section 608 exam before working with refrigerant, on top of whatever postsecondary training or apprenticeship gets them there. The exam has four types (Core plus Type I, II, III, or Universal), and the credential does not expire once earned. The U.S. Bureau of Labor Statistics reports a median annual wage of $61,010 for heating, air conditioning, and refrigeration mechanics and installers in May 2025, with the bottom 10% earning less than $40,050 and the top 10% earning more than $95,210.",
 		sections: [
 			{
 				heading: 'EPA Section 608: the certification federal law actually requires',
@@ -2611,7 +2611,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/hvac-certification-path.svg',
-					alt: 'Diagram showing the path to HVAC certification: a postsecondary program or apprenticeship, the EPA Section 608 exam (Core plus Type I, II, III, or Universal), an optional state or local license, and optional NATE or manufacturer certification, leading to an HVAC technician earning a median of $59,810 a year per BLS.',
+					alt: 'Diagram showing the path to HVAC certification: a postsecondary program or apprenticeship, the EPA Section 608 exam (Core plus Type I, II, III, or Universal), an optional state or local license, and optional NATE or manufacturer certification, leading to an HVAC technician earning a median of $61,010 a year per BLS.',
 				},
 			},
 			{
@@ -2625,15 +2625,15 @@ export const guides: Guide[] = [
 			{
 				heading: 'What HVAC technicians earn once certified',
 				body: [
-					'BLS reported a median annual wage of $59,810 for heating, air conditioning, and refrigeration mechanics and installers in May 2024, or $28.75 an hour. The bottom 10% earned less than $39,130, and the top 10% earned more than $91,020, a roughly $52,000 spread that reflects differences in experience, certification level, region, and employer, not any single factor BLS isolates. For comparison, BLS puts the broader installation, maintenance, and repair occupational group at a median of $58,230, and the median across all occupations in the economy at $49,500; HVAC technicians sit modestly above both.',
-					'BLS breaks out May 2024 wages by industry into four tracked categories. Wholesale trade paid the highest median at $65,760, followed by educational services (state, local, and private) at $60,960 and retail trade at $60,730. Plumbing, heating, and air-conditioning contractors, the industry that employs 70% of technicians in this occupation, paid the lowest of the four tracked categories, $58,750, close to but below the occupation-wide median.',
+					'BLS reported a median annual wage of $61,010 for heating, air conditioning, and refrigeration mechanics and installers in May 2025, or $29.33 an hour. The bottom 10% earned less than $40,050, and the top 10% earned more than $95,210, a roughly $52,000 spread that reflects differences in experience, certification level, region, and employer, not any single factor BLS isolates. For comparison, BLS puts the broader installation, maintenance, and repair occupational group at a median of $58,230, and the median across all occupations in the economy at $49,500; HVAC technicians sit modestly above both.',
+					'BLS breaks out May 2025 wages by industry into four tracked categories. Wholesale trade paid the highest median at $71,190, followed by educational services (state, local, and private) at $62,830 and retail trade at $62,520. Plumbing, heating, and air-conditioning contractors, the industry that employs 70% of technicians in this occupation, paid the lowest of the four tracked categories, $60,030, close to but below the occupation-wide median.',
 				],
 			},
 			{
 				heading: "Job outlook, and how it compares to other trades",
 				body: [
-					'BLS projects 8% employment growth for heating, air conditioning, and refrigeration mechanics and installers from 2024 to 2034, which it classifies as much faster than average, adding an estimated 34,500 jobs and about 40,100 openings a year on average over the decade. As with most occupations BLS tracks, many of those annual openings are expected to come from workers who transfer to other occupations or leave the labor force, such as to retire, rather than from newly created positions alone. BLS attributes underlying demand to commercial and residential building construction plus a growing number of sophisticated climate-control systems that need installing and servicing, along with rising emphasis on energy efficiency driving retrofits and replacements.',
-					"Against other no-bachelor's-degree trades this site has covered, HVAC's 8% growth rate trails the 9% BLS projects for [electricians](/how-to-become-an-electrician/), but comfortably outpaces the 4% BLS projects for [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/). On pay, HVAC's $59,810 median trails both of those trades, whose medians run in the low $62,000s after a comparably structured multi-year apprenticeship. [Becoming a CNA](/how-to-become-a-cna/) sits at the far end of the training-length spectrum, a federal minimum of 75 hours rather than a postsecondary program or apprenticeship, with a median of $42,260, well below any of the trades above. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one path pays better for a specific person once local demand, certification level, and years of experience are factored in. [What a millwright does](/what-does-a-millwright-do/), another trade this site covers, has its own duties, path, and BLS pay data page.",
+					'BLS projects 11% employment growth for heating, air conditioning, and refrigeration mechanics and installers from 2025 to 2035, which it classifies as much faster than average, adding an estimated 48,200 jobs and about 40,600 openings a year on average over the decade. As with most occupations BLS tracks, many of those annual openings are expected to come from workers who transfer to other occupations or leave the labor force, such as to retire, rather than from newly created positions alone. BLS attributes underlying demand to commercial and residential building construction plus a growing number of sophisticated climate-control systems that need installing and servicing, along with rising emphasis on energy efficiency driving retrofits and replacements.',
+					"Against other no-bachelor's-degree trades this site has covered, HVAC's 11% growth rate trails the 9% BLS projects for [electricians](/how-to-become-an-electrician/), but comfortably outpaces the 4% BLS projects for [plumbers, pipefitters, and steamfitters](/plumbing-apprenticeship/). On pay, HVAC's $61,010 median trails both of those trades, whose medians run in the low $62,000s after a comparably structured multi-year apprenticeship. [Becoming a CNA](/how-to-become-a-cna/) sits at the far end of the training-length spectrum, a federal minimum of 75 hours rather than a postsecondary program or apprenticeship, with a median of $42,260, well below any of the trades above. BLS data describes the aggregate labor market for each occupation; it is not a claim that any one path pays better for a specific person once local demand, certification level, and years of experience are factored in. [What a millwright does](/what-does-a-millwright-do/), another trade this site covers, has its own duties, path, and BLS pay data page.",
 				],
 			},
 		],
@@ -2656,15 +2656,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do HVAC technicians make?',
-				answer: 'As of May 2024, BLS lists median pay of $59,810 a year for HVAC technicians. The lowest-paid tenth made under $39,130, while the best-paid tenth cleared $91,020. Wholesale trade offered the best industry median among those BLS tracks, $65,760.',
+				answer: 'As of May 2025, BLS lists median pay of $61,010 a year for HVAC technicians. The lowest-paid tenth made under $40,050, while the best-paid tenth cleared $95,210. Wholesale trade offered the best industry median among those BLS tracks, $71,190.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Heating, Air Conditioning, and Refrigeration Mechanics and Installers (accessed 2026-08-18 via r.jina.ai reader proxy, direct fetch blocked by Akamai bot detection, data from May 2024)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Heating, Air Conditioning, and Refrigeration Mechanics and Installers (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/heating-air-conditioning-and-refrigeration-mechanics-and-installers.htm' },
 			{ label: 'U.S. EPA: Section 608 Technician Certification Requirements (accessed 2026-08-18 via r.jina.ai reader proxy)', url: 'https://www.epa.gov/section608/section-608-technician-certification-requirements' },
 		],
 		image: '/images/hvac-certification-path.svg',
-		imageAlt: 'Diagram showing the path to HVAC certification: a postsecondary program or apprenticeship, the EPA Section 608 exam (Core plus Type I, II, III, or Universal), an optional state or local license, and optional NATE or manufacturer certification, leading to an HVAC technician earning a median of $59,810 a year per BLS.',
+		imageAlt: 'Diagram showing the path to HVAC certification: a postsecondary program or apprenticeship, the EPA Section 608 exam (Core plus Type I, II, III, or Universal), an optional state or local license, and optional NATE or manufacturer certification, leading to an HVAC technician earning a median of $61,010 a year per BLS.',
 	},
 	{
 		slug: 'how-long-does-it-take-to-become-a-dentist',
@@ -2706,7 +2706,7 @@ export const guides: Guide[] = [
 				heading: 'Dentist pay, and where it lands among the other advanced-degree fields on this site',
 				body: [
 					'BLS reports a median annual wage of $176,110 for dentists in May 2025, or $84.67 an hour, a figure covering general dentists together with the smaller population of dental specialists. The bottom 10% earned less than $89,100, and the top 10% earned more than $337,210. By industry, BLS lists government roles, excluding state and local education and hospitals, at the highest median it tracks, $219,750, ahead of outpatient care centers at $195,330 and offices of dentists, the industry employing the largest share of the occupation, at $173,760. Offices of physicians posted the lowest of the four, at $172,980. BLS projects 6% employment growth for dentists from 2025 to 2035, faster than average, with roughly 4,800 openings a year, mostly from workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
-					"The reported dentist median exceeds three doctoral-entry comparisons on this site: [lawyers](/how-long-does-it-take-to-become-a-lawyer/) at $151,160, [pharmacists](/pharmacist-salary/) at $140,910, and [physical therapists](/how-to-become-a-physical-therapist/) at $102,760. This site's [CRNA salary guide](/crna-salary/) reports a higher median, $236,590, for nurse anesthetists. BLS's own entry-education table for that occupation still says master's degree, but the field's accrediting body has required a doctoral degree for every newly enrolled student since 2022, so the comparison depends on whether a reader goes by BLS's label or by current practice. Time in school varies too: dentists and physical therapists both run roughly 7 to 8 years past high school combining undergraduate and professional study, lawyers commonly run around 7, and pharmacists can finish in as few as 6 years, since PharmD programs can admit candidates after just two years of prerequisite coursework, with no full bachelor's degree required first. A national median folds together every state, specialty, and experience level BLS tracks; it says nothing about what a specific reader would earn, or which of these fields is the sounder financial choice for them individually.",
+					"The reported dentist median exceeds three doctoral-entry comparisons on this site: [lawyers](/how-long-does-it-take-to-become-a-lawyer/) at $159,670, [pharmacists](/pharmacist-salary/) at $140,910, and [physical therapists](/how-to-become-a-physical-therapist/) at $102,760. This site's [CRNA salary guide](/crna-salary/) reports a higher median, $236,590, for nurse anesthetists. BLS's own entry-education table for that occupation still says master's degree, but the field's accrediting body has required a doctoral degree for every newly enrolled student since 2022, so the comparison depends on whether a reader goes by BLS's label or by current practice. Time in school varies too: dentists and physical therapists both run roughly 7 to 8 years past high school combining undergraduate and professional study, lawyers commonly run around 7, and pharmacists can finish in as few as 6 years, since PharmD programs can admit candidates after just two years of prerequisite coursework, with no full bachelor's degree required first. A national median folds together every state, specialty, and experience level BLS tracks; it says nothing about what a specific reader would earn, or which of these fields is the sounder financial choice for them individually.",
 				],
 			},
 		],
@@ -2748,11 +2748,11 @@ export const guides: Guide[] = [
 		slug: 'how-to-become-a-librarian',
 		category: 'How to Become',
 		title: 'How to Become a Librarian: Degree, Certification, and Pay',
-		description: "BLS says most librarians need a master's degree in library science, usually from an ALA-accredited program after a bachelor's. Median pay is $64,320 a year.",
+		description: "BLS says most librarians need a master's degree in library science, usually from an ALA-accredited program after a bachelor's. Median pay is $68,270 a year.",
 		published: '2026-08-19',
 		updated: '2026-10-12',
 		socCode: '25-4022',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, most librarians need a master's degree in library science (an MLS or MLIS), which comes after a bachelor's degree in any field and typically takes 1 to 2 years; the American Library Association notes that most librarian positions call for a program it has accredited. School librarians additionally need state teaching certification, and requirements vary by state. BLS reports a median annual wage of $64,320 in May 2024, with the bottom 10% earning less than $38,920 and the top 10% earning more than $100,880.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, most librarians need a master's degree in library science (an MLS or MLIS), which comes after a bachelor's degree in any field and typically takes 1 to 2 years; the American Library Association notes that most librarian positions call for a program it has accredited. School librarians additionally need state teaching certification, and requirements vary by state. BLS reports a median annual wage of $68,270 in May 2025, with the bottom 10% earning less than $43,660 and the top 10% earning more than $103,990.",
 		sections: [
 			{
 				heading: 'The graduate degree BLS says you need',
@@ -2762,7 +2762,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/librarian-education-path.svg',
-					alt: "Diagram showing the path to becoming a librarian: a 4-year bachelor's degree, a 1-to-2-year master's in library science (MLS or MLIS), state licensing where the job requires it, leading to a librarian earning a median of $64,320 a year per BLS.",
+					alt: "Diagram showing the path to becoming a librarian: a 4-year bachelor's degree, a 1-to-2-year master's in library science (MLS or MLIS), state licensing where the job requires it, leading to a librarian earning a median of $68,270 a year per BLS.",
 				},
 			},
 			{
@@ -2782,8 +2782,8 @@ export const guides: Guide[] = [
 			{
 				heading: "Pay, industry mix, and outlook, against other master's-level jobs on this site",
 				body: [
-					'BLS reports a median annual wage of $64,320 for librarians and media collections specialists in May 2024, or $30.92 an hour, above the $49,500 median for all workers that same year. The bottom 10% earned less than $38,920, and the top 10% earned more than $100,880, the boundary figures BLS publishes rather than exact percentile values. By industry, local elementary and secondary schools paid the highest tracked median at $69,880, followed by state colleges and universities at $68,570, private colleges and universities at $66,260, and local government outside of education and hospitals at $60,510.',
-					'BLS projects 2% employment growth for librarians and media collections specialists from 2024 to 2034, which it classifies as slower than average, adding an estimated 2,400 jobs. Despite that limited growth, BLS still projects about 13,500 openings a year on average, since most come from replacing workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
+					'BLS reports a median annual wage of $68,270 for librarians and media collections specialists in May 2025, or $32.82 an hour, above the $50,980 median for all workers that same year. The bottom 10% earned less than $43,660, and the top 10% earned more than $103,990, the boundary figures BLS publishes rather than exact percentile values. By industry, local elementary and secondary schools paid the highest tracked median at $74,710, followed by state colleges and universities at $74,490, private colleges and universities at $73,700, and local government outside of education and hospitals at $62,860.',
+					'BLS projects 3% employment growth for librarians and media collections specialists from 2025 to 2035, which it classifies as slower than average, adding an estimated 3,600 jobs. Despite that limited growth, BLS still projects about 12,600 openings a year on average, since most come from replacing workers who transfer to other occupations or leave the labor force rather than from newly created positions.',
 					"Against other graduate-credentialed occupations on this site, librarians post a noticeably lower median: [physician assistants](/physician-assistant-salary/), also a master's-degree entry field per BLS, report $135,880, [nurse practitioners](/nurse-practitioner-salary/), likewise master's-level entry per BLS, report $132,300, and [certified registered nurse anesthetists](/crna-salary/), whose accredited programs now award a doctorate rather than the master's degree BLS's summary table still lists, report $236,590, more than triple the librarian figure. BLS does not break down why the gap exists; the comparison describes what BLS's entry-education categories group together, not a claim that any one graduate credential is the better investment for a given reader.",
 				],
 			},
@@ -2803,15 +2803,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do librarians make?',
-				answer: 'The typical librarian earned $64,320 a year as of BLS\'s May 2024 data, or roughly $30.92 hourly. Pay stretched from under $38,920 for the lowest-paid tenth up past $100,880 for the highest-paid tenth. Pay runs highest, per BLS industry data, in K-12 public schools, $69,880, and lowest among the tracked industries in web search portals, libraries, archives, and other information services, $59,810.',
+				answer: 'The typical librarian earned $68,270 a year as of BLS\'s May 2025 data, or roughly $32.82 hourly. Pay stretched from under $43,660 for the lowest-paid tenth up past $103,990 for the highest-paid tenth. Pay runs highest, per BLS industry data, in K-12 public schools, $74,710, and lowest among the tracked industries in web search portals, libraries, archives, and other information services, $60,360.',
 			},
 			{
 				question: 'Is librarian a growing career?',
-				answer: 'Not by much, per BLS. The 2024-to-2034 outlook calls for a growth rate of just 2%, slower than the average across all occupations, a net gain of roughly 2,400 positions over the decade. That said, the field still churns through something like 13,500 yearly vacancies over that same span, mostly from the need to replace librarians who move to other work or exit the workforce altogether, such as to retire.',
+				answer: 'Not by much, per BLS. The 2025-to-2035 outlook calls for a growth rate of just 3%, slower than the average across all occupations, a net gain of roughly 3,600 positions over the decade. That said, the field still churns through something like 13,500 yearly vacancies over that same span, mostly from the need to replace librarians who move to other work or exit the workforce altogether, such as to retire.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Librarians and Library Media Specialists (accessed 2026-08-19 via direct fetch -- a UA string with a declared contact URL returned 200 consistently, a plain browser UA returned 403 in the same window, data from May 2024)', url: 'https://www.bls.gov/ooh/education-training-and-library/librarians.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Librarians and Library Media Specialists (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/education-training-and-library/librarians.htm' },
 			{ label: 'American Library Association: Become a Librarian', url: 'https://www.ala.org/educationcareers/libcareers/become' },
 			{ label: 'American Association of Law Libraries: Education requirements for law librarians (independent corroboration of the ALA-accreditation norm)', url: 'https://www.aallnet.org/careers/about-the-profession/education/' },
 			{ label: 'ETS Praxis: School Librarian (5312)', url: 'https://praxis.ets.org/test/school-librarian-5312.html' },
@@ -2819,17 +2819,17 @@ export const guides: Guide[] = [
 			{ label: 'O*NET OnLine: 25-4022.00 Librarians and Media Collections Specialists', url: 'https://www.onetonline.org/link/summary/25-4022.00' },
 		],
 		image: '/images/librarian-education-path.svg',
-		imageAlt: "Diagram showing the path to becoming a librarian: a 4-year bachelor's degree, a 1-to-2-year master's in library science (MLS or MLIS), state licensing where the job requires it, leading to a librarian earning a median of $64,320 a year per BLS.",
+		imageAlt: "Diagram showing the path to becoming a librarian: a 4-year bachelor's degree, a 1-to-2-year master's in library science (MLS or MLIS), state licensing where the job requires it, leading to a librarian earning a median of $68,270 a year per BLS.",
 	},
 	{
 		slug: 'how-to-become-a-bartender',
 		category: 'How to Become',
 		title: 'How to Become a Bartender: Training, Licensing, and Pay',
-		description: "BLS says bartenders typically need no formal education, just a few weeks of on-the-job training and a state responsible-server course. Median pay is $33,530 a year.",
+		description: "BLS says bartenders typically need no formal education, just a few weeks of on-the-job training and a state responsible-server course. Median pay is $34,341 a year.",
 		published: '2026-08-19',
-		updated: '2026-08-19',
+		updated: '2026-10-12',
 		socCode: '35-3011',
-		coreSummary: 'Per the U.S. Bureau of Labor Statistics, bartenders typically need no formal education credential, just a few weeks of on-the-job training in recipes, bar setup, and customer service, plus experience in a related occupation such as serving food. Most states also require a responsible-server course before someone can pour alcohol for pay, though the specific program and its name vary by state. BLS reports a median annual wage of $33,530 in May 2024, or $16.12 an hour including tips, with 6% employment growth projected through 2034.',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, bartenders typically need no formal education credential, just a few weeks of on-the-job training in recipes, bar setup, and customer service, plus experience in a related occupation such as serving food. Most states also require a responsible-server course before someone can pour alcohol for pay, though the specific program and its name vary by state. BLS reports a median annual wage of $34,341 in May 2025 (annualized from BLS’s $16.51 hourly median), or $16.51 an hour including tips, with 5% employment growth projected through 2035.',
 		sections: [
 			{
 				heading: 'What BLS says it actually takes to start',
@@ -2839,7 +2839,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/bartender-path.svg',
-					alt: 'Diagram showing the path to becoming a bartender: no formal education required, an optional entry role or bartending course, a few weeks of on-the-job training, then a working bartender earning a median of $33,530 a year per BLS, once any state-required server training is complete.',
+					alt: 'Diagram showing the path to becoming a bartender: no formal education required, an optional entry role or bartending course, a few weeks of on-the-job training, then a working bartender earning a median of $34,341 a year per BLS, once any state-required server training is complete.',
 				},
 			},
 			{
@@ -2852,15 +2852,15 @@ export const guides: Guide[] = [
 			{
 				heading: 'Pay: what the numbers cover, and what they leave out',
 				body: [
-					'BLS reports a median hourly wage of $16.12 for bartenders in May 2024, equivalent to $33,530 a year, below the $23.80 median hourly wage across all occupations in the economy. These figures include tips: tipped employees earn at least the federal minimum wage, paid as some combination of direct wages and tips depending on the state, and the U.S. Department of Labor\'s Wage and Hour Division maintains a state-by-state list of minimum wages for tipped employees. The 10th percentile earned less than $9.58 an hour, and the 90th percentile earned more than $34.58, a spread of more than 3.5 times between the bottom and top of the range.',
+					'BLS reports a median hourly wage of $16.51 for bartenders in May 2025, equivalent to $34,341 a year, below the $23.80 median hourly wage across all occupations in the economy. These figures include tips: tipped employees earn at least the federal minimum wage, paid as some combination of direct wages and tips depending on the state, and the U.S. Department of Labor\'s Wage and Hour Division maintains a state-by-state list of minimum wages for tipped employees. The 10th percentile earned less than $9.58 an hour, and the 90th percentile earned more than $34.58, a spread of more than 3.5 times between the bottom and top of the range.',
 					"BLS does not publish an annual figure for those percentile boundaries or for its industry breakdown on this occupation, only hourly ones, which this page reports as BLS gives them rather than converting to an assumed full-time annual number. That gap reflects a real feature of the job: BLS separately notes that bartenders often work late evenings, weekends, and holidays, and that part-time work is common with schedules that vary, so a straight hourly-times-2080 conversion would imply a full-time year that many bartenders do not actually work. By industry, BLS reports the highest hourly median in traveler accommodation ($17.18), followed by full-service restaurants ($16.87), drinking places that serve alcoholic beverages ($15.00), amusement, gambling, and recreation industries ($14.77), and civic and social organizations ($13.18).",
 				],
 			},
 			{
 				heading: 'Outlook, and how the training bar compares to other no-degree paths on this site',
 				body: [
-					'BLS projects 6% employment growth for bartenders from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 44,800 jobs to the 756,700 already employed in 2024. About 129,600 openings are projected each year on average, and BLS attributes most of that to population and income growth increasing demand for food, drinks, and entertainment, particularly at full-service restaurants and breweries, plus continued need to replace workers who transfer to other occupations or leave the labor force. For a related food-service occupation, this site\'s [chef and head cook salary](/chef-salary/) guide covers BLS wage data by percentile.',
-					"Bartending sits at the short end of the training-length spectrum among no-degree occupations covered on this site. BLS lists no formal education requirement and a few weeks of on-the-job training for bartenders, compared with [becoming a CNA](/how-to-become-a-cna/), which requires a federal minimum of 75 hours of state-approved training, and the structured, multi-year apprenticeship model behind a [plumbing apprenticeship](/plumbing-apprenticeship/), which typically runs 4 to 5 years. [Welding](/welder-salary/) lands in between: BLS describes several viable entry routes rather than one standard path, from a few months of employer on-the-job training to a longer vocational program. That shorter training time comes with a lower median: BLS puts the bartender median at $33,530 a year, below the $42,260 BLS reports for nursing assistants and further below the $53,750 median for welders, cutters, solderers, and brazers. BLS data describes national training requirements and pay levels for each occupation; it is not a claim that any one path is the better choice for a given reader.",
+					'BLS projects 5% employment growth for bartenders from 2025 to 2035, faster than the roughly 3% average across all occupations, adding an estimated 37,900 jobs to the 762,600 already employed in 2025. About 121,200 openings are projected each year on average, and BLS attributes most of that to population and income growth increasing demand for food, drinks, and entertainment, particularly at full-service restaurants and breweries, plus continued need to replace workers who transfer to other occupations or leave the labor force. For a related food-service occupation, this site\'s [chef and head cook salary](/chef-salary/) guide covers BLS wage data by percentile.',
+					"Bartending sits at the short end of the training-length spectrum among no-degree occupations covered on this site. BLS lists no formal education requirement and a few weeks of on-the-job training for bartenders, compared with [becoming a CNA](/how-to-become-a-cna/), which requires a federal minimum of 75 hours of state-approved training, and the structured, multi-year apprenticeship model behind a [plumbing apprenticeship](/plumbing-apprenticeship/), which typically runs 4 to 5 years. [Welding](/welder-salary/) lands in between: BLS describes several viable entry routes rather than one standard path, from a few months of employer on-the-job training to a longer vocational program. That shorter training time comes with a lower median: BLS puts the bartender median at $34,341 a year, below the $42,260 BLS reports for nursing assistants and further below the $53,750 median for welders, cutters, solderers, and brazers. BLS data describes national training requirements and pay levels for each occupation; it is not a claim that any one path is the better choice for a given reader.",
 				],
 			},
 		],
@@ -2879,15 +2879,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do bartenders make?',
-				answer: "Per BLS's May 2024 data, bartenders earn a median of $16.12 an hour, tips included, which comes out to $33,530 over a full year. The range runs from $9.58 an hour at the low end up to $34.58 at the high end. Broken down by industry, the best-paying setting for this work tops out at $17.18/hour, while the lowest-paying one BLS tracks comes in at $13.18/hour.",
+				answer: "Per BLS's May 2025 data, bartenders earn a median of $16.51 an hour, tips included, which comes out to $34,341 over a full year. The range runs from $9.58 an hour at the low end up to $34.58 at the high end. Broken down by industry, the best-paying setting for this work tops out at $17.18/hour, while the lowest-paying one BLS tracks comes in at $13.18/hour.",
 			},
 			{
 				question: 'Is bartending a growing career?',
-				answer: "Yes. BLS's 2024-to-2034 outlook has bartender employment rising 6%, well above the roughly 3% economy-wide pace, with roughly 44,800 more jobs by the end of that stretch and, on average, about 129,600 yearly openings. Most of that growth traces back to a bigger, better-off population that's simply going out to eat, drink, and be entertained more often.",
+				answer: "Yes. BLS's 2025-to-2035 outlook has bartender employment rising 5%, well above the roughly 3% economy-wide pace, with roughly 44,800 more jobs by the end of that stretch and, on average, about 121,200 yearly openings. Most of that growth traces back to a bigger, better-off population that's simply going out to eat, drink, and be entertained more often.",
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Bartenders (accessed 2026-08-19 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/food-preparation-and-serving/bartenders.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Bartenders (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/food-preparation-and-serving/bartenders.htm' },
 			{ label: 'Texas Alcoholic Beverage Commission: TABC Certification (independent corroboration of state-by-state responsible-server training variation)', url: 'https://www.tabc.texas.gov/services/tabc-certification/' },
 			{ label: 'California Department of Alcoholic Beverage Control: Responsible Beverage Service (RBS) Training Program', url: 'https://www.abc.ca.gov/licensing/responsible-beverage-service' },
 			{ label: 'Washington State Liquor and Cannabis Board: Get an Alcohol Server Permit (MAST) (independent corroboration of the Washington claim)', url: 'https://lcb.wa.gov/mastrvp/mandatory_alcohol_server_training' },
@@ -2897,17 +2897,17 @@ export const guides: Guide[] = [
 			{ label: 'O*NET OnLine: 35-3011.00 Bartenders', url: 'https://www.onetonline.org/link/summary/35-3011.00' },
 		],
 		image: '/images/bartender-path.svg',
-		imageAlt: 'Diagram showing the path to becoming a bartender: no formal education required, an optional entry role or bartending course, a few weeks of on-the-job training, then a working bartender earning a median of $33,530 a year per BLS, once any state-required server training is complete.',
+		imageAlt: 'Diagram showing the path to becoming a bartender: no formal education required, an optional entry role or bartending course, a few weeks of on-the-job training, then a working bartender earning a median of $34,341 a year per BLS, once any state-required server training is complete.',
 	},
 	{
 		slug: 'how-to-become-a-psychologist',
 		category: 'How to Become',
 		title: 'How to Become a Psychologist: Degree, Licensing, and Pay',
-		description: "BLS says psychologists typically need a master's or doctoral degree, plus state licensing that includes passing an exam. Median pay is $94,310 a year in May 2024.",
+		description: "BLS says psychologists typically need a master's or doctoral degree, plus state licensing that includes passing an exam. Median pay is $99,110 a year in May 2025.",
 		published: '2026-08-20',
-		updated: '2026-08-20',
+		updated: '2026-10-12',
 		socCode: '19-3030',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, psychologists typically need an advanced degree, either a master's or a doctoral degree in psychology, and licensure is required in every state for those who practice independently. Clinical and counseling psychologists, the field's largest single group, typically need a Ph.D. or Psy.D.; industrial-organizational and school psychologists can typically enter with a master's degree. Per the Association of State and Provincial Psychology Boards (ASPPB), which develops and administers the field's licensing exam, all 66 of the U.S. and Canadian jurisdictions it represents require passing the Examination for Professional Practice in Psychology (EPPP) before licensure; Florida's own licensing board independently confirms the EPPP requirement for that state. BLS reports a median annual wage of $94,310 in May 2024, with the bottom 10% earning less than $54,860 and the top 10% earning more than $157,330.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, psychologists typically need an advanced degree, either a master's or a doctoral degree in psychology, and licensure is required in every state for those who practice independently. Clinical and counseling psychologists, the field's largest single group, typically need a Ph.D. or Psy.D.; industrial-organizational and school psychologists can typically enter with a master's degree. Per the Association of State and Provincial Psychology Boards (ASPPB), which develops and administers the field's licensing exam, all 66 of the U.S. and Canadian jurisdictions it represents require passing the Examination for Professional Practice in Psychology (EPPP) before licensure; Florida's own licensing board independently confirms the EPPP requirement for that state. BLS reports a median annual wage of $99,110 in May 2025, with the bottom 10% earning less than $59,080 and the top 10% earning more than $163,380.",
 		sections: [
 			{
 				heading: 'The degree BLS says you need depends on the track',
@@ -2917,7 +2917,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/psychologist-education-path.svg',
-					alt: "Diagram showing the path to becoming a psychologist: a 4-year bachelor's degree, a master's or doctoral graduate degree depending on the track, supervised experience, and the EPPP licensing exam, leading to a working psychologist earning a median of $94,310 a year per BLS.",
+					alt: "Diagram showing the path to becoming a psychologist: a 4-year bachelor's degree, a master's or doctoral graduate degree depending on the track, supervised experience, and the EPPP licensing exam, leading to a working psychologist earning a median of $99,110 a year per BLS.",
 				},
 			},
 			{
@@ -2930,16 +2930,16 @@ export const guides: Guide[] = [
 			{
 				heading: 'What psychologists actually do, and where the jobs are',
 				body: [
-					'Psychologists held about 204,300 jobs in 2024, per BLS, split unevenly across the four detailed occupations: clinical and counseling psychologists accounted for 76,300 of those jobs, school psychologists for 67,200, "psychologists, all other" for 55,300, and industrial-organizational psychologists for just 5,600, the smallest of the four despite posting the second-highest median pay of the four (see below). Clinical and counseling psychologists assess, diagnose, and treat mental, emotional, and behavioral disorders, typically interviewing clients, administering diagnostic tests, and providing psychotherapy to individuals, families, or groups; some states permit them to prescribe medication. Industrial-organizational psychologists apply psychological research to workplace issues such as productivity, employee testing and selection, and organizational dynamics. School psychologists address educational, behavioral, or developmental problems affecting students\' learning, designing and evaluating performance plans and consulting with teachers, administrators, and families. The "all other" category covers specialties BLS groups separately, including forensic psychologists, who work with judges and attorneys on the psychological aspects of legal cases, and neuropsychologists, who study how brain, spine, or nerve dysfunction affects behavior and cognition.',
+					'Psychologists held about 209,400 jobs in 2025, per BLS, split unevenly across the four detailed occupations: clinical and counseling psychologists accounted for 76,300 of those jobs, school psychologists for 67,200, "psychologists, all other" for 55,300, and industrial-organizational psychologists for just 5,600, the smallest of the four despite posting the second-highest median pay of the four (see below). Clinical and counseling psychologists assess, diagnose, and treat mental, emotional, and behavioral disorders, typically interviewing clients, administering diagnostic tests, and providing psychotherapy to individuals, families, or groups; some states permit them to prescribe medication. Industrial-organizational psychologists apply psychological research to workplace issues such as productivity, employee testing and selection, and organizational dynamics. School psychologists address educational, behavioral, or developmental problems affecting students\' learning, designing and evaluating performance plans and consulting with teachers, administrators, and families. The "all other" category covers specialties BLS groups separately, including forensic psychologists, who work with judges and attorneys on the psychological aspects of legal cases, and neuropsychologists, who study how brain, spine, or nerve dysfunction affects behavior and cognition.',
 					'Per BLS, the largest employers of psychologists were local elementary and secondary schools (24% of jobs) and ambulatory healthcare services (24%), followed by self-employed workers (23%), government excluding state and local education and hospitals (8%), and hospitals (5%). BLS lists self-employed workers as one of the largest single categories among the occupation\'s employers, which is consistent with a separate line elsewhere on the same BLS page noting that counseling psychologists often have their own practices.',
 				],
 			},
 			{
 				heading: 'Pay, by specialty and industry, against other advanced-degree paths on this site',
 				body: [
-					'BLS reports a median annual wage of $94,310 for psychologists overall in May 2024, or $45.34 an hour, well above the $49,500 median for all workers that year. The bottom 10% earned less than $54,860, and the top 10% earned more than $157,330, the boundary figures BLS publishes rather than exact percentile values. That overall median blends four detailed occupations with different typical degree requirements and different pay: "psychologists, all other" post the highest tracked median at $117,580, followed by industrial-organizational psychologists at $109,840, clinical and counseling psychologists (the largest single group by headcount) at $95,830, and school psychologists at $86,930, the lowest of the four.',
-					'By industry, BLS reports the highest median pay for psychologists in government roles excluding state and local education and hospitals, at $126,990, ahead of ambulatory healthcare services at $96,960, hospitals at $96,060, and local elementary and secondary schools at $85,920, the lowest of the tracked industries despite tying ambulatory healthcare services for the largest employer share, 24% each. BLS projects 6% employment growth for psychologists from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 11,800 jobs to the 204,300 already employed, with about 12,900 openings projected each year on average, mostly from the need to replace psychologists who transfer to other work or leave the labor force.',
-					"Against other advanced-degree occupations this site tracks, the psychologist median trails [physician assistants](/physician-assistant-salary/) at $135,880, [pharmacists](/pharmacist-salary/) at $140,910, and [lawyers](/how-long-does-it-take-to-become-a-lawyer/) at $151,160, occupations whose entry requirements range from a master's degree (PA) to two different professional doctorates (PharmD, J.D.). BLS does not break down why these gaps exist across a mix of master's and doctoral entry paths; the comparison describes what BLS's entry-education categories group together, not a claim that any one degree path is the better investment for a given reader. For a comparison outside healthcare and law, this site also covers the degree, path, and pay for [becoming a software engineer](/how-to-become-a-software-engineer/).",
+					'BLS reports a median annual wage of $99,110 for psychologists overall in May 2025, or $47.65 an hour, well above the $50,980 median for all workers that year. The bottom 10% earned less than $59,080, and the top 10% earned more than $163,380, the boundary figures BLS publishes rather than exact percentile values. That overall median blends four detailed occupations with different typical degree requirements and different pay: "psychologists, all other" post the highest tracked median at $117,580, followed by industrial-organizational psychologists at $109,840, clinical and counseling psychologists (the largest single group by headcount) at $95,830, and school psychologists at $86,930, the lowest of the four.',
+					'By industry, BLS reports the highest median pay for psychologists in government roles excluding state and local education and hospitals, at $130,960, ahead of ambulatory healthcare services at $98,590, hospitals at $96,850, and local elementary and secondary schools at $95,230, the lowest of the tracked industries despite tying ambulatory healthcare services for the largest employer share, 24% each. BLS projects 6% employment growth for psychologists from 2025 to 2035, faster than the roughly 3% average across all occupations, adding an estimated 11,600 jobs to the 209,400 already employed, with about 11,300 openings projected each year on average, mostly from the need to replace psychologists who transfer to other work or leave the labor force.',
+					"Against other advanced-degree occupations this site tracks, the psychologist median trails [physician assistants](/physician-assistant-salary/) at $135,880, [pharmacists](/pharmacist-salary/) at $140,910, and [lawyers](/how-long-does-it-take-to-become-a-lawyer/) at $159,670, occupations whose entry requirements range from a master's degree (PA) to two different professional doctorates (PharmD, J.D.). BLS does not break down why these gaps exist across a mix of master's and doctoral entry paths; the comparison describes what BLS's entry-education categories group together, not a claim that any one degree path is the better investment for a given reader. For a comparison outside healthcare and law, this site also covers the degree, path, and pay for [becoming a software engineer](/how-to-become-a-software-engineer/).",
 				],
 			},
 		],
@@ -2958,32 +2958,32 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do psychologists make?',
-				answer: "For May 2024, BLS puts typical psychologist pay at $94,310 annually ($45.34 an hour), with the lowest-paid tenth under $54,860 and the highest-paid tenth above $157,330. Pay varies by specialty: I-O psychologists and the \"all other\" category, which covers forensic work and neuropsychology, report the top medians BLS lists, while the school-based specialty, second-largest by employment, posts the lowest at $86,930.",
+				answer: "For May 2025, BLS puts typical psychologist pay at $99,110 annually ($47.65 an hour), with the lowest-paid tenth under $59,080 and the highest-paid tenth above $163,380. Pay varies by specialty: I-O psychologists and the \"all other\" category, which covers forensic work and neuropsychology, report the top medians BLS lists, while the school-based specialty, second-largest by employment, posts the lowest at $86,930.",
 			},
 			{
 				question: 'Is psychology a growing career?',
-				answer: 'Yes, per BLS: the 2024-to-2034 outlook is 6% growth, ahead of the 3% or so expected for the whole workforce, which works out to about 11,800 added jobs on top of 204,300 today. Yearly openings average near 12,900, and most come from psychologists moving to other work or retiring.',
+				answer: 'Yes, per BLS: the 2025-to-2035 outlook is 6% growth, ahead of the 3% or so expected for the whole workforce, which works out to about 11,800 added jobs on top of 209,400 today. Yearly openings average near 12,900, and most come from psychologists moving to other work or retiring.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Psychologists (accessed 2026-08-20 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Psychologists (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/life-physical-and-social-science/psychologists.htm' },
 			{ label: 'ASPPB (Association of State and Provincial Psychology Boards): Examination for Professional Practice in Psychology (EPPP)', url: 'https://asppb.net/exams/asppb-examination-for-professional-psychology-eppp/' },
 			{ label: 'Florida Board of Psychology: Psychologist Licensure by Examination (independent corroboration of the EPPP requirement for one specific jurisdiction)', url: 'https://floridaspsychology.gov/licensing/psychologist-licensure-by-examination/' },
 			{ label: 'CareerOneStop (U.S. Department of Labor): Certification Finder', url: 'https://www.careeronestop.org/Toolkit/Training/find-certifications.aspx' },
 			{ label: 'O*NET OnLine: 19-3033.00 Clinical and Counseling Psychologists (independent corroboration of the SOC family)', url: 'https://www.onetonline.org/link/summary/19-3033.00' },
 		],
 		image: '/images/psychologist-education-path.svg',
-		imageAlt: "Diagram showing the path to becoming a psychologist: a 4-year bachelor's degree, a master's or doctoral graduate degree depending on the track, supervised experience, and the EPPP licensing exam, leading to a working psychologist earning a median of $94,310 a year per BLS.",
+		imageAlt: "Diagram showing the path to becoming a psychologist: a 4-year bachelor's degree, a master's or doctoral graduate degree depending on the track, supervised experience, and the EPPP licensing exam, leading to a working psychologist earning a median of $99,110 a year per BLS.",
 	},
 	{
 		slug: 'how-to-become-a-social-worker',
 		category: 'How to Become',
 		title: 'How to Become a Social Worker: Degree, Licensing, and Pay',
-		description: "BLS says social workers typically need a bachelor's degree for entry roles or a master's for clinical work, plus licensing. Median pay is $61,330 a year.",
+		description: "BLS says social workers typically need a bachelor's degree for entry roles or a master's for clinical work, plus licensing. Median pay is $61,780 a year.",
 		published: '2026-08-20',
-		updated: '2026-08-20',
+		updated: '2026-10-12',
 		socCode: '21-1020',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, social workers typically need a bachelor's degree in social work (BSW) for entry-level, nonclinical roles, or a master's degree (MSW) for clinical practice; a bachelor's in social work is not required to enter an MSW program. Per the Association of Social Work Boards (ASWB), which administers the field's licensing exams, candidates sit for one of four exam tiers, Bachelors, Masters, Advanced Generalist, or Clinical, matched to their degree and intended scope of practice. California's Board of Behavioral Sciences lists, as requirements for its LCSW credential, an MSW from a CSWE-accredited program, a minimum of 104 weeks and 3,000 hours of supervised experience, and a passing score on the ASWB Clinical Exam, independently confirming what BLS describes in general terms. BLS reports a median annual wage of $61,330 in May 2024, with the bottom 10% earning less than $41,580 and the top 10% earning more than $99,500.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, social workers typically need a bachelor's degree in social work (BSW) for entry-level, nonclinical roles, or a master's degree (MSW) for clinical practice; a bachelor's in social work is not required to enter an MSW program. Per the Association of Social Work Boards (ASWB), which administers the field's licensing exams, candidates sit for one of four exam tiers, Bachelors, Masters, Advanced Generalist, or Clinical, matched to their degree and intended scope of practice. California's Board of Behavioral Sciences lists, as requirements for its LCSW credential, an MSW from a CSWE-accredited program, a minimum of 104 weeks and 3,000 hours of supervised experience, and a passing score on the ASWB Clinical Exam, independently confirming what BLS describes in general terms. BLS reports a median annual wage of $61,780 in May 2025, with the bottom 10% earning less than $42,790 and the top 10% earning more than $100,090.",
 		sections: [
 			{
 				heading: 'Bachelor\'s or master\'s: the degree split BLS describes',
@@ -2993,7 +2993,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/social-worker-path.svg',
-					alt: "Diagram showing the path to becoming a social worker: a 4-year bachelor's degree, an optional CSWE-accredited master's degree for clinical practice, supervised experience, and an ASWB licensing exam, leading to a working social worker earning a median of $61,330 a year per BLS.",
+					alt: "Diagram showing the path to becoming a social worker: a 4-year bachelor's degree, an optional CSWE-accredited master's degree for clinical practice, supervised experience, and an ASWB licensing exam, leading to a working social worker earning a median of $61,780 a year per BLS.",
 				},
 			},
 			{
@@ -3006,16 +3006,16 @@ export const guides: Guide[] = [
 			{
 				heading: 'What social workers actually do, and where the jobs are',
 				body: [
-					'Social workers held about 810,900 jobs in 2024, per BLS, split across four detailed occupations: child, family, and school social workers accounted for 399,900 of those jobs, the largest group by a wide margin, followed by healthcare social workers at 193,200, mental health and substance abuse social workers at 136,800, and "social workers, all other" at 81,000. Child, family, and school social workers help protect vulnerable children and support families, working in settings that include child welfare agencies, schools, and courts; some investigate reports of abuse or neglect, others help arrange adoption or foster care. Healthcare social workers help patients and their families understand and cope with illnesses or disabilities, often coordinating discharge planning and connecting patients to community resources from within hospitals and other medical settings. Mental health and substance abuse social workers assess and treat individuals with mental illness or substance use disorders, providing therapy and case management, sometimes alongside psychologists and counselors. The "all other" category groups specialties BLS tracks separately from those three, including social workers in policy, research, and administrative roles.',
+					'Social workers held about 816,100 jobs in 2025, per BLS, split across four detailed occupations: child, family, and school social workers accounted for 399,900 of those jobs, the largest group by a wide margin, followed by healthcare social workers at 193,200, mental health and substance abuse social workers at 136,800, and "social workers, all other" at 81,000. Child, family, and school social workers help protect vulnerable children and support families, working in settings that include child welfare agencies, schools, and courts; some investigate reports of abuse or neglect, others help arrange adoption or foster care. Healthcare social workers help patients and their families understand and cope with illnesses or disabilities, often coordinating discharge planning and connecting patients to community resources from within hospitals and other medical settings. Mental health and substance abuse social workers assess and treat individuals with mental illness or substance use disorders, providing therapy and case management, sometimes alongside psychologists and counselors. The "all other" category groups specialties BLS tracks separately from those three, including social workers in policy, research, and administrative roles.',
 					'Per BLS, the largest employers of social workers were individual and family services (17% of jobs), followed by local government excluding education and hospitals (14%), state government excluding education and hospitals (12%), educational services (9%), and community food and housing, emergency, and other relief services, including vocational rehabilitation services (3%). Most social workers work in an office setting but also spend time visiting clients and meeting with colleagues and community specialists; some, particularly in child welfare, carry large caseloads that BLS notes can make the work stressful.',
 				],
 			},
 			{
 				heading: "Pay, by specialty and industry, against similar-pay and similar-degree paths on this site",
 				body: [
-					'BLS reports a median annual wage of $61,330 for social workers overall in May 2024, or $29.49 an hour, above the $49,500 median for all workers that year. The bottom 10% earned less than $41,580, and the top 10% earned more than $99,500, the boundary figures BLS publishes rather than exact percentile values. That overall median blends specialties with different typical entry paths: "social workers, all other" post the highest tracked median at $69,480, followed by healthcare social workers at $68,090 and mental health and substance abuse social workers at $60,060, while child, family, and school social workers, the largest group by employment at 399,900 jobs, post the lowest specialty median of the four at $58,570.',
-					'By industry, BLS reports the highest median pay for social workers in educational services at $67,620, ahead of local government at $65,920, state government at $59,630, and individual and family services at $51,430, the lowest of the tracked industries despite employing the largest single share of social workers, 17%. BLS projects 6% employment growth for social workers from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 44,700 jobs to the 810,900 already employed, with about 74,000 openings projected each year on average, mostly from the need to replace social workers who transfer to other occupations or leave the labor force.',
-					"Against other occupations this site tracks, the social worker median sits close to [paralegals](/how-to-become-a-paralegal/) at $61,010, an occupation with no state licensing requirement at all, and below [librarians](/how-to-become-a-librarian/) at $64,320 and [psychologists](/how-to-become-a-psychologist/) at $94,310, both of which typically require a master's degree or higher. The near-identical pay next to paralegals, despite social work's heavier licensing burden in most states, illustrates that BLS's median wage reflects what employers actually pay for a role, not a return on the credentialing or supervised-hours investment a particular license requires.",
+					'BLS reports a median annual wage of $61,780 for social workers overall in May 2025, or $29.70 an hour, above the $50,980 median for all workers that year. The bottom 10% earned less than $42,790, and the top 10% earned more than $100,090, the boundary figures BLS publishes rather than exact percentile values. That overall median blends specialties with different typical entry paths: "social workers, all other" post the highest tracked median at $69,480, followed by healthcare social workers at $68,090 and mental health and substance abuse social workers at $60,060, while child, family, and school social workers, the largest group by employment at 399,900 jobs, post the lowest specialty median of the four at $58,570.',
+					'By industry, BLS reports the highest median pay for social workers in hospitals at $77,440, ahead of educational services at $68,850, state and local government at $65,100, ambulatory healthcare services at $63,710, and individual and family services at $51,980. BLS projects 6% employment growth for social workers from 2025 to 2035, faster than the roughly 3% average across all occupations, adding an estimated 50,400 jobs to the 816,100 already employed, with about 69,100 openings projected each year on average, mostly from the need to replace social workers who transfer to other occupations or leave the labor force.',
+					"Against other occupations this site tracks, the social worker median sits close to [paralegals](/how-to-become-a-paralegal/) at $62,890, an occupation with no state licensing requirement at all, and below [librarians](/how-to-become-a-librarian/) at $68,270 and [psychologists](/how-to-become-a-psychologist/) at $99,110, both of which typically require a master's degree or higher. The near-identical pay next to paralegals, despite social work's heavier licensing burden in most states, illustrates that BLS's median wage reflects what employers actually pay for a role, not a return on the credentialing or supervised-hours investment a particular license requires.",
 				],
 			},
 		],
@@ -3034,15 +3034,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do social workers make?',
-				answer: "In May 2024 the median wage was $61,330 a year (about $29.49 hourly), per BLS, and the range runs from under $41,580 at the bottom 10% to over $99,500 at the top 10%. Pay varies by specialty: the catch-all group and the healthcare specialty lead with $69,480 and $68,090, while the group covering child welfare, families, and schools, which is also the biggest by headcount, sits lowest at $58,570.",
+				answer: "In May 2025 the median wage was $61,780 a year (about $29.70 hourly), per BLS, and the range runs from under $42,790 at the bottom 10% to over $100,090 at the top 10%. Pay varies by specialty: the catch-all group and the healthcare specialty lead with $69,480 and $68,090, while the group covering child welfare, families, and schools, which is also the biggest by headcount, sits lowest at $58,570.",
 			},
 			{
 				question: 'Is social work a growing career?',
-				answer: "Yes. BLS projects the field will add about 44,700 jobs between 2024 and 2034, a 6% increase that outpaces the roughly 3% projected for the workforce as a whole, bringing total employment to roughly 855,600. Of the roughly 74,000 openings BLS expects each year, most come from covering for people who leave the field or retire, not from newly created positions.",
+				answer: "Yes. BLS projects the field will add about 50,400 jobs between 2024 and 2034, a 6% increase that outpaces the roughly 3% projected for the workforce as a whole, bringing total employment to roughly 866,500. Of the roughly 69,100 openings BLS expects each year, most come from covering for people who leave the field or retire, not from newly created positions.",
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Social Workers (accessed 2026-08-20 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/community-and-social-service/social-workers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Social Workers (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/community-and-social-service/social-workers.htm' },
 			{ label: 'ASWB (Association of Social Work Boards): Social Work Licensing Exam', url: 'https://www.aswb.org/exam/' },
 			{ label: 'ASWB: Becoming a Licensed Social Worker', url: 'https://www.aswb.org/students/' },
 			{ label: 'California Board of Behavioral Sciences: Licensed Clinical Social Worker requirements (independent corroboration of the ASWB Clinical Exam and supervised-experience minimum, for one specific jurisdiction)', url: 'https://www.bbs.ca.gov/applicants/lcsw.html' },
@@ -3050,7 +3050,7 @@ export const guides: Guide[] = [
 			{ label: 'Texas Behavioral Health Executive Council: ASWB Licensure Examinations (independent corroboration of the ASWB exam requirement, for a second jurisdiction)', url: 'https://bhec.texas.gov/texas-state-board-of-social-worker-examiners/aswb-licensure-examinations/' },
 		],
 		image: '/images/social-worker-path.svg',
-		imageAlt: "Diagram showing the path to becoming a social worker: a 4-year bachelor's degree, an optional CSWE-accredited master's degree for clinical practice, supervised experience, and an ASWB licensing exam, leading to a working social worker earning a median of $61,330 a year per BLS.",
+		imageAlt: "Diagram showing the path to becoming a social worker: a 4-year bachelor's degree, an optional CSWE-accredited master's degree for clinical practice, supervised experience, and an ASWB licensing exam, leading to a working social worker earning a median of $61,780 a year per BLS.",
 	},
 	{
 		slug: 'how-to-become-a-lineman',
@@ -3123,7 +3123,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2025 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm' },
 			{ label: "Southwest Line Constructors: Lineman apprenticeship requirements (one of two independently reviewed regional apprenticeship sponsors)", url: 'https://www.swlcat.org/apprenticeship2.html' },
 			{ label: "IBEW Local 1186 (Hawaii) Electricians Training Fund: Lineman Apprenticeship (independent corroboration of the ~7,000-hour on-the-job training term, for a second regional sponsor)", url: 'https://www.hetf1186.org/lineman-apprenticeship' },
 			{ label: 'O*NET OnLine: Electrical Power-Line Installers and Repairers (49-9051.00), SOC title cross-check', url: 'https://www.onetonline.org/link/summary/49-9051.00' },
@@ -3137,9 +3137,9 @@ export const guides: Guide[] = [
 		title: 'How to Become an Accountant: Degree, CPA Path, and Pay',
 		description: "BLS says accountants need a bachelor's degree. Texas offers CPA paths with 150 credits and one year of experience, or 120 credits and two years, with required accounting coursework and exams.",
 		published: '2026-08-21',
-		updated: '2026-08-21',
+		updated: '2026-10-12',
 		socCode: '13-2011',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, accountants and auditors (SOC 13-2011) typically need a bachelor's degree in accounting or a related field to enter the occupation; certification such as becoming a licensed Certified Public Accountant (CPA) may improve job prospects but is not described by BLS as universally required. The traditional CPA path, per the model rules the National Association of State Boards of Accountancy (NASBA) and the American Institute of CPAs (AICPA) publish and the Texas State Board of Public Accountancy (TSBPA) independently confirms for its own state, requires 150 total semester hours of college credit, 30 more than a typical bachelor's degree, plus roughly a year of supervised experience under a licensed CPA and passing the Uniform CPA Examination. AICPA and NASBA approved model legislation in May 2025 for an additional pathway that drops the extra 30 credit hours in favor of two years of supervised experience; Texas's Governor signed this into state law as Senate Bill 262 the same month, TSBPA adopted implementing rules that September, and per TSBPA the new pathway became available on August 1, 2026, providing a documented example of a state adopting the alternative. BLS reports a median annual wage of $81,680 in May 2024, with the bottom 10% earning less than $52,780 and the top 10% earning more than $141,420.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, accountants and auditors (SOC 13-2011) typically need a bachelor's degree in accounting or a related field to enter the occupation; certification such as becoming a licensed Certified Public Accountant (CPA) may improve job prospects but is not described by BLS as universally required. The traditional CPA path, per the model rules the National Association of State Boards of Accountancy (NASBA) and the American Institute of CPAs (AICPA) publish and the Texas State Board of Public Accountancy (TSBPA) independently confirms for its own state, requires 150 total semester hours of college credit, 30 more than a typical bachelor's degree, plus roughly a year of supervised experience under a licensed CPA and passing the Uniform CPA Examination. AICPA and NASBA approved model legislation in May 2025 for an additional pathway that drops the extra 30 credit hours in favor of two years of supervised experience; Texas's Governor signed this into state law as Senate Bill 262 the same month, TSBPA adopted implementing rules that September, and per TSBPA the new pathway became available on August 1, 2026, providing a documented example of a state adopting the alternative. BLS reports a median annual wage of $83,680 in May 2025, with the bottom 10% earning less than $56,020 and the top 10% earning more than $144,090.",
 		sections: [
 			{
 				heading: 'What accountants do, and the degree BLS says you need to start',
@@ -3149,7 +3149,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/accountant-education-path.svg',
-					alt: "Diagram showing the path to becoming an accountant: a 4-year bachelor's degree, the traditional 150-semester-hour CPA education requirement or the Texas alternative with specified undergraduate coursework available since August 2026, supervised experience under a licensed CPA, and the Uniform CPA Examination, leading to a working accountant earning a median of $81,680 a year per BLS.",
+					alt: "Diagram showing the path to becoming an accountant: a 4-year bachelor's degree, the traditional 150-semester-hour CPA education requirement or the Texas alternative with specified undergraduate coursework available since August 2026, supervised experience under a licensed CPA, and the Uniform CPA Examination, leading to a working accountant earning a median of $83,680 a year per BLS.",
 				},
 			},
 			{
@@ -3162,16 +3162,16 @@ export const guides: Guide[] = [
 			{
 				heading: 'Where the jobs are, and when the overtime hits',
 				body: [
-					'Accountants and auditors held about 1,579,800 jobs in 2024, per BLS. The largest share, 23% of jobs, worked in accounting, tax preparation, bookkeeping, and payroll services, the industry built specifically around this work; government agencies excluding state and local education and hospitals and finance and insurance each accounted for 8%, management of companies and enterprises for 6%, and self-employed workers for 5% of the total.',
+					'Accountants and auditors held about 1,595,200 jobs in 2025, per BLS. The largest share, 23% of jobs, worked in accounting, tax preparation, bookkeeping, and payroll services, the industry built specifically around this work; government agencies excluding state and local education and hospitals and finance and insurance each accounted for 8%, management of companies and enterprises for 6%, and self-employed workers for 5% of the total.',
 					'BLS is specific about the work pattern that makes this occupation different from a typical 9-to-5 role: most accountants and auditors work full time, and overtime hours are typical at certain periods of the year, such as for quarterly audits or during tax season. BLS describes seasonal overtime without ranking employer differences against deadlines or comparing the pattern with all other office occupations.',
 				],
 			},
 			{
 				heading: "Pay, by industry, against other bachelor's-entry paths on this site",
 				body: [
-					'BLS reports a median annual wage of $81,680 for accountants and auditors in May 2024, or $39.27 an hour, well above the $49,500 median across all occupations that year. The bottom 10% earned less than $52,780, and the top 10% earned more than $141,420, the boundary figures BLS publishes, not exact percentile values.',
-					"By industry, BLS breaks out May 2024 wages into four categories: finance and insurance paid the highest median at $87,980, followed by management of companies and enterprises at $86,010, government excluding state and local education and hospitals at $81,120, and accounting, tax preparation, bookkeeping, and payroll services, the industry employing the largest single share of accountants (23%), at $80,510, the lowest of the four tracked industries. BLS projects 5% employment growth for accountants and auditors from 2024 to 2034, faster than the roughly 3% average across all occupations, adding an estimated 72,800 jobs to the 1,579,800 already employed, with about 124,200 openings projected each year on average, mostly from the need to replace workers who transfer to other occupations or leave the labor force.",
-					"Against other occupations this site tracks, the accountant median sits well below [actuaries](/actuary-salary/) at $125,770, an occupation with a multi-year professional examination process, and above [paralegals](/how-to-become-a-paralegal/) at $61,010, an occupation that typically starts with an associate's degree or certificate for traditional lawyer-supervised work. Oregon separately licenses limited independent paralegal services in designated housing and family-law matters. BLS's data describes what each occupation pays, not why the gap between a CPA-track accountant and an actuary runs to more than $44,000 a year even though the CPA route and the actuarial route both run through demanding professional exams; this page reports the pattern rather than asserting a specific cause. This site's guide to [becoming a software engineer](/how-to-become-a-software-engineer/) covers the degree, path, and pay for that occupation.",
+					'BLS reports a median annual wage of $83,680 for accountants and auditors in May 2025, or $40.23 an hour, well above the $50,980 median across all occupations that year. The bottom 10% earned less than $56,020, and the top 10% earned more than $144,090, the boundary figures BLS publishes, not exact percentile values.',
+					"By industry, BLS breaks out May 2025 wages into four categories: finance and insurance paid the highest median at $93,290, followed by management of companies and enterprises at $91,940, government excluding state and local education and hospitals at $83,350, and accounting, tax preparation, bookkeeping, and payroll services, the industry employing the largest single share of accountants (23%), at $81,490, the lowest of the four tracked industries. BLS projects 5% employment growth for accountants and auditors from 2025 to 2035, faster than the roughly 3% average across all occupations, adding an estimated 79,400 jobs to the 1,595,200 already employed, with about 115,300 openings projected each year on average, mostly from the need to replace workers who transfer to other occupations or leave the labor force.",
+					"Against other occupations this site tracks, the accountant median sits well below [actuaries](/actuary-salary/) at $130,000, an occupation with a multi-year professional examination process, and above [paralegals](/how-to-become-a-paralegal/) at $62,890, an occupation that typically starts with an associate's degree or certificate for traditional lawyer-supervised work. Oregon separately licenses limited independent paralegal services in designated housing and family-law matters. BLS's data describes what each occupation pays, not why the gap between a CPA-track accountant and an actuary runs to more than $44,000 a year even though the CPA route and the actuarial route both run through demanding professional exams; this page reports the pattern rather than asserting a specific cause. This site's guide to [becoming a software engineer](/how-to-become-a-software-engineer/) covers the degree, path, and pay for that occupation.",
 				],
 			},
 		],
@@ -3190,15 +3190,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do accountants make?',
-				answer: 'BLS puts median pay for this occupation at $81,680 as of May 2024 ($39.27 an hour), while the lowest-paid tenth earned under $52,780 and the highest-paid tenth cleared $141,420. Insurers and financial firms post the top industry median, $87,980. Accounting and bookkeeping firms, the industry with the most accountants on payroll, pay the least of the four industries BLS breaks out, at $80,510.',
+				answer: 'BLS puts median pay for this occupation at $83,680 as of May 2025 ($40.23 an hour), while the lowest-paid tenth earned under $56,020 and the highest-paid tenth cleared $144,090. Insurers and financial firms post the top industry median, $93,290. Accounting and bookkeeping firms, the industry with the most accountants on payroll, pay the least of the four industries BLS breaks out, at $81,490.',
 			},
 			{
 				question: 'Is accounting a growing career?',
-				answer: 'Yes, per BLS. Between 2024 and 2034 the field is expected to add about 72,800 positions, a 5% rise that beats the economy-wide pace of roughly 3%. Annual openings average around 124,200, driven mostly by accountants who switch occupations or retire.',
+				answer: 'Yes, per BLS. Between 2024 and 2034 the field is expected to add about 79,400 positions, a 5% rise that beats the economy-wide pace of roughly 3%. Annual openings average around 124,200, driven mostly by accountants who switch occupations or retire.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Accountants and Auditors (accessed 2026-08-21 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Accountants and Auditors (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm' },
 			{ label: 'Texas State Board of Public Accountancy (TSBPA): Education Requirements (independent corroboration of the CPA education and experience rules for one specific jurisdiction)', url: 'https://www.tsbpa.texas.gov/applicants/education/' },
 			{ label: 'TSBPA: New Pathway for CPA Exam and Certification (Senate Bill 262 implementing rules, effective August 1, 2026)', url: 'https://www.tsbpa.texas.gov/news/new-pathway-for-cpa-exam-and-certification/' },
 			{ label: 'AICPA & CIMA: AICPA and NASBA Approve Model Legislation for New CPA Licensure Path', url: 'https://www.aicpa-cima.com/news/article/aicpa-and-nasba-approve-model-legislation-for-new-cpa-licensure-path' },
@@ -3206,27 +3206,27 @@ export const guides: Guide[] = [
 			{ label: 'O*NET OnLine: 13-2011.00 Accountants and Auditors, SOC title cross-check', url: 'https://www.onetonline.org/link/summary/13-2011.00' },
 		],
 		image: '/images/accountant-education-path.svg',
-		imageAlt: "Diagram showing the path to becoming an accountant: a 4-year bachelor's degree, the traditional 150-semester-hour CPA education requirement or the Texas alternative with specified undergraduate coursework available since August 2026, supervised experience under a licensed CPA, and the Uniform CPA Examination, leading to a working accountant earning a median of $81,680 a year per BLS.",
+		imageAlt: "Diagram showing the path to becoming an accountant: a 4-year bachelor's degree, the traditional 150-semester-hour CPA education requirement or the Texas alternative with specified undergraduate coursework available since August 2026, supervised experience under a licensed CPA, and the Uniform CPA Examination, leading to a working accountant earning a median of $83,680 a year per BLS.",
 	},
 	{
 		slug: 'chef-salary',
 		category: 'Salary Guide',
 		title: 'Chef and Head Cook Salary: BLS Wage Data by Percentile (2026)',
-		description: "BLS reports a $60,990 median chef salary. No degree is required, but the typical entry path runs on five years of related work experience instead.",
+		description: "BLS reports a $62,470 median chef salary. No degree is required, but the typical entry path runs on five years of related work experience instead.",
 		published: '2026-08-21',
 		updated: '2026-10-12',
 		socCode: '35-1011',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, chefs and head cooks (SOC 35-1011) earned a median annual wage of $60,990 in May 2024, or $29.32 an hour, above the $49,500 median for all occupations combined. BLS lists a high school diploma or its equivalent as the typical entry-level education, but unlike most occupations at that education tier, it also lists five years or more of work experience in a related occupation as typical, with no additional formal on-the-job training required once that experience is in place. BLS projects 7% employment growth from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 14,000 jobs to the 197,300 chefs and head cooks already working in 2024.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, chefs and head cooks (SOC 35-1011) earned a median annual wage of $62,470 in May 2025, or $30.03 an hour, above the $50,980 median for all occupations combined. BLS lists a high school diploma or its equivalent as the typical entry-level education, but unlike most occupations at that education tier, it also lists five years or more of work experience in a related occupation as typical, with no additional formal on-the-job training required once that experience is in place. BLS projects 7% employment growth from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 14,400 jobs to the 220,300 chefs and head cooks already working in 2025.",
 		sections: [
 			{
 				heading: 'The median chef salary, and the range around it',
 				body: [
-					'BLS tracks this occupation under the combined title "Chefs and Head Cooks," SOC code 35-1011, describing the work as overseeing the daily food preparation at restaurants and other places where food is served. The median annual wage was $60,990 in May 2024 ($29.32 an hour), above the $49,500 median across all occupations in the U.S. economy that year. The bottom 10% of chefs and head cooks earned less than $36,000, and the top 10% earned more than $96,030, a spread of well over two and a half times between the lower and upper bound BLS reports. The [clinical laboratory pay guide](/clinical-laboratory-technologist-salary/) reports a comparable $62,930 median for May 2025, but covers technologists and technicians together. The bachelor-level route applies to technologists; technicians commonly follow an associate route, so the combined wage is not a bachelor-only figure.',
-					"That $60,990 median sits above the $44,140 BLS reports for supervisors of food preparation and serving workers, a related but more junior role, and it is worth separating from figures that circulate on general salary-aggregator sites, which BLS does not publish or verify. This page reports only the U.S. Bureau of Labor Statistics figures, sourced directly from BLS's own Occupational Employment and Wage Statistics survey of employer payroll data rather than self-reported submissions.",
+					'BLS tracks this occupation under the combined title "Chefs and Head Cooks," SOC code 35-1011, describing the work as overseeing the daily food preparation at restaurants and other places where food is served. The median annual wage was $62,470 in May 2025 ($30.03 an hour), above the $50,980 median across all occupations in the U.S. economy that year. The bottom 10% of chefs and head cooks earned less than $37,900, and the top 10% earned more than $98,560, a spread of well over two and a half times between the lower and upper bound BLS reports. The [clinical laboratory pay guide](/clinical-laboratory-technologist-salary/) reports a comparable $62,930 median for May 2025, but covers technologists and technicians together. The bachelor-level route applies to technologists; technicians commonly follow an associate route, so the combined wage is not a bachelor-only figure.',
+					"That $62,470 median sits above the $44,140 BLS reports for supervisors of food preparation and serving workers, a related but more junior role, and it is worth separating from figures that circulate on general salary-aggregator sites, which BLS does not publish or verify. This page reports only the U.S. Bureau of Labor Statistics figures, sourced directly from BLS's own Occupational Employment and Wage Statistics survey of employer payroll data rather than self-reported submissions.",
 				],
 				image: {
 					src: '/images/chef-salary-chart.svg',
-					alt: 'Bar chart showing chef and head cook annual wage by percentile: 10th percentile $36,000, median $60,990, 90th percentile $96,030, based on BLS May 2024 data.',
+					alt: 'Bar chart showing chef and head cook annual wage by percentile: 10th percentile $37,900, median $62,470, 90th percentile $98,560, based on BLS May 2025 data.',
 				},
 			},
 			{
@@ -3239,22 +3239,22 @@ export const guides: Guide[] = [
 			{
 				heading: 'Where chef pay sits on the food-service ladder',
 				body: [
-					"BLS's Occupational Outlook Handbook page for chefs and head cooks lists two adjacent food-service occupations for direct comparison, both drawn from the same May 2024 wage survey. Food preparation workers, who BLS describes as performing tasks other than cooking, such as slicing meat and brewing coffee, require no formal educational credential and earned a median of $34,220, about $26,770 below the chef and head cook median. Food service managers, who oversee the daily operation of a restaurant or similar establishment, need only the same high school diploma BLS lists for chefs, yet earned a higher median of $65,310, about $4,320 above chefs and head cooks.",
-					"That places chefs and head cooks in the middle of a three-step ladder inside the same broad food-service field: a no-credential prep role below, a supervisory management role above, and the chef and head cook role itself sitting on five years of related experience rather than either a lower or a higher formal-education requirement. Measured against a different vocational field entirely, chefs and head cooks also out-earn [welders, cutters, solderers, and brazers](/welder-salary/), who BLS lists at the same high-school-diploma entry tier but a May 2025 median of $53,750, roughly $7,240 below the May 2024 chef figure. These are different survey years. BLS's data describes the pay at each tier; it does not explain why five years of food-service experience commands a premium over a shorter vocational-training route in a different industry, and this page does not assert a cause beyond what BLS itself reports.",
+					"BLS's Occupational Outlook Handbook page for chefs and head cooks lists two adjacent food-service occupations for direct comparison, both drawn from the same May 2025 wage survey. Food preparation workers, who BLS describes as performing tasks other than cooking, such as slicing meat and brewing coffee, require no formal educational credential and earned a median of $34,220, about $26,770 below the chef and head cook median. Food service managers, who oversee the daily operation of a restaurant or similar establishment, need only the same high school diploma BLS lists for chefs, yet earned a higher median of $65,310, about $4,320 above chefs and head cooks.",
+					"That places chefs and head cooks in the middle of a three-step ladder inside the same broad food-service field: a no-credential prep role below, a supervisory management role above, and the chef and head cook role itself sitting on five years of related experience rather than either a lower or a higher formal-education requirement. Measured against a different vocational field entirely, chefs and head cooks also out-earn [welders, cutters, solderers, and brazers](/welder-salary/), who BLS lists at the same high-school-diploma entry tier but a May 2025 median of $53,750, roughly $7,240 below the May 2025 chef figure. These are different survey years. BLS's data describes the pay at each tier; it does not explain why five years of food-service experience commands a premium over a shorter vocational-training route in a different industry, and this page does not assert a cause beyond what BLS itself reports.",
 				],
 			},
 			{
 				heading: 'Industry breakdown and job outlook',
 				body: [
-					"BLS breaks out May 2024 median pay for chefs and head cooks across four industry categories. Traveler accommodation, hotels and similar lodging that run their own kitchens, paid the highest median at $73,110. Amusement, gambling, and recreation industries followed at $69,430. Food services and drinking places, the industry employing the largest share of chefs and head cooks in traditional restaurants, paid $59,450, close to but below the national median. Healthcare and social assistance, covering institutional kitchens in hospitals and care facilities, paid the lowest of the four tracked industries at $57,350. At a much more credential-heavy tier, this site\'s [genetic counselor pay figures](/genetic-counselor-salary/) show a $100,040 median for a master\'s-level role, well above any of the industry figures above.",
-					'BLS projects 7% employment growth for chefs and head cooks from 2024 to 2034, classified as much faster than the roughly 3% average projected across all occupations, adding an estimated 14,000 jobs to the 197,300 already employed in 2024. About 24,400 openings are projected each year on average over the decade, which BLS attributes mainly to the need to replace workers who transfer to other occupations or leave the labor force, rather than to net new job creation alone. BLS does not publish a stated explanation for the growth rate itself on this occupation\'s Handbook page the way it sometimes does for other roles. This site\'s [audiologist salary guide](/audiologist-salary/) covers a faster-growing clinical field, with BLS projecting 11% growth through 2035 against a $95,780 median.',
+					"BLS breaks out May 2025 median pay for chefs and head cooks across four industry categories. Traveler accommodation, hotels and similar lodging that run their own kitchens, paid the highest median at $74,380. Amusement, gambling, and recreation industries followed at $72,830. Food services and drinking places, the industry employing the largest share of chefs and head cooks in traditional restaurants, paid $60,580, close to but below the national median. Healthcare and social assistance, covering institutional kitchens in hospitals and care facilities, paid the lowest of the four tracked industries at $59,550. At a much more credential-heavy tier, this site\'s [genetic counselor pay figures](/genetic-counselor-salary/) show a $100,040 median for a master\'s-level role, well above any of the industry figures above.",
+					'BLS projects 7% employment growth for chefs and head cooks from 2025 to 2035, classified as much faster than the roughly 3% average projected across all occupations, adding an estimated 14,400 jobs to the 220,300 already employed in 2025. About 25,200 openings are projected each year on average over the decade, which BLS attributes mainly to the need to replace workers who transfer to other occupations or leave the labor force, rather than to net new job creation alone. BLS does not publish a stated explanation for the growth rate itself on this occupation\'s Handbook page the way it sometimes does for other roles. This site\'s [audiologist salary guide](/audiologist-salary/) covers a faster-growing clinical field, with BLS projecting 11% growth through 2035 against a $95,780 median.',
 				],
 			},
 		],
 		faq: [
 			{
 				question: 'What is the average chef salary?',
-				answer: 'BLS puts chefs\' and head cooks\' median pay at $60,990 a year for May 2024, equivalent to $29.32 an hour. The lowest-paid tenth made under $36,000, while the highest-paid tenth cleared $96,030.',
+				answer: 'BLS puts chefs\' and head cooks\' median pay at $62,470 a year for May 2025, equivalent to $30.03 an hour. The lowest-paid tenth made under $37,900, while the highest-paid tenth cleared $98,560.',
 			},
 			{
 				question: 'Do you need a culinary degree to become a chef?',
@@ -3262,22 +3262,22 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What is the pay range for chefs and head cooks?',
-				answer: 'BLS\'s May 2024 data for this occupation puts pay at $60,990 a year at the midpoint, with the lowest-paid 10% earning less than $36,000 and the highest-paid 10% earning above $96,030, more than 2.5 times the low end, per BLS.',
+				answer: 'BLS\'s May 2025 data for this occupation puts pay at $62,470 a year at the midpoint, with the lowest-paid 10% earning less than $37,900 and the highest-paid 10% earning above $98,560, more than 2.5 times the low end, per BLS.',
 			},
 			{
 				question: 'Which industry pays chefs the most?',
-				answer: 'Hotel and lodging employers, what BLS calls the traveler-accommodation category, topped the list at $73,110 for May 2024. Next came gambling and amusement venues (grouped with recreation in BLS\'s data), which paid $69,430. Where most chefs actually work, food service and drinking establishments, pay came in at $59,450, and healthcare-sector employers paid the least of the four, at $57,350.',
+				answer: 'Hotel and lodging employers, what BLS calls the traveler-accommodation category, topped the list at $74,380 for May 2025. Next came gambling and amusement venues (grouped with recreation in BLS\'s data), which paid $72,830. Where most chefs actually work, food service and drinking establishments, pay came in at $60,580, and healthcare-sector employers paid the least of the four, at $59,550.',
 			},
 			{
 				question: 'Is chef a growing career?',
-				answer: 'Yes, per BLS. It puts growth at 7% for this occupation between 2024 and 2034, well ahead of the roughly 3% economy-wide pace it projects, working out to about 14,000 additional positions in a workforce that numbered 197,300 in 2024. BLS also expects roughly 24,400 openings a year on average, mostly from people moving into different lines of work or exiting the labor force entirely.',
+				answer: 'Yes, per BLS. It puts growth at 7% for this occupation between 2024 and 2034, well ahead of the roughly 3% economy-wide pace it projects, working out to about 14,000 additional positions in a workforce that numbered 220,300 in 2025. BLS also expects roughly 25,200 openings a year on average, mostly from people moving into different lines of work or exiting the labor force entirely.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Chefs and Head Cooks (accessed 2026-08-21 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Chefs and Head Cooks (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/food-preparation-and-serving/chefs-and-head-cooks.htm' },
 		],
 		image: '/images/chef-salary-chart.svg',
-		imageAlt: 'Bar chart showing chef and head cook annual wage by percentile: 10th percentile $36,000, median $60,990, 90th percentile $96,030, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing chef and head cook annual wage by percentile: 10th percentile $37,900, median $62,470, 90th percentile $98,560, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'how-to-become-a-software-engineer',
@@ -3319,7 +3319,7 @@ export const guides: Guide[] = [
 				heading: 'Job outlook, and how it splits from the paired QA role',
 				body: [
 					"BLS's Occupational Outlook Handbook narrative quotes a single combined growth rate, 10% from 2025 to 2035, for software developers and software quality assurance analysts and testers together, with about 106,100 combined openings projected each year. The Employment Projections table on that same Handbook page breaks the combined figure out by SOC code: software developers specifically are projected to grow 10%, from about 1,717,800 workers in 2025 to about 1,892,600 by 2035, an increase of roughly 174,700 jobs. Software quality assurance analysts and testers, the smaller paired occupation, are projected to grow more slowly, 6%, adding about 10,600 jobs to a much smaller 2025 base of roughly 187,600. BLS labels the combined group's outlook \"much faster than average.\"",
-					"Measured against other occupations this site tracks, the software developer median of $135,980 (May 2025 series) sits above [actuaries](/actuary-salary/) at $125,770 (May 2024 series, not yet refreshed), an occupation whose wide pay spread the actuary guide traces to a multi-year, exam-based credentialing system, and further above [accountants](/how-to-become-an-accountant/) at $81,680 (May 2024 series), where a bachelor's degree is the entry point but a separate CPA license, involving a state board and 150 total semester hours in most states, can follow. Software developers sit at the top of that specific comparison while being the only one of the three BLS describes with no state license or standardized professional exam named anywhere in its occupational profile. BLS's data describes what each occupation pays and what it typically requires; it does not explain why the field with the fewest formal gatekeeping requirements among these three also pays the most, and this page reports the pattern rather than asserting a cause.",
+					"Measured against other occupations this site tracks, the software developer median of $135,980 (May 2025 series) sits above [actuaries](/actuary-salary/) at $130,000 (May 2025 series), an occupation whose wide pay spread the actuary guide traces to a multi-year, exam-based credentialing system, and further above [accountants](/how-to-become-an-accountant/) at $83,680 (May 2025 series), where a bachelor's degree is the entry point but a separate CPA license, involving a state board and 150 total semester hours in most states, can follow. Software developers sit at the top of that specific comparison while being the only one of the three BLS describes with no state license or standardized professional exam named anywhere in its occupational profile. BLS's data describes what each occupation pays and what it typically requires; it does not explain why the field with the fewest formal gatekeeping requirements among these three also pays the most, and this page reports the pattern rather than asserting a cause.",
 				],
 			},
 		],
@@ -3360,11 +3360,11 @@ export const guides: Guide[] = [
 		slug: 'what-does-a-controller-do',
 		category: 'Career Guide',
 		title: 'What Does a Controller Do? Duties, Path, and BLS Pay Data',
-		description: "Controllers direct financial reporting and oversee accounting teams. BLS tracks the role under Financial Managers, a group with a $161,700 median wage.",
+		description: "Controllers direct financial reporting and oversee accounting teams. BLS tracks the role under Financial Managers, a group with a $166,570 median wage.",
 		published: '2026-08-22',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '11-3031',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, controllers direct the preparation of an organization's financial reports, oversee its accounting, audit, and budget departments, and prepare the filings required by government regulatory agencies. BLS does not track controllers as their own occupation; it groups them with treasurers, credit managers, cash managers, risk managers, and insurance managers under a single SOC code, Financial Managers (11-3031), and publishes one combined median wage and job-growth figure for the whole group rather than a controller-specific number. That combined group reported a median annual wage of $161,700 in May 2024, and BLS projects 15% employment growth for it from 2024 to 2034, much faster than the average for all occupations.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, controllers direct the preparation of an organization's financial reports, oversee its accounting, audit, and budget departments, and prepare the filings required by government regulatory agencies. BLS does not track controllers as their own occupation; it groups them with treasurers, credit managers, cash managers, risk managers, and insurance managers under a single SOC code, Financial Managers (11-3031), and publishes one combined median wage and job-growth figure for the whole group rather than a controller-specific number. That combined group reported a median annual wage of $166,570 in May 2025, and BLS projects 10% employment growth for it from 2025 to 2035, much faster than the average for all occupations.",
 		sections: [
 			{
 				heading: 'What controllers actually do, per BLS',
@@ -3387,15 +3387,15 @@ export const guides: Guide[] = [
 			{
 				heading: "Pay: what BLS reports for the group, and why it isn't controller-specific",
 				body: [
-					"BLS reports a median annual wage of $161,700 for financial managers in May 2024, or $77.74 an hour, well above the $49,500 median across all occupations that year. The bottom 10% earned less than $86,490, and the top 10% earned more than $239,200, a top-to-bottom spread of nearly 2.8 times between the two boundary figures BLS publishes. Because this is one combined figure for controllers, treasurers, credit managers, cash managers, risk managers, and insurance managers together, it does not isolate what controllers specifically earn; a controller's actual pay could sit anywhere in that range depending on the employer, industry, and how large a reporting operation they oversee.",
-					"By industry, BLS breaks out May 2024 wages into five categories for the group: professional, scientific, and technical services paid the highest median, $171,580, followed by management of companies and enterprises at $169,340, finance and insurance at $164,940, manufacturing at $160,660, and government excluding state and local education and hospitals, the lowest of the five tracked industries, at $134,790. Separately, BLS reports where the largest share of financial managers actually work: finance and insurance employed 31% of the group in 2024, the largest single share, followed by professional, scientific, and technical services at 14% and management of companies and enterprises at 10%, meaning the highest-paying industry by median wage is not the one that employs the most people in the role.",
+					"BLS reports a median annual wage of $166,570 for financial managers in May 2025, or $80.08 an hour, well above the $50,980 median across all occupations that year. The bottom 10% earned less than $94,310, and the top 10% earned more than $323,270, a top-to-bottom spread of nearly 2.8 times between the two boundary figures BLS publishes. Because this is one combined figure for controllers, treasurers, credit managers, cash managers, risk managers, and insurance managers together, it does not isolate what controllers specifically earn; a controller's actual pay could sit anywhere in that range depending on the employer, industry, and how large a reporting operation they oversee.",
+					"By industry, BLS breaks out May 2025 wages into five categories for the group: professional, scientific, and technical services paid the highest median, $174,170, followed by management of companies and enterprises at $172,340, finance and insurance at $169,980, manufacturing at $164,400, and government excluding state and local education and hospitals, the lowest of the five tracked industries, at $139,810. Separately, BLS reports where the largest share of financial managers actually work: finance and insurance employed 31% of the group in 2025, the largest single share, followed by professional, scientific, and technical services at 14% and management of companies and enterprises at 10%, meaning the highest-paying industry by median wage is not the one that employs the most people in the role.",
 				],
 			},
 			{
 				heading: 'Job outlook, and how this group compares to the roles that typically lead into it',
 				body: [
-					"BLS projects employment of financial managers to grow 15% from 2024 to 2034, much faster than the roughly 3% average across all occupations, adding an estimated 128,800 jobs to the 868,600 already employed in 2024. About 74,600 openings are projected each year on average over the decade; BLS attributes many of those to the need to replace workers who transfer to other occupations or exit the labor force, such as to retire, rather than to newly created positions alone. BLS attributes the growth itself partly to an increased emphasis on risk management within the financial industry, which it expects to continue, and specifically calls out cash management and risk management as specialties likely to be in high demand over the decade.",
-					"In this wage comparison, the financial manager median sits well above [accountants](/how-to-become-an-accountant/) at $81,680, nearly double that figure, and above [actuaries](/actuary-salary/) at $125,770, a gap of $35,930. That ordering lines up with BLS's own description of the career path: accountant and financial analyst are named as roles someone typically works in before becoming a financial manager, not as competing end points, while the typical financial-manager preparation includes a bachelor degree and five or more years in related work. That entry requirement is separate from what the national wage comparison measures. BLS's data describes what each occupation pays; it does not break out how much of that gap is attributable to the added years of experience alone versus the added management responsibility, and the comparison here does not attribute the gap to a single cause.",
+					"BLS projects employment of financial managers to grow 10% from 2025 to 2035, much faster than the roughly 3% average across all occupations, adding an estimated 84,900 jobs to the 879,700 already employed in 2025. About 65,600 openings are projected each year on average over the decade; BLS attributes many of those to the need to replace workers who transfer to other occupations or exit the labor force, such as to retire, rather than to newly created positions alone. BLS attributes the growth itself partly to an increased emphasis on risk management within the financial industry, which it expects to continue, and specifically calls out cash management and risk management as specialties likely to be in high demand over the decade.",
+					"In this wage comparison, the financial manager median sits well above [accountants](/how-to-become-an-accountant/) at $83,680, nearly double that figure, and above [actuaries](/actuary-salary/) at $130,000, a gap of $35,930. That ordering lines up with BLS's own description of the career path: accountant and financial analyst are named as roles someone typically works in before becoming a financial manager, not as competing end points, while the typical financial-manager preparation includes a bachelor degree and five or more years in related work. That entry requirement is separate from what the national wage comparison measures. BLS's data describes what each occupation pays; it does not break out how much of that gap is attributable to the added years of experience alone versus the added management responsibility, and the comparison here does not attribute the gap to a single cause.",
 				],
 			},
 		],
@@ -3406,7 +3406,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do controllers make?',
-				answer: "There is no separate BLS pay estimate just for controllers. The May 2024 midpoint for the full finance-management category was $161,700 yearly, or $77.74 hourly. That group also covers treasurers and managers responsible for credit, cash, risk and insurance. Its lowest-paid tenth fell below $86,490 and its highest-paid tenth earned above $239,200.",
+				answer: "There is no separate BLS pay estimate just for controllers. The May 2025 midpoint for the full finance-management category was $166,570 yearly, or $80.08 hourly. That group also covers treasurers and managers responsible for credit, cash, risk and insurance. Its lowest-paid tenth fell below $94,310 and its highest-paid tenth earned above $323,270.",
 			},
 			{
 				question: "What's the difference between a controller and a treasurer?",
@@ -3418,11 +3418,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is financial management a growing career?',
-				answer: 'For controllers together with the other financial-manager roles, BLS projected a 15% increase over 2024-to-2034, against about 3% for U.S. jobs overall. It forecast 128,800 additional jobs from a 2024 base of 868,600, alongside approximately 74,600 annual vacancies, many replacing people who change careers or retire.',
+				answer: 'For controllers together with the other financial-manager roles, BLS projected a 10% increase over 2025-to-2035, against about 3% for U.S. jobs overall. It forecast 128,800 additional jobs from a 2024 base of 879,700, alongside approximately 74,600 annual vacancies, many replacing people who change careers or retire.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Financial Managers (accessed 2026-08-22 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/management/financial-managers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Financial Managers (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/management/financial-managers.htm' },
 			{ label: 'O*NET OnLine: 11-3031.00 Financial Managers (the more detailed 11-3031.02 "Treasurers and Controllers" code now redirects here, independent confirmation controllers are not tracked as a separate BLS/O*NET occupation)', url: 'https://www.onetonline.org/link/summary/11-3031.00' },
 		],
 		image: '/images/financial-managers-roles.svg',
@@ -3432,11 +3432,11 @@ export const guides: Guide[] = [
 		slug: 'how-to-become-a-court-reporter',
 		category: 'How to Become',
 		title: 'How to Become a Court Reporter: Certification, Path, and Pay',
-		description: 'BLS says most court reporters train 2-3 years for a certificate or associate degree. State licensing rules vary, and BLS projects flat 0% job growth through 2034.',
+		description: 'BLS says most court reporters train 2-3 years for a certificate or associate degree. State licensing rules vary, and BLS projects flat 0% job growth through 2035.',
 		published: '2026-08-22',
 		updated: '2026-10-12',
 		socCode: '27-3092',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, court reporters and simultaneous captioners (SOC 27-3092) typically complete a postsecondary certificate or associate's degree at a community college or technical institute, a program that usually takes 2 to 3 years. Many states require a license or certification from a professional association to work in a legal setting, though BLS notes these requirements vary by state and by reporting method. BLS reports a median annual wage of $67,310 in May 2024 ($32.36 an hour), with the bottom 10% earning less than $39,100 and the top 10% earning more than $127,020. Unlike most occupations this site tracks, BLS projects 0% employment growth for court reporters and simultaneous captioners from 2024 to 2034, attributing most of the roughly 1,700 annual openings to the need to replace workers who leave the occupation.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, court reporters and simultaneous captioners (SOC 27-3092) typically complete a postsecondary certificate or associate's degree at a community college or technical institute, a program that usually takes 2 to 3 years. Many states require a license or certification from a professional association to work in a legal setting, though BLS notes these requirements vary by state and by reporting method. BLS reports a median annual wage of $72,420 in May 2025 ($34.82 an hour), with the bottom 10% earning less than $42,130 and the top 10% earning more than $130,560. Unlike most occupations this site tracks, BLS projects 0% employment growth for court reporters and simultaneous captioners from 2025 to 2035, attributing most of the roughly 1,800 annual openings to the need to replace workers who leave the occupation.",
 		sections: [
 			{
 				heading: 'What the job involves, and the training path BLS lists',
@@ -3447,7 +3447,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/court-reporter-education-path.svg',
-					alt: "Diagram showing the path to becoming a court reporter or simultaneous captioner: a 2-3 year postsecondary certificate or associate's degree, choosing a reporting method such as stenotype, voice-writing, or digital recording, a state license or professional certification exam, and on-the-job training, leading to a median pay of $67,310 a year per BLS.",
+					alt: "Diagram showing the path to becoming a court reporter or simultaneous captioner: a 2-3 year postsecondary certificate or associate's degree, choosing a reporting method such as stenotype, voice-writing, or digital recording, a state license or professional certification exam, and on-the-job training, leading to a median pay of $72,420 a year per BLS.",
 				},
 			},
 			{
@@ -3461,16 +3461,16 @@ export const guides: Guide[] = [
 			{
 				heading: 'Pay, by percentile and by industry',
 				body: [
-					'BLS reports a median annual wage of $67,310 for court reporters and simultaneous captioners in May 2024, or $32.36 an hour, above the $49,500 median across all occupations that year. The bottom 10% earned less than $39,100, and the top 10% earned more than $127,020, the boundary figures BLS publishes rather than exact percentile values, a spread of well over three times between the lower and upper bound.',
-					'By industry, BLS breaks out May 2024 median pay into three categories: local government, excluding education and hospitals, paid the highest median at $75,150, followed closely by state government, excluding education and hospitals, at $74,660, while business support services, the industry covering firms that supply reporting or captioning services to courts and other clients on contract, paid a lower median of $51,290. BLS separately notes that freelance court reporters and simultaneous captioners typically charge an hourly rate and may also sell additional transcript copies at a set price per page, a pay structure that doesn\'t map directly onto the industry-median figures it tracks for salaried positions.',
-					"Against another postsecondary-certificate occupation this site tracks, the court reporter median sits well below [ultrasound techs](/how-to-become-an-ultrasound-tech/) at $89,340, even though both start from a similar credential tier, roughly two years of postsecondary training for ultrasound techs against 2 to 3 years for court reporters. BLS's data describes what each occupation pays; it does not explain the roughly $22,000 gap between two occupations built on a comparable level of postsecondary training.",
+					'BLS reports a median annual wage of $72,420 for court reporters and simultaneous captioners in May 2025, or $34.82 an hour, above the $50,980 median across all occupations that year. The bottom 10% earned less than $42,130, and the top 10% earned more than $130,560, the boundary figures BLS publishes rather than exact percentile values, a spread of well over three times between the lower and upper bound.',
+					'By industry, BLS breaks out May 2025 median pay into three categories: local government, excluding education and hospitals, paid the highest median at $78,430, followed closely by state government, excluding education and hospitals, at $78,300, while business support services, the industry covering firms that supply reporting or captioning services to courts and other clients on contract, paid a lower median of $58,760. BLS separately notes that freelance court reporters and simultaneous captioners typically charge an hourly rate and may also sell additional transcript copies at a set price per page, a pay structure that doesn\'t map directly onto the industry-median figures it tracks for salaried positions.',
+					"Against another postsecondary-certificate occupation this site tracks, the court reporter median sits well below [ultrasound techs](/how-to-become-an-ultrasound-tech/) at $96,590, even though both start from a similar credential tier, roughly two years of postsecondary training for ultrasound techs against 2 to 3 years for court reporters. BLS's data describes what each occupation pays; it does not explain the roughly $22,000 gap between two occupations built on a comparable level of postsecondary training.",
 				],
 			},
 			{
 				heading: 'Job outlook: BLS projects no growth, but stable openings from replacement need',
 				body: [
-					'BLS projects 0% employment growth for court reporters and simultaneous captioners from 2024 to 2034, a rate it labels "little or no change," compared with a roughly 3% average across all occupations and the double-digit growth rates BLS projects for several other occupations this site tracks. Employment is projected to hold at 17,700 jobs, per BLS, with the increase over the decade rounding to zero.',
-					"Flat growth doesn't mean no openings, though. BLS projects about 1,700 openings a year on average over the decade, attributing most of them to the need to replace workers who transfer to a different occupation or exit the labor force, such as to retire, rather than to any net increase in positions. BLS lists several specific forces behind the flat headline number: technology may make transcription work more efficient, but BLS states court reporters will continue to be needed to review and edit digitally produced documentation; state and local government budgets, which fund many court reporter positions, are contingent on available funds; and federal regulations requiring closed captioning for television, the internet, and other technologies, along with a growing share of older people who experience hearing loss, are cited by BLS as forces that should support demand specifically for simultaneous captioners. BLS names movie theaters and sports stadiums adding closed captioning for attendees who are deaf or hard of hearing as another driver on the captioning side of the occupation specifically, separate from the courtroom-budget dynamics that shape demand for court reporters.",
+					'BLS projects 0% employment growth for court reporters and simultaneous captioners from 2025 to 2035, a rate it labels "little or no change," compared with a roughly 3% average across all occupations and the double-digit growth rates BLS projects for several other occupations this site tracks. Employment is projected to hold at 19,900 jobs, per BLS, with the increase over the decade rounding to zero.',
+					"Flat growth doesn't mean no openings, though. BLS projects about 1,800 openings a year on average over the decade, attributing most of them to the need to replace workers who transfer to a different occupation or exit the labor force, such as to retire, rather than to any net increase in positions. BLS lists several specific forces behind the flat headline number: technology may make transcription work more efficient, but BLS states court reporters will continue to be needed to review and edit digitally produced documentation; state and local government budgets, which fund many court reporter positions, are contingent on available funds; and federal regulations requiring closed captioning for television, the internet, and other technologies, along with a growing share of older people who experience hearing loss, are cited by BLS as forces that should support demand specifically for simultaneous captioners. BLS names movie theaters and sports stadiums adding closed captioning for attendees who are deaf or hard of hearing as another driver on the captioning side of the occupation specifically, separate from the courtroom-budget dynamics that shape demand for court reporters.",
 				],
 			},
 		],
@@ -3485,7 +3485,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do court reporters make?',
-				answer: 'Workers in this field earned a median $67,310 a year as of BLS\'s May 2024 release, roughly $32.36 hourly. Reporters in the lowest tenth of the pay scale brought home under $39,100, and those in the highest tenth topped $127,020. Local government offered the strongest pay among the three industries BLS tracks separately, a $75,150 median, state government wasn\'t far off at $74,660, and contract reporting firms, what BLS files under the business-support-services category, paid the least, at $51,290.',
+				answer: 'Workers in this field earned a median $72,420 a year as of BLS\'s May 2025 release, roughly $34.82 hourly. Reporters in the lowest tenth of the pay scale brought home under $42,130, and those in the highest tenth topped $130,560. Local government offered the strongest pay among the three industries BLS tracks separately, a $78,430 median, state government wasn\'t far off at $78,300, and contract reporting firms, what BLS files under the business-support-services category, paid the least, at $58,760.',
 			},
 			{
 				question: 'Is court reporting a growing career?',
@@ -3497,7 +3497,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: "Is becoming a court reporter worth it?",
-				answer: "The BLS numbers point both ways. Training usually runs 2 to 3 years, and no prior work experience is required, and the May 2024 median of $67,310 is higher than the $49,500 figure for all occupations. Against that, BLS projects flat headcount over the ten years to 2034, and many states expect a license or a professional credential. Whether that trade is worth it depends on where you would work and what kind of reporting you train for, which BLS does not weigh for you.",
+				answer: "The BLS numbers point both ways. Training usually runs 2 to 3 years, and no prior work experience is required, and the May 2025 median of $72,420 is higher than the  $50,980 figure for all occupations. Against that, BLS projects flat headcount over the ten years to 2035, and many states expect a license or a professional credential. Whether that trade is worth it depends on where you would work and what kind of reporting you train for, which BLS does not weigh for you.",
 			},
 			{
 				question: "Is court reporter a stressful job?",
@@ -3507,11 +3507,11 @@ export const guides: Guide[] = [
 		sources: [
 			{ label: 'Oregon State Bar: separate limited-practice Licensed Paralegal role (checked 2026-10-12)', url: 'https://www.osbar.org/lp' },
 
-			{ label: 'BLS Occupational Outlook Handbook: Court Reporters and Simultaneous Captioners (accessed 2026-08-22 via direct fetch with a UA string carrying a declared contact URL, returned 200 via the canonical short URL after the long-form URL returned 403, data from May 2024)', url: 'https://www.bls.gov/ooh/legal/court-reporters.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Court Reporters and Simultaneous Captioners (page last modified August 27, 2026; data from May 2025)', url: 'https://www.bls.gov/ooh/legal/court-reporters.htm' },
 			{ label: 'O*NET OnLine: 27-3092.00 Court Reporters and Simultaneous Captioners, sample job titles cross-check', url: 'https://www.onetonline.org/link/summary/27-3092.00' },
 		],
 		image: '/images/court-reporter-education-path.svg',
-		imageAlt: "Diagram showing the path to becoming a court reporter or simultaneous captioner: a 2-3 year postsecondary certificate or associate's degree, choosing a reporting method such as stenotype, voice-writing, or digital recording, a state license or professional certification exam, and on-the-job training, leading to a median pay of $67,310 a year per BLS.",
+		imageAlt: "Diagram showing the path to becoming a court reporter or simultaneous captioner: a 2-3 year postsecondary certificate or associate's degree, choosing a reporting method such as stenotype, voice-writing, or digital recording, a state license or professional certification exam, and on-the-job training, leading to a median pay of $72,420 a year per BLS.",
 	},
 	{
 		slug: 'what-does-a-millwright-do',
@@ -3583,7 +3583,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2025 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/industrial-machinery-mechanics-and-maintenance-workers-and-millwrights.htm' },
 			{ label: 'BLS Occupational Outlook Handbook: About This Handbook, Glossary (defines the growth-rate classification scale; "little or no change" covers an increase of less than 1% to a decrease of less than 1%, the band the millwright-specific 0% figure falls into)', url: 'https://www.bls.gov/ooh/about/glossary.htm' },
 		],
 		image: '/images/millwright-duties.svg',
@@ -3593,11 +3593,11 @@ export const guides: Guide[] = [
 		slug: 'how-to-become-a-paramedic',
 		category: 'How to Become',
 		title: 'How to Become a Paramedic: Certification, Licensing, and Pay',
-		description: 'BLS breaks the path into three certification tiers: EMT-Basic, EMT-Intermediate, then a paramedic program. Median pay is $58,410 a year, well above the EMT median.',
+		description: 'BLS breaks the path into three certification tiers: EMT-Basic, EMT-Intermediate, then a paramedic program. Median pay is $60,600 a year, well above the EMT median.',
 		published: '2026-08-23',
-		updated: '2026-08-23',
+		updated: '2026-10-12',
 		socCode: '29-2043',
-		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a paramedic runs through three certification tiers, not a single credential: EMT-Basic, EMT-Intermediate, then a paramedic postsecondary program that requires EMT-Intermediate certification just to enter. BLS tracks paramedics under SOC code 29-2043, a distinct code from EMTs (29-2042) within the combined "EMTs and Paramedics" occupation group, and reports a paramedic-specific median annual wage of $58,410 for May 2024, well above the $41,340 median for EMTs on the same BLS page. State licensing requirements vary, and BLS projects 5% employment growth for the combined EMT and paramedic group from 2024 to 2034, with most of the roughly 19,000 annual openings coming from the need to replace workers who leave the occupation.',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, becoming a paramedic runs through three certification tiers, not a single credential: EMT-Basic, EMT-Intermediate, then a paramedic postsecondary program that requires EMT-Intermediate certification just to enter. BLS tracks paramedics under SOC code 29-2043, a distinct code from EMTs (29-2042) within the combined "EMTs and Paramedics" occupation group, and reports a paramedic-specific median annual wage of $60,600 for May 2025, well above the $44,470 median for EMTs on the same BLS page. State licensing requirements vary, and BLS projects 6% employment growth for the combined EMT and paramedic group from 2025 to 2035, with most of the roughly 18,200 annual openings coming from the need to replace workers who leave the occupation.',
 		sections: [
 			{
 				heading: 'Three certification tiers, each built on the one before it',
@@ -3608,7 +3608,7 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/paramedic-education-path.svg',
-					alt: 'Diagram showing the path to becoming a paramedic: EMT-Basic certification, EMT-Intermediate certification, a paramedic postsecondary program requiring EMT-Intermediate status to enter, then a state licensing exam, leading to a median pay of $58,410 a year per BLS.',
+					alt: 'Diagram showing the path to becoming a paramedic: EMT-Basic certification, EMT-Intermediate certification, a paramedic postsecondary program requiring EMT-Intermediate status to enter, then a state licensing exam, leading to a median pay of $60,600 a year per BLS.',
 				},
 			},
 			{
@@ -3622,15 +3622,15 @@ export const guides: Guide[] = [
 			{
 				heading: 'Pay: a paramedic-specific median, and how it compares',
 				body: [
-					'BLS reports a median annual wage of $58,410 for paramedics in May 2024, above the $41,340 median for EMTs and the $46,350 median for the combined EMT-and-paramedic group on the same page, and also above the $49,500 median across all occupations that year. By industry, BLS\'s top-5 table for paramedics specifically shows local government (excluding education and hospitals) paying the highest median, $59,840, followed by offices of physicians at $59,370, private general medical and surgical hospitals at $58,780, ambulance services at $57,720, and local-government general medical and surgical hospitals at $52,990. Ambulance services, the setting most people probably picture first for this occupation, is not the top-paying industry BLS tracks for paramedics; local government and physician offices both pay more at the median.',
+					'BLS reports a median annual wage of $60,600 for paramedics in May 2025, above the $44,470 median for EMTs and the $46,350 median for the combined EMT-and-paramedic group on the same page, and also above the $50,980 median across all occupations that year. By industry, BLS\'s top-5 table for paramedics specifically shows local government (excluding education and hospitals) paying the highest median, $61,980, followed by private general medical and surgical hospitals at $61,370, ambulance services at $60,040, local-government general medical and surgical hospitals at $59,260, and offices of physicians at $55,900. Ambulance services, the setting most people probably picture first for this occupation, is not the top-paying industry BLS tracks for paramedics; local government and physician offices both pay more at the median.',
 					'BLS\'s industry table for EMTs, by contrast, shows outpatient care centers paying a median of $67,990, higher than any single industry BLS lists for paramedics. BLS does not explain that gap beyond publishing the figures, and it does not change the overall picture: EMTs\' median annual wage across all industries is still well below paramedics\', so one high-paying EMT industry segment does not mean EMTs typically out-earn paramedics.',
-					'Among other occupations this site has covered, paramedic pay sits close to [firefighters](/firefighter-salary/), which BLS also classifies under a "postsecondary nondegree award" entry-level education and whose $59,280 median for May 2025 sits about $870 above this May 2024 paramedic figure. It sits well above [CNAs](/how-to-become-a-cna/), whose $42,260 median is roughly 28% lower, even though CNA training runs a federal floor of just 75 hours and involves no multi-tier certification path. BLS does not weigh how much of these gaps traces to training length, scope of practice, or the settings each occupation typically works in. One structural difference for firefighting is that overtime at public fire agencies is calculated across a work period of up to 28 days, which this site covers in [firefighter pay and the overtime rule behind it](/why-do-firefighters-get-paid-so-little/).',
+					'Among other occupations this site has covered, paramedic pay sits close to [firefighters](/firefighter-salary/), which BLS also classifies under a "postsecondary nondegree award" entry-level education and whose $59,280 median for May 2025 sits about $870 above this May 2025 paramedic figure. It sits well above [CNAs](/how-to-become-a-cna/), whose $42,260 median is roughly 28% lower, even though CNA training runs a federal floor of just 75 hours and involves no multi-tier certification path. BLS does not weigh how much of these gaps traces to training length, scope of practice, or the settings each occupation typically works in. One structural difference for firefighting is that overtime at public fire agencies is calculated across a work period of up to 28 days, which this site covers in [firefighter pay and the overtime rule behind it](/why-do-firefighters-get-paid-so-little/).',
 				],
 			},
 			{
 				heading: 'Job outlook, and an advancement path BLS names specifically',
 				body: [
-					'BLS projects 5% employment growth for the combined EMT-and-paramedic occupation from 2024 to 2034, a rate it classifies as faster than the roughly 3% average across all occupations, with about 19,000 openings projected each year on average over the decade. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to a different occupation or exit the labor force, such as to retire, so new positions account for only part of the total. That 5% figure and the 19,000-opening estimate cover EMTs and paramedics together; BLS does not publish a paramedic-specific growth rate or opening count on this page.',
+					'BLS projects 6% employment growth for the combined EMT-and-paramedic occupation from 2025 to 2035, a rate it classifies as faster than the roughly 3% average across all occupations, with about 18,200 openings projected each year on average over the decade. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to a different occupation or exit the labor force, such as to retire, so new positions account for only part of the total. That 6% figure and the 18,200-opening estimate cover EMTs and paramedics together; BLS does not publish a paramedic-specific growth rate or opening count on this page.',
 					'BLS names one specific advancement route out of the occupation: with additional education, paramedics can move into other healthcare roles, and it points to paramedic-to-RN programs as an accelerated pathway into becoming a registered nurse. This site\'s [registered nurse pay guide](/how-long-is-nursing-school/) reports a median annual wage of $97,550 for RNs in May 2025, $39,140 above the paramedic median, though BLS does not quantify how much of that gap a paramedic entering through a bridge program would actually see, since bridge-program graduates still need to pass the NCLEX-RN and complete whatever program length their specific bridge track requires.',
 				],
 			},
@@ -3642,11 +3642,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do paramedics make?',
-				answer: 'Paramedics earned a median of $58,410 a year as of May 2024 per BLS, against $41,340 for EMTs and $46,350 when the two are pooled. By industry, local government employers (schools and hospitals excluded) pay paramedics the most at the median, $59,840, with physician offices next at $59,370. BLS publishes no 10th- or 90th-percentile wage figures for paramedics.',
+				answer: 'The May 2025 midpoint was $60,600, BLS reports. That is above the EMT figure ($44,470) and the combined-group median ($46,350). Local-government jobs outside schools and hospitals showed the top sector median ($61,980). Wage percentiles are not broken out on this profile.',
 			},
 			{
 				question: "What's the difference between an EMT and a paramedic?",
-				answer: 'BLS tracks them as separate occupations: paramedics have their own SOC code, 29-2043, apart from the 29-2042 code assigned to EMTs, though both fall under one umbrella Handbook page. Paramedics complete additional certification beyond EMT-Intermediate, including a dedicated college-level program covering EKG interpretation and airway management, and BLS reports a meaningfully higher median wage for paramedics: $58,410 versus $41,340 for EMTs in May 2024.',
+				answer: 'They have separate SOC codes: 29-2043 for paramedics and 29-2042 for EMTs, though BLS covers both on one Handbook page. Paramedics complete additional training beyond EMT-Intermediate. For May 2025, BLS reports medians of $60,600 and $44,470, respectively.',
 			},
 			{
 				question: 'Do paramedics need a license?',
@@ -3654,15 +3654,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is paramedic a growing career?',
-				answer: 'By BLS\'s growth measure, yes, though the figure pools EMTs with paramedics rather than isolating paramedics. Projected growth is 5% for 2024 to 2034, ahead of the 3% or so BLS expects for the workforce as a whole, and the agency counts about 19,000 yearly openings, most of them replacements for people who exit the field.',
+				answer: 'By BLS\'s growth measure, yes, though the figure pools EMTs with paramedics rather than isolating paramedics. Projected growth is 6% for 2025 to 2035, ahead of the 3% or so BLS expects for the workforce as a whole, and the agency counts about 18,200 yearly openings, most of them replacements for people who exit the field.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: EMTs and Paramedics (accessed 2026-08-23 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: EMTs and Paramedics (accessed 2026-08-23 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/emts-and-paramedics.htm' },
 			{ label: 'O*NET OnLine: 29-2043.00 Paramedics (independent confirmation paramedics carry a distinct SOC code from EMTs, 29-2042, within the combined 29-2040 group)', url: 'https://www.onetonline.org/link/summary/29-2043.00' },
 		],
 		image: '/images/paramedic-education-path.svg',
-		imageAlt: 'Diagram showing the path to becoming a paramedic: EMT-Basic certification, EMT-Intermediate certification, a paramedic postsecondary program requiring EMT-Intermediate status to enter, then a state licensing exam, leading to a median pay of $58,410 a year per BLS.',
+		imageAlt: 'Diagram showing the path to becoming a paramedic: EMT-Basic certification, EMT-Intermediate certification, a paramedic postsecondary program requiring EMT-Intermediate status to enter, then a state licensing exam, leading to a median pay of $60,600 a year per BLS.',
 	},
 	{
 		slug: 'what-does-a-dental-hygienist-do',
@@ -3705,7 +3705,7 @@ export const guides: Guide[] = [
 				body: [
 					'BLS states that dental hygienists typically need an associate\'s degree in dental hygiene, with programs usually taking 3 years to complete and combining classroom instruction with laboratory and clinical work. Coursework covers subjects such as anatomy, medical ethics, and periodontics, the study of gum disease. A bachelor\'s degree is also an option, and BLS notes it, along with a master\'s, is usually expected for hygienists who go into research, teaching, or clinical practice in public or school health programs, though master\'s programs in the field remain relatively uncommon. High school students considering the field are pointed toward biology, chemistry, and math coursework, since most dental hygiene programs also require applicants to complete college-level prerequisites before admission, with the specifics varying by school.',
 					'Every state requires dental hygienists to be licensed, though the exact requirements vary by state. In most states, that means graduating from an accredited program and passing written and clinical licensing exams, with continuing education required afterward to keep the license active. BLS points readers with state-specific questions to their state\'s Board of Dental Examiners, or to CareerOneStop for a general overview of state licensing board requirements. Many employers separately require CPR certification on top of the state dental license.',
-					'BLS reports a May 2024 median [dental assistant](/dental-assistant-salary/) wage of $47,300, essentially half the $98,100 hygienist median, and dental assistants can typically enter the occupation through a certificate program of about a year or through employer training alone, without the fixed multi-year, licensing-exam-gated path hygienists go through. BLS\'s data describes what each occupation pays; it does not break out how much of that roughly two-to-one gap traces to the added years of schooling and the licensing exam specifically versus other factors, such as scope of duties or supervision requirements, and this page reports the pattern rather than asserting a specific cause.',
+					'BLS reports a May 2025 median [dental assistant](/dental-assistant-salary/) wage of $48,070, essentially half the $98,100 hygienist median, and dental assistants can typically enter the occupation through a certificate program of about a year or through employer training alone, without the fixed multi-year, licensing-exam-gated path hygienists go through. BLS\'s data describes what each occupation pays; it does not break out how much of that roughly two-to-one gap traces to the added years of schooling and the licensing exam specifically versus other factors, such as scope of duties or supervision requirements, and this page reports the pattern rather than asserting a specific cause.',
 				],
 			},
 		],
@@ -3744,9 +3744,9 @@ export const guides: Guide[] = [
 		title: 'What Does an Insurance Underwriter Do? Duties, Pay, and Outlook',
 		description: 'Insurance underwriters evaluate applications and decide whether to approve coverage. BLS also projects the role to shrink, not grow. Here is what the job involves.',
 		published: '2026-08-24',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '13-2053',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, insurance underwriters evaluate insurance applications, weigh the risk of insuring an applicant with the help of automated underwriting software, and decide whether to approve coverage and at what premium. BLS reports a median annual salary of $79,880 in May 2024 for a role that typically requires a bachelor's degree and no state license. It's also one of the few occupations covered on this site where BLS projects employment to shrink rather than grow, down 3% from 2024 to 2034 as automated underwriting software takes on more of the decision-making underwriters used to do by hand.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, insurance underwriters evaluate insurance applications, weigh the risk of insuring an applicant with the help of automated underwriting software, and decide whether to approve coverage and at what premium. BLS reports a median annual salary of $81,370 in May 2025 for a role that typically requires a bachelor's degree and no state license. It's also one of the few occupations covered on this site where BLS projects employment to shrink rather than grow, down 4% from 2025 to 2035 as automated underwriting software takes on more of the decision-making underwriters used to do by hand.",
 		sections: [
 			{
 				heading: 'What the job actually involves',
@@ -3763,15 +3763,15 @@ export const guides: Guide[] = [
 			{
 				heading: 'Where underwriters work, and what they get paid',
 				body: [
-					'BLS reports insurance underwriters held about 127,000 jobs in 2024, almost all of it concentrated in insurance-adjacent industries. Direct insurers other than life, health, and medical carriers employed 52% of underwriters, insurance agencies and brokerages employed 25%, other insurance-related activities employed 5%, direct health and medical insurance carriers employed 4%, and credit intermediation employed 1%. Those five categories BLS breaks out by name account for 87% of the total; BLS doesn\'t itemize the remaining employers individually. Most underwriters work full time, in an office, and BLS doesn\'t flag any notable part-time pattern for the occupation the way it does for some other roles on this site.',
-					'BLS reports a median annual wage of $79,880 in May 2024, or $38.40 an hour. The spread around that median is wide: the lowest-paid 10% of underwriters earned under $51,640, while the highest-paid 10% earned over $138,020, roughly a 2.7-to-1 gap between the bottom and top of the range. Pay by industry doesn\'t track employer size the way it does in some other occupations on this site. Credit intermediation, the industry employing the fewest underwriters at just 1%, paid the highest median at $90,000, while direct insurance carriers, the industry employing more than half of all underwriters, paid closer to the middle of the range at $79,350. Other insurance-related activities ($81,870) and direct health and medical insurance carriers ($81,240) both paid above the occupation-wide median as well, with insurance agencies and brokerages at $79,200 rounding out the tracked industries.',
+					'BLS reports insurance underwriters held about 125,600 jobs in 2025, almost all of it concentrated in insurance-adjacent industries. Direct insurers other than life, health, and medical carriers employed 52% of underwriters, insurance agencies and brokerages employed 25%, other insurance-related activities employed 5%, direct health and medical insurance carriers employed 4%, and credit intermediation employed 1%. Those five categories BLS breaks out by name account for 87% of the total; BLS doesn\'t itemize the remaining employers individually. Most underwriters work full time, in an office, and BLS doesn\'t flag any notable part-time pattern for the occupation the way it does for some other roles on this site.',
+					'BLS reports a median annual wage of $81,370 in May 2025, or $39.12 an hour. The spread around that median is wide: the lowest-paid 10% of underwriters earned under $55,530, while the highest-paid 10% earned over $145,160, roughly a 2.6-to-1 gap between the bottom and top of the range. Pay by industry doesn\'t track employer size the way it does in some other occupations on this site. Direct health and medical insurance carriers paid the highest median at $91,290, followed by credit intermediation at $86,690. Other insurance-related activities paid $81,340, insurance agencies and brokerages $80,740, and direct insurance carriers $80,210. The industry figures describe wages by sector; they do not establish why the medians differ.',
 				],
 			},
 			{
 				heading: 'Job outlook: one of the rare BLS pages projecting a decline',
 				body: [
-					'Most occupations covered on this site show BLS projecting flat-to-positive job growth. Insurance underwriting is an exception. BLS projects employment of insurance underwriters to decline 3% from 2024 to 2034, a loss of about 3,300 positions off the current base of 127,000. BLS attributes the decline directly to automation: "automated underwriting software allows workers to process applications quickly, reducing the need for underwriters," and it expects that software to keep improving and see wider adoption across the insurance industry over the coming decade, which would reduce underwriter headcount further.',
-					'Despite the shrinking headcount, BLS still projects about 8,200 openings for insurance underwriters each year, on average, over the decade. BLS is explicit about where those openings come from: every one of them is expected to result from replacing underwriters who transfer to a different occupation or leave the labor force entirely, such as to retire, rather than from newly created positions. That\'s a different growth story than an occupation like [actuary](/actuary-salary/) on this site, where BLS projects 22% growth, much faster than average, alongside its own set of replacement-driven openings.',
+					'Most occupations covered on this site show BLS projecting flat-to-positive job growth. Insurance underwriting is an exception. BLS projects employment of insurance underwriters to decline 4% from 2025 to 2035, a loss of about 4,800 positions off the current base of 125,600. BLS attributes the decline directly to automation: "automated underwriting software allows workers to process applications quickly, reducing the need for underwriters," and it expects that software to keep improving and see wider adoption across the insurance industry over the coming decade, which would reduce underwriter headcount further.',
+					'Despite the shrinking headcount, BLS still projects about 6,800 openings for insurance underwriters each year, on average, over the decade. BLS is explicit about where those openings come from: every one of them is expected to result from replacing underwriters who transfer to a different occupation or leave the labor force entirely, such as to retire, rather than from newly created positions. That\'s a different growth story than an occupation like [actuary](/actuary-salary/) on this site, where BLS projects 22% growth, much faster than average, alongside its own set of replacement-driven openings.',
 				],
 			},
 			{
@@ -3779,7 +3779,7 @@ export const guides: Guide[] = [
 				body: [
 					"BLS states most firms prefer to hire underwriters with a bachelor's degree, commonly in business, with coursework in finance, economics, and mathematics considered helpful. Candidates with only an associate's degree or a high school diploma sometimes qualify if they have relevant insurance work experience, though BLS frames that as an exception rather than the typical path. New hires typically work under a senior underwriter's supervision for up to 12 months, starting on basic applications and moving to more complex ones as they gain experience.",
 					"Unlike some licensed occupations on this site, BLS does not describe a state licensing requirement for insurance underwriters. Certification isn't mandatory either, but BLS says employers may expect it, since coursework tied to certification helps underwriters keep up with new insurance products and changes in state and federal regulation. BLS points readers toward CareerOneStop for the range of available certification and specialty-designation options, noting that requirements vary and some credentials require a set number of years of experience before a candidate can pursue them. Advancement follows a similar pattern: experienced underwriters can move up to senior underwriter or underwriter manager, and BLS says certification may be needed to make that move.",
-					"BLS's own similar-occupations table puts underwriters next to [actuaries](/what-does-an-actuary-do/), whose $125,770 median pay in May 2024 runs well above the $79,880 underwriter median. The gap tracks a difference in how each field gates entry. Actuaries go through a multi-year professional exam sequence administered by the Society of Actuaries or Casualty Actuarial Society before reaching full certification, a process BLS says can take up to seven years, while underwriters typically clear a bachelor's degree and an employer-run training period with no equivalent exam ladder. BLS's pay data doesn't break out exactly how much of that roughly $46,000 gap owes to the exam-based credentialing itself versus other factors, such as differences in specialization or industry, and this page reports the pay difference rather than asserting a specific cause.",
+					"BLS's own similar-occupations table puts underwriters next to [actuaries](/what-does-an-actuary-do/), whose $130,000 median pay in May 2025 runs well above the $81,370 underwriter median. The gap tracks a difference in how each field gates entry. Actuaries go through a multi-year professional exam sequence administered by the Society of Actuaries or Casualty Actuarial Society before reaching full certification, a process BLS says can take up to seven years, while underwriters typically clear a bachelor's degree and an employer-run training period with no equivalent exam ladder. BLS's pay data doesn't break out exactly how much of that roughly $46,000 gap owes to the exam-based credentialing itself versus other factors, such as differences in specialization or industry, and this page reports the pay difference rather than asserting a specific cause.",
 				],
 			},
 		],
@@ -3790,11 +3790,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do insurance underwriters make?',
-				answer: 'The May 2024 occupation midpoint was $79,880 yearly, equivalent to $38.40 hourly. The lowest-paid tenth earned below $51,640 and the highest-paid tenth above $138,020. Employers in the credit-intermediation category led the listed industry medians at $90,000 while employing just 1% of the field.',
+				answer: 'The May 2025 occupation midpoint was $81,370 yearly, equivalent to $39.12 hourly. The lowest-paid tenth earned below $55,530 and the highest-paid tenth above $145,160. Among the published industry figures, one segment reached $91,290, while the finance-linked lending sector recorded $86,690.',
 			},
 			{
 				question: 'Is insurance underwriting a growing field?',
-				answer: "No. The 2024-to-2034 forecast removes about 3,300 jobs, a 3% contraction tied to increasing use of automated decision software. About 8,200 annual vacancies are still expected on average, entirely to replace departing workers rather than expand headcount.",
+				answer: "No. The 2025-to-2035 forecast removes about 4,800 jobs, a 4% contraction tied to increasing use of automated decision software. About 8,200 annual vacancies are still expected on average, entirely to replace departing workers rather than expand headcount.",
 			},
 			{
 				question: 'Do you need a license to become an insurance underwriter?',
@@ -3802,11 +3802,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What is the difference between an insurance underwriter and an actuary?',
-				answer: "The underwriter decides whether an individual application meets the insurer's risk and pricing criteria. The actuary develops models and assumptions using statistics, with professional examinations taking as many as seven years to associate status and further study for fellowship. Their May 2024 national medians were $79,880 and $125,770 respectively.",
+				answer: "The underwriter decides whether an individual application meets the insurer's risk and pricing criteria. The actuary develops models and assumptions using statistics, with professional examinations taking as many as seven years to associate status and further study for fellowship. Their May 2025 national medians were $81,370 and $130,000 respectively.",
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Insurance Underwriters (accessed 2026-08-24 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/business-and-financial/insurance-underwriters.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Insurance Underwriters (accessed 2026-08-24 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/business-and-financial/insurance-underwriters.htm' },
 		],
 		image: '/images/insurance-underwriter-duties.svg',
 		imageAlt: 'Diagram showing four things insurance underwriters do per BLS: analyze application information, assess risk using software, decide whether to approve coverage, and set premiums and coverage amounts.',
@@ -3815,11 +3815,11 @@ export const guides: Guide[] = [
 		slug: 'what-does-a-bookkeeper-do',
 		category: 'Career Guide',
 		title: 'What Does a Bookkeeper Do? Duties, Path, and BLS Pay Data',
-		description: 'Bookkeepers post transactions and reconcile accounts, but software has automated much of the work. BLS projects a 6% employment decline and $49,210 median pay.',
+		description: 'Bookkeepers post transactions and reconcile accounts, but software has automated much of the work. BLS projects a 6% employment decline and $50,670 median pay.',
 		published: '2026-08-24',
 		updated: '2026-10-12',
 		socCode: '43-3031',
-		coreSummary: 'Per the U.S. Bureau of Labor Statistics, bookkeeping, accounting, and auditing clerks compute, classify, and record data to help organizations keep complete and accurate financial records, using bookkeeping software to post transactions, reconcile accounts, and produce reports such as balance sheets and income statements. BLS reports a median annual wage of $49,210 in May 2024, and the role typically requires college coursework without degree completion. It is also one of three occupations covered on this site where BLS projects a contraction in employment: bookkeeper employment is projected to decline 6% from 2024 to 2034, the steepest of the three, a loss BLS attributes directly to accounting software automating tasks the role used to require by hand.',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, bookkeeping, accounting, and auditing clerks compute, classify, and record data to help organizations keep complete and accurate financial records, using bookkeeping software to post transactions, reconcile accounts, and produce reports such as balance sheets and income statements. BLS reports a median annual wage of $50,670 in May 2025, and the role typically requires college coursework without degree completion. It is also one of three occupations covered on this site where BLS projects a contraction in employment: bookkeeper employment is projected to decline 6% from 2025 to 2035, the steepest of the three, a loss BLS attributes directly to accounting software automating tasks the role used to require by hand.',
 		sections: [
 			{
 				heading: 'What bookkeepers actually do, per BLS',
@@ -3835,17 +3835,17 @@ export const guides: Guide[] = [
 			{
 				heading: 'Software is shrinking the field, and BLS says so directly',
 				body: [
-					'BLS projects bookkeeper employment to decline 6% from 2024 to 2034, a loss of about 94,300 positions from a 2024 base of 1,613,400. That is a steeper drop than any other decline this site has found on a BLS occupational page so far. BLS identifies the cause directly: "Software innovations have automated many of the tasks performed by bookkeeping, accounting, and auditing clerks. As a result, the same amount of work can be done with fewer employees."',
-					"Despite the shrinking headcount, BLS still projects about 170,000 openings a year on average over the decade, a number that runs well above the roughly 94,300 total jobs projected to disappear. BLS attributes nearly all of that gap to replacement demand: with more than 1.6 million people currently working in the occupation, most annual openings come from workers who transfer to a different occupation or leave the labor force entirely, such as to retire, not from newly created positions. A shrinking occupation and a large number of yearly openings aren't a contradiction in BLS's data; they describe two different things, the size of the workforce and the churn within it.",
+					'BLS projects bookkeeper employment to decline 6% from 2025 to 2035, a loss of about 85,600 positions from a 2024 base of 1,532,400. That is a steeper drop than any other decline this site has found on a BLS occupational page so far. BLS identifies the cause directly: "Software innovations have automated many of the tasks performed by bookkeeping, accounting, and auditing clerks. As a result, the same amount of work can be done with fewer employees."',
+					"Despite the shrinking headcount, BLS still projects about 144,100 openings a year on average over the decade, a number that runs well above the roughly 94,300 total jobs projected to disappear. BLS attributes nearly all of that gap to replacement demand: with more than 1.6 million people currently working in the occupation, most annual openings come from workers who transfer to a different occupation or leave the labor force entirely, such as to retire, not from newly created positions. A shrinking occupation and a large number of yearly openings aren't a contradiction in BLS's data; they describe two different things, the size of the workforce and the churn within it.",
 					"Bookkeepers aren't alone in this pattern among the occupations this site covers. [Insurance underwriters](/what-does-an-insurance-underwriter-do/) also show a projected employment decline, down 3% over the same decade, and BLS attributes that drop to the same underlying force: automated underwriting software reducing the need for people to do the work by hand. A third occupation, [boilermakers](/boilermaker-salary/), rounds out the list with the mildest decline of the three, just 2%, but for an unrelated reason: it's a hands-on trade building and repairing pressure vessels, and BLS does not cite software or automation anywhere on that page. The bookkeeper decline is the steepest of these three forecasts. Their percentages do not measure how much work software handles in each occupation.",
 				],
 			},
 			{
 				heading: 'Pay: no degree required, and a wide gap from the roles above it',
 				body: [
-					'BLS reports a median annual wage of $49,210 for bookkeeping, accounting, and auditing clerks in May 2024, or $23.66 an hour, below the $49,500 median across all occupations that year. The bottom 10% earned less than $34,600, and the top 10% earned more than $72,660, a range of roughly $38,000 between the two boundary figures BLS publishes. Unlike several other occupations this site tracks, entry does not require a bachelor\'s degree. BLS classifies the entry-level education as "some college, no degree," and describes employers as generally preferring candidates with a high school diploma who have also completed college coursework in a related subject, such as accounting, with most of the actual skill built through workplace training.',
-					"By industry, BLS's May 2024 wage table shows construction paying the highest median for the occupation at $51,670, followed by professional, scientific, and technical services at $50,180, then healthcare and social assistance tied with wholesale trade at $48,810, and retail trade at $45,030, the lowest of the five industries BLS tracks. That ranking does not line up with where most bookkeepers actually work: professional, scientific, and technical services employs the largest share of the occupation at 13%, even though it pays the second-highest of the five tracked industries, while construction employs a smaller 8% share despite paying the most. BLS does not explain the mismatch between where bookkeepers are concentrated and where the job pays best; this page reports the pattern with no specific causal conclusion.",
-					"Against other BLS-tracked occupations this site covers in the same broad field, the bookkeeper median sits well below [accountants and auditors](/how-to-become-an-accountant/) at $81,680, an occupation that typically requires a bachelor's degree, and further still below the $161,700 median BLS reports for [financial managers](/what-does-a-controller-do/), the group that covers controllers and typically requires a bachelor's degree plus years of related experience. Each step up that ladder pairs a longer, more credentialed entry path with a meaningfully higher median wage, though BLS's data describes the pay gap without attributing a specific share of it to credentials alone versus other factors, such as scope of responsibility or industry. At the top of that same ladder, [what a CEO does](/what-does-a-ceo-do/) is covered separately, with duties, pay, and job outlook. A different quantitative credentialing model entirely shows up in this site's [actuary duties overview](/what-does-an-actuary-do/), where advancement runs through a multi-year professional examination series.",
+					'BLS reports a median annual wage of $50,670 for bookkeeping, accounting, and auditing clerks in May 2025, or $24.36 an hour, below the $50,980 median across all occupations that year. The bottom 10% earned less than $36,000, and the top 10% earned more than $74,550, a range of roughly $38,000 between the two boundary figures BLS publishes. Unlike several other occupations this site tracks, entry does not require a bachelor\'s degree. BLS classifies the entry-level education as "some college, no degree," and describes employers as generally preferring candidates with a high school diploma who have also completed college coursework in a related subject, such as accounting, with most of the actual skill built through workplace training.',
+					"By industry, BLS's May 2025 wage table shows construction paying the highest median for the occupation at $54,890, followed by professional, scientific, and technical services at $51,880, then healthcare and social assistance tied with wholesale trade at $50,660, and retail trade at $45,830, the lowest of the five industries BLS tracks. That ranking does not line up with where most bookkeepers actually work: professional, scientific, and technical services employs the largest share of the occupation at 13%, even though it pays the second-highest of the five tracked industries, while construction employs a smaller 8% share despite paying the most. BLS does not explain the mismatch between where bookkeepers are concentrated and where the job pays best; this page reports the pattern with no specific causal conclusion.",
+					"Against other BLS-tracked occupations this site covers in the same broad field, the bookkeeper median sits well below [accountants and auditors](/how-to-become-an-accountant/) at $83,680, an occupation that typically requires a bachelor's degree, and further still below the $166,570 median BLS reports for [financial managers](/what-does-a-controller-do/), the group that covers controllers and typically requires a bachelor's degree plus years of related experience. Each step up that ladder pairs a longer, more credentialed entry path with a meaningfully higher median wage, though BLS's data describes the pay gap without attributing a specific share of it to credentials alone versus other factors, such as scope of responsibility or industry. At the top of that same ladder, [what a CEO does](/what-does-a-ceo-do/) is covered separately, with duties, pay, and job outlook. A different quantitative credentialing model entirely shows up in this site's [actuary duties overview](/what-does-an-actuary-do/), where advancement runs through a multi-year professional examination series.",
 				],
 			},
 		],
@@ -3856,11 +3856,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do bookkeepers make?',
-				answer: 'The combined bookkeeping and accounting-clerk category had a $49,210 annual midpoint, or $23.66 hourly, in May 2024. The bottom tenth earned under $34,600 and the top tenth above $72,660. Construction\'s $51,670 industry median was highest among those reported; retail\'s $45,030 was lowest.',
+				answer: 'The combined bookkeeping and accounting-clerk category had a $50,670 annual midpoint, or $24.36 hourly, in May 2025. The bottom tenth earned under $36,000 and the top tenth above $74,550. Construction\'s $54,890 industry median was highest among those reported; retail\'s $45,830 was lowest.',
 			},
 			{
 				question: 'Is bookkeeping a growing career?',
-				answer: 'The forecast is a contraction: 94,300 fewer positions over 2024-to-2034, a 6% decline as software automates manual accounting tasks. Hiring does continue. BLS estimates 170,000 annual openings, almost entirely to replace people changing occupations or leaving employment.',
+				answer: 'The forecast is a contraction: 94,300 fewer positions over 2025-to-2035, a 6% decline as software automates manual accounting tasks. Hiring does continue. BLS estimates 144,100 annual openings, almost entirely to replace people changing occupations or leaving employment.',
 			},
 			{
 				question: 'Do you need a degree to become a bookkeeper?',
@@ -3868,11 +3868,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: "What's the difference between a bookkeeper and an accountant?",
-				answer: "Transaction recording and organization belong to the clerk's work; accountants also examine statements for compliance, calculate taxes and inspect systems for fraud risks. The usual credentials are college classes without earning a qualification versus an undergraduate degree. Their May 2024 medians, $49,210 and $81,680, differ by more than $32,000.",
+				answer: "Transaction recording and organization belong to the clerk's work; accountants also examine statements for compliance, calculate taxes and inspect systems for fraud risks. The usual credentials are college classes without earning a qualification versus an undergraduate degree. Their May 2025 medians, $50,670 and $83,680, differ by more than $32,000.",
 			},
 			{
 				question: 'Do bookkeepers make a lot of money?',
-				answer: 'The May 2024 midpoint of $49,210 was slightly below the $49,500 figure across all jobs nationwide in that survey year. On that national comparison, typical pay was close to the broader labor-market midpoint.',
+				answer: 'The May 2025 midpoint of $50,670 was slightly below the $50,980 figure across all jobs nationwide in that survey year. On that national comparison, typical pay was close to the broader labor-market midpoint.',
 			},
 			{
 				question: 'Is bookkeeping a hard job?',
@@ -3880,7 +3880,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks (accessed 2026-08-24 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Bookkeeping, Accounting, and Auditing Clerks (accessed 2026-08-24 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/office-and-administrative-support/bookkeeping-accounting-and-auditing-clerks.htm' },
 			{ label: 'O*NET OnLine: 43-3031.00 Bookkeeping, Accounting, and Auditing Clerks (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/details/43-3031.00' },
 		],
 		image: '/images/bookkeeper-duties.svg',
@@ -3890,11 +3890,11 @@ export const guides: Guide[] = [
 		slug: 'what-does-a-ceo-do',
 		category: 'Career Guide',
 		title: 'What Does a CEO Do? Duties, Pay, and Job Outlook (BLS Data)',
-		description: 'Chief executives set strategy and report to the board. BLS puts median CEO pay at $206,420, second-highest on this site, with 4% projected job growth.',
+		description: 'Chief executives set strategy and report to the board. BLS puts median CEO pay at $213,990, second-highest on this site, with 3% projected job growth.',
 		published: '2026-08-25',
-		updated: '2026-10-11',
+		updated: '2026-10-12',
 		socCode: '11-1011',
-		coreSummary: "Per the U.S. Bureau of Labor Statistics, chief executive officers provide overall direction for companies and organizations, formulating and implementing policy, directing the work of other top executives, and typically reporting to a board of directors. BLS tracks chief executives under SOC code 11-1011 and reports a median annual wage of $206,420 in May 2024, the second-highest median of any occupation on this site, behind only nurse anesthetists. BLS projects the occupation to grow 4% from 2024 to 2034, about as fast as the average for all occupations, adding roughly 13,300 positions to a 2024 base of 309,400.",
+		coreSummary: "Per the U.S. Bureau of Labor Statistics, chief executive officers provide overall direction for companies and organizations, formulating and implementing policy, directing the work of other top executives, and typically reporting to a board of directors. BLS tracks chief executives under SOC code 11-1011 and reports a median annual wage of $213,990 in May 2025, the second-highest median of any occupation on this site, behind only nurse anesthetists. BLS projects the occupation to grow 3% from 2025 to 2035, about as fast as the average for all occupations, adding roughly 9,300 positions to a 2024 base of 291,600.",
 		sections: [
 			{
 				heading: 'What CEOs actually do, per BLS',
@@ -3909,18 +3909,18 @@ export const guides: Guide[] = [
 				},
 			},
 			{
-				heading: 'Pay: $206,420 median, second-highest on this site',
+				heading: 'Pay: $213,990 median, second-highest on this site',
 				body: [
-					"BLS reports a median annual wage of $206,420 for chief executives in May 2024, or $99.24 an hour under BLS's convention of assuming a full-time, 2,080-hour work year. The lowest-paid 10% of chief executives earned less than $73,710, while the highest-paid 10% earned more than $239,200. That $239,200 figure is a data ceiling, not a coincidence: BLS's wage survey top-codes annual estimates at that same amount across occupations, so it also appears as the reported 90th percentile for [financial managers](/what-does-a-controller-do/) on this site. The true top of the CEO pay range runs higher than $239,200; BLS's public wage tables simply stop reporting a more precise figure past that point.",
-					'By industry, BLS reports the highest median pay for chief executives at organizations classified under management of companies and enterprises, at the same $239,200 top-coded ceiling, followed by professional, scientific, and technical services at $208,870, healthcare and social assistance at $194,360, and government, excluding state and local education and hospitals, at $137,310. Chief executives rank second among the occupations this site has covered so far, behind only [CRNAs](/crna-salary/) at $236,590 and well above the $161,700 median BLS reports for financial managers, the group that includes controllers.',
+					"BLS reports a median annual wage of $213,990 for chief executives in May 2025, or $102.88 an hour under BLS's convention of assuming a full-time, 2,080-hour work year. The lowest-paid 10% of chief executives earned less than $75,700, while the highest-paid 10% earned more than $507,730. That $507,730 figure is a data ceiling, not a coincidence: BLS's wage survey top-codes annual estimates at that same amount across occupations, so it also appears as the reported 90th percentile for [financial managers](/what-does-a-controller-do/) on this site. The true top of the CEO pay range runs higher than $507,730; BLS's public wage tables simply stop reporting a more precise figure past that point.",
+					'By industry, BLS reports the highest median pay for chief executives at organizations classified under management of companies and enterprises, at the same $507,730 top-coded ceiling, followed by professional, scientific, and technical services at $237,180, healthcare and social assistance at $197,090, and government, excluding state and local education and hospitals, at $146,700. Chief executives rank second among the occupations this site has covered so far, behind only [CRNAs](/crna-salary/) at $236,590 and well above the $166,570 median BLS reports for financial managers, the group that includes controllers.',
 					"BLS also notes that salary is not the full compensation picture for corporate chief executives. In addition to base pay, total compensation often includes stock options and other performance bonuses, along with benefits such as expense allowances, use of company-owned aircraft and cars, and membership to exclusive clubs. BLS specifically flags that nonprofit and government executives usually receive fewer of these additional benefits than their corporate counterparts.",
 				],
 			},
 			{
 				heading: 'Job outlook: headcount is projected to grow, not just replace departures',
 				body: [
-					'BLS projects employment of chief executives to grow 4% from 2024 to 2034, close to the roughly 3% average projected across all occupations, and a departure from the pattern on three other occupations this site tracks. [Bookkeepers](/what-does-a-bookkeeper-do/) and [insurance underwriters](/what-does-an-insurance-underwriter-do/) are both projected to shrink from 2024 to 2034, and [boilermakers](/boilermaker-salary/) are projected to shrink from 2025 to 2035 on BLS\'s more recently refreshed page for that trade; chief executive headcount is projected to grow instead, from about 309,400 in 2024 to about 322,700 in 2034, an increase of roughly 13,300 positions.',
-					"BLS also publishes an annual-openings estimate of about 331,000 for the combined \"Top Executives\" category, but that figure covers both chief executives and the much larger general/operations management occupation. General and operations managers make up the much larger share of that combined group, holding about 3.7 million jobs in 2024 against roughly 309,400 for chief executives specifically, so most of the combined 331,000 annual openings likely land in the larger occupation. BLS does not publish a chief-executive-specific annual-openings number the way it does for employment, pay, and the growth rate, so this page reports the combined figure with that caveat; it is not a chief-executive-only estimate.",
+					'BLS projects employment of chief executives to grow 3% from 2025 to 2035, close to the roughly 3% average projected across all occupations, and a departure from the pattern on three other occupations this site tracks. [Bookkeepers](/what-does-a-bookkeeper-do/) and [insurance underwriters](/what-does-an-insurance-underwriter-do/) are both projected to shrink from 2025 to 2035, and [boilermakers](/boilermaker-salary/) are projected to shrink from 2025 to 2035 on BLS\'s more recently refreshed page for that trade; chief executive headcount is projected to grow instead, from about 291,600 in 2025 to about 300,900 in 2034, an increase of roughly 9,300 positions.',
+					"BLS also publishes an annual-openings estimate of about 331,000 for the combined \"Top Executives\" category, but that figure covers both chief executives and the much larger general/operations management occupation. General and operations managers make up the much larger share of that combined group, holding about 3.7 million jobs in 2025 against roughly 291,600 for chief executives specifically, so most of the combined 304,100 annual openings likely land in the larger occupation. BLS does not publish a chief-executive-specific annual-openings number the way it does for employment, pay, and the growth rate, so this page reports the combined figure with that caveat; it is not a chief-executive-only estimate.",
 					'Among employers of chief executives specifically, BLS reports the largest share, 26%, as self-employed workers, ahead of professional, scientific, and technical services at 13%, government excluding state and local education and hospitals at 9%, healthcare and social assistance at 6%, and management of companies and enterprises at 5%. Those five categories BLS names individually account for 59% of chief executives; BLS does not itemize the remaining 41% by industry. The large self-employed share reflects how broadly BLS defines the occupation: it counts the owner-operator of a small business alongside the chief executive of a large public corporation.',
 				],
 			},
@@ -3940,11 +3940,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do CEOs make?',
-				answer: "The May 2024 chief-executive midpoint was $206,420 annually, or $99.24 hourly. Earnings fell below $73,710 for the lowest-paid tenth and exceeded $239,200 for the highest-paid tenth. That upper figure is the survey's reporting threshold, not the biggest possible paycheck. Company-management employers and professional or technical service firms led the listed industry medians.",
+				answer: "The May 2025 chief-executive midpoint was $213,990 annually, or $102.88 hourly. Earnings fell below $75,700 for the lowest-paid tenth and exceeded $507,730 for the highest-paid tenth. That upper figure is the survey's reporting threshold, not the biggest possible paycheck. Company-management employers and professional or technical service firms led the listed industry medians.",
 			},
 			{
 				question: 'Is CEO a growing career?',
-				answer: 'Yes. The 2024-to-2034 forecast rises 4%, adding about 13,300 jobs to 309,400, close to the national forecast of roughly 3%. The bookkeeper and underwriter forecasts shrink during those years; boilermakers also shrink, but that comparison uses the newer 2025-to-2035 window.',
+				answer: 'Yes. The 2025-to-2035 forecast rises 3%, adding about 9,300 jobs to 291,600, close to the national forecast of roughly 3%. The bookkeeper and underwriter forecasts shrink during those years; boilermakers also shrink, but that comparison uses the newer 2025-to-2035 window.',
 			},
 			{
 				question: 'Do you need an MBA to become a CEO?',
@@ -3964,7 +3964,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Top Executives (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/management/top-executives.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Top Executives (accessed 2026-08-25 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/management/top-executives.htm' },
 			{ label: 'O*NET OnLine: 11-1011.00 Chief Executives (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/11-1011.00' },
 		],
 		image: '/images/ceo-duties.svg',
@@ -4053,7 +4053,7 @@ export const guides: Guide[] = [
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Welders, Cutters, Solderers, and Brazers (data from May 2025, synced 2026-09-23 via direct curl fetch with a UA string carrying a declared contact URL, returned 200, superseding the May 2025 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/production/welders-cutters-solderers-and-brazers.htm' },
 			{ label: 'O*NET OnLine: 51-4121.00 Welders, Cutters, Solderers, and Brazers (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/51-4121.00' },
 			{ label: 'OSHA: Hexavalent Chromium (occupational carcinogen classification, cited via Wikipedia\'s "Welding" article health and safety section, cross-checked against OSHA\'s own Cr(VI) topic page)', url: 'https://www.osha.gov/hexavalent-chromium' },
 		],
@@ -4136,7 +4136,7 @@ export const guides: Guide[] = [
 		sources: [
 			{ label: 'FAA certificate guidance: ownership, transfer and presentation (checked 2026-10-12)', url: 'https://www.faa.gov/licenses_certificates/airmen_certification/media/Flight%20Attendant%20Certificate%20of%20Demonstrated%20Proficiency.pdf' },
 
-			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants, How to Become One (data from May 2025, synced 2026-09-23 to match this site\'s flight attendant salary page, superseding the May 2024 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Flight Attendants, How to Become One (data from May 2025, synced 2026-09-23 to match this site\'s flight attendant salary page, superseding the May 2025 figures cited when this page was first published)', url: 'https://www.bls.gov/ooh/transportation-and-material-moving/flight-attendants.htm' },
 			{ label: 'Federal Aviation Administration: Flight Attendant Certificate of Demonstrated Proficiency (independent corroboration of the certification requirement, its legal basis, and effective date)', url: 'https://www.faa.gov/Flight_Attendant_Certificate_Demonstrated_Proficiency_Information' },
 			{ label: 'O*NET OnLine: 53-2031.00 Flight Attendants (independent corroboration of the SOC code and occupation title)', url: 'https://www.onetonline.org/link/summary/53-2031.00' },
 			{ label: 'Association of Professional Flight Attendants (APFA): American Airlines collective bargaining agreement, Section 11, Hours of Service (independently confirmed the 35-in-7 reserve flight-hour scheduling limit, not a BLS- or FAA-sourced detail; a contractual scheduling standard that can vary by airline)', url: 'https://www.apfa.org/wp-content/uploads/2024/07/2024-CBA-SECTION-11-HOURS-OF-SERVICE.pdf' },
@@ -4313,38 +4313,38 @@ export const guides: Guide[] = [
 		slug: 'ultrasound-tech-salary',
 		category: 'Salary Guide',
 		title: 'Ultrasound Tech Salary: BLS Wage Data by Percentile (2026)',
-		description: 'BLS puts the median ultrasound tech salary at $89,340 a year, with 13% growth projected through 2034. Here is the full wage range by percentile and by employer.',
+		description: 'BLS puts the median ultrasound tech salary at $96,590 a year, with 12% growth projected through 2034. Here is the full wage range by percentile and by employer.',
 		published: '2026-08-27',
 		updated: '2026-10-12',
 		socCode: '29-2032',
-		coreSummary: 'The median annual wage for diagnostic medical sonographers, commonly called ultrasound techs, was $89,340 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $64,760 while the top 10% earned more than $123,170, a spread of roughly $58,410. BLS projects 13% employment growth from 2024 to 2034, much faster than average, adding an estimated 11,700 jobs.',
+		coreSummary: 'The median annual wage for diagnostic medical sonographers, commonly called ultrasound techs, was $96,590 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $67,820 while the top 10% earned more than $129,370, a spread of roughly $61,550. BLS projects 12% employment growth from 2025 to 2035, much faster than average, adding an estimated 12,900 jobs.',
 		sections: [
 			{
 				heading: 'What ultrasound techs earn, and the credential BLS says it takes to get there',
 				body: [
-					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-2032, officially titled "Diagnostic Medical Sonographers," on a page that also notes the job is commonly called an ultrasound technician or ultrasound tech. For May 2024, BLS reported a median annual wage of $89,340, or $42.95 an hour. The bottom 10% of earners made less than $64,760 a year, while the top 10% made more than $123,170, a spread of roughly $58,410 that BLS does not attribute to any single factor on this page, though the employer type someone works for (covered below) accounts for a meaningful share of it.',
+					'The Bureau of Labor Statistics tracks this occupation under SOC code 29-2032, officially titled "Diagnostic Medical Sonographers," on a page that also notes the job is commonly called an ultrasound technician or ultrasound tech. For May 2025, BLS reported a median annual wage of $96,590, or $46.44 an hour. The bottom 10% of earners made less than $67,820 a year, while the top 10% made more than $129,370, a spread of roughly $61,550 that BLS does not attribute to any single factor on this page, though the employer type someone works for (covered below) accounts for a meaningful share of it.',
 					"BLS lists an associate's degree as the typical entry-level education for this occupation, or in some cases a postsecondary certificate for candidates who already hold a related healthcare credential. That is a shorter, less expensive training path than several other diagnostic and rehabilitation roles this site tracks: [occupational therapists](/occupational-therapist-salary/) need a master's degree and [physical therapists](/physical-therapist-salary/) need a Doctor of Physical Therapy, both graduate credentials that take considerably longer to complete than sonography's typical two-year program. This site also covers [occupational therapy assistant salary](/occupational-therapy-assistant-salary/), per BLS, for the assistant role in that rehabilitation field.",
-					"Those figures come from BLS's Occupational Employment and Wage Statistics survey, which pulls wage data directly from employers, using their payroll records. The separate Employment Projections program put sonographer employment at about 90,000 jobs in 2024; that total is not the OEWS wage-survey headcount.",
+					"Those figures come from BLS's Occupational Employment and Wage Statistics survey, which pulls wage data directly from employers, using their payroll records. The separate Employment Projections program put sonographer employment at about 92,200 jobs in 2025; that total is not the OEWS wage-survey headcount.",
 				],
 			},
 			{
 				heading: 'Why the highest-paying setting employs almost none of the workforce',
 				body: [
-					'By industry, BLS\'s May 2024 wage data shows outpatient care centers paying the highest median by a wide margin, at $123,610, roughly $34,270 above the occupation-wide median. Hospitals paid $90,070, offices of physicians paid $89,450, and medical and diagnostic laboratories paid the least of the four tracked categories, at $83,200.',
-					"That top-paying figure is not representative of where most sonographers actually work. BLS's separate employment breakdown shows hospitals employ 57% of diagnostic medical sonographers, and offices of physicians employ another 21%, together accounting for 78% of the occupation. Outpatient care centers, the setting with the highest median wage, employ only 4%. In practical terms, the $123,610 figure that ranks first in the industry wage table describes a small slice of the field rather than a typical outcome, while the pay most sonographers actually see, in hospitals or physician offices, sits within a few hundred dollars of the occupation-wide median in either direction. BLS does not explain why outpatient centers pay so much more relative to their small share of employment; it reports the wage-by-industry and employment-by-industry figures separately, without connecting the two.",
+					'By industry, BLS\'s May 2025 wage data shows outpatient care centers paying the highest median by a wide margin, at $127,940, roughly $34,270 above the occupation-wide median. Hospitals paid $97,390, offices of physicians paid $95,220, and medical and diagnostic laboratories paid the least of the four tracked categories, at $87,580.',
+					"That top-paying figure is not representative of where most sonographers actually work. BLS's separate employment breakdown shows hospitals employ 57% of diagnostic medical sonographers, and offices of physicians employ another 21%, together accounting for 78% of the occupation. Outpatient care centers, the setting with the highest median wage, employ only 4%. In practical terms, the $127,940 figure that ranks first in the industry wage table describes a small slice of the field rather than a typical outcome, while the pay most sonographers actually see, in hospitals or physician offices, sits within a few hundred dollars of the occupation-wide median in either direction. BLS does not explain why outpatient centers pay so much more relative to their small share of employment; it reports the wage-by-industry and employment-by-industry figures separately, without connecting the two.",
 				],
 			},
 			{
 				heading: 'Certification, and how the entry path compares to radiologic technology',
 				body: [
 					"Licensing and certification requirements are covered in full in this site's [guide to becoming an ultrasound tech](/how-to-become-an-ultrasound-tech/), which walks through the accredited-program route, state license rules, and the ARDMS credential most employers expect. The short version: some states require a license, and even in states that don't, most employers still expect ARDMS certification before hiring.",
-					"Sonography sits alongside [radiologic technology](/radiology-tech-salary/) as one of two associate's-degree-level diagnostic imaging paths BLS tracks, but they are distinct occupations under different SOC codes, and the pay is not the same: BLS puts the radiologic technologist median at $77,660, about $11,680 below the $89,340 sonographer figure, despite both requiring a comparable two-year training timeline. The equipment differs too. Sonography uses high-frequency sound waves rather than ionizing radiation, which is one reason the two fields are credentialed through separate organizations, ARDMS for sonography and ARRT for radiography.",
+					"Sonography sits alongside [radiologic technology](/radiology-tech-salary/) as one of two associate's-degree-level diagnostic imaging paths BLS tracks, but they are distinct occupations under different SOC codes, and the pay is not the same: BLS puts the radiologic technologist median at $80,110, about $11,680 below the $96,590 sonographer figure, despite both requiring a comparable two-year training timeline. The equipment differs too. Sonography uses high-frequency sound waves rather than ionizing radiation, which is one reason the two fields are credentialed through separate organizations, ARDMS for sonography and ARRT for radiography.",
 				],
 			},
 			{
 				heading: 'Job outlook and the physical side of the work',
 				body: [
-					'Employment of sonographers is projected to grow 13% from 2024 to 2034, per BLS, well above the roughly 3% average BLS projects across all occupations combined. That works out to about 11,700 new jobs over the decade, plus roughly 5,800 openings a year on average once retirements and career changes are factored in, since BLS counts those replacement openings alongside newly created ones in its annual figure.',
+					'Employment of sonographers is projected to grow 12% from 2025 to 2035, per BLS, well above the roughly 3% average BLS projects across all occupations combined. That works out to about 11,700 new jobs over the decade, plus roughly 6,000 openings a year on average once retirements and career changes are factored in, since BLS counts those replacement openings alongside newly created ones in its annual figure.',
 					'BLS also describes the physical side of the job directly: sonographers "may need to stand for long periods and to lift or turn patients who are ill or disabled," and most of the work happens at diagnostic imaging equipment in dimly lit rooms. Most sonographers work full time, and because many work in medical facilities that stay open around the clock, shifts can include evenings, weekends, or overnights. BLS notes sonographers work as part of a team alongside physicians, registered nurses, and other healthcare workers rather than independently.',
 				],
 			},
@@ -4352,11 +4352,11 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the median ultrasound tech salary?',
-				answer: 'The May 2024 occupation midpoint was $89,340 yearly ($42.95 hourly), according to BLS. Half the surveyed workers earned above that median and half below; the survey category covers sonographers, including the technicians using ultrasound.',
+				answer: 'The May 2025 occupation midpoint was $96,590 yearly ($46.44 hourly), according to BLS. Half the surveyed workers earned above that median and half below; the survey category covers sonographers, including the technicians using ultrasound.',
 			},
 			{
 				question: 'What setting pays ultrasound techs the most?',
-				answer: "Outpatient facilities led with $123,610 in May 2024 but employed only 4% of the field. The other medians were $90,070 for hospitals, $89,450 for physician practices and $83,200 for diagnostic labs. Hospitals and physician practices together employed 78%, so relatively few workers are in that best-paid setting.",
+				answer: "Outpatient facilities led with $127,940 in May 2025 but employed only 4% of the field. The other medians were $97,390 for hospitals, $95,220 for physician practices and $87,580 for diagnostic labs. Hospitals and physician practices together employed 78%, so relatively few workers are in that best-paid setting.",
 			},
 			{
 				question: 'Do ultrasound techs need to be certified?',
@@ -4364,15 +4364,15 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is ultrasound tech pay higher than radiology tech pay?',
-				answer: "Yes in the May 2024 national medians: ultrasound's $89,340 exceeded radiography's $77,660 by $11,680. An associate credential is the usual starting education for each. Sonography uses sound, radiography uses radiation; the separate registries described here are ARDMS and ARRT.",
+				answer: "Yes in the May 2025 national medians: ultrasound's $96,590 exceeded radiography's $80,110 by $11,680. An associate credential is the usual starting education for each. Sonography uses sound, radiography uses radiation; the separate registries described here are ARDMS and ARRT.",
 			},
 			{
 				question: 'Is ultrasound tech a growing field?',
-				answer: 'The 2024-to-2034 forecast adds about 11,700 positions, a 13% increase against approximately 3% nationwide. The separate annual vacancy estimate is roughly 5,800 on average, including departures that need replacing.',
+				answer: 'The 2025-to-2035 forecast adds about 12,900 positions, a 12% increase against approximately 3% nationwide. The separate annual vacancy estimate is roughly 5,800 on average, including departures that need replacing.',
 			},
 			{
 				question: 'How much does a cardiac sonographer make?',
-				answer: "The OOH gives no cardiac-only pay estimate. Heart scanning is a specialty within the occupation whose median is $89,340; that combined number is not evidence of the same median in every specialty. ARDMS offers an RDCS credential, commonly through the Adult Echocardiography examination, without BLS publishing a corresponding separate wage.",
+				answer: "The OOH gives no cardiac-only pay estimate. Heart scanning is a specialty within the occupation whose median is $96,590; that combined number is not evidence of the same median in every specialty. ARDMS offers an RDCS credential, commonly through the Adult Echocardiography examination, without BLS publishing a corresponding separate wage.",
 			},
 			{
 				question: 'How long does it take to become an ultrasound technician?',
@@ -4380,7 +4380,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What pays more, RN or ultrasound tech?',
-				answer: 'Nursing was higher: $97,550 in May 2025, against the $89,340 this occupation averaged in the earlier cycle. The [RN study guide](/how-long-is-nursing-school/) reports that nursing figure. The two come from different survey years, though the professions have different usual education routes and separate OOH profiles.',
+				answer: 'Nursing was higher: $97,550 in May 2025, against the $96,590 this occupation averaged in the earlier cycle. The [RN study guide](/how-long-is-nursing-school/) reports that nursing figure. The two come from different survey years, though the professions have different usual education routes and separate OOH profiles.',
 			},
 			{
 				question: 'Is becoming an ultrasound tech hard?',
@@ -4394,51 +4394,51 @@ export const guides: Guide[] = [
 		sources: [
 			{ label: 'BLS OEWS FAQ: wage coverage and separate Employment Projections counts (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
 
-			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
-			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (comparison figure for radiologic technologists and technicians, SOC 29-2034, data from May 2024)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Diagnostic Medical Sonographers (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/diagnostic-medical-sonographers.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Radiologic and MRI Technologists (comparison figure for radiologic technologists and technicians, SOC 29-2034, data from May 2025)', url: 'https://www.bls.gov/ooh/healthcare/radiologic-technologists.htm' },
 			{ label: 'ARDMS: Registered Diagnostic Cardiac Sonographer (RDCS), Adult Echocardiography credential page (independently confirmed, not a BLS-sourced detail, used only for the credential name in the FAQ above)', url: 'https://www.ardms.org/get-certified/rdcs/adult-echocardiography/' },
 		],
 		image: '/images/ultrasound-tech-salary-chart.svg',
-		imageAlt: 'Bar chart showing diagnostic medical sonographer (ultrasound tech) annual wage by percentile: 10th percentile $64,760, median $89,340, 90th percentile $123,170, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing diagnostic medical sonographer (ultrasound tech) annual wage by percentile: 10th percentile $67,820, median $96,590, 90th percentile $129,370, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'veterinary-technician-salary',
 		category: 'Salary Guide',
 		title: 'Veterinary Technician Salary: BLS Wage Data by Percentile (2026)',
-		description: 'BLS puts the median veterinary technician salary at $45,980 a year, close to medical assistant pay despite the added degree. Full wage range and industry breakdown.',
+		description: 'BLS puts the median veterinary technician salary at $47,380 a year, close to medical assistant pay despite the added degree. Full wage range and industry breakdown.',
 		published: '2026-08-27',
 		updated: '2026-10-12',
 		socCode: '29-2056',
-		coreSummary: 'The median annual wage for veterinary technologists and technicians was $45,980 in May 2024, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $32,120 while the top 10% earned more than $60,880. BLS projects 9% employment growth from 2024 to 2034, much faster than average, adding an estimated 12,200 jobs and about 14,300 openings a year on average.',
+		coreSummary: 'The median annual wage for veterinary technologists and technicians was $47,380 in May 2025, according to the U.S. Bureau of Labor Statistics. The bottom 10% earned less than $35,710 while the top 10% earned more than $63,180. BLS projects 9% employment growth from 2025 to 2035, much faster than average, adding an estimated 12,300 jobs and about 13,400 openings a year on average.',
 		sections: [
 			{
 				heading: 'What veterinary technicians earn, and the two credential levels BLS bundles together',
 				body: [
 					'BLS tracks this role under SOC code 29-2056, "Veterinary Technologists and Technicians," a title that covers two distinct credential tracks with one combined median wage. Technicians typically complete a 2-year associate\'s degree in veterinary technology; technologists complete a 4-year bachelor\'s degree in the same field. Both typically pass a credentialing exam and become registered, licensed, or certified, with the specific requirement set by the state where they work. BLS reports Associate\'s degree as the "typical" entry-level education for the combined occupation, which understates what technologists specifically complete, since the Handbook does not publish a separate median wage for the bachelor\'s-level technologist track alone.',
-					'The median annual wage for veterinary technologists and technicians was $45,980 in May 2024 ($22.11 an hour). The bottom 10% earned less than $32,120 a year, while the top 10% earned more than $60,880, a spread of roughly $28,760. That range is narrower than the spreads this site has found for several other allied health roles with an associate\'s degree as the entry point, but this dollar comparison does not measure the contributions of region or specialty certification.',
-					'One comparison worth naming directly: [radiologic technologists and technicians](/radiology-tech-salary/) also typically enter with an associate\'s degree and generally obtain a state license or professional certification, yet BLS reports a $77,660 median for that role, about $31,680 more than veterinary technicians earn despite a comparable entry credential. BLS does not explain the gap on either page. The wage estimates do not isolate industry funding, training or any other factor as the cause.',
-					"Within veterinary medicine itself, the credential gap runs much wider than the associate's-versus-bachelor's split covered above: [veterinarians](/veterinarian-salary/) typically complete a four-year DVM after undergraduate study and take licensing examinations. Their May 2025 median of $130,100 is $84,120 above this article’s May 2024 technical-support figure; the comparison uses different survey years.",
+					'The median annual wage for veterinary technologists and technicians was $47,380 in May 2025 ($22.78 an hour). The bottom 10% earned less than $35,710 a year, while the top 10% earned more than $63,180, a spread of roughly $28,760. That range is narrower than the spreads this site has found for several other allied health roles with an associate\'s degree as the entry point, but this dollar comparison does not measure the contributions of region or specialty certification.',
+					'One comparison worth naming directly: [radiologic technologists and technicians](/radiology-tech-salary/) also typically enter with an associate\'s degree and generally obtain a state license or professional certification, yet BLS reports a $80,110 median for that role, about $31,680 more than veterinary technicians earn despite a comparable entry credential. BLS does not explain the gap on either page. The wage estimates do not isolate industry funding, training or any other factor as the cause.',
+					"Within veterinary medicine itself, the credential gap runs much wider than the associate's-versus-bachelor's split covered above: [veterinarians](/veterinarian-salary/) typically complete a four-year DVM after undergraduate study and take licensing examinations. Their May 2025 median of $130,100 is $84,120 above this article’s May 2025 technical-support figure; the comparison uses different survey years.",
 				],
 			},
 			{
 				heading: 'Credentials and comparisons with assistant roles',
 				body: [
-					'Veterinary technologists and technicians typically complete a postsecondary program, pass a credentialing exam, and hold a state registration, license, or certification depending on where they work, per BLS. Despite that formal gate, the $45,980 median sits close to two allied roles that require no degree at all: [medical assistants](/medical-assistant-salary/), whose typical entry-level education is a postsecondary nondegree award, have a May 2025 median of $45,690, just $290 below veterinary technicians; [dental assistants](/dental-assistant-salary/), also entering with a nondegree award, have a May 2024 median of $47,300, about $1,320 above. On this specific comparison, the extra one-to-two years of formal veterinary technology coursework and a licensing exam do not correspond to noticeably higher typical pay than assistant-level roles with a typical nondegree entry category; state rules for particular duties still vary.',
+					'Veterinary technologists and technicians typically complete a postsecondary program, pass a credentialing exam, and hold a state registration, license, or certification depending on where they work, per BLS. Despite that formal gate, the $47,380 median sits close to two allied roles that require no degree at all: [medical assistants](/medical-assistant-salary/), whose typical entry-level education is a postsecondary nondegree award, have a May 2025 median of $45,690, just $290 below veterinary technicians; [dental assistants](/dental-assistant-salary/), also entering with a nondegree award, have a May 2025 median of $48,070, about $1,320 above. On this specific comparison, the extra one-to-two years of formal veterinary technology coursework and a licensing exam do not correspond to noticeably higher typical pay than assistant-level roles with a typical nondegree entry category; state rules for particular duties still vary.',
 					'BLS does not publish a causal explanation for why credential level and pay diverge here. The national medians do not establish that pet-owner payments, insurance reimbursement or institutional budgets account for the differences between occupations.',
-					'BLS separately breaks out May 2024 median wages by industry for this occupation, and the industry difference is larger than the credential-comparison gap above: educational services (state, local, and private) paid a median of $51,250, the highest of the four categories BLS tracks, followed by veterinary services itself at $45,740, other personal services at $43,280, and social advocacy organizations at $41,640, a spread of about $9,610 between the top and bottom industry.',
+					'BLS separately breaks out May 2025 median wages by industry for this occupation, and the industry difference is larger than the credential-comparison gap above: educational services (state, local, and private) paid a median of $52,200, the highest of the four categories BLS tracks, followed by veterinary services itself at $47,170, social advocacy organizations at $45,970, and other personal services at $44,730, a spread of about $7,470 between the top and bottom industry.',
 				],
 			},
 			{
 				heading: 'Where the jobs are concentrated',
 				body: [
-					"BLS reports that veterinary services employed 89% of the 134,200 veterinary technologists and technicians working in 2024. That industry pays $45,740, the second-highest of the four categories BLS tracks, about $5,510 (roughly 12%) below the highest-paying category, educational services, at $51,250, which employed only about 4% of the workforce. Social advocacy organizations and other personal services, the two lowest-paying categories, each employed roughly 1%. In practical terms, the setting employing the vast majority of the workforce pays close to, not far below, the top of what BLS tracks for this occupation. That gap is wider than the same comparison for [veterinarians](/veterinarian-salary/), where 83% of the workforce works in an industry just $1,770 below the top category, versus the $5,510 gap here.",
+					"BLS reports that veterinary services employed 89% of the 131,400 veterinary technologists and technicians working in 2025. That industry pays $47,170, the second-highest of the four categories BLS tracks, about $5,030 (roughly 11%) below the highest-paying category, educational services, at $52,200, which employed only about 4% of the workforce. Social advocacy organizations and other personal services, the two lowest-paying categories, each employed roughly 1%. In practical terms, the setting employing the vast majority of the workforce pays close to, not far below, the top of what BLS tracks for this occupation. That gap is wider than the same comparison for [veterinarians](/veterinarian-salary/), where 83% of the workforce works in an industry just $1,770 below the top category, versus the $5,030 gap here.",
 					'BLS also states that veterinary technologists and technicians "have one of the highest rates of injuries and illnesses of all occupations," a direct quote from the Handbook\'s Work Environment section, tied to handling scared or aggressive animals during exams, restraint, and euthanasia procedures. BLS does not attach a specific injury-rate number to that statement on this page; it is a comparative claim about the occupation\'s standing relative to others, not a quantified figure this site can independently verify against a separate BLS injury dataset for this specific title.',
 				],
 			},
 			{
 				heading: 'Job outlook, and how it compares across the pet-care field',
 				body: [
-					'BLS projects 9% employment growth for veterinary technologists and technicians from 2024 to 2034, classified as much faster than the roughly 3% average projected across all occupations, taking the occupation from 134,200 to 146,400 jobs and adding an estimated 12,200 positions. BLS also projects about 14,300 openings a year on average over the decade, a figure driven mostly by the need to replace workers who leave the occupation entirely or exit the labor force, rather than by net new job creation alone.',
+					'BLS projects 9% employment growth for veterinary technologists and technicians from 2025 to 2035, classified as much faster than the roughly 3% average projected across all occupations, taking the occupation from 131,400 to 143,800 jobs and adding an estimated 12,300 positions. BLS also projects about 13,400 openings a year on average over the decade, a figure driven mostly by the need to replace workers who leave the occupation entirely or exit the labor force, rather than by net new job creation alone.',
 					'BLS attributes the growth mainly to rising numbers of pet-owning households and continued increases in spending on pet care, along with expanding treatment options that require more diagnostic and nursing support per animal. That is a demand-side projection about the pet-care industry as a whole, not a forecast about pay: nothing in the BLS growth projection implies the credential-versus-pay gap described above will close, since faster hiring and higher wages do not necessarily move together within the same occupation.',
 					'Readers comparing veterinary care pay against other associate\'s-degree or nondegree allied health roles can also see this site\'s guides to [radiology tech salary](/radiology-tech-salary/) and [medical assistant salary](/medical-assistant-salary/) for two directly comparable BLS-tracked occupations.',
 				],
@@ -4447,7 +4447,7 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'What is the average veterinary technician salary?',
-				answer: 'The May 2024 midpoint for the combined technical animal-care occupation was $45,980 a year, or $22.11 hourly. Half of surveyed employees earned above it and half below, according to BLS.',
+				answer: 'The May 2025 midpoint for the combined technical animal-care occupation was $47,380 a year, or $22.78 hourly. Half of surveyed employees earned above it and half below, according to BLS.',
 			},
 			{
 				question: 'Is there a pay difference between veterinary technicians and veterinary technologists?',
@@ -4455,7 +4455,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'What is the highest-paying setting for a veterinary technician?',
-				answer: 'Education employers posted the highest May 2024 median, $51,250. The other reported settings were animal-care practices at $45,740, personal-service employers paying $43,280 and $41,640 for organizations focused on social advocacy. The practice setting accounted for 89% of jobs, despite their second-place pay ranking.',
+				answer: 'Educational employers led the reported sectors at $52,200, while personal services were lowest at $44,730. Most jobs were in veterinary practices, whose median was $47,170.',
 			},
 			{
 				question: 'Do veterinary technicians need to be licensed?',
@@ -4463,7 +4463,7 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is veterinary technician a growing career?',
-				answer: 'The 2024-to-2034 forecast adds approximately 12,200 jobs, a 9% increase well above BLS’s economy-wide growth rate. BLS expects around 14,300 yearly openings, with increasing pet ownership and spending providing demand.',
+				answer: 'The 2025-to-2035 forecast adds approximately 12,300 jobs, a 9% increase well above BLS’s economy-wide growth rate. BLS expects around 13,400 yearly openings, with increasing pet ownership and spending providing demand.',
 			},
 			{
 				question: 'How long does it take to become a vet tech?',
@@ -4475,18 +4475,18 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Can you live off being a vet tech?',
-				answer: "The national midpoint, $45,980, was below the roughly $49,500 economy-wide median in May 2024, and the lowest tenth earned under $32,120. Whether that supports a household depends on local costs and whether one or two incomes cover them. A national distribution cannot settle an individual budget.",
+				answer: "The national midpoint, $47,380, was below the roughly $50,980 economy-wide median in May 2025, and the lowest tenth earned under $35,710. Whether that supports a household depends on local costs and whether one or two incomes cover them. A national distribution cannot settle an individual budget.",
 			},
 			{
 				question: 'What type of vet tech makes the most money?',
-				answer: "The specialty academies recognized by NAVTA award VTS credentials in fields including emergency and critical care, dental work and anesthesia. This additional qualification does not receive a separate BLS wage estimate. The documented pay comparison here is between settings: $51,250 in education and $45,740 in the animal-care practices employing most of these workers. No specialty can be ranked by earnings from these data alone.",
+				answer: "NAVTA recognizes specialty credentials in emergency and critical care, dentistry and anesthesia. BLS does not estimate pay by specialty. Its industry figures show a $52,200 median for educational employers and $47,170 for veterinary practices, but do not measure any credential premium.",
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Veterinary Technologists and Technicians (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Veterinary Technologists and Technicians (accessed 2026-08-27 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2025, last modified August 28, 2025)', url: 'https://www.bls.gov/ooh/healthcare/veterinary-technologists-and-technicians.htm' },
 		],
 		image: '/images/veterinary-technician-salary-chart.svg',
-		imageAlt: 'Bar chart showing veterinary technologist and technician annual wage by percentile: 10th percentile $32,120, median $45,980, 90th percentile $60,880, based on BLS May 2024 data.',
+		imageAlt: 'Bar chart showing veterinary technologist and technician annual wage by percentile: 10th percentile $35,710, median $47,380, 90th percentile $63,180, based on BLS May 2025 data.',
 	},
 	{
 		slug: 'funeral-director-salary',
@@ -4526,8 +4526,8 @@ export const guides: Guide[] = [
 				heading: 'Job outlook, and how the pay compares to other associate\'s-degree occupations',
 				body: [
 					'BLS projects 3% employment growth for morticians, undertakers, and funeral arrangers from 2025 to 2035, in line with the 3% average projected across all occupations, taking the occupation from 26,700 to 27,500 workers, a gain of roughly 800 jobs. BLS attributes most of the roughly 5,600 annual openings projected for funeral service workers overall to the need to replace people who leave the occupation or exit the labor force, rather than to net new job creation, and it names one demand-side headwind directly: a continuing shift toward cremation, which BLS says "costs less and requires fewer workers than do traditional funeral arrangements."',
-					'Set against other roles that also list an associate\'s degree as the typical entry point, funeral director pay lands in the middle. [Paralegals and legal assistants](/how-to-become-a-paralegal/) have a higher median, $61,010, about $6,000 above funeral directors, despite BLS reporting that no U.S. state currently licenses the paralegal occupation at all. Funeral directors, by contrast, clear a state licensing exam and a one-to-three-year supervised internship that most paralegals never have to complete. BLS does not explain why the more heavily regulated role pays less.',
-					'The comparison runs the other way against roles with a lower education bar. [Dental assistants](/dental-assistant-salary/), whose typical entry point is a postsecondary nondegree award, not a two-year degree, have a median of $47,300, about $7,710 below funeral directors. On this specific pairing, the additional associate\'s degree, licensing exam, and multiyear internship funeral directors complete does correspond to meaningfully higher typical pay, the opposite pattern from the paralegal comparison above.',
+					'Set against other roles that also list an associate\'s degree as the typical entry point, funeral director pay lands in the middle. [Paralegals and legal assistants](/how-to-become-a-paralegal/) have a higher median, $62,890, about $6,000 above funeral directors, despite BLS reporting that no U.S. state currently licenses the paralegal occupation at all. Funeral directors, by contrast, clear a state licensing exam and a one-to-three-year supervised internship that most paralegals never have to complete. BLS does not explain why the more heavily regulated role pays less.',
+					'The comparison runs the other way against roles with a lower education bar. [Dental assistants](/dental-assistant-salary/), whose typical entry point is a postsecondary nondegree award, not a two-year degree, have a median of $48,070, about $7,710 below funeral directors. On this specific pairing, the additional associate\'s degree, licensing exam, and multiyear internship funeral directors complete does correspond to meaningfully higher typical pay, the opposite pattern from the paralegal comparison above.',
 				],
 			},
 		],
@@ -4589,7 +4589,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'What MRI technologists actually earn, by percentile',
 				body: [
 					"BLS tracks MRI technologist pay through its Occupational Employment and Wage Statistics (OEWS) program under SOC code 29-2035, a distinct six-digit code from radiologic technologists and technicians (29-2034), even though BLS profiles both roles together on one Occupational Outlook Handbook page titled \"Radiologic and MRI Technologists.\" The most recent published wage data, from May 2025, puts the MRI technologist median annual wage at $95,480. BLS does not publish a role-specific hourly figure for MRI technologists on this page; dividing the annual median by a standard 2,080-hour work year works out to roughly $45.90 an hour, a calculated figure rather than one BLS reports directly.",
-					"The percentile spread is wide in dollar terms: the bottom 10% of MRI technologists earned less than $68,890 in May 2025, while the top 10% earned more than $127,670, a gap of nearly $58,800. That range sits well above the equivalent spread for radiologic technologists, whose bottom 10% earned less than $55,980 and top 10% earned more than $118,660 on the same page. Both occupations typically require only an associate's degree to enter, so the roughly $15,370 gap accompanies a difference in MRI-specific training and credentials, but BLS does not isolate the effect of certification on wages. Outside clinical imaging entirely, [truck driver pay](/truck-driver-salary/) sits far below either figure, with BLS reporting a $57,440 median annual wage for heavy and tractor-trailer drivers in May 2024.",
+					"The percentile spread is wide in dollar terms: the bottom 10% of MRI technologists earned less than $68,890 in May 2025, while the top 10% earned more than $127,670, a gap of nearly $58,800. That range sits well above the equivalent spread for radiologic technologists, whose bottom 10% earned less than $55,980 and top 10% earned more than $118,660 on the same page. Both occupations typically require only an associate's degree to enter, so the roughly $15,370 gap accompanies a difference in MRI-specific training and credentials, but BLS does not isolate the effect of certification on wages. Outside clinical imaging entirely, [truck driver pay](/truck-driver-salary/) sits far below either figure, with BLS reporting a $58,640 median annual wage for heavy and tractor-trailer drivers in May 2025.",
 				],
 			},
 			{
@@ -4678,7 +4678,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Why the highest-paying setting is close to where most veterinarians actually work',
 				body: [
 					"BLS breaks out May 2025 wages by industry for veterinarians, and the four categories it tracks sit closer together than the percentile spread above might suggest. Social advocacy organizations paid the highest median, at $131,760, but veterinary services, the industry that covers ordinary clinical practice, paid $129,990, just $1,770 below the top category. Educational services (state, local, and private) paid $121,890, and government work, excluding state and local education and hospitals, paid the least of the four, at $115,210.",
-					"BLS's separate Work Environment data shows that 83% of veterinarians work in veterinary services, the industry paying $129,990, second only to social advocacy organizations and just $1,770 below it. Self-employed workers account for another 7%, with government (2%), educational services (2%), and social advocacy organizations (1%) among the other reported categories. That is a closer match between where the jobs are and where the pay is than this site found for [veterinary technicians](/veterinary-technician-salary/), a closely related occupation where BLS reports 89% of the workforce works in veterinary services, which pays $45,740 there, about $5,510 (roughly 12%) below that field's highest-paying category, educational services, at $51,250. In both occupations, the industry employing most of the workforce turns out to be the second-highest-paying one BLS tracks, not the lowest, though the gap to the top is far smaller for veterinarians than for veterinary technicians.",
+					"BLS's separate Work Environment data shows that 83% of veterinarians work in veterinary services, the industry paying $129,990, second only to social advocacy organizations and just $1,770 below it. Self-employed workers account for another 7%, with government (2%), educational services (2%), and social advocacy organizations (1%) among the other reported categories. That is a closer match between where the jobs are and where the pay is than this site found for [veterinary technicians](/veterinary-technician-salary/), a closely related occupation where BLS reports 89% of the workforce works in veterinary services, which pays $47,170 there, about $5,030 (roughly 11%) below that field's highest-paying category, educational services, at $52,200. In both occupations, the industry employing most of the workforce turns out to be the second-highest-paying one BLS tracks, not the lowest, though the gap to the top is far smaller for veterinarians than for veterinary technicians.",
 				],
 			},
 			{
@@ -4686,7 +4686,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				body: [
 					'Per BLS, prospective veterinarians need a Doctor of Veterinary Medicine (DVM or VMD) degree from an accredited college of veterinary medicine, a program that typically takes four years and combines classroom instruction, laboratory work, and clinical training, with the final year spent on clinical rotations. The usual state licensing route requires an accredited program and a qualifying exam; graduates of nonaccredited schools can use the equivalency routes ICVA describes. Some state or federal government positions may not require a state license. Applicants typically have an undergraduate degree before veterinary school; most states also require a separate state-level exam covering state veterinary laws and regulations, and BLS notes that few states accept a license issued by another state without additional steps.',
 					'Independently of BLS, the accrediting body behind that "accredited college" requirement is the American Veterinary Medical Association\'s Council on Education, and the field\'s national licensing exam, the North American Veterinary Licensing Examination (NAVLE), is administered by the International Council for Veterinary Assessment (ICVA, formerly named the National Board of Veterinary Medical Examiners), a computer-based test now offered during three testing windows a year that fulfills a core licensure requirement in every U.S. state and Canadian province. The accredited-school route permits enrolled students or graduates. ICVA also accepts eligible ECFVG or PAVE candidates from nonaccredited schools, subject to the BCSE or QSE prerequisite and the relevant licensing board’s rules.',
-					"That doctoral-degree, board-exam path stands in sharp contrast to entry into [veterinary technician and technologist work](/veterinary-technician-salary/) in the same field, which BLS groups into one wage estimate despite two typical routes: an associate degree taking about two years for technicians and a bachelor degree taking four years for technologists. The usual veterinary-doctor route adds four years of DVM study after earlier college preparation. The published medians differ by $84,120: $130,100 for veterinarians in May 2025 versus $45,980 for technical animal-care workers in May 2024. These are different survey years, so the arithmetic does not establish a same-period pay gap or quantify the effect of credentials.",
+					"That doctoral-degree, board-exam path stands in sharp contrast to entry into [veterinary technician and technologist work](/veterinary-technician-salary/) in the same field, which BLS groups into one wage estimate despite two typical routes: an associate degree taking about two years for technicians and a bachelor degree taking four years for technologists. The usual veterinary-doctor route adds four years of DVM study after earlier college preparation. The published medians differ by $84,120: $130,100 for veterinarians in May 2025 versus $47,380 for technical animal-care workers in May 2025. These are different survey years, so the arithmetic does not establish a same-period pay gap or quantify the effect of credentials.",
 				],
 			},
 			{
@@ -4712,7 +4712,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Is a veterinarian salary higher than a veterinary technician salary?',
-				answer: 'The difference is $84,120 between the $130,100 median for doctors of animal medicine and $45,980 for the combined technical support occupation. They use different surveys, May 2025 and May 2024 respectively, so that arithmetic is not a same-year pay gap. The usual preparation is a professional program lasting four years, usually after completing college prerequisites, versus a two-year technician qualification.',
+				answer: 'The difference is $82,720 between the $130,100 median for veterinarians and $47,380 for the combined technical support occupation, both from May 2025. The usual preparation is a professional program lasting four years, usually after completing college prerequisites, versus a two-year technician qualification.',
 			},
 			{
 				question: 'Is veterinary medicine a growing field?',
@@ -4841,8 +4841,8 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: "The 29 ranked occupations with entry education below a four-year degree",
 				body: [
 					"Every wage figure below comes straight from the BLS Occupational Employment and Wage Statistics (OEWS) data already cited on this site's individual salary pages, filtered down to the 29 occupations (of the 48 covered here) where BLS lists the typical entry-level education as something short of a bachelor's degree: high school diploma, some college with no degree, a postsecondary nondegree award, an associate's degree, or a state-approved training program. The table preserves the snapshot’s cited May 2024 and May 2025 survey years. Its first 10 span aviation, healthcare technician roles, and the skilled trades; the full 29-row ranking follows:",
-					'<div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:0.9rem;min-width:520px;"><thead><tr><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">Rank</th><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">Occupation</th><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">BLS entry education</th><th style="text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);">Median annual wage</th></tr></thead><tbody><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">1</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/air-traffic-controller-salary/">Air Traffic Controllers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$148,080</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">2</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/dental-hygienist-salary/">Dental Hygienists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$98,100</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">3</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/mri-tech-salary/">Magnetic Resonance Imaging Technologists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$95,480</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">4</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-lineman/">Electrical Power-Line Installers and Repairers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$95,320</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">5</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/ultrasound-tech-salary/">Diagnostic Medical Sonographers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$89,340</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">6</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/respiratory-therapist-salary/">Respiratory Therapists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$82,280</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">7</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/radiology-tech-salary/">Radiologic Technologists and Technicians</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$77,660</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">8</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-court-reporter/">Court Reporters and Simultaneous Captioners</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$67,310</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">9</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/what-does-a-millwright-do/">Millwrights</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$65,700</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">10</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/plumbing-apprenticeship/">Plumbers, Pipefitters, and Steamfitters</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$63,800</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">11</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-much-do-flight-attendants-make/">Flight Attendants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$63,580</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">12</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/electrician-salary/">Electricians</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$63,190</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">13</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/surgical-tech-salary/">Surgical Technologists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$62,830</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">14</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-paralegal/">Paralegals and Legal Assistants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$61,010</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">15</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/chef-salary/">Chefs and Head Cooks</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$60,990</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">16</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/hvac-certification/">Heating, Air Conditioning, and Refrigeration Mechanics and Installers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$59,810</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">17</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/firefighter-salary/">Firefighters</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$59,280</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">18</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-paramedic/">Paramedics</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$58,410</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">19</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/truck-driver-salary/">Heavy and Tractor-trailer Truck Drivers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$57,440</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">20</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/funeral-director-salary/">Morticians, Undertakers, and Funeral Arrangers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$55,010</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">21</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/welder-salary/">Welders, Cutters, Solderers, and Brazers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$53,750</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">22</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/what-does-a-bookkeeper-do/">Bookkeeping, Accounting, and Auditing Clerks</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Some college, no degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$49,210</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">23</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/dental-assistant-salary/">Dental Assistants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$47,300</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">24</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/veterinary-technician-salary/">Veterinary Technologists and Technicians</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$45,980</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">25</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/medical-assistant-salary/">Medical Assistants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$45,690</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">26</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-phlebotomist/">Phlebotomists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$43,660</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">27</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/pharmacy-technician-salary/">Pharmacy Technicians</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$43,460</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">28</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-cna/">Nursing Assistants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">State-approved training program</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$42,260</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">29</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-bartender/">Bartenders</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">No formal educational credential</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$33,530</td></tr></tbody></table></div>',
-					"All 29 are listed with sources in the downloadable dataset linked at the bottom of this page. The full spread runs from air traffic controllers at $148,080 down to bartenders at $33,530, a nearly $115,000 gap within a group whose only shared trait, per BLS's classification, is skipping the four-year-degree requirement to enter.",
+					'<div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:0.9rem;min-width:520px;"><thead><tr><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">Rank</th><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">Occupation</th><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">BLS entry education</th><th style="text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);">Median annual wage</th></tr></thead><tbody><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">1</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/air-traffic-controller-salary/">Air Traffic Controllers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$148,080</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">2</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/dental-hygienist-salary/">Dental Hygienists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$98,100</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">3</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/ultrasound-tech-salary/">Diagnostic Medical Sonographers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$96,590</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">4</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/mri-tech-salary/">Magnetic Resonance Imaging Technologists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$95,480</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">5</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-lineman/">Electrical Power-Line Installers and Repairers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$95,320</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">6</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/respiratory-therapist-salary/">Respiratory Therapists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$82,280</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">7</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/radiology-tech-salary/">Radiologic Technologists and Technicians</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$80,110</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">8</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-court-reporter/">Court Reporters and Simultaneous Captioners</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$72,420</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">9</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/what-does-a-millwright-do/">Millwrights</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$65,700</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">10</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/surgical-tech-salary/">Surgical Technologists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$64,650</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">11</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/plumbing-apprenticeship/">Plumbers, Pipefitters, and Steamfitters</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$63,800</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">12</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-much-do-flight-attendants-make/">Flight Attendants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$63,580</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">13</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/electrician-salary/">Electricians</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$63,190</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">14</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-paralegal/">Paralegals and Legal Assistants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$62,890</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">15</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/hvac-certification/">Heating, Air Conditioning, and Refrigeration Mechanics and Installers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$62,890</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">16</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/chef-salary/">Chefs and Head Cooks</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$62,470</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">17</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-paramedic/">Paramedics</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$60,600</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">18</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/firefighter-salary/">Firefighters</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$59,280</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">19</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/truck-driver-salary/">Heavy and Tractor-trailer Truck Drivers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$58,640</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">20</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/funeral-director-salary/">Morticians, Undertakers, and Funeral Arrangers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$55,010</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">21</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/welder-salary/">Welders, Cutters, Solderers, and Brazers</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$53,750</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">22</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/what-does-a-bookkeeper-do/">Bookkeeping, Accounting, and Auditing Clerks</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Some college, no degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$50,670</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">23</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/dental-assistant-salary/">Dental Assistants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$48,070</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">24</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/veterinary-technician-salary/">Veterinary Technologists and Technicians</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Associate\'s degree</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$47,380</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">25</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/pharmacy-technician-salary/">Pharmacy Technicians</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">High school diploma or equivalent</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$45,750</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">26</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/medical-assistant-salary/">Medical Assistants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$45,690</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">27</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-phlebotomist/">Phlebotomists</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Postsecondary nondegree award</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$45,230</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">28</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-cna/">Nursing Assistants</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">State-approved training program</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$42,260</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">29</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);"><a href="/how-to-become-a-bartender/">Bartenders</a></td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">No formal educational credential</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;font-weight:600;">$34,341</td></tr></tbody></table></div>',
+					"All 29 are listed with sources in the downloadable dataset linked at the bottom of this page. The full spread runs from air traffic controllers at $148,080 down to bartenders at $34,341, a roughly $113,700 gap within a group whose only shared trait, per BLS's classification, is skipping the four-year-degree requirement to enter.",
 				],
 			},
 			{
@@ -4856,7 +4856,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'A pattern in where the pay actually is',
 				body: [
 					"Two clusters account for most of this list. Healthcare technician roles that require an accredited program and, in most states, a license or certification exam make up five of the top seven: MRI technologists, dental hygienists, diagnostic medical sonographers, respiratory therapists, and radiologic technologists all pay a median above $77,000. The other cluster is licensure- or apprenticeship-gated trades and public-safety roles: electrical linework and plumbing, alongside [court reporting](/how-to-become-a-court-reporter/), a field where BLS lists a postsecondary nondegree award rather than a bachelor's degree, but where working in a legal setting typically also requires a state license or professional certification on top of that program.",
-					"What both clusters share is a credentialing bottleneck of some kind, a licensing board, an accredited program with limited seats, or a certification exam, that keeps supply from expanding as fast as it might for an occupation with the same pay and open entry. [Bookkeeping, accounting, and auditing clerks](/what-does-a-bookkeeper-do/), the one occupation on the full 29-item list BLS projects will shrink over the next decade (down 6%, mostly from software automating routine reconciliation work), sits near the bottom of this ranking at $49,210 and has no equivalent licensing bottleneck protecting it. That contrast is suggestive, not proof; BLS publishes wage and outlook data without explaining why any single occupation pays what it pays, and this page reports the pattern rather than asserting the bottleneck causes the pay level.",
+					"What both clusters share is a credentialing bottleneck of some kind, a licensing board, an accredited program with limited seats, or a certification exam, that keeps supply from expanding as fast as it might for an occupation with the same pay and open entry. [Bookkeeping, accounting, and auditing clerks](/what-does-a-bookkeeper-do/), the one occupation on the full 29-item list BLS projects will shrink over the next decade (down 6%, mostly from software automating routine reconciliation work), sits near the bottom of this ranking at $50,670 and has no equivalent licensing bottleneck protecting it. That contrast is suggestive, not proof; BLS publishes wage and outlook data without explaining why any single occupation pays what it pays, and this page reports the pattern rather than asserting the bottleneck causes the pay level.",
 				],
 			},
 			{
@@ -5011,7 +5011,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Job outlook, next to the other imaging occupations this site tracks',
 				body: [
 					'BLS projects 4% employment growth for nuclear medicine technologists from 2025 to 2035, classified as about as fast as the average for all occupations, adding an estimated 800 jobs to a 2025 workforce of 17,400. About 800 openings are projected each year on average over the decade, a figure BLS attributes mostly to workers transferring to other occupations or leaving the labor force entirely, such as to retire, rather than to newly created positions.',
-					"Among the associate's-degree imaging and radiation occupations this site tracks, nuclear medicine technologists' 4% outlook for 2025 to 2035 matches the percentage on the [radiography guide](/radiology-tech-salary/), which retains an earlier 2024-to-2034 forecast, edges out radiation therapy's 3%, and trails [diagnostic medical sonographers](/ultrasound-tech-salary/) at 13%, the fastest-growing occupation in this cluster. Pay runs in the opposite direction from growth: at $101,370, this occupation earns more than MRI technologists ($95,480), sonographers ($89,340), and radiologic technologists ($77,660 in May 2024), the highest median of the group apart from radiation therapy. No page in this cluster attributes that inverse relationship between growth and pay to a specific cause.",
+					"Among the associate's-degree imaging and radiation occupations this site tracks, nuclear medicine technologists' 4% outlook for 2025 to 2035 matches the percentage on the [radiography guide](/radiology-tech-salary/), which retains an 2025-to-2035 forecast, edges out radiation therapy's 3%, and trails [diagnostic medical sonographers](/ultrasound-tech-salary/) at 13%, the fastest-growing occupation in this cluster. Pay runs in the opposite direction from growth: at $101,370, this occupation earns more than MRI technologists ($95,480), sonographers ($96,590), and radiologic technologists ($80,110 in May 2025), the highest median of the group apart from radiation therapy. No page in this cluster attributes that inverse relationship between growth and pay to a specific cause.",
 				],
 			},
 		],
@@ -5093,7 +5093,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				body: [
 					"BLS reports a median annual wage of $64,330 for school and career counselors and advisors in May 2025, or $30.93 an hour, above the $50,980 median for all occupations that year and above the $58,300 median it separately reports for the broader group of counselors, social workers, and other community and social service specialists this occupation belongs to. The bottom 10% of school and career counselors and advisors earned less than $45,020, and the top 10% earned more than $104,770.",
 					"By industry, BLS reports the highest median pay in local elementary and secondary schools, at $77,800, the same setting that employs 38% of the field; private elementary and secondary schools follow at $62,190, then public colleges and universities at $58,870, private colleges and universities at $58,720, and other private educational services at $57,480, the lowest of the five tracked settings. BLS projects 3% employment growth from 2025 to 2035, about as fast as the average for all occupations, adding an estimated 11,400 jobs to the 389,500 already employed, with about 27,800 openings projected each year on average, mostly from workers transferring to other occupations or leaving the labor force.",
-					"Against other education- and human-services careers this site tracks, the combined counseling-and-advising median sits within about $10 of [librarians](/how-to-become-a-librarian/) (whose most recently reported BLS median was $64,320, though for the May 2024 data year rather than May 2025), above [social workers](/how-to-become-a-social-worker/) at $61,330, an occupation whose overall median blends a bachelor's-level entry path with a master's-level clinical track, and well below [psychologists](/how-to-become-a-psychologist/) at $94,310, an occupation whose largest specialty by headcount typically requires a doctoral rather than a master's degree. BLS does not attribute these gaps to a specific cause; the comparison describes what each occupation's own BLS profile reports, not a claim that one credentialing path pays better than another for a given reader.",
+					"Against other education- and human-services careers this site tracks, the combined counseling-and-advising median sits within about $10 of [librarians](/how-to-become-a-librarian/) (whose most recently reported BLS median was $68,270, though for the May 2025 data year), above [social workers](/how-to-become-a-social-worker/) at $61,780, an occupation whose overall median blends a bachelor's-level entry path with a master's-level clinical track, and well below [psychologists](/how-to-become-a-psychologist/) at $99,110, an occupation whose largest specialty by headcount typically requires a doctoral rather than a master's degree. BLS does not attribute these gaps to a specific cause; the comparison describes what each occupation's own BLS profile reports, not a claim that one credentialing path pays better than another for a given reader.",
 				],
 			},
 		],
@@ -5326,7 +5326,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Certification, and where phlebotomy fits into the same pipeline',
 				body: [
 					"Per BLS, some states require laboratory personnel to be licensed or registered, with requirements varying by state and specialty; BLS points readers to CareerOneStop for state board details rather than listing every state's rules. Certification is not always mandatory to enter the field, but BLS notes employers may prefer certified hires, and individuals can earn credentials as either a medical laboratory scientist or medical laboratory technician after completing an accredited education program. Independently of BLS, the American Society for Clinical Pathology's Board of Certification, whose own history dates the agency's founding to 1928, issues the MLS (ASCP) credential most commonly cited for this exact title. The programmatic accreditor behind that eligibility, the National Accrediting Agency for Clinical Laboratory Sciences (NAACLS), accredits laboratory science degree programs at the associate through master's level and, separately, accredits phlebotomy training programs, the entry point this site covers in [how to become a phlebotomist](/how-to-become-a-phlebotomist/).",
-					"That phlebotomy page reports a $43,660 median, well under this page's $62,930, for a role BLS says can take under a year of postsecondary training to enter. BLS itself flags specialty certification as available in areas such as histology and clinical chemistry for technologists who complete additional education and experience, and names several specialized roles it tracks under this occupation: blood bank technologists, who classify and prepare blood for transfusion; clinical chemistry technologists, who analyze the chemical and hormonal content of body fluids; cytotechnologists, who examine cell slides for signs of cancer; hematology, histotechnology, microbiology, and molecular biology technologists, each focused on a different category of specimen or test.",
+					"That phlebotomy page reports a $45,230 median, well under this page's $62,930, for a role BLS says can take under a year of postsecondary training to enter. BLS itself flags specialty certification as available in areas such as histology and clinical chemistry for technologists who complete additional education and experience, and names several specialized roles it tracks under this occupation: blood bank technologists, who classify and prepare blood for transfusion; clinical chemistry technologists, who analyze the chemical and hormonal content of body fluids; cytotechnologists, who examine cell slides for signs of cancer; hematology, histotechnology, microbiology, and molecular biology technologists, each focused on a different category of specimen or test.",
 				],
 			},
 			{
@@ -5493,7 +5493,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: "A master's-only field that already out-earns one occupation requiring a doctorate",
 				body: [
 					"Per BLS, genetic counselors typically need a master's degree in genetic counseling, and nearly all states require them to be licensed, with licensure usually requiring board certification. BLS does not name the certifying body on its own page; it directs readers to their state's medical board for licensing specifics and separately points to CareerOneStop for certification information. Independently of BLS, that certification is the Certified Genetic Counselor (CGC) credential, issued by the American Board of Genetic Counseling (ABGC) to candidates who complete an ACGC-accredited master's program and pass a 200-question exam (170 scored questions plus 30 unscored pretest items) administered over four hours through the testing company Prometric. The field's primary professional association, the National Society of Genetic Counselors (NSGC), was incorporated in 1979 and remains the largest membership organization for genetic counselors in the U.S. and Canada.",
-					"Against other advanced-degree occupations this site tracks, the $100,040 genetic counselor median already beats the $94,310 BLS reports for [psychologists](/how-to-become-a-psychologist/), an occupation whose largest specialty group typically requires a doctoral degree rather than a master's (that psychologist figure is for May 2024, the most recently published data on that page, rather than the May 2025 year used above). It still trails [physician assistants](/physician-assistant-salary/) at $135,880, another occupation that, like genetic counseling, typically enters with a master's degree (a May 2025 figure as well). BLS does not explain why two master's-entry occupations land $35,840 apart, or why a master's-only field outpaces one that often requires a doctorate; the comparison describes what each occupation's own BLS profile reports, not a claim that one degree path pays better than another for a given reader. Another small master's-entry field, [orthotists and prosthetists](/orthotist-and-prosthetist-salary/), sits well below genetic counselors at an $81,110 median even with a residency added to the degree.",
+					"Against other advanced-degree occupations this site tracks, the $100,040 genetic counselor median already beats the $99,110 BLS reports for [psychologists](/how-to-become-a-psychologist/), an occupation whose largest specialty group typically requires a doctoral degree rather than a master's (that psychologist figure is for May 2025, the latest data on that page, rather than the May 2025 year used above). It still trails [physician assistants](/physician-assistant-salary/) at $135,880, another occupation that, like genetic counseling, typically enters with a master's degree (a May 2025 figure as well). BLS does not explain why two master's-entry occupations land $35,840 apart, or why a master's-only field outpaces one that often requires a doctorate; the comparison describes what each occupation's own BLS profile reports, not a claim that one degree path pays better than another for a given reader. Another small master's-entry field, [orthotists and prosthetists](/orthotist-and-prosthetist-salary/), sits well below genetic counselors at an $81,110 median even with a residency added to the degree.",
 					"BLS projects 10% employment growth for genetic counselors from 2025 to 2035, classified as much faster than the average for all occupations, adding an estimated 400 jobs to the 4,200-person 2025 workforce. About 300 openings a year, on average, are projected over the decade, a figure that works out to roughly 3,000 openings across the full ten years against a total net headcount gain of only 400, meaning BLS attributes the large majority of those openings to people transferring to other occupations or leaving the labor force rather than to new positions being created.",
 				],
 			},
@@ -5708,11 +5708,11 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				body: [
 					"Psychiatrists earned a median of $281,870 a year in May 2025, per BLS, which tracks the occupation under SOC code 29-1223 within its combined Occupational Outlook Handbook page for physicians and surgeons. That places psychiatrists $5,940 above the $275,930 median BLS reports for physicians and surgeons as a blended group covering dozens of specialties, from family medicine to cardiology to surgery. Among the 17 detailed physician titles BLS breaks out by name on this page, psychiatrists rank in the middle of the pack for pay: well behind top earners like pediatric surgeons ($559,030) and cardiologists ($496,010), but ahead of primary-care-oriented specialties such as family medicine physicians ($244,180) and general internal medicine physicians ($256,560).",
 					"BLS does not publish a percentile wage breakdown specific to psychiatrists on this page. The one percentile range it does report, a 10th percentile of $76,560 and a 90th percentile above $488,320, describes physicians and surgeons as a whole rather than any single specialty, so it isn't a reliable stand-in for how psychiatrist pay actually spreads. That's a real data gap compared with occupations this site tracks that get their own dedicated BLS profile page, such as [optometrists](/optometrist-salary/), where BLS reports a specialty-specific 10th percentile of $74,870 and 90th percentile of $202,180.",
-					"Against two other graduate-trained fields this site covers, the gap in psychiatrist pay is large. BLS's May 2025 figure for [physician assistants](/physician-assistant-salary/) sits at $135,880, about $145,990 below the psychiatrist median; [psychologists](/how-to-become-a-psychologist/), whose highest entry point is also a doctoral degree, come in lower still at $94,310 for May 2024 as well, compared here with the psychiatry May 2025 figure. Neither comparison isolates how much of that spread traces to the length of training (a psychiatrist's path runs through medical school and residency, while a PA's runs through a two-year master's program) versus scope of practice, and BLS does not weigh those factors on this page.",
+					"Against two other graduate-trained fields this site covers, the gap in psychiatrist pay is large. BLS's May 2025 figure for [physician assistants](/physician-assistant-salary/) sits at $135,880, about $145,990 below the psychiatrist median; [psychologists](/how-to-become-a-psychologist/), whose highest entry point is also a doctoral degree, come in lower still at $99,110 for May 2025 as well, compared here with the psychiatry May 2025 figure. Neither comparison isolates how much of that spread traces to the length of training (a psychiatrist's path runs through medical school and residency, while a PA's runs through a two-year master's program) versus scope of practice, and BLS does not weigh those factors on this page.",
 				],
 				image: {
 					src: '/images/psychiatrist-salary-chart.svg',
-					alt: 'Bar chart comparing median annual pay: psychiatrists $281,870, physicians overall $275,930, optometrists $136,570, psychologists $94,310, per BLS.',
+					alt: 'Bar chart comparing median annual pay: psychiatrists $281,870, physicians overall $275,930, optometrists $136,570, psychologists $99,110, per BLS.',
 				},
 			},
 			{
@@ -5746,7 +5746,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: "What's the difference between a psychiatrist and a psychologist?",
-				answer: "A medical degree, in BLS's framing. Psychiatrists finish medical school (M.D. or D.O.), which lets them write prescriptions, and they show up on the same government pay table as dozens of other specialties within medicine. Psychologists instead complete graduate training in the field without a medical degree, get their own separate BLS occupational listing (median $94,310 in the May 2024 figures), and can't write prescriptions in the large majority of states.",
+				answer: "A medical degree, in BLS's framing. Psychiatrists finish medical school (M.D. or D.O.), which lets them write prescriptions, and they show up on the same government pay table as dozens of other specialties within medicine. Psychologists instead complete graduate training in the field without a medical degree, get their own separate BLS occupational listing (median $99,110 in the May 2025 figures), and can't write prescriptions in the large majority of states.",
 			},
 			{
 				question: 'How long does it take to become a psychiatrist?',
@@ -5774,7 +5774,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			{ label: 'American Board of Psychiatry and Neurology: Psychiatry specialty-exam requirements (accessed 2026-09-12, independently confirmed the four-year residency structure BLS does not break out by specialty on its own page)', url: 'https://abpn.org/become-certified/taking-a-specialty-exam/psychiatry/' },
 		],
 		image: '/images/psychiatrist-salary-chart.svg',
-		imageAlt: 'Bar chart comparing median annual pay: psychiatrists $281,870, physicians overall $275,930, optometrists $136,570, psychologists $94,310, per BLS.',
+		imageAlt: 'Bar chart comparing median annual pay: psychiatrists $281,870, physicians overall $275,930, optometrists $136,570, psychologists $99,110, per BLS.',
 	},
 	{
 		slug: 'speech-language-pathologist-salary',
@@ -6779,7 +6779,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			{
 				heading: 'How the developer figure compares with other occupations on this site',
 				body: [
-					'Against other occupations this site tracks, $135,980 puts software developers near the top of the fields whose BLS profile names no license or standardized exam. Actuaries had a median of $125,770 and accountants $81,680, though both of those figures come from the May 2024 survey and have not been refreshed to the May 2025 series (see [actuary salary](/actuary-salary/) and [how to become an accountant](/how-to-become-an-accountant/)).',
+					'Against other occupations this site tracks, $135,980 puts software developers near the top of the fields whose BLS profile names no license or standardized exam. Actuaries had a median of $130,000 and accountants $83,680, though both of those figures come from the May 2025 survey (see [actuary salary](/actuary-salary/) and [how to become an accountant](/how-to-become-an-accountant/)).',
 					"For the entry path itself, the degree and licensing picture sits on this site's guide to [becoming a software engineer](/how-to-become-a-software-engineer/), which covers what BLS says about the bachelor's degree and the absence of a license requirement.",
 				],
 			},
