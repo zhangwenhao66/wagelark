@@ -3,15 +3,15 @@
 	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Physician Assistants: Annual Wage by Percentile</text>
 	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
 	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="56" width="198.6344676180022" height="34" fill="#0f8b7f" />
-	<text x="358.6344676180022" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$95,240</text>
+	<rect x="150" y="56" width="198.4675215471936" height="34" fill="#0f8b7f" />
+	<text x="358.4675215471936" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$99,380</text>
 	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
 	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="116" width="277.9297475301866" height="34" fill="#0f8b7f" />
-	<text x="437.9297475301866" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$133,260</text>
+	<rect x="150" y="116" width="271.360100903931" height="34" fill="#0f8b7f" />
+	<text x="431.360100903931" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$135,880</text>
 	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
 	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
-	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$182,200</text>
-	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national)</text>
+	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$190,280</text>
+	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national)</text>
 </svg>

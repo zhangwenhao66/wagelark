@@ -100,15 +100,20 @@ test('medianHourly * 2080 is within 2% of medianAnnual when both are present', (
 	}
 });
 
-// Hand-transcribed from live bls.gov OOH pages on 2026-08-03. Independent of
-// wages-source.json's own numbers -- do not derive these from the source file.
+// Hand-transcribed from live bls.gov OOH pages on 2026-08-03; re-transcribed
+// 2026-10-12 from the May 2025 cycle (page last modified August 27, 2026,
+// read via r.jina.ai because a direct fetch returns Akamai 403). Independent
+// of wages-source.json's own numbers -- do not derive these from the source file.
 test('spot check: Dental Hygienists (29-1292) matches BLS OOH page', () => {
 	const occ = occupations['29-1292'];
-	assert.equal(occ.medianAnnual, 94260);
-	assert.equal(occ.percentiles.p10, 66470);
-	assert.equal(occ.percentiles.p90, 120060);
-	assert.equal(occ.employment, 221600);
-	assert.equal(occ.jobOutlookPct, 7);
+	assert.equal(occ.medianAnnual, 98100);
+	assert.equal(occ.medianHourly, 47.16);
+	assert.equal(occ.percentiles.p10, 74880);
+	assert.equal(occ.percentiles.p90, 126050);
+	assert.equal(occ.employment, 225300);
+	assert.equal(occ.jobOutlookPct, 8);
+	assert.equal(occ.employmentChange, 17900);
+	assert.equal(occ.industryWages.length, 3);
 });
 
 test('spot check: Actuaries (15-2011) matches BLS OOH page', () => {
@@ -133,17 +138,18 @@ test('spot check: Paralegals and Legal Assistants (23-2011) matches BLS OOH page
 	assert.equal(occ.employmentChange, 600);
 });
 
-// Re-verified against the live bls.gov OOH page on 2026-08-04 (still May 2024
-// data, page last modified 2025-08-28 -- unchanged since the 2026-08-03 transcription).
+// Re-verified against the live bls.gov OOH page on 2026-08-04 (then May 2024
+// data); re-transcribed 2026-10-12 from the May 2025 cycle (page last modified
+// August 27, 2026, read via r.jina.ai because a direct fetch returns Akamai 403).
 test('spot check: Physician Assistants (29-1071) matches BLS OOH page', () => {
 	const occ = occupations['29-1071'];
-	assert.equal(occ.medianAnnual, 133260);
-	assert.equal(occ.medianHourly, 64.07);
-	assert.equal(occ.percentiles.p10, 95240);
-	assert.equal(occ.percentiles.p90, 182200);
-	assert.equal(occ.employment, 162700);
-	assert.equal(occ.jobOutlookPct, 20);
-	assert.equal(occ.employmentChange, 33200);
+	assert.equal(occ.medianAnnual, 135880);
+	assert.equal(occ.medianHourly, 65.33);
+	assert.equal(occ.percentiles.p10, 99380);
+	assert.equal(occ.percentiles.p90, 190280);
+	assert.equal(occ.employment, 168900);
+	assert.equal(occ.jobOutlookPct, 21);
+	assert.equal(occ.employmentChange, 35700);
 	assert.equal(occ.industryWages.length, 5);
 });
 
@@ -184,41 +190,45 @@ test('spot check: Radiologic Technologists and Technicians (29-2034) matches BLS
 	assert.equal(occ.employmentChange, 9800);
 });
 
-// Hand-transcribed from live bls.gov OOH page on 2026-08-04. Independent of
-// wages-source.json's own numbers -- do not derive these from the source file.
+// Hand-transcribed from live bls.gov OOH page on 2026-08-04; re-transcribed
+// 2026-10-12 from the May 2025 cycle (page last modified August 27, 2026,
+// read via r.jina.ai because a direct fetch returns Akamai 403). Independent
+// of wages-source.json's own numbers -- do not derive these from the source file.
 test('spot check: Nurse Anesthetists (29-1151) matches BLS OOH page', () => {
 	const occ = occupations['29-1151'];
-	assert.equal(occ.medianAnnual, 223210);
+	assert.equal(occ.medianAnnual, 236590);
 	// This OOH page merges Nurse Anesthetists, Nurse Midwives, and Nurse
-	// Practitioners. Its only 10th/90th percentile figures ($98,520 /
-	// $217,270) are the combined-group range, not specific to nurse
+	// Practitioners. Its only 10th/90th percentile figures ($102,190 /
+	// $224,490) are the combined-group range, not specific to nurse
 	// anesthetists alone -- left empty rather than mislabeled as this
 	// occupation's own split (same reasoning as the medianHourly omission
 	// on Radiologic Technologists above).
 	assert.deepEqual(occ.percentiles, {});
-	assert.equal(occ.employment, 53800);
+	assert.equal(occ.employment, 54500);
 	// Per-occupation projections table breaks these two figures out by SOC
 	// code (29-1151 specifically), unlike the percentile range above.
-	assert.equal(occ.jobOutlookPct, 9);
-	assert.equal(occ.employmentChange, 4600);
+	assert.equal(occ.jobOutlookPct, 10);
+	assert.equal(occ.employmentChange, 5300);
 });
 
-// Hand-transcribed from live bls.gov OOH page on 2026-08-04. Independent of
-// wages-source.json's own numbers -- do not derive these from the source file.
+// Hand-transcribed from live bls.gov OOH page on 2026-08-04; re-transcribed
+// 2026-10-12 from the May 2025 cycle (page last modified August 27, 2026,
+// read via r.jina.ai because a direct fetch returns Akamai 403). Independent
+// of wages-source.json's own numbers -- do not derive these from the source file.
 test('spot check: Nurse Practitioners (29-1171) matches BLS OOH page', () => {
 	const occ = occupations['29-1171'];
-	assert.equal(occ.medianAnnual, 129210);
+	assert.equal(occ.medianAnnual, 132300);
 	// Same merged-page situation as 29-1151 above: the page's only 10th/90th
 	// percentile and industry-wage figures are for the combined three-role
 	// group, not nurse practitioners alone -- left empty rather than
 	// mislabeled as this occupation's own split.
 	assert.deepEqual(occ.percentiles, {});
 	assert.deepEqual(occ.industryWages, []);
-	assert.equal(occ.employment, 320400);
+	assert.equal(occ.employment, 336300);
 	// Per-occupation projections table breaks these two figures out by SOC
 	// code (29-1171 specifically), unlike the percentile range above.
-	assert.equal(occ.jobOutlookPct, 40);
-	assert.equal(occ.employmentChange, 128400);
+	assert.equal(occ.jobOutlookPct, 41);
+	assert.equal(occ.employmentChange, 137800);
 });
 
 // Hand-transcribed from the live bls.gov OOH page (Surgical Assistants and
@@ -353,20 +363,22 @@ test('spot check: Nursing Assistants (31-1131) matches BLS OOH page', () => {
 
 // Numbers below transcribed by hand on 2026-08-10 from a Wayback Machine
 // snapshot (2026-07-18 crawl) of bls.gov/ooh/healthcare/respiratory-therapists.htm
-// (direct fetch returns Akamai 403, same pattern as prior spot checks).
+// (direct fetch returns Akamai 403, same pattern as prior spot checks);
+// re-transcribed 2026-10-12 from the May 2025 cycle via r.jina.ai (page last
+// modified August 27, 2026).
 // Independent of wages-source.json's own numbers -- do not derive these from
 // the source file. This is an independent OOH page (not a merged profile
 // with another occupation), so all fields including percentiles and
 // industryWages are specific to Respiratory Therapists (29-1126).
 test('spot check: Respiratory Therapists (29-1126) matches BLS OOH page', () => {
 	const occ = occupations['29-1126'];
-	assert.equal(occ.medianAnnual, 80450);
-	assert.equal(occ.medianHourly, 38.68);
-	assert.equal(occ.percentiles.p10, 61900);
-	assert.equal(occ.percentiles.p90, 108820);
-	assert.equal(occ.employment, 139600);
-	assert.equal(occ.jobOutlookPct, 12);
-	assert.equal(occ.employmentChange, 16800);
+	assert.equal(occ.medianAnnual, 82280);
+	assert.equal(occ.medianHourly, 39.56);
+	assert.equal(occ.percentiles.p10, 63660);
+	assert.equal(occ.percentiles.p90, 118050);
+	assert.equal(occ.employment, 142000);
+	assert.equal(occ.jobOutlookPct, 9);
+	assert.equal(occ.employmentChange, 12100);
 	assert.equal(occ.industryWages.length, 3);
 });
 
@@ -488,20 +500,19 @@ test('spot check: Welders, Cutters, Solderers, and Brazers (51-4121) matches BLS
 
 // Independently transcribed by hand from the live BLS OOH Registered Nurses
 // page (https://www.bls.gov/ooh/healthcare/registered-nurses.htm) on
-// 2026-08-17 via r.jina.ai proxy read (direct bls.gov fetch returns 403 for
-// this agent's network path -- same footer confirms "Last modified date:
-// August 28, 2025", matching the same data-freshness date as every other
-// spot check in this file). Independent of wages-source.json's own numbers
+// 2026-08-17 via r.jina.ai proxy read; re-transcribed 2026-10-12 from the
+// May 2025 cycle on the same route (page footer now reads "Last modified
+// date: August 27, 2026"). Independent of wages-source.json's own numbers
 // -- do not derive these from the source file.
 test('spot check: Registered Nurses (29-1141) matches BLS OOH page', () => {
 	const occ = occupations['29-1141'];
-	assert.equal(occ.medianAnnual, 93600);
-	assert.equal(occ.medianHourly, 45.00);
-	assert.equal(occ.percentiles.p10, 66030);
-	assert.equal(occ.percentiles.p90, 135320);
-	assert.equal(occ.employment, 3391000);
-	assert.equal(occ.jobOutlookPct, 5);
-	assert.equal(occ.employmentChange, 166100);
+	assert.equal(occ.medianAnnual, 97550);
+	assert.equal(occ.medianHourly, 46.90);
+	assert.equal(occ.percentiles.p10, 68940);
+	assert.equal(occ.percentiles.p90, 137470);
+	assert.equal(occ.employment, 3465400);
+	assert.equal(occ.jobOutlookPct, 6);
+	assert.equal(occ.employmentChange, 194700);
 	assert.equal(occ.industryWages.length, 5);
 });
 
@@ -556,22 +567,25 @@ test('spot check: Heating, Air Conditioning, and Refrigeration Mechanics and Ins
 // network path -- same footer confirms "Last modified date: August 28,
 // 2025", matching the same data-freshness date as every other spot check in
 // this file). Figures are for the "Dentists" umbrella occupation (SOC
-// 29-1020, $179,210 median), not the "Dentists, general" sub-detail
-// ($172,790) -- the umbrella figure is what BLS surfaces as Quick Facts.
-// p10 ("earned less than $84,740") and p90 ("earned more than $239,200")
-// are BLS's own bottom/top-coded boundary values, not exact percentiles --
-// carried through as-is per the source page's own wording. Independent of
+// 29-1020, $176,110 in the May 2025 cycle), not the "Dentists, general"
+// sub-detail ($170,950) -- the umbrella figure is what BLS surfaces as Quick
+// Facts. Re-transcribed 2026-10-12 from the May 2025 cycle (page last
+// modified August 27, 2026, read via r.jina.ai). The p10 ($89,100) and p90
+// ($337,210) figures are the May 2025 10th/90th percentile boundaries; BLS
+// gives them as "the lowest 10 percent earned less than / the highest 10
+// percent earned more than", not the top-coded ceiling that applied in the
+// earlier cycle. Independent of
 // wages-source.json's own numbers -- do not derive these from the source
 // file.
 test('spot check: Dentists (29-1020) matches BLS OOH page', () => {
 	const occ = occupations['29-1020'];
-	assert.equal(occ.medianAnnual, 179210);
-	assert.equal(occ.medianHourly, 86.16);
-	assert.equal(occ.percentiles.p10, 84740);
-	assert.equal(occ.percentiles.p90, 239200);
-	assert.equal(occ.employment, 149300);
-	assert.equal(occ.jobOutlookPct, 4);
-	assert.equal(occ.employmentChange, 5900);
+	assert.equal(occ.medianAnnual, 176110);
+	assert.equal(occ.medianHourly, 84.67);
+	assert.equal(occ.percentiles.p10, 89100);
+	assert.equal(occ.percentiles.p90, 337210);
+	assert.equal(occ.employment, 161400);
+	assert.equal(occ.jobOutlookPct, 6);
+	assert.equal(occ.employmentChange, 9000);
 	assert.equal(occ.industryWages.length, 4);
 });
 
@@ -913,18 +927,38 @@ test('spot check: Chief Executives (11-1011) matches BLS OOH page', () => {
 
 test('spot check: Occupational Therapists (29-1122) matches BLS OOH page', () => {
 	const occ = occupations['29-1122'];
-	assert.equal(occ.medianAnnual, 98340);
-	assert.equal(occ.medianHourly, 47.28);
-	assert.deepEqual(occ.percentiles, { p10: 67090, p90: 129830 });
-	assert.equal(occ.employment, 160000);
-	assert.equal(occ.jobOutlookPct, 14);
-	assert.equal(occ.employmentChange, 22100);
+	assert.equal(occ.medianAnnual, 100330);
+	assert.equal(occ.medianHourly, 48.24);
+	assert.deepEqual(occ.percentiles, { p10: 71690, p90: 131950 });
+	assert.equal(occ.employment, 169600);
+	assert.equal(occ.jobOutlookPct, 15);
+	assert.equal(occ.employmentChange, 25200);
 	assert.equal(occ.entryEducation, "Master's degree");
 	assert.equal(occ.industryWages.length, 5);
-	assert.equal(occ.industryWages[0].industry, 'Nursing care facilities (skilled nursing facilities)');
-	assert.equal(occ.industryWages[0].annualWage, 103210);
+	assert.equal(occ.industryWages[0].industry, 'Home healthcare services');
+	assert.equal(occ.industryWages[0].annualWage, 106300);
 	assert.equal(occ.industryWages[4].industry, 'Educational services; state, local, and private');
-	assert.equal(occ.industryWages[4].annualWage, 83890);
+	assert.equal(occ.industryWages[4].annualWage, 87300);
+});
+
+// Physical Therapists (29-1123) is an independent OOH page (not a merged
+// profile), so percentiles and industryWages are title-specific. Previously
+// had no spot check of its own; added and hand-transcribed 2026-10-12 from
+// the May 2025 cycle (page last modified August 27, 2026, read via r.jina.ai
+// because a direct fetch returns Akamai 403). Independent of
+// wages-source.json's own numbers -- do not derive these from the source file.
+test('spot check: Physical Therapists (29-1123) matches BLS OOH page', () => {
+	const occ = occupations['29-1123'];
+	assert.equal(occ.medianAnnual, 102760);
+	assert.equal(occ.medianHourly, 49.40);
+	assert.deepEqual(occ.percentiles, { p10: 77140, p90: 135140 });
+	assert.equal(occ.employment, 283700);
+	assert.equal(occ.jobOutlookPct, 12);
+	assert.equal(occ.employmentChange, 33800);
+	assert.equal(occ.entryEducation, 'Doctoral or professional degree (DPT)');
+	assert.equal(occ.industryWages.length, 4);
+	assert.equal(occ.industryWages[0].industry, 'Home healthcare services');
+	assert.equal(occ.industryWages[0].annualWage, 114740);
 });
 
 // Hand-transcribed from live bls.gov OOH page on 2026-08-27 (last modified

@@ -3,15 +3,15 @@
 	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Dental Hygienists: Annual Wage by Percentile</text>
 	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
 	<rect x="150" y="56" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="56" width="210.3831417624521" height="34" fill="#0f8b7f" />
-	<text x="370.3831417624521" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$66,470</text>
+	<rect x="150" y="56" width="225.73899246330822" height="34" fill="#0f8b7f" />
+	<text x="385.73899246330825" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$74,880</text>
 	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
 	<rect x="150" y="116" width="380" height="34" fill="#dcdad2" />
-	<rect x="150" y="116" width="298.3408295852074" height="34" fill="#0f8b7f" />
-	<text x="458.3408295852074" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$94,260</text>
+	<rect x="150" y="116" width="295.73978579928604" height="34" fill="#0f8b7f" />
+	<text x="455.73978579928604" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$98,100</text>
 	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
 	<rect x="150" y="176" width="380" height="34" fill="#dcdad2" />
 	<rect x="150" y="176" width="380" height="34" fill="#0f8b7f" />
-	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$120,060</text>
-	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2024 (national)</text>
+	<text x="540" y="198" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$126,050</text>
+	<text x="150" y="232" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national)</text>
 </svg>

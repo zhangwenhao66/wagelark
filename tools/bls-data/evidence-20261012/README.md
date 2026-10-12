@@ -1,5 +1,11 @@
 # BLS OOH live re-verification — Software Developers (SOC 15-1252)
 
+> **Batches in this directory.** This file covers the first occupation refreshed on
+> 2026-10-12 (Software Developers, SOC 15-1252). The first full batch — nine
+> healthcare-practitioner occupations — is transcribed in
+> [`README-healthcare-practitioners.md`](README-healthcare-practitioners.md); its raw
+> page captures are the other `bls-ooh-*-20261012.md` files here.
+
 - Verified on: 2026-10-12 (Asia/Shanghai)
 - Source URL: https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm
 - Page "Last modified date": **August 27, 2026** (quoted from the page footer)

@@ -384,45 +384,45 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-1122": {
 		socCode: "29-1122",
 		title: "Occupational Therapists",
-		medianAnnual: 98340,
-		medianHourly: 47.28,
+		medianAnnual: 100330,
+		medianHourly: 48.24,
 		percentiles: {
-			p10: 67090,
-			p90: 129830
+			p10: 71690,
+			p90: 131950
 		},
-		employment: 160000,
-		employmentYear: "2024",
-		jobOutlookPct: 14,
+		employment: 169600,
+		employmentYear: "2025",
+		jobOutlookPct: 15,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 22100,
-		projectionPeriod: "2024-34",
+		employmentChange: 25200,
+		projectionPeriod: "2025-35",
 		entryEducation: "Master's degree",
 		industryWages: [
 			{
-				industry: "Nursing care facilities (skilled nursing facilities)",
-				annualWage: 103210
+				industry: "Home healthcare services",
+				annualWage: 106300
 			},
 			{
-				industry: "Home healthcare services",
-				annualWage: 103010
+				industry: "Nursing care facilities (skilled nursing facilities)",
+				annualWage: 105850
 			},
 			{
 				industry: "Hospitals; state, local, and private",
-				annualWage: 100770
+				annualWage: 102820
 			},
 			{
 				industry: "Offices of physical, occupational and speech therapists, and audiologists",
-				annualWage: 96380
+				annualWage: 97940
 			},
 			{
 				industry: "Educational services; state, local, and private",
-				annualWage: 83890
+				annualWage: 87300
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Occupational Therapists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/occupational-therapists.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"11-3031": {
 		socCode: "11-3031",
@@ -489,41 +489,41 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-1020": {
 		socCode: "29-1020",
 		title: "Dentists",
-		medianAnnual: 179210,
-		medianHourly: 86.16,
+		medianAnnual: 176110,
+		medianHourly: 84.67,
 		percentiles: {
-			p10: 84740,
-			p90: 239200
+			p10: 89100,
+			p90: 337210
 		},
-		employment: 149300,
-		employmentYear: "2024",
-		jobOutlookPct: 4,
-		jobOutlookLabel: "As fast as average",
-		employmentChange: 5900,
-		projectionPeriod: "2024-34",
+		employment: 161400,
+		employmentYear: "2025",
+		jobOutlookPct: 6,
+		jobOutlookLabel: "Faster than average",
+		employmentChange: 9000,
+		projectionPeriod: "2025-35",
 		entryEducation: "Doctoral or professional degree",
 		industryWages: [
 			{
 				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 213210
-			},
-			{
-				industry: "Offices of physicians",
-				annualWage: 180120
+				annualWage: 219750
 			},
 			{
 				industry: "Outpatient care centers",
-				annualWage: 179460
+				annualWage: 195330
 			},
 			{
 				industry: "Offices of dentists",
-				annualWage: 178300
+				annualWage: 173760
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 172980
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Dentists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/dentists.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"23-1011": {
 		socCode: "23-1011",
@@ -567,37 +567,37 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-1292": {
 		socCode: "29-1292",
 		title: "Dental Hygienists",
-		medianAnnual: 94260,
-		medianHourly: 45.32,
+		medianAnnual: 98100,
+		medianHourly: 47.16,
 		percentiles: {
-			p10: 66470,
-			p90: 120060
+			p10: 74880,
+			p90: 126050
 		},
-		employment: 221600,
-		employmentYear: "2024",
-		jobOutlookPct: 7,
+		employment: 225300,
+		employmentYear: "2025",
+		jobOutlookPct: 8,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 15500,
-		projectionPeriod: "2024-34",
+		employmentChange: 17900,
+		projectionPeriod: "2025-35",
 		entryEducation: "Associate's degree",
 		industryWages: [
 			{
 				industry: "Offices of dentists",
-				annualWage: 94570
+				annualWage: 98280
 			},
 			{
 				industry: "Offices of physicians",
-				annualWage: 84720
+				annualWage: 91160
 			},
 			{
 				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 77940
+				annualWage: 80830
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Dental Hygienists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/dental-hygienists.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"15-2011": {
 		socCode: "15-2011",
@@ -1041,84 +1041,84 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-1123": {
 		socCode: "29-1123",
 		title: "Physical Therapists",
-		medianAnnual: 101020,
-		medianHourly: 48.57,
+		medianAnnual: 102760,
+		medianHourly: 49.4,
 		percentiles: {
-			p10: 74420,
-			p90: 132500
+			p10: 77140,
+			p90: 135140
 		},
-		employment: 267200,
-		employmentYear: "2024",
-		jobOutlookPct: 11,
+		employment: 283700,
+		employmentYear: "2025",
+		jobOutlookPct: 12,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 29300,
-		projectionPeriod: "2024-34",
+		employmentChange: 33800,
+		projectionPeriod: "2025-35",
 		entryEducation: "Doctoral or professional degree (DPT)",
 		industryWages: [
 			{
 				industry: "Home healthcare services",
-				annualWage: 108110
+				annualWage: 114740
 			},
 			{
 				industry: "Nursing and residential care facilities",
-				annualWage: 105330
+				annualWage: 110460
 			},
 			{
 				industry: "Hospitals (state, local, private)",
-				annualWage: 105140
+				annualWage: 106800
 			},
 			{
 				industry: "Offices of physical, occupational and speech therapists",
-				annualWage: 94860
+				annualWage: 97160
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Physical Therapists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/physical-therapists.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"29-1071": {
 		socCode: "29-1071",
 		title: "Physician Assistants",
-		medianAnnual: 133260,
-		medianHourly: 64.07,
+		medianAnnual: 135880,
+		medianHourly: 65.33,
 		percentiles: {
-			p10: 95240,
-			p90: 182200
+			p10: 99380,
+			p90: 190280
 		},
-		employment: 162700,
-		employmentYear: "2024",
-		jobOutlookPct: 20,
+		employment: 168900,
+		employmentYear: "2025",
+		jobOutlookPct: 21,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 33200,
-		projectionPeriod: "2024-34",
+		employmentChange: 35700,
+		projectionPeriod: "2025-35",
 		entryEducation: "Master's degree",
 		industryWages: [
 			{
 				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 151470
+				annualWage: 157040
 			},
 			{
 				industry: "Outpatient care centers",
-				annualWage: 147650
+				annualWage: 153500
 			},
 			{
 				industry: "Hospitals (state, local, private)",
-				annualWage: 136630
-			},
-			{
-				industry: "Offices of physicians",
-				annualWage: 129640
+				annualWage: 141150
 			},
 			{
 				industry: "Educational services (state, local, private)",
-				annualWage: 127900
+				annualWage: 134770
+			},
+			{
+				industry: "Offices of physicians",
+				annualWage: 132000
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Physician Assistants",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/physician-assistants.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"23-2011": {
 		socCode: "23-2011",
@@ -1678,20 +1678,20 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-1151": {
 		socCode: "29-1151",
 		title: "Nurse Anesthetists",
-		medianAnnual: 223210,
+		medianAnnual: 236590,
 		percentiles: {},
-		employment: 53800,
-		employmentYear: "2024",
-		jobOutlookPct: 9,
+		employment: 54500,
+		employmentYear: "2025",
+		jobOutlookPct: 10,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 4600,
-		projectionPeriod: "2024-34",
+		employmentChange: 5300,
+		projectionPeriod: "2025-35",
 		entryEducation: "Master's degree",
 		industryWages: [],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"35-1011": {
 		socCode: "35-1011",
@@ -1796,20 +1796,20 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-1171": {
 		socCode: "29-1171",
 		title: "Nurse Practitioners",
-		medianAnnual: 129210,
+		medianAnnual: 132300,
 		percentiles: {},
-		employment: 320400,
-		employmentYear: "2024",
-		jobOutlookPct: 40,
+		employment: 336300,
+		employmentYear: "2025",
+		jobOutlookPct: 41,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 128400,
-		projectionPeriod: "2024-34",
+		employmentChange: 137800,
+		projectionPeriod: "2025-35",
 		entryEducation: "Master's degree",
 		industryWages: [],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/nurse-anesthetists-nurse-midwives-and-nurse-practitioners.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"31-9091": {
 		socCode: "31-9091",
@@ -1961,37 +1961,37 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-1126": {
 		socCode: "29-1126",
 		title: "Respiratory Therapists",
-		medianAnnual: 80450,
-		medianHourly: 38.68,
+		medianAnnual: 82280,
+		medianHourly: 39.56,
 		percentiles: {
-			p10: 61900,
-			p90: 108820
+			p10: 63660,
+			p90: 118050
 		},
-		employment: 139600,
-		employmentYear: "2024",
-		jobOutlookPct: 12,
+		employment: 142000,
+		employmentYear: "2025",
+		jobOutlookPct: 9,
 		jobOutlookLabel: "Much faster than average",
-		employmentChange: 16800,
-		projectionPeriod: "2024-34",
+		employmentChange: 12100,
+		projectionPeriod: "2025-35",
 		entryEducation: "Associate's degree",
 		industryWages: [
 			{
 				industry: "Hospitals; state, local, and private",
-				annualWage: 80660
+				annualWage: 82730
 			},
 			{
 				industry: "Nursing care facilities (skilled nursing facilities)",
-				annualWage: 75910
+				annualWage: 79270
 			},
 			{
 				industry: "Offices of physicians",
-				annualWage: 75240
+				annualWage: 77890
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Respiratory Therapists",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/respiratory-therapists.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"47-2111": {
 		socCode: "47-2111",
@@ -2544,45 +2544,45 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 	"29-1141": {
 		socCode: "29-1141",
 		title: "Registered Nurses",
-		medianAnnual: 93600,
-		medianHourly: 45,
+		medianAnnual: 97550,
+		medianHourly: 46.9,
 		percentiles: {
-			p10: 66030,
-			p90: 135320
+			p10: 68940,
+			p90: 137470
 		},
-		employment: 3391000,
-		employmentYear: "2024",
-		jobOutlookPct: 5,
+		employment: 3465400,
+		employmentYear: "2025",
+		jobOutlookPct: 6,
 		jobOutlookLabel: "Faster than average",
-		employmentChange: 166100,
-		projectionPeriod: "2024-34",
+		employmentChange: 194700,
+		projectionPeriod: "2025-35",
 		entryEducation: "Bachelor's degree",
 		industryWages: [
 			{
 				industry: "Government (excl. state/local education, hospitals)",
-				annualWage: 106480
+				annualWage: 110780
 			},
 			{
 				industry: "Hospitals; state, local, and private",
-				annualWage: 97260
+				annualWage: 100220
 			},
 			{
 				industry: "Ambulatory healthcare services",
-				annualWage: 83780
+				annualWage: 91230
 			},
 			{
 				industry: "Nursing and residential care facilities",
-				annualWage: 81820
+				annualWage: 84300
 			},
 			{
 				industry: "Educational services; state, local, and private",
-				annualWage: 74360
+				annualWage: 78620
 			}
 		],
-		dataYear: "May 2024",
+		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Registered Nurses",
 		sourceUrl: "https://www.bls.gov/ooh/healthcare/registered-nurses.htm",
-		publishedDate: "2025-08-28"
+		publishedDate: "2026-08-27"
 	},
 	"49-9021": {
 		socCode: "49-9021",
