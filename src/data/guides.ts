@@ -1880,7 +1880,7 @@ export const guides: Guide[] = [
 				body: [
 					'BLS breaks out May 2025 median wages for firefighters by the three employer categories it tracks: state government, excluding education and hospitals, at $64,980; federal government, excluding postal service, at $63,270; and local government, excluding education and hospitals, at $59,850. The spread between the highest- and lowest-paying tier is about $5,100, a much narrower gap than some other public-facing occupations this site has covered, where the difference between the best- and worst-paying industry can run into the tens of thousands of dollars.',
 					'Despite paying the least of the three tiers, local government is where the large majority of career firefighters actually work: BLS puts local government at 87% of firefighter employment, versus 4% for state government and 2% for federal government (excluding postal service). BLS does not publish a combined percentage that accounts for the remaining employers, and it does not explain why state and federal positions pay modestly more than local ones on this page; it presents the industry breakdown descriptively rather than attributing the gap to a specific cause such as unionization, cost-of-living adjustments, or department budgets.',
-					"Firefighters typically work long, irregular shifts. BLS describes shift patterns such as 24 hours on duty followed by 48 or 72 hours off, and notes that wildland firefighters combating forest fires may work extended stretches and stay at temporary fire camps for days or weeks when a fire breaks out. Wildland firefighting work can also be seasonal, meaning hours and pay may vary by time of year for firefighters in that specialty in ways the annual median wage figure does not capture.",
+					"Firefighters typically work long, irregular shifts. BLS describes shift patterns such as 24 hours on duty followed by 48 or 72 hours off, and notes that wildland firefighters combating forest fires may work extended stretches and stay at temporary fire camps for days or weeks when a fire breaks out. Wildland firefighting work can also be seasonal, meaning hours and pay may vary by time of year for firefighters in that specialty in ways the annual median wage figure does not capture. The overtime and compensatory time rules that sit behind those shift patterns have a page of their own here, on [why firefighters get paid the way they do](/why-do-firefighters-get-paid-so-little/).",
 				],
 			},
 			{
@@ -3624,7 +3624,7 @@ export const guides: Guide[] = [
 				body: [
 					'BLS reports a median annual wage of $58,410 for paramedics in May 2024, above the $41,340 median for EMTs and the $46,350 median for the combined EMT-and-paramedic group on the same page, and also above the $49,500 median across all occupations that year. By industry, BLS\'s top-5 table for paramedics specifically shows local government (excluding education and hospitals) paying the highest median, $59,840, followed by offices of physicians at $59,370, private general medical and surgical hospitals at $58,780, ambulance services at $57,720, and local-government general medical and surgical hospitals at $52,990. Ambulance services, the setting most people probably picture first for this occupation, is not the top-paying industry BLS tracks for paramedics; local government and physician offices both pay more at the median.',
 					'BLS\'s industry table for EMTs, by contrast, shows outpatient care centers paying a median of $67,990, higher than any single industry BLS lists for paramedics. BLS does not explain that gap beyond publishing the figures, and it does not change the overall picture: EMTs\' median annual wage across all industries is still well below paramedics\', so one high-paying EMT industry segment does not mean EMTs typically out-earn paramedics.',
-					'Among other occupations this site has covered, paramedic pay sits close to [firefighters](/firefighter-salary/), which BLS also classifies under a "postsecondary nondegree award" entry-level education and whose $59,280 median is about $870 above the paramedic figure. It sits well above [CNAs](/how-to-become-a-cna/), whose $42,260 median is roughly 28% lower, even though CNA training runs a federal floor of just 75 hours and involves no multi-tier certification path. BLS does not weigh how much of these gaps traces to training length, scope of practice, or the settings each occupation typically works in.',
+					'Among other occupations this site has covered, paramedic pay sits close to [firefighters](/firefighter-salary/), which BLS also classifies under a "postsecondary nondegree award" entry-level education and whose $59,280 median for May 2025 sits about $870 above this May 2024 paramedic figure. It sits well above [CNAs](/how-to-become-a-cna/), whose $42,260 median is roughly 28% lower, even though CNA training runs a federal floor of just 75 hours and involves no multi-tier certification path. BLS does not weigh how much of these gaps traces to training length, scope of practice, or the settings each occupation typically works in. One structural difference for firefighting is that overtime at public fire agencies is calculated across a work period of up to 28 days, which this site covers in [firefighter pay and the overtime rule behind it](/why-do-firefighters-get-paid-so-little/).',
 				],
 			},
 			{
@@ -6811,5 +6811,89 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		],
 		image: '/images/software-developer-salary-chart.svg',
 		imageAlt: 'Bar chart showing software developer annual wage by percentile: 10th percentile $82,460, median $135,980, 90th percentile $214,670, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'why-do-firefighters-get-paid-so-little',
+		category: 'Salary Guide',
+		title: 'Why Do Firefighters Get Paid So Little? The Law',
+		description: 'The firefighter median is $59,280, above the $50,980 all-occupations median. The bottom decile and the unpaid volunteer share are where the low-pay impression comes from.',
+		published: '2026-10-12',
+		updated: '2026-10-12',
+		socCode: '33-2011',
+		coreSummary: 'Firefighters earned a median of $59,280 in May 2025, above the $50,980 median for all US occupations. The suspicion that firefighters get paid so little is about the ends of that distribution. The lowest-paid 10% earned under $34,910, and the volunteers BLS leaves out of the count make up the largest share of the workforce.',
+		sections: [
+			{
+				heading: 'What the median figure actually shows',
+				body: [
+					'The Bureau of Labor Statistics files firefighters under SOC code 33-2011. Its May 2025 median annual wage for the occupation was $59,280, or $28.50 an hour.',
+					'The same survey put the median across all US occupations at $50,980. Read side by side, the firefighter midpoint sits about 16% above the typical worker, so the headline number does not support the premise that the job is badly paid in the middle of its range. BLS also groups firefighters with a wider set of firefighting and prevention workers, whose median was $59,630, close enough to the firefighter figure that the group total does not change the picture.',
+					'What a midpoint hides is the shape of the distribution, and who gets counted in it. The bottom of the range falls a long way below the national middle, and a large part of the occupation never appears in the wage table at all.',
+				],
+			},
+			{
+				heading: 'The bottom tenth, and the firefighters BLS leaves out',
+				body: [
+					'BLS reports the ends of the distribution along with the midpoint. The lowest-paid 10% of firefighters earned less than $34,910 in May 2025, roughly 32% below the median for all occupations, while the highest-paid 10% earned more than $101,040.',
+					'The same page draws a boundary that matters more than any single percentile. Its employment and wage figures exclude volunteer firefighters, who carry out the same duties as paid ones. BLS states that volunteers account for the largest share of firefighters nationwide, and that the share is biggest in communities of fewer than 25,000 people. In those places the person who answers a structure fire may be unpaid, while the $59,280 median describes only the paid part of the occupation.',
+					'Who employs that paid part is uneven as well. Local government accounted for 87% of the 355,300 firefighter jobs BLS counted in 2025, state government for 4%, and the federal government for 2%. Median pay ran in the opposite order: state government firefighters earned $64,980, federal ones $63,270, and local government ones $59,850, about 8% under the state figure. The employer of nearly nine in ten firefighters pays the least of the three.',
+				],
+				image: {
+					src: '/images/firefighter-pay-percentile-chart.svg',
+					alt: 'Bar chart of firefighter annual wages by percentile from BLS May 2025 data: 10th percentile $34,910, median $59,280 and 90th percentile $101,040, with a dashed line marking the $50,980 median for all US occupations.',
+				},
+			},
+			{
+				heading: 'The 7(k) work period, and why an annual figure mixes two kinds of hours',
+				body: [
+					'BLS notes that firefighters typically work long periods, that overtime is common, and that a 24-hour shift is often followed by 48 or 72 hours off duty. How that extra time is paid follows a federal rule that most hourly workers never encounter.',
+					'Section 7(k) of the Fair Labor Standards Act lets public agencies pay fire protection and law enforcement employees overtime on a work period basis instead of the standard 40-hour week. The Department of Labor fact sheet on the provision sets the work period at anywhere from 7 to 28 consecutive days. For a period shorter than 28 days, the overtime threshold scales in the same proportion that 212 hours bears to 28 days. Across a 14-day period, fire protection personnel are due overtime after 106 hours.',
+					'The rotation and the threshold interact. A 24-hours-on, 48-hours-off schedule works out to about 112 hours across a 14-day period, which clears the 106-hour line. A 24-on, 72-off rotation comes to about 84 hours in the same window, which does not. Whether a given crew generates overtime pay depends on the rotation rather than on the annual salary attached to the job.',
+					'When overtime is owed, cash is not the only settlement the rules allow. Under conditions the fact sheet sets out, a state or local agency may provide compensatory time at no less than one and one-half hours for each overtime hour worked, and police and fire employees may accrue up to 480 hours of it. An agency has to grant a request to use that time on the date asked for unless doing so would unduly disrupt its operations, and on termination the employee is paid the higher of the final regular rate or the average regular rate over the previous three years for whatever is left unused.',
+					'One further provision narrows the rule at the small end. Section 13(b)(20) exempts a public agency that employs fewer than five people in fire protection activities during a workweek from the overtime requirement. Between that exemption, the work period, and compensatory time, an annual figure for a firefighter blends regular hours with overtime hours, and part of the extra time may be settled in leave instead of money.',
+				],
+			},
+			{
+				heading: 'Who sets firefighter pay, and the federal wildland exception',
+				body: [
+					'With 87% of paid firefighters on local government payrolls, pay is set jurisdiction by jurisdiction, not on one national scale. That structure explains why the BLS national median summarizes many local decisions, and why the same job title can carry very different wages in two neighboring departments.',
+					'In March 2025 the Department of the Interior announced a permanent pay increase for federal and tribal wildland firefighters, carried in the Full-Year Continuing Appropriations and Extensions Act, 2025 (H.R. 1968), which Congress passed on March 14 and the president signed into law.',
+					'According to the department announcement, the law establishes new special salary pay tables for federal wildland firefighters at every level, including temporary and seasonal employees, and makes permanent the Bureau of Indian Affairs funding that lets tribes offer pay supplements to tribal wildland firefighters. It also creates wildland fire Incident Response Premium Pay, which the announcement describes as available to all federal employees for extended deployments to qualifying incidents.',
+					'The announcement describes the permanent increase as replacing temporary pay supplements that firefighters had received over the preceding four years. Until 2025, part of that pay rested on supplements that had to be renewed. The Office of Personnel Management publishes separate 2026 locality pay tables for wildland firefighters under a GW pay series of its own.',
+				],
+			},
+			{
+				heading: 'Where the rest of the firefighter material lives',
+				body: [
+					'Within this site, the same occupation is broken out by percentile and by employer type on the [firefighter salary](/firefighter-salary/) page, which carries the wage table in full. BLS also classifies the typical entry-level education for this occupation as a postsecondary nondegree award.',
+					'For a neighboring occupation on a shorter entry path, the guide to [becoming a paramedic](/how-to-become-a-paramedic/) covers the credential tiers and the paramedic-specific pay figure. For the wider national picture, the [salary statistics](/salary-statistics-2026/) overview compiles figures across roughly 830 tracked occupations and documents its own methodology.',
+				],
+			},
+		],
+				faq: [
+			{
+				question: 'Do firefighters make $100,000 a year?',
+				answer: 'A six-figure wage sits at the very top of the published range. BLS draws the line for the top decile at $101,040 and publishes it as a floor, not a ceiling, so the survey shows only that the best-paid tenth cleared it. How many firefighters pass $100,000 is not something these figures answer.',
+			},
+			{
+				question: 'Do firemen make a lot of money?',
+				answer: 'At the midpoint, more than the typical worker. The May 2025 figure was $59,280, against $50,980 nationally. The floor of the occupation is a different story, with the bottom decile reported below $34,910, well beneath that national middle.',
+			},
+			{
+				question: 'How much do firefighters get paid per hour?',
+				answer: 'BLS paired $28.50 an hour with the $59,280 annual figure for May 2025. Hourly earnings in practice depend on the schedule, because overtime at public fire agencies is calculated across a work period of up to 28 days, and a share of those hours may be settled in compensatory time.',
+			},
+			{
+				question: 'Does the BLS firefighter median include volunteer firefighters?',
+				answer: "No. Volunteers are left out of the Handbook page's counts even though they perform the same role, and they make up the biggest part of the national workforce, especially in towns below 25,000 people. That median counts only the ones who draw a wage.",
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Firefighters (re-verified 2026-10-12 against the page as last modified September 14, 2026; median, percentile, employer-share, industry and volunteer-exclusion figures from May 2025)', url: 'https://www.bls.gov/ooh/protective-service/firefighters.htm' },
+			{ label: 'U.S. Department of Labor, Wage and Hour Division: Fact Sheet #8, Police and Firefighters under the FLSA (re-verified 2026-10-12; section 7(k) work periods, the 212-hour fire standard, the 106-hour example for a 14-day period, compensatory time limits, and the section 13(b)(20) small-agency exemption)', url: 'https://beta.dol.gov/research-data/fact-sheets/fact-sheet-8-flsa-police-firefighters' },
+			{ label: 'U.S. Department of the Interior: press release, The Department of the Interior Announces Permanent Pay Increase for Wildland Firefighters (published March 15, 2025; H.R. 1968, the new special salary pay tables, the four years of temporary supplements it replaced, and Incident Response Premium Pay)', url: 'https://www.doi.gov/pressreleases/department-interior-announces-permanent-pay-increase-wildland-firefighters-bolster' },
+			{ label: 'U.S. Office of Personnel Management: 2026 Wildland Firefighters (GW) locality pay tables (confirms the separate GW pay series for federal wildland firefighters; no individual rate is quoted on this page)', url: 'https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/2026/wildland-firefighter/' },
+		],
+		image: '/images/firefighter-pay-percentile-chart.svg',
+		imageAlt: 'Bar chart of firefighter annual wages by percentile from BLS May 2025 data: 10th percentile $34,910, median $59,280 and 90th percentile $101,040, with a dashed line marking the $50,980 median for all US occupations.',
 	},
 ];

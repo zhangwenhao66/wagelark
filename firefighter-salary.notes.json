@@ -1,12 +1,8 @@
 [
-  {
-    "index": 1,
-    "verdict": "CONFIRMED",
-    "note": "electrician-salary target article states 'The median annual wage for electricians was $63,190 in May 2025' and 'Most electricians learn the trade through a 4- or 5-year apprenticeship' with 'about 2,000 hours of paid on-the-job training per year' (matches 'mostly on-the-job'), and 'the typical entry-level education for electricians is a high school diploma or equivalent'. Firefighter's own article (this site, same file) states median $59,280 and 'firefighters typically need a high school diploma and training in emergency medical services to enter the occupation', 'Most receive their initial training at a fire academy' plus 'EMT certification training most departments require alongside the fire academy' -- confirms 'fire academy plus EMT certification' framing and the $63,190 vs $59,280 comparison."
-  },
-  {
-    "index": 2,
-    "verdict": "CONFIRMED",
-    "note": "how-to-become-a-cna target article states 'Federal regulation sets a 75-hour minimum for nurse aide training programs' citing '42 CFR § 483.152: a state-approved program must run at least 75 clock hours' and 'The Bureau of Labor Statistics reports a median annual wage of $42,260 for nursing assistants in May 2025'. $42,260 is below firefighter's own $59,280 median and electrician's $63,190 median (both confirmed in candidate #1), so 'well below both firefighters and electricians' checks out."
-  }
+ {
+  "index": 1,
+  "verdict": "CONFIRMED",
+  "note": "本候选对应的桥接句是 2026-10-12 合并后的一句（原文两条候选——electrician-salary 与 how-to-become-a-cna——已被本仓库 prose-gate 批次合成同一句），故此处把此前两条已核记录合并为一条，逐项核对目标文章 how-to-become-a-cna 原文：(1)'much shorter training bar' —— 目标页称联邦对护士助理培训设 75 小时下限，'well short of the multi-month or multi-year programs required for most other healthcare roles'，成立；(2)'state-approved program with a federal floor of 75 hours under 42 CFR 483.152' —— 目标页原文即 '42 CFR § 483.152: a state-approved program must run at least 75 clock hours'，逐字对应；(3)'BLS puts the nursing assistant median at $42,260' —— 目标页正文与 FAQ#3 均为 May 2025 中位 $42,260，成立；(4)'well below both firefighters and electricians' —— 本站 BLS 数据 33-2011 消防员中位 $59,280、47-2111 电工中位 $63,190（electrician-salary 页原文亦为 'The median annual wage for electricians was $63,190 in May 2025'），均高于护士助理 $42,260，成立。",
+  "sentence": "[CNAs](/how-to-become-a-cna/), by contrast, need a much shorter training bar, a state-approved program with a federal floor of 75 hours under 42 CFR § 483.152, and BLS puts the nursing assistant median at $42,260, well below both firefighters and electricians."
+ }
 ]

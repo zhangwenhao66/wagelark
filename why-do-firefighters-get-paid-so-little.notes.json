@@ -1,0 +1,8 @@
+[
+ {
+  "index": 1,
+  "verdict": "CONFIRMED",
+  "note": "桥接句对 /firefighter-salary/ 的三个断言逐项核对目标原文：(1)'the same occupation is broken out by percentile' —— 目标页 description 即 'Here is the full wage range by percentile'，正文给出 10th $34,910 与 90th $101,040，成立；(2)'by employer type' —— 目标页第二个小节标题为 'Pay by government level, and where career firefighters actually work'，并列出州 $64,980 / 联邦 $63,270 / 地方 $59,850 三档，成立；(3)'carries the wage table in full' —— 目标页 description 写 'Here is the full wage range by percentile and by employer type'，正文第一个小节给出 May 2025 中位 $59,280、时薪 $28.50、分位区间与就业 355,300，第二个小节给出地方政府 $59,850 / 州 $64,980 / 联邦 $63,270 三档行业细分，另 2025-35 增长（4%、13,100）出现在该篇 coreSummary 与第四个小节（不在首段），覆盖本页正文提到的全部工资字段，成立。",
+  "sentence": "Within this site, the same occupation is broken out by percentile and by employer type on the [firefighter salary](/firefighter-salary/) page, which carries the wage table in full."
+ }
+]

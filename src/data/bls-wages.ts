@@ -2426,7 +2426,7 @@ export const BLS_WAGES: Record<string, BlsWageEntry> = {
 		dataYear: "May 2025",
 		sourceLabel: "BLS Occupational Outlook Handbook: Firefighters",
 		sourceUrl: "https://www.bls.gov/ooh/protective-service/firefighters.htm",
-		publishedDate: "2026-09-09"
+		publishedDate: "2026-09-14"
 	},
 	"47-2152": {
 		socCode: "47-2152",

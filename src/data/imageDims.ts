@@ -107,6 +107,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 300,
   "w": 640
  },
+ "/images/firefighter-pay-percentile-chart.svg": {
+  "h": 260,
+  "w": 640
+ },
  "/images/firefighter-salary-chart.svg": {
   "h": 240,
   "w": 640

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="260" fill="white" />
+	<text x="150" y="30" font-size="16" font-weight="700" fill="#14273f">Firefighters: Annual Wage by Percentile</text>
+	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
+	<rect x="150" y="56" width="380.0" height="34" fill="#dcdad2" />
+	<rect x="150" y="56" width="131.3" height="34" fill="#0f8b7f" />
+	<text x="295.3" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$34,910</text>
+	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median</text>
+	<rect x="150" y="116" width="380.0" height="34" fill="#dcdad2" />
+	<rect x="150" y="116" width="222.9" height="34" fill="#0f8b7f" />
+	<text x="386.9" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$59,280</text>
+	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
+	<rect x="150" y="176" width="380.0" height="34" fill="#dcdad2" />
+	<rect x="150" y="176" width="380.0" height="34" fill="#0f8b7f" />
+	<text x="468.0" y="198" font-size="15" font-weight="700" fill="#ffffff" font-family="Arial, sans-serif">$101,040</text>
+	<line x1="341.7" y1="46" x2="341.7" y2="218" stroke="#c8442b" stroke-width="2" stroke-dasharray="6 4" />
+	<text x="349.7" y="234" font-size="12" fill="#c8442b" font-family="Arial, sans-serif">$50,980: median for all US occupations</text>
+	<text x="150" y="252" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national)</text>
+</svg>
