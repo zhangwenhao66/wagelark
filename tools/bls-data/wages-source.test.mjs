@@ -714,36 +714,36 @@ test('spot check: Chefs and Head Cooks (35-1011) matches BLS OOH page', () => {
 });
 
 // Hand-transcribed from the live BLS OOH page (Software Developers, Quality
-// Assurance Analysts, and Testers -- combined narrative) for the pay figures,
-// and independently cross-checked against the live BLS Employment Projections
-// National Employment Matrix Table 1.2 (occupation.xlsx, downloaded from
-// bls.gov/emp/tables/occupational-projections-and-characteristics.htm) and
-// the BLS Economics Daily article "Artificial intelligence, information
-// technology, and employment, 2024-34" on 2026-08-22.
-test('spot check: Software Developers (15-1252) matches BLS OOH page + Employment Projections Table 1.2', () => {
+// Assurance Analysts, and Testers -- combined narrative), re-verified on
+// 2026-10-12 against the page as last modified 2026-08-27. That revision moved
+// the page onto the May 2025 / 2025-35 cycle: the Pay section median for
+// software developers specifically is now $135,980 (was $133,080 for May 2024),
+// and -- unlike the 2025-08-28 revision this test originally covered -- the
+// Employment Projections table on the page now breaks employment out by SOC
+// code as well, so the developer-only employment and change figures below come
+// from the OOH page itself rather than the separate National Employment Matrix
+// Table 1.2 that the earlier revision of this test had to cross-check against.
+test('spot check: Software Developers (15-1252) matches BLS OOH page (May 2025 revision)', () => {
 	const occ = occupations['15-1252'];
-	// The OOH page's Quick Facts median ($131,450) and hourly figure ($63.20)
+	// The OOH page's Quick Facts median ($134,040) and hourly figure ($64.44)
 	// are for the combined "Software Developers, Quality Assurance Analysts,
 	// and Testers" group. Its Pay section breaks the annual median out by
-	// occupation -- $133,080 for software developers specifically -- but
+	// occupation -- $135,980 for software developers specifically -- but
 	// publishes no separate hourly figure for developers alone, so
 	// medianHourly is omitted rather than derived (same reasoning as the
 	// Radiologic Technologists entry above).
-	assert.equal(occ.medianAnnual, 133080);
+	assert.equal(occ.medianAnnual, 135980);
 	assert.equal(occ.medianHourly, undefined);
-	assert.equal(occ.percentiles.p10, 79850);
-	assert.equal(occ.percentiles.p90, 211450);
+	assert.equal(occ.percentiles.p10, 82460);
+	assert.equal(occ.percentiles.p90, 214670);
 	assert.equal(occ.industryWages.length, 5);
-	// Employment, employment change, and percent change are not broken out
-	// by occupation on the OOH page itself (Quick Facts gives only the
-	// combined 1,895,500 figure). The National Employment Matrix Table 1.2
-	// breaks it out by SOC code: 1,693.8k -> 1,961.4k (2024-34), a 15.8%
-	// change of +267.7k jobs -- this independently matches the 15.8%/+267,700
-	// figures published in the BLS Economics Daily article, so both official
-	// BLS sources agree.
-	assert.equal(occ.employment, 1693800);
-	assert.equal(occ.jobOutlookPct, 15.8);
-	assert.equal(occ.employmentChange, 267700);
+	// OOH Employment Projections table, row "Software developers | 15-1252":
+	// 1,717,800 (2025) -> 1,892,600 (2035), 10% change, +174,700 jobs. The
+	// combined three-occupation group on the same table is 1,905,400 ->
+	// 2,090,800 (+185,400), which is NOT what this entry stores.
+	assert.equal(occ.employment, 1717800);
+	assert.equal(occ.jobOutlookPct, 10);
+	assert.equal(occ.employmentChange, 174700);
 	assert.equal(occ.entryEducation, "Bachelor's degree");
 });
 

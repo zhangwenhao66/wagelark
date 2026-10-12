@@ -2727,44 +2727,44 @@
     },
     "15-1252": {
       "title": "Software Developers",
-      "medianAnnual": 133080,
+      "medianAnnual": 135980,
       "percentiles": {
-        "p10": 79850,
-        "p90": 211450
+        "p10": 82460,
+        "p90": 214670
       },
-      "employment": 1693800,
-      "employmentYear": "2024",
-      "jobOutlookPct": 15.8,
+      "employment": 1717800,
+      "employmentYear": "2025",
+      "jobOutlookPct": 10,
       "jobOutlookLabel": "Much faster than average",
-      "employmentChange": 267700,
-      "projectionPeriod": "2024-34",
+      "employmentChange": 174700,
+      "projectionPeriod": "2025-35",
       "entryEducation": "Bachelor's degree",
       "industryWages": [
         {
           "industry": "Software publishers",
-          "annualWage": 149990
+          "annualWage": 164550
         },
         {
           "industry": "Manufacturing",
-          "annualWage": 134910
+          "annualWage": 136330
         },
         {
           "industry": "Management of companies and enterprises",
-          "annualWage": 133650
+          "annualWage": 135680
         },
         {
           "industry": "Finance and insurance",
-          "annualWage": 132880
+          "annualWage": 135460
         },
         {
           "industry": "Computer systems design and related services",
-          "annualWage": 129890
+          "annualWage": 132050
         }
       ],
-      "dataYear": "May 2024",
+      "dataYear": "May 2025",
       "sourceLabel": "BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers",
       "sourceUrl": "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm",
-      "publishedDate": "2025-08-28"
+      "publishedDate": "2026-08-27"
     },
     "27-3092": {
       "title": "Court Reporters and Simultaneous Captioners",

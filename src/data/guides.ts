@@ -785,6 +785,7 @@ export const guides: Guide[] = [
 					'Flight attendant is one of the few well-paying occupations that typically requires only a high school diploma or equivalent to enter, per BLS. That makes the size of its pay range notable: the bottom 10% of flight attendants earned less than $35,110 in May 2025, while the top 10% earned more than $136,430, over a $100,000 spread within a single occupation that has a low formal education barrier to entry.',
 					'The explanation is seniority. Nearly all major U.S. airlines pay flight attendants under union contracts with seniority-based pay scales, where hourly rates increase substantially with years of service, and senior flight attendants get priority for the most desirable (and often highest-paying, due to international or long-haul premiums) routes and aircraft. A first-year flight attendant at a regional carrier and a 20-year flight attendant at a major international carrier are, in effect, in very different pay tiers despite sharing a job title.',
 					"The BLS Occupational Outlook Handbook profile gives the 10th and 90th percentile thresholds for this occupation; separate OEWS tables also publish the 25th and 75th percentiles. U.S. News's flight attendant salary page, drawing on the prior year's BLS survey (its reported 2024 median of $67,130 matched that year's BLS figure exactly, before BLS's May 2025 update brought the median down to $63,580), put the 25th percentile at $52,280 and the 75th at $98,160. Those aren't re-verified against the newer BLS release, so treat them as a rough middle-half check on the extremes rather than a current figure: most flight attendants land well inside the full 10th-to-90th spread, and the largest jumps in pay tend to arrive later in a career, once seniority pushes someone past the middle of the range.",
+					"This site's guide to [why software engineers make so much](/why-do-software-engineers-make-so-much/) covers a different shape of the same question: software development, where BLS names no license or exam and the bottom tenth of pay, $82,460, already clears the $50,980 median for all U.S. occupations.",
 				],
 			},
 			{
@@ -3282,11 +3283,11 @@ export const guides: Guide[] = [
 		slug: 'how-to-become-a-software-engineer',
 		category: 'How to Become',
 		title: 'How to Become a Software Engineer: Degree, Path, and Pay',
-		description: 'BLS calls the job "software developer" and typically requires a bachelor\'s degree, no license. Median pay is $133,080 a year, per May 2024 data.',
+		description: 'BLS calls the job "software developer" and typically requires a bachelor\'s degree, no license. Median pay is $135,980 a year, per May 2025 data.',
 		published: '2026-08-22',
-		updated: '2026-08-22',
+		updated: '2026-10-12',
 		socCode: '15-1252',
-		coreSummary: 'Per the U.S. Bureau of Labor Statistics, software developers (SOC 15-1252), the occupation code covering most jobs titled "software engineer," typically need a bachelor\'s degree in computer and information technology or a related field, and some employers prefer a master\'s degree. BLS names no state license or standardized certification exam for the role. BLS reports a median annual wage of $133,080 in May 2024, with the bottom 10% earning less than $79,850 and the top 10% earning more than $211,450.',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, software developers (SOC 15-1252), the occupation code covering most jobs titled "software engineer," typically need a bachelor\'s degree in computer and information technology or a related field, and some employers prefer a master\'s degree. BLS names no state license or standardized certification exam for the role. BLS reports a median annual wage of $135,980 in May 2025, with the bottom 10% earning less than $82,460 and the top 10% earning more than $214,670.',
 		sections: [
 			{
 				heading: 'What BLS calls the job, and the degree it says you need',
@@ -3297,28 +3298,28 @@ export const guides: Guide[] = [
 				],
 				image: {
 					src: '/images/software-developer-education-path.svg',
-					alt: "Diagram showing the path to becoming a software developer: a 4-year bachelor's degree in computer and information technology or a related field, internship or portfolio work during school, no state license or standardized exam, and ongoing skill upkeep, leading to a working software developer earning a median of $133,080 a year per BLS.",
+					alt: "Diagram showing the path to becoming a software developer: a 4-year bachelor's degree in computer and information technology or a related field, internship or portfolio work during school, no state license or standardized exam, and ongoing skill upkeep, leading to a working software developer earning a median of $135,980 a year per BLS.",
 				},
 			},
 			{
 				heading: 'The median pay, and which BLS number actually applies',
 				body: [
-					'This occupation\'s Handbook page has two different headline pay figures, and only one belongs to software developers specifically. The page\'s Quick Facts box lists "$131,450 per year, $63.20 per hour" as the 2024 median pay, but that figure covers the combined group of software developers and software quality assurance analysts and testers together. The Pay section further down breaks the median out by occupation: $133,080 for software developers in May 2024, and separately $102,610 for software quality assurance analysts and testers, the paired occupation this page does not otherwise track.',
-					"BLS also breaks the percentile range out by occupation, not just for the combined group. For software developers, the bottom 10% earned less than $79,850 and the top 10% earned more than $211,450 in May 2024, a spread of more than $131,000 between the two ends BLS publishes. For comparison, software quality assurance analysts and testers ran from under $60,690 to over $166,960 in the same survey, a lower band across the board. BLS does not publish an hourly wage specific to software developers alone; the $63.20 figure in the Quick Facts box is the combined-group number, so this page reports only the annual figures BLS actually breaks out by occupation.",
+					'This occupation\'s Handbook page has two different headline pay figures, and only one belongs to software developers specifically. The page\'s Quick Facts box lists "$134,040 per year, $64.44 per hour" as the 2025 median pay, but that figure covers the combined group of software developers and software quality assurance analysts and testers together. The Pay section further down breaks the median out by occupation: $135,980 for software developers in May 2025, and separately $104,300 for software quality assurance analysts and testers, the paired occupation this page does not otherwise track.',
+					"BLS also breaks the percentile range out by occupation, not just for the combined group. For software developers, the bottom 10% earned less than $82,460 and the top 10% earned more than $214,670 in May 2025, a spread of more than $132,000 between the two ends BLS publishes. For comparison, software quality assurance analysts and testers ran from under $61,440 to over $167,010 in the same survey, a lower band across the board. The OOH page publishes no hourly wage specific to software developers alone; the $64.44 figure in the Quick Facts box is the combined-group number, so this page reports only the annual figures BLS actually breaks out by occupation.",
 				],
 			},
 			{
 				heading: 'Where the highest-paying industries are',
 				body: [
-					'BLS breaks out May 2024 median pay for software developers across five industry categories. Software publishers, companies that develop and sell software as their core product, paid the highest median at $149,990. Manufacturing followed at $134,910, then management of companies and enterprises at $133,650, and finance and insurance at $132,880. Computer systems design and related services, the industry BLS names first among where software developers typically work and generally the largest single employer of the occupation, paid the lowest of the five tracked industries at $129,890.',
+					'BLS breaks out May 2025 median pay for software developers across five industry categories. Software publishers, companies that develop and sell software as their core product, paid the highest median at $164,550. Manufacturing followed at $136,330, then management of companies and enterprises at $135,680, and finance and insurance at $135,460. Computer systems design and related services, the industry BLS names first among where software developers typically work and generally the largest single employer of the occupation, paid the lowest of the five tracked industries at $132,050.',
 					"A milder version of that pattern shows up elsewhere on this site: for [chefs and head cooks](/chef-salary/), food services and drinking places, their largest employer, pays less than smaller segments like traveler accommodation, though healthcare and social assistance is lower still among the four industries BLS lists. BLS's industry breakdown describes where the pay is higher or lower; it does not explain why the biggest employer in a field is rarely also the highest payer, and this page does not assert a cause beyond what BLS itself reports.",
 				],
 			},
 			{
 				heading: 'Job outlook, and how it splits from the paired QA role',
 				body: [
-					"BLS's Occupational Outlook Handbook narrative quotes a single combined growth rate, 15% from 2024 to 2034, for software developers and software quality assurance analysts and testers together, with about 129,200 combined openings projected each year. The BLS Employment Projections program's National Employment Matrix, the underlying data table the Handbook narrative draws from, breaks that combined figure out by SOC code: software developers specifically are projected to grow 15.8%, from about 1,693,800 workers in 2024 to about 1,961,400 by 2034, an increase of roughly 267,700 jobs. Software quality assurance analysts and testers, the smaller paired occupation, are projected to grow more slowly, 10%, adding about 20,200 jobs to a much smaller 2024 base of roughly 201,700. A BLS Economics Daily article on AI and technology employment independently reports the same 15.8% and roughly 267,700-job figures for software developers, citing continued demand for software applications, cybersecurity, and AI-related tools as drivers.",
-					"Measured against other occupations this site tracks, the software developer median of $133,080 sits above [actuaries](/actuary-salary/) at $125,770, an occupation whose wide pay spread the actuary guide traces to a multi-year, exam-based credentialing system, and further above [accountants](/how-to-become-an-accountant/) at $81,680, where a bachelor's degree is the entry point but a separate CPA license, involving a state board and 150 total semester hours in most states, can follow. Software developers sit at the top of that specific comparison while being the only one of the three BLS describes with no state license or standardized professional exam named anywhere in its occupational profile. BLS's data describes what each occupation pays and what it typically requires; it does not explain why the field with the fewest formal gatekeeping requirements among these three also pays the most, and this page reports the pattern rather than asserting a cause.",
+					"BLS's Occupational Outlook Handbook narrative quotes a single combined growth rate, 10% from 2025 to 2035, for software developers and software quality assurance analysts and testers together, with about 106,100 combined openings projected each year. The Employment Projections table on that same Handbook page breaks the combined figure out by SOC code: software developers specifically are projected to grow 10%, from about 1,717,800 workers in 2025 to about 1,892,600 by 2035, an increase of roughly 174,700 jobs. Software quality assurance analysts and testers, the smaller paired occupation, are projected to grow more slowly, 6%, adding about 10,600 jobs to a much smaller 2025 base of roughly 187,600. BLS labels the combined group's outlook \"much faster than average.\"",
+					"Measured against other occupations this site tracks, the software developer median of $135,980 (May 2025 series) sits above [actuaries](/actuary-salary/) at $125,770 (May 2024 series, not yet refreshed), an occupation whose wide pay spread the actuary guide traces to a multi-year, exam-based credentialing system, and further above [accountants](/how-to-become-an-accountant/) at $81,680 (May 2024 series), where a bachelor's degree is the entry point but a separate CPA license, involving a state board and 150 total semester hours in most states, can follow. Software developers sit at the top of that specific comparison while being the only one of the three BLS describes with no state license or standardized professional exam named anywhere in its occupational profile. BLS's data describes what each occupation pays and what it typically requires; it does not explain why the field with the fewest formal gatekeeping requirements among these three also pays the most, and this page reports the pattern rather than asserting a cause.",
 				],
 			},
 		],
@@ -3337,25 +3338,23 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'How much do software developers make?',
-				answer: 'Median pay came to $133,080 a year in May 2024, according to BLS, with the range running from under $79,850 at the bottom 10% to over $211,450 at the top 10%. By industry, firms that publish software led at $149,990, while the computer-systems-design industry, which employs the biggest share of developers, paid the least of the five it reports, at $129,890.',
+				answer: 'Median pay came to $135,980 a year in May 2025, according to BLS, with the range running from under $82,460 at the bottom 10% to over $214,670 at the top 10%. By industry, firms that publish software led at $164,550, while the computer-systems-design industry, which employs the biggest share of developers, paid the least of the five it reports, at $132,050.',
 			},
 			{
 				question: 'Is software development a growing career?',
-				answer: "Yes, according to BLS's occupation-level projections table, which splits the Handbook's combined 15% growth figure by job. For developers alone the projection is 15.8% growth over the 2024-2034 decade, adding an estimated 267,700 jobs to the roughly 1,693,800 already working in 2024, both figures BLS itself classifies as much faster than the roughly 3% average projected across all occupations.",
+				answer: "Yes, according to the occupation-level projections table on BLS's Handbook page, which splits the combined 10% growth figure by job. For developers alone the projection is 10% growth over the 2025-2035 decade, adding an estimated 174,700 jobs to the roughly 1,717,800 already working in 2025, a rate BLS itself classifies as much faster than the average projected across all occupations.",
 			},
 			{
 				question: 'Can software developers make $300,000 a year?',
-				answer: 'BLS\'s own wage data tops out below that figure: the top-paid tenth of developers made over $211,450 as of May 2024, the top percentile BLS reports for the occupation. BLS\'s Occupational Employment and Wage Statistics survey measures cash wages reported by employers; it does not capture total compensation packages that include equity or stock awards, which some large technology employers add on top of base pay and which are not reflected in this figure.',
+				answer: 'BLS\'s own wage data tops out below that figure: the top-paid tenth of developers made over $214,670 as of May 2025, the top percentile BLS reports for the occupation. BLS\'s Occupational Employment and Wage Statistics survey measures cash wages reported by employers; it does not capture total compensation packages that include equity or stock awards, which some large technology employers add on top of base pay and which are not reflected in this figure.',
 			},
 		],
 		sources: [
-			{ label: 'BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers (accessed 2026-08-22 via direct fetch with a UA string carrying a declared contact URL, returned 200, data from May 2024)', url: 'https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm' },
-			{ label: 'BLS Employment Projections: National Employment Matrix, Table 1.2, Occupational Projections 2024-2034 (occupation.xlsx, breaks the combined Handbook growth figure out by SOC code)', url: 'https://www.bls.gov/emp/tables/occupational-projections-and-characteristics.htm' },
-			{ label: 'BLS The Economics Daily: Artificial intelligence, information technology, and employment, 2024-34 (independent corroboration of the 15.8% growth and 267,700-job figures for software developers)', url: 'https://www.bls.gov/opub/ted/2026/artificial-intelligence-information-technology-and-employment-2024-34.htm' },
+			{ label: 'BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers (re-verified 2026-10-12 against the page as last modified 2026-08-27; wage and employment figures from May 2025, growth figures from the Employment Projections table on the same page)', url: 'https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm' },
 			{ label: 'O*NET OnLine: 15-1252.00 Software Developers, sample reported job titles including Software Engineer (title cross-check)', url: 'https://www.onetonline.org/link/summary/15-1252.00' },
 		],
 		image: '/images/software-developer-education-path.svg',
-		imageAlt: "Diagram showing the path to becoming a software developer: a 4-year bachelor's degree in computer and information technology or a related field, internship or portfolio work during school, no state license or standardized exam, and ongoing skill upkeep, leading to a working software developer earning a median of $133,080 a year per BLS.",
+		imageAlt: "Diagram showing the path to becoming a software developer: a 4-year bachelor's degree in computer and information technology or a related field, internship or portfolio work during school, no state license or standardized exam, and ongoing skill upkeep, leading to a working software developer earning a median of $135,980 a year per BLS.",
 	},
 	{
 		slug: 'what-does-a-controller-do',
@@ -6682,6 +6681,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 					"Welders had a May 2025 median of $53,750, only $920 above the sales agent figure (see [welder salary](/welder-salary/)). The difference is in the ends. The welder 10th percentile was $39,240, which is $6,270 above the agent floor, while the sales agent 90th percentile was $46,060 above the welder top.",
 					"Massage therapists had a $58,450 median, a $33,640 10th percentile, and a $100,200 90th percentile ([massage therapist salary](/massage-therapist-salary/)). The floor is nearly the same as the agent floor, but the sales agent 90th percentile is $23,390 higher.",
 					"By industry, BLS lists median sales agent pay of $56,310 in construction and $49,850 in real estate and rental and leasing. That is a $6,460 gap. BLS gives no separate wage for the self-employed.",
+					'A field at the far end of the same question is software development, where the BLS median of $135,980 runs about 2.6 times the sales agent figure; this site\'s guide to [why software engineers make so much](/why-do-software-engineers-make-so-much/) sets out what that gap does and does not measure.',
 				],
 			},
 			{
@@ -6719,5 +6719,97 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		],
 		image: '/images/real-estate-agent-salary-chart.svg',
 		imageAlt: 'Bar chart showing real estate sales agent annual wage by percentile: 10th percentile $32,970, median $52,830, 90th percentile $123,590, based on BLS May 2025 data.',
+	},
+	{
+		slug: 'why-do-software-engineers-make-so-much',
+		category: 'Salary Guide',
+		title: 'Why Do Software Engineers Make So Much? BLS Data',
+		description: 'The BLS software developer median is $135,980, about 2.7 times the all-jobs median. The pay range and the best-paying industries, plus what the official figures leave out.',
+		published: '2026-10-12',
+		updated: '2026-10-12',
+		socCode: '15-1252',
+		coreSummary: 'Why do software engineers make so much? By BLS figures the gap is large and wide: the May 2025 median for software developers was $135,980 a year, about 2.7 times the $50,980 median across all US occupations, while the lowest-paid 10% earned less than $82,460 and the top 10% earned more than $214,670.',
+		sections: [
+			{
+				heading: 'How much more than the typical worker?',
+				body: [
+					'BLS files this work under the title software developers, SOC code 15-1252. Its May 2025 median annual wage was $135,980. The median across all U.S. occupations in the same survey was $50,980, so the typical software developer earned about 2.7 times the typical worker. Against the broader computer occupations group, whose median was $109,470, the developer figure is about 24% higher.',
+					"The occupation boundary matters when reading that number. The BLS Handbook page that carries 15-1252 also carries a second code, software quality assurance analysts and testers (15-1253), whose May 2025 median was $104,300. The page's Quick Facts box shows one combined figure for both codes, $134,040 a year and $64.44 an hour. The $135,980 median is the developer-only figure from the Pay section, and the page carries no developer-only hourly figure.",
+					'The page splits the two codes on employment as well: software developers held about 1,717,800 jobs in 2025 and the QA analysts and testers about 187,600, out of roughly 1,905,400 for the combined group.',
+					"A posting titled software engineer and one titled software developer usually describe the same occupation. O*NET, the Labor Department's job-title database, lists Software Engineer among the sample reported job titles filed under 15-1252.00, next to Software Architect, Application Developer, and DevOps Engineer.",
+				],
+			},
+			{
+				heading: 'The pay range above and below the median',
+				body: [
+					'BLS reports the ends of the distribution along with the midpoint. The lowest-paid 10% of software developers earned less than $82,460 in May 2025, and the highest-paid 10% earned more than $214,670. The gap between those two published boundaries is $132,210, and the top boundary is about 2.6 times the bottom one.',
+					'The bottom boundary sits well above the national midpoint. At $82,460, the 10th-percentile developer wage is about 1.6 times the $50,980 median for all occupations, so the lowest-paid tenth of developers still out-earns the typical US worker by a wide margin. On this occupation the low end of the pay scale is not close to the low end of the labor market.',
+					'The published spread is wide enough that the middle of the occupation sits closer to the bottom boundary than to the top: the median is $53,520 above the 10th-percentile line and $78,690 below the 90th.',
+					'BLS does not break developer pay out by years of experience, company size, or job title inside the code. The percentile range is the official picture of how pay spreads across the occupation, and it is the only spread BLS publishes for it.',
+				],
+				image: {
+					src: '/images/software-developer-salary-chart.svg',
+					alt: 'Bar chart showing software developer annual wage by percentile: 10th percentile $82,460, median $135,980, 90th percentile $214,670, based on BLS May 2025 data.',
+				},
+			},
+			{
+				heading: 'The industries that pay most, and the one that hires most',
+				body: [
+					'BLS lists median pay for five industries. Software publishers, the firms whose product is the software itself, paid the highest at $164,550. Manufacturing followed at $136,330, management of companies and enterprises at $135,680, and finance and insurance at $135,460. Computer systems design and related services paid the lowest of the five, at $132,050. The spread between the top and bottom of that list is $32,500, or about 25%.',
+					'The employer counts run the other way. Computer systems design and related services employs about 29% of software developers, finance and insurance 11%, software publishers 10%, manufacturing 8%, and management of companies and enterprises 6%. The industry that pays the least of the five is also the one that employs the most developers, by roughly 2.6 to one over the next largest.',
+					'BLS publishes the pay levels and the employment shares as separate lists and does not connect them. The pairing describes where the jobs sit and where the money sits; it does not establish that working in one industry rather than another causes the difference in median pay.',
+				],
+			},
+			{
+				heading: 'What the wage figures leave out',
+				body: [
+					'These numbers come from the Occupational Employment and Wage Statistics program, which surveys employers. Its published definitions count production bonuses in the wage total and exclude stock bonuses, non-production bonuses, and overtime pay. That distinction matters in a field where some large employers pay a substantial share of compensation in equity, because none of that equity appears in the $135,980 median or anywhere else on the BLS page.',
+					'The $214,670 figure is the highest boundary BLS publishes for this occupation. It is a floor for the top decile, not a ceiling. BLS reports that the top 10% earned more than that amount and does not say by how much, so the series cannot confirm or rule out any specific figure above it.',
+					'The combined developer and QA figure carries the only hourly wage on the page, $64.44. Applying that rate to developers alone would produce a number BLS does not publish, so this page reports only the annual figures BLS breaks out by occupation.',
+				],
+			},
+			{
+				heading: 'Does the data explain why?',
+				body: [
+					'The figures above measure how pay is distributed. They do not identify why it sits where it does, and BLS publishes no causal figure for the gap.',
+					"One piece of research points at a mechanism. A paper posted to the Federal Reserve Bank of San Francisco's EmergingTech Economic Research Network in April 2025 by Jacob Herbstman, Jack Mannion, and Gustavo De Souza studies a new dataset of Brazilian programmers. It finds that high-ability, high-wage, and highly educated people in key technology hubs are more likely to become programmers in the first place, and that the wage gains from creating software are concentrated among top programmers. The sample is Brazilian, so the paper's magnitudes are not a US pay premium, and it does not put a figure on how much of the US gap comes from selection into the profession as opposed to demand for it.",
+					'That leaves the common explanation, that demand for software skills outpaces supply, as a plausible mechanism these sources do not measure. What BLS establishes is the size and shape of the gap. What it does not establish is how much of the gap any single cause accounts for.',
+				],
+			},
+			{
+				heading: 'How the developer figure compares with other occupations on this site',
+				body: [
+					'Against other occupations this site tracks, $135,980 puts software developers near the top of the fields whose BLS profile names no license or standardized exam. Actuaries had a median of $125,770 and accountants $81,680, though both of those figures come from the May 2024 survey and have not been refreshed to the May 2025 series (see [actuary salary](/actuary-salary/) and [how to become an accountant](/how-to-become-an-accountant/)).',
+					"For the entry path itself, the degree and licensing picture sits on this site's guide to [becoming a software engineer](/how-to-become-a-software-engineer/), which covers what BLS says about the bachelor's degree and the absence of a license requirement.",
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'How much do software engineers make?',
+				answer: 'BLS put the May 2025 midpoint at $135,980 a year. The bottom tenth earned under $82,460, and the top tenth earned over $214,670. Set against the $50,980 figure for every US occupation, the developer number runs about 2.7 times higher.',
+			},
+			{
+				question: 'Do engineers typically earn $300,000 a year?',
+				answer: 'The BLS series does not show that. The top figure it publishes is the 90th-percentile boundary, above $214,670, and the survey counts cash wages reported by employers, so awards of stock and other equity are excluded. A $300,000 figure sits above anything in the series.',
+			},
+			{
+				question: 'Why is engineering so high paying?',
+				answer: 'BLS reports what each occupation pays, not why. Its wage tables show a wide spread and a 10th percentile that clears the national median, but the official series contains no causal breakdown.',
+			},
+			{
+				question: 'Does the software developer median include stock or equity pay?',
+				answer: 'No. The survey measures wages as employers report them, and its definitions leave out stock awards, overtime and bonuses that are not tied to production. Equity-heavy offers therefore do not show up in the $135,980 figure.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers (re-verified 2026-10-12 against the page as last modified August 27, 2026; wage, percentile, comparison-table, employment and industry-share figures from May 2025, growth figures from the 2025-35 projections table on the same page)', url: 'https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm' },
+			{ label: 'BLS Occupational Employment and Wage Statistics: pay terms (production bonuses included; stock bonuses, non-production bonuses and overtime excluded)', url: 'https://www.bls.gov/respondents/oes/payterms.htm' },
+			{ label: 'BLS Occupational Employment and Wage Statistics: earnings and wages (what the survey measures and what it does not)', url: 'https://www.bls.gov/oes/earnings.htm' },
+			{ label: 'Federal Reserve Bank of San Francisco, EmergingTech Economic Research Network: How Demand for New Skills Affects Wage Inequality: The Case of Software Programmers (Herbstman, Mannion and De Souza, posted April 8, 2025; Brazilian programmer data)', url: 'https://www.frbsf.org/research-and-insights/publications/system-research-chicago-fed/2025/04/how-demand-for-new-skills-affects-wage-inequality-the-case-of-software-programmers/' },
+			{ label: 'O*NET OnLine: 15-1252.00 Software Developers, sample reported job titles including Software Engineer (title cross-check)', url: 'https://www.onetonline.org/link/summary/15-1252.00' },
+		],
+		image: '/images/software-developer-salary-chart.svg',
+		imageAlt: 'Bar chart showing software developer annual wage by percentile: 10th percentile $82,460, median $135,980, 90th percentile $214,670, based on BLS May 2025 data.',
 	},
 ];
