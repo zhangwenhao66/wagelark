@@ -3287,12 +3287,12 @@ export const guides: Guide[] = [
 		published: '2026-08-22',
 		updated: '2026-10-12',
 		socCode: '15-1252',
-		coreSummary: 'Per the U.S. Bureau of Labor Statistics, software developers (SOC 15-1252), the occupation code covering most jobs titled "software engineer," typically need a bachelor\'s degree in computer and information technology or a related field, and some employers prefer a master\'s degree. BLS names no state license or standardized certification exam for the role. BLS reports a median annual wage of $135,980 in May 2025, with the bottom 10% earning less than $82,460 and the top 10% earning more than $214,670.',
+		coreSummary: 'Per the U.S. Bureau of Labor Statistics, software developers (SOC 15-1252) typically need a bachelor\'s degree in computer and information technology or a related field, and some employers prefer a master\'s degree. O*NET lists "Software Engineer" among example titles under this code. BLS names no state license or standardized certification exam for the role. BLS reports a median annual wage of $135,980 in May 2025, with the bottom 10% earning less than $82,460 and the top 10% earning more than $214,670.',
 		sections: [
 			{
 				heading: 'What BLS calls the job, and the degree it says you need',
 				body: [
-					'BLS tracks this work under the title "software developers," SOC code 15-1252, inside a Handbook page that bundles the narrative with a second, related occupation, software quality assurance analysts and testers, SOC 15-1253. The two are distinct codes with separate pay and growth figures, covered separately below. O*NET, the Department of Labor database that maps job titles to SOC codes, lists the sample reported job titles for 15-1252.00 as including Software Engineer, Software Architect, Application Developer, DevOps Engineer, and Systems Engineer alongside Software Developer itself, so a posting titled "software engineer" and one titled "software developer" are typically the same BLS occupation, not two different ones.',
+				'BLS tracks this work under the title "software developers," SOC code 15-1252, inside a Handbook page that bundles its narrative with the related occupation, software quality assurance analysts and testers, SOC 15-1253. The two have distinct codes and separate pay and growth figures, covered below. O*NET lists Software Engineer among the sample reported titles for 15-1252.00, alongside Software Architect, Application Developer, DevOps Engineer and Systems Engineer. The listing shows that some engineering titles sit in this code; it does not establish how common the title is or whether every role has identical duties.',
 					"Per BLS, software developers typically need a bachelor's degree in computer and information technology or a related field, such as engineering or mathematics, and some employers prefer a master's degree specifically for developer roles. Students often gain experience through an internship, such as at a software company, while still in school. Beyond that degree, BLS names no required license, no standardized entry exam, and no certification, a different entry model from several licensed or exam-gated fields this site covers, such as [accountants](/how-to-become-an-accountant/), where a CPA license involves a state board and a separate professional exam, or [actuaries](/actuary-salary/), where advancement runs on a multi-year, multi-exam credentialing system.",
 					"BLS names six qualities it considers important for this line of work: analytical skills, to evaluate what users need and design software that meets it; communication skills, to explain both problems and solutions to teammates and to nontechnical users such as customers; creativity, to design and improve software in ways that solve new problems; detail orientation, since developers often track many parts of an application at once while watching for user-error risks; interpersonal skills, to work well with the other people involved in designing, programming, and testing a piece of software; and problem-solving skills, since developers see a project through from start to finish and do not hand off a narrow piece of it. On advancement, BLS states that software developers can move into project management or into computer and information systems management, roles where they oversee the software development process without writing the code directly, a path BLS describes without naming any additional credential required to make that move.",
 				],
@@ -3326,15 +3326,15 @@ export const guides: Guide[] = [
 		faq: [
 			{
 				question: 'How long does it take to become a software developer?',
-				answer: "Per BLS, the typical entry path is four years of college studying computing or an adjacent subject, which matches most degree-entry jobs. Unlike some licensed trades and professions, BLS names no licensing step, exam, or certification period after the degree, so there is no extra multi-year credentialing stage built into the typical path the way there is for, say, a CPA license or an actuarial exam series.",
+				answer: "The Handbook describes a related bachelor's program as typical preparation. Program lengths vary, and it leaves the time needed for an individual route unspecified. It lists no certification or license after graduation.",
 			},
 			{
 				question: 'Do you need a coding bootcamp or certification to become a software developer?',
-				answer: "The BLS profile for this role names a four-year degree as the requirement and says only that a master's is favored by certain employers when hiring developers. It does not list a bootcamp, certification, or any other credential as a requirement. This page reports what BLS states as the typical path; it does not evaluate whether a bootcamp or certification helps in practice; that is outside the scope of the data this site tracks.",
+				answer: "The occupation page does not identify a bootcamp or certificate as a required qualification. Some employers favor postgraduate study, but the entry guidance centers on a related undergraduate degree. This article does not assess whether alternative training helps in practice.",
 			},
 			{
 				question: 'Is a software engineer the same thing as a software developer?',
-				answer: 'Per O*NET, the Labor Department\'s job-title database, the title Software Engineer appears among the example titles filed under SOC 15-1252.00, the code BLS applies to this whole occupation, next to titles like Software Architect and DevOps Engineer. The two titles describe the same underlying occupation in BLS and O*NET\'s own classification, not two separate ones.',
+				answer: "O*NET’s sample title list associates code 15-1252.00 with this role. The code association does not measure how often employers use the title or whether duties are uniform.",
 			},
 			{
 				question: 'How much do software developers make?',
@@ -3342,11 +3342,11 @@ export const guides: Guide[] = [
 			},
 			{
 				question: 'Is software development a growing career?',
-				answer: "Yes, according to the occupation-level projections table on BLS's Handbook page, which splits the combined 10% growth figure by job. For developers alone the projection is 10% growth over the 2025-2035 decade, adding an estimated 174,700 jobs to the roughly 1,717,800 already working in 2025, a rate BLS itself classifies as much faster than the average projected across all occupations.",
+				answer: "Yes. BLS expects developers to add about 174,700 jobs over the next decade. The agency places that rate in its fastest growth category.",
 			},
 			{
 				question: 'Can software developers make $300,000 a year?',
-				answer: 'BLS\'s own wage data tops out below that figure: the top-paid tenth of developers made over $214,670 as of May 2025, the top percentile BLS reports for the occupation. BLS\'s Occupational Employment and Wage Statistics survey measures cash wages reported by employers; it does not capture total compensation packages that include equity or stock awards, which some large technology employers add on top of base pay and which are not reflected in this figure.',
+				answer: "The published data provides percentile cutoffs rather than a ceiling. It therefore cannot establish whether $300,000 is typical or how many workers earn it. The survey measures wages and leaves stock awards and other equity out of total compensation.",
 			},
 		],
 		sources: [
@@ -6703,7 +6703,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Is it hard to make money being a realtor?',
-				answer: 'It can be, early on. BLS warns that beginners often see irregular earnings, and that income tends to rise with experience. The May 2025 spread shows the stakes: the lowest-paid tenth of sales agents took home under $32,970 and the top tenth over $123,590.',
+				answer: "BLS places the bottom decile below $32,970 and the top decile above $123,590. These are gross wages before taxes and business expenses, not take-home amounts.",
 			},
 			{
 				question: 'How much does a real estate agent make on a $300,000 house?',
@@ -6791,7 +6791,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			},
 			{
 				question: 'Do engineers typically earn $300,000 a year?',
-				answer: 'The BLS series does not show that. The top figure it publishes is the 90th-percentile boundary, above $214,670, and the survey counts cash wages reported by employers, so awards of stock and other equity are excluded. A $300,000 figure sits above anything in the series.',
+				answer: 'The BLS series does not show that. The top figure it publishes is the 90th-percentile boundary, above $214,670, and the survey counts cash wages reported by employers, so awards of stock and other equity are excluded. That percentile boundary is not a maximum, so this figure alone cannot establish whether $300,000 is typical or how many developers earn it.',
 			},
 			{
 				question: 'Why is engineering so high paying?',
