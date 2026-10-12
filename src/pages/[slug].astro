@@ -6,7 +6,7 @@ import FAQPage from '../../vendor/site-toolkit/packages/schema/src/FAQPage.astro
 import Dataset from '../../vendor/site-toolkit/packages/schema/src/Dataset.astro';
 import { pickRelatedGuides } from '../../vendor/site-toolkit/packages/related-guides/src/index.ts';
 import { guides, wageDataFor, type Guide } from '../data/guides';
-import { AUTHOR_NAME, SITE_ORIGIN } from '../consts';
+import { AUTHOR_NAME, SITE_ORIGIN, SITE_TITLE } from '../consts';
 import SalaryPercentileTool from '../components/SalaryPercentileTool.astro';
 import StateWageTable from '../components/StateWageTable.astro';
 import FeedbackCard from '../components/FeedbackCard.astro';
@@ -157,6 +157,10 @@ const heroAvifMobile = (() => {
 		dateModified={toISO(guide.updated)}
 		authorName={AUTHOR_NAME}
 		authorUrl={`${SITE_ORIGIN}/about/`}
+		publisherName={SITE_TITLE}
+		publisherId={`${SITE_ORIGIN}/#organization`}
+		publisherUrl={`${SITE_ORIGIN}/`}
+		publisherLogo={`${SITE_ORIGIN}/logo-512.png`}
 		image={heroImage}
 		imageWidth={imgDims(heroImage)?.w}
 		imageHeight={imgDims(heroImage)?.h}
