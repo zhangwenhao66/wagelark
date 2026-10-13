@@ -7003,7 +7003,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				],
 			},
 			{
-				heading: 'What it costs to get there',
+				heading: 'The cost side of the ledger',
 				body: [
 					'The credential is a doctoral or professional degree. BLS says veterinarians must hold a Doctor of Veterinary Medicine from an accredited veterinary college and a state license, and it lists no on-the-job training for the occupation. That is the cost side of the question, and BLS does not measure it.',
 					'The American Veterinary Medical Association does. Its survey of the class of 2026, presented in October 2026, found average debt from earning a veterinary degree of $185,424 across all graduates, including the ones who finished with none. Among graduates who did carry veterinary-school debt, the average was $227,588. About 18.5% of the class graduated with no veterinary-school debt, while 43.3% owed $200,000 or more and 7.9% owed $400,000 or more.',
