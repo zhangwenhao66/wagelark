@@ -6900,7 +6900,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		slug: 'do-farmers-make-good-money',
 		category: 'Salary Guide',
 		title: 'Do Farmers Make Good Money? Wages vs Farm Income',
-		description: 'BLS puts the median wage for farmers, ranchers and agricultural managers at $89,900. But that survey excludes the self-employed, who BLS counts as 67% of the occupation.',
+		description: 'BLS puts the median wage for farmers and farm managers at $89,900. But that survey leaves out the self-employed, who BLS counts as 67% of the occupation.',
 		published: '2026-10-13',
 		updated: '2026-10-13',
 		socCode: '11-9013',
