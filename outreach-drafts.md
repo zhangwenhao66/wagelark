@@ -1103,3 +1103,25 @@ On September 29, 2026, WageLark <contact@wagelark.com> wrote:
 > Thanks for keeping the guide up to date.
 >
 > Owen
+
+## 2026-10-13 — Santa Clara University Career Center (careercenter@scu.edu) — salary-statistics-2026 distribution
+
+To: careercenter@scu.edu
+From: contact@wagelark.com
+Subject: A national wage baseline for your Salaries and Job Offers page
+Status: SENT (2026-10-13) — independent review 可以发送; Message ID 1a133dc76f477110; From header verified WageLark <contact@wagelark.com>
+
+Hi,
+
+I read the Salaries & Job Offers page on Santa Clara's Career Center site. The sites you list, O*Net OnLine, Glassdoor, the SCU Graduate Outcomes Survey and Angel.co, are each tied to one occupation, company or school.
+
+For a national baseline behind those comparisons, WageLark compiles more than 55 wage figures from government and industry sources including the Bureau of Labor Statistics and the Census Bureau, each linked to the release it came from: https://wagelark.com/salary-statistics-2026/. It covers median weekly earnings, the gender pay ratio, wage growth by industry, and union versus non-union pay.
+
+If it is useful as a reference point for students weighing an offer, feel free to link it.
+
+Owen Zhang
+Publisher, WageLark
+
+**Target**: `scu.edu/careercenter/toolkit/salaries--job-offers/` (HTTP 200). Raw-HTML grep confirms the page lists O*Net OnLine, Glassdoor, the SCU Graduate Outcomes Survey, Angel.co and Educate To Career, and contains no "Bureau of Labor", "BLS", "Census", "national average" or "federal" hits — i.e. no source of aggregate national wage statistics. Contact: careercenter@scu.edu, the Career Center's own general email (published on /careercenter/ and /careercenter/about/), not a single-purpose form.
+
+**Independent review**: CAN SEND. Flagged two non-blocking imprecisions, both corrected before sending (conservative, fact-reducing edits): (1) "Educate To Career" is a general salary calculator, not tied to a single occupation/company/school, so it was dropped from that list; (2) the asset draws on Atlanta Fed, NACE, Robert Half and SSA as well as BLS/Census, so "from the Bureau of Labor Statistics and the Census Bureau" became "from government and industry sources including the Bureau of Labor Statistics and the Census Bureau". The reviewer also noted the page lists 8 sources and the email names 4-5; the email's claim is about the type of source, not an exhaustive list, so no change was needed there.

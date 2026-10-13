@@ -192,3 +192,23 @@ Not re-evaluated — the 8/29 conclusion (not Reddit-ready without a standalone 
 - 新资产0；本轮发送N=0，新增已验证dofollow M=0，不计算0/0成功率。有回执历史累计N=21，原日志已确认M=0，M/N=0%；不声称全量历史链接本轮实时复查。未到累计30触发线。
 - 证据：/Users/zhangwh/.codex/automation-runtime/runs/trafficsite-linkable-asset-building/20261010T1330/receipt.json；现存资产未饱和且今天10号未触发15号兜底，本轮不制造资产；只改业务文档，无网站内容部署。
 - 下一步：UmberLore邮件精确草稿待Owen明确说“发”；其余未获新分发机会的对象保留原日期。共享work_journal保存本轮结果，不更新作战数据台。
+
+## 2026-10-13 — distribution pass (capacity-concentration rule)
+
+**Site selection**: recomputed 28-day 11-30-position impressions across the 7 non-suppressed/non-frozen traffic sites via `gsc_query.py`: wagelark(318) > umberlore(191) ≈ dayalmanac(189) > mythcairn(87) > hollowvane(48) > factcrumbs(33) > warcrumbs(0). WageLark ranks #1 this run. CalcBadger/DialWick compete for the fixed slot (DialWick frozen); LingoGrove excluded (ranking-suppressed).
+
+**Order of work**: distribution only. `salary-statistics-2026` was at 1/10 sent (UVA 9/29), the least-saturated of this site's two assets, so it took priority over `highest-paying-jobs-without-a-degree` (5/10).
+
+**Step 3 (pitch)** — new target: Santa Clara University Career Center's "Salaries & Job Offers" page (`scu.edu/careercenter/toolkit/salaries--job-offers/`, HTTP 200). Raw-HTML grep confirmed it lists O*Net OnLine, Glassdoor, the SCU Graduate Outcomes Survey, Angel.co and Educate To Career, and has zero hits for "Bureau of Labor", "BLS", "Census", "national average" or "federal" — i.e. no source of aggregate national wage statistics, which is the specific gap the pitch names. Contact: careercenter@scu.edu (the Career Center's general email, published on its own pages).
+
+Passed `Skill(humanizer)` then `Skill(avoid-ai-writing)` clean. Independent review agent (fresh instance, checklist only) fetched both live pages and returned **可以发送**, flagging two non-blocking imprecisions that were corrected before sending (dropped "Educate To Career" from the "tied to one occupation/company/school" list; reworded the asset's source claim to "government and industry sources including the Bureau of Labor Statistics and the Census Bureau", since the page also uses Atlanta Fed, NACE, Robert Half and SSA).
+
+**Dedup**: `gmail_send.py list --query "newer_than:14d (to:scu.edu OR from:scu.edu OR to:careercenter)"` → empty; shared ledger → no scu.edu record.
+
+**Sent**: `gmail_send.py send --from wagelark --to careercenter@scu.edu`, Message ID `1a133dc76f477110`, From header verified `WageLark <contact@wagelark.com>`.
+
+**Distribution count**: `salary-statistics-2026` now 2/10 sent (UVA 9/29, SCU 10/13). `highest-paying-jobs-without-a-degree` unchanged at 5/10.
+
+**Step 2 (unlinked-mention recovery)**: WebSearch found one third-party citation of wagelark.com — NursePractitionerOnline.com's adult-gerontology NP program rankings, which cites `wagelark.com/nurse-practitioner-salary/` in its sources list. Fetched the page: the mention is already a live hyperlink (with `rel="nofollow noopener"`), so this is not an unlinked-mention recovery case and no action was taken.
+
+**Step 3.5 / Reddit**: not re-evaluated this pass (time budget went to the pitch).
