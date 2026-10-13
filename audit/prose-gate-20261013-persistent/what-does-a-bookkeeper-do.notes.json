@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：[Insurance underwriters](/what-does-an-insurance-underwriter-do/) also show a projected employment decline, down 3% over the same decade, and BLS attributes that drop to the same underlying force: automated underwriting software reducing the need for people to do the work by hand.；锚文本：Insurance underwriters；目标：what-does-an-insurance-underwriter-do；完整b3目标：'3% employment decline ... 2024 to 2034'及自动underwritingsoftware减少人工；源bookkeeper6%同2024–2034，sameunderlyingforce自动化合理不是同率。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：Against other BLS-tracked occupations this site covers in the same broad field, the bookkeeper median sits well below [accountants and auditors](/how-to-become-an-accountant/) at $81,680, an occupation that typically requires a bachelor's degree, and further still below the $161,700 median BLS reports for [financial managers](/what-does-a-controller-do/), the group that covers controllers and typically requires a bachelor's degree plus years of related experience.；锚文本：accountants and auditors；目标：how-to-become-an-accountant；完整目标：'median annual wage of $81,680 ... May 2024'; 'bachelor's degree ... typically required'; bookkeeper49210同年，差32470。不是CP Auniversallymandatory。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：Against other BLS-tracked occupations this site covers in the same broad field, the bookkeeper median sits well below [accountants and auditors](/how-to-become-an-accountant/) at $81,680, an occupation that typically requires a bachelor's degree, and further still below the $161,700 median BLS reports for [financial managers](/what-does-a-controller-do/), the group that covers controllers and typically requires a bachelor's degree plus years of related experience.；锚文本：financial managers；目标：what-does-a-controller-do；完整b3目标：financialmanagerSOC13-3031 'May2024...$161,700'; entrybachelor+typically5ormoreyearsrelatedexperience，controller属于group，不把groupwage当单独controllertitle。"
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：At the top of that same ladder, [what a CEO does](/what-does-a-ceo-do/) is covered separately, with duties, pay, and job outlook.；锚文本：what a CEO does；目标：what-does-a-ceo-do；完整b3目标dutyhighestmanagement，CEO工资报告与controller/manager不是相同统计组；本句仅独立说明目标有duties/pay/joboutlook，无额外共同薪资、资格推断。"
+  }
+]

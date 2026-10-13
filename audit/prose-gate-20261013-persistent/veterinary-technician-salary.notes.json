@@ -1,0 +1,22 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：One comparison worth naming directly: [radiologic technologists and technicians](/radiology-tech-salary/) also typically enter with an associate\\'s degree and generally obtain a state license or professional certification, yet BLS reports a $77,660 median for that role, about $31,680 more than veterinary technicians earn despite a comparable entry credential.；锚文本：radiologic technologists and technicians；目标：radiology-tech-salary；完整b3目标SOC29-2034，May2024median77660、associate典型入口，moststatesrequirelicensure/certification；已把alsositlicensingexam收窄generallyobtainstateorprofessionalcredential。77660-45980=31680同May2024。不把most写all。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：That gap is wider than the same comparison for [veterinarians](/veterinarian-salary/), where 83% of the workforce works in an industry just $1,770 below the top category, versus the $5,510 gap here.；锚文本：veterinarians；目标：veterinarian-salary；完整本批目标：May2025median130100、83%veterinaryservices、129990vs131760差1770；vtechMay2024 89%45740vs51250差5510。两行业差各自surveyyear，跨职业不是同年comparativepremium；目标injury句仅咬踢抓，与vtech公开最高injuryrate相区别。所有本批引用按修后目标再核。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：Readers comparing veterinary care pay against other associate\\'s-degree or nondegree allied health roles can also see this site\\'s guides to [radiology tech salary](/radiology-tech-salary/) and [medical assistant salary](/medical-assistant-salary/) for two directly comparable BLS-tracked occupations.；锚文本：radiology tech salary；目标：radiology-tech-salary；完整b3目标SOC29-2034，May2024median77660、associate典型入口，moststatesrequirelicensure/certification；已把alsositlicensingexam收窄generallyobtainstateorprofessionalcredential。77660-45980=31680同May2024。不把most写all。"
+  },
+  {
+    "index": 4,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：Readers comparing veterinary care pay against other associate\\'s-degree or nondegree allied health roles can also see this site\\'s guides to [radiology tech salary](/radiology-tech-salary/) and [medical assistant salary](/medical-assistant-salary/) for two directly comparable BLS-tracked occupations.；锚文本：medical assistant salary；目标：medical-assistant-salary；完整目标 'postsecondary nondegree award'；May2025median45690。源vtech45980来自May2024，已经标年份，差290仅跨年所报数值，不是sameperiod或因果。桥接entrycategoryassociateversusnondegree不同，故比较维度是BLS职业工资不能理解同资格。"
+  }
+]

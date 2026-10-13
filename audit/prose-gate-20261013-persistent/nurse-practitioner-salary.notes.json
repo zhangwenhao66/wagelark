@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：That figure sits on the same BLS Occupational Outlook Handbook page as [Certified Registered Nurse Anesthetists (CRNAs)](/crna-salary/) and nurse midwives, titled \"Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners.\" The page does break out a separate median wage for each of the three roles: CRNAs at $223,210 and nurse midwives at $128,790, so the nurse practitioner figure above is specific to this occupation, not a blended average across all three.；锚文本：Certified Registered Nurse Anesthetists (CRNAs)；目标：crna-salary；完整目标May2024median223210，sharedOOHwithNP/midwife，三median分开、combinedpercentiles不分。NPsource129210和midwife128790同May2024，是individualmedian非三者blended。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：That same employer-reported OEWS methodology underlies BLS\\'s numbers for very different fields this site tracks, including the $72,060 median for [forensic science technicians](/forensic-scientist-salary/) in the agency\\'s most recent May 2025 release.；锚文本：forensic science technicians；目标：forensic-scientist-salary；完整目标SOC19-4092、May2025median72060 employerOEWS，与NP同employermethodology但不同year；句仅示例方法不是sameyear工资比较。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：For comparison with an adjacent advanced-practice clinical role that also diagnoses and treats patients under a graduate-level credential, see this site\\'s guide to [what a physician assistant does](/what-does-a-physician-assistant-do/), a role with its own separate BLS wage data and a different, physician-collaborative supervision model in most states.；锚文本：what a physician assistant does；目标：what-does-a-physician-assistant-do；完整b2目标licensedstate、诊断治疗、graduate通常Master，physiciancollaboration规则依州；源NP对照国家角色/州practice差异，不加具体州授权数。"
+  }
+]

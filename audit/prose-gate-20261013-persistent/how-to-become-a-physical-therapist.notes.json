@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：The DPT puts physical therapy in the same doctoral-entry tier BLS uses for [pharmacists](/pharmacist-salary/), whose Doctor of Pharmacy (PharmD) is likewise a professional doctorate.；锚文本：pharmacists；目标：pharmacist-salary；完整b2目标通常doctoralprofessionalPharmD四年（有三年及combined六年例外）；May2025median140910。DPTsamebroaddegreelevel只typicalU.S. route，foreigncredentialing例外现已明。140910-101020=39890/101020=39.49%两year已注。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：By contrast, [physician assistants](/physician-assistant-salary/) and [nurse practitioners](/nurse-practitioner-salary/) typically enter with a master\\'s degree, one credential level below a DPT or PharmD, yet BLS reports higher medians for both roles: $133,260 for physician assistants and $129,210 for nurse practitioners, both May 2024 figures like the physical therapist figure.；锚文本：physician assistants；目标：physician-assistant-salary；本批完整目标May2024median133260，Mastertypical；PT101020sameyear差32240。目标topdecile不是cap的错误已报root，当前bridge只median/typicaleducation准确。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：By contrast, [physician assistants](/physician-assistant-salary/) and [nurse practitioners](/nurse-practitioner-salary/) typically enter with a master\\'s degree, one credential level below a DPT or PharmD, yet BLS reports higher medians for both roles: $133,260 for physician assistants and $129,210 for nurse practitioners, both May 2024 figures like the physical therapist figure.；锚文本：nurse practitioners；目标：nurse-practitioner-salary；本批b5完整目标May2024median129210、typicalMaster、individualNPmediannotcombinednursemedian。PT101020sameyear差28190；不是短degree导致高pay。"
+  }
+]

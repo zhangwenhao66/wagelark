@@ -1,0 +1,716 @@
+{
+  "repository": "wagelark",
+  "data_path": "src/data/guides.ts",
+  "data_sha256": "90873a1ab76b6f1cd85c3d5d024ce3a8410359cf4bcf7496dc42731990b27ccb",
+  "scripts_sha256": {
+    "check_prose_patterns.py": "839e4077688cbf644f8fbab26c27bcc9a18e8e9c508344cda996b1fa23631a37",
+    "check_bridge_sentences.py": "c6cb21d4d00fdfa46c2dd0106f92b2ded62f9bafb365ff46ab6c8b75c622734e"
+  },
+  "expected": 87,
+  "checked": 87,
+  "unexamined": 0,
+  "failed": 0,
+  "candidate_slugs": 49,
+  "candidate_sentences": 90,
+  "manifest_coverage_matches": true,
+  "stale_manifest_slugs": [],
+  "results": [
+    {
+      "slug": "how-do-adjunct-professors-get-paid",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "dental-hygienist-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "actuary-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "pharmacist-salary",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "physical-therapist-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "what-does-a-physician-assistant-do",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "what-does-an-actuary-do",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "what-does-a-paralegal-do",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-an-ultrasound-tech",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-a-phlebotomist",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-much-do-flight-attendants-make",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "radiology-tech-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "crna-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "nurse-practitioner-salary",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "physician-assistant-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "surgical-tech-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "pharmacy-technician-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "dental-assistant-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "medical-assistant-salary",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "air-traffic-controller-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-a-cna",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "respiratory-therapist-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "electrician-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "firefighter-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "plumbing-apprenticeship",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "truck-driver-salary",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "welder-salary",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-to-become-a-paralegal",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-to-become-an-electrician",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-to-become-a-physical-therapist",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-long-is-nursing-school",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-long-does-it-take-to-become-a-lawyer",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "hvac-certification",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-long-does-it-take-to-become-a-dentist",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-a-librarian",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-to-become-a-bartender",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-a-psychologist",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-a-social-worker",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-a-lineman",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-an-accountant",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "chef-salary",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-to-become-a-software-engineer",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "what-does-a-controller-do",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-a-court-reporter",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "what-does-a-millwright-do",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-to-become-a-paramedic",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "what-does-a-dental-hygienist-do",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "what-does-an-insurance-underwriter-do",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "what-does-a-bookkeeper-do",
+      "status": "passed",
+      "candidates": 4,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "what-does-a-ceo-do",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "what-does-a-welder-do",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-to-become-a-flight-attendant",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "what-does-a-nurse-practitioner-do",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "occupational-therapist-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "ultrasound-tech-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "veterinary-technician-salary",
+      "status": "passed",
+      "candidates": 4,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "funeral-director-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "mri-tech-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "veterinarian-salary",
+      "status": "passed",
+      "candidates": 4,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "radiation-therapist-salary",
+      "status": "passed",
+      "candidates": 3,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "highest-paying-jobs-without-a-degree",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "optometrist-salary",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "nuclear-medicine-technologist-salary",
+      "status": "passed",
+      "candidates": 5,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-to-become-a-school-counselor",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "what-does-a-home-health-aide-do",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "occupational-therapy-assistant-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "clinical-laboratory-technologist-salary",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "medical-dosimetrist-salary",
+      "status": "passed",
+      "candidates": 5,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "genetic-counselor-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "audiologist-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "forensic-scientist-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "psychiatrist-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "speech-language-pathologist-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "salary-statistics-2026",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "ironworker-salary",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "lpn-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "orthotist-and-prosthetist-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "boilermaker-salary",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "massage-therapist-salary",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "how-much-do-pilots-make",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "dental-hygienist-vs-dentist",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "do-architects-make-good-money",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "how-much-do-real-estate-agents-make-a-month",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "why-do-software-engineers-make-so-much",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "why-do-firefighters-get-paid-so-little",
+      "status": "passed",
+      "candidates": 1,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    },
+    {
+      "slug": "do-farmers-make-good-money",
+      "status": "passed",
+      "candidates": 0,
+      "prose_exit": 0,
+      "bridge_scan_exit": 0,
+      "bridge_verify": "not_required_zero_candidates"
+    },
+    {
+      "slug": "is-becoming-a-vet-worth-it",
+      "status": "passed",
+      "candidates": 2,
+      "prose_exit": 0,
+      "bridge_scan_exit": 1,
+      "bridge_verify_exit": 0
+    }
+  ],
+  "source_commit": "56a9321a1c0a141126eaaee1609f52a504588b1f"
+}

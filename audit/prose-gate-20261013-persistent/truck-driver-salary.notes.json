@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：[Electricians](/electrician-salary/) require a 4- or 5-year apprenticeship and post a higher May 2025 median of $63,190, while [firefighters](/firefighter-salary/) share the same postsecondary-nondegree-award classification from BLS and post a May 2025 median of $59,280, just above the truck-driver figure from May 2024.；锚文本：Electricians；目标：electrician-salary；此前已读完整目标保留May2025median63190；'4- or 5-year apprenticeship'；highschooltypical；plumbing63800-63190=610约600；truck57440May2024不同year，句已明两year。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：[Electricians](/electrician-salary/) require a 4- or 5-year apprenticeship and post a higher May 2025 median of $63,190, while [firefighters](/firefighter-salary/) share the same postsecondary-nondegree-award classification from BLS and post a May 2025 median of $59,280, just above the truck-driver figure from May 2024.；锚文本：firefighters；目标：firefighter-salary；完整本批目标：May2025median59280、typicalentrypostsecondarynondegree+fireacademy/EMT；truckpostsecondarynondegree同category，May2024truck57440差1840但两surveyyears明确。"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "The target page includes “The bottom 10% of earners made less than $73,920 a year, while the top 10% made more than $215,700,” and separate industry medians, supporting its percentile and industry breakdown.",
+    "sentence": "For the wage side on its own, this site\\'s [veterinarian salary breakdown](/veterinarian-salary/) works through the percentiles and industry medians in more detail, and the [veterinary technician salary guide](/veterinary-technician-salary/) covers the two-year route into the same clinics at a different credential level."
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "The target guide says, “Technicians typically complete a 2-year associate’s degree in veterinary technology; technologists complete a 4-year bachelor’s degree in the same field,” supporting the two-year route and credential distinction.",
+    "sentence": "For the wage side on its own, this site\\'s [veterinarian salary breakdown](/veterinarian-salary/) works through the percentiles and industry medians in more detail, and the [veterinary technician salary guide](/veterinary-technician-salary/) covers the two-year route into the same clinics at a different credential level."
+  }
+]

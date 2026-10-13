@@ -1,0 +1,12 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：For a closer comparison at a similar entry point, this site\\'s [dental assistant salary guide](/dental-assistant-salary/) covers another allied health role that people enter through a certificate program of about a year or through on-the-job training, with a May 2024 median of $47,300, about $1,610 above the medical assistant median (the two occupations\\' BLS data now come from different annual cycles, since this page reflects a newer May 2025 update).；锚文本：dental assistant salary guide；目标：dental-assistant-salary；完整目标May2024median47300，certificate约一年或onjobtraining，部分州accredited+exam，expandedfunctions另有规定；源medicalMay2025明确不同years，差1610只是两所报数差。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：This site\\'s [LPN salary guide](/lpn-salary/) tracks a role at the same entry-education tier that also requires passing a licensing exam, and BLS reports a considerably higher $64,400 median for May 2025, an $18,710 gap over medical assistants despite both occupations sharing the postsecondary-nondegree entry bar.；锚文本：LPN salary guide；目标：lpn-salary；完整目标 'postsecondary nondegree award'、stateapprovedaboutoneyear、mandatorylicensingexam、May2025median64400；64400-45690=18710，同yearentrycategory相同不是同qualification。"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：The [clinical laboratory pay guide](/clinical-laboratory-technologist-salary/) reports a comparable $62,930 median for May 2025, but covers technologists and technicians together.；锚文本：clinical laboratory pay guide；目标：clinical-laboratory-technologist-salary；完整b5目标：May2025median62930，'clinical laboratory technologists and technicians' combined；Bachelorfortechnologists/associatesfortechnicians。chef60990May2024vs62930May2025相近但differentyears已明，未assertBachelor-onlywage。"
+  },
+  {
+    "index": 2,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：That is a different model from [bartending](/how-to-become-a-bartender/), a similarly education-light food-service occupation on this site where BLS lists no related-experience requirement at all, just a few weeks of on-the-job training after hire.；锚文本：bartending；目标：how-to-become-a-bartender；本批完整目标正文：'There is no related-work-experience requirement either' + 'a few weeks under an experienced bartender'；雇主可prefer priorfoodexperience，但不是BLS典型相关经验bar。chef5yrtypical不同，servertrainingrules不在桥中泛化。"
+  },
+  {
+    "index": 3,
+    "verdict": "CONFIRMED",
+    "note": "候选精确句：Measured against a different vocational field entirely, chefs and head cooks also out-earn [welders, cutters, solderers, and brazers](/welder-salary/), who BLS lists at the same high-school-diploma entry tier but a May 2025 median of $53,750, roughly $7,240 below the May 2024 chef figure.；锚文本：welders, cutters, solderers, and brazers；目标：welder-salary；完整b4目标：May2025median53750 forcombinedwelders/cutters/solderers/brazers；multipleentrytechnicalschool/employeronjob/apprentice。53750<63190=9440；只比aggregatepay，不推trainingcausal。"
+  }
+]

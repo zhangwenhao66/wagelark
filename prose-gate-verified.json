@@ -26,7 +26,7 @@
       "candidate_sha256": "4024502c7870077cf1d24c999d0948f9e035e016f44a0fec3623c2142a360a01",
       "notes_sha256": "5574e8eb8dd7a38eaa80eff91e5ca07135c0b315bb6c2193ccfdd31e5653a13b",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/pharmacist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/pharmacist-salary.notes.json"
     },
     {
       "slug": "physical-therapist-salary",
@@ -34,7 +34,7 @@
       "candidate_sha256": "6541b4c9af12bf744ed544cee487d630160ad23165b5b1158f7694d489a510ca",
       "notes_sha256": "5f28806fdd88f5091b608ccf406c1156fdf902f03bf6025057e1f8cc7cde4413",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/physical-therapist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/physical-therapist-salary.notes.json"
     },
     {
       "slug": "what-does-a-physician-assistant-do",
@@ -42,7 +42,7 @@
       "candidate_sha256": "dc59176aecc5a905726e26b6ba19c87b96d86982dc46f8dec218279de3f106db",
       "notes_sha256": "27ca76e374f7b57e186a3e9c7873532b011675acd49efbefe76dc8905fdefbf8",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/what-does-a-physician-assistant-do.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/what-does-a-physician-assistant-do.notes.json"
     },
     {
       "slug": "how-much-do-flight-attendants-make",
@@ -50,7 +50,7 @@
       "candidate_sha256": "f0bf6828237ba0a16cab6515002ccb118c520645c64df94639df10f1311db27c",
       "notes_sha256": "522234c4445a5e8471017ee22512092b9fabca57a385d4a515da3c6f3dbdfdfd",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/how-much-do-flight-attendants-make.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/how-much-do-flight-attendants-make.notes.json"
     },
     {
       "slug": "radiology-tech-salary",
@@ -58,7 +58,7 @@
       "candidate_sha256": "46a7235b5f4e71de8868919eac7f57dc1053bfa60d0ae118d843e344c1ffd9db",
       "notes_sha256": "f24685294ec919febb5e521bbf4e80593ab9d74ecff2dd2bfe93cad1969a15cd",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/radiology-tech-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/radiology-tech-salary.notes.json"
     },
     {
       "slug": "nurse-practitioner-salary",
@@ -66,7 +66,7 @@
       "candidate_sha256": "d4c6324c2fb38166a0436647d0280d0d548aad39227558b9435b62e31115895c",
       "notes_sha256": "bb2f294030d521777193178fc994a099bb33a9bb7cb46ca5d3bc479cc69ab9cc",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b5/nurse-practitioner-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/nurse-practitioner-salary.notes.json"
     },
     {
       "slug": "surgical-tech-salary",
@@ -74,7 +74,7 @@
       "candidate_sha256": "9f0b17252053cbdccd3e11566687811cf5d6fe42686c7ba7fa133cc590ed19a6",
       "notes_sha256": "ff4c780786e60c2841fdf11c4cbd1061eab68452e1a6220448b2f1bd84189f39",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b3/surgical-tech-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/surgical-tech-salary.notes.json"
     },
     {
       "slug": "pharmacy-technician-salary",
@@ -82,7 +82,7 @@
       "candidate_sha256": "93301c5b845a2e8111c5e77c5475324860fedd7fb8292d226cc2377c40416bc1",
       "notes_sha256": "4db94581b2ec1102146bb1e5dd10771b1be4827820013b3d81def0a8f2a3f056",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/pharmacy-technician-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/pharmacy-technician-salary.notes.json"
     },
     {
       "slug": "dental-assistant-salary",
@@ -90,7 +90,7 @@
       "candidate_sha256": "bea1e689da41c3c6b94441a4e520d57d876cb21fb0c42129f91942bb48c53c62",
       "notes_sha256": "22be16484bd861f12712446b4b6fedfe691de70cb961afa42d1df1aadb9c9a79",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261009T1102/wagelark-verify-checkout/dental-assistant-salary.notes.json"
+      "notes_path": "dental-assistant-salary.notes.json"
     },
     {
       "slug": "medical-assistant-salary",
@@ -98,7 +98,7 @@
       "candidate_sha256": "1f6fbb087ebb7a7fd9c3b4999a192cbdbf8f3a8a58d6f1bab545a4c9630bc510",
       "notes_sha256": "7583fb04cc3bf62af476fb421f38b4dcbc88a321ace7a8c8adbcebe1166fd288",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b5/medical-assistant-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/medical-assistant-salary.notes.json"
     },
     {
       "slug": "respiratory-therapist-salary",
@@ -106,7 +106,7 @@
       "candidate_sha256": "b4db9abc0bee3cd2fc0ea7a1d060430a089605614a04cab7c49efdcd2c61af6e",
       "notes_sha256": "e340da8c4dc404f89c248e9e76f2e9df1961ac398548c5e7c88b6cbbd5e45a27",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/respiratory-therapist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/respiratory-therapist-salary.notes.json"
     },
     {
       "slug": "electrician-salary",
@@ -114,7 +114,7 @@
       "candidate_sha256": "35d52202880c48fba9948552c99376ddec464ac3e563fe05a4b195108ba7cd4b",
       "notes_sha256": "dc923be5cef4aa92d757e94a7c1eef62e6a61d6582f4a660dc72f65cb70fec75",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/electrician-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/electrician-salary.notes.json"
     },
     {
       "slug": "firefighter-salary",
@@ -122,7 +122,7 @@
       "candidate_sha256": "17d3dd59f8c7c21d5d82e82d92e59403ccabe865d390640c9772ecc6847fb955",
       "notes_sha256": "23f4055d5f39657d5b2193f98c9ff78f86830852f2a32e2d6aa05ee99cb5f446",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/firefighter-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/firefighter-salary.notes.json"
     },
     {
       "slug": "plumbing-apprenticeship",
@@ -130,7 +130,7 @@
       "candidate_sha256": "7762579969af897e09cb4f1a808404ed28db6ff8d2a3d123b409c8b1862688c6",
       "notes_sha256": "5d74d474a87684c3d0fd198aa5d4ec85cde8e4d7d745f01a7be0f3ca6149d3b4",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/plumbing-apprenticeship.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/plumbing-apprenticeship.notes.json"
     },
     {
       "slug": "truck-driver-salary",
@@ -138,7 +138,7 @@
       "candidate_sha256": "7f41530d6ea630858df2711023c9654a65541c85ea0c440480ff99922578f446",
       "notes_sha256": "1f43def3727037f5ff6cd9471ff236d6395dfe7ad5e87b55d2c746679ca1a6b5",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b6/truck-driver-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/truck-driver-salary.notes.json"
     },
     {
       "slug": "welder-salary",
@@ -146,7 +146,7 @@
       "candidate_sha256": "0e19a8965322481ba1d69d35bd1839df327f8ed84ce96e2f2be81b4d84a555c0",
       "notes_sha256": "7135d0127ed5dd9e2093840494641a845f79fb387415121830053d0922b2bd35",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/welder-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/welder-salary.notes.json"
     },
     {
       "slug": "how-to-become-a-paralegal",
@@ -154,7 +154,7 @@
       "candidate_sha256": "50ff74435e739181cc349f84c181d6c4250d03cdaa2def898117d180c594804b",
       "notes_sha256": "56d4f062b7b9dbb4640dd6eeff975f707ec38301009f644eecbd5a116a158fbf",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/how-to-become-a-paralegal.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/how-to-become-a-paralegal.notes.json"
     },
     {
       "slug": "how-to-become-an-electrician",
@@ -162,7 +162,7 @@
       "candidate_sha256": "af1f71fa77c0ba5660e30c9554e200e6c06d103a9ef9194ac49283cafaeb34fc",
       "notes_sha256": "162833baab1bdf0c0a3c2a2bf4accd7bdd590861cf96457f6088e62b653f24df",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/how-to-become-an-electrician.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/how-to-become-an-electrician.notes.json"
     },
     {
       "slug": "how-to-become-a-physical-therapist",
@@ -170,7 +170,7 @@
       "candidate_sha256": "f0b1408a9af588a4989313e25695dd6f61371daf164215bb588e9e088e8bbbc9",
       "notes_sha256": "d5cbc096e015ee78cd5a666f4e76145f74b5d2e52614a98aa61f24ab4b8db411",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b6/how-to-become-a-physical-therapist.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/how-to-become-a-physical-therapist.notes.json"
     },
     {
       "slug": "how-long-is-nursing-school",
@@ -178,7 +178,7 @@
       "candidate_sha256": "c78b50b619bb7ed5e7bc9c1a3c6025daf9662ed869f774bc28aad0fc3d4026bd",
       "notes_sha256": "c96635b18160144ca9476ebabeb4fb1090e33edbb4598aa2471d4739bc4b8506",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261009T1102/wagelark-verify-checkout/how-long-is-nursing-school.notes.json"
+      "notes_path": "how-long-is-nursing-school.notes.json"
     },
     {
       "slug": "how-long-does-it-take-to-become-a-lawyer",
@@ -186,7 +186,7 @@
       "candidate_sha256": "9a0333b437066f7fd781ad4a01507c343bf72e1579f0bc4a94826a643798f13b",
       "notes_sha256": "5651817fde515a8a9f1741c66b876f29362a0f20e31be4c481602b28ddb60569",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/how-long-does-it-take-to-become-a-lawyer.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/how-long-does-it-take-to-become-a-lawyer.notes.json"
     },
     {
       "slug": "how-to-become-a-librarian",
@@ -194,7 +194,7 @@
       "candidate_sha256": "8dd1a7af9c63a660d1b0210ce8b23c859e53dabec97d0cefc0fb0e4785678a99",
       "notes_sha256": "b127801ea8cf6dec0eba539498373b9003596619ec1c247596e9e50901f63e45",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261009T1102/wagelark-verify-checkout/how-to-become-a-librarian.notes.json"
+      "notes_path": "how-to-become-a-librarian.notes.json"
     },
     {
       "slug": "chef-salary",
@@ -202,7 +202,7 @@
       "candidate_sha256": "b64043dd1d21d610646448320862d8e6ebea3fb5ee68caa106c45f8f75928943",
       "notes_sha256": "de4129838d71bacaa73d4c965e2a5fd2ee6746cc42460efc0ed6ebb8d1d214d0",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b6/chef-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/chef-salary.notes.json"
     },
     {
       "slug": "how-to-become-a-court-reporter",
@@ -210,7 +210,7 @@
       "candidate_sha256": "071af69f8c5d3d6bf8f9a996c1547cfb45dbf9f3e2cba26fd707a239a6b4a6ed",
       "notes_sha256": "b08224e24a8a1a662f95d19919e1861daa5241793b6cdd6d4dbe9a5a97a02a45",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/paa-faq-gap-fill/20261009T1102/wagelark-verify-checkout/how-to-become-a-court-reporter.notes.json"
+      "notes_path": "how-to-become-a-court-reporter.notes.json"
     },
     {
       "slug": "what-does-a-millwright-do",
@@ -218,7 +218,7 @@
       "candidate_sha256": "6eb4bd47500761f4106975e870b3937ddf55960d4f0bde2c1190ef0c919f3635",
       "notes_sha256": "08d6c0d92365d298d653a0b2b9026d6a71f5a299883af107d13e85b003c5ed1f",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/what-does-a-millwright-do.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/what-does-a-millwright-do.notes.json"
     },
     {
       "slug": "what-does-an-insurance-underwriter-do",
@@ -226,7 +226,7 @@
       "candidate_sha256": "3136a80938c77aa75ac3435b75d04a3b29922e140c194db2ef65bb324d79481f",
       "notes_sha256": "83c967bd9e417df8728b2a3191598bc9006d6ccc53b678931e4ea9fbd099b483",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b3/what-does-an-insurance-underwriter-do.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/what-does-an-insurance-underwriter-do.notes.json"
     },
     {
       "slug": "what-does-a-bookkeeper-do",
@@ -234,7 +234,7 @@
       "candidate_sha256": "1a81fa3c924c716158e4a8de18c8fe99330466016aaf672af4123ef23388e359",
       "notes_sha256": "709d36b175aad28d6a9374f815d41ad9a43ccc819ffbcf5147d95e6753360a2f",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b4/what-does-a-bookkeeper-do.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/what-does-a-bookkeeper-do.notes.json"
     },
     {
       "slug": "what-does-a-ceo-do",
@@ -242,7 +242,7 @@
       "candidate_sha256": "dd6c1f7c0820445e9e2e208aaa5306e174a60715b8f313c25f9343916880570d",
       "notes_sha256": "60d53e84ec4647aecee536b73a74f95bf16a72360490132d1b9d0883f0a373ba",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b3/what-does-a-ceo-do.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/what-does-a-ceo-do.notes.json"
     },
     {
       "slug": "occupational-therapist-salary",
@@ -250,7 +250,7 @@
       "candidate_sha256": "c16b42e5b221031327a0cc0924940a58368ad9a8b769924adcae1a2b33663bf0",
       "notes_sha256": "f854650b9037b31c9aa61660a527ea31547cb1d536181bb5cd0981e562840b1e",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/occupational-therapist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/occupational-therapist-salary.notes.json"
     },
     {
       "slug": "ultrasound-tech-salary",
@@ -258,7 +258,7 @@
       "candidate_sha256": "cb836c63c9963e17d9d5c2749d6b8d7b7dabd6b03dde316be5c374ac102ba859",
       "notes_sha256": "e08960c712414406fecff6fdf7045df5df5bf6fb9da659be9576bc7c5fba8b70",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b3/ultrasound-tech-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/ultrasound-tech-salary.notes.json"
     },
     {
       "slug": "veterinary-technician-salary",
@@ -266,7 +266,7 @@
       "candidate_sha256": "f3f4c9e1256bd2b1fc01608ead7011fa4064c7bca002f459b948273709efd1b5",
       "notes_sha256": "3a5daf083a9d3b6b7fec2e5e2cd2f0d7b4988e867a425099d654ac6cf92dfe76",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b4/veterinary-technician-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/veterinary-technician-salary.notes.json"
     },
     {
       "slug": "mri-tech-salary",
@@ -274,7 +274,7 @@
       "candidate_sha256": "474b3f758e58f7bb0f21332e1fa2f519e5d8a7630836564dd90ee8b6eee41676",
       "notes_sha256": "aeb8645826a3ed6bcf2b1bc4ce2489bb7aa7704f461f79449602a5d8762eaf81",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/mri-tech-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/mri-tech-salary.notes.json"
     },
     {
       "slug": "veterinarian-salary",
@@ -282,7 +282,7 @@
       "candidate_sha256": "4d97d0b5943746f77ed442623f7dce82121fbd30696b48a5d95dc30e15e57924",
       "notes_sha256": "a293fcd14a8f8069042575f3b8e9567f4a05ccebd4a9fa8ba365a0519c555564",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/veterinarian-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/veterinarian-salary.notes.json"
     },
     {
       "slug": "radiation-therapist-salary",
@@ -290,7 +290,7 @@
       "candidate_sha256": "cb97535c1a182077fe2b6669773e2af99a516eab33cdabf150e6c705c6c33c72",
       "notes_sha256": "9940ce8ad2454feeb143c349fbf4dc57384a188610bd24f4e6aa0e752ab7b548",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/radiation-therapist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/radiation-therapist-salary.notes.json"
     },
     {
       "slug": "highest-paying-jobs-without-a-degree",
@@ -298,7 +298,7 @@
       "candidate_sha256": "85939b7796cffda1fe85ae8a978368f333f742f95b63da69dc24682bf6b0fc64",
       "notes_sha256": "629e271d20b3189c1a18334fe4176632c1e2289e9573c96138a6fc5f342d0def",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/highest-paying-jobs-without-a-degree.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/highest-paying-jobs-without-a-degree.notes.json"
     },
     {
       "slug": "optometrist-salary",
@@ -306,7 +306,7 @@
       "candidate_sha256": "5adebfbefd8fff589d7f0066f0152cbaf1476666b3cdffed95b8291815dabddd",
       "notes_sha256": "67ccde5618cbd9406208c8b751ba578a3e400a9bd44f9e0827732814c9ec8461",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/optometrist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/optometrist-salary.notes.json"
     },
     {
       "slug": "nuclear-medicine-technologist-salary",
@@ -314,7 +314,7 @@
       "candidate_sha256": "6223df6cbe0d3fba94b3c9bd72f53cd2b1eed9a35d114f3c4ea6af5418bef4e4",
       "notes_sha256": "6eaff41926b05af5a4743d4ce907df4284799415dfdc2368235db6e6ffb84b2e",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/nuclear-medicine-technologist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/nuclear-medicine-technologist-salary.notes.json"
     },
     {
       "slug": "how-to-become-a-school-counselor",
@@ -322,7 +322,7 @@
       "candidate_sha256": "6ba5e39d050cc3710af1c8dba85d2be53e7a76566808a817c80c47cf733973a0",
       "notes_sha256": "a111d61c8b7329a0527dbeb5bbcf5abacab6069c46419de311a6df5d655dedc1",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/how-to-become-a-school-counselor.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/how-to-become-a-school-counselor.notes.json"
     },
     {
       "slug": "what-does-a-home-health-aide-do",
@@ -330,7 +330,7 @@
       "candidate_sha256": "dbcc8c9d72afe61ca1e478695bf52f60edddc8a83d03060aa1cb05f7a8f7a826",
       "notes_sha256": "ab9f0642ec660de2ab1e5c1229a99fc6646be06b82b1f731b577870735c94bab",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/what-does-a-home-health-aide-do.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/what-does-a-home-health-aide-do.notes.json"
     },
     {
       "slug": "clinical-laboratory-technologist-salary",
@@ -338,7 +338,7 @@
       "candidate_sha256": "8723c98d62556b51a7cebfba5586224daac043369d375b2624ac7e315378c3ca",
       "notes_sha256": "b487c14553f977dff6ec45121b81316b88e6ffe17be39a4cb05da6c8685c5b42",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/clinical-laboratory-technologist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/clinical-laboratory-technologist-salary.notes.json"
     },
     {
       "slug": "medical-dosimetrist-salary",
@@ -346,7 +346,7 @@
       "candidate_sha256": "7288457364ec0ccc05d9043af0388cb77e4485843d990a6677da4b650c0aed9f",
       "notes_sha256": "38ca44886a445b1aff756b0ac6add6d71ac747748499fe3173d886d8e233004f",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/medical-dosimetrist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/medical-dosimetrist-salary.notes.json"
     },
     {
       "slug": "forensic-scientist-salary",
@@ -354,7 +354,7 @@
       "candidate_sha256": "8b86b230a2866df56d664923ff244049e32cd3a677343d92aa084c86cecfad64",
       "notes_sha256": "58a59f104562401f4b94e3ca24af3529a12ddec4941dee0cb86265b232fa04c1",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/forensic-scientist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/forensic-scientist-salary.notes.json"
     },
     {
       "slug": "speech-language-pathologist-salary",
@@ -362,7 +362,7 @@
       "candidate_sha256": "688b3c88fcd9f24ffe6a30d534eacce67a1b35d134e749fa67403585d8ab3000",
       "notes_sha256": "d21a17cfce932f73517706d15cc859a25608a6aed07162e64586252db0919d0d",
       "verification_basis": "prior_confirmed_notes_without_sentence_field",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/day_wage/notes/wage-b8/speech-language-pathologist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/speech-language-pathologist-salary.notes.json"
     },
     {
       "slug": "ironworker-salary",
@@ -370,7 +370,7 @@
       "candidate_sha256": "6ef26a5fccc9f52c6810d4df99d9147bc927d7776eb24c9dcb4493a5450af91e",
       "notes_sha256": "4ee5819cd998000f7636a8acdfa008de375855bdb3a8b5faca1a1b494c4f7a78",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/ironworker-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/ironworker-salary.notes.json"
     },
     {
       "slug": "massage-therapist-salary",
@@ -378,7 +378,7 @@
       "candidate_sha256": "370956b740fb3a6f70c3d826752a8ced20140064910d7efff78453958a811ef6",
       "notes_sha256": "c8f0838c8fb2c668874847a81f6809d3f3cf7aabd3a55f67c460f0c3f96e8660",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/massage-therapist-salary.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/massage-therapist-salary.notes.json"
     },
     {
       "slug": "how-much-do-pilots-make",
@@ -386,7 +386,7 @@
       "candidate_sha256": "f6d6f2097e2c7b2f738a09f2dd75e8f5cf1e849c1f25d673fdfea0dc0d566ffa",
       "notes_sha256": "061341462c8c25669c4a5809a5b46dbe4d228a9635a0b2f3d89cc68019781965",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-backfill-20261011/fact_hollow/wage-final83/how-much-do-pilots-make.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/how-much-do-pilots-make.notes.json"
     },
     {
       "slug": "how-much-do-real-estate-agents-make-a-month",
@@ -394,7 +394,7 @@
       "candidate_sha256": "d0b29acf900545b0e562ac7dba8c20a6fd38655551113cf01818e0561c107948",
       "notes_sha256": "869cd4e33a127bffe24809f82597ab6d2638ebac1cceae29e0884ff126cff683",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-prose-gate-backfill/20261013/recheck/wagelark/how-much-do-real-estate-agents-make-a-month.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/how-much-do-real-estate-agents-make-a-month.notes.json"
     },
     {
       "slug": "why-do-firefighters-get-paid-so-little",
@@ -402,7 +402,7 @@
       "candidate_sha256": "3fff646d37bc433b1be1d39b4e24effdc4e456ab01522421c5f49eda9b99d3aa",
       "notes_sha256": "66d96937e60f96a6426fc23334d7bd779190556b1fba62b8891f2ff896aedf8a",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-prose-gate-backfill/20261013/integration/wagelark/why-do-firefighters-get-paid-so-little.notes.json"
+      "notes_path": "why-do-firefighters-get-paid-so-little.notes.json"
     },
     {
       "slug": "is-becoming-a-vet-worth-it",
@@ -410,7 +410,7 @@
       "candidate_sha256": "46b6d1974950095402f0ed3a448766c6162c77479f075b41148092b95f2e1721",
       "notes_sha256": "7a946d9ff7953b412ef4c53cb765fb7249e04aeee34f901dab18006de6e49e91",
       "verification_basis": "exact_sentence_match",
-      "notes_path_at_generation": "/Users/zhangwh/.codex/automation-runtime/runs/matrix-prose-gate-backfill/20261013/recheck/wagelark/is-becoming-a-vet-worth-it.notes.json"
+      "notes_path": "audit/prose-gate-20261013-persistent/is-becoming-a-vet-worth-it.notes.json"
     }
   ]
 }

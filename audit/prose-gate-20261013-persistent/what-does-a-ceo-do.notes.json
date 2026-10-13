@@ -1,0 +1,7 @@
+[
+  {
+    "index": 1,
+    "verdict": "CONFIRMED",
+    "note": "断言financialmanager最高decile同239200。目标 'top 10% earned more than $239,200'且May2024，支持同边界。源句是data reporting ceiling，末句 'true top ... runs higher'，不判实际wagecap。官方May2024方法 https://www.bls.gov/oes/methods_24.pdf RangeL '$115.00 and over'/'$239,200 and over'支持该年份最高公开区间说明；不据此更新2025数字。"
+  }
+]
