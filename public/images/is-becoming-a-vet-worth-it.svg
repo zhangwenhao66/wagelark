@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="300" fill="white" />
+	<text x="20" y="28" font-size="16" font-weight="700" fill="#14273f">Veterinarian Wage by Percentile vs Average Vet-School Debt</text>
+	<text x="138" y="78" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">10th percentile</text>
+	<rect x="150" y="56" width="380.0" height="34" fill="#dcdad2" />
+	<rect x="150" y="56" width="130.2" height="34" fill="#0f8b7f" />
+	<text x="288.2" y="78" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$73,920</text>
+	<text x="138" y="138" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">Median wage</text>
+	<rect x="150" y="116" width="380.0" height="34" fill="#dcdad2" />
+	<rect x="150" y="116" width="229.2" height="34" fill="#0f8b7f" />
+	<text x="387.2" y="138" font-size="15" font-weight="700" fill="#14273f" font-family="Arial, sans-serif">$130,100</text>
+	<text x="138" y="198" text-anchor="end" font-size="15" fill="#14212e" font-family="Arial, sans-serif">90th percentile</text>
+	<rect x="150" y="176" width="380.0" height="34" fill="#dcdad2" />
+	<rect x="150" y="176" width="380.0" height="34" fill="#0f8b7f" />
+	<text x="468.0" y="198" font-size="15" font-weight="700" fill="#ffffff" font-family="Arial, sans-serif">$215,700</text>
+	<line x1="476.7" y1="46" x2="476.7" y2="218" stroke="#c8442b" stroke-width="2" stroke-dasharray="6 4" />
+	<text x="150" y="240" font-size="12" fill="#c8442b" font-family="Arial, sans-serif">$185,424: average veterinary-school debt, class of 2026 (AVMA)</text>
+	<text x="150" y="272" font-size="12" fill="#14212e" opacity="0.55">Bars: BLS OEWS, veterinarians, May 2025. Debt line: AVMA 2026 senior survey, average across all graduates including those with none.</text>
+</svg>

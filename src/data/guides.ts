@@ -542,7 +542,7 @@ export const guides: Guide[] = [
 				heading: 'The exam-based path to qualification',
 				body: [
 					'Entry typically requires a bachelor\'s degree in mathematics, actuarial science, statistics, or a related quantitative field, with coursework in economics, applied statistics, and corporate finance. What sets actuarial credentialing apart from most professions is the exam sequence administered by the Society of Actuaries (SOA) or Casualty Actuarial Society (CAS): candidates must pass a series of rigorous, difficult exams plus professionalism seminars to earn Associate-level certification, a process the Occupational Outlook Handbook notes can take up to seven years. Reaching Fellow-level certification, the terminal credential, takes additional years beyond that.',
-					'Most employers expect candidates to have already passed one or two exams before graduating college, and new hires typically start as trainees under an experienced actuary\'s supervision, working on basic data compilation before progressing to independent modeling and report writing as they clear more exams.',
+					'Most employers expect candidates to have already passed one or two exams before graduating college, and new hires typically start as trainees under an experienced actuary\'s supervision, working on basic data compilation before progressing to independent modeling and report writing as they clear more exams. WageLark\'s [veterinary career guide](/is-becoming-a-vet-worth-it/) carries the BLS wage range and the average veterinary-school debt behind that profession.',
 				],
 			},
 		],
@@ -603,7 +603,7 @@ export const guides: Guide[] = [
 				heading: 'Where the pay actually is',
 				body: [
 					'BLS industry data for May 2025 shows a wider-than-expected gap by employer type. Federal government roles paid the highest median at $81,470, followed by finance and insurance at $80,120, both well above the $62,890 national median. Local government paid $63,370, close to the median. Legal services (meaning law firms themselves, the setting most people picture) paid $61,770, and state government paid the least of the tracked categories at $59,320.',
-					'The pattern suggests that paralegals working inside a company\'s in-house legal or compliance function (finance and insurance) or for a federal agency often out-earn paralegals working at a traditional law firm. BLS does not break down why the gap exists by industry, so the figures above are the most specific picture available.',
+					'The pattern suggests that paralegals working inside a company\'s in-house legal or compliance function (finance and insurance) or for a federal agency often out-earn paralegals working at a traditional law firm. BLS does not break down why the gap exists by industry, so the figures above are the most specific picture available. WageLark\'s [veterinary pay and debt guide](/is-becoming-a-vet-worth-it/) lines up BLS veterinarian wages against average veterinary-school debt.',
 				],
 			},
 			{
@@ -6981,5 +6981,77 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		],
 		image: '/images/do-farmers-make-good-money.svg',
 		imageAlt: 'Bar chart of farm manager wages by percentile from BLS May 2025 data: 10th percentile $54,320, median $89,900 and 90th percentile $160,020, with a dashed line at the $50,980 median for all US occupations and a second line at the $102,748 USDA median farm household income for 2024.',
+	},
+	{
+		slug: 'is-becoming-a-vet-worth-it',
+		category: 'Career Guide',
+		title: 'Is Becoming a Vet Worth It? Debt vs BLS Pay',
+		description: 'BLS puts the median veterinarian at $130,100 a year. The average 2026 vet-school graduate owed $185,424. Here is what those two figures do and do not settle.',
+		published: '2026-10-13',
+		updated: '2026-10-13',
+		socCode: '29-1131',
+		coreSummary: 'The median annual wage for veterinarians was $130,100 in May 2025, according to the Bureau of Labor Statistics, with the lowest 10% under $73,920 and the highest 10% above $215,700. The average veterinary-school debt for the class of 2026 was $185,424, and the AVMA reports an average debt-to-income ratio of 1.5 to 1 for new graduates entering full-time work. Is becoming a vet worth it? The official data gives both sides of that arithmetic but does not answer it.',
+		sections: [
+			{
+				heading: 'What veterinarians earn, by the numbers',
+				body: [
+					'The Bureau of Labor Statistics puts the median annual wage for veterinarians at $130,100 as of May 2025, or $62.55 an hour. That is the midpoint of the occupation: half of the veterinarians in the survey earned more, and half earned less. It sits well above the $50,980 median for all US occupations in the same release, and above the $103,500 median BLS reports for healthcare diagnosing and treating practitioners as a group.',
+					'The spread around that midpoint is wide. The lowest-earning 10% of veterinarians made less than $73,920, and the highest-earning 10% made more than $215,700. Just over $141,000 separates the two cutoffs. BLS does not break that difference down by specialty, so the published data does not say how much of it comes from practice type, ownership, region or hours worked.',
+					'The occupation behind that one figure is not a single job. The Handbook splits veterinarians into companion animal practitioners, who treat pets in private clinics and hospitals; food animal practitioners, who work with farm livestock and spend much of their time traveling between farms and ranches; and food safety and inspection veterinarians, who test livestock and animal products and enforce food safety rules. Those three groups work in different settings on different schedules, and BLS publishes one national wage estimate for all of them rather than a separate figure for each.',
+					'BLS does break wages out by industry, and the industry medians sit closer together than the percentile spread. Social advocacy organizations paid the highest median at $131,760, veterinary services paid $129,990, educational services paid $121,890, and government employers (excluding state and local education) paid $115,210. About 83% of veterinarians worked in veterinary services in 2025, according to BLS, so the industry figure most veterinarians would recognize is the $129,990 one.',
+					'Employment was 91,100 in 2025, and BLS projects it to grow 9% between 2025 and 2035, which the agency classifies as much faster than the 3% average for all occupations. That works out to about 3,100 openings a year over the decade, and BLS expects many of them to come from replacing veterinarians who leave the field or retire.',
+				],
+			},
+			{
+				heading: 'What it costs to get there',
+				body: [
+					'The credential is a doctoral or professional degree. BLS says veterinarians must hold a Doctor of Veterinary Medicine from an accredited veterinary college and a state license, and it lists no on-the-job training for the occupation. That is the cost side of the question, and BLS does not measure it.',
+					'The American Veterinary Medical Association does. Its survey of the class of 2026, presented in October 2026, found average debt from earning a veterinary degree of $185,424 across all graduates, including the ones who finished with none. Among graduates who did carry veterinary-school debt, the average was $227,588. About 18.5% of the class graduated with no veterinary-school debt, while 43.3% owed $200,000 or more and 7.9% owed $400,000 or more.',
+					'Against that, the same survey put average compensation for new graduates who had secured full-time employment at $131,784. Graduates entering private practice averaged $133,056 and those entering public practice averaged $101,234. Graduates who went into internships or residencies averaged $59,436 and $54,988 respectively. The AVMA reports an average debt-to-income ratio of 1.5 to 1 for new veterinarians entering full-time work, and says 18.1% of new graduates carry a ratio of 2.5 to 1 or higher.',
+				],
+			},
+			{
+				heading: 'Why the two figures are not directly comparable',
+				body: [
+					'The $130,100 and the $185,424 come from different agencies, different surveys and different kinds of average, so reading them against each other takes a step back.',
+					'The BLS figure is a median from the Occupational Employment and Wage Statistics survey, which collects wages from employers. That survey covers wage and salary workers and excludes self-employed workers, owners and partners in unincorporated firms, household workers, and unpaid family workers. BLS counts 7% of veterinarians as self-employed in 2025, and those practice owners are a group the wage survey never sees.',
+					'The AVMA figure is a mean from a survey of graduating students, and it counts only debt incurred in veterinary college. It is not a wage, and it says nothing about what a graduate earns in the first year. The AVMA also reports, from its 2026 Census of Veterinarians, an average professional income of $163,014 across all veterinarians for 2025. That number is a mean that includes practice owners, so it sits well above the BLS median for the same period without contradicting it: a mean pulled upward by high-earning owners and a median that leaves them out are two different statistics.',
+					'Put plainly, the salary figure most people find first is the wage-and-salary midpoint, and the debt figure is an average that includes graduates who borrowed nothing. Neither is wrong, and neither settles the question on its own.',
+				],
+			},
+			{
+				heading: 'What the numbers do not settle',
+				body: [
+					'BLS does not rank occupations by whether they are worth entering, and its wage survey does not track what any individual owes or earns. What the published data shows is the range. A veterinarian at the 90th percentile earns nearly three times what one at the 10th percentile does, and a graduate who borrowed $400,000 starts from a different place than one who borrowed nothing, even when both are paid the median.',
+					'Two things in the BLS profile bear on the decision and are easy to miss. The first is the schedule. BLS says most veterinarians work full time, often more than 40 hours a week, and that some work nights or weekends and may have to respond to emergencies outside scheduled hours. The second is the load. BLS notes that veterinarians working with frightened or injured animals risk being bitten, kicked and scratched, that they can be infected by diseased animals, and that the work can be emotionally stressful because it involves abused animals, euthanasia and supporting anxious owners.',
+					'Those are descriptions of the occupation, not predictions about any person. The figures above describe national averages for a group; they do not say what a specific graduate in a specific practice in a specific state will earn or owe. For the wage side on its own, this site\'s [veterinarian salary breakdown](/veterinarian-salary/) works through the percentiles and industry medians in more detail, and the [veterinary technician salary guide](/veterinary-technician-salary/) covers the two-year route into the same clinics at a different credential level. [Optometrist pay](/optometrist-salary/) is a comparison point for another doctoral-level health role with a different debt profile.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is a veterinarian a good career?',
+				answer: 'BLS does not rate careers, so there is no official answer to this. The published figures are a median wage of $130,100 (May 2025 release), projected job growth of 9% from 2025 to 2035, and roughly 3,100 openings each year. On the other side of the ledger, the AVMA reports that the class of 2026 borrowed an average of $185,424, and that graduates moving straight into full-time roles owed about 1.5 times their expected first-year pay. Whether those numbers add up depends on debt load, practice type and location, which is a judgment the data cannot make for you.',
+			},
+			{
+				question: 'Does veterinary have a future?',
+				answer: 'BLS expects the number of veterinarian jobs to rise 9% over the 2025-to-2035 window, a faster pace than it projects for the workforce as a whole, and counts about 3,100 vacancies a year. Most of those are replacements when veterinarians retire or move into other work. A projection covers the occupation as a whole, and it is not a guarantee for any particular practice, state or person.',
+			},
+			{
+				question: 'How much debt do veterinary graduates carry?',
+				answer: 'The AVMA\'s 2026 graduating-senior data show that graduates with loans owed an average of $227,588. Across the whole class, counting the debt-free graduates as zero, the average was $185,424. Roughly 18.5% finished with no such debt, 43.3% of the class owed at least $200,000, and 7.9% owed at least $400,000. Those figures count loans taken out for the veterinary degree, not undergraduate study, and because they are averages, individual graduates sit well above or below them.',
+			},
+			{
+				question: 'What type of veterinarian gets paid the most?',
+				answer: 'BLS does not publish wages by veterinary specialty, so there is no official ranking of, say, surgeons against general practitioners. Its industry breakdown puts social advocacy groups at the top, $131,760, and every other industry BLS lists below $130,000. Practice ownership is the larger variable in the same data, because the wage survey behind those medians leaves out self-employed veterinarians, a group BLS puts at 7% of the occupation.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Veterinarians (checked 2026-10-13; page last modified August 27, 2026; May 2025 median, percentile, employment, outlook, industry wages and the self-employment share)', url: 'https://www.bls.gov/ooh/healthcare/veterinarians.htm' },
+			{ label: 'BLS Occupational Employment and Wage Statistics: program overview (checked 2026-10-13; states that OEWS covers wage and salary workers and excludes the self-employed, owners and partners in unincorporated firms, household workers, and unpaid family workers)', url: 'https://www.bls.gov/oes/oes_emp.htm' },
+			{ label: 'AVMA: New veterinary graduates face rising debt, lower real income (checked 2026-10-13; class of 2026 average veterinary-school debt, starting compensation by practice type, the debt-to-income ratio, and the 2026 Census of Veterinarians average professional income)', url: 'https://www.avma.org/news/new-veterinary-graduates-face-rising-debt-lower-real-income' },
+		],
+		image: '/images/is-becoming-a-vet-worth-it.svg',
+		imageAlt: 'Bar chart of veterinarian annual wages by percentile from BLS May 2025 data: 10th percentile $73,920, median $130,100 and 90th percentile $215,700, with a marker at the $185,424 average veterinary-school debt reported by the AVMA for the class of 2026.',
 	},
 ];
