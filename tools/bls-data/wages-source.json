@@ -3697,6 +3697,27 @@
       "sourceLabel": "BLS Occupational Outlook Handbook: Postsecondary Teachers (occupation group)",
       "sourceUrl": "https://www.bls.gov/ooh/education-training-and-library/postsecondary-teachers.htm",
       "publishedDate": "2026-08-27"
+    },
+    "11-9013": {
+      "title": "Farmers, Ranchers, and Other Agricultural Managers",
+      "medianAnnual": 89900,
+      "medianHourly": 43.22,
+      "percentiles": {
+        "p10": 54320,
+        "p90": 160020
+      },
+      "employment": 788700,
+      "employmentYear": "2025",
+      "jobOutlookPct": -3,
+      "jobOutlookLabel": "Decline",
+      "employmentChange": -26500,
+      "projectionPeriod": "2025-35",
+      "entryEducation": "High school diploma or equivalent",
+      "industryWages": [],
+      "dataYear": "May 2025",
+      "sourceLabel": "BLS Occupational Outlook Handbook: Farmers, Ranchers, and Other Agricultural Managers",
+      "sourceUrl": "https://www.bls.gov/ooh/management/farmers-ranchers-and-other-agricultural-managers.htm",
+      "publishedDate": "2026-08-27"
     }
   }
 }

@@ -6592,7 +6592,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Which employers pay architects the most',
 				body: [
 					"BLS lists median pay for three of the biggest industries. Government, excluding state and local education and hospitals, paid $115,920. Architectural, engineering, and related services paid $98,440, and construction paid $95,760. The government premium over the services firms is $17,480, or about 18%.",
-					"Employment tells you how little of the field that premium touches. About 74% of architects work in architectural, engineering, and related services, 14% are self-employed, 4% work in construction, and 3% work in government (excluding state and local education and hospitals). BLS gives no separate wage for the self-employed, so the industry list cannot say what running a small practice pays.",
+					"Employment tells you how little of the field that premium touches. About 74% of architects work in architectural, engineering, and related services, 14% are self-employed, 4% work in construction, and 3% work in government (excluding state and local education and hospitals). BLS gives no separate wage for the self-employed, so the industry list cannot say what running a small practice pays. Where self-employment is the majority, the survey reaches only a minority of the occupation; the [farm manager pay breakdown](/do-farmers-make-good-money/) works through a case where BLS counts 67% of workers as self-employed.",
 				],
 			},
 			{
@@ -6763,7 +6763,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			{
 				heading: 'What the wage figures leave out',
 				body: [
-					'These numbers come from the Occupational Employment and Wage Statistics program, which surveys employers. Its published definitions count production bonuses in the wage total and exclude stock bonuses, non-production bonuses, and overtime pay. That distinction matters in a field where some large employers pay a substantial share of compensation in equity, because none of that equity appears in the $135,980 median or anywhere else on the BLS page.',
+					'These numbers come from the Occupational Employment and Wage Statistics program, which surveys employers. Its published definitions count production bonuses in the wage total and exclude stock bonuses, non-production bonuses, and overtime pay. That distinction matters in a field where some large employers pay a substantial share of compensation in equity, because none of that equity appears in the $135,980 median or anywhere else on the BLS page. Self-employed workers fall outside this survey altogether, and in some occupations they are the bulk of the field; the [farm manager pay breakdown](/do-farmers-make-good-money/) sets out what BLS can and cannot say when 67% of the workers own the business.',
 					'The $214,670 figure is the highest boundary BLS publishes for this occupation. It is a floor for the top decile, not a ceiling. BLS reports that the top 10% earned more than that amount and does not say by how much, so the series cannot confirm or rule out any specific figure above it.',
 					'The combined developer and QA figure carries the only hourly wage on the page, $64.44. Applying that rate to developers alone would produce a number BLS does not publish, so this page reports only the annual figures BLS breaks out by occupation.',
 				],
@@ -6895,5 +6895,91 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		],
 		image: '/images/firefighter-pay-percentile-chart.svg',
 		imageAlt: 'Bar chart of firefighter annual wages by percentile from BLS May 2025 data: 10th percentile $34,910, median $59,280 and 90th percentile $101,040, with a dashed line marking the $50,980 median for all US occupations.',
+	},
+	{
+		slug: 'do-farmers-make-good-money',
+		category: 'Salary Guide',
+		title: 'Do Farmers Make Good Money? Wages vs Farm Income',
+		description: 'BLS puts the median wage for farmers, ranchers and agricultural managers at $89,900. But that survey excludes the self-employed, who BLS counts as 67% of the occupation.',
+		published: '2026-10-13',
+		updated: '2026-10-13',
+		socCode: '11-9013',
+		coreSummary: 'Do farmers make good money? It depends on which official figure you use. BLS puts the May 2025 median wage for farmers, ranchers, and other agricultural managers at $89,900 a year, but its wage survey excludes the self-employed, who BLS counts as 67% of the occupation, while USDA reports a median farm household income of $102,748 in 2024 and a median income from farming of -$1,830.',
+		sections: [
+			{
+				heading: 'Three published numbers, three different groups of people',
+				body: [
+					'The question has three official answers, and they are not interchangeable. The Bureau of Labor Statistics reports a median annual wage of $89,900 for farmers, ranchers, and other agricultural managers as of May 2025, which is what an employer pays someone doing that job. The U.S. Department of Agriculture reports a median farm household income of $102,748 for 2024, which is what a farming family takes in from every source combined. USDA also reports that the median income from farming itself was -$1,830 that year, which is what the farm business returned to the household.',
+					'Those are three different measurements: an employer wage, a household total, and a business result. Reading the first as "what farmers earn" overstates the case for the self-employed majority. Reading the third understates it for anyone who draws a paycheck.',
+				],
+			},
+			{
+				heading: 'What BLS pays farmers, ranchers, and agricultural managers',
+				body: [
+					'BLS files this occupation under SOC 11-9013 and builds its pay figures from the Occupational Employment and Wage Statistics survey, which asks employers what they pay rather than asking workers what they receive. For May 2025 the median was $89,900 a year, or $43.22 an hour.',
+					'The spread around that midpoint is wide. The lowest-paid 10% earned less than $54,320, and the highest-paid 10% earned more than $160,020. Both are boundary figures: BLS reports that the bottom decile fell below the first number and that the top decile cleared the second, so neither is a ceiling or a floor for the occupation as a whole.',
+					'Two comparison points put the median in context. Other management occupations had a median of $106,770, and the median across all U.S. occupations was $50,980, which makes the typical figure here roughly 1.8 times the national one. The [national salary statistics overview](/salary-statistics-2026/) collects the comparison figures used across this site and traces each to its publisher. BLS counted about 788,700 people in this occupation in 2025.',
+				],
+				image: {
+					src: '/images/do-farmers-make-good-money.svg',
+					alt: 'Bar chart of farm manager wages by percentile from BLS May 2025 data, with a dashed line at the $50,980 median for all US occupations and a second line at the $102,748 USDA median farm household income for 2024.',
+				},
+			},
+			{
+				heading: 'Why that wage median covers a minority of the occupation',
+				body: [
+					'BLS lists self-employed workers as 67% of the people in this occupation. That share matters because the survey behind the $89,900 figure does not include them. The Occupational Employment and Wage Statistics program defines employees as part-time and full-time workers who are paid a wage or salary, and states plainly that it does not cover the self-employed, owners and partners in unincorporated firms, household workers, or unpaid family workers.',
+					'So the median is calculated from roughly the one-third of the occupation that works for somebody else. An operator who owns the farm and draws income from the business never enters that calculation, whatever the business returns.',
+					'The employment count on the same BLS page does include the self-employed, because it comes from a different program. The wage survey FAQ points to the Office of Employment Projections for national occupational employment estimates that include the self-employed. That is why a count of 788,700 and a median of $89,900 sit on one page without describing the same set of people.',
+					'Real estate agents are another commission-based occupation in this survey, where BLS says earnings may be irregular; the [real estate agent pay breakdown](/how-much-do-real-estate-agents-make-a-month/) treats the annual median as a smoothed average.',
+				],
+			},
+			{
+				heading: 'USDA counts households, not jobs',
+				body: [
+					"USDA's Economic Research Service measures farm households rather than jobs, and its 2024 figures describe a different picture. Median total household income for farm operator households was $102,748, against $83,730 for U.S. households generally. Median off-farm income was $86,900. Median income from farming was -$1,830, which means the typical farm household lost money on the farm operation that year while still finishing ahead overall.",
+					'USDA splits that population by farm type, and the spread between the groups is large. Households operating commercial farms, defined as $350,000 or more in gross cash farm income, reported median farm income of $174,933 and median total household income of $261,149. Intermediate farms reported median farm income of -$2,799 and total household income of $70,886. Residence farms reported median farm income of -$2,748 and total household income of $120,848.',
+					'The share with a profitable farm operation tracks the same split. In 2024, 84% of commercial farms had positive income from farming, compared with 42% of intermediate farms and 35% of residence farms. USDA counts roughly 1.8 million family farms.',
+					'Where that off-farm money comes from is not evenly spread. Of all off-farm income earned by farm operator households, 55% came from wages and salaries of household members, 22% from transfers such as Social Security, 9% from nonfarm businesses, and 15% from other sources including interest and dividends. Farm households also hold more wealth than the average U.S. household: the median farm household had $1.6 million in wealth in 2024, and households running commercial farms had $3.9 million at the median.',
+					'One more comparison gets at the same question from the business side. USDA defines farm business households as those that report farming as their primary occupation, plus commercial farms at $350,000 or more in gross cash farm income. Their median income in 2024 was $76,622, against $108,196 for U.S. households that report self-employment income. The two groups are not the same set of households, so the gap compares two medians rather than following the same families over time.',
+					'None of this contradicts the BLS wage figure. It measures a population the wage survey leaves out, which is the point of reading the two side by side.',
+				],
+			},
+			{
+				heading: 'Job outlook: a projected 3% decline',
+				body: [
+					'BLS projects employment of farmers, ranchers, and other agricultural managers to fall 3% between 2025 and 2035, from 788,700 to 762,200, a decrease of 26,500. It still expects about 70,800 openings a year, and says all of them come from replacement: workers transferring to other occupations or leaving the labor force, such as to retire.',
+					'BLS attributes the decline to consolidation. Increased efficiencies in crop production have produced fewer but larger farms, and larger farms invest more in productivity-enhancing technology. The agency also notes that many small farms operate on slim margins and are vulnerable to poor market conditions, and that operators of small farms will likely keep exiting the business over the decade.',
+					'These are projections about an occupation and a sector, not a forecast about any individual. BLS data describes national averages, and the figures above are a description of where the market has been and where employment is headed in aggregate.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'What kind of education do farmers need?',
+				answer: 'BLS lists a high school diploma, or its equivalent, as the usual entry-level education here. It adds that as farm and land management has grown more complex, postsecondary study in agriculture, natural resources, or business can help. Plenty of people also arrive after time spent as agricultural workers, or after growing up on a family farm. No single credential is mandatory.',
+			},
+			{
+				question: 'How does a farmer make money?',
+				answer: 'Two streams, and official statistics keep them apart. A farm business earns money by selling crops or livestock, and BLS notes that government payments or other subsidies can reduce some of the risks involved. Off the farm, USDA put the midpoint for income earned away from the farm at $86,900 in 2024, while the farming side came in at minus $1,830.',
+			},
+			{
+				question: 'Do farmers make good money?',
+				answer: 'Which figure you pick changes the answer. For May 2025, BLS reports a median wage of $89,900 a year for this occupation. Nationally, the midpoint across all occupations sits at $50,980, so this one lands well above it. That survey, however, counts only wage and salary workers, while BLS puts self-employment at 67%. The USDA household measure for 2024, $102,748, includes earnings from work done off the farm.',
+			},
+			{
+				question: 'Is farming a growing field?',
+				answer: 'Employment is projected to decline 3% from 2025 to 2035, dropping by 26,500 to 762,200. Roughly 70,800 openings are still projected each year, all of them from replacement rather than growth, replacing people who leave the occupation or retire.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Occupational Outlook Handbook: Farmers, Ranchers, and Other Agricultural Managers (checked 2026-10-13; page last modified August 27, 2026; May 2025 median, percentile, employment, outlook and self-employment share)', url: 'https://www.bls.gov/ooh/management/farmers-ranchers-and-other-agricultural-managers.htm' },
+			{ label: 'BLS Occupational Employment and Wage Statistics: program overview (checked 2026-10-13; states that OEWS covers wage and salary workers and excludes the self-employed, owners and partners in unincorporated firms, household workers, and unpaid family workers)', url: 'https://www.bls.gov/oes/oes_emp.htm' },
+			{ label: 'BLS Occupational Employment and Wage Statistics: frequently asked questions (checked 2026-10-13; definition of "employees" and the pointer to Employment Projections estimates that do include the self-employed)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
+			{ label: 'USDA Economic Research Service: Farm Household Income Estimates (checked 2026-10-13; 2024 median farm, off-farm and total household income, and the split by farm type)', url: 'https://www.ers.usda.gov/topics/farm-economy/farm-household-well-being/farm-household-income-estimates' },
+			{ label: 'USDA Economic Research Service: Farm Household Well-being, Income and Wealth in Context (checked 2026-10-13; the composition of off-farm income and median farm household wealth for 2024)', url: 'https://www.ers.usda.gov/topics/farm-economy/farm-household-well-being/income-and-wealth-in-context' },
+		],
+		image: '/images/do-farmers-make-good-money.svg',
+		imageAlt: 'Bar chart of farm manager wages by percentile from BLS May 2025 data: 10th percentile $54,320, median $89,900 and 90th percentile $160,020, with a dashed line at the $50,980 median for all US occupations and a second line at the $102,748 USDA median farm household income for 2024.',
 	},
 ];

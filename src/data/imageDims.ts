@@ -95,6 +95,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 330,
   "w": 640
  },
+ "/images/do-farmers-make-good-money.svg": {
+  "h": 290,
+  "w": 640
+ },
  "/images/electrician-apprenticeship-path.svg": {
   "h": 480,
   "w": 640

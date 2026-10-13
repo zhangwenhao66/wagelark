@@ -1322,8 +1322,9 @@ const expectedMay2025 = {
 		'19-3030': [99110, 209400, 6, 11600, 59080, 163380],
 		'15-2011': [130000, 31200, 9, 2900, 78570, 215100],
 		'53-3032': [58640, 2221200, 4, 83800, 40140, 79380],
+		'11-9013': [89900, 788700, -3, -26500, 54320, 160020],
 };
-assert.equal(Object.keys(expectedMay2025).length, 24);
+assert.equal(Object.keys(expectedMay2025).length, 25);
 for (const [soc, [median, employment, outlook, change, p10, p90]] of Object.entries(expectedMay2025)) {
 	test(`spot check: BLS OOH May 2025 ${soc}`, () => {
 		const occ = occupations[soc];
@@ -1342,3 +1343,14 @@ for (const [soc, [median, employment, outlook, change, p10, p90]] of Object.entr
 		assert.equal(occ.publishedDate, '2026-08-27', `${soc} source revision`);
 	});
 }
+
+test('spot check: Farmers, Ranchers, and Other Agricultural Managers (11-9013) matches BLS OOH page', () => {
+	const occ = occupations['11-9013'];
+	assert.equal(occ.title, 'Farmers, Ranchers, and Other Agricultural Managers');
+	assert.equal(occ.medianAnnual, 89900);
+	assert.equal(occ.medianHourly, 43.22);
+	assert.deepEqual(occ.percentiles, { p10: 54320, p90: 160020 });
+	assert.equal(occ.entryEducation, 'High school diploma or equivalent');
+	assert.equal(occ.industryWages.length, 0);
+	assert.equal(occ.sourceUrl, 'https://www.bls.gov/ooh/management/farmers-ranchers-and-other-agricultural-managers.htm');
+});
