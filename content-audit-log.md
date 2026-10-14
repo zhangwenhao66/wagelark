@@ -2560,3 +2560,14 @@
   "build": "npm run build 通过（见提交记录）"
 }
 ```
+
+
+## PAA-FAQ批强(daily-task, 2026-10-14)
+
+run-id=20261014T1100 site=wagelark
+
+在消防员薪酬、软件工程师薪酬与兽医职业取舍三页新增四条英文FAQ。处理slug为firefighter-salary、why-do-software-engineers-make-so-much、is-becoming-a-vet-worth-it。十九个问法因正文已覆盖、主题不符或当前来源不足而拒绝，逐问证据保存在本轮运行目录。
+
+每条新增后及提交前均接受check_prose_patterns.py检查。兽医年龄回答的新增重合已改写清零，三页最终检查均退出0，构建97页成功。英文humanizer和avoid-ai-writing审核完成，正式中文内部记录检查退出0，本次未对外增加中文FAQ。root已独立复核四条问答及拒绝判定。
+
+内容提交4b01ce2ad0b8c450ce39098788fe84b13bf64aec已合入远端main。Cloudflare生产部署e55cd1db-4f59-4ac0-8f8b-65fbe233f1b4对应同一内容SHA，deploy阶段success。三页的四条新增问题和完整回答均在wagelark.com及该部署域绕缓存验证成功，全部HTTP200。工作树和原checkout隔离，付费请求与邮件外发均为0。
