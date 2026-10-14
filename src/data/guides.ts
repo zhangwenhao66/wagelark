@@ -1921,6 +1921,14 @@ export const guides: Guide[] = [
 				question: 'Is firefighting a growing occupation?',
 				answer: "Yes, modestly: firefighting employment is on track to grow 4% between 2025 and 2035, per BLS, a pace BLS treats as roughly in line with the broader job market's growth rate. Expect roughly 13,100 net new jobs and somewhere near 26,800 yearly openings over that stretch, most of them created by workers retiring or transferring out rather than by roles that did not exist before.",
 			},
+			{
+				question: "Do firefighters in California make good money?",
+				answer: "Pay depends on the department. As one California example, the [Los Angeles Fire Department](https://www.joinlafd.org/salary-and-benefits) lists a salary range of $87,883 to $128,286 on its recruiting page, checked October 14, 2026. That is a local pay scale, not a statewide average or a measure of how far the paycheck goes.",
+			},
+			{
+				question: "Is 27 too late to be a firefighter?",
+				answer: "At 27, you meet the age rule for some departments. [LAFD](https://www.joinlafd.org/qualifications-and-selection-process) accepts applications from adults 18 and older and sets no maximum age. Its selection process still includes fitness testing, medical screening and other qualifications. Check the hiring rules of the department you want to join.",
+			},
 		],
 		sources: [
 			{ label: 'BLS OEWS FAQ: wage coverage and separate Employment Projections counts (checked 2026-10-12)', url: 'https://www.bls.gov/oes/oes_ques.htm' },
@@ -6801,6 +6809,10 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				question: 'Does the software developer median include stock or equity pay?',
 				answer: 'No. The survey measures wages as employers report them, and its definitions leave out stock awards, overtime and bonuses that are not tied to production. Equity-heavy offers therefore do not show up in the $135,980 figure.',
 			},
+			{
+				question: "What does a software engineer do daily?",
+				answer: "Tasks change with the project. The [BLS duties profile](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm) covers finding out what users need, planning how software components fit together, and documenting the system. Work after release includes testing and maintenance. Some developers write the code themselves; others coordinate with programmers.",
+			},
 		],
 		sources: [
 			{ label: 'BLS Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers (re-verified 2026-10-12 against the page as last modified August 27, 2026; wage, percentile, comparison-table, employment and industry-share figures from May 2025, growth figures from the 2025-35 projections table on the same page)', url: 'https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm' },
@@ -7044,6 +7056,10 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			{
 				question: 'What type of veterinarian gets paid the most?',
 				answer: 'BLS does not publish wages by veterinary specialty, so there is no official ranking of, say, surgeons against general practitioners. Its industry breakdown puts social advocacy groups at the top, $131,760, and every other industry BLS lists below $130,000. Practice ownership is the larger variable in the same data, because the wage survey behind those medians leaves out self-employed veterinarians, a group BLS puts at 7% of the occupation.',
+			},
+			{
+				question: "Is 27 too late to become a vet?",
+				answer: "Older applicants do enter veterinary school. [UC Davis reported](https://magazine.vetmed.ucdavis.edu/news-article-fall-2024/welcoming-class-of-2028) that its incoming DVM class of 2028 included students aged 19 to 43. That example puts 27 within the range of an admitted class, but cannot predict whether you will get a place or recoup the cost. Compare the time and borrowing your own route would require before applying.",
 			},
 		],
 		sources: [
