@@ -7075,7 +7075,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		slug: 'is-being-a-lineman-dangerous',
 		category: 'Career Guide',
 		title: 'Is Being a Lineman Dangerous? BLS Rates by Year',
-		description: 'BLS listed power-line installers among the occupations with high fatal injury rates every year from 2011 to 2015. Here are the rates and the causes.',
+		description: 'Is lineman work dangerous? BLS put power-line installers among the occupations with high fatal injury rates in every year from 2011 to 2015, and counted 131 deaths.',
 		published: '2026-10-16',
 		updated: '2026-10-16',
 		socCode: '49-9051',
