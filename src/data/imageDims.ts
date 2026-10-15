@@ -159,6 +159,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/is-becoming-a-vet-worth-it.svg": {
+  "h": 300,
+  "w": 640
+ },
  "/images/lawyer-education-path.svg": {
   "h": 360,
   "w": 640
@@ -169,6 +173,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
  },
  "/images/lineman-apprenticeship-path.svg": {
   "h": 380,
+  "w": 640
+ },
+ "/images/lineman-fatality-rate-chart.svg": {
+  "h": 240,
   "w": 640
  },
  "/images/lpn-salary-chart.svg": {

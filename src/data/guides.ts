@@ -2054,6 +2054,7 @@ export const guides: Guide[] = [
 				body: [
 					'BLS projects 4% employment growth for truck drivers from 2025 to 2035, adding an estimated 83,800 jobs and about 214,500 openings a year on average. As with most occupations BLS tracks, it attributes many of those annual openings to the need to replace workers who transfer to other occupations or leave the labor force entirely, such as to retire, rather than to newly created positions alone. BLS ties underlying demand to growth in household and business spending, since trucks move most of the freight in the United States.',
 					'BLS also flags that heavy and tractor-trailer truck drivers have one of the highest rates of injuries and illnesses of all occupations, along with one of the highest rates of occupational fatalities, tied to the risk of traffic accidents. Federal Motor Carrier Safety Administration rules, which BLS cites directly, normally prohibit driving beyond the 14th consecutive hour after coming on duty, after 10 consecutive hours off, and allow at most 11 driving hours within that window. A 30-minute interruption is required after 8 cumulative driving hours without such a break. Driving is also prohibited after 60 hours on duty in 7 days or 70 in 8 days. A driver may restart that 7- or 8-day period with at least 34 consecutive hours off; a restart is optional. FMCSA lists separate sleeper-berth provisions and exceptions, including adverse conditions and short-haul operations.',
+					'The bureau publishes the same injury and fatality series for other occupations it tracks. Electrical power-line work is broken down year by year on the [lineman danger guide](/is-being-a-lineman-dangerous/), which puts that trade beside the national figures for the same period.',
 					"These are national figures, and BLS does not break them down by specific carrier, freight lane, or region. A driver comparing training programs would need to weigh the placement record and freight demand of that specific school or carrier separately, since the 4% outlook describes the occupation nationwide rather than any one route or employer.",
 				],
 			},
@@ -6877,7 +6878,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				heading: 'Where the rest of the firefighter material lives',
 				body: [
 					'Within this site, the same occupation is broken out by percentile and by employer type on the [firefighter salary](/firefighter-salary/) page, which carries the wage table in full. BLS also classifies the typical entry-level education for this occupation as a postsecondary nondegree award.',
-					'For a neighboring occupation on a shorter entry path, the guide to [becoming a paramedic](/how-to-become-a-paramedic/) covers the credential tiers and the paramedic-specific pay figure. For the wider national picture, the [salary statistics](/salary-statistics-2026/) overview compiles figures across roughly 830 tracked occupations and documents its own methodology.',
+					'For a neighboring occupation on a shorter entry path, the guide to [becoming a paramedic](/how-to-become-a-paramedic/) covers the credential tiers and the paramedic-specific pay figure. For the wider national picture, the [salary statistics](/salary-statistics-2026/) overview compiles figures across roughly 830 tracked occupations and documents its own methodology. One more occupation in the same BLS data carries a fatal injury rate well above the national average, and the [lineman risk breakdown](/is-being-a-lineman-dangerous/) sets out the yearly numbers.',
 				],
 			},
 		],
@@ -7069,5 +7070,87 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		],
 		image: '/images/is-becoming-a-vet-worth-it.svg',
 		imageAlt: 'Bar chart of veterinarian annual wages by percentile from BLS May 2025 data: 10th percentile $73,920, median $130,100 and 90th percentile $215,700, with a marker at the $185,424 average veterinary-school debt reported by the AVMA for the class of 2026.',
+	},
+	{
+		slug: 'is-being-a-lineman-dangerous',
+		category: 'Career Guide',
+		title: 'Is Being a Lineman Dangerous? BLS Rates by Year',
+		description: 'BLS listed power-line installers among the occupations with high fatal injury rates every year from 2011 to 2015. Here are the rates and the causes.',
+		published: '2026-10-16',
+		updated: '2026-10-16',
+		socCode: '49-9051',
+		coreSummary: 'Is being a lineman dangerous? BLS counted electrical power-line installers and repairers among the civilian occupations with high fatal work injury rates in every year from 2011 to 2015: 19.5, 23.9, 21.5, 19.2 and 20.5 deaths per 100,000 full-time equivalent workers, against a range of 3.3 to 3.5 for all US occupations. Contact with live electricity caused 62 of the occupation\'s 131 deaths over that period.',
+		sections: [
+			{
+				heading: 'What BLS recorded, year by year',
+				body: [
+					'The question has a published answer, and it is not one number. In February 2018 the Bureau of Labor Statistics devoted a Monthly Labor Review article to injuries and illnesses among line installers and repairers, covering 2011 through 2015. The analysis draws on two separate BLS systems: the Census of Fatal Occupational Injuries, which is a complete count built from death certificates, workers compensation records and reports to federal and state agencies, and the Survey of Occupational Injuries and Illnesses, which estimates nonfatal cases requiring at least one day away from work from what employers report.',
+					'BLS found that electrical power-line installers and repairers appeared on the agency\'s annual list of the civilian occupations with high fatal work injury rates in every one of those five years. The agency states the list plainly: "Each year, BLS lists 10 civilian occupations with high fatal-work-injury rates." Their fatal work injury rate per 100,000 full-time equivalent workers was 19.5 in 2011, 23.9 in 2012, 21.5 in 2013, 19.2 in 2014 and 20.5 in 2015. Across the same years the rate for all workers combined ranged from 3.3 to 3.5. In every one of the five years the trade\'s rate was more than five times the all-worker figure.',
+					'In counts rather than rates, the occupation recorded 131 fatal work injuries over the five years. BLS tracks the telecommunications line trade separately under a different code, and adding it brought the two line installer occupations to 201 deaths, close to 40 a year. The agency notes that the annual count for the power-line side stayed fairly steady, while the telecommunications side ranged from 10 deaths in 2012 to 19 in 2014. That window is also where the detail stops. The bureau\'s 2024 fatality release reports the year by broad occupational group rather than by individual occupation, and this page could not verify a newer occupation-level rate series for the trade than the 2011 to 2015 one.',
+				],
+				image: {
+					src: '/images/lineman-fatality-rate-chart.svg',
+					alt: 'Chart of the fatal work injury rate for electrical power-line installers and repairers from 2011 to 2015 per 100,000 full-time equivalent workers, ranging from 19.2 to 23.9, with a dashed reference line marking the 3.3 to 3.5 range for all US occupations.',
+				},
+			},
+			{
+				heading: 'The two line trades next to everyone else',
+				body: [
+					'Because BLS collected all of this in the same release, the trade can be placed next to its nearest relative and to the workforce as a whole on identical measures. Every figure in the table below is one the agency published; none is recalculated.',
+					'<div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;font-size:0.9rem;min-width:660px;"><thead><tr><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">Measure</th><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">Electrical power-line installers</th><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">Telecommunications line installers</th><th style="text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);">All occupations</th></tr></thead><tbody><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Fatal work injury rate, per 100,000 full-time equivalent workers, all ownerships (2011 to 2015)</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">19.5, 23.9, 21.5, 19.2, 20.5</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">7.9 in 2013 and 10.0 in 2014, the only years that analysis reports a rate for</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">3.3 to 3.5</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Nonfatal injury and illness rate, per 10,000 full-time equivalent workers, private industry (2011 to 2015)</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">211.3, 167.5, 202.9, 182.2, 173.9</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">217.2, 227.5, 386.9, 350.1, 411.3</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">104.3, 101.9, 99.9, 97.8, 93.9</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Median days away from work, private industry, 2015</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">20</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">42</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">8</td></tr><tr><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">Cases lasting 31 or more days, share of total, private industry, 2015</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">44.3%</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">55.3%</td><td style="padding:8px 10px;border-bottom:1px solid var(--rule);">28.6%</td></tr></tbody></table></div>',
+					'The pattern is not the same on every measure. For fatal injuries the power-line trade sits well above both comparison groups. Nonfatal injury and illness rates tell a different story: the two line trades started close together and then diverged, with the telecommunications side climbing to 386.9 per 10,000 workers in 2013 while the power-line side was 202.9 that same year. On how long an injury keeps someone off the job, the telecommunications trade is the harsher of the two, at a median of 42 days, where the power-line median was 20.',
+					'The same 2015 table reports how much of the harm was serious. Just under 29% of all occupational injury cases lasted 31 days or more, against 44.3% of cases in the power-line trade and 55.3% in the telecommunications trade.',
+				],
+			},
+			{
+				heading: 'Live wires, the road, and falls',
+				body: [
+					'The bureau summary of the work itself is direct: electrical power-line installers and repairers "encounter serious hazards on the job, including working with high-voltage electricity, often at great heights." Exposure to electricity is the leading cause of death in this occupation. It accounted for 62 of the 131 deaths between 2011 and 2015, close to half, while causing only 3% of fatal work injuries across all occupations in the same period. On the telecommunications side the same exposure caused 13 of 70 deaths.',
+					'Transportation incidents are the second leading cause, with 58 deaths across the two trades. That is about 30% of the power-line deaths and 27% of the telecommunications deaths, both below the 41% share such incidents represent among all workers who died. Within the group, 20 deaths involved a roadway collision with a second vehicle, 33 of the workers killed were driving and 9 were passengers.',
+					'Falls come third. Across the two line installer trades, 43 workers died in falls to a lower level. Ladders account for 35% of those falls and towers or poles for another 33%. More than two-fifths of the line installer fatal falls were from 30 feet or higher, compared with about one-fifth of fatal falls for occupations overall.',
+					'The 72 fatal electrocutions recorded across both line installer occupations amount to one-tenth of every fatal electrocution counted among US workers in those five years.',
+				],
+			},
+			{
+				heading: 'Why the figures in circulation do not line up',
+				body: [
+					'The figures that circulate for this question are single years, and they come from different vintages. A blog on the site of R&R Lotion, a skincare brand, states that electrical power-line installers and repairers have a fatality rate of 20.3 per 100,000 full-time workers and cites 2019, when it says the occupation recorded 29 fatal injuries. A page published by Bailey, Javins and Carter, a personal injury firm, gives approximately 21 lineman deaths per 100,000 workers, without naming a year or pointing to the underlying figure. A 2021 feature in Claims Journal, an insurance trade publication, works from 2018 data, when it reports 29 deaths and a fatal injury rate of 19.3 per 100,000, set against 14 for police officers and 13 for construction workers that year.',
+					'None of those figures is necessarily wrong. The differences appear to come from which year each one picked, at least where a year is stated, and a single year is a thin basis for a question about risk, because annual death counts for one occupation are small enough to swing.',
+					'The Google AI Overview shown for this query when it was checked on 2026-10-15 takes the widest approach, stating that the fatality rate for lineworkers is nearly 400% higher than the national average and putting deaths at about 26 to 42 a year. It also states that linemen face a non-fatal injury rate of 104.6 per 10,000 full-time workers. That last figure does not match what BLS published for this occupation. The nonfatal injury and illness rate for electrical power-line installers ranged from 167.5 to 211.3 per 10,000 workers across those five years, and 104.3 was BLS\'s figure for all occupations combined in 2011. BLS publishes the underlying figures in full, so the series is the version to check a summary against.',
+					'For completeness on the pay side, BLS puts the median annual wage for electrical power-line installers and repairers at $95,320 in May 2025, with the lowest 10% earning under $51,470 and the highest 10% earning over $128,690. Those numbers come from the Occupational Employment and Wage Statistics survey, a third BLS program separate from both injury systems, and they carry no information about risk.',
+					'For the route into the trade, this site\'s guide to [becoming a lineman](/how-to-become-a-lineman/) sets out the apprenticeship requirements and the commercial license step. [Electrician pay](/electrician-salary/) covers a related trade in the same broad family, and [firefighter pay](/firefighter-salary/) covers another occupation this site tracks with its own BLS wage, outlook and employment figures.',
+				],
+			},
+		],
+		faq: [
+			{
+				question: 'Is being a lineman dangerous?',
+				answer: 'The published record says yes. Linework of this kind sat between 19.2 and 23.9 per 100,000 FTE workers across the 2011 to 2015 window, while the figure for every occupation combined stayed between 3.3 and 3.5. Electrocution was the single biggest killer, accounting for 62 of the trade\'s 131 deaths in those years, with falls and road crashes behind most of the others.',
+			},
+			{
+				question: 'What are the top 3 dangerous jobs?',
+				answer: 'BLS does not rank occupations three at a time. It names the highest-rate civilian jobs once a year, and the membership shifts; the power-line occupation made the list in all five years the analysis covered. For scale, the agency reported that transportation and material moving occupations had the most deaths of any group in 2024, at 1,391.',
+			},
+			{
+				question: 'What is the life of a lineman like?',
+				answer: 'BLS describes work outdoors in every kind of weather, including the rain and wind that follow the storms crews are sent to repair. The job involves driving utility vehicles, and crews on interstate grids may cover long distances; after a disaster they can be sent away from home for days of long shifts. The agency lists physical stamina, physical strength, color vision and problem solving among the qualities the work demands, alongside the ability to work at heights.',
+			},
+			{
+				question: 'How many linemen die each year?',
+				answer: 'BLS counted 131 deaths in this trade across 2011 to 2015, about 26 a year on average. Counting both line trades brings the total to 201, or roughly 40 a year. A single year of deaths in a trade this size moves around a good deal.',
+			},
+			{
+				question: 'Do linemen die from falls or from electricity?',
+				answer: 'Electric shocks are the biggest single cause, killing 62 of the 131 workers who died in the power-line occupation over those five years. Falls cost 43 lives across both line trades, and road incidents 58.',
+			},
+		],
+		sources: [
+			{ label: 'BLS Monthly Labor Review: Workplace hazards facing line installers and repairers (February 2018; read 2026-10-16; source of the 2011 to 2015 CFOI and SOII figures for both line installer occupations, including rates, counts, causes and injury severity).', url: 'https://www.bls.gov/opub/mlr/2018/article/pdf/workplace-hazards-facing-line-installers-and-repairers.pdf' },
+			{ label: 'BLS Occupational Outlook Handbook: Electrical Power-Line Installers and Repairers (checked 2026-10-16; page last modified August 27, 2026; May 2025 median wage, percentiles, employment, outlook and the Work Environment summary).', url: 'https://www.bls.gov/ooh/installation-maintenance-and-repair/line-installers-and-repairers.htm' },
+			{ label: 'BLS Census of Fatal Occupational Injuries, 2024 news release, USDL-26-0230, released February 19, 2026 (checked 2026-10-16; used for the 2024 national figure and the transportation and material moving comparison).', url: 'https://www.bls.gov/news.release/cfoi.nr0.htm' },
+			{ label: 'BLS Injuries, Illnesses, and Fatalities: Dangerous jobs (page last modified March 28, 2018; read 2026-10-16; explains how fatal injury rates are calculated and why the agency declines to rank occupations as most dangerous).', url: 'https://www.bls.gov/iif/overview/dangerous-jobs.htm' },
+		],
+		image: '/images/lineman-fatality-rate-chart.svg',
+		imageAlt: 'Bar chart of the fatal work injury rate for electrical power-line installers and repairers from 2011 to 2015 per 100,000 full-time equivalent workers: 19.5 in 2011, 23.9 in 2012, 21.5 in 2013, 19.2 in 2014 and 20.5 in 2015, shown against a reference line for the 3.3 to 3.5 range recorded for all US occupations in the same years.',
 	},
 ];
