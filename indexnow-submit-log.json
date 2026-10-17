@@ -615,5 +615,11 @@
     "last_submitted_date": "2026-10-13",
     "verified_status": "pending",
     "note": "[{\"urls\":[\"https://wagelark.com/is-becoming-a-vet-worth-it/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":false,\"status\":null,\"error\":\"timeout/error\"}]}]"
+  },
+  "https://wagelark.com/lpn-vs-rn-salary/": {
+    "submitted_date": "2026-10-17",
+    "last_submitted_date": "2026-10-17",
+    "verified_status": "pending",
+    "note": "[{\"urls\":[\"https://wagelark.com/lpn-vs-rn-salary/\"],\"results\":[{\"endpoint\":\"Bing\",\"accepted\":true,\"status\":200},{\"endpoint\":\"Yandex\",\"accepted\":true,\"status\":200}]}]"
   }
 }
