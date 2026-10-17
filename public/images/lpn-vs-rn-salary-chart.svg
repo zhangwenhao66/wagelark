@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" font-family="Arial, sans-serif">
+	<rect x="0" y="0" width="640" height="330" fill="white" />
+	<text x="20" y="30" font-size="16" font-weight="700" fill="#14273f">Registered Nurses vs. LPNs: Annual Wage by Percentile</text>
+	<rect x="20" y="44" width="12" height="12" fill="#14273f" /><text x="38" y="55" font-size="13" fill="#14212e">Registered nurses</text>
+	<rect x="170" y="44" width="12" height="12" fill="#0f8b7f" /><text x="188" y="55" font-size="13" fill="#14212e">LPNs</text>
+	<text x="20" y="86" font-size="14" font-weight="700" fill="#14212e">10th percentile</text>
+	<rect x="20" y="94" width="165.5" height="22" fill="#14273f" />
+	<text x="193.5" y="110" font-size="14" font-weight="700" fill="#14273f">$68,940</text>
+	<rect x="20" y="120" width="119.4" height="22" fill="#0f8b7f" />
+	<text x="147.4" y="136" font-size="14" font-weight="700" fill="#14273f">$49,740</text>
+	<text x="20" y="168" font-size="14" font-weight="700" fill="#14212e">Median</text>
+	<rect x="20" y="176" width="234.2" height="22" fill="#14273f" />
+	<text x="262.2" y="192" font-size="14" font-weight="700" fill="#14273f">$97,550</text>
+	<rect x="20" y="202" width="154.6" height="22" fill="#0f8b7f" />
+	<text x="182.6" y="218" font-size="14" font-weight="700" fill="#14273f">$64,400</text>
+	<text x="20" y="250" font-size="14" font-weight="700" fill="#14212e">90th percentile</text>
+	<rect x="20" y="258" width="330.0" height="22" fill="#14273f" />
+	<text x="358.0" y="274" font-size="14" font-weight="700" fill="#14273f">$137,470</text>
+	<rect x="20" y="284" width="200.3" height="22" fill="#0f8b7f" />
+	<text x="228.3" y="300" font-size="14" font-weight="700" fill="#14273f">$83,440</text>
+	<text x="20" y="322" font-size="12" fill="#14212e" opacity="0.55">Source: U.S. Bureau of Labor Statistics, May 2025 (national)</text>
+</svg>

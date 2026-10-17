@@ -183,6 +183,10 @@ export const IMAGE_DIMS: Record<string, { w: number; h: number }> = {
   "h": 240,
   "w": 640
  },
+ "/images/lpn-vs-rn-salary-chart.svg": {
+  "h": 330,
+  "w": 640
+ },
  "/images/massage-therapist-salary-chart.svg": {
   "h": 240,
   "w": 640

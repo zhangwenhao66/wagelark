@@ -2462,7 +2462,7 @@ export const guides: Guide[] = [
 				heading: 'The "2-year" associate degree is usually a 4-year timeline',
 				body: [
 					'Per the Bureau of Labor Statistics Occupational Outlook Handbook, registered nurses usually take one of three education paths: a bachelor of science in nursing (BSN), an associate\'s degree in nursing (ADN) or associate of science in nursing (ASN), or a diploma from a hospital-based program. All three include supervised clinical experience alongside classroom coursework in subjects such as anatomy, physiology, microbiology, and social and behavioral sciences.',
-					'The part that surprises a lot of people planning this out: BLS describes the ADN and ASN, credentials most people think of as a 2-year degree, as typically taking about 4 years to complete, the same figure BLS gives for a BSN. BLS does not explain why it gives this four-year estimate. Schools may require science prerequisites before nursing coursework, but their own calendars determine the actual sequence; this article cannot attribute the agency estimate to that explanation. A diploma program, offered by hospitals or medical centers rather than colleges, typically runs 2 to 3 years, but BLS notes there are far fewer diploma programs left than there are BSN, ADN, or ASN programs.',
+					'The part that surprises a lot of people planning this out: BLS describes the ADN and ASN, credentials most people think of as a 2-year degree, as typically taking about 4 years to complete, the same figure BLS gives for a BSN. BLS does not explain why it gives this four-year estimate. Schools may require science prerequisites before nursing coursework, but their own calendars determine the actual sequence; this article cannot attribute the agency estimate to that explanation. A diploma program, offered by hospitals or medical centers rather than colleges, typically runs 2 to 3 years, but BLS notes there are far fewer diploma programs left than there are BSN, ADN, or ASN programs. For comparison, BLS lists a postsecondary nondegree award, typically about a year, as the usual LPN entry path, and the [LPN vs RN salary comparison](/lpn-vs-rn-salary/) sets that against the pay gap.',
 					"Getting into a program in the first place is a separate hurdle from the timeline itself, and BLS's Occupational Outlook Handbook doesn't cover admissions criteria. Per NurseJournal, an established nursing-education resource, requirements vary by program type and how competitive a given school is: associate degree (ADN) programs typically set a GPA floor between 2.0 and 2.75, though more competitive ones look for 2.5 to 3.5, while bachelor's (BSN) programs generally set a 3.0 minimum, with more selective schools expecting 3.25 or higher. Programs commonly weigh grades in prerequisite science courses, such as anatomy and microbiology, separately from overall GPA, so a strong overall record paired with weak science grades doesn't carry the same weight as consistent performance across both. Some programs also require a standardized entrance exam, the TEAS or HESI, though a number of accredited programs have dropped that requirement in favor of weighing GPA, essays, and interviews instead.",
 				],
 			},
@@ -6106,7 +6106,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 			{
 				heading: 'What LPNs earn, and the one-year program BLS lists as the entry path',
 				body: [
-					"The Bureau of Labor Statistics tracks this occupation under SOC code 29-2061, covering both licensed practical nurses (LPNs) and licensed vocational nurses (LVNs), two titles for the same role that vary by which state a nurse works in. For May 2025, BLS reported a median annual wage of $64,400, or $30.96 an hour. The bottom 10% of earners made less than $49,740 a year, while the top 10% made more than $83,440, a spread of roughly $33,700.",
+					"The Bureau of Labor Statistics tracks this occupation under SOC code 29-2061, covering both licensed practical nurses (LPNs) and licensed vocational nurses (LVNs), two titles for the same role that vary by which state a nurse works in. For May 2025, BLS reported a median annual wage of $64,400, or $30.96 an hour. The bottom 10% of earners made less than $49,740 a year, while the top 10% made more than $83,440, a spread of roughly $33,700. The same BLS year puts the registered nurse median at $97,550, and the [LPN vs RN salary comparison](/lpn-vs-rn-salary/) lays the two side by side.",
 					"BLS lists a postsecondary nondegree award as the typical entry-level education, earned through a state-approved certificate or diploma program that typically takes about a year, commonly offered at community colleges and technical schools, including some high schools. After finishing the program, a candidate must pass a licensing exam to enter the occupation; BLS does not name a single national exam on this page, pointing instead to CareerOneStop for state-by-state licensing board requirements.",
 					'This wage picture is built from employer payroll records, not from what LPNs and LVNs report earning themselves, since BLS\'s Occupational Employment and Wage Statistics survey collects its figures directly from businesses and government agencies. The separate Employment Projections program counted about 666,900 LPN and LVN jobs nationally in 2025; that headcount is not the OEWS wage-survey count.',
 				],
@@ -6507,7 +6507,7 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 				],
 			},
 			{
-				heading: 'Where the two pay ranges overlap',
+				heading: 'Where RN and LPN pay ranges meet',
 				body: [
 					'A median compares the middle of each group and hides how many people fall in the other group\'s range. The 10th percentile for dentists was $89,100 in May 2025, and BLS says the lowest-paid tenth earned less than that. Hygienists had a median of $98,100, so a dentist in the bottom tenth earned about $9,000 less than the typical hygienist. The overlap shows from the other side too: a hygienist at the 90th percentile, above $126,050, earned more than the $89,100 mark that separates the lowest-paid tenth of dentists from the rest.',
 					'The spread inside each job is very different. Dentists range from under $89,100 to over $337,210 between the 10th and 90th percentiles, a gap of $248,110. Hygienists range from under $74,880 to over $126,050, a gap of $51,170, about one-fifth as wide. A hygienist\'s pay is bunched close to the median. A dentist\'s pay moves a lot more, and BLS says dentist wages vary with location, hours worked, specialty, and years in practice.',
@@ -7152,5 +7152,85 @@ answer: "For the May 2025 BLS data, the annual median was $55,010, equivalent to
 		],
 		image: '/images/lineman-fatality-rate-chart.svg',
 		imageAlt: 'Bar chart of the fatal work injury rate for electrical power-line installers and repairers from 2011 to 2015 per 100,000 full-time equivalent workers: 19.5 in 2011, 23.9 in 2012, 21.5 in 2013, 19.2 in 2014 and 20.5 in 2015, shown against a reference line for the 3.3 to 3.5 range recorded for all US occupations in the same years.',
+	},
+	{
+		slug: 'lpn-vs-rn-salary',
+		category: 'Salary Guide',
+		title: "LPN vs RN Salary: BLS Pay Gap by Workplace",
+		description: "BLS puts the RN median at $97,550 and the LPN median at $64,400 for May 2025, yet in nursing and residential care the gap shrinks to about 1.2 times.",
+		published: '2026-10-18',
+		updated: '2026-10-18',
+		coreSummary: "LPN salary vs RN salary, per the U.S. Bureau of Labor Statistics for May 2025: registered nurses earned a median of $97,550 and LPNs $64,400, a gap of $33,150 a year. The gap depends on the workplace, about 1.6 times in government and hospitals but about 1.24 times in nursing and residential care facilities. The ranges overlap, since the lowest-paid tenth of RNs earned less than $68,940 and the highest-paid tenth of LPNs more than $83,440.",
+		sections: [
+			{
+				heading: "LPN salary vs RN: the BLS numbers side by side",
+				body: [
+					"The Bureau of Labor Statistics reports a median annual wage of $97,550 for registered nurses (RNs) and $64,400 for licensed practical and licensed vocational nurses (LPNs) in May 2025. That is a gap of $33,150 a year, or about 51% more for the RN. By the hour the medians are $46.90 and $30.96. For context, BLS gives $50,980 as the median for all U.S. occupations, so the RN median is about 1.9 times the national middle and the LPN median about 1.3 times.",
+					"<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.9rem;min-width:520px;\"><thead><tr><th style=\"text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);\">Measure, May 2025</th><th style=\"text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);\">Registered nurses</th><th style=\"text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);\">LPNs</th><th style=\"text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);\">RN minus LPN</th></tr></thead><tbody><tr><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);\">Median hourly wage</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$46.90</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$30.96</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$15.94</td></tr><tr><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);\">10th percentile (annual)</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$68,940</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$49,740</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$19,200</td></tr><tr><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);\">Median (annual)</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$97,550</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$64,400</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$33,150</td></tr><tr><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);\">90th percentile (annual)</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$137,470</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$83,440</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$54,030</td></tr><tr><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);\">Jobs, 2025</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">3,465,400</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">666,900</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">2,798,500</td></tr></tbody></table></div>",
+					"The gap also changes along the pay scale. It is $19,200 at the 10th percentile, $33,150 at the median and $54,030 at the 90th percentile, so the better-paid RNs pull further away from the LPN scale. BLS's job counts work out to about 5.2 RN jobs for every LPN job."
+				],
+				image: {
+					src: "/images/lpn-vs-rn-salary-chart.svg",
+					alt: "Grouped bar chart comparing registered nurse and LPN annual wages by percentile, May 2025 BLS data: 10th percentile $68,940 vs $49,740, median $97,550 vs $64,400, 90th percentile $137,470 vs $83,440."
+				}
+			},
+			{
+				heading: "Same workplace, different gap",
+				body: [
+					"The national median hides where each nurse works. BLS lists median wages for some of the top industries for each job, and three of them appear for both RNs and LPNs. Putting them next to each other shows that the RN advantage differs by setting.",
+					"<div style=\"overflow-x:auto;\"><table style=\"width:100%;border-collapse:collapse;font-size:0.9rem;min-width:600px;\"><thead><tr><th style=\"text-align:left;padding:8px 10px;border-bottom:2px solid var(--ink);\">Where they work (median annual wage)</th><th style=\"text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);\">Registered nurses</th><th style=\"text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);\">LPNs</th><th style=\"text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);\">RN minus LPN</th><th style=\"text-align:right;padding:8px 10px;border-bottom:2px solid var(--ink);\">RN ÷ LPN</th></tr></thead><tbody><tr><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);\">Government, excluding state and local education and hospitals</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$110,780</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$68,970</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$41,810</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">1.61</td></tr><tr><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);\">Hospitals; state, local, and private</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$100,220</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$61,160</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$39,060</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">1.64</td></tr><tr><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);\">Nursing and residential care facilities</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$84,300</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$68,020</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">$16,280</td><td style=\"padding:8px 10px;border-bottom:1px solid var(--rule);text-align:right;\">1.24</td></tr></tbody></table></div>",
+					"In government and in hospitals the RN median is about 1.6 times the LPN median. In nursing and residential care facilities it is about 1.24 times, a gap of $16,280, which is under half of the national $33,150. LPNs earned $68,020 in those facilities, $3,620 above the LPN national median, while RNs earned $84,300, $13,250 below the RN national median. For LPNs, then, a nursing care facility pays above the national middle, and for RNs it pays below it.",
+					"BLS lists other industries for each job that do not pair up. RNs are shown in ambulatory healthcare services ($91,230) and educational services ($78,620), and LPNs in home healthcare services ($63,580) and offices of physicians ($59,520). Those rows are not matched on purpose: BLS names broader and narrower industry groups for the two jobs, so subtracting them would compare different things. BLS says these are \"some of the top industries\" for each job, not every industry."
+				]
+			},
+			{
+				heading: "Where RN and LPN pay ranges meet",
+				body: [
+					"Medians compare the middle of two groups, but the ranges touch. The lowest-paid tenth of RNs earned less than $68,940, which is $4,540 above the LPN median of $64,400. In the other direction, the highest-paid tenth of LPNs earned more than $83,440, which is $14,110 below the RN median of $97,550. So the RN median is above the LPN 90th-percentile wage, and the RN 10th-percentile wage is above the LPN median. Even so, the LPN 90th-percentile wage sits above the RN 10th-percentile wage, which means some LPNs earn more than some RNs.",
+					"One detail shows how close the scales sit in places. The median LPN in government earned $68,970, which is $30 more than the $68,940 line under which the lowest-paid tenth of all RNs fall. The spread is also different. RN pay runs $68,530 from the 10th to the 90th percentile, about twice the $33,700 spread for LPNs. This article uses only national figures, with no split by state, shift or years of experience, so a particular nurse's pay can sit well above or below them."
+				]
+			},
+			{
+				heading: "Schooling, jobs and outlook",
+				body: [
+					"BLS lists a postsecondary nondegree award as the typical entry-level education for LPNs and a bachelor's degree for RNs, with no work experience in a related occupation required for either. Read together with the pay figures, the LPN route asks for a shorter program and the RN route for a longer degree. This site's [guide to how long nursing school takes](/how-long-is-nursing-school/) covers the time involved, and the [LPN salary guide](/lpn-salary/) has the LPN percentile and industry detail in one place.",
+					"BLS projects RN employment to grow 6% from 2025 to 2035, adding about 194,700 jobs, and LPN employment to grow 3%, adding about 19,700 jobs. The RN figure is roughly ten times the LPN figure in jobs added, and the RN workforce starts about five times larger. For two higher-paid nursing roles that BLS reports separately, see the [nurse practitioner salary](/nurse-practitioner-salary/) and [CRNA salary](/crna-salary/) pages."
+				]
+			}
+		],
+		faq: [
+			{
+				question: "Who makes more money, an LPN or an RN?",
+				answer: "The RN, on a typical paycheck. By BLS data, a registered nurse's middle-of-the-pack annual pay was $97,550 in May 2025 against $64,400 for an LPN, so $33,150 apart. Individual outcomes cross over, though: an LPN near the top of the scale can out-earn an RN near the bottom."
+			},
+			{
+				question: "How much do LPNs make?",
+				answer: "Half of LPNs were paid under $30.96 an hour, or $64,400 a year, in the May 2025 BLS data. The bottom tenth took in under $49,740, and the top tenth topped $83,440. Government was the best-paying listed industry for LPNs and doctors' offices the lowest."
+			},
+			{
+				question: "How much more per hour does an RN make than an LPN?",
+				answer: "About $15.94 an hour at the median, since BLS lists $46.90 for RNs and $30.96 for LPNs. In rate terms that is roughly one and a half times the LPN wage."
+			},
+			{
+				question: "Is the pay gap between LPNs and RNs the same in every workplace?",
+				answer: "No, it varies a lot. Government agencies and hospitals show an RN premium near 60%, while the residential and nursing facility group shows only about 24%, or $16,280, according to the three workplaces BLS reports for both jobs."
+			},
+			{
+				question: "Can an LPN earn more than an RN?",
+				answer: "BLS medians describe groups rather than people, but the two pay scales share ground, because the best-paid LPNs took home more than the worst-paid RNs did. For a typical nurse in each job, the RN still comes out ahead."
+			}
+		],
+		sources: [
+			{
+				label: "BLS Occupational Outlook Handbook: Registered Nurses (read 2026-10-18; May 2025 pay data, job outlook 2025-35)",
+				url: "https://www.bls.gov/ooh/healthcare/registered-nurses.htm"
+			},
+			{
+				label: "BLS Occupational Outlook Handbook: Licensed Practical and Licensed Vocational Nurses (read 2026-10-18; May 2025 pay data, job outlook 2025-35)",
+				url: "https://www.bls.gov/ooh/healthcare/licensed-practical-and-licensed-vocational-nurses.htm"
+			}
+		],
+		image: '/images/lpn-vs-rn-salary-chart.svg',
+		imageAlt: "Bar chart comparing RN and LPN annual wages by percentile: median $97,550 vs $64,400 (BLS May 2025)."
 	},
 ];
